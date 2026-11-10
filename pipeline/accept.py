@@ -4,6 +4,7 @@
   python3 pipeline/accept.py --list        # hangi ülkede yeni veri bekliyor
   python3 pipeline/accept.py TR --dry      # yalnız denetle ve farkı göster; hiçbir dosyayı değiştirme
   python3 pipeline/accept.py TR            # denetle, yerine al, süzgeci çalıştır
+  python3 pipeline/accept.py US --queue    # sırada bekleyenlerin okuma sırası (hiçbir şeyi değiştirmez)
 
 İnternet kullanmaz. Bir denetim tutmazsa hiçbir şeyi değiştirmez ve 1 koduyla çıkar (CLAUDE.md kural 6: emin değilsen yayımlama).
 Denetimler:
@@ -51,6 +52,30 @@ def state(core, P):
         else:
             out[u["c"]] = f"{u['e']}. surda elendi: {u['w']}"
     return out
+
+
+def queue(cc, core=None, limit=40):
+    """Sırada bekleyenlerin okuma sırası: önce fiyatı kale olmaya yetenler (dar hendekle, sonra geniş hendekle), sonra en büyükler."""
+    P = load(J("pipeline", "params.json"))
+    core = core or load(J("data", cc, "core.json"))
+    rows = []
+    for u in core["U"]:
+        if not (u["e"] == 3 and u["w"] == "pending"):
+            continue
+        l = core["L2"][u["c"]]
+        cand = [x for x in (u["rr"] if u["nom"] else u["roe"], l["rroe"][-2], l["rroe"][-1]) if x is not None]
+        pen = u["pb"] / (min(cand) / 100.0)
+        mn = (1 - pen / (100.0 / (P["r"] - P["gNarrow"]))) * 100
+        mw = (1 - pen / (100.0 / (P["r"] - P["gWide"]))) * 100
+        rows.append((0 if mn >= P["mos"] else 1 if mw >= P["mos"] else 2, -u["m"], u["c"], u["n"], u["s"], u["m"], mn, mw, u.get("per")))
+    rows.sort()
+    n0, n1 = sum(1 for r in rows if r[0] == 0), sum(1 for r in rows if r[0] == 1)
+    print(f"okuma sırası: {len(rows)} şirket sırada | dar hendekle bile kale olabilecek {n0} | yalnız geniş hendekle kale olabilecek {n1}")
+    for r in rows[:limit]:
+        print(f"  {'A' if r[0] == 0 else 'B' if r[0] == 1 else 'C'}  {r[2]:9} {r[3][:34]:34} {r[4][:22]:22} PD {r[5]:>12,.0f} mn | marj dar %{r[6]:5.0f} geniş %{r[7]:5.0f} | {r[8]}")
+    if len(rows) > limit:
+        print(f"  ... ve {len(rows) - limit} şirket daha (tamamı: --queue --all)")
+    return rows
 
 
 def listing():
@@ -159,10 +184,17 @@ def accept(cc, dry=False):
             print(f"  {c:8} {a.get(c, 'evrende yoktu'):34} -> {b.get(c, 'evrenden çıktı')}")
     reports = load(os.path.join(d, "reports.json"), {})
     byc = {u["c"]: u for u in new_core["U"]}
-    stale = [c for c in reports if c in byc and byc[c]["e"] >= 3 and reports[c].get("per") and reports[c]["per"] != byc[c].get("per")]
+    old_per = lambda c: reports[c].get("per") and reports[c]["per"] != byc[c].get("per")
+    stale = [c for c in reports if c in byc and byc[c]["e"] == 4 and old_per(c)]
+    stale3 = [c for c in reports if c in byc and byc[c]["e"] == 3 and byc[c]["w"] != "pending" and old_per(c)]
     pend = [u["c"] for u in new_core["U"] if u["e"] == 3 and u["w"] == "pending"]
-    print("yeni bilançosu gelen, raporu güncellenecekler:", ", ".join(stale) or "-")
-    print(f"sırada (okunacak) {len(pend)} şirket" + (": " + ", ".join(pend[:40]) + (" ..." if len(pend) > 40 else "") if pend else ""))
+    print("yeni bilançosu gelen, raporu güncellenecekler (kale ve kapıda bekleyenler):", ", ".join(stale) or "-")
+    if stale3:
+        print(f"3. surda elenmiş {len(stale3)} şirketin de yeni bilançosu var; elenme nedeni değişmiş olabilecekleri hak kalırsa yeniden oku:", ", ".join(stale3[:30]))
+    if pend:
+        queue(cc, new_core, 30)
+    else:
+        print("sırada bekleyen şirket yok.")
     if dry:
         restore(); print("(deneme: dosyalar eski haline döndürüldü)")
     else:
@@ -173,6 +205,9 @@ if __name__ == "__main__":
     args = sys.argv[1:]
     if not args or "--list" in args:
         listing()
+    elif "--queue" in args:
+        for cc in [a for a in args if not a.startswith("--")]:
+            queue(cc.upper(), limit=100000 if "--all" in args else 60)
     else:
         for cc in [a for a in args if not a.startswith("--")]:
             accept(cc.upper(), dry="--dry" in args)
