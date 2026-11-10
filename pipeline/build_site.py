@@ -19,8 +19,10 @@ CH = load(J("pipeline", "charter.json"))
 ORDER = load(J("pipeline", "countries.json"))["countries"]
 SITE = load(J("pipeline", "site.json")) if os.path.exists(J("pipeline", "site.json")) else {}
 COLS = ["c", "n", "s", "p", "m", "f", "pe", "pb", "per", "e", "w", "nom", "fin", "roe", "rr", "x", "y", "a"]
-META_KEYS = ["cc", "iso", "name", "exchange", "cur", "asof", "fx", "years", "era", "era_label", "cpi", "small_text", "small_rule",
-             "inflation_note", "data_notes", "chart_note", "chart_note_nominal"]
+META_KEYS = ["cc", "iso", "name", "exchange", "cur", "pcur", "asof", "fx", "years", "era", "era_label", "cpi", "small_text", "small_rule",
+             "inflation_note", "data_notes", "chart_note", "chart_note_nominal", "en"]
+SEC_EN = load(J("pipeline", "sectors.json"))["en"] if os.path.exists(J("pipeline", "sectors.json")) else {}
+NAME_EN = {k["cc"]: k.get("name_en") for k in ORDER}
 
 
 def kale_list(core):
@@ -49,10 +51,12 @@ def country(cc):
         rows.append([u["c"], u["n"], ix(sectors, u["s"]), u["p"], u["m"], u.get("f"), u["pe"], u["pb"], ix(pers, u.get("per")), u["e"],
                      ix(whys, u["w"]), u["nom"], u["fin"], u["roe"], u["rr"], x, y, geo["ang"].get(u["c"])])
     m = {k: meta[k] for k in META_KEYS if k in meta}
-    doc = dict(v=1, cc=cc, meta=m, W=geo["W"], sectors=sectors, whys=whys, pers=pers, cols=COLS, rows=rows, L2=core["L2"], R=core["R"])
+    m.setdefault("en", {}).setdefault("name", NAME_EN.get(cc) or meta["name"])
+    doc = dict(v=2, cc=cc, meta=m, W=geo["W"], sectors=sectors, sectors_en=[SEC_EN.get(x, x) for x in sectors], whys=whys, pers=pers, cols=COLS, rows=rows,
+               L2=core["L2"], R=core["R"], N=core.get("N", {}), pc={u["c"]: u["pc"] for u in core["U"] if u.get("pc")})
     kl = kale_list(core)
     U = core["U"]
-    idx = dict(cc=cc, iso=meta["iso"], name=meta["name"], cur=meta["cur"], asof=meta["asof"], n=len(U),
+    idx = dict(cc=cc, iso=meta["iso"], name=meta["name"], name_en=m["en"]["name"], cur=meta["cur"], asof=meta["asof"], n=len(U),
                p1=sum(1 for u in U if u["e"] > 1), p2=sum(1 for u in U if u["e"] > 2), p3=sum(1 for u in U if u["e"] > 3),
                pend=sum(1 for u in U if u["e"] == 3 and u["w"] == "pending"), kale=len(kl), kales=kl, fit=geo["W"]["fit"], c=geo["W"]["c"])
     return doc, idx
@@ -70,7 +74,7 @@ def main():
     focus = SITE.get("focus")
     if focus:
         countries.sort(key=lambda c: 0 if c["cc"] == focus else 1)
-    queue = [dict(cc=k["cc"], iso=k["iso"], name=k["name"]) for k in ORDER if k not in done and not k.get("hold")]
+    queue = [dict(cc=k["cc"], iso=k["iso"], name=k["name"], name_en=k.get("name_en") or k["name"]) for k in ORDER if k not in done and not k.get("hold")]
     index = dict(built=datetime.date.today().isoformat(), P=P, CH=CH, countries=countries, queue=queue, cadence=SITE.get("cadence"))
     nm = J("pipeline", "node_modules")
     world110 = open(os.path.join(nm, "world-atlas", "countries-110m.json"), encoding="utf-8").read()
@@ -86,7 +90,7 @@ def main():
            '<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>')
     head = ('<!doctype html><html lang="tr"><head><meta charset="utf-8">'
             '<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">'
-            '<meta name="description" content="Castle: bir ülkedeki bütün hisseleri Buffett ve Munger ilkeleriyle dört surdan geçiren değer yatırımı atlası.">'
+            '<meta name="description" content="Castle: bir ülkedeki bütün hisseleri Buffett ve Munger ilkeleriyle dört surdan geçiren değer yatırımı atlası. A value investing atlas that runs every stock in a country through four walls.">'
             '<style>:root{color-scheme:light;padding:env(safe-area-inset-top,0px) 0 env(safe-area-inset-bottom,0px)}'
             'body{margin:0;font:14px system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}</style>'
             '</head><body>')

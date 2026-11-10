@@ -8,13 +8,13 @@
    "E": 1
   },
   "moat": "dar",
-  "one": "Ford'un Avrupa'daki ticari araç üretim üssü. Kalite ve fiyat testlerini geçti; borç ve döngüsellik dikkat istiyor.",
+  "one": "Ford'un Avrupa'daki ticari araç üretim üssü. Üçüncü çeyrek bilançosundan sonra borç oranı eşiği aştı; 2. surda elendi.",
   "business": "Ford Otosan, Ford markalı ticari araçları üretir ve ihraç eder; ayrıca yurt içinde Ford araçlarını satar. Ford Motor ile Koç Grubu'nun ortak girişimidir. 2026'nın üçüncü çeyreğinde otomotiv gelirinin yaklaşık %87'si ihracattan geldi (228,9 milyar TL'nin 200,2 milyarı). 24.436 kişi çalıştırıyor.",
   "moat_text": "Hendek dar ama gerçek. Şirket, Ford'un Avrupa ticari araç üretiminin ana üssü; bu ölçek ve maliyet avantajı sağlıyor ve ihracat hacmi yurt içi pazar daralırken bile artıyor (3Ç26'da ihracat adedi +%11, yurt içi toptan −%51). Zayıf yanı, üstünlüğün tek bir ortağa, Ford'a bağlı olması.",
   "mgmt": "Kontrol Koç Grubu ile Ford Motor'da; halka açıklık %17,5. Kâr düzenli olarak temettüye gidiyor. Dikkat: son 12 ayda dağıtılan temettü kârın üzerinde (ödeme oranı %124) ve bu, borç artarken oluyor.",
   "latest": "5 Kasım 2026: Üçüncü çeyrek net kârı 8,35 milyar TL ile beklentiyi (7,29 milyar) aştı, ama geçen yıla göre %23 düşük. Dokuz aylık net kâr 19,26 milyar TL (−%34), hasılat 679,8 milyar TL (−%10). Düzeltilmiş FAVÖK marjı %6,5 (geçen yıl %7,4). 2026 toplam satış hedefi 645–705 bin adede indirildi; ihracat hedefi (580–630 bin), FAVÖK marjı (%6–7) ve yatırım bütçesi (300–400 milyon avro) korundu.",
   "risks": [
-   "Borç: otomotiv net borcu 116,9 milyar TL. Net borç/FAVÖK şirketin tanımıyla 1,85, bizim kullandığımız veriyle 2,6. Eşiğimiz 3,0; eşik 2,5 olsaydı Ford Otosan 2. surda elenirdi.",
+   "Borç: otomotiv net borcu 116,9 milyar TL. Net borç/FAVÖK şirketin tanımıyla 1,85; bizim kullandığımız kaynakta üçüncü çeyrek bilançosundan sonra 3,59 (öncesinde 2,61). Eşiğimiz 3,0 olduğu için şirket 2. surda elendi.",
    "Avrupa'da ticari araç talebi düşerse ihracat hacmi ve marj birlikte geriler.",
    "Tek ortak ve tek ana müşteri Ford: üretim paylaşımındaki bir değişiklik tezi doğrudan etkiler.",
    "Özsermaye kârlılığı düşüyor: 2023'te %90, 2025'te %22, son 12 ayda %17.",
@@ -29,26 +29,55 @@
   "sources": [
    {
     "t": "İş Yatırım: Temel değerler ve oranlar (10 Kas 2026)",
-    "u": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx"
+    "u": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx",
+    "te": "İş Yatırım: Fundamentals and ratios (10 Nov 2026)"
    },
    {
     "t": "stockanalysis.com: 5 yıllık oranlar",
-    "u": "https://stockanalysis.com/quote/ist/FROTO/financials/ratios/"
+    "u": "https://stockanalysis.com/quote/ist/FROTO/financials/ratios/",
+    "te": "stockanalysis.com: 5-year ratios"
    },
    {
     "t": "CNBC-e: Ford Otosan 3Ç26 finansalları (5 Kas 2026)",
-    "u": "https://www.cnbce.com/sirket-bilancolari/ford-otosandan-froto-beklentileri-asan-bilanco-iste-sirketin-3-ceyrek-finansallari-h41128"
+    "u": "https://www.cnbce.com/sirket-bilancolari/ford-otosandan-froto-beklentileri-asan-bilanco-iste-sirketin-3-ceyrek-finansallari-h41128",
+    "te": "CNBC-e: Ford Otosan 3Q26 financials (5 Nov 2026)"
    },
    {
     "t": "Midas: Ford Otosan bilançosu: beklentileri aşan kâr, düşürülen satış hedefleri (6 Kas 2026)",
-    "u": "https://www.getmidas.com/midasin-kulaklari/ford-otosan-bilancosu-beklentileri-asan-kar-dusurulen-satis-hedefleri-p-891832"
+    "u": "https://www.getmidas.com/midasin-kulaklari/ford-otosan-bilancosu-beklentileri-asan-kar-dusurulen-satis-hedefleri-p-891832",
+    "te": "Midas: Ford Otosan results: profit above expectations, lower sales targets (6 Nov 2026)"
    },
    {
     "t": "stockanalysis.com: Ford Otosan istatistikleri",
-    "u": "https://stockanalysis.com/quote/ist/FROTO/statistics/"
+    "u": "https://stockanalysis.com/quote/ist/FROTO/statistics/",
+    "te": "stockanalysis.com: Ford Otosan statistics"
    }
   ],
-  "per": "9/2026"
+  "per": "9/2026",
+  "en": {
+   "one": "Ford's commercial vehicle manufacturing base in Europe. After the third-quarter results the debt ratio moved above the threshold; it was eliminated at Wall 2.",
+   "business": "Ford Otosan builds and exports Ford-branded commercial vehicles, and also sells Ford vehicles in Türkiye. It is a joint venture between Ford Motor and Koç Group. In the third quarter of 2026, about 87% of automotive revenue came from exports (200.2 billion of 228.9 billion TRY). It employs 24,436 people.",
+   "moat_text": "The moat is narrow but real. The company is the main base for Ford's commercial vehicle production in Europe; that brings scale and a cost advantage, and export volume keeps rising even while the domestic market shrinks (in 3Q26 export units were up 11% and domestic wholesale down 51%). The weak point is that the advantage depends on a single partner, Ford.",
+   "mgmt": "Control lies with Koç Group and Ford Motor; the free float is 17.5%. Profit is regularly paid out as dividends. Note: dividends paid over the last 12 months exceeded profit (payout ratio 124%), and this is happening while debt is rising.",
+   "latest": "5 November 2026: Third-quarter net profit of 8.35 billion TRY beat expectations (7.29 billion) but was 23% lower than a year earlier. Nine-month net profit was 19.26 billion TRY (−34%) and revenue 679.8 billion TRY (−10%). Adjusted EBITDA margin was 6.5% (7.4% a year earlier). The 2026 total sales target was cut to 645–705 thousand units; the export target (580–630 thousand), the EBITDA margin target (6–7%) and the investment budget (300–400 million euros) were kept.",
+   "risks": [
+    "Debt: automotive net debt is 116.9 billion TRY. Net debt/EBITDA is 1.85 on the company's definition; on the source we use it is 3.59 after the third-quarter results (2.61 before). Our threshold is 3.0, so the company was eliminated at Wall 2.",
+    "If demand for commercial vehicles in Europe falls, export volume and margin decline together.",
+    "Ford is the only partner and the main customer: a change in how production is shared would affect the thesis directly.",
+    "Return on equity is falling: 90% in 2023, 22% in 2025 and 17% over the last 12 months.",
+    "If dividends keep exceeding profit, debt will not come down."
+   ],
+   "watch": [
+    "Whether adjusted EBITDA margin stays in the 6–7% range",
+    "Net debt/EBITDA",
+    "Export units (2026 target 580–630 thousand)",
+    "Dividend payout ratio"
+   ]
+  },
+  "note": {
+   "tr": "Not: Bu sonuç borcun nasıl tanımlandığına bağlı. Süzgecin kullandığı kaynakta (stockanalysis.com) net borç/FAVÖK üçüncü çeyrek bilançosundan sonra 3,59; şirketin kendi tanımıyla 1,85. Süzgeç bütün şirketlere aynı kaynağı uygular.",
+   "en": "Note: this result depends on how debt is defined. On the source the filter uses (stockanalysis.com), net debt/EBITDA is 3.59 after the third-quarter results; on the company's own definition it is 1.85. The filter applies the same source to every company."
+  }
  },
  "ISMEN": {
   "scores": {
@@ -78,26 +107,49 @@
   "sources": [
    {
     "t": "İş Yatırım: Temel değerler ve oranlar (10 Kas 2026)",
-    "u": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx"
+    "u": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx",
+    "te": "İş Yatırım: Fundamentals and ratios (10 Nov 2026)"
    },
    {
     "t": "stockanalysis.com: 5 yıllık oranlar",
-    "u": "https://stockanalysis.com/quote/ist/ISMEN/financials/ratios/"
+    "u": "https://stockanalysis.com/quote/ist/ISMEN/financials/ratios/",
+    "te": "stockanalysis.com: 5-year ratios"
    },
    {
     "t": "Borsatek: İş Yatırım 9 aylık net kâr (9 Kas 2026)",
-    "u": "https://www.borsatek.com/ismen-9-ay-2026-net-kar-4-81-milyar-tl/"
+    "u": "https://www.borsatek.com/ismen-9-ay-2026-net-kar-4-81-milyar-tl/",
+    "te": "Borsatek: İş Yatırım nine-month net profit (9 Nov 2026)"
    },
    {
     "t": "CNBC-e: İş Yatırım ilk yarı bilançosu (14 Ağu 2026)",
-    "u": "https://www.cnbce.com/borsa/is-yatirimin-bilancosu-belli-oldu-net-karda-dikkat-ceken-dusus-h35071"
+    "u": "https://www.cnbce.com/borsa/is-yatirimin-bilancosu-belli-oldu-net-karda-dikkat-ceken-dusus-h35071",
+    "te": "CNBC-e: İş Yatırım first-half results (14 Aug 2026)"
    },
    {
     "t": "stockanalysis.com: İş Yatırım istatistikleri",
-    "u": "https://stockanalysis.com/quote/ist/ISMEN/statistics/"
+    "u": "https://stockanalysis.com/quote/ist/ISMEN/statistics/",
+    "te": "stockanalysis.com: İş Yatırım statistics"
    }
   ],
-  "per": "9/2026"
+  "per": "9/2026",
+  "en": {
+   "one": "A large Turkish brokerage and a subsidiary of İş Bankası. The price is low, but earnings depend on the market and are volatile.",
+   "business": "İş Yatırım provides brokerage, asset management, corporate finance and IPO services; it brokers trades in equities, debt instruments and derivatives. It is a subsidiary of İş Bankası. It employs 608 people.",
+   "moat_text": "The moat is narrow. The advantage comes from scale, brand and İş Bankası's customer network. The product itself (brokerage) is easy to copy and commissions are open to competition; that is why we do not count the moat as wide.",
+   "mgmt": "The main shareholder is İş Bankası; the free float is 29.2%. The company pays out most of its profit as dividends (the latest dividend was 5.67 TRY per share).",
+   "latest": "9 November 2026: Nine-month net profit attributable to the parent was 4.81 billion TRY and parent equity 39.2 billion TRY. In the first half of the year net profit was 2.62 billion TRY, 35% below the previous year (14 August 2026).",
+   "risks": [
+    "Earnings depend on trading volume and trading income. Profit fell 35% in the first half of 2026; in a bad market year it could fall further.",
+    "Return on equity is declining: 45% in 2023, 24% in 2025, and 16–20% in the latest readings.",
+    "The balance sheet consists mostly of monetary assets; inflation accounting penalises this structure.",
+    "Brokerage is a leveraged and cyclical business; next year's earnings are hard to predict. The numbers passing the criteria does not show that these earnings are durable."
+   ],
+   "watch": [
+    "Whether return on equity stays above 15%",
+    "Equity market trading volume",
+    "Dividend"
+   ]
+  }
  },
  "CCOLA": {
   "scores": {
@@ -128,22 +180,45 @@
   "sources": [
    {
     "t": "İş Yatırım: Temel değerler ve oranlar (10 Kas 2026)",
-    "u": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx"
+    "u": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx",
+    "te": "İş Yatırım: Fundamentals and ratios (10 Nov 2026)"
    },
    {
     "t": "stockanalysis.com: 5 yıllık oranlar",
-    "u": "https://stockanalysis.com/quote/ist/CCOLA/financials/ratios/"
+    "u": "https://stockanalysis.com/quote/ist/CCOLA/financials/ratios/",
+    "te": "stockanalysis.com: 5-year ratios"
    },
    {
     "t": "Midas: CCOLA 3Ç26: beklentilerle uyumlu kâr (4 Kas 2026)",
-    "u": "https://www.getmidas.com/midasin-kulaklari/ccola-3-ceyrek-2026-beklentilerle-uyumlu-kar-uluslararasi-operasyonlar-turkiyedeki-zayifligi-dengeliyor-p-878738"
+    "u": "https://www.getmidas.com/midasin-kulaklari/ccola-3-ceyrek-2026-beklentilerle-uyumlu-kar-uluslararasi-operasyonlar-turkiyedeki-zayifligi-dengeliyor-p-878738",
+    "te": "Midas: CCOLA 3Q26: profit in line with expectations (4 Nov 2026)"
    },
    {
     "t": "stockanalysis.com: Coca-Cola İçecek istatistikleri",
-    "u": "https://stockanalysis.com/quote/ist/CCOLA/statistics/"
+    "u": "https://stockanalysis.com/quote/ist/CCOLA/statistics/",
+    "te": "stockanalysis.com: Coca-Cola İçecek statistics"
    }
   ],
-  "per": "9/2026"
+  "per": "9/2026",
+  "en": {
+   "one": "Coca-Cola's bottler for Türkiye, Pakistan and Central Asia. An excellent business; the price is reasonable but the margin of safety falls short.",
+   "business": "Coca-Cola İçecek produces and distributes Coca-Cola products in Türkiye, Pakistan, Kazakhstan, Uzbekistan, Iraq and other countries in the region. It employs 10,834 people.",
+   "moat_text": "The moat is wide. The brand is one of the best known in the world, and the company holds the bottling and distribution rights for it in its region. The extensive distribution network is an asset a new competitor could not easily build. Pricing power shows in the numbers: gross margin 37.6%, operating margin 15.9%.",
+   "mgmt": "The main shareholders are Anadolu Efes and The Coca-Cola Company; the free float is 29.4%. Debt is low and falling: net debt/EBITDA was 0.77 at the end of 2025 and 0.29 in the third quarter.",
+   "latest": "3 November 2026: Third-quarter net profit was 7.8 billion TRY (−16.4% in real terms) and revenue 68.4 billion TRY (+1% in real terms). EBITDA margin was 19.3% (22.3% a year earlier). Sales volume in Türkiye fell 0.9%; international volume rose 13.5% (Pakistan +24.5%, Uzbekistan +20.3%). Management raised its international growth outlook and expects flat volume in Türkiye.",
+   "risks": [
+    "Consumer purchasing power in Türkiye is weak; volume is falling and margin is narrowing (EBITDA margin fell 3 points in a year).",
+    "Growth comes from Pakistan, Iraq and Central Asia: currency and country risk are high.",
+    "Return on equity fell from 55% in 2023 to 17% in 2025; if it drops below that level, the price stays expensive.",
+    "Raw material costs such as sugar and packaging."
+   ],
+   "watch": [
+    "Sales volume in Türkiye",
+    "EBITDA margin",
+    "International volume growth",
+    "Price: how close it is to the margin-of-safety threshold"
+   ]
+  }
  },
  "CLEBI": {
   "scores": {
@@ -174,30 +249,55 @@
   "sources": [
    {
     "t": "İş Yatırım: Temel değerler ve oranlar (10 Kas 2026)",
-    "u": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx"
+    "u": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx",
+    "te": "İş Yatırım: Fundamentals and ratios (10 Nov 2026)"
    },
    {
     "t": "stockanalysis.com: 5 yıllık oranlar",
-    "u": "https://stockanalysis.com/quote/ist/CLEBI/financials/ratios/"
+    "u": "https://stockanalysis.com/quote/ist/CLEBI/financials/ratios/",
+    "te": "stockanalysis.com: 5-year ratios"
    },
    {
     "t": "Borsatek: Çelebi 9 aylık net kâr (9 Kas 2026)",
-    "u": "https://www.borsatek.com/clebi-2026-9-ay-net-kar/"
+    "u": "https://www.borsatek.com/clebi-2026-9-ay-net-kar/",
+    "te": "Borsatek: Çelebi nine-month net profit (9 Nov 2026)"
    },
    {
     "t": "KAP: Çelebi Hava Servisi 2Ç26 ara dönem raporu (19 Ağu 2026)",
-    "u": "https://kap.org.tr/en/api/BildirimPdf/1653153"
+    "u": "https://kap.org.tr/en/api/BildirimPdf/1653153",
+    "te": "KAP: Çelebi Hava Servisi 2Q26 interim report (19 Aug 2026)"
    },
    {
     "t": "Capital: Çelebi Hindistan'daki son durumu duyurdu (21 May 2025)",
-    "u": "https://www.capital.com.tr/haberler/tum-haberler/celebi-hava-servisi-hindistandaki-son-durumu-duyurdu"
+    "u": "https://www.capital.com.tr/haberler/tum-haberler/celebi-hava-servisi-hindistandaki-son-durumu-duyurdu",
+    "te": "Capital: Çelebi announces the latest situation in India (21 May 2025)"
    },
    {
     "t": "stockanalysis.com: Çelebi istatistikleri",
-    "u": "https://stockanalysis.com/quote/ist/CLEBI/statistics/"
+    "u": "https://stockanalysis.com/quote/ist/CLEBI/statistics/",
+    "te": "stockanalysis.com: Çelebi statistics"
    }
   ],
-  "per": "9/2026"
+  "per": "9/2026",
+  "en": {
+   "one": "An established player in airport ground handling. Very profitable, but it lost business in India through a government decision; the margin is right at the threshold.",
+   "business": "Çelebi Hava Servisi provides ground handling and cargo and warehouse services at airports to airlines and cargo companies. It was founded in 1958 and is a subsidiary of Çelebi Havacılık Holding. It employs 8,141 people.",
+   "moat_text": "The moat is narrow. Providing ground handling at an airport requires a licence and a concession; this limits the number of competitors and explains the high profitability (return on equity above 40% for five years, operating margin 23%). But those same licences are the weakest point of the moat: the authority that grants them can take them back.",
+   "mgmt": "The free float is only 9.6%; the stock is thinly traded and control rests entirely with the parent. Most of the profit is paid out as dividends (payout ratio 73%).",
+   "latest": "9 November 2026: Nine-month net profit attributable to the parent was 2.21 billion TRY, revenue 17.56 billion TRY and operating profit 4.10 billion TRY. A loss of 1.02 billion TRY was booked from discontinued operations. The security clearances of the subsidiaries in India were revoked in May 2025 and their operations stopped on 15 May 2025; the legal process continues (interim report dated 19 August 2026).",
+   "risks": [
+    "Concession risk has materialised: the business in India stopped in a single day by a government decision. The same could happen in another country.",
+    "The customers are airlines: their bargaining power is high and contracts may not be renewed.",
+    "The margin of safety is very close to the threshold and the difference is within measurement precision. P/B in the table is rounded to 3.6; calculated with equity from the nine-month balance sheet (9.12 billion TRY) it is 3.55 and the margin comes out at around 25%. A small change in price or profit changes the result.",
+    "Low free float: few shareholders, thin trading."
+   ],
+   "watch": [
+    "Outcome of the India case and any compensation",
+    "New country and airport contracts",
+    "Profit from continuing operations",
+    "Dividend"
+   ]
+  }
  },
  "MPARK": {
   "scores": {
@@ -228,22 +328,45 @@
   "sources": [
    {
     "t": "İş Yatırım: Temel değerler ve oranlar (10 Kas 2026)",
-    "u": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx"
+    "u": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx",
+    "te": "İş Yatırım: Fundamentals and ratios (10 Nov 2026)"
    },
    {
     "t": "stockanalysis.com: 5 yıllık oranlar",
-    "u": "https://stockanalysis.com/quote/ist/MPARK/financials/ratios/"
+    "u": "https://stockanalysis.com/quote/ist/MPARK/financials/ratios/",
+    "te": "stockanalysis.com: 5-year ratios"
    },
    {
     "t": "Foreks: Oyak Yatırım MLP Sağlık değerlendirmesi (5 Kas 2026)",
-    "u": "https://www.foreks.com/haber/detay/6aec27ec1d7c6051898e37d9/FRKS/tr/hisse-degerlendirmesi-oyak-yatirim-mlp-saglik-icin-hedef-fiyatini-633-10-tl-den-658-42-tl-ye-revize-etti-tavsiyesini-endeks-ustu-getiri-olarak-korudu-05-11-26/"
+    "u": "https://www.foreks.com/haber/detay/6aec27ec1d7c6051898e37d9/FRKS/tr/hisse-degerlendirmesi-oyak-yatirim-mlp-saglik-icin-hedef-fiyatini-633-10-tl-den-658-42-tl-ye-revize-etti-tavsiyesini-endeks-ustu-getiri-olarak-korudu-05-11-26/",
+    "te": "Foreks: Oyak Yatırım's assessment of MLP Sağlık (5 Nov 2026)"
    },
    {
     "t": "stockanalysis.com: MLP Sağlık istatistikleri",
-    "u": "https://stockanalysis.com/quote/ist/MPARK/statistics/"
+    "u": "https://stockanalysis.com/quote/ist/MPARK/statistics/",
+    "te": "stockanalysis.com: MLP Sağlık statistics"
    }
   ],
-  "per": "9/2026"
+  "per": "9/2026",
+  "en": {
+   "one": "A large private hospital group in Türkiye. The business is solid; at today's price there is no margin of safety.",
+   "business": "MLP Sağlık operates private hospitals under the Medical Park and Liv Hospital brands. Alongside domestic patients it also serves patients coming from abroad. It employs 14,635 people.",
+   "moat_text": "The moat is narrow. Scale and brand give an advantage over single-hospital competitors in purchasing and in attracting physicians; demand is little affected by the economic cycle. A significant part of prices, however, is tied to the public tariff, which limits pricing power.",
+   "mgmt": "Debt is falling (net debt/EBITDA was 0.78 at the end of 2025 and 0.67 in the third quarter). The company bought back its own shares in 2023 and 2024. The dividend is low; profit is reinvested in the business.",
+   "latest": "5 November 2026: Third-quarter net profit was 2.22 billion TRY (expectation 1.56 billion), revenue about 18.2 billion TRY (+7%), EBITDA 5.7 billion TRY (+10%) and EBITDA margin 31.3%. Gross margin fell 2.4 points. Revenue from foreign medical tourism fell 8%; domestic hospital revenue rose 8.3%.",
+   "risks": [
+    "Return on equity fell fast: 93% in 2022, 31% in 2024 and 16–17% over the last 12 months. If the decline continues, the price becomes expensive.",
+    "Changes to the public health tariff and to regulation affect the margin directly.",
+    "Medical tourism revenue is declining; this was the segment that earned foreign currency and had a high margin.",
+    "Gross margin is narrowing: physician and staff costs."
+   ],
+   "watch": [
+    "Return on equity",
+    "Medical tourism revenue",
+    "Gross margin",
+    "Price: the margin-of-safety threshold"
+   ]
+  }
  },
  "BIMAS": {
   "scores": {
@@ -274,26 +397,50 @@
   "sources": [
    {
     "t": "İş Yatırım: Temel değerler ve oranlar (10 Kas 2026)",
-    "u": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx"
+    "u": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx",
+    "te": "İş Yatırım: Fundamentals and ratios (10 Nov 2026)"
    },
    {
     "t": "stockanalysis.com: 5 yıllık oranlar",
-    "u": "https://stockanalysis.com/quote/ist/BIMAS/financials/ratios/"
+    "u": "https://stockanalysis.com/quote/ist/BIMAS/financials/ratios/",
+    "te": "stockanalysis.com: 5-year ratios"
    },
    {
     "t": "Foreks: BİM bilançosu açıklandı (10 Kas 2026)",
-    "u": "https://www.foreks.com/haber/detay/6af2a63395131d72027da771/PICNEWS/tr/bim-bilancosu-aciklandi-net-kar-yuzde-52-artti-10-11-26/"
+    "u": "https://www.foreks.com/haber/detay/6af2a63395131d72027da771/PICNEWS/tr/bim-bilancosu-aciklandi-net-kar-yuzde-52-artti-10-11-26/",
+    "te": "Foreks: BİM results announced (10 Nov 2026)"
    },
    {
     "t": "Bloomberg HT: BİM'den 275 yeni mağaza, 8 milyar TL net kâr (18 Ağu 2026)",
-    "u": "https://www.bloomberght.com/bim-den-275-yeni-magaza-8-milyar-tl-net-kr-3785742"
+    "u": "https://www.bloomberght.com/bim-den-275-yeni-magaza-8-milyar-tl-net-kr-3785742",
+    "te": "Bloomberg HT: 275 new stores and 8 billion TRY net profit from BİM (18 Aug 2026)"
    },
    {
     "t": "stockanalysis.com: BİM istatistikleri",
-    "u": "https://stockanalysis.com/quote/ist/BIMAS/statistics/"
+    "u": "https://stockanalysis.com/quote/ist/BIMAS/statistics/",
+    "te": "stockanalysis.com: BİM statistics"
    }
   ],
-  "per": "9/2026"
+  "per": "9/2026",
+  "en": {
+   "one": "Türkiye's largest discount grocer. The moat is wide; the price is expensive relative to conservative earnings.",
+   "business": "BİM operates discount grocery stores built on a limited range and low prices. It has 14,964 stores; 1,031 of them are in Morocco, 466 in Egypt and 378 under the FİLE brand. About 95% of sales come from Türkiye. It employs 106,520 people.",
+   "moat_text": "The moat is wide. The advantage comes from scale and low cost: many stores, a narrow product range and private-label products give bargaining power with suppliers, and that power reaches the shelf as low prices. To match the price, a competitor has to reach the same scale.",
+   "mgmt": "There is no single controlling shareholder; the free float is 67.5%. Debt is moderate (net debt/EBITDA 0.95, including lease liabilities). The dividend payout ratio is 29%.",
+   "latest": "10 November 2026: Third-quarter net profit was 10.39 billion TRY (+52%) and nine-month net profit 26.15 billion TRY (+79%). Quarterly revenue was 245.7 billion TRY and EBITDA margin 7.2%. Like-for-like sales rose 32.5%; the basket grew 34.9% while the number of customers fell 1.8%.",
+   "risks": [
+    "Earnings quality: the operating margin is only 2.9%. A significant part of net profit comes from the monetary gain under inflation accounting (6.8 billion of the 8 billion TRY profit in the second quarter). As inflation falls, this gain shrinks.",
+    "Return on equity was 50% in 2022 and fell to 12% in 2025. Because the conservative earnings calculation is based on this year, the stock comes out expensive.",
+    "The number of customers is falling (−1.8% in the third quarter); growth is coming from price.",
+    "Competition and price controls: discount grocers are closely watched by public authorities."
+   ],
+   "watch": [
+    "Operating margin and the share of the monetary gain in profit",
+    "Number of customers (traffic)",
+    "Return on equity",
+    "Price: the margin-of-safety threshold"
+   ]
+  }
  },
  "MAVI": {
   "scores": {
@@ -322,22 +469,43 @@
   "sources": [
    {
     "t": "İş Yatırım: Temel değerler ve oranlar (10 Kas 2026)",
-    "u": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx"
+    "u": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx",
+    "te": "İş Yatırım: Fundamentals and ratios (10 Nov 2026)"
    },
    {
     "t": "stockanalysis.com: 5 yıllık oranlar",
-    "u": "https://stockanalysis.com/quote/ist/MAVI/financials/ratios/"
+    "u": "https://stockanalysis.com/quote/ist/MAVI/financials/ratios/",
+    "te": "stockanalysis.com: 5-year ratios"
    },
    {
     "t": "Foreks: Mavi ilk yarı sonuçları (16 Eyl 2026)",
-    "u": "https://www.foreks.com/haber/detay/6aaab5a195016b5817e5b9f6/FRKS/tr/yenileme-mavi-giyim-yilin-ilk-yarisini-4-milyar-679-milyon-tl-favok-ve-18-1-favok-marji-ile-tamamladi-16-09-26/"
+    "u": "https://www.foreks.com/haber/detay/6aaab5a195016b5817e5b9f6/FRKS/tr/yenileme-mavi-giyim-yilin-ilk-yarisini-4-milyar-679-milyon-tl-favok-ve-18-1-favok-marji-ile-tamamladi-16-09-26/",
+    "te": "Foreks: Mavi first-half results (16 Sep 2026)"
    },
    {
     "t": "stockanalysis.com: Mavi istatistikleri",
-    "u": "https://stockanalysis.com/quote/ist/MAVI/statistics/"
+    "u": "https://stockanalysis.com/quote/ist/MAVI/statistics/",
+    "te": "stockanalysis.com: Mavi statistics"
    }
   ],
-  "per": "6/2026"
+  "per": "6/2026",
+  "en": {
+   "one": "A leading denim brand in Türkiye. Debt-free and cash-generating; but profitability is falling and the price is expensive.",
+   "business": "Mavi designs ready-to-wear clothing, mainly jeans, and sells it in its own stores. It has 497 stores in 30 countries. Its financial year starts in February and ends in January. It employs 6,048 people.",
+   "moat_text": "The moat is narrow. The advantage comes from the brand and shows in the numbers: gross margin 53%. But brand strength in clothing is not permanent; fashion changes, and when consumers tighten their budgets, clothing is one of the first things they cut.",
+   "mgmt": "The company has no debt: net cash is 6.66 billion TRY. The free float is 69.8%. Free cash flow was positive in all of the last five years; a significant part of profit is paid out as dividends.",
+   "latest": "16 September 2026: In the first half of the financial year revenue was 25.83 billion TRY (−1.1% in real terms), EBITDA 4.68 billion TRY (margin 18.1%) and net profit 807 million TRY. Management lowered its 2026 revenue outlook to 'flat or a low single-digit decline' and said consumer demand was under pressure.",
+   "risks": [
+    "Return on equity is falling: 34% two years ago, 15% in the last financial year and 11% over the last 12 months. It is approaching our 10% threshold.",
+    "Consumer demand is weak; revenue is declining in real terms.",
+    "The price is expensive relative to conservative earnings: the margin of safety is negative."
+   ],
+   "watch": [
+    "Whether return on equity stays above 10%",
+    "Real revenue growth",
+    "EBITDA margin (target 18% ± 0.5)"
+   ]
+  }
  },
  "ASTOR": {
   "scores": {
@@ -358,22 +526,35 @@
   "sources": [
    {
     "t": "İş Yatırım: Temel değerler ve oranlar (10 Kas 2026)",
-    "u": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx"
+    "u": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx",
+    "te": "İş Yatırım: Fundamentals and ratios (10 Nov 2026)"
    },
    {
     "t": "stockanalysis.com: 5 yıllık oranlar",
-    "u": "https://stockanalysis.com/quote/ist/ASTOR/financials/ratios/"
+    "u": "https://stockanalysis.com/quote/ist/ASTOR/financials/ratios/",
+    "te": "stockanalysis.com: 5-year ratios"
    },
    {
     "t": "Foreks: Astor Enerji'nin net kârı %73 düştü (10 Kas 2026)",
-    "u": "https://www.foreks.com/haber/detay/6af2a28a95131d72027da760/PICNEWS/tr/astor-enerji-nin-net-kari-yuzde-73-dustu-favok-yukseldi-10-11-26/"
+    "u": "https://www.foreks.com/haber/detay/6af2a28a95131d72027da760/PICNEWS/tr/astor-enerji-nin-net-kari-yuzde-73-dustu-favok-yukseldi-10-11-26/",
+    "te": "Foreks: Astor Enerji's net profit fell 73% (10 Nov 2026)"
    },
    {
     "t": "İş Yatırım: Astor Enerji 3Ç26 kâr analizi (10 Kas 2026)",
-    "u": "https://arastirma.isyatirim.com.tr/2026/11/10/astor-is-astor-enerji-3c-2026-kar-analizi/"
+    "u": "https://arastirma.isyatirim.com.tr/2026/11/10/astor-is-astor-enerji-3c-2026-kar-analizi/",
+    "te": "İş Yatırım: Astor Enerji 3Q26 earnings analysis (10 Nov 2026)"
    }
   ],
-  "per": "9/2026"
+  "per": "9/2026",
+  "en": {
+   "one": "Transformer manufacturer with a strong core business. It was eliminated at the management test because of a large loss on financial investments.",
+   "business": "Astor Enerji manufactures power and distribution transformers. Its order backlog is 1.89 billion dollars, 72% of it from the United States. Exports were 45% of revenue in the first nine months.",
+   "moat_text": "The core business is doing well: nine-month EBITDA was 11.57 billion TRY, a margin of 34.4%. Transformer supply is tight worldwide and the order book is full.",
+   "mgmt": "This is the reason for elimination. Alongside its core business the company carries a large portfolio of financial investments. That portfolio fell from 16.4 billion TRY to 7.1 billion TRY in one quarter; a valuation loss of about 5.5 billion TRY was booked and the third quarter closed with a net loss of 3.18 billion TRY. An industrial company tying its profit to market volatility counts as a capital allocation flaw in this filter.",
+   "latest": "10 November 2026: A net loss of 3.18 billion TRY in the third quarter (a profit of 3.56 billion TRY a year earlier). Nine-month net profit fell 73% to 1.68 billion TRY. Revenue rose 16% over the nine months.",
+   "risks": [],
+   "watch": []
+  }
  },
  "FONET": {
   "scores": {
@@ -394,18 +575,30 @@
   "sources": [
    {
     "t": "İş Yatırım: Temel değerler ve oranlar (10 Kas 2026)",
-    "u": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx"
+    "u": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx",
+    "te": "İş Yatırım: Fundamentals and ratios (10 Nov 2026)"
    },
    {
     "t": "stockanalysis.com: 5 yıllık oranlar",
-    "u": "https://stockanalysis.com/quote/ist/FONET/financials/ratios/"
+    "u": "https://stockanalysis.com/quote/ist/FONET/financials/ratios/",
+    "te": "stockanalysis.com: 5-year ratios"
    },
    {
     "t": "stockanalysis.com: Fonet genel görünüm",
-    "u": "https://stockanalysis.com/quote/ist/FONET/"
+    "u": "https://stockanalysis.com/quote/ist/FONET/",
+    "te": "stockanalysis.com: Fonet overview"
    }
   ],
-  "per": "9/2026"
+  "per": "9/2026",
+  "en": {
+   "one": "Healthcare IT software company. The numbers are clean, but revenue depends on a small number of public contracts.",
+   "business": "Fonet supplies hospital information systems and digital health software to healthcare institutions. It employs 200 people; revenue over the last 12 months was 966 million TRY.",
+   "moat_text": "The moat is weak. Replacing a hospital's software is burdensome, which keeps the customer for a while. But contracts are renewed by tender, and the price is renegotiated at every tender.",
+   "mgmt": "In our assessment, most of the revenue comes from contracts with public healthcare institutions. In a business this dependent on a single group of buyers, the resilience score is zero.",
+   "latest": "2025 revenue was 855 million TRY (+36%) and net profit 223 million TRY (+13%).",
+   "risks": [],
+   "watch": []
+  }
  },
  "GRSEL": {
   "scores": {
@@ -426,18 +619,30 @@
   "sources": [
    {
     "t": "İş Yatırım: Temel değerler ve oranlar (10 Kas 2026)",
-    "u": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx"
+    "u": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx",
+    "te": "İş Yatırım: Fundamentals and ratios (10 Nov 2026)"
    },
    {
     "t": "stockanalysis.com: 5 yıllık oranlar",
-    "u": "https://stockanalysis.com/quote/ist/GRSEL/financials/ratios/"
+    "u": "https://stockanalysis.com/quote/ist/GRSEL/financials/ratios/",
+    "te": "stockanalysis.com: 5-year ratios"
    },
    {
     "t": "stockanalysis.com: Gür-Sel genel görünüm",
-    "u": "https://stockanalysis.com/quote/ist/GRSEL/"
+    "u": "https://stockanalysis.com/quote/ist/GRSEL/",
+    "te": "stockanalysis.com: Gür-Sel overview"
    }
   ],
-  "per": "9/2026"
+  "per": "9/2026",
+  "en": {
+   "one": "Employee and student transport. Profitability looks high, but the business has no moat.",
+   "business": "Gür-Sel provides employee shuttle services to companies and student transport to schools; it also leases vehicles. Founded in 1993, it employs 1,836 people.",
+   "moat_text": "The moat is weak. Shuttle transport is a fragmented sector; a new competitor only needs to find vehicles and drivers to enter. A customer can move to whoever makes the lowest offer.",
+   "mgmt": "A note: over the last 12 months net profit was 3.14 billion TRY and revenue 11.6 billion TRY. Net profit equal to 27% of revenue is unusually high for this sector; how much of the profit comes from the core business should be examined separately.",
+   "latest": "2025 revenue was 11.56 billion TRY (+6%) and net profit 2.89 billion TRY (+34%).",
+   "risks": [],
+   "watch": []
+  }
  },
  "GEDIK": {
   "scores": {
@@ -458,18 +663,30 @@
   "sources": [
    {
     "t": "İş Yatırım: Temel değerler ve oranlar (10 Kas 2026)",
-    "u": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx"
+    "u": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx",
+    "te": "İş Yatırım: Fundamentals and ratios (10 Nov 2026)"
    },
    {
     "t": "stockanalysis.com: 5 yıllık oranlar",
-    "u": "https://stockanalysis.com/quote/ist/GEDIK/financials/ratios/"
+    "u": "https://stockanalysis.com/quote/ist/GEDIK/financials/ratios/",
+    "te": "stockanalysis.com: 5-year ratios"
    },
    {
     "t": "stockanalysis.com: Gedik Yatırım genel görünüm",
-    "u": "https://stockanalysis.com/quote/ist/GEDIK/"
+    "u": "https://stockanalysis.com/quote/ist/GEDIK/",
+    "te": "stockanalysis.com: Gedik Yatırım overview"
    }
   ],
-  "per": "9/2026"
+  "per": "9/2026",
+  "en": {
+   "one": "A brokerage aimed at retail investors. Profitable, but with no distinguishing advantage.",
+   "business": "Gedik Yatırım provides brokerage, asset management, advisory and IPO services. Founded in 1991, it employs 594 people.",
+   "moat_text": "The moat is weak. Brokerage is easy to copy and commission competition is fierce. The scale and bank-network advantage that İş Yatırım has is absent here.",
+   "mgmt": "Earnings swing sharply with the market: return on equity was 5% in 2022, 38% in 2023 and 12% in 2024.",
+   "latest": "Net profit over the last 12 months was 1.10 billion TRY (−15%).",
+   "risks": [],
+   "watch": []
+  }
  },
  "ORGE": {
   "scores": {
@@ -490,18 +707,30 @@
   "sources": [
    {
     "t": "İş Yatırım: Temel değerler ve oranlar (10 Kas 2026)",
-    "u": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx"
+    "u": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx",
+    "te": "İş Yatırım: Fundamentals and ratios (10 Nov 2026)"
    },
    {
     "t": "stockanalysis.com: 5 yıllık oranlar",
-    "u": "https://stockanalysis.com/quote/ist/ORGE/financials/ratios/"
+    "u": "https://stockanalysis.com/quote/ist/ORGE/financials/ratios/",
+    "te": "stockanalysis.com: 5-year ratios"
    },
    {
     "t": "stockanalysis.com: Orge genel görünüm",
-    "u": "https://stockanalysis.com/quote/ist/ORGE/"
+    "u": "https://stockanalysis.com/quote/ist/ORGE/",
+    "te": "stockanalysis.com: Orge overview"
    }
   ],
-  "per": "9/2026"
+  "per": "9/2026",
+  "en": {
+   "one": "Electrical contracting company. It is well run, but the work is project-based and there is no moat.",
+   "business": "Orge carries out the electrical works of large construction projects (low and medium voltage, low-current systems). It employs 688 people.",
+   "moat_text": "There is no moat. In contracting, every new job is won through a tender or a bid; today's profit promises nothing about tomorrow's work.",
+   "mgmt": "The numbers show it: in 2025 revenue fell 22% and net profit 34%. Free cash flow was positive in only two of the last five periods.",
+   "latest": "2025 revenue was 3.50 billion TRY (−22%) and net profit 593 million TRY (−34%).",
+   "risks": [],
+   "watch": []
+  }
  },
  "PCILT": {
   "scores": {
@@ -522,18 +751,30 @@
   "sources": [
    {
     "t": "İş Yatırım: Temel değerler ve oranlar (10 Kas 2026)",
-    "u": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx"
+    "u": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx",
+    "te": "İş Yatırım: Fundamentals and ratios (10 Nov 2026)"
    },
    {
     "t": "stockanalysis.com: 5 yıllık oranlar",
-    "u": "https://stockanalysis.com/quote/ist/PCILT/financials/ratios/"
+    "u": "https://stockanalysis.com/quote/ist/PCILT/financials/ratios/",
+    "te": "stockanalysis.com: 5-year ratios"
    },
    {
     "t": "stockanalysis.com: PC İletişim genel görünüm",
-    "u": "https://stockanalysis.com/quote/ist/PCILT/"
+    "u": "https://stockanalysis.com/quote/ist/PCILT/",
+    "te": "stockanalysis.com: PC İletişim overview"
    }
   ],
-  "per": "9/2026"
+  "per": "9/2026",
+  "en": {
+   "one": "Media planning and buying agency. Cash-rich, but the business depends on client relationships.",
+   "business": "PC İletişim plans and buys advertising space on television, digital and outdoor media on behalf of advertisers. Founded in 2009, it employs 179 people.",
+   "moat_text": "The moat is weak. In the agency business the asset is the client relationship; when a large advertiser changes agency, the revenue leaves with it. The margin is thin: 444 million TRY of net profit remains from 11.2 billion TRY of revenue.",
+   "mgmt": "The positive side: the company is in net cash and free cash flow was positive in four of the five periods.",
+   "latest": "2025 revenue was 10.88 billion TRY (+45%) and net profit 467 million TRY (+44%).",
+   "risks": [],
+   "watch": []
+  }
  },
  "KTLEV": {
   "scores": {
@@ -554,21 +795,34 @@
   "sources": [
    {
     "t": "İş Yatırım: Temel değerler ve oranlar (10 Kas 2026)",
-    "u": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx"
+    "u": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx",
+    "te": "İş Yatırım: Fundamentals and ratios (10 Nov 2026)"
    },
    {
     "t": "stockanalysis.com: 5 yıllık oranlar",
-    "u": "https://stockanalysis.com/quote/ist/KTLEV/financials/ratios/"
+    "u": "https://stockanalysis.com/quote/ist/KTLEV/financials/ratios/",
+    "te": "stockanalysis.com: 5-year ratios"
    },
    {
     "t": "stockanalysis.com: Katılımevim genel görünüm",
-    "u": "https://stockanalysis.com/quote/ist/KTLEV/"
+    "u": "https://stockanalysis.com/quote/ist/KTLEV/",
+    "te": "stockanalysis.com: Katılımevim overview"
    },
    {
     "t": "Alomaliye: BDDK'nın enflasyon muhasebesi kararı (23 Ara 2025)",
-    "u": "https://www.alomaliye.com/2025/12/23/enflasyon-muhasebesi-uygulamasi-banka-ve-finans-sirketlerinde-kaldirildi/"
+    "u": "https://www.alomaliye.com/2025/12/23/enflasyon-muhasebesi-uygulamasi-banka-ve-finans-sirketlerinde-kaldirildi/",
+    "te": "Alomaliye: BDDK's decision on inflation accounting (23 Dec 2025)"
    }
   ],
-  "per": "6/2026"
+  "per": "6/2026",
+  "en": {
+   "one": "Savings finance company. Profit looks very high, but most of it does not come from the core business.",
+   "business": "Katılımevim provides vehicle and home financing through an interest-free savings finance model; it also leases shopping centres and commercial real estate. Founded in 2018, it employs 1,713 people.",
+   "moat_text": "The moat is weak and the model is new. Savings finance has been a regulated sector in Türkiye for only a few years; the rules may change.",
+   "mgmt": "The reason for elimination is the quality of the profit. Over the last 12 months net profit was 28.7 billion TRY and revenue 18.1 billion TRY: profit is larger than revenue. This shows that most of the profit comes from non-operating items. The company also does not apply inflation accounting; its figures are nominal.",
+   "latest": "2025 revenue was 14.46 billion TRY (+195%) and net profit 8.62 billion TRY (+299%).",
+   "risks": [],
+   "watch": []
+  }
  }
 }

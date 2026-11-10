@@ -151,7 +151,9 @@ def run(cc):
             U[-1]["pc"] = u["pc"]             # fiyatı ülkenin olağan biriminden farklı yazılan pay
 
     R = {c: r for c, r in reports.items() if c in L2 and L2[c]["ok"]}
-    out = dict(cc=cc, asof=meta["asof"], U=U, L2=L2, R=R)
+    # 2. surda elenen ama açıklama gerektiren şirketler için kısa not (raporun tamamı gösterilmez)
+    N = {c: r["note"] for c, r in reports.items() if c not in R and r.get("note")}
+    out = dict(cc=cc, asof=meta["asof"], U=U, L2=L2, R=R, N=N)
     json.dump(out, open(os.path.join(d, "core.json"), "w", encoding="utf-8"), ensure_ascii=False)
 
     cnt = collections.Counter((u["e"], u["w"]) for u in U)

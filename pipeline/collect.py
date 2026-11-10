@@ -255,7 +255,7 @@ def weo_vintages():
 def cpi_years(cc, years):
     """Yıl sonu yıllık tüketici enflasyonu (%). Önce IMF WEO (dönem sonu), olmazsa Dünya Bankası (yıllık ortalama)."""
     import requests
-    iso3, out, src = ISO3.get(cc), {}, {}
+    iso3, out, src, errs = ISO3.get(cc), {}, {}, []
     for v in weo_vintages():
         try:
             r = requests.get(f"https://api.db.nomics.world/v22/series/IMF/WEO:{v}/{iso3}.PCPIEPCH.pcent_change?observations=1", headers=UA, timeout=60)
@@ -273,17 +273,22 @@ def cpi_years(cc, years):
                     out[y] = round(obs[y], 2); src[y] = "IMF WEO " + vint + " (dönem sonu)"
             if all(y in out for y in years):
                 break
-        except Exception:
+        except Exception as e:
+            errs.append(f"IMF WEO {v}: {type(e).__name__}")
             continue
     if not all(y in out for y in years):
-        try:
-            r = requests.get(f"https://api.worldbank.org/v2/country/{iso3}/indicator/FP.CPI.TOTL.ZG?format=json&date={years[0]}:{years[-1]}&per_page=50", timeout=60)
-            for o in (r.json()[1] or []):
-                if o["date"] in years and o["date"] not in out and o["value"] is not None:
-                    out[o["date"]] = round(o["value"], 2); src[o["date"]] = "Dünya Bankası FP.CPI.TOTL.ZG (yıllık ortalama)"
-        except Exception:
-            pass
-    return out, src
+        for attempt in range(2):
+            try:
+                r = requests.get(f"https://api.worldbank.org/v2/country/{iso3}/indicator/FP.CPI.TOTL.ZG?format=json&date={years[0]}:{years[-1]}&per_page=50", headers=UA, timeout=90)
+                j = r.json()
+                for o in ((j[1] if isinstance(j, list) and len(j) > 1 else None) or []):
+                    if o["date"] in years and o["date"] not in out and o["value"] is not None:
+                        out[o["date"]] = round(o["value"], 2); src[o["date"]] = "Dünya Bankası FP.CPI.TOTL.ZG (yıllık ortalama)"
+                break
+            except Exception as e:
+                errs.append(f"Dünya Bankası: {type(e).__name__} {str(e)[:80]}")
+                time.sleep(3)
+    return out, src, errs
 
 
 def macro(cc, k, st, fx_main, years):
@@ -304,7 +309,12 @@ def macro(cc, k, st, fx_main, years):
     except Exception as e:
         st["errors"].append("enflasyon (son): " + repr(e)[:160])
     try:
-        out["cpi"], out["cpi_src"] = cpi_years(cc, years)
+        out["cpi"], out["cpi_src"], errs = cpi_years(cc, years)
+        miss = [y for y in years if y not in out["cpi"]]
+        if miss:
+            out["cpi_missing"] = miss      # bu yılları ülkenin istatistik kurumundan tamamla (CLAUDE.md, İş A)
+        if errs:
+            out["cpi_errors"] = errs
     except Exception as e:
         st["errors"].append("enflasyon (yıllar): " + repr(e)[:160])
     return out

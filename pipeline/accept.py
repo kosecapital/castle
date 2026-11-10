@@ -119,6 +119,10 @@ def accept(cc, dry=False):
         meta.setdefault("cpi", {})["cur"] = mac["cpi_cur"]
     if st.get("pcur") and st.get("pcur") != st.get("cur"):
         meta["pcur"] = st["pcur"]
+    if old_uni and "--names" not in sys.argv:              # bilinen şirketin adı korunur (kaynak adları kısaltmalı gelebiliyor)
+        names = {u["c"]: u["n"] for u in old_uni}
+        for u in uni:
+            u["n"] = names.get(u["c"], u["n"])
     json.dump(uni, open(os.path.join(d, "universe.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=0)
     json.dump(hist, open(os.path.join(d, "history.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=0)
     json.dump(meta, open(os.path.join(d, "meta.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)

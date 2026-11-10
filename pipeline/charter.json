@@ -13,7 +13,13 @@
     "y": "2009",
     "u": "https://www.berkshirehathaway.com/letters/2009ltr.pdf"
    }
-  ]
+  ],
+  "en": {
+   "k": "Say no first",
+   "w": "Wall 1",
+   "t": "Do not try to solve the hard problem; try to stay away from it. A business whose future cannot be assessed does not make the list, however exciting its product.",
+   "a": "A company that clearly does not fit is eliminated at the first wall, for the whole universe, in seconds. Time is spent on the few companies that remain."
+  }
  },
  {
   "k": "Kanıtlanmış kazanç gücü",
@@ -25,7 +31,13 @@
     "y": "1986",
     "u": "https://www.berkshirehathaway.com/letters/1986.html"
    }
-  ]
+  ],
+  "en": {
+   "k": "Proven earning power",
+   "w": "Walls 1 and 2",
+   "t": "What we look for is proven and consistent earning power, not a forecast or a turnaround story.",
+   "a": "A company with no net profit in the last 12 months is eliminated at Wall 1; one with a loss-making year in the last five years, or without five years of history, is eliminated at Wall 2."
+  }
  },
  {
   "k": "Az borçla yüksek özsermaye kârlılığı",
@@ -41,7 +53,13 @@
     "y": "1987",
     "u": "https://www.berkshirehathaway.com/letters/1987.html"
    }
-  ]
+  ],
+  "en": {
+   "k": "High return on equity with little debt",
+   "w": "Wall 2",
+   "t": "Management's success is measured by return on equity, not by growth in earnings per share. In the example in the 1987 letter, only 25 of a thousand large companies had earned more than 20% on average over ten years without falling below 15% in any year; most of them used little debt.",
+   "a": "The same pattern is used: the average and the worst year are tested together. The thresholds are 15% and 10% in real terms; net debt/EBITDA at most 3."
+  }
  },
  {
   "k": "Enflasyona aldanma",
@@ -57,7 +75,13 @@
     "y": "1981",
     "u": "https://www.berkshirehathaway.com/letters/1981.html"
    }
-  ]
+  ],
+  "en": {
+   "k": "Do not be fooled by inflation",
+   "w": "Wall 2",
+   "t": "Inflation erodes profit on paper: even a business that earns 20% on equity may leave its owner no real gain after tax and inflation. An inflation-resistant business is one that can raise its prices easily and needs little additional capital as it grows.",
+   "a": "All profitability figures are read after inflation."
+  }
  },
  {
   "k": "Kâr nakde dönmeli",
@@ -69,7 +93,13 @@
     "y": "1986",
     "u": "https://www.berkshirehathaway.com/letters/1986.html"
    }
-  ]
+  ],
+  "en": {
+   "k": "Profit must turn into cash",
+   "w": "Wall 2",
+   "t": "The owner's earnings are found by adding depreciation to profit and subtracting the investment needed to maintain the strength of the business. If that investment is larger than depreciation, reported profit makes things look better than they are.",
+   "a": "Free cash flow must be positive in at least two of the last five periods."
+  }
  },
  {
   "k": "Anlaşılır iş",
@@ -85,7 +115,13 @@
     "y": "1996",
     "u": "https://www.berkshirehathaway.com/letters/1996.html"
    }
-  ]
+  ],
+  "en": {
+   "k": "An understandable business",
+   "w": "Wall 3",
+   "t": "You do not need to understand every company. What matters is not the size of your area of competence but knowing where its boundary lies. The best results often come from companies that were doing roughly the same business ten years ago.",
+   "a": "A business whose product and way of making money cannot be explained in a few sentences gets no understandability score."
+  }
  },
  {
   "k": "Hendek",
@@ -97,7 +133,13 @@
     "y": "2007",
     "u": "https://www.berkshirehathaway.com/letters/2007ltr.pdf"
    }
-  ]
+  ],
+  "en": {
+   "k": "Moat",
+   "w": "Wall 3",
+   "t": "Competitors attack every business that earns a high return; a durable moat is needed to protect the profit. Its two classic sources are being the lowest-cost producer and a strong brand. A moat that has to be dug again and again, or that depends on a single star manager, does not count as a moat.",
+   "a": "The moat is scored on four levels: none, weak, narrow, wide. A company whose moat is not at least narrow stops at Wall 3."
+  }
  },
  {
   "k": "Ortak gibi davranan yönetim",
@@ -113,7 +155,13 @@
     "y": "1996",
     "u": "https://www.berkshirehathaway.com/letters/1996.html"
    }
-  ]
+  ],
+  "en": {
+   "k": "Management that acts like an owner",
+   "w": "Wall 3",
+   "t": "Every dollar of profit kept in the company should create at least a dollar of value for the owner. If a company with a very profitable core business puts its growing cash into low-return activities, management has to answer for it. Drifting away from the core business costs owners dearly even in very good companies.",
+   "a": "We look at where the profit goes: the core business, debt repayment, dividends or buybacks. Large financial investments outside the core business lower the score."
+  }
  },
  {
   "k": "Tersinden düşün",
@@ -129,7 +177,13 @@
     "y": "2009",
     "u": "https://www.berkshirehathaway.com/letters/2009ltr.pdf"
    }
-  ]
+  ],
+  "en": {
+   "k": "Think in reverse",
+   "w": "Wall 3",
+   "t": "Solve the problem backwards: find what would end badly and stay away from it. The 2009 letter credits this method to Munger. Dependence on debt, or on someone else's goodwill, is at the top of the list of things to avoid.",
+   "a": "Every report has a 'what would break this thesis' section. A business that depends on a single customer, a single concession or a single decision counts as fragile."
+  }
  },
  {
   "k": "Harika iş, makul fiyat",
@@ -141,7 +195,13 @@
     "y": "1989",
     "u": "https://www.berkshirehathaway.com/letters/1989.html"
    }
-  ]
+  ],
+  "en": {
+   "k": "A wonderful business at a fair price",
+   "w": "Walls 3 and 4",
+   "t": "A wonderful business bought at a fair price is better than a mediocre business bought very cheaply. Time is the friend of the good business and the enemy of the mediocre one.",
+   "a": "The price test comes last: quality and moat first, then price. A company with a wide moat is allowed a higher multiple."
+  }
  },
  {
   "k": "Güvenlik marjı",
@@ -157,7 +217,13 @@
     "y": "1996",
     "u": "https://www.berkshirehathaway.com/letters/1996.html"
    }
-  ]
+  ],
+  "en": {
+   "k": "Margin of safety",
+   "w": "Wall 4",
+   "t": "The value of a business is the cash it will generate over its lifetime, discounted to today. Because this estimate can always be wrong, the price should be clearly below the calculated value. Even an excellent business can be bought at too high a price.",
+   "a": "Value is calculated from conservative earnings. If the price is below this value by at least the margin of safety, the company enters the castle."
+  }
  },
  {
   "k": "Sabır",
@@ -173,6 +239,12 @@
     "y": "1987",
     "u": "https://www.berkshirehathaway.com/letters/1987.html"
    }
-  ]
+  ],
+  "en": {
+   "k": "Patience",
+   "w": "Wall 4",
+   "t": "The market names a price every day; that price is there to be taken advantage of, not to guide you. A stock is bought like a share in a business partnership to be held for many years.",
+   "a": "That is what the waiting-at-the-gate list is for: a good business is watched until its price arrives. A short or even empty list shows the filter is working."
+  }
  }
 ]

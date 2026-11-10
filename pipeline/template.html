@@ -192,7 +192,15 @@ figure{margin:0}
 .pr .ap{color:var(--ink-2)}
 .pr .sr{font-size:13px;color:var(--ink-2)}
 
+.lang{display:flex;flex:none;height:36px;border:1px solid var(--line);border-radius:18px;overflow:hidden}
+.lang button{border:0;background:none;padding:0 9px;font-size:13px;font-weight:500;letter-spacing:.04em;color:var(--ink-2)}
+.lang button:first-child{padding-left:12px}
+.lang button:last-child{padding-right:12px}
+.lang button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.lang button:focus-visible{outline-offset:-3px}
+
 @media (max-width:980px){ .mark-sub{display:none} }
+@media (max-width:480px){ .ghost{padding:0 10px} .lang button{padding:0 7px} .lang button:first-child{padding-left:10px} .lang button:last-child{padding-right:10px} }
 @media (max-width:860px){
   .stage{grid-template-columns:minmax(0,1fr);grid-template-rows:minmax(250px,43%) minmax(0,1fr)}
   .side{border-left:0;border-top:1px solid var(--line)}
@@ -202,6 +210,7 @@ figure{margin:0}
   .legend{top:6px;left:max(8px,env(safe-area-inset-left,0px));max-width:calc(100% - 16px);font-size:12px;line-height:1.3;background:color-mix(in srgb,var(--paper) 82%,transparent);border-radius:8px;padding:2px 8px}
   .legend b{display:none}
   .mark{font-size:22px}
+  .bar{gap:9px}
 }
 @media (prefers-reduced-motion:reduce){ .pin i{animation:none} }
 </style>
@@ -217,6 +226,7 @@ figure{margin:0}
       <input id="q" type="search" placeholder="Hisse, ülke ara" autocomplete="off" aria-label="Ara: hisse kodu, şirket adı ya da ülke">
       <div class="find-list" id="ql" hidden></div>
     </div>
+    <div class="lang" id="lang" role="group" aria-label="Dil"><button data-lang="tr" aria-pressed="true" title="Türkçe">TR</button><button data-lang="en" aria-pressed="false" title="English">EN</button></div>
     <button class="ghost" id="method">Yöntem</button>
   </header>
   <main class="stage">
@@ -226,7 +236,7 @@ figure{margin:0}
       <div class="pin" id="pin" hidden><i></i><span id="pinl"></span></div>
       <div class="tip" id="tip" hidden></div>
       <div class="toast" id="toast" role="status" hidden></div>
-      <nav class="rail" aria-label="Surlar">
+      <nav class="rail" id="rail" aria-label="Surlar">
         <button class="nav" id="prev">Uzaklaş</button>
         <ol class="steps" id="steps"></ol>
         <button class="nav go" id="next">Yaklaş</button>
@@ -255,41 +265,74 @@ var INLINE = (function () { var el = document.getElementById("castle-inline"); t
 function getJSON(p) { return INLINE[p] ? Promise.resolve(INLINE[p]) : fetch(p).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }); }
 var esc = function (s) { return String(s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); };
 var clamp = function (x, a, b) { return Math.max(a, Math.min(b, x)); };
-var NF = function (d) { return new Intl.NumberFormat("tr-TR", { minimumFractionDigits: d, maximumFractionDigits: d }); };
-var n0 = NF(0), n1 = NF(1), n2 = NF(2);
+/* ---------- dil: Türkçe ve İngilizce ----------
+   Sıra: ziyaretçinin kendi seçimi, adresteki ?lang=, tarayıcının dili. Metinler L("Türkçe", "English") ile yan yana durur. */
+var LANG = (function () {
+  try { var s = localStorage.getItem("castle.lang"); if (s === "tr" || s === "en") return s; } catch (e) {}
+  try { var q = new URLSearchParams(location.search).get("lang"); if (q === "tr" || q === "en") return q; } catch (e) {}
+  var n = String((navigator.languages && navigator.languages[0]) || navigator.language || "tr").toLowerCase();
+  return n.indexOf("tr") === 0 ? "tr" : "en";
+})();
+function L(tr, en) { return LANG === "en" ? en : tr; }
+var NFC = {};
+var NF = function (d) { var k = LANG + d; return NFC[k] || (NFC[k] = new Intl.NumberFormat(LANG === "en" ? "en-US" : "tr-TR", { minimumFractionDigits: d, maximumFractionDigits: d })); };
+var n0 = { format: function (x) { return NF(0).format(x); } }, n1 = { format: function (x) { return NF(1).format(x); } }, n2 = { format: function (x) { return NF(2).format(x); } };
 var num = function (x, d) { return x == null ? "–" : (x < 0 ? "−" : "") + NF(d == null ? 1 : d).format(Math.abs(x)); };
-var pct = function (x, d) { return x == null ? "–" : (x < 0 ? "−" : "") + "%" + NF(d == null ? 1 : d).format(Math.abs(x)); };
-var cur = function () { return C ? C.meta.cur : ""; };
-var money = function (x) { return n2.format(x) + " " + cur(); };
-var cap = function (m) { return (m >= 1e6 ? n2.format(m / 1e6) + " trilyon " : m >= 1e3 ? n1.format(m / 1e3) + " milyar " : n0.format(m) + " milyon ") + cur(); };
-var capS = function (m) { return m >= 1e6 ? n2.format(m / 1e6) + " trn" : m >= 1e3 ? n1.format(m / 1e3) + " mlr" : n0.format(m) + " mn"; };
+var pct = function (x, d) { if (x == null) return "–"; var s = NF(d == null ? 1 : d).format(Math.abs(x)); return (x < 0 ? "−" : "") + (LANG === "en" ? s + "%" : "%" + s); };
+function mt(k) { var m = C.meta; return LANG === "en" && m.en && m.en[k] != null ? m.en[k] : m[k]; }       // ülke metni
+function cname(k) { return LANG === "en" && k.name_en ? k.name_en : k.name; }                                 // ülke adı
+function rt(r, k) { return LANG === "en" && r.en && r.en[k] != null ? r.en[k] : r[k]; }                       // rapor metni
+function sec(u) { return LANG === "en" ? u.se : u.s; }                                                          // sektör adı
+function chv(p, k) { return LANG === "en" && p.en && p.en[k] != null ? p.en[k] : p[k]; }                      // ilke metni
+var MOAT = { "yok": "none", "zayıf": "weak", "dar": "narrow", "geniş": "wide" };
+function moatW(x) { return LANG === "en" ? (MOAT[x] || x) : x; }
+function kaleW(n) { return LANG === "en" ? (n === 1 ? "castle" : "castles") : "kale"; }
+function coW(n) { return LANG === "en" ? (n === 1 ? "company" : "companies") : "şirket"; }
+var cur = function () { return C ? mt("cur") : ""; };
+var pcur = function (u) { return C ? ((u && u.pc) || C.meta.pcur || mt("cur")) : ""; };                       // fiyatın yazıldığı birim
+var money = function (x, u) { return n2.format(x) + " " + pcur(u); };
+var cap = function (m) { return (m >= 1e6 ? n2.format(m / 1e6) + L(" trilyon ", " trillion ") : m >= 1e3 ? n1.format(m / 1e3) + L(" milyar ", " billion ") : n0.format(m) + L(" milyon ", " million ")) + cur(); };
+var capS = function (m) { return m >= 1e6 ? n2.format(m / 1e6) + L(" trn", " tn") : m >= 1e3 ? n1.format(m / 1e3) + L(" mlr", " bn") : n0.format(m) + L(" mn", " m"); };
 var AYLAR = ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"];
-var tarih = function (iso) { var p = String(iso || "").split("-"); return p.length === 3 ? (+p[2]) + " " + AYLAR[+p[1] - 1] + " " + p[0] : String(iso || ""); };
-var donem = function (s) { var p = String(s || "").split("/"); return p.length === 2 ? (AYLAR[+p[0] - 1] || p[0]) + " " + p[1] : String(s || "–"); };
+var MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+var ay = function (i) { return (LANG === "en" ? MONTHS : AYLAR)[i]; };
+var tarih = function (iso) { var p = String(iso || "").split("-"); return p.length === 3 ? (+p[2]) + " " + ay(+p[1] - 1) + " " + p[0] : String(iso || ""); };
+var donem = function (s) { // "9/2026" (İş Yatırım) ya da "2026-Q3" (TradingView)
+  s = String(s || ""); var p = s.split("/"), m = /^(\d{4})-(Q([1-4])|H([12])|FY)$/.exec(s);
+  if (p.length === 2) return (ay(+p[0] - 1) || p[0]) + " " + p[1];
+  if (!m) return s || "–";
+  if (m[3]) return L(m[1] + ", " + m[3] + ". çeyrek", "Q" + m[3] + " " + m[1]);
+  if (m[4]) return L(m[1] + (m[4] === "1" ? ", ilk yarı" : ", ikinci yarı"), "H" + m[4] + " " + m[1]);
+  return L(m[1] + ", yıl sonu", "FY " + m[1]);
+};
 var fold = function (s) { return String(s).toLocaleLowerCase("tr").replace(/ı/g, "i").replace(/ş/g, "s").replace(/ğ/g, "g").replace(/ç/g, "c").replace(/ö/g, "o").replace(/ü/g, "u"); };
 var slug = function (s) { return String(s).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""); };
 var FONT = '"IBM Plex Sans","Segoe UI",system-ui,sans-serif';
 
 var STEPS = [
-  { t: "Dünya" }, { t: "Evren" },
-  { t: "1. sur", sub: "Kırmızı çizgiler" }, { t: "2. sur", sub: "Kalite" },
-  { t: "3. sur", sub: "Hendek ve yönetim" }, { t: "4. sur", sub: "Fiyat" }
+  { t: ["Dünya", "World"] }, { t: ["Evren", "Universe"] },
+  { t: ["1. sur", "Wall 1"], sub: ["Kırmızı çizgiler", "Red lines"] }, { t: ["2. sur", "Wall 2"], sub: ["Kalite", "Quality"] },
+  { t: ["3. sur", "Wall 3"], sub: ["Hendek ve yönetim", "Moat and management"] }, { t: ["4. sur", "Wall 4"], sub: ["Fiyat", "Price"] }
 ];
+function stT(i) { return STEPS[i].t[LANG === "en" ? 1 : 0]; }
+function stFull(i) { var s = STEPS[i]; return stT(i) + (s.sub ? ": " + s.sub[LANG === "en" ? 1 : 0].toLowerCase() : ""); }   // "2. sur: kalite"
 var WHY = {
-  noprofit: "Son 12 ayda net kâr yok", vehicle: "Varlık sepeti", small: "Çok küçük", equity: "Özsermaye negatif",
-  roe_ttm: "Son 12 ay kârlılığı düşük", roe_min: "Kârlılık istikrarsız", loss: "Zarar yılı var", history: "Geçmiş kısa",
-  data: "Veri doğrulanamadı", cash: "Kâr nakde dönmüyor", roe_avg: "Ortalama kârlılık düşük", debt: "Borç yüksek",
-  moat: "Hendek zayıf", mgmt: "Sermaye tahsisi", fragile: "Kırılgan", pending: "Sırada"
+  noprofit: ["Son 12 ayda net kâr yok", "No net profit in the last 12 months"], vehicle: ["Varlık sepeti", "Asset basket"], small: ["Çok küçük", "Too small"], equity: ["Özsermaye negatif", "Negative equity"],
+  roe_ttm: ["Son 12 ay kârlılığı düşük", "Low return in the last 12 months"], roe_min: ["Kârlılık istikrarsız", "Unstable returns"], loss: ["Zarar yılı var", "A loss-making year"], history: ["Geçmiş kısa", "Short history"],
+  data: ["Veri doğrulanamadı", "Data not verified"], cash: ["Kâr nakde dönmüyor", "Profit not turning into cash"], roe_avg: ["Ortalama kârlılık düşük", "Low average return"], debt: ["Borç yüksek", "High debt"],
+  moat: ["Hendek zayıf", "Weak moat"], mgmt: ["Sermaye tahsisi", "Capital allocation"], fragile: ["Kırılgan", "Fragile"], pending: ["Sırada", "In the queue"]
 };
+function whyS(k) { var w = WHY[k]; return w ? w[LANG === "en" ? 1 : 0] : k; }
+function outAt(e) { return L(e + ". surda elendi", "Eliminated at Wall " + e); }
 var S = { step: 0, sel: null, filter: null, hover: null, show: 30, focus: IDX.countries.length ? IDX.countries[0].cc : null };
 
 /* ---------- ülke verisi ---------- */
 function expand(raw) {
   var cols = raw.cols, U = raw.rows.map(function (r) {
     var o = {}; for (var i = 0; i < cols.length; i++) o[cols[i]] = r[i];
-    o.s = raw.sectors[o.s]; o.w = raw.whys[o.w]; o.per = raw.pers[o.per]; o.xy = [o.x, o.y]; return o;
+    var si = o.s; o.s = raw.sectors[si]; o.se = (raw.sectors_en || raw.sectors)[si]; if (raw.pc && raw.pc[o.c]) o.pc = raw.pc[o.c]; o.w = raw.whys[o.w]; o.per = raw.pers[o.per]; o.xy = [o.x, o.y]; return o;
   });
-  var c = { cc: raw.cc, meta: raw.meta, W: raw.W, U: U, byC: {}, bySlug: {}, L2: raw.L2, R: raw.R, ix: CTRY[raw.cc] };
+  var c = { cc: raw.cc, meta: raw.meta, W: raw.W, U: U, byC: {}, bySlug: {}, L2: raw.L2, R: raw.R, Nt: raw.N || {}, ix: CTRY[raw.cc] };
   U.forEach(function (u) { c.byC[u.c] = u; c.bySlug[slug(u.c)] = u.c; });
   c.E4 = U.filter(function (u) { return u.e === 4; }).sort(function (a, b) { return a.a - b.a; });
   c.N = { all: U.length, p1: 0, p2: 0, p3: c.E4.length, pend: 0, f3: 0 };
@@ -330,31 +373,32 @@ function val(c) {
 function status(u) { return u.e < 4 ? (u.w === "pending" ? "sirada" : "out") : val(u.c).kale ? "kale" : "bekle"; }
 function kales() { return C ? C.E4.filter(function (u) { return val(u.c).kale; }) : []; }
 function kaleN() { return kales().length; }
+function eraL() { return C.meta.era_label ? mt("era_label") : L("son beş yılda", "in the last five years"); }
 function failText(f) {
-  var era = C.meta.era_label || "son beş yılda";
+  var era = eraL();
   switch (f.k) {
-    case "data": return "Güncel beş yıllık veri doğrulanamadı";
-    case "history": return "Beş yıllık mali geçmiş yok (halka arzı yeni)";
-    case "loss": return "Son beş yılda zarar yılı var: " + f.v.join(", ");
-    case "roe_min": return "Reel özsermaye kârlılığı istikrarsız: " + era + " en düşük okuma " + pct(f.v) + " (eşik " + pct(P.eraMin, 0) + ")";
-    case "roe_avg": return "Reel özsermaye kârlılığı yetersiz: " + era + " ortalama " + pct(f.v) + " (eşik " + pct(P.eraAvg, 0) + ")";
-    case "debt": return "Borç yükü yüksek: net borç/FAVÖK " + num(f.v) + " (eşik " + num(P.ndMax) + ")";
-    case "cash": return f.v[0] ? "Kâr nakde dönmüyor: son " + f.v[1] + " dönemde serbest nakit akışı yalnız " + f.v[0] + " kez pozitif" : "Kâr nakde dönmüyor: son " + f.v[1] + " dönemde serbest nakit akışı hiç pozitif olmadı";
+    case "data": return L("Güncel beş yıllık veri doğrulanamadı", "Up-to-date five-year data could not be verified");
+    case "history": return L("Beş yıllık mali geçmiş yok (halka arzı yeni)", "No five-year financial history (recently listed)");
+    case "loss": return L("Son beş yılda zarar yılı var: ", "A loss-making year in the last five years: ") + f.v.join(", ");
+    case "roe_min": return L("Reel özsermaye kârlılığı istikrarsız: " + era + " en düşük okuma " + pct(f.v) + " (eşik " + pct(P.eraMin, 0) + ")", "Real return on equity is unstable: the lowest reading " + era + " is " + pct(f.v) + " (threshold " + pct(P.eraMin, 0) + ")");
+    case "roe_avg": return L("Reel özsermaye kârlılığı yetersiz: " + era + " ortalama " + pct(f.v) + " (eşik " + pct(P.eraAvg, 0) + ")", "Real return on equity is too low: the average " + era + " is " + pct(f.v) + " (threshold " + pct(P.eraAvg, 0) + ")");
+    case "debt": return L("Borç yükü yüksek: net borç/FAVÖK ", "Heavy debt: net debt/EBITDA ") + num(f.v) + L(" (eşik ", " (threshold ") + num(P.ndMax) + ")";
+    case "cash": return f.v[0] ? L("Kâr nakde dönmüyor: son " + f.v[1] + " dönemde serbest nakit akışı yalnız " + f.v[0] + " kez pozitif", "Profit does not turn into cash: free cash flow was positive in only " + f.v[0] + " of the last " + f.v[1] + " periods") : L("Kâr nakde dönmüyor: son " + f.v[1] + " dönemde serbest nakit akışı hiç pozitif olmadı", "Profit does not turn into cash: free cash flow was never positive in the last " + f.v[1] + " periods");
   }
   return "";
 }
-function flagText(f) { return f.k === "debt" ? "Net borç/FAVÖK " + num(f.v) + ": eşiğe (" + num(P.ndMax) + ") yakın" : "Serbest nakit akışı son " + f.v[1] + " dönemde yalnız " + f.v[0] + " kez pozitif"; }
+function flagText(f) { return f.k === "debt" ? L("Net borç/FAVÖK " + num(f.v) + ": eşiğe (" + num(P.ndMax) + ") yakın", "Net debt/EBITDA " + num(f.v) + ": close to the threshold (" + num(P.ndMax) + ")") : L("Serbest nakit akışı son " + f.v[1] + " dönemde yalnız " + f.v[0] + " kez pozitif", "Free cash flow was positive in only " + f.v[0] + " of the last " + f.v[1] + " periods"); }
 function why(u) { // elenme nedeni, tam cümle
   switch (u.w) {
-    case "vehicle": return "İşletme değil, varlık sepeti (GYO ya da yatırım ortaklığı)";
-    case "noprofit": return "Son 12 ayda net kâr yok: F/K hesaplanamıyor";
-    case "equity": return "Özsermaye negatif";
-    case "small": return C.meta.small_text + ": bilgi ve işlem derinliği sınırlı";
-    case "roe_ttm": return "Son 12 ay özsermaye kârlılığı " + (u.nom ? "enflasyondan arındırılınca " : "") + pct(u.rr) + " (eşik " + pct(P.roeMin, 0) + ")";
-    case "moat": return "Kalıcı bir rekabet üstünlüğü (hendek) yok ya da zayıf";
-    case "mgmt": return "Yönetim ve sermaye tahsisi testini geçemedi";
-    case "fragile": return "Kazanç kalitesi ya da dayanıklılık testini geçemedi";
-    case "pending": return "2. suru geçti; hendek ve yönetim incelemesi sırada";
+    case "vehicle": return L("İşletme değil, varlık sepeti (GYO ya da yatırım ortaklığı)", "Not an operating business but an asset basket (REIT or investment trust)");
+    case "noprofit": return L("Son 12 ayda net kâr yok: F/K hesaplanamıyor", "No net profit in the last 12 months: P/E cannot be calculated");
+    case "equity": return L("Özsermaye negatif", "Negative equity");
+    case "small": return mt("small_text") + L(": bilgi ve işlem derinliği sınırlı", ": limited information and trading depth");
+    case "roe_ttm": return L("Son 12 ay özsermaye kârlılığı " + (u.nom ? "enflasyondan arındırılınca " : "") + pct(u.rr) + " (eşik " + pct(P.roeMin, 0) + ")", "Return on equity over the last 12 months is " + pct(u.rr) + (u.nom ? " after inflation" : "") + " (threshold " + pct(P.roeMin, 0) + ")");
+    case "moat": return L("Kalıcı bir rekabet üstünlüğü (hendek) yok ya da zayıf", "No durable competitive advantage (moat), or only a weak one");
+    case "mgmt": return L("Yönetim ve sermaye tahsisi testini geçemedi", "Did not pass the management and capital allocation test");
+    case "fragile": return L("Kazanç kalitesi ya da dayanıklılık testini geçemedi", "Did not pass the earnings quality or resilience test");
+    case "pending": return L("2. suru geçti; hendek ve yönetim incelemesi sırada", "Passed Wall 2; the moat and management review is in the queue");
     case "price": return "";
   }
   var l = C.L2[u.c]; return l ? l.fails.map(failText).join("; ") : "";
@@ -493,7 +537,7 @@ function draw() {
       var p = proj(k.c), foc = fx && k.cc === fx.cc;
       tower(p[0], p[1], foc ? 7 : 5.5, { fill: T.brass, stroke: T.ink, door: T["brass-soft"], lw: 1 });
       chits.push({ cc: k.cc, x: p[0], y: p[1], r: 13 });
-      if (st === 0 && !anim && !foc && !many) label(k.name, p[0], p[1] + 9, "500 11.5px " + FONT, T.ink, T.land);
+      if (st === 0 && !anim && !foc && !many) label(cname(k), p[0], p[1] + 9, "500 11.5px " + FONT, T.ink, T.land);
     });
   }
   if (st === 0 && !anim && fx && d3.geoDistance(fx.c, [cam.lon, cam.lat]) < 1.3) { var pp = proj(fx.c); pin.style.left = pp[0] + "px"; pin.style.top = pp[1] + "px"; pin.hidden = false; } else pin.hidden = true;
@@ -566,13 +610,13 @@ function draw() {
       var inKeep = st === 5 && stt === "kale", lab = labAll || (inKeep && nk <= 12) || u.c === S.sel || u.c === S.hover;
       if (lab && !anim) label(u.c, o.x, o.y + ts * 1.25, "600 " + (small ? 10.5 : st === 5 ? 13 : 12) + "px " + FONT, u.e === 3 ? T["ink-2"] : T.ink, inKeep ? T["brass-soft"] : null);
       if (lab && !anim && st === 5 && !small && !(inKeep && nk > 4) && (labAll || inKeep)) {
-        label("marj " + pct(val(u.c).mos, 0), o.x, o.y + ts * 1.25 + 16, "400 12px " + FONT, stt === "kale" ? T.brass : T.steel, inKeep ? T["brass-soft"] : null);
+        label(L("marj ", "margin ") + pct(val(u.c).mos, 0), o.x, o.y + ts * 1.25 + 16, "400 12px " + FONT, stt === "kale" ? T.brass : T.steel, inKeep ? T["brass-soft"] : null);
       }
     });
   }
   if (st >= 2 && !anim && m >= 380) { // etkin surun adı, en üstte
     var ai = st - 2, topPt = proj([W.c[0], W.c[1] + W.R[ai]]);
-    var names = ["1. sur: kırmızı çizgiler", "2. sur: kalite", "3. sur: hendek ve yönetim", "4. sur: fiyat"];
+    var names = [stFull(2), stFull(3), stFull(4), stFull(5)];
     if (topPt[1] > 44) label(names[ai], topPt[0], topPt[1] - 23, "500 13px " + FONT, T.stone);
   }
   var mark = S.sel || S.hover;
@@ -610,8 +654,8 @@ function enter(cc, step, sel) { // bir ülkeye gir: verisini yükle, haritada on
     if (sel && c.byC[sel]) select(sel, true); else { setHash(cc.toLowerCase()); go(step || 1); }
   };
   if (CACHE[cc]) { arrive(CACHE[cc]); return; }
-  toast(CTRY[cc].name + " yükleniyor…", true);
-  loadCountry(cc).then(arrive).catch(function () { toast("Veri yüklenemedi. Bağlantını kontrol edip yeniden dene."); });
+  toast(L(cname(CTRY[cc]) + " yükleniyor…", "Loading " + cname(CTRY[cc]) + "…"), true);
+  loadCountry(cc).then(arrive).catch(function () { toast(L("Veri yüklenemedi. Bağlantını kontrol edip yeniden dene.", "Could not load the data. Check your connection and try again.")); });
 }
 var settling = false;
 function settle() { // fiyat testini geçenler kaleye yürür
@@ -690,7 +734,7 @@ function endPointer(ev) {
     if (cc) { enter(cc, 1); return; }
     if (Math.hypot(p[0] - Wd / 2, p[1] - cam.cy) > cam.k) return;
     var iso = otherAt(p), q = iso && QUEUE[iso];
-    toast(q ? q.k.name + " henüz taranmadı; sırada " + q.i + ". ülke." : "Bu ülke henüz taranmadı.");
+    toast(q ? L(cname(q.k) + " henüz taranmadı; sırada " + q.i + ". ülke.", cname(q.k) + " has not been scanned yet; it is number " + q.i + " in the queue.") : L("Bu ülke henüz taranmadı.", "This country has not been scanned yet."));
     return;
   }
   var h = nearest(p[0], p[1]);
@@ -713,10 +757,10 @@ document.addEventListener("keydown", function (ev) {
 });
 function tipHtml(u) {
   var st = status(u), line;
-  if (st === "sirada") line = "2. suru geçti; 3. sur incelemesi sırada";
-  else if (u.e < 4) line = u.e + ". surda elendi: " + esc(u.e === 2 && u.w !== "roe_ttm" ? WHY[u.w] : why(u));
-  else { var v = val(u.c); line = (st === "kale" ? "Kale: dört suru da geçti" : "Kapıda bekliyor") + ", güvenlik marjı " + pct(v.mos, 0); }
-  return '<span class="tk">' + esc(u.c) + "</span> " + esc(u.n) + "<em>" + esc(u.s) + ", " + cap(u.m) + "</em><em>" + line + "</em>";
+  if (st === "sirada") line = L("2. suru geçti; 3. sur incelemesi sırada", "Passed Wall 2; the Wall 3 review is in the queue");
+  else if (u.e < 4) line = outAt(u.e) + ": " + esc(u.e === 2 && u.w !== "roe_ttm" ? whyS(u.w) : why(u));
+  else { var v = val(u.c); line = (st === "kale" ? L("Kale: dört suru da geçti", "Castle: passed all four walls") : L("Kapıda bekliyor", "Waiting at the gate")) + L(", güvenlik marjı ", ", margin of safety ") + pct(v.mos, 0); }
+  return '<span class="tk">' + esc(u.c) + "</span> " + esc(u.n) + "<em>" + esc(sec(u)) + ", " + cap(u.m) + "</em><em>" + line + "</em>";
 }
 var toastT = 0;
 function toast(msg, keep) { var t = $("#toast"); t.textContent = msg; t.hidden = false; clearTimeout(toastT); if (!keep) toastT = setTimeout(function () { t.hidden = true; }, 3400); }
@@ -735,207 +779,244 @@ function select(c, flyTo) {
 var TOWER = '<svg viewBox="0 0 22 24" aria-hidden="true"><path d="M2 23V5h3.6v3h3.6V5h3.6v3h3.6V5H20v18h-6.2v-5.2a2.8 2.8 0 0 0-5.6 0V23z" fill="FILL" stroke="STROKE" stroke-width="1.4"/></svg>';
 function towerSvg(kind) { return TOWER.replace("FILL", kind === "kale" ? "var(--brass)" : "var(--paper-2)").replace("STROKE", kind === "kale" ? "var(--brass)" : "var(--steel)"); }
 function ladder(k, live) {
-  var rows = [["Evren: borsadaki bütün şirketler", k.n], ["1. suru geçen: kırmızı çizgiler", k.p1], ["2. suru geçen: kalite", k.p2], ["3. suru geçen: hendek ve yönetim", k.p3], ["4. suru geçen: fiyat", live ? kaleN() : k.kale]];
+  var rows = [[L("Evren: borsadaki bütün şirketler", "Universe: every listed company"), k.n], [L("1. suru geçen: kırmızı çizgiler", "Passed Wall 1: red lines"), k.p1], [L("2. suru geçen: kalite", "Passed Wall 2: quality"), k.p2], [L("3. suru geçen: hendek ve yönetim", "Passed Wall 3: moat and management"), k.p3], [L("4. suru geçen: fiyat", "Passed Wall 4: price"), live ? kaleN() : k.kale]];
   return '<ol class="ladder">' + rows.map(function (r, i) {
-    return '<li class="' + (i === 4 ? "last" : "") + '"><span>' + r[0] + '</span><span class="n">' + r[1] + (i === 4 ? " kale" : "") + '</span><span class="b" style="--w:' + (100 * r[1] / Math.max(1, k.n)).toFixed(2) + '%"></span></li>';
+    return '<li class="' + (i === 4 ? "last" : "") + '"><span>' + r[0] + '</span><span class="n">' + r[1] + (i === 4 ? " " + kaleW(r[1]) : "") + '</span><span class="b" style="--w:' + (100 * r[1] / Math.max(1, k.n)).toFixed(2) + '%"></span></li>';
   }).join("") + "</ol>";
 }
 function groupBars(e) {
   var g = {}; C.U.forEach(function (u) { if (u.e === e && u.w !== "pending") g[u.w] = (g[u.w] || 0) + 1; });
   var keys = Object.keys(g).sort(function (a, b) { return g[b] - g[a]; }), mx = g[keys[0]];
   return '<ul class="bars">' + keys.map(function (k) {
-    return '<li><button data-filter="' + k + '" aria-pressed="' + (S.filter === k) + '"><span>' + WHY[k] + "</span><i>" + g[k] + '</i><span class="b" style="--w:' + (100 * g[k] / mx).toFixed(1) + '%"></span></button></li>';
+    return '<li><button data-filter="' + k + '" aria-pressed="' + (S.filter === k) + '"><span>' + whyS(k) + "</span><i>" + g[k] + '</i><span class="b" style="--w:' + (100 * g[k] / mx).toFixed(1) + '%"></span></button></li>';
   }).join("") + "</ul>";
 }
 function row(u, right, sub) { return '<li><button data-c="' + esc(u.c) + '"><span class="tk">' + esc(u.c) + '</span><span class="nm">' + esc(u.n) + '</span><span class="mc">' + right + '</span><span class="wy">' + esc(sub) + "</span></button></li>"; }
+function moreBtn(n) { return '<button class="link" data-more="1">' + L(Math.min(200, n) + " şirket daha göster (kalan " + n + ")", "Show " + Math.min(200, n) + " more (" + n + " left)") + "</button>"; }
 function rowList(e) {
   var list = C.U.filter(function (u) { return u.e === e && u.w !== "pending" && (!S.filter || u.w === S.filter); }).sort(function (a, b) { return b.m - a.m; });
   var shown = list.slice(0, S.show);
   var html = '<ul class="rows">' + shown.map(function (u) { return row(u, capS(u.m), why(u)); }).join("") + "</ul>";
-  if (list.length > S.show) html += '<button class="link" data-more="1">' + Math.min(200, list.length - S.show) + " şirket daha göster (kalan " + (list.length - S.show) + ")</button>";
-  return '<p class="more">' + (S.filter ? WHY[S.filter] + ": " : "Bu surda elenenler: ") + list.length + " şirket, piyasa değerine göre sıralı. Bir nedene tıklayınca liste süzülür.</p>" + html;
+  if (list.length > S.show) html += moreBtn(list.length - S.show);
+  return '<p class="more">' + (S.filter ? whyS(S.filter) + ": " : L("Bu surda elenenler: ", "Eliminated at this wall: ")) + n0.format(list.length) + " " + coW(list.length) + L(", piyasa değerine göre sıralı. Bir nedene tıklayınca liste süzülür.", ", sorted by market value. Click a reason to filter the list.") + "</p>" + html;
 }
 function card(u) {
   var v = val(u.c), st = status(u);
-  return '<button class="card ' + st + '" data-c="' + esc(u.c) + '">' + towerSvg(st) + '<span class="t"><span class="tk">' + esc(u.c) + "</span> " + esc(u.n) + '</span><span class="o">' + esc(C.R[u.c].one) + '</span><span class="m">' + pct(v.mos, 0) + "<small>güvenlik marjı</small></span></button>";
+  return '<button class="card ' + st + '" data-c="' + esc(u.c) + '">' + towerSvg(st) + '<span class="t"><span class="tk">' + esc(u.c) + "</span> " + esc(u.n) + '</span><span class="o">' + esc(rt(C.R[u.c], "one")) + '</span><span class="m">' + pct(v.mos, 0) + "<small>" + L("güvenlik marjı", "margin of safety") + "</small></span></button>";
 }
-function l3rows(list) { return '<ul class="rows">' + list.map(function (u) { return row(u, "hendek " + C.R[u.c].moat, C.R[u.c].one); }).join("") + "</ul>"; }
+function l3rows(list) { return '<ul class="rows">' + list.map(function (u) { return row(u, L("hendek ", "moat: ") + moatW(C.R[u.c].moat), rt(C.R[u.c], "one")); }).join("") + "</ul>"; }
+function cadence() { var c = IDX.cadence; return !c ? "" : typeof c === "string" ? c : (c[LANG] || c.tr || ""); }
 function panelWorld() {
-  var fx = focusIx(), h = "<h1>Bir ülkedeki bütün hisseleri dört surdan geçir</h1>" +
-    '<p class="lead">Castle, Buffett ve Munger\'ın ilkelerini bir süzgece çevirir. Ülkeyi seçersin; yaklaştıkça inceleme derinleşir ve geriye yalnızca kaleler kalır.</p>';
-  if (!fx) return h + '<p class="txt">Henüz taranmış ülke yok.</p>';
+  var fx = focusIx(), h = "<h1>" + L("Bir ülkedeki bütün hisseleri dört surdan geçir", "Run every stock in a country through four walls") + "</h1>" +
+    '<p class="lead">' + L("Castle, Buffett ve Munger'ın ilkelerini bir süzgece çevirir. Ülkeyi seçersin; yaklaştıkça inceleme derinleşir ve geriye yalnızca kaleler kalır.", "Castle turns the principles of Buffett and Munger into a filter. You pick a country; the closer you zoom in, the deeper the review, until only the castles remain.") + "</p>";
+  if (!fx) return h + '<p class="txt">' + L("Henüz taranmış ülke yok.", "No country has been scanned yet.") + "</p>";
+  var zoom = '<button class="cta" data-enter="' + fx.cc + '">' + L("Yaklaş: ", "Zoom in: ") + esc(cname(fx)) + "</button>";
   if (IDX.countries.length === 1) {
-    h += ladder(fx, C && C.cc === fx.cc) + '<button class="cta" data-enter="' + fx.cc + '">Yaklaş: ' + esc(fx.name) + "</button>";
+    h += ladder(fx, C && C.cc === fx.cc) + zoom;
   } else {
-    h += "<h3>Taranan ülkeler</h3>" + '<div class="cards">' + IDX.countries.map(function (k) {
-      return '<button class="card' + (k.cc === fx.cc ? " kale" : "") + '" data-enter="' + k.cc + '">' + towerSvg("kale") + '<span class="t">' + esc(k.name) + '</span><span class="o">' + n0.format(k.n) + " şirket tarandı, veri " + tarih(k.asof) + '</span><span class="m">' + k.kale + "<small>kale</small></span></button>";
+    h += "<h3>" + L("Taranan ülkeler", "Scanned countries") + "</h3>" + '<div class="cards">' + IDX.countries.map(function (k) {
+      return '<button class="card' + (k.cc === fx.cc ? " kale" : "") + '" data-enter="' + k.cc + '">' + towerSvg("kale") + '<span class="t">' + esc(cname(k)) + '</span><span class="o">' + n0.format(k.n) + L(" şirket tarandı, veri ", " companies scanned, data as of ") + tarih(k.asof) + '</span><span class="m">' + k.kale + "<small>" + kaleW(k.kale) + "</small></span></button>";
     }).join("") + "</div>";
-    h += "<h3>" + esc(fx.name) + ": süzgecin özeti</h3>" + ladder(fx, C && C.cc === fx.cc) + '<button class="cta" data-enter="' + fx.cc + '">Yaklaş: ' + esc(fx.name) + "</button>";
+    h += "<h3>" + esc(cname(fx)) + L(": süzgecin özeti", ": the filter at a glance") + "</h3>" + ladder(fx, C && C.cc === fx.cc) + zoom;
   }
   if (IDX.queue.length) {
-    var first = IDX.queue.slice(0, 6).map(function (q) { return q.name; });
-    h += "<h3>Sırada</h3>" + '<p class="txt">' + esc(first.join(", ")) + (IDX.queue.length > 6 ? " ve " + (IDX.queue.length - 6) + " ülke daha" : "") + ". Sıra, borsaların toplam piyasa değerine göre." + (IDX.cadence ? " " + esc(IDX.cadence) : "") + "</p>";
+    var first = IDX.queue.slice(0, 6).map(function (q) { return cname(q); }), rest = IDX.queue.length - 6;
+    h += "<h3>" + L("Sırada", "Next in line") + "</h3>" + '<p class="txt">' + esc(first.join(", ")) + (rest > 0 ? L(" ve " + rest + " ülke daha", " and " + rest + " more") : "") + L(". Sıra, borsaların toplam piyasa değerine göre.", ". The order follows total stock market value.") + (cadence() ? " " + esc(cadence()) : "") + "</p>";
   }
-  h += '<p class="note">Fiyatlar ve çarpanlar her ülkenin yanında yazan tarihin kapanışına göre. Castle bir analiz aracıdır; yatırım tavsiyesi vermez.</p>';
+  h += '<p class="note">' + L("Fiyatlar ve çarpanlar her ülkenin yanında yazan tarihin kapanışına göre. Castle bir analiz aracıdır; yatırım tavsiyesi vermez.", "Prices and multiples are as of the close on the date shown next to each country. Castle is an analysis tool; it does not give investment advice.") + "</p>";
   return h;
 }
 function panelStep() {
   var s = S.step, h = "";
   if (s === 0 || !C) return panelWorld();
-  var N = C.N, M = C.meta;
+  var N = C.N, M = C.meta, co = function (n) { return n0.format(n) + " " + coW(n); };
+  var passed = function (a, b) { return "<b>" + L(n0.format(a) + " şirketten " + n0.format(b) + " tanesi geçti.", n0.format(b) + " of " + co(a) + " passed.") + "</b> " + L("Elenen " + n0.format(a - b) + " şirketin nedeni:", "Why the other " + n0.format(a - b) + " were eliminated:"); };
+  var zoomTo = function (i) { return '<button class="cta" data-go="' + (i + 1) + '">' + L(i + ". sura yaklaş", "Zoom in to Wall " + i) + "</button>"; };
   if (s === 1) {
-    var sec = {}; C.U.forEach(function (u) { sec[u.s] = (sec[u.s] || 0) + 1; });
-    var top = Object.keys(sec).sort(function (a, b) { return sec[b] - sec[a]; }).slice(0, 7);
-    h = "<h2>" + esc(M.name) + ": " + n0.format(N.all) + " şirket</h2>" +
-      '<p class="txt">' + esc(M.exchange) + '\'da işlem gören bütün paylar; toplam piyasa değeri ' + cap(C.TOT) + '. Her nokta bir şirket, büyüklüğü piyasa değerini gösterir.</p>' +
-      '<p class="txt">Noktaların yeri coğrafi değildir. Ortadaki halkalar surlardır: bir şirket süzgeçte ne kadar ilerlediyse merkeze o kadar yakındır.</p>' +
-      "<h3>En kalabalık sektörler</h3>" + '<dl class="kv">' + top.map(function (k) { return "<dt>" + esc(k) + "</dt><dd>" + sec[k] + "</dd>"; }).join("") + "</dl>" +
-      '<button class="cta" data-go="2">1. sura yaklaş</button>' +
-      '<p class="note">Veri tarihi: ' + tarih(M.asof) + ".</p>";
+    var sc = {}; C.U.forEach(function (u) { var k = sec(u); sc[k] = (sc[k] || 0) + 1; });
+    var top = Object.keys(sc).sort(function (a, b) { return sc[b] - sc[a]; }).slice(0, 7);
+    h = "<h2>" + esc(mt("name")) + ": " + co(N.all) + "</h2>" +
+      '<p class="txt">' + L(esc(mt("exchange")) + ": işlem gören bütün paylar; toplam piyasa değeri " + cap(C.TOT) + ". Her nokta bir şirket, büyüklüğü piyasa değerini gösterir.", "All shares traded on " + esc(mt("exchange")) + "; total market value " + cap(C.TOT) + ". Each dot is a company; its size shows market value.") + "</p>" +
+      '<p class="txt">' + L("Noktaların yeri coğrafi değildir. Ortadaki halkalar surlardır: bir şirket süzgeçte ne kadar ilerlediyse merkeze o kadar yakındır.", "The dots are not placed geographically. The rings in the middle are the walls: the further a company gets through the filter, the closer it sits to the centre.") + "</p>" +
+      "<h3>" + L("En kalabalık sektörler", "Largest sectors") + "</h3>" + '<dl class="kv">' + top.map(function (k) { return "<dt>" + esc(k) + "</dt><dd>" + sc[k] + "</dd>"; }).join("") + "</dl>" +
+      zoomTo(1) +
+      '<p class="note">' + L("Veri tarihi: ", "Data as of ") + tarih(M.asof) + ".</p>";
   } else if (s === 2) {
-    h = "<h2>1. sur: kırmızı çizgiler</h2>" +
-      '<p class="txt">İlk bakışta uymayan şirketler burada kalır: son 12 ayda net kârı olmayanlar, işletme değil varlık sepeti olanlar ve çok küçük olanlar. Bu eleme bütün evren için saniyeler sürer.</p>' +
-      '<p class="txt"><b>' + n0.format(N.all) + " şirketten " + n0.format(N.p1) + " tanesi geçti.</b> Elenen " + n0.format(N.all - N.p1) + " şirketin nedeni:</p>" + groupBars(1) + rowList(1) +
-      '<button class="cta" data-go="3">2. sura yaklaş</button>';
+    h = "<h2>" + stFull(2) + "</h2>" +
+      '<p class="txt">' + L("İlk bakışta uymayan şirketler burada kalır: son 12 ayda net kârı olmayanlar, işletme değil varlık sepeti olanlar ve çok küçük olanlar. Bu eleme bütün evren için saniyeler sürer.", "Companies that clearly do not fit stop here: those with no net profit in the last 12 months, those that are asset baskets rather than operating businesses, and those that are too small. This cut takes seconds for the whole universe.") + "</p>" +
+      '<p class="txt">' + passed(N.all, N.p1) + "</p>" + groupBars(1) + rowList(1) + zoomTo(2);
   } else if (s === 3) {
-    h = "<h2>2. sur: kalite</h2>" +
-      '<p class="txt">Kalan şirketlerin son beş yılı incelenir. Aranan: enflasyondan arındırılmış, yüksek ve istikrarlı özsermaye kârlılığı; az borç; nakde dönen kâr.</p>' +
-      '<p class="txt"><b>' + n0.format(N.p1) + " şirketten " + n0.format(N.p2) + " tanesi geçti.</b> Elenen " + n0.format(N.p1 - N.p2) + " şirketin nedeni:</p>" + groupBars(2) + rowList(2) +
-      '<button class="cta" data-go="4">3. sura yaklaş</button>';
+    h = "<h2>" + stFull(3) + "</h2>" +
+      '<p class="txt">' + L("Kalan şirketlerin son beş yılı incelenir. Aranan: enflasyondan arındırılmış, yüksek ve istikrarlı özsermaye kârlılığı; az borç; nakde dönen kâr.", "The last five years of the remaining companies are reviewed. What we look for: a high and stable return on equity after inflation, little debt, and profit that turns into cash.") + "</p>" +
+      '<p class="txt">' + passed(N.p1, N.p2) + "</p>" + groupBars(2) + rowList(2) + zoomTo(3);
   } else if (s === 4) {
     var out3 = C.U.filter(function (u) { return u.e === 3 && u.w !== "pending"; }), pend = C.U.filter(function (u) { return u.e === 3 && u.w === "pending"; });
-    h = "<h2>3. sur: hendek ve yönetim</h2>" +
-      '<p class="txt">Rakamları iyi olan ' + N.p2 + " şirketin her biri tek tek okunur. Soru şu: bu kârı rakipten koruyan kalıcı bir üstünlük var mı, ve yönetim sermayeyi ortak gibi kullanıyor mu?</p>" +
-      '<p class="txt"><b>' + N.p3 + " şirket geçti, " + out3.length + " şirket elendi" + (pend.length ? ", " + pend.length + " şirket sırada" : "") + ".</b> Bu sur yargıya dayanır; gerekçesi her şirketin sayfasında yazılı.</p>" +
-      "<h3>Geçenler</h3>" + (N.p3 ? l3rows(C.E4.slice().sort(function (a, b) { return b.m - a.m; })) : '<p class="txt">Bu surdan geçen şirket yok.</p>') +
-      (out3.length ? "<h3>Elenenler</h3>" + l3rows(out3.sort(function (a, b) { return b.m - a.m; })) : "");
+    h = "<h2>" + stFull(4) + "</h2>" +
+      '<p class="txt">' + L("Rakamları iyi olan " + N.p2 + " şirketin her biri tek tek okunur. Soru şu: bu kârı rakipten koruyan kalıcı bir üstünlük var mı, ve yönetim sermayeyi ortak gibi kullanıyor mu?", "Each of the " + co(N.p2) + " with good numbers is read one by one. The question: is there a durable advantage that protects these profits from competitors, and does management allocate capital the way an owner would?") + "</p>" +
+      '<p class="txt"><b>' + L(N.p3 + " şirket geçti, " + out3.length + " şirket elendi" + (pend.length ? ", " + pend.length + " şirket sırada" : "") + ".", N.p3 + " passed, " + out3.length + " were eliminated" + (pend.length ? ", " + pend.length + " are in the queue" : "") + ".") + "</b> " + L("Bu sur yargıya dayanır; gerekçesi her şirketin sayfasında yazılı.", "This wall rests on judgment; the reasoning is on each company's page.") + "</p>" +
+      "<h3>" + L("Geçenler", "Passed") + "</h3>" + (N.p3 ? l3rows(C.E4.slice().sort(function (a, b) { return b.m - a.m; })) : '<p class="txt">' + L("Bu surdan geçen şirket yok.", "No company passed this wall.") + "</p>") +
+      (out3.length ? "<h3>" + L("Elenenler", "Eliminated") + "</h3>" + l3rows(out3.sort(function (a, b) { return b.m - a.m; })) : "");
     if (pend.length) {
       pend.sort(function (a, b) { return val(b.c).mos - val(a.c).mos; });
-      h += "<h3>Sırada bekleyenler</h3>" + '<p class="more">Bu şirketler rakam testlerini geçti; hendek ve yönetim incelemesi henüz yapılmadı. Önce fiyatı en uygun olanlar okunur.</p>' +
-        '<ul class="rows">' + pend.slice(0, S.show).map(function (u) { return row(u, capS(u.m), "Dar hendek varsayımıyla güvenlik marjı " + pct(val(u.c).mos, 0)); }).join("") + "</ul>" +
-        (pend.length > S.show ? '<button class="link" data-more="1">' + Math.min(200, pend.length - S.show) + " şirket daha göster (kalan " + (pend.length - S.show) + ")</button>" : "");
+      h += "<h3>" + L("Sırada bekleyenler", "In the queue") + "</h3>" + '<p class="more">' + L("Bu şirketler rakam testlerini geçti; hendek ve yönetim incelemesi henüz yapılmadı. Önce fiyatı en uygun olanlar okunur.", "These companies passed the number tests; the moat and management review has not been done yet. The most attractively priced ones are read first.") + "</p>" +
+        '<ul class="rows">' + pend.slice(0, S.show).map(function (u) { return row(u, capS(u.m), L("Dar hendek varsayımıyla güvenlik marjı " + pct(val(u.c).mos, 0), "Margin of safety " + pct(val(u.c).mos, 0) + ", assuming a narrow moat")); }).join("") + "</ul>" +
+        (pend.length > S.show ? moreBtn(pend.length - S.show) : "");
     }
-    h += '<button class="cta" data-go="5">4. sura yaklaş</button>';
+    h += zoomTo(4);
   } else {
     var all = C.E4.slice().sort(function (a, b) { return val(b.c).mos - val(a.c).mos; });
     var ks = all.filter(function (u) { return val(u.c).kale; }), bs = all.filter(function (u) { return !val(u.c).kale; });
-    h = "<h2>4. sur: fiyat</h2>" +
-      '<p class="txt">İyi iş her fiyata alınmaz. Her şirket için temkinli kazanca dayalı bir değer hesaplanır; fiyat bu değerin en az ' + pct(P.mos, 0) + " altındaysa şirket kaleye girer. Diğerleri kapıda bekler.</p>" +
-      "<h3>Kaleler" + (ks.length ? "" : ": bugün yok") + "</h3>" +
-      (ks.length ? '<div class="cards">' + ks.map(card).join("") + "</div>" : '<p class="txt">Bu varsayımlarla hiçbir şirket fiyat testini geçmiyor. Liste boş kalabilir; süzgecin işi de budur.</p>') +
-      "<h3>Kapıda bekleyenler</h3>" + (bs.length ? '<div class="cards">' + bs.map(card).join("") + "</div>" : '<p class="txt">Bekleyen yok.</p>') +
-      (N.pend ? '<p class="note">' + N.pend + " şirket 3. surda sırada bekliyor; okundukça bu listeye eklenebilir.</p>" : "") +
-      '<p class="note">Kale, şirketin dört ölçütü de bugünkü fiyatla geçtiğini gösterir; al tavsiyesi değildir. Getiri eşiği reel ' + pct(P.r, 1) + ", güvenlik marjı " + pct(P.mos, 0) + '. <button class="link" data-method="1">Varsayımları değiştir</button></p>';
+    h = "<h2>" + stFull(5) + "</h2>" +
+      '<p class="txt">' + L("İyi iş her fiyata alınmaz. Her şirket için temkinli kazanca dayalı bir değer hesaplanır; fiyat bu değerin en az " + pct(P.mos, 0) + " altındaysa şirket kaleye girer. Diğerleri kapıda bekler.", "A good business is not worth any price. A value based on conservative earnings is calculated for each company; if the price is at least " + pct(P.mos, 0) + " below that value, the company enters the castle. The others wait at the gate.") + "</p>" +
+      "<h3>" + L("Kaleler", "Castles") + (ks.length ? "" : L(": bugün yok", ": none today")) + "</h3>" +
+      (ks.length ? '<div class="cards">' + ks.map(card).join("") + "</div>" : '<p class="txt">' + L("Bu varsayımlarla hiçbir şirket fiyat testini geçmiyor. Liste boş kalabilir; süzgecin işi de budur.", "With these assumptions no company passes the price test. The list may stay empty; that is the filter doing its job.") + "</p>") +
+      "<h3>" + L("Kapıda bekleyenler", "Waiting at the gate") + "</h3>" + (bs.length ? '<div class="cards">' + bs.map(card).join("") + "</div>" : '<p class="txt">' + L("Bekleyen yok.", "No one is waiting.") + "</p>") +
+      (N.pend ? '<p class="note">' + L(N.pend + " şirket 3. surda sırada bekliyor; okundukça bu listeye eklenebilir.", co(N.pend) + " in the queue at Wall 3; they may join this list as they are read.") + "</p>" : "") +
+      '<p class="note">' + L("Kale, şirketin dört ölçütü de bugünkü fiyatla geçtiğini gösterir; al tavsiyesi değildir. Getiri eşiği reel " + pct(P.r, 1) + ", güvenlik marjı " + pct(P.mos, 0) + ".", "A castle means the company passes all four criteria at today's price; it is not a recommendation to buy. Required real return " + pct(P.r, 1) + ", margin of safety " + pct(P.mos, 0) + ".") + ' <button class="link" data-method="1">' + L("Varsayımları değiştir", "Change the assumptions") + "</button></p>";
   }
   return h;
 }
 function roeChart(c) {
-  var l = C.L2[c], u = C.byC[c], M = C.meta, vals = l.rroe, labs = M.years.concat(["Son 12 ay"]), era = M.era || labs;
+  var l = C.L2[c], u = C.byC[c], M = C.meta, vals = l.rroe, yrs = l.fy || M.years, labs = yrs.concat([L("Son 12 ay", "Last 12m")]), era = M.era || null;
   var have = vals.filter(function (v) { return v != null; }); if (have.length < 2) return "";
   var hi = Math.min(120, Math.max(40, Math.ceil(Math.max.apply(null, have) / 20) * 20)), lo = Math.max(-60, Math.min(0, Math.floor(Math.min.apply(null, have) / 20) * 20));
   var n = vals.length, X0 = 34, X1 = 316, Y0 = 16, Y1 = 132, bw = (X1 - X0) / n;
   var y = function (v) { return Y1 - ((clamp(v, lo, hi) - lo) / (hi - lo)) * (Y1 - Y0); };
-  var s = '<svg viewBox="0 0 320 162" role="img" aria-label="Özsermaye kârlılığı: ' + vals.map(function (v, i) { return labs[i] + " " + (v == null ? "veri yok" : pct(v, 0)); }).join(", ") + '">';
+  var s = '<svg viewBox="0 0 320 162" role="img" aria-label="' + L("Özsermaye kârlılığı: ", "Return on equity: ") + vals.map(function (v, i) { return (i === n - 1 ? L("son 12 ay", "last 12 months") : labs[i]) + " " + (v == null ? L("veri yok", "no data") : pct(v, 0)); }).join(", ") + '">';
   for (var t = lo; t <= hi; t += (hi - lo) > 100 ? 40 : 20) s += '<line x1="' + X0 + '" x2="' + X1 + '" y1="' + y(t) + '" y2="' + y(t) + '" stroke="var(--line)" stroke-width="' + (t === 0 ? 1.2 : 0.6) + '"/><text x="' + (X0 - 5) + '" y="' + (y(t) + 3.5) + '" text-anchor="end" font-size="9.5" fill="var(--ink-2)">' + t + "</text>";
   s += '<line x1="' + X0 + '" x2="' + X1 + '" y1="' + y(P.eraAvg) + '" y2="' + y(P.eraAvg) + '" stroke="var(--brass)" stroke-width="1" stroke-dasharray="4 3"/>';
   vals.forEach(function (v, i) {
-    var cx = X0 + bw * i + bw / 2, inEra = i === n - 1 || era.indexOf(M.years[i]) >= 0;
+    var cx = X0 + bw * i + bw / 2, inEra = i === n - 1 || !era || era.indexOf(yrs[i]) >= 0 || yrs[i] > era[era.length - 2];
     s += '<text x="' + cx + '" y="' + (Y1 + 13) + '" text-anchor="middle" font-size="9.5" fill="var(--ink-2)">' + labs[i] + "</text>";
-    if (v == null) { s += '<text x="' + cx + '" y="' + (y(0) - 4) + '" text-anchor="middle" font-size="9.5" fill="var(--ink-3)">yok</text>'; return; }
+    if (v == null) { s += '<text x="' + cx + '" y="' + (y(0) - 4) + '" text-anchor="middle" font-size="9.5" fill="var(--ink-3)">' + L("yok", "n/a") + "</text>"; return; }
     var yv = y(v), y0 = y(0), top = Math.min(yv, y0), hh = Math.max(1.5, Math.abs(yv - y0));
     var fill = v < 0 ? "var(--bad)" : !inEra ? "var(--d1)" : i === n - 1 ? "var(--ink)" : "var(--stone)";
     s += '<rect x="' + (cx - bw * 0.31) + '" y="' + top + '" width="' + bw * 0.62 + '" height="' + hh + '" rx="1.5" fill="' + fill + '"/>';
     s += '<text x="' + cx + '" y="' + (v < 0 ? yv + 11 : yv - 4) + '" text-anchor="middle" font-size="10" fill="var(--ink)">' + num(v, 0) + (v > hi ? " ↑" : "") + "</text>";
   });
   s += "</svg>";
-  var capt = (u.nom ? (M.chart_note_nominal || "Özsermaye kârlılığı (%), yıllık enflasyondan arındırılmış.") : (M.chart_note || "Özsermaye kârlılığı (%).")) + " Kesik çizgi, " + pct(P.eraAvg, 0) + "'lik ortalama eşiğidir. Son sütun kaynağın en güncel okumasıdır ve son çeyreği içermeyebilir.";
+  var capt = (u.nom ? (M.chart_note_nominal ? mt("chart_note_nominal") : L("Özsermaye kârlılığı (%), yıllık enflasyondan arındırılmış.", "Return on equity (%), adjusted for annual inflation.")) : (M.chart_note ? mt("chart_note") : L("Özsermaye kârlılığı (%).", "Return on equity (%)."))) +
+    L(" Kesik çizgi, " + pct(P.eraAvg, 0) + "'lik ortalama eşiğidir. Son sütun kaynağın en güncel okumasıdır ve son çeyreği içermeyebilir.", " The dashed line is the " + pct(P.eraAvg, 0) + " average threshold. The last column is the source's most recent reading and may not include the latest quarter.");
   return '<figure class="fig">' + s + "<figcaption>" + esc(capt) + "</figcaption></figure>";
 }
 function gauge(u, v) {
-  var mx = Math.max(v.iv, u.p) * 1.14, X0 = 8, X1 = 312, x = function (a) { return X0 + (a / mx) * (X1 - X0); };
-  var s = '<svg viewBox="0 0 320 86" role="img" aria-label="Fiyat ' + n2.format(u.p) + ", alım eşiği " + n2.format(v.buy) + ", temkinli değer " + n2.format(v.iv) + " " + esc(cur()) + '">';
+  var mx = Math.max(v.iv, u.p) * 1.14, X0 = 8, X1 = 312, x = function (a) { return X0 + (a / mx) * (X1 - X0); }, pc = esc(pcur(u));
+  var s = '<svg viewBox="0 0 320 86" role="img" aria-label="' + L("Fiyat ", "Price ") + n2.format(u.p) + L(", alım eşiği ", ", threshold price ") + n2.format(v.buy) + L(", temkinli değer ", ", conservative value ") + n2.format(v.iv) + " " + pc + '">';
   s += '<rect x="' + X0 + '" y="38" width="' + (X1 - X0) + '" height="8" rx="4" fill="var(--line)"/>';
   s += '<rect x="' + X0 + '" y="38" width="' + (x(v.buy) - X0) + '" height="8" rx="4" fill="var(--brass)" opacity=".8"/>';
   s += '<line x1="' + x(v.buy) + '" x2="' + x(v.buy) + '" y1="30" y2="54" stroke="var(--brass)" stroke-width="1.5" stroke-dasharray="3 2"/>';
   s += '<line x1="' + x(v.iv) + '" x2="' + x(v.iv) + '" y1="30" y2="54" stroke="var(--ink)" stroke-width="1.5"/>';
   s += '<circle cx="' + x(u.p) + '" cy="42" r="6.5" fill="var(--paper-2)" stroke="var(--steel)" stroke-width="3"/>';
   var anc = function (a) { return x(a) < 70 ? "start" : x(a) > 250 ? "end" : "middle"; };
-  s += '<text x="' + x(v.buy) + '" y="24" text-anchor="' + anc(v.buy) + '" font-size="10.5" fill="var(--brass)">alım eşiği ' + n2.format(v.buy) + "</text>";
-  s += '<text x="' + x(v.iv) + '" y="12" text-anchor="' + anc(v.iv) + '" font-size="10.5" fill="var(--ink)">temkinli değer ' + n2.format(v.iv) + "</text>";
-  s += '<text x="' + x(u.p) + '" y="70" text-anchor="' + anc(u.p) + '" font-size="10.5" fill="var(--steel)">fiyat ' + n2.format(u.p) + " " + esc(cur()) + "</text>";
-  return '<figure class="fig">' + s + "</svg><figcaption>Hisse başına " + esc(cur()) + ". Sarı bölüm, güvenlik marjı eşiğinin altındaki fiyat aralığıdır; fiyat bu bölümdeyse şirket kaledir.</figcaption></figure>";
+  s += '<text x="' + x(v.buy) + '" y="24" text-anchor="' + anc(v.buy) + '" font-size="10.5" fill="var(--brass)">' + L("alım eşiği ", "threshold price ") + n2.format(v.buy) + "</text>";
+  s += '<text x="' + x(v.iv) + '" y="12" text-anchor="' + anc(v.iv) + '" font-size="10.5" fill="var(--ink)">' + L("temkinli değer ", "conservative value ") + n2.format(v.iv) + "</text>";
+  s += '<text x="' + x(u.p) + '" y="70" text-anchor="' + anc(u.p) + '" font-size="10.5" fill="var(--steel)">' + L("fiyat ", "price ") + n2.format(u.p) + " " + pc + "</text>";
+  return '<figure class="fig">' + s + "</svg><figcaption>" + L("Hisse başına " + pc + ". Sarı bölüm, güvenlik marjı eşiğinin altındaki fiyat aralığıdır; fiyat bu bölümdeyse şirket kaledir.", "Per share, in " + pc + ". The yellow section is the price range below the margin-of-safety threshold; if the price is in this section, the company is a castle.") + "</figcaption></figure>";
 }
 function dots(n, mx) { var s = ""; for (var i = 0; i < mx; i++) s += i < n ? "●" : "○"; return s; }
 function panelCo(c) {
   var u = C.byC[c], l = C.L2[c], r = C.R[c], st = status(u), M = C.meta, v = (u.e === 4 || st === "sirada") ? val(c) : null, h = "";
-  h += '<button class="back" data-back="1">' + esc(STEPS[S.step].t + (STEPS[S.step].sub ? ": " + STEPS[S.step].sub.toLowerCase() : "")) + " görünümüne dön</button>";
-  h += '<div class="head"><h2><span class="tk">' + esc(u.c) + "</span> " + esc(u.n) + '</h2><span class="sec">' + esc(u.s) + ", " + esc(M.name) + "</span></div>";
-  h += '<span class="pill ' + st + '">' + (st === "kale" ? "Kale: dört suru da geçti" : st === "bekle" ? "Kapıda bekliyor: fiyat testini geçemedi" : st === "sirada" ? "3. surda sırada: henüz okunmadı" : u.e + ". surda elendi") + "</span>";
-  if (r) h += '<p class="lead">' + esc(r.one) + "</p>";
-  h += '<dl class="facts"><div><dt>Fiyat, ' + tarih(M.asof) + "</dt><dd>" + money(u.p) + "</dd></div><div><dt>Piyasa değeri</dt><dd>" + cap(u.m) + "</dd></div><div><dt>F/K, son 12 ay</dt><dd>" + (u.pe == null ? "hesaplanamıyor" : num(u.pe)) + "</dd></div><div><dt>PD/DD</dt><dd>" + (u.pb == null ? "hesaplanamıyor" : num(u.pb)) + "</dd></div><div><dt>Özsermaye kârlılığı, son 12 ay</dt><dd>" + (u.roe == null ? "–" : pct(u.roe)) + (u.nom && u.rr != null ? "<small>reel " + pct(u.rr) + "</small>" : "") + "</dd></div>" + (u.f != null ? "<div><dt>Halka açıklık</dt><dd>" + pct(u.f) + "</dd></div>" : "") + "<div><dt>Son bilanço dönemi</dt><dd>" + esc(donem(u.per)) + "</dd></div></dl>";
-  var steps = [["1. sur: kırmızı çizgiler", 1], ["2. sur: kalite", 2], ["3. sur: hendek ve yönetim", 3], ["4. sur: fiyat", 4]];
-  h += "<h3>Süzgeçteki yolu</h3><ol class=\"path\">" + steps.map(function (s) {
-    var i = s[1], cls, mk, sub = "", tail = "";
-    if (u.e > i) { cls = "ok"; mk = "✓"; tail = ", geçti"; }
-    else if (u.e === i && i < 4 && u.w === "pending") { cls = "wt"; mk = "…"; tail = ", sırada"; sub = "Rakam testlerini geçti; hendek ve yönetim incelemesi henüz yapılmadı"; }
-    else if (u.e === i && i < 4) { cls = "no"; mk = "✕"; tail = ", geçemedi"; sub = why(u); }
-    else if (u.e === 4 && i === 4) { cls = v.kale ? "ok" : "no"; mk = v.kale ? "✓" : "✕"; tail = v.kale ? ", geçti" : ", geçemedi"; sub = "Güvenlik marjı " + pct(v.mos, 1) + " (eşik " + pct(P.mos, 0) + ")"; }
-    else { cls = "na"; mk = "–"; sub = "Bu sura gelmedi"; }
-    return '<li><span class="' + cls + '" aria-hidden="true">' + mk + "</span><span>" + s[0] + tail + (sub ? "<small>" + esc(sub) + "</small>" : "") + "</span></li>";
+  h += '<button class="back" data-back="1">' + esc(L(stFull(S.step) + " görünümüne dön", "Back to " + stFull(S.step))) + "</button>";
+  h += '<div class="head"><h2><span class="tk">' + esc(u.c) + "</span> " + esc(u.n) + '</h2><span class="sec">' + esc(sec(u)) + ", " + esc(mt("name")) + "</span></div>";
+  h += '<span class="pill ' + st + '">' + (st === "kale" ? L("Kale: dört suru da geçti", "Castle: passed all four walls") : st === "bekle" ? L("Kapıda bekliyor: fiyat testini geçemedi", "Waiting at the gate: did not pass the price test") : st === "sirada" ? L("3. surda sırada: henüz okunmadı", "In the queue at Wall 3: not read yet") : outAt(u.e)) + "</span>";
+  if (r) h += '<p class="lead">' + esc(rt(r, "one")) + "</p>";
+  var na = L("hesaplanamıyor", "not available");
+  h += '<dl class="facts"><div><dt>' + L("Fiyat, ", "Price, ") + tarih(M.asof) + "</dt><dd>" + money(u.p, u) + "</dd></div><div><dt>" + L("Piyasa değeri", "Market value") + "</dt><dd>" + cap(u.m) + "</dd></div><div><dt>" + L("F/K, son 12 ay", "P/E, last 12 months") + "</dt><dd>" + (u.pe == null ? na : num(u.pe)) + "</dd></div><div><dt>" + L("PD/DD", "P/B") + "</dt><dd>" + (u.pb == null ? na : num(u.pb)) + "</dd></div><div><dt>" + L("Özsermaye kârlılığı, son 12 ay", "Return on equity, last 12 months") + "</dt><dd>" + (u.roe == null ? "–" : pct(u.roe)) + (u.nom && u.rr != null ? "<small>" + L("reel ", "real ") + pct(u.rr) + "</small>" : "") + "</dd></div>" + (u.f != null ? "<div><dt>" + L("Halka açıklık", "Free float") + "</dt><dd>" + pct(u.f) + "</dd></div>" : "") + "<div><dt>" + L("Son bilanço dönemi", "Latest reporting period") + "</dt><dd>" + esc(donem(u.per)) + "</dd></div></dl>";
+  var pass = L(", geçti", ": passed"), fail = L(", geçemedi", ": did not pass");
+  h += "<h3>" + L("Süzgeçteki yolu", "Path through the filter") + '</h3><ol class="path">' + [1, 2, 3, 4].map(function (i) {
+    var cls, mk, sub = "", tail = "";
+    if (u.e > i) { cls = "ok"; mk = "✓"; tail = pass; }
+    else if (u.e === i && i < 4 && u.w === "pending") { cls = "wt"; mk = "…"; tail = L(", sırada", ": in the queue"); sub = L("Rakam testlerini geçti; hendek ve yönetim incelemesi henüz yapılmadı", "Passed the number tests; the moat and management review has not been done yet"); }
+    else if (u.e === i && i < 4) { cls = "no"; mk = "✕"; tail = fail; sub = why(u); }
+    else if (u.e === 4 && i === 4) { cls = v.kale ? "ok" : "no"; mk = v.kale ? "✓" : "✕"; tail = v.kale ? pass : fail; sub = L("Güvenlik marjı ", "Margin of safety ") + pct(v.mos, 1) + L(" (eşik ", " (threshold ") + pct(P.mos, 0) + ")"; }
+    else { cls = "na"; mk = "–"; sub = L("Bu sura gelmedi", "Did not reach this wall"); }
+    return '<li><span class="' + cls + '" aria-hidden="true">' + mk + "</span><span>" + stFull(i + 1) + tail + (sub ? "<small>" + esc(sub) + "</small>" : "") + "</span></li>";
   }).join("") + "</ol>";
   if (l && l.rroe.some(function (x) { return x != null; })) {
-    h += "<h3>Beş yılın rakamları</h3>" + roeChart(c);
-    var kv = "", era = M.era_label || "Son beş yılda";
-    era = era.charAt(0).toLocaleUpperCase("tr") + era.slice(1);
-    if (l.avg != null) kv += "<dt>" + esc(era) + " ortalama özsermaye kârlılığı</dt><dd>" + pct(l.avg) + "</dd><dt>" + esc(era) + " en düşük okuma</dt><dd>" + pct(l.mn) + "</dd>";
-    if (l.nd != null && !u.fin) kv += "<dt>Net borç / FAVÖK</dt><dd>" + (l.nd < 0 ? "net nakit" : num(l.nd, 2)) + "</dd>";
+    h += "<h3>" + L("Beş yılın rakamları", "Five years of numbers") + "</h3>" + roeChart(c);
+    var kv = "", era = eraL(), eraT = era.charAt(0).toLocaleUpperCase("tr") + era.slice(1);
+    if (l.avg != null) kv += "<dt>" + esc(L(eraT + " ortalama özsermaye kârlılığı", "Average return on equity, " + era)) + "</dt><dd>" + pct(l.avg) + "</dd><dt>" + esc(L(eraT + " en düşük okuma", "Lowest reading, " + era)) + "</dt><dd>" + pct(l.mn) + "</dd>";
+    if (l.nd != null && !u.fin) kv += "<dt>" + L("Net borç / FAVÖK", "Net debt / EBITDA") + "</dt><dd>" + (l.nd < 0 ? L("net nakit", "net cash") : num(l.nd, 2)) + "</dd>";
     var f5 = u.fin ? [] : l.fcf.slice(1).filter(function (x) { return x != null; });
-    if (f5.length) kv += "<dt>Serbest nakit akışı pozitif dönem</dt><dd>" + f5.filter(function (x) { return x > 0; }).length + " / " + f5.length + "</dd>";
-    if (l.dy != null) kv += "<dt>Temettü verimi</dt><dd>" + pct(l.dy) + "</dd>";
+    if (f5.length) kv += "<dt>" + L("Serbest nakit akışı pozitif dönem", "Periods with positive free cash flow") + "</dt><dd>" + f5.filter(function (x) { return x > 0; }).length + " / " + f5.length + "</dd>";
+    if (l.dy != null) kv += "<dt>" + L("Temettü verimi", "Dividend yield") + "</dt><dd>" + pct(l.dy) + "</dd>";
     if (kv) h += '<dl class="kv">' + kv + "</dl>";
-    if (l.flags && l.flags.length) h += '<p class="note">Uyarı: ' + esc(l.flags.map(flagText).join("; ")) + ".</p>";
-    if (l.stale) h += '<p class="note">Bu şirketin beş yıllık veri sayfası güncel değildi; kalite testi doğrulanamadı.</p>';
+    if (l.flags && l.flags.length) h += '<p class="note">' + L("Uyarı: ", "Note: ") + esc(l.flags.map(flagText).join("; ")) + ".</p>";
+    if (l.stale) h += '<p class="note">' + L("Bu şirketin beş yıllık veri sayfası güncel değildi; kalite testi doğrulanamadı.", "This company's five-year data page was not up to date; the quality test could not be verified.") + "</p>";
   } else if (u.e <= 2) {
-    h += '<p class="note">' + (l ? "Bu şirket için beş yıllık veri bulunamadı." : "Bu şirket ilk iki elemede kaldığı için beş yıllık inceleme yapılmadı.") + "</p>";
+    h += '<p class="note">' + (l ? L("Bu şirket için beş yıllık veri bulunamadı.", "No five-year data was found for this company.") : L("Bu şirket ilk iki elemede kaldığı için beş yıllık inceleme yapılmadı.", "This company was eliminated in the first two cuts, so no five-year review was done.")) + "</p>";
   }
+  var nt = C.Nt[c]; if (nt) h += '<p class="note">' + esc(LANG === "en" && nt.en ? nt.en : nt.tr) + "</p>";
   if (v) {
-    h += "<h3>Fiyat testi" + (st === "sirada" ? " (ön hesap)" : "") + "</h3>" + gauge(u, v) + '<dl class="kv">' +
-      "<dt>Temkinli özsermaye kârlılığı<small>son üç okumanın en düşüğü</small></dt><dd><b>" + pct(v.roeN) + "</b></dd>" +
-      "<dt>Temkinli kazanca göre F/K</dt><dd>" + num(v.pen) + "</dd>" +
-      "<dt>Adil çarpan<small>reel getiri eşiği " + pct(P.r, 1) + ", büyüme payı " + pct(v.g, 1) + (r ? " (hendek " + r.moat + ")" : " (dar hendek varsayımı)") + "</small></dt><dd>" + num(v.fair) + "</dd>" +
-      "<dt>Güvenlik marjı</dt><dd><b>" + pct(v.mos) + "</b></dd>" +
-      "<dt>Alım eşiği<small>marj " + pct(P.mos, 0) + " için</small></dt><dd>" + money(v.buy) + "</dd></dl>";
-    if (st === "sirada") h += '<p class="note">Bu bir ön hesaptır. Şirket 3. surda okunmadan kale sayılmaz.</p>';
+    h += "<h3>" + L("Fiyat testi", "Price test") + (st === "sirada" ? L(" (ön hesap)", " (preliminary)") : "") + "</h3>" + gauge(u, v) + '<dl class="kv">' +
+      "<dt>" + L("Temkinli özsermaye kârlılığı", "Conservative return on equity") + "<small>" + L("son üç okumanın en düşüğü", "lowest of the last three readings") + "</small></dt><dd><b>" + pct(v.roeN) + "</b></dd>" +
+      "<dt>" + L("Temkinli kazanca göre F/K", "P/E on conservative earnings") + "</dt><dd>" + num(v.pen) + "</dd>" +
+      "<dt>" + L("Adil çarpan", "Fair multiple") + "<small>" + L("reel getiri eşiği ", "required real return ") + pct(P.r, 1) + L(", büyüme payı ", ", growth allowance ") + pct(v.g, 1) + (r ? L(" (hendek " + r.moat + ")", " (moat: " + moatW(r.moat) + ")") : L(" (dar hendek varsayımı)", " (assuming a narrow moat)")) + "</small></dt><dd>" + num(v.fair) + "</dd>" +
+      "<dt>" + L("Güvenlik marjı", "Margin of safety") + "</dt><dd><b>" + pct(v.mos) + "</b></dd>" +
+      "<dt>" + L("Alım eşiği", "Threshold price") + "<small>" + L("marj " + pct(P.mos, 0) + " için", "for a margin of " + pct(P.mos, 0)) + "</small></dt><dd>" + money(v.buy, u) + "</dd></dl>";
+    if (st === "sirada") h += '<p class="note">' + L("Bu bir ön hesaptır. Şirket 3. surda okunmadan kale sayılmaz.", "This is a preliminary calculation. A company does not count as a castle until it has been read at Wall 3.") + "</p>";
   }
   if (r) {
-    var sc = r.scores;
-    h += "<h3>İş</h3><p class=\"txt\">" + esc(r.business) + "</p>";
-    h += "<h3>Hendek: " + esc(r.moat) + "</h3><p class=\"txt\">" + esc(r.moat_text) + "</p>";
-    h += "<h3>Yönetim ve sermaye</h3><p class=\"txt\">" + esc(r.mgmt) + "</p>";
-    h += '<dl class="scores"><dt>Anlaşılırlık</dt><dd aria-label="' + sc.A + ' / 2">' + dots(sc.A, 2) + '</dd><dt>Hendek</dt><dd aria-label="' + sc.B + ' / 3">' + dots(sc.B, 3) + '</dd><dt>Kazancın öngörülebilirliği</dt><dd aria-label="' + sc.C + ' / 2">' + dots(sc.C, 2) + '</dd><dt>Yönetim ve sermaye tahsisi</dt><dd aria-label="' + sc.D + ' / 2">' + dots(sc.D, 2) + '</dd><dt>Dayanıklılık</dt><dd aria-label="' + sc.E + ' / 2">' + dots(sc.E, 2) + "</dd></dl>";
-    h += "<h3>Son gelişme</h3><p class=\"txt\">" + esc(r.latest) + "</p>";
-    if (r.risks && r.risks.length) h += "<h3>Bu tezi ne bozar</h3><ul class=\"ul\">" + r.risks.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul>";
-    if (r.watch && r.watch.length) h += "<h3>İzlenecekler</h3><ul class=\"ul\">" + r.watch.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul>";
-    if (r.sources && r.sources.length) h += "<h3>Kaynaklar</h3><ul class=\"src\">" + r.sources.map(function (x) { return '<li><a href="' + esc(x.u) + '" target="_blank" rel="noopener">' + esc(x.t) + "</a></li>"; }).join("") + "</ul>";
+    var sc = r.scores, risks = rt(r, "risks"), watch = rt(r, "watch");
+    var SC = [["A", 2, L("Anlaşılırlık", "Understandability")], ["B", 3, L("Hendek", "Moat")], ["C", 2, L("Kazancın öngörülebilirliği", "Predictability of earnings")], ["D", 2, L("Yönetim ve sermaye tahsisi", "Management and capital allocation")], ["E", 2, L("Dayanıklılık", "Resilience")]];
+    var li = function (x) { return "<li>" + esc(x) + "</li>"; };
+    h += "<h3>" + L("İş", "Business") + '</h3><p class="txt">' + esc(rt(r, "business")) + "</p>";
+    h += "<h3>" + L("Hendek: ", "Moat: ") + esc(moatW(r.moat)) + '</h3><p class="txt">' + esc(rt(r, "moat_text")) + "</p>";
+    h += "<h3>" + L("Yönetim ve sermaye", "Management and capital") + '</h3><p class="txt">' + esc(rt(r, "mgmt")) + "</p>";
+    h += '<dl class="scores">' + SC.map(function (x) { return "<dt>" + x[2] + '</dt><dd aria-label="' + sc[x[0]] + " / " + x[1] + '">' + dots(sc[x[0]], x[1]) + "</dd>"; }).join("") + "</dl>";
+    h += "<h3>" + L("Son gelişme", "Latest development") + '</h3><p class="txt">' + esc(rt(r, "latest")) + "</p>";
+    if (risks && risks.length) h += "<h3>" + L("Bu tezi ne bozar", "What would break this thesis") + '</h3><ul class="ul">' + risks.map(li).join("") + "</ul>";
+    if (watch && watch.length) h += "<h3>" + L("İzlenecekler", "What to watch") + '</h3><ul class="ul">' + watch.map(li).join("") + "</ul>";
+    if (r.sources && r.sources.length) h += "<h3>" + L("Kaynaklar", "Sources") + '</h3><ul class="src">' + r.sources.map(function (x) { return '<li><a href="' + esc(x.u) + '" target="_blank" rel="noopener">' + esc(LANG === "en" && x.te ? x.te : x.t) + "</a></li>"; }).join("") + "</ul>";
   }
-  h += '<div class="ask" id="ask" hidden><h3>Analiste sor</h3><p class="note">Sorun, bu şirketin verisiyle birlikte Claude\'a gönderilir ve kendi Claude kullanımından düşer. Analist yalnızca bu sayfadaki veriyi bilir; güncel haber aramaz.</p><div class="conv" id="askout"></div><div class="chips"><button data-qq="Bu şirket süzgeçte neden bu noktada kaldı? Kısaca anlat.">Neden burada?</button><button data-qq="Bu şirket için tezi en çok ne bozar?">Tezi ne bozar?</button><button data-qq="Hangi koşullar değişirse bu şirketin süzgeçteki durumu değişir?">Ne değişirse durum değişir?</button></div><textarea id="askq" placeholder="Sorunu yaz" aria-label="Analiste soru"></textarea><div class="ask-row"><button class="cta" id="askgo">Sor</button><button class="ghost" id="askstop" hidden>Durdur</button></div></div>';
+  var Q = [[L("Neden burada?", "Why here?"), L("Bu şirket süzgeçte neden bu noktada kaldı? Kısaca anlat.", "Why did this company end up at this point in the filter? Explain briefly.")], [L("Tezi ne bozar?", "What breaks the thesis?"), L("Bu şirket için tezi en çok ne bozar?", "What is most likely to break the thesis for this company?")], [L("Ne değişirse durum değişir?", "What would change its status?"), L("Hangi koşullar değişirse bu şirketin süzgeçteki durumu değişir?", "Which conditions would have to change for this company's status in the filter to change?")]];
+  h += '<div class="ask" id="ask" hidden><h3>' + L("Analiste sor", "Ask the analyst") + '</h3><p class="note">' + L("Sorun, bu şirketin verisiyle birlikte Claude'a gönderilir ve kendi Claude kullanımından düşer. Analist yalnızca bu sayfadaki veriyi bilir; güncel haber aramaz.", "Your question is sent to Claude together with this company's data and counts against your own Claude usage. The analyst knows only the data on this page; it does not search for current news.") + '</p><div class="conv" id="askout"></div><div class="chips">' + Q.map(function (x) { return '<button data-qq="' + esc(x[1]) + '">' + x[0] + "</button>"; }).join("") + '</div><textarea id="askq" placeholder="' + L("Sorunu yaz", "Type your question") + '" aria-label="' + L("Analiste soru", "Question for the analyst") + '"></textarea><div class="ask-row"><button class="cta" id="askgo">' + L("Sor", "Ask") + '</button><button class="ghost" id="askstop" hidden>' + L("Durdur", "Stop") + "</button></div></div>";
   return h;
+}
+function applyStatic() { // sayfanın sabit yazıları
+  var set = function (sel, attr, v) { var el = $(sel); if (!el) return; if (attr === "text") el.textContent = v; else el.setAttribute(attr, v); };
+  $("#app").lang = LANG; try { document.documentElement.lang = LANG; } catch (e) {}
+  var narrow = !!(window.matchMedia && window.matchMedia("(max-width:560px)").matches);
+  set("#home", "aria-label", L("Castle, dünya haritasına dön", "Castle, back to the world map"));
+  set("#q", "placeholder", narrow ? L("Ara", "Search") : L("Hisse, ülke ara", "Search stock or country"));
+  set("#q", "aria-label", L("Ara: hisse kodu, şirket adı ya da ülke", "Search: ticker, company name or country"));
+  set("#method", "text", L("Yöntem", "Method"));
+  set("#map", "aria-label", L("Harita", "Map"));
+  set("#cv", "aria-label", L("Dünya haritası. Bir ülke seçilince şirketleri görünür; süzgeçte ilerleyen şirket merkeze yaklaşır. Aynı bilgi yandaki listelerde de var.", "World map. Selecting a country shows its companies; a company that advances through the filter moves toward the centre. The same information is in the lists alongside."));
+  set("#rail", "aria-label", L("Surlar", "Walls"));
+  set("#sheetin", "aria-label", L("Yöntem", "Method"));
+  set("#lang", "aria-label", L("Dil", "Language"));
+  var bs = document.querySelectorAll("#lang button"); for (var i = 0; i < bs.length; i++) bs[i].setAttribute("aria-pressed", String(bs[i].dataset.lang === LANG));
+}
+function setLang(l) {
+  if ((l !== "tr" && l !== "en") || l === LANG) return;
+  LANG = l; try { localStorage.setItem("castle.lang", l); } catch (e) {}
+  applyStatic(); $("#ql").hidden = true; $("#tip").hidden = true; ui(); draw();
+  if (!$("#sheet").hidden) openMethod();
 }
 function ui() {
   var st = $("#steps"), fx = focusIx(), k = C ? null : fx;
-  var counts = C ? [null, n0.format(C.N.all), n0.format(C.N.p1), C.N.p2, C.N.p3, kaleN() + " kale"] : k ? [null, n0.format(k.n), n0.format(k.p1), k.p2, k.p3, k.kale + " kale"] : [null, "", "", "", "", ""];
+  var kc = function (n) { return n + " " + kaleW(n); };
+  var counts = C ? [null, n0.format(C.N.all), n0.format(C.N.p1), C.N.p2, C.N.p3, kc(kaleN())] : k ? [null, n0.format(k.n), n0.format(k.p1), k.p2, k.p3, kc(k.kale)] : [null, "", "", "", "", ""];
   st.innerHTML = STEPS.map(function (s, i) {
-    return '<li><button data-go="' + i + '"' + (i === S.step ? ' aria-current="step"' : "") + ' title="' + esc(s.t + (s.sub ? ": " + s.sub.toLowerCase() : "")) + '"><b' + (counts[i] ? ' class="hasn"' : "") + ">" + s.t + "</b><i>" + (counts[i] != null ? counts[i] : "") + "</i></button></li>";
+    return '<li><button data-go="' + i + '"' + (i === S.step ? ' aria-current="step"' : "") + ' title="' + esc(stFull(i)) + '"><b' + (counts[i] ? ' class="hasn"' : "") + ">" + stT(i) + "</b><i>" + (counts[i] != null ? counts[i] : "") + "</i></button></li>";
   }).join("");
   $("#prev").disabled = S.step === 0; $("#next").disabled = S.step === 5 || !fx;
-  $("#next").textContent = S.step === 0 && fx ? "Yaklaş: " + fx.name : "Yaklaş";
+  $("#prev").textContent = L("Uzaklaş", "Zoom out");
+  $("#next").textContent = S.step === 0 && fx ? L("Yaklaş: ", "Zoom in: ") + cname(fx) : L("Yaklaş", "Zoom in");
   var curB = st.querySelector('[aria-current="step"]'); if (curB && curB.scrollIntoView) { try { curB.scrollIntoView({ block: "nearest", inline: "nearest" }); } catch (e) {} }
-  if (fx) $("#pinl").textContent = fx.name + ": " + n0.format(fx.n) + " şirket, " + (C && C.cc === fx.cc ? kaleN() : fx.kale) + " kale";
-  $("#sub").textContent = C && S.step > 0 ? "değer yatırımı atlası: " + C.meta.name + ", veri " + tarih(C.meta.asof) : "değer yatırımı atlası";
+  if (fx) $("#pinl").textContent = cname(fx) + ": " + n0.format(fx.n) + " " + coW(fx.n) + ", " + kc(C && C.cc === fx.cc ? kaleN() : fx.kale);
+  var tag = L("değer yatırımı atlası", "value investing atlas");
+  $("#sub").textContent = C && S.step > 0 ? tag + ": " + mt("name") + L(", veri ", ", data as of ") + tarih(C.meta.asof) : tag;
   var lg = $("#legend");
   if (S.step >= 1 && C) {
+    var LG = ["", L("Her nokta bir şirket. Merkeze yakın olan, süzgeçte daha ileri gitti.", "Each dot is a company. The closer to the centre, the further it got through the filter."),
+      L("Kırmızılar bu surda elendi, koyular geçti.", "Red dots were eliminated at this wall; dark ones passed."),
+      L("Kırmızılar bu surda elendi; sarılar bir sonraki sura geçti.", "Red dots were eliminated at this wall; yellow ones moved on to the next."),
+      L("Gri kuleler elendi, koyu kuleler geçti.", "Grey towers were eliminated; dark towers passed.") + (C.N.pend ? L(" İçi boş halkalar sırada.", " Hollow rings are in the queue.") : ""),
+      L("Bayraklı kuleler kale; diğerleri kapıda bekliyor.", "Towers with a flag are castles; the others are waiting at the gate.")];
     lg.hidden = false;
-    lg.innerHTML = "<b>" + (S.step === 1 ? esc(C.meta.name) + ": " + n0.format(C.N.all) + " şirket" : STEPS[S.step].t + ": " + STEPS[S.step].sub.toLowerCase()) + "</b>" + ["", "Her nokta bir şirket. Merkeze yakın olan, süzgeçte daha ileri gitti.", "Kırmızılar bu surda elendi, koyular geçti.", "Kırmızılar bu surda elendi; sarılar bir sonraki sura geçti.", "Gri kuleler elendi, koyu kuleler geçti." + (C.N.pend ? " İçi boş halkalar sırada." : ""), "Bayraklı kuleler kale; diğerleri kapıda bekliyor."][S.step];
+    lg.innerHTML = "<b>" + (S.step === 1 ? esc(mt("name")) + ": " + n0.format(C.N.all) + " " + coW(C.N.all) : stFull(S.step)) + "</b>" + LG[S.step];
   } else lg.hidden = true;
   $("#panel").innerHTML = S.sel && C ? panelCo(S.sel) : panelStep();
   if (S.sel && C) wireAsk();
@@ -962,14 +1043,14 @@ $("#home").addEventListener("click", function () { go(0); });
 var qi = $("#q"), ql = $("#ql");
 qi.addEventListener("input", function () {
   var q = fold(qi.value.trim()); if (!q) { ql.hidden = true; return; }
-  var html = IDX.countries.filter(function (k) { return fold(k.name).indexOf(q) === 0 || k.cc.toLowerCase() === q; }).slice(0, 3).map(function (k) {
-    return '<button data-enter="' + k.cc + '"><span class="tk">' + k.cc + '</span><span class="nm">' + esc(k.name) + "</span><small>" + k.kale + " kale</small></button>";
+  var html = IDX.countries.filter(function (k) { return fold(k.name).indexOf(q) === 0 || fold(k.name_en || "").indexOf(q) === 0 || k.cc.toLowerCase() === q; }).slice(0, 3).map(function (k) {
+    return '<button data-enter="' + k.cc + '"><span class="tk">' + k.cc + '</span><span class="nm">' + esc(cname(k)) + "</span><small>" + k.kale + " " + kaleW(k.kale) + "</small></button>";
   }).join("");
   if (C) {
     var m = C.U.filter(function (u) { return fold(u.c).indexOf(q) === 0; }).concat(C.U.filter(function (u) { return fold(u.c).indexOf(q) !== 0 && fold(u.n).indexOf(q) >= 0; })).slice(0, 7);
-    html += m.map(function (u) { var s = status(u); return '<button data-c="' + esc(u.c) + '"><span class="tk">' + esc(u.c) + '</span><span class="nm">' + esc(u.n) + "</span><small>" + (s === "kale" ? "kale" : s === "bekle" ? "kapıda" : s === "sirada" ? "sırada" : u.e + ". surda elendi") + "</small></button>"; }).join("");
+    html += m.map(function (u) { var s = status(u); return '<button data-c="' + esc(u.c) + '"><span class="tk">' + esc(u.c) + '</span><span class="nm">' + esc(u.n) + "</span><small>" + (s === "kale" ? L("kale", "castle") : s === "bekle" ? L("kapıda", "at the gate") : s === "sirada" ? L("sırada", "in the queue") : L(u.e + ". surda elendi", "out at Wall " + u.e)) + "</small></button>"; }).join("");
   }
-  ql.innerHTML = html || '<button disabled>' + (C ? "Eşleşen hisse ya da ülke yok" : "Hisse aramak için önce bir ülkeye gir") + "</button>";
+  ql.innerHTML = html || '<button disabled>' + (C ? L("Eşleşen hisse ya da ülke yok", "No matching stock or country") : L("Hisse aramak için önce bir ülkeye gir", "Enter a country first to search for stocks")) + "</button>";
   ql.hidden = false;
 });
 ql.addEventListener("click", function (ev) {
@@ -983,34 +1064,51 @@ document.addEventListener("click", function (ev) { if (!ev.target.closest(".find
 /* ---------- yöntem ---------- */
 function methodHtml() {
   var N = C ? C.N : null, M = C ? C.meta : null;
-  var cnt = function (a, b, suffix) { return N ? n0.format(a) + " şirketten " + n0.format(b) + (suffix || " geçti.") : ""; };
-  return '<div class="sheet-top"><h2>Yöntem</h2><button class="ghost" id="mclose">Kapat</button></div>' +
-    '<p class="txt">Castle, bir ülkedeki bütün halka açık şirketleri dört aşamada eler. Her aşama bir öncekinden daha az şirkete, daha derin bakar. Eşikler aşağıda açıkça yazılıdır' + (M ? "; sayılar " + esc(M.name) + " içindir" : "") + ".</p>" +
+  var cnt = function (a, b) { return N ? L(n0.format(a) + " şirketten " + n0.format(b) + " geçti.", n0.format(b) + " of " + n0.format(a) + " companies passed.") : ""; };
+  var ul = function (items) { return "<ul>" + items.map(function (x) { return "<li>" + x + "</li>"; }).join("") + "</ul>"; };
+  return '<div class="sheet-top"><h2>' + L("Yöntem", "Method") + '</h2><button class="ghost" id="mclose">' + L("Kapat", "Close") + "</button></div>" +
+    '<p class="txt">' + L("Castle, bir ülkedeki bütün halka açık şirketleri dört aşamada eler. Her aşama bir öncekinden daha az şirkete, daha derin bakar. Eşikler aşağıda açıkça yazılıdır" + (M ? "; sayılar " + esc(mt("name")) + " içindir" : "") + ".", "Castle filters every listed company in a country in four stages. Each stage looks at fewer companies, in more depth, than the one before. The thresholds are written out below" + (M ? "; the numbers are for " + esc(mt("name")) : "") + ".") + "</p>" +
     '<ol class="walls">' +
-    "<li><b>1. sur: kırmızı çizgiler</b>" + (N ? cnt(N.all, N.p1) : "") + "<ul><li>Gayrimenkul yatırım ortaklıkları ve yatırım ortaklıkları dışarıda kalır: bunlar işletme değil, varlık sepetidir.</li><li>Son 12 ay için net kârı olmayan, yani F/K oranı hesaplanamayan şirket dışarıda kalır.</li><li>" + (M ? esc(M.small_rule) : "Çok küçük şirketler (yaklaşık 60 milyon doların altı) dışarıda kalır.") + "</li></ul></li>" +
-    "<li><b>2. sur: kalite</b>" + (N ? cnt(N.p1, N.p2) : "") + "<ul><li>Son 12 ay özsermaye kârlılığı en az " + pct(P.roeMin, 0) + ".</li><li>En az beş yıllık mali geçmiş; beş yılda hiç zarar yılı yok.</li><li>Enflasyondan arındırılmış özsermaye kârlılığının ortalaması en az " + pct(P.eraAvg, 0) + " ve hiçbir okuma " + pct(P.eraMin, 0) + "'un altında değil.</li><li>Net borç / FAVÖK en çok " + num(P.ndMax, 0) + ".</li><li>Serbest nakit akışı son beş dönemin en az ikisinde pozitif.</li><li>Borç ve nakit testleri banka, sigorta, aracı kurum ve holdinglere uygulanmaz; bu ölçüler onlar için anlamlı değildir.</li></ul></li>" +
-    "<li><b>3. sur: hendek ve yönetim</b>" + (N ? cnt(N.p2, N.p3) + (N.pend ? " " + N.pend + " şirket sırada." : "") : "") + "<ul><li>Beş puan verilir: anlaşılırlık, hendek, kazancın öngörülebilirliği, yönetim ve sermaye tahsisi, dayanıklılık.</li><li>Hendek en az dar olmalı ve hiçbir puan sıfır olmamalı.</li><li>Bu sur yargıya dayanır. Gerekçesi her şirketin sayfasında yazılıdır.</li><li>Büyük borsalarda bu okuma sırayla yapılır: önce fiyatı en uygun olanlar.</li></ul></li>" +
-    "<li><b>4. sur: fiyat</b>" + (N ? n0.format(N.p3) + ' şirketten <span id="mk">' + kaleN() + "</span> kale." : "") + "<ul><li>Temkinli kazanç: özkaynak çarpı son üç özsermaye kârlılığı okumasının en düşüğü.</li><li>Adil çarpan: 100 bölü (reel getiri eşiği eksi büyüme payı). Büyüme payı geniş hendekte " + pct(P.gWide, 0) + ", dar hendekte " + pct(P.gNarrow, 1) + ".</li><li>Fiyat, temkinli değerin güvenlik marjı kadar altındaysa şirket kaledir.</li></ul></li></ol>" +
-    "<h3>Varsayımları değiştir</h3>" +
-    '<div class="sl"><label for="sr">Reel getiri eşiği</label><output id="or" for="sr">' + pct(P.r, 1) + '</output><input id="sr" type="range" min="7" max="14" step="0.5" value="' + P.r + '"></div>' +
-    '<div class="sl"><label for="sm">Güvenlik marjı</label><output id="om" for="sm">' + pct(P.mos, 0) + '</output><input id="sm" type="range" min="0" max="50" step="5" value="' + P.mos + '"></div>' +
-    '<p class="note" id="mres"></p><p><button class="link" id="mreset">Başlangıç değerlerine dön (' + pct(P0.r, 0) + " ve " + pct(P0.mos, 0) + ")</button></p>" +
-    "<h3>İlkeler ve kaynakları</h3>" +
-    '<p class="txt">Analist bir kişiyi taklit etmez. Warren Buffett\'ın 1977\'den bu yana yayımlanan ortak mektuplarındaki ilkeleri uygular. Her ilkenin altında hangi mektuba dayandığı ve Castle\'ın onu hangi kurala çevirdiği yazılıdır.</p>' +
+    "<li><b>" + stFull(2) + "</b>" + (N ? cnt(N.all, N.p1) : "") + ul([
+      L("Gayrimenkul yatırım ortaklıkları ve yatırım ortaklıkları dışarıda kalır: bunlar işletme değil, varlık sepetidir.", "Real estate investment trusts and investment trusts are left out: they are asset baskets, not operating businesses."),
+      L("Son 12 ay için net kârı olmayan, yani F/K oranı hesaplanamayan şirket dışarıda kalır.", "A company with no net profit over the last 12 months, meaning no P/E ratio can be calculated, is left out."),
+      M ? esc(mt("small_rule")) : L("Çok küçük şirketler (yaklaşık 60 milyon doların altı) dışarıda kalır.", "Very small companies (below roughly 60 million US dollars) are left out.")]) + "</li>" +
+    "<li><b>" + stFull(3) + "</b>" + (N ? cnt(N.p1, N.p2) : "") + ul([
+      L("Son 12 ay özsermaye kârlılığı en az " + pct(P.roeMin, 0) + ".", "Return on equity over the last 12 months of at least " + pct(P.roeMin, 0) + "."),
+      L("En az beş yıllık mali geçmiş; beş yılda hiç zarar yılı yok.", "At least five years of financial history, with no loss-making year in those five years."),
+      L("Enflasyondan arındırılmış özsermaye kârlılığının ortalaması en az " + pct(P.eraAvg, 0) + " ve hiçbir okuma " + pct(P.eraMin, 0) + "'un altında değil.", "Average return on equity after inflation of at least " + pct(P.eraAvg, 0) + ", and no single reading below " + pct(P.eraMin, 0) + "."),
+      L("Net borç / FAVÖK en çok " + num(P.ndMax, 0) + ".", "Net debt / EBITDA of at most " + num(P.ndMax, 0) + "."),
+      L("Serbest nakit akışı son beş dönemin en az ikisinde pozitif.", "Free cash flow positive in at least two of the last five periods."),
+      L("Borç ve nakit testleri banka, sigorta, aracı kurum ve holdinglere uygulanmaz; bu ölçüler onlar için anlamlı değildir.", "The debt and cash tests are not applied to banks, insurers, brokers and holding companies; these measures are not meaningful for them.")]) + "</li>" +
+    "<li><b>" + stFull(4) + "</b>" + (N ? cnt(N.p2, N.p3) + (N.pend ? " " + L(N.pend + " şirket sırada.", N.pend + " in the queue.") : "") : "") + ul([
+      L("Beş puan verilir: anlaşılırlık, hendek, kazancın öngörülebilirliği, yönetim ve sermaye tahsisi, dayanıklılık.", "Five scores are given: understandability, moat, predictability of earnings, management and capital allocation, resilience."),
+      L("Hendek en az dar olmalı ve hiçbir puan sıfır olmamalı.", "The moat must be at least narrow, and no score may be zero."),
+      L("Bu sur yargıya dayanır. Gerekçesi her şirketin sayfasında yazılıdır.", "This wall rests on judgment. The reasoning is written on each company's page."),
+      L("Büyük borsalarda bu okuma sırayla yapılır: önce fiyatı en uygun olanlar.", "In large markets this reading is done in order: the most attractively priced companies first.")]) + "</li>" +
+    "<li><b>" + stFull(5) + "</b>" + (N ? L(n0.format(N.p3) + ' şirketten <span id="mk">' + kaleN() + "</span> kale.", 'Castles among ' + n0.format(N.p3) + ' companies: <span id="mk">' + kaleN() + "</span>.") : "") + ul([
+      L("Temkinli kazanç: özkaynak çarpı son üç özsermaye kârlılığı okumasının en düşüğü.", "Conservative earnings: equity times the lowest of the last three return-on-equity readings."),
+      L("Adil çarpan: 100 bölü (reel getiri eşiği eksi büyüme payı). Büyüme payı geniş hendekte " + pct(P.gWide, 0) + ", dar hendekte " + pct(P.gNarrow, 1) + ".", "Fair multiple: 100 divided by (required real return minus growth allowance). The growth allowance is " + pct(P.gWide, 0) + " for a wide moat and " + pct(P.gNarrow, 1) + " for a narrow one."),
+      L("Fiyat, temkinli değerin güvenlik marjı kadar altındaysa şirket kaledir.", "If the price is below the conservative value by at least the margin of safety, the company is a castle.")]) + "</li></ol>" +
+    "<h3>" + L("Varsayımları değiştir", "Change the assumptions") + "</h3>" +
+    '<div class="sl"><label for="sr">' + L("Reel getiri eşiği", "Required real return") + '</label><output id="or" for="sr">' + pct(P.r, 1) + '</output><input id="sr" type="range" min="7" max="14" step="0.5" value="' + P.r + '"></div>' +
+    '<div class="sl"><label for="sm">' + L("Güvenlik marjı", "Margin of safety") + '</label><output id="om" for="sm">' + pct(P.mos, 0) + '</output><input id="sm" type="range" min="0" max="50" step="5" value="' + P.mos + '"></div>' +
+    '<p class="note" id="mres"></p><p><button class="link" id="mreset">' + L("Başlangıç değerlerine dön (" + pct(P0.r, 0) + " ve " + pct(P0.mos, 0) + ")", "Reset to the starting values (" + pct(P0.r, 0) + " and " + pct(P0.mos, 0) + ")") + "</button></p>" +
+    "<h3>" + L("İlkeler ve kaynakları", "Principles and their sources") + "</h3>" +
+    '<p class="txt">' + L("Analist bir kişiyi taklit etmez. Warren Buffett'ın 1977'den bu yana yayımlanan ortak mektuplarındaki ilkeleri uygular. Her ilkenin altında hangi mektuba dayandığı ve Castle'ın onu hangi kurala çevirdiği yazılıdır.", "The analyst does not imitate a person. It applies the principles in Warren Buffett's shareholder letters, published since 1977. Under each principle you can see which letter it rests on and which rule Castle turned it into.") + "</p>" +
     '<ul class="pr">' + IDX.CH.map(function (p) {
-      return "<li><span><b>" + esc(p.k) + "</b> <small>" + esc(p.w) + "</small></span><span>" + esc(p.t) + '</span><span class="ap">Castle\'da: ' + esc(p.a) + '</span><span class="sr">Kaynak: Berkshire Hathaway ortak mektubu ' + p.src.map(function (s) { return '<a href="' + esc(s.u) + '" target="_blank" rel="noopener">' + esc(s.y) + "</a>"; }).join(", ") + "</span></li>";
+      return "<li><span><b>" + esc(chv(p, "k")) + "</b> <small>" + esc(chv(p, "w")) + "</small></span><span>" + esc(chv(p, "t")) + '</span><span class="ap">' + L("Castle'da: ", "In Castle: ") + esc(chv(p, "a")) + '</span><span class="sr">' + L("Kaynak: Berkshire Hathaway ortak mektubu ", "Source: Berkshire Hathaway shareholder letter ") + p.src.map(function (s) { return '<a href="' + esc(s.u) + '" target="_blank" rel="noopener">' + esc(s.y) + "</a>"; }).join(", ") + "</span></li>";
     }).join("") + "</ul>" +
-    "<h3>Enflasyon</h3><p class=\"txt\">" + (M ? esc(M.inflation_note) : "Kârlılık her ülkede enflasyondan arındırılarak okunur. Enflasyon muhasebesi uygulayan şirketlerin rakamları zaten reeldir; diğerlerinin kârlılığı o ülkenin yıllık tüketici enflasyonuyla düzeltilir.") + "</p>" +
-    "<h3>Veri ve sınırlar</h3><ul class=\"ul\">" +
-    (M ? M.data_notes.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "<li>Veri canlı değildir: bu ülke için son güncelleme " + tarih(M.asof) + ".</li>" : "<li>Her ülkenin verisi, o ülkenin yanında yazan tarihin kapanışına aittir.</li>") +
-    "<li>1. sur bilerek katıdır. Geçici bir zarar yılı yaşayan iyi bir şirketi de eler.</li>" +
-    "<li>3. sur yargı içerir; başka bir analist farklı puan verebilir.</li>" +
-    "<li>Castle bir analiz aracıdır. Yatırım tavsiyesi vermez; kimsenin kişisel durumunu bilmez.</li></ul>";
+    "<h3>" + L("Enflasyon", "Inflation") + '</h3><p class="txt">' + (M ? esc(mt("inflation_note")) : L("Kârlılık her ülkede enflasyondan arındırılarak okunur. Enflasyon muhasebesi uygulayan şirketlerin rakamları zaten reeldir; diğerlerinin kârlılığı o ülkenin yıllık tüketici enflasyonuyla düzeltilir.", "In every country, returns are read after inflation. Companies that apply inflation accounting already report real figures; for the others, returns are adjusted by that country's annual consumer inflation.")) + "</p>" +
+    "<h3>" + L("Veri ve sınırlar", "Data and limits") + '</h3><ul class="ul">' +
+    (M ? mt("data_notes").map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "<li>" + L("Veri canlı değildir: bu ülke için son güncelleme " + tarih(M.asof) + ".", "The data is not live: the last update for this country was " + tarih(M.asof) + ".") + "</li>" : "<li>" + L("Her ülkenin verisi, o ülkenin yanında yazan tarihin kapanışına aittir.", "Each country's data is as of the close on the date shown next to it.") + "</li>") +
+    "<li>" + L("1. sur bilerek katıdır. Geçici bir zarar yılı yaşayan iyi bir şirketi de eler.", "Wall 1 is strict on purpose. It also eliminates a good company that has had one temporary loss-making year.") + "</li>" +
+    "<li>" + L("3. sur yargı içerir; başka bir analist farklı puan verebilir.", "Wall 3 involves judgment; another analyst could give different scores.") + "</li>" +
+    "<li>" + L("Castle bir analiz aracıdır. Yatırım tavsiyesi vermez; kimsenin kişisel durumunu bilmez.", "Castle is an analysis tool. It does not give investment advice, and it knows nothing about anyone's personal circumstances.") + "</li></ul>";
 }
 function methodRes() {
-  if (!C) { $("#mres").textContent = "Sonucu görmek için bir ülkeye gir."; return; }
+  if (!C) { $("#mres").textContent = L("Sonucu görmek için bir ülkeye gir.", "Enter a country to see the result."); return; }
   var ks = kales().map(function (u) { return u.c; });
-  $("#mres").textContent = ks.length ? "Bu varsayımlarla " + C.meta.name + " için kale: " + ks.join(", ") + "." : "Bu varsayımlarla " + C.meta.name + " için hiçbir şirket kale değil.";
+  $("#mres").textContent = ks.length ? L("Bu varsayımlarla " + mt("name") + " için kale: " + ks.join(", ") + ".", "Castles for " + mt("name") + " with these assumptions: " + ks.join(", ") + ".") : L("Bu varsayımlarla " + mt("name") + " için hiçbir şirket kale değil.", "With these assumptions no company in " + mt("name") + " is a castle.");
   var mk = $("#mk"); if (mk) mk.textContent = ks.length;
 }
 function openMethod() {
@@ -1033,20 +1131,42 @@ $("#sheet").addEventListener("click", function (ev) { if (ev.target === ev.curre
 /* ---------- analiste sor (yalnızca Claude içinde açılır) ---------- */
 var sampleFn = null, sampleOff = false, live = null, turns = {};
 function rulesFor(c) {
-  var u = C.byC[c], l = C.L2[c] || null, r = C.R[c] || null, M = C.meta, st = status(u), v = (u.e === 4 || st === "sirada") ? val(c) : null;
-  return "Sen Castle adlı değer yatırımı aracının analistisin. Görevin, aşağıdaki şirketi Warren Buffett'ın ortak mektuplarında yayımlanmış ilkelere göre değerlendirmek.\n\n" +
-    "Kurallar:\n- Yalnızca aşağıda verilen veriyi kullan. Veride olmayan bir rakamı ya da olayı uydurma; bilmiyorsan 'bu veride yok' de.\n- Buffett ya da Munger adına konuşma, onlara söz atfetme. İlkeleri uygula ve kendi adına yaz.\n- Kişiye özel al ya da sat tavsiyesi verme. Şirketin ölçütleri geçip geçmediğini ve nedenini anlat.\n- Sade Türkçe ile, adım adım ve kısa yaz: en çok 180 kelime. Önce sonucu söyle, sonra kanıtı rakamla göster.\n- Madde işareti, başlık ya da Markdown kullanma; düz paragraflar yaz.\n- Ülke: " + M.name + ". Para birimi: " + M.cur + ". Veri tarihi: " + tarih(M.asof) + ". Daha yeni bir gelişmeyi bilemezsin; sorulursa bunu söyle.\n\n" +
-    "İlkeler (her biri için önce ilke, sonra Castle'daki kuralı):\n" + IDX.CH.map(function (p) { return "- " + p.k + " (" + p.w + "): " + p.t + " Castle'da: " + p.a; }).join("\n") + "\n\n" +
-    "Süzgecin eşikleri: " + JSON.stringify({ sur1: "GYO ya da yatırım ortaklığı değil; son 12 ayda net kâr var (F/K hesaplanabiliyor); " + M.small_rule, sur2: "son 12 ay reel özsermaye kârlılığı en az %" + P.roeMin + "; beş yıllık geçmiş var; zarar yılı yok; reel özsermaye kârlılığı ortalaması en az %" + P.eraAvg + " ve hiçbir okuma %" + P.eraMin + " altında değil; net borç/FAVÖK en çok " + P.ndMax + "; serbest nakit akışı beş dönemin en az ikisinde pozitif", sur3: "hendek en az dar (puan 2); hiçbir puan sıfır değil. Puanlar: A anlaşılırlık 0-2, B hendek 0-3, C öngörülebilirlik 0-2, D yönetim ve sermaye tahsisi 0-2, E dayanıklılık 0-2", sur4: "güvenlik marjı en az %" + P.mos + "; reel getiri eşiği %" + P.r + "; temkinli kazanç = özkaynak x son üç özsermaye kârlılığı okumasının en düşüğü; adil çarpan = 100/(getiri eşiği - büyüme payı)", enflasyon: M.inflation_note }) + "\n\n" +
-    "Şirket verisi (JSON; p: fiyat, m: piyasa değeri (milyon, yerel para), f: halka açıklık %, pe: F/K, pb: PD/DD, roe: son 12 ay özsermaye kârlılığı %, rr: aynısının reel hali, nom: 1 ise rakamlar enflasyonla düzeltildi, e: elendiği sur (4 = fiyat aşamasına ulaştı)):\n" +
-    JSON.stringify({ sirket: { c: u.c, n: u.n, s: u.s, p: u.p, m: u.m, f: u.f, pe: u.pe, pb: u.pb, per: u.per, roe: u.roe, rr: u.rr, nom: u.nom, e: u.e, neden: why(u) }, besYil: l ? { yillar: M.years.concat(["son12ay"]), ozsermayeKarliligi: l.roe, reelOzsermayeKarliligi: l.rroe, yatirilanSermayeGetirisi: l.roic, serbestNakitAkisiVerimi: l.fcf, netBorcFavok: l.nd, temettuVerimi: l.dy, temettuOdemeOrani: l.po, elenmeNedenleri: l.fails.map(failText), uyarilar: l.flags.map(flagText) } : "Bu şirket ilk iki elemede kaldığı için beş yıllık veri toplanmadı.", rapor: r ? { ozet: r.one, is: r.business, hendek: r.moat, hendekGerekcesi: r.moat_text, yonetim: r.mgmt, sonGelisme: r.latest, riskler: r.risks, izlenecekler: r.watch, puanlar: r.scores } : "Bu şirket için ayrıntılı rapor yazılmadı.", fiyatTesti: v ? { temkinliOzsermayeKarliligi: v.roeN, temkinliFK: +v.pen.toFixed(2), adilCarpan: +v.fair.toFixed(2), buyumePayi: v.g, guvenlikMarji: +v.mos.toFixed(1), temkinliDeger: +v.iv.toFixed(2), alimEsigi: +v.buy.toFixed(2) } : null, durum: st === "kale" ? "kale: dört suru da geçti" : st === "bekle" ? "kapıda bekliyor: fiyat testini geçemedi" : st === "sirada" ? "2. suru geçti; 3. sur incelemesi sırada" : u.e + ". surda elendi" });
+  var u = C.byC[c], l = C.L2[c] || null, r = C.R[c] || null, M = C.meta, st = status(u), v = (u.e === 4 || st === "sirada") ? val(c) : null, en = LANG === "en";
+  var yrs = (l && l.fy) || M.years;
+  var head = en
+    ? "You are the analyst of Castle, a value-investing tool. Your job is to assess the company below against the principles published in Warren Buffett's shareholder letters.\n\n" +
+      "Rules:\n- Use only the data given below. Do not invent a figure or an event that is not in the data; if you do not know, say 'this is not in the data'.\n- Do not speak on behalf of Buffett or Munger and do not attribute words to them. Apply the principles and write in your own voice.\n- Do not give personal buy or sell advice. Explain whether the company passes the criteria and why.\n- Write in plain English, step by step and briefly: at most 180 words. State the conclusion first, then show the evidence with numbers.\n- Do not use bullet points, headings or Markdown; write plain paragraphs.\n- Country: " + mt("name") + ". Currency: " + mt("cur") + ". Data as of " + tarih(M.asof) + ". You cannot know about anything more recent; say so if asked.\n\n"
+    : "Sen Castle adlı değer yatırımı aracının analistisin. Görevin, aşağıdaki şirketi Warren Buffett'ın ortak mektuplarında yayımlanmış ilkelere göre değerlendirmek.\n\n" +
+      "Kurallar:\n- Yalnızca aşağıda verilen veriyi kullan. Veride olmayan bir rakamı ya da olayı uydurma; bilmiyorsan 'bu veride yok' de.\n- Buffett ya da Munger adına konuşma, onlara söz atfetme. İlkeleri uygula ve kendi adına yaz.\n- Kişiye özel al ya da sat tavsiyesi verme. Şirketin ölçütleri geçip geçmediğini ve nedenini anlat.\n- Sade Türkçe ile, adım adım ve kısa yaz: en çok 180 kelime. Önce sonucu söyle, sonra kanıtı rakamla göster.\n- Madde işareti, başlık ya da Markdown kullanma; düz paragraflar yaz.\n- Ülke: " + mt("name") + ". Para birimi: " + mt("cur") + ". Veri tarihi: " + tarih(M.asof) + ". Daha yeni bir gelişmeyi bilemezsin; sorulursa bunu söyle.\n\n";
+  var princ = (en ? "Principles (for each one: the principle first, then its rule in Castle):\n" : "İlkeler (her biri için önce ilke, sonra Castle'daki kuralı):\n") +
+    IDX.CH.map(function (p) { return "- " + chv(p, "k") + " (" + chv(p, "w") + "): " + chv(p, "t") + (en ? " In Castle: " : " Castle'da: ") + chv(p, "a"); }).join("\n") + "\n\n";
+  var thr = en
+    ? "Thresholds of the filter: " + JSON.stringify({ wall1: "not a REIT or investment trust; net profit in the last 12 months (P/E can be calculated); " + mt("small_rule"), wall2: "real return on equity over the last 12 months at least " + P.roeMin + "%; five years of history; no loss-making year; average real return on equity at least " + P.eraAvg + "% and no reading below " + P.eraMin + "%; net debt/EBITDA at most " + P.ndMax + "; free cash flow positive in at least two of five periods", wall3: "moat at least narrow (score 2); no score is zero. Scores: A understandability 0-2, B moat 0-3, C predictability 0-2, D management and capital allocation 0-2, E resilience 0-2", wall4: "margin of safety at least " + P.mos + "%; required real return " + P.r + "%; conservative earnings = equity x the lowest of the last three return-on-equity readings; fair multiple = 100/(required return - growth allowance)", inflation: mt("inflation_note") })
+    : "Süzgecin eşikleri: " + JSON.stringify({ sur1: "GYO ya da yatırım ortaklığı değil; son 12 ayda net kâr var (F/K hesaplanabiliyor); " + mt("small_rule"), sur2: "son 12 ay reel özsermaye kârlılığı en az %" + P.roeMin + "; beş yıllık geçmiş var; zarar yılı yok; reel özsermaye kârlılığı ortalaması en az %" + P.eraAvg + " ve hiçbir okuma %" + P.eraMin + " altında değil; net borç/FAVÖK en çok " + P.ndMax + "; serbest nakit akışı beş dönemin en az ikisinde pozitif", sur3: "hendek en az dar (puan 2); hiçbir puan sıfır değil. Puanlar: A anlaşılırlık 0-2, B hendek 0-3, C öngörülebilirlik 0-2, D yönetim ve sermaye tahsisi 0-2, E dayanıklılık 0-2", sur4: "güvenlik marjı en az %" + P.mos + "; reel getiri eşiği %" + P.r + "; temkinli kazanç = özkaynak x son üç özsermaye kârlılığı okumasının en düşüğü; adil çarpan = 100/(getiri eşiği - büyüme payı)", enflasyon: mt("inflation_note") });
+  var stat = st === "kale" ? L("kale: dört suru da geçti", "castle: passed all four walls") : st === "bekle" ? L("kapıda bekliyor: fiyat testini geçemedi", "waiting at the gate: did not pass the price test") : st === "sirada" ? L("2. suru geçti; 3. sur incelemesi sırada", "passed Wall 2; the Wall 3 review is in the queue") : outAt(u.e);
+  var data = en
+    ? "Company data (JSON; p: price, m: market value (millions, local currency), f: free float %, pe: P/E, pb: P/B, roe: return on equity over the last 12 months %, rr: the same in real terms, nom: 1 means the figures were adjusted for inflation, e: the wall where it was eliminated (4 = reached the price stage)):\n" +
+      JSON.stringify({ company: { c: u.c, n: u.n, sector: sec(u), p: u.p, m: u.m, f: u.f, pe: u.pe, pb: u.pb, per: u.per, roe: u.roe, rr: u.rr, nom: u.nom, e: u.e, reason: why(u) }, fiveYears: l ? { years: yrs.concat(["last12months"]), returnOnEquity: l.roe, realReturnOnEquity: l.rroe, returnOnInvestedCapital: l.roic, freeCashFlowYield: l.fcf, netDebtToEbitda: l.nd, dividendYield: l.dy, payoutRatio: l.po, failReasons: l.fails.map(failText), warnings: l.flags.map(flagText) } : "No five-year data was collected because this company was eliminated in the first two cuts.", report: r ? { summary: rt(r, "one"), business: rt(r, "business"), moat: moatW(r.moat), moatReasoning: rt(r, "moat_text"), management: rt(r, "mgmt"), latest: rt(r, "latest"), risks: rt(r, "risks"), watch: rt(r, "watch"), scores: r.scores } : "No detailed report was written for this company.", priceTest: v ? { conservativeReturnOnEquity: v.roeN, conservativePE: +v.pen.toFixed(2), fairMultiple: +v.fair.toFixed(2), growthAllowance: v.g, marginOfSafety: +v.mos.toFixed(1), conservativeValue: +v.iv.toFixed(2), thresholdPrice: +v.buy.toFixed(2) } : null, status: stat })
+    : "Şirket verisi (JSON; p: fiyat, m: piyasa değeri (milyon, yerel para), f: halka açıklık %, pe: F/K, pb: PD/DD, roe: son 12 ay özsermaye kârlılığı %, rr: aynısının reel hali, nom: 1 ise rakamlar enflasyonla düzeltildi, e: elendiği sur (4 = fiyat aşamasına ulaştı)):\n" +
+      JSON.stringify({ sirket: { c: u.c, n: u.n, s: u.s, p: u.p, m: u.m, f: u.f, pe: u.pe, pb: u.pb, per: u.per, roe: u.roe, rr: u.rr, nom: u.nom, e: u.e, neden: why(u) }, besYil: l ? { yillar: yrs.concat(["son12ay"]), ozsermayeKarliligi: l.roe, reelOzsermayeKarliligi: l.rroe, yatirilanSermayeGetirisi: l.roic, serbestNakitAkisiVerimi: l.fcf, netBorcFavok: l.nd, temettuVerimi: l.dy, temettuOdemeOrani: l.po, elenmeNedenleri: l.fails.map(failText), uyarilar: l.flags.map(flagText) } : "Bu şirket ilk iki elemede kaldığı için beş yıllık veri toplanmadı.", rapor: r ? { ozet: r.one, is: r.business, hendek: r.moat, hendekGerekcesi: r.moat_text, yonetim: r.mgmt, sonGelisme: r.latest, riskler: r.risks, izlenecekler: r.watch, puanlar: r.scores } : "Bu şirket için ayrıntılı rapor yazılmadı.", fiyatTesti: v ? { temkinliOzsermayeKarliligi: v.roeN, temkinliFK: +v.pen.toFixed(2), adilCarpan: +v.fair.toFixed(2), buyumePayi: v.g, guvenlikMarji: +v.mos.toFixed(1), temkinliDeger: +v.iv.toFixed(2), alimEsigi: +v.buy.toFixed(2) } : null, durum: stat });
+  return head + princ + thr + "\n\n" + data;
 }
-var ERR = { rate_limited: "Şu an çok fazla istek var ya da kullanım sınırına ulaşıldı. Biraz sonra yeniden dene.", session_expired: "Oturumun kapanmış. Claude'a yeniden giriş yapıp tekrar dene.", refused: "Bu soru yanıtlanamadı. Soruyu değiştirip yeniden dene.", empty_completion: "Yanıt boş geldi. Soruyu sadeleştirip yeniden dene.", upstream_error: "Bağlantı kesildi. Yeniden dene.", prompt_too_large: "Soru çok uzun. Kısaltıp yeniden dene." };
+function errS(code) {
+  var E = {
+    rate_limited: L("Şu an çok fazla istek var ya da kullanım sınırına ulaşıldı. Biraz sonra yeniden dene.", "There are too many requests right now, or a usage limit was reached. Try again in a little while."),
+    session_expired: L("Oturumun kapanmış. Claude'a yeniden giriş yapıp tekrar dene.", "Your session has ended. Sign in to Claude again and retry."),
+    refused: L("Bu soru yanıtlanamadı. Soruyu değiştirip yeniden dene.", "This question could not be answered. Rephrase it and try again."),
+    empty_completion: L("Yanıt boş geldi. Soruyu sadeleştirip yeniden dene.", "The answer came back empty. Simplify the question and try again."),
+    upstream_error: L("Bağlantı kesildi. Yeniden dene.", "The connection was lost. Try again."),
+    prompt_too_large: L("Soru çok uzun. Kısaltıp yeniden dene.", "The question is too long. Shorten it and try again.")
+  };
+  return E[code] || E.upstream_error;
+}
 function tkey(c) { return C.cc + ":" + c; }
 function convHtml(c) {
   var s = "";
   (turns[tkey(c)] || []).forEach(function (t) { s += t.role === "user" ? '<p class="qq">' + esc(t.content) + "</p>" : t.role === "note" ? '<p class="er">' + esc(t.content) + "</p>" : '<div class="ans">' + esc(t.content) + "</div>"; });
-  if (live && live.k === tkey(c)) s += '<div class="ans" id="live" aria-live="polite">' + esc(live.text || "Düşünüyor…") + "</div>";
+  if (live && live.k === tkey(c)) s += '<div class="ans" id="live" aria-live="polite">' + esc(live.text || L("Düşünüyor…", "Thinking…")) + "</div>";
   return s;
 }
 function wireAsk() {
@@ -1068,13 +1188,13 @@ function ask() {
   var mine = live;
   qel.value = ""; wireAsk();
   sampleFn([{ role: "user", content: rulesFor(c) }].concat(msgs), { cache: false, signal: mine.ctl.signal, onText: function (up) { mine.text = up.text; var el = $("#live"); if (el && live === mine && S.sel && tkey(S.sel) === key) el.textContent = up.text; } })
-    .then(function (res) { hist.push({ role: "assistant", content: res.text }); if (res.truncated) hist.push({ role: "note", content: "Yanıt uzunluk sınırında kesildi. Daha dar bir soru sor." }); })
+    .then(function (res) { hist.push({ role: "assistant", content: res.text }); if (res.truncated) hist.push({ role: "note", content: L("Yanıt uzunluk sınırında kesildi. Daha dar bir soru sor.", "The answer was cut off at the length limit. Ask a narrower question.") }); })
     .catch(function (e) {
       var code = e && e.code, part = e && e.text;
       if (part) hist.push({ role: "assistant", content: part });
-      if (code === "cancelled") { hist.push({ role: "note", content: "Durduruldu." }); return; }
+      if (code === "cancelled") { hist.push({ role: "note", content: L("Durduruldu.", "Stopped.") }); return; }
       if (code === "not_granted" || code === "sampling_disabled" || code === "not_declared" || code === "capability_disabled" || code === "capability_removed") { sampleOff = true; hist.pop(); return; }
-      hist.push({ role: "note", content: ERR[code] || ERR.upstream_error });
+      hist.push({ role: "note", content: errS(code) });
     })
     .then(function () { if (live === mine) live = null; if (S.sel && C) wireAsk(); });
 }
@@ -1101,7 +1221,8 @@ readTokens();
 if (window.matchMedia) { var mq = window.matchMedia("(prefers-color-scheme: dark)"); var re = function () { readTokens(); draw(); }; if (mq.addEventListener) mq.addEventListener("change", re); }
 new MutationObserver(function () { readTokens(); draw(); }).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
 if (window.ResizeObserver) new ResizeObserver(resize).observe(mapEl); else window.addEventListener("resize", resize);
-ui(); resize();
+applyStatic(); ui(); resize();
+$("#lang").addEventListener("click", function (ev) { var b = ev.target.closest("button"); if (b) setLang(b.dataset.lang); });
 if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { draw(); });
 window.addEventListener("hashchange", fromHash); fromHash();
 })();
