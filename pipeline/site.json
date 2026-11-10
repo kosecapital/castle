@@ -1,5 +1,8 @@
 {
-  "focus": "TR",
-  "cadence": null,
-  "artifact": "https://claude.ai/artifact/5fysJtUP4cGS1TFpGZvs2T"
+ "focus": "TR",
+ "cadence": {
+  "tr": "Her gün bir iki yeni ülke eklenir; mevcut ülkeler her cumartesi yenilenir.",
+  "en": "One or two countries are added every day; existing countries are refreshed every Saturday."
+ },
+ "artifact": "https://claude.ai/artifact/5fysJtUP4cGS1TFpGZvs2T"
 }

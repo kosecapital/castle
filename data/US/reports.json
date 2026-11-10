@@ -1,0 +1,1298 @@
+{
+ "SLM": {
+  "scores": {
+   "A": 1,
+   "B": 2,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "2026-Q3",
+  "one": "Sallie Mae adıyla bilinen özel öğrenci kredisi bankası. Geçmiş kâra göre ucuz; ama şirket 2026 kâr beklentisini üçte birden fazla indirdi.",
+  "business": "SLM (Sallie Mae), ABD'de üniversite ve lisansüstü öğrencilerine özel öğrenci kredisi verir. Kredileri büyük ölçüde mevduatla fonlar; parayı kredi faizi ile mevduat faizi arasındaki farktan kazanır, kredilerinin bir bölümünü de satar. 30 Eylül 2026'da 20,6 milyar dolar öğrenci kredisi ve 20,8 milyar dolar mevduatı vardı. Kâr, karşılık ve kredi satışı muhasebesi yüzünden çeyrekten çeyreğe çok oynuyor.",
+  "moat_text": "Hendek dar. Üstünlük ölçekten, tanınan markadan ve ucuz mevduat fonlamasından geliyor: reel özsermaye kârlılığı beş yılın ortalamasında %27, en düşük yılında %17. Federal öğrenci kredisi programlarındaki değişiklik (PLUS reformu) lisansüstü öğrencileri özel krediye yöneltti; lisansüstü kredi kullandırımı reformdan sonraki ilk akademik yılda %119 büyüdü. Zayıf yanı: tek ürün, tek ülke; talep federal kredi kurallarına, kâr ise kredi zararlarına ve kredi satışlarının zamanlamasına bağlı.",
+  "mgmt": "Kâr hissedara dönüyor: 2026'nın ilk dokuz ayında 415,6 milyon dolarlık hisse geri alındı (18,1 milyon hisse), çeyreklik temettü hisse başına 0,13 dolar. Geri alım programında 111 milyon dolar kaldı. Şirket ayrıca kredilerinin bir bölümünü satmak için büyük bir yatırım şirketiyle ortaklık kurdu; ilk satış 143 milyon dolarlık bir portföy oldu.",
+  "latest": "22 Ekim 2026: Şirket üçüncü çeyrekte 35,9 milyon dolar zarar yazdı (hisse başına −0,19 dolar; geçen yıl +0,63). Nedenler: kredi zararı karşılığı 213,7 milyon dolara çıktı (geçen yıl 179,5 milyon), kredi satış kazancı 136,0 milyon dolardan 3,7 milyon dolara indi. Şirket zararı, rekor kredi büyümesine bağlı karşılık ve giderlerle açıkladı. Kredi kullandırımı 3,4 milyar dolar (+%15). 2026 hisse başına kâr beklentisi 3,10–3,20 dolardan 1,95–2,05 dolara indirildi; net kredi zararı beklentisi 400–420 milyon dolara çıkarıldı.",
+  "risks": [
+   "Güvenlik marjı geçmiş kâra dayanıyor. F/K 6,1 ve fiyat 16,78 dolar, son 12 ayda hisse başına yaklaşık 2,75 dolar kâr demek; şirketin 2026 beklentisi 1,95–2,05 dolar. Beklenti gerçekleşirse kârlılık düşer ve bugünkü marjın büyük bölümü erir.",
+   "Kredi zararları artıyor: üçüncü çeyrekte net kredi zararı 90,4 milyon dolar (geçen yıl 77,5 milyon), geri ödemedeki kredilerde gecikme oranı %4,2 (geçen yıl %4,0).",
+   "Kârın bir bölümü kredi satışlarından geliyor ve bu kazanç çeyrekten çeyreğe çok oynuyor (136,0 milyon dolardan 3,7 milyon dolara).",
+   "Tek ürün, tek ülke: talep federal öğrenci kredisi kurallarına bağlı. Bugün işe yarayan kural yarın değişebilir.",
+   "Öğrenci kredisi teminatsızdır; işsizlik artarsa geri ödeme bozulur."
+  ],
+  "watch": [
+   "2026 hisse başına kârı beklenti aralığında (1,95–2,05 dolar) kalıyor mu",
+   "Net kredi zararı ve gecikme oranı",
+   "Kredi satış kazancı ve yeni ortaklıktaki satış hacmi",
+   "Özsermaye kârlılığı %15'in üzerinde kalıyor mu"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/stocks/slm/financials/ratios/"
+   },
+   {
+    "t": "SEC: SLM (Sallie Mae) 3Ç26 sonuç açıklaması (22 Eki 2026)",
+    "te": "SEC: SLM (Sallie Mae) 3Q26 earnings release (22 Oct 2026)",
+    "u": "https://www.sec.gov/Archives/edgar/data/0001032033/000103203326000051/slm102226ex991.htm"
+   }
+  ],
+  "en": {
+   "one": "The private student loan bank known as Sallie Mae. Cheap on past earnings, but the company cut its 2026 earnings outlook by more than a third.",
+   "business": "SLM (Sallie Mae) makes private student loans to undergraduate and graduate students in the US. It funds the loans largely with deposits; it earns the spread between loan interest and deposit interest, and it also sells part of its loans. At 30 September 2026 it had 20.6 billion dollars of student loans and 20.8 billion of deposits. Profit swings a lot from quarter to quarter because of the accounting for provisions and loan sales.",
+   "moat_text": "The moat is narrow. The advantage comes from scale, a well-known brand and cheap deposit funding: real return on equity averaged 27% over five years and was 17% in its lowest year. A change in federal student loan programmes (the PLUS reform) pushed graduate students towards private loans; graduate loan originations grew 119% in the first academic year after the reform. The weak point: one product, one country; demand depends on federal loan rules, and profit on credit losses and the timing of loan sales.",
+   "mgmt": "Profit returns to shareholders: 415.6 million dollars of shares were bought back in the first nine months of 2026 (18.1 million shares), and the quarterly dividend is 0.13 dollars per share. 111 million dollars remain in the buyback programme. The company has also formed a partnership with a large investment firm to sell part of its loans; the first sale was a 143 million dollar portfolio.",
+   "latest": "22 October 2026: The company posted a loss of 35.9 million dollars in the third quarter (−0.19 dollars per share; +0.63 a year earlier). The reasons: the provision for credit losses rose to 213.7 million dollars (179.5 million a year earlier) and gains on loan sales fell from 136.0 million dollars to 3.7 million. The company linked the loss to provisions and expenses tied to record loan growth. Originations were 3.4 billion dollars (+15%). The 2026 earnings-per-share outlook was cut from 3.10–3.20 dollars to 1.95–2.05; the net charge-off outlook was raised to 400–420 million dollars.",
+   "risks": [
+    "The margin of safety rests on past earnings. A P/E of 6.1 at a price of 16.78 dollars means about 2.75 dollars of earnings per share over the last 12 months; the company's 2026 outlook is 1.95–2.05 dollars. If the outlook holds, profitability falls and most of today's margin melts away.",
+    "Credit losses are rising: net charge-offs were 90.4 million dollars in the third quarter (77.5 million a year earlier), and delinquencies were 4.2% of loans in repayment (4.0% a year earlier).",
+    "Part of the profit comes from loan sales, and that gain swings sharply from quarter to quarter (from 136.0 million dollars to 3.7 million).",
+    "One product, one country: demand depends on federal student loan rules. A rule that helps today can change tomorrow.",
+    "Student loans are unsecured; if unemployment rises, repayment deteriorates."
+   ],
+   "watch": [
+    "Whether 2026 earnings per share stay within the outlook range (1.95–2.05 dollars)",
+    "Net charge-offs and the delinquency rate",
+    "Gains on loan sales and sale volumes under the new partnership",
+    "Whether return on equity stays above 15%"
+   ]
+  }
+ },
+ "WU": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-Q3",
+  "one": "Dünyanın en bilinen para transferi ağı. Gelir yıllardır geriliyor; hendek aşınıyor.",
+  "business": "Western Union, bir ülkeden diğerine para gönderenlere aracılık eder; parayı gönderim ücretinden ve kur farkından kazanır. 2026'nın üçüncü çeyreğinde hasılat 1,01 milyar dolar; bunun 857 milyon doları tüketici para transferinden.",
+  "moat_text": "Hendek zayıf. Marka ve dünya çapındaki acente ağı gerçek bir varlık, ama üstünlük aşınıyor: hasılat üçüncü çeyrekte yine %2 geriledi, faaliyet marjı %20'den %13'e indi. Dijital rakipler aynı işi daha ucuza yapıyor; şirketin kendi dijital kolu büyüse de (+%8) şubelerdeki kaybı kapatamıyor. Her yıl yeniden savunulması gereken bir üstünlüğü bu süzgeç hendek saymıyor.",
+  "mgmt": "Kârın çoğu temettüye gidiyor: dokuz ayda 226,5 milyon dolar temettü, 65,7 milyon dolar geri alım. Borç 2,89 milyar dolar, nakit 1,10 milyar dolar. Şirket rakibi Intermex'i satın almak istiyor; işlem Kaliforniya'daki düzenleyicinin onayını bekliyor.",
+  "latest": "4 Kasım 2026: Üçüncü çeyrek hasılatı 1.009,3 milyon dolar (−%2), hisse başına kâr 0,25 dolar (geçen yıl 0,43), düzeltilmiş 0,42 dolar. Tüketici para transferi geliri %2 düştü, işlem sayısı %2 arttı. Intermex birleşmesi düzenleyici onayı bekliyor; taraflar 10 Kasım 2026'dan sonra anlaşmayı sonlandırabilir.",
+  "risks": [],
+  "watch": [],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/stocks/wu/financials/ratios/"
+   },
+   {
+    "t": "SEC: Western Union 3Ç26 sonuç açıklaması (4 Kas 2026)",
+    "te": "SEC: Western Union 3Q26 earnings release (4 Nov 2026)",
+    "u": "https://www.sec.gov/Archives/edgar/data/0001365135/000119312526447234/wu-ex99_1.htm"
+   }
+  ],
+  "en": {
+   "one": "The world's best-known money transfer network. Revenue has been shrinking for years; the moat is eroding.",
+   "business": "Western Union moves money for people sending it from one country to another; it earns the transfer fee and the currency spread. In the third quarter of 2026 revenue was 1.01 billion dollars, 857 million of it from consumer money transfers.",
+   "moat_text": "The moat is weak. The brand and the worldwide agent network are real assets, but the advantage is eroding: revenue fell another 2% in the third quarter and the operating margin dropped from 20% to 13%. Digital competitors do the same job more cheaply; the company's own digital arm is growing (+8%) but does not make up for the loss at the branches. An advantage that has to be defended anew every year does not count as a moat in this filter.",
+   "mgmt": "Most of the profit goes to dividends: 226.5 million dollars of dividends and 65.7 million of buybacks in nine months. Debt is 2.89 billion dollars and cash 1.10 billion. The company wants to buy its competitor Intermex; the deal is waiting for approval from the regulator in California.",
+   "latest": "4 November 2026: Third-quarter revenue was 1,009.3 million dollars (−2%), earnings per share 0.25 dollars (0.43 a year earlier), adjusted 0.42. Consumer money transfer revenue fell 2% while transactions rose 2%. The Intermex merger is awaiting regulatory approval; either party may terminate the agreement after 10 November 2026.",
+   "risks": [],
+   "watch": []
+  }
+ },
+ "BLBD": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 0,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "2026-Q3",
+  "one": "ABD'nin önde gelen okul otobüsü üreticisi. İş sağlam; ama son 12 ay kârının yarıdan fazlası tek seferlik bir kazanç.",
+  "business": "Blue Bird okul otobüsü üretir ve bayileri aracılığıyla okul bölgelerine satar; dizel, benzin, propan ve elektrikli modelleri var. 2026 mali yılının üçüncü çeyreğinde 3.525 otobüs sattı, hasılat 517,2 milyon dolar. Nisan 2026'da küçük otobüs üreticisi Micro Bird'ün kalan %50'sini aldı.",
+  "moat_text": "Hendek dar. ABD'de okul otobüsünü az sayıda üretici yapıyor; bayi ağı, güvenlik onayları ve yedek parça ilişkisi yeni bir rakibin girmesini zorlaştırıyor. Düzeltilmiş FAVÖK marjı %13,8. Zayıf yanı: müşteri kamu bütçesiyle alım yapan okul bölgeleri; talep ödeneklere bağlı.",
+  "mgmt": "Elenme nedeni işin kendisi değil, ölçtüğümüz kârın yapısı. Son 12 ayın net kârı yaklaşık 258 milyon dolar; bunun 160,5 milyon doları Micro Bird payının yeniden değerlenmesinden gelen, nakit getirmeyen tek seferlik kazanç. Bu kazanç çıkarılınca F/K kabaca 7'den 18'e çıkıyor ve fiyat testi anlamını yitiriyor. Kazancın yarıdan fazlası tek seferlik olduğu için öngörülebilirlik puanı sıfır. Kazanç 12 aylık pencereden çıkınca (2027 ortası) şirket yeniden okunmalı. Yönetim tarafı olumlu: borç düşük ve şirket hisse geri alıyor (dokuz ayda 19,9 milyon dolar).",
+  "latest": "5 Ağustos 2026: 27 Haziran'da biten çeyrekte hasılat 517,2 milyon dolar (+%29,9; Micro Bird'ün katkısı 122,9 milyon dolar), net kâr 185,3 milyon dolar; bunun 160,5 milyon doları yeniden değerleme kazancı. Düzeltilmiş FAVÖK 71,4 milyon dolar. 2026 mali yılı beklentisi: yaklaşık 1,75 milyar dolar hasılat ve 247 milyon dolar düzeltilmiş FAVÖK. Şirket Ford ile yeni nesil şasi için iş birliğini ve Detroit'teki bir fabrikanın alımını duyurdu.",
+  "risks": [],
+  "watch": [],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/stocks/blbd/financials/ratios/"
+   },
+   {
+    "t": "SEC: Blue Bird 2026 mali yılı 3. çeyrek sonuç açıklaması (5 Ağu 2026)",
+    "te": "SEC: Blue Bird fiscal 2026 third-quarter earnings release (5 Aug 2026)",
+    "u": "https://www.sec.gov/Archives/edgar/data/0001589526/000158952626000046/a2026q3resultsreleaseex991.htm"
+   }
+  ],
+  "en": {
+   "one": "A leading US school bus maker. The business is solid, but more than half of the last 12 months' profit is a one-off gain.",
+   "business": "Blue Bird builds school buses and sells them to school districts through its dealers; it offers diesel, gasoline, propane and electric models. In the third quarter of fiscal 2026 it sold 3,525 buses and revenue was 517.2 million dollars. In April 2026 it bought the remaining 50% of small-bus maker Micro Bird.",
+   "moat_text": "The moat is narrow. Only a few manufacturers build school buses in the US; the dealer network, safety approvals and spare-parts relationships make it hard for a new competitor to enter. Adjusted EBITDA margin is 13.8%. The weak point: the customers are school districts buying with public budgets, so demand depends on appropriations.",
+   "mgmt": "The reason for elimination is not the business itself but the make-up of the profit we measure. Net profit over the last 12 months is about 258 million dollars; 160.5 million of it is a one-off, non-cash gain from remeasuring the Micro Bird stake. Take that gain out and the P/E moves from roughly 7 to roughly 18, and the price test loses its meaning. Because more than half of the earnings are one-off, the predictability score is zero. The company should be read again once the gain drops out of the 12-month window (mid-2027). The management side is positive: debt is low and the company buys back shares (19.9 million dollars in nine months).",
+   "latest": "5 August 2026: In the quarter ended 27 June revenue was 517.2 million dollars (+29.9%; Micro Bird contributed 122.9 million) and net profit 185.3 million, of which 160.5 million was the remeasurement gain. Adjusted EBITDA was 71.4 million dollars. Fiscal 2026 guidance: about 1.75 billion dollars of revenue and 247 million of adjusted EBITDA. The company announced a collaboration with Ford on a next-generation chassis and the purchase of a plant in Detroit.",
+   "risks": [],
+   "watch": []
+  }
+ },
+ "GSL": {
+  "scores": {
+   "A": 2,
+   "B": 0,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "yok",
+  "per": "2026-Q3",
+  "one": "Konteyner gemisi kiralayan bir armatör. Rakamlar parlak, ama gemi kiralama emtia işidir; hendek yok.",
+  "business": "Global Ship Lease konteyner gemisi sahibidir ve gemilerini hat işletmecilerine belirli süreli sözleşmelerle kiralar. 30 Haziran 2026'da 71 gemisi ve 3,2 milyar dolarlık sözleşmeye bağlı geliri vardı (ortalama kalan süre 3,3 yıl).",
+  "moat_text": "Hendek yok. Kira bedelini navlun piyasası belirler; aynı gemiyi parası olan herkes alabilir ya da yaptırabilir. Bugünkü yüksek kârlılık, güçlü kira piyasasında bağlanan sözleşmelerin sonucu. Filonun ortalama yaşı 18,4 yıl; yenilemek için 17 yeni gemi sipariş edildi ve 1 milyar dolarlık kredi alındı.",
+  "mgmt": "Borç düşük (net borç/FAVÖK 0,3) ve şirket temettü ödüyor (verim %5,9). Yeni gemiler 2028-2030'da teslim edilecek; bu, bugünkü nakdin önemli bölümünü yeniden gemilere bağlıyor.",
+  "latest": "12 Ekim 2026: Şirket, 15 yeni geminin finansmanı için 1 milyar dolarlık, yedi yıl vadeli sendikasyon kredisi aldığını ve iki gemilik opsiyonu daha kullandığını duyurdu. Gemiler 2028'in son çeyreği ile 2030'un ilk çeyreği arasında teslim edilecek ve teslimde kiraya bağlı olacak.",
+  "risks": [],
+  "watch": [],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/stocks/gsl/financials/ratios/"
+   },
+   {
+    "t": "SEC: Global Ship Lease yeni gemi finansmanı duyurusu (12 Eki 2026)",
+    "te": "SEC: Global Ship Lease newbuild financing announcement (12 Oct 2026)",
+    "u": "https://www.sec.gov/Archives/edgar/data/0001430725/000114036126039447/ef20083696_ex99-1.htm"
+   }
+  ],
+  "en": {
+   "one": "A shipowner that charters out container ships. The numbers shine, but ship chartering is a commodity business; there is no moat.",
+   "business": "Global Ship Lease owns container ships and charters them to liner companies on fixed-term contracts. At 30 June 2026 it had 71 ships and 3.2 billion dollars of contracted revenue (average remaining term 3.3 years).",
+   "moat_text": "There is no moat. The freight market sets the charter rate, and anyone with the money can buy or order the same ship. Today's high profitability comes from contracts signed in a strong charter market. The fleet's average age is 18.4 years; to renew it, 17 new ships were ordered and a 1 billion dollar loan was taken.",
+   "mgmt": "Debt is low (net debt/EBITDA 0.3) and the company pays a dividend (yield 5.9%). The new ships will be delivered in 2028-2030; this ties a large part of today's cash back into ships.",
+   "latest": "12 October 2026: The company announced a 1 billion dollar, seven-year syndicated loan to finance 15 new ships and said it had exercised options for two more. The ships will be delivered between the last quarter of 2028 and the first quarter of 2030 and will be on charter at delivery.",
+   "risks": [],
+   "watch": []
+  }
+ },
+ "ESEA": {
+  "scores": {
+   "A": 2,
+   "B": 0,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "yok",
+  "per": "2026-Q2",
+  "one": "Küçük konteyner gemileri kiralayan bir Yunan armatörü. Çok kârlı bir dönemden geçiyor, ama işin hendeği yok.",
+  "business": "Euroseas, küçük ve orta boy konteyner gemilerini hat işletmecilerine kiralar. 21 gemisi var (61.144 TEU); 12 gemi daha sipariş etti. 2026'nın ikinci çeyreğinde gemi başına günlük ortalama 30.306 dolar kira geliri elde etti.",
+  "moat_text": "Hendek yok. Gemi kiralama emtia işidir: kira bedelini piyasa belirler, gemiyi herkes alabilir. Bugünkü kârlılık yüksek kira dönemine ait; sözleşmeler 2026'nın kalanı için %95'in üzerinde, 2027 için %81, 2028 için %47 oranında bağlanmış durumda.",
+  "mgmt": "Şirket, Atinalı Pittas ailesinin gemi varlıklarını bir araya getiriyor; halka açıklık %36. Çeyreklik temettü hisse başına 0,80 dolar; ayrıca hisse geri alıyor. Borç 208,1 milyon dolar, nakit 164,3 milyon dolar.",
+  "latest": "13 Ağustos 2026: İkinci çeyrek net hasılatı 56,5 milyon dolar (−%1,2), ana ortaklık net kârı 33,2 milyon dolar, düzeltilmiş FAVÖK 40,1 milyon dolar. Yeni gemiler 2027'nin üçüncü çeyreği ile 2029'un ilk çeyreği arasında teslim edilecek.",
+  "risks": [],
+  "watch": [],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/stocks/esea/financials/ratios/"
+   },
+   {
+    "t": "Finviz: Euroseas 30 Haziran 2026'da biten çeyreğin sonuçları (13 Ağu 2026)",
+    "te": "Finviz: Euroseas results for the quarter ended 30 June 2026 (13 Aug 2026)",
+    "u": "https://finviz.com/news/381725/euroseas-ltd-reports-results-for-the-quarter-ended-june-30-2026-and-declares-quarterly-common-stock-dividend"
+   }
+  ],
+  "en": {
+   "one": "A Greek shipowner chartering out small container ships. It is going through a very profitable period, but the business has no moat.",
+   "business": "Euroseas charters small and mid-size container ships to liner companies. It has 21 ships (61,144 TEU) and has ordered 12 more. In the second quarter of 2026 it earned an average charter rate of 30,306 dollars per ship per day.",
+   "moat_text": "There is no moat. Ship chartering is a commodity business: the market sets the rate and anyone can buy a ship. Today's profitability belongs to a period of high rates; charters cover over 95% of the rest of 2026, 81% of 2027 and 47% of 2028.",
+   "mgmt": "The company consolidates the ship-owning interests of the Pittas family of Athens; the free float is 36%. The quarterly dividend is 0.80 dollars per share, and it also buys back shares. Debt is 208.1 million dollars and cash 164.3 million.",
+   "latest": "13 August 2026: Second-quarter net revenue was 56.5 million dollars (−1.2%), net profit attributable to the parent 33.2 million and adjusted EBITDA 40.1 million. The new ships will be delivered between the third quarter of 2027 and the first quarter of 2029.",
+   "risks": [],
+   "watch": []
+  }
+ },
+ "BBW": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "2026-Q2",
+  "one": "Çocukların kendi oyuncak ayısını yaptığı mağazalar zinciri. Ölçütleri kıl payı geçiyor; satışlar bu yıl geriliyor.",
+  "business": "Build-A-Bear, müşterinin kendi peluş oyuncağını seçip doldurduğu ve giydirdiği mağazalar işletir. Dünyada 674 noktası var: 379'unu kendisi işletiyor, 177'sini iş ortakları işletiyor, 118'i bayilik. 2025 mali yılında hasılat 529,8 milyon dolarla üst üste beşinci kez rekor kırdı.",
+  "moat_text": "Hendek dar. Üstünlük markadan ve mağazadaki deneyimden geliyor; bu deneyimi internetten satın almak zor. Kanıtı rakamlarda: reel özsermaye kârlılığı son beş mali yılın hepsinde %30'un üzerinde (son 12 ayda %28), yatırılan sermayenin getirisi %21–31 arasında (son 12 ayda %15,7). Zayıf yanı: oyuncak isteğe bağlı bir harcama ve modaya açık; 2026'da satışlar gerilemeye başladı. Kalıcılığı belirsiz olduğu için hendeği geniş saymıyoruz.",
+  "mgmt": "Banka borcu yok. Kâr hissedara dönüyor: 2026'nın ilk yarısında 17,1 milyon dolar hisse geri alımı ve 5,8 milyon dolar temettü. Geri alım programında 43,2 milyon dolar kaldı. Nakit bir yılda 39,1 milyon dolardan 14,0 milyon dolara indi. Beş yıllık tablodaki net borç/FAVÖK (1,59) banka borcundan değil, mağaza kira yükümlülüklerinden geliyor.",
+  "latest": "27 Ağustos 2026: 1 Ağustos'ta biten çeyrekte hasılat 115,3 milyon dolar (−%7,2), vergi öncesi kâr 11,6 milyon dolar (geçen yıl 15,3 milyon), hisse başına kâr 0,70 dolar (geçen yıl 0,94). İnternet satış talebi %15,6 düştü. Şirket yıl beklentisini indirdi: hasılat 500–525 milyon dolar, vergi öncesi kâr 60–68 milyon dolar. Bu kârın yaklaşık 13 milyon doları gümrük vergisi iadesi.",
+  "risks": [
+   "Güvenlik marjı eşiğin hemen üzerinde. Fiyattaki küçük bir artış ya da kârlılıktaki küçük bir düşüş şirketi kapıya geri gönderir.",
+   "Satışlar geriliyor: ikinci çeyrekte hasılat %7,2, internet satış talebi %15,6 düştü. Yönetim çeyreğin beklentisinin altında kaldığını söyledi.",
+   "Bu yılın kârını tek seferlik bir gelir destekliyor: yaklaşık 13 milyon dolarlık gümrük vergisi iadesi. Önceki yıla ait 7 milyon dolar çıkarılınca ilk yarının vergi öncesi kârı 28,5 milyon dolar (geçen yıl 34,9 milyon).",
+   "Ürünler ithal; gümrük vergileri maliyeti artırıyor. Şirket süren vergilerin bu yılki yükünü 10–11 milyon dolar olarak veriyor.",
+   "Oyuncak isteğe bağlı bir harcama; aile bütçesi daralınca ilk vazgeçilenlerden."
+  ],
+  "watch": [
+   "Hasılat ve internet satış talebi",
+   "Gümrük vergisi iadesi hariç vergi öncesi kâr",
+   "Özsermaye kârlılığı ve yatırılan sermayenin getirisi",
+   "Nakit ve geri alım hızı"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/stocks/bbw/financials/ratios/"
+   },
+   {
+    "t": "SEC: Build-A-Bear 2026 mali yılı 2. çeyrek sonuç açıklaması (27 Ağu 2026)",
+    "te": "SEC: Build-A-Bear fiscal 2026 second-quarter earnings release (27 Aug 2026)",
+    "u": "https://www.sec.gov/Archives/edgar/data/0001113809/000143774926029054/ex_1009466.htm"
+   }
+  ],
+  "en": {
+   "one": "A chain of stores where children make their own teddy bear. It clears the criteria by a hair; sales are falling this year.",
+   "business": "Build-A-Bear runs stores where the customer picks, stuffs and dresses a plush toy of their own. It has 674 locations worldwide: it runs 379 itself, partners run 177 and 118 are franchises. In fiscal 2025 revenue was 529.8 million dollars, a record for the fifth year in a row.",
+   "moat_text": "The moat is narrow. The advantage comes from the brand and the in-store experience, which is hard to buy online. The numbers back it: real return on equity was above 30% in each of the last five fiscal years (28% over the last 12 months) and return on invested capital was between 21% and 31% (15.7% over the last 12 months). The weak point: a toy is discretionary spending and exposed to fashion; in 2026 sales began to fall. Because its durability is uncertain, we do not count the moat as wide.",
+   "mgmt": "No bank debt. Profit returns to shareholders: in the first half of 2026 there were 17.1 million dollars of buybacks and 5.8 million dollars of dividends. 43.2 million dollars remain in the buyback programme. Cash fell from 39.1 million dollars to 14.0 million in a year. The net debt/EBITDA in the five-year table (1.59) comes from store lease liabilities, not from bank debt.",
+   "latest": "27 August 2026: In the quarter ended 1 August revenue was 115.3 million dollars (−7.2%), pre-tax profit 11.6 million dollars (15.3 million a year earlier) and earnings per share 0.70 dollars (0.94 a year earlier). E-commerce demand fell 15.6%. The company lowered its full-year outlook: revenue of 500–525 million dollars and pre-tax profit of 60–68 million dollars. About 13 million dollars of that profit is a tariff refund.",
+   "risks": [
+    "The margin of safety is only just above the threshold. A small rise in the price or a small fall in profitability sends the company back to the gate.",
+    "Sales are falling: in the second quarter revenue fell 7.2% and e-commerce demand 15.6%. Management said the quarter fell short of its expectations.",
+    "This year's profit is supported by a one-off: a tariff refund of about 13 million dollars. Excluding the 7 million dollars that relate to the prior year, first-half pre-tax profit was 28.5 million dollars (34.9 million a year earlier).",
+    "The products are imported and tariffs raise costs. The company puts this year's cost of ongoing tariffs at 10–11 million dollars.",
+    "A toy is discretionary spending; it is among the first things a family gives up when its budget tightens."
+   ],
+   "watch": [
+    "Revenue and e-commerce demand",
+    "Pre-tax profit excluding the tariff refund",
+    "Return on equity and return on invested capital",
+    "Cash and the pace of buybacks"
+   ]
+  }
+ },
+ "CHCI": {
+  "scores": {
+   "A": 1,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 0
+  },
+  "moat": "zayıf",
+  "per": "2026-Q3",
+  "one": "Washington çevresinde gayrimenkul yöneten küçük bir şirket. Gelirinin büyük bölümü, yöneticisinin kontrol ettiği şirketlerden geliyor.",
+  "business": "Comstock, Washington bölgesinde karma kullanımlı gayrimenkul projelerini geliştirir ve yönetir; varlık yönetimi, mülk yönetimi ve otopark işletmesinden ücret alır. 115 varlığı yönetiyor. 2026'nın ilk dokuz ayında hasılat 57,9 milyon dolar.",
+  "moat_text": "Hendek zayıf. Yönetim sözleşmeleri uzun süreli, ama bunların çoğu şirketin yönetim kurulu başkanı ve genel müdürünün kontrol ettiği şirketlere ait varlıklar için. Bir habere göre gelirin yaklaşık %86'sı bu ilişkili taraflardan geliyor; bilançoda ilişkili taraflardan 20,1 milyon dolar alacak var.",
+  "mgmt": "Dayanıklılık puanı sıfır: gelir fiilen tek bir müşteri grubuna, o da yöneticinin kendi şirketlerine bağlı. Küçük ortağın çıkarı bu ilişkinin koşullarına bağlı kalıyor. Şirket ayrıca ana işi dışında bir enerji şirketinin hisselerini tutuyor; bu yatırım üçüncü çeyrekte 964 bin dolar değer kaybı yazdırdı. Olumlu yan: borç yok, nakit 22,7 milyon dolar.",
+  "latest": "5 Kasım 2026: Üçüncü çeyrek hasılatı 17,9 milyon dolar (+%34), net kâr 588 bin dolar. Dokuz aylık net kâr 11,4 milyon dolar (geçen yıl 3,6 milyon).",
+  "risks": [],
+  "watch": [],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/stocks/chci/financials/ratios/"
+   },
+   {
+    "t": "Finviz (Business Wire): Comstock 3Ç26 sonuçları (5 Kas 2026)",
+    "te": "Finviz (Business Wire): Comstock 3Q26 results (5 Nov 2026)",
+    "u": "https://finviz.com/news/417975/comstock-reports-third-quarter-2026-results"
+   },
+   {
+    "t": "Panabee: Comstock, ilişkili taraf yoğunlaşması (Kas 2026)",
+    "te": "Panabee: Comstock and related-party concentration (Nov 2026)",
+    "u": "https://www.panabee.com/news/comstock-chci-earnings-q3-2026"
+   }
+  ],
+  "en": {
+   "one": "A small company managing real estate around Washington. Most of its revenue comes from companies controlled by its own chief executive.",
+   "business": "Comstock develops and manages mixed-use real estate projects in the Washington area; it earns fees from asset management, property management and parking operations. It manages 115 assets. Revenue in the first nine months of 2026 was 57.9 million dollars.",
+   "moat_text": "The moat is weak. The management contracts are long-term, but most of them cover assets owned by companies controlled by the company's chairman and chief executive. According to one report about 86% of revenue comes from these related parties; the balance sheet shows 20.1 million dollars of receivables from related parties.",
+   "mgmt": "The resilience score is zero: revenue effectively depends on a single group of customers, and that group is the chief executive's own companies. The small shareholder's interest depends on the terms of that relationship. The company also holds shares in an energy company outside its core business; that investment produced a 964 thousand dollar loss in the third quarter. The positive side: no debt and 22.7 million dollars of cash.",
+   "latest": "5 November 2026: Third-quarter revenue was 17.9 million dollars (+34%) and net profit 588 thousand dollars. Nine-month net profit was 11.4 million dollars (3.6 million a year earlier).",
+   "risks": [],
+   "watch": []
+  }
+ },
+ "OMSE": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 0
+  },
+  "moat": "zayıf",
+  "per": "2025-H2",
+  "one": "Petrol kuyusu başı ekipmanı üreten Singapur merkezli şirket. Nakit zengini, ama işi tek bir büyük müşterinin siparişlerine bağlı.",
+  "business": "OMS Energy, petrol ve doğal gaz kuyuları için kuyu başı sistemleri ve sondaj boruları üretir; Asya-Pasifik, Orta Doğu ve Kuzey Afrika'da 11 tesisi var. Mart 2026'da biten mali yılda hasılat 155,9 milyon dolar, net kâr 33,9 milyon dolar. Mayıs 2025'te Nasdaq'ta halka açıldı.",
+  "moat_text": "Hendek zayıf. Büyük bir petrol şirketinin onaylı tedarikçisi olmak zaman alır ve bu bir üstünlüktür; ama siparişin ne zaman ve ne kadar geleceğine müşteri karar verir. 2026 mali yılında hasılat %23 düştü; şirket bunu sipariş zamanlamasına bağladı.",
+  "mgmt": "Dayanıklılık puanı sıfır: şirket ana müşterisi olarak Saudi Aramco'yu gösteriyor ve onunla 2024'te on yıllık bir çerçeve anlaşma imzaladı; siparişler bu anlaşma üzerinden parça parça geliyor. Tek müşteriye bu kadar bağlı bir iş bu süzgeçte kırılgan sayılır. Olumlu yan: borç yok, nakit 154,3 milyon dolar; piyasa değeri (161 milyon dolar) neredeyse nakdi kadar.",
+  "latest": "Mart 2026'da biten mali yıl: hasılat 155,9 milyon dolar (önceki yıl 203,6 milyon), brüt marj %30,3 (önceki yıl %33,9), net kâr 33,9 milyon dolar (47,0 milyon), faaliyet nakit akışı 54,1 milyon dolar.",
+  "risks": [],
+  "watch": [],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/stocks/omse/financials/ratios/"
+   },
+   {
+    "t": "SEC: OMS Energy Technologies 2026 mali yılı sonuç açıklaması",
+    "te": "SEC: OMS Energy Technologies fiscal 2026 earnings release",
+    "u": "https://www.sec.gov/Archives/edgar/data/0002012219/000119312526283046/omse-ex99_1.htm"
+   }
+  ],
+  "en": {
+   "one": "A Singapore-based maker of oil wellhead equipment. Cash-rich, but its business depends on the orders of one large customer.",
+   "business": "OMS Energy makes wellhead systems and tubular goods for oil and gas wells; it has 11 facilities across Asia-Pacific, the Middle East and North Africa. In the fiscal year ended March 2026 revenue was 155.9 million dollars and net profit 33.9 million. It listed on Nasdaq in May 2025.",
+   "moat_text": "The moat is weak. Becoming an approved supplier to a major oil company takes time, and that is an advantage; but the customer decides when and how much to order. Revenue fell 23% in fiscal 2026; the company attributed this to order timing.",
+   "mgmt": "The resilience score is zero: the company names Saudi Aramco as its key customer and signed a ten-year framework agreement with it in 2024; orders arrive piece by piece under that agreement. A business this dependent on a single customer counts as fragile in this filter. The positive side: no debt and 154.3 million dollars of cash; the market value (161 million dollars) is almost equal to the cash.",
+   "latest": "Fiscal year ended March 2026: revenue 155.9 million dollars (203.6 million the year before), gross margin 30.3% (33.9%), net profit 33.9 million dollars (47.0 million) and operating cash flow 54.1 million.",
+   "risks": [],
+   "watch": []
+  }
+ },
+ "SYF": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "2026-Q3",
+  "one": "Mağazalar ve markalar adına kredi kartı çıkaran ABD bankası. Kârlı ve sermayesini hissedara döndürüyor; fiyat güvenlik marjı için yetmiyor.",
+  "business": "Synchrony, perakendeciler, sağlık hizmeti sunanlar ve markalar adına kredi kartı ve taksitli kredi verir (örnekler: CareCredit, Venmo kartı). Parayı kart borcundan aldığı faizden kazanır; gelirin bir bölümünü iş ortaklarıyla paylaşır. 68,3 milyon aktif hesabı ve 103,3 milyar dolar alacağı var. Fonlamasının %83'ü mevduat.",
+  "moat_text": "Hendek dar. Üstünlük ölçekten ve mağazalarla yapılan uzun süreli sözleşmelerden geliyor: net faiz marjı %15,5, maddi özsermaye kârlılığı %25,2. Kartlar mağazanın kasasına ve sadakat programına yerleşmiş durumda; bu yüzden ortağın banka değiştirmesi zahmetli. Zayıf yanı: büyük bir ortak sözleşmeyi yenilemezse hacim de gider; müşteri kitlesinin kredi riski yüksek (net kredi zararı oranı %4,79).",
+  "mgmt": "Kâr hissedara dönüyor: üçüncü çeyrekte 1,1 milyar dolar hisse geri alındı, 110 milyon dolar temettü ödendi; geri alım yetkisinde yaklaşık 4,6 milyar dolar kaldı. Çekirdek sermaye oranı %12,9 (geçen yıl %14,3).",
+  "latest": "20 Ekim 2026: Üçüncü çeyrek net kârı 892 milyon dolar, hisse başına 2,68 dolar (geçen yıl 1,1 milyar dolar ve 2,86 dolar). Alışveriş hacmi 49,7 milyar dolar (+%8), alacaklar 103,3 milyar dolar (+%3). Net kredi zararı oranı %4,79 (geçen yıl %5,16); kredi zararı karşılığı 1,3 milyar dolar (+%10). Çeyrekte 10 iş ortağı eklendi ya da yenilendi.",
+  "risks": [
+   "Kredi döngüsü: işsizlik artarsa kart borçlarındaki zarar hızla büyür. Karşılık üçüncü çeyrekte %10 arttı.",
+   "Kâr geriliyor: net kâr geçen yılın altında (892 milyon dolar; geçen yıl 1,1 milyar dolar), özsermaye kârlılığı 4,1 puan düşerek %21,0 oldu.",
+   "İş birkaç büyük ortağın sözleşmesine dayanıyor; büyük bir ortağın ayrılması hacmi düşürür.",
+   "Düzenleme: kart faizlerine ya da gecikme ücretlerine sınır getirilirse gelir doğrudan azalır."
+  ],
+  "watch": [
+   "Net kredi zararı oranı ve gecikme oranı (%4,34)",
+   "Büyük ortak sözleşmelerinin yenilenmesi",
+   "Özsermaye kârlılığı",
+   "Fiyat: güvenlik marjı eşiği"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/stocks/syf/financials/ratios/"
+   },
+   {
+    "t": "SEC: Synchrony 3Ç26 sonuç açıklaması (20 Eki 2026)",
+    "te": "SEC: Synchrony 3Q26 earnings release (20 Oct 2026)",
+    "u": "https://www.sec.gov/Archives/edgar/data/0001601712/000160171226000040/earningsrelease3q26.htm"
+   }
+  ],
+  "en": {
+   "one": "A US bank that issues credit cards on behalf of stores and brands. Profitable and returning capital to shareholders; the price does not leave a margin of safety.",
+   "business": "Synchrony provides credit cards and instalment loans on behalf of retailers, healthcare providers and brands (examples: CareCredit, the Venmo card). It earns interest on card balances and shares part of the income with its partners. It has 68.3 million active accounts and 103.3 billion dollars of receivables. Deposits make up 83% of its funding.",
+   "moat_text": "The moat is narrow. The advantage comes from scale and long-term contracts with retailers: net interest margin is 15.5% and return on tangible common equity 25.2%. The cards are built into the store's checkout and loyalty programme, so switching banks is a chore for the partner. The weak point: if a large partner does not renew, the volume goes with it; and the customer base carries high credit risk (net charge-off rate 4.79%).",
+   "mgmt": "Profit returns to shareholders: in the third quarter 1.1 billion dollars of shares were bought back and 110 million dollars of dividends paid; about 4.6 billion dollars remain under the buyback authorisation. The core capital ratio (CET1) is 12.9% (14.3% a year earlier).",
+   "latest": "20 October 2026: Third-quarter net profit was 892 million dollars, or 2.68 dollars per share (1.1 billion dollars and 2.86 dollars a year earlier). Purchase volume was 49.7 billion dollars (+8%) and receivables 103.3 billion dollars (+3%). The net charge-off rate was 4.79% (5.16% a year earlier); the provision for credit losses was 1.3 billion dollars (+10%). Ten partners were added or renewed in the quarter.",
+   "risks": [
+    "The credit cycle: if unemployment rises, losses on card balances grow quickly. The provision rose 10% in the third quarter.",
+    "Profit is slipping: net profit is below last year (892 million dollars against 1.1 billion), and return on equity fell 4.1 points to 21.0%.",
+    "The business rests on contracts with a few large partners; the departure of a large partner reduces volume.",
+    "Regulation: limits on card interest rates or late fees would cut income directly."
+   ],
+   "watch": [
+    "Net charge-off rate and delinquency rate (4.34%)",
+    "Renewal of large partner contracts",
+    "Return on equity",
+    "Price: the margin-of-safety threshold"
+   ]
+  }
+ },
+ "SMCI": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2027-Q1",
+  "one": "Yapay zekâ sunucusu üreticisi. Satışlar patladı, ama marj ince ve büyüme nakit yutuyor.",
+  "business": "Supermicro, veri merkezleri için sunucu ve raf sistemleri tasarlar ve üretir; bugün satışların büyük bölümü yapay zekâ sunucuları. Eylül 2026'da biten çeyrekte hasılat 19,9 milyar dolar (geçen yıl 5,0 milyar).",
+  "moat_text": "Hendek zayıf. Şirketin üstünlüğü yeni çipleri pazara hızlı çıkarmak; ama sunucu üretimi kolay taklit edilen bir iş ve bunu marj gösteriyor: brüt marj %12,7. Rakipler aynı çipleri aynı tedarikçilerden alıyor.",
+  "mgmt": "Büyüme nakit yutuyor: son çeyrekte faaliyetlerden 434 milyon dolar nakit çıkışı oldu, stok 15,1 milyar dolara yükseldi. Serbest nakit akışı son beş dönemin yalnız ikisinde pozitif. Banka borcu ve dönüştürülebilir tahvil toplamı 8,6 milyar dolar, nakit 6,9 milyar dolar.",
+  "latest": "Kasım 2026: 30 Eylül'de biten çeyrekte hasılat 19,9 milyar dolar, net kâr 1,59 milyar dolar, hisse başına 1,75 dolar. Şirket 2027 mali yılı için 72–82 milyar dolar hasılat bekliyor. Açıklanan rakamlar ön rakamlar; bağımsız denetçi henüz incelemedi.",
+  "risks": [],
+  "watch": [],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/stocks/smci/financials/ratios/"
+   },
+   {
+    "t": "SEC: Supermicro 2027 mali yılı 1. çeyrek sonuç açıklaması (Kas 2026)",
+    "te": "SEC: Supermicro fiscal 2027 first-quarter earnings release (Nov 2026)",
+    "u": "https://www.sec.gov/Archives/edgar/data/0001375365/000137536526000026/exhibit991_20260930.htm"
+   }
+  ],
+  "en": {
+   "one": "A maker of AI servers. Sales have exploded, but the margin is thin and growth is eating cash.",
+   "business": "Supermicro designs and builds servers and rack systems for data centres; today most of its sales are AI servers. In the quarter ended September 2026 revenue was 19.9 billion dollars (5.0 billion a year earlier).",
+   "moat_text": "The moat is weak. The company's advantage is getting new chips to market quickly; but building servers is easy to copy, and the margin shows it: gross margin is 12.7%. Competitors buy the same chips from the same suppliers.",
+   "mgmt": "Growth is eating cash: operations used 434 million dollars of cash in the last quarter and inventory rose to 15.1 billion dollars. Free cash flow was positive in only two of the last five periods. Bank debt and convertible notes total 8.6 billion dollars against 6.9 billion of cash.",
+   "latest": "November 2026: In the quarter ended 30 September revenue was 19.9 billion dollars, net profit 1.59 billion and earnings per share 1.75 dollars. The company expects 72–82 billion dollars of revenue for fiscal 2027. The figures are preliminary; the independent auditor has not yet reviewed them.",
+   "risks": [],
+   "watch": []
+  }
+ },
+ "APA": {
+  "scores": {
+   "A": 2,
+   "B": 0,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "yok",
+  "per": "2026-Q3",
+  "one": "Petrol ve doğal gaz üreticisi. Yüksek petrol fiyatıyla çok kazanıyor, ama ürünü emtia; hendek yok.",
+  "business": "APA, ABD'de, Mısır'da ve Kuzey Denizi'nde petrol ve doğal gaz çıkarır; Surinam'da yeni bir saha geliştiriyor. Üçüncü çeyrekte günde 450 bin varil petrol eşdeğeri üretti; ortalama petrol satış fiyatı varil başına 92 dolar.",
+  "moat_text": "Hendek yok. Petrolün fiyatını şirket değil dünya piyasası belirler. Kârlılık petrol fiyatıyla birlikte iner çıkar; bugünkü yüksek rakamlar varil başına 90 doların üzerindeki fiyatın sonucu.",
+  "mgmt": "Yönetim nakdi disiplinli kullanıyor: 2024 sonundan bu yana borç 2,8 milyar dolar azaldı, üçüncü çeyrekte 450 milyon dolar hisse geri alındı. Net borç 3,2 milyar dolar; hedef 2 milyar dolar.",
+  "latest": "5 Kasım 2026: Üçüncü çeyrek net kârı 698 milyon dolar, hisse başına 2,00 dolar. Serbest nakit akışı 699 milyon dolar. 2026 serbest nakit akışı beklentisi yaklaşık 2,9 milyar dolara yükseltildi. Surinam'daki GranMorgu sahasında ilk petrol 2028 ortasında bekleniyor.",
+  "risks": [],
+  "watch": [],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/stocks/apa/financials/ratios/"
+   },
+   {
+    "t": "SEC: APA 3Ç26 sonuç açıklaması (5 Kas 2026)",
+    "te": "SEC: APA 3Q26 earnings release (5 Nov 2026)",
+    "u": "https://www.sec.gov/Archives/edgar/data/0001841666/000184166626000063/exhibit9913q26earningsrele.htm"
+   }
+  ],
+  "en": {
+   "one": "An oil and gas producer. It earns a lot at today's high oil price, but its product is a commodity; there is no moat.",
+   "business": "APA produces oil and natural gas in the US, Egypt and the North Sea, and is developing a new field in Suriname. In the third quarter it produced 450 thousand barrels of oil equivalent per day; its average realised oil price was 92 dollars a barrel.",
+   "moat_text": "There is no moat. The world market, not the company, sets the price of oil. Profitability rises and falls with that price; today's high numbers are the result of oil above 90 dollars a barrel.",
+   "mgmt": "Management uses cash with discipline: debt has fallen by 2.8 billion dollars since the end of 2024, and 450 million dollars of shares were bought back in the third quarter. Net debt is 3.2 billion dollars; the target is 2 billion.",
+   "latest": "5 November 2026: Third-quarter net profit was 698 million dollars, or 2.00 dollars per share. Free cash flow was 699 million dollars. The 2026 free cash flow outlook was raised to about 2.9 billion dollars. First oil from the GranMorgu field in Suriname is expected in mid-2028.",
+   "risks": [],
+   "watch": []
+  }
+ },
+ "VIRT": {
+  "scores": {
+   "A": 1,
+   "B": 2,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "2026-Q3",
+  "one": "Hisse ve türev piyasalarında alım satım yapan piyasa yapıcı. Hareketli piyasada çok kazanıyor; kazancı piyasaya bağlı, fiyat yetmiyor.",
+  "business": "Virtu, dünya borsalarında sürekli alış ve satış fiyatı vererek piyasa yapıcılık yapar; parayı alış ile satış arasındaki küçük farklardan, çok sayıda işlemle kazanır. Ayrıca kurumlara emir iletim hizmeti satar. 2026'nın üçüncü çeyreğinde düzeltilmiş net alım satım geliri 704,0 milyon dolar; bunun 578,8 milyon doları piyasa yapıcılıktan. Paranın nasıl kazanıldığı dışarıdan izlenemiyor: kâr, şirketin kendi alım satım modellerinden geliyor.",
+  "moat_text": "Hendek dar. Üstünlük ölçek ve teknolojiden geliyor: düzeltilmiş FAVÖK marjı %62,2. Bu işe girmek pahalı bir altyapı ve büyük sermaye ister. Zayıf yanı: kazanç işlem hacmine ve oynaklığa bağlı; sakin dönemde kârlılık sert düşüyor (reel özsermaye kârlılığı 2023'te %13'e inmişti; son iki okuma %49 ve %51). Güçlü rakipler aynı işi yapıyor; üstünlüğün kalıcılığı belirsiz.",
+  "mgmt": "Şirketi tek bir kontrol eden ortak yönetiyor ve pay yapısı çok sınıflı; küçük ortağın söz hakkı sınırlı. Halka açık şirket, işi yürüten alt şirketin %58,3'üne sahip; kalan %41,7 diğer ortakların. Çeyreklik temettü hisse başına 0,24 dolar (ödeme oranı %14). Uzun vadeli borç 2,55 milyar dolar. Yönetim kurulu şirketin kuruluş yerini Delaware'den Teksas'a taşımayı onayladı; karar kontrol eden ortağın yazılı onayıyla alındı.",
+  "latest": "5 Kasım 2026: Üçüncü çeyrek geliri 1.153,9 milyon dolar (geçen yıl 824,8 milyon), net kâr 282,5 milyon dolar (geçen yıl 149,1 milyon), hisse başına kâr 1,65 dolar (geçen yıl 0,86). Düzeltilmiş net alım satım geliri 704,0 milyon dolar (+%50,7). Dokuz aylık net kâr 914,1 milyon dolar (geçen yıl 631,7 milyon).",
+  "risks": [
+   "Kazanç oynaklığa bağlı: piyasa sakinleşince gelir hızla düşer. Reel özsermaye kârlılığı 2023'te %13'e inmişti; bugünkü düzey olağan sayılmamalı.",
+   "İki veri kaynağı son 12 ayın özsermaye kârlılığını farklı veriyor (nominal %57 ve %30); süzgeç düşük olanı kullandı. Yine de dayandığı üç okumanın hepsi hareketli bir döneme ait.",
+   "Piyasa yapısına ilişkin kurallar değişirse (örneğin bireysel yatırımcı emirlerinin yönlendirilmesi) iş modeli etkilenir.",
+   "Şirketi tek bir ortak kontrol ediyor; küçük ortağın kararlara etkisi sınırlı.",
+   "Kaldıraç: 2,55 milyar dolar uzun vadeli borç ve büyük alım satım pozisyonları (13,8 milyar dolar alım satım varlığı)."
+  ],
+  "watch": [
+   "Düzeltilmiş net alım satım geliri (çeyreklik)",
+   "Piyasa işlem hacmi ve oynaklık",
+   "Temettü ve borç",
+   "Özsermaye kârlılığı sakin dönemde %15'in üzerinde kalıyor mu"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/stocks/virt/financials/ratios/"
+   },
+   {
+    "t": "SEC: Virtu Financial 3Ç26 sonuç açıklaması (5 Kas 2026)",
+    "te": "SEC: Virtu Financial 3Q26 earnings release (5 Nov 2026)",
+    "u": "https://www.sec.gov/Archives/edgar/data/0001592386/000110465926123022/tm2629046d1_ex99-1.htm"
+   }
+  ],
+  "en": {
+   "one": "A market maker trading in equity and derivatives markets. It earns a lot when markets are busy; earnings depend on the market, and the price is not low enough.",
+   "business": "Virtu makes markets on exchanges around the world by continuously quoting buy and sell prices; it earns the small difference between the two, across a very large number of trades. It also sells order execution services to institutions. In the third quarter of 2026 adjusted net trading income was 704.0 million dollars, 578.8 million of it from market making. How the money is made cannot be observed from outside: the profit comes from the company's own trading models.",
+   "moat_text": "The moat is narrow. The advantage comes from scale and technology: adjusted EBITDA margin is 62.2%. Entering this business takes costly infrastructure and a lot of capital. The weak point: earnings depend on trading volume and volatility; in calm periods profitability drops sharply (real return on equity fell to 13% in 2023; the last two readings are 49% and 51%). Strong competitors do the same job; the durability of the advantage is uncertain.",
+   "mgmt": "One controlling shareholder runs the company and the share structure has several classes; the small shareholder has little say. The listed company owns 58.3% of the operating company; the remaining 41.7% belongs to other partners. The quarterly dividend is 0.24 dollars per share (payout ratio 14%). Long-term debt is 2.55 billion dollars. The board approved moving the company's place of incorporation from Delaware to Texas; the decision was taken by written consent of the controlling shareholder.",
+   "latest": "5 November 2026: Third-quarter revenue was 1,153.9 million dollars (824.8 million a year earlier), net profit 282.5 million dollars (149.1 million a year earlier) and earnings per share 1.65 dollars (0.86 a year earlier). Adjusted net trading income was 704.0 million dollars (+50.7%). Nine-month net profit was 914.1 million dollars (631.7 million a year earlier).",
+   "risks": [
+    "Earnings depend on volatility: when markets calm down, income falls fast. Real return on equity fell to 13% in 2023; today's level should not be taken as normal.",
+    "The two data sources give different returns on equity for the last 12 months (57% and 30%, nominal); the filter used the lower one. Even so, all three readings it relies on belong to a busy period.",
+    "If market-structure rules change (for example on how retail investors' orders are routed), the business model is affected.",
+    "A single shareholder controls the company; the small shareholder's influence on decisions is limited.",
+    "Leverage: 2.55 billion dollars of long-term debt and large trading positions (13.8 billion dollars of trading assets)."
+   ],
+   "watch": [
+    "Adjusted net trading income (quarterly)",
+    "Market trading volume and volatility",
+    "Dividend and debt",
+    "Whether return on equity stays above 15% in a calm period"
+   ]
+  }
+ },
+ "XP": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "2026-Q2",
+  "one": "Brezilya'nın büyük yatırım platformu. Kârlı ve sermayesi güçlü; fiyat güvenlik marjı için yetmiyor.",
+  "business": "XP, Brezilya'da bireylere ve kurumlara yatırım hizmeti verir: hisse, tahvil, fon, emeklilik planı, kart ve sigorta. Müşterilerine ağırlıklı olarak bağımsız danışmanlar aracılığıyla ulaşır (18,4 bin danışman). 4,8 milyon aktif müşterisi ve 1,5 trilyon real müşteri varlığı var. 2026'nın ikinci çeyreğinde brüt gelir 5.056 milyon real; bunun 3.881 milyon reali bireysel müşterilerden.",
+  "moat_text": "Hendek dar. Üstünlük ölçek, marka ve danışman ağından geliyor: düzeltilmiş özsermaye kârlılığı %22,5, vergi öncesi kâr marjı %32,0. Müşterinin varlığını başka kuruma taşıması zahmetli olduğu için müşteri kolay ayrılmıyor. Zayıf yanı: büyük bankalar aynı müşteriye aynı ürünleri sunuyor; Brezilya'da faiz yükselince müşteri hisseden ve fondan mevduata kayıyor. Aktif müşteri sayısı bir yılda yalnız %1 arttı.",
+  "mgmt": "Sermaye ihtiyacın üzerinde: sermaye yeterlilik oranı %20,3, hedef aralık %16–19. Yönetim fazlayı hissedara dağıtarak hedefe inmeyi planlıyor. 2026'nın ilk yarısında yaklaşık 1 milyar reallik hisse geri alındı; 1 milyar reallik yeni bir program açık.",
+  "latest": "17 Ağustos 2026: İkinci çeyrekte brüt gelir 5.056 milyon real (+%8), net kâr 1.384 milyon real (+%5), hisse başına kâr 2,67 real (+%9). Net para girişi 28 milyar real. Kurumsal müşteri gelirleri %117 arttı; sabit getirili ürün gelirleri %16 düştü.",
+  "risks": [
+   "Şirket Brezilya'da çalışıyor ve hesabını real ile tutuyor; hisse dolarla işlem görüyor. Real değer kaybederse dolar cinsinden kazanç düşer.",
+   "Süzgeç bu şirketin kârlılığını ABD enflasyonuyla düzeltti. Brezilya'da enflasyon genellikle daha yüksek olduğu için gerçek reel kârlılık burada görünenden bir miktar düşüktür.",
+   "Brezilya'da faiz yüksek kaldıkça yatırımcı riskli ürünlerden uzak durur; komisyon gelirleri baskı altında kalır.",
+   "Rekabet: büyük bankalar ve dijital rakipler aynı müşteri için yarışıyor; aktif müşteri sayısı neredeyse yerinde sayıyor (+%1)."
+  ],
+  "watch": [
+   "Net para girişi ve aktif müşteri sayısı",
+   "Özsermaye kârlılığı",
+   "Sermaye dağıtımı (geri alım, temettü)",
+   "Real/dolar kuru"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/stocks/xp/financials/ratios/"
+   },
+   {
+    "t": "SEC: XP Inc. 2Ç26 sonuç açıklaması (17 Ağu 2026)",
+    "te": "SEC: XP Inc. 2Q26 earnings release (17 Aug 2026)",
+    "u": "https://www.sec.gov/Archives/edgar/data/0001787425/000095010326012481/dp251884_6k-ex9901.htm"
+   }
+  ],
+  "en": {
+   "one": "A large Brazilian investment platform. Profitable and well capitalised; the price does not leave a margin of safety.",
+   "business": "XP provides investment services to individuals and institutions in Brazil: equities, bonds, funds, retirement plans, cards and insurance. It reaches its clients mainly through independent advisers (18.4 thousand advisers). It has 4.8 million active clients and 1.5 trillion reais of client assets. In the second quarter of 2026 gross revenue was 5,056 million reais, 3,881 million of it from retail clients.",
+   "moat_text": "The moat is narrow. The advantage comes from scale, brand and the adviser network: adjusted return on equity is 22.5% and the pre-tax margin 32.0%. Moving assets to another firm is a chore, so clients do not leave easily. The weak point: the big banks offer the same products to the same clients; when interest rates rise in Brazil, clients shift from equities and funds to deposits. The number of active clients grew only 1% in a year.",
+   "mgmt": "Capital is above what is needed: the capital adequacy ratio is 20.3% against a target range of 16–19%. Management plans to come down to the target by distributing the excess to shareholders. About 1 billion reais of shares were bought back in the first half of 2026, and a new 1 billion reais programme is open.",
+   "latest": "17 August 2026: In the second quarter gross revenue was 5,056 million reais (+8%), net profit 1,384 million reais (+5%) and earnings per share 2.67 reais (+9%). Net inflow was 28 billion reais. Revenue from corporate clients rose 117%; revenue from fixed-income products fell 16%.",
+   "risks": [
+    "The company works in Brazil and keeps its accounts in reais; the share trades in dollars. If the real loses value, earnings in dollars fall.",
+    "The filter adjusted this company's profitability with US inflation. Inflation in Brazil is usually higher, so true real profitability is somewhat lower than shown here.",
+    "As long as interest rates stay high in Brazil, investors keep away from riskier products and fee income stays under pressure.",
+    "Competition: big banks and digital rivals compete for the same clients; the number of active clients is almost flat (+1%)."
+   ],
+   "watch": [
+    "Net inflow and number of active clients",
+    "Return on equity",
+    "Capital distribution (buybacks, dividends)",
+    "The real/dollar exchange rate"
+   ]
+  }
+ },
+ "OMF": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "2026-Q3",
+  "one": "Kredi notu düşük tüketicilere taksitli kredi veren şirket. Yüksek temettü ödüyor; kredi zararı yüksek, fiyat güvenlik marjı için yetmiyor.",
+  "business": "OneMain, kredi notu düşük tüketicilere şubelerinden ve internetten taksitli ihtiyaç kredisi verir; ayrıca taşıt kredisi ve kredi kartı sunar. 48 eyalette 1.300'den fazla şubesi var. Yönettiği alacaklar 28,1 milyar dolar; kredilerinin ortalama getirisi %22,6. Parayı bu yüksek faiz ile kendi borçlanma maliyeti ve kredi zararı arasındaki farktan kazanır.",
+  "moat_text": "Hendek dar. Üstünlük ölçekten, şube ağından ve bu müşteri kitlesini uzun yıllardır tanımaktan geliyor; reel özsermaye kârlılığı beş yılda %12'nin altına inmedi. Zayıf yanı: mevduatı yok, fonlaması tahvil piyasasına bağlı (24,4 milyar dolar borç). Kredi zararı yüksek ve döngüsel (net zarar oranı %6,89).",
+  "mgmt": "Kârın büyük bölümü temettüye gidiyor: çeyreklik temettü hisse başına 1,05 dolar (verim %7,6, ödeme oranı %64). Üçüncü çeyrekte 34 milyon dolarlık hisse geri alındı. Borcun %52'si teminatlı; kullanılmamış kredi limitleri 7,5 milyar dolar.",
+  "latest": "30 Ekim 2026: Üçüncü çeyrek net kârı 185 milyon dolar, hisse başına 1,60 dolar (geçen yıl 199 milyon dolar ve 1,67 dolar). Yönetilen alacaklar 28,1 milyar dolar (+%9), kredi kullandırımı 4,5 milyar dolar (+%17). Tüketici kredilerinde net zarar oranı %6,89 (geçen yıl %6,67); karşılık 615 milyon dolar (geçen yıl 488 milyon).",
+  "risks": [
+   "Kredi döngüsü: müşterileri, ekonomideki bozulmadan ilk etkilenen kesim. Karşılık bir yılda 488 milyon dolardan 615 milyon dolara çıktı.",
+   "Fonlama: şirket mevduat toplamıyor; tahvil piyasası kapanırsa ya da faiz yükselirse maliyeti artar. Faiz gideri çeyrekte 345 milyon dolar.",
+   "Kaldıraç yüksek: net kaldıraç 5,5 kat.",
+   "Düzenleme: tüketici kredilerine faiz tavanı getirilirse iş modeli doğrudan etkilenir.",
+   "Kâr geriliyor: düzeltilmiş hisse başına kâr 1,90 dolardan 1,51 dolara indi."
+  ],
+  "watch": [
+   "Net zarar oranı ve 30 günü aşan gecikme oranı (%5,34)",
+   "Borçlanma maliyeti",
+   "Kâr temettüyü karşılıyor mu",
+   "Özsermaye kârlılığı"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/stocks/omf/financials/ratios/"
+   },
+   {
+    "t": "SEC: OneMain 3Ç26 sonuç açıklaması (30 Eki 2026)",
+    "te": "SEC: OneMain 3Q26 earnings release (30 Oct 2026)",
+    "u": "https://www.sec.gov/Archives/edgar/data/0001584207/000158420726000038/exhibit991earningsreleaseo.htm"
+   }
+  ],
+  "en": {
+   "one": "A lender making instalment loans to consumers with low credit scores. It pays a high dividend; credit losses are high and the price does not leave a margin of safety.",
+   "business": "OneMain makes personal instalment loans to consumers with low credit scores through its branches and online; it also offers auto loans and credit cards. It has more than 1,300 branches in 48 states. It manages 28.1 billion dollars of receivables, and the average yield on its loans is 22.6%. It earns the difference between that high interest and its own borrowing cost and credit losses.",
+   "moat_text": "The moat is narrow. The advantage comes from scale, the branch network and many years of experience with this customer group; real return on equity has not fallen below 12% in five years. The weak point: it has no deposits, and its funding depends on the bond market (24.4 billion dollars of debt). Credit losses are high and cyclical (net charge-off rate 6.89%).",
+   "mgmt": "Most of the profit goes to dividends: the quarterly dividend is 1.05 dollars per share (yield 7.6%, payout ratio 64%). In the third quarter 34 million dollars of shares were bought back. 52% of the debt is secured; undrawn credit lines total 7.5 billion dollars.",
+   "latest": "30 October 2026: Third-quarter net profit was 185 million dollars, or 1.60 dollars per share (199 million dollars and 1.67 dollars a year earlier). Managed receivables were 28.1 billion dollars (+9%) and originations 4.5 billion dollars (+17%). The net charge-off rate on consumer loans was 6.89% (6.67% a year earlier); the provision was 615 million dollars (488 million a year earlier).",
+   "risks": [
+    "The credit cycle: its customers are the first to feel a weaker economy. The provision rose from 488 million dollars to 615 million in a year.",
+    "Funding: the company takes no deposits; if the bond market closes or rates rise, its costs go up. Interest expense was 345 million dollars in the quarter.",
+    "Leverage is high: net leverage is 5.5 times.",
+    "Regulation: a cap on consumer loan interest rates would hit the business model directly.",
+    "Profit is slipping: adjusted earnings per share fell from 1.90 dollars to 1.51."
+   ],
+   "watch": [
+    "Net charge-off rate and 30+ day delinquency rate (5.34%)",
+    "Borrowing cost",
+    "Whether earnings cover the dividend",
+    "Return on equity"
+   ]
+  }
+ },
+ "TBBK": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "2026-Q3",
+  "one": "Fintek şirketlerinin arkasındaki banka. Çok kârlı; önemli bir ortağı (Chime) ayrılıyor, fiyat güvenlik marjı için yetmiyor.",
+  "business": "The Bancorp, kendi banka lisansı olmayan finans teknolojisi şirketlerinin arkasındaki bankadır: onların adına kart çıkarır, hesap tutar ve ödeme işler; karşılığında ücret alır. Bu hesaplardan gelen ucuz mevduatı krediye çevirir. 2026'nın üçüncü çeyreğinde ortaklarının kartlarından 54,3 milyar dolarlık işlem geçti (+%23,4); net faiz geliri 90,1 milyon dolar, fintek ücretleri 41,8 milyon dolar.",
+  "moat_text": "Hendek dar. Üstünlük banka lisansından, düzenlemelere uyum deneyiminden ve ölçekten geliyor: şirketin açıkladığı özsermaye kârlılığı üçüncü çeyrekte %36,0. Bir fintek şirketinin arkasındaki bankayı değiştirmesi yıllar alır. Zayıf yanı tam da bu çeyrekte göründü: büyük bir ortak (Chime) kendi bankasını satın almayı planlıyor ve ayrılıyor. Üstünlük az sayıda ortağa bağlı.",
+  "mgmt": "Temettü ödemiyor; kârını hisse geri alımına ayırıyor. Üçüncü çeyrekte yaklaşık 50 milyon dolarlık hisse geri alındı; hisse sayısı bir yılda 46,5 milyondan 41,1 milyona indi. Yönetim 2027'den 2028 başına kadar düzeltilmiş net kârın tamamına yakınını geri alıma ayırmayı planlıyor.",
+  "latest": "30 Ekim 2026: Üçüncü çeyrekte hisse başına kâr 1,53 dolar, düzeltilmiş 1,47 dolar (+%24,6). Chime en geç Temmuz 2028'de ayrılacak. Bu yüzden 2027 hisse başına kâr beklentisi 8,10–8,30 dolardan 7,00–7,20 dolara indirildi; 2026 beklentisi (5,95–6,05 dolar) korundu. Net faiz marjı %3,75 (bir yıl önce %4,45).",
+  "risks": [
+   "Ortak yoğunlaşması: Chime'ın ayrılışı 2027 kâr beklentisini yaklaşık %13 düşürdü. Başka bir büyük ortağın ayrılması benzer etki yapar.",
+   "Net faiz marjı daralıyor: bir yılda %4,45'ten %3,75'e.",
+   "Kredi kalitesi: yakın izlemedeki krediler bir çeyrekte %14 artarak 166,5 milyon dolara çıktı; çoğu gayrimenkul köprü kredisi.",
+   "Düzenleme: bankaların fintek ortaklıkları denetçilerin yakın izlemesinde; yeni kurallar maliyeti artırabilir.",
+   "Tüketici fintek kredileri hızla büyüyor (ortalama 1,55 milyar dolar, bir çeyrekte +%11,3). Zararı ortakların verdiği güvence karşılıyor; bu güvencenin sağlamlığı ortağın gücüne bağlı."
+  ],
+  "watch": [
+   "Yeni ortak anlaşmaları ve Chime'ın çıkış takvimi",
+   "Ortakların kartlarından geçen işlem hacmi",
+   "Net faiz marjı",
+   "Yakın izlemedeki krediler"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/stocks/tbbk/financials/ratios/"
+   },
+   {
+    "t": "Finviz (Earnings Whispers): The Bancorp 3Ç26 sonuçları ve Chime'ın ayrılışı (30 Eki 2026)",
+    "te": "Finviz (Earnings Whispers): The Bancorp 3Q26 results and Chime's exit (30 Oct 2026)",
+    "u": "https://finviz.com/news/412637/the-bancorp-narrowly-misses-as-chime-exit-forces-steep-2027-guidance-reset"
+   }
+  ],
+  "en": {
+   "one": "The bank behind fintech companies. Very profitable; an important partner, Chime, is leaving, and the price does not leave a margin of safety.",
+   "business": "The Bancorp is the bank behind financial technology companies that have no banking licence of their own: it issues cards, holds accounts and processes payments in their name, and charges fees for it. It turns the cheap deposits from these accounts into loans. In the third quarter of 2026, 54.3 billion dollars of transactions went through its partners' cards (+23.4%); net interest income was 90.1 million dollars and fintech fees 41.8 million dollars.",
+   "moat_text": "The moat is narrow. The advantage comes from the banking licence, experience in regulatory compliance and scale: the return on equity the company reported for the third quarter is 36.0%. It takes a fintech company years to change the bank behind it. The weak point showed up this very quarter: a large partner, Chime, plans to buy a bank of its own and is leaving. The advantage depends on a small number of partners.",
+   "mgmt": "It pays no dividend; it puts its profit into share buybacks. About 50 million dollars of shares were bought back in the third quarter; the share count fell from 46.5 million to 41.1 million in a year. Management plans to put nearly all of adjusted net profit into buybacks from 2027 to early 2028.",
+   "latest": "30 October 2026: Third-quarter earnings per share were 1.53 dollars, or 1.47 dollars adjusted (+24.6%). Chime will leave by July 2028 at the latest. Because of this, the 2027 earnings-per-share outlook was cut from 8.10–8.30 dollars to 7.00–7.20; the 2026 outlook (5.95–6.05 dollars) was kept. Net interest margin was 3.75% (4.45% a year earlier).",
+   "risks": [
+    "Partner concentration: Chime's departure cut the 2027 earnings outlook by about 13%. The departure of another large partner would have a similar effect.",
+    "Net interest margin is narrowing: from 4.45% to 3.75% in a year.",
+    "Credit quality: criticised loans rose 14% in one quarter to 166.5 million dollars; most are real estate bridge loans.",
+    "Regulation: banks' fintech partnerships are closely watched by supervisors; new rules may raise costs.",
+    "Consumer fintech loans are growing fast (an average of 1.55 billion dollars, +11.3% in one quarter). Guarantees given by the partners cover the losses; the strength of those guarantees depends on the partner."
+   ],
+   "watch": [
+    "New partner agreements and the timetable of Chime's exit",
+    "Transaction volume on partners' cards",
+    "Net interest margin",
+    "Criticised loans"
+   ]
+  }
+ },
+ "ATLC": {
+  "scores": {
+   "A": 1,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-Q3",
+  "one": "Kredi notu düşük tüketicilere kart ve kredi sunan finans şirketi. Hızlı büyüyor, ama yüksek borçla ve hendeksiz bir işte.",
+  "business": "Atlanticus, banka ortakları aracılığıyla kredi notu düşük tüketicilere kredi kartı ve mağaza kredisi sunar. 6,7 milyon hesaba hizmet veriyor; yönettiği alacaklar 7,1 milyar dolar. Mercury Financial'ı satın alarak büyüdü.",
+  "moat_text": "Hendek zayıf. Bu müşteri grubuna kredi vermek uzmanlık ister, ama ürün farklılaşmamış ve rakip çok. Kârlılık kredi zararına çok duyarlı: üçüncü çeyrekte net kredi zararı 303,5 milyon dolarla geçen yılın yaklaşık iki katına çıktı.",
+  "mgmt": "Bilanço ağır borçlu: 5,75 milyar dolar alacağa dayalı borç ve 699 milyon dolar tahvil. Son çeyreğin kârının bir bölümü tek seferlik satışlardan geldi (taşıt finansmanı işi ve bir marka adı).",
+  "latest": "Kasım 2026: Üçüncü çeyrek geliri 775,9 milyon dolar (+%60,1; Mercury'nin katkısı 205,3 milyon dolar), adi pay sahiplerine düşen net kâr 93,0 milyon dolar. Tek seferlik satış kazançları çıkarılınca 57,0 milyon dolar.",
+  "risks": [],
+  "watch": [],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/stocks/atlc/financials/ratios/"
+   },
+   {
+    "t": "Finviz: Atlanticus 3Ç26 sonuçları (Kas 2026)",
+    "te": "Finviz: Atlanticus 3Q26 results (Nov 2026)",
+    "u": "https://finviz.com/news/417876/atlanticus-reports-third-quarter-2026-financial-results"
+   }
+  ],
+  "en": {
+   "one": "A finance company offering cards and loans to consumers with low credit scores. It is growing fast, but with heavy debt and in a business without a moat.",
+   "business": "Atlanticus offers credit cards and store credit to consumers with low credit scores through bank partners. It serves 6.7 million accounts and manages 7.1 billion dollars of receivables. It grew by acquiring Mercury Financial.",
+   "moat_text": "The moat is weak. Lending to this group takes expertise, but the product is undifferentiated and competitors are many. Profitability is very sensitive to credit losses: net charge-offs in the third quarter were 303.5 million dollars, roughly double a year earlier.",
+   "mgmt": "The balance sheet is heavily indebted: 5.75 billion dollars of receivables-backed debt and 699 million of senior notes. Part of the last quarter's profit came from one-off sales (the auto finance business and a brand name).",
+   "latest": "November 2026: Third-quarter revenue was 775.9 million dollars (+60.1%; Mercury contributed 205.3 million) and net profit attributable to common shareholders 93.0 million. Excluding the one-off sale gains it was 57.0 million dollars.",
+   "risks": [],
+   "watch": []
+  }
+ },
+ "BWMX": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "2026-Q3",
+  "one": "Meksika'da ev ürünleri ve kozmetiği doğrudan satış ağıyla satan şirket. Çok kârlı ama borçla büyüyor; güvenlik marjı eşiğin biraz altında kalıyor.",
+  "business": "Betterware, ev düzeni ürünlerini (Betterware), kozmetiği (Jafra) ve mutfak kaplarını (Tupperware) mağaza açmadan, 1,4 milyon satış temsilcisi aracılığıyla satar. Satışların çoğu Meksika'da. 2026'nın üçüncü çeyreğinde hasılat 4.832 milyon peso: Jafra 1.934, Betterware 1.523, Tupperware 1.376 milyon peso.",
+  "moat_text": "Hendek dar. Üstünlük satış ağından ve az sermayeyle çalışan modelden geliyor: mağaza yok, reel özsermaye kârlılığı beş yılın en düşüğünde bile %50, FAVÖK marjı %20,9. Zayıf yanı: temsilci ağı kolay küçülür ve satışlar onunla birlikte düşer; büyüme artık satın almalardan geliyor (satın alma hariç büyüme %2,3).",
+  "mgmt": "Şirket büyümeyi satın almalarla sürdürüyor: önce Jafra, Haziran 2026'da Tupperware'in Meksika ve Brezilya'daki işi. Tupperware için yeni hisse çıkarıldı; net borç bir yılda 4.883 milyon pesodan 6.818 milyon pesoya çıktı. Beş yıllık tablodaki net borç/FAVÖK 2,34; şirketin açıkladığı oran 1,65. Kârın büyük bölümü temettüye gidiyor (ödeme oranı %61); Ekim'de 250 milyon peso temettü onaylandı. Borçla şirket alırken yüksek temettü ödemek küçük bir kusur.",
+  "latest": "22 Ekim 2026: Üçüncü çeyrek hasılatı 4.832 milyon peso (+%43,1; Tupperware hariç +%2,3), FAVÖK 1.008 milyon peso (marj %20,9), net kâr 390 milyon peso (+%24,2). Serbest nakit akışı 1.059 milyon peso. Şirket 2026 hasılat büyümesi beklentisini %24–26'ya yükseltti.",
+  "risks": [
+   "Borç: satın almalarla net borç bir yılda yaklaşık %40 arttı. Kaynağın hesabıyla net borç/FAVÖK 2,34; ölçütteki sınır 3.",
+   "Organik büyüme zayıf: satın alma hariç hasılat yalnız %2,3 arttı, Jafra'nın hasılatı %2,8 geriledi.",
+   "Temsilci ağına bağımlılık: temsilci sayısı düşerse satış düşer. Tupperware'in temsilci sayısı çeyrek sonunda 252.704; çeyrek ortalaması 278.778 idi.",
+   "Kur: şirket pesoyla kazanıyor, hisse dolarla işlem görüyor. Süzgeç kârlılığı ABD enflasyonuyla düzeltti; Meksika enflasyonu farklıysa reel kârlılık da bir miktar farklıdır."
+  ],
+  "watch": [
+   "Satın alma hariç hasılat büyümesi",
+   "Temsilci sayısı (üç marka)",
+   "Net borç/FAVÖK",
+   "Serbest nakit akışı temettüyü karşılıyor mu"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/stocks/bwmx/financials/ratios/"
+   },
+   {
+    "t": "SEC: Betterware de México 3Ç26 sonuç açıklaması (22 Eki 2026)",
+    "te": "SEC: Betterware de México 3Q26 earnings release (22 Oct 2026)",
+    "u": "https://www.sec.gov/Archives/edgar/data/0001788257/000121390026111757/ea030869501ex99-1.htm"
+   }
+  ],
+  "en": {
+   "one": "A company selling household goods and cosmetics in Mexico through a direct-selling network. Very profitable but growing with debt; the margin of safety falls just short.",
+   "business": "Betterware sells home organisation products (Betterware), cosmetics (Jafra) and kitchen containers (Tupperware) without opening stores, through 1.4 million sales associates. Most sales are in Mexico. In the third quarter of 2026 revenue was 4,832 million pesos: Jafra 1,934, Betterware 1,523 and Tupperware 1,376 million pesos.",
+   "moat_text": "The moat is narrow. The advantage comes from the sales network and a model that needs little capital: no stores, real return on equity of 50% even in the lowest of five years, and an EBITDA margin of 20.9%. The weak point: the associate network shrinks easily and sales fall with it; growth now comes from acquisitions (growth excluding the acquisition was 2.3%).",
+   "mgmt": "The company keeps growing through acquisitions: first Jafra, then in June 2026 Tupperware's business in Mexico and Brazil. New shares were issued for Tupperware; net debt rose from 4,883 million pesos to 6,818 million pesos in a year. Net debt/EBITDA in the five-year table is 2.34; the ratio the company reports is 1.65. Most of the profit goes to dividends (payout ratio 61%); a 250 million peso dividend was approved in October. Paying a high dividend while buying companies with debt is a small flaw.",
+   "latest": "22 October 2026: Third-quarter revenue was 4,832 million pesos (+43.1%; +2.3% excluding Tupperware), EBITDA 1,008 million pesos (margin 20.9%) and net profit 390 million pesos (+24.2%). Free cash flow was 1,059 million pesos. The company raised its 2026 revenue growth outlook to 24–26%.",
+   "risks": [
+    "Debt: with the acquisitions, net debt rose about 40% in a year. By the source's calculation net debt/EBITDA is 2.34; the limit in the criterion is 3.",
+    "Organic growth is weak: revenue excluding the acquisition rose only 2.3%, and Jafra's revenue fell 2.8%.",
+    "Dependence on the associate network: if the number of associates falls, sales fall. Tupperware had 252,704 associates at the end of the quarter; the quarterly average was 278,778.",
+    "Currency: the company earns in pesos and the share trades in dollars. The filter adjusted profitability with US inflation; if Mexican inflation differs, real profitability differs somewhat too."
+   ],
+   "watch": [
+    "Revenue growth excluding acquisitions",
+    "Number of associates (three brands)",
+    "Net debt/EBITDA",
+    "Whether free cash flow covers the dividend"
+   ]
+  }
+ },
+ "GPRK": {
+  "scores": {
+   "A": 2,
+   "B": 0,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "yok",
+  "per": "2026-Q3",
+  "one": "Kolombiya ve Arjantin'de petrol üreten şirket. Ürünü emtia; hendek yok.",
+  "business": "GeoPark, Kolombiya'da ve Arjantin'in Vaca Muerta bölgesinde petrol ve doğal gaz çıkarır. Üçüncü çeyrekte günde 27.973 varil petrol eşdeğeri üretti; bunun 25.865'i Kolombiya'dan.",
+  "moat_text": "Hendek yok. Petrolün fiyatını piyasa belirler; şirketin kârı fiyatla ve fiyat korunma işlemlerinin sonucuyla birlikte oynar. Üçüncü çeyrekte Brent ortalama 91,4 dolar iken şirketin eline varil başına 76,5 dolar geçti; 36,4 milyon dolar korunma zararı yazıldı.",
+  "mgmt": "Şirket büyümeyi Arjantin'e taşıyor ve bunun için borçlanıyor: 550 milyon dolarlık, %9,5 faizli tahvil ihraç etti ve temettüyü askıya aldı. Net borç 386,6 milyon dolar; net borç/FAVÖK 1,6.",
+  "latest": "3 Kasım 2026: Üçüncü çeyrek hasılatı 116,2 milyon dolar (bir önceki çeyrek 143,3 milyon), düzeltilmiş FAVÖK 45,8 milyon dolar, net kâr 6,6 milyon dolar. Borç servisi öncesi serbest nakit akışı eksi 55,5 milyon dolar.",
+  "risks": [],
+  "watch": [],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/stocks/gprk/financials/ratios/"
+   },
+   {
+    "t": "Finviz (Business Wire): GeoPark 3Ç26 sonuçları (3 Kas 2026)",
+    "te": "Finviz (Business Wire): GeoPark 3Q26 results (3 Nov 2026)",
+    "u": "https://finviz.com/news/414931/geopark-reports-third-quarter-2026-results"
+   }
+  ],
+  "en": {
+   "one": "An oil producer in Colombia and Argentina. Its product is a commodity; there is no moat.",
+   "business": "GeoPark produces oil and natural gas in Colombia and in Argentina's Vaca Muerta region. In the third quarter it produced 27,973 barrels of oil equivalent per day, 25,865 of them in Colombia.",
+   "moat_text": "There is no moat. The market sets the price of oil; the company's profit moves with that price and with the outcome of its hedges. In the third quarter Brent averaged 91.4 dollars while the company realised 76.5 dollars a barrel; it booked a 36.4 million dollar hedging loss.",
+   "mgmt": "The company is shifting its growth to Argentina and borrowing to do it: it issued 550 million dollars of notes at 9.5% and suspended the dividend. Net debt is 386.6 million dollars; net debt/EBITDA is 1.6.",
+   "latest": "3 November 2026: Third-quarter revenue was 116.2 million dollars (143.3 million in the previous quarter), adjusted EBITDA 45.8 million and net profit 6.6 million. Free cash flow before debt service was minus 55.5 million dollars.",
+   "risks": [],
+   "watch": []
+  }
+ },
+ "AAPL": {
+  "scores": {
+   "A": 2,
+   "B": 3,
+   "C": 2,
+   "D": 2,
+   "E": 2
+  },
+  "moat": "geniş",
+  "per": "2026-Q4",
+  "one": "iPhone'un ve çevresindeki hizmetlerin sahibi. Hendek geniş; fiyat, temkinli kazanca göre çok pahalı.",
+  "business": "Apple; iPhone, Mac, iPad ve giyilebilir cihazlar satar, bu cihazların üzerinde çalışan hizmetlerden (uygulama mağazası, abonelikler, ödeme) gelir elde eder. 2026 mali yılında hasılat 478,8 milyar dolar, net kâr 132,2 milyar dolar. Son çeyrekte hasılatın 54,3 milyar doları iPhone'dan, 30,7 milyar doları hizmetlerden geldi.",
+  "moat_text": "Hendek geniş. Üstünlük markadan ve cihazın, yazılımın ve hizmetin tek elde olmasından geliyor: kullanıcı bir kez bu düzene girince başka markaya geçmesi zahmetli. Fiyatlama gücü marjda görünüyor: brüt marj %47,9, yatırılan sermayenin getirisi son üç okumada %90'ın üzerinde. Bir rakibin aynı düzeni kurması yıllar ve çok büyük sermaye ister.",
+  "mgmt": "Kâr hissedara dönüyor: son çeyrekte 28 milyar dolar (geri alım ve temettü). Çeyreklik temettü hisse başına 0,27 dolar. Şirketin net borcu yok (net borç/FAVÖK −0,25).",
+  "latest": "2 Kasım 2026: 2026 mali yılının son çeyreğinde hasılat 114,5 milyar dolar (+%12), net kâr 30,7 milyar dolar, hisse başına kâr 2,10 dolar (geçen yıl 1,85). iPhone geliri 54,3 milyar dolar; hizmet geliri 30,7 milyar dolarla rekor kırdı. Brüt marj %47,9.",
+  "risks": [
+   "Fiyat: F/K 38,8. Temkinli hesapla hisse adil değerin çok üzerinde; güvenlik marjı yok.",
+   "iPhone'a bağımlılık: son çeyrekte hasılatın %47'si tek üründen geldi.",
+   "Düzenleme: uygulama mağazası komisyonları ve varsayılan arama anlaşmaları birçok ülkede dava ve düzenleme konusu; hizmet gelirinin kârlı bölümü buradan geliyor.",
+   "Üretim Asya'da yoğunlaşmış durumda; gümrük vergileri ve ticaret kısıtları maliyeti artırabilir."
+  ],
+  "watch": [
+   "Hizmet gelirinin büyümesi",
+   "Brüt marj",
+   "iPhone satışları",
+   "Fiyat: güvenlik marjı eşiği"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/stocks/aapl/financials/ratios/"
+   },
+   {
+    "t": "MacTrast: Apple 2026 mali yılı 4. çeyrek sonuçları (2 Kas 2026)",
+    "te": "MacTrast: Apple fiscal 2026 fourth-quarter results (2 Nov 2026)",
+    "u": "https://www.mactrast.com/?p=173782"
+   }
+  ],
+  "en": {
+   "one": "The owner of the iPhone and the services around it. The moat is wide; the price is very expensive relative to conservative earnings.",
+   "business": "Apple sells the iPhone, Mac, iPad and wearables, and earns income from the services that run on these devices (app store, subscriptions, payments). In fiscal 2026 revenue was 478.8 billion dollars and net profit 132.2 billion dollars. In the last quarter 54.3 billion dollars of revenue came from the iPhone and 30.7 billion dollars from services.",
+   "moat_text": "The moat is wide. The advantage comes from the brand and from having the device, the software and the services in one hand: once a user is inside this system, moving to another brand is a chore. Pricing power shows in the margin: gross margin is 47.9% and return on invested capital was above 90% in the last three readings. Building the same system would take a competitor years and a very large amount of capital.",
+   "mgmt": "Profit returns to shareholders: 28 billion dollars in the last quarter (buybacks and dividends). The quarterly dividend is 0.27 dollars per share. The company has no net debt (net debt/EBITDA −0.25).",
+   "latest": "2 November 2026: In the last quarter of fiscal 2026 revenue was 114.5 billion dollars (+12%), net profit 30.7 billion dollars and earnings per share 2.10 dollars (1.85 a year earlier). iPhone revenue was 54.3 billion dollars; services revenue set a record at 30.7 billion dollars. Gross margin was 47.9%.",
+   "risks": [
+    "Price: the P/E is 38.8. On the conservative calculation the share is far above fair value; there is no margin of safety.",
+    "Dependence on the iPhone: 47% of revenue in the last quarter came from a single product.",
+    "Regulation: app store commissions and default search agreements are the subject of lawsuits and regulation in many countries; the profitable part of services income comes from here.",
+    "Production is concentrated in Asia; tariffs and trade restrictions can raise costs."
+   ],
+   "watch": [
+    "Growth in services revenue",
+    "Gross margin",
+    "iPhone sales",
+    "Price: the margin-of-safety threshold"
+   ]
+  }
+ },
+ "NVDA": {
+  "scores": {
+   "A": 2,
+   "B": 3,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "geniş",
+  "per": "2026-Q2",
+  "one": "Yapay zekâ çiplerinin açık ara lideri. Hendek geniş, kârlılık olağanüstü; talep tek bir yatırım dalgasına bağlı, fiyat pahalı.",
+  "business": "NVIDIA, yapay zekâ modellerini eğiten ve çalıştıran çipleri ve bu çiplerin çevresindeki sistemleri tasarlar; üretimi dışarıya yaptırır. 26 Temmuz 2026'da biten çeyrekte hasılat 96,2 milyar dolar; bunun 89,0 milyar doları veri merkezi kolundan. Net kâr 59,7 milyar dolar.",
+  "moat_text": "Hendek geniş. Üstünlük çipin kendisinden çok, yıllardır biriken yazılım ve geliştirici ekosisteminden geliyor; başka çipe geçen müşteri yazılımını yeniden kurmak zorunda kalır. Fiyatlama gücü marjda görünüyor: brüt marj %75,0. Zayıf yanı: en büyük müşteriler kendi çiplerini de tasarlıyor; üstünlüğün her yeni ürün kuşağında yeniden kazanılması gerekiyor.",
+  "mgmt": "Net borç yok. Çeyrekte hissedara yaklaşık 26,0 milyar dolar döndü (geri alım ve temettü); serbest nakit akışı 21,3 milyar dolardı. Geri alım yetkisinde yaklaşık 99,0 milyar dolar duruyor. Çeyreklik temettü hisse başına 0,25 dolar.",
+  "latest": "26 Ağustos 2026: 26 Temmuz'da biten çeyrekte hasılat 96,2 milyar dolar (+%106), veri merkezi geliri 89,0 milyar dolar (+%117), net kâr 59,7 milyar dolar, hisse başına kâr 2,46 dolar. Gelecek çeyrek için hasılat beklentisi 108,0 milyar dolar; bu beklenti Çin'e veri merkezi çipi satışı içermiyor. Yeni çip kuşağı Vera Rubin seri üretime girdi.",
+  "risks": [
+   "Yoğunlaşma: hasılatın yaklaşık %93'ü veri merkezi kolundan geliyor ve bu talep az sayıda büyük şirketin yapay zekâ yatırımına bağlı. Yatırım yavaşlarsa satış hızla düşer.",
+   "Döngü: çip sektörü döngüseldir. Reel özsermaye kârlılığı 2023 mali yılında %14'e inmişti; bugün %100 dolayında.",
+   "Çin: şirket, Çin'e veri merkezi çipi satışını beklentisine katmıyor; bu pazar ticaret kısıtları nedeniyle belirsiz.",
+   "Rekabet: büyük müşteriler kendi çiplerini tasarlıyor, rakip çip üreticileri fiyatla baskı yapıyor.",
+   "Fiyat: temkinli hesapla hisse adil değerin üzerinde; güvenlik marjı yok."
+  ],
+  "watch": [
+   "Veri merkezi gelirinin çeyreklik büyümesi",
+   "Brüt marj (%75 dolayında kalıyor mu)",
+   "Büyük müşterilerin yatırım harcaması planları",
+   "Fiyat: güvenlik marjı eşiği"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/stocks/nvda/financials/ratios/"
+   },
+   {
+    "t": "Unite.AI: NVIDIA 2027 mali yılı 2. çeyrek sonuçları (26 Ağu 2026)",
+    "te": "Unite.AI: NVIDIA fiscal 2027 second-quarter results (26 Aug 2026)",
+    "u": "https://www.unite.ai/nvidia-posts-96-2b-quarter-as-data-center-revenue-hits-89b/"
+   }
+  ],
+  "en": {
+   "one": "The clear leader in AI chips. The moat is wide and profitability extraordinary; demand depends on a single investment wave, and the price is expensive.",
+   "business": "NVIDIA designs the chips that train and run AI models and the systems around them; it outsources manufacturing. In the quarter ended 26 July 2026 revenue was 96.2 billion dollars, 89.0 billion dollars of it from the data centre segment. Net profit was 59.7 billion dollars.",
+   "moat_text": "The moat is wide. The advantage comes less from the chip itself than from the software and developer ecosystem built up over years; a customer that moves to another chip has to rebuild its software. Pricing power shows in the margin: gross margin is 75.0%. The weak point: the largest customers also design their own chips; the advantage has to be won again with each new product generation.",
+   "mgmt": "No net debt. About 26.0 billion dollars went back to shareholders in the quarter (buybacks and dividends); free cash flow was 21.3 billion dollars. About 99.0 billion dollars remain under the buyback authorisation. The quarterly dividend is 0.25 dollars per share.",
+   "latest": "26 August 2026: In the quarter ended 26 July revenue was 96.2 billion dollars (+106%), data centre revenue 89.0 billion dollars (+117%), net profit 59.7 billion dollars and earnings per share 2.46 dollars. The revenue outlook for the next quarter is 108.0 billion dollars; it includes no data centre chip sales to China. The new chip generation, Vera Rubin, entered full production.",
+   "risks": [
+    "Concentration: about 93% of revenue comes from the data centre segment, and that demand depends on the AI spending of a small number of large companies. If the spending slows, sales fall fast.",
+    "The cycle: the chip industry is cyclical. Real return on equity fell to 14% in fiscal 2023; today it is around 100%.",
+    "China: the company leaves data centre chip sales to China out of its outlook; this market is uncertain because of trade restrictions.",
+    "Competition: large customers design their own chips, and rival chip makers press on price.",
+    "Price: on the conservative calculation the share is above fair value; there is no margin of safety."
+   ],
+   "watch": [
+    "Quarterly growth in data centre revenue",
+    "Gross margin (whether it stays around 75%)",
+    "Capital spending plans of the large customers",
+    "Price: the margin-of-safety threshold"
+   ]
+  }
+ },
+ "MSFT": {
+  "scores": {
+   "A": 2,
+   "B": 3,
+   "C": 2,
+   "D": 2,
+   "E": 2
+  },
+  "moat": "geniş",
+  "per": "2027-Q1",
+  "one": "Kurumların yazılım ve bulut altyapısının sahibi. Hendek geniş, kazanç öngörülebilir; fiyat pahalı ve yapay zekâ yatırımı nakdi yutuyor.",
+  "business": "Microsoft, işletmelere ve bireylere yazılım (Windows, Office), bulut altyapısı (Azure) ve iş uygulamaları satar; gelirin büyük bölümü aboneliktir. Eylül 2026'da biten çeyrekte hasılat 92,3 milyar dolar; bunun 63,9 milyar doları bulut hizmetlerinden.",
+  "moat_text": "Hendek geniş. Kurumlar iş süreçlerini bu yazılımların üzerine kurmuş durumda; başka ürüne geçmek pahalı ve riskli. Bulutta ölçek, yeni bir rakibin önündeki en büyük engel. Kanıtı rakamlarda: reel özsermaye kârlılığı beş yıldır %29'un üzerinde. Zayıf yanı: yapay zekâ yarışı sermaye yoğun; yatırılan sermayenin getirisi beş yılda %62'den %25'e indi.",
+  "mgmt": "Kâr ana işe gidiyor; son dönemde çok büyük bölümü veri merkezlerine. Çeyrekte yatırım harcaması 39,4 milyar dolar (bir yıl öncesinin yaklaşık iki katı), serbest nakit akışı 18,6 milyar dolar. Temettü ödeme oranı %20. Borç düşük (net borç/FAVÖK 0,34).",
+  "latest": "28 Ekim 2026: 2027 mali yılının ilk çeyreğinde hasılat 92,3 milyar dolar (+%19), Azure büyümesi %48, bulut geliri 63,9 milyar dolar (+%30). Yatırım harcaması 39,4 milyar dolar; şirketin yıllık yatırım harcaması beklentisi yaklaşık 175 milyar dolar.",
+  "risks": [
+   "Yapay zekâ yatırımının getirisi belirsiz: yılda yaklaşık 175 milyar dolarlık yatırım harcaması serbest nakit akışını baskılıyor (serbest nakit akışı verimi %1,5).",
+   "Fiyat: F/K 27,8. Temkinli hesapla hisse adil değerin çok üzerinde; güvenlik marjı yok.",
+   "Yatırılan sermayenin getirisi düşüyor (beş yılda %62'den %25'e). Yeni yatırımlar eski işin kârlılığına ulaşamazsa düşüş sürer.",
+   "Yapay zekâ talebinin önemli bölümü az sayıda büyük müşteriden ve ortaktan geliyor; bu talep zayıflarsa kurulan kapasite boşta kalır."
+  ],
+  "watch": [
+   "Azure büyümesi",
+   "Yatırım harcaması ve serbest nakit akışı",
+   "Yatırılan sermayenin getirisi",
+   "Fiyat: güvenlik marjı eşiği"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/stocks/msft/financials/ratios/"
+   },
+   {
+    "t": "AI Weekly: Microsoft 2027 mali yılı 1. çeyrek sonuçları (28 Eki 2026)",
+    "te": "AI Weekly: Microsoft fiscal 2027 first-quarter results (28 Oct 2026)",
+    "u": "https://aiweekly.co/alerts/microsoft-q1-revenue-hits-923b-azure-up-48-as-capex-jumps-to-394b-with-175b"
+   }
+  ],
+  "en": {
+   "one": "The owner of the software and cloud infrastructure that businesses run on. The moat is wide and earnings predictable; the price is expensive and AI investment is eating cash.",
+   "business": "Microsoft sells software (Windows, Office), cloud infrastructure (Azure) and business applications to companies and individuals; most of the income is subscription-based. In the quarter ended September 2026 revenue was 92.3 billion dollars, 63.9 billion dollars of it from cloud services.",
+   "moat_text": "The moat is wide. Companies have built their processes on this software; moving to another product is costly and risky. In the cloud, scale is the biggest barrier facing a new competitor. The numbers back it: real return on equity has been above 29% for five years. The weak point: the AI race is capital-intensive; return on invested capital fell from 62% to 25% in five years.",
+   "mgmt": "Profit goes into the core business, and lately a very large part of it into data centres. Capital spending in the quarter was 39.4 billion dollars (about double a year earlier) and free cash flow 18.6 billion dollars. The dividend payout ratio is 20%. Debt is low (net debt/EBITDA 0.34).",
+   "latest": "28 October 2026: In the first quarter of fiscal 2027 revenue was 92.3 billion dollars (+19%), Azure grew 48% and cloud revenue was 63.9 billion dollars (+30%). Capital spending was 39.4 billion dollars; the company's annual capital spending outlook is about 175 billion dollars.",
+   "risks": [
+    "The return on AI investment is uncertain: about 175 billion dollars a year of capital spending is weighing on free cash flow (free cash flow yield 1.5%).",
+    "Price: the P/E is 27.8. On the conservative calculation the share is far above fair value; there is no margin of safety.",
+    "Return on invested capital is falling (from 62% to 25% in five years). If the new investments do not reach the profitability of the old business, the decline continues.",
+    "A significant part of AI demand comes from a small number of large customers and partners; if that demand weakens, the capacity being built sits idle."
+   ],
+   "watch": [
+    "Azure growth",
+    "Capital spending and free cash flow",
+    "Return on invested capital",
+    "Price: the margin-of-safety threshold"
+   ]
+  }
+ },
+ "GOOGL": {
+  "scores": {
+   "A": 2,
+   "B": 3,
+   "C": 1,
+   "D": 2,
+   "E": 2
+  },
+  "moat": "geniş",
+  "per": "2026-Q3",
+  "one": "Google aramanın, YouTube'un ve hızla büyüyen bir bulut işinin sahibi. Hendek geniş; fiyat, temkinli kazanca göre pahalı.",
+  "business": "Alphabet'in gelirinin büyük bölümü reklamdan gelir: Google arama, YouTube ve reklam ağı. İkinci büyük kolu bulut hizmetleridir (Google Cloud). 2026'nın üçüncü çeyreğinde hasılat 127,6 milyar dolar (+%25); bulut geliri 30,7 milyar dolar (+%103).",
+  "moat_text": "Hendek geniş. Arama alışkanlığı, veri ve dağıtım (Android, Chrome, YouTube) birbirini besliyor; reklamveren kullanıcının olduğu yere gitmek zorunda. Kanıtı rakamlarda: reel özsermaye kârlılığı beş yılda %16'nın altına inmedi, son 12 ayda %39. Zayıf yanı: yapay zekâ sohbet araçları arama alışkanlığını değiştirebilir; şirket bu yüzden çok büyük yatırım yapıyor.",
+  "mgmt": "Net borç yok (net borç/FAVÖK −0,62). Kârın çok büyük bölümü veri merkezlerine gidiyor: üçüncü çeyrekte yatırım harcaması 51,4 milyar dolar; 2026 beklentisi 195–205 milyar dolar, 2027'de 300 milyar doları aşması bekleniyor. Temettü küçük (ödeme oranı %4,6). Serbest nakit akışı verimi 2022'de %5,2 iken son 12 ayda %0,6'ya indi.",
+  "latest": "28 Ekim 2026: Üçüncü çeyrek hasılatı 127,6 milyar dolar (+%25), Google Cloud geliri 30,7 milyar dolar (+%103). Çeyrekte yatırım harcaması 51,4 milyar dolar. Şirket 2026 yatırım harcaması beklentisini 195–205 milyar dolara yükseltti ve 2027'de 300 milyar doları aşacağını açıkladı. Gemini uygulaması 1 milyar kullanıcıya ulaştı.",
+  "risks": [
+   "Yatırım dalgası: 2027'de 300 milyar doları aşması beklenen harcama, serbest nakit akışını neredeyse sıfırlıyor. Bu yatırımın getirisi henüz belli değil.",
+   "Arama alışkanlığı: yapay zekâ sohbet araçları kullanıcının aramaya gelme nedenini azaltabilir; reklam gelirinin kaynağı burası.",
+   "Rekabet davaları: arama ve reklam teknolojisi işleri ABD'de ve Avrupa'da dava ve düzenleme konusu.",
+   "Reklam döngüseldir: ekonomi yavaşlayınca reklamveren bütçesini keser. Reel özsermaye kârlılığı 2022'de %16'ya inmişti.",
+   "Fiyat: temkinli hesapla hisse adil değerin üzerinde; güvenlik marjı yok."
+  ],
+  "watch": [
+   "Arama reklam gelirinin büyümesi",
+   "Bulut işinin büyümesi ve kârlılığı",
+   "Yatırım harcaması ve serbest nakit akışı",
+   "Fiyat: güvenlik marjı eşiği"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/stocks/googl/financials/ratios/"
+   },
+   {
+    "t": "AI Weekly: Alphabet 3Ç26 sonuçları (28 Eki 2026)",
+    "te": "AI Weekly: Alphabet 3Q26 results (28 Oct 2026)",
+    "u": "https://aiweekly.co/alerts/alphabet-posts-1276b-q3-with-google-cloud-up-103-to-307b-as-2027-capex-set-to"
+   }
+  ],
+  "en": {
+   "one": "The owner of Google Search, YouTube and a fast-growing cloud business. The moat is wide; the price is expensive relative to conservative earnings.",
+   "business": "Most of Alphabet's income comes from advertising: Google Search, YouTube and its ad network. Its second-largest business is cloud services (Google Cloud). In the third quarter of 2026 revenue was 127.6 billion dollars (+25%); cloud revenue was 30.7 billion dollars (+103%).",
+   "moat_text": "The moat is wide. The search habit, data and distribution (Android, Chrome, YouTube) feed each other; advertisers have to go where the users are. The numbers back it: real return on equity has not fallen below 16% in five years and is 39% over the last 12 months. The weak point: AI chat tools may change the search habit; this is why the company is investing so heavily.",
+   "mgmt": "No net debt (net debt/EBITDA −0.62). A very large part of the profit goes into data centres: capital spending was 51.4 billion dollars in the third quarter; the 2026 outlook is 195–205 billion dollars and spending is expected to exceed 300 billion dollars in 2027. The dividend is small (payout ratio 4.6%). Free cash flow yield was 5.2% in 2022 and has fallen to 0.6% over the last 12 months.",
+   "latest": "28 October 2026: Third-quarter revenue was 127.6 billion dollars (+25%) and Google Cloud revenue 30.7 billion dollars (+103%). Capital spending in the quarter was 51.4 billion dollars. The company raised its 2026 capital spending outlook to 195–205 billion dollars and said it will exceed 300 billion dollars in 2027. The Gemini app reached 1 billion users.",
+   "risks": [
+    "The investment wave: spending expected to exceed 300 billion dollars in 2027 leaves almost no free cash flow. The return on this investment is not yet known.",
+    "The search habit: AI chat tools may reduce the reasons users come to search, which is the source of advertising income.",
+    "Competition cases: the search and advertising technology businesses are the subject of lawsuits and regulation in the US and Europe.",
+    "Advertising is cyclical: when the economy slows, advertisers cut their budgets. Real return on equity fell to 16% in 2022.",
+    "Price: on the conservative calculation the share is above fair value; there is no margin of safety."
+   ],
+   "watch": [
+    "Growth in search advertising revenue",
+    "Growth and profitability of the cloud business",
+    "Capital spending and free cash flow",
+    "Price: the margin-of-safety threshold"
+   ]
+  }
+ },
+ "META": {
+  "scores": {
+   "A": 2,
+   "B": 3,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "geniş",
+  "per": "2026-Q3",
+  "one": "Facebook, Instagram ve WhatsApp'ın sahibi. Hendek geniş; fiyat pahalı, yapay zekâ yatırımı nakdi tüketiyor ve borç artıyor.",
+  "business": "Meta; Facebook, Instagram, WhatsApp ve Messenger'ı işletir. Gelirinin neredeyse tamamı bu uygulamalarda gösterilen reklamlardan gelir. Uygulamalarını günde 3,64 milyar kişi kullanıyor. 2026'nın üçüncü çeyreğinde hasılat 64,6 milyar dolar (+%26).",
+  "moat_text": "Hendek geniş. Üstünlük ağ etkisinden geliyor: insanlar tanıdıkları oradayken ayrılmıyor, reklamveren de kullanıcının olduğu yere geliyor. Fiyatlama gücü rakamlarda görünüyor: reklam başına ortalama fiyat %14, reklam gösterimi %10 arttı. Zayıf yanı: kullanıcının ilgisi başka uygulamalara kayabilir; gençlerle ilgili davalar ve düzenlemeler işin koşullarını değiştirebilir.",
+  "mgmt": "Küçük kusurlar var. Faaliyetlerden gelen nakdin tamamından fazlası yatırıma gidiyor: üçüncü çeyrekte yatırım harcaması 34,9 milyar dolar, serbest nakit akışı eksi 2,1 milyar dolar; 2026'da hisse geri alımı yapılmadı. Uzun vadeli borç 80,9 milyar dolara çıktı (nakit ve menkul kıymetler 82,5 milyar dolar). Sanal gerçeklik kolu (Reality Labs) çeyrekte 4,1 milyar dolar zarar etti. Ocak 2027'de oy hakkı olmayan C sınıfı hisse çıkarılacak; kurucunun kontrolü sürüyor.",
+  "latest": "21 Ekim 2026: Üçüncü çeyrek hasılatı 64,6 milyar dolar (+%26), faaliyet kârı 13,0 milyar dolar (−%37), hisse başına kâr 3,83 dolar. Kâr, gençlerin ruh sağlığına ilişkin davalarda ABD'deki 52 başsavcılıkla varılan anlaşma için ayrılan 9,89 milyar dolarlık karşılığı içeriyor; karşılık hariç hisse başına kâr 7,40 dolar. 2026 yatırım harcaması beklentisi 135–145 milyar dolar.",
+  "risks": [
+   "Yatırım dalgası: 2026'da 135–145 milyar dolarlık yatırım harcaması nakit akışını eksiye çevirdi; şirket borçlanıyor. Bu yatırımın getirisi henüz belli değil.",
+   "Dava ve düzenleme: gençlerle ilgili davalardaki anlaşma 18,59 milyar dolara kadar ödeme öngörüyor; önümüzdeki aylarda yeni davalar görülecek.",
+   "Reklam döngüseldir: reel özsermaye kârlılığı 2022'de %11'e inmişti.",
+   "Ana iş dışındaki zarar: Reality Labs 2026'da 18–19 milyar dolar zarar bekliyor.",
+   "Fiyat: temkinli hesapla hisse adil değerin çok üzerinde; güvenlik marjı yok."
+  ],
+  "watch": [
+   "Serbest nakit akışı ve borç",
+   "Reklam fiyatı ve gösterim büyümesi",
+   "Reality Labs zararı",
+   "Fiyat: güvenlik marjı eşiği"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/stocks/meta/financials/ratios/"
+   },
+   {
+    "t": "Meta: 3Ç26 sonuç açıklaması (21 Eki 2026)",
+    "te": "Meta: 3Q26 earnings release (21 Oct 2026)",
+    "u": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
+   }
+  ],
+  "en": {
+   "one": "The owner of Facebook, Instagram and WhatsApp. The moat is wide; the price is expensive, AI investment is consuming the cash and debt is rising.",
+   "business": "Meta runs Facebook, Instagram, WhatsApp and Messenger. Almost all of its income comes from the ads shown in these apps. 3.64 billion people use its apps every day. In the third quarter of 2026 revenue was 64.6 billion dollars (+26%).",
+   "moat_text": "The moat is wide. The advantage comes from the network effect: people do not leave while the people they know are there, and advertisers come to where the users are. Pricing power shows in the numbers: the average price per ad rose 14% and ad impressions 10%. The weak point: users' attention can shift to other apps; lawsuits and regulation concerning young users can change the terms of the business.",
+   "mgmt": "There are small flaws. More than all of the cash from operations goes into investment: capital spending was 34.9 billion dollars in the third quarter and free cash flow minus 2.1 billion dollars; no shares were bought back in 2026. Long-term debt has risen to 80.9 billion dollars (cash and marketable securities 82.5 billion dollars). The virtual reality unit (Reality Labs) lost 4.1 billion dollars in the quarter. Non-voting Class C shares will be issued in January 2027; the founder's control continues.",
+   "latest": "21 October 2026: Third-quarter revenue was 64.6 billion dollars (+26%), operating profit 13.0 billion dollars (−37%) and earnings per share 3.83 dollars. The profit includes a 9.89 billion dollar charge for an agreement with 52 attorneys general in the US in lawsuits over teenagers' mental health; excluding the charge, earnings per share were 7.40 dollars. The 2026 capital spending outlook is 135–145 billion dollars.",
+   "risks": [
+    "The investment wave: 135–145 billion dollars of capital spending in 2026 has turned cash flow negative, and the company is borrowing. The return on this investment is not yet known.",
+    "Lawsuits and regulation: the agreement in the youth-related cases provides for payments of up to 18.59 billion dollars, and new trials are scheduled in the coming months.",
+    "Advertising is cyclical: real return on equity fell to 11% in 2022.",
+    "Losses outside the core business: Reality Labs expects a loss of 18–19 billion dollars in 2026.",
+    "Price: on the conservative calculation the share is far above fair value; there is no margin of safety."
+   ],
+   "watch": [
+    "Free cash flow and debt",
+    "Ad price and impression growth",
+    "Reality Labs loss",
+    "Price: the margin-of-safety threshold"
+   ]
+  }
+ },
+ "AVGO": {
+  "scores": {
+   "A": 1,
+   "B": 2,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "2026-Q3",
+  "one": "Veri merkezi çipleri ve kurumsal yazılım (VMware) satan şirket. Yapay zekâ geliri patladı; talep birkaç müşteriye bağlı, fiyat çok pahalı.",
+  "business": "Broadcom'un iki kolu var. Birincisi çipler: büyük teknoloji şirketleri için özel tasarlanan yapay zekâ çipleri ve veri merkezlerindeki ağ çipleri. İkincisi kurumsal altyapı yazılımı (VMware). 2 Ağustos 2026'da biten çeyrekte hasılat 29,6 milyar dolar (+%86); bunun 16,7 milyar doları yapay zekâ çiplerinden.",
+  "moat_text": "Hendek dar. Özel çip tasarımında ve ağ çiplerinde şirketin yerini doldurmak zor; yazılım kolunda müşteri sistemini değiştirmekte zorlanır. Kârlılık çok yüksek: serbest nakit akışı hasılatın %46'sı. Hendeği geniş saymamamızın nedeni yoğunlaşma: yapay zekâ çip geliri (hasılatın %56'sı) birkaç büyük müşterinin siparişine bağlı; bu müşteriler başka tedarikçiye geçebilir ya da tasarımı kendisi üstlenebilir.",
+  "mgmt": "Şirket satın almalarla kuruldu; en büyüğü VMware. Bugün nakdin çoğu hissedara dönüyor: çeyrekte serbest nakit akışı 13,7 milyar dolar, temettü 3,1 milyar dolar (hisse başına 0,65 dolar). Borç makul (net borç/FAVÖK 0,68). Satın alma muhasebesi yüzünden açıklanan kâr ile düzeltilmiş kâr arasındaki fark büyük: hisse başına 2,68 dolar ve 3,32 dolar.",
+  "latest": "9 Eylül 2026: 2 Ağustos'ta biten çeyrekte hasılat 29,6 milyar dolar (+%86), yapay zekâ çip geliri 16,7 milyar dolar (+%221), hisse başına kâr 2,68 dolar. Serbest nakit akışı 13,7 milyar dolar. Gelecek çeyrek için beklenti: yaklaşık 34,8 milyar dolar hasılat; bunun 21,7 milyar doları yapay zekâ çiplerinden.",
+  "risks": [
+   "Müşteri yoğunlaşması: yapay zekâ çip geliri birkaç büyük teknoloji şirketinin siparişine bağlı. Bir müşterinin planını değiştirmesi büyümeyi keser.",
+   "Fiyat: F/K 42,4. Temkinli hesapla hisse adil değerin çok üzerinde; güvenlik marjı yok.",
+   "Geçmiş dalgalı: reel özsermaye kârlılığı 2024'te %10'a inmişti. Bu, 2. surdaki alt sınırın hemen üzerinde.",
+   "Döngü: çip talebi yatırım dalgalarıyla iner çıkar; bugünkü büyüme yapay zekâ yatırımlarının sürmesine bağlı."
+  ],
+  "watch": [
+   "Yapay zekâ çip gelirinin çeyreklik büyümesi",
+   "Müşteri sayısı ve yeni tasarım anlaşmaları",
+   "Serbest nakit akışı marjı",
+   "Fiyat: güvenlik marjı eşiği"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/stocks/avgo/financials/ratios/"
+   },
+   {
+    "t": "StorageNewsletter: Broadcom 2026 mali yılı 3. çeyrek sonuçları (9 Eyl 2026)",
+    "te": "StorageNewsletter: Broadcom fiscal 2026 third-quarter results (9 Sep 2026)",
+    "u": "https://www.storagenewsletter.com/2026/09/09/broadcom-fiscal-3q26-financial-results/"
+   }
+  ],
+  "en": {
+   "one": "A company selling data centre chips and enterprise software (VMware). AI revenue has exploded; demand depends on a few customers, and the price is very expensive.",
+   "business": "Broadcom has two businesses. The first is chips: custom AI chips designed for large technology companies, and networking chips for data centres. The second is enterprise infrastructure software (VMware). In the quarter ended 2 August 2026 revenue was 29.6 billion dollars (+86%), 16.7 billion dollars of it from AI chips.",
+   "moat_text": "The moat is narrow. The company is hard to replace in custom chip design and networking chips, and in software the customer finds it hard to change its systems. Profitability is very high: free cash flow is 46% of revenue. The reason we do not count the moat as wide is concentration: AI chip revenue (56% of revenue) depends on the orders of a few large customers; these customers can move to another supplier or take the design in-house.",
+   "mgmt": "The company was built through acquisitions, the largest being VMware. Today most of the cash returns to shareholders: free cash flow was 13.7 billion dollars in the quarter and the dividend 3.1 billion dollars (0.65 dollars per share). Debt is moderate (net debt/EBITDA 0.68). Because of acquisition accounting the gap between reported and adjusted profit is large: 2.68 dollars and 3.32 dollars per share.",
+   "latest": "9 September 2026: In the quarter ended 2 August revenue was 29.6 billion dollars (+86%), AI chip revenue 16.7 billion dollars (+221%) and earnings per share 2.68 dollars. Free cash flow was 13.7 billion dollars. The outlook for the next quarter: about 34.8 billion dollars of revenue, 21.7 billion dollars of it from AI chips.",
+   "risks": [
+    "Customer concentration: AI chip revenue depends on the orders of a few large technology companies. A change of plan by one customer cuts the growth.",
+    "Price: the P/E is 42.4. On the conservative calculation the share is far above fair value; there is no margin of safety.",
+    "The past is uneven: real return on equity fell to 10% in 2024. That is just above the lower limit in the second wall.",
+    "The cycle: chip demand rises and falls with investment waves; today's growth depends on AI investment continuing."
+   ],
+   "watch": [
+    "Quarterly growth in AI chip revenue",
+    "Number of customers and new design agreements",
+    "Free cash flow margin",
+    "Price: the margin-of-safety threshold"
+   ]
+  }
+ },
+ "LLY": {
+  "scores": {
+   "A": 2,
+   "B": 3,
+   "C": 2,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "geniş",
+  "per": "2026-Q3",
+  "one": "Diyabet ve obezite ilaçlarının önde gelen üreticisi. Hendek geniş, büyüme çok hızlı; gelir tek bir moleküle bağlı, fiyat çok pahalı.",
+  "business": "Eli Lilly ilaç geliştirir ve satar. Bugün gelirinin büyük bölümü tek bir molekülden (tirzepatid) geliyor: diyabette Mounjaro, obezitede Zepbound. 2026'nın üçüncü çeyreğinde hasılat 24,4 milyar dolar (+%39); Mounjaro 10,7 milyar dolar, Zepbound 5,4 milyar dolar.",
+  "moat_text": "Hendek geniş. Üstünlük patentten, klinik veriden ve üretim ölçeğinden geliyor; yeni bir rakibin benzer bir ilacı geliştirip onay alması yıllar ve milyarlarca dolar ister. Kârlılık bunu gösteriyor: brüt marj %83,9, reel özsermaye kârlılığı beş yıldır %43'ün üzerinde. Zayıf yanı: patent süresi dolunca üstünlük biter ve fiyatlar şimdiden düşüyor (üçüncü çeyrekte ortalama satış fiyatı %15 geriledi; büyüme hacimden geldi).",
+  "mgmt": "Kâr ana işe gidiyor: çeyrekte araştırma ve geliştirme harcaması 4,2 milyar dolar (+%23). Şirket küçük biyoteknoloji şirketleri satın alıyor (çeyrekte AtaiBeckley; çeyrekten sonra Merida Biosciences); bu alımlarla ilgili giderler çeyrek kârını hisse başına 4,57 dolar azalttı. Çeyreklik temettü hisse başına 1,73 dolar (+%15). Borç makul (net borç/FAVÖK 0,94).",
+  "latest": "29 Ekim 2026: Üçüncü çeyrek hasılatı 24,4 milyar dolar (+%39): hacim %53 arttı, fiyatlar %15 düştü. Net kâr 6,45 milyar dolar, hisse başına kâr 7,22 dolar (+%16). Ağızdan alınan yeni ilaç Foundayo 184 milyon dolar sattı. Şirket 2026 hasılat beklentisini 85–87 milyar dolardan 91–92 milyar dolara yükseltti.",
+  "risks": [
+   "Yoğunlaşma: hasılatın %66'sı tek molekülden (Mounjaro ve Zepbound). Bu ilaçta bir güvenlik sorunu, daha iyi bir rakip ilaç ya da patent kaybı kârı doğrudan vurur.",
+   "Fiyat baskısı: ortalama satış fiyatı bir yılda %15 düştü. Şirket ABD hükümetiyle ilaç fiyatları konusunda gönüllü bir anlaşma yaptı; yeni fiyat indirimleri gelebilir.",
+   "Rekabet: obezite ilaçları pazarına yeni ilaçlar giriyor; şirketin kendi yeni ilaçları da eskilerinin satışını bölebilir.",
+   "Fiyat: F/K 47. Temkinli hesapla hisse adil değerin çok üzerinde; güvenlik marjı yok."
+  ],
+  "watch": [
+   "Mounjaro ve Zepbound satışları (hacim ve fiyat ayrı ayrı)",
+   "Yeni ilaçların katkısı (Foundayo, retatrutid)",
+   "Brüt marj",
+   "Fiyat: güvenlik marjı eşiği"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/stocks/lly/financials/ratios/"
+   },
+   {
+    "t": "SEC: Eli Lilly 3Ç26 satış ve kâr açıklaması (29 Eki 2026)",
+    "te": "SEC: Eli Lilly 3Q26 sales and earnings release (29 Oct 2026)",
+    "u": "https://www.sec.gov/Archives/edgar/data/0000059478/000005947826000104/q326lillysalesandearningsp.htm"
+   }
+  ],
+  "en": {
+   "one": "A leading maker of diabetes and obesity medicines. The moat is wide and growth very fast; revenue depends on a single molecule, and the price is very expensive.",
+   "business": "Eli Lilly develops and sells medicines. Today most of its revenue comes from a single molecule (tirzepatide): Mounjaro for diabetes and Zepbound for obesity. In the third quarter of 2026 revenue was 24.4 billion dollars (+39%); Mounjaro 10.7 billion dollars and Zepbound 5.4 billion dollars.",
+   "moat_text": "The moat is wide. The advantage comes from patents, clinical data and manufacturing scale; it would take a new competitor years and billions of dollars to develop a similar medicine and get it approved. Profitability shows it: gross margin is 83.9% and real return on equity has been above 43% for five years. The weak point: the advantage ends when the patent expires, and prices are already falling (the average selling price fell 15% in the third quarter; growth came from volume).",
+   "mgmt": "Profit goes into the core business: research and development spending was 4.2 billion dollars in the quarter (+23%). The company buys small biotechnology companies (AtaiBeckley in the quarter; Merida Biosciences after the quarter); charges related to these purchases reduced quarterly earnings by 4.57 dollars per share. The quarterly dividend is 1.73 dollars per share (+15%). Debt is moderate (net debt/EBITDA 0.94).",
+   "latest": "29 October 2026: Third-quarter revenue was 24.4 billion dollars (+39%): volume rose 53% and prices fell 15%. Net profit was 6.45 billion dollars and earnings per share 7.22 dollars (+16%). Foundayo, the new oral medicine, sold 184 million dollars. The company raised its 2026 revenue outlook from 85–87 billion dollars to 91–92 billion dollars.",
+   "risks": [
+    "Concentration: 66% of revenue comes from a single molecule (Mounjaro and Zepbound). A safety problem with this medicine, a better rival medicine or the loss of the patent hits profit directly.",
+    "Price pressure: the average selling price fell 15% in a year. The company has made a voluntary agreement with the US government on drug prices; further price cuts may follow.",
+    "Competition: new medicines are entering the obesity market, and the company's own new medicines may also split the sales of the older ones.",
+    "Price: the P/E is 47. On the conservative calculation the share is far above fair value; there is no margin of safety."
+   ],
+   "watch": [
+    "Mounjaro and Zepbound sales (volume and price separately)",
+    "Contribution of new medicines (Foundayo, retatrutide)",
+    "Gross margin",
+    "Price: the margin-of-safety threshold"
+   ]
+  }
+ }
+}
