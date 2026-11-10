@@ -1,36 +1,111 @@
 {
  "cc": "JP",
- "fetched": "2026-11-10T23:24:16Z",
+ "fetched": "2026-11-10T23:57:11Z",
  "errors": [],
  "source": "TradingView tarayıcısı",
  "market": "japan",
  "total": 3868,
- "kept": 3865,
+ "kept": 3864,
  "excluded": {
-  "fiyat ya da piyasa değeri yok": 3
+  "fiyat ya da piyasa değeri yok": 4
  },
  "mcap_check": {
-  "tutarlı": 3839,
+  "tutarlı": 3838,
   "pay sayısıyla tutmuyor": 8,
   "pay sayısı yok": 18
  },
  "cur": "JPY",
  "pcur": "JPY",
  "exchanges": {
-  "TSE": 3754,
+  "TSE": 3753,
   "NAG": 66,
   "FSE": 30,
   "SAPSE": 15
  },
  "periods": {
   "2026-Q2": 1839,
-  "2026-Q1": 1111,
+  "2026-Q1": 1110,
   "2026-Q3": 458,
   "2026-Q4": 320,
   "2027-Q1": 45,
   "2026-H1": 32
  },
- "pe_filled_pct": 86.8,
+ "pe_fix": {
+  "eps_n": 3352,
+  "eps_med": 1.0,
+  "eps_within5": 100.0,
+  "roe_n": 3330,
+  "roe_med": 1.0505,
+  "roe_within25": 97.4,
+  "roe_scale": 1.0,
+  "eps_ok": true,
+  "counts": {
+   "loss": 445,
+   "eps": 5,
+   "roe": 3,
+   "nodata": 59
+  },
+  "nodata_top": [
+   "6481",
+   "6457",
+   "581A",
+   "215A",
+   "593A",
+   "219A",
+   "652A",
+   "646A",
+   "6630",
+   "545A",
+   "619A",
+   "401A",
+   "656A",
+   "603A",
+   "6533"
+  ],
+  "fixed_top": [
+   [
+    "4901",
+    15.93,
+    "eps"
+   ],
+   [
+    "543A",
+    1.43,
+    "roe"
+   ],
+   [
+    "8616",
+    9.44,
+    "eps"
+   ],
+   [
+    "5186",
+    10.64,
+    "eps"
+   ],
+   [
+    "590A",
+    29.45,
+    "eps"
+   ],
+   [
+    "250A",
+    9.28,
+    "eps"
+   ],
+   [
+    "618A",
+    12.48,
+    "roe"
+   ],
+   [
+    "598A",
+    11.22,
+    "roe"
+   ]
+  ]
+ },
+ "pe_filled_pct": 87.0,
  "top5": [
   {
    "c": "7203",
@@ -79,10 +154,10 @@
   }
  ],
  "history": {
-  "candidates": 678,
-  "have": 671,
-  "fetched": 671,
-  "kept": 0,
+  "candidates": 680,
+  "have": 673,
+  "fetched": 2,
+  "kept": 671,
   "no_mapping": 0,
   "failed": [
    [
@@ -116,7 +191,7 @@
   ],
   "failed_n": 7,
   "blocked": false,
-  "budget_left": 4644
+  "budget_left": 5993
  },
  "ok": true
 }

@@ -3255,6 +3255,50 @@ null
 "got": "2026-11-10",
 "url": "https://stockanalysis.com/quote/tyo/1942/financials/ratios/"
 },
+"543A": {
+"asof": "2026-08-12",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+-13.98,
+-22.78,
+5.62,
+-59.54,
+22.99,
+50.81
+],
+"roic": [
+5.0,
+2.73,
+-0.66,
+9.15,
+21.18,
+15.07
+],
+"fcf": [
+13.86,
+-31.23,
+-60.71,
+-25.28,
+14.62,
+4.13
+],
+"nd": 0.29,
+"pe": 1.0,
+"pb": 0.76,
+"dy": 2.81,
+"po": null,
+"ttm": "2026-06-30",
+"per": "2026-Q2",
+"got": "2026-11-10",
+"url": "https://stockanalysis.com/quote/tyo/543A/financials/ratios/"
+},
 "4186": {
 "asof": "2026-08-07",
 "stale": 0,
@@ -23890,6 +23934,50 @@ null
 "per": "2026-Q2",
 "got": "2026-11-10",
 "url": "https://stockanalysis.com/quote/tyo/2982/financials/ratios/"
+},
+"618A": {
+"asof": "2026-10-15",
+"stale": 0,
+"fy": [
+null,
+null,
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+null,
+null,
+null,
+-18.21,
+80.4,
+80.4
+],
+"roic": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"fcf": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"nd": -0.59,
+"pe": null,
+"pb": null,
+"dy": null,
+"po": null,
+"ttm": "2026-08-31",
+"per": null,
+"got": "2026-11-10",
+"url": "https://stockanalysis.com/quote/tyo/618A/financials/ratios/"
 },
 "7358": {
 "asof": "2026-08-10",

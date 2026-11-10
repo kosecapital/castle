@@ -1,17 +1,29 @@
 {
- "when": "2026-11-10T23:33:56Z",
+ "when": "2026-11-10T23:57:24Z",
  "args": [
-  "--new",
-  "2"
+  "US",
+  "CN",
+  "JP"
  ],
  "results": [
   {
+   "cc": "US",
+   "ok": true,
+   "fetched": "2026-11-10T23:56:41Z",
+   "n": 4940,
+   "candidates": 811,
+   "pages": 4,
+   "missing": 3,
+   "blocked": false,
+   "errors": []
+  },
+  {
    "cc": "CN",
    "ok": true,
-   "fetched": "2026-11-10T23:11:06Z",
+   "fetched": "2026-11-10T23:56:53Z",
    "n": 5236,
-   "candidates": 703,
-   "pages": 685,
+   "candidates": 704,
+   "pages": 1,
    "missing": 18,
    "blocked": false,
    "errors": []
@@ -19,10 +31,10 @@
   {
    "cc": "JP",
    "ok": true,
-   "fetched": "2026-11-10T23:24:16Z",
-   "n": 3865,
-   "candidates": 678,
-   "pages": 671,
+   "fetched": "2026-11-10T23:57:11Z",
+   "n": 3864,
+   "candidates": 680,
+   "pages": 2,
    "missing": 7,
    "blocked": false,
    "errors": []
