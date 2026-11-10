@@ -1,0 +1,19 @@
+{
+ "when": "2026-11-10T22:43:31Z",
+ "args": [
+  "TR"
+ ],
+ "results": [
+  {
+   "cc": "TR",
+   "ok": true,
+   "fetched": "2026-11-10T22:41:26Z",
+   "n": 629,
+   "candidates": 66,
+   "pages": 65,
+   "missing": 1,
+   "blocked": false,
+   "errors": []
+  }
+ ]
+}
