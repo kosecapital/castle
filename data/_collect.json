@@ -1,17 +1,17 @@
 {
- "when": "2026-11-10T22:43:31Z",
+ "when": "2026-11-10T23:02:32Z",
  "args": [
-  "TR"
+  "US"
  ],
  "results": [
   {
-   "cc": "TR",
+   "cc": "US",
    "ok": true,
-   "fetched": "2026-11-10T22:41:26Z",
-   "n": 629,
-   "candidates": 66,
-   "pages": 65,
-   "missing": 1,
+   "fetched": "2026-11-10T22:52:17Z",
+   "n": 4940,
+   "candidates": 807,
+   "pages": 804,
+   "missing": 3,
    "blocked": false,
    "errors": []
   }

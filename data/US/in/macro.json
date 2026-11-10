@@ -1,0 +1,31 @@
+{
+ "fetched": "2026-11-10T22:52:19Z",
+ "cur": "USD",
+ "pcur": "USD",
+ "years": [
+  "2021",
+  "2022",
+  "2023",
+  "2024",
+  "2025"
+ ],
+ "fx": 1.0,
+ "mcapMin": 60,
+ "cpi_cur": 3.7,
+ "cpi_cur_src": "TradingView ECONOMICS:USIRYY (son açıklanan yıllık TÜFE)",
+ "cpi": {
+  "2021": 7.39,
+  "2022": 6.41,
+  "2023": 3.24,
+  "2024": 2.73
+ },
+ "cpi_src": {
+  "2021": "IMF WEO 2025-04 (dönem sonu)",
+  "2022": "IMF WEO 2025-04 (dönem sonu)",
+  "2023": "IMF WEO 2025-04 (dönem sonu)",
+  "2024": "IMF WEO 2025-04 (dönem sonu)"
+ },
+ "cpi_missing": [
+  "2025"
+ ]
+}

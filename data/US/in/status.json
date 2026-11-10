@@ -1,0 +1,107 @@
+{
+ "cc": "US",
+ "fetched": "2026-11-10T22:52:17Z",
+ "errors": [],
+ "source": "TradingView tarayıcısı",
+ "market": "america",
+ "total": 7431,
+ "kept": 4940,
+ "excluded": {
+  "OTC": 2487,
+  "fiyat ya da piyasa değeri yok": 4
+ },
+ "mcap_check": {
+  "tutarlı": 4637,
+  "pay sayısıyla tutmuyor": 285,
+  "pay sayısı yok": 18
+ },
+ "cur": "USD",
+ "pcur": "USD",
+ "exchanges": {
+  "NASDAQ": 3123,
+  "NYSE": 1607,
+  "AMEX": 209,
+  "CBOE": 1
+ },
+ "periods": {
+  "2026-Q3": 2807,
+  "2026-Q2": 1412,
+  "2026-H1": 215,
+  "2026-Q4": 152,
+  "2026-Q1": 119,
+  "2027-Q1": 114
+ },
+ "pe_filled_pct": 51.1,
+ "top5": [
+  {
+   "c": "AAPL",
+   "n": "Apple Inc.",
+   "p": 348.51,
+   "m": 5064610.7,
+   "pe": 38.83,
+   "pb": 45.182,
+   "per": "2026-Q4"
+  },
+  {
+   "c": "NVDA",
+   "n": "NVIDIA Corporation",
+   "p": 168.89,
+   "m": 4070249.0,
+   "pe": 21.35,
+   "pb": 17.81,
+   "per": "2026-Q2"
+  },
+  {
+   "c": "MSFT",
+   "n": "Microsoft Corporation",
+   "p": 533.16,
+   "m": 3959349.7,
+   "pe": 27.84,
+   "pb": 8.416,
+   "per": "2027-Q1"
+  },
+  {
+   "c": "GOOGL",
+   "n": "Alphabet Inc.",
+   "p": 287.38,
+   "m": 3500849.6,
+   "pe": 15.0,
+   "pb": 5.357,
+   "per": "2026-Q3"
+  },
+  {
+   "c": "AMZN",
+   "n": "Amazon.com, Inc.",
+   "p": 270.87,
+   "m": 2928954.5,
+   "pe": 21.89,
+   "pb": 4.772,
+   "per": "2026-Q3"
+  }
+ ],
+ "history": {
+  "candidates": 807,
+  "have": 804,
+  "fetched": 804,
+  "kept": 0,
+  "no_mapping": 0,
+  "failed": [
+   [
+    "ARCL",
+    404
+   ],
+   [
+    "SIMA",
+    404
+   ],
+   [
+    "WTG",
+    404
+   ]
+  ],
+  "failed_n": 3,
+  "blocked": false,
+  "budget_left": 5196
+ },
+ "ok": true
+}
