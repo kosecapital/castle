@@ -1,0 +1,50 @@
+{
+ "cc": "US",
+ "iso": "840",
+ "name": "ABD",
+ "market": "america",
+ "exchange": "NYSE, Nasdaq ve NYSE American",
+ "cur": "USD",
+ "asof": "2026-11-10",
+ "fx": 1.0,
+ "mcapMin": 60,
+ "years": [
+  "2021",
+  "2022",
+  "2023",
+  "2024",
+  "2025"
+ ],
+ "cpi": {
+  "2021": 7.0,
+  "2022": 6.5,
+  "2023": 3.4,
+  "2024": 2.9,
+  "2025": 2.7,
+  "cur": 3.7
+ },
+ "deflate": "all",
+ "inflation_note": "ABD şirketleri enflasyon muhasebesi uygulamaz. Bu yüzden bütün şirketlerin özsermaye kârlılığı yıllık tüketici enflasyonuyla düzeltildi: 2021 için %7,0, 2022 için %6,5, 2023 için %3,4, 2024 için %2,9, 2025 için %2,7 (aralıktan aralığa, BLS). Son 12 ay için en son açıklanan yıllık oran kullanıldı.",
+ "data_notes": [
+  "Fiyat, piyasa değeri, F/K ve PD/DD: TradingView tarayıcısı. Evren, ana kotasyonu NYSE, Nasdaq ya da NYSE American'da olan adi paylardır; tezgâh üstü (OTC) hisseler ve depo sertifikaları (ADR) dışarıdadır.",
+  "Beş yıllık oranlar: stockanalysis.com oran sayfaları. Her şirketin mali yılı kendi takvimine göredir; grafikte şirketin kendi mali yılları yazar.",
+  "Yıl sonu enflasyonu: ABD Çalışma İstatistikleri Bürosu (BLS), tüketici fiyat endeksi, aralıktan aralığa. Son yıllık oran: TradingView (ECONOMICS:USIRYY).",
+  "Bu kadar büyük bir borsada 3. sur okuması sırayla yapılır: önce fiyatı kale olmaya yetenler. Okunmayan şirket 'sırada' görünür."
+ ],
+ "small_text": "Piyasa değeri 60 milyon doların altında",
+ "small_rule": "Piyasa değeri 60 milyon doların altındaki şirketler dışarıda kalır.",
+ "en": {
+  "name": "United States",
+  "exchange": "NYSE, Nasdaq and NYSE American",
+  "cur": "USD",
+  "inflation_note": "US companies do not apply inflation accounting. The return on equity of every company was therefore adjusted by annual consumer inflation: 7.0% for 2021, 6.5% for 2022, 3.4% for 2023, 2.9% for 2024 and 2.7% for 2025 (December to December, BLS). For the last 12 months the most recently published annual rate was used.",
+  "data_notes": [
+   "Price, market value, P/E and P/B: TradingView screener. The universe is common stock with a primary listing on NYSE, Nasdaq or NYSE American; over-the-counter (OTC) stocks and depositary receipts (ADRs) are left out.",
+   "Five-year ratios: stockanalysis.com ratio pages. Each company's fiscal year follows its own calendar; the chart shows the company's own fiscal years.",
+   "Year-end inflation: US Bureau of Labor Statistics (BLS), consumer price index, December to December. Latest annual rate: TradingView (ECONOMICS:USIRYY).",
+   "In a market this large, the Wall 3 reading is done in order: companies priced low enough to be castles come first. A company that has not been read yet is shown as 'in the queue'."
+  ],
+  "small_text": "Market value below 60 million US dollars",
+  "small_rule": "Companies with a market value below 60 million US dollars are left out."
+ }
+}
