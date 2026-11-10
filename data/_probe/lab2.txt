@@ -1,0 +1,93 @@
+çalıştırma: 2026-11-10T22:31:15Z
+isyatirim 200 1665511
+  tablo sayısı 8
+  tablo - satır 5
+       ; SON ; ÖNCEKİ KAPANIŞ ; DEĞİŞİM (%)
+      XU100 ; 11.662 ; 11.713 ; -0,44
+      VIOP ; 15.230 ; 15.251 ; -0,14
+  tablo - satır 4
+       ; SON ; ÖNCEKİ KAPANIŞ ; DEĞİŞİM (%)
+      GOLD ; 4.033,02 ; 4.031,16 ; 0,05
+      BRENT ; 91,10 ; 90,98 ; 0,13
+  tablo summaryBasicData satır 630
+      Kod ; Hisse Adı ; Sektör ; Kapanış (TL) ; Piyasa Değeri (mn TL) ; Piyasa Değeri (mn $) ; Halka Açıklık Oranı (%) ; Sermaye (mn TL)
+      A1CAP ; A1 Capital ; Aracı Kurumlar ; 3,18 ; 2.146,5 ; 42,8 ; 29,7 ; 675,0
+      A1YEN ; Kartal Yenilenebili Enerji ; Elektrik Üretim ; 1,60 ; 960,0 ; 19,1 ; 74,8 ; 600,0
+  tablo - satır 341
+      Kod ; Kapanış (TL) ; Bölünme Sonrası Sermaye (TL) ; Tarih ; Bedelli Oran (%) ; Bedelli Nom. Tutar (TL) ; Diğer (*) ; Bedelsiz IK Oran (%) ; Bedelsiz Temettü Oran (%) ; Nakit Tem.Brüt (%) ; Nakit Temettü (TL) ; Hisse Başı Brüt (TL)
+      DITAS ; 6,80 ; 170.000.000 ; 02.01.2026 ; 100,00 ; 1.000,00 ; 0,00 ; 0,00 ; 0,00 ; 0,00 ; 0 ; 0,0000
+      MEYSU ; 7,85 ; 870.000.000 ; 05.01.2026 ; 0,00 ; 0,00 ; 20,11 ; 0,00 ; 0,00 ; 0,00 ; 0 ; 0,0000
+  tablo - satır 611
+      Kod ; Kapanış (TL) ; 10 Kasım 2026 9 Kasım 2026 6 Kasım 2026 5 Kasım 2026 4 Kasım 2026 3 Kasım 2026 2 Kasım 2026 30 Ekim 2026 28 Ekim 2026 27 Ekim 2026 26 Ekim 2026 23 Ekim 2026 22 Ekim 2026 21 Ekim 2026 20 Ekim 2026 19 Ekim 2026 16 Ekim 2026 15 Ekim 2026 14 Ekim 2026 13 Ekim 2026 12 Ekim 2026 9 Ekim 2026 8 Ekim 2026 7 Ekim 2026
+      A1CAP ; 3,18 ; 7,41 ; 7,56 ; 15,59 ; 0,21
+      A1YEN ; 1,60 ; 3,74 ; 3,78 ; 3,87 ; 0,04
+  tablo - satır 73
+       ; F/K ; FD/FAVÖK ; PD/DD
+      Kod ; Kapanış (TL) ; F/K Tahmin ; Prim/İsk. (%) ; FD/FAVÖK Tahmin ; Prim/İsk. (%) ; PD/DD Tahmin ; Prim/İsk. (%)
+      AEFES ; 16,62 ; 7,7 ; -21,9 ; 2,7 ; -39,6 ; 0,8 ; -36,1
+  tablo - satır 630
+      Kod ; Kapanış (TL) ; F/K ; FD/FAVÖK ; FD/Satışlar ; PD/DD ; Son Dönem
+      A1CAP ; 3,18 ; 5,8 ; A/D ; A/D ; 0,2 ; 9/2026
+      A1YEN ; 1,60 ; 6,7 ; 3,2 ; 1,9 ; 0,3 ; 9/2026
+  tablo - satır 630
+      Kod ; Kapanış (TL) ; Günlük Getiri (%) ; Haftalık Getiri (%) ; Aylık Getiri (%) ; Yıl İçi Getiri (%)
+      A1CAP ; 3,18 ; 4,95 ; 14,39 ; -31,32 ; -73,05
+      A1YEN ; 1,60 ; 9,59 ; 18,52 ; -9,09 ; -39,62
+  id temelTBody_Ozet
+  id temelTBody_T_Ort
+  id temelTBody_Finansal
+  id temelTBody_Hisse_Perf
+  uç /_layouts/15/Authenticate.aspx?Source=%2Ftr%2Dtr%2Fanaliz%2Fhisse%2FSayfalar%2FTemel%2DDegerler%2DVe%2DOranlar%2Easpx
+  uç /_layouts/15/blank.js?rev=jJjQaRoPCtOUW4SmR548Mg%3D%3DTAG0
+  uç /_layouts/15/images/HelpIcon.gif
+  FROTO çevresi: Cam Sanayii;;FORTE | Forte Bilgi İletişim;;FRIGO | Frigo Pak Gıda;;FRMPL | Formül Plastik;;FROTO | Ford Otosan;;FZLGY | Fuzul Gayrimenkul;;GARAN | Garanti Bankası;;GARFA | Garanti BBVA Faktoring;;GATEG | Gate Group;;GEDIK | Gedik Yatırım;;GEDZA | Gediz Ambalaj Sanayi;;GENIL | Gen İlaç;;GENKM | Gentaş Kimya;;GENTS | Gentaş;;GEREL | Gersan Elektrik;;GESAN | Girişim Elektrik;;GIPTA | Gıpta;;GLBMD | Global M
+dbnomics 200 9301
+    TUR.PCPIEPCH.pcent_change WEO:2025-04 {'2022': 64.27, '2023': 64.773, '2024': 44.379, '2025': 31.036, '2026': 18.953, '2027': 15.271, '2028': 15.004, '2029': 15.004, '2030': 15.004}
+dbnomics 200 11115
+    USA.PCPIEPCH.pcent_change WEO:2025-04 {'2022': 6.41, '2023': 3.242, '2024': 2.731, '2025': 2.882, '2026': 2.271, '2027': 2.371, '2028': 2.166, '2029': 2.177, '2030': 2.175}
+    JPN.PCPIEPCH.pcent_change WEO:2025-04 {'2022': 3.861, '2023': 2.91, '2024': 2.922, '2025': 1.81, '2026': 1.887, '2027': 1.977, '2028': 2.016, '2029': 2.021, '2030': 2.01}
+sa stocks/aapl 200 185393 ROE: ['142.26%', '142.26%', '171.42%', '157.41%', '171.95%', '175.46%'] 0.1s
+sa quote/tyo/7203 200 184979 ROE: ['11.58%', '10.23%', '13.28%', '15.72%', '8.84%', '11.18%'] 0.1s
+sa quote/lon/ULVR 200 183142 ROE: ['31.87%', '30.95%', '27.88%', '31.26%', '39.90%', '35.41%'] 0.1s
+sa quote/hkg/0700 200 185244 ROE: ['19.91%', '20.03%', '20.39%', '14.25%', '22.74%', '27.53%'] 0.1s
+sa quote/sha/600519 200 184091 ROE: ['31.18%', '34.40%', '38.37%', '36.18%', '32.53%', '30.56%'] 0.1s
+sa quote/she/000858 200 183959 ROE: ['9.36%', '7.21%', '24.70%', '25.31%', '25.65%', '25.91%'] 0.2s
+sa quote/tpe/2330 200 184980 ROE: ['41.85%', '35.04%', '29.94%', '26.71%', '39.19%', '29.74%'] 0.1s
+sa quote/nse/RELIANCE 200 184814 ROE: ['8.76%', '9.14%', '8.40%', '9.01%', '8.58%', '7.50%'] 0.1s
+sa quote/bom/500325 200 168652 ROE: ['8.76%', '9.14%', '8.40%', '9.01%', '8.58%', '7.50%'] 0.2s
+sa quote/krx/005930 200 185008 ROE: ['41.58%', '10.78%', '9.00%', '4.31%', '16.87%', '13.74%'] 0.1s
+sa quote/tsx/RY 200 142386 ROE: ['16.21%', '15.29%', '13.40%', '13.09%', '15.28%', '17.30%'] 0.1s
+sa quote/etr/SAP 200 182679 ROE: ['18.18%', '16.12%', '7.06%', '8.35%', '7.27%', '19.10%'] 0.1s
+sa quote/epa/MC 200 184993 ROE: ['16.59%', '16.24%', '19.63%', '26.74%', '27.96%', '28.95%'] 0.1s
+sa quote/swx/NESN 200 182778 ROE: ['26.24%', '26.53%', '30.58%', '29.07%', '19.88%', '34.31%'] 0.1s
+sa quote/tadawul/2222 200 184565 ROE: ['25.20%', '20.77%', '23.52%', '26.72%', '40.99%', '34.63%'] 0.2s
+sa quote/asx/BHP 200 184615 ROE: ['24.00%', '24.00%', '21.99%', '19.66%', '29.44%', '42.92%'] 0.1s
+sa quote/ams/ASML 200 184357 ROE: ['65.64%', '50.46%', '47.43%', '70.42%', '59.35%', '49.01%'] 0.1s
+sa quote/sto/VOLV.B 200 184527 ROE: ['21.51%', '18.47%', '26.75%', '28.78%', '21.25%', '22.75%'] 0.2s
+sa quote/bme/ITX 200 184281 ROE: ['36.82%', '31.05%', '30.65%', '30.22%', '25.29%', '21.45%'] 0.2s
+sa quote/bvmf/PETR4 200 184566 ROE: ['30.27%', '28.18%', '9.87%', '33.52%', '50.14%', '30.61%'] 0.2s
+sa quote/adx/FAB 200 131294 ROE: ['15.16%', '15.26%', '13.34%', '13.73%', '11.79%', '11.31%'] 0.2s
+sa quote/bit/ENI 200 184483 ROE: ['13.14%', '5.09%', '5.06%', '8.93%', '27.99%', '14.24%'] 0.2s
+sa quote/idx/BBCA 200 146400 ROE: ['21.20%', '21.14%', '21.71%', '20.99%', '19.22%', '16.23%'] 0.3s
+sa quote/ebr/KBC 200 146058 ROE: ['13.66%', '13.65%', '14.06%', '14.76%', '12.55%', '11.72%'] 0.2s
+sa quote/sgx/D05 200 145707 ROE: ['-', '15.88%', '17.23%', '16.87%', '14.28%', '12.12%'] 0.2s
+sa quote/cph/NOVO.B 200 184025 ROE: ['58.38%', '60.70%', '80.77%', '88.07%', '72.00%', '71.24%'] 0.1s
+sa quote/bmv/WALMEX 200 184213 ROE: ['20.89%', '21.30%', '24.92%', '25.70%', '25.22%', '24.87%'] 0.1s
+sa quote/bkk/PTT 200 184200 ROE: ['10.31%', '7.12%', '6.92%', '9.83%', '8.12%', '11.02%'] 0.1s
+sa quote/tlv/TEVA 200 176222 ROE: ['6.65%', '20.79%', '-28.30%', '-7.36%', '-25.19%', '4.09%'] 0.1s
+sa quote/jse/NPN 200 184349 ROE: ['22.06%', '22.06%', '26.78%', '15.92%', '20.37%', '40.63%'] 0.3s
+sa quote/osl/EQNR 200 183826 ROE: ['27.57%', '12.21%', '19.43%', '23.23%', '61.80%', '23.53%'] 0.2s
+sa quote/klse/1155 404 49037 ROE: None 0.1s
+hız: 60 sayfa {200: 59, 404: 1} ROE satırı olmayan 0 toplam 41 sn
+döviz {'JPY': 158.704, 'CNY': 6.6698, 'INR': 93.918, 'GBP': 0.74951, 'TWD': 32.937, 'KRW': 1342.37, 'CAD': 1.41857, 'EUR': 0.8955, 'HKD': 7.8469, 'TRY': 50.2183, 'USD': 1.0, 'GBX': 74.95100000000001}
+america: toplam 7431 | borsalar {'NASDAQ': 3127, 'OTC': 2487, 'NYSE': 1607, 'AMEX': 209, 'CBOE': 1} | para {'USD': 7431} | temel veri parası {'USD': 7431} | 1. sur 2135 | aday (reel ROE≥12) 736 | beş yıl zararsız 478 | dönem {'2026-Q3': 3243, '2026-Q2': 2618, None: 476, '2026-Q1': 312}
+japan: toplam 3868 | borsalar {'TSE': 3757, 'NAG': 66, 'FSE': 30, 'SAPSE': 15} | para {'JPY': 3868} | temel veri parası {'JPY': 3868} | 1. sur 2308 | aday (reel ROE≥12) 584 | beş yıl zararsız 489 | dönem {'2026-Q2': 1839, '2026-Q1': 1111, '2026-Q3': 458, '2026-Q4': 320}
+china: toplam 5242 | borsalar {'SZSE': 2923, 'SSE': 2319} | para {'CNY': 5236, 'USD': 3, 'HKD': 3} | temel veri parası {'CNY': 5242} | 1. sur 3501 | aday (reel ROE≥12) 615 | beş yıl zararsız 483 | dönem {'2026-Q3': 5070, '2026-Q2': 146, '2026-H1': 15, None: 7}
+india: toplam 5467 | borsalar {'NSE': 3218, 'BSE': 2249} | para {'INR': 5467} | temel veri parası {'INR': 5467} | 1. sur 1166 | aday (reel ROE≥12) 414 | beş yıl zararsız 345 | dönem {'2026-Q2': 2243, '2026-Q1': 1617, None: 762, '2025-H2': 439}
+uk: toplam 1075 | borsalar {'LSE': 1038, 'AQUIS': 37} | para {'GBX': 1059, 'USD': 10, 'EUR': 5, 'GBP': 1} | temel veri parası {'GBP': 1075} | 1. sur 81 | aday (reel ROE≥12) 44 | beş yıl zararsız 33 | dönem {'2026-H1': 695, '2025-H2': 198, '2026-H2': 129, None: 29}
+taiwan: toplam 2358 | borsalar {'TPEX': 1264, 'TWSE': 1094} | para {'TWD': 2358} | temel veri parası {'TWD': 2358} | 1. sur 887 | aday (reel ROE≥12) 353 | beş yıl zararsız 280 | dönem {'2026-Q2': 1026, '2026-Q3': 972, '2026-H1': 275, None: 83}
+korea: toplam 2636 | borsalar {'KRX': 2636} | para {'KRW': 2636} | temel veri parası {'KRW': 2636} | 1. sur 665 | aday (reel ROE≥12) 178 | beş yıl zararsız 109 | dönem {'2026-Q2': 2005, '2026-Q3': 416, None: 144, '2026-Q1': 52}
+canada: toplam 2501 | borsalar {'TSXV': 1299, 'TSX': 611, 'CSE': 571, 'NEO': 20} | para {'CAD': 2488, 'USD': 13} | temel veri parası {'CAD': 2501} | 1. sur 356 | aday (reel ROE≥12) 148 | beş yıl zararsız 70 | dönem {'2026-Q2': 1027, '2026-Q3': 710, '2026-Q1': 234, None: 190}
+germany: toplam 422 | borsalar {'XETR': 417, 'FWB': 4, 'LS': 1} | para {'EUR': 422} | temel veri parası {'EUR': 422} | 1. sur 196 | aday (reel ROE≥12) 68 | beş yıl zararsız 50 | dönem {'2026-H1': 175, '2026-Q2': 110, '2026-Q3': 102, None: 14}
+hongkong: toplam 2387 | borsalar {'HKEX': 2387} | para {'HKD': 2386, 'CNY': 1} | temel veri parası {'HKD': 2387} | 1. sur 794 | aday (reel ROE≥12) 186 | beş yıl zararsız 112 | dönem {'2026-H1': 1814, '2025-H2': 417, '2026-H2': 94, '2026-Q2': 44}
+turkey: toplam 619 | borsalar {'BIST': 619} | para {'TRY': 619} | temel veri parası {'TRY': 619} | 1. sur 189 | aday (reel ROE≥12) 10 | beş yıl zararsız 7 | dönem {'2026-Q2': 346, '2026-Q3': 233, '2026-Q1': 15, None: 12}
