@@ -1,0 +1,30 @@
+{
+ "fetched": "2026-11-10T23:24:16Z",
+ "cur": "JPY",
+ "pcur": "JPY",
+ "years": [
+  "2021",
+  "2022",
+  "2023",
+  "2024",
+  "2025"
+ ],
+ "fx": 158.689,
+ "mcapMin": 10000,
+ "cpi_cur": 2.1,
+ "cpi_cur_src": "TradingView ECONOMICS:JPIRYY (son açıklanan yıllık TÜFE)",
+ "cpi": {
+  "2021": 0.5,
+  "2022": 3.86,
+  "2023": 2.91,
+  "2024": 2.92,
+  "2025": 3.17
+ },
+ "cpi_src": {
+  "2021": "IMF WEO 2025-04 (dönem sonu)",
+  "2022": "IMF WEO 2025-04 (dönem sonu)",
+  "2023": "IMF WEO 2025-04 (dönem sonu)",
+  "2024": "IMF WEO 2025-04 (dönem sonu)",
+  "2025": "Dünya Bankası FP.CPI.TOTL.ZG (yıllık ortalama)"
+ }
+}

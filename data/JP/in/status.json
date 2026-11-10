@@ -1,0 +1,122 @@
+{
+ "cc": "JP",
+ "fetched": "2026-11-10T23:24:16Z",
+ "errors": [],
+ "source": "TradingView tarayıcısı",
+ "market": "japan",
+ "total": 3868,
+ "kept": 3865,
+ "excluded": {
+  "fiyat ya da piyasa değeri yok": 3
+ },
+ "mcap_check": {
+  "tutarlı": 3839,
+  "pay sayısıyla tutmuyor": 8,
+  "pay sayısı yok": 18
+ },
+ "cur": "JPY",
+ "pcur": "JPY",
+ "exchanges": {
+  "TSE": 3754,
+  "NAG": 66,
+  "FSE": 30,
+  "SAPSE": 15
+ },
+ "periods": {
+  "2026-Q2": 1839,
+  "2026-Q1": 1111,
+  "2026-Q3": 458,
+  "2026-Q4": 320,
+  "2027-Q1": 45,
+  "2026-H1": 32
+ },
+ "pe_filled_pct": 86.8,
+ "top5": [
+  {
+   "c": "7203",
+   "n": "Toyota Motor Corp.",
+   "p": 3414,
+   "m": 41339842.4,
+   "pe": 9.89,
+   "pb": 1.074,
+   "per": "2026-Q2"
+  },
+  {
+   "c": "8306",
+   "n": "Mitsubishi UFJ Financial Group, Inc.",
+   "p": 3435,
+   "m": 37886903.8,
+   "pe": 14.5,
+   "pb": 1.703,
+   "per": "2026-Q1"
+  },
+  {
+   "c": "6758",
+   "n": "Sony Group Corporation",
+   "p": 4237,
+   "m": 25462018.3,
+   "pe": null,
+   "pb": 2.87,
+   "per": "2026-Q2"
+  },
+  {
+   "c": "9983",
+   "n": "FAST RETAILING CO., LTD.",
+   "p": 81570,
+   "m": 25399188.7,
+   "pe": 46.2,
+   "pb": 8.795,
+   "per": "2026-Q4"
+  },
+  {
+   "c": "6098",
+   "n": "Recruit Holdings Co., Ltd.",
+   "p": 17960,
+   "m": 24486836.1,
+   "pe": 43.92,
+   "pb": 14.089,
+   "per": "2026-Q1"
+  }
+ ],
+ "history": {
+  "candidates": 678,
+  "have": 671,
+  "fetched": 671,
+  "kept": 0,
+  "no_mapping": 0,
+  "failed": [
+   [
+    "546A",
+    404
+   ],
+   [
+    "9942",
+    404
+   ],
+   [
+    "1777",
+    404
+   ],
+   [
+    "6076",
+    404
+   ],
+   [
+    "7711",
+    404
+   ],
+   [
+    "4691",
+    404
+   ],
+   [
+    "6565",
+    404
+   ]
+  ],
+  "failed_n": 7,
+  "blocked": false,
+  "budget_left": 4644
+ },
+ "ok": true
+}

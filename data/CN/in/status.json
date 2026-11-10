@@ -1,0 +1,162 @@
+{
+ "cc": "CN",
+ "fetched": "2026-11-10T23:11:06Z",
+ "errors": [],
+ "source": "TradingView tarayıcısı",
+ "market": "china",
+ "total": 5242,
+ "kept": 5236,
+ "excluded": {
+  "fiyat ya da piyasa değeri yok": 6
+ },
+ "mcap_check": {
+  "tutarlı": 4697,
+  "pay sayısıyla tutmuyor": 539
+ },
+ "cur": "CNY",
+ "pcur": "CNY",
+ "exchanges": {
+  "SZSE": 2919,
+  "SSE": 2317
+ },
+ "periods": {
+  "2026-Q3": 5070,
+  "2026-Q2": 146,
+  "2026-H1": 15,
+  "2026-Q1": 4,
+  "None": 1
+ },
+ "pe_filled_pct": 67.1,
+ "top5": [
+  {
+   "c": "601398",
+   "n": "Industrial and Commercial Bank of China Limited Class A",
+   "p": 8.6,
+   "m": 2912256.1,
+   "pe": 7.98,
+   "pb": 0.765,
+   "per": "2026-Q3"
+  },
+  {
+   "c": "688825",
+   "n": "CXMT Corporation Class A",
+   "p": 40.45,
+   "m": 2714685.2,
+   "pe": null,
+   "pb": 10.69,
+   "per": "2026-Q3"
+  },
+  {
+   "c": "601288",
+   "n": "Agricultural Bank of China Limited Class A",
+   "p": 7.35,
+   "m": 2542369.7,
+   "pe": null,
+   "pb": 0.888,
+   "per": "2026-Q3"
+  },
+  {
+   "c": "601939",
+   "n": "China Construction Bank Corporation Class A",
+   "p": 12.03,
+   "m": 2424793.0,
+   "pe": 8.97,
+   "pb": 0.879,
+   "per": "2026-Q2"
+  },
+  {
+   "c": "601857",
+   "n": "PetroChina Co., Ltd. Class A",
+   "p": 11.82,
+   "m": 2231571.7,
+   "pe": null,
+   "pb": 1.332,
+   "per": "2026-Q1"
+  }
+ ],
+ "history": {
+  "candidates": 703,
+  "have": 685,
+  "fetched": 685,
+  "kept": 0,
+  "no_mapping": 0,
+  "failed": [
+   [
+    "600938",
+    404
+   ],
+   [
+    "002594",
+    404
+   ],
+   [
+    "688235",
+    404
+   ],
+   [
+    "601919",
+    404
+   ],
+   [
+    "000338",
+    404
+   ],
+   [
+    "601066",
+    404
+   ],
+   [
+    "601995",
+    404
+   ],
+   [
+    "601600",
+    404
+   ],
+   [
+    "601869",
+    404
+   ],
+   [
+    "600362",
+    404
+   ],
+   [
+    "600026",
+    404
+   ],
+   [
+    "601991",
+    404
+   ],
+   [
+    "688331",
+    404
+   ],
+   [
+    "688385",
+    404
+   ],
+   [
+    "002948",
+    404
+   ],
+   [
+    "001246",
+    404
+   ],
+   [
+    "688796",
+    404
+   ],
+   [
+    "688428",
+    404
+   ]
+  ],
+  "failed_n": 18,
+  "blocked": false,
+  "budget_left": 5315
+ },
+ "ok": true
+}
