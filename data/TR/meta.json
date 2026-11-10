@@ -40,5 +40,30 @@
  "small_rule": "Piyasa değeri 3 milyar TL'nin altındaki şirketler dışarıda kalır.",
  "era_label": "2023 sonrası",
  "chart_note": "Özsermaye kârlılığı (%). Açık renkli 2021 ve 2022, enflasyon muhasebesi öncesinin nominal rakamlarıdır; karşılaştırma 2023'ten itibaren anlamlıdır.",
- "chart_note_nominal": "Özsermaye kârlılığı (%), enflasyondan arındırılmış. Bu şirket enflasyon muhasebesi uygulamıyor; rakamlar yıllık TÜFE ile düzeltildi."
+ "chart_note_nominal": "Özsermaye kârlılığı (%), enflasyondan arındırılmış. Bu şirket enflasyon muhasebesi uygulamıyor; rakamlar yıllık TÜFE ile düzeltildi.",
+ "source": "isyatirim",
+ "flags": {
+  "veh": [
+   "GYO",
+   "Yatırım Ortaklıkları"
+  ],
+  "fin": [
+   "Holdingler",
+   "Bankacılık",
+   "Fin.Kiralama ve Faktoring",
+   "Aracı Kurumlar",
+   "Sigorta",
+   "Varlık Yönetim"
+  ],
+  "nom": [
+   "Bankacılık",
+   "Fin.Kiralama ve Faktoring",
+   "Sigorta",
+   "Varlık Yönetim"
+  ],
+  "nom_codes": [
+   "KTLEV"
+  ],
+  "note": "İş Yatırım sektör adlarına göre: veh = varlık sepeti (1. surda elenir), fin = borç ve nakit testi uygulanmaz, nom = enflasyon muhasebesi uygulamıyor (kârlılığı TÜFE ile düzeltilir)."
+ }
 }

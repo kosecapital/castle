@@ -42,7 +42,22 @@ def run(cc):
     cpi = meta["cpi"]
     years = meta["years"]                 # geçmiş dizilerindeki mali yıllar, eskiden yeniye; ardından "cur"
     era = meta.get("era") or (years + ["cur"])
-    keys = years + ["cur"]
+    era_explicit = era != years + ["cur"]  # ülkeye özel dönem (örnek: Türkiye'de 2023 sonrası)
+    era_years = [e for e in era if e != "cur"]
+    cpi_years = sorted(y for y in cpi if y != "cur")
+
+    def cpi_of(lab):
+        """Bir mali yılın enflasyonu; şirketin mali yılı ülkenin yıl listesinin dışındaysa en yakın uç."""
+        if lab == "cur" or not cpi_years:
+            return cpi.get("cur")
+        if lab in cpi:
+            return cpi[lab]
+        return cpi.get("cur") if lab > cpi_years[-1] else cpi[cpi_years[0]]
+
+    def in_era(lab):
+        if not era_explicit:
+            return True
+        return lab in era or (lab != "cur" and bool(era_years) and lab > max(era_years))
     deflate_all = meta.get("deflate", "all") == "all"
     mcap_min = meta["mcapMin"]
 
@@ -62,29 +77,30 @@ def run(cc):
             e, w = 1, "equity"
         elif u["m"] < mcap_min:
             e, w = 1, "small"
-        elif rr < P["roeMin"]:
+        elif rr is None or rr < P["roeMin"]:
             e, w = 2, "roe_ttm"
         else:
             h = hist.get(c)
             if h is None:
                 e, w = 2, "data"
-                L2[c] = dict(asof=None, stale=1, roe=[None] * len(keys), rroe=[None] * len(keys), roic=[None] * len(keys),
-                             fcf=[None] * len(keys), nd=None, pe=None, pb=None, dy=None, po=None, avg=None, mn=None,
+                L2[c] = dict(asof=None, stale=1, roe=[None] * 6, rroe=[None] * 6, roic=[None] * 6,
+                             fcf=[None] * 6, nd=None, pe=None, pb=None, dy=None, po=None, avg=None, mn=None,
                              fails=[{"k": "data"}], flags=[], ok=0)
             else:
-                roe_h = dict(zip(keys, h["roe"]))
-                rroe_h = {k: (real(v, cpi.get(k)) if defl else v) for k, v in roe_h.items()}
+                fy = h.get("fy") or years          # şirketin kendi mali yılları (kaynak sayfasındaki sütunlar)
+                labs = [fy[i] if i < len(fy) and fy[i] else years[i] for i in range(5)] + ["cur"]
+                roe6 = (list(h["roe"]) + [None] * 6)[:6]
+                rroe6 = [(real(v, cpi_of(lab)) if defl else v) for lab, v in zip(labs, roe6)]
                 fails, flags = [], []
-                first = years[0]
                 has_hist = (h["roe"][0] is not None) or (h.get("roic") and h["roic"][0] is not None)
                 if h.get("stale"):
                     fails.append({"k": "data"})
                 elif not has_hist:
                     fails.append({"k": "history"})
-                loss = [y for y in years if roe_h[y] is not None and roe_h[y] < 0]
+                loss = [lab for lab, v in zip(labs[:5], roe6[:5]) if v is not None and v < 0]
                 if loss:
                     fails.append({"k": "loss", "v": loss})
-                vals = [rroe_h[k] for k in era if rroe_h.get(k) is not None]
+                vals = [v for lab, v in zip(labs, rroe6) if v is not None and in_era(lab)]
                 avg = mn = None
                 if len(vals) >= 3:
                     avg, mn = sum(vals) / len(vals), min(vals)
@@ -110,9 +126,13 @@ def run(cc):
                         elif pos / len(f) < 0.6:
                             flags.append({"k": "cash", "v": [pos, len(f)]})
                 rnd = lambda x, d=1: None if x is None else round(x, d)
-                L2[c] = dict(asof=h.get("asof"), stale=h.get("stale", 0), roe=h["roe"], rroe=[rnd(rroe_h[k], 2) for k in keys],
+                L2[c] = dict(asof=h.get("asof"), stale=h.get("stale", 0), roe=roe6, rroe=[rnd(v, 2) for v in rroe6],
                              roic=h.get("roic"), fcf=h["fcf"], nd=nd, pe=h.get("pe"), pb=h.get("pb"), dy=h.get("dy"), po=h.get("po"),
                              avg=rnd(avg), mn=rnd(mn), fails=fails, flags=flags, ok=0 if fails else 1)
+                if labs[:5] != years:
+                    L2[c]["fy"] = labs[:5]
+                if h.get("url"):
+                    L2[c]["url"] = h["url"]
                 if fails:
                     e, w = 2, fails[0]["k"]
                 else:
@@ -127,6 +147,8 @@ def run(cc):
         U.append(dict(c=c, n=u["n"], s=u["s"], p=u["p"], m=u["m"], f=u.get("f"), pe=pe, pb=pb, per=u.get("per"),
                       e=e, w=w, nom=1 if (u.get("nom") or deflate_all) else 0, fin=1 if u.get("fin") else 0,
                       roe=None if roe is None else round(roe, 1), rr=None if rr is None else round(rr, 1)))
+        if u.get("pc"):
+            U[-1]["pc"] = u["pc"]             # fiyatı ülkenin olağan biriminden farklı yazılan pay
 
     R = {c: r for c, r in reports.items() if c in L2 and L2[c]["ok"]}
     out = dict(cc=cc, asof=meta["asof"], U=U, L2=L2, R=R)

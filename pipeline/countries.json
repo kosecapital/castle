@@ -6,6 +6,7 @@
    "cc": "US",
    "iso": "840",
    "name": "ABD",
+   "name_en": "United States",
    "market": "america",
    "mcap_usd_bn": 82700.0,
    "rank": 1,
@@ -17,6 +18,7 @@
    "cc": "CN",
    "iso": "156",
    "name": "Çin",
+   "name_en": "China",
    "market": "china",
    "mcap_usd_bn": 21170.0,
    "rank": 2
@@ -25,6 +27,7 @@
    "cc": "JP",
    "iso": "392",
    "name": "Japonya",
+   "name_en": "Japan",
    "market": "japan",
    "mcap_usd_bn": 8580.0,
    "rank": 3
@@ -33,6 +36,7 @@
    "cc": "TW",
    "iso": "158",
    "name": "Tayvan",
+   "name_en": "Taiwan",
    "market": "taiwan",
    "mcap_usd_bn": 5340.0,
    "rank": 4
@@ -41,6 +45,7 @@
    "cc": "IN",
    "iso": "356",
    "name": "Hindistan",
+   "name_en": "India",
    "market": "india",
    "mcap_usd_bn": 4950.0,
    "rank": 5
@@ -49,6 +54,7 @@
    "cc": "GB",
    "iso": "826",
    "name": "Birleşik Krallık",
+   "name_en": "United Kingdom",
    "market": "uk",
    "mcap_usd_bn": 4860.0,
    "rank": 6
@@ -57,6 +63,7 @@
    "cc": "KR",
    "iso": "410",
    "name": "Güney Kore",
+   "name_en": "South Korea",
    "market": "korea",
    "mcap_usd_bn": 4510.0,
    "rank": 7
@@ -65,6 +72,7 @@
    "cc": "CA",
    "iso": "124",
    "name": "Kanada",
+   "name_en": "Canada",
    "market": "canada",
    "mcap_usd_bn": 4450.0,
    "rank": 8
@@ -73,17 +81,22 @@
    "cc": "FR",
    "iso": "250",
    "name": "Fransa",
+   "name_en": "France",
    "market": "france",
    "mcap_usd_bn": 3080.0,
    "rank": 9,
    "geo": {
     "fitMin": 0.5
+   },
+   "sa": {
+    "EURONEXT": "quote/epa/{t}"
    }
   },
   {
    "cc": "DE",
    "iso": "276",
    "name": "Almanya",
+   "name_en": "Germany",
    "market": "germany",
    "mcap_usd_bn": 3036.0,
    "rank": 10
@@ -92,6 +105,7 @@
    "cc": "CH",
    "iso": "756",
    "name": "İsviçre",
+   "name_en": "Switzerland",
    "market": "switzerland",
    "mcap_usd_bn": 2840.0,
    "rank": 11
@@ -100,6 +114,7 @@
    "cc": "SA",
    "iso": "682",
    "name": "Suudi Arabistan",
+   "name_en": "Saudi Arabia",
    "market": "ksa",
    "mcap_usd_bn": 2480.0,
    "rank": 12
@@ -108,6 +123,7 @@
    "cc": "AU",
    "iso": "036",
    "name": "Avustralya",
+   "name_en": "Australia",
    "market": "australia",
    "mcap_usd_bn": 2140.0,
    "rank": 13
@@ -116,14 +132,19 @@
    "cc": "NL",
    "iso": "528",
    "name": "Hollanda",
+   "name_en": "Netherlands",
    "market": "netherlands",
    "mcap_usd_bn": 2010.0,
-   "rank": 14
+   "rank": 14,
+   "sa": {
+    "EURONEXT": "quote/ams/{t}"
+   }
   },
   {
    "cc": "SE",
    "iso": "752",
    "name": "İsveç",
+   "name_en": "Sweden",
    "market": "sweden",
    "mcap_usd_bn": 1420.0,
    "rank": 15
@@ -132,6 +153,7 @@
    "cc": "ES",
    "iso": "724",
    "name": "İspanya",
+   "name_en": "Spain",
    "market": "spain",
    "mcap_usd_bn": 1400.0,
    "rank": 16
@@ -140,6 +162,7 @@
    "cc": "BR",
    "iso": "076",
    "name": "Brezilya",
+   "name_en": "Brazil",
    "market": "brazil",
    "mcap_usd_bn": 1200.0,
    "rank": 17
@@ -148,6 +171,7 @@
    "cc": "AE",
    "iso": "784",
    "name": "Birleşik Arap Emirlikleri",
+   "name_en": "United Arab Emirates",
    "market": "uae",
    "mcap_usd_bn": 1080.0,
    "rank": 18
@@ -156,6 +180,7 @@
    "cc": "HK",
    "iso": "344",
    "name": "Hong Kong",
+   "name_en": "Hong Kong",
    "market": "hongkong",
    "mcap_usd_bn": 1030.0,
    "rank": 19
@@ -164,6 +189,7 @@
    "cc": "IT",
    "iso": "380",
    "name": "İtalya",
+   "name_en": "Italy",
    "market": "italy",
    "mcap_usd_bn": 950.0,
    "rank": 20
@@ -172,6 +198,7 @@
    "cc": "ID",
    "iso": "360",
    "name": "Endonezya",
+   "name_en": "Indonesia",
    "market": "indonesia",
    "mcap_usd_bn": 940.0,
    "rank": 21
@@ -180,14 +207,19 @@
    "cc": "BE",
    "iso": "056",
    "name": "Belçika",
+   "name_en": "Belgium",
    "market": "belgium",
    "mcap_usd_bn": 870.0,
-   "rank": 22
+   "rank": 22,
+   "sa": {
+    "EURONEXT": "quote/ebr/{t}"
+   }
   },
   {
    "cc": "SG",
    "iso": "702",
    "name": "Singapur",
+   "name_en": "Singapore",
    "market": "singapore",
    "mcap_usd_bn": 820.0,
    "rank": 23
@@ -196,6 +228,7 @@
    "cc": "DK",
    "iso": "208",
    "name": "Danimarka",
+   "name_en": "Denmark",
    "market": "denmark",
    "mcap_usd_bn": 634.0,
    "rank": 24
@@ -204,6 +237,7 @@
    "cc": "MX",
    "iso": "484",
    "name": "Meksika",
+   "name_en": "Mexico",
    "market": "mexico",
    "mcap_usd_bn": 627.0,
    "rank": 25
@@ -212,6 +246,7 @@
    "cc": "RU",
    "iso": "643",
    "name": "Rusya",
+   "name_en": "Russia",
    "market": "russia",
    "mcap_usd_bn": 602.0,
    "rank": 26,
@@ -221,6 +256,7 @@
    "cc": "TH",
    "iso": "764",
    "name": "Tayland",
+   "name_en": "Thailand",
    "market": "thailand",
    "mcap_usd_bn": 568.0,
    "rank": 27
@@ -229,6 +265,7 @@
    "cc": "IL",
    "iso": "376",
    "name": "İsrail",
+   "name_en": "Israel",
    "market": "israel",
    "mcap_usd_bn": 565.0,
    "rank": 28
@@ -237,6 +274,7 @@
    "cc": "ZA",
    "iso": "710",
    "name": "Güney Afrika",
+   "name_en": "South Africa",
    "market": "rsa",
    "mcap_usd_bn": 552.0,
    "rank": 29
@@ -245,6 +283,7 @@
    "cc": "NO",
    "iso": "578",
    "name": "Norveç",
+   "name_en": "Norway",
    "market": "norway",
    "mcap_usd_bn": 515.0,
    "rank": 30,
@@ -256,6 +295,7 @@
    "cc": "MY",
    "iso": "458",
    "name": "Malezya",
+   "name_en": "Malaysia",
    "market": "malaysia",
    "mcap_usd_bn": 508.0,
    "rank": 31
@@ -264,6 +304,7 @@
    "cc": "FI",
    "iso": "246",
    "name": "Finlandiya",
+   "name_en": "Finland",
    "market": "finland",
    "mcap_usd_bn": 390.0,
    "rank": 32
@@ -272,6 +313,7 @@
    "cc": "PH",
    "iso": "608",
    "name": "Filipinler",
+   "name_en": "Philippines",
    "market": "philippines",
    "mcap_usd_bn": 345.0,
    "rank": 33
@@ -280,6 +322,7 @@
    "cc": "VN",
    "iso": "704",
    "name": "Vietnam",
+   "name_en": "Vietnam",
    "market": "vietnam",
    "mcap_usd_bn": 310.0,
    "rank": 34
@@ -288,6 +331,7 @@
    "cc": "CL",
    "iso": "152",
    "name": "Şili",
+   "name_en": "Chile",
    "market": "chile",
    "mcap_usd_bn": 305.0,
    "rank": 35
@@ -296,14 +340,19 @@
    "cc": "IE",
    "iso": "372",
    "name": "İrlanda",
+   "name_en": "Ireland",
    "market": "ireland",
    "mcap_usd_bn": 298.0,
-   "rank": 36
+   "rank": 36,
+   "sa": {
+    "EURONEXT": "quote/isedb/{t}"
+   }
   },
   {
    "cc": "PL",
    "iso": "616",
    "name": "Polonya",
+   "name_en": "Poland",
    "market": "poland",
    "mcap_usd_bn": 292.0,
    "rank": 37
@@ -312,6 +361,7 @@
    "cc": "QA",
    "iso": "634",
    "name": "Katar",
+   "name_en": "Qatar",
    "market": "qatar",
    "mcap_usd_bn": 288.0,
    "rank": 38
@@ -320,15 +370,18 @@
    "cc": "TR",
    "iso": "792",
    "name": "Türkiye",
+   "name_en": "Türkiye",
    "market": "turkey",
    "mcap_usd_bn": 285.0,
    "rank": 39,
-   "ias29": "2023 hesaplarından beri (banka, sigorta ve BDDK'ya bağlı finans şirketleri hariç)"
+   "ias29": "2023 hesaplarından beri (banka, sigorta ve BDDK'ya bağlı finans şirketleri hariç)",
+   "source": "isyatirim"
   },
   {
    "cc": "AT",
    "iso": "040",
    "name": "Avusturya",
+   "name_en": "Austria",
    "market": "austria",
    "mcap_usd_bn": 225.0,
    "rank": 40
@@ -337,6 +390,7 @@
    "cc": "GR",
    "iso": "300",
    "name": "Yunanistan",
+   "name_en": "Greece",
    "market": "greece",
    "mcap_usd_bn": 186.0,
    "rank": 41
@@ -345,6 +399,7 @@
    "cc": "KW",
    "iso": "414",
    "name": "Kuveyt",
+   "name_en": "Kuwait",
    "market": "kuwait",
    "mcap_usd_bn": 155.0,
    "rank": 42
@@ -353,6 +408,7 @@
    "cc": "CO",
    "iso": "170",
    "name": "Kolombiya",
+   "name_en": "Colombia",
    "market": "colombia",
    "mcap_usd_bn": 144.0,
    "rank": 43
@@ -361,6 +417,7 @@
    "cc": "RO",
    "iso": "642",
    "name": "Romanya",
+   "name_en": "Romania",
    "market": "romania",
    "mcap_usd_bn": 131.0,
    "rank": 44
@@ -369,6 +426,7 @@
    "cc": "MA",
    "iso": "504",
    "name": "Fas",
+   "name_en": "Morocco",
    "market": "morocco",
    "mcap_usd_bn": 111.0,
    "rank": 45
@@ -377,6 +435,7 @@
    "cc": "AR",
    "iso": "032",
    "name": "Arjantin",
+   "name_en": "Argentina",
    "market": "argentina",
    "mcap_usd_bn": 105.0,
    "rank": 46,
@@ -386,14 +445,19 @@
    "cc": "PT",
    "iso": "620",
    "name": "Portekiz",
+   "name_en": "Portugal",
    "market": "portugal",
    "mcap_usd_bn": 102.0,
-   "rank": 47
+   "rank": 47,
+   "sa": {
+    "EURONEXT": "quote/elis/{t}"
+   }
   },
   {
    "cc": "NZ",
    "iso": "554",
    "name": "Yeni Zelanda",
+   "name_en": "New Zealand",
    "market": "newzealand",
    "mcap_usd_bn": 101.0,
    "rank": 48
@@ -402,6 +466,7 @@
    "cc": "NG",
    "iso": "566",
    "name": "Nijerya",
+   "name_en": "Nigeria",
    "market": "nigeria",
    "mcap_usd_bn": 91.0,
    "rank": 49
@@ -410,6 +475,7 @@
    "cc": "PE",
    "iso": "604",
    "name": "Peru",
+   "name_en": "Peru",
    "market": "peru",
    "mcap_usd_bn": 85.0,
    "rank": 50
@@ -418,6 +484,7 @@
    "cc": "HU",
    "iso": "348",
    "name": "Macaristan",
+   "name_en": "Hungary",
    "market": "hungary",
    "mcap_usd_bn": 83.0,
    "rank": 51
@@ -426,6 +493,7 @@
    "cc": "EG",
    "iso": "818",
    "name": "Mısır",
+   "name_en": "Egypt",
    "market": "egypt",
    "mcap_usd_bn": 68.0,
    "rank": 52
@@ -434,6 +502,7 @@
    "cc": "PK",
    "iso": "586",
    "name": "Pakistan",
+   "name_en": "Pakistan",
    "market": "pakistan",
    "mcap_usd_bn": 68.0,
    "rank": 53
@@ -442,6 +511,7 @@
    "cc": "BD",
    "iso": "050",
    "name": "Bangladeş",
+   "name_en": "Bangladesh",
    "market": "bangladesh",
    "mcap_usd_bn": 59.0,
    "rank": 54
@@ -450,6 +520,7 @@
    "cc": "CZ",
    "iso": "203",
    "name": "Çekya",
+   "name_en": "Czechia",
    "market": "czech",
    "mcap_usd_bn": 43.0,
    "rank": 55
@@ -458,6 +529,7 @@
    "cc": "LU",
    "iso": "442",
    "name": "Lüksemburg",
+   "name_en": "Luxembourg",
    "market": "luxembourg",
    "mcap_usd_bn": 42.0,
    "rank": 56
@@ -466,6 +538,7 @@
    "cc": "CY",
    "iso": "196",
    "name": "Kıbrıs",
+   "name_en": "Cyprus",
    "market": "cyprus",
    "mcap_usd_bn": 35.0,
    "rank": 57
@@ -474,6 +547,7 @@
    "cc": "HR",
    "iso": "191",
    "name": "Hırvatistan",
+   "name_en": "Croatia",
    "market": "croatia",
    "mcap_usd_bn": 33.0,
    "rank": 58
@@ -482,6 +556,7 @@
    "cc": "KE",
    "iso": "404",
    "name": "Kenya",
+   "name_en": "Kenya",
    "market": "kenya",
    "mcap_usd_bn": 26.0,
    "rank": 59
@@ -490,6 +565,7 @@
    "cc": "SI",
    "iso": "705",
    "name": "Slovenya",
+   "name_en": "Slovenia",
    "market": "slovenia",
    "mcap_usd_bn": 25.0,
    "rank": 60
@@ -498,6 +574,7 @@
    "cc": "IS",
    "iso": "352",
    "name": "İzlanda",
+   "name_en": "Iceland",
    "market": "iceland",
    "mcap_usd_bn": 21.0,
    "rank": 61
@@ -506,6 +583,7 @@
    "cc": "BH",
    "iso": "048",
    "name": "Bahreyn",
+   "name_en": "Bahrain",
    "market": "bahrain",
    "mcap_usd_bn": 20.0,
    "rank": 62
@@ -514,6 +592,7 @@
    "cc": "LK",
    "iso": "144",
    "name": "Sri Lanka",
+   "name_en": "Sri Lanka",
    "market": "srilanka",
    "mcap_usd_bn": 20.0,
    "rank": 63
@@ -522,6 +601,7 @@
    "cc": "TN",
    "iso": "788",
    "name": "Tunus",
+   "name_en": "Tunisia",
    "market": "tunisia",
    "mcap_usd_bn": 12.0,
    "rank": 64
@@ -530,6 +610,7 @@
    "cc": "LT",
    "iso": "440",
    "name": "Litvanya",
+   "name_en": "Lithuania",
    "market": "lithuania",
    "mcap_usd_bn": 7.0,
    "rank": 65
@@ -538,6 +619,7 @@
    "cc": "EE",
    "iso": "233",
    "name": "Estonya",
+   "name_en": "Estonia",
    "market": "estonia",
    "mcap_usd_bn": 6.0,
    "rank": 66
@@ -546,6 +628,7 @@
    "cc": "BG",
    "iso": "100",
    "name": "Bulgaristan",
+   "name_en": "Bulgaria",
    "market": "bulgaria",
    "mcap_usd_bn": 5.0,
    "rank": 67
@@ -554,6 +637,7 @@
    "cc": "RS",
    "iso": "688",
    "name": "Sırbistan",
+   "name_en": "Serbia",
    "market": "serbia",
    "mcap_usd_bn": 4.0,
    "rank": 68
@@ -562,6 +646,7 @@
    "cc": "SK",
    "iso": "703",
    "name": "Slovakya",
+   "name_en": "Slovakia",
    "market": "slovakia",
    "mcap_usd_bn": 3.0,
    "rank": 69
@@ -570,6 +655,7 @@
    "cc": "LV",
    "iso": "428",
    "name": "Letonya",
+   "name_en": "Latvia",
    "market": "latvia",
    "mcap_usd_bn": 0.5,
    "rank": 70
@@ -578,11 +664,13 @@
    "cc": "VE",
    "iso": "862",
    "name": "Venezuela",
+   "name_en": "Venezuela",
    "market": "venezuela",
    "mcap_usd_bn": 0.0,
    "rank": 71,
    "hold": "Hiperenflasyon ve güvenilir veri eksikliği; elle onay gerekir."
   }
  ],
- "geo_note": "geo.fitMin: görünüm kutusuna girecek kara parçasının ana karaya oranı (varsayılan 0,06). ABD'de Alaska, Fransa'da Guyana, Norveç'te Svalbard kadraja girmesin diye 0,5."
+ "geo_note": "geo.fitMin: görünüm kutusuna girecek kara parçasının ana karaya oranı (varsayılan 0,06). ABD'de Alaska, Fransa'da Guyana, Norveç'te Svalbard kadraja girmesin diye 0,5.",
+ "sa_note": "sa: bu ülkeye özgü oran sayfası kalıbı (pipeline/sources.json içindeki genel kalıbın önüne geçer). source: evren verisinin kaynağı (yazmıyorsa TradingView)."
 }

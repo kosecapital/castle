@@ -1,0 +1,45 @@
+# Castle veri toplayıcı: herkese açık piyasa verisini indirir ve data/<ÜLKE>/in/ altına yazar.
+# Hiçbir şeyi yayımlamaz; veriyi Claude oturumu `pipeline/accept.py` ile denetleyip yerine alır.
+# Alper Köse'nin onayıyla kuruldu (11 Kasım 2026): Claude oturumları bu adreslere ulaşamadığı için veri burada toplanır.
+name: collect
+on:
+  schedule:
+    - cron: "40 22 * * *"   # her gece 01:40 (İstanbul): sırada bekleyen ilk iki ülke
+    - cron: "10 2 * * 6"    # cumartesi 05:10 (İstanbul): taranmış bütün ülkeler, haftalık yenileme
+  workflow_dispatch:
+    inputs:
+      args:
+        description: "collect.py run argümanları: ülke kodları (TR US), --new 2 ya da --refresh"
+        default: "--new 2"
+permissions:
+  contents: write
+concurrency:
+  group: castle-data
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Veriyi topla
+        env:
+          ARGS: ${{ github.event.inputs.args }}
+          CRON: ${{ github.event.schedule }}
+        run: |
+          if [ -z "$ARGS" ]; then
+            if [ "$CRON" = "10 2 * * 6" ]; then ARGS="--refresh"; else ARGS="--new 2"; fi
+          fi
+          echo "çalıştırılıyor: collect.py run $ARGS"
+          python3 pipeline/collect.py run $ARGS
+      - name: Depoya yaz
+        run: |
+          git config user.name "castle-bot"
+          git config user.email "castle-bot@users.noreply.github.com"
+          git add data/*/in data/_collect.json
+          git commit -m "Veri: $(python3 -c "import json;print(', '.join(r['cc'] for r in json.load(open('data/_collect.json'))['results']) or 'yok')")" || { echo "değişiklik yok"; exit 0; }
+          for i in 1 2 3; do git pull --rebase origin main && git push && break || sleep 10; done
