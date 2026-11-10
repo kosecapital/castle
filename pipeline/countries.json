@@ -1,0 +1,588 @@
+{
+ "source": "https://en.wikipedia.org/wiki/List_of_countries_by_stock_market_capitalization (2026 tablosu); TradingView tarayıcısının kapsadığı ülkelerle kesişim",
+ "note": "Sıra: toplam piyasa değeri, büyükten küçüğe. Türkiye ilk taranan ülkedir. 'hold' olan ülkeler otomatik eklenmez.",
+ "countries": [
+  {
+   "cc": "US",
+   "iso": "840",
+   "name": "ABD",
+   "market": "america",
+   "mcap_usd_bn": 82700.0,
+   "rank": 1,
+   "geo": {
+    "fitMin": 0.5
+   }
+  },
+  {
+   "cc": "CN",
+   "iso": "156",
+   "name": "Çin",
+   "market": "china",
+   "mcap_usd_bn": 21170.0,
+   "rank": 2
+  },
+  {
+   "cc": "JP",
+   "iso": "392",
+   "name": "Japonya",
+   "market": "japan",
+   "mcap_usd_bn": 8580.0,
+   "rank": 3
+  },
+  {
+   "cc": "TW",
+   "iso": "158",
+   "name": "Tayvan",
+   "market": "taiwan",
+   "mcap_usd_bn": 5340.0,
+   "rank": 4
+  },
+  {
+   "cc": "IN",
+   "iso": "356",
+   "name": "Hindistan",
+   "market": "india",
+   "mcap_usd_bn": 4950.0,
+   "rank": 5
+  },
+  {
+   "cc": "GB",
+   "iso": "826",
+   "name": "Birleşik Krallık",
+   "market": "uk",
+   "mcap_usd_bn": 4860.0,
+   "rank": 6
+  },
+  {
+   "cc": "KR",
+   "iso": "410",
+   "name": "Güney Kore",
+   "market": "korea",
+   "mcap_usd_bn": 4510.0,
+   "rank": 7
+  },
+  {
+   "cc": "CA",
+   "iso": "124",
+   "name": "Kanada",
+   "market": "canada",
+   "mcap_usd_bn": 4450.0,
+   "rank": 8
+  },
+  {
+   "cc": "FR",
+   "iso": "250",
+   "name": "Fransa",
+   "market": "france",
+   "mcap_usd_bn": 3080.0,
+   "rank": 9,
+   "geo": {
+    "fitMin": 0.5
+   }
+  },
+  {
+   "cc": "DE",
+   "iso": "276",
+   "name": "Almanya",
+   "market": "germany",
+   "mcap_usd_bn": 3036.0,
+   "rank": 10
+  },
+  {
+   "cc": "CH",
+   "iso": "756",
+   "name": "İsviçre",
+   "market": "switzerland",
+   "mcap_usd_bn": 2840.0,
+   "rank": 11
+  },
+  {
+   "cc": "SA",
+   "iso": "682",
+   "name": "Suudi Arabistan",
+   "market": "ksa",
+   "mcap_usd_bn": 2480.0,
+   "rank": 12
+  },
+  {
+   "cc": "AU",
+   "iso": "036",
+   "name": "Avustralya",
+   "market": "australia",
+   "mcap_usd_bn": 2140.0,
+   "rank": 13
+  },
+  {
+   "cc": "NL",
+   "iso": "528",
+   "name": "Hollanda",
+   "market": "netherlands",
+   "mcap_usd_bn": 2010.0,
+   "rank": 14
+  },
+  {
+   "cc": "SE",
+   "iso": "752",
+   "name": "İsveç",
+   "market": "sweden",
+   "mcap_usd_bn": 1420.0,
+   "rank": 15
+  },
+  {
+   "cc": "ES",
+   "iso": "724",
+   "name": "İspanya",
+   "market": "spain",
+   "mcap_usd_bn": 1400.0,
+   "rank": 16
+  },
+  {
+   "cc": "BR",
+   "iso": "076",
+   "name": "Brezilya",
+   "market": "brazil",
+   "mcap_usd_bn": 1200.0,
+   "rank": 17
+  },
+  {
+   "cc": "AE",
+   "iso": "784",
+   "name": "Birleşik Arap Emirlikleri",
+   "market": "uae",
+   "mcap_usd_bn": 1080.0,
+   "rank": 18
+  },
+  {
+   "cc": "HK",
+   "iso": "344",
+   "name": "Hong Kong",
+   "market": "hongkong",
+   "mcap_usd_bn": 1030.0,
+   "rank": 19
+  },
+  {
+   "cc": "IT",
+   "iso": "380",
+   "name": "İtalya",
+   "market": "italy",
+   "mcap_usd_bn": 950.0,
+   "rank": 20
+  },
+  {
+   "cc": "ID",
+   "iso": "360",
+   "name": "Endonezya",
+   "market": "indonesia",
+   "mcap_usd_bn": 940.0,
+   "rank": 21
+  },
+  {
+   "cc": "BE",
+   "iso": "056",
+   "name": "Belçika",
+   "market": "belgium",
+   "mcap_usd_bn": 870.0,
+   "rank": 22
+  },
+  {
+   "cc": "SG",
+   "iso": "702",
+   "name": "Singapur",
+   "market": "singapore",
+   "mcap_usd_bn": 820.0,
+   "rank": 23
+  },
+  {
+   "cc": "DK",
+   "iso": "208",
+   "name": "Danimarka",
+   "market": "denmark",
+   "mcap_usd_bn": 634.0,
+   "rank": 24
+  },
+  {
+   "cc": "MX",
+   "iso": "484",
+   "name": "Meksika",
+   "market": "mexico",
+   "mcap_usd_bn": 627.0,
+   "rank": 25
+  },
+  {
+   "cc": "RU",
+   "iso": "643",
+   "name": "Rusya",
+   "market": "russia",
+   "mcap_usd_bn": 602.0,
+   "rank": 26,
+   "hold": "Yaptırımlar nedeniyle veri ve işlem erişimi belirsiz; elle onay gerekir."
+  },
+  {
+   "cc": "TH",
+   "iso": "764",
+   "name": "Tayland",
+   "market": "thailand",
+   "mcap_usd_bn": 568.0,
+   "rank": 27
+  },
+  {
+   "cc": "IL",
+   "iso": "376",
+   "name": "İsrail",
+   "market": "israel",
+   "mcap_usd_bn": 565.0,
+   "rank": 28
+  },
+  {
+   "cc": "ZA",
+   "iso": "710",
+   "name": "Güney Afrika",
+   "market": "rsa",
+   "mcap_usd_bn": 552.0,
+   "rank": 29
+  },
+  {
+   "cc": "NO",
+   "iso": "578",
+   "name": "Norveç",
+   "market": "norway",
+   "mcap_usd_bn": 515.0,
+   "rank": 30,
+   "geo": {
+    "fitMin": 0.5
+   }
+  },
+  {
+   "cc": "MY",
+   "iso": "458",
+   "name": "Malezya",
+   "market": "malaysia",
+   "mcap_usd_bn": 508.0,
+   "rank": 31
+  },
+  {
+   "cc": "FI",
+   "iso": "246",
+   "name": "Finlandiya",
+   "market": "finland",
+   "mcap_usd_bn": 390.0,
+   "rank": 32
+  },
+  {
+   "cc": "PH",
+   "iso": "608",
+   "name": "Filipinler",
+   "market": "philippines",
+   "mcap_usd_bn": 345.0,
+   "rank": 33
+  },
+  {
+   "cc": "VN",
+   "iso": "704",
+   "name": "Vietnam",
+   "market": "vietnam",
+   "mcap_usd_bn": 310.0,
+   "rank": 34
+  },
+  {
+   "cc": "CL",
+   "iso": "152",
+   "name": "Şili",
+   "market": "chile",
+   "mcap_usd_bn": 305.0,
+   "rank": 35
+  },
+  {
+   "cc": "IE",
+   "iso": "372",
+   "name": "İrlanda",
+   "market": "ireland",
+   "mcap_usd_bn": 298.0,
+   "rank": 36
+  },
+  {
+   "cc": "PL",
+   "iso": "616",
+   "name": "Polonya",
+   "market": "poland",
+   "mcap_usd_bn": 292.0,
+   "rank": 37
+  },
+  {
+   "cc": "QA",
+   "iso": "634",
+   "name": "Katar",
+   "market": "qatar",
+   "mcap_usd_bn": 288.0,
+   "rank": 38
+  },
+  {
+   "cc": "TR",
+   "iso": "792",
+   "name": "Türkiye",
+   "market": "turkey",
+   "mcap_usd_bn": 285.0,
+   "rank": 39,
+   "ias29": "2023 hesaplarından beri (banka, sigorta ve BDDK'ya bağlı finans şirketleri hariç)"
+  },
+  {
+   "cc": "AT",
+   "iso": "040",
+   "name": "Avusturya",
+   "market": "austria",
+   "mcap_usd_bn": 225.0,
+   "rank": 40
+  },
+  {
+   "cc": "GR",
+   "iso": "300",
+   "name": "Yunanistan",
+   "market": "greece",
+   "mcap_usd_bn": 186.0,
+   "rank": 41
+  },
+  {
+   "cc": "KW",
+   "iso": "414",
+   "name": "Kuveyt",
+   "market": "kuwait",
+   "mcap_usd_bn": 155.0,
+   "rank": 42
+  },
+  {
+   "cc": "CO",
+   "iso": "170",
+   "name": "Kolombiya",
+   "market": "colombia",
+   "mcap_usd_bn": 144.0,
+   "rank": 43
+  },
+  {
+   "cc": "RO",
+   "iso": "642",
+   "name": "Romanya",
+   "market": "romania",
+   "mcap_usd_bn": 131.0,
+   "rank": 44
+  },
+  {
+   "cc": "MA",
+   "iso": "504",
+   "name": "Fas",
+   "market": "morocco",
+   "mcap_usd_bn": 111.0,
+   "rank": 45
+  },
+  {
+   "cc": "AR",
+   "iso": "032",
+   "name": "Arjantin",
+   "market": "argentina",
+   "mcap_usd_bn": 105.0,
+   "rank": 46,
+   "ias29": "2018'den beri; eklerken hangi şirketlerin uyguladığı doğrulanmalı"
+  },
+  {
+   "cc": "PT",
+   "iso": "620",
+   "name": "Portekiz",
+   "market": "portugal",
+   "mcap_usd_bn": 102.0,
+   "rank": 47
+  },
+  {
+   "cc": "NZ",
+   "iso": "554",
+   "name": "Yeni Zelanda",
+   "market": "newzealand",
+   "mcap_usd_bn": 101.0,
+   "rank": 48
+  },
+  {
+   "cc": "NG",
+   "iso": "566",
+   "name": "Nijerya",
+   "market": "nigeria",
+   "mcap_usd_bn": 91.0,
+   "rank": 49
+  },
+  {
+   "cc": "PE",
+   "iso": "604",
+   "name": "Peru",
+   "market": "peru",
+   "mcap_usd_bn": 85.0,
+   "rank": 50
+  },
+  {
+   "cc": "HU",
+   "iso": "348",
+   "name": "Macaristan",
+   "market": "hungary",
+   "mcap_usd_bn": 83.0,
+   "rank": 51
+  },
+  {
+   "cc": "EG",
+   "iso": "818",
+   "name": "Mısır",
+   "market": "egypt",
+   "mcap_usd_bn": 68.0,
+   "rank": 52
+  },
+  {
+   "cc": "PK",
+   "iso": "586",
+   "name": "Pakistan",
+   "market": "pakistan",
+   "mcap_usd_bn": 68.0,
+   "rank": 53
+  },
+  {
+   "cc": "BD",
+   "iso": "050",
+   "name": "Bangladeş",
+   "market": "bangladesh",
+   "mcap_usd_bn": 59.0,
+   "rank": 54
+  },
+  {
+   "cc": "CZ",
+   "iso": "203",
+   "name": "Çekya",
+   "market": "czech",
+   "mcap_usd_bn": 43.0,
+   "rank": 55
+  },
+  {
+   "cc": "LU",
+   "iso": "442",
+   "name": "Lüksemburg",
+   "market": "luxembourg",
+   "mcap_usd_bn": 42.0,
+   "rank": 56
+  },
+  {
+   "cc": "CY",
+   "iso": "196",
+   "name": "Kıbrıs",
+   "market": "cyprus",
+   "mcap_usd_bn": 35.0,
+   "rank": 57
+  },
+  {
+   "cc": "HR",
+   "iso": "191",
+   "name": "Hırvatistan",
+   "market": "croatia",
+   "mcap_usd_bn": 33.0,
+   "rank": 58
+  },
+  {
+   "cc": "KE",
+   "iso": "404",
+   "name": "Kenya",
+   "market": "kenya",
+   "mcap_usd_bn": 26.0,
+   "rank": 59
+  },
+  {
+   "cc": "SI",
+   "iso": "705",
+   "name": "Slovenya",
+   "market": "slovenia",
+   "mcap_usd_bn": 25.0,
+   "rank": 60
+  },
+  {
+   "cc": "IS",
+   "iso": "352",
+   "name": "İzlanda",
+   "market": "iceland",
+   "mcap_usd_bn": 21.0,
+   "rank": 61
+  },
+  {
+   "cc": "BH",
+   "iso": "048",
+   "name": "Bahreyn",
+   "market": "bahrain",
+   "mcap_usd_bn": 20.0,
+   "rank": 62
+  },
+  {
+   "cc": "LK",
+   "iso": "144",
+   "name": "Sri Lanka",
+   "market": "srilanka",
+   "mcap_usd_bn": 20.0,
+   "rank": 63
+  },
+  {
+   "cc": "TN",
+   "iso": "788",
+   "name": "Tunus",
+   "market": "tunisia",
+   "mcap_usd_bn": 12.0,
+   "rank": 64
+  },
+  {
+   "cc": "LT",
+   "iso": "440",
+   "name": "Litvanya",
+   "market": "lithuania",
+   "mcap_usd_bn": 7.0,
+   "rank": 65
+  },
+  {
+   "cc": "EE",
+   "iso": "233",
+   "name": "Estonya",
+   "market": "estonia",
+   "mcap_usd_bn": 6.0,
+   "rank": 66
+  },
+  {
+   "cc": "BG",
+   "iso": "100",
+   "name": "Bulgaristan",
+   "market": "bulgaria",
+   "mcap_usd_bn": 5.0,
+   "rank": 67
+  },
+  {
+   "cc": "RS",
+   "iso": "688",
+   "name": "Sırbistan",
+   "market": "serbia",
+   "mcap_usd_bn": 4.0,
+   "rank": 68
+  },
+  {
+   "cc": "SK",
+   "iso": "703",
+   "name": "Slovakya",
+   "market": "slovakia",
+   "mcap_usd_bn": 3.0,
+   "rank": 69
+  },
+  {
+   "cc": "LV",
+   "iso": "428",
+   "name": "Letonya",
+   "market": "latvia",
+   "mcap_usd_bn": 0.5,
+   "rank": 70
+  },
+  {
+   "cc": "VE",
+   "iso": "862",
+   "name": "Venezuela",
+   "market": "venezuela",
+   "mcap_usd_bn": 0.0,
+   "rank": 71,
+   "hold": "Hiperenflasyon ve güvenilir veri eksikliği; elle onay gerekir."
+  }
+ ],
+ "geo_note": "geo.fitMin: görünüm kutusuna girecek kara parçasının ana karaya oranı (varsayılan 0,06). ABD'de Alaska, Fransa'da Guyana, Norveç'te Svalbard kadraja girmesin diye 0,5."
+}

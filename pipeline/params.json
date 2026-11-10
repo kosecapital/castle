@@ -1,0 +1,11 @@
+{
+  "roeMin": 12,
+  "eraAvg": 15,
+  "eraMin": 10,
+  "ndMax": 3.0,
+  "ndFlag": 2.0,
+  "r": 10.0,
+  "mos": 25.0,
+  "gWide": 3.0,
+  "gNarrow": 1.5
+}

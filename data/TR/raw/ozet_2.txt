@@ -1,0 +1,191 @@
+EBEBK;Ebebek;Perakande - Ticaret;77,90;12.464,0;248,3;27,6
+ECILC;Eczacıbaşı İlaç;Sağlık ve İlaç;49,70;34.057,4;678,5;21,9
+ECOGR;Ecogreen;Elektrik Üretim;20,34;10.983,6;218,8;16,3
+ECZYT;Eczacıbaşı Yatırım;Holdingler;158,10;16.600,5;330,7;17,3
+EDATA;E-Data Teknoloji;Teknoloji;3,54;1.423,7;28,4;32,0
+EDIP;Edip Gayrimenkul;GYO;23,70;1.540,5;30,7;47,8
+EFOR;Efor Yatırım;Gıda;13,00;28.314,0;564,0;30,4
+EGEEN;Ege Endüstri;Otomotiv Parçası;4.895,00;15.419,3;307,2;36,0
+EGEGY;Egeyapı GYO;GYO;16,75;3.350,0;66,7;29,2
+EGEPO;Egepol Hastanesi;Sağlık ve İlaç;4,54;2.270,0;45,2;21,9
+EGGUB;Ege Gübre;Tarım Kimyasalları;79,90;7.990,0;159,2;45,4
+EGPRO;Ege Profil;İnşaat Malzemeleri;34,00;18.530,0;369,1;13,1
+EGSER;Ege Seramik;Seramik;2,07;1.490,4;29,7;34,3
+EKDMR;Ekinciler;Demir-Çelik Temel;23,84;7.628,8;152,0;13,5
+EKGYO;Emlak Konut GYO;GYO;18,38;69.844,0;1.391,4;48,1
+EKIM;Ekim Turizm;Ulaştırma-Lojistik;15,99;13.303,7;265,0;13,1
+EKIZ;Ekiz Yağ ve Sabun;Gıda;39,26;364,5;7,3;63,6
+EKOS;Ekos Teknoloji;Endüstriyel Makine -Teçhizat Üretim;2,70;3.024,0;60,2;27,3
+EKSUN;Eksun Gıda;Gıda;3,82;2.292,0;45,7;24,3
+ELITE;Elite Organik Gıda;Gıda;19,51;2.528,5;50,4;31,3
+EMKEL;Emek Elektrik;Elektrik Enerji Ürt.Teçh/Tesis Kurulum;5,23;784,5;15,6;79,4
+EMNIS;Eminiş Ambalaj;Boya;140,90;873,6;17,4;30,1
+EMPAE;Empa Elektronik;Teknoloji;37,84;6.432,8;128,1;22,3
+ENDAE;Enda Enerji;Elektrik Üretim;10,59;4.629,9;92,2;23,3
+ENERY;Enerya Enerji;Elektrik - Doğalgaz Dağıtım;14,15;127.350,0;2.536,9;20,7
+ENJSA;Enerjisa Enerji;Elektrik - Doğalgaz Dağıtım;119,00;140.547,2;2.799,9;20,0
+ENKAI;Enka İnşaat;İnşaat- Taahhüt;81,00;486.000,0;9.681,6;8,1
+ENPRA;Enpara;Bankacılık;43,96;548.413,7;10.925,0;0,1
+ENSRI;Ensari Deri;Deri Giyim;2,67;1.457,8;29,0;46,1
+ENTRA;Ic Enterra Yenilenebilir;Elektrik Üretim;4,75;19.192,6;382,3;19,8
+EPLAS;Egeplast;İnşaat Malzemeleri;4,80;915,0;18,2;71,6
+ERBOS;Erbosan;Demir-Çelik Döküm;98,05;1.961,0;39,1;70,4
+ERCB;Erciyas Çelik Boru;Demir-Çelik Temel;30,34;2.359,6;47,0;40,6
+EREGL;Ereğli Demir Çelik;Demir-Çelik Temel;32,52;227.640,0;4.534,8;45,7
+ERSU;Ersu Gıda;Meşrubat / İçecek;15,19;546,8;10,9;64,3
+ESCAR;Escar Filo;Ulaştırma-Lojistik;10,24;5.120,0;102,0;14,8
+ESCOM;Escort Teknoloji;Teknoloji;3,61;2.544,5;50,7;65,7
+ESEN;Esenboğa Elektrik;Elektrik Üretim;2,08;3.785,6;75,4;44,9
+ETILR;Etiler Gıda;Gıda;6,16;1.541,8;30,7;53,8
+ETYAT;Euro Trend Yatırım;Yatırım Ortaklıkları;8,09;485,4;9,7;92,2
+EUHOL;Euro Yatırım;Holdingler;6,26;939,0;18,7;88,6
+EUKYO;Euro Kapital Yatırım Ortaklığı;Yatırım Ortaklıkları;7,00;420,0;8,4;99,4
+EUPWR;Europower Enerji;Elektrik Enerji Ürt.Teçh/Tesis Kurulum;40,14;26.492,4;527,8;38,0
+EUREN;Europen Endüstri;Demir-Çelik Döküm;2,50;5.250,0;104,6;49,3
+EUYO;Euro Menkul;Yatırım Ortaklıkları;3,09;185,4;3,7;95,2
+EYGYO;EYG Gayrimenkul;GYO;1,78;1.246,0;24,8;35,5
+FADE;Fade Gıda Yatırım;Gıda;10,23;858,2;17,1;49,1
+FENER;Fenerbahçe Futbol;Spor;2,07;12.937,5;257,7;37,7
+FLAP;Flap Kongre;Diğer;10,00;937,5;18,7;71,1
+FMIZP;F-M İzmit Piston;Otomotiv Parçası;229,60;3.278,0;65,3;22,2
+FONET;Fonet Bilgi Teknolojileri;Teknoloji;3,98;3.725,3;74,2;60,5
+FORMT;Formet Metal ve Cam Sanayii;İnşaat Malzemeleri;0,95;1.083,6;21,6;89,0
+FORTE;Forte Bilgi İletişim;Teknoloji;86,85;5.819,0;115,9;37,3
+FRIGO;Frigo Pak Gıda;Gıda;2,20;1.870,0;37,3;82,7
+FRMPL;Formül Plastik;Kimyasal Ürün;19,49;3.118,4;62,1;25,0
+FROTO;Ford Otosan;Otomotiv;75,90;266.340,7;5.305,8;17,5
+FZLGY;Fuzul Gayrimenkul;GYO;6,07;7.587,5;151,2;14,3
+GARAN;Garanti Bankası;Bankacılık;155,40;652.680,0;13.002,1;13,8
+GARFA;Garanti BBVA Faktoring;Fin.Kiralama ve Faktoring;22,96;9.126,6;181,8;8,4
+GATEG;Gate Group;Medya;84,80;960,0;19,1;68,9
+GEDIK;Gedik Yatırım;Aracı Kurumlar;4,89;9.780,0;194,8;5,3
+GEDZA;Gediz Ambalaj Sanayi;Kimyasal Ürün;19,65;916,8;18,3;51,8
+GENIL;Gen İlaç;Sağlık ve İlaç;4,41;19.845,0;395,3;22,8
+GENKM;Gentaş Kimya;Kimyasal Ürün;6,49;3.952,4;78,7;19,5
+GENTS;Gentaş;Mobilya;3,13;2.347,5;46,8;71,6
+GEREL;Gersan Elektrik;Kablo;22,12;8.239,2;164,1;50,7
+GESAN;Girişim Elektrik;Elektrik Enerji Ürt.Teçh/Tesis Kurulum;34,14;15.704,4;312,8;37,0
+GIPTA;Gıpta;Kırtasiye;24,86;3.281,5;65,4;45,1
+GLBMD;Global Menkul Değerler;Aracı Kurumlar;7,45;879,1;17,5;24,3
+GLCVY;Gelecek Varlık Yönetimi;Varlık Yönetim;33,20;4.638,0;92,4;18,8
+GLRMK;Gülermak Ağır Sanayi;İnşaat- Taahhüt;112,90;36.421,5;725,6;25,0
+GLRYH;Güler Yatırım Holding;Holdingler;1,35;810,0;16,1;70,7
+GLYHO;Global Yatırım Holding;Holdingler;15,61;30.439,5;606,4;58,7
+GMTAS;Gimat Mağazacılık;Perakande - Ticaret;47,42;14.226,0;283,4;74,8
+GOKNR;Göknur Gıda;Gıda;12,51;4.378,5;87,2;46,5
+GOLDA;Golda Gıda;Gıda;6,15;1.537,5;30,6;33,1
+GOLTS;Göltaş Çimento;Çimento;238,50;4.293,0;85,5;67,6
+GOODY;Goodyear;Otomotiv Lastiği;1,90;2.888,0;57,5;25,2
+GOZDE;Gözde Girişim Sermayesi;Yatırım Ortaklıkları;16,43;6.325,6;126,0;23,4
+GRNYO;Garanti YO;Yatırım Ortaklıkları;8,45;316,9;6,3;86,0
+GRSEL;Gürsel Taşımacılık;Ulaştırma-Lojistik;266,75;27.208,5;542,0;22,2
+GRTHO;GrainTurk Tarım;Perakande - Ticaret;74,30;9.287,5;185,0;25,5
+GSDDE;GSD Denizcilik;Ulaştırma-Lojistik;10,35;1.552,5;30,9;28,8
+GSDHO;GSD Holding;Holdingler;3,95;3.950,0;78,7;49,1
+GSRAY;Galatasaray Sportif;Spor;0,73;9.855,0;196,3;39,9
+GUBRF;Gübre Fabrikaları;Tarım Kimyasalları;288,00;96.192,0;1.916,2;19,8
+GUNDG;Gündoğdu Gıda;Gıda;87,25;3.402,8;67,8;15,2
+GWIND;Galata Wind Enerji;Elektrik Üretim;19,29;10.416,6;207,5;29,6
+GZNMI;Gezinomi Seyahat;Turizm;19,64;1.276,6;25,4;43,8
+HALKB;Halkbank;Bankacılık;43,74;314.262,2;6.260,4;5,9
+HATEK;Hateks Hatay Tekstil;Tekstil Entegre;7,70;485,1;9,7;71,3
+HATSN;Hat-San;Ulaştırma-Lojistik;24,58;5.444,5;108,5;20,0
+HDFGS;Hedef Girişim Sermayesi;Yatırım Ortaklıkları;1,17;1.322,1;26,3;78,7
+HEDEF;Hedef Holding;Holdingler;6,52;19.560,0;389,7;8,8
+HEKTS;Hektaş;Tarım Kimyasalları;1,71;15.615,8;311,1;48,7
+HKTM;Hidropar;Endüstriyel Makine -Teçhizat Üretim;12,15;1.275,8;25,4;72,3
+HLGYO;Halk GYO;GYO;3,80;14.592,0;290,7;18,4
+HOROZ;Horoz Lojistik;Ulaştırma-Lojistik;34,70;3.139,9;62,6;19,4
+HRKET;Hareket Proje;Endüstriyel Makine -Teçhizat Üretim;7,90;12.741,1;253,8;27,1
+HTTBT;Hitit Bilgisayar;Teknoloji;30,32;9.096,0;181,2;27,6
+HUBVC;Hub Girişim Sermayesi YO;Yatırım Ortaklıkları;2,32;649,6;12,9;82,7
+HUNER;Hun Enerji;Elektrik Üretim;3,87;3.870,0;77,1;69,2
+HURGZ;Hürriyet;Medya;4,06;2.403,5;47,9;18,0
+ICBCT;ICBC Turkey Bank;Bankacılık;13,74;11.816,4;235,4;7,1
+ICUGS;Icu Girişim Sermayesi YO;Yatırım Ortaklıkları;1,22;424,0;8,4;95,6
+IDGYO;İdealist GYO;GYO;1,72;258,0;5,1;78,0
+IEYHO;Işıklar Enerji ve Yapı Holding;Holdingler;7,32;3.979,1;79,3;31,9
+IHAAS;İhlas Haber Ajansı;Medya;12,65;2.062,0;41,1;31,3
+IHEVA;İhlas Ev Aletleri;Dayanıklı Tüketim;1,37;480,2;9,6;72,2
+IHGZT;İhlas Gazetecilik;Medya;0,78;624,0;12,4;59,4
+IHLAS;İhlas Holding;Holdingler;0,76;2.280,0;45,4;83,8
+IHLGM;İhlas Gayrimenkul;GYO;0,99;990,0;19,7;73,8
+IHYAY;İhlas Yayın Holding;Medya;0,79;355,5;7,1;73,8
+IMASM;İmaş Makine;Endüstriyel Makine -Teçhizat Üretim;1,36;1.258,0;25,1;70,2
+INDES;İndeks Bilgisayar;Bilgisayar Toptancılığı;10,71;8.032,5;160,0;56,9
+INFO;İnfo Yatırım;Aracı Kurumlar;0,72;1.382,9;27,5;56,2
+INGRM;İngram Bilişim;Bilgisayar Toptancılığı;212,90;5.109,6;101,8;8,4
+INTEK;Innosa Teknoloji;Teknoloji;166,40;1.331,2;26,5;25,1
+INTEM;İntema;İnşaat Malzemeleri;165,30;3.213,4;64,0;12,7
+INTET;Intetra Teknoloji;Teknoloji;45,14;7.222,4;143,9;20,9
+INVEO;İnveo Yatırım Holding;Holdingler;4,10;4.100,0;81,7;15,8
+INVES;Investco Holding;Holdingler;669,50;125.531,3;2.500,7;19,1
+ISATR;İş Bankası (A);Bankacılık;4.950.000,00;4.950,0;98,6;23,5
+ISBIR;İşbir Holding;Holdingler;63,45;2.055,0;40,9;42,0
+ISBTR;İş Bankası (B);Bankacılık;375.000,00;10.875,0;216,6;25,5
+ISCTR;İş Bankası (C);Bankacılık;13,66;341.499,6;6.803,0;29,3
+ISDMR;İskenderun Demir Çelik;Demir-Çelik Temel;52,25;151.525,0;3.018,5;5,0
+ISFIN;İş Finansal Kiralama;Fin.Kiralama ve Faktoring;15,76;10.958,0;218,3;39,0
+ISGSY;İş Girişim;Yatırım Ortaklıkları;11,50;5.750,0;114,5;36,7
+ISGYO;İş GYO;GYO;18,83;18.053,3;359,6;37,7
+ISKPL;Işıklar Plastik;Kimyasal Ürün;2,79;4.185,0;83,4;39,0
+ISKUR;İş Bankası Kurucu;Bankacılık;4.125.000,00;0,0;0,0;28,0
+ISMEN;İş Yatırım;Aracı Kurumlar;27,96;41.940,0;835,5;29,2
+ISSEN;İşbir Sentetik;Tekstil Entegre;5,04;2.139,0;42,6;19,7
+ISVEA;İsvea Seramik;Seramik;19,31;5.406,8;107,7;22,7
+ISYAT;İş YO;Yatırım Ortaklıkları;6,06;973,2;19,4;63,1
+IZENR;İzdemir Enerji;Elektrik Üretim;3,96;9.677,3;192,8;23,7
+IZFAS;İzmir Fırça;Boya;13,29;2.354,8;46,9;58,1
+IZINV;İz Yatırım Holding;Gıda;23,56;412,6;8,2;69,9
+IZMDC;İzmir Demir Çelik;Demir-Çelik Temel;5,94;8.910,0;177,5;20,2
+JANTS;Jantsa Jant;Otomotiv Parçası;11,35;7.945,0;158,3;16,9
+KAPLM;Kaplamin;Kağıt Ürünleri;112,10;2.242,0;44,7;29,3
+KARCL;Kardemir Çelik Sanayi;Demir-Çelik Temel;41,86;34.743,8;692,1;13,4
+KAREL;Karel Elektronik;İletişim Cihazları;4,52;3.642,6;72,6;38,5
+KARSN;Karsan Otomotiv;Otomotiv;7,52;6.768,0;134,8;38,9
+KARTN;Kartonsan;Kağıt Ürünleri;105,00;7.875,0;156,9;38,2
+KATMR;Katmerciler Araç Üstü Ekipman;Otomotiv Parçası;1,15;2.476,2;49,3;79,6
+KAYSE;Kayseri Şeker;Gıda;2,38;7.140,0;142,2;23,6
+KBORU;Kuzey Boru;İnşaat Malzemeleri;10,51;6.306,0;125,6;21,3
+KCAER;Kocaer Çelik Sanayi;Demir-Çelik Temel;10,10;19.341,5;385,3;25,8
+KCHOL;Koç Holding;Holdingler;206,00;522.395,0;10.406,7;26,2
+KENT;Kent Gıda;Gıda;265,00;87.450,0;1.742,1;0,5
+KERVN;Kervansaray Yatırım Holding;Holdingler;6,41;3.772,3;75,1;36,9
+KFEIN;Kafein Yazılım;Teknoloji;5,16;1.019,1;20,3;71,5
+KGYO;Koray GYO;GYO;7,68;7.680,0;153,0;27,8
+KIMMR;Ersan Alışveriş Hizmetleri;Perakande - Ticaret;10,63;2.551,2;50,8;24,3
+KLGYO;Kiler GYO;GYO;3,85;5.370,8;107,0;40,8
+KLKIM;Kalekim Kimyevi Maddeler;Seramik;20,90;9.614,0;191,5;25,3
+KLMSN;Klimasan;Dayanıklı Tüketim;17,83;1.412,1;28,1;32,6
+KLNMA;T. Kalkınma Bankası;Bankacılık;6,83;68.300,0;1.360,6;0,9
+KLRHO;Kiler Holding;Holdingler;10,05;29.396,3;585,6;12,0
+KLSER;Kaleseramik;Seramik;14,50;7.464,3;148,7;21,3
+KLSYN;Koleksiyon Mobilya;Mobilya;15,00;6.471,3;128,9;21,2
+KLYPV;Kalyon Güneş Teknolojileri;Elektrik Enerji Ürt.Teçh/Tesis Kurulum;50,00;23.003,9;458,3;8,8
+KMPUR;Kimteks Poliüretan;Kimyasal Ürün;12,92;6.281,7;125,1;25,2
+KNFRT;Konfrut Gıda;Meşrubat / İçecek;7,22;1.906,1;38,0;22,2
+KOCMT;Koç Metalurji;Demir-Çelik Temel;2,55;6.375,0;127,0;22,1
+KONKA;Konya Kağıt;Kağıt Ürünleri;6,94;2.706,6;53,9;17,3
+KONTR;Kontrolmatik Teknoloji;Elektrik Enerji Ürt.Teçh/Tesis Kurulum;2,41;3.133,0;62,4;88,0
+KONYA;Konya Çimento;Çimento;3.065,00;14.937,1;297,6;16,6
+KOPOL;Koza Polyester;Endüstriyel Tekstil;3,37;4.370,8;87,1;21,7
+KORDS;Kordsa Teknik Tekstil;Endüstriyel Tekstil;2,50;9.239,7;184,1;27,7
+KOTON;Koton;Tekstil Entegre;8,55;7.093,5;141,3;13,1
+KPEKS;Kapeks Kimya;Kimyasal Ürün;49,40;6.179,9;123,1;18,4
+KRDMA;Kardemir (A);Demir-Çelik Temel;33,00;7.930,0;158,0;98,1
+KRDMB;Kardemir (B);Demir-Çelik Temel;63,70;7.610,3;151,6;91,8
+KRDMD;Kardemir (D);Demir-Çelik Temel;37,66;29.383,3;585,3;91,9
+KRGYO;Körfez GYO;GYO;3,70;3.663,0;73,0;25,7
+KRONT;Kron Teknoloji;Teknoloji;16,63;2.847,4;56,7;65,2
+KRPLS;Koroplast Temizlik Ambalaj;Kağıt Ürünleri;8,91;1.555,7;31,0;44,9
+KRSTL;Kristal Kola;Meşrubat / İçecek;5,79;1.111,7;22,1;83,4
+KRTEK;Karsu Tekstil;Tekstil Entegre;4,59;633,3;12,6;50,3
+KRVGD;Kervan Gıda;Gıda;2,00;4.320,0;86,1;24,7
+KSTUR;Kuştur Turizm;Turizm;1.450,00;6.154,7;122,6;11,9
+KTLEV;Katılımevim;Diğer;5,58;39.060,0;778,1;33,2
+KTSKR;Kütahya Şeker;Gıda;51,10;2.350,6;46,8;31,8
+KUTPO;Kütahya Porselen;Seramik;58,50;2.335,1;46,5;25,5
+KUVVA;Kuvva Gıda;Gıda;73,00;2.266,1;45,1;85,2
+KUYAS;Kuyaş Yatırım;İnşaat- Taahhüt;10,03;4.012,0;79,9;78,7
+KZBGY;Kızılbük GYO;GYO;1,20;4.800,0;95,6;34,8
+KZGYO;Kuzugrup GYO;GYO;15,87;3.174,0;63,2;22,9

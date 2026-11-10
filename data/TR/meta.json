@@ -1,0 +1,44 @@
+{
+ "cc": "TR",
+ "iso": "792",
+ "name": "Türkiye",
+ "market": "turkey",
+ "exchange": "Borsa İstanbul",
+ "cur": "TL",
+ "asof": "2026-11-10",
+ "fx": 50.2,
+ "mcapMin": 3000,
+ "years": [
+  "2021",
+  "2022",
+  "2023",
+  "2024",
+  "2025"
+ ],
+ "era": [
+  "2023",
+  "2024",
+  "2025",
+  "cur"
+ ],
+ "cpi": {
+  "2021": 36.08,
+  "2022": 64.27,
+  "2023": 64.77,
+  "2024": 44.38,
+  "2025": 30.89,
+  "cur": 29.77
+ },
+ "deflate": "nominal_only",
+ "inflation_note": "Borsa İstanbul şirketlerinin çoğu 2023 hesaplarından beri enflasyon muhasebesi uyguluyor; bu şirketlerin kârlılığı zaten reeldir. Bankalar, sigorta şirketleri, finansal kiralama, faktoring ve tasarruf finansman şirketleri uygulamıyor. Onların kârlılığı yıllık TÜFE ile düzeltildi: 2023 için %64,77, 2024 için %44,38, 2025 için %30,89, son 12 ay için %29,77 (TÜİK, Ekim 2026).",
+ "data_notes": [
+  "Fiyat, piyasa değeri, F/K ve PD/DD: İş Yatırım'ın temel değerler tablosu, 10 Kasım 2026 kapanışı; 629 payın tamamı.",
+  "Beş yıllık oranlar: stockanalysis.com. Bazı sayfalar son çeyreği henüz içermiyordu; bu yüzden son 12 ay için iki kaynak birlikte kullanıldı.",
+  "Haberler ve bilanço özetleri: Kasım 2026'nın ilk on gününde yayımlanan kaynaklar. Her şirket sayfasının altında bağlantıları var."
+ ],
+ "small_text": "Piyasa değeri 3 milyar TL'nin altında",
+ "small_rule": "Piyasa değeri 3 milyar TL'nin altındaki şirketler dışarıda kalır.",
+ "era_label": "2023 sonrası",
+ "chart_note": "Özsermaye kârlılığı (%). Açık renkli 2021 ve 2022, enflasyon muhasebesi öncesinin nominal rakamlarıdır; karşılaştırma 2023'ten itibaren anlamlıdır.",
+ "chart_note_nominal": "Özsermaye kârlılığı (%), enflasyondan arındırılmış. Bu şirket enflasyon muhasebesi uygulamıyor; rakamlar yıllık TÜFE ile düzeltildi."
+}

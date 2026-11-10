@@ -1,0 +1,178 @@
+[
+ {
+  "k": "Önce hayır",
+  "w": "1. sur",
+  "t": "Zor sorunu çözmeye değil, ondan uzak durmaya çalış. Geleceği değerlendirilemeyen iş, ürünü ne kadar heyecan verici olursa olsun listeye girmez.",
+  "a": "Açıkça uymayan şirket ilk surda, bütün evren için saniyeler içinde elenir. Zaman, geriye kalan az sayıda şirkete harcanır.",
+  "src": [
+   {
+    "y": "1989",
+    "u": "https://www.berkshirehathaway.com/letters/1989.html"
+   },
+   {
+    "y": "2009",
+    "u": "https://www.berkshirehathaway.com/letters/2009ltr.pdf"
+   }
+  ]
+ },
+ {
+  "k": "Kanıtlanmış kazanç gücü",
+  "w": "1. ve 2. sur",
+  "t": "Aranan, kanıtlanmış ve istikrarlı kazanç gücüdür; gelecek tahmini ya da düzelme hikâyesi değil.",
+  "a": "Son 12 ayda net kârı olmayan 1. surda, son beş yılda zarar yılı olan ya da beş yıllık geçmişi olmayan 2. surda elenir.",
+  "src": [
+   {
+    "y": "1986",
+    "u": "https://www.berkshirehathaway.com/letters/1986.html"
+   }
+  ]
+ },
+ {
+  "k": "Az borçla yüksek özsermaye kârlılığı",
+  "w": "2. sur",
+  "t": "Yönetimin başarısı hisse başına kâr artışıyla değil, özsermaye kârlılığıyla ölçülür. 1987 mektubundaki örnekte bin büyük şirketten yalnızca 25'i on yıl boyunca ortalama %20'nin üzerinde kazanmış ve hiçbir yıl %15'in altına inmemişti; çoğu az borç kullanıyordu.",
+  "a": "Aynı kalıp kullanılır: ortalama ve en kötü yıl birlikte sınanır. Eşikler reel olarak %15 ve %10; net borç/FAVÖK en çok 3.",
+  "src": [
+   {
+    "y": "1977",
+    "u": "https://www.berkshirehathaway.com/letters/1977.html"
+   },
+   {
+    "y": "1987",
+    "u": "https://www.berkshirehathaway.com/letters/1987.html"
+   }
+  ]
+ },
+ {
+  "k": "Enflasyona aldanma",
+  "w": "2. sur",
+  "t": "Enflasyon kâğıt üzerindeki kârı eritir: özsermayesine %20 kazandıran bir iş bile vergi ve enflasyondan sonra ortağına reel kazanç bırakmayabilir. Enflasyona dayanıklı iş, fiyatını kolayca artırabilen ve büyürken az ek sermaye isteyen iştir.",
+  "a": "Bütün kârlılık rakamları enflasyondan arındırılmış olarak okunur.",
+  "src": [
+   {
+    "y": "1980",
+    "u": "https://www.berkshirehathaway.com/letters/1980.html"
+   },
+   {
+    "y": "1981",
+    "u": "https://www.berkshirehathaway.com/letters/1981.html"
+   }
+  ]
+ },
+ {
+  "k": "Kâr nakde dönmeli",
+  "w": "2. sur",
+  "t": "Ortağın kazancı, kâra amortisman eklenip işin gücünü korumak için gereken yatırım düşülerek bulunur. Bu yatırım amortismandan büyükse açıklanan kâr, gerçeği olduğundan iyi gösterir.",
+  "a": "Serbest nakit akışı son beş dönemin en az ikisinde pozitif olmalıdır.",
+  "src": [
+   {
+    "y": "1986",
+    "u": "https://www.berkshirehathaway.com/letters/1986.html"
+   }
+  ]
+ },
+ {
+  "k": "Anlaşılır iş",
+  "w": "3. sur",
+  "t": "Her şirketi anlamak gerekmez. Önemli olan yetkinlik alanının büyüklüğü değil, sınırının nerede olduğunu bilmektir. En iyi sonuçlar çoğu zaman, on yıl önce de aşağı yukarı aynı işi yapan şirketlerden gelir.",
+  "a": "Ne sattığı ve parayı nasıl kazandığı birkaç cümleyle anlatılamayan iş anlaşılırlık puanı alamaz.",
+  "src": [
+   {
+    "y": "1987",
+    "u": "https://www.berkshirehathaway.com/letters/1987.html"
+   },
+   {
+    "y": "1996",
+    "u": "https://www.berkshirehathaway.com/letters/1996.html"
+   }
+  ]
+ },
+ {
+  "k": "Hendek",
+  "w": "3. sur",
+  "t": "Yüksek getiri kazanan her işe rakipler saldırır; kârı koruyan kalıcı bir hendek gerekir. İki klasik kaynağı, en düşük maliyetli üretici olmak ve güçlü markadır. Sürekli yeniden kazılması gereken ya da tek bir yıldız yöneticiye bağlı olan hendek, hendek sayılmaz.",
+  "a": "Hendek dört basamakta puanlanır: yok, zayıf, dar, geniş. En az dar olmayan şirket 3. surda kalır.",
+  "src": [
+   {
+    "y": "2007",
+    "u": "https://www.berkshirehathaway.com/letters/2007ltr.pdf"
+   }
+  ]
+ },
+ {
+  "k": "Ortak gibi davranan yönetim",
+  "w": "3. sur",
+  "t": "Şirkette bırakılan her bir liralık kâr, ortağa en az bir liralık değer yaratmalıdır. Ana işi çok kârlı olan bir şirket, artan nakdini düşük getirili işlere yatırıyorsa bunun hesabı yönetime sorulur. Ana işten uzaklaşmak, çok iyi şirketlerde bile ortağa pahalıya patlar.",
+  "a": "Kârın nereye gittiğine bakılır: ana iş, borç ödemesi, temettü ya da geri alım. Ana iş dışı büyük finansal yatırımlar puan düşürür.",
+  "src": [
+   {
+    "y": "1984",
+    "u": "https://www.berkshirehathaway.com/letters/1984.html"
+   },
+   {
+    "y": "1996",
+    "u": "https://www.berkshirehathaway.com/letters/1996.html"
+   }
+  ]
+ },
+ {
+  "k": "Tersinden düşün",
+  "w": "3. sur",
+  "t": "Sorunu tersinden çöz: neyin kötü biteceğini bul ve ondan uzak dur. 2009 mektubu bu yöntemi Munger'a bağlar. Borca ya da başkasının iyi niyetine bağımlı olmak, kaçınılacakların başında gelir.",
+  "a": "Her raporda 'bu tezi ne bozar' bölümü vardır. Tek müşteriye, tek imtiyaza ya da tek karara bağlı iş kırılgan sayılır.",
+  "src": [
+   {
+    "y": "1989",
+    "u": "https://www.berkshirehathaway.com/letters/1989.html"
+   },
+   {
+    "y": "2009",
+    "u": "https://www.berkshirehathaway.com/letters/2009ltr.pdf"
+   }
+  ]
+ },
+ {
+  "k": "Harika iş, makul fiyat",
+  "w": "3. ve 4. sur",
+  "t": "Vasat bir işi çok ucuza almaktansa harika bir işi makul fiyata almak daha iyidir. Zaman iyi işin dostu, vasat işin düşmanıdır.",
+  "a": "Fiyat testi en sonda gelir: önce kalite ve hendek, sonra fiyat. Hendeği geniş olan şirkete daha yüksek çarpan tanınır.",
+  "src": [
+   {
+    "y": "1989",
+    "u": "https://www.berkshirehathaway.com/letters/1989.html"
+   }
+  ]
+ },
+ {
+  "k": "Güvenlik marjı",
+  "w": "4. sur",
+  "t": "Bir işin değeri, ömrü boyunca üreteceği nakdin bugüne indirgenmiş tutarıdır. Bu tahmin her zaman hatalı olabileceği için fiyat, hesaplanan değerin belirgin biçimde altında olmalıdır. Mükemmel bir iş bile fazla pahalıya alınabilir.",
+  "a": "Değer, temkinli kazançla hesaplanır. Fiyat bu değerin en az güvenlik marjı kadar altındaysa şirket kaleye girer.",
+  "src": [
+   {
+    "y": "1992",
+    "u": "https://www.berkshirehathaway.com/letters/1992.html"
+   },
+   {
+    "y": "1996",
+    "u": "https://www.berkshirehathaway.com/letters/1996.html"
+   }
+  ]
+ },
+ {
+  "k": "Sabır",
+  "w": "4. sur",
+  "t": "Piyasa her gün bir fiyat söyler; bu fiyat yol göstermek için değil, yararlanmak için vardır. Hisse, uzun yıllar elde tutulacak bir iş ortaklığı gibi alınır.",
+  "a": "Kapıda bekleyenler listesi bunun içindir: iyi iş, fiyatı gelene kadar izlenir. Listenin kısa, hatta boş olması süzgecin çalıştığını gösterir.",
+  "src": [
+   {
+    "y": "1977",
+    "u": "https://www.berkshirehathaway.com/letters/1977.html"
+   },
+   {
+    "y": "1987",
+    "u": "https://www.berkshirehathaway.com/letters/1987.html"
+   }
+  ]
+ }
+]

@@ -1,0 +1,560 @@
+{
+ "FROTO": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "dar",
+  "one": "Ford'un Avrupa'daki ticari araç üretim üssü. Kalite ve fiyat testlerini geçti; borç ve döngüsellik dikkat istiyor.",
+  "business": "Ford Otosan, Ford markalı ticari araçları üretir ve ihraç eder; ayrıca yurt içinde Ford araçlarını satar. Ford Motor ile Koç Grubu'nun ortak girişimidir. 2026'nın üçüncü çeyreğinde otomotiv gelirinin yaklaşık %87'si ihracattan geldi (228,9 milyar TL'nin 200,2 milyarı). 24.436 kişi çalıştırıyor.",
+  "moat_text": "Hendek dar ama gerçek. Şirket, Ford'un Avrupa ticari araç üretiminin ana üssü; bu ölçek ve maliyet avantajı sağlıyor ve ihracat hacmi yurt içi pazar daralırken bile artıyor (3Ç26'da ihracat adedi +%11, yurt içi toptan −%51). Zayıf yanı, üstünlüğün tek bir ortağa, Ford'a bağlı olması.",
+  "mgmt": "Kontrol Koç Grubu ile Ford Motor'da; halka açıklık %17,5. Kâr düzenli olarak temettüye gidiyor. Dikkat: son 12 ayda dağıtılan temettü kârın üzerinde (ödeme oranı %124) ve bu, borç artarken oluyor.",
+  "latest": "5 Kasım 2026: Üçüncü çeyrek net kârı 8,35 milyar TL ile beklentiyi (7,29 milyar) aştı, ama geçen yıla göre %23 düşük. Dokuz aylık net kâr 19,26 milyar TL (−%34), hasılat 679,8 milyar TL (−%10). Düzeltilmiş FAVÖK marjı %6,5 (geçen yıl %7,4). 2026 toplam satış hedefi 645–705 bin adede indirildi; ihracat hedefi (580–630 bin), FAVÖK marjı (%6–7) ve yatırım bütçesi (300–400 milyon avro) korundu.",
+  "risks": [
+   "Borç: otomotiv net borcu 116,9 milyar TL. Net borç/FAVÖK şirketin tanımıyla 1,85, bizim kullandığımız veriyle 2,6. Eşiğimiz 3,0; eşik 2,5 olsaydı Ford Otosan 2. surda elenirdi.",
+   "Avrupa'da ticari araç talebi düşerse ihracat hacmi ve marj birlikte geriler.",
+   "Tek ortak ve tek ana müşteri Ford: üretim paylaşımındaki bir değişiklik tezi doğrudan etkiler.",
+   "Özsermaye kârlılığı düşüyor: 2023'te %90, 2025'te %22, son 12 ayda %17.",
+   "Kârdan fazla temettü dağıtımı sürerse borç azalmaz."
+  ],
+  "watch": [
+   "Düzeltilmiş FAVÖK marjı %6–7 bandında kalıyor mu",
+   "Net borç/FAVÖK",
+   "İhracat adedi (2026 hedefi 580–630 bin)",
+   "Temettü ödeme oranı"
+  ],
+  "sources": [
+   {
+    "t": "İş Yatırım: Temel değerler ve oranlar (10 Kas 2026)",
+    "u": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx"
+   },
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "u": "https://stockanalysis.com/quote/ist/FROTO/financials/ratios/"
+   },
+   {
+    "t": "CNBC-e: Ford Otosan 3Ç26 finansalları (5 Kas 2026)",
+    "u": "https://www.cnbce.com/sirket-bilancolari/ford-otosandan-froto-beklentileri-asan-bilanco-iste-sirketin-3-ceyrek-finansallari-h41128"
+   },
+   {
+    "t": "Midas: Ford Otosan bilançosu: beklentileri aşan kâr, düşürülen satış hedefleri (6 Kas 2026)",
+    "u": "https://www.getmidas.com/midasin-kulaklari/ford-otosan-bilancosu-beklentileri-asan-kar-dusurulen-satis-hedefleri-p-891832"
+   },
+   {
+    "t": "stockanalysis.com: Ford Otosan istatistikleri",
+    "u": "https://stockanalysis.com/quote/ist/FROTO/statistics/"
+   }
+  ]
+ },
+ "ISMEN": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "dar",
+  "one": "Türkiye'nin büyük aracı kurumu ve İş Bankası iştiraki. Fiyat ucuz, ama kazanç piyasaya bağlı ve oynak.",
+  "business": "İş Yatırım aracılık, portföy yönetimi, kurumsal finansman ve halka arz hizmetleri verir; hisse, borçlanma aracı ve türev işlemlerine aracılık eder. İş Bankası'nın iştirakidir. 608 kişi çalıştırıyor.",
+  "moat_text": "Hendek dar. Üstünlük ölçekten, markadan ve İş Bankası'nın müşteri ağından geliyor. Ürünün kendisi (aracılık) kolay taklit edilir ve komisyonlar rekabete açıktır; bu yüzden hendeği geniş saymıyoruz.",
+  "mgmt": "Ana ortak İş Bankası; halka açıklık %29,2. Şirket kârının büyük bölümünü temettü olarak dağıtıyor (son temettü hisse başına 5,67 TL).",
+  "latest": "9 Kasım 2026: Dokuz aylık ana ortaklık net kârı 4,81 milyar TL, ana ortaklık özkaynağı 39,2 milyar TL. Yılın ilk yarısında net kâr 2,62 milyar TL ile geçen yılın %35 altındaydı (14 Ağustos 2026).",
+  "risks": [
+   "Kazanç, işlem hacmine ve alım-satım gelirine bağlı. 2026'nın ilk yarısında kâr %35 düştü; kötü bir piyasa yılında daha da düşebilir.",
+   "Özsermaye kârlılığı geriliyor: 2023'te %45, 2025'te %24, son okumalar %16–20.",
+   "Bilanço ağırlıkla parasal varlıklardan oluşuyor; enflasyon muhasebesi bu yapıyı cezalandırıyor.",
+   "Aracılık kaldıraçlı ve döngüsel bir iştir; gelecek yılın kazancını öngörmek zordur. Rakamların ölçütleri geçmesi, bu kazancın kalıcı olduğunu göstermez."
+  ],
+  "watch": [
+   "Özsermaye kârlılığı %15'in üzerinde kalıyor mu",
+   "Pay piyasası işlem hacmi",
+   "Temettü"
+  ],
+  "sources": [
+   {
+    "t": "İş Yatırım: Temel değerler ve oranlar (10 Kas 2026)",
+    "u": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx"
+   },
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "u": "https://stockanalysis.com/quote/ist/ISMEN/financials/ratios/"
+   },
+   {
+    "t": "Borsatek: İş Yatırım 9 aylık net kâr (9 Kas 2026)",
+    "u": "https://www.borsatek.com/ismen-9-ay-2026-net-kar-4-81-milyar-tl/"
+   },
+   {
+    "t": "CNBC-e: İş Yatırım ilk yarı bilançosu (14 Ağu 2026)",
+    "u": "https://www.cnbce.com/borsa/is-yatirimin-bilancosu-belli-oldu-net-karda-dikkat-ceken-dusus-h35071"
+   },
+   {
+    "t": "stockanalysis.com: İş Yatırım istatistikleri",
+    "u": "https://stockanalysis.com/quote/ist/ISMEN/statistics/"
+   }
+  ]
+ },
+ "CCOLA": {
+  "scores": {
+   "A": 2,
+   "B": 3,
+   "C": 2,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "geniş",
+  "one": "Coca-Cola'nın Türkiye, Pakistan ve Orta Asya şişeleyicisi. İş çok iyi; fiyat makul ama güvenlik marjı eksik.",
+  "business": "Coca-Cola İçecek, Coca-Cola ürünlerini Türkiye, Pakistan, Kazakistan, Özbekistan, Irak ve bölgedeki diğer ülkelerde üretir ve dağıtır. 10.834 kişi çalıştırıyor.",
+  "moat_text": "Hendek geniş. Marka dünyanın en tanınanlarından biri ve şirket bölgesinde bu markanın şişeleme ve dağıtım hakkına sahip. Yaygın dağıtım ağı yeni bir rakibin kolayca kuramayacağı bir varlık. Fiyatlama gücü rakamlarda görünüyor: brüt marj %37,6, faaliyet marjı %15,9.",
+  "mgmt": "Ana ortaklar Anadolu Efes ve The Coca-Cola Company; halka açıklık %29,4. Borç düşük ve azalıyor: net borç/FAVÖK 2025 sonunda 0,77 iken üçüncü çeyrekte 0,29.",
+  "latest": "3 Kasım 2026: Üçüncü çeyrek net kârı 7,8 milyar TL (reel −%16,4), hasılat 68,4 milyar TL (reel +%1). FAVÖK marjı %19,3 (geçen yıl %22,3). Türkiye'de satış hacmi %0,9 düştü; uluslararası hacim %13,5 arttı (Pakistan +%24,5, Özbekistan +%20,3). Yönetim uluslararası büyüme beklentisini yükseltti, Türkiye için yatay hacim bekliyor.",
+  "risks": [
+   "Türkiye'de tüketicinin alım gücü zayıf; hacim düşüyor ve marj daralıyor (FAVÖK marjı bir yılda 3 puan geriledi).",
+   "Büyüme Pakistan, Irak ve Orta Asya'dan geliyor: kur ve ülke riski yüksek.",
+   "Özsermaye kârlılığı 2023'teki %55'ten 2025'te %17'ye indi; bu düzeyin altına inerse fiyat pahalı kalır.",
+   "Şeker ve ambalaj gibi hammadde maliyetleri."
+  ],
+  "watch": [
+   "Türkiye satış hacmi",
+   "FAVÖK marjı",
+   "Uluslararası hacim büyümesi",
+   "Fiyat: güvenlik marjı eşiğine ne kadar yakın"
+  ],
+  "sources": [
+   {
+    "t": "İş Yatırım: Temel değerler ve oranlar (10 Kas 2026)",
+    "u": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx"
+   },
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "u": "https://stockanalysis.com/quote/ist/CCOLA/financials/ratios/"
+   },
+   {
+    "t": "Midas: CCOLA 3Ç26: beklentilerle uyumlu kâr (4 Kas 2026)",
+    "u": "https://www.getmidas.com/midasin-kulaklari/ccola-3-ceyrek-2026-beklentilerle-uyumlu-kar-uluslararasi-operasyonlar-turkiyedeki-zayifligi-dengeliyor-p-878738"
+   },
+   {
+    "t": "stockanalysis.com: Coca-Cola İçecek istatistikleri",
+    "u": "https://stockanalysis.com/quote/ist/CCOLA/statistics/"
+   }
+  ]
+ },
+ "CLEBI": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "dar",
+  "one": "Havalimanı yer hizmetlerinde yerleşik bir oyuncu. Çok kârlı, ama Hindistan'da bir hükümet kararıyla iş kaybetti; marj sınırda.",
+  "business": "Çelebi Hava Servisi, havayollarına ve kargo şirketlerine havalimanlarında yer hizmeti ve kargo-antrepo hizmeti verir. 1958'de kuruldu; Çelebi Havacılık Holding'in bağlı ortaklığıdır. 8.141 kişi çalıştırıyor.",
+  "moat_text": "Hendek dar. Bir havalimanında yer hizmeti verebilmek için lisans ve imtiyaz gerekir; bu, rakip sayısını sınırlar ve yüksek kârlılığı açıklar (özsermaye kârlılığı beş yıldır %40'ın üzerinde, faaliyet marjı %23). Ama aynı lisanslar hendeğin en zayıf yeri: veren makam geri alabilir.",
+  "mgmt": "Halka açıklık yalnızca %9,6; hisse sığ ve kontrol tümüyle ana ortakta. Kârın büyük bölümü temettü olarak dağıtılıyor (ödeme oranı %73).",
+  "latest": "9 Kasım 2026: Dokuz aylık ana ortaklık net kârı 2,21 milyar TL, hasılat 17,56 milyar TL, faaliyet kârı 4,10 milyar TL. Durdurulan faaliyetlerden 1,02 milyar TL zarar yazıldı. Hindistan'daki iştiraklerin güvenlik izinleri Mayıs 2025'te iptal edilmiş, faaliyetleri 15 Mayıs 2025'te durmuştu; hukuki süreç sürüyor (19 Ağustos 2026 tarihli ara dönem raporu).",
+  "risks": [
+   "İmtiyaz riski gerçekleşti: Hindistan'daki iş bir hükümet kararıyla bir günde durdu. Aynı şey başka bir ülkede de olabilir.",
+   "Müşteriler havayolları: pazarlık güçleri yüksek, sözleşmeler yenilenmeyebilir.",
+   "Güvenlik marjı eşiğe çok yakın ve fark ölçüm hassasiyeti içinde. Tablodaki PD/DD 3,6 olarak yuvarlanmış; dokuz aylık bilançodaki özkaynakla (9,12 milyar TL) hesaplanınca 3,55 ve marj %25 dolayında çıkıyor. Küçük bir fiyat ya da kâr değişimi sonucu değiştirir.",
+   "Düşük halka açıklık: az ortak, sığ işlem."
+  ],
+  "watch": [
+   "Hindistan davasının sonucu ve olası tazminat",
+   "Yeni ülke ve havalimanı sözleşmeleri",
+   "Devam eden faaliyetlerin kârı",
+   "Temettü"
+  ],
+  "sources": [
+   {
+    "t": "İş Yatırım: Temel değerler ve oranlar (10 Kas 2026)",
+    "u": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx"
+   },
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "u": "https://stockanalysis.com/quote/ist/CLEBI/financials/ratios/"
+   },
+   {
+    "t": "Borsatek: Çelebi 9 aylık net kâr (9 Kas 2026)",
+    "u": "https://www.borsatek.com/clebi-2026-9-ay-net-kar/"
+   },
+   {
+    "t": "KAP: Çelebi Hava Servisi 2Ç26 ara dönem raporu (19 Ağu 2026)",
+    "u": "https://kap.org.tr/en/api/BildirimPdf/1653153"
+   },
+   {
+    "t": "Capital: Çelebi Hindistan'daki son durumu duyurdu (21 May 2025)",
+    "u": "https://www.capital.com.tr/haberler/tum-haberler/celebi-hava-servisi-hindistandaki-son-durumu-duyurdu"
+   },
+   {
+    "t": "stockanalysis.com: Çelebi istatistikleri",
+    "u": "https://stockanalysis.com/quote/ist/CLEBI/statistics/"
+   }
+  ]
+ },
+ "MPARK": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 2,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "dar",
+  "one": "Türkiye'nin büyük özel hastane grubu. İş sağlam; bugünkü fiyatta güvenlik marjı yok.",
+  "business": "MLP Sağlık, Medical Park ve Liv Hospital markalarıyla özel hastane işletir. Yurt içi hastaların yanında yurt dışından gelen hastalara da hizmet verir. 14.635 kişi çalıştırıyor.",
+  "moat_text": "Hendek dar. Ölçek ve marka, tek hastaneli rakiplere karşı satın alma ve hekim çekme üstünlüğü sağlıyor; talep ekonomik döngüden az etkileniyor. Fiyatların önemli bölümü ise kamu tarifesine bağlı; bu, fiyatlama gücünü sınırlıyor.",
+  "mgmt": "Borç azalıyor (net borç/FAVÖK 2025 sonunda 0,78, üçüncü çeyrekte 0,67). Şirket 2023 ve 2024'te kendi hisselerini geri aldı. Temettü düşük; kâr işe yatırılıyor.",
+  "latest": "5 Kasım 2026: Üçüncü çeyrek net kârı 2,22 milyar TL (beklenti 1,56 milyar), hasılat yaklaşık 18,2 milyar TL (+%7), FAVÖK 5,7 milyar TL (+%10), FAVÖK marjı %31,3. Brüt marj 2,4 puan geriledi. Yabancı sağlık turizmi geliri %8 düştü; yurt içi hastane geliri %8,3 arttı.",
+  "risks": [
+   "Özsermaye kârlılığı hızla düştü: 2022'de %93, 2024'te %31, son 12 ayda %16–17. Düşüş sürerse fiyat pahalıya döner.",
+   "Kamu sağlık tarifesi ve mevzuat değişiklikleri marjı doğrudan etkiler.",
+   "Sağlık turizmi geliri geriliyor; bu, döviz kazandıran ve marjı yüksek bölümdü.",
+   "Brüt marj daralıyor: hekim ve personel maliyeti."
+  ],
+  "watch": [
+   "Özsermaye kârlılığı",
+   "Sağlık turizmi geliri",
+   "Brüt marj",
+   "Fiyat: güvenlik marjı eşiği"
+  ],
+  "sources": [
+   {
+    "t": "İş Yatırım: Temel değerler ve oranlar (10 Kas 2026)",
+    "u": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx"
+   },
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "u": "https://stockanalysis.com/quote/ist/MPARK/financials/ratios/"
+   },
+   {
+    "t": "Foreks: Oyak Yatırım MLP Sağlık değerlendirmesi (5 Kas 2026)",
+    "u": "https://www.foreks.com/haber/detay/6aec27ec1d7c6051898e37d9/FRKS/tr/hisse-degerlendirmesi-oyak-yatirim-mlp-saglik-icin-hedef-fiyatini-633-10-tl-den-658-42-tl-ye-revize-etti-tavsiyesini-endeks-ustu-getiri-olarak-korudu-05-11-26/"
+   },
+   {
+    "t": "stockanalysis.com: MLP Sağlık istatistikleri",
+    "u": "https://stockanalysis.com/quote/ist/MPARK/statistics/"
+   }
+  ]
+ },
+ "BIMAS": {
+  "scores": {
+   "A": 2,
+   "B": 3,
+   "C": 2,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "geniş",
+  "one": "Türkiye'nin en büyük indirim marketi. Hendek geniş; fiyat, temkinli kazanca göre pahalı.",
+  "business": "BİM, az çeşit ve düşük fiyat modeliyle çalışan indirim marketleri işletir. 14.964 mağazası var; bunların 1.031'i Fas'ta, 466'sı Mısır'da, 378'i FİLE markasıyla. Satışların yaklaşık %95'i Türkiye'den geliyor. 106.520 kişi çalıştırıyor.",
+  "moat_text": "Hendek geniş. Üstünlük ölçek ve düşük maliyetten geliyor: çok mağaza, az ürün çeşidi ve özel markalı ürünler tedarikçiyle pazarlıkta güç verir, bu güç rafa düşük fiyat olarak yansır. Rakibin aynı fiyatı vermesi için aynı ölçeğe ulaşması gerekir.",
+  "mgmt": "Tek bir kontrol eden ortak yok; halka açıklık %67,5. Borç ılımlı (net borç/FAVÖK 0,95, kira yükümlülükleri dahil). Temettü ödeme oranı %29.",
+  "latest": "10 Kasım 2026: Üçüncü çeyrek net kârı 10,39 milyar TL (+%52), dokuz aylık 26,15 milyar TL (+%79). Çeyrek hasılatı 245,7 milyar TL, FAVÖK marjı %7,2. Benzer mağaza satışları %32,5 arttı; sepet %34,9 büyürken müşteri sayısı %1,8 azaldı.",
+  "risks": [
+   "Kâr kalitesi: faaliyet marjı yalnızca %2,9. Net kârın önemli bölümü enflasyon muhasebesindeki parasal kazançtan geliyor (ikinci çeyrekte 8 milyar TL kârın 6,8 milyarı). Enflasyon düştükçe bu kazanç küçülür.",
+   "Özsermaye kârlılığı 2022'de %50 iken 2025'te %12'ye indi. Temkinli kazanç hesabında bu yıl esas alındığı için hisse pahalı çıkıyor.",
+   "Müşteri sayısı azalıyor (üçüncü çeyrekte −%1,8); büyüme fiyattan geliyor.",
+   "Rekabet ve fiyat denetimi: indirim marketleri kamu otoritelerinin yakın izlemesinde."
+  ],
+  "watch": [
+   "Faaliyet marjı ve parasal kazancın kârdaki payı",
+   "Müşteri sayısı (trafik)",
+   "Özsermaye kârlılığı",
+   "Fiyat: güvenlik marjı eşiği"
+  ],
+  "sources": [
+   {
+    "t": "İş Yatırım: Temel değerler ve oranlar (10 Kas 2026)",
+    "u": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx"
+   },
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "u": "https://stockanalysis.com/quote/ist/BIMAS/financials/ratios/"
+   },
+   {
+    "t": "Foreks: BİM bilançosu açıklandı (10 Kas 2026)",
+    "u": "https://www.foreks.com/haber/detay/6af2a63395131d72027da771/PICNEWS/tr/bim-bilancosu-aciklandi-net-kar-yuzde-52-artti-10-11-26/"
+   },
+   {
+    "t": "Bloomberg HT: BİM'den 275 yeni mağaza, 8 milyar TL net kâr (18 Ağu 2026)",
+    "u": "https://www.bloomberght.com/bim-den-275-yeni-magaza-8-milyar-tl-net-kr-3785742"
+   },
+   {
+    "t": "stockanalysis.com: BİM istatistikleri",
+    "u": "https://stockanalysis.com/quote/ist/BIMAS/statistics/"
+   }
+  ]
+ },
+ "MAVI": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 2,
+   "E": 2
+  },
+  "moat": "dar",
+  "one": "Türkiye'nin önde gelen kot markası. Borçsuz ve nakit üretiyor; ama kârlılık düşüyor ve fiyat pahalı.",
+  "business": "Mavi, kot pantolon ağırlıklı hazır giyim tasarlar ve kendi mağazalarında satar. 30 ülkede 497 mağazası var. Mali yılı şubatta başlar, ocakta biter. 6.048 kişi çalıştırıyor.",
+  "moat_text": "Hendek dar. Üstünlük markadan geliyor ve rakamlarda görünüyor: brüt marj %53. Ama giyimde marka gücü kalıcı değildir; moda değişir, tüketici daraldığında harcamayı ilk kıstığı kalemlerden biri giyimdir.",
+  "mgmt": "Şirket borçsuz: net nakit 6,66 milyar TL. Halka açıklık %69,8. Beş yılın beşinde de serbest nakit akışı pozitif; kârın önemli bölümü temettü olarak dağıtılıyor.",
+  "latest": "16 Eylül 2026: Mali yılın ilk yarısında hasılat 25,83 milyar TL (reel −%1,1), FAVÖK 4,68 milyar TL (marj %18,1), net kâr 807 milyon TL. Yönetim 2026 hasılat beklentisini 'yatay ya da düşük tek haneli düşüş'e çekti; tüketici talebinin baskı altında olduğunu söyledi.",
+  "risks": [
+   "Özsermaye kârlılığı düşüyor: iki yıl önce %34, geçen mali yıl %15, son 12 ayda %11. Eşiğimiz olan %10'a yaklaştı.",
+   "Tüketici talebi zayıf; hasılat reel olarak geriliyor.",
+   "Temkinli kazanca göre fiyat pahalı: güvenlik marjı eksi."
+  ],
+  "watch": [
+   "Özsermaye kârlılığı %10'un üzerinde kalıyor mu",
+   "Reel hasılat büyümesi",
+   "FAVÖK marjı (hedef %18 ± 0,5)"
+  ],
+  "sources": [
+   {
+    "t": "İş Yatırım: Temel değerler ve oranlar (10 Kas 2026)",
+    "u": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx"
+   },
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "u": "https://stockanalysis.com/quote/ist/MAVI/financials/ratios/"
+   },
+   {
+    "t": "Foreks: Mavi ilk yarı sonuçları (16 Eyl 2026)",
+    "u": "https://www.foreks.com/haber/detay/6aaab5a195016b5817e5b9f6/FRKS/tr/yenileme-mavi-giyim-yilin-ilk-yarisini-4-milyar-679-milyon-tl-favok-ve-18-1-favok-marji-ile-tamamladi-16-09-26/"
+   },
+   {
+    "t": "stockanalysis.com: Mavi istatistikleri",
+    "u": "https://stockanalysis.com/quote/ist/MAVI/statistics/"
+   }
+  ]
+ },
+ "ASTOR": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 0,
+   "E": 1
+  },
+  "moat": "dar",
+  "one": "Trafo üreticisi; ana işi güçlü. Finansal yatırımlardan gelen büyük zarar nedeniyle yönetim testinde elendi.",
+  "business": "Astor Enerji güç ve dağıtım trafoları üretir. Sipariş bakiyesi 1,89 milyar dolar; bunun %72'si ABD'den. Dokuz ayda hasılatın %45'i ihracat.",
+  "moat_text": "Ana iş iyi gidiyor: dokuz aylık FAVÖK 11,57 milyar TL, marj %34,4. Dünya genelinde trafo arzı kısıtlı ve sipariş bakiyesi dolu.",
+  "mgmt": "Elenme nedeni burada. Şirket, ana işinin yanında büyük bir finansal yatırım portföyü taşıyor. Bu portföy bir çeyrekte 16,4 milyar TL'den 7,1 milyar TL'ye indi; yaklaşık 5,5 milyar TL değerleme zararı yazıldı ve üçüncü çeyrek 3,18 milyar TL net zararla kapandı. Bir sanayi şirketinin kârını piyasa oynaklığına bağlaması, bu süzgeçte sermaye tahsisi kusuru sayılır.",
+  "latest": "10 Kasım 2026: Üçüncü çeyrekte 3,18 milyar TL net zarar (geçen yıl 3,56 milyar TL kâr). Dokuz aylık net kâr %73 düşüşle 1,68 milyar TL. Hasılat dokuz ayda %16 arttı.",
+  "risks": [],
+  "watch": [],
+  "sources": [
+   {
+    "t": "İş Yatırım: Temel değerler ve oranlar (10 Kas 2026)",
+    "u": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx"
+   },
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "u": "https://stockanalysis.com/quote/ist/ASTOR/financials/ratios/"
+   },
+   {
+    "t": "Foreks: Astor Enerji'nin net kârı %73 düştü (10 Kas 2026)",
+    "u": "https://www.foreks.com/haber/detay/6af2a28a95131d72027da760/PICNEWS/tr/astor-enerji-nin-net-kari-yuzde-73-dustu-favok-yukseldi-10-11-26/"
+   },
+   {
+    "t": "İş Yatırım: Astor Enerji 3Ç26 kâr analizi (10 Kas 2026)",
+    "u": "https://arastirma.isyatirim.com.tr/2026/11/10/astor-is-astor-enerji-3c-2026-kar-analizi/"
+   }
+  ]
+ },
+ "FONET": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 0
+  },
+  "moat": "zayıf",
+  "one": "Sağlık bilişimi yazılımcısı. Rakamları temiz; ama gelir az sayıda kamu sözleşmesine bağlı.",
+  "business": "Fonet, sağlık kurumlarına hastane bilgi sistemi ve dijital sağlık yazılımları sağlar. 200 kişi çalıştırıyor; son 12 ay hasılatı 966 milyon TL.",
+  "moat_text": "Hendek zayıf. Bir hastane yazılımını değiştirmek zahmetlidir, bu müşteriyi bir süre tutar. Ama sözleşmeler ihaleyle yenilenir ve her ihalede fiyat yeniden pazarlık edilir.",
+  "mgmt": "Bizim değerlendirmemize göre gelirin ağırlığı kamu sağlık kurumlarıyla yapılan sözleşmelerden geliyor. Tek bir alıcı grubuna bu kadar bağlı bir işte dayanıklılık puanı sıfır.",
+  "latest": "2025 hasılatı 855 milyon TL (+%36), net kârı 223 milyon TL (+%13).",
+  "risks": [],
+  "watch": [],
+  "sources": [
+   {
+    "t": "İş Yatırım: Temel değerler ve oranlar (10 Kas 2026)",
+    "u": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx"
+   },
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "u": "https://stockanalysis.com/quote/ist/FONET/financials/ratios/"
+   },
+   {
+    "t": "stockanalysis.com: Fonet genel görünüm",
+    "u": "https://stockanalysis.com/quote/ist/FONET/"
+   }
+  ]
+ },
+ "GRSEL": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "one": "Personel ve öğrenci taşımacılığı. Kârlılık yüksek görünüyor, ama işin hendeği yok.",
+  "business": "Gür-Sel, şirketlere personel servisi ve okullara öğrenci taşımacılığı hizmeti verir; araç kiralar. 1993'te kuruldu, 1.836 kişi çalıştırıyor.",
+  "moat_text": "Hendek zayıf. Servis taşımacılığı parçalı bir sektör; yeni bir rakibin girmesi için araç ve sürücü bulması yeter. Müşteri en düşük teklifi verene geçebilir.",
+  "mgmt": "Bir not: son 12 ayda net kâr 3,14 milyar TL, hasılat 11,6 milyar TL. Hasılatın %27'si kadar net kâr, bu sektör için olağandışı yüksek; kârın ne kadarının ana işten geldiği ayrıca incelenmeli.",
+  "latest": "2025 hasılatı 11,56 milyar TL (+%6), net kârı 2,89 milyar TL (+%34).",
+  "risks": [],
+  "watch": [],
+  "sources": [
+   {
+    "t": "İş Yatırım: Temel değerler ve oranlar (10 Kas 2026)",
+    "u": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx"
+   },
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "u": "https://stockanalysis.com/quote/ist/GRSEL/financials/ratios/"
+   },
+   {
+    "t": "stockanalysis.com: Gür-Sel genel görünüm",
+    "u": "https://stockanalysis.com/quote/ist/GRSEL/"
+   }
+  ]
+ },
+ "GEDIK": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "one": "Bireysel yatırımcıya dönük aracı kurum. Kârlı, ama ayırt edici bir üstünlüğü yok.",
+  "business": "Gedik Yatırım aracılık, portföy yönetimi, danışmanlık ve halka arz hizmetleri verir. 1991'de kuruldu, 594 kişi çalıştırıyor.",
+  "moat_text": "Hendek zayıf. Aracılık hizmeti kolay taklit edilir ve komisyon rekabeti serttir. İş Yatırım'daki ölçek ve banka ağı üstünlüğü burada yok.",
+  "mgmt": "Kazanç piyasayla birlikte sert oynuyor: özsermaye kârlılığı 2022'de %5, 2023'te %38, 2024'te %12.",
+  "latest": "Son 12 ay net kârı 1,10 milyar TL (−%15).",
+  "risks": [],
+  "watch": [],
+  "sources": [
+   {
+    "t": "İş Yatırım: Temel değerler ve oranlar (10 Kas 2026)",
+    "u": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx"
+   },
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "u": "https://stockanalysis.com/quote/ist/GEDIK/financials/ratios/"
+   },
+   {
+    "t": "stockanalysis.com: Gedik Yatırım genel görünüm",
+    "u": "https://stockanalysis.com/quote/ist/GEDIK/"
+   }
+  ]
+ },
+ "ORGE": {
+  "scores": {
+   "A": 2,
+   "B": 0,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "yok",
+  "one": "Elektrik taahhüt şirketi. İyi yürütülüyor, ama iş proje bazlı ve hendek yok.",
+  "business": "Orge, büyük inşaat projelerinin elektrik işlerini üstlenir (alçak ve orta gerilim, zayıf akım). 688 kişi çalıştırıyor.",
+  "moat_text": "Hendek yok. Taahhütte her yeni iş bir ihaleyle ya da teklifle alınır; bugünkü kâr yarınki iş için söz vermez.",
+  "mgmt": "Rakamlar bunu gösteriyor: 2025'te hasılat %22, net kâr %34 düştü. Serbest nakit akışı son beş dönemin yalnızca ikisinde pozitif.",
+  "latest": "2025 hasılatı 3,50 milyar TL (−%22), net kârı 593 milyon TL (−%34).",
+  "risks": [],
+  "watch": [],
+  "sources": [
+   {
+    "t": "İş Yatırım: Temel değerler ve oranlar (10 Kas 2026)",
+    "u": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx"
+   },
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "u": "https://stockanalysis.com/quote/ist/ORGE/financials/ratios/"
+   },
+   {
+    "t": "stockanalysis.com: Orge genel görünüm",
+    "u": "https://stockanalysis.com/quote/ist/ORGE/"
+   }
+  ]
+ },
+ "PCILT": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "one": "Medya planlama ve satın alma ajansı. Nakit zengini, ama iş müşteri ilişkisine bağlı.",
+  "business": "PC İletişim, reklamverenler adına televizyon, dijital ve açık hava mecralarında reklam alanı planlar ve satın alır. 2009'da kuruldu, 179 kişi çalıştırıyor.",
+  "moat_text": "Hendek zayıf. Ajans işinde varlık, müşteri ilişkisidir; büyük bir reklamveren ajans değiştirdiğinde gelir onunla birlikte gider. Marj ince: 11,2 milyar TL hasılattan 444 milyon TL net kâr kalıyor.",
+  "mgmt": "Olumlu yan: şirket net nakitte ve beş dönemin dördünde serbest nakit akışı pozitif.",
+  "latest": "2025 hasılatı 10,88 milyar TL (+%45), net kârı 467 milyon TL (+%44).",
+  "risks": [],
+  "watch": [],
+  "sources": [
+   {
+    "t": "İş Yatırım: Temel değerler ve oranlar (10 Kas 2026)",
+    "u": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx"
+   },
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "u": "https://stockanalysis.com/quote/ist/PCILT/financials/ratios/"
+   },
+   {
+    "t": "stockanalysis.com: PC İletişim genel görünüm",
+    "u": "https://stockanalysis.com/quote/ist/PCILT/"
+   }
+  ]
+ },
+ "KTLEV": {
+  "scores": {
+   "A": 1,
+   "B": 1,
+   "C": 0,
+   "D": 1,
+   "E": 0
+  },
+  "moat": "zayıf",
+  "one": "Tasarruf finansman şirketi. Kâr çok yüksek görünüyor, ama büyük bölümü ana işten gelmiyor.",
+  "business": "Katılımevim, faizsiz tasarruf finansmanı modeliyle araç ve konut finansmanı sağlar; ayrıca alışveriş merkezi ve ticari gayrimenkul kiralar. 2018'de kuruldu, 1.713 kişi çalıştırıyor.",
+  "moat_text": "Hendek zayıf ve model yeni. Tasarruf finansmanı Türkiye'de birkaç yıldır düzenlenen bir sektör; kurallar değişebilir.",
+  "mgmt": "Elenme nedeni kârın kalitesi. Son 12 ayda net kâr 28,7 milyar TL, hasılat 18,1 milyar TL: kâr hasılattan büyük. Bu, kârın çoğunun faaliyet dışı kalemlerden geldiğini gösterir. Şirket ayrıca enflasyon muhasebesi uygulamıyor; rakamları nominal.",
+  "latest": "2025 hasılatı 14,46 milyar TL (+%195), net kârı 8,62 milyar TL (+%299).",
+  "risks": [],
+  "watch": [],
+  "sources": [
+   {
+    "t": "İş Yatırım: Temel değerler ve oranlar (10 Kas 2026)",
+    "u": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx"
+   },
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "u": "https://stockanalysis.com/quote/ist/KTLEV/financials/ratios/"
+   },
+   {
+    "t": "stockanalysis.com: Katılımevim genel görünüm",
+    "u": "https://stockanalysis.com/quote/ist/KTLEV/"
+   },
+   {
+    "t": "Alomaliye: BDDK'nın enflasyon muhasebesi kararı (23 Ara 2025)",
+    "u": "https://www.alomaliye.com/2025/12/23/enflasyon-muhasebesi-uygulamasi-banka-ve-finans-sirketlerinde-kaldirildi/"
+   }
+  ]
+ }
+}

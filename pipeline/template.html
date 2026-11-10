@@ -1,0 +1,1108 @@
+<title>Castle</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Marcellus&display=swap">
+<style>
+/* Yerleşim: solda tam boy harita sahnesi, sağda defter gibi okunan panel; haritanın altında sur şeridi. Metin sola hizalı.
+   Renk: taş ve deniz yeşili zemin, tek vurgu pirinç sarısı (kaleler). Yazı: Marcellus (başlık), IBM Plex Sans (metin ve rakam). */
+:root{
+  --bg:#EDF1EE; --sea:#D2DEDB; --land:#E6EAE3; --land-tr:#F9FBF7;
+  --paper:#F7F9F6; --paper-2:#FFFFFF; --line:#C6D1CC;
+  --ink:#14292A; --ink-2:#4C6463; --ink-3:#7C908E;
+  --brass:#946410; --brass-soft:#F0E2BF; --steel:#3F6686; --stone:#5B7270;
+  --d1:#A9B6B2; --bad:#A4432F; --good:#2B7A57;
+  --f-display:"Marcellus","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+  --f-body:"IBM Plex Sans","Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#0D1D1E; --sea:#102527; --land:#172D2F; --land-tr:#223F41;
+  --paper:#122527; --paper-2:#193234; --line:#2D4749;
+  --ink:#E5EDE9; --ink-2:#A6BAB6; --ink-3:#78938F;
+  --brass:#E3B24D; --brass-soft:#3B3015; --steel:#93B8DA; --stone:#93ACA9;
+  --d1:#3F595B; --bad:#E38F7D; --good:#72D0A5; color-scheme:dark } }
+:root[data-theme="dark"]{
+  --bg:#0D1D1E; --sea:#102527; --land:#172D2F; --land-tr:#223F41;
+  --paper:#122527; --paper-2:#193234; --line:#2D4749;
+  --ink:#E5EDE9; --ink-2:#A6BAB6; --ink-3:#78938F;
+  --brass:#E3B24D; --brass-soft:#3B3015; --steel:#93B8DA; --stone:#93ACA9;
+  --d1:#3F595B; --bad:#E38F7D; --good:#72D0A5; color-scheme:dark }
+
+html,body{height:100%}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.55;-webkit-font-smoothing:antialiased}
+*,*::before,*::after{box-sizing:border-box}
+button,input,textarea{font:inherit;color:inherit}
+button{cursor:pointer}
+button[disabled]{cursor:default}
+:focus-visible{outline:2px solid var(--brass);outline-offset:2px}
+#app{height:100%;display:grid;grid-template-rows:auto minmax(0,1fr)}
+
+/* üst şerit */
+.bar{display:flex;align-items:center;gap:14px;padding-block:9px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));background:var(--paper);border-bottom:1px solid var(--line);position:relative;z-index:5}
+.mark{font-family:var(--f-display);font-size:25px;line-height:1;letter-spacing:.02em;display:flex;align-items:center;gap:9px;background:none;border:0;padding:2px 0}
+.mark svg{width:22px;height:24px;flex:none;color:var(--brass)}
+.mark-sub{color:var(--ink-2);font-size:13.5px;white-space:nowrap}
+.find{position:relative;margin-left:auto;flex:0 1 250px;min-width:0}
+.find input{width:100%;height:36px;border:1px solid var(--line);border-radius:18px;background:var(--paper-2);padding:0 14px;font-size:14px}
+.find input::placeholder{color:var(--ink-3)}
+.find-list{position:absolute;right:0;top:42px;width:max(100%,280px);max-width:calc(100vw - 32px);background:var(--paper-2);border:1px solid var(--line);border-radius:10px;overflow:hidden;box-shadow:0 12px 30px -18px var(--ink)}
+.find-list button{display:flex;gap:10px;align-items:baseline;width:100%;text-align:left;background:none;border:0;border-top:1px solid var(--line);padding:8px 12px;font-size:14px}
+.find-list button:first-child{border-top:0}
+.find-list button:hover,.find-list button:focus-visible{background:var(--brass-soft)}
+.find-list span.nm{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.find-list small{color:var(--ink-2);margin-left:auto;white-space:nowrap}
+.ghost{height:36px;border:1px solid var(--line);border-radius:18px;background:none;padding:0 14px;font-size:14px;white-space:nowrap}
+.ghost:hover{border-color:var(--ink-2)}
+.tk{font-weight:600;letter-spacing:.03em;font-variant-numeric:tabular-nums}
+
+/* sahne */
+.stage{display:grid;grid-template-columns:minmax(0,1fr) minmax(340px,440px);min-height:0}
+.map{position:relative;min-height:0;overflow:hidden;background:var(--bg);touch-action:none}
+#cv{display:block;position:absolute;inset:0}
+.pin{position:absolute;transform:translate(-50%,-22px);pointer-events:none;display:flex;flex-direction:column;align-items:center}
+.pin i{display:block;width:44px;height:44px;border-radius:50%;border:2px solid var(--brass);animation:pulse 2.4s ease-out infinite}
+.pin span{margin-top:6px;background:var(--paper-2);border:1px solid var(--line);border-radius:14px;padding:3px 11px;font-size:13px;white-space:nowrap}
+@keyframes pulse{0%{transform:scale(.55);opacity:1}100%{transform:scale(1.5);opacity:0}}
+.tip{position:absolute;max-width:270px;background:var(--paper-2);border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:13px;line-height:1.4;pointer-events:none;box-shadow:0 10px 24px -16px var(--ink)}
+.tip em{display:block;font-style:normal;color:var(--ink-2);margin-top:2px}
+.toast{position:absolute;left:50%;bottom:70px;transform:translateX(-50%);background:var(--ink);color:var(--paper);border-radius:18px;padding:8px 16px;font-size:14px;max-width:calc(100% - 32px);text-align:center}
+.legend{position:absolute;top:12px;left:max(14px,env(safe-area-inset-left,0px));font-size:13px;color:var(--ink-2);pointer-events:none;max-width:min(380px,60%)}
+.legend b{font-family:var(--f-display);font-weight:400;font-size:19px;color:var(--ink);display:block;line-height:1.25}
+
+/* sur şeridi */
+.rail{position:absolute;left:0;right:0;bottom:0;display:flex;align-items:center;gap:8px;padding-block:9px;padding-left:max(12px,env(safe-area-inset-left,0px));padding-right:12px;background:linear-gradient(to top,var(--bg) 62%,transparent)}
+.steps{display:flex;gap:6px;list-style:none;margin:0;padding:0;overflow-x:auto;min-width:0;flex:1;scrollbar-width:none}
+.steps::-webkit-scrollbar{display:none}
+.steps button{display:flex;align-items:center;gap:6px;height:34px;border:1px solid var(--line);background:var(--paper);border-radius:17px;padding:0 12px;font-size:13.5px;white-space:nowrap}
+.steps button b{font-weight:500}
+.steps button i{font-style:normal;color:var(--ink-2);font-variant-numeric:tabular-nums}
+.steps button i:empty{display:none}
+.steps button[aria-current="step"]{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.steps button[aria-current="step"] i{color:var(--paper);opacity:.75}
+.nav{height:34px;min-width:34px;border-radius:17px;border:1px solid var(--line);background:var(--paper);padding:0 12px;font-size:14px;white-space:nowrap;max-width:46%;overflow:hidden;text-overflow:ellipsis}
+.nav.go{background:var(--brass);border-color:var(--brass);color:var(--paper-2);font-weight:500}
+.nav[disabled]{opacity:.4}
+
+/* panel */
+.side{min-height:0;overflow:auto;background:var(--paper);border-left:1px solid var(--line)}
+.side-in{padding-block:20px 28px;padding-left:20px;padding-right:max(20px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:16px;max-width:560px}
+h1,h2,h3{font-family:var(--f-display);font-weight:400;margin:0;text-wrap:balance}
+h1{font-size:29px;line-height:1.16}
+h2{font-size:24px;line-height:1.2}
+h3{font-size:17px;line-height:1.3;margin-top:6px}
+p{margin:0}
+.lead{font-size:16px;color:var(--ink-2)}
+.note{font-size:13px;color:var(--ink-2)}
+.cta{align-self:flex-start;height:42px;border-radius:21px;border:0;background:var(--brass);color:var(--paper-2);padding:0 22px;font-size:15px;font-weight:500}
+.cta[disabled]{opacity:.5}
+.link{background:none;border:0;padding:0;color:var(--steel);text-decoration:underline;text-underline-offset:3px;font-size:inherit;text-align:left}
+a{color:var(--steel);text-underline-offset:3px}
+
+.ladder{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:9px}
+.ladder li{display:grid;grid-template-columns:1fr auto;gap:2px 10px;align-items:baseline;font-size:14px}
+.ladder .n{font-family:var(--f-display);font-size:20px;font-variant-numeric:tabular-nums}
+.ladder .b{grid-column:1/-1;height:5px;border-radius:3px;background:var(--line);position:relative;overflow:hidden}
+.ladder .b::after{content:"";position:absolute;inset:0 auto 0 0;width:var(--w);min-width:3px;background:var(--stone);border-radius:3px}
+.ladder li.last .b::after{background:var(--brass)}
+
+.bars{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+.bars button{display:grid;grid-template-columns:1fr auto;gap:2px 10px;width:100%;text-align:left;background:none;border:0;padding:3px 0;font-size:14px}
+.bars button i{font-style:normal;font-variant-numeric:tabular-nums;color:var(--ink-2)}
+.bars button span.b{grid-column:1/-1;height:5px;border-radius:3px;background:var(--line);position:relative;overflow:hidden}
+.bars button span.b::after{content:"";position:absolute;inset:0 auto 0 0;width:var(--w);min-width:3px;background:var(--bad);opacity:.7;border-radius:3px}
+.bars button[aria-pressed="true"]{font-weight:600}
+.bars button[aria-pressed="true"] span.b::after{opacity:1}
+
+.rows{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.rows button{display:grid;grid-template-columns:72px minmax(0,1fr) auto;gap:0 10px;width:100%;text-align:left;background:none;border:0;border-bottom:1px solid var(--line);padding:8px 2px;font-size:14px;align-items:baseline}
+.rows button:hover{background:var(--paper-2)}
+.rows .tk{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.rows .nm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.rows .mc{color:var(--ink-2);font-variant-numeric:tabular-nums;font-size:13px;white-space:nowrap}
+.rows .wy{grid-column:2/-1;color:var(--ink-2);font-size:13px}
+.more{font-size:13px;color:var(--ink-2)}
+
+.cards{display:flex;flex-direction:column;gap:10px}
+.card{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:2px 12px;align-items:center;width:100%;text-align:left;background:var(--paper-2);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.card:hover{border-color:var(--ink-2)}
+.card.kale{border-color:var(--brass);box-shadow:inset 3px 0 0 var(--brass)}
+.card svg{width:26px;height:30px;grid-row:1/3}
+.card .t{font-size:15px}
+.card .o{grid-column:2/3;font-size:13px;color:var(--ink-2)}
+.card .m{grid-row:1/3;grid-column:3;text-align:right;font-family:var(--f-display);font-size:21px;font-variant-numeric:tabular-nums;white-space:nowrap}
+.card .m small{display:block;font-family:var(--f-body);font-size:12px;color:var(--ink-2)}
+
+/* şirket sayfası */
+.back{align-self:flex-start;background:none;border:0;padding:0;color:var(--ink-2);font-size:14px;text-decoration:underline;text-underline-offset:3px;text-align:left}
+.back:hover{color:var(--ink)}
+.head{display:flex;flex-direction:column;gap:4px}
+.head .sec{color:var(--ink-2);font-size:14px}
+.pill{align-self:flex-start;display:inline-flex;align-items:center;gap:7px;border-radius:14px;padding:3px 12px;font-size:13.5px;font-weight:500;border:1px solid var(--line);background:var(--paper-2)}
+.pill.kale{background:var(--brass);border-color:var(--brass);color:var(--paper-2)}
+.pill.bekle,.pill.sirada{border-color:var(--steel);color:var(--steel)}
+.pill.out{border-color:var(--bad);color:var(--bad)}
+.facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(128px,1fr));gap:10px 16px;margin:0}
+.facts div{min-width:0}
+.facts dt{font-size:12.5px;color:var(--ink-2)}
+.facts dd{margin:0;font-size:16px;font-variant-numeric:tabular-nums}
+.facts dd small{font-size:12.5px;color:var(--ink-2);display:block}
+.path{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:5px;font-size:14px}
+.path li{display:grid;grid-template-columns:20px minmax(0,1fr);gap:8px}
+.path .ok{color:var(--good)} .path .no{color:var(--bad)} .path .na{color:var(--ink-3)} .path .wt{color:var(--steel)}
+.path small{display:block;color:var(--ink-2);font-size:13px}
+.txt{max-width:62ch}
+.ul{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px;max-width:62ch}
+.fig{background:var(--paper-2);border:1px solid var(--line);border-radius:10px;padding:12px 12px 8px}
+.fig svg{display:block;width:100%;height:auto}
+.fig figcaption{font-size:12.5px;color:var(--ink-2);margin-top:6px}
+figure{margin:0}
+.kv{margin:0;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:5px 14px;font-size:14px}
+.kv dt{color:var(--ink-2)} .kv dd{margin:0;text-align:right;font-variant-numeric:tabular-nums}
+.kv dt small{display:block;font-size:12.5px}
+.kv dd b{font-weight:600}
+.src{list-style:none;margin:0;padding:0;font-size:13px;display:flex;flex-direction:column;gap:4px}
+.scores{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 12px;font-size:14px;margin:0}
+.scores dt{color:var(--ink-2)}
+.scores dd{margin:0;letter-spacing:2px;color:var(--stone)}
+.ask{border-top:1px solid var(--line);padding-top:14px;display:flex;flex-direction:column;gap:10px}
+.ask textarea{width:100%;min-height:64px;border:1px solid var(--line);border-radius:10px;background:var(--paper-2);padding:10px 12px;font-size:14px;resize:vertical}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chips button{border:1px solid var(--line);background:var(--paper-2);border-radius:14px;padding:4px 11px;font-size:13px}
+.chips button:hover{border-color:var(--ink-2)}
+.ask-row{display:flex;gap:8px;align-items:center}
+.conv{display:flex;flex-direction:column;gap:8px}
+.conv:empty{display:none}
+.ans{white-space:pre-wrap;font-size:14.5px;background:var(--paper-2);border:1px solid var(--line);border-radius:10px;padding:12px 14px;max-width:62ch}
+.qq{font-size:13.5px;font-weight:500}
+.er{font-size:13px;color:var(--bad)}
+
+/* yöntem */
+.sheet{position:fixed;inset:0;z-index:20;background:color-mix(in srgb,var(--ink) 45%,transparent);display:flex;justify-content:flex-end;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+.sheet-in{width:min(640px,100%);height:100%;overflow:auto;background:var(--paper);padding-block:22px 40px;padding-left:max(22px,env(safe-area-inset-left,0px));padding-right:max(22px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:16px}
+.sheet-top{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.walls{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:14px}
+.walls>li{border-left:3px solid var(--stone);padding-left:14px}
+.walls b{font-family:var(--f-display);font-weight:400;font-size:18px;display:block}
+.walls ul{margin:4px 0 0;padding-left:18px;font-size:14px;display:flex;flex-direction:column;gap:3px}
+.sl{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 12px;align-items:center;font-size:14px}
+.sl input{grid-column:1/-1;width:100%;accent-color:var(--brass)}
+.sl output{font-variant-numeric:tabular-nums;font-weight:600}
+.pr{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:14px;font-size:14px}
+.pr li{display:flex;flex-direction:column;gap:3px;max-width:62ch}
+.pr b{font-weight:600}
+.pr small{color:var(--ink-2);font-size:13px}
+.pr .ap{color:var(--ink-2)}
+.pr .sr{font-size:13px;color:var(--ink-2)}
+
+@media (max-width:980px){ .mark-sub{display:none} }
+@media (max-width:860px){
+  .stage{grid-template-columns:minmax(0,1fr);grid-template-rows:minmax(250px,43%) minmax(0,1fr)}
+  .side{border-left:0;border-top:1px solid var(--line)}
+  .side-in{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));max-width:none}
+  h1{font-size:25px} h2{font-size:22px}
+  .steps button:not([aria-current="step"]) b.hasn{display:none}
+  .legend{top:6px;left:max(8px,env(safe-area-inset-left,0px));max-width:calc(100% - 16px);font-size:12px;line-height:1.3;background:color-mix(in srgb,var(--paper) 82%,transparent);border-radius:8px;padding:2px 8px}
+  .legend b{display:none}
+  .mark{font-size:22px}
+}
+@media (prefers-reduced-motion:reduce){ .pin i{animation:none} }
+</style>
+
+<div id="app" lang="tr">
+  <header class="bar">
+    <button class="mark" id="home" aria-label="Castle, dünya haritasına dön">
+      <svg viewBox="0 0 22 24" aria-hidden="true"><path d="M2 23V5h3.6v3h3.6V5h3.6v3h3.6V5H20v18h-6.2v-5.2a2.8 2.8 0 0 0-5.6 0V23z" fill="currentColor"/></svg>
+      Castle
+    </button>
+    <span class="mark-sub" id="sub">değer yatırımı atlası</span>
+    <div class="find">
+      <input id="q" type="search" placeholder="Hisse, ülke ara" autocomplete="off" aria-label="Ara: hisse kodu, şirket adı ya da ülke">
+      <div class="find-list" id="ql" hidden></div>
+    </div>
+    <button class="ghost" id="method">Yöntem</button>
+  </header>
+  <main class="stage">
+    <section class="map" id="map" aria-label="Harita">
+      <canvas id="cv" role="img" aria-label="Dünya haritası. Bir ülke seçilince şirketleri görünür; süzgeçte ilerleyen şirket merkeze yaklaşır. Aynı bilgi yandaki listelerde de var."></canvas>
+      <div class="legend" id="legend" hidden></div>
+      <div class="pin" id="pin" hidden><i></i><span id="pinl"></span></div>
+      <div class="tip" id="tip" hidden></div>
+      <div class="toast" id="toast" role="status" hidden></div>
+      <nav class="rail" aria-label="Surlar">
+        <button class="nav" id="prev">Uzaklaş</button>
+        <ol class="steps" id="steps"></ol>
+        <button class="nav go" id="next">Yaklaş</button>
+      </nav>
+    </section>
+    <aside class="side" id="side"><div class="side-in" id="panel"></div></aside>
+  </main>
+  <div class="sheet" id="sheet" hidden><div class="sheet-in" id="sheetin" role="dialog" aria-modal="true" aria-label="Yöntem"></div></div>
+</div>
+
+<script type="application/json" id="castle-index">/*__INDEX__*/</script>
+<script type="application/json" id="castle-world">/*__WORLD__*/</script>
+<!--__INLINE__-->
+<!--__LIBS__-->
+<script>
+(function () {
+"use strict";
+var $ = function (s, r) { return (r || document).querySelector(s); };
+var IDX = JSON.parse($("#castle-index").textContent), WORLD = JSON.parse($("#castle-world").textContent);
+var P = IDX.P, P0 = { r: P.r, mos: P.mos };
+var CTRY = {}, ISO = {}; IDX.countries.forEach(function (k) { CTRY[k.cc] = k; ISO[k.iso] = k; });
+var QUEUE = {}; IDX.queue.forEach(function (k, i) { QUEUE[k.iso] = { k: k, i: i + 1 }; });
+var C = null, CACHE = {}, F50 = null, want50 = false;
+/* Veri dosyaları: sayfaya gömülüyse oradan, değilse yanındaki data/ klasöründen okunur */
+var INLINE = (function () { var el = document.getElementById("castle-inline"); try { return el ? JSON.parse(el.textContent) : {}; } catch (e) { return {}; } })();
+function getJSON(p) { return INLINE[p] ? Promise.resolve(INLINE[p]) : fetch(p).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }); }
+var esc = function (s) { return String(s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); };
+var clamp = function (x, a, b) { return Math.max(a, Math.min(b, x)); };
+var NF = function (d) { return new Intl.NumberFormat("tr-TR", { minimumFractionDigits: d, maximumFractionDigits: d }); };
+var n0 = NF(0), n1 = NF(1), n2 = NF(2);
+var num = function (x, d) { return x == null ? "–" : (x < 0 ? "−" : "") + NF(d == null ? 1 : d).format(Math.abs(x)); };
+var pct = function (x, d) { return x == null ? "–" : (x < 0 ? "−" : "") + "%" + NF(d == null ? 1 : d).format(Math.abs(x)); };
+var cur = function () { return C ? C.meta.cur : ""; };
+var money = function (x) { return n2.format(x) + " " + cur(); };
+var cap = function (m) { return (m >= 1e6 ? n2.format(m / 1e6) + " trilyon " : m >= 1e3 ? n1.format(m / 1e3) + " milyar " : n0.format(m) + " milyon ") + cur(); };
+var capS = function (m) { return m >= 1e6 ? n2.format(m / 1e6) + " trn" : m >= 1e3 ? n1.format(m / 1e3) + " mlr" : n0.format(m) + " mn"; };
+var AYLAR = ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"];
+var tarih = function (iso) { var p = String(iso || "").split("-"); return p.length === 3 ? (+p[2]) + " " + AYLAR[+p[1] - 1] + " " + p[0] : String(iso || ""); };
+var donem = function (s) { var p = String(s || "").split("/"); return p.length === 2 ? (AYLAR[+p[0] - 1] || p[0]) + " " + p[1] : String(s || "–"); };
+var fold = function (s) { return String(s).toLocaleLowerCase("tr").replace(/ı/g, "i").replace(/ş/g, "s").replace(/ğ/g, "g").replace(/ç/g, "c").replace(/ö/g, "o").replace(/ü/g, "u"); };
+var slug = function (s) { return String(s).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""); };
+var FONT = '"IBM Plex Sans","Segoe UI",system-ui,sans-serif';
+
+var STEPS = [
+  { t: "Dünya" }, { t: "Evren" },
+  { t: "1. sur", sub: "Kırmızı çizgiler" }, { t: "2. sur", sub: "Kalite" },
+  { t: "3. sur", sub: "Hendek ve yönetim" }, { t: "4. sur", sub: "Fiyat" }
+];
+var WHY = {
+  noprofit: "Son 12 ayda net kâr yok", vehicle: "Varlık sepeti", small: "Çok küçük", equity: "Özsermaye negatif",
+  roe_ttm: "Son 12 ay kârlılığı düşük", roe_min: "Kârlılık istikrarsız", loss: "Zarar yılı var", history: "Geçmiş kısa",
+  data: "Veri doğrulanamadı", cash: "Kâr nakde dönmüyor", roe_avg: "Ortalama kârlılık düşük", debt: "Borç yüksek",
+  moat: "Hendek zayıf", mgmt: "Sermaye tahsisi", fragile: "Kırılgan", pending: "Sırada"
+};
+var S = { step: 0, sel: null, filter: null, hover: null, show: 30, focus: IDX.countries.length ? IDX.countries[0].cc : null };
+
+/* ---------- ülke verisi ---------- */
+function expand(raw) {
+  var cols = raw.cols, U = raw.rows.map(function (r) {
+    var o = {}; for (var i = 0; i < cols.length; i++) o[cols[i]] = r[i];
+    o.s = raw.sectors[o.s]; o.w = raw.whys[o.w]; o.per = raw.pers[o.per]; o.xy = [o.x, o.y]; return o;
+  });
+  var c = { cc: raw.cc, meta: raw.meta, W: raw.W, U: U, byC: {}, bySlug: {}, L2: raw.L2, R: raw.R, ix: CTRY[raw.cc] };
+  U.forEach(function (u) { c.byC[u.c] = u; c.bySlug[slug(u.c)] = u.c; });
+  c.E4 = U.filter(function (u) { return u.e === 4; }).sort(function (a, b) { return a.a - b.a; });
+  c.N = { all: U.length, p1: 0, p2: 0, p3: c.E4.length, pend: 0, f3: 0 };
+  U.forEach(function (u) { if (u.e > 1) c.N.p1++; if (u.e > 2) c.N.p2++; if (u.e === 3) { if (u.w === "pending") c.N.pend++; else c.N.f3++; } });
+  c.TOT = U.reduce(function (s, u) { return s + u.m; }, 0);
+  c.circles = c.W.R.map(function (R) { return d3.geoCircle().center(c.W.c).radius(R).precision(2)(); });
+  c.zs = clamp(Math.sqrt(629 / Math.max(60, U.length)), 0.42, 1.25);
+  c.f110 = F110[raw.meta.iso] || null; c.f50 = F50 ? (F50.by[raw.meta.iso] || null) : null;
+  return c;
+}
+function loadCountry(cc) {
+  if (CACHE[cc]) return Promise.resolve(CACHE[cc]);
+  return getJSON("data/" + cc + ".json").then(function (raw) { CACHE[cc] = expand(raw); return CACHE[cc]; });
+}
+function loadWorld50() { // ayrıntılı kıyı çizgileri; bir ülkeye ilk girişte, arka planda yüklenir
+  if (want50) return; want50 = true;
+  getJSON("data/world50.json").then(function (t) {
+    var fs = topojson.feature(t, t.objects.countries).features, by = {};
+    var items = fs.map(function (f) { var b = d3.geoBounds(f); by[String(f.id)] = f; return { f: f, b: b }; });
+    F50 = { items: items, by: by };
+    for (var k in CACHE) CACHE[k].f50 = by[CACHE[k].meta.iso] || null;
+    draw();
+  }).catch(function () { want50 = false; });
+}
+
+/* ---------- değerleme (4. sur) ---------- */
+function val(c) {
+  var u = C.byC[c], l = C.L2[c], r = C.R[c], n = l.rroe.length;
+  var cands = [u.nom ? u.rr : u.roe, l.rroe[n - 2], l.rroe[n - 1]].filter(function (x) { return x != null; });
+  var roeN = Math.min.apply(null, cands);
+  var pen = u.pb / (roeN / 100);
+  var g = r && r.scores && r.scores.B >= 3 ? P.gWide : P.gNarrow;
+  var fair = 100 / Math.max(0.5, P.r - g);
+  var mos = (1 - pen / fair) * 100;
+  var iv = (u.p * fair) / pen;
+  return { roeN: roeN, pen: pen, g: g, fair: fair, mos: mos, iv: iv, buy: iv * (1 - P.mos / 100), kale: mos >= P.mos };
+}
+function status(u) { return u.e < 4 ? (u.w === "pending" ? "sirada" : "out") : val(u.c).kale ? "kale" : "bekle"; }
+function kales() { return C ? C.E4.filter(function (u) { return val(u.c).kale; }) : []; }
+function kaleN() { return kales().length; }
+function failText(f) {
+  var era = C.meta.era_label || "son beş yılda";
+  switch (f.k) {
+    case "data": return "Güncel beş yıllık veri doğrulanamadı";
+    case "history": return "Beş yıllık mali geçmiş yok (halka arzı yeni)";
+    case "loss": return "Son beş yılda zarar yılı var: " + f.v.join(", ");
+    case "roe_min": return "Reel özsermaye kârlılığı istikrarsız: " + era + " en düşük okuma " + pct(f.v) + " (eşik " + pct(P.eraMin, 0) + ")";
+    case "roe_avg": return "Reel özsermaye kârlılığı yetersiz: " + era + " ortalama " + pct(f.v) + " (eşik " + pct(P.eraAvg, 0) + ")";
+    case "debt": return "Borç yükü yüksek: net borç/FAVÖK " + num(f.v) + " (eşik " + num(P.ndMax) + ")";
+    case "cash": return f.v[0] ? "Kâr nakde dönmüyor: son " + f.v[1] + " dönemde serbest nakit akışı yalnız " + f.v[0] + " kez pozitif" : "Kâr nakde dönmüyor: son " + f.v[1] + " dönemde serbest nakit akışı hiç pozitif olmadı";
+  }
+  return "";
+}
+function flagText(f) { return f.k === "debt" ? "Net borç/FAVÖK " + num(f.v) + ": eşiğe (" + num(P.ndMax) + ") yakın" : "Serbest nakit akışı son " + f.v[1] + " dönemde yalnız " + f.v[0] + " kez pozitif"; }
+function why(u) { // elenme nedeni, tam cümle
+  switch (u.w) {
+    case "vehicle": return "İşletme değil, varlık sepeti (GYO ya da yatırım ortaklığı)";
+    case "noprofit": return "Son 12 ayda net kâr yok: F/K hesaplanamıyor";
+    case "equity": return "Özsermaye negatif";
+    case "small": return C.meta.small_text + ": bilgi ve işlem derinliği sınırlı";
+    case "roe_ttm": return "Son 12 ay özsermaye kârlılığı " + (u.nom ? "enflasyondan arındırılınca " : "") + pct(u.rr) + " (eşik " + pct(P.roeMin, 0) + ")";
+    case "moat": return "Kalıcı bir rekabet üstünlüğü (hendek) yok ya da zayıf";
+    case "mgmt": return "Yönetim ve sermaye tahsisi testini geçemedi";
+    case "fragile": return "Kazanç kalitesi ya da dayanıklılık testini geçemedi";
+    case "pending": return "2. suru geçti; hendek ve yönetim incelemesi sırada";
+    case "price": return "";
+  }
+  var l = C.L2[u.c]; return l ? l.fails.map(failText).join("; ") : "";
+}
+
+/* ---------- harita ---------- */
+var cv = $("#cv"), ctx = cv.getContext("2d"), mapEl = $("#map");
+var proj = d3.geoOrthographic().clipAngle(90).precision(0.4);
+var path = d3.geoPath(proj, ctx);
+var worldFC = topojson.feature(WORLD, WORLD.objects.countries);
+var worldMesh = topojson.mesh(WORLD, WORLD.objects.countries, function (a, b) { return a !== b; });
+var F110 = {}; worldFC.features.forEach(function (f) { F110[String(f.id)] = f; });
+var grat = d3.geoGraticule10();
+var RAD = Math.PI / 180;
+var Wd = 0, Hd = 0, cam = null, anim = null, hits = [], chits = [], T = {};
+var reduce = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+var cur4 = {};
+
+function dest(c, brg, dist) {
+  var f1 = c[1] * RAD, l1 = c[0] * RAD, th = brg * RAD, dl = dist * RAD;
+  var f2 = Math.asin(Math.sin(f1) * Math.cos(dl) + Math.cos(f1) * Math.sin(dl) * Math.cos(th));
+  var l2 = l1 + Math.atan2(Math.sin(th) * Math.sin(dl) * Math.cos(f1), Math.cos(dl) - Math.sin(f1) * Math.sin(f2));
+  return [l2 / RAD, f2 / RAD];
+}
+function angd(a, b) { var d = Math.abs(a - b) % 360; return d > 180 ? 360 - d : d; }
+/* 4. sura gelenlerin yeri: fiyat testini geçen kaleye girer, diğerleri kapıda bekler */
+function layout4() {
+  var t = {}; if (!C) return t;
+  C.E4.forEach(function (u) { t[u.c] = [u.xy[0], u.xy[1]]; });
+  if (S.step < 5) return t;
+  var ks = kales(), n = ks.length, W = C.W; if (!n) return t;
+  if (n === 1) { t[ks[0].c] = [W.c[0], W.c[1]]; return t; }
+  var inner = n > 8 ? Math.round(n / 3) : 0, outer = n - inner; // çok kale varsa iki halka
+  var ring = function (list, rad, th0) {
+    var m = list.length, slots = [], best = 0, bd = 1e9, s, j;
+    for (j = 0; j < m; j++) slots.push(th0 + (360 * j) / m);
+    for (s = 0; s < m; s++) { var d = 0; for (j = 0; j < m; j++) d += angd(list[j].a, slots[(j + s) % m]); if (d < bd) { bd = d; best = s; } }
+    list.forEach(function (u, i) { t[u.c] = dest(W.c, slots[(i + best) % m], rad); });
+  };
+  if (inner) { ring(ks.slice(0, outer), W.keep * 1.32, 0); ring(ks.slice(outer), W.keep * 0.6, 30); }
+  else ring(ks, n > 4 ? W.keep * 1.12 : W.keep, n === 2 ? 90 : n === 4 ? 45 : 0);
+  return t;
+}
+
+function readTokens() {
+  var cs = getComputedStyle(document.documentElement);
+  ["sea", "land", "land-tr", "ink", "ink-2", "ink-3", "line", "paper", "paper-2", "brass", "brass-soft", "steel", "stone", "d1", "bad", "bg"].forEach(function (k) { T[k] = cs.getPropertyValue("--" + k).trim(); });
+}
+function focusIx() { return C ? C.ix : CTRY[S.focus] || IDX.countries[0] || null; }
+function stop(i) {
+  var h = Hd - 52, m = Math.min(Wd, h), fx = focusIx();
+  if (i === 0 || !C) { var fc = fx ? fx.fit.c : [30, 39]; return { lon: fc[0] - 5, lat: clamp(fc[1] * 0.8, -55, 55), k: m * 0.48, cy: h / 2 + 4 }; }
+  var W = C.W;
+  if (i <= 2) return { lon: W.fit.c[0], lat: W.fit.c[1], k: Math.min((Wd * 0.94) / (2 * Math.sin(Math.min(80, W.fit.hw) * RAD)), (h * 0.8) / (2 * Math.sin(Math.min(80, W.fit.hh) * RAD))), cy: h / 2 + 8 };
+  var rho = i === 3 ? W.R[0] * 1.17 : i === 4 ? W.R[1] * 1.14 : W.wait * 1.36;
+  return { lon: W.c[0], lat: W.c[1], k: m / 2 / Math.sin(rho * RAD), cy: h / 2 + (i === 5 ? 2 : 10) };
+}
+function resize() {
+  var r = mapEl.getBoundingClientRect(), dpr = Math.min(window.devicePixelRatio || 1, 2);
+  Wd = Math.max(220, r.width); Hd = Math.max(180, r.height);
+  cv.width = Math.round(Wd * dpr); cv.height = Math.round(Hd * dpr);
+  cv.style.width = Wd + "px"; cv.style.height = Hd + "px";
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  if (!anim) cam = stop(S.step);
+  draw();
+}
+function xyOf(u) { return u.e === 4 ? (cur4[u.c] || u.xy) : u.xy; }
+function viewBox() { // görünen alanın enlem-boylam kutusu; küre kenarı görünüyorsa null
+  var pts = [[0, 0], [Wd, 0], [0, Hd], [Wd, Hd], [Wd / 2, 0], [Wd / 2, Hd], [0, Hd / 2], [Wd, Hd / 2]], x0 = 999, y0 = 999, x1 = -999, y1 = -999;
+  for (var i = 0; i < pts.length; i++) {
+    var ll = proj.invert(pts[i]); if (!ll || isNaN(ll[0]) || isNaN(ll[1])) return null;
+    if (ll[0] < x0) x0 = ll[0]; if (ll[0] > x1) x1 = ll[0]; if (ll[1] < y0) y0 = ll[1]; if (ll[1] > y1) y1 = ll[1];
+  }
+  return (x1 - x0 > 90 || y1 - y0 > 70) ? null : [x0 - 1.5, y0 - 1.5, x1 + 1.5, y1 + 1.5];
+}
+function tower(x, y, s, o) {
+  var w = s * 1.5, h = s * 2.1, top = y - h * 0.62, left = x - w / 2, mw = w / 5, base = y + h * 0.38, a = o.alpha == null ? 1 : o.alpha;
+  if (o.moat) { ctx.beginPath(); ctx.ellipse(x, base + s * 0.1, w * 0.98, s * 0.46, 0, 0, Math.PI * 2); ctx.strokeStyle = T.steel; ctx.globalAlpha = 0.5 * a; ctx.lineWidth = o.moat; ctx.stroke(); }
+  ctx.globalAlpha = a;
+  ctx.beginPath();
+  ctx.moveTo(left, base); ctx.lineTo(left, top);
+  ctx.lineTo(left + mw, top); ctx.lineTo(left + mw, top + mw * 0.9); ctx.lineTo(left + 2 * mw, top + mw * 0.9); ctx.lineTo(left + 2 * mw, top);
+  ctx.lineTo(left + 3 * mw, top); ctx.lineTo(left + 3 * mw, top + mw * 0.9); ctx.lineTo(left + 4 * mw, top + mw * 0.9); ctx.lineTo(left + 4 * mw, top);
+  ctx.lineTo(left + w, top); ctx.lineTo(left + w, base); ctx.closePath();
+  ctx.fillStyle = o.fill; ctx.fill(); ctx.lineWidth = o.lw || 1.5; ctx.strokeStyle = o.stroke; ctx.stroke();
+  ctx.beginPath(); ctx.moveTo(x - mw * 0.75, base); ctx.lineTo(x - mw * 0.75, y + h * 0.12); ctx.arc(x, y + h * 0.12, mw * 0.75, Math.PI, 0); ctx.lineTo(x + mw * 0.75, base); ctx.closePath();
+  ctx.fillStyle = o.door; ctx.fill();
+  if (o.flag) {
+    ctx.beginPath(); ctx.moveTo(x, top); ctx.lineTo(x, top - s); ctx.lineWidth = 1.3; ctx.strokeStyle = o.stroke; ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(x, top - s); ctx.lineTo(x + s * 0.8, top - s * 0.74); ctx.lineTo(x, top - s * 0.48); ctx.closePath(); ctx.fillStyle = o.flag; ctx.fill();
+  }
+  ctx.globalAlpha = 1;
+}
+function label(txt, x, y, font, color, halo) {
+  ctx.font = font; ctx.textAlign = "center"; ctx.textBaseline = "top";
+  ctx.lineJoin = "round"; ctx.lineWidth = 3.5; ctx.strokeStyle = halo || T["land-tr"]; ctx.strokeText(txt, x, y);
+  ctx.fillStyle = color; ctx.fillText(txt, x, y);
+}
+function draw() {
+  if (!Wd || !cam) return;
+  proj.rotate([-cam.lon, -cam.lat]).scale(cam.k).translate([Wd / 2, cam.cy]);
+  ctx.clearRect(0, 0, Wd, Hd);
+  var st = S.step, k1 = C ? stop(1).k : 1e9, near = !!C && cam.k > k1 * 0.3, vb = F50 ? viewBox() : null;
+  if (cam.k < Math.max(Wd, Hd)) { // kürenin çevresinde ince bir hale
+    var hg = ctx.createRadialGradient(Wd / 2, cam.cy, cam.k * 0.96, Wd / 2, cam.cy, cam.k * 1.13);
+    hg.addColorStop(0, T.sea); hg.addColorStop(1, T.bg);
+    ctx.beginPath(); ctx.arc(Wd / 2, cam.cy, cam.k * 1.13, 0, 6.2832); ctx.fillStyle = hg; ctx.fill();
+  }
+  ctx.beginPath(); path({ type: "Sphere" }); ctx.fillStyle = T.sea; ctx.fill();
+  if (!vb) {
+    ctx.beginPath(); path(grat); ctx.strokeStyle = T.line; ctx.globalAlpha = 0.55; ctx.lineWidth = 0.6; ctx.stroke(); ctx.globalAlpha = 1;
+    ctx.beginPath(); path(worldFC); ctx.fillStyle = T.land; ctx.fill();
+    ctx.beginPath(); path(worldMesh); ctx.strokeStyle = T.line; ctx.lineWidth = 0.7; ctx.stroke();
+    ctx.beginPath(); path({ type: "Sphere" }); ctx.strokeStyle = T.line; ctx.lineWidth = 1; ctx.stroke();
+  } else {
+    ctx.beginPath();
+    F50.items.forEach(function (it) { var b = it.b; if (b[0][0] > b[1][0] || !(b[1][0] < vb[0] || b[0][0] > vb[2] || b[1][1] < vb[1] || b[0][1] > vb[3])) path(it.f); });
+    ctx.fillStyle = T.land; ctx.fill(); ctx.strokeStyle = T.line; ctx.lineWidth = 0.8; ctx.stroke();
+  }
+  /* taranan ülkeler: uzaktan pirinç rengi; içine girilen ülke açık zemin */
+  if (!near) {
+    IDX.countries.forEach(function (k) {
+      var f = F110[k.iso]; if (!f) return;
+      ctx.beginPath(); path(f); ctx.fillStyle = T["brass-soft"]; ctx.fill(); ctx.strokeStyle = T.brass; ctx.lineWidth = k.cc === S.focus ? 1.6 : 1; ctx.stroke();
+    });
+  } else {
+    var cf = C.f50 || C.f110;
+    if (cf) { ctx.beginPath(); path(cf); ctx.fillStyle = T["land-tr"]; ctx.fill(); ctx.strokeStyle = T["ink-3"]; ctx.lineWidth = 1; ctx.stroke(); }
+  }
+  hits = []; chits = [];
+  var pin = $("#pin"), fx = focusIx();
+  if (!near) { // dünya görünümü: her taranan ülkede küçük bir kule
+    var many = IDX.countries.length > 14;
+    IDX.countries.forEach(function (k) {
+      if (d3.geoDistance(k.c, [cam.lon, cam.lat]) > 1.45) return;
+      var p = proj(k.c), foc = fx && k.cc === fx.cc;
+      tower(p[0], p[1], foc ? 7 : 5.5, { fill: T.brass, stroke: T.ink, door: T["brass-soft"], lw: 1 });
+      chits.push({ cc: k.cc, x: p[0], y: p[1], r: 13 });
+      if (st === 0 && !anim && !foc && !many) label(k.name, p[0], p[1] + 9, "500 11.5px " + FONT, T.ink, T.land);
+    });
+  }
+  if (st === 0 && !anim && fx && d3.geoDistance(fx.c, [cam.lon, cam.lat]) < 1.3) { var pp = proj(fx.c); pin.style.left = pp[0] + "px"; pin.style.top = pp[1] + "px"; pin.hidden = false; } else pin.hidden = true;
+  if (!C) return;
+  var da = clamp((cam.k / k1 - 0.3) / 0.45, 0, 1); // noktalar yaklaşırken belirir
+  if (da <= 0) return;
+  var W = C.W, N = C.N;
+
+  /* kale içi ve surlar */
+  if (st >= 4) { ctx.beginPath(); path(C.circles[3]); ctx.fillStyle = T["brass-soft"]; ctx.globalAlpha = 0.55 * da; ctx.fill(); ctx.globalAlpha = 1; }
+  C.circles.forEach(function (g, i) {
+    var active = st === i + 2;
+    ctx.beginPath(); path(g);
+    ctx.strokeStyle = T.stone; ctx.globalAlpha = (st <= 1 ? 0.35 : active ? 1 : 0.45) * da;
+    ctx.lineWidth = active ? 5 : 3; ctx.setLineDash(active ? [7, 5] : [5, 5]); ctx.stroke();
+    ctx.setLineDash([]); ctx.lineWidth = 1; ctx.stroke(); ctx.globalAlpha = 1;
+  });
+
+  /* noktalar */
+  var deep = st >= 4, m = Math.min(Wd, Hd - 52), late = [], now = [], surv = [];
+  var fs = clamp((k1 * Math.sin(W.R[0] * RAD)) / 120, 0.35, 1.2); // sur ekranda küçükse (ince, uzun ülkeler) noktalar da küçülür
+  var zr = clamp(fs * Math.pow(cam.k / k1, 0.35), 0.6, 1.9) * clamp(m / 700, 0.5, 1.15) * C.zs;
+  C.U.forEach(function (u) {
+    var xy = proj(xyOf(u)); if (!xy) return;
+    var x = xy[0], y = xy[1];
+    if (x < -30 || y < -30 || x > Wd + 30 || y > Hd + 30) return;
+    var rb = clamp(1.3 + 1.05 * Math.log10(Math.max(u.m, 300) / 300), 1.3, 5.2);
+    var o = { u: u, x: x, y: y, r: Math.max(0.7, rb * zr) };
+    if (st <= 1) surv.push(o);
+    else if (u.e < st - 1) late.push(o);
+    else if (u.e === st - 1) now.push(o);
+    else surv.push(o);
+  });
+  late.forEach(function (o) { ctx.beginPath(); ctx.arc(o.x, o.y, o.r * 0.85, 0, 6.2832); ctx.fillStyle = T.d1; ctx.globalAlpha = 0.6 * da; ctx.fill(); hits.push({ c: o.u.c, x: o.x, y: o.y, r: o.r }); });
+  now.forEach(function (o) {
+    if (deep && o.u.e >= 3) return;
+    ctx.beginPath(); ctx.arc(o.x, o.y, o.r, 0, 6.2832); ctx.fillStyle = T.bad; ctx.globalAlpha = 0.72 * da; ctx.fill(); hits.push({ c: o.u.c, x: o.x, y: o.y, r: o.r });
+  });
+  var goldLab = st === 3 && N.p2 <= 22 && Wd > 520 && !anim;
+  surv.forEach(function (o) {
+    if (deep && o.u.e >= 3) return;
+    var gold = st === 3 && o.u.e > 2, big = st >= 2 ? o.r * (gold ? 1.5 : 1.12) : o.r;
+    ctx.beginPath(); ctx.arc(o.x, o.y, big, 0, 6.2832);
+    ctx.fillStyle = st <= 1 ? T["ink-2"] : gold ? T.brass : T.ink; ctx.globalAlpha = (st <= 1 ? 0.78 : 1) * da; ctx.fill();
+    if (gold) { ctx.lineWidth = 1; ctx.strokeStyle = T.ink; ctx.stroke(); }
+    hits.push({ c: o.u.c, x: o.x, y: o.y, r: big });
+    ctx.globalAlpha = 1;
+    if (gold && (goldLab || o.u.c === S.sel || o.u.c === S.hover) && !anim) label(o.u.c, o.x, o.y + big + 3, "600 11px " + FONT, T.ink);
+  });
+  ctx.globalAlpha = 1;
+  if (deep) {
+    var crowd = st === 4 ? N.f3 + N.p3 : N.p3, cfz = crowd > 90 ? 0.42 : crowd > 40 ? 0.55 : crowd > 16 ? 0.75 : 1;
+    var ts = (st === 4 ? clamp(m / 46, 8, 13) : clamp(m / 30, 11, 19)) * cfz, nk = kaleN(), small = m < 380, labAll = crowd <= 16;
+    now.concat(surv).filter(function (o) { return o.u.e >= 3; }).forEach(function (o) {
+      var u = o.u;
+      if (u.w === "pending") { // 2. suru geçti, henüz okunmadı: içi boş halka
+        var pr = Math.max(3, o.r * 1.5);
+        ctx.beginPath(); ctx.arc(o.x, o.y, pr, 0, 6.2832); ctx.fillStyle = T["land-tr"]; ctx.fill(); ctx.lineWidth = 1.6; ctx.strokeStyle = T.steel; ctx.stroke();
+        hits.push({ c: u.c, x: o.x, y: o.y, r: pr });
+        if ((u.c === S.sel || u.c === S.hover) && !anim) label(u.c, o.x, o.y + pr + 3, "600 11px " + FONT, T.ink);
+        return;
+      }
+      var stt = status(u), B = C.R[u.c].scores.B, opt;
+      if (u.e === 3) opt = { fill: T.d1, stroke: T["ink-3"], door: T["land-tr"], alpha: 0.9 };
+      else if (st === 4) opt = { fill: T.ink, stroke: T.ink, door: T["land-tr"], moat: B >= 3 ? 4 : 2 };
+      else if (stt === "kale") opt = { fill: T.brass, stroke: T.ink, door: T["land-tr"], flag: T.brass, moat: B >= 3 ? 5 : 2.5 };
+      else opt = { fill: T["paper-2"], stroke: T.steel, door: T.steel, moat: B >= 3 ? 5 : 2.5 };
+      tower(o.x, o.y, ts, opt);
+      hits.push({ c: u.c, x: o.x, y: o.y, r: ts * 1.5 });
+      var inKeep = st === 5 && stt === "kale", lab = labAll || (inKeep && nk <= 12) || u.c === S.sel || u.c === S.hover;
+      if (lab && !anim) label(u.c, o.x, o.y + ts * 1.25, "600 " + (small ? 10.5 : st === 5 ? 13 : 12) + "px " + FONT, u.e === 3 ? T["ink-2"] : T.ink, inKeep ? T["brass-soft"] : null);
+      if (lab && !anim && st === 5 && !small && !(inKeep && nk > 4) && (labAll || inKeep)) {
+        label("marj " + pct(val(u.c).mos, 0), o.x, o.y + ts * 1.25 + 16, "400 12px " + FONT, stt === "kale" ? T.brass : T.steel, inKeep ? T["brass-soft"] : null);
+      }
+    });
+  }
+  if (st >= 2 && !anim && m >= 380) { // etkin surun adı, en üstte
+    var ai = st - 2, topPt = proj([W.c[0], W.c[1] + W.R[ai]]);
+    var names = ["1. sur: kırmızı çizgiler", "2. sur: kalite", "3. sur: hendek ve yönetim", "4. sur: fiyat"];
+    if (topPt[1] > 44) label(names[ai], topPt[0], topPt[1] - 23, "500 13px " + FONT, T.stone);
+  }
+  var mark = S.sel || S.hover;
+  if (mark) hits.forEach(function (h) { if (h.c === mark) { ctx.beginPath(); ctx.arc(h.x, h.y, h.r + 5, 0, 6.2832); ctx.strokeStyle = T.brass; ctx.lineWidth = 2; ctx.stroke(); } });
+}
+
+function fly(to, ms, done) {
+  if (anim) cancelAnimationFrame(anim.id);
+  var from = { lon: cam.lon, lat: cam.lat, k: cam.k, cy: cam.cy };
+  var dl = ((to.lon - from.lon + 540) % 360) - 180; // kısa yoldan dön
+  if (reduce || !ms) { cam = to; anim = null; draw(); if (done) done(); return; }
+  var t0 = performance.now();
+  anim = { id: 0 };
+  (function tick(now) {
+    var t = clamp((now - t0) / ms, 0, 1), e = t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+    cam = { lon: from.lon + dl * e, lat: from.lat + (to.lat - from.lat) * e, k: Math.exp(Math.log(from.k) + (Math.log(to.k) - Math.log(from.k)) * e), cy: from.cy + (to.cy - from.cy) * e };
+    if (t < 1) { draw(); anim.id = requestAnimationFrame(tick); } else { anim = null; cam = to; draw(); if (done) done(); }
+  })(t0);
+}
+function go(i, keepSel) {
+  i = clamp(i, 0, 5);
+  if (i >= 1 && !C) { enter(S.focus || (IDX.countries[0] && IDX.countries[0].cc), i); return; }
+  var prev = S.step; S.step = i; S.filter = null; S.show = 30;
+  if (!keepSel || i === 0) { if (S.sel) setHash(i === 0 ? "" : C.cc.toLowerCase()); S.sel = null; }
+  if (i === 0) setHash("");
+  ui();
+  if (i < 5) settle();
+  fly(stop(i), i === prev ? 0 : (prev === 0 || i === 0) ? 2100 : 1150, settle);
+}
+function enter(cc, step, sel) { // bir ülkeye gir: verisini yükle, haritada ona uç
+  if (!cc || !CTRY[cc]) return;
+  var arrive = function (c) {
+    if (C !== c) { C = c; S.sel = null; cur4 = {}; S.step = Math.min(S.step, 0); cur4 = layout4(); }
+    S.focus = cc; loadWorld50(); $("#toast").hidden = true;
+    if (sel && c.byC[sel]) select(sel, true); else { setHash(cc.toLowerCase()); go(step || 1); }
+  };
+  if (CACHE[cc]) { arrive(CACHE[cc]); return; }
+  toast(CTRY[cc].name + " yükleniyor…", true);
+  loadCountry(cc).then(arrive).catch(function () { toast("Veri yüklenemedi. Bağlantını kontrol edip yeniden dene."); });
+}
+var settling = false;
+function settle() { // fiyat testini geçenler kaleye yürür
+  var tgt = layout4(), need = false, c;
+  for (c in tgt) { if (!cur4[c]) cur4[c] = tgt[c]; if (Math.abs(tgt[c][0] - cur4[c][0]) + Math.abs(tgt[c][1] - cur4[c][1]) > 1e-7) need = true; }
+  if (!need) { if (!anim) draw(); return; }
+  if (reduce) { cur4 = tgt; if (!anim) draw(); return; }
+  if (settling) return;
+  settling = true;
+  var eps = C ? C.W.keep * 0.01 : 0.002;
+  (function tick() {
+    var t2 = layout4(), more = false, k;
+    for (k in t2) {
+      if (!cur4[k]) { cur4[k] = t2[k]; continue; }
+      var dx = t2[k][0] - cur4[k][0], dy = t2[k][1] - cur4[k][1];
+      if (Math.abs(dx) + Math.abs(dy) > eps) { cur4[k] = [cur4[k][0] + dx * 0.14, cur4[k][1] + dy * 0.14]; more = true; } else cur4[k] = t2[k];
+    }
+    if (!anim) draw();
+    if (more) requestAnimationFrame(tick); else settling = false;
+  })();
+}
+
+/* ---------- etkileşim ---------- */
+var down = null;
+function nearest(px, py) {
+  var best = null, bd = 1e9;
+  hits.forEach(function (h) { var d = Math.hypot(h.x - px, h.y - py) - h.r; if (d < bd) { bd = d; best = h; } });
+  return bd <= 9 ? best : null;
+}
+function local(ev) { var r = cv.getBoundingClientRect(); return [ev.clientX - r.left, ev.clientY - r.top]; }
+function countryAt(p) { // dünya görünümünde imlecin altındaki taranmış ülke
+  for (var j = 0; j < chits.length; j++) if (Math.hypot(chits[j].x - p[0], chits[j].y - p[1]) <= chits[j].r) return chits[j].cc;
+  var off = [[0, 0], [10, 0], [-10, 0], [0, 10], [0, -10]];
+  for (var i = 0; i < off.length; i++) {
+    var ll = proj.invert([p[0] + off[i][0], p[1] + off[i][1]]); if (!ll || isNaN(ll[0]) || isNaN(ll[1])) continue;
+    for (var k = 0; k < IDX.countries.length; k++) { var f = F110[IDX.countries[k].iso]; if (f && d3.geoContains(f, ll)) return IDX.countries[k].cc; }
+  }
+  return null;
+}
+function otherAt(p) { // taranmamış bir ülkeye tıklandıysa hangisi
+  var ll = proj.invert(p); if (!ll || isNaN(ll[0]) || isNaN(ll[1])) return null;
+  for (var i = 0; i < worldFC.features.length; i++) if (d3.geoContains(worldFC.features[i], ll)) return String(worldFC.features[i].id);
+  return null;
+}
+cv.addEventListener("pointerdown", function (ev) { var p = local(ev); down = { x: p[0], y: p[1], lon: cam.lon, lat: cam.lat, moved: false }; try { cv.setPointerCapture(ev.pointerId); } catch (e) {} });
+cv.addEventListener("pointermove", function (ev) {
+  var p = local(ev);
+  if (down) {
+    var dx = p[0] - down.x, dy = p[1] - down.y;
+    if (Math.hypot(dx, dy) > 5) down.moved = true;
+    if (S.step === 0 && down.moved && !anim) { var f = 57.3 / cam.k; cam.lon = down.lon - dx * f; cam.lat = clamp(down.lat + dy * f, -70, 75); draw(); }
+    return;
+  }
+  if (ev.pointerType === "touch") return;
+  if (S.step === 0) {
+    var cc = anim ? null : countryAt(p);
+    cv.style.cursor = cc ? "pointer" : "grab";
+    if (cc && cc !== S.focus) { S.focus = cc; ui(); draw(); }
+    return;
+  }
+  var h = nearest(p[0], p[1]), tip = $("#tip");
+  if ((h ? h.c : null) !== S.hover) { S.hover = h ? h.c : null; if (!anim) draw(); }
+  if (h) {
+    tip.innerHTML = tipHtml(C.byC[h.c]); tip.hidden = false;
+    var tw = tip.offsetWidth, th = tip.offsetHeight;
+    tip.style.left = clamp(p[0] + 14, 6, Wd - tw - 6) + "px"; tip.style.top = clamp(p[1] - th - 12 < 6 ? p[1] + 16 : p[1] - th - 12, 6, Hd - th - 60) + "px";
+    cv.style.cursor = "pointer";
+  } else { tip.hidden = true; cv.style.cursor = "default"; }
+});
+function endPointer(ev) {
+  var p = local(ev), d = down; down = null;
+  if (!d || d.moved || ev.type === "pointercancel") return;
+  if (S.step === 0) {
+    if (anim) return;
+    var cc = countryAt(p);
+    if (cc) { enter(cc, 1); return; }
+    if (Math.hypot(p[0] - Wd / 2, p[1] - cam.cy) > cam.k) return;
+    var iso = otherAt(p), q = iso && QUEUE[iso];
+    toast(q ? q.k.name + " henüz taranmadı; sırada " + q.i + ". ülke." : "Bu ülke henüz taranmadı.");
+    return;
+  }
+  var h = nearest(p[0], p[1]);
+  if (h) select(h.c); else if (S.sel) { S.sel = null; setHash(C.cc.toLowerCase()); ui(); draw(); }
+}
+cv.addEventListener("pointerup", endPointer);
+cv.addEventListener("pointercancel", endPointer);
+cv.addEventListener("pointerleave", function () { if (S.hover) { S.hover = null; if (!anim) draw(); } $("#tip").hidden = true; });
+var wheelAt = 0;
+mapEl.addEventListener("wheel", function (ev) {
+  ev.preventDefault();
+  var now = Date.now(); if (anim || now - wheelAt < 1400 || Math.abs(ev.deltaY) < 8) return; wheelAt = now;
+  go(S.step + (ev.deltaY < 0 ? 1 : -1), true);
+}, { passive: false });
+document.addEventListener("keydown", function (ev) {
+  var tg = ev.target && ev.target.tagName;
+  if (ev.key === "Escape") { if (!$("#sheet").hidden) closeMethod(); else if (S.sel) { S.sel = null; setHash(C.cc.toLowerCase()); ui(); draw(); } return; }
+  if (tg === "INPUT" || tg === "TEXTAREA" || !$("#sheet").hidden) return;
+  if (ev.key === "ArrowRight") go(S.step + 1, true); else if (ev.key === "ArrowLeft") go(S.step - 1, true);
+});
+function tipHtml(u) {
+  var st = status(u), line;
+  if (st === "sirada") line = "2. suru geçti; 3. sur incelemesi sırada";
+  else if (u.e < 4) line = u.e + ". surda elendi: " + esc(u.e === 2 && u.w !== "roe_ttm" ? WHY[u.w] : why(u));
+  else { var v = val(u.c); line = (st === "kale" ? "Kale: dört suru da geçti" : "Kapıda bekliyor") + ", güvenlik marjı " + pct(v.mos, 0); }
+  return '<span class="tk">' + esc(u.c) + "</span> " + esc(u.n) + "<em>" + esc(u.s) + ", " + cap(u.m) + "</em><em>" + line + "</em>";
+}
+var toastT = 0;
+function toast(msg, keep) { var t = $("#toast"); t.textContent = msg; t.hidden = false; clearTimeout(toastT); if (!keep) toastT = setTimeout(function () { t.hidden = true; }, 3400); }
+function setHash(h) { try { var want = h ? "#" + h : ""; if (location.hash !== want) history.replaceState(null, "", want || (location.pathname + location.search)); } catch (e) {} }
+function select(c, flyTo) {
+  var u = C && C.byC[c]; if (!u) return;
+  S.sel = c;
+  var wantS = u.e === 4 ? 5 : u.e + 1;
+  if (flyTo && S.step !== wantS) { var was = S.step; S.step = wantS; S.filter = null; if (wantS < 5) settle(); fly(stop(wantS), was === 0 ? 2100 : 1300, settle); }
+  ui(); if (!anim) draw();
+  $("#side").scrollTop = 0;
+  setHash(C.cc.toLowerCase() + "-" + slug(c));
+}
+
+/* ---------- panel ---------- */
+var TOWER = '<svg viewBox="0 0 22 24" aria-hidden="true"><path d="M2 23V5h3.6v3h3.6V5h3.6v3h3.6V5H20v18h-6.2v-5.2a2.8 2.8 0 0 0-5.6 0V23z" fill="FILL" stroke="STROKE" stroke-width="1.4"/></svg>';
+function towerSvg(kind) { return TOWER.replace("FILL", kind === "kale" ? "var(--brass)" : "var(--paper-2)").replace("STROKE", kind === "kale" ? "var(--brass)" : "var(--steel)"); }
+function ladder(k, live) {
+  var rows = [["Evren: borsadaki bütün şirketler", k.n], ["1. suru geçen: kırmızı çizgiler", k.p1], ["2. suru geçen: kalite", k.p2], ["3. suru geçen: hendek ve yönetim", k.p3], ["4. suru geçen: fiyat", live ? kaleN() : k.kale]];
+  return '<ol class="ladder">' + rows.map(function (r, i) {
+    return '<li class="' + (i === 4 ? "last" : "") + '"><span>' + r[0] + '</span><span class="n">' + r[1] + (i === 4 ? " kale" : "") + '</span><span class="b" style="--w:' + (100 * r[1] / Math.max(1, k.n)).toFixed(2) + '%"></span></li>';
+  }).join("") + "</ol>";
+}
+function groupBars(e) {
+  var g = {}; C.U.forEach(function (u) { if (u.e === e && u.w !== "pending") g[u.w] = (g[u.w] || 0) + 1; });
+  var keys = Object.keys(g).sort(function (a, b) { return g[b] - g[a]; }), mx = g[keys[0]];
+  return '<ul class="bars">' + keys.map(function (k) {
+    return '<li><button data-filter="' + k + '" aria-pressed="' + (S.filter === k) + '"><span>' + WHY[k] + "</span><i>" + g[k] + '</i><span class="b" style="--w:' + (100 * g[k] / mx).toFixed(1) + '%"></span></button></li>';
+  }).join("") + "</ul>";
+}
+function row(u, right, sub) { return '<li><button data-c="' + esc(u.c) + '"><span class="tk">' + esc(u.c) + '</span><span class="nm">' + esc(u.n) + '</span><span class="mc">' + right + '</span><span class="wy">' + esc(sub) + "</span></button></li>"; }
+function rowList(e) {
+  var list = C.U.filter(function (u) { return u.e === e && u.w !== "pending" && (!S.filter || u.w === S.filter); }).sort(function (a, b) { return b.m - a.m; });
+  var shown = list.slice(0, S.show);
+  var html = '<ul class="rows">' + shown.map(function (u) { return row(u, capS(u.m), why(u)); }).join("") + "</ul>";
+  if (list.length > S.show) html += '<button class="link" data-more="1">' + Math.min(200, list.length - S.show) + " şirket daha göster (kalan " + (list.length - S.show) + ")</button>";
+  return '<p class="more">' + (S.filter ? WHY[S.filter] + ": " : "Bu surda elenenler: ") + list.length + " şirket, piyasa değerine göre sıralı. Bir nedene tıklayınca liste süzülür.</p>" + html;
+}
+function card(u) {
+  var v = val(u.c), st = status(u);
+  return '<button class="card ' + st + '" data-c="' + esc(u.c) + '">' + towerSvg(st) + '<span class="t"><span class="tk">' + esc(u.c) + "</span> " + esc(u.n) + '</span><span class="o">' + esc(C.R[u.c].one) + '</span><span class="m">' + pct(v.mos, 0) + "<small>güvenlik marjı</small></span></button>";
+}
+function l3rows(list) { return '<ul class="rows">' + list.map(function (u) { return row(u, "hendek " + C.R[u.c].moat, C.R[u.c].one); }).join("") + "</ul>"; }
+function panelWorld() {
+  var fx = focusIx(), h = "<h1>Bir ülkedeki bütün hisseleri dört surdan geçir</h1>" +
+    '<p class="lead">Castle, Buffett ve Munger\'ın ilkelerini bir süzgece çevirir. Ülkeyi seçersin; yaklaştıkça inceleme derinleşir ve geriye yalnızca kaleler kalır.</p>';
+  if (!fx) return h + '<p class="txt">Henüz taranmış ülke yok.</p>';
+  if (IDX.countries.length === 1) {
+    h += ladder(fx, C && C.cc === fx.cc) + '<button class="cta" data-enter="' + fx.cc + '">Yaklaş: ' + esc(fx.name) + "</button>";
+  } else {
+    h += "<h3>Taranan ülkeler</h3>" + '<div class="cards">' + IDX.countries.map(function (k) {
+      return '<button class="card' + (k.cc === fx.cc ? " kale" : "") + '" data-enter="' + k.cc + '">' + towerSvg("kale") + '<span class="t">' + esc(k.name) + '</span><span class="o">' + n0.format(k.n) + " şirket tarandı, veri " + tarih(k.asof) + '</span><span class="m">' + k.kale + "<small>kale</small></span></button>";
+    }).join("") + "</div>";
+    h += "<h3>" + esc(fx.name) + ": süzgecin özeti</h3>" + ladder(fx, C && C.cc === fx.cc) + '<button class="cta" data-enter="' + fx.cc + '">Yaklaş: ' + esc(fx.name) + "</button>";
+  }
+  if (IDX.queue.length) {
+    var first = IDX.queue.slice(0, 6).map(function (q) { return q.name; });
+    h += "<h3>Sırada</h3>" + '<p class="txt">' + esc(first.join(", ")) + (IDX.queue.length > 6 ? " ve " + (IDX.queue.length - 6) + " ülke daha" : "") + ". Sıra, borsaların toplam piyasa değerine göre." + (IDX.cadence ? " " + esc(IDX.cadence) : "") + "</p>";
+  }
+  h += '<p class="note">Fiyatlar ve çarpanlar her ülkenin yanında yazan tarihin kapanışına göre. Castle bir analiz aracıdır; yatırım tavsiyesi vermez.</p>';
+  return h;
+}
+function panelStep() {
+  var s = S.step, h = "";
+  if (s === 0 || !C) return panelWorld();
+  var N = C.N, M = C.meta;
+  if (s === 1) {
+    var sec = {}; C.U.forEach(function (u) { sec[u.s] = (sec[u.s] || 0) + 1; });
+    var top = Object.keys(sec).sort(function (a, b) { return sec[b] - sec[a]; }).slice(0, 7);
+    h = "<h2>" + esc(M.name) + ": " + n0.format(N.all) + " şirket</h2>" +
+      '<p class="txt">' + esc(M.exchange) + '\'da işlem gören bütün paylar; toplam piyasa değeri ' + cap(C.TOT) + '. Her nokta bir şirket, büyüklüğü piyasa değerini gösterir.</p>' +
+      '<p class="txt">Noktaların yeri coğrafi değildir. Ortadaki halkalar surlardır: bir şirket süzgeçte ne kadar ilerlediyse merkeze o kadar yakındır.</p>' +
+      "<h3>En kalabalık sektörler</h3>" + '<dl class="kv">' + top.map(function (k) { return "<dt>" + esc(k) + "</dt><dd>" + sec[k] + "</dd>"; }).join("") + "</dl>" +
+      '<button class="cta" data-go="2">1. sura yaklaş</button>' +
+      '<p class="note">Veri tarihi: ' + tarih(M.asof) + ".</p>";
+  } else if (s === 2) {
+    h = "<h2>1. sur: kırmızı çizgiler</h2>" +
+      '<p class="txt">İlk bakışta uymayan şirketler burada kalır: son 12 ayda net kârı olmayanlar, işletme değil varlık sepeti olanlar ve çok küçük olanlar. Bu eleme bütün evren için saniyeler sürer.</p>' +
+      '<p class="txt"><b>' + n0.format(N.all) + " şirketten " + n0.format(N.p1) + " tanesi geçti.</b> Elenen " + n0.format(N.all - N.p1) + " şirketin nedeni:</p>" + groupBars(1) + rowList(1) +
+      '<button class="cta" data-go="3">2. sura yaklaş</button>';
+  } else if (s === 3) {
+    h = "<h2>2. sur: kalite</h2>" +
+      '<p class="txt">Kalan şirketlerin son beş yılı incelenir. Aranan: enflasyondan arındırılmış, yüksek ve istikrarlı özsermaye kârlılığı; az borç; nakde dönen kâr.</p>' +
+      '<p class="txt"><b>' + n0.format(N.p1) + " şirketten " + n0.format(N.p2) + " tanesi geçti.</b> Elenen " + n0.format(N.p1 - N.p2) + " şirketin nedeni:</p>" + groupBars(2) + rowList(2) +
+      '<button class="cta" data-go="4">3. sura yaklaş</button>';
+  } else if (s === 4) {
+    var out3 = C.U.filter(function (u) { return u.e === 3 && u.w !== "pending"; }), pend = C.U.filter(function (u) { return u.e === 3 && u.w === "pending"; });
+    h = "<h2>3. sur: hendek ve yönetim</h2>" +
+      '<p class="txt">Rakamları iyi olan ' + N.p2 + " şirketin her biri tek tek okunur. Soru şu: bu kârı rakipten koruyan kalıcı bir üstünlük var mı, ve yönetim sermayeyi ortak gibi kullanıyor mu?</p>" +
+      '<p class="txt"><b>' + N.p3 + " şirket geçti, " + out3.length + " şirket elendi" + (pend.length ? ", " + pend.length + " şirket sırada" : "") + ".</b> Bu sur yargıya dayanır; gerekçesi her şirketin sayfasında yazılı.</p>" +
+      "<h3>Geçenler</h3>" + (N.p3 ? l3rows(C.E4.slice().sort(function (a, b) { return b.m - a.m; })) : '<p class="txt">Bu surdan geçen şirket yok.</p>') +
+      (out3.length ? "<h3>Elenenler</h3>" + l3rows(out3.sort(function (a, b) { return b.m - a.m; })) : "");
+    if (pend.length) {
+      pend.sort(function (a, b) { return val(b.c).mos - val(a.c).mos; });
+      h += "<h3>Sırada bekleyenler</h3>" + '<p class="more">Bu şirketler rakam testlerini geçti; hendek ve yönetim incelemesi henüz yapılmadı. Önce fiyatı en uygun olanlar okunur.</p>' +
+        '<ul class="rows">' + pend.slice(0, S.show).map(function (u) { return row(u, capS(u.m), "Dar hendek varsayımıyla güvenlik marjı " + pct(val(u.c).mos, 0)); }).join("") + "</ul>" +
+        (pend.length > S.show ? '<button class="link" data-more="1">' + Math.min(200, pend.length - S.show) + " şirket daha göster (kalan " + (pend.length - S.show) + ")</button>" : "");
+    }
+    h += '<button class="cta" data-go="5">4. sura yaklaş</button>';
+  } else {
+    var all = C.E4.slice().sort(function (a, b) { return val(b.c).mos - val(a.c).mos; });
+    var ks = all.filter(function (u) { return val(u.c).kale; }), bs = all.filter(function (u) { return !val(u.c).kale; });
+    h = "<h2>4. sur: fiyat</h2>" +
+      '<p class="txt">İyi iş her fiyata alınmaz. Her şirket için temkinli kazanca dayalı bir değer hesaplanır; fiyat bu değerin en az ' + pct(P.mos, 0) + " altındaysa şirket kaleye girer. Diğerleri kapıda bekler.</p>" +
+      "<h3>Kaleler" + (ks.length ? "" : ": bugün yok") + "</h3>" +
+      (ks.length ? '<div class="cards">' + ks.map(card).join("") + "</div>" : '<p class="txt">Bu varsayımlarla hiçbir şirket fiyat testini geçmiyor. Liste boş kalabilir; süzgecin işi de budur.</p>') +
+      "<h3>Kapıda bekleyenler</h3>" + (bs.length ? '<div class="cards">' + bs.map(card).join("") + "</div>" : '<p class="txt">Bekleyen yok.</p>') +
+      (N.pend ? '<p class="note">' + N.pend + " şirket 3. surda sırada bekliyor; okundukça bu listeye eklenebilir.</p>" : "") +
+      '<p class="note">Kale, şirketin dört ölçütü de bugünkü fiyatla geçtiğini gösterir; al tavsiyesi değildir. Getiri eşiği reel ' + pct(P.r, 1) + ", güvenlik marjı " + pct(P.mos, 0) + '. <button class="link" data-method="1">Varsayımları değiştir</button></p>';
+  }
+  return h;
+}
+function roeChart(c) {
+  var l = C.L2[c], u = C.byC[c], M = C.meta, vals = l.rroe, labs = M.years.concat(["Son 12 ay"]), era = M.era || labs;
+  var have = vals.filter(function (v) { return v != null; }); if (have.length < 2) return "";
+  var hi = Math.min(120, Math.max(40, Math.ceil(Math.max.apply(null, have) / 20) * 20)), lo = Math.max(-60, Math.min(0, Math.floor(Math.min.apply(null, have) / 20) * 20));
+  var n = vals.length, X0 = 34, X1 = 316, Y0 = 16, Y1 = 132, bw = (X1 - X0) / n;
+  var y = function (v) { return Y1 - ((clamp(v, lo, hi) - lo) / (hi - lo)) * (Y1 - Y0); };
+  var s = '<svg viewBox="0 0 320 162" role="img" aria-label="Özsermaye kârlılığı: ' + vals.map(function (v, i) { return labs[i] + " " + (v == null ? "veri yok" : pct(v, 0)); }).join(", ") + '">';
+  for (var t = lo; t <= hi; t += (hi - lo) > 100 ? 40 : 20) s += '<line x1="' + X0 + '" x2="' + X1 + '" y1="' + y(t) + '" y2="' + y(t) + '" stroke="var(--line)" stroke-width="' + (t === 0 ? 1.2 : 0.6) + '"/><text x="' + (X0 - 5) + '" y="' + (y(t) + 3.5) + '" text-anchor="end" font-size="9.5" fill="var(--ink-2)">' + t + "</text>";
+  s += '<line x1="' + X0 + '" x2="' + X1 + '" y1="' + y(P.eraAvg) + '" y2="' + y(P.eraAvg) + '" stroke="var(--brass)" stroke-width="1" stroke-dasharray="4 3"/>';
+  vals.forEach(function (v, i) {
+    var cx = X0 + bw * i + bw / 2, inEra = i === n - 1 || era.indexOf(M.years[i]) >= 0;
+    s += '<text x="' + cx + '" y="' + (Y1 + 13) + '" text-anchor="middle" font-size="9.5" fill="var(--ink-2)">' + labs[i] + "</text>";
+    if (v == null) { s += '<text x="' + cx + '" y="' + (y(0) - 4) + '" text-anchor="middle" font-size="9.5" fill="var(--ink-3)">yok</text>'; return; }
+    var yv = y(v), y0 = y(0), top = Math.min(yv, y0), hh = Math.max(1.5, Math.abs(yv - y0));
+    var fill = v < 0 ? "var(--bad)" : !inEra ? "var(--d1)" : i === n - 1 ? "var(--ink)" : "var(--stone)";
+    s += '<rect x="' + (cx - bw * 0.31) + '" y="' + top + '" width="' + bw * 0.62 + '" height="' + hh + '" rx="1.5" fill="' + fill + '"/>';
+    s += '<text x="' + cx + '" y="' + (v < 0 ? yv + 11 : yv - 4) + '" text-anchor="middle" font-size="10" fill="var(--ink)">' + num(v, 0) + (v > hi ? " ↑" : "") + "</text>";
+  });
+  s += "</svg>";
+  var capt = (u.nom ? (M.chart_note_nominal || "Özsermaye kârlılığı (%), yıllık enflasyondan arındırılmış.") : (M.chart_note || "Özsermaye kârlılığı (%).")) + " Kesik çizgi, " + pct(P.eraAvg, 0) + "'lik ortalama eşiğidir. Son sütun kaynağın en güncel okumasıdır ve son çeyreği içermeyebilir.";
+  return '<figure class="fig">' + s + "<figcaption>" + esc(capt) + "</figcaption></figure>";
+}
+function gauge(u, v) {
+  var mx = Math.max(v.iv, u.p) * 1.14, X0 = 8, X1 = 312, x = function (a) { return X0 + (a / mx) * (X1 - X0); };
+  var s = '<svg viewBox="0 0 320 86" role="img" aria-label="Fiyat ' + n2.format(u.p) + ", alım eşiği " + n2.format(v.buy) + ", temkinli değer " + n2.format(v.iv) + " " + esc(cur()) + '">';
+  s += '<rect x="' + X0 + '" y="38" width="' + (X1 - X0) + '" height="8" rx="4" fill="var(--line)"/>';
+  s += '<rect x="' + X0 + '" y="38" width="' + (x(v.buy) - X0) + '" height="8" rx="4" fill="var(--brass)" opacity=".8"/>';
+  s += '<line x1="' + x(v.buy) + '" x2="' + x(v.buy) + '" y1="30" y2="54" stroke="var(--brass)" stroke-width="1.5" stroke-dasharray="3 2"/>';
+  s += '<line x1="' + x(v.iv) + '" x2="' + x(v.iv) + '" y1="30" y2="54" stroke="var(--ink)" stroke-width="1.5"/>';
+  s += '<circle cx="' + x(u.p) + '" cy="42" r="6.5" fill="var(--paper-2)" stroke="var(--steel)" stroke-width="3"/>';
+  var anc = function (a) { return x(a) < 70 ? "start" : x(a) > 250 ? "end" : "middle"; };
+  s += '<text x="' + x(v.buy) + '" y="24" text-anchor="' + anc(v.buy) + '" font-size="10.5" fill="var(--brass)">alım eşiği ' + n2.format(v.buy) + "</text>";
+  s += '<text x="' + x(v.iv) + '" y="12" text-anchor="' + anc(v.iv) + '" font-size="10.5" fill="var(--ink)">temkinli değer ' + n2.format(v.iv) + "</text>";
+  s += '<text x="' + x(u.p) + '" y="70" text-anchor="' + anc(u.p) + '" font-size="10.5" fill="var(--steel)">fiyat ' + n2.format(u.p) + " " + esc(cur()) + "</text>";
+  return '<figure class="fig">' + s + "</svg><figcaption>Hisse başına " + esc(cur()) + ". Sarı bölüm, güvenlik marjı eşiğinin altındaki fiyat aralığıdır; fiyat bu bölümdeyse şirket kaledir.</figcaption></figure>";
+}
+function dots(n, mx) { var s = ""; for (var i = 0; i < mx; i++) s += i < n ? "●" : "○"; return s; }
+function panelCo(c) {
+  var u = C.byC[c], l = C.L2[c], r = C.R[c], st = status(u), M = C.meta, v = (u.e === 4 || st === "sirada") ? val(c) : null, h = "";
+  h += '<button class="back" data-back="1">' + esc(STEPS[S.step].t + (STEPS[S.step].sub ? ": " + STEPS[S.step].sub.toLowerCase() : "")) + " görünümüne dön</button>";
+  h += '<div class="head"><h2><span class="tk">' + esc(u.c) + "</span> " + esc(u.n) + '</h2><span class="sec">' + esc(u.s) + ", " + esc(M.name) + "</span></div>";
+  h += '<span class="pill ' + st + '">' + (st === "kale" ? "Kale: dört suru da geçti" : st === "bekle" ? "Kapıda bekliyor: fiyat testini geçemedi" : st === "sirada" ? "3. surda sırada: henüz okunmadı" : u.e + ". surda elendi") + "</span>";
+  if (r) h += '<p class="lead">' + esc(r.one) + "</p>";
+  h += '<dl class="facts"><div><dt>Fiyat, ' + tarih(M.asof) + "</dt><dd>" + money(u.p) + "</dd></div><div><dt>Piyasa değeri</dt><dd>" + cap(u.m) + "</dd></div><div><dt>F/K, son 12 ay</dt><dd>" + (u.pe == null ? "hesaplanamıyor" : num(u.pe)) + "</dd></div><div><dt>PD/DD</dt><dd>" + (u.pb == null ? "hesaplanamıyor" : num(u.pb)) + "</dd></div><div><dt>Özsermaye kârlılığı, son 12 ay</dt><dd>" + (u.roe == null ? "–" : pct(u.roe)) + (u.nom && u.rr != null ? "<small>reel " + pct(u.rr) + "</small>" : "") + "</dd></div>" + (u.f != null ? "<div><dt>Halka açıklık</dt><dd>" + pct(u.f) + "</dd></div>" : "") + "<div><dt>Son bilanço dönemi</dt><dd>" + esc(donem(u.per)) + "</dd></div></dl>";
+  var steps = [["1. sur: kırmızı çizgiler", 1], ["2. sur: kalite", 2], ["3. sur: hendek ve yönetim", 3], ["4. sur: fiyat", 4]];
+  h += "<h3>Süzgeçteki yolu</h3><ol class=\"path\">" + steps.map(function (s) {
+    var i = s[1], cls, mk, sub = "", tail = "";
+    if (u.e > i) { cls = "ok"; mk = "✓"; tail = ", geçti"; }
+    else if (u.e === i && i < 4 && u.w === "pending") { cls = "wt"; mk = "…"; tail = ", sırada"; sub = "Rakam testlerini geçti; hendek ve yönetim incelemesi henüz yapılmadı"; }
+    else if (u.e === i && i < 4) { cls = "no"; mk = "✕"; tail = ", geçemedi"; sub = why(u); }
+    else if (u.e === 4 && i === 4) { cls = v.kale ? "ok" : "no"; mk = v.kale ? "✓" : "✕"; tail = v.kale ? ", geçti" : ", geçemedi"; sub = "Güvenlik marjı " + pct(v.mos, 1) + " (eşik " + pct(P.mos, 0) + ")"; }
+    else { cls = "na"; mk = "–"; sub = "Bu sura gelmedi"; }
+    return '<li><span class="' + cls + '" aria-hidden="true">' + mk + "</span><span>" + s[0] + tail + (sub ? "<small>" + esc(sub) + "</small>" : "") + "</span></li>";
+  }).join("") + "</ol>";
+  if (l && l.rroe.some(function (x) { return x != null; })) {
+    h += "<h3>Beş yılın rakamları</h3>" + roeChart(c);
+    var kv = "", era = M.era_label || "Son beş yılda";
+    era = era.charAt(0).toLocaleUpperCase("tr") + era.slice(1);
+    if (l.avg != null) kv += "<dt>" + esc(era) + " ortalama özsermaye kârlılığı</dt><dd>" + pct(l.avg) + "</dd><dt>" + esc(era) + " en düşük okuma</dt><dd>" + pct(l.mn) + "</dd>";
+    if (l.nd != null && !u.fin) kv += "<dt>Net borç / FAVÖK</dt><dd>" + (l.nd < 0 ? "net nakit" : num(l.nd, 2)) + "</dd>";
+    var f5 = u.fin ? [] : l.fcf.slice(1).filter(function (x) { return x != null; });
+    if (f5.length) kv += "<dt>Serbest nakit akışı pozitif dönem</dt><dd>" + f5.filter(function (x) { return x > 0; }).length + " / " + f5.length + "</dd>";
+    if (l.dy != null) kv += "<dt>Temettü verimi</dt><dd>" + pct(l.dy) + "</dd>";
+    if (kv) h += '<dl class="kv">' + kv + "</dl>";
+    if (l.flags && l.flags.length) h += '<p class="note">Uyarı: ' + esc(l.flags.map(flagText).join("; ")) + ".</p>";
+    if (l.stale) h += '<p class="note">Bu şirketin beş yıllık veri sayfası güncel değildi; kalite testi doğrulanamadı.</p>';
+  } else if (u.e <= 2) {
+    h += '<p class="note">' + (l ? "Bu şirket için beş yıllık veri bulunamadı." : "Bu şirket ilk iki elemede kaldığı için beş yıllık inceleme yapılmadı.") + "</p>";
+  }
+  if (v) {
+    h += "<h3>Fiyat testi" + (st === "sirada" ? " (ön hesap)" : "") + "</h3>" + gauge(u, v) + '<dl class="kv">' +
+      "<dt>Temkinli özsermaye kârlılığı<small>son üç okumanın en düşüğü</small></dt><dd><b>" + pct(v.roeN) + "</b></dd>" +
+      "<dt>Temkinli kazanca göre F/K</dt><dd>" + num(v.pen) + "</dd>" +
+      "<dt>Adil çarpan<small>reel getiri eşiği " + pct(P.r, 1) + ", büyüme payı " + pct(v.g, 1) + (r ? " (hendek " + r.moat + ")" : " (dar hendek varsayımı)") + "</small></dt><dd>" + num(v.fair) + "</dd>" +
+      "<dt>Güvenlik marjı</dt><dd><b>" + pct(v.mos) + "</b></dd>" +
+      "<dt>Alım eşiği<small>marj " + pct(P.mos, 0) + " için</small></dt><dd>" + money(v.buy) + "</dd></dl>";
+    if (st === "sirada") h += '<p class="note">Bu bir ön hesaptır. Şirket 3. surda okunmadan kale sayılmaz.</p>';
+  }
+  if (r) {
+    var sc = r.scores;
+    h += "<h3>İş</h3><p class=\"txt\">" + esc(r.business) + "</p>";
+    h += "<h3>Hendek: " + esc(r.moat) + "</h3><p class=\"txt\">" + esc(r.moat_text) + "</p>";
+    h += "<h3>Yönetim ve sermaye</h3><p class=\"txt\">" + esc(r.mgmt) + "</p>";
+    h += '<dl class="scores"><dt>Anlaşılırlık</dt><dd aria-label="' + sc.A + ' / 2">' + dots(sc.A, 2) + '</dd><dt>Hendek</dt><dd aria-label="' + sc.B + ' / 3">' + dots(sc.B, 3) + '</dd><dt>Kazancın öngörülebilirliği</dt><dd aria-label="' + sc.C + ' / 2">' + dots(sc.C, 2) + '</dd><dt>Yönetim ve sermaye tahsisi</dt><dd aria-label="' + sc.D + ' / 2">' + dots(sc.D, 2) + '</dd><dt>Dayanıklılık</dt><dd aria-label="' + sc.E + ' / 2">' + dots(sc.E, 2) + "</dd></dl>";
+    h += "<h3>Son gelişme</h3><p class=\"txt\">" + esc(r.latest) + "</p>";
+    if (r.risks && r.risks.length) h += "<h3>Bu tezi ne bozar</h3><ul class=\"ul\">" + r.risks.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul>";
+    if (r.watch && r.watch.length) h += "<h3>İzlenecekler</h3><ul class=\"ul\">" + r.watch.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul>";
+    if (r.sources && r.sources.length) h += "<h3>Kaynaklar</h3><ul class=\"src\">" + r.sources.map(function (x) { return '<li><a href="' + esc(x.u) + '" target="_blank" rel="noopener">' + esc(x.t) + "</a></li>"; }).join("") + "</ul>";
+  }
+  h += '<div class="ask" id="ask" hidden><h3>Analiste sor</h3><p class="note">Sorun, bu şirketin verisiyle birlikte Claude\'a gönderilir ve kendi Claude kullanımından düşer. Analist yalnızca bu sayfadaki veriyi bilir; güncel haber aramaz.</p><div class="conv" id="askout"></div><div class="chips"><button data-qq="Bu şirket süzgeçte neden bu noktada kaldı? Kısaca anlat.">Neden burada?</button><button data-qq="Bu şirket için tezi en çok ne bozar?">Tezi ne bozar?</button><button data-qq="Hangi koşullar değişirse bu şirketin süzgeçteki durumu değişir?">Ne değişirse durum değişir?</button></div><textarea id="askq" placeholder="Sorunu yaz" aria-label="Analiste soru"></textarea><div class="ask-row"><button class="cta" id="askgo">Sor</button><button class="ghost" id="askstop" hidden>Durdur</button></div></div>';
+  return h;
+}
+function ui() {
+  var st = $("#steps"), fx = focusIx(), k = C ? null : fx;
+  var counts = C ? [null, n0.format(C.N.all), n0.format(C.N.p1), C.N.p2, C.N.p3, kaleN() + " kale"] : k ? [null, n0.format(k.n), n0.format(k.p1), k.p2, k.p3, k.kale + " kale"] : [null, "", "", "", "", ""];
+  st.innerHTML = STEPS.map(function (s, i) {
+    return '<li><button data-go="' + i + '"' + (i === S.step ? ' aria-current="step"' : "") + ' title="' + esc(s.t + (s.sub ? ": " + s.sub.toLowerCase() : "")) + '"><b' + (counts[i] ? ' class="hasn"' : "") + ">" + s.t + "</b><i>" + (counts[i] != null ? counts[i] : "") + "</i></button></li>";
+  }).join("");
+  $("#prev").disabled = S.step === 0; $("#next").disabled = S.step === 5 || !fx;
+  $("#next").textContent = S.step === 0 && fx ? "Yaklaş: " + fx.name : "Yaklaş";
+  var curB = st.querySelector('[aria-current="step"]'); if (curB && curB.scrollIntoView) { try { curB.scrollIntoView({ block: "nearest", inline: "nearest" }); } catch (e) {} }
+  if (fx) $("#pinl").textContent = fx.name + ": " + n0.format(fx.n) + " şirket, " + (C && C.cc === fx.cc ? kaleN() : fx.kale) + " kale";
+  $("#sub").textContent = C && S.step > 0 ? "değer yatırımı atlası: " + C.meta.name + ", veri " + tarih(C.meta.asof) : "değer yatırımı atlası";
+  var lg = $("#legend");
+  if (S.step >= 1 && C) {
+    lg.hidden = false;
+    lg.innerHTML = "<b>" + (S.step === 1 ? esc(C.meta.name) + ": " + n0.format(C.N.all) + " şirket" : STEPS[S.step].t + ": " + STEPS[S.step].sub.toLowerCase()) + "</b>" + ["", "Her nokta bir şirket. Merkeze yakın olan, süzgeçte daha ileri gitti.", "Kırmızılar bu surda elendi, koyular geçti.", "Kırmızılar bu surda elendi; sarılar bir sonraki sura geçti.", "Gri kuleler elendi, koyu kuleler geçti." + (C.N.pend ? " İçi boş halkalar sırada." : ""), "Bayraklı kuleler kale; diğerleri kapıda bekliyor."][S.step];
+  } else lg.hidden = true;
+  $("#panel").innerHTML = S.sel && C ? panelCo(S.sel) : panelStep();
+  if (S.sel && C) wireAsk();
+}
+$("#panel").addEventListener("click", function (ev) {
+  var b = ev.target.closest("button"); if (!b) return;
+  if (b.dataset.go != null) go(+b.dataset.go);
+  else if (b.dataset.enter) enter(b.dataset.enter, 1);
+  else if (b.dataset.c) select(b.dataset.c);
+  else if (b.dataset.filter) { S.filter = S.filter === b.dataset.filter ? null : b.dataset.filter; S.show = 30; ui(); }
+  else if (b.dataset.more) { S.show += 200; ui(); }
+  else if (b.dataset.back) { S.sel = null; setHash(C.cc.toLowerCase()); ui(); draw(); }
+  else if (b.dataset.method) openMethod();
+  else if (b.dataset.qq) { var q = $("#askq"); if (q && !live) { q.value = b.dataset.qq; ask(); } }
+  else if (b.id === "askgo") ask();
+  else if (b.id === "askstop") { if (live) live.ctl.abort(); }
+});
+$("#steps").addEventListener("click", function (ev) { var b = ev.target.closest("button"); if (b) go(+b.dataset.go); });
+$("#prev").addEventListener("click", function () { go(S.step - 1); });
+$("#next").addEventListener("click", function () { go(S.step + 1); });
+$("#home").addEventListener("click", function () { go(0); });
+
+/* ---------- arama ---------- */
+var qi = $("#q"), ql = $("#ql");
+qi.addEventListener("input", function () {
+  var q = fold(qi.value.trim()); if (!q) { ql.hidden = true; return; }
+  var html = IDX.countries.filter(function (k) { return fold(k.name).indexOf(q) === 0 || k.cc.toLowerCase() === q; }).slice(0, 3).map(function (k) {
+    return '<button data-enter="' + k.cc + '"><span class="tk">' + k.cc + '</span><span class="nm">' + esc(k.name) + "</span><small>" + k.kale + " kale</small></button>";
+  }).join("");
+  if (C) {
+    var m = C.U.filter(function (u) { return fold(u.c).indexOf(q) === 0; }).concat(C.U.filter(function (u) { return fold(u.c).indexOf(q) !== 0 && fold(u.n).indexOf(q) >= 0; })).slice(0, 7);
+    html += m.map(function (u) { var s = status(u); return '<button data-c="' + esc(u.c) + '"><span class="tk">' + esc(u.c) + '</span><span class="nm">' + esc(u.n) + "</span><small>" + (s === "kale" ? "kale" : s === "bekle" ? "kapıda" : s === "sirada" ? "sırada" : u.e + ". surda elendi") + "</small></button>"; }).join("");
+  }
+  ql.innerHTML = html || '<button disabled>' + (C ? "Eşleşen hisse ya da ülke yok" : "Hisse aramak için önce bir ülkeye gir") + "</button>";
+  ql.hidden = false;
+});
+ql.addEventListener("click", function (ev) {
+  var b = ev.target.closest("button"); if (!b) return;
+  if (b.dataset.c) { ql.hidden = true; qi.value = ""; select(b.dataset.c, true); }
+  else if (b.dataset.enter) { ql.hidden = true; qi.value = ""; enter(b.dataset.enter, 1); }
+});
+qi.addEventListener("keydown", function (ev) { if (ev.key === "Enter") { var b = ql.querySelector("button[data-c],button[data-enter]"); if (b && !ql.hidden) b.click(); } else if (ev.key === "Escape") { ql.hidden = true; } });
+document.addEventListener("click", function (ev) { if (!ev.target.closest(".find")) ql.hidden = true; });
+
+/* ---------- yöntem ---------- */
+function methodHtml() {
+  var N = C ? C.N : null, M = C ? C.meta : null;
+  var cnt = function (a, b, suffix) { return N ? n0.format(a) + " şirketten " + n0.format(b) + (suffix || " geçti.") : ""; };
+  return '<div class="sheet-top"><h2>Yöntem</h2><button class="ghost" id="mclose">Kapat</button></div>' +
+    '<p class="txt">Castle, bir ülkedeki bütün halka açık şirketleri dört aşamada eler. Her aşama bir öncekinden daha az şirkete, daha derin bakar. Eşikler aşağıda açıkça yazılıdır' + (M ? "; sayılar " + esc(M.name) + " içindir" : "") + ".</p>" +
+    '<ol class="walls">' +
+    "<li><b>1. sur: kırmızı çizgiler</b>" + (N ? cnt(N.all, N.p1) : "") + "<ul><li>Gayrimenkul yatırım ortaklıkları ve yatırım ortaklıkları dışarıda kalır: bunlar işletme değil, varlık sepetidir.</li><li>Son 12 ay için net kârı olmayan, yani F/K oranı hesaplanamayan şirket dışarıda kalır.</li><li>" + (M ? esc(M.small_rule) : "Çok küçük şirketler (yaklaşık 60 milyon doların altı) dışarıda kalır.") + "</li></ul></li>" +
+    "<li><b>2. sur: kalite</b>" + (N ? cnt(N.p1, N.p2) : "") + "<ul><li>Son 12 ay özsermaye kârlılığı en az " + pct(P.roeMin, 0) + ".</li><li>En az beş yıllık mali geçmiş; beş yılda hiç zarar yılı yok.</li><li>Enflasyondan arındırılmış özsermaye kârlılığının ortalaması en az " + pct(P.eraAvg, 0) + " ve hiçbir okuma " + pct(P.eraMin, 0) + "'un altında değil.</li><li>Net borç / FAVÖK en çok " + num(P.ndMax, 0) + ".</li><li>Serbest nakit akışı son beş dönemin en az ikisinde pozitif.</li><li>Borç ve nakit testleri banka, sigorta, aracı kurum ve holdinglere uygulanmaz; bu ölçüler onlar için anlamlı değildir.</li></ul></li>" +
+    "<li><b>3. sur: hendek ve yönetim</b>" + (N ? cnt(N.p2, N.p3) + (N.pend ? " " + N.pend + " şirket sırada." : "") : "") + "<ul><li>Beş puan verilir: anlaşılırlık, hendek, kazancın öngörülebilirliği, yönetim ve sermaye tahsisi, dayanıklılık.</li><li>Hendek en az dar olmalı ve hiçbir puan sıfır olmamalı.</li><li>Bu sur yargıya dayanır. Gerekçesi her şirketin sayfasında yazılıdır.</li><li>Büyük borsalarda bu okuma sırayla yapılır: önce fiyatı en uygun olanlar.</li></ul></li>" +
+    "<li><b>4. sur: fiyat</b>" + (N ? n0.format(N.p3) + ' şirketten <span id="mk">' + kaleN() + "</span> kale." : "") + "<ul><li>Temkinli kazanç: özkaynak çarpı son üç özsermaye kârlılığı okumasının en düşüğü.</li><li>Adil çarpan: 100 bölü (reel getiri eşiği eksi büyüme payı). Büyüme payı geniş hendekte " + pct(P.gWide, 0) + ", dar hendekte " + pct(P.gNarrow, 1) + ".</li><li>Fiyat, temkinli değerin güvenlik marjı kadar altındaysa şirket kaledir.</li></ul></li></ol>" +
+    "<h3>Varsayımları değiştir</h3>" +
+    '<div class="sl"><label for="sr">Reel getiri eşiği</label><output id="or" for="sr">' + pct(P.r, 1) + '</output><input id="sr" type="range" min="7" max="14" step="0.5" value="' + P.r + '"></div>' +
+    '<div class="sl"><label for="sm">Güvenlik marjı</label><output id="om" for="sm">' + pct(P.mos, 0) + '</output><input id="sm" type="range" min="0" max="50" step="5" value="' + P.mos + '"></div>' +
+    '<p class="note" id="mres"></p><p><button class="link" id="mreset">Başlangıç değerlerine dön (' + pct(P0.r, 0) + " ve " + pct(P0.mos, 0) + ")</button></p>" +
+    "<h3>İlkeler ve kaynakları</h3>" +
+    '<p class="txt">Analist bir kişiyi taklit etmez. Warren Buffett\'ın 1977\'den bu yana yayımlanan ortak mektuplarındaki ilkeleri uygular. Her ilkenin altında hangi mektuba dayandığı ve Castle\'ın onu hangi kurala çevirdiği yazılıdır.</p>' +
+    '<ul class="pr">' + IDX.CH.map(function (p) {
+      return "<li><span><b>" + esc(p.k) + "</b> <small>" + esc(p.w) + "</small></span><span>" + esc(p.t) + '</span><span class="ap">Castle\'da: ' + esc(p.a) + '</span><span class="sr">Kaynak: Berkshire Hathaway ortak mektubu ' + p.src.map(function (s) { return '<a href="' + esc(s.u) + '" target="_blank" rel="noopener">' + esc(s.y) + "</a>"; }).join(", ") + "</span></li>";
+    }).join("") + "</ul>" +
+    "<h3>Enflasyon</h3><p class=\"txt\">" + (M ? esc(M.inflation_note) : "Kârlılık her ülkede enflasyondan arındırılarak okunur. Enflasyon muhasebesi uygulayan şirketlerin rakamları zaten reeldir; diğerlerinin kârlılığı o ülkenin yıllık tüketici enflasyonuyla düzeltilir.") + "</p>" +
+    "<h3>Veri ve sınırlar</h3><ul class=\"ul\">" +
+    (M ? M.data_notes.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "<li>Veri canlı değildir: bu ülke için son güncelleme " + tarih(M.asof) + ".</li>" : "<li>Her ülkenin verisi, o ülkenin yanında yazan tarihin kapanışına aittir.</li>") +
+    "<li>1. sur bilerek katıdır. Geçici bir zarar yılı yaşayan iyi bir şirketi de eler.</li>" +
+    "<li>3. sur yargı içerir; başka bir analist farklı puan verebilir.</li>" +
+    "<li>Castle bir analiz aracıdır. Yatırım tavsiyesi vermez; kimsenin kişisel durumunu bilmez.</li></ul>";
+}
+function methodRes() {
+  if (!C) { $("#mres").textContent = "Sonucu görmek için bir ülkeye gir."; return; }
+  var ks = kales().map(function (u) { return u.c; });
+  $("#mres").textContent = ks.length ? "Bu varsayımlarla " + C.meta.name + " için kale: " + ks.join(", ") + "." : "Bu varsayımlarla " + C.meta.name + " için hiçbir şirket kale değil.";
+  var mk = $("#mk"); if (mk) mk.textContent = ks.length;
+}
+function openMethod() {
+  var sh = $("#sheet"); $("#sheetin").innerHTML = methodHtml(); sh.hidden = false;
+  var upd = function () {
+    P.r = +$("#sr").value; P.mos = +$("#sm").value;
+    $("#or").textContent = pct(P.r, 1); $("#om").textContent = pct(P.mos, 0);
+    methodRes(); ui(); settle();
+  };
+  $("#sr").addEventListener("input", upd); $("#sm").addEventListener("input", upd);
+  $("#mreset").addEventListener("click", function () { $("#sr").value = P0.r; $("#sm").value = P0.mos; upd(); });
+  $("#mclose").addEventListener("click", closeMethod);
+  methodRes();
+  $("#mclose").focus();
+}
+function closeMethod() { $("#sheet").hidden = true; $("#method").focus(); }
+$("#method").addEventListener("click", openMethod);
+$("#sheet").addEventListener("click", function (ev) { if (ev.target === ev.currentTarget) closeMethod(); });
+
+/* ---------- analiste sor (yalnızca Claude içinde açılır) ---------- */
+var sampleFn = null, sampleOff = false, live = null, turns = {};
+function rulesFor(c) {
+  var u = C.byC[c], l = C.L2[c] || null, r = C.R[c] || null, M = C.meta, st = status(u), v = (u.e === 4 || st === "sirada") ? val(c) : null;
+  return "Sen Castle adlı değer yatırımı aracının analistisin. Görevin, aşağıdaki şirketi Warren Buffett'ın ortak mektuplarında yayımlanmış ilkelere göre değerlendirmek.\n\n" +
+    "Kurallar:\n- Yalnızca aşağıda verilen veriyi kullan. Veride olmayan bir rakamı ya da olayı uydurma; bilmiyorsan 'bu veride yok' de.\n- Buffett ya da Munger adına konuşma, onlara söz atfetme. İlkeleri uygula ve kendi adına yaz.\n- Kişiye özel al ya da sat tavsiyesi verme. Şirketin ölçütleri geçip geçmediğini ve nedenini anlat.\n- Sade Türkçe ile, adım adım ve kısa yaz: en çok 180 kelime. Önce sonucu söyle, sonra kanıtı rakamla göster.\n- Madde işareti, başlık ya da Markdown kullanma; düz paragraflar yaz.\n- Ülke: " + M.name + ". Para birimi: " + M.cur + ". Veri tarihi: " + tarih(M.asof) + ". Daha yeni bir gelişmeyi bilemezsin; sorulursa bunu söyle.\n\n" +
+    "İlkeler (her biri için önce ilke, sonra Castle'daki kuralı):\n" + IDX.CH.map(function (p) { return "- " + p.k + " (" + p.w + "): " + p.t + " Castle'da: " + p.a; }).join("\n") + "\n\n" +
+    "Süzgecin eşikleri: " + JSON.stringify({ sur1: "GYO ya da yatırım ortaklığı değil; son 12 ayda net kâr var (F/K hesaplanabiliyor); " + M.small_rule, sur2: "son 12 ay reel özsermaye kârlılığı en az %" + P.roeMin + "; beş yıllık geçmiş var; zarar yılı yok; reel özsermaye kârlılığı ortalaması en az %" + P.eraAvg + " ve hiçbir okuma %" + P.eraMin + " altında değil; net borç/FAVÖK en çok " + P.ndMax + "; serbest nakit akışı beş dönemin en az ikisinde pozitif", sur3: "hendek en az dar (puan 2); hiçbir puan sıfır değil. Puanlar: A anlaşılırlık 0-2, B hendek 0-3, C öngörülebilirlik 0-2, D yönetim ve sermaye tahsisi 0-2, E dayanıklılık 0-2", sur4: "güvenlik marjı en az %" + P.mos + "; reel getiri eşiği %" + P.r + "; temkinli kazanç = özkaynak x son üç özsermaye kârlılığı okumasının en düşüğü; adil çarpan = 100/(getiri eşiği - büyüme payı)", enflasyon: M.inflation_note }) + "\n\n" +
+    "Şirket verisi (JSON; p: fiyat, m: piyasa değeri (milyon, yerel para), f: halka açıklık %, pe: F/K, pb: PD/DD, roe: son 12 ay özsermaye kârlılığı %, rr: aynısının reel hali, nom: 1 ise rakamlar enflasyonla düzeltildi, e: elendiği sur (4 = fiyat aşamasına ulaştı)):\n" +
+    JSON.stringify({ sirket: { c: u.c, n: u.n, s: u.s, p: u.p, m: u.m, f: u.f, pe: u.pe, pb: u.pb, per: u.per, roe: u.roe, rr: u.rr, nom: u.nom, e: u.e, neden: why(u) }, besYil: l ? { yillar: M.years.concat(["son12ay"]), ozsermayeKarliligi: l.roe, reelOzsermayeKarliligi: l.rroe, yatirilanSermayeGetirisi: l.roic, serbestNakitAkisiVerimi: l.fcf, netBorcFavok: l.nd, temettuVerimi: l.dy, temettuOdemeOrani: l.po, elenmeNedenleri: l.fails.map(failText), uyarilar: l.flags.map(flagText) } : "Bu şirket ilk iki elemede kaldığı için beş yıllık veri toplanmadı.", rapor: r ? { ozet: r.one, is: r.business, hendek: r.moat, hendekGerekcesi: r.moat_text, yonetim: r.mgmt, sonGelisme: r.latest, riskler: r.risks, izlenecekler: r.watch, puanlar: r.scores } : "Bu şirket için ayrıntılı rapor yazılmadı.", fiyatTesti: v ? { temkinliOzsermayeKarliligi: v.roeN, temkinliFK: +v.pen.toFixed(2), adilCarpan: +v.fair.toFixed(2), buyumePayi: v.g, guvenlikMarji: +v.mos.toFixed(1), temkinliDeger: +v.iv.toFixed(2), alimEsigi: +v.buy.toFixed(2) } : null, durum: st === "kale" ? "kale: dört suru da geçti" : st === "bekle" ? "kapıda bekliyor: fiyat testini geçemedi" : st === "sirada" ? "2. suru geçti; 3. sur incelemesi sırada" : u.e + ". surda elendi" });
+}
+var ERR = { rate_limited: "Şu an çok fazla istek var ya da kullanım sınırına ulaşıldı. Biraz sonra yeniden dene.", session_expired: "Oturumun kapanmış. Claude'a yeniden giriş yapıp tekrar dene.", refused: "Bu soru yanıtlanamadı. Soruyu değiştirip yeniden dene.", empty_completion: "Yanıt boş geldi. Soruyu sadeleştirip yeniden dene.", upstream_error: "Bağlantı kesildi. Yeniden dene.", prompt_too_large: "Soru çok uzun. Kısaltıp yeniden dene." };
+function tkey(c) { return C.cc + ":" + c; }
+function convHtml(c) {
+  var s = "";
+  (turns[tkey(c)] || []).forEach(function (t) { s += t.role === "user" ? '<p class="qq">' + esc(t.content) + "</p>" : t.role === "note" ? '<p class="er">' + esc(t.content) + "</p>" : '<div class="ans">' + esc(t.content) + "</div>"; });
+  if (live && live.k === tkey(c)) s += '<div class="ans" id="live" aria-live="polite">' + esc(live.text || "Düşünüyor…") + "</div>";
+  return s;
+}
+function wireAsk() {
+  var box = $("#ask"); if (!box) return;
+  if (!sampleFn || sampleOff) { box.hidden = true; return; }
+  box.hidden = false;
+  $("#askout").innerHTML = convHtml(S.sel);
+  $("#askgo").disabled = !!live;
+  $("#askstop").hidden = !(live && live.k === tkey(S.sel));
+}
+function ask() {
+  var c = S.sel, qel = $("#askq"); if (!qel || !sampleFn || sampleOff || !c || live) return;
+  var q = qel.value.trim(); if (!q) { qel.focus(); return; }
+  var key = tkey(c), hist = turns[key] || (turns[key] = []);
+  hist.push({ role: "user", content: q });
+  var msgs = hist.filter(function (t) { return t.role !== "note"; }).slice(-9);
+  while (msgs.length && msgs[0].role !== "user") msgs.shift();
+  live = { k: key, text: "", ctl: new AbortController() };
+  var mine = live;
+  qel.value = ""; wireAsk();
+  sampleFn([{ role: "user", content: rulesFor(c) }].concat(msgs), { cache: false, signal: mine.ctl.signal, onText: function (up) { mine.text = up.text; var el = $("#live"); if (el && live === mine && S.sel && tkey(S.sel) === key) el.textContent = up.text; } })
+    .then(function (res) { hist.push({ role: "assistant", content: res.text }); if (res.truncated) hist.push({ role: "note", content: "Yanıt uzunluk sınırında kesildi. Daha dar bir soru sor." }); })
+    .catch(function (e) {
+      var code = e && e.code, part = e && e.text;
+      if (part) hist.push({ role: "assistant", content: part });
+      if (code === "cancelled") { hist.push({ role: "note", content: "Durduruldu." }); return; }
+      if (code === "not_granted" || code === "sampling_disabled" || code === "not_declared" || code === "capability_disabled" || code === "capability_removed") { sampleOff = true; hist.pop(); return; }
+      hist.push({ role: "note", content: ERR[code] || ERR.upstream_error });
+    })
+    .then(function () { if (live === mine) live = null; if (S.sel && C) wireAsk(); });
+}
+(function () {
+  try {
+    if (window.claude && typeof window.claude.use === "function") window.claude.use("sample").then(function (f) { sampleFn = f || null; if (S.sel && C) wireAsk(); }).catch(function () {});
+  } catch (e) {}
+})();
+
+/* ---------- başlat ---------- */
+function fromHash() { // #tr ülkeyi, #tr-froto şirketi açar
+  var h = (location.hash || "").replace("#", "").toLowerCase(); if (!h) return;
+  var parts = h.split("-"), cc = parts[0].toUpperCase(), rest = parts.slice(1).join("-");
+  if (!CTRY[cc]) { // eski bağlantılar: yalnızca hisse kodu
+    var d = IDX.countries[0]; if (!d) return; rest = h; cc = d.cc;
+  }
+  loadCountry(cc).then(function (c) {
+    var code = rest ? c.bySlug[rest] : null;
+    if (C === c && (code || null) === S.sel) return;
+    enter(cc, 1, code);
+  }).catch(function () {});
+}
+readTokens();
+if (window.matchMedia) { var mq = window.matchMedia("(prefers-color-scheme: dark)"); var re = function () { readTokens(); draw(); }; if (mq.addEventListener) mq.addEventListener("change", re); }
+new MutationObserver(function () { readTokens(); draw(); }).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+if (window.ResizeObserver) new ResizeObserver(resize).observe(mapEl); else window.addEventListener("resize", resize);
+ui(); resize();
+if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { draw(); });
+window.addEventListener("hashchange", fromHash); fromHash();
+})();
+</script>
