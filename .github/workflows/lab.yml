@@ -1,0 +1,29 @@
+# Yoklama: pipeline/lab.py betiğini GitHub'ın makinesinde çalıştırır, çıktıyı data/_probe altına yazar.
+# Alper'in onayıyla (11 Kasım 2026): veri GitHub üzerinde toplanır.
+name: lab
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: castle-data
+  cancel-in-progress: false
+jobs:
+  lab:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - run: python3 pipeline/lab.py || true
+      - name: Sonucu depoya yaz
+        run: |
+          git config user.name "castle-bot"
+          git config user.email "castle-bot@users.noreply.github.com"
+          git add data/_probe
+          git commit -m "Yoklama çıktısı (lab)" || echo "değişiklik yok"
+          git pull --rebase origin main
+          git push
