@@ -105,7 +105,17 @@ def universe(cc):
     print(f"{cc}: {len(out)} şirket yazıldı (tarayıcı toplamı {total}). F/K dolu: {sum(1 for u in out if u['pe'])}, PD/DD dolu: {sum(1 for u in out if u['pb'])}")
 
 
+def dump(market, names):
+    """Seçilen hisselerin bütün alanlarını olduğu gibi yazar (alanları ve birimleri görmek için)."""
+    total, rows = scan(market)
+    want = set(names.split(","))
+    print(json.dumps([r for r in rows if r["name"] in want], ensure_ascii=False, indent=1))
+
+
 if __name__ == "__main__":
-    if len(sys.argv) < 3 or sys.argv[1] not in ("probe", "universe"):
+    if len(sys.argv) < 3 or sys.argv[1] not in ("probe", "universe", "dump"):
         raise SystemExit(__doc__)
-    (probe if sys.argv[1] == "probe" else universe)(sys.argv[2])
+    if sys.argv[1] == "dump":
+        dump(sys.argv[2], sys.argv[3])
+    else:
+        (probe if sys.argv[1] == "probe" else universe)(sys.argv[2])
