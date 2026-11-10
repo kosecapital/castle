@@ -1,0 +1,104 @@
+çalıştırma: 2026-11-10T22:25:12Z
+erişim scanner.tradingview.com -> 200
+erişim stockanalysis.com -> 200
+erişim api.worldbank.org -> 200
+erişim www.imf.org -> 403
+metainfo GET 200 190229
+alan sayısı 3786
+  _h ile bitenler: capital_expenditures_unchanged_fq_h capital_expenditures_unchanged_fy_h capital_expenditures_unchanged_ttm_h dps_common_stock_prim_issue_fy_h earnings_fq_h earnings_per_share_basic_fy_h earnings_per_share_diluted_fq_h earnings_per_share_diluted_fy_h earnings_per_share_diluted_ttm_h ebitda_fq_h ebitda_fy_h ebitda_ttm_h fiscal_period_end_fh_h fiscal_period_fy_h free_cash_flow_fq_h free_cash_flow_fy_h free_cash_flow_ttm_h gross_profit_fq_h gross_profit_fy_h gross_profit_ttm_h net_income_fq_h net_income_fy_h net_income_ttm_h revenues_fq_h total_assets_fq_h total_assets_fy_h total_debt_fq_h total_debt_fy_h total_revenue_fq_h total_revenue_fy_h total_revenue_ttm_h
+aday sorgusu 200
+  total_equity_fy_h                      None | None | None | None | None
+  shrhldrs_equity_fy_h                   None | None | None | None | None
+  total_shrhldrs_equity_fy_h             None | None | None | None | None
+  common_equity_total_fy_h               None | None | None | None | None
+  book_value_per_share_fy_h              None | None | None | None | None
+  total_assets_fy_h                      [450780450000, 326770164000, 2 | [3558949685000, 2653105361000, | [404548000000, 359241000000, 3 | [105522331000000, 936013500000 | [61532780156.8714, 65938298466
+  total_liabilities_fy_h                 None | None | None | None | None
+  net_debt_fy_h                          None | None | None | None | None
+  cash_n_equivalents_fy_h                None | None | None | None | None
+  cash_n_short_term_invest_fy_h          None | None | None | None | None
+  total_revenue_fy_h                     [830827933000, 594995138000, 4 | [802127758000, 608864676000, 3 | [478834000000, 416161000000, 3 | [50684952000000, 4803670400000 | [43248344669.042496, 444244031
+  earnings_per_share_basic_fy_h          [9.6851, 11.0751, 13.9796, 5.3 | [11.0105, 8.1473, 12.7877, 11. | [9.0148, 7.4931, 6.109, 6.1607 | [295.2518, 359.5625, 365.9431, | [2.3903, 2.469, 2.5228, 2.8786
+  dps_common_stock_prim_issue_fy_h       [6.71, 7.76, 8.731, 1.995, 1.6 | [2.2018, 1.222, 1.9175, 1.73,  | [1.06, 1.02, 0.98, 0.94, 0.9,  | [95, 90, 75, 60, 52, 48, 44, 4 | [1.7249375, 1.6659, 1.67006, 1
+  capital_expenditures_unchanged_fy_h    [31127870000, 40881952000, 320 | [13688652000, 10038329000, 734 | [9041000000, 12715000000, 9447 | [5293348000000, 5257927000000, | [1362456019.80965, 1366279590.
+  return_on_equity_fy_h                  None | None | None | None | None
+  return_on_invested_capital_fy_h        None | None | None | None | None
+  fiscal_period_fy_h                     [2025, 2024, 2023, 2022, 2021, | [2025, 2024, 2023, 2022, 2021, | [2026, 2025, 2024, 2023, 2022, | [2025, 2024, 2023, 2022, 2021, | [2025, 2024, 2023, 2022, 2021,
+  fiscal_period_end_fh_h                 None | [1782777600, 1767139200, 17512 | None | None | [1782777600, 1767139200, 17512
+  net_income_ttm_h                       [29975014000, 31633591000, 326 | [64281516000, 66745604000.0000 | [132175000000, 128930000000, 1 | [4311117000000, 4483796000000, | [4866715800.94413, 5208546387.
+  net_income_fq_h                        [4452207000, 5498818000, 11622 | [11600000000, 15198000000, 191 | [30711000000, 29789000000, 295 | [759402000000, 1477044000000,  | None
+  total_assets_fq_h                      [489237014000, 458578236000, 4 | [4197902000000, 4012479000000, | [404548000000, 383266000000, 3 | [101980759000000, 102635116000 | None
+  total_debt_fq_h                        [168024403000, 163126066000, 1 | [1047166000000, 1021978000000, | [85764000000, 84344000000, 847 | [43199819000000, 4395316800000 | None
+  net_income_ttm                         630374544.42 | 1286273135.16 | 132175000000 | 27388526301 | 6451805137.311633
+  free_cash_flow_ttm                     790521506.43 | 240914717.16 | 136056000000 | -5137143801 | 8315743379.445001
+  ebitda_ttm                             990509635.2 | None | 171486000000 | 41299836520 | 12026284191.081001
+  ebitda_fy                              1198611425.44 | None | 171486000000 | 38787713030 | 13146154015.84
+  net_debt_fq                            2354981039.4 | 9929342190 | 29042000000 | 214193523255 | 29761887190.97387
+  net_debt_fy                            2269547646.08 | 9837577944.48 | 29042000000 | 192377744406 | 26508535791.531788
+  total_debt_fq                          3533553195.09 | 20953791660 | 85764000000 | 274448450107 | 36668490434.4321
+  total_debt_fy                          3733271942.4 | 22637410635.84 | 85764000000 | 272108043762 | 32463104603.457115
+  total_liabilities_fy                   6744103331.68 | 74332099418.72 | 292455000000 | 406235252374 | 62208893135.09536
+  total_liabilities_fq                   6520263195.03 | 77391516420 | 292455000000 | 404523304375 | 66948829654.59405
+  total_assets_fy                        10313856696 | 81428768792.8 | 404548000000 | 664579640638 | 82896961427.33714
+  total_assets_fq                        10288654404.42 | 84000019020 | 404548000000 | 647883761927 | 87854779650.95493
+  shrhldrs_equity_fq                     3768391209.39 | 6608502600 | 112093000000 | 237900987943 | 18492978327.47407
+  shrhldrs_equity_fy                     3569753364.32 | 7097084783.360001 | 112093000000 | 251408942492 | 18268363028.288845
+  total_equity_fq                        3768391209.39 | 6608502600 | 112093000000 | 243360444846 | 20905949996.36087
+  total_equity_fy                        3569753364.32 | 7096669374.08 | 112093000000 | 258344388264 | 20688068292.241917
+  book_value_per_share_fq                1.0738910616000001 | 1.2708659154 | 7.71339 | 20.19833526695 | 8.588202768
+  book_value_per_share_fy                1.0172846112 | 1.364824032 | 7.71339 | 19.289612963699998 | 8.381968544
+  return_on_equity                       18.7548843037694 | 21.1572952542071 | 142.256734794916 | 11.5056469148636 | 30.9131820727487
+  return_on_equity_fq                    18.7548843037694 | 21.1572952542071 | 142.256734794916 | 11.5056469148636 | 30.9131820727487
+  return_on_equity_fy                    25.0594393405172 | 20.7988151870935 | 142.256734794916 | 10.1474428739144 | 32.343493422827
+  return_on_common_equity_fy             25.0594393405172 | 20.7988151870935 | 142.256734794916 | 10.1474428739144 | 32.343493422827
+  return_on_common_equity_ttm            18.7548843037694 | 21.1572952542071 | 142.256734794916 | 11.5056469148636 | 30.9131820727487
+  return_on_invested_capital_fy          15.1060835571785 | 11.671652898468 | 76.1017261431812 | 6.18508958915815 | 13.4678978631257
+  net_debt_to_ebitda_fq                  2.3775448069462657 | None | 0.16935493276419067 | 5.186304385279441 | None
+  net_debt_to_ebitda_fy                  1.8934807377185385 | None | 0.16935493276419067 | 4.959759918229961 | 2.0164479862012303
+  debt_to_equity_fq                      0.937682156323145 | 3.1707321504269403 | 0.765114681559063 | 1.15362467587884 | 1.9828331480795403
+  total_assets_to_equity_fy              2.88923509368684 | 11.4735516452783 | 3.60903892303712 | 2.64342085070879 | 4.53773341918868
+  price_earnings_ttm                     8.885402886877936 | 5.719231827080199 | 38.83336119003844 | 9.891297136130497 | 22.145995874809437
+  price_book_fq                          1.4863490879808996 | 1.1131835253876698 | 45.18246840883191 | 1.0738083962537925 | 7.623984292029934
+  price_book_ratio                       1.7070856876046687 | 1.1852194583865592 | 45.18246840883191 | 1.1146606228161333 | 7.938255512498855
+  dividends_yield                        9.012760241773002 | 3.1033121916842843 | 0.3079642989534917 | 2.9291154071470418 | 3.2520341741253054
+  dividends_yield_current                13.0154466084621 | 3.10331219168428 | 0.302261256380279 | 2.86450873675165 | 3.35618389023983
+  dividends_yield_fy                     7.24230976794388 | 3.15444126074499 | 0.310786632926184 | 3.00442757748261 | 3.54961933966248
+  dividend_payout_ratio_fy               69.2816801065554 | 19.9972753280959 | 11.8051920571104 | 32.1759257691232 | 72.16405890474
+  dividend_payout_ratio_ttm              0 | 0 | 11.81124296618196 | 28.97274244390877 | 73.83093929573991
+  dividend_payout_ratio_percent_fy       69.2816801065554 | None | 11.8051920571104 | 32.1759257691232 | 72.16405890474
+  fiscal_period_current                  2026-Q2 | 2026-Q3 | 2026-Q4 | 2026-Q2 | 2026-H1
+  fiscal_period_end_current              1782777600 | 1790726400 | 1790726400 | 1790726400 | 1782777600
+  fiscal_period_end_fy                   1767139200 | 1767139200 | 1790726400 | 1774915200 | 1767139200
+  fiscal_period_end_fq                   1782777600 | 1790726400 | 1790726400 | 1790726400 | None
+  fiscal_period_fy                       2025 | 2025 | 2026 | 2025 | 2025
+  most_recent_quarter_date               1782777600 | 1790726400 | 1790726400 | 1790726400 | 1782777600
+  earnings_release_date                  1793903640 | 1793102400 | 1793655000 | 1793854680 | 1785221400
+  earnings_release_trading_date_fq       1793836800 | 1793059200 | 1793577600 | 1793836800 | 1785196800
+  earnings_release_trading_date_fy       1770681600 | 1769990400 | 1793577600 | 1778198400 | 1770854400
+  float_shares_percent_current           17.892300000000002 | 59.2495 | 99.8804 | 60.46050000000004 | 95.9799
+  exchange                               BIST | BIST | NASDAQ | TSE | LSE
+  country                                Turkey | Turkey | United States | Japan | United Kingdom
+  currency                               TRY | TRY | USD | JPY | GBX
+  fundamental_currency_code              USD | USD | USD | USD | USD
+  is_primary                             True | True | True | True | True
+  type                                   stock | stock | stock | stock | stock
+  typespecs                              ['common'] | ['common'] | ['common'] | ['common'] | ['common']
+  isin                                   TRAOTOSN91H6 | TRAAKBNK91N6 | US0378331005 | JP3633400001 | GB00BVZK7T90
+  submarket                              STARS | STARS |  |  | 
+  update_mode                            delayed_streaming_900 | delayed_streaming_900 | delayed_streaming_900 | delayed_streaming_1200 | streaming
+america toplam 7431 {'NASDAQ': 3127, 'NYSE': 1607, 'OTC': 2487, 'AMEX': 209, 'CBOE': 1}
+    NASDAQ | F/K dolu 1270 | ≥60 mn $ 2220
+    NYSE | F/K dolu 1196 | ≥60 mn $ 1577
+    OTC | F/K dolu 384 | ≥60 mn $ 331
+    AMEX | F/K dolu 59 | ≥60 mn $ 99
+    CBOE | F/K dolu 1 | ≥60 mn $ 1
+    ülke (ilk 8): [('United States', 6252), ('Canada', 228), ('China', 193), ('Hong Kong', 108), ('Israel', 100), ('Singapore', 87), ('United Kingdom', 66), ('Bermuda', 36)]
+forex 200 {"totalCount":6,"data":[{"s":"FX_IDC:USDTRY","d":[50.2097,"U.S. DOLLAR / TURKISH LIRA","USDTRY","TRY"]},{"s":"FX_IDC:USDJPY","d":[158.706,"U.S. DOLLAR / JAPANESE YEN","USDJPY","JPY"]},{"s":"FX_IDC:USDEUR","d":[0.8953,"U.S. DOLLAR / EURO","USDEUR","EUR"]},{"s":"FX_IDC:USDCNY","d":[6.6698,"U.S. DOLLAR / CHINESE YUAN","USDCNY","CNY"]},{"s":"FX_IDC:USDTWD","d":[32.937,"U.S. DOLLAR / TAIWAN NEW DOLLAR","USDTWD","TWD"]},{"s":"FX_IDC:USDKRW","d":[1342.92,"U.S. DOLLAR / SOUTH KOREAN WON","USDKRW","KRW"]}]}
+global 200 {"totalCount":4,"data":[{"s":"FX_IDC:USDTRY","d":[50.2097,"U.S. DOLLAR / TURKISH LIRA","USDTRY","TRY"]},{"s":"ECONOMICS:TRIRYY","d":[29.77,"Turkey Inflation Rate YoY","TRIRYY",null]},{"s":"ECONOMICS:USIRYY","d":[3.7,"United States Inflation Rate YoY","USIRYY",null]},{"s":"ECONOMICS:JPIRYY","d":[2.1,"Japan Inflation Rate YoY","JPIRYY",null]}]}
+economics 404 404 page not found
+
+turkey_scan.json 619 satır
+worldbank 200 4193
+    [{"page":1,"pages":1,"per_page":200,"total":18,"sourceid":"2","lastupdated":"2026-10-08"},[{"indicator":{"id":"FP.CPI.TOTL.ZG","value":"Inflation, consumer prices (annual %)"},"country":{"id":"JP","value":"Japan"},"countryiso3code":"JPN","date":"2025","value":3.17253034260247,"unit":"","obs_status":"","decimal":1},{"indicator":{"id":"FP.CPI.TOTL.ZG","value":"Inflation, consumer prices (annual %)"}
+stockanalysis 200 182432
+    'Return on Equity' sayfada var mı: True
