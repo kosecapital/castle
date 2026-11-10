@@ -11,28 +11,28 @@ turkey: toplam 619, gelen 619
   fundamental_currency_code              dolu %100.0   örnek: TRY
   close                                  dolu %100.0   örnek: 337
   market_cap_basic                       dolu % 99.0   örnek: 1540140000000
-  price_earnings_ttm                     dolu % 48.3   örnek: 35.26469449473122
-  price_book_fq                          dolu % 96.8   örnek: 4.5875668498335544
+  price_earnings_ttm                     dolu % 47.7   örnek: 35.26469449473122
+  price_book_fq                          dolu % 96.4   örnek: 4.5875668498335544
   price_book_ratio                       dolu % 96.8   örnek: 6.136316542161957
   return_on_equity                       dolu % 90.0   örnek: 16.7174759121432
   return_on_equity_fy                    dolu % 96.0   örnek: 15.3300595731883
-  return_on_invested_capital             dolu % 90.6   örnek: 16.0962036153975
+  return_on_invested_capital             dolu % 90.5   örnek: 16.0962036153975
   return_on_invested_capital_fy          dolu % 96.1   örnek: 14.7718345952905
   net_income                             dolu % 96.8   örnek: 29949517000
   net_income_fy                          dolu % 96.8   örnek: 29949517000
   total_equity_fq                        dolu % 98.1   örnek: 340068373000
   total_equity_fy                        dolu % 96.8   örnek: 251786294000
-  net_debt                               dolu % 98.1   örnek: 60351490000
-  total_debt                             dolu % 98.1   örnek: 92196652000
-  ebitda                                 dolu % 89.0   örnek: 63644431000
-  free_cash_flow                         dolu % 89.0   örnek: 11621019000
+  net_debt                               dolu % 97.9   örnek: 60351490000
+  total_debt                             dolu % 97.9   örnek: 92196652000
+  ebitda                                 dolu % 88.9   örnek: 63644431000
+  free_cash_flow                         dolu % 88.9   örnek: 11621019000
   free_cash_flow_fy                      dolu % 94.8   örnek: 35000402000
   float_shares_percent_current           dolu % 91.3   örnek: 25.8048
   float_shares_outstanding               dolu % 91.3   örnek: 1176698880
   total_shares_outstanding               dolu % 98.1   örnek: 4560000000
   dividend_yield_recent                  dolu %  0.0   örnek: None
   dividends_yield_current                dolu % 98.1   örnek: 0.0694741672834937
-  dividend_payout_ratio_ttm              dolu % 92.9   örnek: 2.4554377740338835
+  dividend_payout_ratio_ttm              dolu % 91.4   örnek: 2.4554377740338835
   fiscal_period_current                  dolu % 98.1   örnek: 2026-Q3
   fiscal_period_end_current              dolu % 98.1   örnek: 1790726400
   earnings_release_date                  dolu % 16.0   örnek: 1793115240
