@@ -53,7 +53,8 @@ def country(cc):
     m = {k: meta[k] for k in META_KEYS if k in meta}
     m.setdefault("en", {}).setdefault("name", NAME_EN.get(cc) or meta["name"])
     doc = dict(v=2, cc=cc, meta=m, W=geo["W"], sectors=sectors, sectors_en=[SEC_EN.get(x, x) for x in sectors], whys=whys, pers=pers, cols=COLS, rows=rows,
-               L2=core["L2"], R=core["R"], N=core.get("N", {}), pc={u["c"]: u["pc"] for u in core["U"] if u.get("pc")})
+               L2=core["L2"], R=core["R"], N=core.get("N", {}), pc={u["c"]: u["pc"] for u in core["U"] if u.get("pc")},
+               ps={u["c"]: u["pes"] for u in core["U"] if u.get("pes")})
     kl = kale_list(core)
     U = core["U"]
     idx = dict(cc=cc, iso=meta["iso"], name=meta["name"], name_en=m["en"]["name"], cur=meta["cur"], asof=meta["asof"], n=len(U),

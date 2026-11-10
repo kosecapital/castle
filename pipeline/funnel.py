@@ -72,7 +72,9 @@ def run(cc):
         if u.get("veh"):
             e, w = 1, "vehicle"
         elif not pe or pe <= 0:
-            e, w = 1, "noprofit"
+            # kural aynı: pozitif F/K yoksa şirket 1. surda kalır. Yalnız neden doğru adlandırılır:
+            # "noprofit" zarar olduğu biliniyor, "nodata" kaynak son 12 ayın kârını vermiyor, "nope" hangisi olduğu bilinmiyor
+            e, w = 1, {"loss": "noprofit", "nodata": "nodata"}.get(u.get("np"), "nope")
         elif not pb or pb <= 0:
             e, w = 1, "equity"
         elif u["m"] < mcap_min:
@@ -149,6 +151,8 @@ def run(cc):
                       roe=None if roe is None else round(roe, 1), rr=None if rr is None else round(rr, 1)))
         if u.get("pc"):
             U[-1]["pc"] = u["pc"]             # fiyatı ülkenin olağan biriminden farklı yazılan pay
+        if u.get("pes"):
+            U[-1]["pes"] = u["pes"]           # F/K, kaynağın başka bir son 12 ay alanından hesaplandı ("eps" ya da "roe")
 
     R = {c: r for c, r in reports.items() if c in L2 and L2[c]["ok"]}
     # 2. surda elenen ama açıklama gerektiren şirketler için kısa not (raporun tamamı gösterilmez)

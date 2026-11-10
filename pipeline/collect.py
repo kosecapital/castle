@@ -31,6 +31,8 @@ COLUMNS = [
     "name", "description", "exchange", "sector", "industry", "currency", "fundamental_currency_code",
     "close", "market_cap_basic", "price_earnings_ttm", "price_book_fq", "float_shares_percent_current", "total_shares_outstanding",
     "fiscal_period_current", "fiscal_period_end_current",
+    # F/K boş geldiğinde nedenini ayırmak için (zarar mı, kaynakta veri mi yok): son 12 ay hisse başına kâr ve özsermaye kârlılığı
+    "earnings_per_share_diluted_ttm", "earnings_per_share_basic_ttm", "return_on_equity", "net_income",
 ]
 # probe komutu için: geçmiş dizileri dahil geniş liste
 PROBE = COLUMNS + ["country", "type", "typespecs", "return_on_equity", "return_on_equity_fy", "net_income_fy", "total_equity_fq", "net_debt", "ebitda",
@@ -139,8 +141,62 @@ def fx_rates(curs):
     return out
 
 
+def _median(xs):
+    xs = sorted(xs)
+    return None if not xs else (xs[len(xs) // 2] if len(xs) % 2 else (xs[len(xs) // 2 - 1] + xs[len(xs) // 2]) / 2)
+
+
+def pe_checks(rows):
+    """F/K'sı dolu şirketlerde aynı kaynağın öbür alanları F/K ile tutuyor mu? Tutmuyorsa o yol kullanılmaz.
+    Döner: (hisse başına kâr yolu kullanılabilir mi, özsermaye kârlılığı ölçeği ya da None, özet)."""
+    e_r, r_r = [], []
+    for r in rows:
+        pe, pb, close, cur = r.get("price_earnings_ttm"), r.get("price_book_fq"), r.get("close"), r.get("currency")
+        if not pe or pe <= 0 or not close:
+            continue
+        eps = r.get("earnings_per_share_diluted_ttm")
+        pmaj, pdiv = MINOR.get(cur, (cur, 1.0))
+        if eps and eps > 0 and r.get("fundamental_currency_code") == pmaj:
+            e_r.append(close / pdiv / eps / pe)
+        roe = r.get("return_on_equity")
+        if roe and roe > 0 and pb and pb > 0:
+            r_r.append(roe / (pb / pe * 100.0))
+    em, rm = _median(e_r), _median(r_r)
+    eps_ok = bool(em and len(e_r) >= 30 and 0.95 < em < 1.05)
+    scale = None
+    if rm and len(r_r) >= 30:
+        scale = 1.0 if 0.6 < rm < 1.6 else 100.0 if 0.006 < rm < 0.016 else None
+    near = lambda xs, m, tol: None if not xs or not m else round(100 * sum(1 for x in xs if abs(x / m - 1) <= tol) / len(xs), 1)
+    return eps_ok, scale, dict(eps_n=len(e_r), eps_med=None if em is None else round(em, 4), eps_within5=near(e_r, em, 0.05),
+                               roe_n=len(r_r), roe_med=None if rm is None else round(rm, 4), roe_within25=near(r_r, rm, 0.25), roe_scale=scale, eps_ok=eps_ok)
+
+
+def pe_fallback(r, close, pb, cur, eps_ok, roe_scale):
+    """Kaynağın F/K alanı boşsa nedenini aynı kaynağın son 12 ay alanlarından ayırır.
+    Döner: (F/K ya da None, nasıl bulundu: "eps" | "roe" | None, boşsa neden: "loss" | "nodata" | None).
+    Kâr varsa F/K aynı büyüklükten hesaplanır: fiyat ÷ hisse başına kâr (para birimi aynıysa), yoksa PD/DD ÷ özsermaye kârlılığı."""
+    eps = r.get("earnings_per_share_diluted_ttm")
+    if eps is None:
+        eps = r.get("earnings_per_share_basic_ttm")
+    roe = r.get("return_on_equity")
+    if (eps is not None and eps <= 0) or (eps is None and roe is not None and roe <= 0):
+        return None, None, "loss"
+    pmaj, pdiv = MINOR.get(cur, (cur, 1.0))
+    if eps_ok and eps is not None and eps > 0 and close and r.get("fundamental_currency_code") == pmaj:
+        pe = close / pdiv / eps
+        if 0.2 < pe < 5000:
+            return pe, "eps", None
+    if roe_scale and roe is not None and roe > 0 and pb and pb > 0:
+        pe = pb / (roe * roe_scale / 100.0)
+        if 0.2 < pe < 5000:
+            return pe, "roe", None
+    return None, None, "nodata"
+
+
 def universe_tv(k, st):
     total, rows = tv_scan(k["market"], COLUMNS)
+    eps_ok, roe_scale, pe_chk = pe_checks(rows)
+    fix = collections.Counter()
     mode = lambda key: (collections.Counter(r[key] for r in rows if r.get(key)).most_common(1) or [(None, 0)])[0][0]
     main, pcur = mode("fundamental_currency_code"), mode("currency")
     majors = set(MINOR.get(r["currency"], (r["currency"],))[0] for r in rows if r.get("currency")) | {main}
@@ -169,6 +225,10 @@ def universe_tv(k, st):
             else:
                 excl["kur bulunamadı: " + str(mcur)] += 1; continue
         pb, pe, fl = r.get("price_book_fq"), r.get("price_earnings_ttm"), r.get("float_shares_percent_current")
+        pes = why_none = None
+        if pe is None or pe <= 0:                          # kaynak F/K vermedi: zarar mı, veri mi eksik?
+            pe, pes, why_none = pe_fallback(r, close, pb, cur, eps_ok, roe_scale)
+            fix[pes or why_none] += 1
         c = r["name"]
         if c in seen:                                      # aynı kod iki borsada: ikincisine borsa eki
             c = c + ":" + str(r.get("exchange"))
@@ -179,10 +239,18 @@ def universe_tv(k, st):
                  nom=0, fin=1 if r.get("industry") in FIN_INDUSTRIES else 0, veh=1 if r.get("industry") in VEHICLE_INDUSTRIES else 0, x=r.get("exchange"))
         if cur != pcur:
             u["pc"] = cur
+        if pes:
+            u["pes"] = pes                                 # F/K kaynağın F/K alanından değil, aynı kaynağın başka alanından hesaplandı
+        if why_none:
+            u["np"] = why_none                             # F/K yok: "loss" zarar, "nodata" kaynakta son 12 ay kârı yok
         out.append(u)
     st.update(source="TradingView tarayıcısı", market=k["market"], total=total, kept=len(out), excluded=dict(excl), mcap_check=dict(chk),
               cur=main, pcur=pcur, exchanges=dict(collections.Counter(u["x"] for u in out).most_common()),
               periods=dict(collections.Counter(str(u["per"]) for u in out).most_common(6)))
+    big = sorted(out, key=lambda u: -u["m"])
+    st["pe_fix"] = dict(pe_chk, counts=dict(fix),
+                        nodata_top=[u["c"] for u in big if u.get("np") == "nodata"][:15],
+                        fixed_top=[[u["c"], u["pe"], u["pes"]] for u in big if u.get("pes")][:15])
     return out, fx.get(main)
 
 
