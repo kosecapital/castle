@@ -33,7 +33,7 @@ button,input,textarea{font:inherit;color:inherit}
 button{cursor:pointer}
 button[disabled]{cursor:default}
 :focus-visible{outline:2px solid var(--brass);outline-offset:2px}
-#app{height:100%;display:grid;grid-template-rows:auto minmax(0,1fr)}
+#app{height:100%;display:grid;grid-template-rows:auto minmax(0,1fr);overflow:hidden}
 
 /* üst şerit */
 .bar{display:flex;align-items:center;gap:14px;padding-block:9px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));background:var(--paper);border-bottom:1px solid var(--line);position:relative;z-index:5}
@@ -212,7 +212,19 @@ figure{margin:0}
   .mark{font-size:22px}
   .bar{gap:9px}
 }
+@media (max-width:860px) and (max-height:520px){ .stage{grid-template-rows:minmax(150px,40%) minmax(0,1fr)} }
 @media (prefers-reduced-motion:reduce){ .pin i{animation:none} }
+
+/* başka bir sitenin içinde (çerçevede) açıldığında: o sayfanın kaydırmasına karışma, tam ekran bağlantısı göster */
+.full{display:inline-flex;align-items:center;gap:7px;text-decoration:none;color:inherit}
+.full svg{width:14px;height:14px;flex:none}
+html.embed .map{touch-action:pan-y}
+.tiny{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;padding:14px 16px;text-align:center;min-height:0;overflow:auto;background:var(--paper)}
+.tiny p{margin:0;font-size:14px;line-height:1.4;color:var(--ink-2);max-width:44ch}
+.tiny .cta{display:inline-flex;align-items:center;text-decoration:none;align-self:center;flex:none}
+#app.is-tiny .stage{display:none}
+@media (max-width:560px){ .full span{display:none} .full{padding:0 10px} }
+@media (max-width:480px){ html.embed .mark{font-size:0;gap:0} }  /* dar çerçevede arama kutusuna yer açmak için yazı gizlenir, simge kalır */
 </style>
 
 <div id="app" lang="tr">
@@ -228,6 +240,7 @@ figure{margin:0}
     </div>
     <div class="lang" id="lang" role="group" aria-label="Dil"><button data-lang="tr" aria-pressed="true" title="Türkçe">TR</button><button data-lang="en" aria-pressed="false" title="English">EN</button></div>
     <button class="ghost" id="method">Yöntem</button>
+    <a class="ghost full" id="full" href="./" target="_blank" rel="noopener" hidden><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M9.5 2H14v4.5M14 2 8.8 7.2M6.5 14H2V9.5M2 14l5.2-5.2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span id="fullt">Tam ekran</span></a>
   </header>
   <main class="stage">
     <section class="map" id="map" aria-label="Harita">
@@ -244,6 +257,7 @@ figure{margin:0}
     </section>
     <aside class="side" id="side"><div class="side-in" id="panel"></div></aside>
   </main>
+  <div class="tiny" id="tiny" hidden><p id="tinyt"></p><a class="cta" id="tinyb" href="./" target="_blank" rel="noopener"></a></div>
   <div class="sheet" id="sheet" hidden><div class="sheet-in" id="sheetin" role="dialog" aria-modal="true" aria-label="Yöntem"></div></div>
 </div>
 
@@ -264,6 +278,10 @@ var QUEUE = {}; IDX.queue.forEach(function (k, i) { QUEUE[k.iso] = { k: k, i: i 
 var C = null, CACHE = {}, F50 = null, want50 = false;
 /* Veri dosyaları: sayfaya gömülüyse oradan, değilse yanındaki data/ klasöründen okunur */
 var INLINE = (function () { var el = document.getElementById("castle-inline"); try { return el ? JSON.parse(el.textContent) : {}; } catch (e) { return {}; } })();
+/* Gömülü kullanım: sayfa başka bir sitenin içinde (çerçevede) açıldıysa o sitenin kaydırmasına karışmaz.
+   Claude'daki sayfa da bir çerçevede açılır ama tek başınadır; orada davranış değişmez. */
+var EMBED = (function () { if (document.getElementById("castle-inline")) return false; try { return window.self !== window.top; } catch (e) { return true; } })();
+if (EMBED) document.documentElement.classList.add("embed");
 function getJSON(p) { return INLINE[p] ? Promise.resolve(INLINE[p]) : fetch(p).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }); }
 var esc = function (s) { return String(s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); };
 var clamp = function (x, a, b) { return Math.max(a, Math.min(b, x)); };
@@ -747,8 +765,12 @@ function endPointer(ev) {
 cv.addEventListener("pointerup", endPointer);
 cv.addEventListener("pointercancel", endPointer);
 cv.addEventListener("pointerleave", function () { if (S.hover) { S.hover = null; if (!anim) draw(); } $("#tip").hidden = true; });
-var wheelAt = 0;
+var wheelAt = 0, wheelHint = false;
 mapEl.addEventListener("wheel", function (ev) {
+  if (EMBED && !(ev.ctrlKey || ev.metaKey)) { // gömülüyken tekerlek üst sayfayı kaydırır; yaklaşmak için düğme ya da Ctrl + tekerlek
+    if (!wheelHint && Math.abs(ev.deltaY) >= 8) { wheelHint = true; toast(L("Yaklaşmak için alttaki Yaklaş düğmesine bas. Tekerlekle yaklaşmak için Ctrl tuşunu basılı tut.", "To zoom in, press Zoom in below. To zoom with the wheel, hold Ctrl.")); }
+    return;
+  }
   ev.preventDefault();
   var now = Date.now(); if (anim || now - wheelAt < 1400 || Math.abs(ev.deltaY) < 8) return; wheelAt = now;
   go(S.step + (ev.deltaY < 0 ? 1 : -1), true);
@@ -985,6 +1007,11 @@ function applyStatic() { // sayfanın sabit yazıları
   set("#q", "placeholder", narrow ? L("Ara", "Search") : L("Hisse, ülke ara", "Search stock or country"));
   set("#q", "aria-label", L("Ara: hisse kodu, şirket adı ya da ülke", "Search: ticker, company name or country"));
   set("#method", "text", L("Yöntem", "Method"));
+  set("#fullt", "text", L("Tam ekran", "Full screen"));
+  set("#full", "title", L("Castle'ı yeni sekmede tam ekran aç", "Open Castle full screen in a new tab"));
+  set("#full", "aria-label", L("Castle'ı yeni sekmede tam ekran aç", "Open Castle full screen in a new tab"));
+  set("#tinyt", "text", L("Bu alan Castle için küçük. Haritayı ve raporları görmek için tam ekran aç.", "This frame is too small for Castle. Open it full screen to see the map and the reports."));
+  set("#tinyb", "text", L("Tam ekran aç", "Open full screen"));
   set("#map", "aria-label", L("Harita", "Map"));
   set("#cv", "aria-label", L("Dünya haritası. Bir ülke seçilince şirketleri görünür; süzgeçte ilerleyen şirket merkeze yaklaşır. Aynı bilgi yandaki listelerde de var.", "World map. Selecting a country shows its companies; a company that advances through the filter moves toward the centre. The same information is in the lists alongside."));
   set("#rail", "aria-label", L("Surlar", "Walls"));
@@ -1226,6 +1253,17 @@ readTokens();
 if (window.matchMedia) { var mq = window.matchMedia("(prefers-color-scheme: dark)"); var re = function () { readTokens(); draw(); }; if (mq.addEventListener) mq.addEventListener("change", re); }
 new MutationObserver(function () { readTokens(); draw(); }).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
 if (window.ResizeObserver) new ResizeObserver(resize).observe(mapEl); else window.addEventListener("resize", resize);
+/* gömülü çerçeve: tam ekran bağlantısı o anki ülkeyi ve dili taşır; çerçeve işe yaramayacak kadar küçükse harita yerine bağlantı görünür */
+function fullUrl() { return location.pathname + "?lang=" + LANG + (location.hash || ""); }
+function fitCheck() {
+  var w = window.innerWidth, h = window.innerHeight, tiny = EMBED && (h < (w <= 860 ? 320 : 240) || w < 250);
+  $("#tiny").hidden = !tiny; $("#app").classList.toggle("is-tiny", tiny);
+}
+if (EMBED) {
+  $("#full").hidden = false;
+  ["#full", "#tinyb"].forEach(function (sel) { var a = $(sel); a.href = fullUrl(); a.addEventListener("click", function () { a.href = fullUrl(); }); });
+  window.addEventListener("resize", fitCheck); fitCheck();
+}
 applyStatic(); ui(); resize();
 $("#lang").addEventListener("click", function (ev) { var b = ev.target.closest("button"); if (b) setLang(b.dataset.lang); });
 if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { draw(); });

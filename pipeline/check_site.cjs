@@ -2,6 +2,7 @@
 // .preview klasörünü kendisi sunar (önce `python3 pipeline/build_site.py` çalışmış olmalı). Bir denetim tutmazsa 1 koduyla çıkar.
 // Bakılanlar: ülke açılıyor mu, beş adım geziliyor mu, şirket sayfası ve yöntem açılıyor mu, iki dil de çalışıyor mu,
 // sayfada "undefined" ya da "NaN" var mı, telefonda yatay taşma var mı, konsolda hata var mı.
+// Sonda bir kez: sayfa başka bir sitenin çerçevesinde (Wix) düzgün çalışıyor mu.
 const { chromium } = require('playwright');
 const http = require('http'), fs = require('fs'), path = require('path');
 const ROOT = path.join(__dirname, '..', '.preview');
@@ -68,8 +69,32 @@ const TYPES = { '.html': 'text/html; charset=utf-8', '.json': 'application/json'
     await clean(ph, tag + 'telefon (EN)');
     await ph.context().close();
   }
+  // Gömülü kullanım (Wix'teki gibi başka bir sitenin çerçevesinde): üst sayfanın kaydırması engellenmemeli, düğmeler çerçevenin içinde olmalı ve çalışmalı
+  {
+    const port = server.address().port;
+    const host = http.createServer((req, res) => { res.writeHead(200, { 'content-type': 'text/html; charset=utf-8' }); res.end('<!doctype html><body style="margin:0"><div style="height:120px"></div><iframe id="f" src="http://127.0.0.1:' + port + '/index.html?lang=tr" style="display:block;border:0;width:980px;height:620px" sandbox="allow-same-origin allow-forms allow-popups allow-scripts allow-pointer-lock"></iframe><div style="height:1600px"></div></body>'); });
+    await new Promise(r => host.listen(0, '127.0.0.1', r));
+    const ctx = await browser.newContext({ viewport: { width: 1100, height: 800 }, deviceScaleFactor: 1, locale: 'tr-TR' });
+    const page = await ctx.newPage(); page.on('pageerror', e => errs.push('pageerror: ' + e.message));
+    await page.goto('http://localhost:' + host.address().port + '/'); await page.waitForTimeout(3400);
+    const fr = page.frames().find(f => f.url().includes('index.html')), box = await (await page.$('#f')).boundingBox();
+    const st = () => fr.evaluate(() => { const a = document.querySelector('#steps button[aria-current="step"]'); return a ? a.getAttribute('data-go') : null; });
+    const mid = (sel) => fr.evaluate((q) => { const el = document.querySelector(q); if (!el) return { x: 0, y: 0, inside: false }; const r = el.getBoundingClientRect(); return { x: r.left + r.width / 2, y: r.top + r.height / 2, inside: r.width > 0 && r.top >= 0 && r.bottom <= innerHeight && r.right <= innerWidth }; }, sel);
+    ok(await fr.evaluate(() => document.documentElement.classList.contains('embed')), 'gömme: sayfa çerçevede olduğunu anlamadı');
+    ok((await mid('#full')).inside, 'gömme: "Tam ekran" bağlantısı görünmüyor');
+    const map = await mid('#map'), s0 = await st();
+    await page.mouse.move(box.x + map.x, box.y + map.y); await page.mouse.wheel(0, 300); await page.waitForTimeout(700);
+    ok((await page.evaluate(() => window.scrollY)) > 100 && (await st()) === s0, 'gömme: tekerlek üst sayfayı kaydırmıyor ya da adımı değiştiriyor');
+    await page.evaluate(() => window.scrollTo(0, 0)); await page.waitForTimeout(200);
+    for (const want of ['1', '2']) {
+      const next = await mid('#next'); ok(next.inside, 'gömme: "Yaklaş" düğmesi çerçevenin dışında');
+      await page.mouse.click(box.x + next.x, box.y + next.y); await page.waitForTimeout(want === '1' ? 3200 : 1900);
+      ok((await st()) === want, 'gömme: "Yaklaş" düğmesi ' + want + '. adıma geçirmedi (adım ' + (await st()) + ')');
+    }
+    await ctx.close(); host.close();
+  }
   await browser.close(); server.close();
   ok(!errs.length, 'konsol hataları: ' + errs.slice(0, 5).join(' | '));
-  console.log(fails.length ? 'TUTMAYANLAR:\n - ' + fails.join('\n - ') : 'sayfa denemesi tamam: ' + ccs.join(', ') + ' (iki dil, beş adım, şirket sayfası, yöntem, telefon)');
+  console.log(fails.length ? 'TUTMAYANLAR:\n - ' + fails.join('\n - ') : 'sayfa denemesi tamam: ' + ccs.join(', ') + ' (iki dil, beş adım, şirket sayfası, yöntem, telefon, gömme)');
   process.exit(fails.length ? 1 : 0);
 })().catch(e => { console.error('deneme çalışmadı:', e.message); process.exit(1); });

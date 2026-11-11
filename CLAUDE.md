@@ -76,7 +76,7 @@ python3 pipeline/funnel.py <CC>             # yalnız süzgeç (rapor yazdıktan
 python3 pipeline/accept.py <CC> --queue     # sırada bekleyenlerin okuma sırası
 node pipeline/geo.mjs <CC>                  # data/<CC>/geo.json
 python3 pipeline/build_site.py              # docs/ ve dist/castle.html
-node pipeline/check_site.cjs <CC>           # yayından önce sayfa denemesi (iki dil, beş adım, telefon)
+node pipeline/check_site.cjs <CC>           # yayından önce sayfa denemesi (iki dil, beş adım, telefon, gömme)
 python3 -m http.server 8765 --directory .preview   # yerel deneme: http://127.0.0.1:8765
 ```
 
@@ -183,6 +183,7 @@ Geçme koşulu: B ≥ 2 ve diğerleri ≥ 1. Elenen şirkette `risks` ve `watch`
 
 - Sayfa tek dosyadır (`pipeline/template.html`); veriyi `data/<CC>.json` dosyalarından yükler. Tasarımı, renkleri ve metinleri görev gerektirmedikçe değiştirme.
 - Site: `git push origin main` sonrası GitHub Pages `docs/` klasörünü birkaç dakikada yayımlar.
+- Wix'e gömme: sayfa başka bir sitenin çerçevesinde açıldığını anlar (`html.embed`). Orada tekerlek üst sayfayı kaydırır (yaklaşmak için düğmeler ya da Ctrl + tekerlek), haritada dikey kaydırma serbesttir, üst şeritte "Tam ekran" bağlantısı çıkar; çerçeve çok küçükse harita yerine bu bağlantı görünür. `check_site.cjs` bunu da dener. Wix'te önerilen çerçeve: tam genişlik, masaüstünde yaklaşık 620 piksel, telefonda yaklaşık 640 piksel yükseklik.
 - Claude'daki sayfa (isteğe bağlı): `dist/castle.html` dosyasını, `docs/data/` altındaki dosyalarla birlikte, `pipeline/site.json` içindeki `artifact` adresine yeniden yayımla. Yayın sorulursa ya da engellenirse atla; site asıl hedeftir.
 
 ## Neye dokunulur, neye dokunulmaz
