@@ -1,0 +1,30 @@
+{
+ "fetched": "2026-11-11T23:30:09Z",
+ "cur": "INR",
+ "pcur": "INR",
+ "years": [
+  "2021",
+  "2022",
+  "2023",
+  "2024",
+  "2025"
+ ],
+ "fx": 93.68,
+ "mcapMin": 6000,
+ "cpi_cur": 5.54,
+ "cpi_cur_src": "TradingView ECONOMICS:INIRYY (son açıklanan yıllık TÜFE)",
+ "cpi": {
+  "2021": 6.34,
+  "2022": 6.21,
+  "2023": 5.01,
+  "2024": 3.9,
+  "2025": 2.4
+ },
+ "cpi_src": {
+  "2021": "IMF WEO 2025-04 (dönem sonu)",
+  "2022": "IMF WEO 2025-04 (dönem sonu)",
+  "2023": "IMF WEO 2025-04 (dönem sonu)",
+  "2024": "IMF WEO 2025-04 (dönem sonu)",
+  "2025": "Dünya Bankası FP.CPI.TOTL.ZG (yıllık ortalama)"
+ }
+}

@@ -1,0 +1,346 @@
+{
+ "cc": "IN",
+ "fetched": "2026-11-11T23:30:08Z",
+ "errors": [],
+ "source": "TradingView tarayıcısı",
+ "market": "india",
+ "total": 5477,
+ "kept": 4851,
+ "excluded": {
+  "fiyat ya da piyasa değeri yok": 626
+ },
+ "mcap_check": {
+  "tutarlı": 4739,
+  "pay sayısı yok": 95,
+  "pay sayısıyla tutmuyor": 17
+ },
+ "cur": "INR",
+ "pcur": "INR",
+ "exchanges": {
+  "NSE": 3173,
+  "BSE": 1678
+ },
+ "periods": {
+  "2026-Q2": 2263,
+  "2026-Q1": 1597,
+  "2025-H2": 432,
+  "2026-H1": 353,
+  "None": 154,
+  "2025-Q4": 34
+ },
+ "pe_fix": {
+  "eps_n": 3587,
+  "eps_med": 1.0,
+  "eps_within5": 100.0,
+  "roe_n": 2327,
+  "roe_med": 1.0647,
+  "roe_within25": 91.3,
+  "roe_scale": 1.0,
+  "eps_ok": true,
+  "counts": {
+   "nodata": 351,
+   "loss": 816,
+   "roe": 96,
+   "eps": 5
+  },
+  "nodata_top": [
+   "JPL",
+   "NSE",
+   "VAML",
+   "SBIFUNDS",
+   "MANIPALHOS",
+   "INDOMIM",
+   "BAGMANE.RR",
+   "DHOOTTRANS",
+   "UCOBANK",
+   "MILKYMIST",
+   "LALITHAA",
+   "SHADOWFAX",
+   "MOLBIO",
+   "JNPR",
+   "SEDEMAC"
+  ],
+  "fixed_top": [
+   [
+    "EDELALTS",
+    40.17,
+    "roe"
+   ],
+   [
+    "HDFIRE",
+    49.26,
+    "roe"
+   ],
+   [
+    "AIMTRON",
+    67.88,
+    "eps"
+   ],
+   [
+    "SFCTECH",
+    26.1,
+    "roe"
+   ],
+   [
+    "ORIENTCABL",
+    62.52,
+    "roe"
+   ],
+   [
+    "MILLWORKS",
+    30.53,
+    "roe"
+   ],
+   [
+    "BLSPOLY",
+    34.01,
+    "roe"
+   ],
+   [
+    "HYPERSOFT",
+    106.96,
+    "eps"
+   ],
+   [
+    "MRTX",
+    30.3,
+    "roe"
+   ],
+   [
+    "TIPCO",
+    15.95,
+    "roe"
+   ],
+   [
+    "SJLOGISTIC",
+    6.56,
+    "roe"
+   ],
+   [
+    "BRAHMINFRA",
+    7.63,
+    "eps"
+   ],
+   [
+    "RAKSAN",
+    11.49,
+    "roe"
+   ],
+   [
+    "VPAL",
+    29.0,
+    "roe"
+   ],
+   [
+    "SPEEDEX",
+    21.43,
+    "roe"
+   ]
+  ]
+ },
+ "pe_filled_pct": 75.9,
+ "top5": [
+  {
+   "c": "RELIANCE",
+   "n": "Reliance Industries Limited",
+   "p": 1335.4,
+   "m": 17915728.8,
+   "pe": 22.01,
+   "pb": 1.914,
+   "per": "2026-Q2"
+  },
+  {
+   "c": "JPL",
+   "n": "Jio Platforms Limited",
+   "p": 1403.5,
+   "m": 13004993.5,
+   "pe": null,
+   "pb": 3.669,
+   "per": "2026-Q2"
+  },
+  {
+   "c": "BHARTIARTL",
+   "n": "Bharti Airtel Limited",
+   "p": 2109,
+   "m": 12879719.6,
+   "pe": 41.98,
+   "pb": 8.326,
+   "per": "2026-Q2"
+  },
+  {
+   "c": "HDFCBANK",
+   "n": "HDFC Bank Limited",
+   "p": 806.6,
+   "m": 12285646.5,
+   "pe": 15.55,
+   "pb": 2.044,
+   "per": "2026-Q2"
+  },
+  {
+   "c": "ICICIBANK",
+   "n": "ICICI Bank Limited",
+   "p": 1571.6,
+   "m": 11382183.0,
+   "pe": 19.3,
+   "pb": 2.889,
+   "per": "2026-Q2"
+  }
+ ],
+ "history": {
+  "candidates": 381,
+  "have": 345,
+  "fetched": 345,
+  "kept": 0,
+  "no_mapping": 0,
+  "failed": [
+   [
+    "NAM_INDIA",
+    404
+   ],
+   [
+    "ASMTEC",
+    404
+   ],
+   [
+    "KESAR",
+    404
+   ],
+   [
+    "AFCOM",
+    404
+   ],
+   [
+    "YASHHV",
+    404
+   ],
+   [
+    "CNCRD",
+    404
+   ],
+   [
+    "AMIC",
+    404
+   ],
+   [
+    "ZELIO",
+    404
+   ],
+   [
+    "AAYUSHBULL",
+    404
+   ],
+   [
+    "MOBAVENUE",
+    404
+   ],
+   [
+    "TITANBIO",
+    404
+   ],
+   [
+    "GHVINFRA",
+    404
+   ],
+   [
+    "VALIANT",
+    404
+   ],
+   [
+    "MILLWORKS",
+    404
+   ],
+   [
+    "SVRL",
+    404
+   ],
+   [
+    "KPGEL",
+    404
+   ],
+   [
+    "RAJESH",
+    404
+   ],
+   [
+    "ROBU",
+    404
+   ],
+   [
+    "FOSECOC",
+    404
+   ],
+   [
+    "VIKRAMTH",
+    404
+   ],
+   [
+    "INDIAHOMES",
+    404
+   ],
+   [
+    "UNIFIED",
+    404
+   ],
+   [
+    "BRRL",
+    404
+   ],
+   [
+    "INDOSMC",
+    404
+   ],
+   [
+    "NEETUYOSHI",
+    404
+   ],
+   [
+    "APPL",
+    404
+   ],
+   [
+    "OCCLLTD",
+    404
+   ],
+   [
+    "GOELCONS",
+    404
+   ],
+   [
+    "UNIABEXAL",
+    404
+   ],
+   [
+    "META",
+    404
+   ],
+   [
+    "EXHICON",
+    404
+   ],
+   [
+    "KALYANI",
+    404
+   ],
+   [
+    "LTELEVATOR",
+    404
+   ],
+   [
+    "MRTX",
+    404
+   ],
+   [
+    "TOTEM",
+    404
+   ],
+   [
+    "TIPCO",
+    404
+   ]
+  ],
+  "failed_n": 36,
+  "blocked": false,
+  "budget_left": 5309
+ },
+ "ok": true
+}

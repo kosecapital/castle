@@ -1,0 +1,212 @@
+{
+ "cc": "TW",
+ "fetched": "2026-11-11T23:25:12Z",
+ "errors": [],
+ "source": "TradingView tarayıcısı",
+ "market": "taiwan",
+ "total": 2358,
+ "kept": 2303,
+ "excluded": {
+  "fiyat ya da piyasa değeri yok": 55
+ },
+ "mcap_check": {
+  "tutarlı": 2271,
+  "pay sayısıyla tutmuyor": 4,
+  "pay sayısı yok": 28
+ },
+ "cur": "TWD",
+ "pcur": "TWD",
+ "exchanges": {
+  "TPEX": 1209,
+  "TWSE": 1094
+ },
+ "periods": {
+  "2026-Q3": 1070,
+  "2026-Q2": 926,
+  "2026-H1": 275,
+  "None": 30,
+  "2026-Q1": 2
+ },
+ "pe_fix": {
+  "eps_n": 1155,
+  "eps_med": 1.0,
+  "eps_within5": 100.0,
+  "roe_n": 1091,
+  "roe_med": 1.0592,
+  "roe_within25": 94.9,
+  "roe_scale": 1.0,
+  "eps_ok": true,
+  "counts": {
+   "eps": 517,
+   "loss": 546,
+   "nodata": 85
+  },
+  "nodata_top": [
+   "7856",
+   "7924",
+   "7861",
+   "7909",
+   "3644",
+   "7686",
+   "3595",
+   "7965",
+   "01010T",
+   "4573",
+   "7917",
+   "3718",
+   "01002T",
+   "7883",
+   "7951"
+  ],
+  "fixed_top": [
+   [
+    "2454",
+    64.04,
+    "eps"
+   ],
+   [
+    "2327",
+    24.12,
+    "eps"
+   ],
+   [
+    "2360",
+    33.74,
+    "eps"
+   ],
+   [
+    "6446",
+    60.61,
+    "eps"
+   ],
+   [
+    "2368",
+    30.65,
+    "eps"
+   ],
+   [
+    "5274",
+    85.19,
+    "eps"
+   ],
+   [
+    "4958",
+    43.55,
+    "eps"
+   ],
+   [
+    "2379",
+    26.21,
+    "eps"
+   ],
+   [
+    "6488",
+    32.38,
+    "eps"
+   ],
+   [
+    "3661",
+    38.74,
+    "eps"
+   ],
+   [
+    "6770",
+    11.04,
+    "eps"
+   ],
+   [
+    "2618",
+    9.68,
+    "eps"
+   ],
+   [
+    "5347",
+    25.39,
+    "eps"
+   ],
+   [
+    "3044",
+    17.54,
+    "eps"
+   ],
+   [
+    "2609",
+    7.36,
+    "eps"
+   ]
+  ]
+ },
+ "pe_filled_pct": 72.6,
+ "top5": [
+  {
+   "c": "2330",
+   "n": "Taiwan Semiconductor Manufacturing Co., Ltd.",
+   "p": 2395,
+   "m": 59255463.5,
+   "pe": 24.38,
+   "pb": null,
+   "per": "2026-Q3"
+  },
+  {
+   "c": "2454",
+   "n": "MediaTek Inc",
+   "p": 3990,
+   "m": 6117116.9,
+   "pe": 64.04,
+   "pb": null,
+   "per": "2026-Q3"
+  },
+  {
+   "c": "2317",
+   "n": "Hon Hai Precision Industry Co., Ltd.",
+   "p": 242,
+   "m": 3398934.4,
+   "pe": 16.09,
+   "pb": 1.779,
+   "per": "2026-Q2"
+  },
+  {
+   "c": "2308",
+   "n": "Delta Electronics, Inc.",
+   "p": 1295,
+   "m": 3311867.9,
+   "pe": 38.95,
+   "pb": 10.571,
+   "per": "2026-Q3"
+  },
+  {
+   "c": "3711",
+   "n": "ASE Technology Holding Co., Ltd.",
+   "p": 617,
+   "m": 2671164.5,
+   "pe": 36.97,
+   "pb": 6.417,
+   "per": "2026-Q3"
+  }
+ ],
+ "history": {
+  "candidates": 349,
+  "have": 346,
+  "fetched": 346,
+  "kept": 0,
+  "no_mapping": 0,
+  "failed": [
+   [
+    "2256",
+    404
+   ],
+   [
+    "7846",
+    404
+   ],
+   [
+    "7631",
+    404
+   ]
+  ],
+  "failed_n": 3,
+  "blocked": false,
+  "budget_left": 5654
+ },
+ "ok": true
+}
