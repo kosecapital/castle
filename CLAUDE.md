@@ -1,7 +1,7 @@
 # Castle: çalışma kılavuzu
 
 Castle, bir ülkedeki bütün halka açık şirketleri Buffett ve Munger ilkeleriyle dört "sur"dan geçiren, haritalı bir değer yatırımı sayfasıdır.
-Sahibi Alper Köse (Kose Capital). Site bu depodaki `docs/` klasöründen GitHub Pages ile yayımlanır (`https://kosecapital.github.io/castle/`) ve Kose Capital'in Wix sitesine gömülüdür. Sayfa Türkçe ve İngilizcedir.
+Sahibi Alper Köse (Kose Capital). Site bu depodaki `docs/` klasöründen GitHub Pages ile yayımlanır: `https://www.kosecapital.com/castle/` (eski adres `https://kosecapital.github.io/castle/` buraya yönlenir). Kose Capital'in ana sayfası ayrı depodadır (`kosecapital/kosecapital.github.io`); Castle'a oradan bağlantı verir ve ülke, şirket, kale sayılarını `docs/data/summary.json` dosyasından okur. Sayfa Türkçe ve İngilizcedir.
 Bu dosya, bu depoda çalışan her Claude oturumunun (özellikle zamanlanmış görevlerin) uyacağı kılavuzdur.
 
 ## Değişmez kurallar
@@ -184,7 +184,7 @@ Geçme koşulu: B ≥ 2 ve diğerleri ≥ 1. Elenen şirkette `risks` ve `watch`
 
 - Sayfa tek dosyadır (`pipeline/template.html`); veriyi `data/<CC>.json` dosyalarından yükler. Tasarımı, renkleri ve metinleri görev gerektirmedikçe değiştirme.
 - Site: `git push origin main` sonrası GitHub Pages `docs/` klasörünü birkaç dakikada yayımlar.
-- Wix'e gömme: sayfa başka bir sitenin çerçevesinde açıldığını anlar (`html.embed`). Orada tekerlek üst sayfayı kaydırır (yaklaşmak için düğmeler ya da Ctrl + tekerlek), haritada dikey kaydırma serbesttir, üst şeritte "Tam ekran" bağlantısı çıkar; çerçeve çok küçükse harita yerine bu bağlantı görünür. `check_site.cjs` bunu da dener. Wix'te önerilen çerçeve: tam genişlik, masaüstünde yaklaşık 620 piksel, telefonda yaklaşık 640 piksel yükseklik.
+- Başka bir siteye gömme: sayfa başka bir sitenin çerçevesinde açıldığını anlar (`html.embed`). Orada tekerlek üst sayfayı kaydırır (yaklaşmak için düğmeler ya da Ctrl + tekerlek), haritada dikey kaydırma serbesttir, üst şeritte "Tam ekran" bağlantısı çıkar; çerçeve çok küçükse harita yerine bu bağlantı görünür. `check_site.cjs` bunu da dener. Önerilen çerçeve: tam genişlik, masaüstünde yaklaşık 620 piksel, telefonda yaklaşık 640 piksel yükseklik. (Kasım 2026'dan beri Castle hiçbir yere gömülü değildir; kosecapital.com ana sayfası ona bağlantı verir.)
 - Claude'daki sayfa (isteğe bağlı): `dist/castle.html` dosyasını, `docs/data/` altındaki dosyalarla birlikte, `pipeline/site.json` içindeki `artifact` adresine yeniden yayımla. Yayın sorulursa ya da engellenirse atla; site asıl hedeftir.
 
 ## Neye dokunulur, neye dokunulmaz
