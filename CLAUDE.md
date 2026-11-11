@@ -41,6 +41,7 @@ Gelen veriyi Claude oturumu `python3 pipeline/accept.py <ÜLKE>` ile denetler ve
 ```
 docs/                    yayımlanan site (GitHub Pages kökü). Elle düzenleme; build_site.py üretir.
   index.html, data/<ÜLKE>.json, data/world50.json
+  data/summary.json      Kose Capital ana sayfasının okuduğu özet (ülke, şirket ve kale sayısı, son veri tarihi)
 .github/workflows/collect.yml   veri toplayıcı (GitHub'ın makinesinde çalışır)
 pipeline/
   countries.json         ülke sırası (borsa büyüklüğüne göre), İngilizce adlar, ülkeye özel ayarlar
