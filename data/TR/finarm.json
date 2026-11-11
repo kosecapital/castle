@@ -1,0 +1,58 @@
+{
+ "FROTO": {
+  "arm": "Koç Finansman (Koçfinans)",
+  "per": "9/2026",
+  "date": "2026-09-30",
+  "nd_all": 157142,
+  "nd_ex": 116929,
+  "op_arm": 656,
+  "op_how": {
+   "tr": "Temmuz-Eylül 2026: kolun konsolide edildiği üç ay",
+   "en": "July–September 2026: the three months since the arm was consolidated"
+  },
+  "tr": "Koçfinans 1 Temmuz 2026'da satın alındı ve o tarihten beri konsolide ediliyor. 30 Eylül 2026'da 49,4 milyar TL kredi alacağı var; hesaptan çıkarılan 40,2 milyar TL net borç bu kredilerin karşılığı. Şirketin kendi tanımıyla oran 1,85'tir; süzgeç kaynağın daha düşük FAVÖK rakamını kullandığı için daha yüksek bir oran bulur.",
+  "en": "Koçfinans was acquired on 1 July 2026 and has been consolidated since then. On 30 September 2026 it held 49.4 billion TRY of loan receivables; the 40.2 billion TRY of net debt taken out of the calculation is the counterpart of those loans. On the company's own definition the ratio is 1.85; the filter arrives at a higher ratio because it uses the source's lower EBITDA figure.",
+  "sources": [
+   {
+    "t": "Ford Otosan: 9A'26 finansal sonuç bülteni (KAP, 5 Kas 2026)",
+    "te": "Ford Otosan: 9M26 financial results bulletin (KAP, 5 Nov 2026)",
+    "u": "https://kap.org.tr/tr/api/file/download/4028328da17e515f01a1ac5082c40d63"
+   },
+   {
+    "t": "İş Yatırım: Ford Otosan 3Ç 2026 kâr analizi (6 Kas 2026)",
+    "te": "İş Yatırım: Ford Otosan 3Q 2026 earnings analysis (6 Nov 2026)",
+    "u": "https://arastirma.isyatirim.com.tr/2026/11/06/froto-is-ford-otosan-3c-2026-kar-analizi/"
+   }
+  ]
+ },
+ "TOASO": {
+  "arm": "Koç Stellantis Finansman (eski adıyla Koç Fiat Kredi)",
+  "arm_en": "Koç Stellantis Finansman (formerly Koç Fiat Kredi)",
+  "per": "9/2026",
+  "date": "2026-09-30",
+  "nd_all": 51592.8,
+  "nd_ex": 12522.1,
+  "op_arm": 3861.8,
+  "op_how": {
+   "tr": "Ocak-Eylül 2026'da 2.896 milyon TL; yıla çevrildi (× 12/9)",
+   "en": "2,896 million TRY in January–September 2026; annualised (× 12/9)"
+  },
+  "tr": "Koç Stellantis Finansman, Tofaş'ın taşıt alımlarını finanse eden bağlı ortaklığı. 30 Eylül 2026'da 43,3 milyar TL kredi alacağı ve 43,1 milyar TL borcu var; konsolide net borcun yaklaşık dörtte üçü bu kola ait.",
+  "en": "Koç Stellantis Finansman is the Tofaş subsidiary that finances vehicle purchases. On 30 September 2026 it held 43.3 billion TRY of loan receivables and 43.1 billion TRY of debt; about three quarters of consolidated net debt belongs to this arm.",
+  "sources": [
+   {
+    "t": "Tofaş: 30 Eylül 2026 özet konsolide finansal tablolar, not 4, 5 ve 13 (KAP eki)",
+    "te": "Tofaş: condensed consolidated financial statements for 30 September 2026, notes 4, 5 and 13 (KAP attachment)",
+    "u": "https://storage.fintables.com/media/uploads/kap-attachments/TOFA%C5%9E%20SPK%20TR%20-%2030.09.2026.pdf"
+   },
+   {
+    "t": "İş Yatırım: Tofaş 3Ç 2026 kâr analizi (6 Kas 2026)",
+    "te": "İş Yatırım: Tofaş 3Q 2026 earnings analysis (6 Nov 2026)",
+    "u": "https://arastirma.isyatirim.com.tr/2026/11/06/toaso-is-tofas-fabrika-3c-2026-kar-analizi/"
+   }
+  ]
+ },
+ "_none": [
+  "THYAO"
+ ]
+}

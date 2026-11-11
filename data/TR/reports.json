@@ -4,79 +4,85 @@
    "A": 2,
    "B": 2,
    "C": 1,
-   "D": 2,
+   "D": 1,
    "E": 1
   },
   "moat": "dar",
-  "one": "Ford'un Avrupa'daki ticari araç üretim üssü. Üçüncü çeyrek bilançosundan sonra borç oranı eşiği aştı; 2. surda elendi.",
-  "business": "Ford Otosan, Ford markalı ticari araçları üretir ve ihraç eder; ayrıca yurt içinde Ford araçlarını satar. Ford Motor ile Koç Grubu'nun ortak girişimidir. 2026'nın üçüncü çeyreğinde otomotiv gelirinin yaklaşık %87'si ihracattan geldi (228,9 milyar TL'nin 200,2 milyarı). 24.436 kişi çalıştırıyor.",
+  "one": "Ford'un Avrupa'daki ticari araç üretim üssü. Üç suru geçiyor; fiyatı kale eşiğinin çok az üstünde olduğu için kapıda bekliyor.",
+  "business": "Ford Otosan, Ford markalı ticari araçları üretir ve ihraç eder; ayrıca yurt içinde Ford araçlarını satar. Ford Motor ile Koç Grubu'nun ortak girişimidir; 1 Temmuz 2026'dan beri finansman şirketi Koçfinans da ona bağlı. 2026'nın üçüncü çeyreğinde otomotiv gelirinin yaklaşık %87'si ihracattan geldi (228,9 milyar TL'nin 200,2 milyarı). 24.436 kişi çalıştırıyor.",
   "moat_text": "Hendek dar ama gerçek. Şirket, Ford'un Avrupa ticari araç üretiminin ana üssü; bu ölçek ve maliyet avantajı sağlıyor ve ihracat hacmi yurt içi pazar daralırken bile artıyor (3Ç26'da ihracat adedi +%11, yurt içi toptan −%51). Zayıf yanı, üstünlüğün tek bir ortağa, Ford'a bağlı olması.",
-  "mgmt": "Kontrol Koç Grubu ile Ford Motor'da; halka açıklık %17,5. Kâr düzenli olarak temettüye gidiyor. Dikkat: son 12 ayda dağıtılan temettü kârın üzerinde (ödeme oranı %124) ve bu, borç artarken oluyor.",
-  "latest": "5 Kasım 2026: Üçüncü çeyrek net kârı 8,35 milyar TL ile beklentiyi (7,29 milyar) aştı, ama geçen yıla göre %23 düşük. Dokuz aylık net kâr 19,26 milyar TL (−%34), hasılat 679,8 milyar TL (−%10). Düzeltilmiş FAVÖK marjı %6,5 (geçen yıl %7,4). 2026 toplam satış hedefi 645–705 bin adede indirildi; ihracat hedefi (580–630 bin), FAVÖK marjı (%6–7) ve yatırım bütçesi (300–400 milyon avro) korundu.",
+  "mgmt": "Kontrol Koç Grubu ile Ford Motor'da; halka açıklık %17,5. Kâr düzenli olarak temettüye gidiyor: son 12 ayda dağıtılan temettü kârın üzerinde (ödeme oranı %123), ama 2026'nın ilk dokuz ayında serbest nakit akışı (22,3 milyar TL) ödenen temettüyü (14,4 milyar TL) karşıladı. Temmuz 2026'da Koçfinans'ın tamamı 130,6 milyon dolara Koç Topluluğu şirketlerinden alındı (Koç Holding %50, Arçelik %47). Satıcılar ilişkili taraf; bedel bağımsız değerleme aralığının (131–157 milyon dolar) alt ucunda ve aktiflerin yaklaşık %1,3'ü kadar. Yine de ana işin yanına kredi riski taşıyan bir iş eklendi; bu puan o yüzden 2 değil 1.",
+  "latest": "5 Kasım 2026: Üçüncü çeyrek net kârı 8,35 milyar TL ile beklentiyi (7,29 milyar) aştı, ama geçen yıla göre %23 düşük. Dokuz aylık net kâr 19,26 milyar TL (−%34), otomotiv hasılatı 679,8 milyar TL (−%10). Düzeltilmiş FAVÖK marjı %6,5 (geçen yıl %7,4). Koçfinans ilk kez konsolide edildi: çeyrekte 4,8 milyar TL gelir ve 0,4 milyar TL net kâr kattı. Koçfinans hariç net finansal borç 116,9 milyar TL; şirketin açıkladığı net finansal borç/düzeltilmiş FAVÖK 1,85 (2025 sonunda 1,49). 2026 toplam satış hedefi 645–705 bin adede indirildi; ihracat hedefi (580–630 bin), FAVÖK marjı (%6–7) ve yatırım bütçesi (300–400 milyon avro) korundu.",
   "risks": [
-   "Borç: otomotiv net borcu 116,9 milyar TL. Net borç/FAVÖK şirketin tanımıyla 1,85; bizim kullandığımız kaynakta üçüncü çeyrek bilançosundan sonra 3,59 (öncesinde 2,61). Eşiğimiz 3,0 olduğu için şirket 2. surda elendi.",
-   "Avrupa'da ticari araç talebi düşerse ihracat hacmi ve marj birlikte geriler.",
-   "Tek ortak ve tek ana müşteri Ford: üretim paylaşımındaki bir değişiklik tezi doğrudan etkiler.",
-   "Özsermaye kârlılığı düşüyor: 2023'te %90, 2025'te %22, son 12 ayda %17.",
-   "Kârdan fazla temettü dağıtımı sürerse borç azalmaz."
+   "Sonuç eşiğin hemen dibinde: güvenlik marjı %25 eşiğine çok yakın. Türkiye verisinde PD/DD tek ondalıklıdır; bu, marjı birkaç puan oynatabilir. Küçük bir fiyat değişikliği şirketin durumunu değiştirir.",
+   "Borç eşiğe yakın: finansman kolu hariç net borç/FAVÖK 2,71, eşik 3,0. Konsolide oran 3,59; aradaki fark Koçfinans'ın verdiği kredileri fonlayan borçtur. FAVÖK düşmeye devam ederse şirket 2. surda elenir.",
+   "Koçfinans kredi riski getiriyor: 30 Eylül 2026'da 49,4 milyar TL kredi alacağı var. Tahsilat bozulursa zarar Ford Otosan'ın bilançosuna yazılır.",
+   "Avrupa'da ticari araç talebi düşerse ya da Ford üretim paylaşımını değiştirirse ihracat hacmi ve marj birlikte geriler; tek ortak ve ana müşteri Ford'dur.",
+   "Özsermaye kârlılığı düşüyor: 2023'te %90, 2025'te %22, son 12 ayda %16. Düşüş sürerse fiyat testi de zorlaşır."
   ],
   "watch": [
+   "Finansman kolu hariç net borç/FAVÖK (eşik 3,0)",
    "Düzeltilmiş FAVÖK marjı %6–7 bandında kalıyor mu",
-   "Net borç/FAVÖK",
    "İhracat adedi (2026 hedefi 580–630 bin)",
-   "Temettü ödeme oranı"
+   "Koçfinans'ta takipteki kredilerin payı"
   ],
   "sources": [
    {
+    "t": "Ford Otosan: 9A'26 finansal sonuç bülteni (KAP, 5 Kas 2026)",
+    "te": "Ford Otosan: 9M26 financial results bulletin (KAP, 5 Nov 2026)",
+    "u": "https://kap.org.tr/tr/api/file/download/4028328da17e515f01a1ac5082c40d63"
+   },
+   {
     "t": "İş Yatırım: Temel değerler ve oranlar (10 Kas 2026)",
-    "u": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx",
-    "te": "İş Yatırım: Fundamentals and ratios (10 Nov 2026)"
+    "te": "İş Yatırım: Fundamentals and ratios (10 Nov 2026)",
+    "u": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/Temel-Degerler-Ve-Oranlar.aspx"
    },
    {
     "t": "stockanalysis.com: 5 yıllık oranlar",
-    "u": "https://stockanalysis.com/quote/ist/FROTO/financials/ratios/",
-    "te": "stockanalysis.com: 5-year ratios"
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/ist/FROTO/financials/ratios/"
    },
    {
     "t": "CNBC-e: Ford Otosan 3Ç26 finansalları (5 Kas 2026)",
-    "u": "https://www.cnbce.com/sirket-bilancolari/ford-otosandan-froto-beklentileri-asan-bilanco-iste-sirketin-3-ceyrek-finansallari-h41128",
-    "te": "CNBC-e: Ford Otosan 3Q26 financials (5 Nov 2026)"
+    "te": "CNBC-e: Ford Otosan 3Q26 financials (5 Nov 2026)",
+    "u": "https://www.cnbce.com/sirket-bilancolari/ford-otosandan-froto-beklentileri-asan-bilanco-iste-sirketin-3-ceyrek-finansallari-h41128"
    },
    {
     "t": "Midas: Ford Otosan bilançosu: beklentileri aşan kâr, düşürülen satış hedefleri (6 Kas 2026)",
-    "u": "https://www.getmidas.com/midasin-kulaklari/ford-otosan-bilancosu-beklentileri-asan-kar-dusurulen-satis-hedefleri-p-891832",
-    "te": "Midas: Ford Otosan results: profit above expectations, lower sales targets (6 Nov 2026)"
+    "te": "Midas: Ford Otosan results: profit above expectations, lower sales targets (6 Nov 2026)",
+    "u": "https://www.getmidas.com/midasin-kulaklari/ford-otosan-bilancosu-beklentileri-asan-kar-dusurulen-satis-hedefleri-p-891832"
    },
    {
-    "t": "stockanalysis.com: Ford Otosan istatistikleri",
-    "u": "https://stockanalysis.com/quote/ist/FROTO/statistics/",
-    "te": "stockanalysis.com: Ford Otosan statistics"
+    "t": "KAP: Koç Finansman paylarının satın alınması, değerleme ve ilişkili taraf bilgisi (13 Mar 2026)",
+    "te": "KAP: purchase of Koç Finansman shares, valuation and related-party disclosure (13 Mar 2026)",
+    "u": "https://kap.org.tr/tr/Bildirim/1572139"
+   },
+   {
+    "t": "Midas: Ford Otosan, Koç Finansman'ı 130,6 milyon dolara satın aldı (1 Tem 2026)",
+    "te": "Midas: Ford Otosan bought Koç Finansman for 130.6 million dollars (1 Jul 2026)",
+    "u": "https://www.getmidas.com/midasin-kulaklari/ford-otosan-koc-finansmani-1306-milyon-dolara-satin-aldi-p-572808"
    }
   ],
   "per": "9/2026",
   "en": {
-   "one": "Ford's commercial vehicle manufacturing base in Europe. After the third-quarter results the debt ratio moved above the threshold; it was eliminated at Wall 2.",
-   "business": "Ford Otosan builds and exports Ford-branded commercial vehicles, and also sells Ford vehicles in Türkiye. It is a joint venture between Ford Motor and Koç Group. In the third quarter of 2026, about 87% of automotive revenue came from exports (200.2 billion of 228.9 billion TRY). It employs 24,436 people.",
+   "one": "Ford's commercial vehicle manufacturing base in Europe. It passes three walls; it waits at the gate because its price is just above the castle threshold.",
+   "business": "Ford Otosan builds and exports Ford-branded commercial vehicles, and also sells Ford vehicles in Türkiye. It is a joint venture between Ford Motor and Koç Group; since 1 July 2026 the finance company Koçfinans has also belonged to it. In the third quarter of 2026, about 87% of automotive revenue came from exports (200.2 billion of 228.9 billion TRY). It employs 24,436 people.",
    "moat_text": "The moat is narrow but real. The company is the main base for Ford's commercial vehicle production in Europe; that brings scale and a cost advantage, and export volume keeps rising even while the domestic market shrinks (in 3Q26 export units were up 11% and domestic wholesale down 51%). The weak point is that the advantage depends on a single partner, Ford.",
-   "mgmt": "Control lies with Koç Group and Ford Motor; the free float is 17.5%. Profit is regularly paid out as dividends. Note: dividends paid over the last 12 months exceeded profit (payout ratio 124%), and this is happening while debt is rising.",
-   "latest": "5 November 2026: Third-quarter net profit of 8.35 billion TRY beat expectations (7.29 billion) but was 23% lower than a year earlier. Nine-month net profit was 19.26 billion TRY (−34%) and revenue 679.8 billion TRY (−10%). Adjusted EBITDA margin was 6.5% (7.4% a year earlier). The 2026 total sales target was cut to 645–705 thousand units; the export target (580–630 thousand), the EBITDA margin target (6–7%) and the investment budget (300–400 million euros) were kept.",
+   "mgmt": "Control lies with Koç Group and Ford Motor; the free float is 17.5%. Profit is regularly paid out as dividends: dividends over the last 12 months exceeded profit (payout ratio 123%), but in the first nine months of 2026 free cash flow (22.3 billion TRY) covered the dividends paid (14.4 billion TRY). In July 2026 all of Koçfinans was bought from Koç Group companies for 130.6 million dollars (Koç Holding 50%, Arçelik 47%). The sellers are related parties; the price is at the low end of the independent valuation range (131–157 million dollars) and equal to about 1.3% of assets. Even so, a business that carries credit risk was added next to the core business; that is why this score is 1 rather than 2.",
+   "latest": "5 November 2026: Third-quarter net profit of 8.35 billion TRY beat expectations (7.29 billion) but was 23% lower than a year earlier. Nine-month net profit was 19.26 billion TRY (−34%) and automotive revenue 679.8 billion TRY (−10%). Adjusted EBITDA margin was 6.5% (7.4% a year earlier). Koçfinans was consolidated for the first time: it added 4.8 billion TRY of revenue and 0.4 billion TRY of net profit in the quarter. Net financial debt excluding Koçfinans was 116.9 billion TRY; net financial debt/adjusted EBITDA as reported by the company was 1.85 (1.49 at the end of 2025). The 2026 total sales target was cut to 645–705 thousand units; the export target (580–630 thousand), the EBITDA margin target (6–7%) and the investment budget (300–400 million euros) were kept.",
    "risks": [
-    "Debt: automotive net debt is 116.9 billion TRY. Net debt/EBITDA is 1.85 on the company's definition; on the source we use it is 3.59 after the third-quarter results (2.61 before). Our threshold is 3.0, so the company was eliminated at Wall 2.",
-    "If demand for commercial vehicles in Europe falls, export volume and margin decline together.",
-    "Ford is the only partner and the main customer: a change in how production is shared would affect the thesis directly.",
-    "Return on equity is falling: 90% in 2023, 22% in 2025 and 17% over the last 12 months.",
-    "If dividends keep exceeding profit, debt will not come down."
+    "The result sits right at the threshold: the margin of safety is very close to the 25% line. In the data for Türkiye, P/B has one decimal place, which can move the margin by a few points. A small change in price changes the company's status.",
+    "Debt is close to the threshold: net debt/EBITDA without the finance arm is 2.71, against a threshold of 3.0. The consolidated ratio is 3.59; the difference is the debt that funds the loans Koçfinans has made. If EBITDA keeps falling, the company is eliminated at Wall 2.",
+    "Koçfinans brings credit risk: it held 49.4 billion TRY of loan receivables on 30 September 2026. If collections deteriorate, the loss lands on Ford Otosan's balance sheet.",
+    "If demand for commercial vehicles in Europe falls, or Ford changes how production is shared, export volume and margin decline together; Ford is the only partner and the main customer.",
+    "Return on equity is falling: 90% in 2023, 22% in 2025 and 16% over the last 12 months. If the decline continues, the price test also gets harder."
    ],
    "watch": [
+    "Net debt/EBITDA without the finance arm (threshold 3.0)",
     "Whether adjusted EBITDA margin stays in the 6–7% range",
-    "Net debt/EBITDA",
     "Export units (2026 target 580–630 thousand)",
-    "Dividend payout ratio"
+    "Share of non-performing loans at Koçfinans"
    ]
-  },
-  "note": {
-   "tr": "Not: Bu sonuç borcun nasıl tanımlandığına bağlı. Süzgecin kullandığı kaynakta (stockanalysis.com) net borç/FAVÖK üçüncü çeyrek bilançosundan sonra 3,59; şirketin kendi tanımıyla 1,85. Süzgeç bütün şirketlere aynı kaynağı uygular.",
-   "en": "Note: this result depends on how debt is defined. On the source the filter uses (stockanalysis.com), net debt/EBITDA is 3.59 after the third-quarter results; on the company's own definition it is 1.85. The filter applies the same source to every company."
   }
  },
  "ISMEN": {

@@ -33,6 +33,7 @@
  "inflation_note": "Borsa İstanbul şirketlerinin çoğu 2023 hesaplarından beri enflasyon muhasebesi uyguluyor; bu şirketlerin kârlılığı zaten reeldir. Bankalar, sigorta şirketleri, finansal kiralama, faktoring ve tasarruf finansman şirketleri uygulamıyor. Onların kârlılığı yıllık TÜFE ile düzeltildi: 2023 için %64,77, 2024 için %44,38, 2025 için %30,89, son 12 ay için %29,77 (TÜİK, Ekim 2026).",
  "data_notes": [
   "Fiyat, piyasa değeri, F/K ve PD/DD: İş Yatırım'ın temel değerler tablosu, 10 Kasım 2026 kapanışı; 629 payın tamamı.",
+  "İş Yatırım tablosu F/K ve PD/DD'yi tek ondalıkla verir. Bu yüzden Türkiye'de güvenlik marjı birkaç puan oynayabilir; eşiğe çok yakın bir şirketin durumu küçük bir fiyat değişikliğiyle değişir.",
   "Beş yıllık oranlar: stockanalysis.com, 11 Kasım 2026'da okundu. Bazı sayfalar son çeyreği henüz içermiyor; her şirketin yanında sayfanın kendi güncelleme tarihi tutulur.",
   "Haberler ve bilanço özetleri: Kasım 2026'nın ilk on gününde yayımlanan kaynaklar. Her şirket sayfasının altında bağlantıları var."
  ],
@@ -73,6 +74,7 @@
   "inflation_note": "Most Borsa Istanbul companies have applied inflation accounting since their 2023 accounts; their returns are already in real terms. Banks, insurers, leasing, factoring and savings finance companies do not apply it. Their returns were adjusted by annual consumer inflation: 64.77% for 2023, 44.38% for 2024, 30.89% for 2025 and 29.77% for the last 12 months (TurkStat, October 2026).",
   "data_notes": [
    "Price, market value, P/E and P/B: İş Yatırım's fundamentals table, close of 10 November 2026; all 629 stocks.",
+   "İş Yatırım's table gives P/E and P/B to one decimal place. In Türkiye the margin of safety can therefore move by a few points; a company very close to the threshold can change status with a small move in price.",
    "Five-year ratios: stockanalysis.com, read on 11 November 2026. Some pages do not yet include the latest quarter; the page's own update date is kept with each company.",
    "News and earnings summaries: sources published in the first ten days of November 2026. Links are at the bottom of each company page."
   ],

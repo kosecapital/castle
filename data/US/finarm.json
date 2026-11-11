@@ -1,0 +1,60 @@
+{
+ "DE": {
+  "arm": "John Deere Financial (finansal hizmetler bölümü)",
+  "arm_en": "John Deere Financial (the financial services segment)",
+  "per": "2026-Q3",
+  "date": "2026-08-02",
+  "nd_all": 54908,
+  "nd_ex": 2718,
+  "op_arm": 1197,
+  "op_how": {
+   "tr": "son dört çeyrek: 374 + 823 milyon dolar",
+   "en": "last four quarters: 374 + 823 million dollars"
+  },
+  "tr": "Deere, müşterilerinin makine alımlarını kendi finansman bölümüyle finanse eder. 2 Ağustos 2026'da bu bölümün 49,1 milyar dolar finansman alacağı ve 54,5 milyar dolar borcu var; konsolide borcun büyük bölümü bu bölüme ait.",
+  "en": "Deere finances its customers' equipment purchases through its own finance segment. On 2 August 2026 that segment held 49.1 billion dollars of financing receivables and 54.5 billion dollars of debt; most of the consolidated debt belongs to it.",
+  "sources": [
+   {
+    "t": "Deere: 2026 mali yılı 3. çeyrek sonuç duyurusu, bölümlere göre ek tablolar (Ağu 2026)",
+    "te": "Deere: third-quarter fiscal 2026 news release, supplemental consolidating data (Aug 2026)",
+    "u": "https://s22.q4cdn.com/253594569/files/doc_financials/2026/q3/DE-3Q26-News-Release.pdf"
+   },
+   {
+    "t": "Deere: 2025 mali yılı 4. çeyrek sonuç duyurusu (26 Kas 2025)",
+    "te": "Deere: fourth-quarter fiscal 2025 news release (26 Nov 2025)",
+    "u": "https://s22.q4cdn.com/253594569/files/doc_financials/2025/q4/DE-Q425-News-Release.pdf"
+   }
+  ]
+ },
+ "_none": [
+  "ORCL",
+  "SHW",
+  "MPLX",
+  "OKE",
+  "QSR",
+  "DG",
+  "DRI",
+  "CDW",
+  "TSCO",
+  "GEN",
+  "WES",
+  "BURL",
+  "BAH",
+  "SCI",
+  "VSXY",
+  "CHDN",
+  "SAIC",
+  "WH",
+  "MTN",
+  "CHH",
+  "RRR",
+  "BCO",
+  "VVV",
+  "OGN",
+  "RH",
+  "WEN",
+  "ARCO",
+  "SPH",
+  "CSV"
+ ]
+}

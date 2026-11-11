@@ -2,7 +2,8 @@
 """Castle sitesini derler.
 
 Girdi : data/<CC>/{meta,core,geo}.json (önce funnel.py ve geo.mjs çalışmış olmalı), pipeline/*.json, pipeline/template.html
-Çıktı : docs/index.html, docs/data/<CC>.json, docs/data/world50.json, docs/data/summary.json   -> GitHub Pages bu klasörü yayımlar
+Çıktı : docs/index.html, docs/data/<CC>.json, docs/data/world50.json, docs/data/summary.json, docs/data/search.json
+        -> GitHub Pages bu klasörü yayımlar. search.json bütün ülkelerin hisse dizinidir (arama kutusu ilk aramada yükler).
         .preview/index.html (kitaplıklar dosyanın içinde; yerel deneme için)
 
 Kullanım: python3 pipeline/build_site.py
@@ -53,25 +54,35 @@ def country(cc):
     m = {k: meta[k] for k in META_KEYS if k in meta}
     m.setdefault("en", {}).setdefault("name", NAME_EN.get(cc) or meta["name"])
     doc = dict(v=2, cc=cc, meta=m, W=geo["W"], sectors=sectors, sectors_en=[SEC_EN.get(x, x) for x in sectors], whys=whys, pers=pers, cols=COLS, rows=rows,
-               L2=core["L2"], R=core["R"], N=core.get("N", {}), pc={u["c"]: u["pc"] for u in core["U"] if u.get("pc")},
+               L2=core["L2"], R=core["R"], RX=core.get("RX", {}), N=core.get("N", {}), F=core.get("F", {}),
+               pc={u["c"]: u["pc"] for u in core["U"] if u.get("pc")},
                ps={u["c"]: u["pes"] for u in core["U"] if u.get("pes")})
     kl = kale_list(core)
     U = core["U"]
     idx = dict(cc=cc, iso=meta["iso"], name=meta["name"], name_en=m["en"]["name"], cur=meta["cur"], asof=meta["asof"], n=len(U),
                p1=sum(1 for u in U if u["e"] > 1), p2=sum(1 for u in U if u["e"] > 2), p3=sum(1 for u in U if u["e"] > 3),
                pend=sum(1 for u in U if u["e"] == 3 and u["w"] == "pending"), kale=len(kl), kales=kl, fit=geo["W"]["fit"], c=geo["W"]["c"])
-    return doc, idx
+    # arama dizini satırları: [dolar karşılığı piyasa değeri (yalnız sıralama için), ülke, kod, ad, durum]
+    # durum: k kale, b kapıda bekliyor, s 3. surda sırada, 1-3 elendiği sur
+    fx, ks = meta.get("fx") or 1.0, set(kl)
+    stat = lambda u: "k" if u["c"] in ks else "b" if u["e"] == 4 else "s" if (u["e"] == 3 and u["w"] == "pending") else str(u["e"])
+    find = [(u["m"] / fx, cc, u["c"], u["n"], stat(u)) for u in U]
+    return doc, idx, find
 
 
 def main():
     os.makedirs(J("docs", "data"), exist_ok=True)
     done = [k for k in ORDER if os.path.exists(J("data", k["cc"], "core.json")) and os.path.exists(J("data", k["cc"], "geo.json"))]
     # taranan ülkeler: en yeni eklenen en üstte değil, borsa büyüklüğüne göre; ilk açılışta odak ilk sıradaki olur
-    countries = []
+    countries, find = [], []
     for k in done:
-        doc, idx = country(k["cc"])
+        doc, idx, rows = country(k["cc"])
         open(J("docs", "data", k["cc"] + ".json"), "w", encoding="utf-8").write(dump(doc))
         countries.append(idx)
+        find += rows
+    # bütün ülkelerin hisse dizini, büyükten küçüğe: dünya görünümünde de hisse aranabilsin
+    find.sort(key=lambda r: -r[0])
+    open(J("docs", "data", "search.json"), "w", encoding="utf-8").write(dump(dict(v=1, rows=[list(r[1:]) for r in find])))
     focus = SITE.get("focus")
     if focus:
         countries.sort(key=lambda c: 0 if c["cc"] == focus else 1)

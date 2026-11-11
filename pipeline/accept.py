@@ -5,6 +5,7 @@
   python3 pipeline/accept.py TR --dry      # yalnız denetle ve farkı göster; hiçbir dosyayı değiştirme
   python3 pipeline/accept.py TR            # denetle, yerine al, süzgeci çalıştır
   python3 pipeline/accept.py US --queue    # sırada bekleyenlerin okuma sırası (hiçbir şeyi değiştirmez)
+  python3 pipeline/accept.py US --debt     # yalnız borç testinden elenenler ve finansman kolu kayıtları (hiçbir şeyi değiştirmez)
 
 İnternet kullanmaz. Bir denetim tutmazsa hiçbir şeyi değiştirmez ve 1 koduyla çıkar (CLAUDE.md kural 6: emin değilsen yayımlama).
 Denetimler:
@@ -76,6 +77,36 @@ def queue(cc, core=None, limit=40):
     if len(rows) > limit:
         print(f"  ... ve {len(rows) - limit} şirket daha (tamamı: --queue --all)")
     return rows
+
+
+def debt_review(cc, core=None, limit=40):
+    """Finansman kolu düzeltmesinin durumu ve yalnız borç testinden elenen şirketler (CLAUDE.md, "Finansman kolu").
+
+    Düzeltmenin kendisi funnel.py içindedir; burada yalnız bakılacak şirketler listelenir. Hiçbir şeyi değiştirmez."""
+    core = core or load(J("data", cc, "core.json"))
+    recs, F = load(J("data", cc, "finarm.json"), {}), core.get("F", {})
+    byc = {u["c"]: u for u in core["U"]}
+    on = [c for c in sorted(F) if F[c].get("on")]
+    off = [c for c in sorted(F) if not F[c].get("on")]
+    if on:
+        print("finansman kolu hariç hesaplananlar: " + ", ".join(f"{c} ({core['L2'][c]['nd']} -> {F[c]['ndx']})" for c in on))
+    if off:
+        print("FİNANSMAN KOLU RAKAMI ESKİDİ, düzeltme uygulanmadı: " + ", ".join(f"{c} (kayıt {F[c].get('per')}, evren {byc[c].get('per')})" for c in off))
+        print("  -> yeni bilanço döneminin rakamlarını oku, data/" + cc + "/finarm.json içine yaz, funnel.py'yi yeniden çalıştır. Rakam bulunamazsa kayda dokunma: sayfa konsolide oranı kullanır ve bunu söyler.")
+    none = set(recs.get("_none", []))                     # bakıldı: içinde tam konsolide finansman şirketi yok
+    gone = [c for c in sorted(recs) if c not in F and not c.startswith("_")]
+    if gone:
+        print("finansman kolu kaydı olup 2. sura gelmeyenler (bilgi): " + ", ".join(gone))
+    only = sorted((-byc[c]["m"], c) for c, l in core["L2"].items() if not l["ok"] and [f["k"] for f in l["fails"]] == ["debt"] and c not in recs and c not in none)
+    if only:
+        print(f"yalnız borç testinden elenen, henüz bakılmamış {len(only)} şirket. İçinde tam konsolide bir finansman şirketi olan varsa finansman kolu kuralı uygulanır; yoksa kodu finarm.json içindeki _none listesine yaz:")
+        for _, c in only[:limit]:
+            u = byc[c]
+            print(f"  {c:9} {u['n'][:34]:34} {u['s'][:22]:22} net borç/FAVÖK {core['L2'][c]['nd']:<5} | {u.get('per')}")
+        if len(only) > limit:
+            print(f"  ... ve {len(only) - limit} şirket daha")
+    if not (off or only):
+        print("borç testinde bakılacak yeni şirket yok.")
 
 
 def listing():
@@ -191,10 +222,14 @@ def accept(cc, dry=False):
     print("yeni bilançosu gelen, raporu güncellenecekler (kale ve kapıda bekleyenler):", ", ".join(stale) or "-")
     if stale3:
         print(f"3. surda elenmiş {len(stale3)} şirketin de yeni bilançosu var; elenme nedeni değişmiş olabilecekleri hak kalırsa yeniden oku:", ", ".join(stale3[:30]))
+    gone = sorted(new_core.get("RX", {}))
+    if gone:
+        print("raporu saklanan, şimdi 1. ya da 2. surda elenenler (sayfada uyarıyla görünür; `one` cümlesi yeni duruma uymalı):", ", ".join(gone))
     if pend:
         queue(cc, new_core, 30)
     else:
         print("sırada bekleyen şirket yok.")
+    debt_review(cc, new_core, 15)
     if dry:
         restore(); print("(deneme: dosyalar eski haline döndürüldü)")
     else:
@@ -208,6 +243,9 @@ if __name__ == "__main__":
     elif "--queue" in args:
         for cc in [a for a in args if not a.startswith("--")]:
             queue(cc.upper(), limit=100000 if "--all" in args else 60)
+    elif "--debt" in args:
+        for cc in [a for a in args if not a.startswith("--")]:
+            print(cc.upper() + ":"); debt_review(cc.upper(), limit=100000 if "--all" in args else 40)
     else:
         for cc in [a for a in args if not a.startswith("--")]:
             accept(cc.upper(), dry="--dry" in args)

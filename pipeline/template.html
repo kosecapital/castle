@@ -350,7 +350,7 @@ function expand(raw) {
     var o = {}; for (var i = 0; i < cols.length; i++) o[cols[i]] = r[i];
     var si = o.s; o.s = raw.sectors[si]; o.se = (raw.sectors_en || raw.sectors)[si]; if (raw.pc && raw.pc[o.c]) o.pc = raw.pc[o.c]; if (raw.ps && raw.ps[o.c]) o.ps = raw.ps[o.c]; o.w = raw.whys[o.w]; o.per = raw.pers[o.per]; o.xy = [o.x, o.y]; return o;
   });
-  var c = { cc: raw.cc, meta: raw.meta, W: raw.W, U: U, byC: {}, bySlug: {}, L2: raw.L2, R: raw.R, Nt: raw.N || {}, ix: CTRY[raw.cc] };
+  var c = { cc: raw.cc, meta: raw.meta, W: raw.W, U: U, byC: {}, bySlug: {}, L2: raw.L2, R: raw.R, RX: raw.RX || {}, Nt: raw.N || {}, F: raw.F || {}, ix: CTRY[raw.cc] };
   U.forEach(function (u) { c.byC[u.c] = u; c.bySlug[slug(u.c)] = u.c; });
   c.E4 = U.filter(function (u) { return u.e === 4; }).sort(function (a, b) { return a.a - b.a; });
   c.N = { all: U.length, p1: 0, p2: 0, p3: c.E4.length, pend: 0, f3: 0 };
@@ -392,6 +392,8 @@ function status(u) { return u.e < 4 ? (u.w === "pending" ? "sirada" : "out") : v
 function kales() { return C ? C.E4.filter(function (u) { return val(u.c).kale; }) : []; }
 function kaleN() { return kales().length; }
 function eraL() { return C.meta.era_label ? mt("era_label") : L("son beş yılda", "in the last five years"); }
+function l3ok(s) { return s.B >= 2 && Math.min(s.A, s.C, s.D, s.E) >= 1; }                                     // 3. surun geçme koşulu
+function ndS(v) { return v < 0 ? L("net nakit", "net cash") : num(v, Math.abs(v - P.ndMax) < 0.05 ? 2 : 1); }   // eşiğe çok yakınsa iki ondalık: "3,04 (eşik 3,0)"
 function failText(f) {
   var era = eraL();
   switch (f.k) {
@@ -400,12 +402,12 @@ function failText(f) {
     case "loss": return L("Son beş yılda zarar yılı var: ", "A loss-making year in the last five years: ") + f.v.join(", ");
     case "roe_min": return L("Reel özsermaye kârlılığı istikrarsız: " + era + " en düşük okuma " + pct(f.v) + " (eşik " + pct(P.eraMin, 0) + ")", "Real return on equity is unstable: the lowest reading " + era + " is " + pct(f.v) + " (threshold " + pct(P.eraMin, 0) + ")");
     case "roe_avg": return L("Reel özsermaye kârlılığı yetersiz: " + era + " ortalama " + pct(f.v) + " (eşik " + pct(P.eraAvg, 0) + ")", "Real return on equity is too low: the average " + era + " is " + pct(f.v) + " (threshold " + pct(P.eraAvg, 0) + ")");
-    case "debt": return L("Borç yükü yüksek: net borç/FAVÖK ", "Heavy debt: net debt/EBITDA ") + num(f.v) + L(" (eşik ", " (threshold ") + num(P.ndMax) + ")";
+    case "debt": return L("Borç yükü yüksek: " + (f.fa ? "finansman kolu hariç " : "") + "net borç/FAVÖK ", "Heavy debt: net debt/EBITDA " + (f.fa ? "excluding the finance arm " : "")) + ndS(f.v) + L(" (eşik ", " (threshold ") + num(P.ndMax) + ")";
     case "cash": return f.v[0] ? L("Kâr nakde dönmüyor: son " + f.v[1] + " dönemde serbest nakit akışı yalnız " + f.v[0] + " kez pozitif", "Profit does not turn into cash: free cash flow was positive in only " + f.v[0] + " of the last " + f.v[1] + " periods") : L("Kâr nakde dönmüyor: son " + f.v[1] + " dönemde serbest nakit akışı hiç pozitif olmadı", "Profit does not turn into cash: free cash flow was never positive in the last " + f.v[1] + " periods");
   }
   return "";
 }
-function flagText(f) { return f.k === "debt" ? L("Net borç/FAVÖK " + num(f.v) + ": eşiğe (" + num(P.ndMax) + ") yakın", "Net debt/EBITDA " + num(f.v) + ": close to the threshold (" + num(P.ndMax) + ")") : L("Serbest nakit akışı son " + f.v[1] + " dönemde yalnız " + f.v[0] + " kez pozitif", "Free cash flow was positive in only " + f.v[0] + " of the last " + f.v[1] + " periods"); }
+function flagText(f) { return f.k === "debt" ? L("Net borç/FAVÖK " + (f.fa ? "(finansman kolu hariç) " : "") + ndS(f.v) + ": eşiğe (" + num(P.ndMax) + ") yakın", "Net debt/EBITDA " + (f.fa ? "(excluding the finance arm) " : "") + ndS(f.v) + ": close to the threshold (" + num(P.ndMax) + ")") : L("Serbest nakit akışı son " + f.v[1] + " dönemde yalnız " + f.v[0] + " kez pozitif", "Free cash flow was positive in only " + f.v[0] + " of the last " + f.v[1] + " periods"); }
 function why(u) { // elenme nedeni, tam cümle
   switch (u.w) {
     case "vehicle": return L("İşletme değil, varlık sepeti (GYO ya da yatırım ortaklığı)", "Not an operating business but an asset basket (REIT or investment trust)");
@@ -890,11 +892,13 @@ function panelStep() {
   } else {
     var all = C.E4.slice().sort(function (a, b) { return val(b.c).mos - val(a.c).mos; });
     var ks = all.filter(function (u) { return val(u.c).kale; }), bs = all.filter(function (u) { return !val(u.c).kale; });
+    var gone = C.U.filter(function (u) { var x = C.RX[u.c]; return x && x.scores && l3ok(x.scores); }).sort(function (a, b) { return b.m - a.m; });
     h = "<h2>" + stFull(5) + "</h2>" +
       '<p class="txt">' + L("İyi iş her fiyata alınmaz. Her şirket için temkinli kazanca dayalı bir değer hesaplanır; fiyat bu değerin en az " + pct(P.mos, 0) + " altındaysa şirket kaleye girer. Diğerleri kapıda bekler.", "A good business is not worth any price. A value based on conservative earnings is calculated for each company; if the price is at least " + pct(P.mos, 0) + " below that value, the company enters the castle. The others wait at the gate.") + "</p>" +
       "<h3>" + L("Kaleler", "Castles") + (ks.length ? "" : L(": bugün yok", ": none today")) + "</h3>" +
       (ks.length ? '<div class="cards">' + ks.map(card).join("") + "</div>" : '<p class="txt">' + L("Bu varsayımlarla hiçbir şirket fiyat testini geçmiyor. Liste boş kalabilir; süzgecin işi de budur.", "With these assumptions no company passes the price test. The list may stay empty; that is the filter doing its job.") + "</p>") +
       "<h3>" + L("Kapıda bekleyenler", "Waiting at the gate") + "</h3>" + (bs.length ? '<div class="cards">' + bs.map(card).join("") + "</div>" : '<p class="txt">' + L("Bekleyen yok.", "No one is waiting.") + "</p>") +
+      (gone.length ? "<h3>" + L("Buraya gelmişti, şimdi elendi", "Reached this stage earlier, now eliminated") + "</h3>" + '<p class="more">' + L("Bu şirketler daha önce ilk üç suru geçmişti. Yeni veriyle önceki bir surda elendiler. Raporları silinmedi; sayfalarında duruyor.", "These companies had passed the first three walls. With new data they were eliminated at an earlier wall. Their reports have not been deleted; they remain on their pages.") + "</p>" + '<ul class="rows">' + gone.map(function (u) { return row(u, outAt(u.e), why(u)); }).join("") + "</ul>" : "") +
       (N.pend ? '<p class="note">' + L(N.pend + " şirket 3. surda sırada bekliyor; okundukça bu listeye eklenebilir.", co(N.pend) + " in the queue at Wall 3; they may join this list as they are read.") + "</p>" : "") +
       '<p class="note">' + L("Kale, şirketin dört ölçütü de bugünkü fiyatla geçtiğini gösterir; al tavsiyesi değildir. Getiri eşiği reel " + pct(P.r, 1) + ", güvenlik marjı " + pct(P.mos, 0) + ".", "A castle means the company passes all four criteria at today's price; it is not a recommendation to buy. Required real return " + pct(P.r, 1) + ", margin of safety " + pct(P.mos, 0) + ".") + ' <button class="link" data-method="1">' + L("Varsayımları değiştir", "Change the assumptions") + "</button></p>";
   }
@@ -938,8 +942,19 @@ function gauge(u, v) {
   return '<figure class="fig">' + s + "</svg><figcaption>" + L("Hisse başına " + pc + ". Sarı bölüm, güvenlik marjı eşiğinin altındaki fiyat aralığıdır; fiyat bu bölümdeyse şirket kaledir.", "Per share, in " + pc + ". The yellow section is the price range below the margin-of-safety threshold; if the price is in this section, the company is a castle.") + "</figcaption></figure>";
 }
 function dots(n, mx) { var s = ""; for (var i = 0; i < mx; i++) s += i < n ? "●" : "○"; return s; }
+function armHtml(fa, l) { // finansman kolu: borç testinin nasıl yapıldığı, rakamları ve kaynağıyla
+  var en = LANG === "en", arm = esc(en && fa.arm_en ? fa.arm_en : fa.arm);
+  if (!fa.on) return '<p class="note">' + L("Bu oran şirketin finansman kolunu (" + arm + ") da içerir. Kol hariç hesap " + esc(donem(fa.per)) + " bilançosunun rakamlarıyla yapılmıştı; yeni dönemin rakamları henüz okunmadı. Bu yüzden burada konsolide oran kullanıldı.", "This ratio includes the company's finance arm (" + arm + "). The calculation without the arm was made with the figures for " + esc(donem(fa.per)) + "; the figures for the new period have not been read yet. The consolidated ratio is therefore used here.") + "</p>";
+  var amt = function (x) { return x < 0 ? L("net nakit ", "net cash of ") + cap(-x) : cap(x); };
+  var how = fa.op_how ? "<small>" + esc(en ? fa.op_how.en : fa.op_how.tr) + "</small>" : "", extra = en ? fa.en : fa.tr;
+  var src = (fa.sources || []).map(function (x) { return '<a href="' + esc(x.u) + '" target="_blank" rel="noopener">' + esc(en && x.te ? x.te : x.t) + "</a>"; }).join("; ");
+  return '<p class="note">' + L("Finansman kolu: " + arm + ". Borç testi bu kolun borcu ve kârı çıkarılarak yapıldı, çünkü o borç kolun verdiği kredilerin karşılığıdır. Eşik aynıdır: " + num(P.ndMax) + ".", "Finance arm: " + arm + ". The debt test was run without this arm's debt and profit, because that debt is the counterpart of the loans the arm has made. The threshold is unchanged: " + num(P.ndMax) + ".") + "</p>" +
+    '<dl class="kv"><dt>' + L("Net borç, ", "Net debt, ") + tarih(fa.date) + "</dt><dd>" + amt(fa.nd_all) + "</dd><dt>" + L("Kol hariç net borç", "Net debt without the arm") + "</dt><dd>" + amt(fa.nd_ex) + "</dd><dt>" + L("Kolun son 12 aya giren faaliyet kârı", "The arm's operating profit within the last 12 months") + how + "</dt><dd>" + cap(fa.op_arm) + "</dd></dl>" +
+    (extra || src ? '<p class="note">' + (extra ? esc(extra) + " " : "") + (src ? L("Kaynak: ", "Source: ") + src + "." : "") + "</p>" : "");
+}
+function ndV(x) { return x < 0 ? L("net nakit", "net cash") : num(x, 2); }
 function panelCo(c) {
-  var u = C.byC[c], l = C.L2[c], r = C.R[c], st = status(u), M = C.meta, v = (u.e === 4 || st === "sirada") ? val(c) : null, h = "";
+  var u = C.byC[c], l = C.L2[c], r = C.R[c], rx = !r && C.RX[c] ? C.RX[c] : null, rep = r || rx, st = status(u), M = C.meta, v = (u.e === 4 || st === "sirada") ? val(c) : null, h = "";
   h += '<button class="back" data-back="1">' + esc(L(stFull(S.step) + " görünümüne dön", "Back to " + stFull(S.step))) + "</button>";
   h += '<div class="head"><h2><span class="tk">' + esc(u.c) + "</span> " + esc(u.n) + '</h2><span class="sec">' + esc(sec(u)) + ", " + esc(mt("name")) + "</span></div>";
   h += '<span class="pill ' + st + '">' + (st === "kale" ? L("Kale: dört suru da geçti", "Castle: passed all four walls") : st === "bekle" ? L("Kapıda bekliyor: fiyat testini geçemedi", "Waiting at the gate: did not pass the price test") : st === "sirada" ? L("3. surda sırada: henüz okunmadı", "In the queue at Wall 3: not read yet") : outAt(u.e)) + "</span>";
@@ -960,13 +975,14 @@ function panelCo(c) {
     h += "<h3>" + L("Beş yılın rakamları", "Five years of numbers") + "</h3>" + roeChart(c);
     var kv = "", era = eraL(), eraT = era.charAt(0).toLocaleUpperCase("tr") + era.slice(1);
     if (l.avg != null) kv += "<dt>" + esc(L(eraT + " ortalama özsermaye kârlılığı", "Average return on equity, " + era)) + "</dt><dd>" + pct(l.avg) + "</dd><dt>" + esc(L(eraT + " en düşük okuma", "Lowest reading, " + era)) + "</dt><dd>" + pct(l.mn) + "</dd>";
-    if (l.nd != null && !u.fin) kv += "<dt>" + L("Net borç / FAVÖK", "Net debt / EBITDA") + "</dt><dd>" + (l.nd < 0 ? L("net nakit", "net cash") : num(l.nd, 2)) + "</dd>";
+    if (l.nd != null && !u.fin) kv += "<dt>" + L("Net borç / FAVÖK", "Net debt / EBITDA") + (l.ndx != null ? "<small>" + L("finansman kolu hariç; konsolide ", "excluding the finance arm; consolidated ") + ndV(l.nd) + "</small>" : "") + "</dt><dd>" + ndV(l.ndx != null ? l.ndx : l.nd) + "</dd>";
     var f5 = u.fin ? [] : l.fcf.slice(1).filter(function (x) { return x != null; });
     if (f5.length) kv += "<dt>" + L("Serbest nakit akışı pozitif dönem", "Periods with positive free cash flow") + "</dt><dd>" + f5.filter(function (x) { return x > 0; }).length + " / " + f5.length + "</dd>";
     if (l.dy != null) kv += "<dt>" + L("Temettü verimi", "Dividend yield") + "</dt><dd>" + pct(l.dy) + "</dd>";
     if (kv) h += '<dl class="kv">' + kv + "</dl>";
     if (l.flags && l.flags.length) h += '<p class="note">' + L("Uyarı: ", "Note: ") + esc(l.flags.map(flagText).join("; ")) + ".</p>";
     if (l.stale) h += '<p class="note">' + L("Bu şirketin beş yıllık veri sayfası güncel değildi; kalite testi doğrulanamadı.", "This company's five-year data page was not up to date; the quality test could not be verified.") + "</p>";
+    if (C.F[c] && !u.fin) h += armHtml(C.F[c], l);
   } else if (u.e <= 2) {
     h += '<p class="note">' + (l ? L("Bu şirket için beş yıllık veri bulunamadı.", "No five-year data was found for this company.") : L("Bu şirket ilk iki elemede kaldığı için beş yıllık inceleme yapılmadı.", "This company was eliminated in the first two cuts, so no five-year review was done.")) + "</p>";
   }
@@ -980,18 +996,20 @@ function panelCo(c) {
       "<dt>" + L("Alım eşiği", "Threshold price") + "<small>" + L("marj " + pct(P.mos, 0) + " için", "for a margin of " + pct(P.mos, 0)) + "</small></dt><dd>" + money(v.buy, u) + "</dd></dl>";
     if (st === "sirada") h += '<p class="note">' + L("Bu bir ön hesaptır. Şirket 3. surda okunmadan kale sayılmaz.", "This is a preliminary calculation. A company does not count as a castle until it has been read at Wall 3.") + "</p>";
   }
-  if (r) {
-    var sc = r.scores, risks = rt(r, "risks"), watch = rt(r, "watch");
+  if (rep) {
+    var sc = rep.scores, risks = rt(rep, "risks"), watch = rt(rep, "watch");
+    if (rx) h += "<h3>" + L("Saklanan rapor", "Report on file") + '</h3><p class="note">' + L("Bu rapor " + esc(donem(rx.per)) + " bilançosuna göre yazıldı. Şirket şimdi " + u.e + ". surda elendiği için rapor güncellenmiyor. Silinmedi; şirketin neden incelendiği görülsün diye duruyor.", "This report was written on the accounts for " + esc(donem(rx.per)) + ". Because the company is now eliminated at Wall " + u.e + ", the report is no longer updated. It has not been deleted; it stays so that you can see why the company was reviewed.") + "</p>";
+    if (rx && rt(rx, "one")) h += '<p class="txt">' + esc(rt(rx, "one")) + "</p>";
     var SC = [["A", 2, L("Anlaşılırlık", "Understandability")], ["B", 3, L("Hendek", "Moat")], ["C", 2, L("Kazancın öngörülebilirliği", "Predictability of earnings")], ["D", 2, L("Yönetim ve sermaye tahsisi", "Management and capital allocation")], ["E", 2, L("Dayanıklılık", "Resilience")]];
     var li = function (x) { return "<li>" + esc(x) + "</li>"; };
-    h += "<h3>" + L("İş", "Business") + '</h3><p class="txt">' + esc(rt(r, "business")) + "</p>";
-    h += "<h3>" + L("Hendek: ", "Moat: ") + esc(moatW(r.moat)) + '</h3><p class="txt">' + esc(rt(r, "moat_text")) + "</p>";
-    h += "<h3>" + L("Yönetim ve sermaye", "Management and capital") + '</h3><p class="txt">' + esc(rt(r, "mgmt")) + "</p>";
+    h += "<h3>" + L("İş", "Business") + '</h3><p class="txt">' + esc(rt(rep, "business")) + "</p>";
+    h += "<h3>" + L("Hendek: ", "Moat: ") + esc(moatW(rep.moat)) + '</h3><p class="txt">' + esc(rt(rep, "moat_text")) + "</p>";
+    h += "<h3>" + L("Yönetim ve sermaye", "Management and capital") + '</h3><p class="txt">' + esc(rt(rep, "mgmt")) + "</p>";
     h += '<dl class="scores">' + SC.map(function (x) { return "<dt>" + x[2] + '</dt><dd aria-label="' + sc[x[0]] + " / " + x[1] + '">' + dots(sc[x[0]], x[1]) + "</dd>"; }).join("") + "</dl>";
-    h += "<h3>" + L("Son gelişme", "Latest development") + '</h3><p class="txt">' + esc(rt(r, "latest")) + "</p>";
+    h += "<h3>" + L("Son gelişme", "Latest development") + '</h3><p class="txt">' + esc(rt(rep, "latest")) + "</p>";
     if (risks && risks.length) h += "<h3>" + L("Bu tezi ne bozar", "What would break this thesis") + '</h3><ul class="ul">' + risks.map(li).join("") + "</ul>";
     if (watch && watch.length) h += "<h3>" + L("İzlenecekler", "What to watch") + '</h3><ul class="ul">' + watch.map(li).join("") + "</ul>";
-    if (r.sources && r.sources.length) h += "<h3>" + L("Kaynaklar", "Sources") + '</h3><ul class="src">' + r.sources.map(function (x) { return '<li><a href="' + esc(x.u) + '" target="_blank" rel="noopener">' + esc(LANG === "en" && x.te ? x.te : x.t) + "</a></li>"; }).join("") + "</ul>";
+    if (rep.sources && rep.sources.length) h += "<h3>" + L("Kaynaklar", "Sources") + '</h3><ul class="src">' + rep.sources.map(function (x) { return '<li><a href="' + esc(x.u) + '" target="_blank" rel="noopener">' + esc(LANG === "en" && x.te ? x.te : x.t) + "</a></li>"; }).join("") + "</ul>";
   }
   var Q = [[L("Neden burada?", "Why here?"), L("Bu şirket süzgeçte neden bu noktada kaldı? Kısaca anlat.", "Why did this company end up at this point in the filter? Explain briefly.")], [L("Tezi ne bozar?", "What breaks the thesis?"), L("Bu şirket için tezi en çok ne bozar?", "What is most likely to break the thesis for this company?")], [L("Ne değişirse durum değişir?", "What would change its status?"), L("Hangi koşullar değişirse bu şirketin süzgeçteki durumu değişir?", "Which conditions would have to change for this company's status in the filter to change?")]];
   h += '<div class="ask" id="ask" hidden><h3>' + L("Analiste sor", "Ask the analyst") + '</h3><p class="note">' + L("Sorun, bu şirketin verisiyle birlikte Claude'a gönderilir ve kendi Claude kullanımından düşer. Analist yalnızca bu sayfadaki veriyi bilir; güncel haber aramaz.", "Your question is sent to Claude together with this company's data and counts against your own Claude usage. The analyst knows only the data on this page; it does not search for current news.") + '</p><div class="conv" id="askout"></div><div class="chips">' + Q.map(function (x) { return '<button data-qq="' + esc(x[1]) + '">' + x[0] + "</button>"; }).join("") + '</div><textarea id="askq" placeholder="' + L("Sorunu yaz", "Type your question") + '" aria-label="' + L("Analiste soru", "Question for the analyst") + '"></textarea><div class="ask-row"><button class="cta" id="askgo">' + L("Sor", "Ask") + '</button><button class="ghost" id="askstop" hidden>' + L("Durdur", "Stop") + "</button></div></div>";
@@ -1070,22 +1088,47 @@ $("#home").addEventListener("click", function () { go(0); });
 
 /* ---------- arama ---------- */
 var qi = $("#q"), ql = $("#ql");
-qi.addEventListener("input", function () {
+var SX = null, sxState = 0; // bütün ülkelerin hisse dizini (data/search.json). 0 istenmedi, 1 yükleniyor, 2 hazır, 3 yüklenemedi
+function loadSX() {        // dizin ilk aramada yüklenir; sayfanın açılışını yavaşlatmaz
+  if (sxState) return; sxState = 1;
+  getJSON("data/search.json").then(function (d) {
+    SX = d.rows.map(function (r) { return { cc: r[0], c: r[1], n: r[2], st: r[3], fc: fold(r[1]), fn: fold(r[2]) }; });
+    sxState = 2;
+  }).catch(function () { sxState = 3; }).then(function () { if (qi.value.trim() && document.activeElement === qi) search(); });
+}
+function sxW(st) {          // dizindeki durum: k kale, b kapıda, s sırada, 1-3 elendiği sur (varsayılan eşiklerle)
+  var same = P.r === P0.r && P.mos === P0.mos;
+  return st === "k" && same ? L("kale", "castle") : st === "b" && same ? L("kapıda", "at the gate") : st === "k" || st === "b" ? L("4. surda", "at Wall 4") : st === "s" ? L("sırada", "in the queue") : L(st + ". surda elendi", "out at Wall " + st);
+}
+function search() {
   var q = fold(qi.value.trim()); if (!q) { ql.hidden = true; return; }
   var html = IDX.countries.filter(function (k) { return fold(k.name).indexOf(q) === 0 || fold(k.name_en || "").indexOf(q) === 0 || k.cc.toLowerCase() === q; }).slice(0, 3).map(function (k) {
     return '<button data-enter="' + k.cc + '"><span class="tk">' + k.cc + '</span><span class="nm">' + esc(cname(k)) + "</span><small>" + k.kale + " " + kaleW(k.kale) + "</small></button>";
   }).join("");
-  if (C) {
+  var n = 0;
+  if (C) { // açık ülkenin hisseleri önce gelir
     var m = C.U.filter(function (u) { return fold(u.c).indexOf(q) === 0; }).concat(C.U.filter(function (u) { return fold(u.c).indexOf(q) !== 0 && fold(u.n).indexOf(q) >= 0; })).slice(0, 7);
+    n = m.length;
     html += m.map(function (u) { var s = status(u); return '<button data-c="' + esc(u.c) + '"><span class="tk">' + esc(u.c) + '</span><span class="nm">' + esc(u.n) + "</span><small>" + (s === "kale" ? L("kale", "castle") : s === "bekle" ? L("kapıda", "at the gate") : s === "sirada" ? L("sırada", "in the queue") : L(u.e + ". surda elendi", "out at Wall " + u.e)) + "</small></button>"; }).join("");
   }
-  ql.innerHTML = html || '<button disabled>' + (C ? L("Eşleşen hisse ya da ülke yok", "No matching stock or country") : L("Hisse aramak için önce bir ülkeye gir", "Enter a country first to search for stocks")) + "</button>";
+  if (sxState === 0) loadSX();
+  if (SX) { // öbür ülkeler: kodu tam tutan, kodu böyle başlayan, adında geçen (dizin büyükten küçüğe sıralıdır)
+    var room = C ? Math.max(3, 8 - n) : 8, here = C ? C.cc : null, a1 = [], a2 = [], a3 = [], i, x;
+    for (i = 0; i < SX.length && a1.length + a2.length < 40; i++) { x = SX[i]; if (x.cc === here || !CTRY[x.cc]) continue; if (x.fc === q) a1.push(x); else if (x.fc.indexOf(q) === 0) a2.push(x); }
+    if (a1.length + a2.length < room && q.length >= 2) for (i = 0; i < SX.length && a3.length < room; i++) { x = SX[i]; if (x.cc === here || !CTRY[x.cc]) continue; if (x.fc.indexOf(q) !== 0 && x.fn.indexOf(q) >= 0) a3.push(x); }
+    html += a1.concat(a2, a3).slice(0, room).map(function (x) {
+      return '<button data-enter="' + x.cc + '" data-sel="' + esc(x.c) + '"><span class="tk">' + esc(x.c) + '</span><span class="nm">' + esc(x.n) + "</span><small>" + esc(cname(CTRY[x.cc])) + " · " + sxW(x.st) + "</small></button>";
+    }).join("");
+  } else if (sxState === 1 && !n) html += "<button disabled>" + L("Hisseler aranıyor…", "Searching stocks…") + "</button>";
+  ql.innerHTML = html || "<button disabled>" + (C || sxState === 2 ? L("Eşleşen hisse ya da ülke yok", "No matching stock or country") : L("Hisse aramak için önce bir ülkeye gir", "Enter a country first to search for stocks")) + "</button>";
   ql.hidden = false;
-});
+}
+qi.addEventListener("input", search);
+qi.addEventListener("focus", loadSX);
 ql.addEventListener("click", function (ev) {
   var b = ev.target.closest("button"); if (!b) return;
   if (b.dataset.c) { ql.hidden = true; qi.value = ""; select(b.dataset.c, true); }
-  else if (b.dataset.enter) { ql.hidden = true; qi.value = ""; enter(b.dataset.enter, 1); }
+  else if (b.dataset.enter) { ql.hidden = true; qi.value = ""; enter(b.dataset.enter, 1, b.dataset.sel || null); }
 });
 qi.addEventListener("keydown", function (ev) { if (ev.key === "Enter") { var b = ql.querySelector("button[data-c],button[data-enter]"); if (b && !ql.hidden) b.click(); } else if (ev.key === "Escape") { ql.hidden = true; } });
 document.addEventListener("click", function (ev) { if (!ev.target.closest(".find")) ql.hidden = true; });
@@ -1109,7 +1152,8 @@ function methodHtml() {
       L("Enflasyondan arındırılmış özsermaye kârlılığının ortalaması en az " + pct(P.eraAvg, 0) + " ve hiçbir okuma " + pct(P.eraMin, 0) + "'un altında değil.", "Average return on equity after inflation of at least " + pct(P.eraAvg, 0) + ", and no single reading below " + pct(P.eraMin, 0) + "."),
       L("Net borç / FAVÖK en çok " + num(P.ndMax, 0) + ".", "Net debt / EBITDA of at most " + num(P.ndMax, 0) + "."),
       L("Serbest nakit akışı son beş dönemin en az ikisinde pozitif.", "Free cash flow positive in at least two of the last five periods."),
-      L("Borç ve nakit testleri banka, sigorta, aracı kurum ve holdinglere uygulanmaz; bu ölçüler onlar için anlamlı değildir.", "The debt and cash tests are not applied to banks, insurers, brokers and holding companies; these measures are not meaningful for them.")]) + "</li>" +
+      L("Borç ve nakit testleri banka, sigorta, aracı kurum ve holdinglere uygulanmaz; bu ölçüler onlar için anlamlı değildir.", "The debt and cash tests are not applied to banks, insurers, brokers and holding companies; these measures are not meaningful for them."),
+      L("Aynı nedenle, bir sanayi şirketinin içinde finansman şirketi varsa (örneğin taşıt kredisi veren kol) borç testi o kolun borcu ve kârı çıkarılarak yapılır. Kolun borcu, verdiği kredilerin karşılığıdır. Eşik değişmez. Düzeltme yalnız şirketin aynı tarihli, açıklanmış rakamlarıyla yapılır ve şirketin sayfasında kaynağıyla gösterilir.", "For the same reason, where an industrial company contains a finance company (for example an arm that lends to vehicle buyers), the debt test is run without that arm's debt and profit. The arm's debt is the counterpart of the loans it has made. The threshold does not change. The adjustment uses only figures the company has disclosed for the same date, and it is shown with its source on the company's page.")]) + "</li>" +
     "<li><b>" + stFull(4) + "</b>" + (N ? cnt(N.p2, N.p3) + (N.pend ? " " + L(N.pend + " şirket sırada.", N.pend + " in the queue.") : "") : "") + ul([
       L("Beş puan verilir: anlaşılırlık, hendek, kazancın öngörülebilirliği, yönetim ve sermaye tahsisi, dayanıklılık.", "Five scores are given: understandability, moat, predictability of earnings, management and capital allocation, resilience."),
       L("Hendek en az dar olmalı ve hiçbir puan sıfır olmamalı.", "The moat must be at least narrow, and no score may be zero."),
@@ -1132,6 +1176,7 @@ function methodHtml() {
     "<h3>" + L("Veri ve sınırlar", "Data and limits") + '</h3><ul class="ul">' +
     (M ? mt("data_notes").map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "<li>" + L("Veri canlı değildir: bu ülke için son güncelleme " + tarih(M.asof) + ".", "The data is not live: the last update for this country was " + tarih(M.asof) + ".") + "</li>" : "<li>" + L("Her ülkenin verisi, o ülkenin yanında yazan tarihin kapanışına aittir.", "Each country's data is as of the close on the date shown next to it.") + "</li>") +
     "<li>" + L("1. sur bilerek katıdır. Geçici bir zarar yılı yaşayan iyi bir şirketi de eler.", "Wall 1 is strict on purpose. It also eliminates a good company that has had one temporary loss-making year.") + "</li>" +
+    "<li>" + L("Bir şirket yeni veriyle elenirse daha önce yazılan raporu silinmez. Şirketin sayfasında, güncellenmediği belirtilerek durur.", "If new data eliminates a company, the report written earlier is not deleted. It stays on the company's page, marked as no longer updated.") + "</li>" +
     "<li>" + L("3. sur yargı içerir; başka bir analist farklı puan verebilir.", "Wall 3 involves judgment; another analyst could give different scores.") + "</li>" +
     "<li>" + L("Castle bir analiz aracıdır. Yatırım tavsiyesi vermez; kimsenin kişisel durumunu bilmez.", "Castle is an analysis tool. It does not give investment advice, and it knows nothing about anyone's personal circumstances.") + "</li></ul>";
 }
@@ -1161,7 +1206,7 @@ $("#sheet").addEventListener("click", function (ev) { if (ev.target === ev.curre
 /* ---------- analiste sor (yalnızca Claude içinde açılır) ---------- */
 var sampleFn = null, sampleOff = false, live = null, turns = {};
 function rulesFor(c) {
-  var u = C.byC[c], l = C.L2[c] || null, r = C.R[c] || null, M = C.meta, st = status(u), v = (u.e === 4 || st === "sirada") ? val(c) : null, en = LANG === "en";
+  var u = C.byC[c], l = C.L2[c] || null, r = C.R[c] || C.RX[c] || null, fa = C.F[c] && C.F[c].on ? C.F[c] : null, M = C.meta, st = status(u), v = (u.e === 4 || st === "sirada") ? val(c) : null, en = LANG === "en";
   var yrs = (l && l.fy) || M.years;
   var head = en
     ? "You are the analyst of Castle, a value-investing tool. Your job is to assess the company below against the principles published in Warren Buffett's shareholder letters.\n\n" +
@@ -1171,14 +1216,14 @@ function rulesFor(c) {
   var princ = (en ? "Principles (for each one: the principle first, then its rule in Castle):\n" : "İlkeler (her biri için önce ilke, sonra Castle'daki kuralı):\n") +
     IDX.CH.map(function (p) { return "- " + chv(p, "k") + " (" + chv(p, "w") + "): " + chv(p, "t") + (en ? " In Castle: " : " Castle'da: ") + chv(p, "a"); }).join("\n") + "\n\n";
   var thr = en
-    ? "Thresholds of the filter: " + JSON.stringify({ wall1: "not a REIT or investment trust; net profit in the last 12 months (P/E can be calculated); " + mt("small_rule"), wall2: "real return on equity over the last 12 months at least " + P.roeMin + "%; five years of history; no loss-making year; average real return on equity at least " + P.eraAvg + "% and no reading below " + P.eraMin + "%; net debt/EBITDA at most " + P.ndMax + "; free cash flow positive in at least two of five periods", wall3: "moat at least narrow (score 2); no score is zero. Scores: A understandability 0-2, B moat 0-3, C predictability 0-2, D management and capital allocation 0-2, E resilience 0-2", wall4: "margin of safety at least " + P.mos + "%; required real return " + P.r + "%; conservative earnings = equity x the lowest of the last three return-on-equity readings; fair multiple = 100/(required return - growth allowance)", inflation: mt("inflation_note") })
-    : "Süzgecin eşikleri: " + JSON.stringify({ sur1: "GYO ya da yatırım ortaklığı değil; son 12 ayda net kâr var (F/K hesaplanabiliyor); " + mt("small_rule"), sur2: "son 12 ay reel özsermaye kârlılığı en az %" + P.roeMin + "; beş yıllık geçmiş var; zarar yılı yok; reel özsermaye kârlılığı ortalaması en az %" + P.eraAvg + " ve hiçbir okuma %" + P.eraMin + " altında değil; net borç/FAVÖK en çok " + P.ndMax + "; serbest nakit akışı beş dönemin en az ikisinde pozitif", sur3: "hendek en az dar (puan 2); hiçbir puan sıfır değil. Puanlar: A anlaşılırlık 0-2, B hendek 0-3, C öngörülebilirlik 0-2, D yönetim ve sermaye tahsisi 0-2, E dayanıklılık 0-2", sur4: "güvenlik marjı en az %" + P.mos + "; reel getiri eşiği %" + P.r + "; temkinli kazanç = özkaynak x son üç özsermaye kârlılığı okumasının en düşüğü; adil çarpan = 100/(getiri eşiği - büyüme payı)", enflasyon: mt("inflation_note") });
+    ? "Thresholds of the filter: " + JSON.stringify({ wall1: "not a REIT or investment trust; net profit in the last 12 months (P/E can be calculated); " + mt("small_rule"), wall2: "real return on equity over the last 12 months at least " + P.roeMin + "%; five years of history; no loss-making year; average real return on equity at least " + P.eraAvg + "% and no reading below " + P.eraMin + "%; net debt/EBITDA at most " + P.ndMax + " (where an industrial company consolidates a finance arm, the ratio is calculated without that arm's debt and profit); free cash flow positive in at least two of five periods", wall3: "moat at least narrow (score 2); no score is zero. Scores: A understandability 0-2, B moat 0-3, C predictability 0-2, D management and capital allocation 0-2, E resilience 0-2", wall4: "margin of safety at least " + P.mos + "%; required real return " + P.r + "%; conservative earnings = equity x the lowest of the last three return-on-equity readings; fair multiple = 100/(required return - growth allowance)", inflation: mt("inflation_note") })
+    : "Süzgecin eşikleri: " + JSON.stringify({ sur1: "GYO ya da yatırım ortaklığı değil; son 12 ayda net kâr var (F/K hesaplanabiliyor); " + mt("small_rule"), sur2: "son 12 ay reel özsermaye kârlılığı en az %" + P.roeMin + "; beş yıllık geçmiş var; zarar yılı yok; reel özsermaye kârlılığı ortalaması en az %" + P.eraAvg + " ve hiçbir okuma %" + P.eraMin + " altında değil; net borç/FAVÖK en çok " + P.ndMax + " (sanayi şirketinin içinde finansman şirketi varsa oran o kolun borcu ve kârı çıkarılarak hesaplanır); serbest nakit akışı beş dönemin en az ikisinde pozitif", sur3: "hendek en az dar (puan 2); hiçbir puan sıfır değil. Puanlar: A anlaşılırlık 0-2, B hendek 0-3, C öngörülebilirlik 0-2, D yönetim ve sermaye tahsisi 0-2, E dayanıklılık 0-2", sur4: "güvenlik marjı en az %" + P.mos + "; reel getiri eşiği %" + P.r + "; temkinli kazanç = özkaynak x son üç özsermaye kârlılığı okumasının en düşüğü; adil çarpan = 100/(getiri eşiği - büyüme payı)", enflasyon: mt("inflation_note") });
   var stat = st === "kale" ? L("kale: dört suru da geçti", "castle: passed all four walls") : st === "bekle" ? L("kapıda bekliyor: fiyat testini geçemedi", "waiting at the gate: did not pass the price test") : st === "sirada" ? L("2. suru geçti; 3. sur incelemesi sırada", "passed Wall 2; the Wall 3 review is in the queue") : outAt(u.e);
   var data = en
     ? "Company data (JSON; p: price, m: market value (millions, local currency), f: free float %, pe: P/E, pb: P/B, roe: return on equity over the last 12 months %, rr: the same in real terms, nom: 1 means the figures were adjusted for inflation, e: the wall where it was eliminated (4 = reached the price stage)):\n" +
-      JSON.stringify({ company: { c: u.c, n: u.n, sector: sec(u), p: u.p, m: u.m, f: u.f, pe: u.pe, pb: u.pb, per: u.per, roe: u.roe, rr: u.rr, nom: u.nom, e: u.e, reason: why(u) }, fiveYears: l ? { years: yrs.concat(["last12months"]), returnOnEquity: l.roe, realReturnOnEquity: l.rroe, returnOnInvestedCapital: l.roic, freeCashFlowYield: l.fcf, netDebtToEbitda: l.nd, dividendYield: l.dy, payoutRatio: l.po, failReasons: l.fails.map(failText), warnings: l.flags.map(flagText) } : "No five-year data was collected because this company was eliminated in the first two cuts.", report: r ? { summary: rt(r, "one"), business: rt(r, "business"), moat: moatW(r.moat), moatReasoning: rt(r, "moat_text"), management: rt(r, "mgmt"), latest: rt(r, "latest"), risks: rt(r, "risks"), watch: rt(r, "watch"), scores: r.scores } : "No detailed report was written for this company.", priceTest: v ? { conservativeReturnOnEquity: v.roeN, conservativePE: +v.pen.toFixed(2), fairMultiple: +v.fair.toFixed(2), growthAllowance: v.g, marginOfSafety: +v.mos.toFixed(1), conservativeValue: +v.iv.toFixed(2), thresholdPrice: +v.buy.toFixed(2) } : null, status: stat })
+      JSON.stringify({ company: { c: u.c, n: u.n, sector: sec(u), p: u.p, m: u.m, f: u.f, pe: u.pe, pb: u.pb, per: u.per, roe: u.roe, rr: u.rr, nom: u.nom, e: u.e, reason: why(u) }, fiveYears: l ? { years: yrs.concat(["last12months"]), returnOnEquity: l.roe, realReturnOnEquity: l.rroe, returnOnInvestedCapital: l.roic, freeCashFlowYield: l.fcf, netDebtToEbitda: l.nd, netDebtToEbitdaExFinanceArm: l.ndx, financeArm: fa ? (fa.arm_en || fa.arm) : undefined, dividendYield: l.dy, payoutRatio: l.po, failReasons: l.fails.map(failText), warnings: l.flags.map(flagText) } : "No five-year data was collected because this company was eliminated in the first two cuts.", report: r ? { status: C.R[c] ? undefined : "written for an earlier reporting period; no longer updated because the company is now eliminated", summary: rt(r, "one"), business: rt(r, "business"), moat: moatW(r.moat), moatReasoning: rt(r, "moat_text"), management: rt(r, "mgmt"), latest: rt(r, "latest"), risks: rt(r, "risks"), watch: rt(r, "watch"), scores: r.scores } : "No detailed report was written for this company.", priceTest: v ? { conservativeReturnOnEquity: v.roeN, conservativePE: +v.pen.toFixed(2), fairMultiple: +v.fair.toFixed(2), growthAllowance: v.g, marginOfSafety: +v.mos.toFixed(1), conservativeValue: +v.iv.toFixed(2), thresholdPrice: +v.buy.toFixed(2) } : null, status: stat })
     : "Şirket verisi (JSON; p: fiyat, m: piyasa değeri (milyon, yerel para), f: halka açıklık %, pe: F/K, pb: PD/DD, roe: son 12 ay özsermaye kârlılığı %, rr: aynısının reel hali, nom: 1 ise rakamlar enflasyonla düzeltildi, e: elendiği sur (4 = fiyat aşamasına ulaştı)):\n" +
-      JSON.stringify({ sirket: { c: u.c, n: u.n, s: u.s, p: u.p, m: u.m, f: u.f, pe: u.pe, pb: u.pb, per: u.per, roe: u.roe, rr: u.rr, nom: u.nom, e: u.e, neden: why(u) }, besYil: l ? { yillar: yrs.concat(["son12ay"]), ozsermayeKarliligi: l.roe, reelOzsermayeKarliligi: l.rroe, yatirilanSermayeGetirisi: l.roic, serbestNakitAkisiVerimi: l.fcf, netBorcFavok: l.nd, temettuVerimi: l.dy, temettuOdemeOrani: l.po, elenmeNedenleri: l.fails.map(failText), uyarilar: l.flags.map(flagText) } : "Bu şirket ilk iki elemede kaldığı için beş yıllık veri toplanmadı.", rapor: r ? { ozet: r.one, is: r.business, hendek: r.moat, hendekGerekcesi: r.moat_text, yonetim: r.mgmt, sonGelisme: r.latest, riskler: r.risks, izlenecekler: r.watch, puanlar: r.scores } : "Bu şirket için ayrıntılı rapor yazılmadı.", fiyatTesti: v ? { temkinliOzsermayeKarliligi: v.roeN, temkinliFK: +v.pen.toFixed(2), adilCarpan: +v.fair.toFixed(2), buyumePayi: v.g, guvenlikMarji: +v.mos.toFixed(1), temkinliDeger: +v.iv.toFixed(2), alimEsigi: +v.buy.toFixed(2) } : null, durum: stat });
+      JSON.stringify({ sirket: { c: u.c, n: u.n, s: u.s, p: u.p, m: u.m, f: u.f, pe: u.pe, pb: u.pb, per: u.per, roe: u.roe, rr: u.rr, nom: u.nom, e: u.e, neden: why(u) }, besYil: l ? { yillar: yrs.concat(["son12ay"]), ozsermayeKarliligi: l.roe, reelOzsermayeKarliligi: l.rroe, yatirilanSermayeGetirisi: l.roic, serbestNakitAkisiVerimi: l.fcf, netBorcFavok: l.nd, netBorcFavokFinansmanKoluHaric: l.ndx, finansmanKolu: fa ? fa.arm : undefined, temettuVerimi: l.dy, temettuOdemeOrani: l.po, elenmeNedenleri: l.fails.map(failText), uyarilar: l.flags.map(flagText) } : "Bu şirket ilk iki elemede kaldığı için beş yıllık veri toplanmadı.", rapor: r ? { durum: C.R[c] ? undefined : "önceki bir bilanço dönemine göre yazıldı; şirket elendiği için güncellenmiyor", ozet: r.one, is: r.business, hendek: r.moat, hendekGerekcesi: r.moat_text, yonetim: r.mgmt, sonGelisme: r.latest, riskler: r.risks, izlenecekler: r.watch, puanlar: r.scores } : "Bu şirket için ayrıntılı rapor yazılmadı.", fiyatTesti: v ? { temkinliOzsermayeKarliligi: v.roeN, temkinliFK: +v.pen.toFixed(2), adilCarpan: +v.fair.toFixed(2), buyumePayi: v.g, guvenlikMarji: +v.mos.toFixed(1), temkinliDeger: +v.iv.toFixed(2), alimEsigi: +v.buy.toFixed(2) } : null, durum: stat });
   return head + princ + thr + "\n\n" + data;
 }
 function errS(code) {

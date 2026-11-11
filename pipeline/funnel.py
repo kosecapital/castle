@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """Castle süzgeci: bir ülkenin normalleştirilmiş verisinden dört surun sonucunu üretir.
 
-Girdi  (data/<CC>/): meta.json, universe.json, history.json, reports.json (olmayabilir)
-Çıktı  (data/<CC>/core.json): {cc, asof, U, L2, R}
+Girdi  (data/<CC>/): meta.json, universe.json, history.json, reports.json (olmayabilir), finarm.json (olmayabilir)
+Çıktı  (data/<CC>/core.json): {cc, asof, U, L2, R, RX, N, F}
+        R: 2. suru geçen şirketlerin raporları | RX: raporu yazılmış, sonra 1. ya da 2. surda elenmiş şirketlerin saklanan raporları
+        N: elenen şirketin kısa notu | F: finansman kolu düzeltmesi (uygulandıysa on=1, rakamı eskidiyse on=0)
 
 Kullanım: python3 pipeline/funnel.py TR
 Kurallar pipeline/params.json içindedir; ülkeye özgü ayarlar meta.json içindedir.
@@ -32,6 +34,30 @@ def l3pass(s):
     return s["B"] >= 2 and min(s["A"], s["C"], s["D"], s["E"]) >= 1
 
 
+def arm_ratio(fa, nd, per):
+    """Finansman kolu hariç net borç/FAVÖK; düzeltme uygulanamıyorsa None.
+
+    Bir sanayi şirketi bir finansman şirketini (taşıt ya da tüketici kredisi veren kol) tam konsolide ediyorsa kaynağın
+    net borç/FAVÖK oranı o kolun borcunu da içerir. O borç, kolun verdiği kredilerin karşılığıdır; FAVÖK ile ölçülmez
+    (banka ve finans şirketlerine borç testi uygulanmamasıyla aynı gerekçe). Eşik değişmez; ölçülen şey kolun dışındaki iştir:
+
+        kaynağın FAVÖK'ü   = konsolide net borç ÷ kaynağın oranı
+        kol hariç FAVÖK    = kaynağın FAVÖK'ü − kolun son 12 aydaki esas faaliyet kârı
+        kol hariç oran     = kol hariç net borç ÷ kol hariç FAVÖK
+
+    fa: data/<CC>/finarm.json kaydı. nd_all (konsolide net borç), nd_ex (kol hariç net borç) ve op_arm (kolun faaliyet kârı)
+    aynı birimdedir (milyon, ülkenin para birimi) ve şirketin aynı tarihli, açıklanmış rakamlarıdır. Kayıt yalnız yazıldığı
+    bilanço dönemi (per) için geçerlidir: evrendeki dönem değişince düzeltme düşer, kaynağın oranı olduğu gibi uygulanır."""
+    try:
+        a, x, o = float(fa["nd_all"]), float(fa["nd_ex"]), float(fa["op_arm"])
+    except (KeyError, TypeError, ValueError):
+        return None
+    if nd is None or nd <= 0 or not per or fa.get("per") != per or not fa.get("sources") or a <= 0 or x > a or o < 0:
+        return None
+    ebitda = a / nd - o
+    return x / ebitda if ebitda > 0 else None
+
+
 def run(cc):
     d = os.path.join(ROOT, "data", cc)
     P = load(os.path.join(ROOT, "pipeline", "params.json"))
@@ -39,6 +65,7 @@ def run(cc):
     uni = load(os.path.join(d, "universe.json"))
     hist = load(os.path.join(d, "history.json"), {})
     reports = load(os.path.join(d, "reports.json"), {})
+    finarm = load(os.path.join(d, "finarm.json"), {})      # finansman kolu olan sanayi şirketleri (Claude yazar, kaynaklı)
     cpi = meta["cpi"]
     years = meta["years"]                 # geçmiş dizilerindeki mali yıllar, eskiden yeniye; ardından "cur"
     era = meta.get("era") or (years + ["cur"])
@@ -61,7 +88,7 @@ def run(cc):
     deflate_all = meta.get("deflate", "all") == "all"
     mcap_min = meta["mcapMin"]
 
-    U, L2 = [], {}
+    U, L2, F = [], {}, {}
     for u in uni:
         c = u["c"]
         pe, pb = u.get("pe"), u.get("pb")
@@ -114,11 +141,17 @@ def run(cc):
                     fails.append({"k": "history"})
                 fin = bool(u.get("fin"))
                 nd = h.get("nd")
-                if not fin and nd is not None:
-                    if nd > P["ndMax"]:
-                        fails.append({"k": "debt", "v": round(nd, 1)})
-                    elif nd > P["ndFlag"]:
-                        flags.append({"k": "debt", "v": round(nd, 1)})
+                fa = None if fin else finarm.get(c)
+                ndx = arm_ratio(fa, nd, u.get("per")) if fa else None
+                ndt = nd if ndx is None else ndx      # teste giren oran: finansman kolu varsa o hariç; eşik aynı
+                if not fin and ndt is not None:
+                    hit = {"k": "debt", "v": round(ndt, 2)}
+                    if ndx is not None:
+                        hit["fa"] = 1                 # sayfa "finansman kolu hariç" diye yazar
+                    if ndt > P["ndMax"]:
+                        fails.append(hit)
+                    elif ndt > P["ndFlag"]:
+                        flags.append(hit)
                 if not fin:
                     f = [x for x in reversed(h["fcf"][1:]) if x is not None]   # son 12 ay + son dört mali yıl
                     pos = sum(1 for x in f if x > 0)
@@ -135,6 +168,10 @@ def run(cc):
                     L2[c]["fy"] = labs[:5]
                 if h.get("url"):
                     L2[c]["url"] = h["url"]
+                if fa:
+                    F[c] = dict(fa, on=1 if ndx is not None else 0)
+                    if ndx is not None:
+                        L2[c]["ndx"] = F[c]["ndx"] = round(ndx, 2)
                 if fails:
                     e, w = 2, fails[0]["k"]
                 else:
@@ -155,15 +192,23 @@ def run(cc):
             U[-1]["pes"] = u["pes"]           # F/K, kaynağın başka bir son 12 ay alanından hesaplandı ("eps" ya da "roe")
 
     R = {c: r for c, r in reports.items() if c in L2 and L2[c]["ok"]}
-    # 2. surda elenen ama açıklama gerektiren şirketler için kısa not (raporun tamamı gösterilmez)
+    # raporu yazılmış, sonra 1. ya da 2. surda elenmiş şirketler: rapor silinmez, sayfada "güncellenmiyor" uyarısıyla görünür
+    codes = set(u["c"] for u in U)
+    RX = {c: r for c, r in reports.items() if c not in R and c in codes and r.get("scores")}
+    # elenen şirketin beş yıllık rakamlarının altında görünen kısa not
     N = {c: r["note"] for c, r in reports.items() if c not in R and r.get("note")}
-    out = dict(cc=cc, asof=meta["asof"], U=U, L2=L2, R=R, N=N)
+    out = dict(cc=cc, asof=meta["asof"], U=U, L2=L2, R=R, RX=RX, N=N, F=F)
     json.dump(out, open(os.path.join(d, "core.json"), "w", encoding="utf-8"), ensure_ascii=False)
 
     cnt = collections.Counter((u["e"], u["w"]) for u in U)
     print(cc, "evren", len(U), "| 1. suru geçen", sum(1 for u in U if u["e"] > 1), "| 2. suru geçen", sum(1 for u in U if u["e"] > 2),
           "| sırada", cnt.get((3, "pending"), 0), "| 3. suru geçen", sum(1 for u in U if u["e"] > 3))
     print("  ", dict(sorted(cnt.items(), key=lambda kv: (kv[0][0], -kv[1]))))
+    for c, f in sorted(F.items()):
+        print(f"   finansman kolu: {c:8} {f.get('arm', '')[:30]:30} " + (f"kaynağın oranı {L2[c]['nd']} -> kol hariç {f['ndx']}" if f["on"] else
+              f"DÜZELTME UYGULANMADI (kayıt {f.get('per')}, evren {next(u['per'] for u in U if u['c'] == c)}): yeni dönemin rakamlarını oku"))
+    if RX:
+        print("   raporu saklanan, şimdi 1. ya da 2. surda elenenler:", ", ".join(sorted(RX)))
     # fiyat testi (istemcideki val() ile aynı formül)
     by = {u["c"]: u for u in U}
     for c, u in sorted(by.items()):
