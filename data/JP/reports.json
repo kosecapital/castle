@@ -1,0 +1,1182 @@
+{
+ "1450": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-Q2",
+  "one": "Tokyo bölgesinde bina yıkım işleri yapan bir yüklenici. Kârlı ve borcu az, ama işini proje proje kazanıyor; hendek ölçütünü geçemedi.",
+  "business": "TANAKEN bina yıkımını üstlenir; işi yönetir, sahadaki işi taşeronlar yapar. Asbest gibi zararlı maddelerin sökümünü ve zemin temizliğini de yapar. Mart 2026'da biten yılda satış 14,8 milyar yen, faaliyet kârı 2,19 milyar yen oldu. Satışın %42,4'ü gayrimenkul geliştiricilerinden, %24,4'ü kentsel dönüşüm projelerinden geldi.",
+  "moat_text": "Hendek zayıf. Şirket bu ölçütü geçemedi. Yıkım, proje proje alınan bir yüklenici işidir; her iş yeniden kazanılır ve müşteri bir sonraki işte başka firmaya gidebilir. Güçlü yanı var: faaliyet kâr marjı %14,7 ile bir yüklenici için yüksek, reel özsermaye kârlılığı beş yılda %13,2 ile %18,2 arasında. Zor ve büyük işlerde deneyim bir üstünlük sağlıyor. Ama marj bir yılda %19,0'dan %14,7'ye indi; bu, fiyat gücünün kalıcı olmadığını gösteriyor. Sahadaki iş taşeronlara bağlı ve işçi sıkıntısı maliyeti artırıyor.",
+  "mgmt": "Hâkim ortak Three Hundred Holdings %59,56 paya sahip (31 Mart 2026); halka açık pay sınırlı. Şirket kârın en az %30'unu dağıtmayı hedefliyor: Mart 2026 yılı için hisse başına 55 yen ödedi (dağıtım oranı %31,9), yeni yıl için de 55 yen öngörüyor. Kalan kâr şirkette kalıyor; net borç yok.",
+  "latest": "6 Kasım 2026: Nisan-Eylül 2026 dönemi sonuçları açıklandı. Satış %13,8 artışla 7,67 milyar yen, faaliyet kârı %25,3 artışla 1,13 milyar yen, net kâr %22,2 artışla 0,70 milyar yen oldu. Devreden iş tutarı 14,0 milyar yene ulaştı. Mayıs 2026'da verilen yıllık tahmin: satış 16,0 milyar yen, faaliyet kârı 2,1 milyar yen, net kâr 1,4 milyar yen.",
+  "risks": [],
+  "watch": [],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tyo/1450/financials/ratios/"
+   },
+   {
+    "t": "Yahoo! Finance Japan: TANAKEN ara dönem bilanço özeti (6 Kasım 2026)",
+    "te": "Yahoo! Finance Japan: TANAKEN interim results summary (6 November 2026)",
+    "u": "https://finance.yahoo.co.jp/quote/1450.T/financials"
+   },
+   {
+    "t": "Quartr: TANAKEN Mart 2026 yılı sonuç özeti",
+    "te": "Quartr: TANAKEN results summary, year to March 2026",
+    "u": "https://quartr.com/events/tanaken-inc-1450-q4-2026_FM1f9uaw"
+   },
+   {
+    "t": "Kitai Shihon: TANAKEN iş tanımı ve müşteri dağılımı (Mart 2026 yılı faaliyet raporu)",
+    "te": "Kitai Shihon: TANAKEN business and customer breakdown (annual report, year to March 2026)",
+    "u": "https://kitaishihon.com/company/1450/business"
+   },
+   {
+    "t": "Kabuyoho: TANAKEN sonuç ve tahmin (8 Mayıs 2026)",
+    "te": "Kabuyoho: TANAKEN results and forecast (8 May 2026)",
+    "u": "https://kabuyoho.jp/sp/report?bcode=1450"
+   },
+   {
+    "t": "Kabutore: TANAKEN büyük ortaklar (31 Mart 2026)",
+    "te": "Kabutore: TANAKEN major shareholders (31 March 2026)",
+    "u": "https://www.kabutore.biz/genzaikabuka/okabunushi1450.html"
+   }
+  ],
+  "en": {
+   "one": "A building demolition contractor in the Tokyo area. Profitable with little debt, but it wins work project by project; it did not meet the moat criterion.",
+   "business": "TANAKEN takes on building demolition; it manages the job while subcontractors do the site work. It also removes hazardous materials such as asbestos and cleans up soil. In the year to March 2026 sales were 14.8 billion yen and operating profit 2.19 billion yen. Developers brought 42.4% of sales and urban redevelopment projects 24.4%.",
+   "moat_text": "The moat is weak. The company did not meet this criterion. Demolition is contract work won project by project; every job is won again and the customer can go elsewhere next time. There is a strong side: the operating margin of 14.7% is high for a contractor, and real return on equity ranged from 13.2% to 18.2% over five years. Experience in large, difficult jobs gives an edge. But the margin fell from 19.0% to 14.7% in one year, which shows pricing power is not durable. Site work depends on subcontractors, and labour shortages push costs up.",
+   "mgmt": "The controlling shareholder, Three Hundred Holdings, holds 59.56% (31 March 2026); the free float is limited. The company aims to pay out at least 30% of profit: it paid 55 yen per share for the year to March 2026 (payout 31.9%) and plans 55 yen again for the new year. The rest stays in the company; there is no net debt.",
+   "latest": "6 November 2026: results for April-September 2026 were announced. Sales rose 13.8% to 7.67 billion yen, operating profit rose 25.3% to 1.13 billion yen, and net profit rose 22.2% to 0.70 billion yen. Work carried forward reached 14.0 billion yen. The full-year forecast given in May 2026: sales 16.0 billion yen, operating profit 2.1 billion yen, net profit 1.4 billion yen.",
+   "risks": [],
+   "watch": []
+  }
+ },
+ "2173": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 2,
+   "E": 2
+  },
+  "moat": "zayıf",
+  "per": "2026-Q2",
+  "one": "Fuar standı, etkinlik ve ticari mekân tasarlayıp kuran şirket. Müşteri sadakati yüksek ama iş proje bazlı. Hendek zayıf, ölçütü geçemedi.",
+  "business": "Hakuten, şirketler için fuar standı, etkinlik ve mağaza alanı tasarlar, kurar ve işletir. 820'den fazla müşterisi vardır ve çoğuyla doğrudan çalışır. 2026'nın ilk yarısında satış 11,1 milyar yen, faaliyet kârı 968 milyon yen oldu.",
+  "moat_text": "Hendek zayıf. Tekrar eden müşterilerin satıştaki payı %81,7'dir ve işlerin %66'sı (tutar olarak) yarışmasız, doğrudan şirkete verilir; bu gerçek bir üstünlüktür. Ama her iş ayrı bir projedir, uzun süreli sözleşme yoktur ve müşterinin pazarlama bütçesine bağlıdır. Kâr marjı da buna göre oynar: ilk yarıda brüt marj 1,5 puan düşerek %31,6 oldu. Reel özsermaye kârlılığı çok yüksek (2025'te %42,9), ancak 2025'te Osaka Expo ve Dünya Atletizm Şampiyonası gibi büyük işler vardı. Elenme nedeni hendek puanıdır.",
+  "mgmt": "En büyük ortak %37,31 ile T&P Holdings'tir; çalışanların hisse birliği %4,86, TKP %3,88 tutar (Aralık 2025). Şirket kârın yaklaşık %30'unu temettü olarak dağıtmayı hedefler: 2025'te hisse başına 30 yen ödendi, 2026 için 27 yen öngörülüyor. Özkaynak oranı Haziran 2026'da %60,7'dir.",
+  "latest": "14 Ağustos 2026: 2026'nın ilk yarısında satış %7,7 artışla 11,11 milyar yen oldu. Faaliyet kârı %17,1 düşüşle 968 milyon yen, net kâr %17,0 düşüşle 658 milyon yen oldu. Şirkete göre düşüşün yaklaşık 165 milyon yeni prim karşılığındaki muhasebe değişikliğinden geldi. Bekleyen sipariş 9,09 milyar yendir. Yıl sonu beklentisi değişmedi: satış 23,75 milyar yen, faaliyet kârı 2,25 milyar yen (%13,3 düşüş), net kâr 1,64 milyar yen (%14,4 düşüş).",
+  "risks": [
+   "Şirketler pazarlama bütçesini kıstığında fuar ve etkinlik harcaması ilk kesilenlerdendir.",
+   "2025'in kârı Expo gibi büyük işlerle şişmişti; şirket 2026 için faaliyet kârında %13,3 düşüş bekliyor.",
+   "Malzeme ve işçilik maliyeti arttığında marj daralır; ilk yarıda brüt marj 1,5 puan düştü."
+  ],
+  "watch": [
+   "Bekleyen sipariş tutarı (9,09 milyar yen)",
+   "Brüt kâr marjı",
+   "Tekrar eden müşterilerin payı (%81,7)"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tyo/2173/financials/ratios/"
+   },
+   {
+    "t": "JPX: Hakuten, Aralık 2026 mali yılı 2. çeyrek (ara dönem) sonuç özeti (14 Ağustos 2026)",
+    "te": "JPX: Hakuten, summary of second-quarter (interim) results for fiscal year ending December 2026 (14 August 2026)",
+    "u": "https://www2.jpx.co.jp/disc/21730/081220260814521017_tse-scedjpsy-21730-20260814321730-ixbrl.htm"
+   },
+   {
+    "t": "logmi Finance: Hakuten 2. çeyrek sonuç toplantısı (19 Ağustos 2026)",
+    "te": "logmi Finance: Hakuten second-quarter results briefing (19 August 2026)",
+    "u": "https://finance.logmi.jp/articles/385452"
+   },
+   {
+    "t": "Finboard: Hakuten büyük ortaklar (Aralık 2025)",
+    "te": "Finboard: Hakuten major shareholders (December 2025)",
+    "u": "https://finboard.jp/companies/JP:2173/ownership"
+   }
+  ],
+  "en": {
+   "one": "A company that designs and builds exhibition stands, events and commercial spaces. Customer loyalty is high but the work is project-based. The moat is weak, it fails the criteria.",
+   "business": "Hakuten designs, builds and runs exhibition stands, events and retail spaces for companies. It has more than 820 clients and works directly with most of them. In the first half of 2026, sales were 11.1 billion yen and operating profit 968 million yen.",
+   "moat_text": "The moat is weak. Repeat clients account for 81.7% of sales and 66% of work (by value) is awarded directly to the company without a competition; this is a real edge. But each job is a separate project, there are no long-term contracts, and it depends on the client's marketing budget. The margin moves accordingly: gross margin fell 1.5 points to 31.6% in the first half. Real return on equity is very high (42.9% in 2025), but 2025 included large jobs such as the Osaka Expo and the World Athletics Championships. It fails on the moat score.",
+   "mgmt": "The largest shareholder is T&P Holdings with 37.31%; the employee shareholding association holds 4.86% and TKP 3.88% (December 2025). The company aims to pay out about 30% of profit as dividends: it paid 30 yen per share for 2025 and plans 27 yen for 2026. The equity ratio was 60.7% in June 2026.",
+   "latest": "14 August 2026: In the first half of 2026, sales rose 7.7% to 11.11 billion yen. Operating profit fell 17.1% to 968 million yen and net profit fell 17.0% to 658 million yen. According to the company, about 165 million yen of the fall came from an accounting change for bonus accruals. The order backlog is 9.09 billion yen. The full-year forecast is unchanged: sales 23.75 billion yen, operating profit 2.25 billion yen (down 13.3%), net profit 1.64 billion yen (down 14.4%).",
+   "risks": [
+    "When companies cut marketing budgets, exhibition and event spending is among the first to go.",
+    "Profit in 2025 was lifted by large jobs such as the Expo; the company expects operating profit to fall 13.3% in 2026.",
+    "Margins narrow when material and labour costs rise; gross margin fell 1.5 points in the first half."
+   ],
+   "watch": [
+    "Order backlog (9.09 billion yen)",
+    "Gross margin",
+    "Share of repeat clients (81.7%)"
+   ]
+  }
+ },
+ "2307": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 2,
+   "E": 2
+  },
+  "moat": "zayıf",
+  "per": "2026-Q2",
+  "one": "Kamu ve finans kurumlarına yazılım geliştiren bağımsız sistem entegratörü. İş sağlam ama hendek zayıf; 3. suru geçemedi.",
+  "business": "Cross Cat, kamu kurumları, bankalar ve kredi kartı şirketleri için sipariş üzerine sistem geliştirir; ayrıca veri analizi ve bulut hizmeti verir. Mart 2026'da biten yılda satışlar 17.314 milyon yen, faaliyet kârı 2.014 milyon yen oldu (marj %11,6). Satışların %30,4'ü kamudan, %18,2'si finanstan, %10,1'i kredi kartı sektöründen geldi.",
+  "moat_text": "Hendek zayıf. Şirket bu nedenle 3. suru geçemedi. İş, proje bazında alınan sipariş ve mühendis emeğidir. Satışların yalnız %36,7'si son kullanıcıdan doğrudan gelir; kalan %63,3 donanım üreticilerinin ve büyük sistem entegratörlerinin altında çalışılarak kazanılır. Bu durumda fiyatı çoğu zaman ana yüklenici belirler. Güçlü yan: finans ve kamu sistemlerindeki iş bilgisi ve uzun süreli müşteri ilişkileri; reel özsermaye kârlılığı son 12 ayda %21,6 ve beş yıldır %15'in üstünde. Ancak bu üstünlük başka bir entegratörün aşamayacağı bir engel değil; ücret artışları ve zararlı projeler maliyet oranını bozabiliyor.",
+  "mgmt": "Hâkim ortak yok. 31 Mart 2026'da en büyük ortak %8,74 ile Master Trust Bank, ikinci %6,23 ile çalışanların hisse birliği; kalan büyük ortaklar %3-4'lük paylara sahip bireyler. Şirket 2026 mali yılında hisse başına 37 yen temettü ödedi, 2027 için 39 yen öngörüyor (hedef dağıtım oranı en az %35). Üç yılda 907, 223 ve 138 milyon yenlik geri alım yaptı. Net nakitte; özkaynak oranı Haziran 2026'da %68,3.",
+  "latest": "5 Kasım 2026: Nisan-Eylül 2026 döneminde satışlar %13,5 artışla 9.335 milyon yen, faaliyet kârı %23,6 artışla 1.088 milyon yen, net kâr %9,2 artışla 726 milyon yen oldu. Kredi kartı sektöründen doğrudan alınan büyük siparişler %55,8 arttı. Yıllık öngörü değişmedi: 17.900 milyon yen satış, 2.150 milyon yen faaliyet kârı, 1.540 milyon yen net kâr.",
+  "risks": [],
+  "watch": [],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tyo/2307/financials/ratios/"
+   },
+   {
+    "t": "Money Post (Fisco): Cross Cat ara dönem sonuçları (6 Kasım 2026)",
+    "te": "Money Post (Fisco): Cross Cat interim results (6 November 2026)",
+    "u": "https://www.moneypost.jp/1462907"
+   },
+   {
+    "t": "Fisco: Cross Cat şirket araştırma raporu (29 Mayıs 2026)",
+    "te": "Fisco: Cross Cat company research report (29 May 2026)",
+    "u": "https://www.fisco.co.jp/wordpress/wp-content/uploads/FISCO/xcat20260529.pdf"
+   },
+   {
+    "t": "JPX: Cross Cat 2027 Mart dönemi ilk çeyrek sonuç özeti (5 Ağustos 2026)",
+    "te": "JPX: Cross Cat first-quarter results summary, year ending March 2027 (5 August 2026)",
+    "u": "https://www2.jpx.co.jp/disc/23070/081220260805509745_tse-qcedjpsm-23070-20260805323070-ixbrl.htm"
+   },
+   {
+    "t": "EDINET DB: Cross Cat 2027 mali yılı ikinci çeyrek sonuçları (5 Kasım 2026)",
+    "te": "EDINET DB: Cross Cat second-quarter results, fiscal 2027 (5 November 2026)",
+    "u": "https://edinetdb.jp/company/E05291/earnings/FY2027-Q2"
+   },
+   {
+    "t": "Kabutore: Cross Cat büyük ortaklar (31 Mart 2026)",
+    "te": "Kabutore: Cross Cat major shareholders (31 March 2026)",
+    "u": "https://www.kabutore.biz/genzaikabuka/okabunushi2307.html"
+   }
+  ],
+  "en": {
+   "one": "An independent systems integrator that builds software for public bodies and financial institutions. A sound business but a weak moat; it did not pass the third wall.",
+   "business": "Cross Cat builds systems to order for public bodies, banks and credit card companies; it also provides data analysis and cloud services. In the year ended March 2026, sales were 17,314 million yen and operating profit 2,014 million yen (margin 11.6%). 30.4% of sales came from the public sector, 18.2% from finance and 10.1% from the credit card industry.",
+   "moat_text": "Weak moat. This is why the company did not pass the third wall. The work is orders won project by project and engineers' labour. Only 36.7% of sales come directly from end users; the other 63.3% is earned working under hardware makers and large systems integrators. In that position the prime contractor usually sets the price. The strong side: business knowledge of finance and public systems and long customer relationships; real return on equity is 21.6% over the last twelve months and has been above 15% for five years. But this edge is not a barrier another integrator cannot cross; wage increases and loss-making projects can worsen the cost ratio.",
+   "mgmt": "There is no controlling shareholder. On 31 March 2026 the largest holder was Master Trust Bank with 8.74%, the second the employee shareholding association with 6.23%; the other large holders are individuals with stakes of 3-4%. The company paid a dividend of 37 yen per share for fiscal 2026 and forecasts 39 yen for 2027 (target payout ratio at least 35%). It bought back 907, 223 and 138 million yen of shares over three years. It has net cash; the equity ratio was 68.3% in June 2026.",
+   "latest": "5 November 2026: In April-September 2026, sales rose 13.5% to 9,335 million yen, operating profit rose 23.6% to 1,088 million yen and net profit rose 9.2% to 726 million yen. Large orders taken directly from the credit card industry rose 55.8%. The full-year forecast is unchanged: sales of 17,900 million yen, operating profit of 2,150 million yen and net profit of 1,540 million yen.",
+   "risks": [],
+   "watch": []
+  }
+ },
+ "2998": {
+  "scores": {
+   "A": 1,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-Q1",
+  "one": "Küçük yatırımcıdan internetle para toplayıp gayrimenkule yatıran platform. Kâr mülk satışına bağlı ve dalgalı; hendek zayıf, 3. suru geçemedi.",
+  "business": "CREAL, bireylerin internet üzerinden küçük tutarlarla gayrimenkul fonlarına yatırım yaptığı bir platform işletir; kurumsal yatırımcılara varlık yönetimi (CREAL PRO) ve bireylere ikinci el tek odalı daire satışı (CREAL PB) da yapar. Mart 2026'da biten yılda satışlar 37.795 milyon yen, brüt kâr 7.799 milyon yen, faaliyet kârı 2.941 milyon yen oldu. Haziran 2026 sonunda 144.000 yatırımcı üyesi vardı; toplam yatırım 106,1 milyar yeni aştı.",
+  "moat_text": "Hendek zayıf. Şirket bu nedenle 3. suru geçemedi. Üye sayısı ve lisanslar bir üstünlük, ama kazanç hâlâ büyük ölçüde mülk alım satımına ve fonların kapanış zamanına bağlı. Nisan-Haziran 2026 çeyreğinde şirket 206 milyon yen faaliyet zararı yazdı, çünkü kurumsal kolda mülk satışı olmadı ve yeni fon yapısı gecikti. Reel özsermaye kârlılığı 2025'te %27,1 iken 2026'da %20,6'ya, son 12 ayda %17,0'a indi. 2026 mali yılında işletme nakit akışı eksi 9.414 milyon yen oldu. Başka platformlar ve gayrimenkul şirketleri aynı ürünü sunabilir.",
+  "mgmt": "En büyük ortak %20,64 ile SBI Holdings (Ocak 2023'ten beri sermaye ve iş ortağı); bir bireysel ortak %20,08 tutuyor. Aralık 2025'te SBI Holdings dahil beş şirkete tahsisli hisse ihraç edildi; hisse sayısı yaklaşık 30,1 milyondan 36,1 milyona çıktı ve yaklaşık 4.332 milyon yen nakit girdi. Ardından Mayıs-Haziran 2026'da 198,3 milyon yenlik geri alım yapıldı. Temettü hisse başına 8 yen, dağıtım oranı %13,2. Şirket otel işletmeciliğine ve bir menkul kıymet şirketine de yatırım yaptı. Özkaynak oranı %26,2.",
+  "latest": "14 Ağustos 2026: Nisan-Haziran 2026 çeyreğinde satışlar %26,7 düşüşle 7.377 milyon yen, brüt kâr %26,0 düşüşle 987 milyon yen oldu. Faaliyet zararı 206 milyon yen, net zarar 179 milyon yen (bir yıl önce 186 milyon yen net kâr). Şirket yıllık öngörüsünü değiştirmedi: 8.890 milyon yen brüt kâr, 3.290 milyon yen faaliyet kârı, 2.100 milyon yen net kâr; kârın ikinci yarıda geleceğini söylüyor. 31 Temmuz 2026'da MUFG'den, 31 Ocak 2027 vadeli 14.441 milyon yen kredi kullandı.",
+  "risks": [],
+  "watch": [],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tyo/2998/financials/ratios/"
+   },
+   {
+    "t": "JPX: CREAL 2027 Mart dönemi ilk çeyrek sonuç özeti (14 Ağustos 2026)",
+    "te": "JPX: CREAL first-quarter results summary, year ending March 2027 (14 August 2026)",
+    "u": "https://www2.jpx.co.jp/disc/29980/081220260813519512_tse-qcedjpsm-29980-20260814329980-ixbrl.htm"
+   },
+   {
+    "t": "JPX: CREAL 2027 Mart dönemi ilk çeyrek sonuç raporu, tam metin",
+    "te": "JPX: CREAL first-quarter results report, full text, year ending March 2027",
+    "u": "https://www2.jpx.co.jp/disc/29980/140120260813519512.pdf"
+   },
+   {
+    "t": "JPX: CREAL 2026 Mart dönemi yıllık sonuç raporu (15 Mayıs 2026)",
+    "te": "JPX: CREAL full-year results report for the year ended March 2026 (15 May 2026)",
+    "u": "https://www2.jpx.co.jp/disc/29980/140120260514535462.pdf"
+   },
+   {
+    "t": "EDINET DB: CREAL ortaklık yapısı ve sermaye olayları",
+    "te": "EDINET DB: CREAL ownership and capital events",
+    "u": "https://edinetdb.jp/company/E37504/ma"
+   }
+  ],
+  "en": {
+   "one": "A platform that raises money online from small investors and puts it into real estate. Profit depends on property sales and swings; weak moat, it did not pass the third wall.",
+   "business": "CREAL runs a platform where individuals invest small amounts online in real estate funds; it also manages assets for institutional investors (CREAL PRO) and sells used one-room flats to individuals (CREAL PB). In the year ended March 2026, sales were 37,795 million yen, gross profit 7,799 million yen and operating profit 2,941 million yen. At the end of June 2026 it had 144,000 investor members; cumulative investment had passed 106.1 billion yen.",
+   "moat_text": "Weak moat. This is why the company did not pass the third wall. The member base and the licences are an edge, but earnings still depend largely on buying and selling property and on when funds close. In the April-June 2026 quarter the company booked an operating loss of 206 million yen, because the institutional arm sold no property and the new fund structure was delayed. Real return on equity fell from 27.1% in 2025 to 20.6% in 2026 and 17.0% over the last twelve months. Operating cash flow was minus 9,414 million yen in fiscal 2026. Other platforms and real estate companies can offer the same product.",
+   "mgmt": "The largest shareholder is SBI Holdings with 20.64% (a capital and business partner since January 2023); one individual holds 20.08%. In December 2025 shares were issued by private placement to five companies including SBI Holdings; the share count rose from about 30.1 million to 36.1 million and about 4,332 million yen of cash came in. Then in May-June 2026 the company bought back 198.3 million yen of shares. The dividend is 8 yen per share, a payout ratio of 13.2%. The company has also invested in hotel operations and in a securities firm. The equity ratio is 26.2%.",
+   "latest": "14 August 2026: In the April-June 2026 quarter, sales fell 26.7% to 7,377 million yen and gross profit fell 26.0% to 987 million yen. The operating loss was 206 million yen and the net loss 179 million yen (net profit of 186 million yen a year earlier). The company kept its full-year forecast: gross profit of 8,890 million yen, operating profit of 3,290 million yen and net profit of 2,100 million yen; it says profit will come in the second half. On 31 July 2026 it drew a loan of 14,441 million yen from MUFG, due 31 January 2027.",
+   "risks": [],
+   "watch": []
+  }
+ },
+ "3288": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-Q4",
+  "one": "Tokyo ve büyük şehirlerde küçük arsalara müstakil ev yapıp satıyor. Kârlılığı yüksek ama hendek zayıf, 3. suru geçemedi.",
+  "business": "Open House Group şehir içinde arsa alır, üstüne müstakil ev yapar ve satar. Buna daire satışı, yatırımcıya kiralık bina satışı, Pressance (yatırımlık daire) ve ABD'de konut satışı eklenir. Eylül 2026'da biten yılda satış 1,48 trilyon yen, faaliyet kârı 181,8 milyar yen oldu. Yılın ilk yarısında satışın yarıdan fazlası (382,8 milyar yen) müstakil ev kolundan geldi.",
+  "moat_text": "Hendek zayıf. Şirketin üstünlüğü şehir içinde hızlı arsa bulup hızlı satmasıdır; reel özsermaye kârlılığı beş yıldır %16,3 ile %19,0 arasında, son 12 ayda %18,1. Ama konut üretimi lisans ya da marka ile korunan bir iş değildir: rakipler aynı arsalar için yarışır, şirket de iyi arsa için rekabetin arttığını söylüyor. Müstakil ev kolunun faaliyet kâr marjı %11,3; bu, fiyatı şirketin belirlediğini göstermez. Kâr konut talebine, faize ve inşaat maliyetine bağlıdır. Bu yüzden B puanı 1 ve şirket 3. suru geçemedi.",
+  "mgmt": "Kurucu Masaaki Arai Eylül 2025 sonunda hisselerin %33,97'sine sahipti; ikinci büyük ortak Ichigo Trust (%13,54). Şirket toplam dağıtım oranı hedefini %40 ve üzeri olarak belirledi. 2026 mali yılının ilk yarısında yaklaşık 10 milyar yenlik hisse geri aldı, yaklaşık 21,9 milyar yenlik hisseyi iptal etti. Yıllık temettü 178 yenden yükseltildi; Ağustos 2026'daki tahmin 205 yendi. Net borç/özsermaye oranı 0,6; stok Mart 2026 sonunda 863,2 milyar yendi.",
+  "latest": "6 Kasım 2026: Eylül 2026'da biten yılın sonuçları açıklandı. Satış 1,48 trilyon yen (önceki yıl 1,34 trilyon), faaliyet kârı 181,8 milyar yen (önceki yıl 145,9 milyar), net kâr 119,2 milyar yen (önceki yıl 100,7 milyar) oldu. Hisse başına kâr 1.071,2 yen. Net kâr, şirketin Ağustos'taki 118,5 milyar yenlik tahminini biraz aştı.",
+  "risks": [],
+  "watch": [],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tyo/3288/financials/ratios/"
+   },
+   {
+    "t": "Matsui Securities: Open House Group sonuç tablosu (2026 mali yılı, açıklama 6 Kasım 2026)",
+    "te": "Matsui Securities: Open House Group results table (FY2026, announced 6 November 2026)",
+    "u": "https://finance.matsui.co.jp/stock/3288/settlement/index"
+   },
+   {
+    "t": "JPX: Open House Group 2026/9 dönemi 3. çeyrek sonuç özeti (7 Ağustos 2026)",
+    "te": "JPX: Open House Group FY9/2026 third-quarter earnings summary (7 August 2026)",
+    "u": "https://www2.jpx.co.jp/disc/32880/081220260805510829_tse-qcedjpsm-32880-20260807332880-ixbrl.htm"
+   },
+   {
+    "t": "Open House Group: 2026 mali yılı 2. çeyrek finansal özet (Mayıs 2026)",
+    "te": "Open House Group: FY2026 second-quarter financial highlights (May 2026)",
+    "u": "https://openhouse-group.co.jp/ir/upload_file/m000-/fy2026_2q_financialhighlight_j.pdf"
+   },
+   {
+    "t": "The Shashi: Open House Group büyük ortaklar (Eylül 2025 sonu)",
+    "te": "The Shashi: Open House Group major shareholders (end of September 2025)",
+    "u": "https://the-shashi.com/tse/3288/shareholders/"
+   },
+   {
+    "t": "Gyokai Digest: Open House Group 2026 2. çeyrek raporu (Mayıs 2026)",
+    "te": "Gyokai Digest: Open House Group 2026 Q2 report (May 2026)",
+    "u": "https://www.gyokaidigest.com/companies/open-house-group/report/2026-Q2"
+   }
+  ],
+  "en": {
+   "one": "Builds and sells detached houses on small urban plots in Tokyo and other big cities. Returns are high but the moat is weak, so it did not pass the 3rd wall.",
+   "business": "Open House Group buys land inside cities, builds detached houses on it and sells them. It also sells condominiums, sells rental buildings to investors, owns Pressance (investment condominiums) and sells homes in the United States. In the year ended September 2026 sales were 1.48 trillion yen and operating profit was 181.8 billion yen. In the first half of the year more than half of sales (382.8 billion yen) came from detached houses.",
+   "moat_text": "The moat is weak. The company's edge is finding urban land quickly and selling quickly; real return on equity has stayed between 16.3% and 19.0% for five years and was 18.1% over the last 12 months. But homebuilding is not protected by a licence or a brand: rivals compete for the same plots, and the company itself says competition for good land is rising. The operating margin of the detached house arm is 11.3%, which does not show pricing power. Profit depends on housing demand, interest rates and construction costs. So the B score is 1 and the company did not pass the 3rd wall.",
+   "mgmt": "Founder Masaaki Arai held 33.97% of the shares at the end of September 2025; the second largest holder is Ichigo Trust (13.54%). The company set a total payout ratio target of 40% or more. In the first half of fiscal 2026 it bought back about 10 billion yen of shares and cancelled about 21.9 billion yen of shares. The annual dividend was raised from 178 yen; the forecast in August 2026 was 205 yen. Net debt to equity is 0.6; inventory was 863.2 billion yen at the end of March 2026.",
+   "latest": "6 November 2026: Results for the year ended September 2026 were announced. Sales were 1.48 trillion yen (1.34 trillion a year earlier), operating profit 181.8 billion yen (145.9 billion a year earlier) and net profit 119.2 billion yen (100.7 billion a year earlier). Earnings per share were 1,071.2 yen. Net profit slightly exceeded the company's August forecast of 118.5 billion yen.",
+   "risks": [],
+   "watch": []
+  }
+ },
+ "4763": {
+  "scores": {
+   "A": 1,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 2
+  },
+  "moat": "zayıf",
+  "per": "2026-Q2",
+  "one": "Yaratıcı meslek sahipleri, hekimler ve uzmanlar için ajans: iş bulur, yapım üstlenir. Kollar çok, marj ince. Hendek zayıf, ölçütü geçemedi.",
+  "business": "Creek & River, televizyon, oyun ve internet alanındaki yaratıcı çalışanları, hekimleri, muhasebeci ve hukukçuları işverenlerle buluşturur; ayrıca yapım işlerini kendisi üstlenir. Şubat 2026'da biten mali yılda satış 61,4 milyar yen, faaliyet kârı 4,9 milyar yen oldu (marj %8,0). En büyük kol Japonya'daki yaratıcı iştir (39,5 milyar yen satış); en kârlı kol hekim ajansıdır (5,8 milyar yen satış, %24,9 marj).",
+  "moat_text": "Hendek zayıf. Şirketin kayıtlı uzman ağı ve hekim ajansındaki konumu bir üstünlüktür; hekim kolunun %24,9'luk marjı bunu gösterir. Ama satışın büyük kısmı %7,3 marjlı eleman sağlama ve yapım işidir; bu alanda rakip çoktur ve müşteri kolayca değiştirir. Reel özsermaye kârlılığı da dalgalıdır: 2025'te %11,85, 2026'da %20,95. 2026'daki artışta Mart 2025'te alınan Takahashi Shoten grubunun payı vardır. Elenme nedeni hendek puanıdır.",
+  "mgmt": "En büyük ortak %28,89 ile C&R adlı şirkettir; Source Design %8,71 tutar. Fidelity grubu %5'in üzerinde pay bildirdi. Şirket konsolide kârın %30'unu temettü olarak dağıtmayı hedefler: geçen yıl hisse başına 50 yen ödendi, bu yıl 52 yen öngörülüyor. Şirket satın almalarla büyüyor (2023 Shion, 2024 Livai, 2025 Takahashi Shoten) ve 28 bağlı şirketi var; bu yapıyı izlemek zordur.",
+  "latest": "8 Ekim 2026: Mart-Ağustos 2026 yarıyılında satış 32,0 milyar yen, faaliyet kârı 2,76 milyar yen, net kâr 2,11 milyar yen oldu; olağan kâr bir yıl öncesine göre %34,4 arttı. Şirket Şubat 2027 mali yılı beklentisini yükseltti: satış 66,5 milyar yen, faaliyet kârı 5,65 milyar yen, olağan kâr 5,55 milyar yen. Net kâr beklentisi 3,55 milyar yendir, geçen yılın 4,08 milyar yeninin altındadır. Yıl sonu temettüsü 51 yenden 52 yene çıkarıldı.",
+  "risks": [
+   "Eleman sağlama ve yapım işi ekonomiye ve medya bütçelerine bağlıdır; durgunlukta talep hızla düşer.",
+   "Şirket bu yıl net kârın geçen yılın altında kalmasını bekliyor; geçen yılın kârı tekrarlanmayabilir.",
+   "Çok sayıda satın alma ve 28 bağlı şirket, zarar eden kolları (örneğin Kore'deki yaratıcı iş) gizleyebilir."
+  ],
+  "watch": [
+   "Hekim kolunun satışı ve marjı",
+   "Japonya yaratıcı kolunun marjı (%7,3)",
+   "Takahashi Shoten grubunun katkısı",
+   "Yeni satın almalar"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tyo/4763/financials/ratios/"
+   },
+   {
+    "t": "Matsui Securities / Kabutan: Creek & River, ilk yarıda olağan kâr %34 arttı, yıl beklentisi yükseltildi (8 Ekim 2026)",
+    "te": "Matsui Securities / Kabutan: Creek & River, first-half ordinary profit up 34%, full-year forecast raised (8 October 2026)",
+    "u": "https://finance.matsui.co.jp/news/625674/index"
+   },
+   {
+    "t": "EDINET DB: Creek & River şirket sayfası (sonuçlar, beklenti, büyük ortaklar)",
+    "te": "EDINET DB: Creek & River company page (results, forecast, major shareholders)",
+    "u": "https://edinetdb.jp/company/4763"
+   },
+   {
+    "t": "EDINET DB: Creek & River, iş kolları ve Şubat 2026 mali yılı sonuçları",
+    "te": "EDINET DB: Creek & River, segments and results for fiscal year ended February 2026",
+    "u": "https://edinetdb.jp/company/E05096/earnings/FY2027-Q1"
+   }
+  ],
+  "en": {
+   "one": "An agency for creative professionals, doctors and specialists: it finds them work and takes on production. Many arms, thin margins. The moat is weak, it fails the criteria.",
+   "business": "Creek & River matches creative workers in television, games and the web, doctors, accountants and lawyers with employers; it also takes on production work itself. In the fiscal year ended February 2026, sales were 61.4 billion yen and operating profit 4.9 billion yen (margin 8.0%). The largest arm is creative work in Japan (39.5 billion yen of sales); the most profitable is the doctor agency (5.8 billion yen of sales, 24.9% margin).",
+   "moat_text": "The moat is weak. The company's network of registered professionals and its position in the doctor agency are an edge; the 24.9% margin of the medical arm shows it. But most sales are staffing and production work at a 7.3% margin; rivals are many in this field and clients switch easily. Real return on equity is also uneven: 11.85% in 2025, 20.95% in 2026. Part of the rise in 2026 comes from the Takahashi Shoten group acquired in March 2025. It fails on the moat score.",
+   "mgmt": "The largest shareholder is a company named C&R with 28.89%; Source Design holds 8.71%. The Fidelity group has reported a stake above 5%. The company aims to pay out 30% of consolidated profit as dividends: it paid 50 yen per share last year and plans 52 yen this year. It grows through acquisitions (Shion in 2023, Livai in 2024, Takahashi Shoten in 2025) and has 28 subsidiaries; this structure is hard to follow.",
+   "latest": "8 October 2026: In the March-August 2026 half, sales were 32.0 billion yen, operating profit 2.76 billion yen and net profit 2.11 billion yen; ordinary profit rose 34.4% from a year earlier. The company raised its forecast for the fiscal year ending February 2027: sales 66.5 billion yen, operating profit 5.65 billion yen, ordinary profit 5.55 billion yen. The net profit forecast is 3.55 billion yen, below last year's 4.08 billion yen. The year-end dividend was raised from 51 yen to 52 yen.",
+   "risks": [
+    "Staffing and production work depend on the economy and on media budgets; demand falls quickly in a downturn.",
+    "The company expects net profit this year to be below last year's; last year's profit may not repeat.",
+    "Many acquisitions and 28 subsidiaries can hide loss-making arms (for example the creative business in Korea)."
+   ],
+   "watch": [
+    "Sales and margin of the medical arm",
+    "Margin of the Japan creative arm (7.3%)",
+    "Contribution of the Takahashi Shoten group",
+    "New acquisitions"
+   ]
+  }
+ },
+ "5071": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 2,
+   "E": 2
+  },
+  "moat": "zayıf",
+  "per": "2026-Q2",
+  "one": "Şirketlere ofis tasarlayıp kuran bir tasarım firması. Kârlı ve nakit zengini, ama her işi yeniden kazanması gerekiyor; hendek ölçütünü geçemedi.",
+  "business": "VIS, şirketlerin ofislerini tasarlar ve yapımını üstlenir; geliri proje teslim edildikçe yazar. Mart 2026'da biten yılda satış 16,5 milyar yen, faaliyet kârı 1,94 milyar yen oldu. Aynı yıl alınan sipariş 17,8 milyar yen; bunun %42'si 100 milyon yen ve üstü büyük işlerden geldi. Çalışma verisi hizmeti ve esnek ofis işletmesi gibi küçük kolları da var.",
+  "moat_text": "Hendek zayıf. Şirket bu ölçütü geçemedi. Ofis tasarımı proje proje alınan bir iştir; müşteri taşındığında ya da yenilediğinde başka bir firmayı seçebilir. Güçlü yanı: beş yıl üst üste satış ve kâr artışı, faaliyet kâr marjı yaklaşık %12, reel özsermaye kârlılığı son üç yılda %14,9 ile %18,8 arasında. Ama rakibin girmesini engelleyen bir lisans, ölçek ya da sözleşme yok; üstünlük tasarım ekibine ve itibara dayanıyor. Kâr çeyrekten çeyreğe çok oynuyor.",
+  "mgmt": "30 Eylül 2026 itibarıyla Credo %40,60, Hayato Nakamura %17,59 paya sahip; çalışanların hisse planı %3,18 tutuyor. Halka açık pay sınırlı. Şirket temettüyü düşürmeme ilkesini benimsedi ve Mart 2027 yılından itibaren kârın %40'ını dağıtmayı hedefliyor. Mart 2027 yılı için hisse başına 59 yen öngördü; önceki yıla göre 10 yen fazla. Şirket net nakitte.",
+  "latest": "10 Kasım 2026: Nisan-Eylül 2026 dönemi sonuçları açıklandı; olağan kâr geçen yılın aynı dönemine göre %18 azaldı (geçen yıl 644 milyon yen). Ayrıntılı rakamları okuyamadık. Okuyabildiğimiz son tam tablo 10 Ağustos 2026 tarihli: Nisan-Haziran 2026'da satış 3,51 milyar yen (geçen yıl 3,11 milyar), faaliyet kârı 132 milyon yen (geçen yıl 244 milyon). Yıllık tahmin değişmedi: satış 18,4 milyar yen, faaliyet kârı 1,95 milyar yen, net kâr 1,24 milyar yen.",
+  "risks": [],
+  "watch": [],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tyo/5071/financials/ratios/"
+   },
+   {
+    "t": "PR Times: VIS Mart 2026 yılı sonuç açıklaması (Mayıs 2026)",
+    "te": "PR Times: VIS results announcement, year to March 2026 (May 2026)",
+    "u": "https://prtimes.jp/main/html/rd/p/000000282.000058162.html"
+   },
+   {
+    "t": "Matsui Securities: VIS çeyreklik bilanço özeti",
+    "te": "Matsui Securities: VIS quarterly results summary",
+    "u": "https://finance.matsui.co.jp/stock/5071/settlement/index"
+   },
+   {
+    "t": "EDINET DB: VIS birinci çeyrek sonuçları (10 Ağustos 2026)",
+    "te": "EDINET DB: VIS first-quarter results (10 August 2026)",
+    "u": "https://edinetdb.jp/company/E34454/earnings/FY2027-Q1"
+   },
+   {
+    "t": "Kabutan: VIS büyük ortaklar (30 Eylül 2026) ve ara dönem haberi (10 Kasım 2026)",
+    "te": "Kabutan: VIS major shareholders (30 September 2026) and interim results headline (10 November 2026)",
+    "u": "https://s.kabutan.jp/stocks/5071/stockholders/"
+   },
+   {
+    "t": "Yahoo! Finance Japan: VIS sonuç ve tahmin (10 Kasım 2026)",
+    "te": "Yahoo! Finance Japan: VIS results and forecast (10 November 2026)",
+    "u": "https://finance.yahoo.co.jp/quote/5071.t/performance"
+   }
+  ],
+  "en": {
+   "one": "A design firm that designs and builds offices for companies. Profitable and cash-rich, but it has to win every job again; it did not meet the moat criterion.",
+   "business": "VIS designs companies' offices and takes on the fit-out; it books revenue as projects are delivered. In the year to March 2026 sales were 16.5 billion yen and operating profit 1.94 billion yen. Orders that year were 17.8 billion yen, of which 42% came from large jobs of 100 million yen or more. It also has small arms such as a workplace data service and flexible office operation.",
+   "moat_text": "The moat is weak. The company did not meet this criterion. Office design is won project by project; when a customer moves or refurbishes, it can pick another firm. The strong side: five straight years of rising sales and profit, an operating margin of about 12%, and real return on equity between 14.9% and 18.8% in the last three years. But there is no licence, scale or contract that keeps a rival out; the edge rests on the design team and reputation. Profit swings a lot from quarter to quarter.",
+   "mgmt": "As of 30 September 2026 Credo held 40.60% and Hayato Nakamura 17.59%; the employee share plan held 3.18%. The free float is limited. The company has adopted a policy of not cutting the dividend and aims to pay out 40% of profit from the year to March 2027. It planned 59 yen per share for the year to March 2027, 10 yen more than the year before. The company has net cash.",
+   "latest": "10 November 2026: results for April-September 2026 were announced; ordinary profit fell 18% from the same period a year earlier (644 million yen last year). We could not read the detailed figures. The latest full statement we could read is dated 10 August 2026: in April-June 2026 sales were 3.51 billion yen (3.11 billion a year earlier) and operating profit 132 million yen (244 million a year earlier). The full-year forecast is unchanged: sales 18.4 billion yen, operating profit 1.95 billion yen, net profit 1.24 billion yen.",
+   "risks": [],
+   "watch": []
+  }
+ },
+ "5834": {
+  "scores": {
+   "A": 1,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-Q2",
+  "one": "Uçak ve gemi kiralama fonları kurup Japon yatırımcılara satan bir SBI grubu şirketi. Aracılık işinde hendek zayıf; 3. suru geçemedi.",
+  "business": "SBI Leasing Services, uçak ve gemilerin kiralanmasına yatırım yapan fonlar (JOL ve JOLCO) kurar ve paylarını yatırımcılara satar. JOLCO şirketlerin vergi ertelemesi için, JOL kira geliri ve satış kazancı için alınır. Parayı kurma ve yönetim ücretlerinden ve varlık satışından kazanır. Ürünleri bölge bankaları ve mali müşavirler üzerinden satar. Nisan-Eylül 2026 döneminde satış 32,6 milyar yen oldu.",
+  "moat_text": "Hendek zayıf. Şirket hızlı büyüyor ve reel özsermaye kârlılığı son 12 ayda %20,7; ama iki yıl önce %14,4, üç yıl önce %12,5 idi. Yaptığı iş bir aracılık işidir: aynı ürünü başka kiralama fonu şirketleri de kurar ve satar, yatırımcının ilgisi vergi kurallarına ve kura bağlıdır. Satış gücü SBI grubunun ağına dayanır. Ürün kurmak için uçak ve gemi önce şirketin bilançosuna alınır; kaynak verisinde net borç/FAVÖK 6,4 ve serbest nakit akışı beş dönemin hiçbirinde pozitif değil. Kalıcı bir fiyatlama gücü kanıtı bulamadık. Bu yüzden B puanı 1 ve şirket 3. suru geçemedi.",
+  "mgmt": "Ana ortak SBI Nonbank Holdings'tir ve hisselerin %62,63'üne sahiptir (2025 yönetişim raporu). Şirket, ana ortakla işlemlerin üçüncü kişilerle aynı koşullarda yapıldığını ve yönetim kurulunda görüşüldüğünü söylüyor. Temettü politikası kârın %30'u ve üzeridir. 1 Nisan 2026'da hisse ikiye bölündü; Mart 2027'de bitecek yıl için temettü tahmini hisse başına 115 yen.",
+  "latest": "28 Ekim 2026: Nisan-Eylül 2026 dönemi sonuçları açıklandı. Satış 32,6 milyar yen (%23,6 artış), faaliyet kârı 6,5 milyar yen (%22,9 artış), net kâr 4,1 milyar yen (%23,8 artış) oldu. Temmuz-Eylül çeyreğinde ise satış %35,2, net kâr %10,7 geriledi. Şirket yıllık tahminini değiştirmedi: satış 66,0 milyar yen, net kâr 6,1 milyar yen.",
+  "risks": [],
+  "watch": [],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tyo/5834/financials/ratios/"
+   },
+   {
+    "t": "Kabutan: SBI Leasing Services ilk yarı sonuçları (28 Ekim 2026)",
+    "te": "Kabutan: SBI Leasing Services first-half results (28 October 2026)",
+    "u": "https://s.kabutan.jp/news/k202610280003/"
+   },
+   {
+    "t": "JPX: SBI Leasing Services 2027/3 dönemi 1. çeyrek sonuç özeti (29 Temmuz 2026)",
+    "te": "JPX: SBI Leasing Services FY3/2027 first-quarter earnings summary (29 July 2026)",
+    "u": "https://www2.jpx.co.jp/disc/58340/081220260728501146_tse-qcedjpsm-58340-20260729358340-ixbrl.htm"
+   },
+   {
+    "t": "EDINET DB: SBI Leasing Services yönetişim raporu (2025)",
+    "te": "EDINET DB: SBI Leasing Services corporate governance report (2025)",
+    "u": "https://edinetdb.jp/company/E37986/governance/"
+   },
+   {
+    "t": "EDINET DB: SBI Leasing Services orta vadeli plan ve sunum özeti",
+    "te": "EDINET DB: SBI Leasing Services mid-term plan and presentation summary",
+    "u": "https://edinetdb.jp/company/E37986/midterm-plans/"
+   },
+   {
+    "t": "Holistic Research: SBI Leasing Services yeni halka arz tanıtım raporu (21 Ekim 2022)",
+    "te": "Holistic Research: SBI Leasing Services new listing introduction report (21 October 2022)",
+    "u": "https://holistic-r.org/?p=6841"
+   }
+  ],
+  "en": {
+   "one": "An SBI group company that sets up aircraft and ship leasing funds and sells them to Japanese investors. The moat in this arranging business is weak; it did not pass the 3rd wall.",
+   "business": "SBI Leasing Services sets up funds (JOL and JOLCO) that invest in the leasing of aircraft and ships and sells shares in them to investors. JOLCO is bought by companies to defer tax, JOL for lease income and gains on sale. It earns arrangement and management fees and income from asset sales. It sells through regional banks and tax accountants. In April to September 2026 sales were 32.6 billion yen.",
+   "moat_text": "The moat is weak. The company is growing fast and real return on equity was 20.7% over the last 12 months; but it was 14.4% two years ago and 12.5% three years ago. The work is an arranging business: other leasing fund companies set up and sell the same product, and investor interest depends on tax rules and the exchange rate. Its sales strength rests on the SBI group's network. To build products, aircraft and ships first go onto the company's own balance sheet; in the source data net debt to EBITDA is 6.4 and free cash flow was not positive in any of the five periods. We found no evidence of lasting pricing power. So the B score is 1 and the company did not pass the 3rd wall.",
+   "mgmt": "The parent is SBI Nonbank Holdings, which owns 62.63% of the shares (2025 governance report). The company says dealings with the parent are made on the same terms as with third parties and are discussed by the board. The dividend policy is a payout of 30% or more. The shares were split two for one on 1 April 2026; the dividend forecast for the year ending March 2027 is 115 yen per share.",
+   "latest": "28 October 2026: Results for April to September 2026 were announced. Sales were 32.6 billion yen (up 23.6%), operating profit 6.5 billion yen (up 22.9%) and net profit 4.1 billion yen (up 23.8%). In the July to September quarter, however, sales fell 35.2% and net profit fell 10.7%. The company kept its full-year forecast: sales of 66.0 billion yen and net profit of 6.1 billion yen.",
+   "risks": [],
+   "watch": []
+  }
+ },
+ "6083": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 2,
+   "E": 2
+  },
+  "moat": "dar",
+  "per": "2026-Q1",
+  "one": "Japonya'nın en büyük özel yapı denetim grubu. Hendek dar; 3. suru geçiyor, ama kâr sıçraması 2025 yasa değişikliğine dayanıyor ve fiyat marjı yetmiyor.",
+  "business": "ERI Holdings, yeni binaların yapı ruhsatı denetimini, konut performans değerlendirmesini ve enerji verimliliği uygunluk incelemesini ücret karşılığı yapar. Mayıs 2026'da biten yılda satışlar 24,7 milyar yen, faaliyet kârı 4,9 milyar yen oldu. Satışların 18,8 milyar yeni denetim ve değerlendirmeden, 5,6 milyar yeni altyapı ve çevre danışmanlığından geldi. Grupta 1.768 kişi çalışıyor.",
+  "moat_text": "Hendek dar. Bu iş devletin atadığı kuruluşlara açıktır ve atama beş yılda bir yenilenir. Japonya'da 124 atanmış denetim kuruluşu var; grup 772 yetkili denetçisi ve ülke çapındaki ağıyla en büyüğü olduğunu söylüyor. Konut performans değerlendirmesinde 2025'te %20 payla birinci. Reel özsermaye kârlılığı 2025'te %18,8 iken 2026'da %39,3'e çıktı. Zayıf yan: bu sıçrama Nisan 2025'te enerji verimliliği uygunluğunun neredeyse bütün yeni binalarda zorunlu olmasından ve ücret artışlarından geldi. 123 rakip aynı lisansa sahip; ücret üstünlüğünün kalıcılığı belirsiz.",
+  "mgmt": "Hâkim ortak yok. 31 Mayıs 2026'da en büyük ortak %8,22 ile çalışanların hisse birliği. Hikari Tsushin'e bağlı fonlar (UH Partners 2 ve 3, Hikari Tsushin KK) toplam yaklaşık %22 tutuyor. Misawa Homes, Daiwa House, Mitsui Home ve Sekisui Chemical %4,69'ar paya sahip; bunlar aynı zamanda sektörün müşterileri. Şirket 2026 mali yılında bölünme sonrası hisse başına 42 yen temettü ödedi (şirketin açıkladığı dağıtım oranı %30,1) ve 354 milyon yenlik geri alım yaptı. 2027 için 44 yen öngörüyor. Yıl içinde üç küçük şirket aldı; faizli borç 2,4 milyar yen, nakit 8,2 milyar yen.",
+  "latest": "30 Eylül 2026: Haziran-Ağustos 2026 çeyreğinde (2027 mali yılının ilk çeyreği) satışlar 5.847 milyon yen, faaliyet kârı 942 milyon yen, olağan kâr 964 milyon yen (yıllık %10 artış), net kâr 524 milyon yen oldu. 14 Temmuz 2026'da açıklanan yıllık sonuçta satışlar %25,0 artışla 24.704 milyon yen, net kâr %143,2 artışla 3.146 milyon yen olmuştu. Şirket Mayıs 2027'de bitecek yıl için 27.000 milyon yen satış ve 3.280 milyon yen net kâr (%4,2 artış) bekliyor.",
+  "risks": [
+   "Kârın 2026'daki sıçraması yasa değişikliğine ve ücret artışına dayanıyor; rakipler ücret kırarsa marj eski düzeyine dönebilir.",
+   "Konut başlangıçları geriliyor; faiz ve inşaat maliyeti artarsa denetlenecek bina sayısı düşer.",
+   "Atama iptal edilir, yenilenmez ya da ihlal nedeniyle durdurulursa ana iş durur.",
+   "Kısıtlı sektörlerdeki ortakların oy payı %24,75; bu oran üçte biri aşarsa atanmış kuruluş statüsü tehlikeye girer.",
+   "Altyapı danışmanlığı kolu kamu müşterilerine bağlı ve satın almalarla büyüyor; şerefiye değer kaybı riski var."
+  ],
+  "watch": [
+   "Faaliyet kâr marjı (2026 mali yılında %20,0)",
+   "Japonya'da konut başlangıçları",
+   "Denetim ücretlerinde rakiplerin tutumu",
+   "Altyapı ve çevre kolunun kârı (2026'da 664 milyon yen)"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tyo/6083/financials/ratios/"
+   },
+   {
+    "t": "JPX: ERI Holdings 2026 Mayıs dönemi yıllık sonuç özeti (14 Temmuz 2026)",
+    "te": "JPX: ERI Holdings full-year results summary for the year ended May 2026 (14 July 2026)",
+    "u": "https://www2.jpx.co.jp/disc/60830/081220260713591776_tse-acedjpsm-60830-20260714360830-ixbrl.htm"
+   },
+   {
+    "t": "EDINET DB: ERI Holdings 2026 mali yılı menkul kıymet raporu metni",
+    "te": "EDINET DB: ERI Holdings securities report text, fiscal 2026",
+    "u": "https://edinetdb.jp/company/E27855/text?fy=2026"
+   },
+   {
+    "t": "Matsui Securities: ERI Holdings sonuçları (ilk çeyrek, Haziran-Ağustos 2026)",
+    "te": "Matsui Securities: ERI Holdings results (first quarter, June-August 2026)",
+    "u": "https://finance.matsui.co.jp/stock/6083/settlement/index"
+   },
+   {
+    "t": "Kabutan: ERI Holdings haber listesi (ilk çeyrek sonucu, 30 Eylül 2026)",
+    "te": "Kabutan: ERI Holdings news list (first-quarter results, 30 September 2026)",
+    "u": "https://s.kabutan.jp/stocks/6083/news/"
+   },
+   {
+    "t": "Kabutore: ERI Holdings büyük ortaklar (31 Mayıs 2026)",
+    "te": "Kabutore: ERI Holdings major shareholders (31 May 2026)",
+    "u": "https://www.kabutore.biz/genzaikabuka/okabunushi6083.html"
+   },
+   {
+    "t": "Monex Scouter: ERI Holdings şirket analizi",
+    "te": "Monex Scouter: ERI Holdings company analysis",
+    "u": "https://scouter.monex.co.jp/report/zaimu/6083"
+   }
+  ],
+  "en": {
+   "one": "Japan's largest private building inspection group. Narrow moat; it passes the third wall, but the profit jump rests on a 2025 law change and the price margin falls short.",
+   "business": "ERI Holdings checks new buildings for building confirmation, evaluates housing performance and reviews energy-efficiency compliance, all for a fee. In the year ended May 2026, sales were 24.7 billion yen and operating profit 4.9 billion yen. Inspection and evaluation brought 18.8 billion yen of sales, infrastructure and environmental consulting 5.6 billion yen. The group employs 1,768 people.",
+   "moat_text": "Narrow moat. This work is open only to bodies designated by the state, and the designation is renewed every five years. Japan has 124 designated confirmation bodies; the group says it is the largest, with 772 certified inspectors and a nationwide network. It ranked first in housing performance evaluation in 2025 with a 20% share. Real return on equity rose from 18.8% in 2025 to 39.3% in 2026. The weak side: this jump came from energy-efficiency compliance becoming mandatory for nearly all new buildings in April 2025 and from fee increases. 123 rivals hold the same licence; it is unclear whether the fee advantage will last.",
+   "mgmt": "There is no controlling shareholder. On 31 May 2026 the largest holder was the employee shareholding association with 8.22%. Funds linked to Hikari Tsushin (UH Partners 2 and 3, Hikari Tsushin KK) hold about 22% in total. Misawa Homes, Daiwa House, Mitsui Home and Sekisui Chemical each own 4.69%; they are also customers of the industry. For fiscal 2026 the company paid a dividend of 42 yen per share on a post-split basis (payout ratio reported by the company: 30.1%) and bought back 354 million yen of shares. It forecasts 44 yen for 2027. It bought three small companies during the year; interest-bearing debt is 2.4 billion yen against 8.2 billion yen of cash.",
+   "latest": "30 September 2026: In the June-August 2026 quarter (first quarter of fiscal 2027), sales were 5,847 million yen, operating profit 942 million yen, ordinary profit 964 million yen (up 10% year on year) and net profit 524 million yen. In the full-year results announced on 14 July 2026, sales had risen 25.0% to 24,704 million yen and net profit 143.2% to 3,146 million yen. For the year ending May 2027 the company expects sales of 27,000 million yen and net profit of 3,280 million yen (up 4.2%).",
+   "risks": [
+    "The 2026 profit jump rests on a law change and fee increases; if rivals cut fees, the margin could return to its old level.",
+    "Housing starts are falling; higher interest rates and construction costs would reduce the number of buildings to inspect.",
+    "If the designation is revoked, not renewed or suspended for a violation, the core business stops.",
+    "Shareholders in restricted industries hold 24.75% of votes; if this passes one third, the designated-body status is at risk.",
+    "The infrastructure consulting arm depends on public-sector clients and grows through acquisitions; there is a risk of goodwill impairment."
+   ],
+   "watch": [
+    "Operating margin (20.0% in fiscal 2026)",
+    "Housing starts in Japan",
+    "How rivals behave on inspection fees",
+    "Profit of the infrastructure and environment arm (664 million yen in 2026)"
+   ]
+  }
+ },
+ "6547": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-Q4",
+  "one": "Japonya'da Comfort markasıyla 120 iş oteli işletiyor. Kârı yüksek ama iş otelciliği kolay girilen bir alan, hendek zayıf; 3. suru geçemedi.",
+  "business": "Greens Japonya'da otel işletir. Haziran 2026 sonunda 120 oteli ve 16.942 odası vardı; bunların 100'ü Comfort ve bağlı markalardır. Bu markaların Japonya'daki tek kullanım hakkı, Choice Hotels International ile yapılan ana franchise anlaşmasıyla Greens'in bağlı şirketindedir. Otellerin çoğu kiralıktır. Haziran 2026'da biten yılda satış 54,0 milyar yen, doluluk %80,6, ortalama oda fiyatı 10.442 yen oldu.",
+  "moat_text": "Hendek zayıf. Comfort markasının Japonya'daki tek hakkı ve 100 otellik ölçek gerçek bir üstünlüktür; faaliyet kâr marjı %12,9. Ama uygun fiyatlı iş oteli, birçok zincirin benzer odayı benzer fiyata sattığı bir alandır ve marka hakkı bir anlaşmaya bağlıdır. Reel özsermaye kârlılığı çok yüksek görünüyor (son 12 ayda %40,8, üç yıl önce %118,5) çünkü salgın yıllarındaki zarar özsermayeyi küçülttü; 2022 için oran hesaplanamıyor ve oran her yıl düşüyor. Bu rakamlar kalıcı fiyatlama gücünü kanıtlamaz. Bu yüzden B puanı 1 ve şirket 3. suru geçemedi.",
+  "mgmt": "En büyük ortaklar Shinryoku (%18,21), TM (%12,38) ve şirketin başkanı Yuya Muraki'dir (%8,36; Haziran 2025). Salgın döneminde çıkarılan A sınıfı imtiyazlı hisseler Haziran 2026'ya kadar tamamen geri ödendi; son dilim 2,0 milyar yendi. Şirket 2026 mali yılında 2.054 milyon yenlik hisse geri aldı ve temettüyü 35 yenden 52 yene çıkardı. Yıl sonunda nakit 11,1 milyar yen, özsermaye oranı %35,5 idi.",
+  "latest": "13 Ağustos 2026: Haziran 2026'da biten yılın sonuçları açıklandı. Satış 54,0 milyar yen (%8,8 artış), faaliyet kârı 7,0 milyar yen (%10,4 artış) oldu; net kâr ise %5,0 düşerek 5,0 milyar yene indi. Şirket Haziran 2027'de bitecek yıl için 56,9 milyar yen satış, 7,0 milyar yen faaliyet kârı ve %10,0 düşüşle 4,5 milyar yen net kâr bekliyor.",
+  "risks": [],
+  "watch": [],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tyo/6547/financials/ratios/"
+   },
+   {
+    "t": "JPX: Greens 2026/6 dönemi yıllık sonuç özeti (13 Ağustos 2026)",
+    "te": "JPX: Greens FY6/2026 full-year earnings summary (13 August 2026)",
+    "u": "https://www2.jpx.co.jp/disc/65470/081220260811517439_tse-acedjpsm-65470-20260813365470-ixbrl.htm"
+   },
+   {
+    "t": "Monex: Greens yıllık sonuç haberi (13 Ağustos 2026)",
+    "te": "Monex: Greens full-year results news (13 August 2026)",
+    "u": "https://scouter.monex.co.jp/news/detail/6547_20260813_act_20260813_140019_1"
+   },
+   {
+    "t": "Kitai Shihon: Greens iş özeti (Haziran 2026 yıllık raporundan)",
+    "te": "Kitai Shihon: Greens business summary (from the June 2026 annual report)",
+    "u": "https://kitaishihon.com/company/6547/business"
+   },
+   {
+    "t": "Finboard: Greens büyük ortaklar (Haziran 2025)",
+    "te": "Finboard: Greens major shareholders (June 2025)",
+    "u": "https://finboard.jp/companies/JP:6547/ownership"
+   },
+   {
+    "t": "Greens: Comfort Hotel Kumamoto Shinshigai'nin kapanış duyurusu (30 Nisan 2026)",
+    "te": "Greens: notice of closure of Comfort Hotel Kumamoto Shinshigai (30 April 2026)",
+    "u": "https://www2.infomart.co.jp/web/jp/images/upload/3680/140120260430514625_22822573.pdf"
+   }
+  ],
+  "en": {
+   "one": "Runs 120 business hotels in Japan, mostly under the Comfort brand. Profit is high but budget hotels are an easy field to enter and the moat is weak; it did not pass the 3rd wall.",
+   "business": "Greens operates hotels in Japan. At the end of June 2026 it had 120 hotels and 16,942 rooms; 100 of them carry Comfort and related brands. The exclusive right to these brands in Japan sits with a Greens subsidiary under a master franchise agreement with Choice Hotels International. Most hotels are leased. In the year ended June 2026 sales were 54.0 billion yen, occupancy was 80.6% and the average room rate was 10,442 yen.",
+   "moat_text": "The moat is weak. The exclusive right to the Comfort brand in Japan and the scale of 100 hotels are a real edge; the operating margin is 12.9%. But budget business hotels are a field where many chains sell a similar room at a similar price, and the brand right depends on an agreement. Real return on equity looks very high (40.8% over the last 12 months, 118.5% three years ago) because losses in the pandemic years shrank equity; the ratio cannot be calculated for 2022 and it falls every year. These figures do not prove lasting pricing power. So the B score is 1 and the company did not pass the 3rd wall.",
+   "mgmt": "The largest holders are Shinryoku (18.21%), TM (12.38%) and the company's president Yuya Muraki (8.36%; June 2025). The Class A preferred shares issued during the pandemic were fully redeemed by June 2026; the last tranche was 2.0 billion yen. The company bought back 2,054 million yen of shares in fiscal 2026 and raised the dividend from 35 yen to 52 yen. At year end cash was 11.1 billion yen and the equity ratio was 35.5%.",
+   "latest": "13 August 2026: Results for the year ended June 2026 were announced. Sales were 54.0 billion yen (up 8.8%) and operating profit 7.0 billion yen (up 10.4%); net profit fell 5.0% to 5.0 billion yen. For the year ending June 2027 the company expects sales of 56.9 billion yen, operating profit of 7.0 billion yen and net profit of 4.5 billion yen, down 10.0%.",
+   "risks": [],
+   "watch": []
+  }
+ },
+ "7047": {
+  "scores": {
+   "A": 1,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-Q1",
+  "one": "Elektrik aboneliği ve yeni mezun işe alımında müşteri bulan internet şirketi. Hendek zayıf; 3. suru geçemedi.",
+  "business": "PORT, internet siteleriyle kullanıcı toplar ve onları elektrik-gaz satıcılarına ya da işe alım şirketlerine yönlendirir; sözleşme başına başarı ücreti alır. Enerji tarafında Enechoice ve Hikkoshi Tetsuzuki.com, insan kaynakları tarafında Shukatsu Kaigi, Career Park ve Minshu sitelerini işletir. Mart 2026'da biten yılda gelir 29,1 milyar yen, faaliyet kârı 4.073 milyon yen oldu. Şirket şebeke ölçekli batarya depolama işine de girdi.",
+  "moat_text": "Hendek zayıf. Şirket bu nedenle 3. suru geçemedi. Gelir, başkasının ürününü satmaya aracılık etmekten gelir; kullanıcı arama motorları ve reklam platformları üzerinden gelir. Şirketin kendi raporu, algoritma değişikliğini ve üretken yapay zekânın arama alışkanlığını değiştirmesini risk olarak sayıyor. Büyüme büyük ölçüde satın almalarla geldi: şerefiye 8,2 milyar yen. Güçlü yan: aylık yinelenen gelirin FAVÖK içindeki payı 2023'te %4,6 iken 2026'da %34,9 oldu ve gelirin %10'unu aşan tek bir müşteri yok. Reel özsermaye kârlılığı 2026'da %26,4. Bu rakamlar bir üstünlük gösteriyor, ama kalıcı ve zor aşılır olduğunu kanıtlamıyor.",
+  "mgmt": "Kurucu ve genel müdür Hirofumi Kasuga, Eylül 2024 tarihli bildirime göre %33,19 paya sahip. Sumitomo Mitsui DS Asset Management %5,02 tutuyor. Kârın çoğu satın almalara ve büyümeye gidiyor: 2026 mali yılı temettüsü hisse başına 12 yen, dağıtım oranı %5,8. Borçlar 11.307 milyon yen, nakit 7.161 milyon yen; kredilerde mali koşul var. HRteam 4 Kasım 2025'te bağlı ortaklık yapıldı.",
+  "latest": "12 Ağustos 2026: Nisan-Haziran 2026 çeyreğinde gelir yaklaşık 9,1 milyar yen, faaliyet kârı yaklaşık 1,1 milyar yen, vergi öncesi kâr 1.113 milyon yen (yıllık %37,1 artış), net kâr yaklaşık 0,6 milyar yen oldu. Şirket Mart 2027'de bitecek yıl için 39,0 milyar yen gelir, 5,4 milyar yen faaliyet kârı ve 3,31 milyar yen net kâr bekliyor. 2026 mali yılı kârında HRteam'in aşamalı alımından gelen 323 milyon yenlik tek seferlik kazanç vardı.",
+  "risks": [],
+  "watch": [],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tyo/7047/financials/ratios/"
+   },
+   {
+    "t": "EDINET DB: PORT 2026 mali yılı menkul kıymet raporu metni",
+    "te": "EDINET DB: PORT securities report text, fiscal 2026",
+    "u": "https://edinetdb.jp/company/E34537/text?fy=2026"
+   },
+   {
+    "t": "EDINET DB: PORT 2027 mali yılı ilk çeyrek sonuçları (12 Ağustos 2026)",
+    "te": "EDINET DB: PORT first-quarter results, fiscal 2027 (12 August 2026)",
+    "u": "https://edinetdb.jp/company/E34537/earnings/FY2027-Q1"
+   },
+   {
+    "t": "EDINET DB: PORT 2026 mali yılı sonuçları",
+    "te": "EDINET DB: PORT fiscal 2026 results",
+    "u": "https://edinetdb.jp/company/E34537/earnings/FY2026"
+   },
+   {
+    "t": "EDINET DB: PORT büyük ortaklar ve satın alma geçmişi",
+    "te": "EDINET DB: PORT major shareholders and acquisition history",
+    "u": "https://edinetdb.jp/company/E34537/ma"
+   },
+   {
+    "t": "Monex Scouter: PORT şirket analizi",
+    "te": "Monex Scouter: PORT company analysis",
+    "u": "https://scouter.monex.co.jp/report/zaimu/7047"
+   }
+  ],
+  "en": {
+   "one": "An internet company that finds customers for electricity plans and new-graduate hiring. Weak moat; it did not pass the third wall.",
+   "business": "PORT gathers users through its websites and refers them to electricity and gas retailers or to recruitment firms; it earns a success fee per contract. In energy it runs Enechoice and Hikkoshi Tetsuzuki.com; in human resources it runs Shukatsu Kaigi, Career Park and Minshu. In the year ended March 2026, revenue was 29.1 billion yen and operating profit 4,073 million yen. The company has also entered grid-scale battery storage.",
+   "moat_text": "Weak moat. This is why the company did not pass the third wall. Revenue comes from brokering the sale of other companies' products; users arrive through search engines and advertising platforms. The company's own report lists algorithm changes and generative AI changing search habits as risks. Much of the growth came from acquisitions: goodwill is 8.2 billion yen. The strong side: the share of monthly recurring income in EBITDA rose from 4.6% in 2023 to 34.9% in 2026, and no single customer exceeds 10% of revenue. Real return on equity was 26.4% in 2026. These figures show an edge, but they do not prove it is lasting and hard to overcome.",
+   "mgmt": "Founder and chief executive Hirofumi Kasuga owns 33.19% according to a filing dated September 2024. Sumitomo Mitsui DS Asset Management holds 5.02%. Most of the profit goes to acquisitions and growth: the fiscal 2026 dividend is 12 yen per share, a payout ratio of 5.8%. Borrowings are 11,307 million yen against 7,161 million yen of cash; the loans carry financial covenants. HRteam became a subsidiary on 4 November 2025.",
+   "latest": "12 August 2026: In the April-June 2026 quarter, revenue was about 9.1 billion yen, operating profit about 1.1 billion yen, profit before tax 1,113 million yen (up 37.1% year on year) and net profit about 0.6 billion yen. For the year ending March 2027 the company expects revenue of 39.0 billion yen, operating profit of 5.4 billion yen and net profit of 3.31 billion yen. Fiscal 2026 profit included a one-off gain of 323 million yen from the step acquisition of HRteam.",
+   "risks": [],
+   "watch": []
+  }
+ },
+ "7095": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-Q1",
+  "one": "Sonuca göre ücret alan internet reklam aracısı. Üç müşteri satışın %40'ından fazlası, kâr düşüyor. Hendek zayıf, ölçütü geçemedi.",
+  "business": "Macbee Planet, müşterisi için internetten üye ve alıcı bulur. Ücretini sonuç gerçekleşince alır, bir kısmını reklamı yayımlayan sitelere öder. Nisan 2026'da biten mali yılda gelir 50,6 milyar yen, faaliyet kârı 3,65 milyar yen oldu. Gelirin neredeyse tamamı bu tek iş kolundan gelir.",
+  "moat_text": "Hendek zayıf. Şirketin kendi veri araçları (Honeycomb, Robee) bir üstünlük sağlar, ama iş özünde reklam aracılığıdır ve müşteri kolayca başka ajansa geçebilir. En büyük üç müşteri (DMM.com %19,1, Style Edge %12,1, SBI Securities %10,7) satışın %40'ından fazlasını oluşturur. Nisan 2026 mali yılında faaliyet kârı %29,4 düştü; şirket bunu bazı büyük müşterilerdeki özel nedenlere bağladı. Reel özsermaye kârlılığı 2025'te %28,26 iken 2026'da %16,44'e indi. Elenme nedeni hendek puanıdır.",
+  "mgmt": "Yönetim kurulu üyesi Masakazu Matsumoto (varlık şirketiyle birlikte) ve kurucu Yusuke Kojima birlikte hisselerin %30'undan fazlasını tutar. 2026 mali yılında 2,0 milyar yenlik hisse geri alındı ve hisse başına 55 yen temettü ödendi; geri alım için 2,0 milyar yen uzun vadeli borç alındı. Şirket büyümeyi satın almalarla da sürdürüyor (2023 All Ads, 2024 PR Cloud Tech, 2025 MOJA).",
+  "latest": "10 Eylül 2026: Mayıs-Temmuz 2026 çeyreğinde gelir %3,8 düşüşle 12,29 milyar yen, faaliyet kârı %1,3 artışla 764 milyon yen, net kâr %12,5 düşüşle 442 milyon yen oldu. Şirket Nisan 2027 mali yılı beklentisini değiştirmedi: gelir 51,0 milyar yen (%0,8 artış), faaliyet kârı 3,0 milyar yen (%17,8 düşüş), net kâr 1,9 milyar yen (%19,3 düşüş), temettü 55 yen.",
+  "risks": [
+   "Üç büyük müşteriden birinin bütçesini kısması kârı doğrudan düşürür; 2026 mali yılındaki düşüş bunu gösterdi.",
+   "Şirket bu yıl için de faaliyet kârında %17,8 düşüş bekliyor; düşük F/K kısmen bu beklentiyi yansıtır.",
+   "Müşterilere taksitli reklam ödemesi düzeninden 2,75 milyar yen alacak var; tahsil edilemezse zarar yazılır.",
+   "Satın almalardan gelen şerefiye, alınan şirketler beklenen kârı getirmezse değer düşüklüğü yaratabilir."
+  ],
+  "watch": [
+   "En büyük üç müşterinin satıştaki payı",
+   "Faaliyet kâr marjı (çeyrekte %6,2)",
+   "Taksitli reklam alacakları ve tahsilat",
+   "Yeni satın almalar ve borçlanma"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tyo/7095/financials/ratios/"
+   },
+   {
+    "t": "JPX: Macbee Planet, Nisan 2027 mali yılı 1. çeyrek sonuç özeti (10 Eylül 2026)",
+    "te": "JPX: Macbee Planet, summary of Q1 results for fiscal year ending April 2027 (10 September 2026)",
+    "u": "https://www2.jpx.co.jp/disc/70950/081220260910534030_tse-qcedifsm-70950-20260910370950-ixbrl.htm"
+   },
+   {
+    "t": "Kabutan: Macbee Planet, Mayıs-Temmuz çeyreğinde net kâr %12 düştü (10 Eylül 2026)",
+    "te": "Kabutan: Macbee Planet, net profit down 12% in May-July quarter (10 September 2026)",
+    "u": "https://s.kabutan.jp/news/k202609100026/"
+   },
+   {
+    "t": "EDINET DB: Macbee Planet yıllık menkul kıymet raporu metni (2026 mali yılı)",
+    "te": "EDINET DB: Macbee Planet annual securities report text (fiscal 2026)",
+    "u": "https://edinetdb.jp/company/E35534/text?fy=2026"
+   }
+  ],
+  "en": {
+   "one": "An online advertising intermediary paid by results. Three customers make up over 40% of sales and profit is falling. The moat is weak, it fails the criteria.",
+   "business": "Macbee Planet finds members and buyers online for its clients. It is paid when the result happens and passes part of the fee to the sites that run the ads. In the fiscal year ended April 2026, revenue was 50.6 billion yen and operating profit 3.65 billion yen. Almost all revenue comes from this one line of business.",
+   "moat_text": "The moat is weak. The company's own data tools (Honeycomb, Robee) give it an edge, but the business is advertising intermediation at heart and a client can easily move to another agency. The three largest customers (DMM.com 19.1%, Style Edge 12.1%, SBI Securities 10.7%) make up over 40% of sales. Operating profit fell 29.4% in the fiscal year ended April 2026; the company put this down to specific factors at some major clients. Real return on equity fell from 28.26% in 2025 to 16.44% in 2026. It fails on the moat score.",
+   "mgmt": "Director Masakazu Matsumoto (with his asset holding company) and founder Yusuke Kojima together hold over 30% of the shares. In fiscal 2026 the company bought back 2.0 billion yen of shares and paid a dividend of 55 yen per share; it took 2.0 billion yen of long-term loans for the buyback. It also grows through acquisitions (All Ads in 2023, PR Cloud Tech in 2024, MOJA in 2025).",
+   "latest": "10 September 2026: In the May-July 2026 quarter, revenue fell 3.8% to 12.29 billion yen, operating profit rose 1.3% to 764 million yen and net profit fell 12.5% to 442 million yen. The company kept its forecast for the fiscal year ending April 2027: revenue 51.0 billion yen (up 0.8%), operating profit 3.0 billion yen (down 17.8%), net profit 1.9 billion yen (down 19.3%), dividend 55 yen.",
+   "risks": [
+    "A budget cut by one of the three large customers lowers profit directly; the fall in fiscal 2026 showed this.",
+    "The company expects operating profit to fall another 17.8% this year; the low P/E partly reflects this.",
+    "It holds 2.75 billion yen of receivables from instalment payment arrangements for advertising; if they are not collected, a loss is booked.",
+    "Goodwill from acquisitions could be impaired if the acquired companies do not deliver the expected profit."
+   ],
+   "watch": [
+    "Share of the three largest customers in sales",
+    "Operating margin (6.2% in the quarter)",
+    "Instalment advertising receivables and collection",
+    "New acquisitions and borrowing"
+   ]
+  }
+ },
+ "7148": {
+  "scores": {
+   "A": 1,
+   "B": 1,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-Q4",
+  "one": "Uçak ve gemi kiralama fonları ile hisseli gayrimenkul ürünleri kurup yatırımcıya satıyor. İş vergi kurallarına bağlı, hendek zayıf; 3. suru geçemedi.",
+  "business": "FPG, uçak ve gemilerin kiralanmasına yatırım yapan fonlar kurar ve bu fonların paylarını Japon şirketlerine ve varlıklı kişilere satar. Ayrıca Tokyo'daki binaları küçük paylara bölüp satar. Parayı kurma ve satış ücretlerinden kazanır. Eylül 2026'da biten yılda satış 81,8 milyar yen, faaliyet kârı 24,7 milyar yen oldu. Ürünleri 9.000'den fazla muhasebe bürosu üzerinden pazarlar.",
+  "moat_text": "Hendek zayıf. FPG kendi alanında büyük bir oyuncudur ve geniş bir muhasebe bürosu ağı vardır; reel özsermaye kârlılığı beş yılda %21,1 ile %37,9 arasında, son 12 ayda %25,4. Ama ürünlerin çekiciliği büyük ölçüde vergi avantajına dayanır. Bunu son yıl gösterdi: 19 Aralık 2025'te açıklanan vergi değişikliği taslağı hisseli gayrimenkul ürünlerinin veraset vergisi avantajını azalttı, şirket satışı bir süre durdurdu ve yıllık satış tahminini 100 milyar yenden 50,5 milyar yene indirdi. Bu kolun dokuz aylık satışı %64 düştü. Üstünlük tek bir kural değişikliğiyle zayıflayabildiği için B puanı 1 ve şirket 3. suru geçemedi.",
+  "mgmt": "Şirket kârın yaklaşık %50'sini temettü olarak dağıtmayı hedefliyor. Kâr düştüğü için 2026 mali yılı temettü tahmini hisse başına 92,7 yen oldu (önceki yıl 130,4 yen). Önceki yıl 1,6 milyon hisse iptal edildi. Haziran 2026 sonunda özsermaye oranı %47,6, borç ve tahvil toplamı 49,6 milyar yendi. Özel jet işine girildi ve 114 milyon yen değer düşüklüğü yazıldı; bu küçük bir kusurdur. Güncel ortaklık yapısını bu çalışmada doğrulayamadık.",
+  "latest": "29 Ekim 2026: Eylül 2026'da biten yılın sonuçları açıklandı. Satış 81,8 milyar yen (önceki yıl 129,8 milyar), faaliyet kârı 24,7 milyar yen (önceki yıl 25,4 milyar), net kâr 17,0 milyar yen (önceki yıl 18,2 milyar) oldu. Hisse başına kâr 202,51 yen. Kiralama fonu kolu rekor kırdı, gayrimenkul kolu ise vergi değişikliği yüzünden geriledi.",
+  "risks": [],
+  "watch": [],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tyo/7148/financials/ratios/"
+   },
+   {
+    "t": "Matsui Securities: FPG sonuç tablosu (2026 mali yılı, açıklama 29 Ekim 2026)",
+    "te": "Matsui Securities: FPG results table (FY2026, announced 29 October 2026)",
+    "u": "https://finance.matsui.co.jp/stock/7148/settlement/index"
+   },
+   {
+    "t": "Gyokai Digest: FPG şirket özeti (Kasım 2026)",
+    "te": "Gyokai Digest: FPG company summary (November 2026)",
+    "u": "https://www.gyokaidigest.com/companies/fpg"
+   },
+   {
+    "t": "Gyokai Digest: FPG 2026/9 dönemi 3. çeyrek raporu (30 Temmuz 2026)",
+    "te": "Gyokai Digest: FPG FY9/2026 third-quarter report (30 July 2026)",
+    "u": "https://www.gyokaidigest.com/companies/fpg/report/2026-Q3"
+   },
+   {
+    "t": "The Shashi: FPG, 2026 vergi değişikliğine yanıt (19 Aralık 2025 ve sonrası)",
+    "te": "The Shashi: FPG response to the 2026 tax reform (19 December 2025 onward)",
+    "u": "https://the-shashi.com/tse/7148/decisions/tax-reform-response-2025/"
+   },
+   {
+    "t": "EDINET DB: FPG sonuç sunumları (2026 mali yılı ilk yarı)",
+    "te": "EDINET DB: FPG results presentations (first half of fiscal 2026)",
+    "u": "https://edinetdb.jp/company/E24651/presentations/"
+   }
+  ],
+  "en": {
+   "one": "Sets up aircraft and ship leasing funds and fractional real estate products and sells them to investors. The business depends on tax rules and the moat is weak; it did not pass the 3rd wall.",
+   "business": "FPG sets up funds that invest in the leasing of aircraft and ships and sells shares in these funds to Japanese companies and wealthy individuals. It also splits buildings in Tokyo into small shares and sells them. It earns arrangement and sales fees. In the year ended September 2026 sales were 81.8 billion yen and operating profit was 24.7 billion yen. It markets its products through more than 9,000 accounting firms.",
+   "moat_text": "The moat is weak. FPG is a large player in its field and has a wide network of accounting firms; real return on equity ranged from 21.1% to 37.9% over five years and was 25.4% over the last 12 months. But the appeal of the products rests largely on tax advantages. The last year showed this: the tax reform outline published on 19 December 2025 reduced the inheritance tax advantage of fractional real estate products, the company suspended sales for a time and cut its full-year sales forecast for them from 100 billion yen to 50.5 billion yen. Nine-month sales in this arm fell 64%. Because the edge can be weakened by a single rule change, the B score is 1 and the company did not pass the 3rd wall.",
+   "mgmt": "The company aims to pay out about 50% of profit as dividends. Because profit fell, the fiscal 2026 dividend forecast was 92.7 yen per share (130.4 yen a year earlier). In the previous year 1.6 million shares were cancelled. At the end of June 2026 the equity ratio was 47.6% and loans and bonds totalled 49.6 billion yen. It entered the private jet business and booked a 114 million yen impairment; this is a small flaw. We could not verify the current ownership structure in this run.",
+   "latest": "29 October 2026: Results for the year ended September 2026 were announced. Sales were 81.8 billion yen (129.8 billion a year earlier), operating profit 24.7 billion yen (25.4 billion a year earlier) and net profit 17.0 billion yen (18.2 billion a year earlier). Earnings per share were 202.51 yen. The leasing fund arm set a record, while the real estate arm declined because of the tax change.",
+   "risks": [],
+   "watch": []
+  }
+ },
+ "7187": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-Q2",
+  "one": "Kiracı adına kira kefaleti veren şirket. Satış büyüyor ama kâr büyümüyor; hendek zayıf, 3. suru geçemedi.",
+  "business": "J-Lease, konut ve işyeri kiracılarından ücret alır, kiracı ödemezse kirayı ev sahibine kendisi öder ve sonra kiracıdan tahsil eder. Mart 2026'da biten yılda satışlar 21.574 milyon yen, faaliyet kârı 3.624 milyon yen oldu. Satışların büyük bölümü kefalet işinden gelir; küçük bir gayrimenkul ve bilişim kolu da var. Merkezi Oita'da; satış ağı 39 vilayete ulaştı.",
+  "moat_text": "Hendek zayıf. Şirket bu nedenle 3. suru geçemedi. Kira kefaleti birçok şirketin sunduğu benzer bir hizmettir; kefilin kim olacağını çoğu zaman emlakçı seçer. Şirketin kendi açıklamaları, emlakçılara ödenen işlem ücretlerinin ve sözleşme sayısıyla birlikte şüpheli alacak giderlerinin arttığını söylüyor. Sonuç rakamlarda görünüyor: Nisan-Eylül 2026'da satışlar %20,1 arttı, faaliyet kârı %1,3 geriledi. Reel özsermaye kârlılığı 2022'de %68,4 iken son 12 ayda %31,7; hâlâ yüksek ama her yıl düşüyor ve özkaynak oranı yalnız %33,8. Güçlü yan: ülke çapında şube ağı ve işyeri kefaletinde büyüme.",
+  "mgmt": "En büyük ortak %23,7 ile JL Holdings. Master Trust Bank %8,7 tutuyor; Howa Bank ve Oita Bank %1,8'er paya sahip. Şirket 2026 mali yılında hisse başına 55 yen temettü ödedi (şirketin açıkladığı dağıtım oranı %39,9); 2027 için 60 yen öngörüyor. Kira kefalet şirketi K-net'i satın aldı; bu ana işin içinde bir alım. Mart 2026'da faizli borç 5.651 milyon yen, nakit 2.737 milyon yen.",
+  "latest": "10 Kasım 2026: Nisan-Eylül 2026 döneminde satışlar %20,1 artışla 11.689 milyon yen oldu. Faaliyet kârı %1,3 düşüşle 1.748 milyon yen, olağan kâr %0,4 düşüşle 1.734 milyon yen, net kâr %7,1 düşüşle 1.091 milyon yen. Kefalet kolunda satışlar 10.714 milyon yen (%21,0 artış), faaliyet kârı 1.813 milyon yen (%1,8 artış). Kârlar şirketin kendi planının %10'dan fazla üzerinde. Yıllık öngörü değişmedi: 24.859 milyon yen satış, 2.522 milyon yen net kâr. Ara temettü 30 yen.",
+  "risks": [],
+  "watch": [],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tyo/7187/financials/ratios/"
+   },
+   {
+    "t": "Diamond ZAi (Fisco): J-Lease ara dönemde %20,1 gelir artışı (11 Kasım 2026)",
+    "te": "Diamond ZAi (Fisco): J-Lease interim sales up 20.1% (11 November 2026)",
+    "u": "https://diamond.jp/zai/articles/-/1075273"
+   },
+   {
+    "t": "JPX: J-Lease 2027 Mart dönemi ilk çeyrek sonuç özeti (7 Ağustos 2026)",
+    "te": "JPX: J-Lease first-quarter results summary, year ending March 2027 (7 August 2026)",
+    "u": "https://www2.jpx.co.jp/disc/71870/140120260806512865.pdf"
+   },
+   {
+    "t": "EDINET DB: J-Lease şirket sayfası (ortaklar, bilanço, 2026 mali yılı)",
+    "te": "EDINET DB: J-Lease company page (shareholders, balance sheet, fiscal 2026)",
+    "u": "https://edinetdb.jp/company/E32412"
+   },
+   {
+    "t": "Data Max NetIB: J-Lease ara dönem sonuçları (11 Kasım 2025)",
+    "te": "Data Max NetIB: J-Lease interim results (11 November 2025)",
+    "u": "https://www.data-max.co.jp/article/81375"
+   }
+  ],
+  "en": {
+   "one": "A company that guarantees rent on behalf of tenants. Sales grow but profit does not; weak moat, it did not pass the third wall.",
+   "business": "J-Lease charges a fee to residential and commercial tenants; if a tenant does not pay, it pays the rent to the landlord itself and then collects from the tenant. In the year ended March 2026, sales were 21,574 million yen and operating profit 3,624 million yen. Most sales come from the guarantee business; there are also small real estate and IT arms. It is based in Oita; its sales network has reached 39 prefectures.",
+   "moat_text": "Weak moat. This is why the company did not pass the third wall. Rent guarantee is a similar service offered by many companies, and the real estate agent usually chooses the guarantor. The company's own releases say that handling fees paid to agents are rising, and that bad-debt costs rise with contract volume. The result shows in the numbers: in April-September 2026 sales rose 20.1% while operating profit fell 1.3%. Real return on equity was 68.4% in 2022 and 31.7% over the last twelve months; still high, but falling every year, and the equity ratio is only 33.8%. The strong side: a nationwide branch network and growth in commercial guarantees.",
+   "mgmt": "The largest shareholder is JL Holdings with 23.7%. Master Trust Bank holds 8.7%; Howa Bank and Oita Bank own 1.8% each. The company paid a dividend of 55 yen per share for fiscal 2026 (payout ratio reported by the company: 39.9%) and forecasts 60 yen for 2027. It bought the rent guarantee company K-net, an acquisition inside its core business. In March 2026 interest-bearing debt was 5,651 million yen against 2,737 million yen of cash.",
+   "latest": "10 November 2026: In April-September 2026, sales rose 20.1% to 11,689 million yen. Operating profit fell 1.3% to 1,748 million yen, ordinary profit fell 0.4% to 1,734 million yen and net profit fell 7.1% to 1,091 million yen. In the guarantee arm, sales were 10,714 million yen (up 21.0%) and operating profit 1,813 million yen (up 1.8%). Profits were more than 10% above the company's own plan. The full-year forecast is unchanged: sales of 24,859 million yen and net profit of 2,522 million yen. The interim dividend is 30 yen.",
+   "risks": [],
+   "watch": []
+  }
+ },
+ "7373": {
+  "scores": {
+   "A": 1,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-Q4",
+  "one": "Küçük işletmelere satış desteği ve evden çalışan iş gücü sağlayan şirket. Kâr düştü, tahsilat sorunu çıktı. Hendek zayıf, ölçütü geçemedi.",
+  "business": "Aidma Holdings, küçük ve orta boy işletmelerin satış işini onlar adına yürütür (Sales Crowd sistemi ve evden çalışan görevliler) ve Mama Works sitesiyle evden çalışacak eleman bulur. Destek sözleşmeleri 13 ay sürer. Ağustos 2026'da biten mali yılda satış 14,3 milyar yen, faaliyet kârı 2,46 milyar yen oldu.",
+  "moat_text": "Hendek zayıf. Şirketin kendi satış sistemi ve evden çalışan geniş bir iş gücü havuzu vardır, ama bu bir dış kaynak hizmetidir ve müşteri sözleşme bitince ayrılabilir. Yönetim, müşterilerin yaklaşık %60'ının beklentisinin karşılanmadığını söyledi. 2026 mali yılında satış artarken faaliyet kârı 3,10 milyar yenden 2,46 milyar yene indi; nedenler ödenmeyen faturalar, şüpheli alacak karşılıkları ve küçük esnaf müşterilerde düşük dönüşümdü. Reel özsermaye kârlılığı 2025'te %25,49 iken 2026'da %18,11 oldu. Elenme nedeni hendek puanıdır.",
+  "mgmt": "Kurucu ve başkan Yohei Miura hisselerin %60,81'ini tutar (7 Ağustos 2026 tarihli bildirim); halka açık pay dardır. Şirket net nakittedir: Ağustos 2025'te 5,35 milyar yen nakdi vardı. Kârın bir kısmı küçük şirket satın almalarına gitti (2024 Kozure, 2025 Kaimaku). Verideki temettü dağıtım oranı %28,69'dur.",
+  "latest": "14 Ekim 2026: Ağustos 2026'da biten mali yılda satış 14,30 milyar yen (önceki yıl 13,27 milyar), faaliyet kârı 2,46 milyar yen (önceki yıl 3,10 milyar), net kâr 1,55 milyar yen (önceki yıl 1,95 milyar) oldu. Şirket yıl içinde beklentisini indirmişti. Ağustos 2027 mali yılı için hedef yaklaşık 14,0 milyar yen satış ve 2,4 milyar yen faaliyet kârıdır; yani büyüme beklenmiyor.",
+  "risks": [
+   "Müşteriler küçük işletmelerdir; ödeme güçlüğü çektiklerinde alacaklar tahsil edilemez, 2026'da olduğu gibi karşılık ayrılır.",
+   "Yönetim gelecek yıl için büyüme öngörmüyor; yeni sipariş birikimi kurulamazsa kâr daha da düşebilir.",
+   "Kurucu hisselerin %60,81'ini tutar; küçük ortağın kararlarda sözü azdır."
+  ],
+  "watch": [
+   "Yeni sipariş sayısı (2026'da 1.273)",
+   "Şüpheli alacak karşılıkları ve tahsil edilemeyen oran",
+   "Faaliyet kâr marjı"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tyo/7373/financials/ratios/"
+   },
+   {
+    "t": "logmi Finance: Aidma Holdings Ağustos 2026 mali yılı sonuç toplantısı (30 Ekim 2026)",
+    "te": "logmi Finance: Aidma Holdings results briefing for fiscal year ended August 2026 (30 October 2026)",
+    "u": "https://finance.logmi.jp/articles/385924"
+   },
+   {
+    "t": "Matsui Securities: Aidma Holdings yıllık sonuç tablosu (14 Ekim 2026 açıklaması)",
+    "te": "Matsui Securities: Aidma Holdings annual results table (announced 14 October 2026)",
+    "u": "https://finance.matsui.co.jp/stock/7373/settlement/index"
+   },
+   {
+    "t": "EDINET DB: Aidma Holdings, iş tanımı, satın almalar ve büyük ortaklar",
+    "te": "EDINET DB: Aidma Holdings, business description, acquisitions and major shareholders",
+    "u": "https://edinetdb.jp/company/E36648/ma"
+   }
+  ],
+  "en": {
+   "one": "A company that provides sales support and home-based workers to small businesses. Profit fell and collection problems appeared. The moat is weak, it fails the criteria.",
+   "business": "Aidma Holdings runs the sales work of small and mid-sized businesses on their behalf (the Sales Crowd system and home-based staff) and finds home-based workers through its Mama Works site. Support contracts run for 13 months. In the fiscal year ended August 2026, sales were 14.3 billion yen and operating profit 2.46 billion yen.",
+   "moat_text": "The moat is weak. The company has its own sales system and a large pool of home-based workers, but this is an outsourcing service and a client can leave when the contract ends. Management said that expectations were not met for about 60% of clients. In fiscal 2026 sales rose while operating profit fell from 3.10 billion yen to 2.46 billion yen; the causes were unpaid invoices, bad-debt provisions and low conversion among sole-proprietor clients. Real return on equity went from 25.49% in 2025 to 18.11% in 2026. It fails on the moat score.",
+   "mgmt": "Founder and president Yohei Miura holds 60.81% of the shares (filing dated 7 August 2026); the free float is narrow. The company has net cash: it held 5.35 billion yen of cash in August 2025. Part of the profit went to small acquisitions (Kozure in 2024, Kaimaku in 2025). The payout ratio in the data is 28.69%.",
+   "latest": "14 October 2026: In the fiscal year ended August 2026, sales were 14.30 billion yen (13.27 billion a year earlier), operating profit 2.46 billion yen (3.10 billion a year earlier) and net profit 1.55 billion yen (1.95 billion a year earlier). The company had cut its forecast during the year. The target for the fiscal year ending August 2027 is about 14.0 billion yen of sales and 2.4 billion yen of operating profit, so no growth is expected.",
+   "risks": [
+    "Clients are small businesses; when they struggle to pay, receivables are not collected and provisions are booked, as in 2026.",
+    "Management expects no growth next year; if a new order backlog is not built, profit could fall further.",
+    "The founder holds 60.81% of the shares; minority shareholders have little say in decisions."
+   ],
+   "watch": [
+    "Number of new orders (1,273 in 2026)",
+    "Bad-debt provisions and the uncollected rate",
+    "Operating margin"
+   ]
+  }
+ },
+ "7792": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 2,
+   "E": 2
+  },
+  "moat": "dar",
+  "per": "2026-Q4",
+  "one": "Colantotte markalı mıknatıslı sağlık ürünleri satıyor. Marka kârlı ve borçsuz; ölçütü geçti, ama tek markaya bağlı ve fiyatı güvenlik marjı için yetmiyor.",
+  "business": "Şirket, Japonya'da tıbbi cihaz onayı taşıyan mıknatıslı kolye, bileklik, destek ve dinlenme giysileri (RESNO) tasarlar ve satar. Eylül 2026'da biten yılda satış 9,0 milyar yen, faaliyet kârı 2,26 milyar yen oldu. Dokuz aylık satışın %50,1'i toptan, %36,9'u internet, %13,0'ü kendi mağazalarından geldi. Haziran 2026'da 22 mağazası vardı.",
+  "moat_text": "Hendek dar. Kanıt marjlarda: brüt kâr marjı %70, faaliyet kâr marjı %25. Reel özsermaye kârlılığı beş yılda %18,0 ile %26,0 arasında kaldı, son yıl %23,8. Ürünlerin yarıdan fazlası (%54,6) 20.000 yen ve üstü fiyat bandında satılıyor; bu, markanın fiyat gücünü gösterir. Tıbbi cihaz onayı ve sporcu sponsorlukları markayı destekler. Zayıf yanı: tek marka, tek ürün ailesi. Mıknatıslı ürün taklit edilebilir ve talep modaya, reklama bağlıdır.",
+  "mgmt": "31 Mart 2026 itibarıyla en büyük ortak Ark Quest %39,57, Katsumi Komatsu %17,58 paya sahip; SMBC Trust Bank'taki emanet hesabı %8,79 tutuyor. Halka açık pay sınırlı. Şirket kârın yaklaşık %30'unu temettü olarak dağıtmayı hedefliyor: 2025 yılı için hisse başına 42 yen ödedi, 2026 yılı için 50 yen öngördü. Kalan kâr mağazalara, internet satışına ve yeni Ar-Ge merkezine gidiyor. Haziran 2026 sonunda özsermaye oranı %80,3 idi; şirket net nakitte.",
+  "latest": "6 Kasım 2026: Eylül 2026'da biten yılın sonuçları açıklandı. Satış 6,92 milyar yenden 9,00 milyar yene, faaliyet kârı 1,81 milyar yenden 2,26 milyar yene, net kâr 1,33 milyar yenden 1,51 milyar yene çıktı. Sonuç, şirketin kendi tahmininin (faaliyet kârı 2,1 milyar yen) üstünde kaldı. Eylül 2027 yılı için tahmin: satış 10,0 milyar yen, faaliyet kârı 2,4 milyar yen, net kâr 1,6 milyar yen. Tahmin, kâr marjının %25,1'den %24,0'e ineceğini ima ediyor.",
+  "risks": [
+   "Şirket tek markaya ve mıknatıslı sağlık ürünlerine bağlıdır; ilgi azalırsa satış hızla düşebilir.",
+   "Büyüme reklam ve sporcu sponsorluklarına dayanıyor; 2026'da satış %30 artarken net kâr daha yavaş arttı, bu harcamalar marjı aşağı çekebilir.",
+   "Mıknatıslı ürünlerde teknik engel düşüktür; daha ucuz taklitler fiyat gücünü zayıflatabilir.",
+   "Tıbbi cihaz onayı ya da sağlık iddialarıyla ilgili kural değişikliği satışı doğrudan etkiler.",
+   "İki büyük ortak hisselerin yarısından fazlasını elinde tutuyor; küçük ortağın söz hakkı sınırlıdır."
+  ],
+  "watch": [
+   "Faaliyet kâr marjı (%25 dolayında kalıyor mu)",
+   "İnternet ve mağaza satışlarının büyüme hızı",
+   "Reklam ve satış giderlerinin satışa oranı",
+   "Yurt dışı satışların payı"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tyo/7792/financials/ratios/"
+   },
+   {
+    "t": "Matsui Securities: Colan Totte bilanço özeti, Eylül 2026 yılı (6 Kasım 2026)",
+    "te": "Matsui Securities: Colan Totte results summary, year to September 2026 (6 November 2026)",
+    "u": "https://finance.matsui.co.jp/stock/7792/settlement/index"
+   },
+   {
+    "t": "Yahoo! Finance Japan: Colan Totte sonuç ve tahmin (6 Kasım 2026)",
+    "te": "Yahoo! Finance Japan: Colan Totte results and forecast (6 November 2026)",
+    "u": "https://finance.yahoo.co.jp/quote/7792.t/performance"
+   },
+   {
+    "t": "JPX: Colan Totte üçüncü çeyrek bilanço özeti (7 Ağustos 2026)",
+    "te": "JPX: Colan Totte third-quarter earnings summary (7 August 2026)",
+    "u": "https://www2.jpx.co.jp/disc/77920/081220260806511491_tse-qnedjpsm-77920-20260807377920-ixbrl.htm"
+   },
+   {
+    "t": "JPX: Colan Totte üçüncü çeyrek sunumu (7 Ağustos 2026)",
+    "te": "JPX: Colan Totte third-quarter presentation (7 August 2026)",
+    "u": "https://www2.jpx.co.jp/disc/77920/140120260806511515.pdf"
+   },
+   {
+    "t": "Kabutore: Colan Totte büyük ortaklar (31 Mart 2026)",
+    "te": "Kabutore: Colan Totte major shareholders (31 March 2026)",
+    "u": "https://www.kabutore.biz/genzaikabuka/okabunushi7792.html"
+   }
+  ],
+  "en": {
+   "one": "Sells Colantotte-brand magnetic health goods. The brand is profitable and debt-free; it meets the criterion, but it rests on one brand and the price leaves too little margin of safety.",
+   "business": "The company designs and sells magnetic necklaces, loops, supporters and recovery wear (RESNO) that carry medical device certification in Japan. In the year to September 2026 sales were 9.0 billion yen and operating profit 2.26 billion yen. In the first nine months 50.1% of sales came from wholesale, 36.9% from e-commerce and 13.0% from its own stores. It had 22 stores in June 2026.",
+   "moat_text": "The moat is narrow. The proof is in the margins: gross margin 70%, operating margin 25%. Real return on equity stayed between 18.0% and 26.0% over five years, and was 23.8% in the latest year. More than half of sales (54.6%) come from products priced at 20,000 yen or more, which shows the brand's pricing power. Medical device certification and athlete sponsorships support the brand. The weak side: one brand, one product family. A magnetic product can be copied, and demand depends on fashion and advertising.",
+   "mgmt": "As of 31 March 2026 the largest shareholder, Ark Quest, held 39.57% and Katsumi Komatsu 17.58%; a trust account at SMBC Trust Bank held 8.79%. The free float is limited. The company aims to pay out about 30% of profit: it paid 42 yen per share for 2025 and planned 50 yen for 2026. The rest goes to stores, e-commerce and a new R&D centre. The equity ratio was 80.3% at the end of June 2026; the company has net cash.",
+   "latest": "6 November 2026: results for the year to September 2026 were announced. Sales rose from 6.92 billion yen to 9.00 billion yen, operating profit from 1.81 billion yen to 2.26 billion yen, and net profit from 1.33 billion yen to 1.51 billion yen. The result beat the company's own forecast (operating profit 2.1 billion yen). Forecast for the year to September 2027: sales 10.0 billion yen, operating profit 2.4 billion yen, net profit 1.6 billion yen. The forecast implies the margin slipping from 25.1% to 24.0%.",
+   "risks": [
+    "The company depends on one brand and on magnetic health goods; if interest fades, sales can fall quickly.",
+    "Growth relies on advertising and athlete sponsorships; in 2026 sales grew 30% while net profit grew more slowly, and this spending can pull the margin down.",
+    "Technical barriers in magnetic products are low; cheaper copies could weaken pricing power.",
+    "A rule change on medical device certification or health claims would hit sales directly.",
+    "Two large shareholders hold more than half of the shares; minority shareholders have limited say."
+   ],
+   "watch": [
+    "Operating margin (does it stay around 25%)",
+    "Growth rate of e-commerce and store sales",
+    "Advertising and selling costs as a share of sales",
+    "Share of overseas sales"
+   ]
+  }
+ },
+ "8301": {
+  "scores": {
+   "A": 1,
+   "B": 0,
+   "C": 0,
+   "D": 1,
+   "E": 0
+  },
+  "moat": "yok",
+  "per": "2025-H2",
+  "one": "Japonya'nın merkez bankası. Borsadaki kâğıt oy hakkı vermeyen bir katılım senedidir, temettüsü yasayla sınırlıdır. Sıradan bir şirket değildir, ölçütü geçemedi.",
+  "business": "Bank of Japan para basar, para politikasını yürütür ve bankaların bankasıdır. Geliri elindeki devlet tahvillerinin faizinden ve borsa yatırım fonlarından gelir. Mart 2026 sonunda toplam varlığı 663 trilyon yendi. Sermayesi yalnız 100 milyon yendir, bunun %55'i devletindir.",
+  "moat_text": "Hendek yok. Para basma tekeli yasadan gelir ve çok güçlüdür, ama senet sahibine geçmez. Temettü, ödenmiş sermayenin yılda en çok %5'idir: 2025 mali yılında 1,93 trilyon yen kârdan toplam 5 milyon yen temettü dağıtıldı. Banka tasfiye edilse bile senet sahibine ödenecek tutar yasayla sınırlıdır. Verideki F/K (0,01) ve özsermaye kârlılığı (%30,39) bu yüzden senet sahibi için anlam taşımaz. Kârın kaynağı da ticari değil, para politikasıdır: şirket hem hendek hem öngörülebilirlik hem dayanıklılık ölçütünde elendi.",
+  "mgmt": "Sermayenin %55'i devletin, %45'i özel kişilerin elindedir. Senet sahiplerinin oy hakkı yoktur, genel kurul da yoktur. Temettü oranını Maliye Bakanı onaylar. 2025 mali yılında kârın 1,83 trilyon yeni hazineye aktarıldı, 96,3 milyar yeni yasal yedeğe ayrıldı, 5 milyon yeni temettü oldu. Bu dağıtım yönetimin tercihi değil, yasanın gereğidir.",
+  "latest": "27 Mayıs 2026: Banka 141. mali yılının (Nisan 2025 - Mart 2026) hesaplarını açıkladı. Olağan kâr 2,34 trilyon yen, net kâr 1,93 trilyon yen oldu. Hazineye 1,83 trilyon yen aktarıldı, temettü 5 milyon yende kaldı. Bankalara ödenen mevduat faizi 2,71 trilyon yene çıktı. Mart 2026 sonunda devlet tahvillerinde 45,4 trilyon yen değerlenmemiş zarar, borsa yatırım fonlarında 57,1 trilyon yen değerlenmemiş kazanç vardı.",
+  "risks": [],
+  "watch": [],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tyo/8301/financials/ratios/"
+   },
+   {
+    "t": "Bank of Japan: 141. mali yıl hesapları (27 Mayıs 2026)",
+    "te": "Bank of Japan: Financial statements for the 141st fiscal year (27 May 2026)",
+    "u": "https://www.boj.or.jp/about/account/zai2605a.htm"
+   },
+   {
+    "t": "Bank of Japan: Sermaye ve katılım senedi açıklaması",
+    "te": "Bank of Japan: Explanation of capital and subscription certificates",
+    "u": "https://www.boj.or.jp/about/education/oshiete/outline/a12.htm"
+   }
+  ],
+  "en": {
+   "one": "Japan's central bank. What trades is a subscription certificate with no vote and a legally capped dividend. It is not an ordinary business and fails the criteria.",
+   "business": "Bank of Japan issues banknotes, runs monetary policy and is the banks' bank. Its income comes from interest on the government bonds it holds and from exchange-traded funds. Total assets were 663 trillion yen at the end of March 2026. Its capital is only 100 million yen, 55% of it owned by the government.",
+   "moat_text": "No moat. The monopoly on issuing money comes from the law and is very strong, but it does not reach the certificate holder. The dividend is capped at 5% a year of paid-in capital: in fiscal 2025, total dividends were 5 million yen out of 1.93 trillion yen of profit. Even if the bank were dissolved, the amount payable to holders is limited by law. The P/E (0.01) and return on equity (30.39%) in the data therefore mean nothing for a certificate holder. The profit also comes from monetary policy, not from commerce: the company fails on moat, on predictability and on resilience.",
+   "mgmt": "The government holds 55% of the capital and private holders 45%. Certificate holders have no voting rights and there is no general meeting. The Minister of Finance approves the dividend rate. In fiscal 2025, 1.83 trillion yen of the profit was paid to the treasury, 96.3 billion yen went to the legal reserve and 5 million yen was paid as dividends. This split is required by law, it is not a management choice.",
+   "latest": "27 May 2026: The bank published its accounts for the 141st fiscal year (April 2025 to March 2026). Ordinary profit was 2.34 trillion yen and net profit 1.93 trillion yen. 1.83 trillion yen was paid to the treasury and the dividend stayed at 5 million yen. Interest paid to banks on deposits rose to 2.71 trillion yen. At the end of March 2026 there were 45.4 trillion yen of unrealised losses on government bonds and 57.1 trillion yen of unrealised gains on exchange-traded funds.",
+   "risks": [],
+   "watch": []
+  }
+ },
+ "8704": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-Q2",
+  "one": "\"Minna no FX\" markasıyla bireysel yatırımcılara internetten döviz işlemi yaptırıyor. Fiyatla rekabet edilen bir iş, hendek zayıf; 3. suru geçemedi.",
+  "business": "Traders Holdings'in ana şirketi Traders Securities, bireysel müşterilere \"Minna no FX\" ve \"LIGHT FX\" adlarıyla kaldıraçlı döviz işlemi sunar. Parayı müşteri işlemlerindeki alış-satış farkından kazanır. Mart 2026'da biten yılda faaliyet geliri 13,2 milyar yen, faaliyet kârı 6,2 milyar yen oldu; gelirin yaklaşık %80'i bu koldan geldi. Mart 2026 sonunda 662.459 müşteri hesabı ve 133,3 milyar yen müşteri varlığı vardı. Yazılımı grup şirketi FleGrowth geliştirir.",
+  "moat_text": "Hendek zayıf. Şirket kârlı: reel özsermaye kârlılığı beş yılda %20,2 ile %26,6 arasında, son 12 ayda %29,7; faaliyet kâr marjı da %46,6. Ama müşteriyi çekmenin yolu dar alış-satış farkı ve yüksek swap puanı sunmaktır; şirket de hedefini böyle anlatıyor. Bu, fiyatla yapılan bir rekabettir ve müşteri başka bir aracıya kolayca geçebilir. Şirketin kendi planı, müşteri varlığında sektörde ilk üçe girmeyi hedefliyor; yani bugün lider değil. Kâr ayrıca döviz piyasasındaki oynaklığa bağlı. Bu yüzden B puanı 1 ve şirket 3. suru geçemedi.",
+  "mgmt": "En büyük ortaklar arasında K Power (büyük ortaklık bildirimine göre %23,41) ve J&R (%12,73) var; K Power şirketin ilişkili kuruluşudur. Şirket temettüyü özsermayeye oranla belirliyor ve hedefi %4'ten %5 ve üzerine çıkardı. Mart 2026'da biten yılda 971 milyon yen temettü ödedi ve 1.098 milyon yenlik hisse geri aldı. Müşteri teminatları bilançoyu büyüttüğü için özsermaye oranı düşük görünür (%11,9); aracı kurumun sermaye yeterlilik oranı %662,8.",
+  "latest": "30 Ekim 2026: Nisan-Eylül 2026 dönemi sonuçları açıklandı. Faaliyet geliri 10,3 milyar yen, faaliyet kârı 6,4 milyar yen, net kâr 4,3 milyar yen oldu; net kâr bir yıl öncesine göre 2,5 milyar yen arttı. Şirket yıllık olağan kâr tahminini %29 yükseltti. İlk çeyrekte yönetim, güçlü sonucu döviz müdahaleleri ve faiz dalgalanmasının yarattığı geçici işlem artışına bağlamıştı.",
+  "risks": [],
+  "watch": [],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tyo/8704/financials/ratios/"
+   },
+   {
+    "t": "Matsui Securities: Traders Holdings sonuç tablosu (2026 Eylül ilk yarı)",
+    "te": "Matsui Securities: Traders Holdings results table (first half to September 2026)",
+    "u": "https://finance.matsui.co.jp/stock/8704/settlement/index"
+   },
+   {
+    "t": "Kabutan: Traders Holdings hisse sayfası, sonuç haberi (30 Ekim 2026)",
+    "te": "Kabutan: Traders Holdings stock page, earnings news (30 October 2026)",
+    "u": "https://s.kabutan.jp/stocks/8704"
+   },
+   {
+    "t": "Quartr: Traders Holdings 2027/3 dönemi 1. çeyrek özeti (31 Temmuz 2026)",
+    "te": "Quartr: Traders Holdings Q1 FY3/2027 summary (31 July 2026)",
+    "u": "https://quartr.com/events/traders-holdings-co-ltd-8704-q1-2027_FVxLrQP6"
+   },
+   {
+    "t": "Kitai Shihon: Traders Holdings iş özeti (Mart 2026 yıllık raporundan)",
+    "te": "Kitai Shihon: Traders Holdings business summary (from the March 2026 annual report)",
+    "u": "https://kitaishihon.com/company/8704/business"
+   },
+   {
+    "t": "EDINET DB: Traders Holdings şirket sayfası (ortaklar, oranlar)",
+    "te": "EDINET DB: Traders Holdings company page (shareholders, ratios)",
+    "u": "https://edinetdb.jp/company/E03819"
+   },
+   {
+    "t": "EDINET DB: Traders Holdings orta vadeli plan",
+    "te": "EDINET DB: Traders Holdings mid-term plan",
+    "u": "https://edinetdb.jp/company/E03819/midterm-plans/"
+   }
+  ],
+  "en": {
+   "one": "Lets retail investors trade currencies online under the \"Minna no FX\" brand. It is a business that competes on price and the moat is weak; it did not pass the 3rd wall.",
+   "business": "Traders Securities, the main company of Traders Holdings, offers leveraged currency trading to retail customers under the names \"Minna no FX\" and \"LIGHT FX\". It earns the spread on customer trades. In the year ended March 2026 operating revenue was 13.2 billion yen and operating profit was 6.2 billion yen; about 80% of revenue came from this arm. At the end of March 2026 it had 662,459 customer accounts and 133.3 billion yen of customer assets. The software is developed by group company FleGrowth.",
+   "moat_text": "The moat is weak. The company is profitable: real return on equity ranged from 20.2% to 26.6% over five years and was 29.7% over the last 12 months; the operating margin was 46.6%. But the way to attract customers is to offer narrow spreads and high swap points, and the company describes its own aim this way. This is competition on price, and a customer can easily move to another broker. The company's own plan aims to enter the industry's top three by customer assets, so it is not the leader today. Profit also depends on volatility in the currency market. So the B score is 1 and the company did not pass the 3rd wall.",
+   "mgmt": "The largest holders include K Power (23.41% according to a large-holding report) and J&R (12.73%); K Power is a related company. The company sets its dividend relative to equity and raised the target from 4% to 5% or more. In the year ended March 2026 it paid 971 million yen in dividends and bought back 1,098 million yen of shares. Customer margin deposits inflate the balance sheet, so the equity ratio looks low (11.9%); the broker's capital adequacy ratio is 662.8%.",
+   "latest": "30 October 2026: Results for April to September 2026 were announced. Operating revenue was 10.3 billion yen, operating profit 6.4 billion yen and net profit 4.3 billion yen; net profit rose by 2.5 billion yen from a year earlier. The company raised its full-year ordinary profit forecast by 29%. In the first quarter management had attributed the strong result to a temporary rise in trading caused by currency interventions and interest rate swings.",
+   "risks": [],
+   "watch": []
+  }
+ },
+ "9145": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 2,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-Q2",
+  "one": "Eczane ve market zincirleri için depo işleten ve dağıtım yapan bir lojistik şirketi. Talep istikrarlı, ama marj ince, tek müşteri ağır basıyor; hendek ölçütünü geçemedi.",
+  "business": "Being Holdings, gıda, ilaç, kozmetik ve günlük tüketim mallarının lojistiğini yapar: müşterinin dağıtım merkezini işletir ve malları mağazalara taşır. 2025 sonunda 71 lojistik noktası vardı; 24'ü Hokuriku, 22'si Kanto bölgesinde. 2025'te faaliyet geliri 33,5 milyar yen, faaliyet kârı 2,30 milyar yen oldu. Gelirin %35,5'i eczane zinciri Kusuri no Aoki'den, %11,7'si Mitsubishi Shokuhin grubundan geldi.",
+  "moat_text": "Hendek zayıf. Şirket bu ölçütü geçemedi. Bir üstünlük var: şirket depo ve taşıma yazılımlarını kendi geliştiriyor ve müşterinin dağıtım merkezini içeriden işletiyor; bu, müşterinin kolayca ayrılmasını zorlaştırır. Ama rakamlar fiyat gücü göstermiyor: faaliyet kâr marjı %7 dolayında ve 2026'nın ikinci çeyreğinde %7,5'ten %6,5'e indi. Sözleşmeli lojistik kalabalık bir sektör; sürücü sıkıntısı, yakıt ve işçilik artışı kârı doğrudan etkiliyor. Reel özsermaye kârlılığı 2021'de %22,1 iken son 12 ayda %14,1.",
+  "mgmt": "Kurucu Jinichi Kita ve birlikte hareket edenler %58,74 paya sahip (Ekim 2024 bildirimi); bunun %47,05'i Kita Shoten üzerinden. Halka açık pay sınırlı. Kâr ağırlıkla yeni lojistik merkezlerine gidiyor: 2025'te 2,02 milyar yen yatırım yapıldı, 11 yeni nokta açıldı. Temettü 2025 için hisse başına 13 yen, 2026 için 15 yen öngörülüyor. Haziran 2026'da özsermaye oranı %42,7 idi.",
+  "latest": "14 Ağustos 2026: Ocak-Haziran 2026 sonuçları açıklandı. Faaliyet geliri %10,6 artışla 17,5 milyar yen oldu; faaliyet kârı %15,6 düşüşle 986 milyon yen, net kâr %23,6 düşüşle 545 milyon yen. Sonuç şirketin kendi ilk yarı tahmininin altında kaldı. Yıllık tahmin değişmedi: gelir 36,9 milyar yen, faaliyet kârı 2,40 milyar yen, net kâr 1,41 milyar yen. Bunun tutması için ikinci yarıda faaliyet kârının yaklaşık %25 artması gerekiyor.",
+  "risks": [],
+  "watch": [],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tyo/9145/financials/ratios/"
+   },
+   {
+    "t": "JPX: Being Holdings ara dönem bilanço özeti (14 Ağustos 2026)",
+    "te": "JPX: Being Holdings interim earnings summary (14 August 2026)",
+    "u": "https://www2.jpx.co.jp/disc/91450/081220260814520863_tse-scedjpsy-91450-20260814391450-ixbrl.htm"
+   },
+   {
+    "t": "Kabutan: Being Holdings ara dönem sonuç haberi (14 Ağustos 2026)",
+    "te": "Kabutan: Being Holdings interim results news (14 August 2026)",
+    "u": "https://s.kabutan.jp/news/k202608140054/"
+   },
+   {
+    "t": "Kitai Shihon: Being Holdings iş tanımı ve başlıca müşteriler (2025 faaliyet raporu)",
+    "te": "Kitai Shihon: Being Holdings business and main customers (2025 annual report)",
+    "u": "https://kitaishihon.com/company/9145/business"
+   },
+   {
+    "t": "Holistic Research: Being Holdings şirket raporu",
+    "te": "Holistic Research: Being Holdings company report",
+    "u": "https://holistic-r.org/report/9145/"
+   },
+   {
+    "t": "Ufocatch: Being Holdings büyük pay bildirimleri (2 Ekim 2024)",
+    "te": "Ufocatch: Being Holdings large shareholding reports (2 October 2024)",
+    "u": "https://ufocatch.com/a8/Issuer/9145L"
+   }
+  ],
+  "en": {
+   "one": "A logistics company that runs warehouses and deliveries for drugstore and grocery chains. Demand is steady, but margins are thin and one customer weighs heavily; it did not meet the moat criterion.",
+   "business": "Being Holdings handles logistics for food, medicines, cosmetics and daily goods: it runs the customer's distribution centre and carries goods to stores. At the end of 2025 it had 71 logistics sites, 24 in Hokuriku and 22 in Kanto. In 2025 operating revenue was 33.5 billion yen and operating profit 2.30 billion yen. The drugstore chain Kusuri no Aoki brought 35.5% of revenue and the Mitsubishi Shokuhin group 11.7%.",
+   "moat_text": "The moat is weak. The company did not meet this criterion. There is an edge: it builds its own warehouse and transport software and runs the customer's distribution centre from the inside, which makes it harder for the customer to leave. But the numbers show no pricing power: the operating margin is around 7% and fell from 7.5% to 6.5% in the second quarter of 2026. Contract logistics is a crowded industry; driver shortages and rising fuel and labour costs hit profit directly. Real return on equity was 22.1% in 2021 and 14.1% in the last 12 months.",
+   "mgmt": "Founder Jinichi Kita and those acting with him hold 58.74% (filing of October 2024), of which 47.05% is through Kita Shoten. The free float is limited. Profit goes mainly into new logistics centres: 2.02 billion yen was invested in 2025 and 11 new sites were opened. The dividend was 13 yen per share for 2025 and 15 yen is planned for 2026. The equity ratio was 42.7% in June 2026.",
+   "latest": "14 August 2026: results for January-June 2026 were announced. Operating revenue rose 10.6% to 17.5 billion yen; operating profit fell 15.6% to 986 million yen and net profit fell 23.6% to 545 million yen. The result was below the company's own first-half forecast. The full-year forecast is unchanged: revenue 36.9 billion yen, operating profit 2.40 billion yen, net profit 1.41 billion yen. To meet it, operating profit must rise about 25% in the second half.",
+   "risks": [],
+   "watch": []
+  }
+ }
+}

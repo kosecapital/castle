@@ -1,0 +1,382 @@
+{
+ "000651": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 1,
+   "E": 2
+  },
+  "moat": "dar",
+  "per": "2026-Q3",
+  "one": "Çin'in büyük klima üreticisi; hendek dar, ölçütü geçti. Ancak satış ve kâr geriliyor, üçüncü çeyrek kârı %43,3 düştü.",
+  "business": "Gree, ev ve iş yeri kliması üretir ve kendi markasıyla satar. 2025'te 170,45 milyar yuan gelirin 133,06 milyar yuanı, yani yaklaşık %78'i, çoğu klima olan tüketici cihazlarından geldi. Para, markalı ürünün bayi ağı üzerinden satışından kazanılır.",
+  "moat_text": "Hendek dar. Marka ve bayi ağı gerçek: dokuz aylık brüt kâr marjı %27,0, net kâr marjı %13,7 ve reel özsermaye kârlılığı beş yıldır %18'in üzerinde (2024'te %24,66). Ama üstünlük tek ürüne, klimaya bağlı ve şu an sınanıyor. Şirket fiyat indirmedi, ham madde pahalandı ve üçüncü çeyrek brüt marjı 5,6 puan düşerek %22,7'ye indi. Gelir 2024'teki 190,04 milyar yuandan 2025'te 170,45 milyar yuana geriledi. Reel özsermaye kârlılığı son 12 ayda %15,49'a düştü. Bu yüzden hendek geniş sayılmadı.",
+  "mgmt": "Şirketin hâkim ortağı yok. En büyük ortak, Hillhouse Capital bağlantılı Zhuhai Mingjun'dur (%16,11). Mingjun hisselerinin yaklaşık %87,6'sı rehinlidir ve Şubat 2026'da banka kredisi ödemek için 112 milyon hisseye kadar satış planı açıkladı. Yönetim kurulu başkanı Dong Mingzhu'nun payı %2,22'dir; halefi belli değil. Kârın büyük kısmı temettüye gidiyor: 2026 ara temettüsü 10 hisseye 10 yuan, toplam 5,55 milyar yuan. Genel kurul bir geri alım planını da onayladı. Net borç yok; şirket net nakittedir.",
+  "latest": "26 Ekim 2026: Şirket dokuz aylık sonuçlarını açıkladı. Gelir %8,1 düşüşle 126,08 milyar yuan, ana ortaklık net kârı %19,5 düşüşle 17,27 milyar yuan oldu. Üçüncü çeyrekte gelir %8,0 düşüşle 36,68 milyar yuan, net kâr %43,3 düşüşle 4,00 milyar yuan. Faaliyet nakit akışı %47,4 azalarak 24,06 milyar yuana indi. Şirket düşüşü klima satışlarındaki gerilemeye, sektördeki stok eritmeye, rekabete ve yüksek ham madde fiyatlarına bağladı.",
+  "risks": [
+   "Kâr düşüyor: üçüncü çeyrek net kârı %43,3 geriledi ve reel özsermaye kârlılığı son 12 ayda %15,49'a indi; düşüş sürerse fiyat ölçütü daha da uzaklaşır.",
+   "Gelirin yaklaşık %78'i klimaya bağlıdır; Çin'de ev kliması satışları dokuz ayda %8,4, üçüncü çeyrekte %15,1 düştü.",
+   "Şirket fiyat indirmiyor; rakipler indirirse pazar payı, ham madde pahalı kalırsa marj kaybeder.",
+   "En büyük ortağın hisselerinin çoğu rehinlidir ve satış planı vardır; bu, hisse üzerinde arz baskısı yaratabilir.",
+   "Başkan Dong Mingzhu'nun halefi belli değildir; yönetim değişimi belirsizlik taşır."
+  ],
+  "watch": [
+   "Brüt kâr marjı (üçüncü çeyrekte %22,7)",
+   "Çin ev kliması satış adetleri ve stok düzeyi",
+   "Faaliyet nakit akışı",
+   "Zhuhai Mingjun'un pay satışları ve rehin oranı"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/she/000651/financials/ratios/"
+   },
+   {
+    "t": "Yicai: Gree Electric üçüncü çeyrek raporu haberi (26 Ekim 2026)",
+    "te": "Yicai: report on Gree Electric's third-quarter results (26 October 2026)",
+    "u": "https://www.yicai.com/news/103410177.html"
+   },
+   {
+    "t": "Gelonghui (Tianfeng Securities): Gree Electric, üçüncü çeyrek gelir ve marj notu (4 Kasım 2026)",
+    "te": "Gelonghui (Tianfeng Securities): Gree Electric, note on third-quarter revenue and margins (4 November 2026)",
+    "u": "https://m.gelonghui.com/news/5344585"
+   },
+   {
+    "t": "Tencent News: Gree Electric 2025 yılı genel kurulu (2 Temmuz 2026)",
+    "te": "Tencent News: Gree Electric 2025 annual shareholders' meeting (2 July 2026)",
+    "u": "https://news.qq.com/rain/a/20260702A094ZC00"
+   },
+   {
+    "t": "10jqka: Zhuhai Mingjun'un pay satış planı (25 Şubat 2026)",
+    "te": "10jqka: Zhuhai Mingjun's plan to sell shares (25 February 2026)",
+    "u": "https://stock.10jqka.com.cn/20260225/c674916203.shtml"
+   }
+  ],
+  "en": {
+   "one": "A large Chinese air conditioner maker; the moat is narrow and it meets the criterion. But sales and profit are falling; third-quarter profit dropped 43.3%.",
+   "business": "Gree makes home and commercial air conditioners and sells them under its own brand. In 2025, 133.06 billion yuan of its 170.45 billion yuan revenue, about 78%, came from consumer appliances, mostly air conditioners. It earns money by selling branded products through a dealer network.",
+   "moat_text": "The moat is narrow. The brand and dealer network are real: nine-month gross margin is 27.0%, net margin 13.7%, and real return on equity has been above 18% for five years (24.66% in 2024). But the edge rests on one product, air conditioners, and is being tested now. The company did not cut prices, raw materials got dearer and third-quarter gross margin fell 5.6 points to 22.7%. Revenue fell from 190.04 billion yuan in 2024 to 170.45 billion yuan in 2025. Real return on equity dropped to 15.49% over the last twelve months. That is why the moat is not rated wide.",
+   "mgmt": "The company has no controlling shareholder. The largest shareholder is Zhuhai Mingjun, linked to Hillhouse Capital (16.11%). About 87.6% of Mingjun's shares are pledged, and in February 2026 it announced a plan to sell up to 112 million shares to repay bank loans. Chairwoman Dong Mingzhu holds 2.22%; her successor is not known. Most of the profit goes to dividends: the 2026 interim dividend is 10 yuan per 10 shares, 5.55 billion yuan in total. The shareholders' meeting also approved a buyback plan. There is no net debt; the company holds net cash.",
+   "latest": "26 October 2026: The company reported nine-month results. Revenue fell 8.1% to 126.08 billion yuan and net profit attributable to shareholders fell 19.5% to 17.27 billion yuan. In the third quarter revenue fell 8.0% to 36.68 billion yuan and net profit fell 43.3% to 4.00 billion yuan. Operating cash flow fell 47.4% to 24.06 billion yuan. The company blamed lower air conditioner sales, industry destocking, competition and high raw material prices.",
+   "risks": [
+    "Profit is falling: third-quarter net profit dropped 43.3% and real return on equity fell to 15.49% over the last twelve months; if the decline continues, the price criterion moves further away.",
+    "About 78% of revenue depends on air conditioners; home air conditioner sales in China fell 8.4% in nine months and 15.1% in the third quarter.",
+    "The company does not cut prices; it loses market share if rivals do, and margin if raw materials stay expensive.",
+    "Most of the largest shareholder's shares are pledged and it has a selling plan; this can put supply pressure on the stock.",
+    "Chairwoman Dong Mingzhu's successor is not known; a change of management carries uncertainty."
+   ],
+   "watch": [
+    "Gross margin (22.7% in the third quarter)",
+    "Home air conditioner unit sales and inventory in China",
+    "Operating cash flow",
+    "Zhuhai Mingjun's share sales and pledge ratio"
+   ]
+  }
+ },
+ "000807": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-Q3",
+  "one": "Yunnan'da temiz enerjiyle alüminyum üretiyor. Ürün emtiadır, kâr alüminyum fiyatına bağlıdır; hendek zayıf, ölçütü geçemedi.",
+  "business": "Yunnan Aluminium boksit çıkarır, alümina ve birincil alüminyum üretir, alaşım ve karbon ürünleri satar. 2024 yıllık raporuna göre 3,05 milyon ton alüminyum ve 1,40 milyon ton alümina kapasitesi var; 2024'te 2,94 milyon ton birincil alüminyum üretti. 2025 geliri 60,04 milyar yuan, net kârı 6,06 milyar yuandı.",
+  "moat_text": "Hendek zayıf. Şirketin bir üstünlüğü var: 2026'nın ilk yarısında üretimde kullandığı elektriğin yaklaşık %88'i temiz enerjiydi ve Çin'de alüminyum kapasitesi yasal tavana yakın, yani yeni rakip girmesi zor. Ama ürün emtiadır; fiyatı şirket değil piyasa belirler. Kâr bunu gösteriyor: dokuz aylık net kâr %164,01 arttı, çünkü üçüncü çeyrekte alüminyum fiyatı %14,6 yükseldi, alümina %19,1 ucuzladı. Brüt marj bir yılda 16,65 puan artarak %32,04'e çıktı. Reel özsermaye kârlılığı 2024'te %16,58 iken son 12 ayda %35,95; bu sıçrama fiyattan geliyor, fiyatlama gücünden değil. Alüminanın yalnız %23'ünü kendi üretiyor. Bu yüzden şirket 3. suru geçemedi.",
+  "mgmt": "En büyük ortak devlet şirketi Chalco'dur (2024 sonunda %29,10); aynı gruptan Yunnan Metallurgical'ın payı %13,00'tür. İkisi de Chinalco grubunun denetimindedir. Kâr borç ödemeye ve temettüye gidiyor: borç oranı Eylül 2026 sonunda %15,27'ye indi, net nakit 21,18 milyar yuan. 2025 temettüsü kârın %40'ıydı (2,4 milyar yuan); 2026 ara temettüsü 10 hisseye 8,87 yuan, toplam 3,08 milyar yuan.",
+  "latest": "29 Ekim 2026: Şirket dokuz aylık sonuçlarını açıkladı. Gelir %19,39 artışla 52,62 milyar yuan, ana ortaklık net kârı %164,01 artışla 11,61 milyar yuan oldu. Üçüncü çeyrek net kârı 3,93 milyar yuan: geçen yıla göre %140,92 yüksek, önceki çeyreğe göre %3,82 düşük. Faaliyet nakit akışı %102,5 artışla 14,13 milyar yuan.",
+  "risks": [],
+  "watch": [],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/she/000807/financials/ratios/"
+   },
+   {
+    "t": "Guosen Securities: Yunnan Aluminium 2026 üçüncü çeyrek raporu notu (30 Ekim 2026)",
+    "te": "Guosen Securities: note on Yunnan Aluminium's third-quarter 2026 report (30 October 2026)",
+    "u": "https://pdf.dfcfw.com/pdf/H3_AP202610301831217120_1.pdf"
+   },
+   {
+    "t": "Soochow Securities: Yunnan Aluminium 2026 üçüncü çeyrek değerlendirmesi (1 Kasım 2026)",
+    "te": "Soochow Securities: Yunnan Aluminium third-quarter 2026 review (1 November 2026)",
+    "u": "https://pdf.dfcfw.com/pdf/H3_AP202611021831299216_1.pdf"
+   },
+   {
+    "t": "Guosen Securities: Yunnan Aluminium 2025 yıl sonu notu (3 Nisan 2026)",
+    "te": "Guosen Securities: note on Yunnan Aluminium's 2025 annual results (3 April 2026)",
+    "u": "https://pdf.dfcfw.com/pdf/H3_AP202604061821031387_1.pdf"
+   },
+   {
+    "t": "China Securities Journal: Yunnan Aluminium 2024 yıllık rapor özeti (27 Mart 2025)",
+    "te": "China Securities Journal: Yunnan Aluminium 2024 annual report summary (27 March 2025)",
+    "u": "https://epaper.cs.com.cn/zgzqb/images/2025-03/27/B070/zqB07027.pdf"
+   }
+  ],
+  "en": {
+   "one": "It makes aluminium in Yunnan with clean energy. The product is a commodity and profit depends on the aluminium price; the moat is weak and it does not meet the criterion.",
+   "business": "Yunnan Aluminium mines bauxite, produces alumina and primary aluminium, and sells alloys and carbon products. According to its 2024 annual report it has capacity for 3.05 million tonnes of aluminium and 1.40 million tonnes of alumina; it produced 2.94 million tonnes of primary aluminium in 2024. Revenue in 2025 was 60.04 billion yuan and net profit 6.06 billion yuan.",
+   "moat_text": "The moat is weak. The company has an edge: in the first half of 2026 about 88% of the electricity it used in production was clean energy, and aluminium capacity in China is close to the legal ceiling, so new rivals can hardly enter. But the product is a commodity; the market sets the price, not the company. Profit shows it: nine-month net profit rose 164.01% because in the third quarter the aluminium price rose 14.6% and alumina got 19.1% cheaper. Gross margin rose 16.65 points in a year to 32.04%. Real return on equity was 16.58% in 2024 and 35.95% over the last twelve months; that jump comes from price, not from pricing power. It makes only 23% of its own alumina. That is why the company did not pass the third wall.",
+   "mgmt": "The largest shareholder is state-owned Chalco (29.10% at the end of 2024); Yunnan Metallurgical, from the same group, holds 13.00%. Both are controlled by the Chinalco group. Profit goes to debt repayment and dividends: the debt ratio fell to 15.27% at the end of September 2026 and net cash is 21.18 billion yuan. The 2025 dividend was 40% of profit (2.4 billion yuan); the 2026 interim dividend is 8.87 yuan per 10 shares, 3.08 billion yuan in total.",
+   "latest": "29 October 2026: The company reported nine-month results. Revenue rose 19.39% to 52.62 billion yuan and net profit attributable to shareholders rose 164.01% to 11.61 billion yuan. Third-quarter net profit was 3.93 billion yuan: 140.92% higher than a year earlier and 3.82% lower than the previous quarter. Operating cash flow rose 102.5% to 14.13 billion yuan.",
+   "risks": [],
+   "watch": []
+  }
+ },
+ "002128": {
+  "scores": {
+   "A": 1,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 2
+  },
+  "moat": "zayıf",
+  "per": "2026-Q3",
+  "one": "İç Moğolistan'da kömür çıkarır, elektrik ve alüminyum üretir. Maliyeti düşük ama sattığı her şey emtia; hendek ölçütünü geçemedi.",
+  "business": "Şirket linyit çıkarır, bu kömürle ve rüzgâr, güneş santralleriyle elektrik üretir, elektriği de alüminyum eritmekte kullanır. 2026'nın ilk yarısında gelirin %63,6'sı alüminyumdan, %24,18'i kömürden, %12,22'si elektrikten geldi. Kömür kapasitesi yılda 63 milyon ton, alüminyum kapasitesi yılda 1,6153 milyon ton.",
+  "moat_text": "Hendek zayıf. Üstünlük maliyette: kendi kömürü ve kendi elektriği alüminyumu ucuza üretmesini sağlıyor. 2026'nın ilk yarısında brüt kâr marjı kömürde %59,32, alüminyumda %39,87 oldu. Ama alüminyumun marjı bir yılda 16,26 puan arttı; bunu şirket değil alüminyum fiyatı belirledi. Kömür, elektrik ve alüminyumun fiyatını piyasa koyar, şirket koyamaz. Reel özsermaye kârlılığı 2025'te %14,97, son 12 ayda %17,89. Fiyat gücü kanıtlanmadığı için B puanı 1 kaldı ve şirket 3. suru geçemedi.",
+  "mgmt": "Şirket devletin elektrik grubu SPIC'e (State Power Investment Corporation) bağlıdır. Aracı kurum notuna göre Zhongdiantou Mengdong Energy %39,98, SPIC Inner Mongolia Energy %22,77 paya sahip. 2025 kârının yaklaşık %44'ü nakit temettü olarak dağıtıldı. Mayıs 2026'da grup içinden Baiyinhua Coal Power'ın tamamı hisse ve nakit karşılığı alındı; Temmuz 2026'da hisse başına 26,00 yuandan yaklaşık 4,5 milyar yuan sermaye toplandı. Alım ilişkili taraftan yapıldığı için D puanı 1.",
+  "latest": "22 Ekim 2026: İlk dokuz ayda gelir 37,12 milyar yuan oldu, %19,63 arttı. Ana ortaklık net kârı 7,69 milyar yuan oldu, %43,57 arttı. Tek seferlikler hariç kâr 6,42 milyar yuan, artış %59,22. İşletme nakit akışı 13,73 milyar yuan. Kısa vadeli krediler yıl başına göre %81,69, uzun vadeli krediler %31,99 azaldı. Önceki yılın rakamları Baiyinhua alımı nedeniyle yeniden düzenlendi.",
+  "risks": [],
+  "watch": [],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/she/002128/financials/ratios/"
+   },
+   {
+    "t": "Eastmoney Caifuhao: Dian Tou Energy üçüncü çeyrek sonuçları (23 Ekim 2026)",
+    "te": "Eastmoney Caifuhao: Dian Tou Energy third-quarter results (23 October 2026)",
+    "u": "https://caifuhao.eastmoney.com/news/20261023145352880628160"
+   },
+   {
+    "t": "Kaiyuan Securities: Dian Tou Energy şirket notu (30 Eylül 2026)",
+    "te": "Kaiyuan Securities: Dian Tou Energy company note (30 September 2026)",
+    "u": "https://pdf.dfcfw.com/pdf/H3_AP202609301830038688_1.pdf"
+   },
+   {
+    "t": "Kaiyuan Securities: Dian Tou Energy yarıyıl değerlendirmesi (27 Ağustos 2026)",
+    "te": "Kaiyuan Securities: Dian Tou Energy half-year review (27 August 2026)",
+    "u": "https://pdf.dfcfw.com/pdf/H3_AP202608271828550109_1.pdf"
+   },
+   {
+    "t": "10jqka: Dian Tou Energy 2026 yarıyıl raporu özeti (26 Ağustos 2026)",
+    "te": "10jqka: Dian Tou Energy 2026 half-year report summary (26 August 2026)",
+    "u": "https://stock.10jqka.com.cn/20260826/c679309205.shtml"
+   }
+  ],
+  "en": {
+   "one": "It mines coal and makes power and aluminium in Inner Mongolia. Costs are low but everything it sells is a commodity; it did not meet the moat criterion.",
+   "business": "The company mines lignite, generates power from that coal and from wind and solar plants, and uses the power to smelt aluminium. In the first half of 2026, 63.6% of revenue came from aluminium, 24.18% from coal and 12.22% from power. Coal capacity is 63 million tonnes a year and aluminium capacity is 1.6153 million tonnes a year.",
+   "moat_text": "The moat is weak. The edge is in cost: its own coal and its own power let it make aluminium cheaply. In the first half of 2026 gross margin was 59.32% in coal and 39.87% in aluminium. But the aluminium margin rose 16.26 points in one year; the aluminium price decided that, not the company. The market sets the price of coal, power and aluminium, the company cannot. Real return on equity was 14.97% in 2025 and 17.89% over the last 12 months. Pricing power is not proven, so the B score stays at 1 and the company did not pass the 3rd wall.",
+   "mgmt": "The company belongs to the state power group SPIC (State Power Investment Corporation). According to a broker note, Zhongdiantou Mengdong Energy holds 39.98% and SPIC Inner Mongolia Energy holds 22.77%. About 44% of 2025 profit was paid as a cash dividend. In May 2026 it bought all of Baiyinhua Coal Power from within the group for shares and cash; in July 2026 it raised about 4.5 billion yuan of equity at 26.00 yuan a share. The purchase was from a related party, so the D score is 1.",
+   "latest": "22 October 2026: In the first nine months revenue was 37.12 billion yuan, up 19.63%. Net profit attributable to the parent was 7.69 billion yuan, up 43.57%. Profit excluding one-offs was 6.42 billion yuan, up 59.22%. Operating cash flow was 13.73 billion yuan. Short-term loans fell 81.69% and long-term loans fell 31.99% from the start of the year. Prior-year figures were restated because of the Baiyinhua purchase.",
+   "risks": [],
+   "watch": []
+  }
+ },
+ "002668": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "2026-Q3",
+  "one": "Buzdolabı, derin dondurucu ve çamaşır makinesi üretir; çoğunu yurt dışına satar. Hendek dar; 2026'da kâr kur zararıyla geriledi.",
+  "business": "Şirketin iki ana işletmesi var. Homa (Aoma) başka markalar için buzdolabı tasarlar ve üretir (ODM). Hefei Home Appliances ise TCL markalı buzdolabı ve çamaşır makinesi yapar. 2025'te gelir 18,53 milyar yuan oldu; bunun 14,405 milyar yuanı yurt dışından geldi. Küresel kapasite yılda 20 milyon adedin üzerinde.",
+  "moat_text": "Hendek dar. Kaynağı ölçek: şirketin açıklamasına göre Homa 17 yıldır Çin'in en büyük buzdolabı ihracatçısı, 18 yıldır da Avrupa'ya ihracatta birinci. Brüt kâr marjı 2025'te %25,2, 2026'nın ilk dokuz ayında %23,0; fason üretici için yüksek. Reel özsermaye kârlılığı 2025'te %49,64, son 12 ayda %32,61. Zayıf yanı: ODM işinde marka müşterinindir, sipariş müşterinin kararına bağlıdır. Yüksek özsermaye kârlılığı kısmen ince özsermayeden geliyor; borçların varlıklara oranı %68,95. Kendi markasıyla yurt dışı satış hızlı büyüyor (ilk dokuz ayda %62,01) ama kalıcılığı henüz belli değil.",
+  "mgmt": "Hâkim ortak TCL Home Appliances Group'tur; 30 Eylül 2026'da payı %50,19. Bu şirketin tamamı TCL Industries Holdings'e aittir, nihai kontrol Li Dongsheng'dedir. 2025 kârından 10 hisseye 2,0379 yuan, toplam 220,9 milyon yuan nakit temettü önerildi; ana ortaklık kârı 1,123 milyar yuandı. Dağıtılmamış kâr 2025 sonunda artıya döndü ve 2026-2028 için üç yıllık pay sahibi getiri planı açıklandı. Kârın önemli kısmı azınlık paylarına gidiyor: 2025'te azınlık payı kârı 1,011 milyar yuan. Kâr Tayland'daki yeni fabrikalara da yatırılıyor. Temettü oranı düşük ve grup içi ilişkiler olduğu için D puanı 1.",
+  "latest": "23 Ekim 2026: İlk dokuz ayda gelir 15,306 milyar yuan oldu, %6,69 arttı. Ana ortaklık net kârı 775 milyon yuan oldu, %20,67 azaldı. Şirkete göre kur farkı hariç kâr 943 milyon yuan, %0,70 arttı. Üçüncü çeyrekte gelir 5,371 milyar yuan (%10,32 artış), net kâr 264 milyon yuan (%22,15 azalış). Yurt dışı gelir %19,12 arttı. Tayland'da yılda 1,4 milyon adetlik buzdolabı fabrikası Eylül 2026'da tamamlandı, deneme üretiminde.",
+  "risks": [
+   "Kâr 2026'nın ilk dokuz ayında %20,67 geriledi; yuan değer kazanmaya devam ederse ihracat kârı daha da düşer.",
+   "ODM işinde marka müşterinindir; büyük müşteriler siparişi başka üreticiye kaydırırsa satış ve marj birlikte düşer.",
+   "Hammadde fiyatları artarsa %23,0 olan brüt marj daralır.",
+   "Gelirin büyük kısmı yurt dışından geldiği için gümrük vergileri ve ticaret kısıtları siparişleri azaltabilir.",
+   "Borçların varlıklara oranı %68,95; kârın yarıya yakını azınlık paylarına gidiyor, bu yüzden yüksek özsermaye kârlılığı olduğundan güçlü görünüyor."
+  ],
+  "watch": [
+   "Ana ortaklık net kârı ve kur farkı hariç kâr",
+   "Brüt kâr marjı (2025'te %25,2, ilk dokuz ayda %23,0)",
+   "Kendi markasıyla yurt dışı satışların büyümesi",
+   "Tayland fabrikalarının doluluk oranı ve temettü oranı"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/she/002668/financials/ratios/"
+   },
+   {
+    "t": "10jqka: TCL Smart Home 2026 ilk dokuz ay sonuçları (24 Ekim 2026)",
+    "te": "10jqka: TCL Smart Home results for the first nine months of 2026 (24 October 2026)",
+    "u": "https://stock.10jqka.com.cn/20261024/c681050155.shtml"
+   },
+   {
+    "t": "10jqka / Stockstar: TCL Smart Home kurumsal yatırımcı görüşmesi (2 Kasım 2026)",
+    "te": "10jqka / Stockstar: TCL Smart Home institutional investor meeting (2 November 2026)",
+    "u": "https://news.10jqka.com.cn/20261102/c681345257.shtml"
+   },
+   {
+    "t": "China Securities Journal: TCL Smart Home 2025 yıllık rapor özeti (11 Mart 2026)",
+    "te": "China Securities Journal: TCL Smart Home 2025 annual report summary (11 March 2026)",
+    "u": "https://epaper.cs.com.cn/zgzqb/images/2026-03/11/B019/zqB01911.pdf"
+   },
+   {
+    "t": "CFI: TCL Smart Home büyük ortaklar (30 Eylül 2026)",
+    "te": "CFI: TCL Smart Home major shareholders (30 September 2026)",
+    "u": "https://quote.cfi.cn/gdtj/14095/002668.html"
+   },
+   {
+    "t": "GF Securities: TCL Smart Home 2026 ilk çeyrek değerlendirmesi (22 Nisan 2026)",
+    "te": "GF Securities: TCL Smart Home 2026 first-quarter review (22 April 2026)",
+    "u": "https://pdf.dfcfw.com/pdf/H3_AP202604231821480075_1.pdf"
+   }
+  ],
+  "en": {
+   "one": "It makes refrigerators, freezers and washing machines and sells most of them abroad. The moat is narrow; in 2026 profit fell on currency losses.",
+   "business": "The company has two main operating units. Homa (Aoma) designs and makes refrigerators for other brands (ODM). Hefei Home Appliances makes TCL-brand refrigerators and washing machines. In 2025 revenue was 18.53 billion yuan, of which 14.405 billion yuan came from abroad. Global capacity is above 20 million units a year.",
+   "moat_text": "The moat is narrow. Its source is scale: according to the company, Homa has been China's largest refrigerator exporter for 17 years and first in exports to Europe for 18 years. Gross margin was 25.2% in 2025 and 23.0% in the first nine months of 2026; high for a contract maker. Real return on equity was 49.64% in 2025 and 32.61% over the last 12 months. The weak side: in ODM the brand belongs to the customer and orders depend on the customer's decision. The high return on equity comes partly from thin equity; liabilities are 68.95% of assets. Own-brand sales abroad are growing fast (62.01% in the first nine months) but their durability is not yet clear.",
+   "mgmt": "The controlling shareholder is TCL Home Appliances Group, with 50.19% on 30 September 2026. That company is wholly owned by TCL Industries Holdings, and ultimate control rests with Li Dongsheng. A cash dividend of 2.0379 yuan per 10 shares, 220.9 million yuan in total, was proposed from 2025 profit; profit attributable to the parent was 1.123 billion yuan. Retained earnings turned positive at the end of 2025 and a three-year shareholder return plan for 2026-2028 was announced. A large part of profit goes to minority interests: 1.011 billion yuan in 2025. Profit is also invested in new plants in Thailand. The payout is low and there are intra-group dealings, so the D score is 1.",
+   "latest": "23 October 2026: In the first nine months revenue was 15.306 billion yuan, up 6.69%. Net profit attributable to the parent was 775 million yuan, down 20.67%. According to the company, profit excluding currency effects was 943 million yuan, up 0.70%. In the third quarter revenue was 5.371 billion yuan (up 10.32%) and net profit 264 million yuan (down 22.15%). Overseas revenue rose 19.12%. A refrigerator plant in Thailand with capacity of 1.4 million units a year was completed in September 2026 and is in trial production.",
+   "risks": [
+    "Profit fell 20.67% in the first nine months of 2026; if the yuan keeps strengthening, export profit falls further.",
+    "In ODM the brand belongs to the customer; if large customers move orders to another maker, sales and margin fall together.",
+    "If raw material prices rise, the 23.0% gross margin narrows.",
+    "Most revenue comes from abroad, so tariffs and trade restrictions can reduce orders.",
+    "Liabilities are 68.95% of assets and close to half of profit goes to minority interests, so the high return on equity looks stronger than it is."
+   ],
+   "watch": [
+    "Net profit attributable to the parent and profit excluding currency effects",
+    "Gross margin (25.2% in 2025, 23.0% in the first nine months)",
+    "Growth of own-brand sales abroad",
+    "Utilisation of the Thailand plants and the dividend payout"
+   ]
+  }
+ },
+ "600710": {
+  "scores": {
+   "A": 1,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-Q3",
+  "one": "Emtia ve makine ticareti yapar, gemi, jeneratör ve bahçe makinesi üretir. Çok kollu, ince marjlı bir iş; hendek ölçütünü geçemedi.",
+  "business": "Şirketin iki kolu var. Tedarik zinciri kolu emtia ticareti ve makine ithalat, ihracatı yapar. Sanayi kolu gemi inşa eder ve işletir, dizel jeneratör, bahçe makinesi, güneş paneli, çevre tesisi ve tekstil üretir. 2025'te gelir yaklaşık 117,8 milyar yuan, ana ortaklık net kârı yaklaşık 1,36 milyar yuan oldu; vergi öncesi kârın %76'sı sanayi kolundan geldi.",
+  "moat_text": "Hendek zayıf. İşin büyük kısmı ticarettir ve ticarette fiyatı piyasa koyar. 2026'nın ilk dokuz ayında brüt kâr marjı %6,50, ana ortaklık net kâr marjı %1,13 oldu. Gemi inşada iş siparişle alınır ve döngüseldir; yine de eldeki 105 gemilik sipariş 2030'a kadar teslimat sağlıyor ve 2026'nın ilk yarısında gemi inşa brüt marjı %22,4 oldu. Reel özsermaye kârlılığı yüksek: 2025'te %22,42, son 12 ayda %21,43. Ama bu oran kalıcı bir fiyat gücünü göstermiyor: ilk dokuz ayda net kârın %61,5'i azınlık paylarına gitti. B puanı 1 olduğu için şirket 3. suru geçemedi.",
+  "mgmt": "Hâkim ortak devlete ait SINOMACH'tır (China National Machinery Industry Corporation), payı %41,60. 2025 kârından hisse başına 0,415 yuan, toplam yaklaşık 542,3 milyon yuan nakit temettü önerildi; bu, ana ortaklık kârının %40'ı. Kârın büyük bölümü bağlı şirketlerdeki azınlık ortaklara kalıyor. Bağlı şirket Lanke Gaoxin Temmuz 2026'da China Air Separation'ın %51'ini aldı.",
+  "latest": "30 Eylül 2026: İlk dokuz ayda gelir 103,70 milyar yuan oldu, %17,3 arttı. Ana ortaklık net kârı 1,17 milyar yuan oldu, %5,2 arttı. Vergi öncesi kâr 3,98 milyar yuan, artış %15,6; fark, vergi oranının %17,5'ten %23,7'ye çıkmasından ve azınlık payının büyümesinden geldi. Üçüncü çeyrekte gelir 37,28 milyar yuan (%14,2 artış), net kâr 477 milyon yuan (%1,0 artış). İşletme nakit akışı 4,07 milyar yuan. Rakamlar 29 Ekim 2026 tarihli aracı kurum notundan alındı.",
+  "risks": [],
+  "watch": [],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/sha/600710/financials/ratios/"
+   },
+   {
+    "t": "Soochow Securities: Sumec 2026 üçüncü çeyrek değerlendirmesi (29 Ekim 2026)",
+    "te": "Soochow Securities: Sumec 2026 third-quarter review (29 October 2026)",
+    "u": "https://pdf.dfcfw.com/pdf/H3_AP202610291831180916_1.pdf"
+   },
+   {
+    "t": "China Securities Journal: Sumec 2025 yıllık rapor özeti (14 Nisan 2026)",
+    "te": "China Securities Journal: Sumec 2025 annual report summary (14 April 2026)",
+    "u": "https://epaper.cs.com.cn/zgzqb/images/2026-04/14/B044/zqB04414.pdf"
+   },
+   {
+    "t": "Gelonghui: Sumec aracı kurum notu, Guotai Haitong (24 Eylül 2026)",
+    "te": "Gelonghui: Sumec broker note, Guotai Haitong (24 September 2026)",
+    "u": "https://m.gelonghui.com/news/5318071"
+   }
+  ],
+  "en": {
+   "one": "It trades commodities and machinery and builds ships, generators and garden equipment. A many-armed, thin-margin business; it did not meet the moat criterion.",
+   "business": "The company has two arms. The supply chain arm trades commodities and imports and exports machinery. The industrial arm builds and operates ships and makes diesel generators, garden equipment, solar panels, environmental plants and textiles. In 2025 revenue was about 117.8 billion yuan and net profit attributable to the parent about 1.36 billion yuan; 76% of pre-tax profit came from the industrial arm.",
+   "moat_text": "The moat is weak. Most of the business is trading, and in trading the market sets the price. In the first nine months of 2026 gross margin was 6.50% and net margin attributable to the parent was 1.13%. In shipbuilding, work is won order by order and is cyclical; still, the backlog of 105 ships gives deliveries through 2030 and shipbuilding gross margin was 22.4% in the first half of 2026. Real return on equity is high: 22.42% in 2025 and 21.43% over the last 12 months. But this ratio does not show lasting pricing power: in the first nine months 61.5% of net profit went to minority interests. With a B score of 1 the company did not pass the 3rd wall.",
+   "mgmt": "The controlling shareholder is state-owned SINOMACH (China National Machinery Industry Corporation), with 41.60%. A cash dividend of 0.415 yuan a share, about 542.3 million yuan in total, was proposed from 2025 profit; that is 40% of profit attributable to the parent. Most of the profit stays with minority owners in the subsidiaries. The subsidiary Lanke Gaoxin bought 51% of China Air Separation in July 2026.",
+   "latest": "30 September 2026: In the first nine months revenue was 103.70 billion yuan, up 17.3%. Net profit attributable to the parent was 1.17 billion yuan, up 5.2%. Pre-tax profit was 3.98 billion yuan, up 15.6%; the gap came from the tax rate rising from 17.5% to 23.7% and a larger minority share. In the third quarter revenue was 37.28 billion yuan (up 14.2%) and net profit 477 million yuan (up 1.0%). Operating cash flow was 4.07 billion yuan. Figures are from a broker note dated 29 October 2026.",
+   "risks": [],
+   "watch": []
+  }
+ },
+ "601838": {
+  "scores": {
+   "A": 1,
+   "B": 2,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "2026-Q3",
+  "one": "Chengdu'nun şehir bankası; hendek dar, ölçütü geçti. Ancak kâr artışı yavaşladı, karşılık gideri hızla büyüdü ve reel özsermaye kârlılığı düşüyor.",
+  "business": "Bank of Chengdu, Çin'in Chengdu şehrinde kurulu bir ticari bankadır. Mevduat toplar, kredi verir; gelirinin çoğu faizden gelir. 2026'nın ilk dokuz ayında 19,51 milyar yuan gelirin 17,91 milyar yuanı net faiz geliriydi. Eylül 2026 sonunda varlıkları yaklaşık 1,50 trilyon yuan, mevduatı 1,07 trilyon yuan, kredileri 897,9 milyar yuandı.",
+  "moat_text": "Hendek dar. Banka lisansı, 1,07 trilyon yuanlık mevduat tabanı ve şehrin yatırım şirketinin en büyük ortak olması gerçek bir üstünlük sağlıyor. Kanıt rakamlarda: takipteki kredi oranı %0,68, karşılık oranı %448,06. Reel özsermaye kârlılığı beş yıldır %13 ile %18 arasında. Zayıf yanı: iş tek bir şehre ve bölgeye bağlı. Reel özsermaye kârlılığı 2023'teki %17,87'den son 12 ayda %12,52'ye indi. Yakın izlemedeki krediler yıl başındaki 2,93 milyar yuandan 4,49 milyar yuana çıktı.",
+  "mgmt": "En büyük ortak Chengdu'nun finans holdingi Jiaozi Financial Holdings'tir (%19,999). İkinci ortak Hong Leong Bank'tır (%17,779). Hâkim tek ortak yok, ama belediye sermayesinin ağırlığı büyük. Banka 2026'da ilk kez ara temettü verdi: 10 hisseye 4,89 yuan, toplam 2,07 milyar yuan, ilk yarı kârının %30,02'si. Son üç yılda dağıtım oranı en az %30 oldu. Kalan kâr sermayede kalıyor, çünkü çekirdek sermaye oranı %8,85 ile yüksek değil.",
+  "latest": "28 Ekim 2026: Banka dokuz aylık sonuçlarını açıkladı. Gelir %9,84 artışla 19,51 milyar yuan, ana ortaklık net kârı %4,48 artışla 9,92 milyar yuan oldu. Üçüncü çeyrekte gelir %22,59 arttı, ama faaliyet kârı %0,72 geriledi. Kredi değer düşüklüğü gideri %82,52 artarak 3,30 milyar yuana çıktı. Takipteki kredi oranı %0,68'de kaldı. Çekirdek sermaye oranı %8,85, toplam sermaye yeterliliği %13,57.",
+  "risks": [
+   "Güvenlik marjını zayıflatan gelişme şu: kâr artışı %4,48'e indi, üçüncü çeyrekte faaliyet kârı geriledi ve reel özsermaye kârlılığı son 12 ayda %12,52'ye düştü.",
+   "Karşılık gideri dokuz ayda %82,52 arttı ve yakın izlemedeki krediler 4,49 milyar yuana çıktı; kredi kalitesi bozulursa kâr daha da düşer.",
+   "Banka tek bir şehre ve bölgeye bağlıdır; Chengdu ekonomisinde ya da yerel kamu borçlarında bir sorun doğrudan bilançoya yansır.",
+   "Çekirdek sermaye oranı %8,85'tir; büyüme sürerse sermaye artırımı gerekebilir ve mevcut ortakların payı sulanır.",
+   "Kredi büyümesi %5,83 ile son beş yılın aynı dönemlerinin en düşüğüdür; faiz marjı daralırsa gelir artışı sürmeyebilir."
+  ],
+  "watch": [
+   "Takipteki kredi oranı ve yakın izlemedeki kredilerin payı",
+   "Kredi değer düşüklüğü giderinin seyri",
+   "Çekirdek sermaye oranı (%8,85)",
+   "Kredi ve mevduat büyümesi arasındaki fark"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/sha/601838/financials/ratios/"
+   },
+   {
+    "t": "Eastmoney (Beijing News): Bank of Chengdu üçüncü çeyrek raporu haberi (29 Ekim 2026)",
+    "te": "Eastmoney (Beijing News): report on Bank of Chengdu's third-quarter results (29 October 2026)",
+    "u": "https://finance.eastmoney.com/a/202610293913647112.html"
+   },
+   {
+    "t": "10jqka: Bank of Chengdu 2026 ilk üç çeyrek sonuçları, sermaye oranları ve ortaklar (29 Ekim 2026)",
+    "te": "10jqka: Bank of Chengdu first three quarters of 2026, capital ratios and shareholders (29 October 2026)",
+    "u": "https://news.10jqka.com.cn/20261029/c681251005.shtml"
+   }
+  ],
+  "en": {
+   "one": "Chengdu's city bank; the moat is narrow and it meets the criterion. But profit growth has slowed, provisions are rising fast and real return on equity is falling.",
+   "business": "Bank of Chengdu is a commercial bank based in the Chinese city of Chengdu. It takes deposits and makes loans; most of its income is interest. In the first nine months of 2026, 17.91 billion yuan of its 19.51 billion yuan revenue was net interest income. At the end of September 2026 it had about 1.50 trillion yuan of assets, 1.07 trillion yuan of deposits and 897.9 billion yuan of loans.",
+   "moat_text": "The moat is narrow. The banking licence, a deposit base of 1.07 trillion yuan and the city's investment company as largest shareholder give a real edge. The numbers show it: the bad-loan ratio is 0.68% and provision coverage is 448.06%. Real return on equity has stayed between 13% and 18% for five years. The weak side: the business depends on one city and region. Real return on equity fell from 17.87% in 2023 to 12.52% over the last twelve months. Special-mention loans rose from 2.93 billion yuan at the start of the year to 4.49 billion yuan.",
+   "mgmt": "The largest shareholder is Jiaozi Financial Holdings, Chengdu's financial holding company (19.999%). The second is Hong Leong Bank (17.779%). No single shareholder has control, but municipal capital carries great weight. In 2026 the bank paid its first interim dividend: 4.89 yuan per 10 shares, 2.07 billion yuan in total, 30.02% of first-half profit. The payout ratio has been at least 30% for the last three years. The rest of the profit stays in capital, because the core capital ratio is not high at 8.85%.",
+   "latest": "28 October 2026: The bank reported nine-month results. Revenue rose 9.84% to 19.51 billion yuan and net profit attributable to shareholders rose 4.48% to 9.92 billion yuan. In the third quarter revenue rose 22.59%, but operating profit fell 0.72%. Credit impairment charges rose 82.52% to 3.30 billion yuan. The bad-loan ratio stayed at 0.68%. The core tier 1 ratio is 8.85% and the total capital ratio is 13.57%.",
+   "risks": [
+    "What weakens the margin of safety: profit growth slowed to 4.48%, operating profit fell in the third quarter and real return on equity dropped to 12.52% over the last twelve months.",
+    "Impairment charges rose 82.52% in nine months and special-mention loans climbed to 4.49 billion yuan; if credit quality worsens, profit falls further.",
+    "The bank depends on one city and region; trouble in Chengdu's economy or in local public debt would show up directly on its balance sheet.",
+    "The core tier 1 ratio is 8.85%; if growth continues a capital raise may be needed, diluting existing shareholders.",
+    "Loan growth of 5.83% is the lowest for this period in five years; if the interest margin narrows, revenue growth may not last."
+   ],
+   "watch": [
+    "Bad-loan ratio and the share of special-mention loans",
+    "Trend in credit impairment charges",
+    "Core tier 1 ratio (8.85%)",
+    "Gap between loan growth and deposit growth"
+   ]
+  }
+ }
+}

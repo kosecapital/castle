@@ -1,0 +1,54 @@
+{
+ "cc": "CN",
+ "iso": "156",
+ "name": "Çin",
+ "market": "china",
+ "exchange": "Şanghay ve Shenzhen borsaları",
+ "cur": "CNY",
+ "asof": "2026-11-10",
+ "fx": 6.6698,
+ "mcapMin": 400,
+ "years": [
+  "2021",
+  "2022",
+  "2023",
+  "2024",
+  "2025"
+ ],
+ "cpi": {
+  "2021": 1.47,
+  "2022": 1.82,
+  "2023": -0.24,
+  "2024": 0.03,
+  "2025": 0.8,
+  "cur": 0.7
+ },
+ "deflate": "all",
+ "inflation_note": "Çin şirketleri enflasyon muhasebesi uygulamaz. Bu yüzden bütün şirketlerin özsermaye kârlılığı yıl sonu tüketici enflasyonuyla düzeltildi: 2021 için %1,47, 2022 için %1,82, 2023 için -%0,24, 2024 için %0,03, 2025 için %0,8. Son 12 ay için en son açıklanan yıllık oran (%0,7) kullanıldı. Çin'de enflasyon çok düşük olduğu için düzeltme rakamları az değiştirir.",
+ "data_notes": [
+  "Fiyat, piyasa değeri, F/K ve PD/DD: TradingView tarayıcısı, 10 Kasım 2026. Evren, Şanghay ve Shenzhen borsalarındaki 5.236 paydır (A ve B payları). Pekin Borsası ve Hong Kong'da işlem gören paylar dışarıdadır. Karşılaştırma: Kasım 2025 sonunda Şanghay'da 2.296, Shenzhen'de 2.881 şirket vardı (Çin Halka Açık Şirketler Birliği).",
+  "Veri kaynağı bazı büyük şirketlerde son 12 ayın kârını vermiyor: CXMT, Agricultural Bank of China, PetroChina, China Shenhua, Ping An, Bank of Communications, Sinopec, China CITIC Bank, WuXi AppTec ve China Everbright Bank bunların başında gelir. Bu şirketler zararda değil; değerlendirilemediler. Sayfalarında 'kâr verisi eksik' yazar.",
+  "Hem Şanghay ya da Shenzhen'de hem Hong Kong'da işlem gören şirketlerde piyasa değeri kaynaktan kaynağa değişir, çünkü iki pazardaki fiyat farklıdır. Buradaki piyasa değeri TradingView'un hesabıdır.",
+  "Beş yıllık oranlar: stockanalysis.com oran sayfaları. 18 adayın sayfası bulunamadı (aralarında BYD, CNOOC, COSCO Shipping ve Weichai Power var); bu şirketler 2. surda 'veri eksik' olarak durur.",
+  "Yıl sonu enflasyonu: 2021-2024 için IMF Dünya Ekonomik Görünümü (dönem sonu), 2025 için Çin Ulusal İstatistik Bürosu'nun Aralık 2025 yıllık oranı (%0,8). Son yıllık oran: TradingView (ECONOMICS:CNIRYY).",
+  "Bu kadar büyük bir borsada 3. sur okuması sırayla yapılır: önce fiyatı kale olmaya yetenler. Okunmayan şirket 'sırada' görünür."
+ ],
+ "small_text": "Piyasa değeri 400 milyon yuanın altında",
+ "small_rule": "Piyasa değeri 400 milyon yuanın (yaklaşık 60 milyon ABD doları) altındaki şirketler dışarıda kalır.",
+ "en": {
+  "name": "China",
+  "exchange": "Shanghai and Shenzhen stock exchanges",
+  "cur": "CNY",
+  "inflation_note": "Chinese companies do not apply inflation accounting. The return on equity of every company was therefore adjusted by year-end consumer inflation: 1.47% for 2021, 1.82% for 2022, -0.24% for 2023, 0.03% for 2024 and 0.8% for 2025. For the last 12 months the most recently published annual rate (0.7%) was used. Inflation in China is very low, so the adjustment changes the figures only slightly.",
+  "data_notes": [
+   "Price, market value, P/E and P/B: TradingView screener, 10 November 2026. The universe is the 5,236 stocks on the Shanghai and Shenzhen exchanges (A and B shares). The Beijing Stock Exchange and shares traded in Hong Kong are left out. For comparison: at the end of November 2025 Shanghai had 2,296 listed companies and Shenzhen 2,881 (China Association for Public Companies).",
+   "For some large companies the data source gives no profit figure for the last 12 months. The largest are CXMT, Agricultural Bank of China, PetroChina, China Shenhua, Ping An, Bank of Communications, Sinopec, China CITIC Bank, WuXi AppTec and China Everbright Bank. These companies are not loss-making; they could not be assessed. Their pages say 'profit data missing'.",
+   "For companies listed both in Shanghai or Shenzhen and in Hong Kong, market value differs from source to source because the price differs between the two markets. The market value shown here is TradingView's calculation.",
+   "Five-year ratios: stockanalysis.com ratio pages. The pages of 18 candidates could not be found (among them BYD, CNOOC, COSCO Shipping and Weichai Power); these companies stay at Wall 2 as 'data missing'.",
+   "Year-end inflation: IMF World Economic Outlook (end of period) for 2021-2024, and the December 2025 annual rate from China's National Bureau of Statistics (0.8%) for 2025. Latest annual rate: TradingView (ECONOMICS:CNIRYY).",
+   "In a market this large, the Wall 3 reading is done in order: companies priced low enough to be castles come first. A company that has not been read yet is shown as 'in the queue'."
+  ],
+  "small_text": "Market value below 400 million yuan",
+  "small_rule": "Companies with a market value below 400 million yuan (about 60 million US dollars) are left out."
+ }
+}

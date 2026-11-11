@@ -1,0 +1,56 @@
+{
+ "cc": "JP",
+ "iso": "392",
+ "name": "Japonya",
+ "market": "japan",
+ "exchange": "Tokyo Borsası (Nagoya, Fukuoka ve Sapporo ile)",
+ "cur": "JPY",
+ "asof": "2026-11-10",
+ "fx": 158.709,
+ "mcapMin": 10000,
+ "years": [
+  "2021",
+  "2022",
+  "2023",
+  "2024",
+  "2025"
+ ],
+ "cpi": {
+  "2021": 0.5,
+  "2022": 3.86,
+  "2023": 2.91,
+  "2024": 2.92,
+  "2025": 2.1,
+  "cur": 2.1
+ },
+ "deflate": "all",
+ "inflation_note": "Japon şirketleri enflasyon muhasebesi uygulamaz. Bu yüzden bütün şirketlerin özsermaye kârlılığı yıl sonu tüketici enflasyonuyla düzeltildi: 2021 için %0,5, 2022 için %3,86, 2023 için %2,91, 2024 için %2,92, 2025 için %2,1. Son 12 ay için en son açıklanan yıllık oran (%2,1) kullanıldı.",
+ "data_notes": [
+  "Fiyat, piyasa değeri, F/K ve PD/DD: TradingView tarayıcısı, 10 Kasım 2026. Evren 3.864 paydır: Tokyo Borsası'nda 3.753, Nagoya, Fukuoka ve Sapporo borsalarında 111. Karşılaştırma: Tokyo Borsası'nda 10 Kasım 2026'da 3.888 şirket vardı; bunların 193'ü yalnız profesyonel yatırımcılara açık TOKYO PRO Market'tedir (JPX).",
+  "Japon şirketlerinin çoğunda mali yıl mart sonunda biter. Grafikte her şirketin kendi mali yılları yazar; enflasyon düzeltmesi aynı adı taşıyan takvim yılının oranıyla yapılır.",
+  "Sony Group'un son 12 ay net kârı kaynakta eksi görünüyor; ikinci kaynak (stockanalysis.com) da aynı şeyi gösteriyor. Bu yüzden Sony 1. surda 'zarar' olarak durur.",
+  "Veri kaynağı az sayıda şirkette son 12 ayın kârını vermiyor (en büyükleri THK ve Glory). Bu şirketler değerlendirilemedi; sayfalarında zarar değil, 'kâr verisi eksik' yazar. Kaynağın F/K alanı boş, ama son 12 ay kârı belli olan 8 şirkette F/K aynı kaynaktan hesaplandı; bu, şirketin sayfasında belirtilir.",
+  "Beş yıllık oranlar: stockanalysis.com oran sayfaları. 7 adayın sayfası bulunamadı; bu şirketler 2. surda 'veri eksik' olarak durur.",
+  "Yıl sonu enflasyonu: 2021-2024 için IMF Dünya Ekonomik Görünümü (dönem sonu), 2025 için Japonya İstatistik Bürosu'nun Aralık 2025 yıllık oranı (%2,1). Son yıllık oran: TradingView (ECONOMICS:JPIRYY).",
+  "Bu kadar büyük bir borsada 3. sur okuması sırayla yapılır: önce fiyatı kale olmaya yetenler. Okunmayan şirket 'sırada' görünür."
+ ],
+ "small_text": "Piyasa değeri 10 milyar yenin altında",
+ "small_rule": "Piyasa değeri 10 milyar yenin (yaklaşık 60 milyon ABD doları) altındaki şirketler dışarıda kalır.",
+ "en": {
+  "name": "Japan",
+  "exchange": "Tokyo Stock Exchange (with Nagoya, Fukuoka and Sapporo)",
+  "cur": "JPY",
+  "inflation_note": "Japanese companies do not apply inflation accounting. The return on equity of every company was therefore adjusted by year-end consumer inflation: 0.5% for 2021, 3.86% for 2022, 2.91% for 2023, 2.92% for 2024 and 2.1% for 2025. For the last 12 months the most recently published annual rate (2.1%) was used.",
+  "data_notes": [
+   "Price, market value, P/E and P/B: TradingView screener, 10 November 2026. The universe is 3,864 stocks: 3,753 on the Tokyo Stock Exchange and 111 on the Nagoya, Fukuoka and Sapporo exchanges. For comparison: the Tokyo Stock Exchange had 3,888 listed companies on 10 November 2026, of which 193 are on TOKYO PRO Market, open to professional investors only (JPX).",
+   "Most Japanese companies end their fiscal year in March. The chart shows each company's own fiscal years; the inflation adjustment uses the rate of the calendar year with the same name.",
+   "Sony Group's net profit for the last 12 months is negative in the source; a second source (stockanalysis.com) shows the same. Sony therefore stays at Wall 1 as 'loss'.",
+   "For a small number of companies the data source gives no profit figure for the last 12 months (the largest are THK and Glory). These companies could not be assessed; their pages say 'profit data missing', not a loss. For 8 companies where the source's P/E field is empty but last-12-month profit is known, the P/E was calculated from the same source; the company's page says so.",
+   "Five-year ratios: stockanalysis.com ratio pages. The pages of 7 candidates could not be found; these companies stay at Wall 2 as 'data missing'.",
+   "Year-end inflation: IMF World Economic Outlook (end of period) for 2021-2024, and the December 2025 annual rate from the Statistics Bureau of Japan (2.1%) for 2025. Latest annual rate: TradingView (ECONOMICS:JPIRYY).",
+   "In a market this large, the Wall 3 reading is done in order: companies priced low enough to be castles come first. A company that has not been read yet is shown as 'in the queue'."
+  ],
+  "small_text": "Market value below 10 billion yen",
+  "small_rule": "Companies with a market value below 10 billion yen (about 60 million US dollars) are left out."
+ }
+}
