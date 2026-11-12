@@ -97,10 +97,16 @@ def growth(h, labs, cpi_of, roe_n, ias29, P, first=None):
         (logaritmik doğrusal eğim, en az dört yıl). Enflasyon muhasebesi (TMS 29) uygulayan şirkette kaynak her mali yılı bir sonraki
         yılın sonundaki parayla (ertesi yılın raporundaki karşılaştırmalı sütun), son mali yılı ise kendi yıl sonu parasıyla verir
         (Ford Otosan'da 2023 ve 2024 rakamlarıyla doğrulandı); düzeltme buna göre yapılır ve yalnız `first` yılından sonrası kullanılır.
-    Sürdürülebilir (gs): temkinli özsermaye kârlılığı × dağıtılmayan kâr oranı (dağıtım oranı: eldeki mali yılların ortancası).
+    Sürdürülebilir (gs): temkinli özsermaye kârlılığı × dağıtılmayan kâr oranı (dağıtım oranı: mali yılların ortancası ile en güncel
+        oranın yükseği).
     Döner: (kullanılan, gh, gs, dağıtım oranı)."""
-    pos = sorted(x for x in (h.get("pos") or [])[:5] if x is not None)
+    fy_po = [x for x in (h.get("pos") or [])[:5] if x is not None]
+    pos = sorted(fy_po)
     po = pos[len(pos) // 2] if pos else h.get("po")
+    allp = h.get("pos") or []
+    last = allp[5] if len(allp) > 5 and allp[5] is not None else (fy_po[-1] if fy_po else None)
+    if last is not None and po is not None:
+        po = max(po, last)                                 # en güncel dağıtım oranı (son 12 ay) ortancadan yüksekse o alınır (temkinli)
     po = max(0.0, min(100.0, po or 0.0))
     gs = roe_n * (1 - po / 100.0)
     gh = None
@@ -237,6 +243,13 @@ def run(cc):
                 if roe_c and min(roe_c) > 0:       # 4. surun büyüme hızı (fiyat testi ve ön hesap için)
                     g, gh, gs, gpo = growth(h, labs, cpi_of, min(roe_c), not defl, P, str(int(min(era_years)) - 1) if (era_explicit and era_years) else None)
                     L2[c].update(g=rnd(g, 2), gh=rnd(gh, 2), gs=rnd(gs, 2), gpo=rnd(gpo))
+                    # büyüme yargısı (CLAUDE.md, "Büyüme yargısı"): okuma sırasında bulunan, kaynaklı bir gerçek büyüme hızını aşağı çeker.
+                    # Yalnız indirir: formülün verdiği hızın üstüne çıkamaz.
+                    gj = (reports.get(c) or {}).get("growth") or {}
+                    if isinstance(gj.get("g"), (int, float)) and gj["g"] < g:
+                        L2[c].update(gm=rnd(g, 2), g=rnd(max(0.0, gj["g"]), 2), gj=1)
+                    if isinstance(gj.get("dy"), (int, float)) and L2[c].get("dy") is None:
+                        L2[c].update(dy=gj["dy"], dyj=1)   # kaynakta temettü verimi yok: şirketin kendi belgesinden
                 if labs[:5] != years:
                     L2[c]["fy"] = labs[:5]
                 if h.get("url"):

@@ -888,13 +888,13 @@
   },
   "moat": "dar",
   "per": "2026-Q3",
-  "one": "Dizüstü bilgisayar kameralarına küçük plastik mercek yapan şirket. Fiyat testini geçti; ama satışlar yazdan beri geriliyor ve hesap büyümenin sürmesine dayanıyor.",
+  "one": "Dizüstü bilgisayar kameralarına küçük plastik mercek yapan şirket. Kalite surlarını geçti; satışlar yazdan beri geriliyor, fiyat yüzünden kapıda bekliyor.",
   "business": "Powertip Image (久禾光電) plastik optik mercek tasarlar ve üretir. Hasılatın yaklaşık %95'i dizüstü bilgisayar kamerası merceklerinden gelir; müşterileri arasında ASUS, Acer, HP ve Lenovo var. Üretim Çin'dedir. 2025'te hasılat 1,24 milyar Tayvan doları, hisse başına kâr 6,51 Tayvan doları oldu. Şirket Mayıs 2025'te Taipei Exchange'de işlem görmeye başladı.",
   "moat_text": "Hendek dar. Şirket dizüstü bilgisayar kamera merceğinde ilk iki üreticiden biri ve payının %30'un üzerinde olduğunu söylüyor. Üstünlüğü çok ince ve dar merceği seri üretebilmesi; 2025'te 52 patent başvurusu yaptı. Kanıt rakamlarda: 2026'nın ilk dokuz ayında brüt marj %43,1, faaliyet marjı %26,3; reel özsermaye kârlılığı beş yılda %21,0 ile %30,6 arasında. Ama her şey tek ürüne ve birkaç bilgisayar markasına bağlı. Brüt marj 2025'teki %47,8'den geriledi, Çinli rakipler seri üretimde güçlü. Bu yüzden hendek geniş sayılamaz.",
   "mgmt": "Halka arz öncesinde en büyük ortaklar Powertip Technology (久正光電, %36,26) ve Brightek (佰鴻, %19,05) idi (Mayıs 2025). 2025 kârından hisse başına 4,5 Tayvan doları nakit temettü ödendi (hisse başına kâr 6,51). Net nakit var (net borç/FAVÖK −3,1). Yönetim kurulu 2026 ve 2027 için Dongguan'da toplam yaklaşık 1 milyar Tayvan doları yatırım onayladı; bunun beşte biri makine, kalanı arsa ve bina. Yatırım ana işe gidiyor, ama Eylül 2026 sonundaki 1,61 milyar Tayvan doları özsermayeye göre büyük.",
   "latest": "4 Kasım 2026: Yönetim kurulu 2026'nın ilk dokuz ayının sonuçlarını onayladı. Hasılat 1,01 milyar Tayvan doları, faaliyet kârı 266 milyon, net kâr 228 milyon Tayvan doları. Hisse başına kâr 4,83 Tayvan doları; ana ortaklık özkaynağı 30 Eylül 2026'da 1,61 milyar Tayvan doları. İlk yarıda hisse başına kâr 3,60 olduğuna göre üçüncü çeyreğe 1,23 Tayvan doları düşüyor; geçen yılın üçüncü çeyreği 2,10 idi. Ekim 2026 hasılatı 81 milyon Tayvan doları ile geçen yılın %28,6 altında kaldı.",
   "risks": [
-   "Güvenlik marjı büyüme varsayımına dayanıyor: hesap, reel hisse başına kârın on yıl boyunca yılda %10,8 büyüyeceğini varsayar (son beş yılın eğilimi %16,0, şirketin kendi kârıyla finanse edebildiği büyüme %10,8). Büyüme yavaşlarsa marj erir. Kazanç zirveden dönüyor olabilir: hasılat 2026'nın ilk beş ayında geçen yıla göre %34 arttı, ağustosta %19,3, ekimde %28,6 geriledi. Üçüncü çeyrekte hisse başına kâr hesapla 1,23 Tayvan doları (bir yıl önce 2,10). Fiyat ölçütünü geçmesi son 12 ayın yüksek kârına dayanıyor.",
+   "Fiyat güvenlik marjı için yetmiyor: formül yılda %10,8 büyüme veriyordu, okumada bulunanlar yüzünden %5,4 alındı. Kazanç zirveden dönüyor olabilir: hasılat 2026'nın ilk beş ayında geçen yıla göre %34 arttı, ağustosta %19,3, ekimde %28,6 geriledi. Üçüncü çeyrekte hisse başına kâr hesapla 1,23 Tayvan doları (bir yıl önce 2,10). Fiyat ölçütünü geçmesi son 12 ayın yüksek kârına dayanıyor.",
    "Tek ürün: hasılatın yaklaşık %95'i dizüstü bilgisayar kamerası merceği. Bilgisayar satışları yavaşlarsa ya da bir marka tedarikçi değiştirirse kâr hızla düşer.",
    "Üretim Çin'de. Müşteriler üretimin Çin dışına taşınmasını isterse yeni tesis kurmak gerekir; hisse Tayvan'da işlem gördüğü için enflasyon düzeltmesi Tayvan enflasyonuyla yapıldı.",
    "Yaklaşık 1 milyar Tayvan dolarlık Dongguan yatırımı, satışların gerilediği bir dönemde yapılıyor; amortisman marjı aşağı çeker.",
@@ -954,13 +954,13 @@
    }
   ],
   "en": {
-   "one": "A maker of small plastic lenses for laptop cameras. It passed the price test, but sales have been falling since the summer and the calculation rests on growth continuing.",
+   "one": "A maker of small plastic lenses for laptop cameras. It passed the quality walls; sales have been falling since the summer and it waits at the gate on price.",
    "business": "Powertip Image (久禾光電) designs and makes plastic optical lenses. About 95% of revenue comes from laptop camera lenses; its customers include ASUS, Acer, HP and Lenovo. Production is in China. In 2025 revenue was 1.24 billion Taiwan dollars and earnings per share 6.51 Taiwan dollars. The company began trading on the Taipei Exchange in May 2025.",
    "moat_text": "The moat is narrow. The company is one of the top two makers of laptop camera lenses and says its share is above 30%. Its edge is the ability to mass-produce very thin, narrow lenses; it filed 52 patents in 2025. The evidence is in the figures: in the first nine months of 2026 gross margin was 43.1% and operating margin 26.3%; real return on equity ranged from 21.0% to 30.6% over five years. But everything depends on one product and a handful of computer brands. Gross margin has slipped from 47.8% in 2025, and Chinese rivals are strong in mass production. So the moat cannot be called wide.",
    "mgmt": "Before the listing the largest shareholders were Powertip Technology (久正光電, 36.26%) and Brightek (佰鴻, 19.05%) (May 2025). A cash dividend of 4.5 Taiwan dollars per share was paid from 2025 profit (earnings per share 6.51). The company holds net cash (net debt/EBITDA −3.1). The board approved investment of about 1 billion Taiwan dollars in total in Dongguan for 2026 and 2027; a fifth of it is machinery, the rest land and buildings. The investment goes into the core business, but it is large next to equity of 1.61 billion Taiwan dollars at the end of September 2026.",
    "latest": "4 November 2026: The board approved the results for the first nine months of 2026. Revenue was 1.01 billion Taiwan dollars, operating profit 266 million and net profit 228 million Taiwan dollars. Earnings per share were 4.83 Taiwan dollars; equity attributable to the parent was 1.61 billion Taiwan dollars at 30 September 2026. Since first-half earnings per share were 3.60, the third quarter accounts for 1.23 Taiwan dollars; the third quarter of last year was 2.10. October 2026 revenue was 81 million Taiwan dollars, 28.6% below last year.",
    "risks": [
-    "The margin of safety rests on a growth assumption: the calculation assumes real earnings per share grow 10.8% a year for ten years (five-year trend 16.0%, growth the company can fund from its own profit 10.8%). If growth slows, the margin shrinks. Earnings may be turning down from a peak: revenue rose 34% year on year in the first five months of 2026, then fell 19.3% in August and 28.6% in October. Third-quarter earnings per share work out at 1.23 Taiwan dollars (2.10 a year earlier). Passing the price criterion rests on the high profit of the last 12 months.",
+    "The price leaves too little margin of safety: the formula gave growth of 10.8% a year; because of what the reading found, 5.4% was used. Earnings may be turning down from a peak: revenue rose 34% year on year in the first five months of 2026, then fell 19.3% in August and 28.6% in October. Third-quarter earnings per share work out at 1.23 Taiwan dollars (2.10 a year earlier). Passing the price criterion rests on the high profit of the last 12 months.",
     "One product: about 95% of revenue is laptop camera lenses. If computer sales slow or a brand changes supplier, profit falls quickly.",
     "Production is in China. If customers ask for production outside China, a new plant is needed; because the share trades in Taiwan, the inflation adjustment uses Taiwan's inflation.",
     "The Dongguan investment of about 1 billion Taiwan dollars is being made while sales are falling; depreciation will pull the margin down.",
@@ -972,6 +972,14 @@
     "Share of non-laptop lenses in revenue (about 5% now)",
     "Amount and timetable of the Dongguan investment"
    ]
+  },
+  "growth": {
+   "g": 5.4,
+   "basis": {
+    "tr": "Formül yılda %10,8 veriyordu. Ama kazanç zirveden dönüyor görünüyor: üçüncü çeyrekte hisse başına kâr 1,23 Tayvan doları (bir yıl önce 2,10), ekim hasılatı geçen yılın %28,6 altında. Tek ürünlü ve bilgisayar döngüsüne bağlı bir işte bu düşüşün geçici olduğunu gösteren bir veri yok. Formülün hızı ile son çeyreğin sıfır büyümesinin ortası alındı: %5,4.",
+    "en": "The formula gave 10.8% a year. But earnings appear to be turning down from a peak: third-quarter earnings per share were 1.23 Taiwan dollars (2.10 a year earlier) and October revenue was 28.6% below last year. In a one-product business tied to the computer cycle, nothing shows that this fall is temporary. The midpoint between the formula's rate and the latest quarter's zero growth was used: 5.4%."
+   },
+   "per": "2026-Q3"
   }
  }
 }

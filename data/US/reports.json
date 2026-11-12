@@ -688,13 +688,13 @@
   },
   "moat": "dar",
   "per": "2026-Q3",
-  "one": "Fintek şirketlerinin arkasındaki banka. Fiyat testini geçti; ama hesap geçmişteki hızlı büyümenin sürmesine dayanıyor ve önemli bir ortağı (Chime) ayrılıyor.",
+  "one": "Fintek şirketlerinin arkasındaki banka. Çok kârlı; ama önemli ortağı Chime ayrılıyor. Büyüme buna göre düşürülünce fiyat güvenlik marjı için yetmiyor.",
   "business": "The Bancorp, kendi banka lisansı olmayan finans teknolojisi şirketlerinin arkasındaki bankadır: onların adına kart çıkarır, hesap tutar ve ödeme işler; karşılığında ücret alır. Bu hesaplardan gelen ucuz mevduatı krediye çevirir. 2026'nın üçüncü çeyreğinde ortaklarının kartlarından 54,3 milyar dolarlık işlem geçti (+%23,4); net faiz geliri 90,1 milyon dolar, fintek ücretleri 41,8 milyon dolar.",
   "moat_text": "Hendek dar. Üstünlük banka lisansından, düzenlemelere uyum deneyiminden ve ölçekten geliyor: şirketin açıkladığı özsermaye kârlılığı üçüncü çeyrekte %36,0. Bir fintek şirketinin arkasındaki bankayı değiştirmesi yıllar alır. Zayıf yanı tam da bu çeyrekte göründü: büyük bir ortak (Chime) kendi bankasını satın almayı planlıyor ve ayrılıyor. Üstünlük az sayıda ortağa bağlı.",
   "mgmt": "Temettü ödemiyor; kârını hisse geri alımına ayırıyor. Üçüncü çeyrekte yaklaşık 50 milyon dolarlık hisse geri alındı; hisse sayısı bir yılda 46,5 milyondan 41,1 milyona indi. Yönetim 2027'den 2028 başına kadar düzeltilmiş net kârın tamamına yakınını geri alıma ayırmayı planlıyor.",
   "latest": "30 Ekim 2026: Üçüncü çeyrekte hisse başına kâr 1,53 dolar, düzeltilmiş 1,47 dolar (+%24,6). Chime en geç Temmuz 2028'de ayrılacak. Bu yüzden 2027 hisse başına kâr beklentisi 8,10–8,30 dolardan 7,00–7,20 dolara indirildi; 2026 beklentisi (5,95–6,05 dolar) korundu. Net faiz marjı %3,75 (bir yıl önce %4,45).",
   "risks": [
-   "Güvenlik marjı büyüme varsayımına dayanıyor: hesap, reel hisse başına kârın on yıl boyunca yılda %24,5 büyüyeceğini varsayar (son beş yılın eğilimi %24,5, şirketin kendi kârıyla finanse edebildiği büyüme %27,4). Büyüme yavaşlarsa marj erir. Ortak yoğunlaşması: Chime'ın ayrılışı 2027 kâr beklentisini yaklaşık %13 düşürdü. Başka bir büyük ortağın ayrılması benzer etki yapar.",
+   "Fiyat güvenlik marjı için yetmiyor: formül yılda %24,5 büyüme veriyordu, okumada bulunanlar yüzünden %12,0 alındı. Ortak yoğunlaşması: Chime'ın ayrılışı 2027 kâr beklentisini yaklaşık %13 düşürdü. Başka bir büyük ortağın ayrılması benzer etki yapar.",
    "Net faiz marjı daralıyor: bir yılda %4,45'ten %3,75'e.",
    "Kredi kalitesi: yakın izlemedeki krediler bir çeyrekte %14 artarak 166,5 milyon dolara çıktı; çoğu gayrimenkul köprü kredisi.",
    "Düzenleme: bankaların fintek ortaklıkları denetçilerin yakın izlemesinde; yeni kurallar maliyeti artırabilir.",
@@ -719,13 +719,13 @@
    }
   ],
   "en": {
-   "one": "The bank behind fintech companies. It passed the price test, but the calculation rests on past fast growth continuing, and an important partner (Chime) is leaving.",
+   "one": "The bank behind fintech companies. Very profitable, but its important partner Chime is leaving. With growth lowered for that, the price leaves too little margin of safety.",
    "business": "The Bancorp is the bank behind financial technology companies that have no banking licence of their own: it issues cards, holds accounts and processes payments in their name, and charges fees for it. It turns the cheap deposits from these accounts into loans. In the third quarter of 2026, 54.3 billion dollars of transactions went through its partners' cards (+23.4%); net interest income was 90.1 million dollars and fintech fees 41.8 million dollars.",
    "moat_text": "The moat is narrow. The advantage comes from the banking licence, experience in regulatory compliance and scale: the return on equity the company reported for the third quarter is 36.0%. It takes a fintech company years to change the bank behind it. The weak point showed up this very quarter: a large partner, Chime, plans to buy a bank of its own and is leaving. The advantage depends on a small number of partners.",
    "mgmt": "It pays no dividend; it puts its profit into share buybacks. About 50 million dollars of shares were bought back in the third quarter; the share count fell from 46.5 million to 41.1 million in a year. Management plans to put nearly all of adjusted net profit into buybacks from 2027 to early 2028.",
    "latest": "30 October 2026: Third-quarter earnings per share were 1.53 dollars, or 1.47 dollars adjusted (+24.6%). Chime will leave by July 2028 at the latest. Because of this, the 2027 earnings-per-share outlook was cut from 8.10–8.30 dollars to 7.00–7.20; the 2026 outlook (5.95–6.05 dollars) was kept. Net interest margin was 3.75% (4.45% a year earlier).",
    "risks": [
-    "The margin of safety rests on a growth assumption: the calculation assumes real earnings per share grow 24.5% a year for ten years (five-year trend 24.5%, growth the company can fund from its own profit 27.4%). If growth slows, the margin shrinks. Partner concentration: Chime's departure cut the 2027 earnings outlook by about 13%. The departure of another large partner would have a similar effect.",
+    "The price leaves too little margin of safety: the formula gave growth of 24.5% a year; because of what the reading found, 12.0% was used. Partner concentration: Chime's departure cut the 2027 earnings outlook by about 13%. The departure of another large partner would have a similar effect.",
     "Net interest margin is narrowing: from 4.45% to 3.75% in a year.",
     "Credit quality: criticised loans rose 14% in one quarter to 166.5 million dollars; most are real estate bridge loans.",
     "Regulation: banks' fintech partnerships are closely watched by supervisors; new rules may raise costs.",
@@ -737,6 +737,14 @@
     "Net interest margin",
     "Criticised loans"
    ]
+  },
+  "growth": {
+   "g": 12.0,
+   "basis": {
+    "tr": "Formül geçmiş beş yılın eğilimini (yılda %24,5) on yıl ileri taşıyordu. Ama önemli bir ortak (Chime) en geç Temmuz 2028'de ayrılıyor ve bu geçmiş büyümenin içinde. Chime'ın payı açıklanmadığı için geçmiş büyüme Chime hariç hesaplanamıyor; onun yerine şirketin ayrılığı da içeren kendi beklentisi kullanıldı: hisse başına kâr 2026'da 5,95–6,05, 2028'de 8,00–8,20 dolar. Bu, yılda yaklaşık %16,2, enflasyondan arındırılınca %12,0 büyüme demek.",
+    "en": "The formula carried the five-year trend (24.5% a year) forward for ten years. But an important partner (Chime) leaves by July 2028 at the latest, and it is part of that past growth. Chime's share is not disclosed, so past growth cannot be calculated without it; the company's own outlook, which includes the departure, was used instead: earnings per share of 5.95–6.05 dollars in 2026 and 8.00–8.20 in 2028. That is about 16.2% a year, or 12.0% after inflation."
+   },
+   "per": "2026-Q3"
   }
  },
  "ATLC": {

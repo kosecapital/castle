@@ -102,11 +102,23 @@ python3 -m http.server 8765 --directory .preview   # yerel deneme: http://127.0.
 
 - **Büyüme hızı** (reel, yılda): şu ikisinin düşüğü, 0 ile `gCap` (%25) arasında.
   - Geçmiş: son beş mali yılın reel hisse başına kâr eğilimi. Net kâr = piyasa değeri ÷ F/K (oran sayfası); pay sayısındaki değişim "Buyback Yield / Dilution" satırından; her yıl o yılın tüketici enflasyonuyla düzeltilir; uçlara değil beş yılın eğilimine bakılır (en az dört yıl).
-  - Sürdürülebilir: temkinli özsermaye kârlılığı × dağıtılmayan kâr oranı (dağıtım oranı: mali yılların ortancası).
+  - Sürdürülebilir: temkinli özsermaye kârlılığı × dağıtılmayan kâr oranı (dağıtım oranı: mali yılların ortancası ile en güncel oranın yükseği).
   - Enflasyon muhasebesi uygulayan şirkette kaynak her mali yılı bir sonraki yılın parasıyla verir (Ford Otosan ve Coca-Cola İçecek'te doğrulandı); düzeltme buna göre yapılır ve yalnız dönemin (`meta.era`) bir yıl öncesinden sonrası kullanılır.
 - **İNA:** iki aşama. İlk `gYears` (10) yıl şirketin büyüme hızı, sonra hendek sınıfının kalıcı büyümesi (`gNarrow` %1,5, `gWide` %3). Her yıl ortağa kalan nakit = kâr × (1 − büyüme ÷ özsermaye kârlılığı). İskonto: reel getiri eşiği `r` (%10).
 - **PEG:** adil F/K = büyüme hızı (%) + temettü verimi (%). PEG büyüme için ödenen fazlayı sınırlar; değeri, şirketin hiç büyümese edeceği tutarın (büyüme 0 ile İNA) altına indirmez.
 - Adil çarpan = min(İNA, max(PEG, büyümesiz İNA)).
+- **Büyüme yargısı** (Alper'in 12 Kasım 2026 talimatı: "kullanılabilecek her veri adil fiyat hesabında kullanılmalı"). Formül geçmişi ileri taşır; okuma sırasında geçmişin sürmeyeceğini gösteren bir gerçek bulunursa büyüme hızı indirilir. Rapora `growth` alanı yazılır; `funnel.py` formülün hızı ile bu hızın düşüğünü kullanır:
+  ```json
+  "growth": {"g": 9.7, "dy": 3.5, "per": "2026-Q4", "basis": {"tr": "Neden ve hangi rakamlarla; sayfada görünür.", "en": "..."}}
+  ```
+  Kurallar:
+  - **Yalnız indirir.** Formülün verdiği hızın üstüne çıkılmaz. Geçici olduğundan neredeyse emin olunan bir düşüş (tek yıllık kur zararı gibi) için hız olduğu gibi bırakılabilir; nedeni `risks` içinde yazılır.
+  - **Ayrılan parça:** geçmiş büyümenin içinde artık olmayan bir iş, ülke ya da müşteri varsa kalan işin büyümesine bakılır (şirket ayrı açıklıyorsa). Açıklamıyorsa şirketin o ayrılığı içeren kendi beklentisi kullanılır.
+  - **Bir kereye özgü sıçrama ya da duran büyüme:** en güncel büyüme (son dönemin yıllık değişimi ya da şirketin gelecek yıl tahmini, enflasyondan arındırılmış, sıfırın altına inmez) formülün hızının yarısından azsa ikisinin ortası alınır.
+  - **Kalıcı bozulma:** kötüleşmenin kalıcı bir nedeni varsa büyümeyle uğraşılmaz; şirket 3. surda elenir (C ya da B puanı).
+  - Her rakam bu çalıştırmada okunan bir belgeden gelir ve `basis` içinde yazılır; şirket açıklamadığı bir payı (örnek: bir müşterinin geliri) tahmin etme. Kaynakta temettü verimi yoksa şirketin açıkladığı temettüden `dy` yazılabilir.
+  - Kale çıkan ya da marjı eşiğe beş puandan yakın her şirkette bu soru sorulur: "geçmiş büyüme sürer mi?" Cevap ya `growth` kaydıdır ya da `risks` içinde neden indirilmediğinin açıklamasıdır.
+  - Yeni bilanço gelince kayıt yeniden değerlendirilir (`per`).
 - Kale çıkan şirkette marj çoğu zaman büyüme varsayımına dayanır: bunu `one` cümlesinde ve `risks` listesinin ilk maddesinde, varsayılan büyüme hızıyla birlikte söyle (bkz. Rapor yazımı).
 
 "Reel": enflasyon muhasebesi (TMS/IAS 29) uygulayan şirketin rakamı zaten reeldir. Diğerlerinde nominal özsermaye kârlılığı o yılın tüketici enflasyonuyla düzeltilir: `(1+ROE)/(1+enflasyon) − 1`. `meta.deflate` değeri `all` ise bütün şirketler, `nominal_only` ise yalnız `nom=1` olanlar düzeltilir.

@@ -235,13 +235,13 @@
    "E": 1
   },
   "moat": "dar",
-  "one": "Havalimanı yer hizmetlerinde yerleşik bir oyuncu. Fiyat testini geçti; ama hesap hızlı büyümenin on yıl sürmesine dayanıyor ve Hindistan'daki işi bir hükümet kararıyla kapandı.",
+  "one": "Havalimanı yer hizmetlerinde yerleşik bir oyuncu. Fiyat testini geçti; ama Hindistan'daki işi bir hükümet kararıyla kapandı ve kalan işin kârı yavaş büyüyor.",
   "business": "Çelebi Hava Servisi, havayollarına ve kargo şirketlerine havalimanlarında yer hizmeti ve kargo-antrepo hizmeti verir. 1958'de kuruldu; Çelebi Havacılık Holding'in bağlı ortaklığıdır. 8.141 kişi çalıştırıyor.",
   "moat_text": "Hendek dar. Bir havalimanında yer hizmeti verebilmek için lisans ve imtiyaz gerekir; bu, rakip sayısını sınırlar ve yüksek kârlılığı açıklar (özsermaye kârlılığı beş yıldır %40'ın üzerinde, faaliyet marjı %23). Ama aynı lisanslar hendeğin en zayıf yeri: veren makam geri alabilir.",
   "mgmt": "Halka açıklık yalnızca %9,6; hisse sığ ve kontrol tümüyle ana ortakta. Kârın büyük bölümü temettü olarak dağıtılıyor (ödeme oranı %73).",
   "latest": "9 Kasım 2026: Dokuz aylık ana ortaklık net kârı 2,21 milyar TL, hasılat 17,56 milyar TL, faaliyet kârı 4,10 milyar TL. Durdurulan faaliyetlerden 1,02 milyar TL zarar yazıldı. Hindistan'daki iştiraklerin güvenlik izinleri Mayıs 2025'te iptal edilmiş, faaliyetleri 15 Mayıs 2025'te durmuştu; hukuki süreç sürüyor (19 Ağustos 2026 tarihli ara dönem raporu).",
   "risks": [
-   "Güvenlik marjı büyüme varsayımına dayanıyor: hesap, reel hisse başına kârın on yıl boyunca yılda %23,1 büyüyeceğini varsayar (son beş yılın eğilimi %24,9, şirketin kendi kârıyla finanse edebildiği büyüme %23,1). Büyüme yavaşlarsa marj erir.",
+   "Güvenlik marjı büyüme varsayımına dayanıyor: hesap, reel hisse başına kârın on yıl boyunca yılda %7,9 büyüyeceğini varsayar (formül %12,3 veriyordu; okumada bulunanlar yüzünden indirildi). Büyüme daha da yavaşlarsa marj erir.",
    "İmtiyaz riski gerçekleşti: Hindistan'daki iş bir hükümet kararıyla bir günde durdu. Aynı şey başka bir ülkede de olabilir.",
    "Müşteriler havayolları: pazarlık güçleri yüksek, sözleşmeler yenilenmeyebilir.",
    "Güvenlik marjı eşiğe çok yakın ve fark ölçüm hassasiyeti içinde. Tablodaki PD/DD 3,6 olarak yuvarlanmış; dokuz aylık bilançodaki özkaynakla (9,12 milyar TL) hesaplanınca 3,55 ve marj %25 dolayında çıkıyor. Küçük bir fiyat ya da kâr değişimi sonucu değiştirir.",
@@ -287,13 +287,13 @@
   ],
   "per": "9/2026",
   "en": {
-   "one": "An established airport ground-handling company. It passed the price test, but the calculation rests on fast growth lasting ten years, and its business in India was shut by a government decision.",
+   "one": "An established airport ground-handling company. It passed the price test, but its business in India was shut by a government decision and profit from what remains is growing slowly.",
    "business": "Çelebi Hava Servisi provides ground handling and cargo and warehouse services at airports to airlines and cargo companies. It was founded in 1958 and is a subsidiary of Çelebi Havacılık Holding. It employs 8,141 people.",
    "moat_text": "The moat is narrow. Providing ground handling at an airport requires a licence and a concession; this limits the number of competitors and explains the high profitability (return on equity above 40% for five years, operating margin 23%). But those same licences are the weakest point of the moat: the authority that grants them can take them back.",
    "mgmt": "The free float is only 9.6%; the stock is thinly traded and control rests entirely with the parent. Most of the profit is paid out as dividends (payout ratio 73%).",
    "latest": "9 November 2026: Nine-month net profit attributable to the parent was 2.21 billion TRY, revenue 17.56 billion TRY and operating profit 4.10 billion TRY. A loss of 1.02 billion TRY was booked from discontinued operations. The security clearances of the subsidiaries in India were revoked in May 2025 and their operations stopped on 15 May 2025; the legal process continues (interim report dated 19 August 2026).",
    "risks": [
-    "The margin of safety rests on a growth assumption: the calculation assumes real earnings per share grow 23.1% a year for ten years (five-year trend 24.9%, growth the company can fund from its own profit 23.1%). If growth slows, the margin shrinks.",
+    "The margin of safety rests on a growth assumption: the calculation assumes real earnings per share grow 7.9% a year for ten years (the formula gave 12.3%; it was lowered because of what the reading found). If growth slows further, the margin shrinks.",
     "Concession risk has materialised: the business in India stopped in a single day by a government decision. The same could happen in another country.",
     "The customers are airlines: their bargaining power is high and contracts may not be renewed.",
     "The margin of safety is very close to the threshold and the difference is within measurement precision. P/B in the table is rounded to 3.6; calculated with equity from the nine-month balance sheet (9.12 billion TRY) it is 3.55 and the margin comes out at around 25%. A small change in price or profit changes the result.",
@@ -305,6 +305,14 @@
     "Profit from continuing operations",
     "Dividend"
    ]
+  },
+  "growth": {
+   "g": 7.9,
+   "basis": {
+    "tr": "Formül yılda %12,3 veriyordu. Geçmiş büyümenin içinde Hindistan işi var; o iş 15 Mayıs 2025'te durdu (2024'te grup hasılatının yaklaşık üçte biri). Geriye kalan işe bakıldı: 2026'nın ilk dokuz ayında sürdürülen faaliyetlerin kârı 2,84 milyar TL, bir yıl önce aynı parayla 2,74 milyar TL; reel artış %3,4. Formülün hızı ile kalan işin büyümesinin ortası alındı: %7,9.",
+    "en": "The formula gave 12.3% a year. Past growth includes the Indian business, which stopped on 15 May 2025 (about a third of group revenue in 2024). We looked at what remains: profit from continuing operations was 2.84 billion TRY in the first nine months of 2026, against 2.74 billion a year earlier in the same money; a real rise of 3.4%. The midpoint between the formula's rate and the growth of the remaining business was used: 7.9%."
+   },
+   "per": "9/2026"
   }
  },
  "MPARK": {

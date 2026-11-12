@@ -490,13 +490,13 @@
   },
   "moat": "dar",
   "per": "2026-Q1",
-  "one": "Japonya'nın en büyük özel yapı denetim grubu. Fiyat testini geçti; ama kâr sıçraması 2025 yasa değişikliğinden geliyor ve hesap bu büyümenin sürmesine dayanıyor.",
+  "one": "Japonya'nın en büyük özel yapı denetim grubu. Kalite surlarını geçti; ama kâr sıçraması bir kereye özgü, büyüme durdu ve fiyat güvenlik marjı için yetmiyor.",
   "business": "ERI Holdings, yeni binaların yapı ruhsatı denetimini, konut performans değerlendirmesini ve enerji verimliliği uygunluk incelemesini ücret karşılığı yapar. Mayıs 2026'da biten yılda satışlar 24,7 milyar yen, faaliyet kârı 4,9 milyar yen oldu. Satışların 18,8 milyar yeni denetim ve değerlendirmeden, 5,6 milyar yeni altyapı ve çevre danışmanlığından geldi. Grupta 1.768 kişi çalışıyor.",
   "moat_text": "Hendek dar. Bu iş devletin atadığı kuruluşlara açıktır ve atama beş yılda bir yenilenir. Japonya'da 124 atanmış denetim kuruluşu var; grup 772 yetkili denetçisi ve ülke çapındaki ağıyla en büyüğü olduğunu söylüyor. Konut performans değerlendirmesinde 2025'te %20 payla birinci. Reel özsermaye kârlılığı 2025'te %18,8 iken 2026'da %39,3'e çıktı. Zayıf yan: bu sıçrama Nisan 2025'te enerji verimliliği uygunluğunun neredeyse bütün yeni binalarda zorunlu olmasından ve ücret artışlarından geldi. 123 rakip aynı lisansa sahip; ücret üstünlüğünün kalıcılığı belirsiz.",
   "mgmt": "Hâkim ortak yok. 31 Mayıs 2026'da en büyük ortak %8,22 ile çalışanların hisse birliği. Hikari Tsushin'e bağlı fonlar (UH Partners 2 ve 3, Hikari Tsushin KK) toplam yaklaşık %22 tutuyor. Misawa Homes, Daiwa House, Mitsui Home ve Sekisui Chemical %4,69'ar paya sahip; bunlar aynı zamanda sektörün müşterileri. Şirket 2026 mali yılında bölünme sonrası hisse başına 42 yen temettü ödedi (şirketin açıkladığı dağıtım oranı %30,1) ve 354 milyon yenlik geri alım yaptı. 2027 için 44 yen öngörüyor. Yıl içinde üç küçük şirket aldı; faizli borç 2,4 milyar yen, nakit 8,2 milyar yen.",
   "latest": "30 Eylül 2026: Haziran-Ağustos 2026 çeyreğinde (2027 mali yılının ilk çeyreği) satışlar 5.847 milyon yen, faaliyet kârı 942 milyon yen, olağan kâr 964 milyon yen (yıllık %10 artış), net kâr 524 milyon yen oldu. 14 Temmuz 2026'da açıklanan yıllık sonuçta satışlar %25,0 artışla 24.704 milyon yen, net kâr %143,2 artışla 3.146 milyon yen olmuştu. Şirket Mayıs 2027'de bitecek yıl için 27.000 milyon yen satış ve 3.280 milyon yen net kâr (%4,2 artış) bekliyor.",
   "risks": [
-   "Güvenlik marjı büyüme varsayımına dayanıyor: hesap, reel hisse başına kârın on yıl boyunca yılda %16,9 büyüyeceğini varsayar (son beş yılın eğilimi %16,9, şirketin kendi kârıyla finanse edebildiği büyüme %26,4). Büyüme yavaşlarsa marj erir. Kârın 2026'daki sıçraması yasa değişikliğine ve ücret artışına dayanıyor; rakipler ücret kırarsa marj eski düzeyine dönebilir.",
+   "Fiyat güvenlik marjı için yetmiyor: formül yılda %11,5 büyüme veriyordu, okumada bulunanlar yüzünden %6,8 alındı. Kârın 2026'daki sıçraması yasa değişikliğine ve ücret artışına dayanıyor; rakipler ücret kırarsa marj eski düzeyine dönebilir.",
    "Konut başlangıçları geriliyor; faiz ve inşaat maliyeti artarsa denetlenecek bina sayısı düşer.",
    "Atama iptal edilir, yenilenmez ya da ihlal nedeniyle durdurulursa ana iş durur.",
    "Kısıtlı sektörlerdeki ortakların oy payı %24,75; bu oran üçte biri aşarsa atanmış kuruluş statüsü tehlikeye girer.",
@@ -546,13 +546,13 @@
    }
   ],
   "en": {
-   "one": "Japan's largest private building inspection group. It passed the price test, but the profit jump comes from a 2025 law change and the calculation rests on that growth continuing.",
+   "one": "Japan's largest private building inspection group. It passed the quality walls, but the profit jump was a one-off, growth has stalled and the price leaves too little margin of safety.",
    "business": "ERI Holdings checks new buildings for building confirmation, evaluates housing performance and reviews energy-efficiency compliance, all for a fee. In the year ended May 2026, sales were 24.7 billion yen and operating profit 4.9 billion yen. Inspection and evaluation brought 18.8 billion yen of sales, infrastructure and environmental consulting 5.6 billion yen. The group employs 1,768 people.",
    "moat_text": "Narrow moat. This work is open only to bodies designated by the state, and the designation is renewed every five years. Japan has 124 designated confirmation bodies; the group says it is the largest, with 772 certified inspectors and a nationwide network. It ranked first in housing performance evaluation in 2025 with a 20% share. Real return on equity rose from 18.8% in 2025 to 39.3% in 2026. The weak side: this jump came from energy-efficiency compliance becoming mandatory for nearly all new buildings in April 2025 and from fee increases. 123 rivals hold the same licence; it is unclear whether the fee advantage will last.",
    "mgmt": "There is no controlling shareholder. On 31 May 2026 the largest holder was the employee shareholding association with 8.22%. Funds linked to Hikari Tsushin (UH Partners 2 and 3, Hikari Tsushin KK) hold about 22% in total. Misawa Homes, Daiwa House, Mitsui Home and Sekisui Chemical each own 4.69%; they are also customers of the industry. For fiscal 2026 the company paid a dividend of 42 yen per share on a post-split basis (payout ratio reported by the company: 30.1%) and bought back 354 million yen of shares. It forecasts 44 yen for 2027. It bought three small companies during the year; interest-bearing debt is 2.4 billion yen against 8.2 billion yen of cash.",
    "latest": "30 September 2026: In the June-August 2026 quarter (first quarter of fiscal 2027), sales were 5,847 million yen, operating profit 942 million yen, ordinary profit 964 million yen (up 10% year on year) and net profit 524 million yen. In the full-year results announced on 14 July 2026, sales had risen 25.0% to 24,704 million yen and net profit 143.2% to 3,146 million yen. For the year ending May 2027 the company expects sales of 27,000 million yen and net profit of 3,280 million yen (up 4.2%).",
    "risks": [
-    "The margin of safety rests on a growth assumption: the calculation assumes real earnings per share grow 16.9% a year for ten years (five-year trend 16.9%, growth the company can fund from its own profit 26.4%). If growth slows, the margin shrinks. The 2026 profit jump rests on a law change and fee increases; if rivals cut fees, the margin could return to its old level.",
+    "The price leaves too little margin of safety: the formula gave growth of 11.5% a year; because of what the reading found, 6.8% was used. The 2026 profit jump rests on a law change and fee increases; if rivals cut fees, the margin could return to its old level.",
     "Housing starts are falling; higher interest rates and construction costs would reduce the number of buildings to inspect.",
     "If the designation is revoked, not renewed or suspended for a violation, the core business stops.",
     "Shareholders in restricted industries hold 24.75% of votes; if this passes one third, the designated-body status is at risk.",
@@ -564,6 +564,14 @@
     "How rivals behave on inspection fees",
     "Profit of the infrastructure and environment arm (664 million yen in 2026)"
    ]
+  },
+  "growth": {
+   "g": 6.8,
+   "basis": {
+    "tr": "Formül yılda %11,5 veriyordu. Ama kâr sıçraması bir kereye özgü: Nisan 2025'te enerji verimliliği uygunluğu bütün yeni binalarda zorunlu oldu ve Mayıs 2026 yılında net kâr %143,2 arttı. Sonrasında büyüme durdu: Haziran-Ağustos 2026 çeyreğinde net kâr %0,6 arttı, şirketin Mayıs 2027 yılı tahmini %4,2 artış (enflasyondan arındırılınca %2,1). Bu kadar büyük sapmada ikisinin ortası alındı: %6,8.",
+    "en": "The formula gave 11.5% a year. But the profit jump was a one-off: in April 2025 energy-efficiency conformity became mandatory for all new buildings, and net profit rose 143.2% in the year to May 2026. Growth has since stalled: net profit rose 0.6% in the June-August 2026 quarter, and the company forecasts a 4.2% rise for the year to May 2027 (2.1% after inflation). With a gap this large the midpoint was used: 6.8%."
+   },
+   "per": "2026-Q1"
   }
  },
  "6547": {
@@ -941,13 +949,13 @@
   },
   "moat": "dar",
   "per": "2026-Q4",
-  "one": "Colantotte markalı mıknatıslı sağlık ürünleri satıyor. Kârlı ve borçsuz; fiyat testini geçti, ama tek markaya bağlı ve hesap hızlı büyümenin sürmesine dayanıyor.",
+  "one": "Colantotte markalı mıknatıslı sağlık ürünleri satıyor. Kârlı ve borçsuz; fiyat testini kıl payı geçti, ama tek markaya bağlı ve şirket yavaşlama bekliyor.",
   "business": "Şirket, Japonya'da tıbbi cihaz onayı taşıyan mıknatıslı kolye, bileklik, destek ve dinlenme giysileri (RESNO) tasarlar ve satar. Eylül 2026'da biten yılda satış 9,0 milyar yen, faaliyet kârı 2,26 milyar yen oldu. Dokuz aylık satışın %50,1'i toptan, %36,9'u internet, %13,0'ü kendi mağazalarından geldi. Haziran 2026'da 22 mağazası vardı.",
   "moat_text": "Hendek dar. Kanıt marjlarda: brüt kâr marjı %70, faaliyet kâr marjı %25. Reel özsermaye kârlılığı beş yılda %18,0 ile %26,0 arasında kaldı, son yıl %23,8. Ürünlerin yarıdan fazlası (%54,6) 20.000 yen ve üstü fiyat bandında satılıyor; bu, markanın fiyat gücünü gösterir. Tıbbi cihaz onayı ve sporcu sponsorlukları markayı destekler. Zayıf yanı: tek marka, tek ürün ailesi. Mıknatıslı ürün taklit edilebilir ve talep modaya, reklama bağlıdır.",
   "mgmt": "31 Mart 2026 itibarıyla en büyük ortak Ark Quest %39,57, Katsumi Komatsu %17,58 paya sahip; SMBC Trust Bank'taki emanet hesabı %8,79 tutuyor. Halka açık pay sınırlı. Şirket kârın yaklaşık %30'unu temettü olarak dağıtmayı hedefliyor: 2025 yılı için hisse başına 42 yen ödedi, 2026 yılı için 50 yen öngördü. Kalan kâr mağazalara, internet satışına ve yeni Ar-Ge merkezine gidiyor. Haziran 2026 sonunda özsermaye oranı %80,3 idi; şirket net nakitte.",
   "latest": "6 Kasım 2026: Eylül 2026'da biten yılın sonuçları açıklandı. Satış 6,92 milyar yenden 9,00 milyar yene, faaliyet kârı 1,81 milyar yenden 2,26 milyar yene, net kâr 1,33 milyar yenden 1,51 milyar yene çıktı. Sonuç, şirketin kendi tahmininin (faaliyet kârı 2,1 milyar yen) üstünde kaldı. Eylül 2027 yılı için tahmin: satış 10,0 milyar yen, faaliyet kârı 2,4 milyar yen, net kâr 1,6 milyar yen. Tahmin, kâr marjının %25,1'den %24,0'e ineceğini ima ediyor.",
   "risks": [
-   "Güvenlik marjı büyüme varsayımına dayanıyor: hesap, reel hisse başına kârın on yıl boyunca yılda %17,1 büyüyeceğini varsayar (son beş yılın eğilimi %25,7, şirketin kendi kârıyla finanse edebildiği büyüme %17,1). Büyüme yavaşlarsa marj erir. Şirket tek markaya ve mıknatıslı sağlık ürünlerine bağlıdır; ilgi azalırsa satış hızla düşebilir.",
+   "Güvenlik marjı büyüme varsayımına dayanıyor: hesap, reel hisse başına kârın on yıl boyunca yılda %9,7 büyüyeceğini varsayar (formül %16,1 veriyordu; okumada bulunanlar yüzünden indirildi). Büyüme daha da yavaşlarsa marj erir. Şirket tek markaya ve mıknatıslı sağlık ürünlerine bağlıdır; ilgi azalırsa satış hızla düşebilir.",
    "Büyüme reklam ve sporcu sponsorluklarına dayanıyor; 2026'da satış %30 artarken net kâr daha yavaş arttı, bu harcamalar marjı aşağı çekebilir.",
    "Mıknatıslı ürünlerde teknik engel düşüktür; daha ucuz taklitler fiyat gücünü zayıflatabilir.",
    "Tıbbi cihaz onayı ya da sağlık iddialarıyla ilgili kural değişikliği satışı doğrudan etkiler.",
@@ -992,13 +1000,13 @@
    }
   ],
   "en": {
-   "one": "Sells Colantotte-brand magnetic health goods. Profitable and debt-free; it passed the price test, but it rests on one brand and the calculation assumes fast growth continues.",
+   "one": "Sells Colantotte-brand magnetic health goods. Profitable and debt-free; it only just passed the price test, but it rests on one brand and the company expects a slowdown.",
    "business": "The company designs and sells magnetic necklaces, loops, supporters and recovery wear (RESNO) that carry medical device certification in Japan. In the year to September 2026 sales were 9.0 billion yen and operating profit 2.26 billion yen. In the first nine months 50.1% of sales came from wholesale, 36.9% from e-commerce and 13.0% from its own stores. It had 22 stores in June 2026.",
    "moat_text": "The moat is narrow. The proof is in the margins: gross margin 70%, operating margin 25%. Real return on equity stayed between 18.0% and 26.0% over five years, and was 23.8% in the latest year. More than half of sales (54.6%) come from products priced at 20,000 yen or more, which shows the brand's pricing power. Medical device certification and athlete sponsorships support the brand. The weak side: one brand, one product family. A magnetic product can be copied, and demand depends on fashion and advertising.",
    "mgmt": "As of 31 March 2026 the largest shareholder, Ark Quest, held 39.57% and Katsumi Komatsu 17.58%; a trust account at SMBC Trust Bank held 8.79%. The free float is limited. The company aims to pay out about 30% of profit: it paid 42 yen per share for 2025 and planned 50 yen for 2026. The rest goes to stores, e-commerce and a new R&D centre. The equity ratio was 80.3% at the end of June 2026; the company has net cash.",
    "latest": "6 November 2026: results for the year to September 2026 were announced. Sales rose from 6.92 billion yen to 9.00 billion yen, operating profit from 1.81 billion yen to 2.26 billion yen, and net profit from 1.33 billion yen to 1.51 billion yen. The result beat the company's own forecast (operating profit 2.1 billion yen). Forecast for the year to September 2027: sales 10.0 billion yen, operating profit 2.4 billion yen, net profit 1.6 billion yen. The forecast implies the margin slipping from 25.1% to 24.0%.",
    "risks": [
-    "The margin of safety rests on a growth assumption: the calculation assumes real earnings per share grow 17.1% a year for ten years (five-year trend 25.7%, growth the company can fund from its own profit 17.1%). If growth slows, the margin shrinks. The company depends on one brand and on magnetic health goods; if interest fades, sales can fall quickly.",
+    "The margin of safety rests on a growth assumption: the calculation assumes real earnings per share grow 9.7% a year for ten years (the formula gave 16.1%; it was lowered because of what the reading found). If growth slows further, the margin shrinks. The company depends on one brand and on magnetic health goods; if interest fades, sales can fall quickly.",
     "Growth relies on advertising and athlete sponsorships; in 2026 sales grew 30% while net profit grew more slowly, and this spending can pull the margin down.",
     "Technical barriers in magnetic products are low; cheaper copies could weaken pricing power.",
     "A rule change on medical device certification or health claims would hit sales directly.",
@@ -1010,6 +1018,15 @@
     "Advertising and selling costs as a share of sales",
     "Share of overseas sales"
    ]
+  },
+  "growth": {
+   "g": 9.7,
+   "dy": 3.5,
+   "basis": {
+    "tr": "Formül yılda %16,1 veriyordu. Eylül 2026 yılında net kâr %13,8 arttı; şirketin Eylül 2027 yılı tahmini hisse başına kârda %5,6 artış (enflasyondan arındırılınca %3,4). Tahmin formülün hızının çok altında olduğu için ikisinin ortası alındı: %9,7. Kaynakta temettü verimi yok; şirketin açıkladığı hisse başına 50 yen temettü ve 1.435 yen fiyatla %3,5 kullanıldı.",
+    "en": "The formula gave 16.1% a year. Net profit rose 13.8% in the year to September 2026; the company forecasts a 5.6% rise in earnings per share for the year to September 2027 (3.4% after inflation). Because the forecast is far below the formula's rate, the midpoint was used: 9.7%. The data source has no dividend yield; 3.5% was used, from the company's declared dividend of 50 yen per share and a price of 1,435 yen."
+   },
+   "per": "2026-Q4"
   }
  },
  "8301": {
