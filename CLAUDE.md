@@ -160,19 +160,19 @@ Sınırlar:
    - `inflation_note`, `data_notes`, `small_text`, `small_rule` ve gerekiyorsa `era_label`, `chart_note`, `chart_note_nominal`: sayfada görünen Türkçe açıklamalar.
    - `en`: aynı metinlerin İngilizcesi (`name`, `exchange`, `cur`, `inflation_note`, `data_notes`, `small_text`, `small_rule`, varsa diğerleri). Zorunludur.
 4. **Yerine al:** `python3 pipeline/accept.py <CC>`. Denetimler tutarsa veri yerine geçer ve süzgeç çalışır. 2. suru geçenler `sırada` görünür. Çıktının sonunda yalnız borç testinden elenenler listelenir; en büyük beşine "Finansman kolu" kuralına göre bak.
-5. **3. sur: oku ve yaz** (aşağıdaki "Rapor yazımı"). Bir çalıştırmada toplam en çok **25 şirket**. Sırayı `python3 pipeline/accept.py <CC> --queue` verir: önce A (dar hendek varsayımıyla bile güvenlik marjı ≥ %25), sonra B (yalnız geniş hendekle ≥ %25), sonra C (fiyatı zaten yetmeyenler, en büyükten küçüğe). Kalanlar "sırada" kalır; sonraki çalıştırmalarda okunur.
+5. **3. sur: oku ve yaz** (aşağıdaki "Rapor yazımı"). Bir çalıştırmada toplam en çok **50 şirket** (Alper'in 12 Kasım 2026 kararı; önce 25 idi). Sırayı `python3 pipeline/accept.py <CC> --queue` verir: önce A (dar hendek varsayımıyla bile güvenlik marjı ≥ %25), sonra B (yalnız geniş hendekle ≥ %25), sonra C (fiyatı zaten yetmeyenler, en büyükten küçüğe). Kalanlar "sırada" kalır; sonraki çalıştırmalarda okunur.
 6. `python3 pipeline/funnel.py <CC> && node pipeline/geo.mjs <CC> && python3 pipeline/build_site.py`.
 7. **Sayfayı dene:** `node pipeline/check_site.cjs <CC>`. Betik ülkeyi açar, beş adımı gezer, bir şirket sayfasını ve yöntemi iki dilde açar, telefonda taşma ve konsol hatası arar. "sayfa denemesi tamam" demezse yayımlama.
 8. **Yayımla:** `git add -A && git commit -m "<Ülke> eklendi: N şirket, K kale" && git pull --rebase origin main && git push origin main`. `docs/` içinde çakışma çıkarsa `python3 pipeline/build_site.py` ile yeniden üret.
 9. **Özet yaz** (çalıştırmanın son mesajı): ülke, şirket sayıları (evren → 1 → 2 → 3 → kale), kaleler, sırada kalan sayısı, denetimde görülen sorunlar.
 
-Yeni ülke yoksa ya da iş erken bittiyse kalan hakla (25 şirket) mevcut ülkelerin "sırada" bekleyen şirketlerini oku: önce fiyatı kale olmaya yetenler.
+Yeni ülke yoksa ya da iş erken bittiyse kalan hakla (50 şirket) mevcut ülkelerin "sırada" bekleyen şirketlerini oku: önce fiyatı kale olmaya yetenler.
 
 ## İş B: haftalık yenileme (cumartesi)
 
 1. `python3 pipeline/accept.py --list`. "yenileme bekliyor" satırları, cumartesi sabahı verisi tazelenmiş ülkelerdir.
 2. Her biri için `python3 pipeline/accept.py <CC>`. Çıktıda "FİNANSMAN KOLU RAKAMI ESKİDİ" satırı varsa önce onu gider ("Finansman kolu"): yeni dönemin rakamlarını oku, `finarm.json`'u güncelle, `python3 pipeline/funnel.py <CC>` ile süzgeci yeniden çalıştır. Yoksa o şirket konsolide borç oranıyla elenmiş görünür. Betik şunları kendisi denetler: şirket sayısı %15 içinde mi, 2. suru geçenlerin en az %70'i aynı mı. Tutmazsa o ülkeye dokunmaz; sen de yayımlama, özetle bildir.
-3. **Raporlar** (çalıştırma başına toplam 25 şirket):
+3. **Raporlar** (çalıştırma başına toplam 50 şirket):
    - Betiğin "durumu değişenler" listesine bak. Kaleye giren ya da kaleden çıkan şirketin `one` cümlesi ve `latest` bölümü yeni duruma uymalı; uymuyorsa güncelle.
    - "raporu güncellenecekler": yeni bilançosu gelen şirketler. Son bilançoyu oku; `latest`, gerekiyorsa `risks` ve puanları güncelle, `per` alanını yeni döneme çevir. Değişmeyenlere dokunma.
    - "sırada" listesindeki yeni şirketleri oku (öncelik sırası İş A'daki gibi).
@@ -202,6 +202,7 @@ Her şirket için önce oku: şirketin ne yaptığı, sahiplik yapısı, son bil
 }
 ```
 
+- **Kale adayını ana oturum kendisi doğrular.** Raporları yardımcı oturumlar yazabilir; ana oturum hepsinin biçimini denetler. Ama süzgeçten sonra kale çıkan ya da güvenlik marjı eşiğe beş puandan yakın olan (kale ya da kapıda) her şirkette ana oturum, yayımlamadan önce şunları şirketin kendi belgesinden (sonuç bülteni, finansal tablo, borsa bildirimi) kendisi okur ve raporla karşılaştırır: son dönemin net kârı ve tarihi, özsermaye, kârı şişiren tek seferlik kalem var mı, B puanının dayandığı rakamlar. Tutmayan rakam düzeltilir; belge açılamıyorsa rapor yazılır ama şirket o çalıştırmada "sırada" bırakılır (raporu `reports.json`'a eklenmez) ve özetine yazılır. Sitede en çok önem taşıyan sonuç "kale" olduğu için denetim oraya yoğunlaşır.
 - `per`: raporu yazarken `universe.json` içindeki bilanço dönemi. Yenilemede hangi raporun eskidiği buradan anlaşılır.
 - `moat` her zaman Türkçe anahtardır: `yok`, `zayıf`, `dar`, `geniş` (sayfa İngilizcesini kendisi gösterir).
 - `en`: Türkçe metnin sade İngilizcesi. Rakamlar aynı kalır, biçimi İngilizce olur. Madde sayıları iki dilde eşit olmalı.
