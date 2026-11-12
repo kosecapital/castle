@@ -1,0 +1,151 @@
+{
+ "000333": {
+  "unit": "million CNY",
+  "eps_cur": "CNY",
+  "ttm": {
+   "eps": 6.27,
+   "net_profit": 47455.0,
+   "tr": "Ekim 2025 - Eylül 2026 (2026 dokuz ay + 2025 yılı − 2025 dokuz ay)",
+   "en": "October 2025 - September 2026 (nine months 2026 + full year 2025 − nine months 2025)",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225645132.PDF"
+  },
+  "tax_rate": 18.4,
+  "gains": [
+   {
+    "tr": "Şirketin 'olağan dışı' diye ayırdığı kalemlerin son 12 aydaki net tutarı (çoğu finansal araçların değer artışı ve yatırım geliri)",
+    "en": "Net total over the last 12 months of the items the company itself classes as non-recurring (mostly fair-value and investment income on financial instruments)",
+    "frac": 0.307,
+    "how": null,
+    "period_tr": null,
+    "period_en": null,
+    "url": null
+   }
+  ],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Primary: Midea Q3 2026 report (cninfo PDF opened this time), 2025 annual results announcement (HKEX), Q3 2025 report (China Securities Journal e-paper, https://epaper.cs.com.cn/zgzqb/images/2025-10/30/B356/zqB35630.pdf). 9M 2026: net profit 41,393.371m, excl. non-recurring 28,787.970m, basic EPS 5.54, diluted 5.48; Q3 2026: 14,947.334m, excl. 9,192.791m. 9M 2025: 37,883.383m, excl. 37,140.080m, diluted EPS 4.97, non-recurring 743.3m. FY2025: 43,945m, basic EPS 5.80, diluted 5.76, excl. non-recurring 41.24bn (rounded by the company). TTM uses diluted EPS (basic would be 6.36). Non-recurring table 9M 2026: asset disposal 542.6; fair value and investment income on financial instruments 14,417.3 (Q3 alone 7,671.6); other 1,111.9; less tax 3,149.8 and minorities 316.6; total 12,605.4. Pre-tax 16,071.8 is my sum of gross lines. TTM non-recurring is about 12,605.4 + 2,705 - 743.3 = 14,567m, about 31% of TTM net profit. The Q3 report itself does not name ChangXin/CXMT; the attribution is from broker notes (Changjiang Securities via https://m.gelonghui.com/news/5344674: fair-value change gains +5.474bn yuan year on year in Q3 'mainly from CXMT listing'; another note, https://m.gelonghui.com/news/5346797, says the Q3 amount is mainly derivative fair-value changes and investment income, +7.13bn year on year, and that FX losses on monetary items (financial expenses swung from -0.76bn to +0.85bn in Q3) sit in recurring profit while the hedging gains are classed non-recurring). So part of the non-recurring gain offsets a recurring FX loss; the split between CXMT and hedging is not disclosed. Q1 2026 non-recurring total was 1,712.8m (https://epaper.cs.com.cn/zgzqb/images/2026-04/30/B326/zqB32630.pdf). Tax rate is my division: 9M 2026 income tax 9,334.1 / total profit 50,832.7 (FY2025: 8,565 / 53,085 = 16.1%). No company profit guidance."
+ },
+ "000651": {
+  "unit": "million CNY",
+  "eps_cur": "CNY",
+  "ttm": {
+   "eps": 4.43,
+   "net_profit": 24815.8,
+   "tr": "Ekim 2025 - Eylül 2026 (2026 dokuz ay + 2025 yılı − 2025 dokuz ay)",
+   "en": "October 2025 - September 2026 (nine months 2026 + full year 2025 − nine months 2025)",
+   "url": "https://tech.ifeng.com/c/8xXqDo2fwdb"
+  },
+  "tax_rate": null,
+  "gains": [
+   {
+    "tr": "Şirketin 'olağan dışı' diye ayırdığı kalemlerin son 12 aydaki net tutarı (devlet destekleri ve finansal araçların değer artışı)",
+    "en": "Net total over the last 12 months of the items the company itself classes as non-recurring (government grants and fair-value gains)",
+    "frac": 0.052,
+    "how": null,
+    "period_tr": null,
+    "period_en": null,
+    "url": null
+   }
+  ],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "9M 2026 not primary (ifeng, 26 Oct 2026; filing not found): net profit 17.274bn, excl. non-recurring 16.403bn, basic = diluted EPS 3.09; Q3 net profit 3.996bn. Primary: 2025 annual report summary and Q1 2026 report (China Securities Journal e-paper): FY2025 net profit 29,003.103m, excl. 27,706.292m, EPS 5.20; quarterly 2025: Q1 5,904.5, Q2 8,507.9, Q3 7,048.9, Q4 7,541.8; Q1 2026 6,082.2m (excl. 5,702.2m). Q3 2025 report (https://static.cninfo.com.cn/finalpage/2025-10-31/1224779019.PDF): 9M 2025 net profit 21,461.337m, EPS 3.86, non-recurring 876.5m (government grants 700.9, fair value/disposal of financial assets 330.3, pre-tax). TTM net profit uses the rounded 17,274 for 9M 2026. TTM non-recurring = 871 + 420.3 = about 1,291m, 5.2% of TTM net profit; it is the usual mix of government grants and fair-value gains at a similar level every year, no single large item. Effective tax rate not read. No company profit guidance."
+ },
+ "002415": {
+  "unit": "million CNY",
+  "eps_cur": "CNY",
+  "ttm": {
+   "eps": 1.941,
+   "net_profit": 17787.6,
+   "tr": "Ekim 2025 - Eylül 2026 (2026 dokuz ay + 2025 yılı − 2025 dokuz ay)",
+   "en": "October 2025 - September 2026 (nine months 2026 + full year 2025 − nine months 2025)",
+   "url": "https://wap.stockstar.com/detail/SN2026101600031849"
+  },
+  "tax_rate": null,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "9M 2026 figures from a Stockstar copy of the Q3 2026 report (not the filing itself, so primary false): net profit 12,911.386m, basic = diluted EPS 1.409; Q3 5,015.681m, EPS 0.547; non-recurring total 215.8m in nine months (32.0m in Q3). Primary for the rest: 2025 annual report summary and Q1 2026 report (https://epaper.cs.com.cn/zgzqb/images/2026-04/18/B158/zqB15818.pdf): FY2025 net profit 14,195.372m, excl. non-recurring 13,703.158m, EPS 1.546; Q3 2025 report (https://pdf.dfcfw.com/pdf/H2_AN202510171763891232_1.pdf): 9M 2025 net profit 9,319.125m, EPS 1.014, non-recurring 348.2m. TTM non-recurring = 215.8 + 492.2 - 348.2 = about 360m, 2.0% of TTM net profit: below the 3% threshold, so no one-off gain listed (items are government grants, small fair-value gains, an 18.3m debt-restructuring gain). No profit guidance (only a revenue expectation). The 10jqka page and the cninfo filing were not opened."
+ },
+ "002668": {
+  "unit": "million CNY",
+  "eps_cur": "CNY",
+  "ttm": {
+   "eps": 0.86,
+   "net_profit": 921.4,
+   "tr": "Ekim 2025 - Eylül 2026 (2026 dokuz ay + 2025 yılı − 2025 dokuz ay)",
+   "en": "October 2025 - September 2026 (nine months 2026 + full year 2025 − nine months 2025)",
+   "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=002668&id=12657160"
+  },
+  "tax_rate": 11.1,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Primary: Q3 2026 report (Sina copy of the filing) and 2025 annual report summary (https://epaper.cs.com.cn/zgzqb/images/2026-03/11/B019/zqB01911.pdf). 9M 2026 net profit 775.408m (9M 2025: 977.436m), excl. non-recurring 729.913m, basic = diluted EPS 0.72 (0.90); FY2025 net profit 1,123.382m, excl. 1,122.058m, EPS 1.04 (Q4 2025 alone 145.946m). Non-recurring 9M 2026 total 45.5m after tax and minorities (fair value/disposal of financial assets 30.8m, reversal of receivable impairment 25.1m, government grants 9.8m, all pre-tax); FY2025 total 1.3m; 9M 2025 about 35.6m (derived from the -22.50% change). TTM non-recurring is about 45.5 + 1.3 - 35.6 = 11m, about 1.2% of TTM net profit: below the 3% threshold, none listed. The other way round, the company says a currency LOSS of about 284m depressed 9M 2026 profit (profit excluding FX 943m, +0.70%; from growth_facts, not re-opened). Tax rate is my division: 9M 2026 income tax 181.7 / total profit 1,632.5. No profit guidance."
+ },
+ "300750": {
+  "unit": "million CNY",
+  "eps_cur": "CNY",
+  "ttm": {
+   "eps": 19.25,
+   "net_profit": 87697.2,
+   "tr": "Ekim 2025 - Eylül 2026 (2026 dokuz ay + 2025 yılı − 2025 dokuz ay)",
+   "en": "October 2025 - September 2026 (nine months 2026 + full year 2025 − nine months 2025)",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225613175.PDF"
+  },
+  "tax_rate": 14.2,
+  "gains": [
+   {
+    "tr": "Şirketin 'olağan dışı' diye ayırdığı kalemlerin son 12 aydaki net tutarı (çoğu devlet desteği türü diğer gelirler ve finansal araçların değer artışı)",
+    "en": "Net total over the last 12 months of the items the company itself classes as non-recurring (mostly grant-type other income and fair-value gains)",
+    "frac": 0.1019,
+    "how": null,
+    "period_tr": null,
+    "period_en": null,
+    "url": null
+   }
+  ],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "All primary (CATL Q3 2026 report and 2025 annual report on cninfo). 9M 2026: net profit 64,530.063m, excl. non-recurring 57,875.782m, basic = diluted EPS 14.13; 9M 2025: 49,034.109m, EPS 11.02; FY2025: 72,201.282m, excl. non-recurring 64,507.864m, EPS 16.14 (Q4 2025 alone 23,167.173m). TTM = 9M 2026 + FY2025 - 9M 2025. Non-recurring 9M 2026 table: asset disposal 304.5, fair value/disposal of financial assets 2,990.5, receivable impairment reversal 1.6, other non-operating 94.9, other items (mainly other income) 6,393.5; less tax 2,164.5 and minorities 966.2; total 6,654.3 (Q3 alone 2,383.6). Pre-tax 9,784.9 is my sum of the gross lines. FY2025 total 7,693.4 is a subtraction; the 9M 2025 non-recurring total (about 5,413) is derived from the stated +32.68% growth of the excl. figure, so the Q4 2025 share (about 2,280) is approximate. TTM non-recurring is therefore roughly 8,930m, about 10% of TTM net profit; most of it is government-grant type 'other income' that recurs every year although the company classes it as non-recurring. Tax rate is my division: 9M 2026 income tax 11,529.6 / total profit 81,028.0. No company profit guidance."
+ },
+ "600519": {
+  "unit": "million CNY",
+  "eps_cur": "CNY",
+  "ttm": {
+   "eps": 65.66,
+   "net_profit": 82160,
+   "tr": "Ekim 2025 - Eylül 2026 (2025 yılı eksi dokuz ayı, artı 2026'nın dokuz ayı)",
+   "en": "October 2025 - September 2026 (2025 minus its nine months, plus nine months 2026)",
+   "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649896.PDF"
+  },
+  "tax_rate": 25.1,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "The Q3 2026 report itself was opened this time (cninfo PDF, primary): nine-month net profit to shareholders 64,467.4 million yuan (-0.25%), Q3 19,950.5 million (+3.78%), basic and diluted EPS 51.53 for nine months (0.00% change) and 15.96 for Q3. TTM is arithmetic: 2025 net profit 82,320 million and basic EPS 65.66 (secondary: The Paper, 17 Apr 2026, https://www.thepaper.cn/newsDetail_forward_32988235; Xinhua gives the same profit) minus nine months 2025 (about 64,629 million, derived from the -0.25% change; EPS 51.53 per the 0.00% change) plus nine months 2026. ttm.primary is false only because the 2025 full-year figures are from news reports; the annual report was not opened. No company profit guidance: the 2025 annual report set no revenue target for 2026 (Xinhua, Yicai). Non-recurring items are tiny: 142.6 million yuan after tax in nine months 2026 (fair-value and disposal gains on financial assets 121.3 million, government grants 34.4 million, other 40.7 million; before tax and minorities), about 0.2% of profit; net profit excluding them 64,324.8 million (-0.55%). 2025 non-recurring items not found. Tax rate 25.1% is computed for nine months 2026 (22,300.5 / 89,017.7)."
+ },
+ "601838": {
+  "unit": "million CNY",
+  "eps_cur": "CNY",
+  "ttm": {
+   "eps": 3.11,
+   "net_profit": 13708.4,
+   "tr": "Ekim 2025 - Eylül 2026 (2026 dokuz ay + 2025 yılı − 2025 dokuz ay)",
+   "en": "October 2025 - September 2026 (nine months 2026 + full year 2025 − nine months 2025)",
+   "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=601838&id=12671870"
+  },
+  "tax_rate": 13.2,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "9M 2026 from the bank's Q3 2026 report (Sina copy of the filing): net profit 9,917.974m (9M 2025: 9,492.539m), basic = diluted EPS 2.28 (2.24); Q3 3,013.455m, EPS 0.65 (-4.41% although profit rose 4.78%: more shares outstanding). FY2025 from the bank's own action-plan evaluation report (https://pdf.dfcfw.com/pdf/H2_AN202604221821462040_1.pdf): net profit 13.283bn (rounded), basic EPS 3.07; the 2025 annual report itself was not opened, so FY2025 diluted EPS and the excl.-non-recurring figure were not read. TTM EPS 3.11 = 2.28 + 3.07 - 2.24 (basic for 2025); net profit uses the rounded 13,283. Non-recurring items are negligible: 61.1m after tax in 9M 2026 (government subsidies 79.9m pre-tax), 0.6% of profit; none listed. Tax rate is my division: 9M 2026 income tax 1,509.4 / total profit 11,427.4. No profit guidance."
+ }
+}

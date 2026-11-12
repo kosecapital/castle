@@ -582,6 +582,14 @@
     "en": "The formula gave growth of 11.5% a year. Latest figures (net profit, year on year): year to May 2026 143.2%; June-August 2026 quarter 0.6%; company forecast for the year to May 2027 4.2%. The jump in the year to May 2026 was a one-off: in April 2025 energy-efficiency conformity became mandatory for all new buildings. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 5.7%."
    },
    "per": "2026-Q1"
+  },
+  "earn": {
+   "k": 1.0,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Negatif şerefiye kazancı 95 milyon yen; aynı yıl olağan dışı giderler daha büyük (281 milyon yen). Şirketin Mayıs 2027'de biten yıl için hisse başına kâr beklentisi 145,32 JPY; son 12 ayda 139,91 JPY. Beklenti daha düşük değil.",
+    "en": "The calculation rests on the profit of the last 12 months. Negative goodwill gain of 95 million yen; extraordinary losses in the same year were larger (281 million yen). The company's earnings-per-share outlook for year to May 2027 is 145.32 JPY; the last 12 months were 139.91 JPY. The outlook is not lower."
+   },
+   "per": "2026-Q1"
   }
  },
  "6547": {
@@ -1042,6 +1050,14 @@
     "en": "The formula gave growth of 16.1% a year. Latest figures (earnings per share, year on year): year to September 2026 (net profit) 13.8%; company forecast for the year to September 2027 5.6%. The lowest, after inflation, is 3.4%. Because this is less than half the formula's rate, the midpoint of the two was used: 9.7%. The data source has no dividend yield; 3.5% was calculated from the dividend of 50 JPY per share the company declared for the year to September 2026."
    },
    "per": "2026-Q4"
+  },
+  "earn": {
+   "k": 1.0,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Şirketin Eylül 2027'de biten yıl için hisse başına kâr beklentisi 175,33 JPY; son 12 ayda 165,62 JPY. Beklenti daha düşük değil.",
+    "en": "The calculation rests on the profit of the last 12 months. The company's earnings-per-share outlook for year to September 2027 is 175.33 JPY; the last 12 months were 165.62 JPY. The outlook is not lower."
+   },
+   "per": "2026-Q4"
   }
  },
  "8301": {
@@ -1308,6 +1324,14 @@
     "en": "The formula gave growth of 4.7% a year. Latest figures (earnings per share, year on year): January-September 2026 20.2% (the company's adjusted figure; reported 22.8%); July-September 2026 quarter (nine months minus six months, derived; net profit) 15.6% (the company's adjusted figure; reported 29.1%); company forecast for 2026 (Core basis, unchanged) 7.7%. Adjustment: The company's own Core measure (excluding 1.9 billion yen of intangible amortisation and 11.6 billion yen of restructuring costs): Core net income 384.7 billion yen in nine months. Also, third-quarter domestic sales were lifted temporarily by wholesaler shipments brought forward before a system change, and there was one-time income (amount not disclosed). The lowest, after inflation, is 5.5%. That is not less than half the formula's rate; the rate was not lowered."
    },
    "per": "2026-Q3"
+  },
+  "earn": {
+   "k": 0.964,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Şirketin 2026 yılı için hisse başına kâr beklentisi 295,00 JPY (şirketin düzeltilmiş ölçüsü); son 12 ayda 306,09 JPY. Beklenti daha düşük olduğu için kazanç bu orana indirildi (%3,6). Son 12 ayın kârı 0,96 ile çarpılarak kullanıldı.",
+    "en": "The calculation rests on the profit of the last 12 months. The company's earnings-per-share outlook for 2026 is 295.00 JPY (the company's adjusted measure); the last 12 months were 306.09 JPY. Because the outlook is lower, earnings were lowered to that ratio (3.6%). Last-12-month profit was used multiplied by 0.96."
+   },
+   "per": "2026-Q3"
   }
  },
  "5803": {
@@ -1373,6 +1397,16 @@
     "t": "Büyüme yargısının kaynağı: Nisan-Eylül 2026",
     "te": "Source for the growth judgment: April-September 2026",
     "u": "https://s.kabutan.jp/news/k202611100051/"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://japanir.jp/wp-content/uploads/2026/11/5803-20261110-02.pdf"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://japanir.jp/wp-content/uploads/2026/11/5803-20261110-01.pdf"
    }
   ],
   "en": {
@@ -1400,6 +1434,14 @@
    "basis": {
     "tr": "Formül yılda %22,2 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Nisan-Eylül 2026 %168,5; Temmuz-Eylül 2026 çeyreği %178,7; Mart 2027'de biten yıl için şirket beklentisi %107,4. En düşüğü, enflasyondan arındırılınca, %103,2. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
     "en": "The formula gave growth of 22.2% a year. Latest figures (net profit, year on year): April-September 2026 168.5%; July-September 2026 quarter 178.7%; company forecast for the year to March 2027 107.4%. The lowest, after inflation, is 103.2%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q2"
+  },
+  "earn": {
+   "k": 1.0,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Olağan dışı gelir 8,0 milyar yen, olağan dışı gider 3,7 milyar yen; net etkisi son 12 ay kârının %3'ünün altında. Şirketin Mart 2027'de biten yıl için hisse başına kâr beklentisi 196,86 JPY; son 12 ayda 163,24 JPY. Beklenti daha düşük değil.",
+    "en": "The calculation rests on the profit of the last 12 months. Extraordinary income was 8.0 billion yen and extraordinary losses 3.7 billion; the net effect is under 3% of last-12-month profit. The company's earnings-per-share outlook for year to March 2027 is 196.86 JPY; the last 12 months were 163.24 JPY. The outlook is not lower."
    },
    "per": "2026-Q2"
   }
@@ -1496,6 +1538,14 @@
     "en": "The formula gave growth of 16.5% a year. Latest figures (earnings per share, year on year): April-September 2026 71.0%; July-September 2026 quarter 68.8%; company forecast for the year to March 2027 55.2%. The lowest, after inflation, is 52.0%. That is not less than half the formula's rate; the rate was not lowered."
    },
    "per": "2026-Q1"
+  },
+  "earn": {
+   "k": 1.0,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Şirketin Mart 2027 mali yılı için hisse başına kâr beklentisi 543,00 JPY; son 12 ayda 472,67 JPY. Beklenti daha düşük değil.",
+    "en": "The calculation rests on the profit of the last 12 months. The company's earnings-per-share outlook for fiscal year to March 2027 is 543.00 JPY; the last 12 months were 472.67 JPY. The outlook is not lower."
+   },
+   "per": "2026-Q1"
   }
  },
  "6857": {
@@ -1561,6 +1611,11 @@
     "t": "SemiVision: Advantest ve test cihazı pazarı (10 Ağu 2025)",
     "te": "SemiVision: Advantest leading the AI testing wave (10 Aug 2025)",
     "u": "https://tspasemiconductor.substack.com/p/advantest-leading-the-ai-testing"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://www.advantest.com/news/2026/a81o6o0000000hgw-att/E_FR_FY2025_FN.pdf"
    }
   ],
   "en": {
@@ -1588,6 +1643,14 @@
    "basis": {
     "tr": "Formül yılda %25,0 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Nisan-Eylül 2026 %118,6; Temmuz-Eylül 2026 çeyreği (altı aylık eksi ilk çeyrek, türetildi; net kâr) %142,7; Mart 2027 yılı için şirket tahmini (28 Ekim'de yükseltildi) %99,4. En düşüğü, enflasyondan arındırılınca, %95,3. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
     "en": "The formula gave growth of 25.0% a year. Latest figures (earnings per share, year on year): April-September 2026 118.6%; July-September 2026 quarter (six months minus first quarter, derived; net profit) 142.7%; company forecast for the year to March 2027 (raised on 28 October) 99.4%. The lowest, after inflation, is 95.3%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q2"
+  },
+  "earn": {
+   "k": 0.909,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Bu kârın içindeki tek seferlik kazançlar: Stratejik yatırımlara bağlı finansal araçların değerleme kazancı (finansal gelir içinde): son 12 ay kârının %6,9 kadarı; Stratejik yatırımlarla edinilen hisse alım opsiyonlarının değer artışı (finansal gelir içinde): son 12 ay kârının %2,2 kadarı. Net etki %9,0; kazanç bu kadar indirildi. Şirketin Mart 2027 mali yılı için hisse başına kâr beklentisi 1027,08 JPY; son 12 ayda 787,93 JPY. Beklenti daha düşük değil. Son 12 ayın kârı 0,91 ile çarpılarak kullanıldı.",
+    "en": "The calculation rests on the profit of the last 12 months. One-off gains inside that profit: Valuation gains on financial instruments related to strategic investments (within financial income): 6.9% of last-12-month profit; Fair-value gain on share call options acquired through strategic investments (within financial income): 2.2% of last-12-month profit. The net effect is 9.0%; earnings were lowered by that much. The company's earnings-per-share outlook for fiscal year to March 2027 is 1027.08 JPY; the last 12 months were 787.93 JPY. The outlook is not lower. Last-12-month profit was used multiplied by 0.91."
    },
    "per": "2026-Q2"
   }
@@ -1655,6 +1718,21 @@
     "t": "Gyokai Digest: HOYA, MID Labs'i Bausch + Lomb'a satıyor (9 Ekim 2026)",
     "te": "Gyokai Digest: HOYA to sell MID Labs to Bausch + Lomb (9 October 2026)",
     "u": "https://www.gyokaidigest.com/en/disclosures/7741-tdnet-20261009-140120261009548466"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://japanir.jp/wp-content/uploads/2026/10/7741-20261030-01.pdf"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://www.hoya.com/wp-content/uploads/2026/02/7921484a82cf3225cf5fd43a0b4a4a91.pdf"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://www.hoya.com/wp-content/uploads/2026/04/FY25-Q3-FAQ-en-1.pdf"
    }
   ],
   "en": {
@@ -1682,6 +1760,14 @@
    "basis": {
     "tr": "Formül yılda %10,4 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Nisan-Eylül 2026 %30,4; Temmuz-Eylül 2026 çeyreği (altı aylık eksi ilk çeyrek, türetildi) %30,8. En düşüğü, enflasyondan arındırılınca, %27,7. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
     "en": "The formula gave growth of 10.4% a year. Latest figures (earnings per share, year on year): April-September 2026 30.4%; July-September 2026 quarter (six months minus first quarter, derived) 30.8%. The lowest, after inflation, is 27.7%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q2"
+  },
+  "earn": {
+   "k": 0.917,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Bu kârın içindeki tek seferlik kazançlar: Çin'deki göz içi lens ortak girişiminin kalan payının alımı: ödenen bedel, önceden yazılan yükümlülükten düşük kaldı; aradaki fark gelir yazıldı (nakit girişi yok): son 12 ay kârının %6,4 kadarı; İki iş satışının kazancı (bazı endoskop ürünleri ve metinden sese yazılım işi); şirket \"7 milyar yenin biraz üstü\" diyor: son 12 ay kârının %1,9 kadarı. Net etki %8,3; kazanç bu kadar indirildi. Son 12 ayın kârı 0,92 ile çarpılarak kullanıldı.",
+    "en": "The calculation rests on the profit of the last 12 months. One-off gains inside that profit: Buyout of the remaining stake in the China intraocular lens joint venture: the price paid was below the liability booked earlier and the difference was recognised as income (no cash inflow): 6.4% of last-12-month profit; Gain on two divestitures (certain endoscope products and the text-to-speech software business); the company says \"slightly over 7 billion yen\": 1.9% of last-12-month profit. The net effect is 8.3%; earnings were lowered by that much. Last-12-month profit was used multiplied by 0.92."
    },
    "per": "2026-Q2"
   }
@@ -1749,6 +1835,16 @@
     "t": "Büyüme yargısının kaynağı: Mart 2027 yılı için şirket tahmini",
     "te": "Source for the growth judgment: company forecast for the year to March 2027",
     "u": "https://edinetdb.jp/company/E02652/earnings/FY2027-Q2"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://www.tel.co.jp/ir/irta3a00000006g5-att/fy27q2tanshin-j.pdf"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://envalith.com/en/companies/8035/reports/019dddc3-3153-7b46-ad0f-e41e62e4fe24"
    }
   ],
   "en": {
@@ -1776,6 +1872,14 @@
    "basis": {
     "tr": "Formül yılda %5,2 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Nisan-Eylül 2026 %56,0; Temmuz-Eylül 2026 çeyreği (altı aylık eksi ilk çeyrek, türetildi) %71,7; Mart 2027 yılı için şirket tahmini %50,6. En düşüğü, enflasyondan arındırılınca, %47,5. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
     "en": "The formula gave growth of 5.2% a year. Latest figures (net profit, year on year): April-September 2026 56.0%; July-September 2026 quarter (six months minus first quarter, derived) 71.7%; company forecast for the year to March 2027 50.6%. The lowest, after inflation, is 47.5%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q2"
+  },
+  "earn": {
+   "k": 0.837,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Bu kârın içindeki tek seferlik kazançlar: Stratejik ortaklık paylarının (yatırım amaçlı menkul kıymetlerin) satış kazancı, olağan dışı gelir. Ekim-Aralık 2025 çeyreğinde 37,2 milyar yen (şirket yönetiminin açıklaması); kalanı Ocak-Mart 2026 çeyreğinde (yaklaşık 78,3 milyar yen, türetildi): son 12 ay kârının %16,3 kadarı (vergi öncesi tutar; vergi etkisi açıklanmadığı için düşülmedi). Net etki %16,3; kazanç bu kadar indirildi. Şirketin Mart 2027 mali yılı için hisse başına kâr beklentisi 381,69 JPY; son 12 ayda 311,58 JPY. Beklenti daha düşük değil. Son 12 ayın kârı 0,84 ile çarpılarak kullanıldı.",
+    "en": "The calculation rests on the profit of the last 12 months. One-off gains inside that profit: Gain on sales of investment securities (strategic shareholdings), extraordinary income. 37.2 billion yen in the October-December 2025 quarter (stated by management); the rest in the January-March 2026 quarter (about 78.3 billion yen, derived): 16.3% of last-12-month profit (pre-tax amount; the tax effect is not disclosed, so it was not deducted). The net effect is 16.3%; earnings were lowered by that much. The company's earnings-per-share outlook for fiscal year to March 2027 is 381.69 JPY; the last 12 months were 311.58 JPY. The outlook is not lower. Last-12-month profit was used multiplied by 0.84."
    },
    "per": "2026-Q2"
   }
@@ -1902,6 +2006,11 @@
     "t": "Büyüme yargısının kaynağı: Haziran-Ağustos 2026 çeyreği (yıllık eksi dokuz aylık, türetildi)",
     "te": "Source for the growth judgment: June-August 2026 quarter (full year minus nine months, derived)",
     "u": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0709/2026070900203.pdf"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://www.fastretailing.com/jp/ir/library/pdf/tanshin202608_4q.pdf"
    }
   ],
   "en": {
@@ -1929,6 +2038,14 @@
    "basis": {
     "tr": "Formül yılda %11,2 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Eylül 2025-Ağustos 2026 mali yılı %25,3; Haziran-Ağustos 2026 çeyreği (yıllık eksi dokuz aylık, türetildi) %24,0; Ağustos 2027 yılı için şirket tahmini %3,2. En düşüğü, enflasyondan arındırılınca, %1,1. Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %6,1.",
     "en": "The formula gave growth of 11.2% a year. Latest figures (net profit, year on year): fiscal year September 2025-August 2026 25.3%; June-August 2026 quarter (full year minus nine months, derived) 24.0%; company forecast for the year to August 2027 3.2%. The lowest, after inflation, is 1.1%. Because this is less than half the formula's rate, the midpoint of the two was used: 6.1%."
+   },
+   "per": "2026-Q4"
+  },
+  "earn": {
+   "k": 1.0,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Şirketin Ağustos 2027 mali yılı için hisse başına kâr beklentisi 1825,06 JPY; son 12 ayda 1765,70 JPY. Beklenti daha düşük değil.",
+    "en": "The calculation rests on the profit of the last 12 months. The company's earnings-per-share outlook for fiscal year to August 2027 is 1825.06 JPY; the last 12 months were 1765.70 JPY. The outlook is not lower."
    },
    "per": "2026-Q4"
   }

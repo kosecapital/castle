@@ -61,6 +61,16 @@
     "t": "Midas: Ford Otosan, Koç Finansman'ı 130,6 milyon dolara satın aldı (1 Tem 2026)",
     "te": "Midas: Ford Otosan bought Koç Finansman for 130.6 million dollars (1 Jul 2026)",
     "u": "https://www.getmidas.com/midasin-kulaklari/ford-otosan-koc-finansmani-1306-milyon-dolara-satin-aldi-p-572808"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://kap.org.tr/en/api/BildirimPdf/1693370"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://www.fordotosan.com.tr/documents/Documents/Ozel_Durum_Aciklamalari/january-1-june-30-2026-condensed-interim-consolidated-financial-statements.pdf"
    }
   ],
   "per": "9/2026",
@@ -89,6 +99,14 @@
    "basis": {
     "tr": "Formül yılda %0,0 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %−33,6; Temmuz-Eylül 2026 çeyreği %−23,4. Rakamlar enflasyon muhasebesiyle hazırlandığı için zaten reeldir. Formül zaten sıfır büyüme varsayıyor; indirilecek bir şey yok.",
     "en": "The formula gave growth of 0.0% a year. Latest figures (net profit, year on year): January-September 2026 −33.6%; July-September 2026 quarter −23.4%. The figures are prepared under inflation accounting, so they are already real. The formula already assumes zero growth; there is nothing to lower."
+   },
+   "per": "9/2026"
+  },
+  "earn": {
+   "k": 0.913,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Bu kârın içindeki tek seferlik kazançlar: Nisan-Haziran 2026 çeyreğinde ertelenmiş vergi geliri (çeyreğin toplam vergi geliri 2.777,5). Şirket, imalat kazancında kurumlar vergisi oranını %12,5'e indiren düzenleme (4 Haziran 2026) sonrası ertelenmiş vergi bakiyelerinin yeni oranla yeniden ölçüldüğünü söylüyor; yeniden ölçümün tutarını ayrıca açıklamıyor: son 12 ay kârının %8,7 kadarı. Net etki %8,7; kazanç bu kadar indirildi. Son 12 ayın kârı 0,91 ile çarpılarak kullanıldı.",
+    "en": "The calculation rests on the profit of the last 12 months. One-off gains inside that profit: Deferred tax income in the April-June 2026 quarter (total tax income for the quarter 2,777.5). The company says deferred tax balances were remeasured after the regulation of 4 June 2026 cut the corporate tax rate on manufacturing income to 12.5%; it does not disclose the remeasurement amount separately: 8.7% of last-12-month profit. The net effect is 8.7%; earnings were lowered by that much. Last-12-month profit was used multiplied by 0.91."
    },
    "per": "9/2026"
   }
@@ -176,6 +194,14 @@
     "en": "The formula gave growth of 0.0% a year. Latest figures (net profit, year on year): January-September 2026 −22.7%; July-September 2026 quarter 4.3%. The figures are prepared under inflation accounting, so they are already real. The formula already assumes zero growth; there is nothing to lower."
    },
    "per": "9/2026"
+  },
+  "earn": {
+   "k": 1.0,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı.",
+    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are."
+   },
+   "per": "9/2026"
   }
  },
  "CCOLA": {
@@ -229,6 +255,11 @@
     "t": "Büyüme yargısının kaynağı: Ocak-Eylül 2026",
     "te": "Source for the growth judgment: January-September 2026",
     "u": "https://www.yatirimx.com.tr/sirket-haberleri/coca-cola-icecek-9-aylik-bilancosunu-acikladi-net-kr-224-milyar-tl/27613"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://kap.org.tr/en/api/BildirimPdf/1691889"
    }
   ],
   "per": "9/2026",
@@ -256,6 +287,14 @@
    "basis": {
     "tr": "Formül yılda %0,0 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %23,1; Temmuz-Eylül 2026 çeyreği %−16,4. Rakamlar enflasyon muhasebesiyle hazırlandığı için zaten reeldir. Formül zaten sıfır büyüme varsayıyor; indirilecek bir şey yok.",
     "en": "The formula gave growth of 0.0% a year. Latest figures (net profit, year on year): January-September 2026 23.1%; July-September 2026 quarter −16.4%. The figures are prepared under inflation accounting, so they are already real. The formula already assumes zero growth; there is nothing to lower."
+   },
+   "per": "9/2026"
+  },
+  "earn": {
+   "k": 1.0,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı.",
+    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are."
    },
    "per": "9/2026"
   }
@@ -352,6 +391,14 @@
     "en": "The formula gave growth of 12.3% a year. Latest figures (net profit, year on year): January-September 2026 −1.5%. The figures are prepared under inflation accounting, so they are already real. The business in India was stopped by a government decision on 15 May 2025; it was about a third of group revenue in 2024 and is part of past growth. Growth of the remaining business, from profit on continuing operations: 2.84 billion TRY in the first nine months of 2026, against 2.74 billion a year earlier in the same money: 3.4% a year. This rate was used instead of past growth: 3.4%."
    },
    "per": "9/2026"
+  },
+  "earn": {
+   "k": 1.0,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı.",
+    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are."
+   },
+   "per": "9/2026"
   }
  },
  "MPARK": {
@@ -410,6 +457,11 @@
     "t": "Büyüme yargısının kaynağı: Temmuz-Eylül 2026 çeyreği",
     "te": "Source for the growth judgment: July-September 2026 quarter",
     "u": "https://www.foreks.com/haber/detay/6aec15164b1852391445c1f3/FRKS/tr/hisse-degerlendirmesi-fiba-yatirim-mlp-saglik-icin-hedef-fiyatini-728-50-tl-ve-tavsiyesini-endeksin-uzerinde-getiri-olarak-korudu-05-11-26/"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://kap.org.tr/tr/api/BildirimPdf/1692568"
    }
   ],
   "per": "9/2026",
@@ -437,6 +489,14 @@
    "basis": {
     "tr": "Formül yılda %0,0 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %5,0; Temmuz-Eylül 2026 çeyreği %6,0. Rakamlar enflasyon muhasebesiyle hazırlandığı için zaten reeldir. Formül zaten sıfır büyüme varsayıyor; indirilecek bir şey yok.",
     "en": "The formula gave growth of 0.0% a year. Latest figures (net profit, year on year): January-September 2026 5.0%; July-September 2026 quarter 6.0%. The figures are prepared under inflation accounting, so they are already real. The formula already assumes zero growth; there is nothing to lower."
+   },
+   "per": "9/2026"
+  },
+  "earn": {
+   "k": 1.0,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Sabit kıymet yeniden değerlemesinin ertelenmiş vergi etkisi (559 milyon TL) şirketçe tek seferlik sayılmıyor ve yinelenip yinelenmeyeceği belirtilmiyor; kazançtan düşülmedi.",
+    "en": "The calculation rests on the profit of the last 12 months. The deferred-tax effect of the fixed-asset revaluation (559 million TRY) is not called one-off by the company and nothing says whether it recurs; it was not deducted."
    },
    "per": "9/2026"
   }
@@ -497,6 +557,11 @@
     "t": "Büyüme yargısının kaynağı: Ocak-Eylül 2026",
     "te": "Source for the growth judgment: January-September 2026",
     "u": "https://arastirma.isyatirim.com.tr/2026/11/10/bimas-is-bim-3c-2026-kar-analizi/"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://kap.org.tr/en/api/BildirimPdf/1695704"
    }
   ],
   "per": "9/2026",
@@ -524,6 +589,14 @@
    "basis": {
     "tr": "Formül yılda %0,0 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %79,1; Temmuz-Eylül 2026 çeyreği %51,8. Rakamlar enflasyon muhasebesiyle hazırlandığı için zaten reeldir. Formül zaten sıfır büyüme varsayıyor; indirilecek bir şey yok.",
     "en": "The formula gave growth of 0.0% a year. Latest figures (net profit, year on year): January-September 2026 79.1%; July-September 2026 quarter 51.8%. The figures are prepared under inflation accounting, so they are already real. The formula already assumes zero growth; there is nothing to lower."
+   },
+   "per": "9/2026"
+  },
+  "earn": {
+   "k": 1.0,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı.",
+    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are."
    },
    "per": "9/2026"
   }
@@ -602,6 +675,14 @@
    "basis": {
     "tr": "Formül yılda %3,9 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Şubat-Temmuz 2026 (mali yılın ilk yarısı) %−33,0; Mayıs-Temmuz 2026 çeyreği %−13,6. Rakamlar enflasyon muhasebesiyle hazırlandığı için zaten reeldir. En düşüğü %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %1,9.",
     "en": "The formula gave growth of 3.9% a year. Latest figures (net profit, year on year): February-July 2026 (first half of the fiscal year) −33.0%; May-July 2026 quarter −13.6%. The figures are prepared under inflation accounting, so they are already real. The lowest is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 1.9%."
+   },
+   "per": "6/2026"
+  },
+  "earn": {
+   "k": 1.0,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı.",
+    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are."
    },
    "per": "6/2026"
   }
@@ -992,6 +1073,11 @@
     "t": "İş Yatırım: Tofaş şirket güncellemesi (16 Şub 2026)",
     "te": "İş Yatırım: Tofaş company update (16 Feb 2026)",
     "u": "https://arastirma.isyatirim.com.tr/wp-content/uploads/2026/02/TOASO_Sirket-Guncelleme_160226.pdf"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://kap.org.tr/en/api/BildirimPdf/1693478"
    }
   ],
   "en": {
@@ -1019,6 +1105,14 @@
    "basis": {
     "tr": "Formül yılda %0,0 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %188,6; Temmuz-Eylül 2026 çeyreği %175,9. Rakamlar enflasyon muhasebesiyle hazırlandığı için zaten reeldir. Formül zaten sıfır büyüme varsayıyor; indirilecek bir şey yok.",
     "en": "The formula gave growth of 0.0% a year. Latest figures (net profit, year on year): January-September 2026 188.6%; July-September 2026 quarter 175.9%. The figures are prepared under inflation accounting, so they are already real. The formula already assumes zero growth; there is nothing to lower."
+   },
+   "per": "9/2026"
+  },
+  "earn": {
+   "k": 1.0,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı.",
+    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are."
    },
    "per": "9/2026"
   }

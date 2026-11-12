@@ -1,11 +1,14 @@
 #!/usr/bin/env python3
-"""Büyüme yargısı: toplanan güncel gerçeklerden (data/<CC>/growth_facts.json) her şirketin `growth` kaydını aynı kuralla üretir
-ve data/<CC>/reports.json içine yazar. Kural CLAUDE.md, "Büyüme yargısı" başlığındadır. İnternet kullanmaz.
+"""Kazanç ve büyüme yargısı: toplanan güncel gerçeklerden (data/<CC>/earn_facts.json, growth_facts.json) her şirketin `earn` ve
+`growth` kaydını aynı kuralla üretir ve data/<CC>/reports.json içine yazar. Kurallar CLAUDE.md, "Kazanç yargısı" ve "Büyüme yargısı"
+başlıklarındadır. İnternet kullanmaz. Sırası: kazanç yargısı, süzgeç (formülün büyüme hızı yeni kazançla hesaplanır), büyüme yargısı, süzgeç.
 
-  python3 pipeline/growth_judgment.py TR US     # bu ülkelerde gerçek kaydı olan şirketlerin yargısını yeniden yaz
-Sonra: python3 pipeline/funnel.py <CC>
+  python3 pipeline/growth_judgment.py TR US     # bu ülkelerde gerçek kaydı olan şirketlerin yargılarını yeniden yaz ve süzgeci çalıştır
 """
 import json, os, sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import funnel  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 J = lambda *p: os.path.join(ROOT, *p)
@@ -82,6 +85,80 @@ def judge(f, gm, cpi, real_already):
     return out
 
 
+def judge_earn(f):
+    """Kazanç yargısı. Döner: earn kaydı (k = 1 ise indirim yok). Yalnız indirir.
+    Tek seferlik kazançlar (eksi aynı dönemin tek seferlik giderleri) son 12 ay kârının %3'ünü geçiyorsa o oran düşülür.
+    Şirketin kendi hisse başına kâr beklentisi son 12 ayın altındaysa kazanç o orana indirilir. İkisinden düşük olan çarpan alınır."""
+    eps, cur = (f.get("ttm") or {}).get("eps"), f.get("eps_cur") or ""
+    gs, os_ = f.get("gains") or [], f.get("offsets") or []
+    net = sum(g["frac"] for g in gs) - sum(o["frac"] for o in os_)
+    k_one = 1 - net if net >= 0.03 else 1.0
+    gd = [g for g in (f.get("guidance") or []) if eps]
+    low = min(gd, key=lambda g: g["mid"]) if gd else None
+    k_g = min(1.0, low["mid"] / eps) if low else 1.0
+    k = max(0.2, round(min(k_one, k_g), 3))
+    p = lambda x: tr(100 * x)
+    q = lambda x: en(100 * x)
+    b_tr, b_en = "Hesap son 12 ayın kârına dayanır.", "The calculation rests on the profit of the last 12 months."
+    if gs:
+        tax_tr = lambda g: " (vergi öncesi tutar; vergi etkisi açıklanmadığı için düşülmedi)" if g.get("how") == "pretax" else ""
+        tax_en = lambda g: " (pre-tax amount; the tax effect is not disclosed, so it was not deducted)" if g.get("how") == "pretax" else ""
+        b_tr += " Bu kârın içindeki tek seferlik kazançlar: " + "; ".join(f"{g['tr']}: son 12 ay kârının %{p(g['frac'])} kadarı{tax_tr(g)}" for g in gs) + "."
+        b_en += " One-off gains inside that profit: " + "; ".join(f"{g['en']}: {q(g['frac'])}% of last-12-month profit{tax_en(g)}" for g in gs) + "."
+    if os_:
+        b_tr += " Aynı dönemin tek seferlik giderleri: " + "; ".join(f"{o['tr']}: %{p(o['frac'])}" for o in os_) + "."
+        b_en += " One-off charges in the same period: " + "; ".join(f"{o['en']}: {q(o['frac'])}%" for o in os_) + "."
+    if f.get("drop"):
+        b_tr += " " + f["drop"]["tr"]; b_en += " " + f["drop"]["en"]
+    if gs or os_:
+        if net >= 0.03:
+            b_tr += f" Net etki %{p(net)}; kazanç bu kadar indirildi."; b_en += f" The net effect is {q(net)}%; earnings were lowered by that much."
+        elif net > 0:
+            b_tr += f" Net etki %{p(net)}; %3'ün altında olduğu için dikkate alınmadı."; b_en += f" The net effect is {q(net)}%; being under 3%, it was disregarded."
+        else:
+            b_tr += " Giderler kazançlardan büyük; kazanç indirilmedi (yargı kazancı yükseltmez)."; b_en += " The charges exceed the gains; earnings were not lowered (the judgment never raises earnings)."
+    if low:
+        kind_tr = " (şirketin düzeltilmiş ölçüsü)" if low.get("kind") == "adjusted" else ""
+        kind_en = " (the company's adjusted measure)" if low.get("kind") == "adjusted" else ""
+        b_tr += f" Şirketin {low['fy_tr']} için hisse başına kâr beklentisi {tr(low['mid'], 2)} {cur}{kind_tr}; son 12 ayda {tr(eps, 2)} {cur}."
+        b_en += f" The company's earnings-per-share outlook for {low['fy_en']} is {en(low['mid'], 2)} {cur}{kind_en}; the last 12 months were {en(eps, 2)} {cur}."
+        if k_g < 1:
+            b_tr += f" Beklenti daha düşük olduğu için kazanç bu orana indirildi (%{p(1 - k_g)})."; b_en += f" Because the outlook is lower, earnings were lowered to that ratio ({q(1 - k_g)}%)."
+        else:
+            b_tr += " Beklenti daha düşük değil."; b_en += " The outlook is not lower."
+    elif not (gs or os_ or f.get("drop")):
+        b_tr += " Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı."
+        b_en += " The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are."
+    if k < 1:
+        b_tr += f" Son 12 ayın kârı {tr(k, 2)} ile çarpılarak kullanıldı."; b_en += f" Last-12-month profit was used multiplied by {en(k, 2)}."
+    return dict(k=k, basis=dict(tr=b_tr, en=b_en))
+
+
+def run_earn(cc):
+    p = J("data", cc, "earn_facts.json")
+    if not os.path.exists(p):
+        return
+    facts = json.load(open(p, encoding="utf-8"))
+    core = json.load(open(J("data", cc, "core.json"), encoding="utf-8"))
+    rp = J("data", cc, "reports.json")
+    reports = json.load(open(rp, encoding="utf-8"))
+    byc = {u["c"]: u for u in core["U"]}
+    for c, f in facts.items():
+        if c not in reports or c not in byc:
+            continue
+        rec = judge_earn(f)
+        rec["per"] = byc[c].get("per")
+        reports[c]["earn"] = rec
+        have = {s["u"] for s in reports[c]["sources"]}
+        for m in [f.get("ttm") or {}] + (f.get("gains") or []) + (f.get("guidance") or []):
+            if m.get("url") and m["url"] not in have:
+                have.add(m["url"])
+                reports[c]["sources"].append(dict(t="Kazanç yargısının kaynağı", te="Source for the earnings judgment", u=m["url"]))
+        if rec["k"] < 1:
+            print(f"  {cc} {c:10} kazanç çarpanı {rec['k']}")
+    open(rp, "w", encoding="utf-8").write(json.dumps(reports, ensure_ascii=False, indent=1) + "\n")
+
+
 def run(cc):
     facts = json.load(open(J("data", cc, "growth_facts.json"), encoding="utf-8"))
     core = json.load(open(J("data", cc, "core.json"), encoding="utf-8"))
@@ -110,4 +187,8 @@ def run(cc):
 
 if __name__ == "__main__":
     for cc in sys.argv[1:]:
-        run(cc.upper())
+        cc = cc.upper()
+        run_earn(cc)
+        funnel.run(cc)        # formülün büyüme hızı yeni kazançla
+        run(cc)
+        funnel.run(cc)

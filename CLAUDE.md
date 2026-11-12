@@ -59,7 +59,7 @@ pipeline/
   collect.py             veri toplayıcı (yalnız GitHub'da çalışır)
   accept.py              gelen veriyi denetler, yerine alır, süzgeci çalıştırır, öncekiyle karşılaştırır
   funnel.py              dört surun hesabı (internet kullanmaz)
-  growth_judgment.py     büyüme yargısı: growth_facts.json içindeki güncel gerçeklerden her şirketin büyüme hızını aynı kuralla yazar
+  growth_judgment.py     kazanç ve büyüme yargısı: earn_facts.json ve growth_facts.json içindeki güncel gerçeklerden her şirketin yargısını aynı kuralla yazar, süzgeci çalıştırır
   geo.mjs                harita üzerindeki sur ve nokta yerleri
   build_site.py          docs/ ve dist/castle.html üretir
   template.html          sayfanın kendisi (tek dosya; veri sonradan gömülür)
@@ -71,6 +71,7 @@ data/<ÜLKE>/
   history.json           yerine alınmış beş yıllık oranlar
   reports.json           3. sur puanları ve rapor metinleri (Claude yazar)
   growth_facts.json      4. surdaki şirketlerin güncel büyüme gerçekleri, kaynaklarıyla (Claude yazar; bkz. "Büyüme yargısı")
+  earn_facts.json        4. surdaki şirketlerin kazanç düzeyi gerçekleri: son 12 ay kârı, şirket beklentisi, tek seferlik kalemler (Claude yazar; bkz. "Kazanç yargısı")
   finarm.json            finansman kolu olan sanayi şirketleri: borç testinde kullanılan kaynaklı rakamlar (Claude yazar; bkz. "Finansman kolu")
   core.json, geo.json    funnel.py ve geo.mjs çıktıları (core.json: U, L2, R raporlar, RX elenen şirketlerin saklanan raporları, N notlar, F finansman kolu)
 ```
@@ -109,6 +110,12 @@ python3 -m http.server 8765 --directory .preview   # yerel deneme: http://127.0.
 - **İNA:** iki aşama. İlk `gYears` (10) yıl şirketin büyüme hızı, sonra hendek sınıfının kalıcı büyümesi (`gNarrow` %1,5, `gWide` %3). Her yıl ortağa kalan nakit = kâr × (1 − büyüme ÷ özsermaye kârlılığı). İskonto: reel getiri eşiği `r` (%10).
 - **PEG:** adil F/K = büyüme hızı (%) + temettü verimi (%). PEG büyüme için ödenen fazlayı sınırlar; değeri, şirketin hiç büyümese edeceği tutarın (büyüme 0 ile İNA) altına indirmez.
 - Adil çarpan = min(İNA, max(PEG, büyümesiz İNA)).
+- **Kazanç yargısı** (Alper'in 12 Kasım 2026 talimatı: "tutarsızlık olmamalı; raporu okuyan usta bir yatırımcı eksik ya da saçma bir şey bulamamalı"). Hesap son 12 ayın kârına dayanır; o kâr şirketin bugünkü kazanç gücünü olduğundan yüksek gösteriyorsa indirilir. **4. sura gelen her şirkette zorunludur.** Büyüme yargısıyla aynı düzen: gerçekler `data/<ÜLKE>/earn_facts.json` içine yazılır (biçim: mevcut kayıtlar), `growth_judgment.py` kuralı uygular ve `reports.json` içine `earn` kaydını (`k`, `basis`) yazar; elle yazılmaz.
+  - Toplanacaklar: son dört çeyreğin açıklanan hisse başına kârı ve net kârı (`ttm`); şirketin kendi hisse başına kâr beklentisi, mutlak rakamla (`guidance`); son 12 ayın içindeki tek seferlik **kazançlar** (`gains`: iş ya da varlık satışı, yatırımların değer artışı, geçmiş yıllara ait vergi iadesi ya da karşılık iptali, dava geliri; Çin şirketlerinde şirketin kendi "olağan dışı kalemler" toplamı) ve aynı dönemin şirketçe açıklanan tek seferlik giderleri (`offsets`). Tutar hisse başına, vergi sonrası ya da vergi öncesi verilir; vergi öncesiyse şirketin etkin vergi oranıyla çevrilir, oran yoksa vergi düşülmez ve bu yazılır.
+  - Kural: tek seferlik kazançlar eksi giderler son 12 ay kârının %3'ünü geçiyorsa o oran düşülür. Şirketin beklentisi son 12 ayın altındaysa kazanç o orana indirilir. İkisinden düşük olan çarpan (`k`) alınır ve son 12 ay özsermaye kârlılığı okumaları bununla çarpılır; sürdürülebilir büyüme de bu kazançla hesaplanır.
+  - Yargı **yalnız indirir**: tek seferlik gider kazancı yükseltmez (son üç okumanın en düşüğü kuralı zaten geçerli).
+  - Şirketin olağan işinin parçası olan, yinelenen kazançlar (örnek: SLM'in kredi satış kazançları) tek seferlik sayılmaz; gerekçesi `drop` içinde yazılır. Beklenti yalnız çeyrek içinse, alt sınırsa ("en az") ya da hisse başına kâr dışında bir ölçüyse kullanılmaz.
+  - Yalnız 4. suru etkiler; 2. surun eşikleri kaynağın rakamıyla sınanır.
 - **Büyüme yargısı** (Alper'in 12 Kasım 2026 talimatı: "kullanılabilecek her veri adil fiyat hesabında kullanılmalı; yöntem her şirkette aynı uygulanmalı"). Formül geçmişi ileri taşır; güncel gerçekler geçmişin sürmeyeceğini gösteriyorsa büyüme hızı indirilir. **4. sura gelen her şirkette zorunludur**, kale olsun olmasın. İki adım:
   1. **Gerçekleri topla** ve `data/<ÜLKE>/growth_facts.json` içine şirket koduyla yaz (biçim: mevcut kayıtlar). Her rakam bu çalıştırmada okunan bir belgeden gelir, adresiyle; şirketin kendi belgesi tercih edilir. Toplanacaklar:
      - `ytd`: en güncel birikimli dönemin (ya da son mali yılın) hisse başına kârındaki, yoksa ana ortaklık net kârındaki yıllık değişim (%).
@@ -118,7 +125,7 @@ python3 -m http.server 8765 --directory .preview   # yerel deneme: http://127.0.
      - `departed`: geçmiş büyümenin içinde olup artık olmayan ya da ayrılacağı açıklanmış bir iş, ülke, ürün ya da büyük müşteri; kalan işin büyümesi (`remaining_pct`) ya da ayrılığı içeren şirket beklentisi.
      - `permanent`: kötüleşmenin kalıcı bir nedeni olduğunu gösteren, kaynaklı kanıt.
      - `dividend`: kaynakta temettü verimi yoksa şirketin açıkladığı hisse başına temettü.
-  2. **Kuralı uygula:** `python3 pipeline/growth_judgment.py <ÜLKE>`, sonra `funnel.py`. Betik `reports.json` içine `growth` kaydını (`g`, `basis`, varsa `dy`, `permanent`) aynı kuralla yazar; elle yazılmaz:
+  2. **Kuralı uygula:** `python3 pipeline/growth_judgment.py <ÜLKE>` (kazanç yargısını, süzgeci, büyüme yargısını ve yeniden süzgeci sırayla çalıştırır). Betik `reports.json` içine `growth` kaydını (`g`, `basis`, varsa `dy`, `permanent`) aynı kuralla yazar; elle yazılmaz:
      - En güncel büyüme = `ytd`, `quarter` ve `guidance` içinden en düşüğü (şirketin düzeltilmiş rakamı varsa o), enflasyondan arındırılmış, sıfırın altı sıfır. Bu, formülün hızının yarısından azsa ikisinin **ortası** alınır; değilse hız indirilmez.
      - `departed` ve kalan işin büyümesi biliniyorsa geçmiş büyüme yerine **doğrudan o** kullanılır (formülün hızından düşükse).
      - `permanent` doluysa şirket fiyat testine alınmaz: 3. surda "kalıcı kâr kaybı" (`decline`) nedeniyle elenir. Bunu yalnız kaynak kalıcı bir neden gösteriyorsa yaz (yürürlükteki bir yasa, kaybedilen lisans, yapısal talep kaybı); döngüsel düşüş ya da bir yıllık kanıtsız marj baskısı kalıcı sayılmaz.
@@ -273,7 +280,7 @@ Geçme koşulu: B ≥ 2 ve diğerleri ≥ 1. Elenen şirkette `risks` ve `watch`
 
 ## Neye dokunulur, neye dokunulmaz
 
-- **Her çalıştırmada yazılır:** `data/<CC>/meta.json`, `data/<CC>/reports.json`, `data/<CC>/growth_facts.json`, `data/<CC>/finarm.json` (yalnız "Finansman kolu" kuralına göre); `accept.py`, `funnel.py`, `geo.mjs` ve `build_site.py` çıktıları.
+- **Her çalıştırmada yazılır:** `data/<CC>/meta.json`, `data/<CC>/reports.json`, `data/<CC>/growth_facts.json`, `data/<CC>/earn_facts.json`, `data/<CC>/finarm.json` (yalnız "Finansman kolu" kuralına göre); `accept.py`, `funnel.py`, `geo.mjs` ve `build_site.py` çıktıları.
 - **Gerekirse düzeltilir:** `pipeline/sources.json` ve `countries.json` içindeki `sa` (oran sayfası adresleri), `geo` (harita kadrajı), `exclude_exchanges` (borsa sayılmayan pazarlar); `pipeline/sectors.json` (eksik sektör çevirisi).
 - **Yalnız bozuk bir şeyi onarmak için:** `collect.py`, `accept.py`, `build_site.py`, `geo.mjs`, `template.html`, `check_site.cjs`. Ne değiştirdiğini ve nedenini özetine yaz.
 - **Dokunulmaz (Alper açıkça istemedikçe):** `pipeline/params.json` (büyüme tavanı `gCap` ve `gYears` dahil), `funnel.py` içindeki sur kuralları ve adil çarpan hesabı, `pipeline/charter.json`, `.github/workflows/collect.yml` içindeki saatler.

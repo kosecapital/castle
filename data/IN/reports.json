@@ -266,6 +266,14 @@
     "en": "The formula gave growth of 9.4% a year. Latest figures (earnings per share, year on year): April-September 2026 55.0%; July-September 2026 quarter 64.5%. The lowest, after inflation, is 46.1%. That is not less than half the formula's rate; the rate was not lowered."
    },
    "per": "2026-Q2"
+  },
+  "earn": {
+   "k": 0.907,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Bu kârın içindeki tek seferlik kazançlar: KTM'in devralınmasından doğan tek seferlik kazanç, net (elde tutulan payın yeniden değerlemesi ve kur farkı, eksi geçmiş dönem zararı; Ocak-Mart 2026): son 12 ay kârının %9,3 kadarı. Net etki %9,3; kazanç bu kadar indirildi. Son 12 ayın kârı 0,91 ile çarpılarak kullanıldı.",
+    "en": "The calculation rests on the profit of the last 12 months. One-off gains inside that profit: One-time gain from the KTM takeover, net (remeasurement of the stake already held and currency translation, less the catch-up loss; January-March 2026): 9.3% of last-12-month profit. The net effect is 9.3%; earnings were lowered by that much. Last-12-month profit was used multiplied by 0.91."
+   },
+   "per": "2026-Q2"
   }
  },
  "BEL": {
@@ -350,6 +358,14 @@
     "en": "The formula gave growth of 10.9% a year. Latest figures (net profit, year on year): April-September 2026 15.0%; July-September 2026 quarter 19.7%. The lowest, after inflation, is 8.4%. That is not less than half the formula's rate; the rate was not lowered."
    },
    "per": "2026-Q2"
+  },
+  "earn": {
+   "k": 1.0,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı.",
+    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are."
+   },
+   "per": "2026-Q2"
   }
  },
  "COALINDIA": {
@@ -415,6 +431,11 @@
     "t": "Screener.in: Coal India konsolide sonuçlar ve ortaklık yapısı (12 Kas 2026'da okundu)",
     "te": "Screener.in: Coal India consolidated results and shareholding (read 12 Nov 2026)",
     "u": "https://www.screener.in/company/COALINDIA/consolidated/"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://nsearchives.nseindia.com/corporate/COALINDIA_27042026202823_result_final.pdf"
    }
   ],
   "en": {
@@ -442,6 +463,14 @@
    "basis": {
     "tr": "Formül yılda %8,9 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Nisan-Eylül 2026 %17,7; Temmuz-Eylül 2026 çeyreği %53,0. En düşüğü, enflasyondan arındırılınca, %11,0. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
     "en": "The formula gave growth of 8.9% a year. Latest figures (net profit, year on year): April-September 2026 17.7%; July-September 2026 quarter 53.0%. The lowest, after inflation, is 11.0%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q2"
+  },
+  "earn": {
+   "k": 1.0,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı.",
+    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are."
    },
    "per": "2026-Q2"
   }
@@ -543,6 +572,14 @@
     "en": "The formula gave growth of 11.1% a year. Latest figures (earnings per share, year on year): April-September 2026 15.5%; July-September 2026 quarter 15.9%. The lowest, after inflation, is 8.8%. That is not less than half the formula's rate; the rate was not lowered."
    },
    "per": "2026-Q1"
+  },
+  "earn": {
+   "k": 1.0,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı.",
+    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are."
+   },
+   "per": "2026-Q1"
   }
  },
  "HCLTECH": {
@@ -635,6 +672,14 @@
    "basis": {
     "tr": "Formül yılda %1,9 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Nisan-Eylül 2026 %20,8; Temmuz-Eylül 2026 çeyreği %21,2. En düşüğü, enflasyondan arındırılınca, %13,9. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
     "en": "The formula gave growth of 1.9% a year. Latest figures (net profit, year on year): April-September 2026 20.8%; July-September 2026 quarter 21.2%. The lowest, after inflation, is 13.9%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q2"
+  },
+  "earn": {
+   "k": 1.0,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı.",
+    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are."
    },
    "per": "2026-Q2"
   }
@@ -822,6 +867,14 @@
     "en": "The formula gave growth of 2.9% a year. Latest figures (net profit, year on year): April-September 2026 143.0%; July-September 2026 quarter 142.0%. The lowest, after inflation, is 128.1%. That is not less than half the formula's rate; the rate was not lowered."
    },
    "per": "2026-Q2"
+  },
+  "earn": {
+   "k": 1.0,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı.",
+    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are."
+   },
+   "per": "2026-Q2"
   }
  },
  "INFY": {
@@ -892,6 +945,11 @@
     "t": "Büyüme yargısının kaynağı: Nisan-Eylül 2026",
     "te": "Source for the growth judgment: April-September 2026",
     "u": "https://www.infosys.com/investors/reports-filings/quarterly-results/2026-2027/q2/documents/ifrs-inr-press-release.pdf"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://www.infosys.com/investors/reports-filings/quarterly-results/2025-2026/q4/documents/ifrs-inr-press-release.pdf"
    }
   ],
   "en": {
@@ -919,6 +977,14 @@
    "basis": {
     "tr": "Formül yılda %3,9 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Nisan-Eylül 2026 %11,8; Temmuz-Eylül 2026 çeyreği %8,8. En düşüğü, enflasyondan arındırılınca, %2,5. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
     "en": "The formula gave growth of 3.9% a year. Latest figures (earnings per share, year on year): April-September 2026 11.8%; July-September 2026 quarter 8.8%. The lowest, after inflation, is 2.5%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q2"
+  },
+  "earn": {
+   "k": 0.966,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Bu kârın içindeki tek seferlik kazançlar: Önceki yıllara ait vergi karşılıklarının iptali (Gelir Vergisi Kanunu'nun 250 ve 254. maddeleri uyarınca alınan kararlar): son 12 ay kârının %2,5 kadarı; Aynı vergi kararlarından doğan faiz geliri: son 12 ay kârının %0,9 kadarı. Net etki %3,4; kazanç bu kadar indirildi. Son 12 ayın kârı 0,97 ile çarpılarak kullanıldı.",
+    "en": "The calculation rests on the profit of the last 12 months. One-off gains inside that profit: Reversal of tax provisions for earlier assessment years (orders under sections 250 and 254 of the Income Tax Act): 2.5% of last-12-month profit; Interest income arising from the same tax orders: 0.9% of last-12-month profit. The net effect is 3.4%; earnings were lowered by that much. Last-12-month profit was used multiplied by 0.97."
    },
    "per": "2026-Q2"
   }
@@ -1075,6 +1141,11 @@
     "t": "Screener.in: Nestlé India, yıllık rakamlar ve ortaklık yapısı (Eyl 2026)",
     "te": "Screener.in: Nestlé India, annual figures and shareholding (Sep 2026)",
     "u": "https://www.screener.in/company/NESTLEIND/"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://nsearchives.nseindia.com/corporate/NESTLEIND1_21042026142731_AFRs31032026signed.pdf"
    }
   ],
   "en": {
@@ -1101,6 +1172,14 @@
    "basis": {
     "tr": "Formül yılda %4,2 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Nisan-Eylül 2026 %41,8; Temmuz-Eylül 2026 çeyreği %36,4. En düşüğü, enflasyondan arındırılınca, %28,6. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
     "en": "The formula gave growth of 4.2% a year. Latest figures (earnings per share, year on year): April-September 2026 41.8%; July-September 2026 quarter 36.4%. The lowest, after inflation, is 28.6%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q2"
+  },
+  "earn": {
+   "k": 0.935,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Bu kârın içindeki tek seferlik kazançlar: Önceki yıllara ait gelir vergisi davalarının kapanmasıyla karşılıkların iptali: istisnai kalemlerdeki bölüm: son 12 ay kârının %3,8 kadarı; Aynı iptalin vergi giderine yazılan bölümü: son 12 ay kârının %2,7 kadarı. Net etki %6,5; kazanç bu kadar indirildi. Son 12 ayın kârı 0,94 ile çarpılarak kullanıldı.",
+    "en": "The calculation rests on the profit of the last 12 months. One-off gains inside that profit: Write-back of provisions after closure of income-tax litigation for earlier years: part booked in exceptional items: 3.8% of last-12-month profit; Part of the same write-back booked in tax expense: 2.7% of last-12-month profit. The net effect is 6.5%; earnings were lowered by that much. Last-12-month profit was used multiplied by 0.94."
    },
    "per": "2026-Q2"
   }
@@ -1205,6 +1284,14 @@
    "basis": {
     "tr": "Formül yılda %2,8 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Nisan-Eylül 2026 %9,7; Temmuz-Eylül 2026 çeyreği %7,6 (şirketin düzeltilmiş rakamı; açıklanan %15,0). Düzeltme: Geçen yılın aynı çeyreğinde 1.135 crore rupi (11,35 milyar rupi) yeniden yapılanma gideri vardı; şirketin basın bülteni karşılaştırmayı bu kalem hariç yapıyor: hisse başına kâr 38,37 rupi, bir yıl önce 35,67 rupi (net kâr 13.884'e karşı 12.904 crore). Nisan-Haziran 2026'da da 668 crore rupilik dava uzlaşma gideri var; altı ay için şirket düzeltilmiş rakam vermiyor. En düşüğü, enflasyondan arındırılınca, %1,4. Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %2,1.",
     "en": "The formula gave growth of 2.8% a year. Latest figures (earnings per share, year on year): April-September 2026 9.7%; July-September 2026 quarter 7.6% (the company's adjusted figure; reported 15.0%). Adjustment: The year-ago quarter carried a restructuring expense of 1,135 crore rupees (11.35 billion rupees); the company's press release compares excluding it: EPS of 38.37 rupees against 35.67 a year earlier (net profit 13,884 against 12,904 crore). April-June 2026 also carried a 668 crore legal claim settlement; the company gives no adjusted six-month figure. The lowest, after inflation, is 1.4%. Because this is less than half the formula's rate, the midpoint of the two was used: 2.1%."
+   },
+   "per": "2026-Q2"
+  },
+  "earn": {
+   "k": 1.0,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı.",
+    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are."
    },
    "per": "2026-Q2"
   }

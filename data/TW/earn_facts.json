@@ -1,0 +1,167 @@
+{
+ "1580": {
+  "unit": "million TWD",
+  "eps_cur": "TWD",
+  "ttm": {
+   "eps": 10.9,
+   "net_profit": 537.7,
+   "tr": "Ekim 2025 - Eylül 2026 (2025 yılı 12,54 − 2025'in ilk dokuz ayı 9,37 + 2026'nın ilk dokuz ayı 7,73)",
+   "en": "October 2025 - September 2026 (full year 2025 12.54 − first nine months of 2025 9.37 + first nine months of 2026 7.73)",
+   "url": "https://tw.stock.yahoo.com/news/%E5%85%AC%E5%91%8A-%E6%96%B0%E9%BA%A5%E8%91%A3%E4%BA%8B%E6%9C%83%E9%80%9A%E9%81%8E%E6%B0%91%E5%9C%8B-%E4%BA%94%E5%B9%B4%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%90%88%E4%BD%B5%E8%B2%A1%E5%8B%99%E5%A0%B1%E8%A1%A8-065916305.html"
+  },
+  "tax_rate": 32.7,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Nine months 2026 is the exchange filing reproduced on Yahoo Taiwan (primary content: parent net profit NT$381.235m, basic EPS 7.73, operating profit 610.109m, pre-tax profit 605.413m, net profit 407.164m). The 2025 leg is NOT primary: FY2025 EPS 12.54 from Fugle's conference notes (https://blog.fugle.tw/post/earnings-call-1580-2026-05-29), FY2025 net profit NT$622.491m from an AI-generated summary page (https://poorstock.com/earningcall/1580; not labelled as parent-only), nine months 2025 parent net profit 466m and EPS 9.37 from the China Times article already in growth_facts. So 4Q25 = about 156.5m and EPS 3.17 (my subtraction), and 12-month net profit = about 537.7m (approximate), EPS 10.90. Yahoo Taiwan's quarterly EPS table: 4Q25 3.15, 1Q26 2.73, 2Q26 1.89, which leaves 3Q26 = 3.11 (7.73 - 2.73 - 1.89); that sum is 10.88. Diluted EPS not found. No guidance (the company gives none; order visibility about two months). No one-off gain found: in nine months 2026 pre-tax profit (605.4m) is BELOW operating profit (610.1m), i.e. net non-operating items were a small loss of about 4.7m; the Q1 2026 call cited FX losses. 4Q25 non-operating items were not found, so a gain in that quarter cannot be ruled out, but 4Q25 EPS (about 3.17) is below the 3.68 of 3Q25. tax_rate = (605.413 - 407.164) / 605.413 for nine months 2026 (my division; high because of withholding on overseas subsidiaries' profits is my guess, not stated). The company's own statements and the MOPS filing for FY2025 were not opened; several search hits for the FY2025 announcement led to other companies."
+ },
+ "2308": {
+  "unit": "million TWD",
+  "eps_cur": "TWD",
+  "ttm": {
+   "eps": 33.31,
+   "net_profit": 86510,
+   "tr": "Ekim 2025 - Eylül 2026 (dört çeyrek: 6,67 + 7,91 + 9,68 + 9,04)",
+   "en": "October 2025 - September 2026 (four quarters: 6.67 + 7.91 + 9.68 + 9.04)",
+   "url": "https://filecenter.deltaww.com/ir/download/calendar/3Q26_Analyst Meeting.pdf"
+  },
+  "tax_rate": 22.7,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "All from the company's own analyst-meeting slides (4Q25, 2Q26, 3Q26 on filecenter.deltaww.com). EPS as the company states it (on 2,598 million shares outstanding); diluted not shown. Net profit attributable to the parent: 4Q25 17,324 + nine months 2026 69,186 (1Q 20,556; 2Q 25,136; 3Q 23,495) = 86,510; EPS 6.67 + 26.64 = 33.31 (my additions). No numeric guidance (management: Q4 revenue above Q3, gross margin not worse than Q3; StockFeel summary https://www.stockfeel.com.tw/?p=278472). No one-off gain is identified by the company. Non-operating income over the 12 months = (770) in 4Q25 + 8,151 in nine months 2026 = 7,381 (about 6% of pre-tax profit), of which 'gains or losses from investment' = (171) + 2,104 = 1,933 (2Q26 alone 1,880, about 2.2% of 12-month net profit; the line mixes fair-value gains, dividends, associates' results and disposal gains and is not broken down), FX and forward valuation 1,730, 'others' 2,220 (unexplained), interest 1,498. Nothing reaches the 3% line as an identified one-off. On the other side, 3Q26 carried an inventory write-down of about NT$3.9bn (a charge, ignored per brief). tax_rate = nine months 2026 income tax 22,697 / profit before tax 99,759 = 22.75% (my division; FY2025: 19,930 / 87,866 = 22.7%)."
+ },
+ "2330": {
+  "unit": "million TWD",
+  "eps_cur": "TWD",
+  "ttm": {
+   "eps": 98.26,
+   "net_profit": 2547850,
+   "tr": "Ekim 2025 - Eylül 2026 (dört çeyrek: 19,50 + 22,08 + 27,25 + 29,43)",
+   "en": "October 2025 - September 2026 (four quarters: 19.50 + 22.08 + 27.25 + 29.43)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000726/a3q26e_withguidancexfinal.htm"
+  },
+  "tax_rate": 18.1,
+  "gains": [
+   {
+    "tr": "Vanguard International Semiconductor (VIS) paylarının satış ve piyasa değerleme kazancı (faaliyet dışı, \"diğer kazanç ve kayıplar\")",
+    "en": "Disposal and mark-to-market gains on Vanguard International Semiconductor (VIS) shares (non-operating, \"other gains and losses\")",
+    "frac": 0.0203,
+    "how": 18.1,
+    "period_tr": "Nisan-Haziran 2026 çeyreği",
+    "period_en": "April-June 2026 quarter",
+    "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-07/bf09036349a253e83f78155099133806cad0320b/2Q26%20ManagementReport.pdf"
+   }
+  ],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "All from TSMC's own quarterly releases / management reports. Diluted EPS: 4Q25 19.50 (company release https://pr.tsmc.com/english/news/3281 and 6-K https://www.sec.gov/Archives/edgar/data/1046179/000104617926000008/a4q25e_withguidancexfinal.htm; Yahoo Taiwan's table shows basic 19.51), 1Q26 22.08, 2Q26 27.25, 3Q26 29.43; sum 98.26 is my addition. Net income: 505,744 + 572,480 + 706,562 + 763,064 = 2,547,850 million (1Q26 read as NT$572.48bn; the release labels these 'net income', i.e. attributable to shareholders of the parent as used for EPS). No EPS or net income guidance: only Q4 2026 revenue US$52.3-54.3bn, gross margin 65-67%, operating margin 56.5-58.5%. The VIS gain (NT$63.20bn pre-tax) is about 2.5% of 12-month net income, just under the 3% line; listed because it is a plain disposal/valuation gain named by the company. It made 2Q26 non-operating income NT$95.83bn against 28.83bn in 1Q26, 27.46bn in 4Q25 and 34.59bn in 3Q26 (the last two are my subtraction of operating income from pre-tax income). No after-tax or per-share effect stated; whether part of the gain is unrealised (and so differently taxed) is not stated. tax_rate 18.1% is the 2Q26 effective rate stated by the company (1Q26 16.8%; 3Q26 about 16.2% implied); a full-year rate was not read."
+ },
+ "2383": {
+  "unit": "million TWD",
+  "eps_cur": "TWD",
+  "ttm": {
+   "eps": 93.36,
+   "net_profit": 33453,
+   "tr": "Ekim 2025 - Eylül 2026 (2025 son çeyreği 10,44 + 2026'nın ilk dokuz ayı 82,92)",
+   "en": "October 2025 - September 2026 (fourth quarter 2025 10.44 + first nine months of 2026 82.92)",
+   "url": "https://uanalyze.com.tw/articles/1301857865"
+  },
+  "tax_rate": 22.5,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "NOT primary: press copies of the company's announcements (cnyes via UAnalyze) and StockFeel's conference summary; the company's own release was not opened. Nine months 2026: net profit NT$29,713m, EPS 82.92 (https://uanalyze.com.tw/articles/1301857865); 4Q25: net profit about NT$3,740m (article: 37.4 yi, rounded), EPS 10.44; FY2025 14,650 and 41.67 (https://uanalyze.com.tw/articles/5965248827). Sums are mine. Quarterly EPS: 1Q26 14.90, 2Q26 27.55, 3Q26 40.47. Yahoo Taiwan's EPS table shows 4Q25 as 10.63 (sum would be 93.55); the article's 10.44 equals FY 41.67 minus nine-month 31.23, so I used it. Articles say 'net profit after tax' without stating 'attributable to parent'. No EPS/profit guidance (company gives none): Q4 2026 revenue +15-20% on the quarter, gross margin 38-39.5%. No one-off gain: profit is operating. 3Q26 net non-operating income was only about NT$17m (PRC government subsidy 107m, interest income 68m, FX gain 22m, other 27m, less interest expense 207m); 2Q26 net non-operating about 51m (my subtraction). All far below 3% of profit. tax_rate 22.5% is the 3Q26 rate quoted in StockFeel's summary (https://www.stockfeel.com.tw/?p=278478). The 12-month figure understates the current run-rate: 3Q26 alone is 43% of it."
+ },
+ "2454": {
+  "unit": "million TWD",
+  "eps_cur": "TWD",
+  "ttm": {
+   "eps": 62.34,
+   "net_profit": 99296,
+   "tr": "Ekim 2025 - Eylül 2026 (dört çeyrek: 14,39 + 15,17 + 15,28 + 17,50)",
+   "en": "October 2025 - September 2026 (four quarters: 14.39 + 15.17 + 15.28 + 17.50)",
+   "url": "https://www.mediatek.com/hubfs/MediaTek%20Assets/Pdfs/Quarterly%20Earnings%20Release/2026/Quarterly%20Earnings%20Release-2026Q2/Press%20Release.pdf?hsLang=en"
+  },
+  "tax_rate": 15.0,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "EPS is the company's reported (basic) EPS; diluted not read. 4Q25 (parent net income 22,925; EPS 14.39; FY2025 105,319 and 66.16) from the company's 4Q25 press release (https://www.mediatek.com/hubfs/MediaTek%20Assets/Pdfs/Quarterly%20Earnings%20Release/2025/Quarterly%20Earnings%20Release-2025Q4/Press%20Release.pdf?hsLang=en); 1Q26 (24,154; 15.17) and 2Q26 (24,335; 15.28) from the company's 2Q26 press release; 3Q26 (27,882; 17.50) from StockFeel's summary of the 30 Oct 2026 conference (https://www.stockfeel.com.tw/?p=278716), NOT primary: the company's 3Q26 press release could not be opened. Sums are my addition; Yahoo Taiwan's table shows 4Q25 as 14.40. No EPS or net income guidance: only Q4 2026 revenue NT$210.1-221.8bn, gross margin 45% +/-1.5 points, operating expense ratio 26% +/-2 points; 2027 operating margin above 20%. No one-off gain identified: non-operating income was 5,298 (4Q25), 4,129 (1Q26), 5,094 (2Q26), 6,471 (3Q26), about 21,000 over 12 months (about 21% of net income); the company's releases describe it as 'mainly from interest income and dividend income' (4Q25 and 2Q26) and name no disposal or valuation gain; the 3Q26 breakdown was not available. Low tax in 1H26 (about 9.8% in 1Q26, 12.0% in 2Q26, 16.0% in 3Q26, against 15.0% for 2025; all my divisions from reported figures) is not explained by the company; if 15% were normal the shortfall would be roughly 2,300 over the two quarters (about 2% of 12-month profit), my estimate only. Non-TIFRS EPS (17.92 in 3Q26) is HIGHER than reported because it adds back share-based pay and amortisation. tax_rate = FY2025 income tax 18,770 / pre-tax income 124,888."
+ },
+ "3017": {
+  "unit": "million TWD",
+  "eps_cur": "TWD",
+  "ttm": {
+   "eps": 90.78,
+   "net_profit": 35683,
+   "tr": "Ekim 2025 - Eylül 2026 (2025 son çeyreği 16,92 + 2026'nın ilk dokuz ayı 73,86)",
+   "en": "October 2025 - September 2026 (fourth quarter 2025 16.92 + first nine months of 2026 73.86)",
+   "url": "https://news.cnyes.com/news/id/6656704"
+  },
+  "tax_rate": null,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "NOT primary: cnyes press reports of the company's results (https://news.cnyes.com/news/id/6656704 for nine months 2026: net profit NT$29,047m, EPS 73.86, 3Q26 11,564 and 29.32; https://uanalyze.com.tw/articles/1131748834 for 4Q25: net profit NT$6,636m, EPS 16.92; FY2025 19,186 and 49.17). Sums are mine. Yahoo Taiwan's EPS table shows 4Q25 17.01, 1Q26 20.17, 2Q26 24.37 (sum with 29.32 = 90.87); the 0.09 gap is in 4Q25 (article 16.92 = 49.17 - 32.25). The site's implied 89.43 is lower than either; I could not explain the gap (possibly diluted EPS; not found). Articles say 'net profit after tax' without stating 'attributable to parent'. No profit/EPS guidance (only: ASIC revenue to pass GPU in 2027, capex NT$15-20bn in 2027). No one-off gain mentioned in any source read; non-operating income and tax were not disclosed in the articles, and the company's own statements/slides were not opened, so absence of a one-off is NOT positively confirmed. Rough consistency check (mine): 3Q26 operating margin 28.53% on revenue of about NT$59.1bn gives operating profit of about 16.9bn against net profit 11.56bn, which leaves no room for a large non-operating gain. Effective tax rate not found."
+ },
+ "5287": {
+  "unit": "million TWD",
+  "eps_cur": "TWD",
+  "ttm": {
+   "eps": 14.11,
+   "net_profit": 924.5,
+   "tr": "Ekim 2025 - Eylül 2026 (2025 son çeyreği + 2026'nın ilk dokuz ayı; hisse başına kâr %9 bedelsiz pay sonrası pay sayısına göre)",
+   "en": "October 2025 - September 2026 (fourth quarter 2025 + first nine months of 2026; EPS on the share count after the 9% stock dividend)",
+   "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=ee0277d9-f11e-4ba5-acd2-8d15bf1f3a1d"
+  },
+  "tax_rate": 18.8,
+  "gains": [
+   {
+    "tr": "Gerçeğe uygun değeri kâra yansıtılan finansal varlıkların net değerleme kazancı (yatırımlar ve girişim payları; gerçekleşmemiş)",
+    "en": "Net gain on financial assets at fair value through profit or loss (investments and startup stakes; unrealised)",
+    "frac": 0.0666,
+    "how": 18.8,
+    "period_tr": "Ocak-Haziran 2026 (Nisan-Haziran çeyreğinde 76,3 milyon)",
+    "period_en": "January-June 2026 (76.3 million in the April-June quarter)",
+    "url": "https://www.addcn.com/html/pdf/yearssp_2026Q2.pdf"
+   },
+   {
+    "tr": "Gerçeğe uygun değeri kâra yansıtılan finansal varlıkların net değerleme kazancı, 2025'in son çeyreği (benim çıkarmam: yıl 36,1 milyon kazanç, ilk dokuz ay 16,9 milyon zarar)",
+    "en": "Net gain on financial assets at fair value through profit or loss, fourth quarter 2025 (my subtraction: full year gain of 36.1 million, first nine months loss of 16.9 million)",
+    "frac": 0.0466,
+    "how": 18.8,
+    "period_tr": "Ekim-Aralık 2025 çeyreği",
+    "period_en": "October-December 2025 quarter",
+    "url": "https://www.addcn.com/html/pdf/shareholder_2026Q3.pdf"
+   }
+  ],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "MIXED sources. Company's own reviewed statements were opened for FY2025 (2026 shareholders' meeting handbook: parent net profit NT$835.726m, basic EPS 13.93, diluted 13.81, pre-tax 1,029.757m, tax 193.614m; cash-flow line 'net gain on FVTPL financial assets' 36.105m), nine months 2025 (https://www.addcn.com/html/pdf/yearssp_2025Q3.pdf: parent 595.230m, EPS 9.92; FVTPL net loss 16.923m) and first half 2026 (https://www.addcn.com/html/pdf/yearssp_2026Q2.pdf: parent 461.084m, EPS 7.68; 2Q26 283.132m, EPS 4.71; 'other gains and losses' 72.169m of which FVTPL net gain 75.829m; 2Q26 alone 76.263m). 3Q26 statements could NOT be opened; 3Q26 and nine-month 2026 (net profit 222m and 684m, EPS 3.4 and 10.43) are press figures (MoneyDJ, Commercial Times), rounded, not stated as parent-only. TTM net profit = (835.726 - 595.230 = 240.496) + 684 = about 924.5. EPS: the nine-month 10.43 is on the share count after the 2026 stock dividend (90 shares per 1,000, i.e. 9%; prior-year nine months restated from 9.92 to 9.10 by the press, ratio 1.09); the originally reported quarters (4Q25 4.01, 1Q26 2.97, 2Q26 4.71, 3Q26 3.40) sum to 15.09 and are NOT comparable. On the current share count: 4.01 / 1.09 = 3.68, plus 10.43 = 14.11 (my calculation, not company-stated). The site's implied 13.48 is lower still; I could not reconcile it. One-off gains: unrealised valuation gains total about 128.8m pre-tax over the 12 months before 3Q26 is counted (about 14% of 12-month net profit); the 3Q26 amount is unknown but looks small: 3Q26 operating profit 264m and net profit 222m imply little non-operating income at a normal tax rate (my inference). 2Q26 total non-operating income was 106.554m vs 27.214m a year earlier, matching the press remark that it rose by nearly NT$80m. These gains appear lightly taxed or untaxed (1H26 tax 90.106m on pre-tax 551.285m = 16.3% vs 20.1% in 1H25) but the company states no after-tax amount; the press notes unrealised gains are excluded from the dividend base. The 4Q25 figure rests on two cash-flow lines (annual 36.105m gain, nine-month 16.923m loss); in FY2025 as a whole the gain is only 36.1m (4.3% of net profit). No guidance (company gives none). tax_rate = FY2025 193.614 / 1,029.757."
+ },
+ "6498": {
+  "unit": "million TWD",
+  "eps_cur": "TWD",
+  "ttm": {
+   "eps": 6.73,
+   "net_profit": 317.0,
+   "tr": "Ekim 2025 - Eylül 2026 (2025 yılı − 2025'in ilk dokuz ayı + 2026'nın ilk dokuz ayı)",
+   "en": "October 2025 - September 2026 (fiscal 2025 − first nine months of 2025 + first nine months of 2026)",
+   "url": "https://tw.stock.yahoo.com/news/%E4%B9%85%E7%A6%BE%E5%85%89%E5%89%8D%E4%B8%89%E5%AD%A3%E5%90%88%E4%BD%B5%E7%8D%B2%E5%88%A92-28%E5%84%84%E5%85%83-%E6%AF%8F%E8%82%A1%E7%A8%85%E5%BE%8C4-83%E5%85%83-090500376.html"
+  },
+  "tax_rate": 26.5,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "EPS 6.73 = FY2025 6.51 (nstock.tw, stockfeel, winvest.tw) - 9M 2025 4.61 (udn, 6 Nov 2025) + 9M 2026 4.83 (exchange announcement of 4 Nov 2026 reproduced on Yahoo Taiwan: net profit 228.005m, pre-tax 310.017m, operating profit 265.828m). Only the 9M 2026 figures are from the company's filing; the 2025 pieces are news/data-page figures. Net profit 317 is approximate: about 292 (FY2025, winvest.tw, rounded) - 203 (9M 2025, udn, rounded) + 228.0. CONFLICT: Yahoo's single-quarter EPS table gives 2025 Q4 1.97, 2026 Q1 1.75, Q2 1.85 (Q3 2026 not yet in the table; 4.83 - 3.60 = 1.23), which sums to 6.80; Yahoo shows Q3 2025 as 2.10 where udn reported 2.15, and its 2025 quarters sum to 6.54 against the reported annual 6.51 (share count changed with the May 2025 listing). The site's implied EPS is 6.704. Tax rate 26.5% is my calculation from the 9M 2026 announcement (1 - 228.005/310.017). No company EPS/profit guidance: at the 20 May 2026 investor conference management only said the second half of 2026 should be roughly flat with the first half (Fugle notes). No one-off gain identified by the company. Non-operating income is material but not broken down: 9M 2026 pre-tax profit exceeds operating profit by 44.2m TWD (14% of pre-tax); the announcement says nothing on its composition. For Q3 2025 udn reported an FX gain of about 9m TWD (that quarter is outside the last 12 months). Could not open: wantgoo income statement (empty page); MOPS not tried."
+ }
+}

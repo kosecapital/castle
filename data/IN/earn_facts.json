@@ -1,0 +1,203 @@
+{
+ "BAJAJ_AUTO": {
+  "unit": "crore INR (10 million rupees)",
+  "eps_cur": "INR",
+  "ttm": {
+   "eps": 469.85,
+   "net_profit": 12815,
+   "tr": "Ekim 2025 - Eylül 2026 (dört çeyrek)",
+   "en": "October 2025 - September 2026 (four quarters)",
+   "url": "https://www.screener.in/company/BAJAJ-AUTO/consolidated/"
+  },
+  "tax_rate": 24,
+  "gains": [
+   {
+    "tr": "KTM'in devralınmasından doğan tek seferlik kazanç, net (elde tutulan payın yeniden değerlemesi ve kur farkı, eksi geçmiş dönem zararı; Ocak-Mart 2026)",
+    "en": "One-time gain from the KTM takeover, net (remeasurement of the stake already held and currency translation, less the catch-up loss; January-March 2026)",
+    "frac": 0.0933,
+    "how": null,
+    "period_tr": null,
+    "period_en": null,
+    "url": null
+   }
+  ],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "EPS 469.85 is Screener's consolidated quarterly sum (98.38 + 131.02 + 115.41 + 125.04); the company's press release gives no consolidated EPS. net_profit 12,815 is Screener's consolidated profit line, which INCLUDES minority interests (2,750 + 3,492 + 3,189 + 3,384); profit attributable to owners is known only for two of the four quarters: 3,661.92 in January-March 2026 (news) and 3,436.10 in July-September 2026 (Autocar Professional). FY26 consolidated PAT 10,744 (company press release), Screener EPS 384.41. ONE-OFF GAINS (company's Q4 FY26 press release): the January-March 2026 quarter's 'share of profit of associate' of 1,195 crore consists of a 953 remeasurement gain on the existing investment at the acquisition date, a 646 reclassification of accumulated foreign currency translation gain, a 413 share of the investee's loss from 1 July 2025 to the acquisition date, and 9 of associate profit to 31 December 2025. Gross one-off gain 1,599 crore (about 12% of 12-month profit); net of the catch-up loss, 1,195, which news reports call the 'one-time gain'. The release states no tax on these and no per-share effect. KTM (BAIHAG) has been a subsidiary since 18 November 2025; the excess of net assets over consideration went to capital reserve, not to profit. Auditors gave a qualified opinion on uncertainties at BAIHAG (news). Also a 35 crore standalone exceptional gain on prepayment of a sales-tax deferral loan in the same quarter (below 3%). Standalone PAT: FY26 9,825; Q4 FY26 2,746; Q2 FY27 3,353.76; H1 FY27 6,336.60. Tax rate 24% from Screener (FY26; 19% in the quarter with the gain). No EPS or profit guidance found. Company's Q2 FY27 release not opened."
+ },
+ "BEL": {
+  "unit": "crore INR (10 million rupees)",
+  "eps_cur": "INR",
+  "ttm": {
+   "eps": 8.75,
+   "net_profit": 6401,
+   "tr": "Ekim 2025 - Eylül 2026 (dört çeyrek)",
+   "en": "October 2025 - September 2026 (four quarters)",
+   "url": "https://www.screener.in/company/BEL/consolidated/"
+  },
+  "tax_rate": 25,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Screener consolidated quarters: EPS 2.16 + 3.04 + 1.44 + 2.11 = 8.75; net profit 1,580 + 2,226 + 1,055 + 1,540 = 6,401. The latest quarter agrees with Free Press Journal's summary of the filing (consolidated net profit 1,540.37, EPS 2.11; half-year 2,594.90). FY26 consolidated: 6,062, EPS 8.29 (Screener); standalone FY26 PAT 6,048.48 (Outlook Business). No exceptional items or one-off gains reported in any page read; other income is small and steady (110-187 per quarter). Tax rate 25% from Screener. No profit or EPS guidance (management guides revenue growth of 15%+ and EBITDA margin around 28% for FY27, per the earlier growth-facts file). Company filings (BSE) not opened; everything here is from a data page and news summaries."
+ },
+ "COALINDIA": {
+  "unit": "crore INR (10 million rupees)",
+  "eps_cur": "INR",
+  "ttm": {
+   "eps": 54.13,
+   "net_profit": 33406,
+   "tr": "Ekim 2025 - Eylül 2026 (dört çeyrek)",
+   "en": "October 2025 - September 2026 (four quarters)",
+   "url": "https://nsearchives.nseindia.com/corporate/COALINDIA_27042026202823_result_final.pdf"
+  },
+  "tax_rate": 25.9,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "EPS 54.13 = 11.61 (Q3 FY26) + 17.59 (Q4 FY26), both in the company's audited FY26 results filing on NSE, + 14.36 + 10.57 (Q1 and Q2 FY27, Screener). Owners' profit 33,406 = 31,094.29 (FY26, company filing) - 13,056 (H1 FY26) + 15,368 (H1 FY27), the last two from Upstox's news summary (primary false for that reason); using Screener's half-year EPS instead of quarters gives 54.21 (FY26 50.46 - 21.18 + 24.93; the FY25/FY26 quarters were restated for coal levies). FY26: owners' profit 31,094.29, total profit 31,070.58, EPS 50.46. NO one-off gain is identified by the company and there are no exceptional items. Things to know, none listed as a one-off gain: (1) stripping-activity provision write-backs credited 'in a systematic manner': 670.56 in Q4 FY26, 1,964.90 in FY26 (2,881.75 in FY25) - recurring by design, balance 56,503.61 still to be released; (2) 'liability and provision written back' 2,931.78 in FY26 (2,495.78 in FY25, cash-flow statement) - also recurs yearly; (3) other income is seasonally high in the March quarter: 5,127.72 in Q4 FY26 (3,939.15 in Q4 FY25), FY26 11,275.68; (4) coal levies moved from agent to principal treatment with prior periods restated - grosses up revenue and expense, FY25 pre-tax profit +197.25; one news article says this inflated Q4 profit but the filing shows no gain from it in FY26. One-off CHARGES in the 12 months (ignored per brief): executive pay provision 1,457.90 for 23 Aug 2023 - 31 Dec 2025; impairment of coal blocks 608.81 (FY26). Tax rate 25.9% = 10,852.51 / 41,923.09 (FY26, my calculation). No profit guidance. The Q2 FY27 filing itself was not opened."
+ },
+ "HAL": {
+  "unit": "crore INR (10 million rupees)",
+  "eps_cur": "INR",
+  "ttm": {
+   "eps": 143.36,
+   "net_profit": 9588,
+   "tr": "Ekim 2025 - Eylül 2026 (2025-26 mali yılı − Nisan-Eylül 2025 + Nisan-Eylül 2026)",
+   "en": "October 2025 - September 2026 (fiscal 2025-26 − April-September 2025 + April-September 2026)",
+   "url": "https://www.freepressjournal.in/business/hal-q2-earnings-soar-to-new-heights-net-profit-jumps-1548-as-revenue-crosses-13100-crore"
+  },
+  "tax_rate": 25,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "July-September 2026 results came out today (12 Nov 2026); only news summaries were readable. EPS 143.36 = FY26 136.30 (Screener) - H1 FY26 45.65 + H1 FY27 52.71 (Free Press Journal; the article labels them Q2 but they are half-year figures). Net profit 9,588 = 9,116 - 3,052.82 + 3,525.30. Same result from quarters: 27.91 + 62.74 + 23.77 (Screener) + 28.94 (Business Today, per the earlier growth-facts file). The SITE still uses the period to June 2026: Screener TTM EPS to June 2026 is 139.38 (net profit 9,321), matching the site's implied 139.378. No exceptional items or one-off gains reported in anything read. 'Other income' is large (Screener: 3,743 in FY26, about 31% of pre-tax profit; 1,164 in January-March 2026, +77% year on year per a news article, cause not stated by the company) - it is mainly recurring income on customer advances and deposits, not a one-off, so not listed. A news article mentions offset credit benefits adding 95 crore to FY26 profit (about 1% of 12-month profit, below the 3% threshold). Tax rate 25% from Screener (FY26). No profit or EPS guidance. Company filings (BSE) not opened."
+ },
+ "HCLTECH": {
+  "unit": "crore INR (10 million rupees)",
+  "eps_cur": "INR",
+  "ttm": {
+   "eps": 67.51,
+   "net_profit": 18322,
+   "tr": "Ekim 2025 - Eylül 2026 (dört çeyrek)",
+   "en": "October 2025 - September 2026 (four quarters)",
+   "url": "https://www.screener.in/company/HCLTECH/consolidated/"
+  },
+  "tax_rate": 24.7,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "EPS 67.51 is Screener's sum of four quarters (15.02 + 16.54 + 17.04 + 18.91); the company publishes only last-twelve-month diluted EPS and I could not open its Q2 FY27 investor release. Net profit 18,322 = 4,076 (Q3 FY26, reported incl. labour codes) + 4,488 (Q4 FY26) [both from the company's Q4 FY26 investor release on NSE: https://nsearchives.nseindia.com/corporate/HCLTECH_21042026180629_InvestorRelease.pdf] + 4,626 (Q1 FY27, Screener) + 5,132 (Q2 FY27, company press release). CONFLICT: Kotak Neo quotes 'diluted EPS 70.22' for Q2 FY27; this looks like the company's LTM EPS excluding the labour-codes charge (the Q4 FY26 release gave FY26 EPS 64.01 on that basis and 61.36 as reported), not the reported figure. FY26 reported net income 16,642, adjusted 17,361. No one-off GAINS found in company documents. One-off CHARGES inside the 12 months (ignored): labour codes 956 at EBIT / 719 after tax in October-December 2025; restructuring (81 bps of EBIT margin in Q3 FY26, 122 bps in Q4 FY26). Screener shows a 21% tax rate in January-March 2026 and July-September 2026 against 24-26% in other quarters; I found no company explanation, so no tax gain is listed (not verified). Tax rate 24.7% is my calculation for FY26 (5,450 / 22,102). No EPS or profit guidance: FY27 revenue growth 2.5-4% in constant currency, EBIT margin 17.5-18.5%."
+ },
+ "HINDZINC": {
+  "unit": "crore INR (10 million rupees)",
+  "eps_cur": "INR",
+  "ttm": {
+   "eps": 49.3,
+   "net_profit": 20830,
+   "tr": "Ekim 2025 - Eylül 2026 (dört çeyrek)",
+   "en": "October 2025 - September 2026 (four quarters)",
+   "url": "https://www.screener.in/company/HINDZINC/consolidated/"
+  },
+  "tax_rate": 25,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Screener consolidated quarters: EPS 9.27 + 11.91 + 12.94 + 15.18 = 49.30; net profit 3,916 + 5,033 + 5,469 + 6,412 = 20,830 (no minority interests). Company-sourced cross-checks: FY26 net profit 13,832 (integrated annual report, CFO statement); Q4 FY26 5,033 and EPS 11.91; Q2 FY27 6,412 and H1 FY27 11,881 (news reproductions of the release). No exceptional items and no one-off gains reported in any page read; other income is steady (280-374 per quarter). The 12-month profit is far above the last fiscal year (20,830 vs 13,832) because of metal prices, silver above all (the CFO statement says silver was about 45% of FY26 profit) - a commodity-price effect, not a one-off item in the accounting sense. Tax rate 25% from Screener (FY26). No profit or EPS guidance found (FY27 capex guidance of 500-600 million US dollars only). Company's results filing and call transcript were not opened; the Finology page failed."
+ },
+ "INFY": {
+  "unit": "crore INR (10 million rupees)",
+  "eps_cur": "INR",
+  "ttm": {
+   "eps": 75.58,
+   "net_profit": 30747,
+   "tr": "Ekim 2025 - Eylül 2026 (dört çeyrek)",
+   "en": "October 2025 - September 2026 (four quarters)",
+   "url": "https://www.infosys.com/investors/reports-filings/quarterly-results/2026-2027/q2/documents/ifrs-inr-press-release.pdf"
+  },
+  "tax_rate": 26.3,
+  "gains": [
+   {
+    "tr": "Önceki yıllara ait vergi karşılıklarının iptali (Gelir Vergisi Kanunu'nun 250 ve 254. maddeleri uyarınca alınan kararlar)",
+    "en": "Reversal of tax provisions for earlier assessment years (orders under sections 250 and 254 of the Income Tax Act)",
+    "frac": 0.0252,
+    "how": null,
+    "period_tr": "Ocak-Mart 2026 çeyreği",
+    "period_en": "January-March 2026 quarter",
+    "url": "https://www.infosys.com/investors/reports-filings/quarterly-results/2025-2026/q4/documents/ifrs-inr-press-release.pdf"
+   },
+   {
+    "tr": "Aynı vergi kararlarından doğan faiz geliri",
+    "en": "Interest income arising from the same tax orders",
+    "frac": 0.0091,
+    "how": 26.3,
+    "period_tr": "Ocak-Mart 2026 çeyreği",
+    "period_en": "January-March 2026 quarter",
+    "url": "https://www.infosys.com/investors/reports-filings/quarterly-results/2025-2026/q4/documents/ifrs-inr-press-release.pdf"
+   }
+  ],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "All from the company's IFRS INR press releases. Diluted EPS: Q3 FY26 16.14 + Q4 FY26 20.98 + Q1 FY27 19.16 (H1 38.46 - Q2 19.30) + Q2 FY27 19.30 = 75.58. Profit attributable to owners: 6,654 + 8,501 + 7,769 + 7,823 = 30,747. FY26: diluted EPS 71.46, owners' profit 29,440. One-off gains: note b of the Q4 FY26 release gives interest income (pre-tax) of 381 crore and reversal of tax provisions of 774 crore 'for the quarter and year ended March 31, 2026' (with 327 and 101 for March 2025), on account of orders under sections 250 and 254; the note's wording is slightly ambiguous as read through the fetch tool but both amounts fall in the January-March 2026 quarter either way. The release says that excluding the tax orders and the labour-codes effect EPS growth was 12.1% (year) and 13.9% (quarter) against reported 11.0% and 23.8%; it gives no per-share amount for the gain alone. Offsetting one-off CHARGE in the same 12 months (ignored per brief): labour codes 1,289 pre-tax / 971 after tax / 2.36 per share in October-December 2025. Tax rate 26.3% = 10,521 / 39,995 for FY26 (my calculation; depressed by the 774 reversal); H1 FY27 rate 29.3%. No EPS or profit guidance: FY27 guidance is revenue growth 1-2% in constant currency and operating margin 20-22%."
+ },
+ "NESTLEIND": {
+  "unit": "crore INR (10 million rupees)",
+  "eps_cur": "INR",
+  "ttm": {
+   "eps": 21.15,
+   "net_profit": 4078.3,
+   "tr": "Ekim 2025 - Eylül 2026 (dört çeyrek)",
+   "en": "October 2025 - September 2026 (four quarters)",
+   "url": "https://nsearchives.nseindia.com/corporate/NESTLEIND1_21042026142731_AFRs31032026signed.pdf"
+  },
+  "tax_rate": 23.3,
+  "gains": [
+   {
+    "tr": "Önceki yıllara ait gelir vergisi davalarının kapanmasıyla karşılıkların iptali: istisnai kalemlerdeki bölüm",
+    "en": "Write-back of provisions after closure of income-tax litigation for earlier years: part booked in exceptional items",
+    "frac": 0.0381,
+    "how": 23.3,
+    "period_tr": "Ekim-Aralık 2025 çeyreği",
+    "period_en": "October-December 2025 quarter",
+    "url": "https://nsearchives.nseindia.com/corporate/NESTLEIND1_21042026142731_AFRs31032026signed.pdf"
+   },
+   {
+    "tr": "Aynı iptalin vergi giderine yazılan bölümü",
+    "en": "Part of the same write-back booked in tax expense",
+    "frac": 0.0269,
+    "how": null,
+    "period_tr": "Ekim-Aralık 2025 çeyreği",
+    "period_en": "October-December 2025 quarter",
+    "url": "https://nsearchives.nseindia.com/corporate/NESTLEIND1_21042026142731_AFRs31032026signed.pdf"
+   }
+  ],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "CONSOLIDATED (includes the share of loss of the Dr. Reddy's and Nestle Health Science associate): EPS 5.17 (Q3 FY26) + 5.77 (Q4 FY26), both from the company's audited FY26 results on NSE, + 4.97 + 5.24 (Q1 and Q2 FY27, Screener consolidated) = 21.15, matching the site's 21.145. Net profit 998.42 + 1,110.90 + 959 + 1,010 = 4,078 crore (the company reports in INR million: 9,984.2 and 11,109.0). STANDALONE (the company's headline basis): 5.28 + 5.78 + 5.06 + 5.32 = 21.44, profit 4,134; FY26 standalone EPS 18.38, consolidated 18.15 (profit 3,499.08). ONE-OFF GAIN: the company's notes say the October-December 2025 quarter was 'positively impacted by 3,120.4 million writeback ... of provisions made in earlier years' (312.04 crore) on closure of income-tax litigation: 2,023.2 million in exceptional items and 1,097.2 million in tax expense; the quarter's tax rate was 13%. Also in the Q3 FY26 filing (https://bsmedia.business-standard.com/_media/bs/data/announcements/bse/30012026/f6ee4606-f8f3-4a6e-be46-5fcd6d5f76b6.pdf). The company does not state the tax on the exceptional part or a per-share effect. A news agency (Informist) put the quarter's profit excluding exceptional items at 8.61 billion against the reported 10.18 billion (standalone) - that excludes only the net exceptional credit of 1,569.5 million, not the 1,097.2 million in the tax line. Exceptional CHARGES in the 12 months (ignored per brief): restructuring 35.0 and labour codes 10.37 in Q3 FY26; 36.17 in Q4 FY26; 99.2 in H1 FY27 (earlier growth-facts file). Tax rate 23.3% = 10,650.5 / 45,641.3 for FY26 (my calculation; depressed by the write-back; normal quarters run 26-27%). No guidance."
+ },
+ "TCS": {
+  "unit": "crore INR (10 million rupees)",
+  "eps_cur": "INR",
+  "ttm": {
+   "eps": 142.64,
+   "net_profit": 51608,
+   "tr": "Ekim 2025 - Eylül 2026 (dört çeyrek)",
+   "en": "October 2025 - September 2026 (four quarters)",
+   "url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2026-27/q2/IND%20AS/Consolidated.pdf"
+  },
+  "tax_rate": 24.5,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "From the company's Ind AS consolidated statements: FY26 EPS 136.01 and profit attributable to shareholders 49,210 (Q4 FY26 PDF: https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2025-26/q4/IND%20AS/Consolidated.pdf); H1 FY26 EPS 68.64 / 24,835; H1 FY27 EPS 75.27 / 27,233 (Q2 FY27 PDF). TTM = FY26 - H1 FY26 + H1 FY27. Basic = diluted. Screener's quarterly EPS (29.45 + 37.92 + 36.90 + 38.37) gives the same 142.64. No one-off GAINS found. The 12 months contain only one-off CHARGES (ignored per brief): Oct-Dec 2025 labour codes 2,128, legal provision 1,010, restructuring 253 (news); Apr-Jun 2026 legal claim settlement 668 (company PDF). FY26 exceptional charges total 4,526. Routine investment gains (net gain on disposal/fair valuation of investments 701 in FY26, 318 in H1 FY27, cash-flow statement) are recurring treasury income, not listed. Tax rate 24.5% = 16,033 / 65,487 (FY26, my calculation). TCS gives no EPS or profit guidance. The notes sections of both PDFs were beyond the part read (text truncated at 100,000 characters)."
+ }
+}

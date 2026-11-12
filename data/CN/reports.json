@@ -85,10 +85,18 @@
    ]
   },
   "growth": {
-   "g": 2.3,
+   "g": 2.2,
    "basis": {
-    "tr": "Formül yılda %4,6 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %−20,3 (şirketin düzeltilmiş rakamı; açıklanan %−19,5); Temmuz-Eylül 2026 çeyreği %−44,3 (şirketin düzeltilmiş rakamı; açıklanan %−43,3). Düzeltme: Tek seferlik kalemler hariç net kâr: dokuz ayda 16,403 milyar yuan, üçüncü çeyrekte 3,696 milyar yuan; düşüş raporlananla aynı, tek seferlik kalem etkisi yok. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %2,3.",
-    "en": "The formula gave growth of 4.6% a year. Latest figures (net profit, year on year): January-September 2026 −20.3% (the company's adjusted figure; reported −19.5%); July-September 2026 quarter −44.3% (the company's adjusted figure; reported −43.3%). Adjustment: Net profit excluding non-recurring items: 16.403 billion yuan in nine months, 3.696 billion in the third quarter; the fall matches the reported one, no one-off effect. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 2.3%."
+    "tr": "Formül yılda %4,3 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %−20,3 (şirketin düzeltilmiş rakamı; açıklanan %−19,5); Temmuz-Eylül 2026 çeyreği %−44,3 (şirketin düzeltilmiş rakamı; açıklanan %−43,3). Düzeltme: Tek seferlik kalemler hariç net kâr: dokuz ayda 16,403 milyar yuan, üçüncü çeyrekte 3,696 milyar yuan; düşüş raporlananla aynı, tek seferlik kalem etkisi yok. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %2,2.",
+    "en": "The formula gave growth of 4.3% a year. Latest figures (net profit, year on year): January-September 2026 −20.3% (the company's adjusted figure; reported −19.5%); July-September 2026 quarter −44.3% (the company's adjusted figure; reported −43.3%). Adjustment: Net profit excluding non-recurring items: 16.403 billion yuan in nine months, 3.696 billion in the third quarter; the fall matches the reported one, no one-off effect. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 2.2%."
+   },
+   "per": "2026-Q3"
+  },
+  "earn": {
+   "k": 0.948,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Bu kârın içindeki tek seferlik kazançlar: Şirketin 'olağan dışı' diye ayırdığı kalemlerin son 12 aydaki net tutarı (devlet destekleri ve finansal araçların değer artışı): son 12 ay kârının %5,2 kadarı. Net etki %5,2; kazanç bu kadar indirildi. Son 12 ayın kârı 0,95 ile çarpılarak kullanıldı.",
+    "en": "The calculation rests on the profit of the last 12 months. One-off gains inside that profit: Net total over the last 12 months of the items the company itself classes as non-recurring (government grants and fair-value gains): 5.2% of last-12-month profit. The net effect is 5.2%; earnings were lowered by that much. Last-12-month profit was used multiplied by 0.95."
    },
    "per": "2026-Q3"
   }
@@ -293,6 +301,14 @@
     "en": "The formula gave growth of 16.1% a year. Latest figures (net profit, year on year): January-September 2026 0.7% (the company's adjusted figure; reported −20.7%); July-September 2026 quarter −22.1%. Adjustment: profit excluding exchange differences as stated by the company (nine months); the currency loss was about 284 million yuan. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 8.1%."
    },
    "per": "2026-Q3"
+  },
+  "earn": {
+   "k": 1.0,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı.",
+    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are."
+   },
+   "per": "2026-Q3"
   }
  },
  "600710": {
@@ -421,6 +437,14 @@
     "en": "The formula gave growth of 6.6% a year. Latest figures (net profit, year on year): January-September 2026 4.1% (the company's adjusted figure; reported 4.5%); July-September 2026 quarter 4.7% (the company's adjusted figure; reported 4.8%). Adjustment: net profit excluding non-recurring items. The lowest, after inflation, is 3.4%. That is not less than half the formula's rate; the rate was not lowered."
    },
    "per": "2026-Q3"
+  },
+  "earn": {
+   "k": 1.0,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı.",
+    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are."
+   },
+   "per": "2026-Q3"
   }
  },
  "000333": {
@@ -491,6 +515,11 @@
     "t": "szse.io: Midea, ilk on ortağın pay durumu duyurusu (1 Nisan 2026)",
     "te": "szse.io: Midea, announcement on the shareholdings of the top ten shareholders (1 April 2026)",
     "u": "https://szse.io/releases/000333-midea-group-co-ltd/1225071406-announcement-on-the-shareholding-status-of-top-ten"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225645132.PDF"
    }
   ],
   "en": {
@@ -514,10 +543,18 @@
    ]
   },
   "growth": {
-   "g": 2.7,
+   "g": 2.0,
    "basis": {
-    "tr": "Formül yılda %5,4 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %−22,5 (şirketin düzeltilmiş rakamı; açıklanan %9,3); Temmuz-Eylül 2026 çeyreği %−15,7 (şirketin düzeltilmiş rakamı; açıklanan %25,9). Düzeltme: Tek seferlik kalemler hariç net kâr (şirketin kendi 'koufei' rakamı): dokuz ayda 28,788 milyar yuan, üçüncü çeyrekte 9,193 milyar yuan. Fark, borsaya açılan ChangXin (CXMT) yatırımının değer artışından ve kur korumasından gelen kazançlardan doğuyor; dokuz ayda tek seferlik kalemler net 12,605 milyar yuan. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %2,7.",
-    "en": "The formula gave growth of 5.4% a year. Latest figures (net profit, year on year): January-September 2026 −22.5% (the company's adjusted figure; reported 9.3%); July-September 2026 quarter −15.7% (the company's adjusted figure; reported 25.9%). Adjustment: Net profit excluding non-recurring items (the company's own figure): 28.788 billion yuan in nine months, 9.193 billion in the third quarter. The gap comes from fair-value gains on the investment in ChangXin (CXMT), which listed in the period, and from currency-hedging gains; non-recurring items were a net 12.605 billion yuan in nine months. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 2.7%."
+    "tr": "Formül yılda %4,0 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %−22,5 (şirketin düzeltilmiş rakamı; açıklanan %9,3); Temmuz-Eylül 2026 çeyreği %−15,7 (şirketin düzeltilmiş rakamı; açıklanan %25,9). Düzeltme: Tek seferlik kalemler hariç net kâr (şirketin kendi 'koufei' rakamı): dokuz ayda 28,788 milyar yuan, üçüncü çeyrekte 9,193 milyar yuan. Fark, borsaya açılan ChangXin (CXMT) yatırımının değer artışından ve kur korumasından gelen kazançlardan doğuyor; dokuz ayda tek seferlik kalemler net 12,605 milyar yuan. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %2,0.",
+    "en": "The formula gave growth of 4.0% a year. Latest figures (net profit, year on year): January-September 2026 −22.5% (the company's adjusted figure; reported 9.3%); July-September 2026 quarter −15.7% (the company's adjusted figure; reported 25.9%). Adjustment: Net profit excluding non-recurring items (the company's own figure): 28.788 billion yuan in nine months, 9.193 billion in the third quarter. The gap comes from fair-value gains on the investment in ChangXin (CXMT), which listed in the period, and from currency-hedging gains; non-recurring items were a net 12.605 billion yuan in nine months. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 2.0%."
+   },
+   "per": "2026-Q3"
+  },
+  "earn": {
+   "k": 0.693,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Bu kârın içindeki tek seferlik kazançlar: Şirketin 'olağan dışı' diye ayırdığı kalemlerin son 12 aydaki net tutarı (çoğu finansal araçların değer artışı ve yatırım geliri): son 12 ay kârının %30,7 kadarı. Net etki %30,7; kazanç bu kadar indirildi. Son 12 ayın kârı 0,69 ile çarpılarak kullanıldı.",
+    "en": "The calculation rests on the profit of the last 12 months. One-off gains inside that profit: Net total over the last 12 months of the items the company itself classes as non-recurring (mostly fair-value and investment income on financial instruments): 30.7% of last-12-month profit. The net effect is 30.7%; earnings were lowered by that much. Last-12-month profit was used multiplied by 0.69."
    },
    "per": "2026-Q3"
   }
@@ -585,6 +622,11 @@
     "t": "Caixin Global: Kanada, Hikvision'ın ülkedeki işini kapatma kararı verdi (30 Haziran 2025)",
     "te": "Caixin Global: Canada orders Hikvision to close its business in the country (30 June 2025)",
     "u": "https://www.caixinglobal.com/2025-06-30/canada-kicks-out-chinese-surveillance-gear-maker-102336423.html"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://wap.stockstar.com/detail/SN2026101600031849"
    }
   ],
   "en": {
@@ -612,6 +654,14 @@
    "basis": {
     "tr": "Formül yılda %0,0 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %41,5 (şirketin düzeltilmiş rakamı; açıklanan %38,5); Temmuz-Eylül 2026 çeyreği %43,1 (şirketin düzeltilmiş rakamı; açıklanan %37,0). Düzeltme: Tek seferlik kalemler hariç net kâr: dokuz ayda 12,696 milyar yuan, üçüncü çeyrekte 4,984 milyar yuan; büyüme raporlanandan da yüksek, kârı şişiren tek seferlik kalem yok. Formül zaten sıfır büyüme varsayıyor; indirilecek bir şey yok.",
     "en": "The formula gave growth of 0.0% a year. Latest figures (net profit, year on year): January-September 2026 41.5% (the company's adjusted figure; reported 38.5%); July-September 2026 quarter 43.1% (the company's adjusted figure; reported 37.0%). Adjustment: Net profit excluding non-recurring items: 12.696 billion yuan in nine months, 4.984 billion in the third quarter; growth is even higher than reported, no one-off inflates profit. The formula already assumes zero growth; there is nothing to lower."
+   },
+   "per": "2026-Q3"
+  },
+  "earn": {
+   "k": 1.0,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı.",
+    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are."
    },
    "per": "2026-Q3"
   }
@@ -780,8 +830,16 @@
   "growth": {
    "g": null,
    "basis": {
-    "tr": "Formül yılda %11,7 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %32,7 (şirketin düzeltilmiş rakamı; açıklanan %31,6); Temmuz-Eylül 2026 çeyreği %14,9 (şirketin düzeltilmiş rakamı; açıklanan %14,5). Düzeltme: olağan dışı kalemler hariç net kâr. En düşüğü, enflasyondan arındırılınca, %14,1. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
-    "en": "The formula gave growth of 11.7% a year. Latest figures (net profit, year on year): January-September 2026 32.7% (the company's adjusted figure; reported 31.6%); July-September 2026 quarter 14.9% (the company's adjusted figure; reported 14.5%). Adjustment: net profit excluding non-recurring items. The lowest, after inflation, is 14.1%. That is not less than half the formula's rate; the rate was not lowered."
+    "tr": "Formül yılda %10,5 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %32,7 (şirketin düzeltilmiş rakamı; açıklanan %31,6); Temmuz-Eylül 2026 çeyreği %14,9 (şirketin düzeltilmiş rakamı; açıklanan %14,5). Düzeltme: olağan dışı kalemler hariç net kâr. En düşüğü, enflasyondan arındırılınca, %14,1. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 10.5% a year. Latest figures (net profit, year on year): January-September 2026 32.7% (the company's adjusted figure; reported 31.6%); July-September 2026 quarter 14.9% (the company's adjusted figure; reported 14.5%). Adjustment: net profit excluding non-recurring items. The lowest, after inflation, is 14.1%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q3"
+  },
+  "earn": {
+   "k": 0.898,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Bu kârın içindeki tek seferlik kazançlar: Şirketin 'olağan dışı' diye ayırdığı kalemlerin son 12 aydaki net tutarı (çoğu devlet desteği türü diğer gelirler ve finansal araçların değer artışı): son 12 ay kârının %10,2 kadarı. Net etki %10,2; kazanç bu kadar indirildi. Son 12 ayın kârı 0,90 ile çarpılarak kullanıldı.",
+    "en": "The calculation rests on the profit of the last 12 months. One-off gains inside that profit: Net total over the last 12 months of the items the company itself classes as non-recurring (mostly grant-type other income and fair-value gains): 10.2% of last-12-month profit. The net effect is 10.2%; earnings were lowered by that much. Last-12-month profit was used multiplied by 0.90."
    },
    "per": "2026-Q3"
   }
@@ -844,6 +902,11 @@
     "t": "Tiger Brokers: Kweichow Moutai 2025 yıllık raporu özeti (Nisan 2026)",
     "te": "Tiger Brokers: summary of Kweichow Moutai's 2025 annual report (April 2026)",
     "u": "https://www.itiger.com/news/1131123980"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649896.PDF"
    }
   ],
   "en": {
@@ -871,6 +934,14 @@
    "basis": {
     "tr": "Formül yılda %6,1 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %−0,6 (şirketin düzeltilmiş rakamı; açıklanan %−0,2); Temmuz-Eylül 2026 çeyreği %3,8. Düzeltme: Tek seferlik kalemler hariç net kâr (koufei): dokuz ayda 64,325 milyar yuan; fark çok küçük, kârı bozan tek seferlik kalem yok. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %3,1.",
     "en": "The formula gave growth of 6.1% a year. Latest figures (net profit, year on year): January-September 2026 −0.6% (the company's adjusted figure; reported −0.2%); July-September 2026 quarter 3.8%. Adjustment: Net profit excluding non-recurring items: 64.325 billion yuan in nine months; the gap is tiny, no one-off distorts profit. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 3.1%."
+   },
+   "per": "2026-Q3"
+  },
+  "earn": {
+   "k": 1.0,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı.",
+    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are."
    },
    "per": "2026-Q3"
   }

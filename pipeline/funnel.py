@@ -79,7 +79,9 @@ def fair_value(P, roe_n, g, dy, wide):
 
 def roe_cons(u, l):
     """Temkinli özsermaye kârlılığı: son 12 ay ve son iki mali yıl okumasının en düşüğü (reel)."""
-    return min(x for x in (u["rr"] if u["nom"] else u["roe"], l["rroe"][-2], l["rroe"][-1]) if x is not None)
+    ek = l.get("ek") or 1.0            # kazanç yargısı: son 12 ayın kârı tek seferlik kazanç ya da daha düşük şirket beklentisi için indirilir
+    ttm = u["rr"] if u["nom"] else u["roe"]
+    return min(x for x in (None if ttm is None else ttm * ek, l["rroe"][-2], None if l["rroe"][-1] is None else l["rroe"][-1] * ek) if x is not None)
 
 
 def price_test(P, u, l, wide):
@@ -239,7 +241,11 @@ def run(cc):
                 L2[c] = dict(asof=h.get("asof"), stale=h.get("stale", 0), roe=roe6, rroe=[rnd(v, 2) for v in rroe6],
                              roic=h.get("roic"), fcf=h["fcf"], nd=nd, pe=h.get("pe"), pb=h.get("pb"), dy=h.get("dy"), po=h.get("po"),
                              avg=rnd(avg), mn=rnd(mn), fails=fails, flags=flags, ok=0 if fails else 1)
-                roe_c = [x for x in (rr, rroe6[-2], rroe6[-1]) if x is not None]
+                ej = (reports.get(c) or {}).get("earn") or {}
+                ek = ej["k"] if isinstance(ej.get("k"), (int, float)) and 0 < ej["k"] < 1 else 1.0
+                if ek < 1:
+                    L2[c]["ek"] = ek               # kazanç yargısı (CLAUDE.md): son 12 ay okumaları bu çarpanla alınır
+                roe_c = [x for x in (None if rr is None else rr * ek, rroe6[-2], None if rroe6[-1] is None else rroe6[-1] * ek) if x is not None]
                 if roe_c and min(roe_c) > 0:       # 4. surun büyüme hızı (fiyat testi ve ön hesap için)
                     g, gh, gs, gpo = growth(h, labs, cpi_of, min(roe_c), not defl, P, str(int(min(era_years)) - 1) if (era_explicit and era_years) else None)
                     L2[c].update(g=rnd(g, 2), gh=rnd(gh, 2), gs=rnd(gs, 2), gpo=rnd(gpo))

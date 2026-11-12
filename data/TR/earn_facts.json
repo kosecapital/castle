@@ -1,0 +1,151 @@
+{
+ "BIMAS": {
+  "unit": "million TRY",
+  "eps_cur": "TRY",
+  "ttm": {
+   "eps": null,
+   "net_profit": 34715.5,
+   "tr": "Ocak-Eylül 2026 dokuz aylık kâr, bir yıl önceki aynı dönem ve 2025 yılı kârı; hepsi son bilançodan, Eylül 2026 parasıyla. Enflasyon muhasebesi nedeniyle çeyrekler toplanmadı; 12 aylık tutar = 2025 yılı + dokuz ay − geçen yılın dokuz ayı.",
+   "en": "Nine-month profit for January-September 2026, the same period a year earlier and full-year 2025 profit; all from the latest filing, in September 2026 money. Quarters were not added because of inflation accounting; the 12-month figure = full-year 2025 + nine months − prior-year nine months.",
+   "url": "https://kap.org.tr/en/api/BildirimPdf/1695704"
+  },
+  "tax_rate": 36.2,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Primary: KAP financial report notice 1695704 (published 9 Nov 2026), thousand TL. Parent net profit 9M26 26,151,834 vs 9M25 14,598,567; Q3 10,385,559 vs 6,843,296; FY2025 parent net profit 23,162,281 (Sep 2026 money). Monetary gain (not a one-off): 9M26 22,188,094 vs 20,614,793; Q3 3,566,230 vs 6,545,408. Pre-tax profit 9M 41,386,167; tax 14,992,339 (deferred 4,325,154). Investment activity income 9M 9,655,861 vs 5,464,017 (not itemised in the notice; no gain on sale: cash flow shows a 31,975 loss on disposals; fair value adjustment 0). Reported basic EPS 9M 22.05 TL (prior-year column 24.41 looks not restated for the bonus issue). No one-off gain identified by the company. No profit guidance (company guides real sales growth and EBITDA margin only, per growth_facts). 12-month sum 34,715.5 / implied ~1,199 mn shares matches the site's implied EPS 28.96. The 12-month net_profit is my arithmetic (FY2025 + 9M26 - 9M25), not a company figure; FY2025 is the 'current period net profit' line of the 31 Dec 2025 column restated in the latest filing. EPS is null: no 12-month EPS is reported. tax_rate is computed by me from the nine-month tax expense / pre-tax profit."
+ },
+ "CCOLA": {
+  "unit": "million TRY",
+  "eps_cur": "TRY",
+  "ttm": {
+   "eps": null,
+   "net_profit": 21703.1,
+   "tr": "Ocak-Eylül 2026 dokuz aylık kâr, bir yıl önceki aynı dönem ve 2025 yılı kârı; hepsi son bilançodan, Eylül 2026 parasıyla. Enflasyon muhasebesi nedeniyle çeyrekler toplanmadı; 12 aylık tutar = 2025 yılı + dokuz ay − geçen yılın dokuz ayı.",
+   "en": "Nine-month profit for January-September 2026, the same period a year earlier and full-year 2025 profit; all from the latest filing, in September 2026 money. Quarters were not added because of inflation accounting; the 12-month figure = full-year 2025 + nine months − prior-year nine months.",
+   "url": "https://kap.org.tr/en/api/BildirimPdf/1691889"
+  },
+  "tax_rate": 27.3,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Primary: KAP financial report notice 1691889 (3 Nov 2026), thousand TL. Parent net profit 9M26 22,455,312 vs 18,246,506; Q3 7,786,064 vs 9,316,692; FY2025 parent 17,494,327 (Sep 2026 money). Monetary gain (not a one-off): 9M26 7,475,897 vs 7,574,443; Q3 1,597,195 vs 2,077,495. Pre-tax 9M 31,322,908; tax 8,542,411 (deferred expense 1,063,466). No gain on sale, bargain purchase or fair-value gain line; investment activity income 60,914. Reported basic EPS 9M 0.080253 TL per 1 kurus share (= about 8.03 TL per 1 TL nominal). No one-off gain found in the notice or in the 2Q26 release (https://ccicomtrcdn.cci.com.tr/global/2Q26 Release.pdf), which labels nothing one-off. Guidance notice (KAP 1691892, read via https://borsacoo.com/bildirim/104613, 3 Nov 2026): volume, net revenue per case, flat EBIT margin, capex; NO net profit guidance. Could not open the 3Q26 Release PDF (borsacoo attachment robots-blocked; no cci.com.tr URL found). 12-month sum 21,703.1 / 2,798 mn shares = about 7.76, close to the site's implied 7.77. The 12-month net_profit is my arithmetic (FY2025 + 9M26 - 9M25), not a company figure; FY2025 is the 'current period net profit' line of the 31 Dec 2025 column restated in the latest filing. EPS is null: no 12-month EPS is reported. tax_rate is computed by me from the nine-month tax expense / pre-tax profit."
+ },
+ "CLEBI": {
+  "unit": "million TRY",
+  "eps_cur": "TRY",
+  "ttm": {
+   "eps": null,
+   "net_profit": 3604.2,
+   "tr": "Ocak-Eylül 2026 dokuz aylık kâr, bir yıl önceki aynı dönem ve 2025 yılı kârı (son bilançodan). 12 aylık tutar = 2025 yılı + dokuz ay − geçen yılın dokuz ayı.",
+   "en": "Nine-month profit for January-September 2026, the same period a year earlier and full-year 2025 profit (from the latest filing). The 12-month figure = full-year 2025 + nine months − prior-year nine months.",
+   "url": "https://kap.org.tr/en/api/BildirimPdf/1695780"
+  },
+  "tax_rate": 22.7,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Primary: KAP financial report notice 1695780, amounts in TL. Parent net profit 9M26 2,213,100,166 vs 2,246,053,580; Q3 1,574,438,215 vs 1,404,419,366; FY2025 parent 3,637,202,794 (balance sheet 31.12.2025 column). Continuing operations profit 9M 2,836,684,091 vs 2,742,220,577; discontinued operations LOSS 9M 1,016,587,134 vs 325,469,911 (a loss, so not listed). Net monetary position line is 0 for 9M26 (250,871 TL in 9M25): the statements do not look inflation-adjusted in substance (the notice text does not say; I could not confirm TAS 29 status or whether FY2025 is restated). Investment activity income 9M 52,953,171 TL (51.7 mn in Q3), about 1.5% of 12-month profit, not described; below threshold. Pre-tax 9M 3,668.7 mn; tax 832.0 mn. Reported basic EPS per 1 kurus share: continuing 1.329, discontinued -0.418 (= about 91.1 TL per 1 TL share for nine months). No guidance found. CHECK: my 12-month sum 3,604.2 mn / 24.3 mn shares = about 148.3 TL, well BELOW the site's implied 185.35 TL (which needs about 4,504 mn); I could not reconcile this from the notice. The 12-month net_profit is my arithmetic (FY2025 + 9M26 - 9M25), not a company figure; FY2025 is the 'current period net profit' line of the 31 Dec 2025 column restated in the latest filing. EPS is null: no 12-month EPS is reported. tax_rate is computed by me from the nine-month tax expense / pre-tax profit."
+ },
+ "FROTO": {
+  "unit": "million TRY",
+  "eps_cur": "TRY",
+  "ttm": {
+   "eps": null,
+   "net_profit": 32501.7,
+   "tr": "Ocak-Eylül 2026 dokuz aylık kâr, bir yıl önceki aynı dönem ve 2025 yılı kârı; hepsi son bilançodan, Eylül 2026 parasıyla. Enflasyon muhasebesi nedeniyle çeyrekler toplanmadı; 12 aylık tutar = 2025 yılı + dokuz ay − geçen yılın dokuz ayı.",
+   "en": "Nine-month profit for January-September 2026, the same period a year earlier and full-year 2025 profit; all from the latest filing, in September 2026 money. Quarters were not added because of inflation accounting; the 12-month figure = full-year 2025 + nine months − prior-year nine months.",
+   "url": "https://kap.org.tr/en/api/BildirimPdf/1693370"
+  },
+  "tax_rate": 6.2,
+  "gains": [
+   {
+    "tr": "Nisan-Haziran 2026 çeyreğinde ertelenmiş vergi geliri (çeyreğin toplam vergi geliri 2.777,5). Şirket, imalat kazancında kurumlar vergisi oranını %12,5'e indiren düzenleme (4 Haziran 2026) sonrası ertelenmiş vergi bakiyelerinin yeni oranla yeniden ölçüldüğünü söylüyor; yeniden ölçümün tutarını ayrıca açıklamıyor",
+    "en": "Deferred tax income in the April-June 2026 quarter (total tax income for the quarter 2,777.5). The company says deferred tax balances were remeasured after the regulation of 4 June 2026 cut the corporate tax rate on manufacturing income to 12.5%; it does not disclose the remeasurement amount separately",
+    "frac": 0.0871,
+    "how": null,
+    "period_tr": "Nisan-Haziran 2026 çeyreği (Haziran 2026 parasıyla)",
+    "period_en": "April-June 2026 quarter (in June 2026 money)",
+    "url": "https://www.fordotosan.com.tr/documents/Documents/Ozel_Durum_Aciklamalari/january-1-june-30-2026-condensed-interim-consolidated-financial-statements.pdf"
+   }
+  ],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Primary: KAP financial report notice 1693370 (5 Nov 2026, thousand TL), the 9M26 bulletin (https://kap.org.tr/tr/api/file/download/4028328da17e515f01a1ac5082c40d63) and the H1 2026 statements on fordotosan.com.tr. Net profit (no minority) 9M26 19,263,850 vs 29,012,748; Q3 8,351,383 vs 10,899 mn; FY2025 42,250,543 (Sep 2026 money). Pre-tax 9M 20,544,245 vs 35,653,180; total tax 1,280,395 vs 6,640,432; current tax 1,068,876 vs 2,593,863; deferred tax expense 211,519 vs 4,046,569 (Q3 2026 deferred expense 690,175). H1 2026 (June 2026 money): deferred tax INCOME 453,402 vs expense 3,113,044; Q2 2026 alone deferred income 2,832,507 vs 85,691, total Q2 tax income 2,777,517. The listed amount is the WHOLE Q2 deferred tax income, not an isolated remeasurement effect: the tax note with the split was not in the text I could read, and the bulletin says the remeasurement amount only qualitatively (it also says current tax fell after the rate cut, which is ongoing, not one-off). Q1 2026 therefore carried a deferred tax expense of about 2,379 (H1 453 minus Q2 2,833). Monetary gain (not a one-off): 9M26 16,909,895 vs 16,732,498. Reported basic EPS 9M 5.49 vs 8.27. No profit guidance (volumes, revenue change, adjusted EBITDA margin 6-7%, capex only). 12-month sum 32,501.7 / 3,509 mn shares = about 9.26, matching the site's implied 9.285. The 12-month net_profit is my arithmetic (FY2025 + 9M26 - 9M25), not a company figure; FY2025 is the 'current period net profit' line of the 31 Dec 2025 column restated in the latest filing. EPS is null: no 12-month EPS is reported. tax_rate is computed by me from the nine-month tax expense / pre-tax profit."
+ },
+ "ISMEN": {
+  "unit": "million TRY",
+  "eps_cur": "TRY",
+  "ttm": {
+   "eps": null,
+   "net_profit": 7840.9,
+   "tr": "Ocak-Eylül 2026 dokuz aylık kâr, bir yıl önceki aynı dönem ve 2025 yılı kârı; hepsi son bilançodan, Eylül 2026 parasıyla. Enflasyon muhasebesi nedeniyle çeyrekler toplanmadı; 12 aylık tutar = 2025 yılı + dokuz ay − geçen yılın dokuz ayı.",
+   "en": "Nine-month profit for January-September 2026, the same period a year earlier and full-year 2025 profit; all from the latest filing, in September 2026 money. Quarters were not added because of inflation accounting; the 12-month figure = full-year 2025 + nine months − prior-year nine months.",
+   "url": "https://kap.org.tr/en/api/BildirimPdf/1696009"
+  },
+  "tax_rate": 44.1,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Primary: KAP financial report notice 1696009 (thousand TL), inflation-adjusted. Parent net profit 9M26 4,812,016 vs 6,226,971; Q3 2,049,561 vs 1,964,327; FY2025 parent 9,255,939 (Sep 2026 money). Net monetary position is a LOSS: 9M26 -6,141,230 vs -7,066,930. Pre-tax 9M 10,183,297; tax 4,489,412. UNIDENTIFIED: 'investment activity income' 1,002,344 in 9M26, all of it in Q3 2026 (2,628,427 in 9M25, 0 in Q3 2025), against investment activity expense 111,362; the notice tables do not say what it is, the company does not call it one-off, and I did not find the note, so it is NOT listed as a one-off gain (pre-tax it is about 13% of 12-month profit: worth checking). Fair-value gains of 3,319,383 (9M26; 5,929,942 in 9M25) are removed in the cash-flow reconciliation: for a brokerage this is ordinary trading-book valuation, not listed. EPS fields blank in the notice. No guidance found. 12-month sum 7,840.9 / 1,500 mn shares = about 5.23, matching the site's implied 5.238. The 12-month net_profit is my arithmetic (FY2025 + 9M26 - 9M25), not a company figure; FY2025 is the 'current period net profit' line of the 31 Dec 2025 column restated in the latest filing. EPS is null: no 12-month EPS is reported. tax_rate is computed by me from the nine-month tax expense / pre-tax profit."
+ },
+ "MAVI": {
+  "unit": "million TRY",
+  "eps_cur": "TRY",
+  "ttm": {
+   "eps": null,
+   "net_profit": 2138.8,
+   "tr": "Şubat-Temmuz 2026 altı aylık kâr, bir yıl önceki aynı dönem ve 31 Ocak 2026'da biten mali yılın kârı; hepsi son bilançodan, Temmuz 2026 parasıyla. Çeyrekler toplanmadı; 12 aylık tutar = mali yıl + altı ay − geçen yılın altı ayı.",
+   "en": "Six-month profit for February-July 2026, the same period a year earlier and profit of the fiscal year ended 31 January 2026; all from the latest filing, in July 2026 money. Quarters were not added; the 12-month figure = fiscal year + six months − prior-year six months.",
+   "url": "https://kap.org.tr/tr/api/file/download/4028328ca09bee8f01a0aa3314df7959"
+  },
+  "tax_rate": 54.3,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Primary: reviewed interim statements to 31 July 2026 (KAP attachment), thousand TL, purchasing power of 31 July 2026. Owners' profit H1 980,256 vs 1,463,317; reported EPS H1 1.2338 vs 1.8417 TL; total net profit 806,656 vs 1,339,705 (minority loss 173,600). Fiscal-year (to 31 Jan 2026) 'net profit for the period' 2,621,822 from the balance-sheet comparative column (appears to be owners' share). Net monetary position is a LOSS: -408,063 vs -199,639. Pre-tax 1,723,214; tax 916,558; effective tax rate 54.3% as stated in Note 23 (24.2% a year earlier, when H1 2025 had deferred tax INCOME of 390,747; that half-year is subtracted in the 12-month sum, so it is outside the window). No gain labelled one-off; gain on fixed-asset sales 3,463 only. No profit guidance (revenue, EBITDA margin, net cash only, per growth_facts). The last 6,629 characters of the file were not read. The 12-month net_profit is my arithmetic, not a company figure; 2,138.8 / 794.5 mn shares = about 2.69, matching the site's implied 2.691. EPS null: no 12-month EPS reported."
+ },
+ "MPARK": {
+  "unit": "million TRY",
+  "eps_cur": "TRY",
+  "ttm": {
+   "eps": null,
+   "net_profit": 7150.2,
+   "tr": "Ocak-Eylül 2026 dokuz aylık kâr, bir yıl önceki aynı dönem ve 2025 yılı kârı; hepsi son bilançodan, Eylül 2026 parasıyla. Enflasyon muhasebesi nedeniyle çeyrekler toplanmadı; 12 aylık tutar = 2025 yılı + dokuz ay − geçen yılın dokuz ayı.",
+   "en": "Nine-month profit for January-September 2026, the same period a year earlier and full-year 2025 profit; all from the latest filing, in September 2026 money. Quarters were not added because of inflation accounting; the 12-month figure = full-year 2025 + nine months − prior-year nine months.",
+   "url": "https://kap.org.tr/tr/api/BildirimPdf/1692568"
+  },
+  "tax_rate": 19.9,
+  "gains": [],
+  "offsets": [],
+  "drop": {
+   "tr": "Sabit kıymet yeniden değerlemesinin ertelenmiş vergi etkisi (559 milyon TL) şirketçe tek seferlik sayılmıyor ve yinelenip yinelenmeyeceği belirtilmiyor; kazançtan düşülmedi.",
+   "en": "The deferred-tax effect of the fixed-asset revaluation (559 million TRY) is not called one-off by the company and nothing says whether it recurs; it was not deducted."
+  },
+  "guidance": [],
+  "notes": "Primary: KAP financial report notice 1692568 (4 Nov 2026, thousand TL) and the H1 2026 statements (Note 23). Parent net profit 9M26 5,553,513 vs 5,286,345; Q3 2,224,884; FY2025 parent 6,883,023 (Sep 2026 money). Minority share 9M26 260,896 vs 557,499; Q3 2026 minority share is NEGATIVE (-151,170), consistent with brokers' remark that after buying the remaining 20% of Samsun Medikal the minority's first-half profit moved to the parent in Q3 (a 'presentation effect' per Ahlatci's analyst-meeting note; neither the company nor brokers quantify it, so not listed; the -151,170 swing is the only number I can point to). Revaluation item: 558,717 for 1 Jan-30 Jun 2026, nil a year earlier; whether a similar item recurs each year is not stated (H1 effective tax 17.0% vs 31.0%). 9M deferred tax: income 181,854 vs expense 1,154,050. A bargain-purchase gain of 538,303 sits in 9M 2025: it is inside fiscal 2025 but is subtracted with the prior-year nine months, so it is OUTSIDE the 12-month window. Monetary gain (not a one-off): 9M26 3,234,357 vs 2,190,657; Q3 941,165. Pre-tax 9M 7,260,664 vs 8,285,429; tax 1,446,255. H1 reported EPS 16.51 vs 15.80. No company profit guidance found. 12-month sum 7,150.2 / 191.0 mn shares = about 37.43, matching the site's implied 37.40. The 12-month net_profit is my arithmetic (FY2025 + 9M26 - 9M25), not a company figure; FY2025 is the 'current period net profit' line of the 31 Dec 2025 column restated in the latest filing. EPS is null: no 12-month EPS is reported. tax_rate is computed by me from the nine-month tax expense / pre-tax profit."
+ },
+ "TOASO": {
+  "unit": "million TRY",
+  "eps_cur": "TRY",
+  "ttm": {
+   "eps": null,
+   "net_profit": 17556.0,
+   "tr": "Ocak-Eylül 2026 dokuz aylık kâr, bir yıl önceki aynı dönem ve 2025 yılı kârı; hepsi son bilançodan, Eylül 2026 parasıyla. Enflasyon muhasebesi nedeniyle çeyrekler toplanmadı; 12 aylık tutar = 2025 yılı + dokuz ay − geçen yılın dokuz ayı.",
+   "en": "Nine-month profit for January-September 2026, the same period a year earlier and full-year 2025 profit; all from the latest filing, in September 2026 money. Quarters were not added because of inflation accounting; the 12-month figure = full-year 2025 + nine months − prior-year nine months.",
+   "url": "https://kap.org.tr/en/api/BildirimPdf/1693478"
+  },
+  "tax_rate": 9.5,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Primary: KAP financial report notice 1693478 (5 Nov 2026, thousand TL; id taken from borsacoo.com/bildirim/105114). Parent net profit 9M26 10,972,737 vs 3,802,128; Q3 4,331,820 vs 1,567,618; FY2025 10,385,359 (Sep 2026 money). Pre-tax 9M 12,121,484 vs 4,030,559; total tax 1,148,747 (current 1,479,156; deferred INCOME 330,409 vs 21,224). Q3 2026: pre-tax 4,821,240, deferred tax income 460,191 (expense 355,323 in Q3 2025), total tax 489,420 vs 698,795. TAX-RATE CHANGE: the H1 statements (Note 14, https://kap.org.tr/tr/api/file/download/4028328c9f52dc3f019faec44fe808ef) say Law 7582 (4 June 2026) cuts the corporate tax rate on manufacturing income from 25% to 12.5% from 1 January 2027 and that this is reflected in deferred tax at 30 June 2026, but give NO remeasurement amount; H1 deferred tax was an expense of 122,935 (Q2 income 33,614). So no identified tax one-off; the largest candidate, Q3 deferred tax income 460.2, is about 2.6% of 12-month profit and unexplained in the notice. Monetary gain (not a one-off): 9M26 +3,016,320 vs a LOSS of 411,685 in 9M25; Q3 1,255,374 vs 1,348,305. Net finance income 9M 3,344,592 (6,534,489 - 3,189,897). Reported EPS 9M 21.95 vs 7.60 TL. Structural: 9M25 holds the merged Stellantis Otomotiv business only from May 2025 (growth_facts). No net profit guidance; the company guides a pre-tax profit MARGIN of about 4% for 2026 (was 3-4%) and 5-7% for 2028 (quartr summary, not primary): margin guidance, so not listed. 12-month sum 17,556.0 / 500 mn shares = about 35.11, matching the site's implied 35.0. The 12-month net_profit is my arithmetic (FY2025 + 9M26 - 9M25), not a company figure; FY2025 is the 'current period net profit' line of the 31 Dec 2025 column restated in the latest filing. EPS is null: no 12-month EPS is reported. tax_rate is computed by me from the nine-month tax expense / pre-tax profit."
+ }
+}

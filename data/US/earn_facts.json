@@ -1,0 +1,758 @@
+{
+ "AAPL": {
+  "unit": "million USD",
+  "eps_cur": "USD",
+  "ttm": {
+   "eps": 8.98,
+   "net_profit": 132175,
+   "tr": "Ekim 2025 - Eylül 2026 (26 Eylül 2026'da biten mali yıl; son rapor yıl sonu)",
+   "en": "October 2025 - September 2026 (fiscal year ended 26 September 2026; latest report is the full year)",
+   "url": "https://last10k.com/sec-filings/aapl/0000320193-26-000024.htm"
+  },
+  "tax_rate": 17.0,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Sources: Apple press release of 2 Nov 2026 (apple.com newsroom) and its 8-K Exhibit 99.1 as reproduced by Last10K. FY2026 net income 132,175 vs 112,010; diluted EPS 8.98 vs 7.46; Q4 30,711 / 2.10 vs 27,466 / 1.85. Tax rate computed by me: provision 27,062 / pre-tax income 159,237. BELOW THRESHOLD, so not listed: the release says Q4 diluted EPS 'included a favorable impact of $0.05 from tariff refunds' (and about 1 point of gross margin); 0.05 is about 0.6% of 12-month EPS; no dollar amount and no full-year refund figure is given. No EPS or net income guidance in the release; I did not read the earnings call."
+ },
+ "AMAT": {
+  "unit": "million USD",
+  "eps_cur": "USD",
+  "ttm": {
+   "eps": 11.6,
+   "net_profit": 9267,
+   "tr": "Kasım 2025 - Temmuz 2026 dokuz ayı artı Ağustos-Ekim 2025 çeyreği (dört çeyrek)",
+   "en": "nine months November 2025 - July 2026 plus the August-October 2025 quarter (four quarters)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000006951/000162828026056699/exhibit991q32026earningsre.htm"
+  },
+  "tax_rate": 12.9,
+  "gains": [
+   {
+    "tr": "Stratejik yatırımlarda gerçekleşmemiş değer artışı (net)",
+    "en": "Unrealised gain on strategic investments, net",
+    "frac": 0.0371,
+    "how": null,
+    "period_tr": "Ağustos-Ekim 2025 çeyreği (2025 mali yılının 4. çeyreği)",
+    "period_en": "August-October 2025 quarter (fiscal Q4 2025)",
+    "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-fourth-quarter-and-fiscal-year-2025"
+   },
+   {
+    "tr": "Stratejik yatırımlarda gerçekleşmemiş değer artışı (net; 3. çeyrekteki 220 milyonluk değer kaybı düşülmüş)",
+    "en": "Unrealised gain on strategic investments, net (after a 220 million loss in Q3)",
+    "frac": 0.0871,
+    "how": null,
+    "period_tr": "Kasım 2025 - Temmuz 2026 (2026 mali yılının ilk dokuz ayı)",
+    "period_en": "November 2025 - July 2026 (first nine months of fiscal 2026)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000006951/000162828026056699/exhibit991q32026earningsre.htm"
+   }
+  ],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "The Q4 / fiscal 2026 release (due 12 Nov 2026 after the US close) was NOT out when checked: the IR home page still listed only the date announcement and searches returned previews only. TTM = Q4 fiscal 2025 (GAAP EPS 2.38, net income 1,897) + nine months fiscal 2026 (9.22; 7,370). Gains are the company's own non-GAAP reconciliation lines; the amounts in millions are from the net-income reconciliation (pre-tax; the tax effect is in a separate combined line), the per-share figures are from the EPS reconciliation as printed. Total unrealised gain in the 12 months: 1,416 million, 1.44 per share. Smaller items: realised gain/dividends on strategic investments 55 million (0.07) in Q4 fiscal 2025 and a 22 million net loss in nine months 2026; prior-year tax resolution items were a 7 million benefit in Q4 fiscal 2025 and a 3 million charge in nine months 2026 (the large tax charges of 738 and 320 million sit in fiscal 2025's first nine months, outside the 12 months). The 12 months also carry one-off charges (253 million export-control settlement in fiscal 2026; 181 million restructuring and 41 million impairment in Q4 fiscal 2025), ignored per brief. Non-GAAP EPS for the same 12 months: 2.17 + 8.73 = 10.90. Q4 guidance of 4.02 +/- 0.20 non-GAAP implies about 12.55-12.95 non-GAAP for fiscal 2026 (my arithmetic). Tax rate 12.9% is computed for nine months fiscal 2026 (1,090 / 8,460); fiscal 2025 was about 24.5% (2,273 / 9,271), inflated by a 410 million valuation allowance."
+ },
+ "AVGO": {
+  "unit": "million USD",
+  "eps_cur": "USD",
+  "ttm": {
+   "eps": 7.83,
+   "net_profit": 38265,
+   "tr": "Ağustos 2025 - Ağustos 2026 (dört çeyrek: 2025 mali yılının 4. çeyreği 1,74 + 2026 mali yılının ilk dokuz ayı 6,09)",
+   "en": "August 2025 - August 2026 (four quarters: fiscal Q4 2025 1.74 + first nine months of fiscal 2026 6.09)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001730168/000173016826000076/avgo-08022026x8kxex99.htm"
+  },
+  "tax_rate": -1.7,
+  "gains": [
+   {
+    "tr": "Zamanaşımı sürelerinin dolmasından doğan tek seferlik, nakit dışı vergi faydası",
+    "en": "One-time, discrete non-cash tax benefit from lapses of statutes of limitations",
+    "frac": 0.0549,
+    "how": null,
+    "period_tr": "2 Kasım 2025'te biten çeyrek (2025 mali yılının 4. çeyreği)",
+    "period_en": "Quarter ended 2 November 2025 (fiscal Q4 2025)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000116/avgo-11022025x8kxex99.htm"
+   }
+  ],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Both SEC 8-K exhibits read. GAAP net income: Q4 FY25 8,518 + 9M FY26 29,747. The 2.1bn tax benefit made Q4 FY25 tax a benefit of 1,649 on pre-tax income of 6,869; FY2025 tax was a benefit of 397 on pre-tax 22,729 (rate -1.7%, computed). No per-share figure given by the company (2,100 / 38,265 = 5.5% of 12-month profit, my arithmetic). Below the 3% threshold and not listed: excise tax benefit 315 in 9M FY26 (0.8%); gains on investments 6 in Q4 FY25. The 163 gain on sale of business was in the quarter ended 3 Aug 2025, outside the 12 months but inside FY2025. 9M FY26 tax rate computed 11.5% (3,853 / 33,600). No EPS or net profit guidance (only next-quarter revenue and margin). Fiscal Q4 2026 results due in December 2026."
+ },
+ "BBW": {
+  "unit": "million USD",
+  "eps_cur": "USD",
+  "ttm": {
+   "eps": 4.04,
+   "net_profit": 51.57,
+   "tr": "Ağustos 2025 - Temmuz 2026 (2025 mali yılı eksi ilk yarısı, artı 2026 mali yılının ilk yarısı)",
+   "en": "August 2025 - July 2026 (fiscal 2025 minus its first half, plus first half of fiscal 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001113809/000143774926029054/ex_1009466.htm"
+  },
+  "tax_rate": 22.3,
+  "gains": [
+   {
+    "tr": "2025 mali yılının maliyetlerine ait gümrük vergisi (IEEPA) iadesi; brüt kâra yazıldı",
+    "en": "IEEPA tariff refund relating to fiscal 2025 costs; booked in gross margin",
+    "frac": 0.1064,
+    "how": null,
+    "period_tr": "2026 mali yılının ilk yarısı (Şubat-Temmuz 2026; 2. çeyrekte iade yok)",
+    "period_en": "first half of fiscal 2026 (February-July 2026; none in Q2)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001113809/000143774926029054/ex_1009466.htm"
+   }
+  ],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "TTM is arithmetic: fiscal 2025 (EPS 3.99, net income 52.203, pre-tax 67.227; release of 12 Mar 2026, https://www.sec.gov/Archives/edgar/data/1113809/000143774926007824/ex_931843.htm) minus first half fiscal 2025 (2.11; 27.69; 34.95) plus first half fiscal 2026 (2.16; 27.06; 35.51). TTM pre-tax income on the same arithmetic: 67.79. Guidance is pre-tax income only (no EPS, no share count); guided tax rate about 24% excluding discrete items. IMPORTANT correction to growth_facts: the release says the 60-68 outlook 'reflects an approximately $13 million IEEPA tariff refund', but the company's adjusted outlook of 53-61 removes only the 7 million that relates to fiscal 2025 costs (reconciliation table: 60,000/68,000 minus 7,000). So about 6 million more of refund is inside the guidance and not yet booked at 1 August 2026; the release does not say which period's costs it relates to or when it will be booked. Per-share 0.43 is reported EPS 2.16 minus the company's adjusted EPS 1.73. Fiscal 2025 pre-tax income was 67.2 million, with no one-off gains mentioned. Tax rate 22.3% is computed for fiscal 2025 (15.024 / 67.227). Q3 fiscal 2026 results are not out (usually early December)."
+ },
+ "BWMX": {
+  "unit": "million MXN",
+  "eps_cur": "MXN",
+  "ttm": {
+   "eps": 34.6,
+   "net_profit": 1316.1,
+   "tr": "Ekim 2025 - Eylül 2026 (2025'in 4. çeyreği artı 2026'nın dokuz ayı)",
+   "en": "October 2025 - September 2026 (Q4 2025 plus nine months 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001788257/000121390026111757/ea030869501ex99-1.htm"
+  },
+  "tax_rate": 40.0,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Figures are in Mexican pesos (the share trades in dollars). TTM = Q4 2025 (EPS 6.70, net income to owners 249.9; https://www.businesswire.com/news/home/20260225896157/en/BeFra-Reports-Fourth-Quarter-2025-Results/) + nine months 2026 (27.9; 1,066.2). EPS is BASIC: the company reports no diluted EPS; full-year 2025 EPS was 27.94 and net income 1,042.8. No net income or EPS guidance (2026: revenue growth 24-26%, organic 4-5%, EBITDA margin 19%). No one-off gain inside the 12 months: no bargain-purchase gain on the Tupperware Latam acquisition is disclosed, no derivative gain, FX was a net loss of 11.6 million in nine months 2026 and a 6.9 million gain in Q4 2025. The 'extraordinary' tax benefit of about 34-35 million pesos was booked in Q3 2025, outside the window (inside fiscal 2025; about 3% of that year's profit). A 174 million peso Tupperware item in Q3 2026 is described as a balance-sheet reclassification affecting cash flow, not a profit item. The 12 months include Tupperware Latam only since June 2026, plus 43 million of non-recurring acquisition costs (a charge). Do not use the 'combined' nine-month EPS of 45.4, which adds Tupperware's pre-acquisition profit of 668.1 million. Tax rate 40.0% is computed for full-year 2025 (694.7 / 1,737.5); nine months 2026 37.3%, Q3 2026 45.8%; management expects the mid-30s for 2026."
+ },
+ "COST": {
+  "unit": "million USD",
+  "eps_cur": "USD",
+  "ttm": {
+   "eps": 20.76,
+   "net_profit": 9226,
+   "tr": "Eylül 2025 - Ağustos 2026 (2026 mali yılı, 52 hafta)",
+   "en": "September 2025 - August 2026 (fiscal year 2026, 52 weeks)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000909832/000090983226000084/costex9918-k92426.htm"
+  },
+  "tax_rate": 24.7,
+  "gains": [
+   {
+    "tr": "Çeyrekte alınan gümrük vergisi (IEEPA) iadelerinden tek seferlik fayda; bir kısmı üyelere yansıtıldıktan sonra hisse başına 0,15 dolar. Şirket dolar tutarı vermiyor",
+    "en": "Non-recurring benefit from IEEPA tariff refunds received in the quarter, 0.15 dollars per diluted share after part was reinvested in member value. The company gives no dollar amount",
+    "frac": 0.0072,
+    "how": null,
+    "period_tr": "Mayıs-Ağustos 2026 çeyreği (16 hafta)",
+    "period_en": "May-August 2026 quarter (16 weeks)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000909832/000090983226000084/costex9918-k92426.htm"
+   }
+  ],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Read from Costco's SEC 8-K exhibit (primary; the site report cites the Finviz copy, same text). Latest report is the full fiscal year ended 30 August 2026, so ttm = fiscal 2026. The tariff benefit is BELOW the 3% threshold (0.15 / 20.76 = 0.7%); listed only because it was asked about. No dollar amount is given; 0.15 x about 444.4 million diluted shares (9,226 / 20.76) is about 67 million after tax, my arithmetic, not a company figure. The release mentions no other non-recurring or discrete tax benefit for the quarter or the year (earlier quarters' releases were not opened). Tax rate computed: 3,025 / 12,251. Costco gives no earnings guidance. Next results (fiscal Q1 2027) due in December."
+ },
+ "CSCO": {
+  "unit": "million USD",
+  "eps_cur": "USD",
+  "ttm": {
+   "eps": 3.33,
+   "net_profit": 13267,
+   "tr": "Ağustos 2025 - Temmuz 2026 (2026 mali yılı)",
+   "en": "August 2025 - July 2026 (fiscal year 2026)",
+   "url": "https://investor.cisco.com/news/news-details/2026/CISCO-REPORTS-FOURTH-QUARTER-AND-FISCAL-YEAR-2026-EARNINGS/default.aspx"
+  },
+  "tax_rate": 17.1,
+  "gains": [
+   {
+    "tr": "Yatırım kazançları (şirket düzeltilmiş kârdan çıkarıyor; hangi yatırım olduğunu söylemiyor). Yılda 1.398 milyon doların 869 milyonu son çeyrekte (Mayıs-Temmuz 2026)",
+    "en": "Gains on investments (the company removes them from non-GAAP earnings and does not name the investments). Of 1,398 million dollars in the year, 869 million came in the last quarter (May-July 2026)",
+    "frac": 0.0874,
+    "how": 17.1,
+    "period_tr": "2026 mali yılı (Ağustos 2025 - Temmuz 2026)",
+    "period_en": "Fiscal year 2026 (August 2025 - July 2026)",
+    "url": "https://investor.cisco.com/news/news-details/2026/CISCO-REPORTS-FOURTH-QUARTER-AND-FISCAL-YEAR-2026-EARNINGS/default.aspx"
+   }
+  ],
+  "offsets": [],
+  "drop": null,
+  "guidance": [
+   {
+    "fy_tr": "2027 mali yılı (Temmuz 2027'de biter)",
+    "fy_en": "Fiscal 2027 (ends July 2027)",
+    "mid": 4.03,
+    "low": 4.0,
+    "high": 4.06,
+    "kind": "reported",
+    "url": "https://investor.cisco.com/news/news-details/2026/CISCO-REPORTS-FOURTH-QUARTER-AND-FISCAL-YEAR-2026-EARNINGS/default.aspx",
+    "date": "2026-08-12"
+   },
+   {
+    "fy_tr": "2027 mali yılı (Temmuz 2027'de biter)",
+    "fy_en": "Fiscal 2027 (ends July 2027)",
+    "mid": 5.08,
+    "low": 5.05,
+    "high": 5.11,
+    "kind": "adjusted",
+    "url": "https://investor.cisco.com/news/news-details/2026/CISCO-REPORTS-FOURTH-QUARTER-AND-FISCAL-YEAR-2026-EARNINGS/default.aspx",
+    "date": "2026-08-12"
+   }
+  ],
+  "notes": "Latest report is the full fiscal year ended 25 July 2026, so ttm = fiscal 2026 (GAAP net income 13,267, EPS 3.33; non-GAAP EPS 4.33). Q1 fiscal 2027 results were due on 12 November 2026 after the US close; two searches during this session found only the conference-call notice, no results, so nothing newer was used: RE-CHECK. Investment gains: 1,398 pre-tax for the year = about 1,159 after tax at the 17.1% GAAP rate, about 0.29 per share, 8.7% of profit (my arithmetic; the company gives no after-tax or per-share figure). Other income (loss), net was 1,245 for the year (822 in Q4) versus (68) in fiscal 2025. Going the other way inside GAAP profit: 'significant tax matters' were a net tax CHARGE of 198 for the year (330 in Q4), restructuring charges 693 (511 in Q4, plan announced 13 May 2026). Company guidance for Q1 fiscal 2027: GAAP EPS 1.08-1.10, non-GAAP 1.32-1.34. The GAAP full-year guidance (4.00-4.06) is ABOVE the 12-month EPS of 3.33."
+ },
+ "GOOGL": {
+  "unit": "million USD",
+  "eps_cur": "USD",
+  "ttm": {
+   "eps": 19.15,
+   "net_profit": 235310,
+   "tr": "Ekim 2025 - Eylül 2026 (dört çeyrek: 2025'in 4. çeyreği 2,82 + 2026'nın ilk dokuz ayı 16,33)",
+   "en": "October 2025 - September 2026 (four quarters: Q4 2025 2.82 + first nine months of 2026 16.33)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001652044/000165204426000080/googexhibit991q32026.htm"
+  },
+  "tax_rate": 16.8,
+  "gains": [
+   {
+    "tr": "Hisse senedi yatırımlarında değerleme kazancı (net); şirkete göre net kârı 1,8 milyar dolar, hisse başına kârı 0,15 dolar artırdı",
+    "en": "Net gain on equity securities; the company says it raised net income by 1.8 billion dollars and EPS by 0.15 dollars",
+    "frac": 0.0078,
+    "how": null,
+    "period_tr": "Ekim-Aralık 2025 çeyreği",
+    "period_en": "October-December 2025 quarter",
+    "url": "https://s206.q4cdn.com/479360582/files/doc_financials/2025/q4/2025q4-alphabet-earnings-release.pdf"
+   },
+   {
+    "tr": "Hisse senedi yatırımlarında değerleme kazancı (net), çoğu borsada işlem görmeyen hisselerin gerçekleşmemiş kazancı; şirkete göre net kârı 28,7 milyar dolar, hisse başına kârı 2,35 dolar artırdı",
+    "en": "Net gain on equity securities, mostly unrealized gains on non-marketable securities; the company says it raised net income by 28.7 billion dollars and EPS by 2.35 dollars",
+    "frac": 0.1227,
+    "how": null,
+    "period_tr": "Ocak-Mart 2026 çeyreği",
+    "period_en": "January-March 2026 quarter",
+    "url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q1/2026q1-alphabet-earnings-release.pdf"
+   },
+   {
+    "tr": "Hisse senedi yatırımlarında değerleme kazancı (net); şirkete göre net kârı 77,1 milyar dolar, hisse başına kârı 6,26 dolar artırdı",
+    "en": "Net gain on equity securities; the company says it raised net income by 77.1 billion dollars and EPS by 6.26 dollars",
+    "frac": 0.3269,
+    "how": null,
+    "period_tr": "Nisan-Haziran 2026 çeyreği",
+    "period_en": "April-June 2026 quarter",
+    "url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q2/2026q2-alphabet-earnings-release.pdf"
+   }
+  ],
+  "offsets": [
+   {
+    "tr": "Temmuz-Eylül 2026 çeyreğinde aynı kalemden zarar (hisse başına 0,55 dolar)",
+    "en": "A loss on the same item in the July-September 2026 quarter (0.55 dollars per share)",
+    "frac": 0.0287
+   }
+  ],
+  "drop": null,
+  "guidance": [],
+  "notes": "All four quarters read from Alphabet's own releases (Q3 2026 SEC exhibit; Q4 2025, Q1 and Q2 2026 from the IR PDF host). TTM net profit is net income available to common stockholders: 34,455 (Q4 2025) + 200,855 (9M 2026); total net income before preferred dividends is 235,694 (preferred dividends 384 in 9M 2026). Quarterly diluted EPS: 2.82, 5.11, 9.11, 2.12 (sum 19.16; 2.82 + nine-month 16.33 = 19.15). IMPORTANT OFFSET: Q3 2026 had a net LOSS on equity securities of 8,664 (company: cut net income by 6.7bn and EPS by 0.55); not listed because only gains were asked. Net of that loss, equity-securities items over the 12 months = +129,584 pre-tax, about +100.9bn after tax, +8.21 per share (my sums of the company's per-quarter figures), i.e. about 43% of the 12-month EPS. Other income (expense), net by quarter: 3,183 / 37,716 / 97,983 / (8,221). The releases do not name the investments. Tax rate 16.8% is FY2025 computed (26,656 / 158,826); 9M 2026 computed 19.0%. No EPS or profit guidance. FY2025: net income 132,170, EPS 10.81."
+ },
+ "HD": {
+  "unit": "million USD",
+  "eps_cur": "USD",
+  "ttm": {
+   "eps": 14.29,
+   "net_profit": 14227,
+   "tr": "Ağustos 2025 - Temmuz 2026 (2025 mali yılı eksi ilk yarısı, artı 2026 mali yılının ilk yarısı)",
+   "en": "August 2025 - July 2026 (fiscal 2025 minus its first half, plus first half of fiscal 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000354950/000035495026000145/hd_exhibit991x08022026.htm"
+  },
+  "tax_rate": 23.9,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [
+   {
+    "fy_tr": "2026 mali yılı (Ocak 2027'de biter)",
+    "fy_en": "fiscal 2026 (ends January 2027)",
+    "mid": 14.515,
+    "low": 14.23,
+    "high": 14.8,
+    "kind": "reported",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000354950/000035495026000145/hd_exhibit991x08022026.htm",
+    "date": "2026-08-18"
+   },
+   {
+    "fy_tr": "2026 mali yılı (Ocak 2027'de biter)",
+    "fy_en": "fiscal 2026 (ends January 2027)",
+    "mid": 14.985,
+    "low": 14.69,
+    "high": 15.28,
+    "kind": "adjusted",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000354950/000035495026000145/hd_exhibit991x08022026.htm",
+    "date": "2026-08-18"
+   }
+  ],
+  "notes": "TTM is arithmetic: fiscal 2025 EPS 14.23 / net earnings 14,156 (8-K exhibit of 24 Feb 2026, https://www.sec.gov/Archives/edgar/data/354950/000035495026000026/hd_exhibit991x02012026.htm) minus first half fiscal 2025 (8.03 / 7,984) plus first half fiscal 2026 (8.09 / 8,055); a sum of period EPS is approximate. Guidance is stated as growth, 'approximately flat to 4.0%' from 14.23 (reported) and from 14.69 (adjusted); the absolute ranges are my arithmetic. Adjusted EPS only adds back amortisation of acquired intangibles (0.61 per share before tax in fiscal 2025), a recurring item. No one-off gain is identified in either release. The Q2 release says fiscal 2026 guidance 'includes IEEPA tariff refunds', expected to partly offset unplanned fuel, energy and product input costs; no amount is given and no refund line appears in the first-half results. Tax rate 23.9% is computed for fiscal 2025 (4,446 / 18,602); the company guides to about 24.3% for fiscal 2026. Q3 fiscal 2026 results are due 17 November 2026 (not out)."
+ },
+ "JNJ": {
+  "unit": "million USD",
+  "eps_cur": "USD",
+  "ttm": {
+   "eps": 6.59,
+   "net_profit": 16095,
+   "tr": "Ekim 2025 - Eylül 2026 (dört çeyrek: 2025'in 4. çeyreği 2,10 + 2026'nın ilk dokuz ayı 4,49)",
+   "en": "October 2025 - September 2026 (four quarters: Q4 2025 2.10 + first nine months of 2026 4.49)",
+   "url": "https://s203.q4cdn.com/636242992/files/content_files/3Q26-Earnings-Press-Release-Final-with-attachments.pdf"
+  },
+  "tax_rate": 17.7,
+  "gains": [
+   {
+    "tr": "Vergi mevzuatı ve diğer vergi kalemlerinden 742 milyon dolarlık fayda (şirket düzeltilmiş kârdan çıkarıyor; ne olduğunu açıklamıyor). Çeyrekte vergi, 150 milyon dolar gelir oldu",
+    "en": "A 742 million dollar benefit from tax legislation and other tax-related items (the company removes it from adjusted earnings and does not explain it). Tax was a 150 million dollar benefit in the quarter",
+    "frac": 0.0461,
+    "how": null,
+    "period_tr": "Ekim-Aralık 2025 çeyreği",
+    "period_en": "October-December 2025 quarter",
+    "url": "https://s203.q4cdn.com/636242992/files/doc_news/Johnson--Johnson-reports-Q4-and-Full-Year-2025-results-2026.pdf"
+   }
+  ],
+  "offsets": [
+   {
+    "tr": "Son 12 aydaki dava giderleri (vergi öncesi 6,97 milyar dolar; çoğu talk davaları karşılığı)",
+    "en": "Litigation expense in the last 12 months (6.97 billion dollars pre-tax; mostly the talc provision)",
+    "frac": 0.3564
+   }
+  ],
+  "drop": null,
+  "guidance": [
+   {
+    "fy_tr": "2026 yılı",
+    "fy_en": "2026",
+    "mid": 11.1,
+    "low": 11.05,
+    "high": 11.15,
+    "kind": "adjusted",
+    "url": "https://s203.q4cdn.com/636242992/files/content_files/3Q26-Earnings-Press-Release-Final-with-attachments.pdf",
+    "date": "2026-10-13"
+   }
+  ],
+  "notes": "Net earnings: Q4 2025 5,116 + 9M 2026 10,979. THE LITIGATION INCOME IS NOT INSIDE THE LAST 12 MONTHS: the 6,894 pre-tax litigation gain was in the nine months of 2025 (before Q4 2025). It IS inside the latest completed fiscal year: FY2025 litigation was net income of 6,040 pre-tax (9M gain 6,894 less Q4 expense 854), tax on special items 1,509 per the reconciliation, so about 4,531 after tax, about 1.87 per share of FY2025 EPS 11.03 (the after-tax and per-share figures are arithmetic by the fetch tool from the reconciliation, not company statements). Inside the 12 months litigation is an EXPENSE: 854 (Q4 2025) + 6,116 (9M 2026, of which 5,519 in Q3 for the proposed talc resolution) = 6,970 pre-tax, which is why 12-month EPS (6.59) is far below adjusted (Q4 2025 adjusted EPS not re-read; 9M 2026 adjusted 8.19; 2026 adjusted guidance 11.05-11.15). Gains inside the 12 months below the 3% threshold, not listed: gains on securities 100 (Q4 2025) + 262 (9M 2026) pre-tax; acquisition/divestiture-related net income of 190 pre-tax in Q4 2025 (unexplained). Other one-off charges in the period: Orthopaedics separation 48 + 746, restructuring 210 + 533, IPR&D impairments 81 + 375. GAAP tax rate: FY2025 17.7%; Q4 2025 (3.0)%; 9M 2026 14.0%. No GAAP guidance: J&J says it does not give GAAP measures forward-looking. A typo in the Q3 release shows restructuring as 1195 in one table, 195 in the other."
+ },
+ "KO": {
+  "unit": "million USD",
+  "eps_cur": "USD",
+  "ttm": {
+   "eps": 3.39,
+   "net_profit": 14629,
+   "tr": "Ekim 2025 - Eylül 2026 (dört çeyrek: 2025'in 4. çeyreği 0,53 + 2026'nın ilk dokuz ayı 2,86)",
+   "en": "October 2025 - September 2026 (four quarters: Q4 2025 0.53 + first nine months of 2026 2.86)",
+   "url": "https://last10k.com/sec-filings/ko/0001628280-26-067403.htm"
+  },
+  "tax_rate": 17.9,
+  "gains": [
+   {
+    "tr": "Şirketin karşılaştırılabilir hisse başına kârı son dört çeyrekte 3,32 dolar (0,58 + 2,74); açıklanan 3,39 dolar. Aradaki fark, satış kazançları ve vergi kalemleri ile değer düşüklüğü giderlerinin neti",
+    "en": "The company's comparable earnings per share for the last four quarters were 3.32 dollars (0.58 + 2.74) against 3.39 reported. The difference is the net of disposal gains and tax items against impairment charges",
+    "frac": 0.0206,
+    "how": null,
+    "period_tr": null,
+    "period_en": null,
+    "url": null
+   }
+  ],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Net income attributable to shareowners: Q4 2025 2,271 (KO's own SEC exhibit on its IR site) + 9M 2026 12,358 (SEC 8-K mirrored by last10k.com; only the first 100,000 characters read, so the nine-month reconciliation table was not seen). Guidance is comparable (non-GAAP) EPS growth of 'at least 11%' on 3.00 in 2025; the 3.33 low is my arithmetic (3.00 x 1.11), the company gives no dollar figure and no upper bound; includes about 3 points of currency tailwind and about 1 point of divestiture headwind (IR page: https://investors.coca-colacompany.com/news-events/press-releases/detail/1176/coca-cola-reports-third-quarter-202%206-results-and-raises-full-year-guidance). No reported-EPS guidance. Q4 2025 reconciliation (company figures, effect of removing each item): asset impairments +1,014 pre-tax / +0.18 per share (a CHARGE in reported profit, 960 of it North America); transaction gains/losses -704 pre-tax / -201 after tax / -0.05; other items -98 pre-tax / -0.02; certain tax matters -281 / -0.07; reported EPS 0.53 vs comparable 0.58. So the Q4 one-offs net to a reduction of reported profit. The fetch tool listed the Q4 tax benefits as 279 plus 2 of stock-compensation benefits; the reconciliation column shows 281. Also in Q4 2025: 31 gain on liquidation of a China joint venture (small). 9M 2026: only a 61 pre-tax reduction of the Africa held-for-sale charge; mark-to-market items lowered comparable income, i.e. they were gains in reported income of 113 (economic hedges) and 171 (equity and trading debt securities) pre-tax, each below 3%; pension settlement charge of 192 goes the other way. 12-month comparable EPS = 0.58 + 2.74 = 3.32 (2.74 from growth_facts, read earlier today) vs reported 3.39. Tax rates computed: FY2025 17.9% (2,861 / 15,998); 9M 2026 16.5%; company's underlying rate outlook for 2026 is 19.7%."
+ },
+ "LLY": {
+  "unit": "million USD",
+  "eps_cur": "USD",
+  "ttm": {
+   "eps": 30.81,
+   "net_profit": 27578,
+   "tr": "Ekim 2025 - Eylül 2026 (dört çeyrek: 2025'in 4. çeyreği 7,39 + 2026'nın ilk dokuz ayı 23,42)",
+   "en": "October 2025 - September 2026 (four quarters: Q4 2025 7.39 + first nine months of 2026 23.42)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000059478/000005947826000104/q326lillysalesandearningsp.htm"
+  },
+  "tax_rate": 19.8,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [
+   {
+    "fy_tr": "2026 yılı",
+    "fy_en": "2026",
+    "mid": 35.5,
+    "low": 35.0,
+    "high": 36.0,
+    "kind": "adjusted",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000059478/000005947826000104/q326lillysalesandearningsp.htm",
+    "date": "2026-10-29"
+   }
+  ],
+  "notes": "Reported net income: Q4 2025 6,636 + 9M 2026 20,942. My 12-month EPS of 30.81 is above the site's implied 30.438; both inputs are from Lilly's own releases (FY2025 reported EPS 22.95, 9M 2025 15.56, so Q4 2025 = 7.39 as the release states). Guidance is non-GAAP only (35.00-36.00, lowered from 35.50-36.50; February guidance was 33.50-35.00); Lilly gives no reported-EPS range. Non-GAAP EPS keeps acquired R&D charges inside. Gains below the 3% threshold, not listed: net gains on equity securities 39 pre-tax in Q4 2025 (0.03 per share) and 571 pre-tax in 9M 2026 (47 in Q3, 0.04 per share) = 610 pre-tax, about 1.7% of 12-month profit after tax (my arithmetic). Q3 2026 revenue included about 900 of benefits (410 Jardiance milestones plus rebate estimate adjustments), which the company does not call a gain. Tax rate: FY2025 reported 19.8%; 9M 2026 21.0%."
+ },
+ "MA": {
+  "unit": "million USD",
+  "eps_cur": "USD",
+  "ttm": {
+   "eps": 19.11,
+   "net_profit": 16958,
+   "tr": "Ekim 2025 - Eylül 2026 (dört çeyrek: 2025'in 4. çeyreği 4,52 + 2026'nın ilk dokuz ayı 14,59)",
+   "en": "October 2025 - September 2026 (four quarters: Q4 2025 4.52 + first nine months of 2026 14.59)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001141391/000114139126000122/ma09302026-exx991xearnings.htm"
+  },
+  "tax_rate": 19.4,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Net income: Q4 2025 4,060 (Mastercard's own Q4 release, https://s25.q4cdn.com/479285134/files/doc_financials/2025/q4/4Q25-Mastercard-Earnings-Release.pdf) + 9M 2026 12,898 (SEC exhibit). No one-off gains: equity investments were net LOSSES in every period read (104 pre-tax in Q4 2025; 73 in 9M 2026), and the other special items are charges (litigation 174 in Q4 2025 and 156 in 9M 2026; restructuring 202 in Q1 2026). The Q3 2026 release attributes the lower tax rate (19.4% vs 21.5% in the quarter; 19.6% vs 20.4% in nine months) to 'higher net discrete tax benefits' without a dollar amount. Tax rate 19.4% is FY2025 GAAP. No EPS guidance in either release (revenue and expense growth only, on the call)."
+ },
+ "META": {
+  "unit": "million USD",
+  "eps_cur": "USD",
+  "ttm": {
+   "eps": 29.32,
+   "net_profit": 75249,
+   "tr": "Ekim 2025 - Eylül 2026 (dört çeyrek: 2025'in 4. çeyreği 8,88 + 2026'nın ilk dokuz ayı 20,44)",
+   "en": "October 2025 - September 2026 (four quarters: Q4 2025 8.88 + first nine months of 2026 20.44)",
+   "url": "https://finviz.com/news/405782/meta-reports-third-quarter-2026-results"
+  },
+  "tax_rate": 30.0,
+  "gains": [
+   {
+    "tr": "ABD Hazinesi'nin 2026-7 sayılı duyurusundan doğan 8,03 milyar dolarlık gelir vergisi faydası; 2025'in 3. çeyreğinde yazılan 15,93 milyar dolarlık vergi giderinin bir kısmını geri alıyor. Şirkete göre bu olmasa hisse başına kâr 3,13 dolar düşük olurdu",
+    "en": "An 8.03 billion dollar income tax benefit from US Treasury Notice 2026-7, partly reversing the 15.93 billion dollar tax charge booked in Q3 2025. The company says EPS would have been 3.13 dollars lower without it",
+    "frac": 0.1068,
+    "how": null,
+    "period_tr": "Ocak-Mart 2026 çeyreği",
+    "period_en": "January-March 2026 quarter",
+    "url": "https://s21.q4cdn.com/399680738/files/doc_news/Meta-Reports-First-Quarter-2026-Results-2026.pdf"
+   }
+  ],
+  "offsets": [
+   {
+    "tr": "Temmuz-Eylül 2026 çeyreğindeki hukuki gider (şirkete göre hisse başına 3,57 dolar)",
+    "en": "The legal charge in the July-September 2026 quarter (3.57 dollars per share according to the company)",
+    "frac": 0.1218
+   }
+  ],
+  "drop": null,
+  "guidance": [],
+  "notes": "Q4 2025 from Meta's IR page and Q1/Q2 2026 from Meta's own PDFs (primary); the Q3 2026 / nine-month figures are from the full press release as reproduced by Finviz (PR Newswire), hence ttm primary false. Net income: Q4 2025 22,768 + 9M 2026 52,481. Quarterly EPS: 8.88, 10.44, 6.18, 3.83. Q1 2026: tax was a benefit of 5,021 on pre-tax 21,752 (rate -23%; 37 points higher without the benefit). OPPOSITE-DIRECTION ONE-OFF inside the 12 months: Q3 2026 legal charge of 9.89bn (company: EPS would have been 3.57 higher, 7.40). Net of both company-stated items, 12-month EPS would be 29.32 - 3.13 + 3.57 = 29.76 (my arithmetic). Tax rate 30% is reported FY2025 (13% excluding the Q3 2025 valuation-allowance charge, per the company); Q4 2025 rate 10%, Q2 2026 16%, Q3 2026 24% (17% excluding the charge); company expects 15-17% for Q4 2026. Unrealized equity investment items are small (gain 496 in Q4 2025; losses 1,075, 111 and 18 in Q1-Q3 2026). No EPS or net income guidance."
+ },
+ "MSFT": {
+  "unit": "million USD",
+  "eps_cur": "USD",
+  "ttm": {
+   "eps": 19.16,
+   "net_profit": 142631,
+   "tr": "Ekim 2025 - Eylül 2026 (dört çeyrek: 2026 mali yılının 2., 3., 4. çeyrekleri ve 2027 mali yılının 1. çeyreği)",
+   "en": "October 2025 - September 2026 (four quarters: Q2, Q3, Q4 of fiscal 2026 and Q1 of fiscal 2027)",
+   "url": "https://www.jamessharp.co.uk/market-news/microsoft-announces-first-quarter-results/"
+  },
+  "tax_rate": null,
+  "gains": [
+   {
+    "tr": "OpenAI yatırımının son dört çeyrekteki net etkisi (şirketin düzeltilmiş kârdan çıkardığı kalem)",
+    "en": "Net effect of the OpenAI investment over the last four quarters (an item the company removes from adjusted profit)",
+    "frac": 0.0585,
+    "how": null,
+    "period_tr": null,
+    "period_en": null,
+    "url": null
+   },
+   {
+    "tr": "Anthropic yatırımından kazanç (Nisan-Haziran 2026; şirket vergi öncesi mi sonrası mı olduğunu belirtmiyor)",
+    "en": "Gain on the Anthropic investment (April-June 2026; the company does not say whether it is pre- or after-tax)",
+    "frac": 0.0224,
+    "how": null,
+    "period_tr": null,
+    "period_en": null,
+    "url": null
+   }
+  ],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Quarterly GAAP figures from Microsoft's own releases on news.microsoft.com (primary) for FY26 Q2 (28 Jan 2026: net income 38,458, EPS 5.16; non-GAAP 30,875 / 4.14), Q3 (29 Apr 2026: 31,778 / 4.27; OpenAI net LOSS 14, EPS effect 0.00) and Q4 (29 Jul 2026: 35,766 / 4.81; non-GAAP 35,286 / 4.74); FY27 Q1 (28 Oct 2026: 36,629 / 4.92; non-GAAP 36,422 / 4.89) from the release text republished by James Sharp, hence ttm primary false. Sum 5.16+4.27+4.81+4.92 = 19.16 (sum of quarterly EPS, my arithmetic). Fiscal 2026 (to 30 Jun 2026): GAAP net income 133,749, EPS 17.95; OpenAI impact for the year +4,963 / +0.67; non-GAAP 128,786 / 17.28. OpenAI effects inside the 12 months, all after-tax as the company states: +7,583 (+1.02), -14 (0.00), +480 (+0.07), +207 (+0.03) = net +8,256 / about +1.12 per share; the two small gains (Q4 FY26, Q1 FY27) are below the 3% threshold and not listed separately. Anthropic: the 0.27 per-share figure is the NET of several discrete items (the 3.2 bn gain and lower-than-expected Voluntary Retirement Program costs, partly offset by severance and Xbox impairment charges), measured against the company's guidance, so no per-share effect of the gain alone is stated; the extra key amount_basis_not_stated holds the 3,200. No EPS or net income guidance in any release (guidance is given on the call, which I did not read). Effective tax rate not in the release text I could read."
+ },
+ "NVDA": {
+  "unit": "million USD",
+  "eps_cur": "USD",
+  "ttm": {
+   "eps": 7.91,
+   "net_profit": 192879,
+   "tr": "Ağustos 2025 - Temmuz 2026 (dört çeyrek: 2026 mali yılının 3. ve 4., 2027 mali yılının 1. ve 2. çeyrekleri)",
+   "en": "August 2025 - July 2026 (four quarters: Q3 and Q4 of fiscal 2026, Q1 and Q2 of fiscal 2027)",
+   "url": "https://nvidianews.nvidia.com/_gallery/download_pdf/6a8f4ad73d6332b41f76ab70"
+  },
+  "tax_rate": 15.1,
+  "gains": [
+   {
+    "tr": "Hisse senedi yatırımlarından net kazanç (halka açık ve halka açık olmayan şirket payları); şirket bunu düzeltilmiş (non-GAAP) kârının dışında tutuyor",
+    "en": "Net gains from equity securities (non-marketable and publicly held); the company excludes them from its non-GAAP profit",
+    "frac": 0.006,
+    "how": 15.1,
+    "period_tr": "Ağustos-Ekim 2025 çeyreği",
+    "period_en": "August-October 2025 quarter",
+    "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/5f86707e-03f3-4e5e-b9bd-048e42123723.pdf"
+   },
+   {
+    "tr": "Hisse senedi yatırımlarından net kazanç (halka açık ve halka açık olmayan şirket payları); şirket bunu düzeltilmiş (non-GAAP) kârının dışında tutuyor",
+    "en": "Net gains from equity securities (non-marketable and publicly held); the company excludes them from its non-GAAP profit",
+    "frac": 0.0242,
+    "how": 15.1,
+    "period_tr": "Kasım 2025 - Ocak 2026 çeyreği",
+    "period_en": "November 2025 - January 2026 quarter",
+    "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/5f86707e-03f3-4e5e-b9bd-048e42123723.pdf"
+   },
+   {
+    "tr": "Hisse senedi yatırımlarından net kazanç (halka açık ve halka açık olmayan şirket payları); şirket bunu düzeltilmiş (non-GAAP) kârının dışında tutuyor",
+    "en": "Net gains from equity securities (non-marketable and publicly held); the company excludes them from its non-GAAP profit",
+    "frac": 0.0701,
+    "how": 15.1,
+    "period_tr": "Şubat-Nisan 2026 çeyreği",
+    "period_en": "February-April 2026 quarter",
+    "url": "https://nvidianews.nvidia.com/_gallery/download_pdf/6a8f4ad73d6332b41f76ab70"
+   },
+   {
+    "tr": "Hisse senedi yatırımlarından net kazanç (halka açık ve halka açık olmayan şirket payları); şirket bunu düzeltilmiş (non-GAAP) kârının dışında tutuyor",
+    "en": "Net gains from equity securities (non-marketable and publicly held); the company excludes them from its non-GAAP profit",
+    "frac": 0.0342,
+    "how": 15.1,
+    "period_tr": "Mayıs-Temmuz 2026 çeyreği",
+    "period_en": "May-July 2026 quarter",
+    "url": "https://nvidianews.nvidia.com/_gallery/download_pdf/6a8f4ad73d6332b41f76ab70"
+   }
+  ],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Primary: NVIDIA press release for the quarter ended 26 Jul 2026 (Q2 FY27: net income 59,688, EPS 2.46; Q1 FY27: 58,321, 2.39) and the 8-K of 25 Feb 2026 with the Q4/FY26 release and CFO commentary (Q4 FY26: 42,960, 1.76; Q3 FY26: 31,910, 1.30; FY26: 120,067, 4.90). 12-month EPS 1.30+1.76+2.39+2.46 = 7.91 and net income 192,879 are my sums of reported quarters. Gains on equity securities total 30,552 pre-tax over the four quarters (8,918 in fiscal 2026 as a whole); amounts are the pre-tax lines of the GAAP to non-GAAP reconciliation. The company gives only a combined tax effect of ALL non-GAAP adjustments (Q2 FY27 1,517; Q1 FY27 2,890), so after-tax and per-share effects of the gains alone are not stated. Company non-GAAP EPS (also excludes stock compensation and acquisition costs, so not a pure ex-gain figure): Q2 FY27 2.22, Q1 FY27 1.87. tax_rate 15.1 is fiscal 2026, computed by me (21,383 / 141,450); the company's outlook for fiscal 2027 is 16.0-18.0% excluding discrete items. No EPS or net income guidance: outlook covers next-quarter revenue (108.0 bn +/-2%), gross margin and operating expenses only. Next results (Q3 FY27) are expected 17 Nov 2026 per growth_facts (not re-checked)."
+ },
+ "OMF": {
+  "unit": "million USD",
+  "eps_cur": "USD",
+  "ttm": {
+   "eps": 6.57,
+   "net_profit": 767,
+   "tr": "Ekim 2025 - Eylül 2026 (dört çeyrek)",
+   "en": "October 2025 - September 2026 (four quarters)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001584207/000158420726000038/exhibit991earningsreleaseo.htm"
+  },
+  "tax_rate": 21.8,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Four quarters from the trailing table in the Q3 2026 release: Q4 2025 1.72 / 204, Q1 2026 1.93 / 226, Q2 1.32 / 152, Q3 1.60 / 185. No EPS or net income guidance. No gain is labelled one-off. Gains on sales of finance receivables run every quarter (14, 16, 16, 16 = 62 million pre-tax in the 12 months) under an ongoing whole-loan sale programme and are inside the company's own adjusted (C&I) figures, so I did not list them. Q4 2025 GAAP EPS (1.72) is above C&I adjusted EPS (1.59) only because GAAP tax was 45 million (about 18.1%) against 62 million at the 25% rate the adjusted measure assumes; the release (https://www.sec.gov/Archives/edgar/data/1584207/000158420726000004/exhibit991earningsreleaseo.htm) does not itemise a discrete tax benefit, so about 17 million of lower tax in that quarter is unexplained. C&I adjusted EPS for the 12 months: 1.59 + 1.95 + 1.31 + 1.51 = 6.36. Tax rate 21.8% is computed for full-year 2025 (218 / 1,001); Q3 2026 about 20.6%."
+ },
+ "PG": {
+  "unit": "million USD",
+  "eps_cur": "USD",
+  "ttm": {
+   "eps": 6.64,
+   "net_profit": 16027,
+   "tr": "Ekim 2025 - Eylül 2026 (dört çeyrek: 2026 mali yılı 6,62 - geçen yılın 1. çeyreği 1,95 + 2027 mali yılının 1. çeyreği 1,97)",
+   "en": "October 2025 - September 2026 (four quarters: fiscal 2026 6.62 - last year's Q1 1.95 + fiscal 2027 Q1 1.97)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000080424/000008042426000250/fy2627q1jas8-kexhibit991.htm"
+  },
+  "tax_rate": 20.8,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [
+   {
+    "fy_tr": "2027 mali yılı (Haziran 2027'de biter)",
+    "fy_en": "Fiscal 2027 (ends June 2027)",
+    "mid": 6.82,
+    "low": 6.69,
+    "high": 6.95,
+    "kind": "reported",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000080424/000008042426000250/fy2627q1jas8-kexhibit991.htm",
+    "date": "2026-10-22"
+   },
+   {
+    "fy_tr": "2027 mali yılı (Haziran 2027'de biter)",
+    "fy_en": "Fiscal 2027 (ends June 2027)",
+    "mid": 7.0,
+    "low": 6.89,
+    "high": 7.11,
+    "kind": "adjusted",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000080424/000008042426000250/fy2627q1jas8-kexhibit991.htm",
+    "date": "2026-10-22"
+   }
+  ],
+  "notes": "Net earnings attributable to P&G: fiscal 2026 16,046 - Q1 FY26 4,750 + Q1 FY27 4,731 = 16,027. Reported-EPS guidance is given by the company as growth of 1% to 5% on 6.62; the 6.69-6.95 range is my arithmetic. It includes 0.13-0.17 per share of restructuring charges. Core EPS 6.89-7.11 is the company's own dollar range (flat to +3% on 6.89). Gain below the 3% threshold, not listed: after-tax gain of 261 (0.11 per share; 343 pre-tax in other non-operating income per the reconciliation) on the dissolution of the Glad joint venture, in fiscal 2026 and excluded from core EPS; the release (https://s204.q4cdn.com/332108499/files/doc_financials/2026/q4/FY2526-Q4-AMJ-Press-Release.pdf) does not say which quarter, only that it is not in April-June 2026, so it may fall in July-September 2025, i.e. outside the last 12 months; it is 1.6% of 12-month profit. The fiscal 2026 cash flow statement shows a 351 gain on sale of assets (probably the same item). Going the other way: incremental restructuring charges of 903 after tax (0.37 per share) in fiscal 2026 (396 / 0.16 in April-June 2026) and 77 (0.03) in July-September 2026. GAAP tax rate: fiscal 2026 20.8%; Q1 FY27 21.0%. The company says fiscal 2027 carries about 0.56 per share of cost, interest, lower non-operating income and currency headwinds."
+ },
+ "SLM": {
+  "unit": "million USD",
+  "eps_cur": "USD",
+  "ttm": {
+   "eps": 2.8,
+   "net_profit": 552.8,
+   "tr": "Ekim 2025 - Eylül 2026 (2025'in 4. çeyreği artı 2026'nın dokuz ayı)",
+   "en": "October 2025 - September 2026 (Q4 2025 plus nine months 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001032033/000103203326000051/slm102226ex991.htm"
+  },
+  "tax_rate": 25.0,
+  "gains": [],
+  "offsets": [],
+  "drop": {
+   "tr": "Kredi satış kazançları (son 12 ayda vergi öncesi 210 milyon dolar) şirketin olağan işinin parçası; tek seferlik sayılmadı. Çeyrekten çeyreğe çok oynuyor.",
+   "en": "Gains on loan sales (210 million dollars pre-tax over the last 12 months) are part of the company's ordinary business; they were not treated as one-off. They swing widely from quarter to quarter."
+  },
+  "guidance": [
+   {
+    "fy_tr": "2026 yılı",
+    "fy_en": "2026",
+    "mid": 2.0,
+    "low": 1.95,
+    "high": 2.05,
+    "kind": "reported",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001032033/000103203326000051/slm102226ex991.htm",
+    "date": "2026-10-22"
+   }
+  ],
+  "notes": "TTM = Q4 2025 (GAAP diluted EPS 1.12, net income to common 229.4) + nine months 2026 (1.68; 323.4). Quarterly EPS: Q4 2025 1.12, Q1 2026 about 1.56 (six-month 1.85 minus Q2 0.29), Q2 0.29, Q3 -0.19. Gains on loan sales in the 12 months total 210.1 million pre-tax (Q4 2025 45.2, Q1 2026 146.4 derived, Q2 14.9, Q3 3.65); the 12 months to September 2025 had far more (full-year 2025: 368.9; nine months 2025: 323.7; Q3 2025 alone 136.0). The company does not label loan-sale gains one-off: loan sales are part of its stated strategy, but the size swings by quarter. The Q4 2025 release shows two sale volumes (1,014 million in highlights, 927 million in the rollforward). 2026 GAAP EPS guidance history: 2.70-2.80 (January), 3.10-3.20 (by 23 July), cut to 1.95-2.05 on 22 October; with 1.68 earned in nine months this implies about 0.27-0.37 for Q4 2026. No 2027 guidance. Tax rate 25.0% is computed for full-year 2025 (247.7 / 992.6); nine months 2026 was 20.8% (87.7 / 421.9)."
+ },
+ "SYF": {
+  "unit": "million USD",
+  "eps_cur": "USD",
+  "ttm": {
+   "eps": 9.56,
+   "net_profit": 3333,
+   "tr": "Ekim 2025 - Eylül 2026 (2025'in 4. çeyreği artı 2026'nın dokuz ayı)",
+   "en": "October 2025 - September 2026 (Q4 2025 plus nine months 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001601712/000160171226000043/syf-20260930.htm"
+  },
+  "tax_rate": 24.4,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [
+   {
+    "fy_tr": "2026 yılı (yaklaşık 9,50; önceki aralık 9,25-9,50)",
+    "fy_en": "2026 (about 9.50; previously 9.25-9.50)",
+    "mid": 9.5,
+    "low": 9.5,
+    "high": 9.5,
+    "kind": "reported",
+    "url": "https://finsee.ai/earnings/syf/2026/q3/en/",
+    "date": "2026-10-20"
+   }
+  ],
+  "notes": "TTM = Q4 2025 (diluted EPS 2.04, net earnings 751; copy of the 8-K exhibit at https://www.boardroomalpha.com/sec/syf-8-k-2026-01-27-0001601712-26-000003/earningsrelease4q25.htm) + nine months 2026 (7.52; 2,582; 10-Q). net_profit is net earnings before preferred dividends; available to common was 2,512 in nine months 2026 (Q4 2025 figure not read). Guidance of 'about 9.50' is from a secondary summary of the Q3 call (finsee.ai); the earnings release itself has no numbers, so primary=false and low=high. With 7.52 earned, it implies about 1.98 for Q4 2026. No one-off gain above the threshold: the only gain found is 30 million pre-tax on the exchange of Visa Class B-2 shares in nine months 2026 (under 1% of 12-month profit). Q4 2025 carried a one-off charge (51 million after tax, 0.14 per share, early-retirement programme), ignored per brief. Tax rate 24.4% is the 10-Q figure for nine months 2026. Only part of the 10-Q was read (characters 0-200,000)."
+ },
+ "TBBK": {
+  "unit": "million USD",
+  "eps_cur": "USD",
+  "ttm": {
+   "eps": 5.67,
+   "net_profit": 239.8,
+   "tr": "Ekim 2025 - Eylül 2026 (2025'in 4. çeyreği artı 2026'nın dokuz ayı)",
+   "en": "October 2025 - September 2026 (Q4 2025 plus nine months 2026)",
+   "url": "https://investors.thebancorp.com/press-releases/news-details/2026/The-Bancorp-Reports-3Q-2026-EPS-of-1-53-ROA-of-2-51-and-ROE-of-36-0-Powered-by-Continuous-and-Sustained-Growth-in-Fintech-Fees/default.aspx"
+  },
+  "tax_rate": 24.7,
+  "gains": [
+   {
+    "tr": "Önceki yıllara ait vergi kredisi faydası (satın alınan devredilebilir yatırım vergi kredileri, geriye dönük kullanım)",
+    "en": "Tax credit benefit relating to prior periods (purchased transferable investment tax credits, carried back)",
+    "frac": 0.0317,
+    "how": null,
+    "period_tr": "Temmuz-Eylül 2026 çeyreği",
+    "period_en": "July-September 2026 quarter",
+    "url": "https://investors.thebancorp.com/press-releases/news-details/2026/The-Bancorp-Reports-3Q-2026-EPS-of-1-53-ROA-of-2-51-and-ROE-of-36-0-Powered-by-Continuous-and-Sustained-Growth-in-Fintech-Fees/default.aspx"
+   }
+  ],
+  "offsets": [
+   {
+    "tr": "Aynı çeyrekte yeniden yapılanma ve hukuki uzlaşma giderleri (şirkete göre hisse başına 0,12 dolar)",
+    "en": "Restructuring and legal settlement costs in the same quarter (0.12 dollars per share according to the company)",
+    "frac": 0.0212
+   }
+  ],
+  "drop": null,
+  "guidance": [
+   {
+    "fy_tr": "2026 yılı",
+    "fy_en": "2026",
+    "mid": 6.0,
+    "low": 5.95,
+    "high": 6.05,
+    "kind": "adjusted",
+    "url": "https://investors.thebancorp.com/press-releases/news-details/2026/The-Bancorp-Reports-3Q-2026-EPS-of-1-53-ROA-of-2-51-and-ROE-of-36-0-Powered-by-Continuous-and-Sustained-Growth-in-Fintech-Fees/default.aspx",
+    "date": "2026-10-30"
+   },
+   {
+    "fy_tr": "2027 yılı (temel beklenti)",
+    "fy_en": "2027 (baseline)",
+    "mid": 7.1,
+    "low": 7.0,
+    "high": 7.2,
+    "kind": "adjusted",
+    "url": "https://investors.thebancorp.com/press-releases/news-details/2026/The-Bancorp-Reports-3Q-2026-EPS-of-1-53-ROA-of-2-51-and-ROE-of-36-0-Powered-by-Continuous-and-Sustained-Growth-in-Fintech-Fees/default.aspx",
+    "date": "2026-10-30"
+   },
+   {
+    "fy_tr": "2028 yılı (ön beklenti)",
+    "fy_en": "2028 (preliminary)",
+    "mid": 8.1,
+    "low": 8.0,
+    "high": 8.2,
+    "kind": "adjusted",
+    "url": "https://investors.thebancorp.com/press-releases/news-details/2026/The-Bancorp-Reports-3Q-2026-EPS-of-1-53-ROA-of-2-51-and-ROE-of-36-0-Powered-by-Continuous-and-Sustained-Growth-in-Fintech-Fees/default.aspx",
+    "date": "2026-10-30"
+   }
+  ],
+  "notes": "TTM = Q4 2025 (diluted EPS 1.28, net income 56.3; release of 28 Jan 2026, https://www.businesswire.com/news/home/20260128786658/en) + nine months 2026 (4.39; 183.5). Guidance is for the company's 'Core' (non-GAAP) EPS and the company says it cannot reconcile it to GAAP; Core excludes restructuring, legal settlement accruals and the prior-period tax credit benefit. Q3 2026: GAAP 1.53, Core 1.47 (adds back restructuring 4.3 million pre-tax = 0.08 and a legal accrual 1.9 million = 0.04; removes the 7.3 million prior-period tax credit = 0.18). Total tax credit benefit in Q3 2026 was 10.3 million: 7.3 million for prior periods (non-core, listed above) and 3.0 million for 2026, which the company keeps in Core and expects to repeat ('expects to keep investing in tax credits'); Q3 effective tax rate was 12.5% against an expected annual rate of about 23.9%. Guidance history: January 2026 2026 EPS 5.90 and 2027 preliminary 8.25; the existing Castle report says 2027 was cut from 8.10-8.30 to 7.00-7.20 because of Chime's exit (I did not re-open that secondary source). The release date is taken from the existing report (30 October 2026); the page fetch did not show it. Tax rate 24.7% is the company's full-year 2025 figure. Only the first 100,000 characters of the Q3 release were read."
+ },
+ "V": {
+  "unit": "million USD",
+  "eps_cur": "USD",
+  "ttm": {
+   "eps": 12.32,
+   "net_profit": 23504,
+   "tr": "Ekim 2025 - Eylül 2026 (2026 mali yılı)",
+   "en": "October 2025 - September 2026 (fiscal year 2026)",
+   "url": "https://last10k.com/sec-filings/v/0001403161-26-000126.htm"
+  },
+  "tax_rate": 16.3,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Latest report is the full fiscal year, so ttm = fiscal 2026 (GAAP class A diluted EPS 12.32; net income 23,504; non-GAAP EPS 13.27). Source is the SEC 8-K as mirrored by last10k.com (the filing text itself; the reconciliation table was read at offset 100000). No absolute EPS guidance: on the call (Zacks summary, not primary, https://www.zacks.com/stock/news/3017664/visa-q4-earnings-call-highlights-fy27-outlook-and-growth-priorities, read earlier today per growth_facts, not re-opened) the company gave fiscal 2027 adjusted EPS growth of low double digits to low teens on 13.27, no dollar range. Gains in fiscal 2026, both below the 3% threshold and not listed: deferred tax benefit from the US change in taxation of foreign earnings, 314 for the year (0.16 per share; Q4 alone was a 37 expense), 1.3% of profit; net gains on equity investments 124 pre-tax / 97 after tax (0.05 per share; 155 pre-tax in Q4). One-off charges in the year go the other way: litigation provision 1,724 (0.70 per share), severance 563 (0.23), Visa Foundation donation 282 (0.11). The fetch tool's summary mislabelled the 314 as an expense; the reconciliation (removing it lowers non-GAAP income) and the release text (deferred tax benefit; GAAP rate 16.3% vs non-GAAP 17.9%) show it is a benefit."
+ },
+ "VIRT": {
+  "unit": "million USD",
+  "eps_cur": "USD",
+  "ttm": {
+   "eps": 6.81,
+   "net_profit": 626.3,
+   "tr": "Ekim 2025 - Eylül 2026 (2025'in 4. çeyreği artı 2026'nın dokuz ayı)",
+   "en": "October 2025 - September 2026 (Q4 2025 plus nine months 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001592386/000110465926123022/tm2629046d1_ex99-1.htm"
+  },
+  "tax_rate": 15.6,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "TTM = Q4 2025 (diluted EPS 1.54; net income available to common stockholders 139.9; release https://www.sec.gov/Archives/edgar/data/1592386/000159238626000003/exhibit991q425.htm) + nine months 2026 (5.27; 486.5). net_profit is the amount available to common stockholders; total net income including noncontrolling interests is 1,194.7 (280.6 + 914.1). The company gives no guidance. No one-off gain in the 12 months: the 67.0 million gain on the sale of RFQ-hub was booked in the first nine months of 2025, outside the window (it is inside fiscal 2025, EPS 5.13). 'Other, net' was 3.7 million in Q4 2025 and 10.2 million in nine months 2026, below the 3% threshold. Normalized adjusted EPS for the same 12 months: 1.85 + 5.83 = 7.68. Tax rate 15.6% is computed on pre-tax income before noncontrolling interests for nine months 2026 (169.2 / 1,083.2); the company normalises at about 24%."
+ },
+ "XP": {
+  "unit": "million BRL",
+  "eps_cur": "BRL",
+  "ttm": {
+   "eps": 10.19,
+   "net_profit": 5314,
+   "tr": "Temmuz 2025 - Haziran 2026 (dört çeyrek)",
+   "en": "July 2025 - June 2026 (four quarters)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001787425/000095010326012481/dp251884_6k-ex9901.htm"
+  },
+  "tax_rate": null,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Figures are in Brazilian reais (the share trades in dollars). Net income by quarter: 3Q25 1,330 (https://www.businesswire.com/news/home/20251117520293/en), 4Q25 1,282 reported / 1,331 adjusted (https://www.businesswire.com/news/home/20260212416895/en/), 1Q26 1,318, 2Q26 1,384 (sum 5,314 reported; 5,363 adjusted). Diluted EPS: 2.47 + 2.56 + 2.49 + 2.67 = 10.19, but the 4Q25 figure (2.56) is ADJUSTED diluted EPS: the 4Q25 release gives no reported EPS. Reported 4Q25 net income is 49 million lower than adjusted (hedge of social charges +13, PSU expiration -3, tax expenses +39, all charges), so reported 12-month EPS is roughly 0.09 lower (my estimate, not a company figure). In the other three quarters reported and adjusted are identical. No net income or EPS guidance (only a BIS capital ratio target of 16-19% by end-2026). No one-off gain is identified in any of the four releases. Effective tax rate: the releases show only a 'normalised' rate with a negative sign (2Q26 -12.4%, 1Q26 -9.0%, full-year 2025 -13.4%) and the tax lines came through garbled, so tax_rate is left null. 3Q26 results are due 16 November 2026 (not out)."
+ }
+}

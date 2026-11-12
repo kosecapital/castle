@@ -101,6 +101,14 @@
     "en": "The formula gave growth of 2.9% a year. Latest figures (earnings per share, year on year): January-September 2026 −17.5%. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 1.5%."
    },
    "per": "2026-Q3"
+  },
+  "earn": {
+   "k": 1.0,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı.",
+    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are."
+   },
+   "per": "2026-Q3"
   }
  },
  "1615": {
@@ -226,6 +234,11 @@
     "t": "Büyüme yargısının kaynağı: Ocak-Eylül 2026",
     "te": "Source for the growth judgment: January-September 2026",
     "u": "https://www.stockfeel.com.tw/?p=278472"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://filecenter.deltaww.com/ir/download/calendar/3Q26_Analyst Meeting.pdf"
    }
   ],
   "en": {
@@ -254,6 +267,14 @@
    "basis": {
     "tr": "Formül yılda %11,0 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 %61,8; Temmuz-Eylül 2026 çeyreği %26,3. En düşüğü, enflasyondan arındırılınca, %23,4. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
     "en": "The formula gave growth of 11.0% a year. Latest figures (earnings per share, year on year): January-September 2026 61.8%; July-September 2026 quarter 26.3%. The lowest, after inflation, is 23.4%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q3"
+  },
+  "earn": {
+   "k": 1.0,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı.",
+    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are."
    },
    "per": "2026-Q3"
   }
@@ -322,6 +343,11 @@
     "t": "Büyüme yargısının kaynağı: Ocak-Eylül 2026",
     "te": "Source for the growth judgment: January-September 2026",
     "u": "https://www.ctee.com.tw/news/20261015701496-430501"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-07/bf09036349a253e83f78155099133806cad0320b/2Q26%20ManagementReport.pdf"
    }
   ],
   "en": {
@@ -350,6 +376,14 @@
    "basis": {
     "tr": "Formül yılda %22,6 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 %68,5; Temmuz-Eylül 2026 çeyreği %68,7. En düşüğü, enflasyondan arındırılınca, %64,6. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
     "en": "The formula gave growth of 22.6% a year. Latest figures (earnings per share, year on year): January-September 2026 68.5%; July-September 2026 quarter 68.7%. The lowest, after inflation, is 64.6%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q3"
+  },
+  "earn": {
+   "k": 1.0,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Bu kârın içindeki tek seferlik kazançlar: Vanguard International Semiconductor (VIS) paylarının satış ve piyasa değerleme kazancı (faaliyet dışı, \"diğer kazanç ve kayıplar\"): son 12 ay kârının %2,0 kadarı. Net etki %2,0; %3'ün altında olduğu için dikkate alınmadı.",
+    "en": "The calculation rests on the profit of the last 12 months. One-off gains inside that profit: Disposal and mark-to-market gains on Vanguard International Semiconductor (VIS) shares (non-operating, \"other gains and losses\"): 2.0% of last-12-month profit. The net effect is 2.0%; being under 3%, it was disregarded."
    },
    "per": "2026-Q3"
   }
@@ -431,6 +465,14 @@
     "en": "The formula gave growth of 18.7% a year. Latest figures (earnings per share, year on year): January-September 2026 165.5%; July-September 2026 quarter 261.7%. The lowest, after inflation, is 159.5%. That is not less than half the formula's rate; the rate was not lowered."
    },
    "per": "2026-Q3"
+  },
+  "earn": {
+   "k": 1.0,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı.",
+    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are."
+   },
+   "per": "2026-Q3"
   }
  },
  "2454": {
@@ -502,6 +544,11 @@
     "t": "Büyüme yargısının kaynağı: Temmuz-Eylül 2026 çeyreği",
     "te": "Source for the growth judgment: July-September 2026 quarter",
     "u": "https://www.stockfeel.com.tw/?p=278716"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://www.mediatek.com/hubfs/MediaTek%20Assets/Pdfs/Quarterly%20Earnings%20Release/2026/Quarterly%20Earnings%20Release-2026Q2/Press%20Release.pdf?hsLang=en"
    }
   ],
   "en": {
@@ -530,6 +577,14 @@
    "basis": {
     "tr": "Formül yılda %0,0 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 %−7,4; Temmuz-Eylül 2026 çeyreği %10,5. Formül zaten sıfır büyüme varsayıyor; indirilecek bir şey yok.",
     "en": "The formula gave growth of 0.0% a year. Latest figures (earnings per share, year on year): January-September 2026 −7.4%; July-September 2026 quarter 10.5%. The formula already assumes zero growth; there is nothing to lower."
+   },
+   "per": "2026-Q3"
+  },
+  "earn": {
+   "k": 1.0,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı.",
+    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are."
    },
    "per": "2026-Q3"
   }
@@ -705,6 +760,14 @@
     "en": "The formula gave growth of 25.0% a year. Latest figures (earnings per share, year on year): January-September 2026 129.0%; July-September 2026 quarter 114.5%. The lowest, after inflation, is 109.6%. That is not less than half the formula's rate; the rate was not lowered."
    },
    "per": "2026-Q3"
+  },
+  "earn": {
+   "k": 1.0,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı.",
+    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are."
+   },
+   "per": "2026-Q3"
   }
  },
  "5287": {
@@ -780,6 +843,16 @@
     "t": "Yahoo Finance Tayvan (Commercial Times): ADDCN 2025 üçüncü çeyrek sonuçları (12 Kasım 2025)",
     "te": "Yahoo Finance Taiwan (Commercial Times): ADDCN third-quarter 2025 results (12 November 2025)",
     "u": "https://tw.stock.yahoo.com/news/%E6%9A%91%E6%9C%9F%E6%97%BA%E5%AD%A3-%E6%95%B8%E5%AD%97%E7%AC%AC%E4%B8%89%E5%AD%A3%E7%8D%B2%E5%88%A9%E5%89%B5%E6%96%B0%E9%AB%98-201000530.html"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://www.addcn.com/html/pdf/yearssp_2026Q2.pdf"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://www.addcn.com/html/pdf/shareholder_2026Q3.pdf"
    }
   ],
   "en": {
@@ -807,6 +880,14 @@
    "basis": {
     "tr": "Formül yılda %5,4 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %14,7; Temmuz-Eylül 2026 çeyreği %1,1. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %2,7.",
     "en": "The formula gave growth of 5.4% a year. Latest figures (net profit, year on year): January-September 2026 14.7%; July-September 2026 quarter 1.1%. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 2.7%."
+   },
+   "per": "2026-Q3"
+  },
+  "earn": {
+   "k": 0.887,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Bu kârın içindeki tek seferlik kazançlar: Gerçeğe uygun değeri kâra yansıtılan finansal varlıkların net değerleme kazancı (yatırımlar ve girişim payları; gerçekleşmemiş): son 12 ay kârının %6,7 kadarı; Gerçeğe uygun değeri kâra yansıtılan finansal varlıkların net değerleme kazancı, 2025'in son çeyreği (benim çıkarmam: yıl 36,1 milyon kazanç, ilk dokuz ay 16,9 milyon zarar): son 12 ay kârının %4,7 kadarı. Net etki %11,3; kazanç bu kadar indirildi. Son 12 ayın kârı 0,89 ile çarpılarak kullanıldı.",
+    "en": "The calculation rests on the profit of the last 12 months. One-off gains inside that profit: Net gain on financial assets at fair value through profit or loss (investments and startup stakes; unrealised): 6.7% of last-12-month profit; Net gain on financial assets at fair value through profit or loss, fourth quarter 2025 (my subtraction: full year gain of 36.1 million, first nine months loss of 16.9 million): 4.7% of last-12-month profit. The net effect is 11.3%; earnings were lowered by that much. Last-12-month profit was used multiplied by 0.89."
    },
    "per": "2026-Q3"
   }
@@ -1059,6 +1140,14 @@
    "basis": {
     "tr": "Formül yılda %10,8 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 %5,7; Temmuz-Eylül 2026 çeyreği %−41,4. Ekim 2026 hasılatı geçen yılın %28,6 altında. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %5,4.",
     "en": "The formula gave growth of 10.8% a year. Latest figures (earnings per share, year on year): January-September 2026 5.7%; July-September 2026 quarter −41.4%. October 2026 revenue was 28.6% below last year. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 5.4%."
+   },
+   "per": "2026-Q3"
+  },
+  "earn": {
+   "k": 1.0,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı.",
+    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are."
    },
    "per": "2026-Q3"
   }

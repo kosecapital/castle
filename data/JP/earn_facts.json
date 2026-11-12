@@ -1,0 +1,297 @@
+{
+ "4519": {
+  "unit": "million JPY",
+  "eps_cur": "JPY",
+  "ttm": {
+   "eps": 306.09,
+   "net_profit": 503700,
+   "tr": "Ekim 2025 - Eylül 2026 (2025 yılı + Ocak-Eylül 2026 − Ocak-Eylül 2025)",
+   "en": "October 2025 - September 2026 (full year 2025 + January-September 2026 − January-September 2025)",
+   "url": "https://www.gyokaidigest.com/companies/chugai-pharm/report/2026-Q3"
+  },
+  "tax_rate": null,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [
+   {
+    "fy_tr": "2026 yılı",
+    "fy_en": "2026",
+    "mid": 295.0,
+    "low": 295.0,
+    "high": 295.0,
+    "kind": "adjusted",
+    "url": "https://dllr03zngnwrw.cloudfront.net/english/ir/finance/latest.html",
+    "date": "2026-10-27"
+   }
+  ],
+  "notes": "IFRS. FY2025: net income 434,012m, basic EPS 263.73, diluted 263.72 (company's tanshin summary on JPX, https://www2.jpx.co.jp/disc/45190/081220260129540977_tse-acedifsm-45190-20260129345190-ixbrl.htm, and company news release of 29 Jan 2026; primary). 9M 2026: net income 375.3bn, +22.8% (company IR page, primary); EPS 228.07 vs 185.70 a year earlier (Gyokai Digest, not primary; basic or diluted not stated). TTM EPS = 263.72 + 228.07 - 185.70 = 306.09. TTM net profit is approximate: 434.0 + 375.3 - 305.6, where 305.6bn for 9M 2025 is derived from the +22.8% rate. Guidance is the company's CORE measure only (Core net income 485.0bn, Core EPS 295.00; set 29 Jan 2026, unchanged 27 Oct 2026); no IFRS forecast. For comparison FY2025 Core net income was 451.0bn and Core EPS 274.02 (RTTNews); 9M 2026 Core net income 384.7bn; Core excludes 1.9bn amortisation and 11.6bn restructuring costs in 9M 2026 (charges, not gains). Core EPS guidance of 295.00 is BELOW the last-12-month IFRS EPS of 306.09. One-off gains: none quantified. The company says (a) 'other revenue' of 161.3bn in 9M 2026 (+37.7%) rose partly on 'increased one-time income' (milestone/lump-sum licence income; amount not disclosed) and third-quarter domestic sales included shipments brought forward; (b) its 2026 forecast includes other operating income of 27.8bn 'due to an increase in one-time income', but Core other operating income was only 0.4bn in the first nine months, so that item had not been booked by 30 September and its nature was not found. The tanshin and supplementary PDFs on the IR mirror failed to open (client error), as did the FY2025 PDFs, so effective tax rate and diluted nine-month EPS were not read."
+ },
+ "5803": {
+  "unit": "million JPY",
+  "eps_cur": "JPY",
+  "ttm": {
+   "eps": 163.24,
+   "net_profit": 270305,
+   "tr": "Ekim 2025 - Eylül 2026 (Mart 2026 yılı + Nisan-Eylül 2026 − Nisan-Eylül 2025)",
+   "en": "October 2025 - September 2026 (year to March 2026 + April-September 2026 − April-September 2025)",
+   "url": "https://japanir.jp/wp-content/uploads/2026/11/5803-20261110-02.pdf"
+  },
+  "tax_rate": 20.8,
+  "gains": [],
+  "offsets": [],
+  "drop": {
+   "tr": "Olağan dışı gelir 8,0 milyar yen, olağan dışı gider 3,7 milyar yen; net etkisi son 12 ay kârının %3'ünün altında.",
+   "en": "Extraordinary income was 8.0 billion yen and extraordinary losses 3.7 billion; the net effect is under 3% of last-12-month profit."
+  },
+  "guidance": [
+   {
+    "fy_tr": "Mart 2027'de biten yıl",
+    "fy_en": "year to March 2027",
+    "mid": 196.86,
+    "low": 196.86,
+    "high": 196.86,
+    "kind": "reported",
+    "url": "https://japanir.jp/wp-content/uploads/2026/11/5803-20261110-01.pdf",
+    "date": "2026-11-10"
+   }
+  ],
+  "notes": "All figures from the company's own tanshin (Japanese GAAP). EPS is on the current share count: 6-for-1 split effective 1 April 2026, prior periods restated by the company (FY to March 2026 EPS 94.93; H1 108.87 vs 40.56). No diluted EPS is reported. TTM EPS = 94.93 + 108.87 - 40.56 = 163.24; net profit = 157,163 + 180,289 - 67,147 = 270,305. Guidance (326,000 million yen; EPS 196.86) was left unchanged on 10 Nov 2026 (EPS 196.88 before; operating profit cut from 432,000 to 429,000); it is ABOVE the 12-month level. One-off gains are small: extraordinary income was 8,617 in FY to March 2026 (affiliate share sale 3,072; insurance income 2,537; investment securities sale 2,370; pension plan termination 489; other 149), 2,438 in H1 of that year and 1,812 in H1 of this year (affiliate share sale 1,712). The 12-month total of 7,991 is about 3.0% of 12-month net profit pre-tax and no single line reaches 3%; extraordinary losses over the same 12 months were 3,693 (3,485 - 1,854 + 2,062), so the net is about 4,300. Of the 7,991, 6,179 falls in the fiscal year to March 2026 (second half) and the full fiscal year had 8,617. tax_rate = FY to March 2026 income taxes 42,565 / profit before tax 204,613 (my division)."
+ },
+ "6083": {
+  "unit": "million JPY",
+  "eps_cur": "JPY",
+  "ttm": {
+   "eps": 139.91,
+   "net_profit": 3149.6,
+   "tr": "Eylül 2025 - Ağustos 2026 (Mayıs 2026 yılı + Haziran-Ağustos 2026 − Haziran-Ağustos 2025)",
+   "en": "September 2025 - August 2026 (year to May 2026 + June-August 2026 − June-August 2025)",
+   "url": "https://japanir.jp/wp-content/uploads/2026/09/6083-20260930-01.pdf"
+  },
+  "tax_rate": 34.1,
+  "gains": [],
+  "offsets": [],
+  "drop": {
+   "tr": "Negatif şerefiye kazancı 95 milyon yen; aynı yıl olağan dışı giderler daha büyük (281 milyon yen).",
+   "en": "Negative goodwill gain of 95 million yen; extraordinary losses in the same year were larger (281 million yen)."
+  },
+  "guidance": [
+   {
+    "fy_tr": "Mayıs 2027'de biten yıl",
+    "fy_en": "year to May 2027",
+    "mid": 145.32,
+    "low": 145.32,
+    "high": 145.32,
+    "kind": "reported",
+    "url": "https://japanir.jp/wp-content/uploads/2026/09/6083-20260930-01.pdf",
+    "date": "2026-09-30"
+   }
+  ],
+  "notes": "All from the company's own tanshin. EPS on the current share count: 3-for-1 split effective 1 June 2026, both years restated by the company (FY to May 2026 EPS 139.41; prior year 56.44). No diluted EPS (no potential shares). TTM EPS = 139.41 + 23.38 - 22.88 = 139.91; net profit = 3,146.578 + 524.795 - 521.771 = 3,149.6 million yen. Guidance (first given 14 July 2026, confirmed unchanged 30 Sept 2026) is ABOVE the 12-month level (+4.2% on the fiscal year). Negative goodwill gain is 94,646 thousand yen, about 3.0% of 12-month net profit; normally not taxable, but the company states no after-tax amount. Extraordinary income in FY to May 2026 totalled 95,003 thousand; extraordinary losses were larger (281,379 thousand: impairment 164,928, damages 97,702, asset retirement 18,748), so net extraordinary items REDUCED profit. Q1 FY2027 has no extraordinary income; small non-operating items only (settlement income 8,087 thousand, insurance 994 thousand). tax_rate = FY to May 2026 income taxes 1,631.8 / profit before tax 4,787.5 (my division). The big jump in FY to May 2026 (+143%) is operating (energy-efficiency conformity mandatory from April 2025), not a booked one-off gain."
+ },
+ "6098": {
+  "unit": "million JPY",
+  "eps_cur": "JPY",
+  "ttm": {
+   "eps": 472.67,
+   "net_profit": 660200,
+   "tr": "Ekim 2025 - Eylül 2026 (Mart 2026 yılı + Nisan-Eylül 2026 − Nisan-Eylül 2025)",
+   "en": "October 2025 - September 2026 (year to March 2026 + April-September 2026 − April-September 2025)",
+   "url": "https://www.marketscreener.com/news/recruit-financial-document-recruit-202703q2-summary-en-ce785edbdb8cf727"
+  },
+  "tax_rate": 23.0,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [
+   {
+    "fy_tr": "Mart 2027 mali yılı",
+    "fy_en": "fiscal year to March 2027",
+    "mid": 543.0,
+    "low": 543.0,
+    "high": 543.0,
+    "kind": "reported",
+    "url": "https://www.marketscreener.com/news/recruit-financial-document-recruit-202703q2-summary-en-ce785edbdb8cf727",
+    "date": "2026-08-07"
+   }
+  ],
+  "notes": "Source: the company's own FY2026 Q2 summary (hosted on MarketScreener, 11 Nov 2026), Q1 summary (https://recruit-holdings.com/en/ir/library/upload/recruit_202703Q1_summary_en/) and FY2025 earnings release (https://recruit-holdings.com/en/ir/library/upload/Recruit_202603Q4_earnings_en.html). The site still shows period 2026-Q1 (implied EPS 408.88); the latest reported quarter is now July-September 2026, so the TTM here is one quarter newer. EPS is BASIC: 349.78 (FY to March 2026) + 296.01 (H1 FY2026) - 173.12 (H1 FY2025); diluted H1 figures are not in the summary (FY2025 diluted 347.59). Net profit in rounded billions: 496.9 + 411.6 - 248.3 = 660.2bn. On the site's Q1 basis: basic EPS 349.78 + 145.48 - 83.97 = 411.29; net profit 496.9 + 202.6 - 120.9 = 578.6bn. Guidance (IFRS, basic EPS) was raised on 7 Aug 2026 from 623.0bn / 447.00 yen and kept on 11 Nov 2026; it is above the last 12 months. No one-off gain named in the documents opened; the company attributes the jump to HR Technology monetisation and efficiency. FY2025 other operating income 13.1bn and finance income 34.7bn, no breakdown. The Q2 earnings release (full statements) could not be opened (https://recruit-holdings.com/en/ir/library/upload/Recruit_202703Q2_earnings_en.html: permission not answered), so H1 FY2026 other income and finance income were not checked. Tax rate is my division for FY2025: 147.9 / 644.6."
+ },
+ "6857": {
+  "unit": "million JPY",
+  "eps_cur": "JPY",
+  "ttm": {
+   "eps": 787.93,
+   "net_profit": 573623,
+   "tr": "Ekim 2025 - Eylül 2026 (Mart 2026 yılı + Nisan-Eylül 2026 − Nisan-Eylül 2025)",
+   "en": "October 2025 - September 2026 (year to March 2026 + April-September 2026 − April-September 2025)",
+   "url": "https://www.advantest.com/en/news/2026/mpd9kn0000000gii-att/E_FR_FY2026_2Q.pdf"
+  },
+  "tax_rate": 27.4,
+  "gains": [
+   {
+    "tr": "Stratejik yatırımlara bağlı finansal araçların değerleme kazancı (finansal gelir içinde)",
+    "en": "Valuation gains on financial instruments related to strategic investments (within financial income)",
+    "frac": 0.0686,
+    "how": 27.4,
+    "period_tr": "Nisan-Eylül 2026",
+    "period_en": "April-September 2026",
+    "url": "https://www.advantest.com/en/news/2026/mpd9kn0000000gii-att/E_FR_FY2026_2Q.pdf"
+   },
+   {
+    "tr": "Stratejik yatırımlarla edinilen hisse alım opsiyonlarının değer artışı (finansal gelir içinde)",
+    "en": "Fair-value gain on share call options acquired through strategic investments (within financial income)",
+    "frac": 0.0219,
+    "how": 27.4,
+    "period_tr": "Mart 2026 mali yılı (ikinci yarı: Ekim 2025 - Mart 2026)",
+    "period_en": "fiscal year to March 2026 (second half: October 2025 - March 2026)",
+    "url": "https://www.advantest.com/news/2026/a81o6o0000000hgw-att/E_FR_FY2025_FN.pdf"
+   }
+  ],
+  "offsets": [],
+  "drop": null,
+  "guidance": [
+   {
+    "fy_tr": "Mart 2027 mali yılı",
+    "fy_en": "fiscal year to March 2027",
+    "mid": 1027.08,
+    "low": 1027.08,
+    "high": 1027.08,
+    "kind": "reported",
+    "url": "https://www.advantest.com/en/news/2026/mpd9kn0000000gii-att/E_FR_FY2026_2Q.pdf",
+    "date": "2026-10-28"
+   }
+  ],
+  "notes": "All primary (Advantest's own releases, IFRS). FY to March 2026: net income 375,353m, basic EPS 515.15, diluted 513.30. H1 FY2026: 368,083m, diluted EPS 506.12 (basic 508.99); H1 FY2025: 169,813m, diluted 231.49. TTM diluted EPS = 513.30 + 506.12 - 231.49. Forecast EPS 1,027.08 is basic; forecast raised on 28 Oct 2026 from 660.0bn (original, 27 Apr 2026: 465.5bn / 641.61 yen); it is far above the last 12 months. One-off gains are pre-tax; the company gives no after-tax or per-share effect. H1 FY2026 financial income 57,016m (1,316m a year earlier), of which 54,171m valuation gains; the release does not split it by quarter (growth_facts recorded 41,075m in Q1 from the Q1 release, not re-opened). FY2025 financial income 20,354m, of which about 17,312m option fair-value gain; I place it in the second half because H1 FY2025 financial income was only 1,316m. The fetched summary dated the option exercise 'after the investments closed on January 21, 2025', which looks like a mis-read year. FY2025 also had about 2,504m income from a partial business divestiture (under 3%, not listed). Together the two gains are 71,483m pre-tax, about 52bn after tax at 27.4%, about 9% of TTM net profit. Whether the 741.5bn forecast assumes further valuation gains in the second half was not stated in what I read. Tax rate is my division for FY2025: 141,367 / 516,720 (H1 FY2026: 142,151 / 510,234 = 27.9%)."
+ },
+ "7741": {
+  "unit": "million JPY",
+  "eps_cur": "JPY",
+  "ttm": {
+   "eps": 839.08,
+   "net_profit": 282317,
+   "tr": "Ekim 2025 - Eylül 2026 (Mart 2026 yılı + Nisan-Eylül 2026 − Nisan-Eylül 2025)",
+   "en": "October 2025 - September 2026 (year to March 2026 + April-September 2026 − April-September 2025)",
+   "url": "https://japanir.jp/wp-content/uploads/2026/10/7741-20261030-01.pdf"
+  },
+  "tax_rate": 23.2,
+  "gains": [
+   {
+    "tr": "Çin'deki göz içi lens ortak girişiminin kalan payının alımı: ödenen bedel, önceden yazılan yükümlülükten düşük kaldı; aradaki fark gelir yazıldı (nakit girişi yok)",
+    "en": "Buyout of the remaining stake in the China intraocular lens joint venture: the price paid was below the liability booked earlier and the difference was recognised as income (no cash inflow)",
+    "frac": 0.0639,
+    "how": 23.2,
+    "period_tr": "Ekim-Aralık 2025 çeyreği",
+    "period_en": "October-December 2025 quarter",
+    "url": "https://www.hoya.com/wp-content/uploads/2026/02/7921484a82cf3225cf5fd43a0b4a4a91.pdf"
+   },
+   {
+    "tr": "İki iş satışının kazancı (bazı endoskop ürünleri ve metinden sese yazılım işi); şirket \"7 milyar yenin biraz üstü\" diyor",
+    "en": "Gain on two divestitures (certain endoscope products and the text-to-speech software business); the company says \"slightly over 7 billion yen\"",
+    "frac": 0.019,
+    "how": 23.2,
+    "period_tr": "Ekim-Aralık 2025 çeyreği",
+    "period_en": "October-December 2025 quarter",
+    "url": "https://www.hoya.com/wp-content/uploads/2026/04/FY25-Q3-FAQ-en-1.pdf"
+   }
+  ],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "TTM is my arithmetic on the company's own tanshin: diluted EPS 743.82 (FY to March 2026, JPX iXBRL https://www2.jpx.co.jp/disc/77410/081220260428513910_tse-acedifsm-77410-20260430377410-ixbrl.htm) + 408.40 (H1 FY2026, japanir copy of the 30 Oct 2026 tanshin) - 313.14 (prior H1) = 839.08; basic: 743.93 + 408.44 - 313.19 = 839.18. Profit attributable to owners: 253,085 + 136,500 - 107,268 = 282,317 million yen (the FY figure 253,085 was read from a misaligned iXBRL table and cross-checked with EPS x shares; EDINET DB shows 251.5bn, probably a different line). No profit guidance: the tanshin gives only full-year revenue (1,043,000 million yen, +10.1%); the company says it will give a full-year earnings forecast with Q3 results. One-off gains: the company's FY25 Q3 FAQ sums them as 'a total of 35 billion yen in one-time gains' in October-December 2025: just under 24bn (transcript: 23.5bn) JV liability difference, about 7bn divestitures, about 3.8-4bn foreign-exchange gain (FX gain not listed as a separate item here: about 1.3% of 12-month profit). Quarter pretax profit was 110.8bn against operating profit 74.1bn. All amounts are pre-tax; no after-tax or per-share effect stated. The divestiture gain alone is about 2.5% of 12-month net profit (below the 3% line, listed because the company groups it with the JV gain). In H1 FY2026 the tanshin shows 'other non-recurring gains/(losses), net' of +3,022 million yen, not itemised (about 1%). The Q2 transcript mentions an unquantified temporary factor lifting Life Care margin by about 100bp. tax_rate is H1 FY2026: income tax 41,145 / profit before tax 177,586 = 23.2% (my division; full-year rate not read). HOYA's own PDFs on ssl4.eir-parts.net are blocked by robots.txt."
+ },
+ "7792": {
+  "unit": "million JPY",
+  "eps_cur": "JPY",
+  "ttm": {
+   "eps": 165.62,
+   "net_profit": 1511.5,
+   "tr": "Ekim 2025 - Eylül 2026 (mali yılın tamamı)",
+   "en": "October 2025 - September 2026 (full fiscal year)",
+   "url": "https://japanir.jp/wp-content/uploads/2026/11/7792-20261106-01.pdf"
+  },
+  "tax_rate": 32.3,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [
+   {
+    "fy_tr": "Eylül 2027'de biten yıl",
+    "fy_en": "year to September 2027",
+    "mid": 175.33,
+    "low": 175.33,
+    "high": 175.33,
+    "kind": "reported",
+    "url": "https://japanir.jp/wp-content/uploads/2026/11/7792-20261106-01.pdf",
+    "date": "2026-11-06"
+   }
+  ],
+  "notes": "From the company's own full-year tanshin (6 Nov 2026; non-consolidated). The latest report is a full fiscal year, so the 12 months are the fiscal year. ttm.eps is DILUTED (165.62); basic EPS is 166.10. Net profit 1,511,524 thousand yen. The forecast EPS of 175.33 is on the basic basis (compare with 166.10): +5.6%, so guidance is ABOVE the 12-month level; half-year forecast: net profit 770 million yen, EPS 84.38. No extraordinary income in either year. Non-operating income totals only 12,342 thousand yen (FX gain 5,605; interest 3,744; compensation 1,280), under 1% of net profit. There was an extraordinary LOSS (impairment 29,561 thousand). No share split. tax_rate = income taxes 720,988 / profit before tax 2,232,513 (my division)."
+ },
+ "8035": {
+  "unit": "million JPY",
+  "eps_cur": "JPY",
+  "ttm": {
+   "eps": 311.58,
+   "net_profit": 709757,
+   "tr": "Ekim 2025 - Eylül 2026 (Mart 2026 yılı + Nisan-Eylül 2026 − Nisan-Eylül 2025)",
+   "en": "October 2025 - September 2026 (year to March 2026 + April-September 2026 − April-September 2025)",
+   "url": "https://www.tel.co.jp/ir/irta3a00000006g5-att/fy27q2tanshin-j.pdf"
+  },
+  "tax_rate": null,
+  "gains": [
+   {
+    "tr": "Stratejik ortaklık paylarının (yatırım amaçlı menkul kıymetlerin) satış kazancı, olağan dışı gelir. Ekim-Aralık 2025 çeyreğinde 37,2 milyar yen (şirket yönetiminin açıklaması); kalanı Ocak-Mart 2026 çeyreğinde (yaklaşık 78,3 milyar yen, türetildi)",
+    "en": "Gain on sales of investment securities (strategic shareholdings), extraordinary income. 37.2 billion yen in the October-December 2025 quarter (stated by management); the rest in the January-March 2026 quarter (about 78.3 billion yen, derived)",
+    "frac": 0.1627,
+    "how": "pretax",
+    "period_tr": "Mart 2026 mali yılı (Ekim 2025 - Mart 2026)",
+    "period_en": "fiscal year to March 2026 (October 2025 - March 2026)",
+    "url": "https://envalith.com/en/companies/8035/reports/019dddc3-3153-7b46-ad0f-e41e62e4fe24"
+   }
+  ],
+  "offsets": [],
+  "drop": null,
+  "guidance": [
+   {
+    "fy_tr": "Mart 2027 mali yılı",
+    "fy_en": "fiscal year to March 2027",
+    "mid": 381.69,
+    "low": 381.69,
+    "high": 381.69,
+    "kind": "reported",
+    "url": "https://www.tel.co.jp/ir/irta3a00000006g5-att/fy27q2tanshin-j.pdf",
+    "date": "2026-10-30"
+   }
+  ],
+  "notes": "Primary: the interim kessan tanshin of 30 Oct 2026 (Japanese GAAP; found via EDINET DB): H1 FY2027 net income 376,929m, EPS 166.13 (diluted 165.59); H1 FY2026 241,626m, EPS 105.46 (diluted 105.12), both adjusted for the 5-for-1 split of 1 Oct 2026; forecast 865,000m, EPS 381.69 (first full-year forecast for this year; in April only a first-half forecast was given). FY to March 2026 not primary (Envalith, Quartr, EDINET DB agree): net income 574,454m, EPS 1,254.57 pre-split. TTM EPS is BASIC and partly my arithmetic: 1,254.57 / 5 = 250.91, + 166.13 - 105.46 = 311.58 (FY diluted EPS not found). The gain: full-year amount 115,494m (extraordinary gains in total 120,726m) is from Envalith's summary of the annual results; the 37.2bn third-quarter amount and the decision to sell more in the fourth quarter are from the company's Q3 call transcript (https://www.marketscreener.com/news/tokyo-electron-transcripti-623kbi--ce7e5ad9dd89f727); on 6 Feb 2026 the company raised its net income forecast from 488bn to 550bn while operating income rose only 7bn, saying the forecast included the gain (https://uk.marketscreener.com/news/tokyo-electron-limited-revises-consolidated-earnings-guidance-for-the-fiscal-year-ending-march-31-2-ce7e5aded88bf125). The Q4 share is a subtraction and assumes no such gain in April-September 2025. The whole gain sits inside the last 12 months: pre-tax 115,494m is about 16% of TTM net profit before tax effect (about 11-12% after tax at a typical 30% rate; the rate was not read). Extraordinary items in H1 FY2027 could not be read (statement tables garbled in the fetch). The forecast (865bn) is above the last 12 months even so. Conflict: iTiger reports Q2 net income of 104.78bn (+26.7%), while H1 minus Q1 (164,341m per RTTNews, from growth_facts) gives 212.6bn; the tanshin H1 figure is the reliable one."
+ },
+ "9983": {
+  "unit": "million JPY",
+  "eps_cur": "JPY",
+  "ttm": {
+   "eps": 1765.7,
+   "net_profit": 542516,
+   "tr": "Eylül 2025 - Ağustos 2026 (mali yılın tamamı)",
+   "en": "September 2025 - August 2026 (full fiscal year)",
+   "url": "https://www.fastretailing.com/jp/ir/library/pdf/tanshin202608_4q.pdf"
+  },
+  "tax_rate": 27.2,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [
+   {
+    "fy_tr": "Ağustos 2027 mali yılı",
+    "fy_en": "fiscal year to August 2027",
+    "mid": 1825.06,
+    "low": 1825.06,
+    "high": 1825.06,
+    "kind": "reported",
+    "url": "https://www.fastretailing.com/jp/ir/library/pdf/tanshin202608_4q.pdf",
+    "date": "2026-10-08"
+   }
+  ],
+  "notes": "All primary: the full-year kessan tanshin (8 Oct 2026, Japanese, IFRS). FY Aug 2026 profit attributable 542,516m (FY2025: 433,009m); basic EPS 1,768.08, diluted 1,765.70 (1,411.44 / 1,409.32). Forecast EPS 1,825.06 is basic; forecast is ABOVE the last 12 months (+3.2%). No company-labelled one-off gain. Currency gains: 7,168m in finance income (33,826m the year before) and 15,306m in other income (5,990m the year before); reversal of impairment 253m; each is under 3% of net profit pre-tax, though together the FX gains are 22,474m pre-tax (about 3% of net profit after tax at 27.2%). Finance income total 74,460m is mostly interest. Tax rate is my division: income tax 218,364 / profit before tax 802,505."
+ }
+}
