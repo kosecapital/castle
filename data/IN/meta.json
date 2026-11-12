@@ -1,0 +1,58 @@
+{
+ "cc": "IN",
+ "iso": "356",
+ "name": "Hindistan",
+ "market": "india",
+ "exchange": "Hindistan Ulusal Borsası (NSE) ve Bombay Borsası (BSE)",
+ "cur": "INR",
+ "asof": "2026-11-12",
+ "fx": 93.95,
+ "mcapMin": 6000,
+ "years": [
+  "2021",
+  "2022",
+  "2023",
+  "2024",
+  "2025"
+ ],
+ "cpi": {
+  "2021": 5.66,
+  "2022": 5.72,
+  "2023": 5.69,
+  "2024": 5.22,
+  "2025": 1.33,
+  "cur": 5.54
+ },
+ "deflate": "all",
+ "inflation_note": "Hint şirketleri enflasyon muhasebesi uygulamaz. Bu yüzden bütün şirketlerin özsermaye kârlılığı yıl sonu tüketici enflasyonuyla düzeltildi: 2021 için %5,66, 2022 için %5,72, 2023 için %5,69, 2024 için %5,22, 2025 için %1,33. Son 12 ay için en son açıklanan yıllık oran (Eylül 2026, %5,54) kullanıldı.",
+ "data_notes": [
+  "Fiyat, piyasa değeri, F/K ve PD/DD: TradingView tarayıcısı, 12 Kasım 2026. Evren 4.848 şirkettir: 3.171'i Ulusal Borsa'da (NSE, KOBİ pazarı dahil), 1.677'si yalnız Bombay Borsası'nda (BSE) işlem görüyor. Karşılaştırma: Ağustos 2026'da NSE'de 3.055 şirket vardı (NSE Market Pulse). BSE'de Eylül 2025'te 5.484 şirket kayıtlıydı, bunların 4.477'si işlem görüyordu (SEBI bülteni); iki borsada birden işlem gören şirketler bir kez sayılınca evren, fiilen işlem gören şirket sayısına yakındır. Fiyatı ya da piyasa değeri olmayan 623 pay evrene alınmadı.",
+  "Hint şirketlerinin çoğunda mali yıl mart sonunda biter. Grafikte her şirketin kendi mali yılları yazar; enflasyon düzeltmesi aynı adı taşıyan takvim yılının oranıyla yapılır.",
+  "Hindistan'da bilanço yılda iki kez açıklanır (mart ve eylül sonu); haziran ve aralık çeyreklerinde yalnız gelir tablosu gelir. Kaynak bu yüzden 1.467 şirkette PD/DD alanını boş veriyordu (Hindustan Aeronautics ve Eicher Motors dahil). Bu şirketlerde PD/DD kaynaktaki son bilançodan hesaplandı (1.409 şirket), 10 şirkette ikinci kaynaktan alındı (stockanalysis.com), 48 şirkette son yıllık bilanço kullanıldı; hangisi olduğu şirketin sayfasında yazar. Denetim: Hindustan Aeronautics'te kaynak 8,07, şirketin 31 Mart 2026 bilançosuyla hesap 8,06; Eicher Motors'ta 8,30 ve 8,30.",
+  "Veri kaynağı 350 şirkette son 12 ayın kârını vermiyor. En büyükleri 2026'da halka arz edilen şirketler: Jio Platforms (28 Ekim 2026), Hindistan Ulusal Borsası (24 Eylül 2026) ve SBI Funds Management (21 Temmuz 2026). Bu şirketler zararda değil; kaynakta kâr verisi olmadığı için değerlendirilemedi ve sayfalarında 'kâr verisi eksik' yazar. Kaynağın F/K alanı boş, ama kârı belli olan 101 şirkette F/K aynı kaynaktan hesaplandı.",
+  "Bharti Airtel'de kaynağın F/K'sı (41,5) ikinci kaynağınkinden (Screener.in, 39,5) yaklaşık %6 yüksek; öbür dört büyük şirkette fiyat, piyasa değeri, F/K ve PD/DD %3 içinde tutuyor.",
+  "Beş yıllık oranlar: stockanalysis.com oran sayfaları. 43 adayın sayfası bulunamadı; bu şirketler 2. surda 'veri eksik' olarak durur.",
+  "Yıl sonu enflasyonu: Hindistan İstatistik Bakanlığı'nın (MOSPI) aralık ayı yıllık oranları, 2012 bazlı seri (2021-2025). Son yıllık oran: MOSPI, Eylül 2026, 2024 bazlı yeni seri (%5,54).",
+  "Bu kadar büyük bir borsada 3. sur okuması sırayla yapılır: önce fiyatı kale olmaya yetenler. Okunmayan şirket 'sırada' görünür."
+ ],
+ "small_text": "Piyasa değeri 6 milyar rupinin altında",
+ "small_rule": "Piyasa değeri 6 milyar rupinin (yaklaşık 60 milyon ABD doları) altındaki şirketler dışarıda kalır.",
+ "en": {
+  "name": "India",
+  "exchange": "National Stock Exchange of India (NSE) and BSE",
+  "cur": "INR",
+  "inflation_note": "Indian companies do not apply inflation accounting. The return on equity of every company was therefore adjusted by year-end consumer inflation: 5.66% for 2021, 5.72% for 2022, 5.69% for 2023, 5.22% for 2024 and 1.33% for 2025. For the last 12 months the most recently published annual rate (September 2026, 5.54%) was used.",
+  "data_notes": [
+   "Price, market value, P/E and P/B: TradingView screener, 12 November 2026. The universe is 4,848 companies: 3,171 trade on the National Stock Exchange (NSE, including its SME board) and 1,677 on BSE only. For comparison: NSE had 3,055 listed companies in August 2026 (NSE Market Pulse). BSE had 5,484 listed companies in September 2025, of which 4,477 were traded (SEBI Bulletin); once companies traded on both exchanges are counted once, the universe is close to the number of companies that actually trade. 623 stocks with no price or market value were left out.",
+   "Most Indian companies end their fiscal year in March. The chart shows each company's own fiscal years; the inflation adjustment uses the rate of the calendar year with the same name.",
+   "In India balance sheets are published twice a year (end of March and end of September); the June and December quarters bring only an income statement. The source therefore left the P/B field empty for 1,467 companies (including Hindustan Aeronautics and Eicher Motors). For these companies P/B was derived from the latest balance sheet in the source (1,409 companies), taken from the second source for 10 companies (stockanalysis.com), and based on the last annual balance sheet for 48; the company's page says which. Check: for Hindustan Aeronautics the source gives 8.07, and the company's balance sheet of 31 March 2026 gives 8.06; for Eicher Motors 8.30 and 8.30.",
+   "For 350 companies the data source gives no profit figure for the last 12 months. The largest are companies that went public in 2026: Jio Platforms (28 October 2026), the National Stock Exchange of India (24 September 2026) and SBI Funds Management (21 July 2026). These companies are not loss-making; they could not be assessed because the source has no profit data, and their pages say 'profit data missing'. For 101 companies where the source's P/E field is empty but profit is known, the P/E was calculated from the same source.",
+   "For Bharti Airtel the source's P/E (41.5) is about 6% above the second source's (Screener.in, 39.5); for the other four large companies price, market value, P/E and P/B agree within 3%.",
+   "Five-year ratios: stockanalysis.com ratio pages. The pages of 43 candidates could not be found; these companies stay at Wall 2 as 'data missing'.",
+   "Year-end inflation: December annual rates from India's Ministry of Statistics (MOSPI), 2012-base series (2021-2025). Latest annual rate: MOSPI, September 2026, new 2024-base series (5.54%).",
+   "In a market this large, the Wall 3 reading is done in order: companies priced low enough to be castles come first. A company that has not been read yet is shown as 'in the queue'."
+  ],
+  "small_text": "Market value below 6 billion rupees",
+  "small_rule": "Companies with a market value below 6 billion rupees (about 60 million US dollars) are left out."
+ }
+}

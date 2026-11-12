@@ -1,0 +1,56 @@
+{
+ "cc": "TW",
+ "iso": "158",
+ "name": "Tayvan",
+ "market": "taiwan",
+ "exchange": "Tayvan Borsası (TWSE) ve Taipei Borsası (TPEx)",
+ "cur": "TWD",
+ "asof": "2026-11-12",
+ "fx": 32.948,
+ "mcapMin": 2000,
+ "years": [
+  "2021",
+  "2022",
+  "2023",
+  "2024",
+  "2025"
+ ],
+ "cpi": {
+  "2021": 2.62,
+  "2022": 2.71,
+  "2023": 2.7,
+  "2024": 2.1,
+  "2025": 1.31,
+  "cur": 2.33
+ },
+ "deflate": "all",
+ "inflation_note": "Tayvan şirketleri enflasyon muhasebesi uygulamaz. Bu yüzden bütün şirketlerin özsermaye kârlılığı yıl sonu tüketici enflasyonuyla düzeltildi: 2021 için %2,62, 2022 için %2,71, 2023 için %2,7, 2024 için %2,1, 2025 için %1,31. Son 12 ay için en son açıklanan yıllık oran (Ekim 2026, %2,33) kullanıldı.",
+ "data_notes": [
+  "Fiyat, piyasa değeri, F/K ve PD/DD: TradingView tarayıcısı, 12 Kasım 2026. Evren 2.303 paydır: Tayvan Borsası'nda (TWSE) 1.094, Taipei Borsası'nda (TPEx, gelişen şirketler pazarıyla birlikte) 1.209. Karşılaştırma: Ağustos 2026 sonunda TWSE'de 1.085, TPEx ana pazarında 890 şirket vardı (Tayvan Finansal Denetim Komisyonu); gelişen şirketler pazarında yaklaşık 359 şirket var.",
+  "Kaynak, üçüncü çeyrek sonucunu yeni açıklayan 722 şirkette PD/DD alanını boş veriyordu (TSMC ve MediaTek dahil), çünkü yeni bilanço kaynağa henüz girmemişti. Bu şirketlerde PD/DD aynı kaynağın güncel PD/DD alanından alındı; bu alan bir önceki dönemin bilançosuna dayanır ve şirketin sayfasında belirtilir. Örnek: TSMC'de kaynak 9,66 veriyor; şirketin 30 Eylül 2026 bilançosuyla hesap 8,67 çıkar. Hızlı büyüyen şirkette PD/DD ve son 12 ay özsermaye kârlılığı bu yüzden bir miktar yüksek görünür. Altı şirkette son yıllık bilanço kullanıldı.",
+  "Kaynağın F/K alanı boş, ama son 12 ay kârı belli olan 517 şirkette F/K aynı kaynaktan hesaplandı (fiyat ÷ hisse başına kâr); bu, şirketin sayfasında belirtilir. 85 şirkette kaynak son 12 ayın kârını vermiyor (en büyükleri Hermes Testing Solutions ve TLC BioSciences; çoğu gelişen şirketler pazarında). Bu şirketler değerlendirilemedi; sayfalarında zarar değil, 'kâr verisi eksik' yazar.",
+  "TSMC ve MediaTek'te kaynağın piyasa değeri, fiyat çarpı pay sayısının yaklaşık %4-5 altında; öbür büyük şirketlerde fark %2'nin altında.",
+  "Beş yıllık oranlar: stockanalysis.com oran sayfaları. 4 adayın sayfası bulunamadı; bu şirketler 2. surda 'veri eksik' olarak durur.",
+  "Yıl sonu enflasyonu: Tayvan istatistik kurumu DGBAS'ın aralık ayı yıllık oranları (2021-2025). Son yıllık oran: DGBAS, Ekim 2026 (%2,33).",
+  "Bu kadar büyük bir borsada 3. sur okuması sırayla yapılır: önce fiyatı kale olmaya yetenler. Okunmayan şirket 'sırada' görünür."
+ ],
+ "small_text": "Piyasa değeri 2 milyar Tayvan dolarının altında",
+ "small_rule": "Piyasa değeri 2 milyar Tayvan dolarının (yaklaşık 60 milyon ABD doları) altındaki şirketler dışarıda kalır.",
+ "en": {
+  "name": "Taiwan",
+  "exchange": "Taiwan Stock Exchange (TWSE) and Taipei Exchange (TPEx)",
+  "cur": "TWD",
+  "inflation_note": "Taiwanese companies do not apply inflation accounting. The return on equity of every company was therefore adjusted by year-end consumer inflation: 2.62% for 2021, 2.71% for 2022, 2.7% for 2023, 2.1% for 2024 and 1.31% for 2025. For the last 12 months the most recently published annual rate (October 2026, 2.33%) was used.",
+  "data_notes": [
+   "Price, market value, P/E and P/B: TradingView screener, 12 November 2026. The universe is 2,303 stocks: 1,094 on the Taiwan Stock Exchange (TWSE) and 1,209 on the Taipei Exchange (TPEx, including the Emerging Stock Board). For comparison: at the end of August 2026 there were 1,085 companies on TWSE and 890 on the TPEx main board (Financial Supervisory Commission of Taiwan); the Emerging Stock Board has about 359 companies.",
+   "For 722 companies that had just reported third-quarter results (including TSMC and MediaTek) the source left the P/B field empty, because the new balance sheet was not in the source yet. For these companies P/B was taken from the same source's current P/B field; that field rests on the previous period's balance sheet, and the company's page says so. Example: the source gives 9.66 for TSMC; with the company's balance sheet of 30 September 2026 the figure is 8.67. For a fast-growing company P/B and last-12-month return on equity therefore look somewhat high. For six companies the last annual balance sheet was used.",
+   "For 517 companies where the source's P/E field is empty but last-12-month profit is known, the P/E was calculated from the same source (price ÷ earnings per share); the company's page says so. For 85 companies the source gives no profit figure for the last 12 months (the largest are Hermes Testing Solutions and TLC BioSciences; most are on the Emerging Stock Board). These companies could not be assessed; their pages say 'profit data missing', not a loss.",
+   "For TSMC and MediaTek the source's market value is about 4-5% below price times shares outstanding; for the other large companies the gap is under 2%.",
+   "Five-year ratios: stockanalysis.com ratio pages. The pages of 4 candidates could not be found; these companies stay at Wall 2 as 'data missing'.",
+   "Year-end inflation: December annual rates from DGBAS, Taiwan's statistics office (2021-2025). Latest annual rate: DGBAS, October 2026 (2.33%).",
+   "In a market this large, the Wall 3 reading is done in order: companies priced low enough to be castles come first. A company that has not been read yet is shown as 'in the queue'."
+  ],
+  "small_text": "Market value below 2 billion New Taiwan dollars",
+  "small_rule": "Companies with a market value below 2 billion New Taiwan dollars (about 60 million US dollars) are left out."
+ }
+}
