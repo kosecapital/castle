@@ -1,0 +1,1111 @@
+{
+ "ADANIPOWER": {
+  "scores": {
+   "A": 1,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-Q2",
+  "one": "Hindistan'ın en büyük özel kömürlü elektrik üreticisi. Ürün emtia, sözleşmeler ihaleyle alınıyor; hendek zayıf olduğu için 3. suru geçemedi.",
+  "business": "Adani Power kömürle elektrik üretir ve çoğunu eyalet dağıtım şirketlerine uzun vadeli sözleşmelerle satar. Kurulu gücü 18.150 MW; kapasitenin yaklaşık %95'i uzun ve orta vadeli sözleşmelere bağlı. Mart 2026'da biten mali yılda 99,1 milyar kWh sattı; net kâr 129,7 milyar rupi oldu. Jharkhand'daki 1.600 MW'lık Godda santrali yalnız Bangladeş'e satış yapıyor.",
+  "moat_text": "Hendek zayıf; şirket bu ölçütü geçemedi. Elektrik emtiadır ve satış sözleşmeleri tarife ihalesiyle kazanılır. Üstünlük ölçekten, hazır santral sahalarından ve kömür tedarik düzeninden geliyor, ama tarifeyi şirket değil düzenleyici ve ihale belirliyor. Reel özsermaye kârlılığı son beş mali yılda %14,6 ile %49,3 arasında oynadı; yüksek yıllar geçmiş dönemlere ait tek seferlik gelirlerle şişti. Son 12 aydaki %20,4 de böyle: son çeyrekte 24,2 milyar rupilik geçmiş dönem geliri yazıldı.",
+  "mgmt": "Sermayenin %74,96'sı kurucu ortak Adani grubunda (Eylül 2026). Şirket 2015'ten beri temettü dağıtmadı. Kâr yeni santrallere gidiyor: 2032'ye kadar 23.720 MW yeni kömürlü kapasite hedefleniyor, toplam yatırım planı 2 trilyon rupinin üzerinde. Net borç Eylül 2026 sonunda 458,5 milyar rupi (Mart 2025 sonunda 310,2 milyar rupiydi); net borç/FAVÖK 1,88. Serbest nakit akışı son iki okumada eksi. Kasım 2024'te ABD savcıları grubun kurucusu Gautam Adani hakkında rüşvet iddiasıyla dava açtı; grup iddiaları reddediyor.",
+  "latest": "23 Ekim 2026: Temmuz-Eylül 2026 çeyreğinde açıklanan hasılat 199,5 milyar rupi (+%39,4), net kâr 70,2 milyar rupi (+%141,5). Kârın içinde 24,2 milyar rupilik geçmiş dönem geliri ve 2,3 milyar rupilik vergi alacağı var; geçen yıl aynı çeyrekte 10,6 milyar rupi vergi gideri yazılmıştı. Bunlar hariç sürdürülen FAVÖK 63,2 milyar rupi (+%18,5). Satış 26,4 milyar kWh (+%11,5), kapasite kullanımı %70,1.",
+  "risks": [
+   "Kâr tek seferlik kalemlerle şişiyor: geçmiş dönem gelirleri ve vergi alacakları çıkınca kazanç gücü açıklanan kârın belirgin altında.",
+   "Tarife ve geçmiş dönem alacakları düzenleyici ve mahkeme kararlarına bağlı; bir karar kârı iki yönde de oynatır.",
+   "Büyük yatırım planı borcu artırıyor ve serbest nakit akışını eksiye çeviriyor; ortağa nakit dönmüyor.",
+   "Bangladeş: Godda santralinin tek alıcısı Bangladeş'in elektrik kurumu. Temmuz 2026'da alacak yaklaşık 400 milyon dolardı ve fiyat formülü üzerine anlaşmazlık sürüyor.",
+   "Kömürlü üretim iklim politikalarının hedefinde; yeni santrallerin sözleşme süresi boyunca çalışacağı kesin değil."
+  ],
+  "watch": [
+   "Tek seferlik kalemler hariç FAVÖK",
+   "Net borç ve yatırım harcaması",
+   "Bangladeş alacağı",
+   "Yeni kapasitenin sözleşmeye bağlanan payı"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/nse/ADANIPOWER/financials/ratios/"
+   },
+   {
+    "t": "Adani Power: 2027 mali yılı 2. çeyrek sonuç açıklaması (23 Eki 2026)",
+    "te": "Adani Power: Q2 FY27 results media release (23 Oct 2026)",
+    "u": "https://www.adani.com/newsroom/media-releases/adani-power-announces-q2-fy27-results"
+   },
+   {
+    "t": "Adani Power: 2026 mali yılı 4. çeyrek sonuç açıklaması (29 Nis 2026)",
+    "te": "Adani Power: Q4 FY26 results media release (29 Apr 2026)",
+    "u": "https://www.adani.com/newsroom/media-releases/adani-power-announces-q4-fy26-results"
+   },
+   {
+    "t": "Business Today: Adani Power yatırımcı toplantısı, 45 GW hedefi ve yatırım planı (25 Tem 2026)",
+    "te": "Business Today: Adani Power conference call, 45 GW target and capex plan (25 Jul 2026)",
+    "u": "https://www.businesstoday.in/amp/markets/stocks/story/adani-power-45-gw-target-rs-2-lakh-cr-capex-plan-among-conference-call-highlights-545001-2026-07-25"
+   },
+   {
+    "t": "The Business Standard (Bangladeş): elektrik kurumu ile Adani arasında tahkim süreci (3 Kas 2025)",
+    "te": "The Business Standard (Bangladesh): power board and Adani head to arbitration (3 Nov 2025)",
+    "u": "https://www.tbsnews.net/bangladesh/energy/talks-collapse-bpdb-now-set-face-adani-intl-arbitration-1275721"
+   },
+   {
+    "t": "Oman Observer (Reuters): Bangladeş Adani santralinden tam elektrik istiyor (11 Şub 2025)",
+    "te": "Oman Observer (Reuters): Bangladesh seeks full power supply from Adani plant (11 Feb 2025)",
+    "u": "https://www.omanobserver.om/article/1166116/business/energy/bangladesh-seeks-power-supply-from-adani-plant"
+   },
+   {
+    "t": "Screener.in: Adani Power mali tablolar ve ortaklık yapısı (12 Kas 2026)",
+    "te": "Screener.in: Adani Power financials and shareholding (12 Nov 2026)",
+    "u": "https://www.screener.in/company/ADANIPOWER/consolidated/"
+   }
+  ],
+  "en": {
+   "one": "India's largest private coal-fired power producer. Power is a commodity and contracts are won by tender; the moat is weak, so it failed Wall 3.",
+   "business": "Adani Power generates electricity from coal and sells most of it to state distribution companies under long-term contracts. Its installed capacity is 18,150 MW; about 95% of the capacity is tied to long- and medium-term contracts. In the fiscal year that ended in March 2026 it sold 99.1 billion kWh; net profit was 129.7 billion rupees. The 1,600 MW Godda plant in Jharkhand sells only to Bangladesh.",
+   "moat_text": "The moat is weak; the company did not pass this criterion. Electricity is a commodity and sales contracts are won in tariff tenders. The advantage comes from scale, from ready plant sites and from the coal supply set-up, but the tariff is set by the regulator and the tender, not by the company. Real return on equity swung between 14.6% and 49.3% in the last five fiscal years; the high years were inflated by one-off income that belonged to earlier periods. The 20.4% of the last 12 months is the same: 24.2 billion rupees of prior-period income was booked in the last quarter.",
+   "mgmt": "The founding shareholder, the Adani group, holds 74.96% of the capital (September 2026). The company has paid no dividend since 2015. Profit goes into new plants: the target is 23,720 MW of new coal-fired capacity by 2032, and the total investment plan is above 2 trillion rupees. Net debt was 458.5 billion rupees at the end of September 2026 (310.2 billion rupees at the end of March 2025); net debt/EBITDA is 1.88. Free cash flow was negative in the last two readings. In November 2024 US prosecutors brought a bribery case against the group's founder, Gautam Adani; the group rejects the allegations.",
+   "latest": "23 October 2026: In the July-September 2026 quarter reported revenue was 199.5 billion rupees (+39.4%) and net profit 70.2 billion rupees (+141.5%). The profit includes 24.2 billion rupees of prior-period income and a tax credit of 2.3 billion rupees; a tax charge of 10.6 billion rupees was booked in the same quarter last year. Excluding these, continuing EBITDA was 63.2 billion rupees (+18.5%). Sales were 26.4 billion kWh (+11.5%) and capacity utilisation was 70.1%.",
+   "risks": [
+    "Profit is inflated by one-off items: without prior-period income and tax credits, earning power is clearly below reported profit.",
+    "Tariffs and prior-period claims depend on regulatory and court decisions; one ruling can move profit in either direction.",
+    "The large investment plan raises debt and turns free cash flow negative; no cash returns to shareholders.",
+    "Bangladesh: the only buyer of the Godda plant is Bangladesh's power board. In July 2026 the receivable was about 400 million dollars, and the dispute over the price formula continues.",
+    "Coal-fired generation is a target of climate policy; it is not certain that the new plants will run for the full term of their contracts."
+   ],
+   "watch": [
+    "EBITDA excluding one-off items",
+    "Net debt and capital spending",
+    "The Bangladesh receivable",
+    "Share of new capacity tied to contracts"
+   ]
+  }
+ },
+ "ASHOKA": {
+  "scores": {
+   "A": 1,
+   "B": 0,
+   "C": 0,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "yok",
+  "per": "2026-Q2",
+  "one": "Yol ve altyapı müteahhidi. Son 12 ayın kârı otoyol satışından gelen tek seferlik kazanç; iş ihaleyle alınıyor, hendek yok. 3. suru geçemedi.",
+  "business": "Ashoka Buildcon, Hindistan'da otoyol, demiryolu, elektrik iletim hattı ve bina inşa eder; ayrıca kendi yaptığı bazı yolları işletir. İş kamu ihaleleriyle alınır. 30 Eylül 2026'da elindeki sipariş 159,6 milyar rupi: %38,7'si yol yapımı, %23,9'u elektrik iletim ve dağıtım, %10,4'ü demiryolu. Temmuz-Eylül 2026 çeyreğinde konsolide hasılat 15,0 milyar rupi.",
+  "moat_text": "Hendek yok; şirket 3. suru bu yüzden geçemedi. İş ihaleyle, en düşük teklifi veren alır; müteahhitlik kolunda FAVÖK marjı %10 dolayında (Temmuz-Eylül 2026'da %9,9). Sayfadaki düşük F/K (1,39) ve yüksek özsermaye kârlılığı ana işten gelmiyor: Ekim-Aralık 2025 çeyreğinde şirket beş paralı otoyol şirketini Maple Infrastructure Trust'a 18,1 milyar rupiye sattı ve o çeyrekte 23,8 milyar rupi tek seferlik kazanç yazdı. O çeyreğin net kârı 21,1 milyar rupi; son dört çeyreğin toplamı yaklaşık 22,7 milyar rupi. Yani satış kazancı çıkınca son 12 ayda kâr kalmıyor. Reel özsermaye kârlılığı da buna göre oynak: beş yılda %10,5 ile %54,6 arası.",
+  "mgmt": "Kurucu ortakların payı %54,47 (Eylül 2026). Şirket 2019'dan beri temettü dağıtmıyor. Otoyol satışından gelen para borca gitti: konsolide borç Eylül 2025'teki 49,1 milyar rupiden Eylül 2026'da 27,8 milyar rupiye indi; bu olumlu. Altı yol projesinin daha satılması bekleniyor. Kâr tek seferlik ve faaliyet dışı kaynaktan geldiği için kazancın öngörülebilirliği ölçütünü de geçemedi.",
+  "latest": "5 Kasım 2026: Temmuz-Eylül 2026 çeyreğinde konsolide hasılat 15,0 milyar rupi (yıllık −%18,7). Şirket 1,19 milyar rupi net zarar yazdı (geçen yıl 0,91 milyar rupi kâr). Neden: 3,19 milyar rupilik tek seferlik gider; haber özetine göre bunun 2,37 milyar rupisi değer düşüklüğü, 0,82 milyar rupisi bakım kaynaklı zarar. Tek seferlik gider öncesi vergi öncesi kâr 1,91 milyar rupi (geçen yıl 2,84 milyar). Nisan-Eylül 2026 net kârı 82 milyon rupi (geçen yıl 3,18 milyar). Sipariş tutarı 159,6 milyar rupi.",
+  "risks": [
+   "Sayfadaki F/K (1,39) yanıltıcıdır: son 12 ayın kârı beş otoyol şirketinin satışından gelen 23,8 milyar rupilik tek seferlik kazançtan oluşuyor. Bu kazanç dönemden çıkınca F/K çok yükselecek; son iki çeyreğin toplam kârı 82 milyon rupi.",
+   "Ana iş küçülüyor: Nisan-Eylül 2026'da konsolide hasılat %19,6 düştü. Yönetim 2026-27 mali yılı için yaklaşık %20 büyüme hedeflemişti.",
+   "İş kamu ihalelerine ve kamu kurumlarının ödemelerine bağlı. Şubat 2026'daki toplantıda yönetim, karayolları kurumu (NHAI) ile ilgili bir konunun mahkemede durdurulduğunu, Bihar'daki bir soruşturmanın ise önemli bir mali etkisinin beklenmediğini söyledi.",
+   "Tek seferlik giderler yineleniyor: son iki yılın Temmuz-Eylül çeyreklerinde 2,19 ve 3,19 milyar rupi yazıldı. Kalan yol varlıklarının satışı gecikirse yeni değer düşüklüğü gelebilir."
+  ],
+  "watch": [
+   "Tek seferlik kalemler hariç vergi öncesi kâr",
+   "Yeni sipariş ve hasılat büyümesi",
+   "Kalan altı yol projesinin satışı",
+   "Konsolide borç (Eylül 2026: 27,8 milyar rupi)"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/nse/ASHOKA/financials/ratios/"
+   },
+   {
+    "t": "Ashoka Buildcon: Ekim-Aralık 2025 çeyreği yatırımcı toplantısı dökümü, borsa bildirimi (6 Şub 2026)",
+    "te": "Ashoka Buildcon: transcript of the October-December 2025 quarter earnings call, exchange filing (6 Feb 2026)",
+    "u": "https://bsmedia.business-standard.com/_media/bs/data/announcements/bse/06022026/599ac92f-f201-4110-8a4c-1fd61bc81065.pdf"
+   },
+   {
+    "t": "Business Standard: Ashoka Buildcon'un bağlı ortaklığı beş şirketi 1.814 crore rupiye sattı (27 Kas 2025)",
+    "te": "Business Standard: Ashoka Buildcon unit sells five SPVs for Rs 1,814 crore (27 Nov 2025)",
+    "u": "https://www.business-standard.com/amp/markets/news/ashoka-buildcon-shares-jump-5pc-as-unit-sells-five-spvs-for-rs-1814-crore-125112700337_1.html"
+   },
+   {
+    "t": "Whalesbook: Ashoka Buildcon Ekim-Aralık 2025 çeyreği, satış kazancıyla kâr %222 arttı (30 Oca 2026)",
+    "te": "Whalesbook: Ashoka Buildcon October-December 2025 quarter, profit up 222% on divestment gains (30 Jan 2026)",
+    "u": "https://www.whalesbook.com/news/English/industrial-goodsservices/Ashoka-Buildcon-Q3-Revenue-Drops-23percent-PAT-Soars-222percent-On-Divestment-Gains/697cf2a25fc43f26c54e2378"
+   },
+   {
+    "t": "IIFL: Ashoka Buildcon Ekim-Aralık 2025 çeyreği kârı 2.111,41 crore rupi (31 Oca 2026)",
+    "te": "IIFL: Ashoka Buildcon October-December 2025 quarter profit Rs 2,111.41 crore (31 Jan 2026)",
+    "u": "https://www.indiainfoline.com/news/companies/ashoka-buildcon-q3-fy26-profit-rises-three-fold-to-2111-41-crore"
+   },
+   {
+    "t": "Multibagg: Ashoka Buildcon Temmuz-Eylül 2026 çeyreğinde 118,96 crore rupi konsolide zarar (6 Kas 2026)",
+    "te": "Multibagg: Ashoka Buildcon consolidated loss of Rs 118.96 crore in the July-September 2026 quarter (6 Nov 2026)",
+    "u": "https://www.multibagg.ai/market-pulse/articles/ashoka-buildcon-q2fy27-loss-ppt-cmw3vx4t9000eww2r0nzx4vf5"
+   },
+   {
+    "t": "Multibagg: Ashoka Buildcon Temmuz-Eylül 2026 çeyreğinde hasılat %19 düştü (6 Kas 2026)",
+    "te": "Multibagg: Ashoka Buildcon revenue falls 19% in the July-September 2026 quarter (6 Nov 2026)",
+    "u": "https://www.multibagg.ai/market-pulse/articles/ashoka-buildcon-q2-fy27-results-cmw3vxgw800094c2rhkjec61q"
+   },
+   {
+    "t": "Angel One: Ashoka Buildcon sonuçları 5 Kasım'da açıklandı, hisse %4 düştü (6 Kas 2026)",
+    "te": "Angel One: Ashoka Buildcon results announced on 5 November, share falls 4% (6 Nov 2026)",
+    "u": "https://www.angelone.in/news/stocks/ashoka-buildcon-share-price-falls-over-4-post-q2-fy27-earnings-results-total-income-down-15-7-yoy"
+   },
+   {
+    "t": "Multibagg: Ashoka Buildcon 2025-26 mali yılı özeti ve hedefler (May 2026)",
+    "te": "Multibagg: Ashoka Buildcon fiscal 2025-26 summary and guidance (May 2026)",
+    "u": "https://www.multibagg.ai/market-pulse/articles/ashoka-fy26-update-94616"
+   },
+   {
+    "t": "Screener.in: Ashoka Buildcon konsolide çeyreklik sonuçlar ve ortaklık yapısı (12 Kas 2026'da okundu)",
+    "te": "Screener.in: Ashoka Buildcon consolidated quarterly results and shareholding (read 12 Nov 2026)",
+    "u": "https://www.screener.in/company/ASHOKA/consolidated/"
+   }
+  ],
+  "en": {
+   "one": "Road and infrastructure contractor. Last 12 months' profit is a one-off gain from toll-road sales; work is won by tender. Did not pass Wall 3.",
+   "business": "Ashoka Buildcon builds highways, railways, power transmission lines and buildings in India; it also operates some of the roads it built. Work is won in public tenders. On 30 September 2026 its order book was 159.6 billion rupees: 38.7% road construction, 23.9% power transmission and distribution, 10.4% railways. Consolidated revenue in the July-September 2026 quarter was 15.0 billion rupees.",
+   "moat_text": "There is no moat; this is why the company did not pass Wall 3. Work is won by tender and goes to the lowest bidder; the EBITDA margin of the contracting arm is around 10% (9.9% in July-September 2026). The low P/E on the page (1.39) and the high return on equity do not come from the core business: in the October-December 2025 quarter the company sold five toll-road companies to Maple Infrastructure Trust for 18.1 billion rupees and booked a one-off gain of 23.8 billion rupees in that quarter. Net profit in that quarter was 21.1 billion rupees; the total of the last four quarters is about 22.7 billion rupees. So once the sale gain is taken out, no profit is left in the last 12 months. Real return on equity is volatile for the same reason: between 10.5% and 54.6% over five years.",
+   "mgmt": "The founders hold 54.47% (September 2026). The company has paid no dividend since 2019. The money from the toll-road sale went to debt: consolidated debt fell from 49.1 billion rupees in September 2025 to 27.8 billion rupees in September 2026; this is positive. Six more road projects are expected to be sold. Because profit came from a one-off, non-operating source, the company also did not pass the predictability-of-earnings criterion.",
+   "latest": "5 November 2026: In the July-September 2026 quarter consolidated revenue was 15.0 billion rupees (−18.7% year on year). The company booked a net loss of 1.19 billion rupees (a profit of 0.91 billion rupees a year earlier). The reason: a one-off expense of 3.19 billion rupees; according to the news summary, 2.37 billion rupees of it is impairment and 0.82 billion rupees is maintenance-related losses. Profit before tax and before the one-off expense was 1.91 billion rupees (2.84 billion a year earlier). Net profit for April-September 2026 was 82 million rupees (3.18 billion a year earlier). The order book stood at 159.6 billion rupees.",
+   "risks": [
+    "The P/E on the page (1.39) is misleading: the last 12 months' profit consists of a one-off gain of 23.8 billion rupees from the sale of five toll-road companies. Once this gain drops out of the period the P/E will rise sharply; total profit in the last two quarters was 82 million rupees.",
+    "The core business is shrinking: consolidated revenue fell 19.6% in April-September 2026. Management had targeted growth of about 20% for fiscal 2026-27.",
+    "The business depends on public tenders and on payments by public bodies. On the February 2026 call management said a matter involving the highways authority (NHAI) had been stayed in court and that an investigation in Bihar was not expected to have a material financial impact.",
+    "One-off expenses keep recurring: 2.19 and 3.19 billion rupees were booked in the July-September quarters of the last two years. If the sale of the remaining road assets is delayed, new impairments may follow."
+   ],
+   "watch": [
+    "Profit before tax excluding one-off items",
+    "New orders and revenue growth",
+    "Sale of the remaining six road projects",
+    "Consolidated debt (September 2026: 27.8 billion rupees)"
+   ]
+  }
+ },
+ "BAJAJ_AUTO": {
+  "scores": {
+   "A": 1,
+   "B": 2,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "2026-Q2",
+  "one": "Motosiklet ve üç tekerlekli araç üreticisi; satışının yaklaşık %40'ı ihracat. Hendek dar, kalite surlarını geçti; fiyat yetmediği için kapıda bekliyor.",
+  "business": "Bajaj Auto motosiklet, üç tekerlekli ticari araç ve elektrikli scooter (Chetak) üretir; 79 ülkeye satar. İhracat hasılatın yaklaşık %40'ıdır. Mart 2026'da biten mali yılda konsolide satış 629,1 milyar rupi, net kâr 105,7 milyar rupi oldu. Şirket Kasım 2025'ten beri Avusturyalı motosiklet üreticisi KTM'in yaklaşık %75'ini kontrol ediyor ve kendi taşıt kredisi şirketini (Bajaj Auto Credit) işletiyor.",
+  "moat_text": "Hendek dar. Üstünlük ölçekten ve dağıtımdan geliyor: şirket, Hindistan'da benzinli üç tekerlekli araç pazarının yaklaşık %70'ine sahip olduğunu, Hindistan'ın üç tekerlekli ihracatının %65'inden fazlasını yaptığını ve Afrika'da perakende payının %60'a yaklaştığını söylüyor. Reel özsermaye kârlılığı beş yılda %14,0'dan %21,3'e çıktı; son 12 ayda %28,4. Zayıf yan: Hindistan'da motosiklet pazarı çok rekabetli. Son çeyrekte yurt içi iki tekerlekli satışı yalnız %1,8 arttı ve şirket küçük motorlu (100 cc) sınıfta pay kaybediyor. Elektrikli scooter'da Chetak pazarın %23-24'ünü alıyor ama birinci değil.",
+  "mgmt": "Kurucu ortaklar (Bajaj grubu) hisselerin %56'sını elinde tutuyor (Eylül 2026). Şirket Temmuz 2026'da temettü ve geri alımla yaklaşık 100 milyar rupi dağıttı; bu, bir önceki yılın kârının tamamıdır. 30 Eylül 2026'da 155 milyar rupi nakit fazlası vardı. Küçük kusur: zor durumdaki KTM'in devralınması ve kredi kolunun büyümesi bilançoyu ağırlaştırdı; konsolide borç Mart 2025'teki 93,6 milyar rupiden Eylül 2026'da 264,0 milyar rupiye çıktı. Kaynağın net borç/FAVÖK oranı 0,85.",
+  "latest": "27 Ekim 2026: Temmuz-Eylül 2026 çeyreğinde hasılat (konsolide olmayan) ilk kez 200 milyar rupiyi geçti: 200,0 milyar rupi (+%34). Net kâr 33,5 milyar rupi (+%35). Konsolide hasılat 251,3 milyar rupi (+%59), ana ortaklığa düşen net kâr 34,4 milyar rupi. Toplam satış 1.548.884 araç (+%19); ihracat 778.528 araç (+%40), yurt içi iki tekerlekli 607.416 araç (+%1,8). Chetak'ın hasılatı 20 milyar rupiyi geçti.",
+  "risks": [
+   "Fiyat: F/K 23,3 ve PD/DD 8,2. Temkinli hesapla hisse adil değerin üzerinde; güvenlik marjı eşiği tutmuyor.",
+   "İhracat Afrika ve Latin Amerika'ya dayanıyor; bu ülkelerde kur ve döviz bulma sorunu satışı hızla düşürebilir. Zayıf rupi de bugünkü kârı destekliyor (şirketin gerçekleşen kuru bir yılda 85,6'dan 94,4'e çıktı).",
+   "KTM zor durumdayken devralındı; toparlanma uzarsa konsolide kârı ve borcu olumsuz etkiler.",
+   "Kredi kolu hızlı büyüyor (yönetilen kredi 200 milyar rupi, bir yılda %70'ten fazla artış); kredi kayıpları artarsa sermaye ister.",
+   "Son 12 ayın özsermaye kârlılığı geri alımdan ve güçlü ihracat döneminden destek alıyor; beş yıllık ortalama %20,0."
+  ],
+  "watch": [
+   "İhracat adedi ve kur",
+   "Yurt içi motosiklet pazar payı",
+   "KTM'in kârlılığı ve konsolide borç",
+   "Fiyat: güvenlik marjı eşiği"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/nse/BAJAJ_AUTO/financials/ratios/"
+   },
+   {
+    "t": "Autocar Professional: Bajaj Auto'nun çeyrek kârı %35 arttı, hasılat 200 milyar rupiyi geçti (27 Eki 2026)",
+    "te": "Autocar Professional: Bajaj Auto quarterly profit up 35%, revenue crosses 200 billion rupees (27 Oct 2026)",
+    "u": "https://www.autocarpro.in/news/bajaj-auto-q2-net-profit-rises-35-percent-to-rs-3354-crore-as-revenue-crosses-rs-20000-crore-135494"
+   },
+   {
+    "t": "Bajaj Auto: Nisan-Haziran 2026 çeyreği yatırımcı toplantısı dökümü (21 Tem 2026)",
+    "te": "Bajaj Auto: earnings call transcript for the April-June 2026 quarter (21 Jul 2026)",
+    "u": "https://www.bajajauto.com/-/media/images/bajajauto/media-kit/press-release/financial-quarterly/2026-2027/bajajauto-earnings-call-q1-fy27.pdf"
+   },
+   {
+    "t": "Autocar Professional: Bajaj Auto, KTM ve Pierer Mobility'nin kontrolünü devraldı (19 Kas 2025)",
+    "te": "Autocar Professional: Bajaj Auto completes takeover of control in KTM and Pierer Mobility (19 Nov 2025)",
+    "u": "https://www.autocarpro.in/news/bajaj-auto-completes-acquisition-of-full-control-in-ktm-and-pierer-mobility-129844"
+   },
+   {
+    "t": "Screener.in: Bajaj Auto, yıllık rakamlar ve ortaklık yapısı (Eyl 2026)",
+    "te": "Screener.in: Bajaj Auto, annual figures and shareholding (Sep 2026)",
+    "u": "https://www.screener.in/company/BAJAJ-AUTO/consolidated/"
+   }
+  ],
+  "en": {
+   "one": "Maker of motorcycles and three-wheelers; about 40% of sales are exports. Narrow moat; passed the quality walls; waits at the gate on price.",
+   "business": "Bajaj Auto makes motorcycles, three-wheeled commercial vehicles and electric scooters (Chetak) and sells in 79 countries. Exports are about 40% of revenue. In the fiscal year that ended in March 2026 consolidated sales were 629.1 billion rupees and net profit 105.7 billion rupees. Since November 2025 the company has controlled about 75% of the Austrian motorcycle maker KTM, and it runs its own vehicle finance company (Bajaj Auto Credit).",
+   "moat_text": "The moat is narrow. The advantage comes from scale and distribution: the company says it has about 70% of India's petrol three-wheeler market, makes more than 65% of India's three-wheeler exports, and has a retail share close to 60% in Africa. Real return on equity rose from 14.0% to 21.3% over five years; it was 28.4% in the last 12 months. The weak side: India's motorcycle market is very competitive. In the last quarter domestic two-wheeler sales rose only 1.8%, and the company is losing share in the small-engine (100 cc) class. In electric scooters Chetak takes 23-24% of the market but is not number one.",
+   "mgmt": "The founding shareholders (the Bajaj group) hold 56% of the shares (September 2026). In July 2026 the company paid out about 100 billion rupees through dividends and a buyback; this is all of the previous year's profit. On 30 September 2026 it had surplus cash of 155 billion rupees. A small flaw: the takeover of the troubled KTM and the growth of the finance arm have made the balance sheet heavier; consolidated borrowings rose from 93.6 billion rupees in March 2025 to 264.0 billion rupees in September 2026. The source's net debt/EBITDA ratio is 0.85.",
+   "latest": "27 October 2026: In the July-September 2026 quarter revenue (standalone) crossed 200 billion rupees for the first time: 200.0 billion rupees (+34%). Net profit was 33.5 billion rupees (+35%). Consolidated revenue was 251.3 billion rupees (+59%) and net profit attributable to owners 34.4 billion rupees. Total sales were 1,548,884 vehicles (+19%); exports 778,528 vehicles (+40%), domestic two-wheelers 607,416 vehicles (+1.8%). Chetak revenue passed 20 billion rupees.",
+   "risks": [
+    "Price: the P/E is 23.3 and the P/B 8.2. On the conservative calculation the share is above fair value; it does not meet the margin-of-safety threshold.",
+    "Exports rest on Africa and Latin America; exchange rates and shortages of hard currency in these countries can cut sales quickly. The weak rupee also supports today's profit (the company's realised rate went from 85.6 to 94.4 in a year).",
+    "KTM was taken over while in trouble; if the recovery takes long, it hurts consolidated profit and debt.",
+    "The finance arm is growing fast (loans under management of 200 billion rupees, up more than 70% in a year); if credit losses rise it will need capital.",
+    "Return on equity in the last 12 months is helped by the buyback and by a strong export period; the five-year average is 20.0%."
+   ],
+   "watch": [
+    "Export units and the exchange rate",
+    "Domestic motorcycle market share",
+    "KTM's profitability and consolidated debt",
+    "Price: the margin-of-safety threshold"
+   ]
+  }
+ },
+ "BEL": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "2026-Q2",
+  "one": "Hindistan'ın devlete ait savunma elektroniği üreticisi: radar, haberleşme ve silah sistemi elektroniği. Hendek dar, kalite surlarını geçti; fiyat yetmediği için kapıda bekliyor.",
+  "business": "Bharat Electronics, Hindistan silahlı kuvvetleri için radar, haberleşme cihazı, elektronik harp ve silah sistemi elektroniği üretir. Mart 2026'da biten mali yılda hasılatın %88'i savunmadan geldi. Aynı yıl konsolide satış 276,1 milyar rupi, net kâr 60,6 milyar rupi oldu. 1 Ekim 2026'da sipariş defteri 687,2 milyar rupiydi; bu, yaklaşık iki buçuk yıllık satışa denk.",
+  "moat_text": "Hendek dar. Şirket 1954'ten beri ordunun elektronik tedarikçisidir; kurulu sistemlerin bakımı ve yenilemesi ona sürekli iş getiriyor. Bu, kârlılıkta görünüyor: faaliyet kâr marjı iki yıldır %29, reel özsermaye kârlılığı beş yılda %14,0'dan %20,9'a çıktı (ortalama %19,8). Hendek geniş sayılmadı, çünkü neredeyse tek müşteri devlettir ve fiyatı o belirler; devlet alımlarda özel şirketlere daha çok yer verirse bu konum zayıflar.",
+  "mgmt": "Hisselerin %51,1'i Hindistan devletinin elinde (Eylül 2026). Kârın yaklaşık üçte biri temettü olarak dağıtılıyor (dağıtım oranı %34); kalanı şirkette kalıyor. Borç yok denecek kadar az: Mart 2026'da 0,65 milyar rupi (net borç/FAVÖK −1,08). Serbest nakit akışı son beş dönemin birinde eksiye düştü; alacak tahsilatı devletin ödeme takvimine bağlı.",
+  "latest": "30 Ekim 2026: Temmuz-Eylül 2026 çeyreğinde hasılat (konsolide olmayan) 72,9 milyar rupi oldu; bir yıl önce 57,6 milyar rupiydi (+%26,5). Net kâr 15,4 milyar rupi (+%19,8). Kâr hasılattan yavaş arttı: konsolide giderler 42,2 milyar rupiden 54,6 milyar rupiye çıktı. Mali yılın ilk altı ayında hasılat 128,2 milyar rupi (+%26), net kâr 25,9 milyar rupi (+%14,8). Sipariş defteri 1 Ekim 2026'da 687,2 milyar rupi.",
+  "risks": [
+   "Fiyat: F/K 46,3 ve PD/DD 11,3. Temkinli hesapla hisse adil değerin çok üzerinde; güvenlik marjı yok.",
+   "Tek müşteri: hasılatın %88'i savunmadan geliyor. Devlet hem sahibi hem müşterisi; siparişi, fiyatı ve ödeme zamanını o belirler.",
+   "Devlet savunma alımlarında özel şirketlere daha çok yer verirse rekabet artar, kâr marjı daralabilir.",
+   "Büyük siparişlerin zamanı belirsiz; sipariş gecikirse büyüme yavaşlar.",
+   "Son iki çeyrekte kâr hasılattan yavaş arttı; giderler hızlanıyor."
+  ],
+  "watch": [
+   "Sipariş defteri ve yeni siparişler",
+   "Faaliyet kâr marjı",
+   "Savunma dışı ve ihracat gelirinin payı",
+   "Fiyat: güvenlik marjı eşiği"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/nse/BEL/financials/ratios/"
+   },
+   {
+    "t": "Indian Masterminds: BEL Temmuz-Eylül 2026 çeyreği sonuçları, yönetim kurulu onayı (30 Eki 2026)",
+    "te": "Indian Masterminds: BEL July-September 2026 quarter results, board approval (30 Oct 2026)",
+    "u": "https://indianmasterminds.com/news/bel-q2-fy27-results-profit-rises-19-8-percent-revenue-order-book-246859/"
+   },
+   {
+    "t": "Free Press Journal: BEL'in konsolide çeyrek kârı %19,68 arttı (30 Eki 2026)",
+    "te": "Free Press Journal: BEL consolidated quarterly profit up 19.68% (30 Oct 2026)",
+    "u": "https://www.freepressjournal.in/business/bharat-electronics-q2-fy27-consolidated-profit-jumps-1968-to-154037-crore"
+   },
+   {
+    "t": "Kotak Neo: BEL çeyrek sonuçları ve sipariş defteri (31 Eki 2026)",
+    "te": "Kotak Neo: BEL quarterly results and order book (31 Oct 2026)",
+    "u": "https://www.kotakneo.com/news/stocks/bharat-electronics-q2-fy-27-results-put-share-price-in-focus/"
+   },
+   {
+    "t": "Screener.in: BEL, yıllık rakamlar ve ortaklık yapısı (Eyl 2026)",
+    "te": "Screener.in: BEL, annual figures and shareholding (Sep 2026)",
+    "u": "https://www.screener.in/company/BEL/consolidated/"
+   }
+  ],
+  "en": {
+   "one": "India's state-owned defence electronics maker: radars, communications and weapon-system electronics. Narrow moat; passed the quality walls; waits at the gate on price.",
+   "business": "Bharat Electronics makes radars, communication equipment, electronic warfare and weapon-system electronics for the Indian armed forces. In the fiscal year that ended in March 2026, 88% of revenue came from defence. In the same year consolidated sales were 276.1 billion rupees and net profit 60.6 billion rupees. On 1 October 2026 the order book was 687.2 billion rupees, equal to about two and a half years of sales.",
+   "moat_text": "The moat is narrow. The company has been the army's electronics supplier since 1954; maintaining and upgrading installed systems brings it steady work. This shows in profitability: the operating margin has been 29% for two years, and real return on equity rose from 14.0% to 20.9% over five years (average 19.8%). The moat was not rated wide because the state is almost the only customer and sets the price; if the state gives private companies more room in its purchases, this position weakens.",
+   "mgmt": "The Indian state holds 51.1% of the shares (September 2026). About one third of the profit is paid out as dividends (payout ratio 34%); the rest stays in the company. Debt is close to nil: 0.65 billion rupees in March 2026 (net debt/EBITDA −1.08). Free cash flow was negative in one of the last five periods; collecting receivables depends on the state's payment schedule.",
+   "latest": "30 October 2026: In the July-September 2026 quarter revenue (standalone) was 72.9 billion rupees; a year earlier it was 57.6 billion rupees (+26.5%). Net profit was 15.4 billion rupees (+19.8%). Profit grew more slowly than revenue: consolidated expenses rose from 42.2 billion rupees to 54.6 billion rupees. In the first six months of the fiscal year revenue was 128.2 billion rupees (+26%) and net profit 25.9 billion rupees (+14.8%). The order book stood at 687.2 billion rupees on 1 October 2026.",
+   "risks": [
+    "Price: the P/E is 46.3 and the P/B 11.3. On the conservative calculation the share is far above fair value; there is no margin of safety.",
+    "Single customer: 88% of revenue comes from defence. The state is both owner and customer; it sets the orders, the price and the timing of payment.",
+    "If the state gives private companies more room in defence purchases, competition grows and the profit margin may narrow.",
+    "The timing of large orders is uncertain; if orders are delayed, growth slows.",
+    "In the last two quarters profit grew more slowly than revenue; expenses are speeding up."
+   ],
+   "watch": [
+    "Order book and new orders",
+    "Operating profit margin",
+    "Share of non-defence and export revenue",
+    "Price: the margin-of-safety threshold"
+   ]
+  }
+ },
+ "COALINDIA": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "2026-Q2",
+  "one": "Hindistan'ın kömürünün yaklaşık dörtte üçünü çıkaran devlet şirketi. Kalite surlarını geçti; hendek dar sayıldığı için fiyat yetmiyor, kapıda bekliyor.",
+  "business": "Coal India, Hindistan'ın yerli kömür üretiminin yaklaşık dörtte üçünü çıkarır ve çoğunu elektrik santrallerine satar (Eylül 2026'da sevkiyatın yaklaşık %80'i). Mart 2026'da biten mali yılda hasılat 1,68 trilyon rupi, net kâr 310,7 milyar rupi oldu. Kömürün büyük bölümü uzun süreli anlaşmalarla, bildirilmiş fiyattan satılır; küçük bölümü açık artırmayla ve primli gider.",
+  "moat_text": "Hendek dar. Ölçek gerçek: ülkenin kömürünün yaklaşık dörtte üçü bu şirketten çıkıyor ve reel özsermaye kârlılığı beş yılda %21,1'in altına inmedi. Ama şirket fiyatını kendi çıkarına göre belirleyemiyor: açık artırmada aynı kömür Nisan-Ağustos 2026'da bildirilmiş fiyatın ortalama %46 üzerinde satıldı; ana ortak devlet olduğu için bu fark elektrik üreticisinde kalıyor. Üstünlük bir kamu düzenine dayanıyor ve kalıcılığı belirsiz: açık artırma primi 2024-25'teki %51'den 2025-26'nın ilk dokuz ayında %38'e geriledi. Reel özsermaye kârlılığı da %51,6'dan (2023) %21,6'ya indi. Bu yüzden geniş demiyoruz.",
+  "mgmt": "Devletin payı %61,13 (Eylül 2026); devlet 2026'da %2'lik pay sattı. Kârın yaklaşık yarısı temettü olarak dağıtılıyor (temettü verimi %6,52); 29 Ekim 2026'da hisse başına 10,25 rupi ikinci ara temettü açıklandı. Şirketin net borcu yok (net borç/FAVÖK −1,34). Kusur: kârın bir bölümü ana iş dışına yöneliyor. 2030'a kadar 9,5 GW yenilenebilir enerji hedefi var; kömür gazlaştırma, kritik mineraller ve bir demir cevheri sahası da gündemde. Bu kararlarda kamu politikası belirleyici.",
+  "latest": "29 Ekim 2026: Temmuz-Eylül 2026 çeyreğinde hasılat 441,8 milyar rupi (yıllık +%21), net kâr 65,5 milyar rupi (+%57). Üretim 151,4 milyon ton (+%4), sevkiyat 186,3 milyon ton (+%13), ton başına ortalama gelir 2.346 rupi (+%7). Nisan-Eylül 2026'da hasılat 904,3 milyar rupi, net kâr 154,0 milyar rupi (+%19); üretim 321 milyon ton (−%2), sevkiyat 384,2 milyon ton (+%8). Hisse başına 10,25 rupi ikinci ara temettü açıklandı.",
+  "risks": [
+   "Fiyat: hisse ancak geniş hendek varsayımıyla güvenlik marjı eşiğini geçiyor. Biz hendeği dar saydık; bu durumda fiyat yetmiyor.",
+   "Kamu kararına bağımlılık: ana ortak devlet, müşterilerin çoğu elektrik santrali. Bildirilmiş fiyatın artırılmaması, sektörün özel madencilere daha çok açılması ya da ana iş dışı yatırım talimatları kârı doğrudan etkiler.",
+   "Açık artırma primi oynak: Ağustos 2026'da %59, 2025-26'nın ilk dokuz ayında %38. Kârın en kârlı bölümü buradan geliyor; 2025-26'da ortalama gelir düşünce net kâr 354,5 milyar rupiden 310,7 milyar rupiye indi.",
+   "Uzun vadede kömür: Hindistan yenilenebilir enerjiye yatırım yapıyor. Kömür talebi büyümeyi bırakırsa ölçek üstünlüğü değer kaybeder.",
+   "Maliyet: 2025-26'da sözleşme ve yasal giderler ile amortisman arttı; yatırım harcaması Nisan-Eylül 2026'da %27 artarak 79,7 milyar rupi oldu ve amortismanı büyütmeye devam ediyor."
+  ],
+  "watch": [
+   "Açık artırma primi ve açık artırmayla satılan miktar",
+   "Ton başına ortalama gelir",
+   "Sevkiyat ve stok",
+   "Ana iş dışı yatırımların tutarı"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/nse/COALINDIA/financials/ratios/"
+   },
+   {
+    "t": "Kotak Neo: Coal India Temmuz-Eylül 2026 çeyreği, hasılat 44.179 crore, kâr 6.547 crore rupi (30 Eki 2026)",
+    "te": "Kotak Neo: Coal India July-September 2026 quarter, revenue Rs 44,179 crore, profit Rs 6,547 crore (30 Oct 2026)",
+    "u": "https://www.kotakneo.com/news/stocks/coal-india-q2-fy-27-results-put-share-price-in-focus/"
+   },
+   {
+    "t": "Upstox: Coal India çeyrek sonuçları ve ikinci ara temettü (29 Eki 2026)",
+    "te": "Upstox: Coal India quarterly results and second interim dividend (29 Oct 2026)",
+    "u": "https://upstox.com/news/market-news/earnings/coal-india-q2-results-net-profit-rises-53-to-6-516-crore-yo-y-board-declares-second-dividend-for-fy-27/article-202658/"
+   },
+   {
+    "t": "Asianet Newsable: Coal India 2025-26 sonuçları ve genel kuruldaki açıklamalar (31 Ağu 2026)",
+    "te": "Asianet Newsable: Coal India fiscal 2025-26 results and remarks at the annual meeting (31 Aug 2026)",
+    "u": "https://newsable.asianetnews.com/business/coal-india-aims-to-boost-earnings-after-drop-in-fy26-profitability-articleshow-xb51xhm"
+   },
+   {
+    "t": "ThePrint (PTI): Coal India'nın açık artırma primi ağustosta %59 (1 Eyl 2026)",
+    "te": "ThePrint (PTI): Coal India's e-auction premium rises to 59% in August (1 Sep 2026)",
+    "u": "https://theprint.in/economy/coal-indias-e-auction-premium-rises-to-59-pc-in-august/3031076/"
+   },
+   {
+    "t": "Hindistan Kömür Bakanlığı: 2025-26 yıllık raporu, 10. bölüm (kömür dağıtımı ve pazarlama) (Şub 2026)",
+    "te": "Ministry of Coal, India: Annual Report 2025-26, chapter 10 (coal distribution and marketing) (Feb 2026)",
+    "u": "https://www.coal.nic.in/sites/default/files/2026-02/chap10AnnualReport2026en.pdf"
+   },
+   {
+    "t": "Screener.in: Coal India konsolide sonuçlar ve ortaklık yapısı (12 Kas 2026'da okundu)",
+    "te": "Screener.in: Coal India consolidated results and shareholding (read 12 Nov 2026)",
+    "u": "https://www.screener.in/company/COALINDIA/consolidated/"
+   }
+  ],
+  "en": {
+   "one": "State company mining about three quarters of India's coal. Passed the quality walls; with a narrow moat the price falls short, waiting at the gate.",
+   "business": "Coal India mines about three quarters of India's domestic coal and sells most of it to power plants (about 80% of shipments in September 2026). In the fiscal year that ended in March 2026 revenue was 1.68 trillion rupees and net profit 310.7 billion rupees. Most of the coal is sold under long-term agreements at the notified price; a small part goes through auctions at a premium.",
+   "moat_text": "The moat is narrow. The scale is real: about three quarters of the country's coal comes from this company, and real return on equity did not fall below 21.1% in five years. But the company cannot set its price in its own interest: in auctions the same coal sold at an average of 46% above the notified price in April-August 2026; because the main shareholder is the state, this difference stays with the power producers. The advantage rests on a public arrangement and its permanence is uncertain: the auction premium fell from 51% in 2024-25 to 38% in the first nine months of 2025-26. Real return on equity also came down from 51.6% (2023) to 21.6%. That is why we do not call it wide.",
+   "mgmt": "The state holds 61.13% (September 2026); it sold a 2% stake in 2026. About half of profit is paid out as dividends (dividend yield 6.52%); a second interim dividend of 10.25 rupees per share was declared on 29 October 2026. The company has no net debt (net debt/EBITDA −1.34). The flaw: part of the profit is heading outside the core business. There is a target of 9.5 GW of renewable energy by 2030; coal gasification, critical minerals and an iron ore block are also on the agenda. Public policy drives these decisions.",
+   "latest": "29 October 2026: In the July-September 2026 quarter revenue was 441.8 billion rupees (+21% year on year) and net profit 65.5 billion rupees (+57%). Production was 151.4 million tonnes (+4%), shipments 186.3 million tonnes (+13%) and average revenue per tonne 2,346 rupees (+7%). In April-September 2026 revenue was 904.3 billion rupees and net profit 154.0 billion rupees (+19%); production was 321 million tonnes (−2%) and shipments 384.2 million tonnes (+8%). A second interim dividend of 10.25 rupees per share was declared.",
+   "risks": [
+    "Price: the share clears the margin-of-safety threshold only if a wide moat is assumed. We judged the moat to be narrow; on that basis the price is not enough.",
+    "Dependence on public decisions: the main shareholder is the state and most customers are power plants. Not raising the notified price, opening the sector further to private miners, or instructions to invest outside the core business would affect profit directly.",
+    "The auction premium is volatile: 59% in August 2026, 38% in the first nine months of 2025-26. The most profitable part of earnings comes from here; when average revenue fell in 2025-26, net profit went from 354.5 billion rupees to 310.7 billion rupees.",
+    "Coal in the long run: India is investing in renewable energy. If coal demand stops growing, the scale advantage loses value.",
+    "Costs: contractual and statutory expenses and depreciation rose in 2025-26; capital spending rose 27% to 79.7 billion rupees in April-September 2026 and keeps adding to depreciation."
+   ],
+   "watch": [
+    "Auction premium and the volume sold by auction",
+    "Average revenue per tonne",
+    "Shipments and stocks",
+    "Amount invested outside the core business"
+   ]
+  }
+ },
+ "HAL": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "2026-Q1",
+  "one": "Hindistan'ın devlete ait askeri uçak ve helikopter üreticisi. Hendek dar, kalite surlarını geçti; fiyat yetmediği için kapıda bekliyor.",
+  "business": "Hindustan Aeronautics, Hindistan silahlı kuvvetleri için savaş uçağı, helikopter ve uçak motoru üretir; bunların bakımını ve onarımını yapar. Mart 2026'da biten mali yılda konsolide satış 330,9 milyar rupi, net kâr 91,2 milyar rupi oldu. 31 Mart 2026'da sipariş defteri yaklaşık 2,54 trilyon rupiydi; bu, bir yıllık satışın yedi katından fazladır.",
+  "moat_text": "Hendek dar. Hindistan'da askeri uçak ve helikopteri seri üreten tek büyük şirket budur; tesis, lisans ve onlarca yıllık bakım işi yeni bir rakibin kolayca kuramayacağı şeyler. Reel özsermaye kârlılığı beş yılda %17,5 ile %24,4 arasında kaldı, ortalaması %21,4. Hendek geniş sayılmadı, çünkü tek müşteri devlettir: fiyatı ve siparişi o belirler. Şirket ayrıca yabancı tedarikçiye bağlı: General Electric motorları geciktiği için Tejas Mk1A uçağının ilk teslimatı Şubat 2024'ten beri bekliyor; 7 Ekim 2026'da tek bir uçak bile teslim edilmemişti.",
+  "mgmt": "Hisselerin %71,6'sı Hindistan devletinin elinde (Eylül 2026). Kârın yaklaşık üçte biri temettü olarak dağıtılıyor (dağıtım oranı %32); kalanı şirkette nakit olarak birikiyor. Borç yok denecek kadar az: Mart 2026'da 0,66 milyar rupi (net borç/FAVÖK −5,77). Yeni üretim hatlarına yatırım sürüyor: Nashik'te üçüncü Tejas hattı devreye alındı.",
+  "latest": "12 Kasım 2026: Temmuz-Eylül 2026 çeyreğinde konsolide hasılat 76,1 milyar rupi (+%14,8), net kâr 19,4 milyar rupi oldu; bir yıl önce 16,7 milyar rupiydi (+%16). FAVÖK 17,4 milyar rupi (+%11,6), FAVÖK marjı %22,8 (bir yıl önce %23,5). Mali yılın ilk altı ayında hasılat 131,3 milyar rupi, net kâr 35,3 milyar rupi. Sitedeki oranlar bir önceki çeyreğin (Nisan-Haziran 2026) bilançosuna göredir.",
+  "risks": [
+   "Fiyat: F/K 34,8. Temkinli hesapla hisse adil değerin çok üzerinde; güvenlik marjı yok.",
+   "Tek müşteri: işin neredeyse tamamı Hindistan savunma bütçesine bağlı. Devlet hem sahibi hem müşterisi; siparişi, fiyatı ve ödeme zamanını o belirler.",
+   "Teslimat gecikmesi: Tejas Mk1A için General Electric'ten 99 motor sipariş edildi, ilk motor ancak Mart 2025'te geldi. Gecikme sürerse hasılat ertelenir ve ceza gündeme gelebilir.",
+   "Kâr marjı çeyrekten çeyreğe oynuyor; son çeyrekte FAVÖK beklentinin altında kaldı.",
+   "Devlet özel şirketlere ve yabancı ortaklı projelere daha çok iş verirse şirketin tek üretici konumu zayıflar."
+  ],
+  "watch": [
+   "Tejas Mk1A teslimat sayısı ve motor gelişi",
+   "Sipariş defteri",
+   "FAVÖK marjı",
+   "Fiyat: güvenlik marjı eşiği"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/nse/HAL/financials/ratios/"
+   },
+   {
+    "t": "Business Upturn: HAL Temmuz-Eylül 2026 çeyreği sonuçları (12 Kas 2026)",
+    "te": "Business Upturn: HAL July-September 2026 quarter results (12 Nov 2026)",
+    "u": "https://businessupturn.com/finance/stock-market/quarterly-results/hal-q2-results-net-profit-rises-10-6-yoy-to-rs-1-839-crore-revenue-grows-14-9/"
+   },
+   {
+    "t": "Business Today: HAL'in çeyrek kârı arttı, hasılat %15 yükseldi (12 Kas 2026)",
+    "te": "Business Today: HAL quarterly profit rises, revenue up 15% (12 Nov 2026)",
+    "u": "https://www.businesstoday.in/markets/stocks/story/hal-q2-earnings-net-profit-rises-to-rs-1839-crore-revenue-up-15-567041-2026-11-12"
+   },
+   {
+    "t": "Sahi: HAL'in konsolide çeyrek kârı 19,36 milyar rupi (12 Kas 2026)",
+    "te": "Sahi: HAL consolidated quarterly net profit 19.36 billion rupees (12 Nov 2026)",
+    "u": "https://www.sahi.com/news/hal-reports-q2-consolidated-net-profit-of-19-36-billion-versus-16-69-billion-yoy"
+   },
+   {
+    "t": "Free Press Journal: HAL'in altı aylık hasılatı ve kârı (12 Kas 2026)",
+    "te": "Free Press Journal: HAL half-year revenue and profit (12 Nov 2026)",
+    "u": "https://www.freepressjournal.in/business/hal-q2-earnings-soar-to-new-heights-net-profit-jumps-1548-as-revenue-crosses-13100-crore"
+   },
+   {
+    "t": "Business Today: GE eylülde Tejas için dört motor daha gönderdi (7 Eki 2026)",
+    "te": "Business Today: GE ships four more engines for Tejas in September (7 Oct 2026)",
+    "u": "https://www.businesstoday.in/india/story/ge-aerospace-ships-4-more-engines-for-tejas-jets-in-september-560157-2026-10-07"
+   },
+   {
+    "t": "DSIJ: HAL'in 2026 mali yılı, sipariş defteri 2,54 trilyon rupi (2 Nis 2026)",
+    "te": "DSIJ: HAL fiscal 2026, order book at 2.54 trillion rupees (2 Apr 2026)",
+    "u": "https://insights.dsij.in/mr/dsijarticledetail/rs-254-lakh-crore-order-book-indias-biggest-defence-company-reports-fy26-growth-announces-rs-3344-crore-dividend-and-expands-capacity-id021-56280"
+   },
+   {
+    "t": "Screener.in: HAL, yıllık rakamlar ve ortaklık yapısı (Eyl 2026)",
+    "te": "Screener.in: HAL, annual figures and shareholding (Sep 2026)",
+    "u": "https://www.screener.in/company/HAL/consolidated/"
+   }
+  ],
+  "en": {
+   "one": "India's state-owned maker of military aircraft and helicopters. Narrow moat; passed the quality walls; waits at the gate on price.",
+   "business": "Hindustan Aeronautics builds fighter aircraft, helicopters and aircraft engines for the Indian armed forces, and maintains and repairs them. In the fiscal year that ended in March 2026 consolidated sales were 330.9 billion rupees and net profit 91.2 billion rupees. On 31 March 2026 the order book was about 2.54 trillion rupees, more than seven times one year of sales.",
+   "moat_text": "The moat is narrow. This is the only large company in India that builds military aircraft and helicopters in series; the plants, the licences and decades of maintenance work are things a new rival cannot easily set up. Real return on equity stayed between 17.5% and 24.4% over five years and averaged 21.4%. The moat was not rated wide because the only customer is the state: it sets the price and the orders. The company also depends on a foreign supplier: because General Electric engines are late, the first delivery of the Tejas Mk1A aircraft has been pending since February 2024; on 7 October 2026 not a single aircraft had been delivered.",
+   "mgmt": "The Indian state holds 71.6% of the shares (September 2026). About one third of the profit is paid out as dividends (payout ratio 32%); the rest builds up as cash in the company. Debt is close to nil: 0.66 billion rupees in March 2026 (net debt/EBITDA −5.77). Investment in new production lines continues: a third Tejas line was commissioned at Nashik.",
+   "latest": "12 November 2026: In the July-September 2026 quarter consolidated revenue was 76.1 billion rupees (+14.8%) and net profit 19.4 billion rupees; a year earlier it was 16.7 billion rupees (+16%). EBITDA was 17.4 billion rupees (+11.6%) and the EBITDA margin 22.8% (23.5% a year earlier). In the first six months of the fiscal year revenue was 131.3 billion rupees and net profit 35.3 billion rupees. The ratios on the site are based on the balance sheet of the previous quarter (April-June 2026).",
+   "risks": [
+    "Price: the P/E is 34.8. On the conservative calculation the share is far above fair value; there is no margin of safety.",
+    "Single customer: almost all of the business depends on India's defence budget. The state is both owner and customer; it sets the orders, the price and the timing of payment.",
+    "Delivery delays: 99 engines were ordered from General Electric for the Tejas Mk1A, and the first engine arrived only in March 2025. If the delay continues, revenue is pushed back and penalties may come up.",
+    "The profit margin moves from quarter to quarter; in the last quarter EBITDA was below expectations.",
+    "If the state gives more work to private companies and to projects with foreign partners, the company's position as sole producer weakens."
+   ],
+   "watch": [
+    "Number of Tejas Mk1A deliveries and engine arrivals",
+    "Order book",
+    "EBITDA margin",
+    "Price: the margin-of-safety threshold"
+   ]
+  }
+ },
+ "HCLTECH": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 2,
+   "E": 2
+  },
+  "moat": "dar",
+  "per": "2026-Q2",
+  "one": "Hindistan'ın büyük bilişim hizmetleri şirketlerinden biri. Kalite surlarını geçiyor; kârının neredeyse tamamını dağıtıyor, fiyat yetmediği için kapıda bekliyor.",
+  "business": "HCLTech, büyük şirketlere bilişim altyapısı yönetimi, yazılım ve mühendislik hizmeti satar; ayrıca kendi yazılım ürünlerinden (HCLSoftware) lisans ve abonelik geliri elde eder. Mart 2026'da biten mali yılda hasılat 1,30 trilyon rupi (14,7 milyar dolar) oldu. Yazılım ürünlerinin yıllık yinelenen geliri 1,13 milyar dolar. Mart 2026 sonunda 227.181 çalışanı vardı.",
+  "moat_text": "Hendek dar. Üstünlük ölçekten ve müşterinin altyapısını yıllarca işletmekten geliyor; bu işi başka firmaya devretmek müşteri için zahmetli. Kanıt: reel özsermaye kârlılığı son beş mali yılda %15,5 ile %23,4 arasında kaldı, son 12 ayda %18,1. Zayıf yanı: işler teklifle alınıyor ve kâr marjı büyük rakiplerinin altında (faaliyet marjı %18,2). Yazılım ürünleri geliri 2026 mali yılında sabit kurla %4,1 geriledi. İki büyük müşteri hesabındaki sorun büyümeyi yaklaşık 0,5 puan aşağı çekiyor.",
+  "mgmt": "Sermayenin %60,88'i kurucu ortak grubunda (Eylül 2026). Kârın neredeyse tamamı temettü olarak dağıtılıyor: Nisan 2026'ya kadarki 12 ayda hisse başına 60 rupi, net kârın %97,6'sı. Şirketin net borcu yok (net borç/FAVÖK −0,65). 2026 mali yılında yeniden yapılanma giderleri kârı baskıladı; faaliyet marjı bu giderler hariç %17,2 oldu.",
+  "latest": "12 Ekim 2026: Temmuz-Eylül 2026 çeyreğinde hasılat 356,2 milyar rupi (rupi olarak +%11,5; sabit kurla +%2,6), net kâr 51,3 milyar rupi (+%21,2). Bu, şirketin en yüksek çeyreklik net kârı. Faaliyet marjı %18,2. Yeni sözleşme tutarı 3,3 milyar dolar (+%27). Şirket 2027 mali yılı için sabit kurla büyüme beklentisini %2,5-4 olarak verdi; nisanda bu aralık %1-4'tü. Marj beklentisi %17,5-18,5. Hisse başına 12 rupi temettü açıklandı.",
+  "risks": [
+   "Fiyat: F/K 20,4 ve PD/DD 4,9. Temkinli hesapla hisse adil değerin üzerinde; güvenlik marjı yok.",
+   "Büyüme yavaş: sabit kurla yıllık %2,6. Rupi cinsinden büyümenin çoğu kurdan geliyor.",
+   "Yapay zekâ, satılan mühendis saatinin fiyatını ve miktarını düşürebilir; net etkisi henüz belli değil.",
+   "Yazılım ürünleri geliri geriliyor ve çeyrekten çeyreğe çok oynuyor (Ocak-Mart 2026 çeyreğinde bir önceki çeyreğe göre %28,1 düştü).",
+   "Kârın neredeyse tamamı dağıtıldığı için büyüme ya da satın alma için içeride az kaynak kalıyor."
+  ],
+  "watch": [
+   "Sabit kurla hasılat büyümesi ve yıllık beklenti",
+   "Faaliyet marjı (%17,5-18,5 aralığı)",
+   "Yazılım ürünlerinin yıllık yinelenen geliri",
+   "Fiyat: güvenlik marjı eşiği"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/nse/HCLTECH/financials/ratios/"
+   },
+   {
+    "t": "HCLTech: 2027 mali yılı 2. çeyrek sonuç açıklaması (12 Eki 2026)",
+    "te": "HCLTech: Q2 FY27 results press release (12 Oct 2026)",
+    "u": "https://www.hcltech.com/press-releases/hcltech-delivers-strong-q2-led-record-deal-bookings-33-billion"
+   },
+   {
+    "t": "Free Press Journal: HCLTech 2. çeyrek sonuçları (12 Eki 2026)",
+    "te": "Free Press Journal: HCLTech Q2 results (12 Oct 2026)",
+    "u": "https://www.freepressjournal.in/business/hcltech-net-profit-rises-21-to-5132-crore-in-q2-fy27-revenue-up-115"
+   },
+   {
+    "t": "Outlook Business: HCLTech 2026 mali yılı 4. çeyrek sonuçları ve beklenti (21 Nis 2026)",
+    "te": "Outlook Business: HCLTech Q4 FY26 results and guidance (21 Apr 2026)",
+    "u": "https://www.outlookbusiness.com/corporate/client-woes-drag-hcltechs-q4-show-macro-uncertainty-clouds-fy27-guidance"
+   },
+   {
+    "t": "People Matters: HCLTech'in 2026 mali yılı (22 Nis 2026)",
+    "te": "People Matters: HCLTech's fiscal 2026 (22 Apr 2026)",
+    "u": "https://www.peoplematters.in/news/performance-management/slower-growth-steady-attrition-and-rising-ai-revenue-define-hcltechs-fy26-performance-49340"
+   },
+   {
+    "t": "Screener.in: HCLTech mali tablolar ve ortaklık yapısı (11 Kas 2026)",
+    "te": "Screener.in: HCLTech financials and shareholding (11 Nov 2026)",
+    "u": "https://www.screener.in/company/HCLTECH/consolidated/"
+   }
+  ],
+  "en": {
+   "one": "One of India's large IT services companies. It passes the quality walls, pays out almost all its profit, and waits at the gate on price.",
+   "business": "HCLTech sells IT infrastructure management, software and engineering services to large companies; it also earns licence and subscription income from its own software products (HCLSoftware). In the fiscal year that ended in March 2026 revenue was 1.30 trillion rupees (14.7 billion dollars). Annual recurring revenue of the software products is 1.13 billion dollars. It had 227,181 employees at the end of March 2026.",
+   "moat_text": "The moat is narrow. The advantage comes from scale and from running clients' infrastructure for years; handing this work to another firm is a chore for the client. The evidence: real return on equity stayed between 15.5% and 23.4% in the last five fiscal years and was 18.1% in the last 12 months. The weak side: work is won by bidding and the profit margin is below that of its large rivals (operating margin 18.2%). Software product revenue fell 4.1% at constant exchange rates in fiscal 2026. Trouble at two large client accounts is pulling growth down by about 0.5 points.",
+   "mgmt": "The founding shareholder group holds 60.88% of the capital (September 2026). Almost all the profit is paid out as dividends: 60 rupees per share in the 12 months to April 2026, or 97.6% of net profit. The company has no net debt (net debt/EBITDA −0.65). In fiscal 2026 restructuring costs weighed on profit; the operating margin excluding these costs was 17.2%.",
+   "latest": "12 October 2026: In the July-September 2026 quarter revenue was 356.2 billion rupees (+11.5% in rupees; +2.6% at constant exchange rates) and net profit 51.3 billion rupees (+21.2%). This is the company's highest quarterly net profit. The operating margin was 18.2%. New deal bookings were 3.3 billion dollars (+27%). The company gave its growth outlook at constant exchange rates for fiscal 2027 as 2.5-4%; in April the range was 1-4%. The margin outlook is 17.5-18.5%. A dividend of 12 rupees per share was declared.",
+   "risks": [
+    "Price: the P/E is 20.4 and the P/B 4.9. On the conservative calculation the share is above fair value; there is no margin of safety.",
+    "Growth is slow: 2.6% a year at constant exchange rates. Most of the growth in rupees comes from the exchange rate.",
+    "Artificial intelligence can reduce both the price and the volume of the engineer hours the company sells; the net effect is not yet clear.",
+    "Software product revenue is falling and swings widely from quarter to quarter (in the January-March 2026 quarter it fell 28.1% from the previous quarter).",
+    "Because almost all the profit is paid out, little is kept inside for growth or acquisitions."
+   ],
+   "watch": [
+    "Revenue growth at constant exchange rates and the full-year outlook",
+    "Operating margin (the 17.5-18.5% range)",
+    "Annual recurring revenue of the software products",
+    "Price: the margin-of-safety threshold"
+   ]
+  }
+ },
+ "HINDUNILVR": {
+  "scores": {
+   "A": 2,
+   "B": 3,
+   "C": 2,
+   "D": 2,
+   "E": 2
+  },
+  "moat": "geniş",
+  "per": "2026-Q2",
+  "one": "Hindistan'ın en büyük temizlik, kişisel bakım ve gıda markaları şirketi. Hendek geniş; fiyat çok pahalı olduğu için kapıda bekliyor.",
+  "business": "Hindustan Unilever deterjan, sabun, şampuan, cilt bakımı, çay, kahve ve hazır gıda satar. Yılda yaklaşık 85 milyar paket ürünü yaklaşık 9 milyon satış noktasına ulaştırır. Mart 2026'da biten mali yılda hasılat 637,6 milyar rupi, FAVÖK marjı %23,6 oldu. Yıllık satışı 10 milyar rupiyi aşan 21 markası var.",
+  "moat_text": "Hendek geniş. Üstünlük markalardan ve dağıtımdan geliyor: 21 büyük marka ve yaklaşık 9 milyon satış noktasına ulaşan bir ağ. Bir rakibin aynı ağı kurması yıllar ve büyük sermaye ister. Fiyatlama gücü marjda görünüyor: FAVÖK marjı %22-24 aralığında. Reel özsermaye kârlılığı son beş mali yılda %12,0 ile %19,6 arasında kaldı, son 12 ayda %15,2. Zayıf yanı: son iki yılda büyüme cılızdı; şirket büyümeyi satın aldığı yeni markalarda (Minimalist, OZiva) arıyor. Reel kârlılık 2. surun eşiklerine yakın.",
+  "mgmt": "Sermayenin %61,90'ı ana ortak Unilever'de (Eylül 2026). Kârın büyük bölümü temettü olarak dağıtılıyor: 2026 mali yılı için hisse başına 41 rupi, toplam 96,3 milyar rupi. Şirketin net borcu yok (net borç/FAVÖK −0,54). Dondurma işi Aralık 2025 çeyreğinde ayrı bir şirkete (Kwality Wall's) devredildi; Minimalist ve OZiva satın alındı, Pureit satıldı. Yönetim yatırım harcamasını hasılatın %2'sinden %3'üne çıkarmayı planlıyor.",
+  "latest": "28 Ekim 2026: Temmuz-Eylül 2026 çeyreğinde hasılat 180,7 milyar rupi. Şirketin açıkladığı temel satış büyümesi %15 ile son 14 çeyreğin en yükseği; satış hacmi %7 arttı. FAVÖK 40,9 milyar rupi (+%8), FAVÖK marjı %22,6 (geçen yıla göre 1,4 puan düşük). Net kâr 28,0 milyar rupi ile geçen yılla aynı; istisnai kalemler hariç %9 arttı. Hisse başına 19 rupi ara temettü açıklandı.",
+  "risks": [
+   "Fiyat: sayfadaki F/K 30,8, dondurma işinin ayrılmasından gelen yaklaşık 46 milyar rupilik tek seferlik kazancı içeren kârla hesaplı. Bu kazanç çıkarılınca çarpan daha da yüksek (Screener.in'de 42,0). Güvenlik marjı yok.",
+   "Marj baskısı: son çeyrekte FAVÖK marjı 1,4 puan geriledi; girdi maliyetleri yüksek. Büyüme hacimle geliyor, kâr aynı hızla artmıyor.",
+   "Reel özsermaye kârlılığı ortalaması 2. surun eşiğinde. Enflasyon yükselirse ya da kâr gerilerse şirket kalite surunda elenebilir.",
+   "Yeni ve internetten satan markalar ile hızlı teslimat uygulamaları, dağıtım ağının sağladığı üstünlüğü zayıflatabilir.",
+   "Ana ortak Unilever çoğunluk sahibi; temettü ve satın alma kararlarını o belirler."
+  ],
+  "watch": [
+   "Satış hacmi büyümesi",
+   "FAVÖK marjı (%22-24 hedef aralığı)",
+   "Reel özsermaye kârlılığı",
+   "Fiyat: güvenlik marjı eşiği"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/nse/HINDUNILVR/financials/ratios/"
+   },
+   {
+    "t": "Hindustan Unilever: 30 Eylül 2026'da biten çeyreğin sonuçları (28 Eki 2026)",
+    "te": "Hindustan Unilever: results for the quarter ended 30 September 2026 (28 Oct 2026)",
+    "u": "https://www.hul.co.in/news/press-releases/2026/results-for-the-quarter-ended-30th-september-2026/"
+   },
+   {
+    "t": "Goodreturns: HUL 2027 mali yılı 2. çeyrek sonuçları (28 Eki 2026)",
+    "te": "Goodreturns: HUL Q2 FY27 results (28 Oct 2026)",
+    "u": "https://www.goodreturns.in/news/hul-q2fy27-results-sales-growth-hits-14-quarter-high-margins-shrink-dividend-announced-1543541.html"
+   },
+   {
+    "t": "Outlook Business: HUL 3. çeyrek kârı dondurma ayrılmasının tek seferlik etkisiyle ikiye katlandı (12 Şub 2026)",
+    "te": "Outlook Business: HUL Q3 profit doubles on one-off impact of ice cream demerger (12 Feb 2026)",
+    "u": "https://www.outlookbusiness.com/corporate/hul-q3-profit-up-two-fold-to-6603-cr-on-one-off-positive-impact-from-demerger-of-ice-cream-biz"
+   },
+   {
+    "t": "Outlook Business: Kwality Wall's ayrılmasının 46,11 milyar rupilik kazancı (Şub 2026)",
+    "te": "Outlook Business: 46.11 billion rupee gain from the Kwality Wall's demerger (Feb 2026)",
+    "u": "https://www.outlookbusiness.com/corporate/hul-net-profit-soars-136-in-q3-boosted-by-4611-cr-kwality-walls-demerger-gain"
+   },
+   {
+    "t": "HDFC Sky (PTI): HUL orta vadede %22-24 FAVÖK marjı hedefliyor (7 Eyl 2026)",
+    "te": "HDFC Sky (PTI): HUL aims for 22-24% EBITDA margin in the medium term (7 Sep 2026)",
+    "u": "https://hdfcsky.com/news/hul-aims-22-24-pc-ebitda-margin-in-medium-term-to-hike-capex-to-3-pc-nair"
+   },
+   {
+    "t": "Whalesbook: HUL 2026 mali yılı kârı ve temettüsü (2 Haz 2026)",
+    "te": "Whalesbook: HUL FY26 profit and dividend (2 Jun 2026)",
+    "u": "https://www.whalesbook.com/corporate-news/English/consumer-products/HUL-FY26-Profit-Rs-10652-Cr-Proposes-Rs-41Share-Dividend/6a1f0548d19f4f3fe8e79b62"
+   },
+   {
+    "t": "Screener.in: Hindustan Unilever mali tablolar ve ortaklık yapısı (12 Kas 2026)",
+    "te": "Screener.in: Hindustan Unilever financials and shareholding (12 Nov 2026)",
+    "u": "https://www.screener.in/company/HINDUNILVR/consolidated/"
+   }
+  ],
+  "en": {
+   "one": "India's largest company in cleaning, personal care and food brands. The moat is wide; it waits at the gate because the price is very expensive.",
+   "business": "Hindustan Unilever sells detergent, soap, shampoo, skin care, tea, coffee and packaged food. It delivers about 85 billion packs a year to about 9 million outlets. In the fiscal year that ended in March 2026 revenue was 637.6 billion rupees and the EBITDA margin 23.6%. It has 21 brands with annual sales above 10 billion rupees each.",
+   "moat_text": "The moat is wide. The advantage comes from brands and distribution: 21 large brands and a network that reaches about 9 million outlets. Building the same network would take a competitor years and a large amount of capital. Pricing power shows in the margin: the EBITDA margin is in the 22-24% range. Real return on equity stayed between 12.0% and 19.6% in the last five fiscal years and was 15.2% in the last 12 months. The weak side: growth was feeble in the last two years; the company is looking for growth in the new brands it bought (Minimalist, OZiva). Real profitability is close to the thresholds of Wall 2.",
+   "mgmt": "The parent, Unilever, holds 61.90% of the capital (September 2026). Most of the profit is paid out as dividends: 41 rupees per share for fiscal 2026, 96.3 billion rupees in total. The company has no net debt (net debt/EBITDA −0.54). The ice cream business was transferred to a separate company (Kwality Wall's) in the December 2025 quarter; Minimalist and OZiva were bought and Pureit was sold. Management plans to raise capital spending from 2% of revenue to 3%.",
+   "latest": "28 October 2026: In the July-September 2026 quarter revenue was 180.7 billion rupees. Underlying sales growth reported by the company was 15%, the highest in the last 14 quarters; sales volume rose 7%. EBITDA was 40.9 billion rupees (+8%) and the EBITDA margin 22.6% (1.4 points lower than a year earlier). Net profit was 28.0 billion rupees, the same as last year; excluding exceptional items it rose 9%. An interim dividend of 19 rupees per share was declared.",
+   "risks": [
+    "Price: the P/E of 30.8 on the page is calculated with a profit that includes a one-off gain of about 46 billion rupees from the separation of the ice cream business. Without this gain the multiple is higher still (42.0 on Screener.in). There is no margin of safety.",
+    "Margin pressure: the EBITDA margin fell 1.4 points in the last quarter; input costs are high. Growth is coming from volume, and profit is not rising at the same pace.",
+    "The average real return on equity is at the threshold of Wall 2. If inflation rises or profit falls, the company can be eliminated at the quality wall.",
+    "New brands that sell online and quick-delivery apps can weaken the advantage that the distribution network provides.",
+    "The parent, Unilever, is the majority owner; it decides on dividends and acquisitions."
+   ],
+   "watch": [
+    "Sales volume growth",
+    "EBITDA margin (the 22-24% target range)",
+    "Real return on equity",
+    "Price: the margin-of-safety threshold"
+   ]
+  }
+ },
+ "HINDZINC": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 1,
+   "E": 2
+  },
+  "moat": "dar",
+  "per": "2026-Q2",
+  "one": "Hindistan'ın çinko pazarının lideri, düşük maliyetli çinko ve gümüş üreticisi. Kalite surlarını geçti; fiyat yetmiyor, kapıda bekliyor.",
+  "business": "Hindustan Zinc, Rajasthan'daki madenlerinden çinko, kurşun ve gümüş çıkarır, kendi izabe tesislerinde işler ve satar. Hindistan'ın birincil çinko pazarındaki payı yaklaşık %74. Mart 2026'da biten mali yılda hasılat 408,4 milyar rupi, net kâr 138,3 milyar rupi; 1.114 bin ton maden metali ve 627 ton gümüş üretti. Nisan-Eylül 2026'da kârın yaklaşık %45'i gümüşten geldi.",
+  "moat_text": "Hendek dar. Üstünlük maliyetten ve cevherden geliyor: Temmuz-Eylül 2026'da çinkonun ton başına üretim maliyeti (devlet hakkı hariç) 703 dolar, bir yıl öncesinden %29 düşük; FAVÖK marjı %62. Metal rezervi 13,9 milyon ton, gümüş rezervi 10,9 bin ton. Yurt içinde birincil çinko pazarının yaklaşık %74'ü onda. Reel özsermaye kârlılığı beş yılda %21,9'un altına inmedi. Zayıf yanı: sattığı şey emtia; fiyatı Londra borsası ve gümüş piyasası belirler, şirket değil. Son 12 aydaki %85,2'lik reel özsermaye kârlılığı yüksek metal fiyatlarının ürünü. Bütün madenler tek eyalette. Bu yüzden geniş demiyoruz.",
+  "mgmt": "Ana ortak Vedanta grubu (kurucu ortak payı Eylül 2026'da %60,71); Hindistan devletinin payı %27,92. Vedanta 2025-26 mali yılında iki kez pay sattı. Kâr büyük ölçüde temettüye gidiyor: 2025-26 için hisse başına 10 rupi (toplam 42,3 milyar rupi). Bazı yıllarda dağıtılan tutar kârı aştı (2022-23'te kârın %303'ü, 2024-25'te %118'i); bu, ana ortağın nakit ihtiyacına göre karar verildiğini düşündürüyor ve küçük bir kusur sayıldı. Şirket 2030'a kadar kapasiteyi artırmayı ve gümüş kapasitesini yılda 800 tondan 1.500 tona çıkarmayı planlıyor.",
+  "latest": "19 Ekim 2026: Temmuz-Eylül 2026 çeyreğinde hasılat 150,9 milyar rupi (yıllık +%77), FAVÖK 92,9 milyar rupi (+%108, marj %62), net kâr 64,1 milyar rupi (+%142). Üçü de çeyrek rekoru. Maden metali üretimi 271 bin ton (+%5), rafine metal 264 bin ton (+%7), gümüş 173 ton (+%20). Nisan-Eylül 2026 net kârı 118,8 milyar rupi (+%143). 30 Eylül'de yatırımlar ve nakit 174,4 milyar rupi, borçlanma 61,7 milyar rupi.",
+  "risks": [
+   "Fiyat: F/K 11,5 düşük görünüyor ama PD/DD 8. Temkinli hesapla güvenlik marjı eşiğin altında.",
+   "Kâr metal fiyatlarının tepesinde olabilir: son çeyrekte net kâr bir yıl öncesinin 2,4 katı, kârın yaklaşık %45'i gümüşten. Çinko ya da gümüş fiyatı düşerse kâr hızla geriler; 2023-24'te net kâr 105,1 milyar rupiden 77,6 milyar rupiye inmişti.",
+   "Ana ortağın nakit ihtiyacı: geçmişte kârı aşan temettüler dağıtıldı. Benzer bir karar şirketin nakdini azaltır ve borcunu artırır.",
+   "Bütün madenler ve izabe tesisleri Rajasthan'da. Maden ruhsatı, devlet hakkı oranı ya da su ve enerji ile ilgili bir karar bütün üretimi etkiler.",
+   "Büyüme yatırımı: yılda 1 milyar doları aşan harcama planlanıyor. Metal fiyatları düşükken devreye giren kapasite getiriyi düşürür."
+  ],
+  "watch": [
+   "Çinko ve gümüş fiyatı",
+   "Ton başına çinko üretim maliyeti (son çeyrek 703 dolar)",
+   "Temettü kararları ve kâra oranı",
+   "Kapasite yatırımlarının takvimi ve tutarı"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/nse/HINDZINC/financials/ratios/"
+   },
+   {
+    "t": "Hindustan Zinc: 2025-26 entegre yıllık raporu, performans bölümü",
+    "te": "Hindustan Zinc: Integrated Annual Report 2025-26, performance section",
+    "u": "https://integratedreport.hzlindia.com/annual-integrated-report-fy-2025-26/performance.html"
+   },
+   {
+    "t": "PSU Connect: Hindustan Zinc Temmuz-Eylül 2026 çeyreğinde 6.412 crore rupi rekor kâr (19 Eki 2026)",
+    "te": "PSU Connect: Hindustan Zinc record profit of Rs 6,412 crore in the July-September 2026 quarter (19 Oct 2026)",
+    "u": "https://www.psuconnect.in/financial/hindustan-zinc-q2-profit-surges-142-to-record-6-412-cr"
+   },
+   {
+    "t": "Free Press Journal: Hindustan Zinc çeyrek kârı %142 arttı (19 Eki 2026)",
+    "te": "Free Press Journal: Hindustan Zinc quarterly profit jumps 142% (19 Oct 2026)",
+    "u": "https://www.freepressjournal.in/business/hindustan-zinc-q2-net-profit-jumps-142-to-6412-crore-ebitda-up-108"
+   },
+   {
+    "t": "Outlook Business: Hindustan Zinc 2030'a kadar kapasiteyi artırmayı hedefliyor (25 Nis 2026)",
+    "te": "Outlook Business: Hindustan Zinc eyes capacity doubling by 2030 (25 Apr 2026)",
+    "u": "https://www.outlookbusiness.com/corporate/hindustan-zinc-eyes-capacity-doubling-by-2030-demerger-talks-may-resume"
+   },
+   {
+    "t": "Multibagg: Hindustan Zinc'te devletin ve Vedanta'nın pay satışları (5 Haz 2026)",
+    "te": "Multibagg: government and Vedanta stake sales in Hindustan Zinc (5 Jun 2026)",
+    "u": "https://www.multibagg.ai/market-pulse/articles/hindustan-zinc-govt-stake-sale-cmq0lnlkk00mnps0jwy4asphi"
+   },
+   {
+    "t": "Screener.in: Hindustan Zinc konsolide sonuçlar, temettü oranları ve ortaklık yapısı (12 Kas 2026'da okundu)",
+    "te": "Screener.in: Hindustan Zinc consolidated results, payout ratios and shareholding (read 12 Nov 2026)",
+    "u": "https://www.screener.in/company/HINDZINC/consolidated/"
+   }
+  ],
+  "en": {
+   "one": "Leader of India's zinc market, a low-cost zinc and silver producer. It passed the quality walls; the price falls short, it waits at the gate.",
+   "business": "Hindustan Zinc mines zinc, lead and silver from its mines in Rajasthan, processes them in its own smelters and sells them. Its share of India's primary zinc market is about 74%. In the fiscal year that ended in March 2026 revenue was 408.4 billion rupees and net profit 138.3 billion rupees; it produced 1,114 thousand tonnes of mined metal and 627 tonnes of silver. In April-September 2026 about 45% of profit came from silver.",
+   "moat_text": "The moat is narrow. The advantage comes from cost and from the ore: in July-September 2026 the cost of producing a tonne of zinc (excluding royalty) was 703 dollars, 29% lower than a year earlier; the EBITDA margin was 62%. Metal reserves are 13.9 million tonnes and silver reserves 10.9 thousand tonnes. It holds about 74% of the country's primary zinc market. Real return on equity did not fall below 21.9% in five years. The weak side: what it sells is a commodity; the price is set by the London exchange and the silver market, not by the company. The 85.2% real return on equity of the last 12 months is the product of high metal prices. All the mines are in one state. That is why we do not call it wide.",
+   "mgmt": "The main shareholder is the Vedanta group (the promoter stake was 60.71% in September 2026); the Indian state holds 27.92%. Vedanta sold shares twice in fiscal 2025-26. Profit goes largely to dividends: 10 rupees per share for 2025-26 (42.3 billion rupees in total). In some years the payout exceeded profit (303% of profit in 2022-23, 118% in 2024-25); this suggests that the decision follows the main shareholder's need for cash, and it was counted as a small flaw. The company plans to raise capacity by 2030 and to take silver capacity from 800 tonnes a year to 1,500 tonnes.",
+   "latest": "19 October 2026: In the July-September 2026 quarter revenue was 150.9 billion rupees (+77% year on year), EBITDA 92.9 billion rupees (+108%, margin 62%) and net profit 64.1 billion rupees (+142%). All three are quarterly records. Mined metal production was 271 thousand tonnes (+5%), refined metal 264 thousand tonnes (+7%) and silver 173 tonnes (+20%). Net profit for April-September 2026 was 118.8 billion rupees (+143%). On 30 September investments and cash were 174.4 billion rupees and borrowings 61.7 billion rupees.",
+   "risks": [
+    "Price: the P/E of 11.5 looks low but the P/B is 8. On the conservative calculation the margin of safety is below the threshold.",
+    "Profit may be at the top of the metal price cycle: net profit in the last quarter was 2.4 times that of a year earlier, and about 45% of profit comes from silver. If the zinc or silver price falls, profit drops quickly; in 2023-24 net profit fell from 105.1 billion rupees to 77.6 billion rupees.",
+    "The main shareholder's need for cash: dividends above profit have been paid in the past. A similar decision would reduce the company's cash and raise its debt.",
+    "All mines and smelters are in Rajasthan. A decision on mining licences, the royalty rate, or water and energy would affect all production.",
+    "Growth investment: spending of more than 1 billion dollars a year is planned. Capacity that comes on stream when metal prices are low reduces returns."
+   ],
+   "watch": [
+    "Zinc and silver prices",
+    "Cost of producing a tonne of zinc (703 dollars in the last quarter)",
+    "Dividend decisions and their ratio to profit",
+    "Timetable and cost of the capacity investments"
+   ]
+  }
+ },
+ "INFY": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 2,
+   "E": 2
+  },
+  "moat": "dar",
+  "per": "2026-Q2",
+  "one": "Hindistan'ın ikinci büyük bilişim hizmetleri şirketi. Kalite surlarını geçiyor; büyüme beklentisini indirdi, fiyat yetmediği için kapıda bekliyor.",
+  "business": "Infosys, büyük şirketlere yazılım geliştirme, sistem bakımı, danışmanlık ve dış kaynak hizmeti satar. Parayı çok yıllı sözleşmelerle, Hindistan'daki mühendis kadrosunun emeğinden kazanır. Mart 2026'da biten mali yılda hasılat 1,79 trilyon rupi (20,2 milyar dolar), net kâr 294,4 milyar rupi oldu. Yılda 50 milyon dolardan fazla iş veren 88 müşterisi var.",
+  "moat_text": "Hendek dar. Üstünlük ölçekten ve müşterinin sistemlerine yerleşmiş olmaktan geliyor; işi başka firmaya taşımak zahmetli. Kanıt: reel özsermaye kârlılığı son beş mali yılda %22,0 ile %27,2 arasında kaldı, son 12 ayda %23,1; faaliyet marjı %21,0. Zayıf yanı: işler teklifle alınıyor, satılan şey mühendis saati ve büyüme çok yavaş. Sabit kurla hasılat son çeyrekte yalnız %1,5 arttı. Yapay zekânın fiyatlara etkisi de belirsiz. Bu yüzden hendeği geniş saymadık.",
+  "mgmt": "Kurucu ailelerin payı %13,90 (Eylül 2026); hisselerin çoğu kurumsal yatırımcılarda. Kâr ortaklara dönüyor: 2026 mali yılında serbest nakit akışı 331,0 milyar rupiydi (net kârın %112,3'ü). Aralık 2025'te 180 milyar rupilik hisse geri alımı tamamlandı. Geri alım hisse başına 1.800 rupiden yapıldı; bugünkü fiyat 1.143 rupi, yani geri alım pahalıya geldi. Şirketin net borcu yok (net borç/FAVÖK −0,63); Mart 2026'da nakit ve yatırımları 430,8 milyar rupiydi.",
+  "latest": "23 Ekim 2026: Temmuz-Eylül 2026 çeyreğinde hasılat 492,4 milyar rupi (rupi olarak +%10,7; sabit kurla +%1,5), net kâr 78,2 milyar rupi (+%6,2). Faaliyet marjı %21,0. Büyük sözleşmelerin toplam değeri 5,2 milyar dolar; %62'si yeni iş. Şirket 2027 mali yılı için sabit kurla büyüme beklentisini %1,5-3'ten %1-2'ye indirdi; marj beklentisi %20-22. Hisse başına 26 rupi ara temettü açıklandı.",
+  "risks": [
+   "Fiyat: F/K 15,1 ve PD/DD 4,7. Temkinli hesapla hisse adil değerin üzerinde; güvenlik marjı yok.",
+   "Büyüme beklentisi indirildi: 2027 mali yılı için sabit kurla %1-2. Rupi cinsinden büyümenin çoğu kurdan geliyor.",
+   "Yapay zekâ, satılan mühendis saatinin fiyatını ve miktarını düşürebilir; net etkisi henüz belli değil.",
+   "ABD'ye bağımlılık: 7 Ekim 2026'da ABD makamları Infosys'i ve yedi firmayı bir göçmenlik programının (PERM) dışında bıraktı. Şirket önemli bir etki beklemediğini söyledi, ama vize ve göç kuralları sıkılaşırsa maliyet artar.",
+   "Geri alım bugünkü fiyatın çok üzerinden yapıldı; bu, sermaye tahsisinde bir kusur olarak duruyor."
+  ],
+  "watch": [
+   "Sabit kurla hasılat büyümesi ve yıllık beklenti",
+   "Faaliyet marjı (%20-22 aralığı)",
+   "Büyük sözleşmelerde yeni işin payı",
+   "Fiyat: güvenlik marjı eşiği"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/nse/INFY/financials/ratios/"
+   },
+   {
+    "t": "Infosys: 2025-26 faaliyet raporu, özet göstergeler",
+    "te": "Infosys: Annual Report 2025-26, business highlights",
+    "u": "https://www.infosys.com/investors/reports-filings/annual-report/annual/documents/2025-26/business-highlights.pdf"
+   },
+   {
+    "t": "Goodreturns: Infosys 2027 mali yılı 2. çeyrek sonuçları (23 Eki 2026)",
+    "te": "Goodreturns: Infosys Q2 FY27 results (23 Oct 2026)",
+    "u": "https://www.goodreturns.in/news/infosys-q2-results-pat-jumps-6-yoy-to-rs-7-823-crore-cuts-fy27-revenue-guidance-full-earnings-report-1543053.html"
+   },
+   {
+    "t": "Free Press Journal: Infosys 2. çeyrek sonuçları (23 Eki 2026)",
+    "te": "Free Press Journal: Infosys Q2 results (23 Oct 2026)",
+    "u": "https://www.freepressjournal.in/business/infosys-q2-fy27-results-net-profit-rises-62-to-7823-crore-revenue-jumps-107-to-49244-crore"
+   },
+   {
+    "t": "Staffing Industry Analysts: Infosys yıllık hasılat beklentisini indirdi (23 Eki 2026)",
+    "te": "Staffing Industry Analysts: Infosys trims full-year revenue outlook (23 Oct 2026)",
+    "u": "https://www.staffingindustry.com/news/global-daily-news/infosys-q2-revenue-edges-up-but-trims-full-year-revenue-outlook"
+   },
+   {
+    "t": "Panabee: Infosys 180 milyar rupilik geri alımı tamamladı (5 Ara 2025)",
+    "te": "Panabee: Infosys completes 180 billion rupee buyback (5 Dec 2025)",
+    "u": "https://www.panabee.com/news/infosys-completes-18-000-crore-buyback-extinguishing-100-million-shares"
+   },
+   {
+    "t": "Screener.in: Infosys mali tablolar ve ortaklık yapısı (11 Kas 2026)",
+    "te": "Screener.in: Infosys financials and shareholding (11 Nov 2026)",
+    "u": "https://www.screener.in/company/INFY/consolidated/"
+   }
+  ],
+  "en": {
+   "one": "India's second-largest IT services company. It passes the quality walls; it cut its growth outlook and waits at the gate on price.",
+   "business": "Infosys sells software development, systems maintenance, consulting and outsourcing services to large companies. It earns its money through multi-year contracts, from the work of its engineers in India. In the fiscal year that ended in March 2026 revenue was 1.79 trillion rupees (20.2 billion dollars) and net profit 294.4 billion rupees. It has 88 clients that each bring more than 50 million dollars of work a year.",
+   "moat_text": "The moat is narrow. The advantage comes from scale and from being embedded in clients' systems; moving the work to another firm is a chore. The evidence: real return on equity stayed between 22.0% and 27.2% in the last five fiscal years and was 23.1% in the last 12 months; the operating margin is 21.0%. The weak side: work is won by bidding, what is sold is engineer hours, and growth is very slow. Revenue at constant exchange rates rose only 1.5% in the last quarter. The effect of artificial intelligence on prices is also uncertain. That is why we did not class the moat as wide.",
+   "mgmt": "The founding families hold 13.90% (September 2026); most of the shares are with institutional investors. Profit returns to shareholders: free cash flow in fiscal 2026 was 331.0 billion rupees (112.3% of net profit). A share buyback of 180 billion rupees was completed in December 2025. The buyback was made at 1,800 rupees per share; today's price is 1,143 rupees, so the buyback proved expensive. The company has no net debt (net debt/EBITDA −0.63); cash and investments were 430.8 billion rupees in March 2026.",
+   "latest": "23 October 2026: In the July-September 2026 quarter revenue was 492.4 billion rupees (+10.7% in rupees; +1.5% at constant exchange rates) and net profit 78.2 billion rupees (+6.2%). The operating margin was 21.0%. The total value of large contracts was 5.2 billion dollars; 62% of it was new work. The company lowered its growth outlook at constant exchange rates for fiscal 2027 from 1.5-3% to 1-2%; the margin outlook is 20-22%. An interim dividend of 26 rupees per share was declared.",
+   "risks": [
+    "Price: the P/E is 15.1 and the P/B 4.7. On the conservative calculation the share is above fair value; there is no margin of safety.",
+    "The growth outlook was lowered: 1-2% at constant exchange rates for fiscal 2027. Most of the growth in rupees comes from the exchange rate.",
+    "Artificial intelligence can reduce both the price and the volume of the engineer hours the company sells; the net effect is not yet clear.",
+    "Dependence on the United States: on 7 October 2026 US officials barred Infosys and seven other firms from an immigration programme (PERM). The company said it does not expect a significant effect, but costs rise if visa and immigration rules tighten.",
+    "The buyback was made far above today's price; this stands as a flaw in capital allocation."
+   ],
+   "watch": [
+    "Revenue growth at constant exchange rates and the full-year outlook",
+    "Operating margin (the 20-22% range)",
+    "Share of new work in large contracts",
+    "Price: the margin-of-safety threshold"
+   ]
+  }
+ },
+ "ITC": {
+  "scores": {
+   "A": 1,
+   "B": 3,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "geniş",
+  "per": "2026-Q2",
+  "one": "Hindistan'ın en büyük sigara üreticisi. Hendek geniş ve kalite surlarını geçti; vergi artışı kârı düşürdü, fiyat yetmediği için kapıda bekliyor.",
+  "business": "ITC dört kolda çalışır: sigara, paketli gıda ve kişisel bakım ürünleri, tarım ürünleri ticareti, kâğıt ve ambalaj. Mart 2026'da biten mali yılda konsolide satış 788,7 milyar rupi, net kâr 210,2 milyar rupi oldu. Kârın asıl kaynağı sigaradır: Temmuz-Eylül 2026 çeyreğinde bölüm kârlarının yaklaşık dörtte üçü sigaradan geldi.",
+  "moat_text": "Hendek geniş. ITC ülkenin en büyük sigara üreticisi ve satıcısıdır; marka, dağıtım ağı ve reklam yasağı yeni bir rakibin girmesini çok zorlaştırır. Bu güç özsermaye kârlılığında görünüyor: reel özsermaye kârlılığı beş yılda %18,3 ile %25,9 arasında kaldı, ortalaması %21,8. Zayıf yan açık: kârın büyük bölümü tek üründen geliyor ve o ürünün vergisini devlet belirliyor. 1 Şubat 2026'da gelen vergi artışından sonra sigara kolunun çeyreklik kârı %27,2 düştü. Gıda ve öbür tüketim ürünleri hızlı büyüyor ama kârı henüz küçük.",
+  "mgmt": "Şirketin kontrol eden bir ortağı yok. Eylül 2026'da hisselerin %49,8'i yerli kurumların, %33,2'si yabancı kurumların elindeydi. En büyük ortak British American Tobacco, Mayıs 2025'te %2,5'lik pay satarak payını %23'ün altına indirdi. Kârın neredeyse tamamı temettü olarak dağıtılıyor: dağıtım oranı %96, temettü verimi %5,1. Net borç yok (net borç/FAVÖK −0,86).",
+  "latest": "2 Kasım 2026: Temmuz-Eylül 2026 çeyreğinde net kâr (konsolide olmayan) 41,4 milyar rupi oldu; bir yıl önce 51,8 milyar rupiydi (−%20,1). Konsolide net kâr 42,3 milyar rupi (−%18,5). Vergi dahil brüt hasılat %46,6 arttı, net hasılat yalnız %3,1 arttı; FAVÖK %17,4 düştü. Sigara kolunun kârı 38,1 milyar rupiye indi (−%27,2). Gıda ve öbür tüketim ürünlerinde hasılat %15,7, kâr %27,8 arttı; kâğıt kolunun kârı %47,6 arttı. Şirket sigarada bir önceki çeyreğe göre toparlanma olduğunu söylüyor.",
+  "risks": [
+   "Vergi: 1 Şubat 2026'dan beri sigaradan uzunluğuna göre bin adet başına 2.050 ile 8.500 rupi arasında özel tüketim vergisi alınıyor, katma değer vergisi (GST) %28'den %40'a çıktı. Son iki çeyrekte kâr %20'den fazla düştü; son 12 ayın kârı ve özsermaye kârlılığı bu yüzden gerileyebilir.",
+   "Tek ürüne bağımlılık: bölüm kârlarının yaklaşık dörtte üçü sigaradan geliyor.",
+   "Fiyat artışı tüketiciyi kaçak sigaraya itebilir; şirket bu yüzden fiyatı kademeli artırıyor.",
+   "British American Tobacco payını azaltıyor; yeni blok satışlar hisse fiyatını baskılayabilir.",
+   "Fiyat: temkinli hesapla hisse adil değerin üzerinde; güvenlik marjı eşiği tutmuyor."
+  ],
+  "watch": [
+   "Sigara kolunun kârı ve satış hacmi",
+   "Yeni bir vergi değişikliği olup olmadığı",
+   "Gıda ve öbür tüketim ürünlerinin kâr marjı",
+   "Fiyat: güvenlik marjı eşiği"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/nse/ITC/financials/ratios/"
+   },
+   {
+    "t": "Investywise: ITC'nin Temmuz-Eylül 2026 çeyreği basın açıklaması (2 Kas 2026)",
+    "te": "Investywise: ITC media statement for the July-September 2026 quarter (2 Nov 2026)",
+    "u": "https://www.investywise.com/itc-limited-q2-fy27-results-media-statement/"
+   },
+   {
+    "t": "Upstox: ITC'nin çeyrek kârı %20 düştü (2 Kas 2026)",
+    "te": "Upstox: ITC quarterly net profit drops 20% (2 Nov 2026)",
+    "u": "https://upstox.com/news/market-news/earnings/itc-q2-fy-27-result-net-profit-drops-20-yo-y-cigarette-business-sees-growth-sequentially/article-202841/"
+   },
+   {
+    "t": "Multibagg: ITC'nin bölüm sonuçları, sigara kârı düştü (3 Kas 2026)",
+    "te": "Multibagg: ITC segment results, cigarette profit falls (3 Nov 2026)",
+    "u": "https://www.multibagg.ai/market-pulse/articles/itc-q2-profit-cigarette-decline-ppt-cmw05v7ou00bq2vpenevy4bgk"
+   },
+   {
+    "t": "ITC: Nisan-Haziran 2026 çeyreği basın açıklaması (31 Tem 2026)",
+    "te": "ITC: press release for the April-June 2026 quarter (31 Jul 2026)",
+    "u": "https://itcportal.com/content/dam/itc-corporate/pdfs/financial-result/quarterly-results-2026-2027/june-2026/ITC-Press-Release-Q1-FY2027.pdf"
+   },
+   {
+    "t": "Outlook Business: yeni tütün vergisi 1 Şubat'ta başlıyor (2 Oca 2026)",
+    "te": "Outlook Business: new tobacco tax from 1 February (2 Jan 2026)",
+    "u": "https://www.outlookbusiness.com/corporate/itc-godfrey-philips-shares-tank-as-centre-imposes-new-tobacco-tax-from-feb-1"
+   },
+   {
+    "t": "Telangana Today: BAT, ITC'deki %2,5 payını sattı (28 May 2025)",
+    "te": "Telangana Today: BAT sells 2.5% stake in ITC (28 May 2025)",
+    "u": "https://telanganatoday.com/british-american-tobacco-sells-2-5-per-cent-stake-in-itc-for-rs-12927-crore"
+   },
+   {
+    "t": "Screener.in: ITC, yıllık rakamlar ve ortaklık yapısı (Eyl 2026)",
+    "te": "Screener.in: ITC, annual figures and shareholding (Sep 2026)",
+    "u": "https://www.screener.in/company/ITC/consolidated/"
+   }
+  ],
+  "en": {
+   "one": "India's largest cigarette maker. Wide moat; passed the quality walls. A tax increase cut profit, and it waits at the gate on price.",
+   "business": "ITC works in four lines: cigarettes, packaged food and personal care products, agricultural trading, and paper and packaging. In the fiscal year that ended in March 2026 consolidated sales were 788.7 billion rupees and net profit 210.2 billion rupees. The main source of profit is cigarettes: in the July-September 2026 quarter about three quarters of segment profit came from cigarettes.",
+   "moat_text": "The moat is wide. ITC is the country's largest maker and seller of cigarettes; the brands, the distribution network and the advertising ban make it very hard for a new rival to enter. This strength shows in return on equity: real return on equity stayed between 18.3% and 25.9% over five years and averaged 21.8%. The weak side is clear: most of the profit comes from one product, and the state sets the tax on that product. After the tax increase of 1 February 2026 the quarterly profit of the cigarette business fell 27.2%. Food and other consumer products are growing fast, but their profit is still small.",
+   "mgmt": "The company has no controlling shareholder. In September 2026 domestic institutions held 49.8% of the shares and foreign institutions 33.2%. The largest shareholder, British American Tobacco, sold a 2.5% stake in May 2025 and brought its holding below 23%. Almost all of the profit is paid out as dividends: the payout ratio is 96% and the dividend yield 5.1%. There is no net debt (net debt/EBITDA −0.86).",
+   "latest": "2 November 2026: In the July-September 2026 quarter net profit (standalone) was 41.4 billion rupees; a year earlier it was 51.8 billion rupees (−20.1%). Consolidated net profit was 42.3 billion rupees (−18.5%). Gross revenue including taxes rose 46.6%, net revenue rose only 3.1%; EBITDA fell 17.4%. Profit of the cigarette business fell to 38.1 billion rupees (−27.2%). In food and other consumer products revenue rose 15.7% and profit 27.8%; profit of the paper business rose 47.6%. The company says cigarettes improved compared with the previous quarter.",
+   "risks": [
+    "Tax: since 1 February 2026 cigarettes carry an excise duty of 2,050 to 8,500 rupees per thousand sticks depending on length, and the goods and services tax (GST) rose from 28% to 40%. Profit fell by more than 20% in each of the last two quarters; trailing 12-month profit and return on equity may decline because of this.",
+    "Dependence on one product: about three quarters of segment profit comes from cigarettes.",
+    "Price increases can push consumers to illicit cigarettes; this is why the company raises prices in steps.",
+    "British American Tobacco is reducing its stake; new block sales can weigh on the share price.",
+    "Price: on the conservative calculation the share is above fair value; it does not meet the margin-of-safety threshold."
+   ],
+   "watch": [
+    "Profit and sales volume of the cigarette business",
+    "Whether there is a new tax change",
+    "Profit margin of food and other consumer products",
+    "Price: the margin-of-safety threshold"
+   ]
+  }
+ },
+ "NESTLEIND": {
+  "scores": {
+   "A": 2,
+   "B": 3,
+   "C": 2,
+   "D": 1,
+   "E": 2
+  },
+  "moat": "geniş",
+  "per": "2026-Q2",
+  "one": "Maggi, Nescafé ve KitKat'ın Hindistan'daki sahibi. Hendek geniş, kalite surlarını geçti; fiyat çok pahalı olduğu için kapıda bekliyor.",
+  "business": "Nestlé India hazır erişte ve sos (Maggi), kahve (Nescafé), çikolata (KitKat), süt ürünleri (Milkmaid) ve bebek maması (Cerelac) satar. İsviçreli Nestlé'nin bağlı ortaklığıdır. Mart 2026'da biten mali yılda satış 230,7 milyar rupi, net kâr 35,4 milyar rupi, FAVÖK marjı %23,0 oldu. Şirket ürünlerini 28 ülkeye de ihraç ediyor.",
+  "moat_text": "Hendek geniş. Üstünlük markalardan ve dağıtımdan geliyor: Maggi kendi sınıfında pazar lideri, öbür markalar da onlarca yıldır rafta. Şirket ana ortağın markalarını, teknolojisini ve araştırmasını kullanıyor. Fiyatlama gücü rakamlarda görünüyor: FAVÖK marjı %23, reel özsermaye kârlılığı son okumalarda %67 ile %97 arasında. Bu kadar yüksek oranın bir nedeni özsermayenin küçük olmasıdır; şirket kârın çoğunu dağıtıyor. Bir rakibin aynı markaları ve dağıtımı kurması yıllar ve büyük sermaye ister.",
+  "mgmt": "Hisselerin %62,8'i Nestlé S.A.'nın elinde (Eylül 2026). Kârın yaklaşık üçte ikisi temettü olarak dağıtılıyor (dağıtım oranı %66); kalanı kapasiteye gidiyor: şirket Hindistan'daki onuncu fabrikasını kuruyor. Borç düşük: Mart 2026'da 4,4 milyar rupi (net borç/FAVÖK −0,22). Küçük ortak açısından kusur: şirket ana ortağa net satışın %4,5'i kadar lisans bedeli ödüyor (2026 mali yılında 10,2 milyar rupi). Yönetim bu oranı beş yılda %5,25'e çıkarmayı önerdi; ortaklar öneriyi reddetti.",
+  "latest": "15 Ekim 2026: Temmuz-Eylül 2026 çeyreğinde toplam satış %20,5, yurt içi satış %20,4 arttı. Net kâr 10,3 milyar rupi oldu; bir yıl önce 7,5 milyar rupiydi (+%36,3). FAVÖK marjı %23,8. Hammadde maliyetinin satışa oranı %45,5'ten %43,1'e indi; reklam ve pazarlama harcaması %46 arttı. Şirket büyümenin bütün ürün gruplarında ve hacimle geldiğini söylüyor. Mali yılın ilk altı ayında net kâr 20,0 milyar rupi (+%41,7).",
+  "risks": [
+   "Fiyat: F/K 59,7 ve PD/DD 42,2. Temkinli hesapla hisse adil değerin çok üzerinde; güvenlik marjı yok.",
+   "Hammadde fiyatları: süt, kahve, kakao ve buğday pahalanırsa marj daralır.",
+   "Lisans bedeli: ana ortağa ödenen oran yeniden artırılmak istenebilir; bu, küçük ortağın payına düşen kârı azaltır.",
+   "Özsermaye küçük olduğu için özsermaye kârlılığı çok yüksek görünüyor; oran beş yılda %97'den %67'ye indi."
+  ],
+  "watch": [
+   "Satış hacmindeki büyüme",
+   "FAVÖK marjı ve hammadde maliyeti",
+   "Lisans bedeli oranı",
+   "Fiyat: güvenlik marjı eşiği"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/nse/NESTLEIND/financials/ratios/"
+   },
+   {
+    "t": "Free Press Journal: Nestlé India'nın Temmuz-Eylül 2026 çeyreği kârı %36,3 arttı (15 Eki 2026)",
+    "te": "Free Press Journal: Nestlé India July-September 2026 quarter profit up 36.3% (15 Oct 2026)",
+    "u": "https://www.freepressjournal.in/business/nestl-india-reports-standalone-q2-fy27-profit-of-102677-crore-up-363-year-on-year"
+   },
+   {
+    "t": "Nestlé India: 2026 mali yılı sonuçları basın açıklaması (21 Nis 2026)",
+    "te": "Nestlé India: press release on fiscal 2026 results (21 Apr 2026)",
+    "u": "https://www.nestle.in/sites/g/files/pydnoa451/files/2026-04/Press%20Release.pdf"
+   },
+   {
+    "t": "Free Press Journal: Nestlé India'nın ana ortağa ödediği lisans bedeli 10,2 milyar rupiyi geçti (7 Haz 2026)",
+    "te": "Free Press Journal: Nestlé India's royalty payment to parent crosses 10.2 billion rupees (7 Jun 2026)",
+    "u": "https://www.freepressjournal.in/business/nestle-indias-royalty-payment-crosses-1024-crore-in-fy26-revenue-jumps-14-despite-shareholder-rejection-of-higher-fee-plan"
+   },
+   {
+    "t": "Screener.in: Nestlé India, yıllık rakamlar ve ortaklık yapısı (Eyl 2026)",
+    "te": "Screener.in: Nestlé India, annual figures and shareholding (Sep 2026)",
+    "u": "https://www.screener.in/company/NESTLEIND/"
+   }
+  ],
+  "en": {
+   "one": "The owner of Maggi, Nescafé and KitKat in India. Wide moat; passed the quality walls; waits at the gate because the price is very high.",
+   "business": "Nestlé India sells instant noodles and sauces (Maggi), coffee (Nescafé), chocolate (KitKat), milk products (Milkmaid) and baby food (Cerelac). It is a subsidiary of Switzerland's Nestlé. In the fiscal year that ended in March 2026 sales were 230.7 billion rupees, net profit 35.4 billion rupees and the EBITDA margin 23.0%. The company also exports to 28 countries.",
+   "moat_text": "The moat is wide. The advantage comes from the brands and the distribution: Maggi is the market leader in its category, and the other brands have been on the shelf for decades. The company uses the parent's brands, technology and research. Pricing power shows in the figures: the EBITDA margin is 23%, and real return on equity was between 67% and 97% in recent readings. One reason the ratio is so high is that equity is small; the company pays out most of its profit. Building the same brands and distribution would take a rival years and a large amount of capital.",
+   "mgmt": "Nestlé S.A. holds 62.8% of the shares (September 2026). About two thirds of the profit is paid out as dividends (payout ratio 66%); the rest goes into capacity: the company is building its tenth factory in India. Debt is low: 4.4 billion rupees in March 2026 (net debt/EBITDA −0.22). A flaw from the minority shareholder's point of view: the company pays the parent a licence fee of 4.5% of net sales (10.2 billion rupees in fiscal 2026). Management proposed raising this rate to 5.25% over five years; shareholders rejected the proposal.",
+   "latest": "15 October 2026: In the July-September 2026 quarter total sales rose 20.5% and domestic sales 20.4%. Net profit was 10.3 billion rupees; a year earlier it was 7.5 billion rupees (+36.3%). The EBITDA margin was 23.8%. The cost of materials fell from 45.5% of sales to 43.1%; spending on advertising and marketing rose 46%. The company says growth came across all product groups and from volume. In the first six months of the fiscal year net profit was 20.0 billion rupees (+41.7%).",
+   "risks": [
+    "Price: the P/E is 59.7 and the P/B 42.2. On the conservative calculation the share is far above fair value; there is no margin of safety.",
+    "Raw material prices: if milk, coffee, cocoa and wheat become more expensive the margin narrows.",
+    "Licence fee: an increase in the rate paid to the parent may be sought again; this reduces the profit left for minority shareholders.",
+    "Return on equity looks very high because equity is small; the ratio fell from 97% to 67% over five years."
+   ],
+   "watch": [
+    "Growth in sales volume",
+    "EBITDA margin and raw material cost",
+    "Licence fee rate",
+    "Price: the margin-of-safety threshold"
+   ]
+  }
+ },
+ "TCS": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 2,
+   "E": 2
+  },
+  "moat": "dar",
+  "per": "2026-Q2",
+  "one": "Hindistan'ın en büyük bilişim hizmetleri şirketi. Kalite surlarını geçiyor; büyüme yavaş, fiyat güvenlik marjı bırakmadığı için kapıda bekliyor.",
+  "business": "TCS, dünyanın büyük şirketlerine yazılım geliştirme, sistem bakımı, danışmanlık ve iş süreçleri hizmeti satar. Parayı çok yıllı sözleşmelerle, Hindistan'daki mühendis kadrosunun emeğinden kazanır. Mart 2026'da biten mali yılda hasılat 2,67 trilyon rupi, net kâr 494,5 milyar rupi oldu. Eylül 2026 sonunda 598.056 çalışanı vardı.",
+  "moat_text": "Hendek dar. Üstünlük ölçekten ve müşterinin sistemlerine yıllar içinde yerleşmiş olmaktan geliyor: işi başka firmaya taşımak müşteri için pahalı ve riskli. Kanıt rakamlarda: reel özsermaye kârlılığı son beş mali yılda %35,7 ile %50,2 arasında kaldı, son 12 ayda %37,9; faaliyet marjı %24,0. Zayıf yanı: işler teklifle alınıyor ve satılan şey mühendis saati. Sabit kurla büyüme yılda %2,8'e indi. Yapay zekânın bu saatlerin fiyatını ne kadar düşüreceği belli değil. Bu yüzden hendeği geniş saymadık.",
+  "mgmt": "Sermayenin %71,77'si kurucu ortak Tata grubunda (Eylül 2026). Kârın büyük bölümü ortaklara dağıtılıyor: 2026 mali yılında toplam 395,7 milyar rupi ödendi, dağıtım oranı %81. Şirketin net borcu yok (net borç/FAVÖK −0,54). Yönetim 2026 mali yılında kadroyu 23.460 kişi azalttı ve bunun için 13,9 milyar rupi karşılık ayırdı. Ekim 2026'da Porsche'nin danışmanlık şirketi MHP'yi satın alma kararı açıklandı; bedeli okuduğumuz kaynaklarda yok.",
+  "latest": "8 Ekim 2026: Temmuz-Eylül 2026 çeyreğinde hasılat 731,9 milyar rupi (rupi olarak +%11,2; sabit kurla +%2,8), net kâr 138,8 milyar rupi. Geçen yılın aynı çeyreğinde tek seferlik kalemler hariç net kâr 129,0 milyar rupiydi. Faaliyet marjı %24,0. Alınan yeni işlerin toplam sözleşme değeri 9,6 milyar dolar. Yıllıklandırılmış yapay zekâ geliri 3,1 milyar doları geçti (hasılatın %10'undan fazlası). Hisse başına 12 rupi ara temettü açıklandı.",
+  "risks": [
+   "Fiyat: F/K 17,0 ve PD/DD 7,4. Temkinli hesapla hisse adil değerin üzerinde; güvenlik marjı yok.",
+   "Yapay zekâ, satılan mühendis saatinin fiyatını ve miktarını düşürebilir. Şirket bu alandan gelir de elde ediyor, ama net etkisi henüz belli değil.",
+   "Büyüme yavaş: sabit kurla yıllık %2,8. Rupi cinsinden büyümenin çoğu kurdan geliyor; rupi değer kazanırsa hasılat ve marj geriler.",
+   "Kuzey Amerika'da hasılat sabit kurla yalnız %1,5 büyüdü. Oradaki bütçe kesintileri ve çalışma vizesi kısıtları işi doğrudan etkiler.",
+   "MHP satın alması şirketin alışılmış ölçüsünün dışında; bedeli ve getirisi henüz bilinmiyor."
+  ],
+  "watch": [
+   "Sabit kurla hasılat büyümesi",
+   "Faaliyet marjı (%24 çevresi)",
+   "Yeni sözleşmelerin toplam değeri",
+   "Fiyat: güvenlik marjı eşiği"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/nse/TCS/financials/ratios/"
+   },
+   {
+    "t": "TCS: 2027 mali yılı 2. çeyrek sonuç açıklaması (8 Eki 2026)",
+    "te": "TCS: Q2 FY2027 results press release (8 Oct 2026)",
+    "u": "https://www.tcs.com/content/tcs/global/en/who-we-are/newsroom/press-release/tcs-financial-results-q2-fy-2027"
+   },
+   {
+    "t": "Outlook Business: TCS 2. çeyrek sonuçları (8 Eki 2026)",
+    "te": "Outlook Business: TCS Q2 results (8 Oct 2026)",
+    "u": "https://www.outlookbusiness.com/corporate/tcs-q2-results-profit-revenue-dividend-ai-workforce-deals-margins-share-price"
+   },
+   {
+    "t": "Free Press Journal: TCS 2. çeyrek sonuçları (8 Eki 2026)",
+    "te": "Free Press Journal: TCS Q2 results (8 Oct 2026)",
+    "u": "https://www.freepressjournal.in/business/tcs-net-profit-up-025-to-13884-crore-in-q2-fy27-revenue-rises-to-73188-crore"
+   },
+   {
+    "t": "Outlook Business: TCS 2026 mali yılı 4. çeyrek sonuçları (9 Nis 2026)",
+    "te": "Outlook Business: TCS Q4 FY26 results (9 Apr 2026)",
+    "u": "https://www.outlookbusiness.com/markets/tcs-q4-profit-rises-29-qoq-to-13718-cr-revenue-grows-54"
+   },
+   {
+    "t": "Angel One: TCS'nin 2026 mali yılı yeniden yapılanma gideri ve çalışan sayısı (13 Nis 2026)",
+    "te": "Angel One: TCS restructuring spend and headcount in FY26 (13 Apr 2026)",
+    "u": "https://www.angelone.in/news/stocks/tcs-reports-1-268-crore-rs-restructuring-spend-as-headcount-declines-in-fy26"
+   },
+   {
+    "t": "Screener.in: TCS mali tablolar ve ortaklık yapısı (12 Kas 2026)",
+    "te": "Screener.in: TCS financials and shareholding (12 Nov 2026)",
+    "u": "https://www.screener.in/company/TCS/consolidated/"
+   }
+  ],
+  "en": {
+   "one": "India's largest IT services company. It passes the quality walls; growth is slow and it waits at the gate on price.",
+   "business": "TCS sells software development, systems maintenance, consulting and business process services to large companies around the world. It earns its money through multi-year contracts, from the work of its engineers in India. In the fiscal year that ended in March 2026 revenue was 2.67 trillion rupees and net profit 494.5 billion rupees. It had 598,056 employees at the end of September 2026.",
+   "moat_text": "The moat is narrow. The advantage comes from scale and from being embedded in clients' systems over many years: moving the work to another firm is costly and risky for the client. The figures show it: real return on equity stayed between 35.7% and 50.2% in the last five fiscal years and was 37.9% in the last 12 months; the operating margin is 24.0%. The weak side: work is won by bidding and what is sold is engineer hours. Growth at constant exchange rates has slowed to 2.8% a year. It is not clear how far artificial intelligence will push down the price of those hours. That is why we did not class the moat as wide.",
+   "mgmt": "The founding shareholder, the Tata group, holds 71.77% of the capital (September 2026). Most of the profit is paid out to shareholders: 395.7 billion rupees in total in fiscal 2026, a payout ratio of 81%. The company has no net debt (net debt/EBITDA −0.54). In fiscal 2026 management cut the workforce by 23,460 people and set aside 13.9 billion rupees for it. In October 2026 it announced the decision to buy MHP, Porsche's consulting company; the price is not in the sources we read.",
+   "latest": "8 October 2026: In the July-September 2026 quarter revenue was 731.9 billion rupees (+11.2% in rupees; +2.8% at constant exchange rates) and net profit 138.8 billion rupees. Net profit excluding one-off items was 129.0 billion rupees in the same quarter a year earlier. The operating margin was 24.0%. The total contract value of new work won was 9.6 billion dollars. Annualised artificial intelligence revenue passed 3.1 billion dollars (more than 10% of revenue). An interim dividend of 12 rupees per share was declared.",
+   "risks": [
+    "Price: the P/E is 17.0 and the P/B 7.4. On the conservative calculation the share is above fair value; there is no margin of safety.",
+    "Artificial intelligence can reduce both the price and the volume of the engineer hours the company sells. The company also earns revenue in this field, but the net effect is not yet clear.",
+    "Growth is slow: 2.8% a year at constant exchange rates. Most of the growth in rupees comes from the exchange rate; if the rupee strengthens, revenue and the margin fall.",
+    "Revenue in North America grew only 1.5% at constant exchange rates. Budget cuts and work visa restrictions there affect the business directly.",
+    "The MHP acquisition is outside the company's usual scale; its price and return are not yet known."
+   ],
+   "watch": [
+    "Revenue growth at constant exchange rates",
+    "Operating margin (around 24%)",
+    "Total value of new contracts",
+    "Price: the margin-of-safety threshold"
+   ]
+  }
+ }
+}

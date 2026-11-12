@@ -1,0 +1,972 @@
+{
+ "1580": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 2,
+   "E": 2
+  },
+  "moat": "dar",
+  "per": "2026-Q3",
+  "one": "Fırın ve pastane makineleri üreten Tayvanlı şirket. Kalite surlarını geçti; kârı bu yıl geriledi, fiyat yüzünden kapıda bekliyor.",
+  "business": "Sinmag (新麥) fırın, hamur karıştırıcı, mayalandırma dolabı gibi pastane ve fırın makineleri üretir; ana fabrikası Çin'in Wuxi kentindedir. Ürünlerini zincir pastanelere, tek dükkânlara ve süpermarketlere satar. 2025'te hasılat 4,88 milyar Tayvan doları, hisse başına kâr 12,54 Tayvan doları oldu. 2025'in ilk dokuz ayında hasılatın %38'i Çin'den, %31'i Amerika kıtasından, %22'si Asya'nın geri kalanından geldi.",
+  "moat_text": "Hendek dar. Üstünlük ölçekten ve servis ağından geliyor: Tayvan basını şirketi Asya'nın en büyük fırın makinesi üreticisi diye anıyor, Çin'de 40 satış ve servis noktası var, müşteri sayısı 6.800'ü geçiyor. Kanıt marjda: 2026'nın ilk dokuz ayında brüt marj %42,7, reel özsermaye kârlılığı beş yılda %10,8 ile %20,6 arasında. Zayıf yanı da açık: şirket Çin'de pazar payını korumak için fiyat indirdi, ABD gümrük vergisinin bir bölümünü kendi üstlendi ve brüt marj 2025'te çeyrekten çeyreğe geriledi. Bu, fiyatlama gücünün sınırlı olduğunu gösteriyor; hendek geniş sayılamaz.",
+  "mgmt": "Yönetim kurulu başkanı ve genel müdür Hsieh Shun-ho (謝順和). Kâr hissedara dönüyor: 2025 kârından hisse başına 8,5 Tayvan doları nakit temettü ödendi (kârın %67,7'si), bir yıl önce 9,16 Tayvan doları. Şirket kendi hisselerini de geri aldı. Kısa vadeli banka borcu yok; net nakit var (net borç/FAVÖK −1,31). Kalan para ana işe gidiyor: Wuxi'deki yeni fabrikanın ilk bölümü Şubat 2026'da açıldı, ikincisi 2027'nin ikinci çeyreğinde bekleniyor. Çin'deki bağlı şirket Sinmag Machinery, Şanghay Borsası'na kote olmak için başvurdu; bu gerçekleşirse o şirketin kârındaki azınlık payı büyür.",
+  "latest": "6 Kasım 2026: Yönetim kurulu 2026'nın ilk dokuz ayının sonuçlarını onayladı. Hasılat 3,53 milyar Tayvan doları (geçen yılın aynı dönemi 3,65 milyar), faaliyet kârı 610 milyon, ana ortaklığa düşen net kâr 381 milyon Tayvan doları. Hisse başına kâr 7,73 Tayvan doları; geçen yılın aynı döneminde 9,37 idi. Eylül sonunda ana ortaklığa ait özsermaye 3,29 milyar Tayvan doları. Eylül ayı hasılatı 448 milyon Tayvan doları ile geçen yılın %4,1 altında kaldı.",
+  "risks": [
+   "Kâr geriliyor: 2026'nın ilk dokuz ayında hisse başına kâr 9,37'den 7,73 Tayvan dolarına indi. Temkinli hesapta kullanılan özsermaye kârlılığı düşerse fiyat ölçütünden uzaklaşır.",
+   "Çin'de fiyat rekabeti sert ve dükkân sayısı azalıyor: şirketin aktardığına göre 2025'in ilk dokuz ayında yaklaşık 29 bin pastane açıldı, 99 bin pastane kapandı.",
+   "ABD'ye ihracat hasılatın yaklaşık dörtte biri (2025); gümrük vergisi ve navlun maliyeti marjı doğrudan etkiliyor.",
+   "Sipariş görünürlüğü kısa: yönetim yaklaşık iki ay diyor.",
+   "Üretimin büyük bölümü Çin'de, hisse Tayvan'da işlem görüyor. Enflasyon düzeltmesi Tayvan enflasyonuyla yapıldı; yuan ile Tayvan doları arasındaki kur da kârı oynatır."
+  ],
+  "watch": [
+   "Brüt marj (2026'nın ilk dokuz ayında %42,7)",
+   "Aylık hasılatın yıllık değişimi",
+   "Çin'deki bağlı şirketin Şanghay'a kote olma süreci",
+   "Hisse başına temettü"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tpex/1580/financials/ratios/"
+   },
+   {
+    "t": "Yahoo Finance Tayvan (MoneyDJ): Sinmag yönetim kurulu 2026 üçüncü çeyrek konsolide tablolarını onayladı, borsa bildirimi (6 Kasım 2026)",
+    "te": "Yahoo Finance Taiwan (MoneyDJ): Sinmag board approves Q3 2026 consolidated statements, exchange filing (6 November 2026)",
+    "u": "https://tw.stock.yahoo.com/news/%E5%85%AC%E5%91%8A-%E6%96%B0%E9%BA%A5%E8%91%A3%E4%BA%8B%E6%9C%83%E9%80%9A%E9%81%8E%E6%B0%91%E5%9C%8B-%E4%BA%94%E5%B9%B4%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%90%88%E4%BD%B5%E8%B2%A1%E5%8B%99%E5%A0%B1%E8%A1%A8-065916305.html"
+   },
+   {
+    "t": "Yahoo Finance Tayvan (MoneyDJ): Sinmag ilk dokuz ayda 381 milyon Tayvan doları kâr, hisse başına 7,73 (Kasım 2026)",
+    "te": "Yahoo Finance Taiwan (MoneyDJ): Sinmag nine-month profit NT$381 million, NT$7.73 per share (November 2026)",
+    "u": "https://tw.stock.yahoo.com/news/%E6%96%B0%E9%BA%A5%E5%89%8D%E4%B8%89%E5%AD%A3%E5%90%88%E4%BD%B5%E7%8D%B2%E5%88%A93-81%E5%84%84%E5%85%83-%E6%AF%8F%E8%82%A1%E7%A8%85%E5%BE%8C7-73%E5%85%83-062500344.html"
+   },
+   {
+    "t": "Fugle: Sinmag yatırımcı toplantısı notları (29 Mayıs 2026)",
+    "te": "Fugle: Sinmag investor conference notes (29 May 2026)",
+    "u": "https://blog.fugle.tw/post/earnings-call-1580-2026-05-29"
+   },
+   {
+    "t": "Fugle: Sinmag yatırımcı toplantısı notları (18 Kasım 2025)",
+    "te": "Fugle: Sinmag investor conference notes (18 November 2025)",
+    "u": "https://blog.fugle.tw/post/earnings-call-1580-2025-11-18"
+   },
+   {
+    "t": "HiStock: Sinmag aylık hasılat (Eylül 2026'ya kadar)",
+    "te": "HiStock: Sinmag monthly revenue (to September 2026)",
+    "u": "https://histock.tw/stock/1580/每月營收"
+   },
+   {
+    "t": "Economic Daily News (udn): Sinmag'ın akıllı fırınları 50 ülkede satılıyor (29 Haziran 2026)",
+    "te": "Economic Daily News (udn): Sinmag's smart ovens sell in 50 countries (29 June 2026)",
+    "u": "https://money.udn.com/money/story/124921/9601469"
+   },
+   {
+    "t": "Winvest: Sinmag Eylül 2026 hasılatı (9 Ekim 2026)",
+    "te": "Winvest: Sinmag September 2026 revenue (9 October 2026)",
+    "u": "https://winvest.tw/en/News/Detail/95964"
+   },
+   {
+    "t": "Cnyes: Sinmag şirket bilgileri",
+    "te": "Cnyes: Sinmag company profile",
+    "u": "https://www.cnyes.com/twstock/profile/1580.htm"
+   }
+  ],
+  "en": {
+   "one": "A Taiwanese maker of bakery ovens and machines. It passed the quality walls; profit fell this year, and it waits at the gate on price.",
+   "business": "Sinmag (新麥) makes bakery machines such as ovens, dough mixers and proofing cabinets; its main plant is in Wuxi, China. It sells to bakery chains, single shops and supermarkets. In 2025 revenue was 4.88 billion Taiwan dollars and earnings per share 12.54 Taiwan dollars. In the first nine months of 2025, 38% of revenue came from China, 31% from the Americas and 22% from the rest of Asia.",
+   "moat_text": "The moat is narrow. The advantage comes from scale and the service network: the Taiwanese press calls the company Asia's largest bakery equipment maker, it has 40 sales and service points in China, and it serves more than 6,800 customers. The evidence is in the margin: gross margin was 42.7% in the first nine months of 2026, and real return on equity ranged from 10.8% to 20.6% over five years. The weak side is also clear: the company cut prices in China to defend its share, absorbed part of the US tariff itself, and gross margin fell quarter after quarter in 2025. This shows pricing power is limited; the moat cannot be called wide.",
+   "mgmt": "The chairman and general manager is Hsieh Shun-ho (謝順和). Profit returns to shareholders: a cash dividend of 8.5 Taiwan dollars per share was paid from 2025 profit (67.7% of profit), after 9.16 Taiwan dollars a year earlier. The company also bought back its own shares. It has no short-term bank debt and holds net cash (net debt/EBITDA −1.31). The rest goes into the core business: the first part of the new Wuxi plant opened in February 2026 and the second is expected in the second quarter of 2027. The Chinese subsidiary, Sinmag Machinery, has applied to list on the Shanghai Stock Exchange; if that happens, the minority share in that company's profit grows.",
+   "latest": "6 November 2026: The board approved the results for the first nine months of 2026. Revenue was 3.53 billion Taiwan dollars (3.65 billion in the same period last year), operating profit 610 million, and net profit attributable to the parent 381 million Taiwan dollars. Earnings per share were 7.73 Taiwan dollars, against 9.37 in the same period last year. Equity attributable to the parent was 3.29 billion Taiwan dollars at the end of September. September revenue was 448 million Taiwan dollars, 4.1% below last year.",
+   "risks": [
+    "Profit is falling: earnings per share for the first nine months of 2026 dropped from 9.37 to 7.73 Taiwan dollars. If the return on equity used in the conservative calculation falls, the share moves further from the price criterion.",
+    "Price competition in China is fierce and the number of shops is shrinking: according to the company, about 29 thousand bakeries opened and 99 thousand closed in the first nine months of 2025.",
+    "Exports to the US were about a quarter of revenue (2025); tariffs and freight costs hit the margin directly.",
+    "Order visibility is short: management says about two months.",
+    "Most production is in China while the share trades in Taiwan. The inflation adjustment uses Taiwan's inflation; the exchange rate between the yuan and the Taiwan dollar also moves profit."
+   ],
+   "watch": [
+    "Gross margin (42.7% in the first nine months of 2026)",
+    "Year-on-year change in monthly revenue",
+    "The Chinese subsidiary's Shanghai listing process",
+    "Dividend per share"
+   ]
+  }
+ },
+ "1615": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-Q3",
+  "one": "Tayvan'da elektrik teli ve kablosu üreten şirket. Kamu elektrik şirketinin şebeke yatırımı kârı büyütüyor, ama iş ihaleyle ve bakır fiyatıyla yürüyor; hendek ölçütünü geçemedi.",
+  "business": "Dah San (大山電線電纜), 1974'te kurulmuş bir tel ve kablo üreticisidir; bakır levha da satar. Son yıllarda büyümenin ana kaynağı kamu elektrik şirketi Taipower'ın şebeke siparişleridir. 2026'nın ilk dokuz ayında satış 4,61 milyar Tayvan doları, faaliyet kârı 775 milyon Tayvan doları oldu. Eldeki siparişler son yıllarda 5 ile 6 milyar Tayvan doları arasında.",
+  "moat_text": "Hendek zayıf. Şirket bu ölçütü geçemedi. Kablo standart bir üründür ve büyük siparişler ihaleyle dağıtılır. Haziran 2026'da Taipower'ın 19,3 milyar Tayvan dolarlık 161 kV kablo siparişi sekiz yerli üreticiye bölündü; Dah San yaklaşık 2,07 milyar Tayvan doları aldı. Daha yüksek gerilimli 345 kV kabloyu ülkede yalnız dört üretici yapabiliyor ve Dah San bunların arasında değil. Güçlü yanı var: yerli üretici sayısı sınırlı ve reel özsermaye kârlılığı beş yılda %14,1 ile %22,0 arasında kaldı, son 12 ayda %20,8. Ama bu dönem Taipower'ın şebeke güçlendirme programına ve yüksek bakır fiyatına denk geliyor; şirket bakır pahalıyken kârın daha iyi olduğunu kendisi söylüyor. Program yavaşlar ya da bakır düşerse kârlılığı koruyacak bir üstünlük göremedik.",
+  "mgmt": "Kâr ana işe ve ortaklara gidiyor. 2025 kârından hisse başına 2,5 Tayvan doları nakit ve 0,1 Tayvan doları bedelsiz hisse dağıtıldı (hisse başına kâr 4,81). Şirket fabrika donanımını yeniliyor, Taoyuan'da satış ofisi açtı ve Taichung'da ofis için dükkân aldı. Yönetim, bakır fiyatındaki oynaklığa karşı temkinli davrandığını söylüyor. Ortaklık yapısına ilişkin güncel bir kaynak bulamadık.",
+  "latest": "6 Kasım 2026: Dokuz aylık sonuçlar açıklandı. Ocak-Eylül 2026'da satış 4,61 milyar Tayvan doları, brüt kâr 964 milyon, faaliyet kârı 775 milyon, vergi öncesi kâr 934 milyon, net kâr 751 milyon Tayvan doları oldu (yıllık %14,21 artış); hisse başına kâr 3,78 Tayvan doları. Vergi öncesi kârın yaklaşık 158 milyon Tayvan doları faaliyet dışından geliyor. Üçüncü çeyrekte net kâr %9,8 artışla 254 milyon Tayvan doları. Ekim satışı 711 milyon Tayvan doları (yıllık %26,28 artış); on aylık satış 5,32 milyar Tayvan doları (%13,19 artış).",
+  "risks": [],
+  "watch": [],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tpe/1615/financials/ratios/"
+   },
+   {
+    "t": "MoneyDJ: Dah San dokuz aylık sonuç bildirimi (6 Kasım 2026)",
+    "te": "MoneyDJ: Dah San nine-month results filing (6 November 2026)",
+    "u": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=1cbda984-8aee-4a9d-9592-2f3d7ecc4fa5"
+   },
+   {
+    "t": "Economic Daily News: Dah San'ın satışı ve dokuz aylık kârı, Taipower siparişleri ve bakır (6 Kasım 2026)",
+    "te": "Economic Daily News: Dah San sales and nine-month profit, Taipower orders and copper (6 November 2026)",
+    "u": "https://money.udn.com/money/story/5710/9862443"
+   },
+   {
+    "t": "Economic Daily News: Taipower'ın 19,3 milyar Tayvan dolarlık kablo siparişi sekiz üreticiye (23 Haziran 2026)",
+    "te": "Economic Daily News: Taipower's 19.3 billion Taiwan dollar cable order goes to eight makers (23 June 2026)",
+    "u": "https://money.udn.com/money/amp/story/5607/9582663"
+   },
+   {
+    "t": "Winvest: Dah San Eylül 2026 satışı (9 Ekim 2026)",
+    "te": "Winvest: Dah San September 2026 revenue (9 October 2026)",
+    "u": "https://winvest.tw/en/News/Detail/95495"
+   },
+   {
+    "t": "nStock: Dah San şirket özeti (12 Kasım 2026)",
+    "te": "nStock: Dah San company summary (12 November 2026)",
+    "u": "https://www.nstock.tw/%E5%A4%A7%E5%B1%B1%E5%81%9A%E4%BB%80%E9%BA%BC.html"
+   },
+   {
+    "t": "Yahoo Finance Tayvan (Commercial Times): kablo üreticilerinin 2025 dokuz aylık kârları (11 Kasım 2025)",
+    "te": "Yahoo Finance Taiwan (Commercial Times): cable makers' nine-month 2025 profits (11 November 2025)",
+    "u": "https://tw.stock.yahoo.com/news/%E7%B7%9A%E7%BA%9C%E5%BB%A0-%E5%89%8D%E4%B8%89%E5%AD%A3%E7%8D%B2%E5%88%A9%E4%BD%B3-201000610.html"
+   }
+  ],
+  "en": {
+   "one": "Taiwanese wire and cable maker. State grid spending is lifting profit, but work depends on tenders and the copper price; moat criterion not met.",
+   "business": "Dah San (大山電線電纜) is a wire and cable maker founded in 1974; it also sells copper sheet. In recent years the main source of growth has been grid orders from the state power company Taipower. In the first nine months of 2026 sales were 4.61 billion Taiwan dollars and operating profit 775 million Taiwan dollars. Orders in hand have been between 5 and 6 billion Taiwan dollars in recent years.",
+   "moat_text": "The moat is weak. The company did not meet this criterion. Cable is a standard product and large orders are shared out by tender. In June 2026 Taipower's 19.3 billion Taiwan dollar order for 161 kV cable was split among eight domestic makers; Dah San received about 2.07 billion Taiwan dollars. Only four makers in the country can produce the higher-voltage 345 kV cable, and Dah San is not one of them. There is a strong side: the number of domestic makers is limited, and real return on equity stayed between 14.1% and 22.0% over five years, at 20.8% over the last 12 months. But this period coincides with Taipower's grid-strengthening programme and a high copper price; the company itself says profit is better when copper is expensive. If the programme slows or copper falls, we could not see an advantage that would protect profitability.",
+   "mgmt": "Profit goes to the core business and to shareholders. From 2025 profit the company paid 2.5 Taiwan dollars per share in cash and 0.1 Taiwan dollars in bonus shares (earnings per share were 4.81). It is renewing factory equipment, has opened a sales office in Taoyuan and bought a shop unit in Taichung for an office. Management says it stays cautious about swings in the copper price. We could not find a current source on the ownership structure.",
+   "latest": "6 November 2026: Nine-month results were announced. In January-September 2026 sales were 4.61 billion Taiwan dollars, gross profit 964 million, operating profit 775 million, pre-tax profit 934 million and net profit 751 million Taiwan dollars (up 14.21% year on year); earnings per share were 3.78 Taiwan dollars. About 158 million Taiwan dollars of pre-tax profit comes from outside operations. Third-quarter net profit rose 9.8% to 254 million Taiwan dollars. October sales were 711 million Taiwan dollars (up 26.28% year on year); ten-month sales were 5.32 billion Taiwan dollars (up 13.19%).",
+   "risks": [],
+   "watch": []
+  }
+ },
+ "2308": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "2026-Q3",
+  "one": "Veri merkezlerine güç kaynağı ve soğutma sistemi satan şirket. Kalite surlarını geçti; fiyat temkinli kazanca göre çok pahalı, kapıda bekliyor.",
+  "business": "Delta Electronics güç kaynakları, veri merkezi altyapısı (güç ve sıvı soğutma), fabrika otomasyonu ve araç elektroniği üretir. 2026'nın üçüncü çeyreğinde hasılat 197,06 milyar Tayvan doları oldu: %54'ü güç elektroniğinden, %33'ü altyapıdan, %8'i otomasyondan, %5'i araç parçalarından geldi. İlk dokuz ayda hasılat 539,7 milyar Tayvan doları; bunun yaklaşık yarısı veri merkezi ve yapay zekâ ile ilgili ürünlerden.",
+  "moat_text": "Hendek dar. Üstünlük güç elektroniğindeki mühendislik birikiminden ve ölçekten geliyor; veri merkezlerine hem güç hem sıvı soğutma ürünü satabiliyor. Kanıt son iki yılda: brüt marj dokuz ayda %35,5, reel özsermaye kârlılığı son 12 ayda %25,6. Ama bu yeni bir düzey: önceki dört yılda reel özsermaye kârlılığı %12,7 ile %14,9 arasındaydı. Yükseliş veri merkezi yatırım dalgasından geliyor ve kalıcılığı belli değil. Otomasyon kolu çok az kâr ediyor, araç parçaları kolu zararda. Bu yüzden hendek geniş sayılamaz.",
+  "mgmt": "Yönetim kurulu başkanı ve genel müdür Ping Cheng. 2025'te net kâr yaklaşık 60,1 milyar Tayvan doları, hisse başına kâr 23,14 Tayvan doları oldu; yönetim kurulu hisse başına 11,6 Tayvan doları nakit temettü önerdi. Kalan kâr ana işe gidiyor: Ekim 2026'da Malezya'daki bağlı şirkete 120 milyon ABD doları sermaye konması onaylandı; şirket orada beş yılda Tayland'dakine yakın büyüklükte bir üretim üssü kurmayı planlıyor. Net borç yok (net borç/FAVÖK −0,65).",
+  "latest": "29 Ekim 2026: 2026'nın üçüncü çeyreğinde hasılat 197,06 milyar Tayvan doları ile geçen yıla göre %31 arttı. Net kâr 23,5 milyar Tayvan doları (yıllık +%26,3, önceki çeyreğe göre −%6,5), hisse başına kâr 9,04 Tayvan doları (bir yıl önce 7,16). Brüt marj %34,08'e indi (önceki çeyrek %35,64); şirket bunu parça sıkıntısına ve müşterilerin veri merkezi inşaatlarındaki gecikmeye bağladı, yaklaşık 3,9 milyar Tayvan doları stok değer düşüklüğü ayırdı. İlk dokuz ayda hisse başına kâr 26,64 Tayvan doları (bir yıl önce 16,47). Yönetim dördüncü çeyrek hasılatının üçüncü çeyrekten yüksek olacağını söyledi.",
+  "risks": [
+   "Fiyat: F/K 37,3, PD/DD 10,1. Temkinli hesapla hisse adil değerin çok üzerinde; güvenlik marjı yok.",
+   "Kazanç veri merkezi yatırımlarına bağlı: hasılatın yaklaşık yarısı yapay zekâ ve veri merkezi ürünlerinden. Büyük bulut şirketleri yatırımı kısarsa kârlılık eski düzeyine dönebilir.",
+   "Marj baskısı başladı: brüt marj üçüncü çeyrekte 1,5 puan düştü, malzeme maliyeti yıl başından beri yaklaşık %2 arttı, stok değer düşüklüğü ayrıldı.",
+   "Patent davası: Vicor sektördeki birçok şirkete dava açtı, ABD Uluslararası Ticaret Komisyonu soruşturma başlattı; ön kararın en erken gelecek yıl çıkması bekleniyor.",
+   "Otomasyon ve araç parçaları kolları zayıf: araç parçaları ilk dokuz ayda 1,27 milyar Tayvan doları zarar etti."
+  ],
+  "watch": [
+   "Brüt marj (üçüncü çeyrekte %34,08)",
+   "Veri merkezi ve yapay zekâ ürünlerinin hasılattaki payı",
+   "Sıvı soğutma hasılatı (üçüncü çeyrekte yaklaşık 25 milyar Tayvan doları)",
+   "Stok değer düşüklüğü karşılıkları",
+   "Fiyat: güvenlik marjı eşiği"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tpe/2308/financials/ratios/"
+   },
+   {
+    "t": "Taipei Times: Delta sipariş ivmesinin sürdüğünü söylüyor, üçüncü çeyrek sonuçları (31 Ekim 2026)",
+    "te": "Taipei Times: Delta says order momentum remains high, third-quarter results (31 October 2026)",
+    "u": "https://www.taipeitimes.com/News/biz/archives/2026/10/31/2003866890"
+   },
+   {
+    "t": "StockFeel: Delta Electronics 2026 üçüncü çeyrek yatırımcı toplantısı özeti (29 Ekim 2026)",
+    "te": "StockFeel: Delta Electronics Q3 2026 investor conference summary (29 October 2026)",
+    "u": "https://www.stockfeel.com.tw/%E5%8F%B0%E9%81%94%E9%9B%BB-2308-2026q3-%E6%B3%95%E8%AA%AA%E6%9C%83/"
+   },
+   {
+    "t": "TechNews: Delta yönetim kurulu 2025 sonuçlarını ve kâr dağıtımını onayladı, hisse başına kâr 23,14 (25 Şubat 2026)",
+    "te": "TechNews: Delta board approves 2025 results and profit distribution, EPS 23.14 (25 February 2026)",
+    "u": "https://finance.technews.tw/2026/02/25/delta-2025/"
+   },
+   {
+    "t": "UAnalyze: Delta 2025'te 60,1 milyar Tayvan doları kâr etti, 11,6 Tayvan doları temettü önerdi (Şubat 2026)",
+    "te": "UAnalyze: Delta earned NT$60.1 billion in 2025, proposes NT$11.6 dividend (February 2026)",
+    "u": "https://uanalyze.com.tw/articles/6260448112"
+   }
+  ],
+  "en": {
+   "one": "Sells power supplies and cooling systems to data centres. Passed the quality walls; far too expensive against conservative earnings, so it waits at the gate.",
+   "business": "Delta Electronics makes power supplies, data centre infrastructure (power and liquid cooling), factory automation and vehicle electronics. In the third quarter of 2026 revenue was 197.06 billion Taiwan dollars: 54% from power electronics, 33% from infrastructure, 8% from automation and 5% from vehicle parts. In the first nine months revenue was 539.7 billion Taiwan dollars; about half of it came from data centre and artificial intelligence products.",
+   "moat_text": "The moat is narrow. The advantage comes from engineering know-how in power electronics and from scale; it can sell data centres both power and liquid cooling products. The evidence is in the last two years: gross margin was 35.5% over nine months and real return on equity 25.6% over the last 12 months. But this is a new level: in the four years before, real return on equity was between 12.7% and 14.9%. The rise comes from the wave of data centre investment and its durability is not clear. The automation arm earns very little and the vehicle parts arm makes a loss. So the moat cannot be called wide.",
+   "mgmt": "The chairman and chief executive is Ping Cheng. In 2025 net profit was about 60.1 billion Taiwan dollars and earnings per share 23.14 Taiwan dollars; the board proposed a cash dividend of 11.6 Taiwan dollars per share. The rest of the profit goes into the core business: in October 2026 a capital injection of 120 million US dollars into the Malaysian subsidiary was approved; the company plans to build a production base there, close in size to its Thai one, over five years. There is no net debt (net debt/EBITDA −0.65).",
+   "latest": "29 October 2026: In the third quarter of 2026 revenue rose 31% from a year earlier to 197.06 billion Taiwan dollars. Net profit was 23.5 billion Taiwan dollars (+26.3% year on year, −6.5% from the previous quarter) and earnings per share 9.04 Taiwan dollars (7.16 a year earlier). Gross margin fell to 34.08% (35.64% in the previous quarter); the company put this down to component shortages and delays in customers' data centre construction, and set aside an inventory write-down of about 3.9 billion Taiwan dollars. Earnings per share for the first nine months were 26.64 Taiwan dollars (16.47 a year earlier). Management said fourth-quarter revenue will be higher than the third quarter's.",
+   "risks": [
+    "Price: the P/E is 37.3 and the P/B 10.1. On the conservative calculation the share is far above fair value; there is no margin of safety.",
+    "Earnings depend on data centre investment: about half of revenue comes from artificial intelligence and data centre products. If the large cloud companies cut spending, profitability may return to its old level.",
+    "Margin pressure has begun: gross margin fell 1.5 points in the third quarter, material costs are up about 2% since the start of the year, and an inventory write-down was booked.",
+    "Patent litigation: Vicor has sued many companies in the industry and the US International Trade Commission has opened an investigation; a preliminary decision is expected next year at the earliest.",
+    "The automation and vehicle parts arms are weak: vehicle parts lost 1.27 billion Taiwan dollars in the first nine months."
+   ],
+   "watch": [
+    "Gross margin (34.08% in the third quarter)",
+    "Share of data centre and artificial intelligence products in revenue",
+    "Liquid cooling revenue (about 25 billion Taiwan dollars in the third quarter)",
+    "Inventory write-down provisions",
+    "Price: the margin-of-safety threshold"
+   ]
+  }
+ },
+ "2330": {
+  "scores": {
+   "A": 2,
+   "B": 3,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "geniş",
+  "per": "2026-Q3",
+  "one": "Dünyanın en büyük sözleşmeli çip üreticisi. Hendek geniş, kalite surlarını geçti; fiyat temkinli kazanca göre çok pahalı, kapıda bekliyor.",
+  "business": "TSMC, başka şirketlerin tasarladığı çipleri üretir; kendi markasıyla çip satmaz. Parayı, en ileri üretim teknolojisini büyük hacimde sunarak kazanır. 2026'nın üçüncü çeyreğinde hasılat 1.494,24 milyar Tayvan doları (46,72 milyar ABD doları), net kâr 763,06 milyar Tayvan doları oldu. Hasılatın %68'i yüksek başarımlı bilgi işlem çiplerinden (yapay zekâ ve veri merkezi), %21'i akıllı telefon çiplerinden geldi.",
+  "moat_text": "Hendek geniş. Üstünlük teknoloji liderliğinden ve ölçekten geliyor: üçüncü çeyrekte plaka hasılatının %79'u 7 nanometre ve daha ileri teknolojilerden, %8'i yeni devreye giren 2 nanometreden geldi. Fiyatlama gücü marjda görünüyor: brüt marj %66,4, faaliyet marjı %58,7; reel özsermaye kârlılığı beş yılda %23,4 ile %38,6 arasında. Bir rakibin yetişmesi yıllar ve çok büyük sermaye ister: TSMC'nin yalnız 2026 yatırım bütçesi 60-64 milyar ABD doları. Zayıf yanı, bu üstünlüğü korumak için her yıl çok büyük yatırım yapmak zorunda olması.",
+  "mgmt": "En büyük ortak Tayvan devletinin Ulusal Kalkınma Fonu (1,65 milyar hisse). Şirket 2019'dan beri her çeyrek nakit temettü ödüyor: 2026'nın ilk iki çeyreği için hisse başına 7,0'şer Tayvan doları (ikinci çeyrekte hisse başına kâr 27,25). Kârın büyük bölümü ana işe, yeni fabrikalara gidiyor: yönetim kurulu Mayıs 2026'da yaklaşık 31,3 milyar, Ağustos 2026'da yaklaşık 29,44 milyar ABD doları yatırım bütçesi onayladı. Net borç yok (net borç/FAVÖK −0,89).",
+  "latest": "15 Ekim 2026: 2026'nın üçüncü çeyreğinde hasılat 1.494,24 milyar Tayvan doları ile geçen yıla göre %50,9 arttı. Net kâr 763,06 milyar Tayvan doları, hisse başına kâr 29,43 Tayvan doları; ikisi de %68,7 arttı. Brüt marj %66,4, faaliyet marjı %58,7. Şirket dördüncü çeyrek için 52,3-54,3 milyar ABD doları hasılat, %65-67 brüt marj bekliyor. Yılın ilk dokuz ayında yatırım harcaması 40,64 milyar ABD doları oldu; yıllık bütçe 60-64 milyar ABD doları.",
+  "risks": [
+   "Fiyat: F/K 23,8, PD/DD 9,7 (30 Eylül 2026 özsermayesiyle yaklaşık 8,7). Temkinli hesapla hisse adil değerin çok üzerinde; güvenlik marjı yok.",
+   "Kazanç yapay zekâ yatırımlarına bağlı: hasılatın %68'i yüksek başarımlı bilgi işlemden geliyor (bir yıl önce %57). Bu yatırımlar yavaşlarsa bugünkü kârlılık korunamaz.",
+   "Yatırım yükü ağır: yıllık 60-64 milyar ABD doları harcama, talep düşerse boş kapasite ve yüksek amortisman demek.",
+   "Yurt dışı fabrikalar marjı aşağı çekiyor: şirket bu etkinin bugünkü yaklaşık 2 puandan önümüzdeki yıllarda 3-4 puana çıkmasını bekliyor.",
+   "İleri teknoloji üretiminin büyük bölümü Tayvan'da; jeopolitik gerilim, deprem ya da elektrik kısıtı tek bir coğrafyayı etkiler."
+  ],
+  "watch": [
+   "Brüt marj (şimdi %66,4)",
+   "Yüksek başarımlı bilgi işlemin hasılattaki payı",
+   "Yıllık yatırım bütçesi ve 2027 açıklaması",
+   "2 nanometrenin hasılattaki payı",
+   "Fiyat: güvenlik marjı eşiği"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tpe/2330/financials/ratios/"
+   },
+   {
+    "t": "TSMC: 2026 üçüncü çeyrek sonuç duyurusu, hisse başına kâr 29,43 Tayvan doları (15 Ekim 2026)",
+    "te": "TSMC: third quarter 2026 results release, EPS of NT$29.43 (15 October 2026)",
+    "u": "https://pr.tsmc.com/english/news/3346"
+   },
+   {
+    "t": "SEC: TSMC 6-K, 2026 üçüncü çeyrek sonuçları ve beklentiler (15 Ekim 2026)",
+    "te": "SEC: TSMC Form 6-K, third quarter 2026 results with guidance (15 October 2026)",
+    "u": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000726/a3q26e_withguidancexfinal.htm"
+   },
+   {
+    "t": "XenoSpectrum: TSMC 2026 üçüncü çeyrek, brüt marj ve yatırım harcaması (Ekim 2026)",
+    "te": "XenoSpectrum: TSMC Q3 2026, gross margin and capex (October 2026)",
+    "u": "https://xenospectrum.com/en/tsmc-q3-2026-gross-margin-capex/"
+   },
+   {
+    "t": "Focus Taiwan (CNA): TSMC 29,44 milyar dolarlık yatırım bütçesini ve temettüyü onayladı (11 Ağustos 2026)",
+    "te": "Focus Taiwan (CNA): TSMC approves US$29.44 billion capital budget and dividend (11 August 2026)",
+    "u": "https://focustaiwan.tw/business/202608110015"
+   },
+   {
+    "t": "TSMC: yönetim kurulu kararları (12 Mayıs 2026)",
+    "te": "TSMC: Board of Directors meeting resolutions (12 May 2026)",
+    "u": "https://pr.tsmc.com/english/news/3311"
+   }
+  ],
+  "en": {
+   "one": "The world's largest contract chipmaker. Wide moat, passed the quality walls; far too expensive against conservative earnings, so it waits at the gate.",
+   "business": "TSMC manufactures chips designed by other companies; it does not sell chips under its own brand. It earns its money by offering the most advanced production technology at large volume. In the third quarter of 2026 revenue was 1,494.24 billion Taiwan dollars (46.72 billion US dollars) and net profit 763.06 billion Taiwan dollars. 68% of revenue came from high-performance computing chips (artificial intelligence and data centres) and 21% from smartphone chips.",
+   "moat_text": "The moat is wide. The advantage comes from technology leadership and scale: in the third quarter 79% of wafer revenue came from 7-nanometre and more advanced technologies, and 8% from the newly ramping 2-nanometre. Pricing power shows in the margin: gross margin was 66.4% and operating margin 58.7%; real return on equity ranged from 23.4% to 38.6% over five years. Catching up would take a competitor years and a very large amount of capital: TSMC's investment budget for 2026 alone is 60-64 billion US dollars. The weak side is that it must invest very heavily every year to keep this lead.",
+   "mgmt": "The largest shareholder is the Taiwanese state's National Development Fund (1.65 billion shares). The company has paid a cash dividend every quarter since 2019: 7.0 Taiwan dollars per share for each of the first two quarters of 2026 (second-quarter earnings per share were 27.25). Most of the profit goes into the core business, into new fabs: the board approved a capital budget of about 31.3 billion US dollars in May 2026 and about 29.44 billion in August 2026. There is no net debt (net debt/EBITDA −0.89).",
+   "latest": "15 October 2026: In the third quarter of 2026 revenue rose 50.9% from a year earlier to 1,494.24 billion Taiwan dollars. Net profit was 763.06 billion Taiwan dollars and earnings per share 29.43 Taiwan dollars; both rose 68.7%. Gross margin was 66.4% and operating margin 58.7%. For the fourth quarter the company expects revenue of 52.3-54.3 billion US dollars and a gross margin of 65-67%. Capital spending in the first nine months was 40.64 billion US dollars; the full-year budget is 60-64 billion US dollars.",
+   "risks": [
+    "Price: the P/E is 23.8 and the P/B 9.7 (about 8.7 on equity at 30 September 2026). On the conservative calculation the share is far above fair value; there is no margin of safety.",
+    "Earnings depend on artificial intelligence investment: 68% of revenue comes from high-performance computing (57% a year earlier). If that investment slows, today's profitability cannot be kept.",
+    "The investment burden is heavy: spending 60-64 billion US dollars a year means idle capacity and high depreciation if demand falls.",
+    "Overseas fabs pull the margin down: the company expects this effect to grow from about 2 points now to 3-4 points over the next several years.",
+    "Most advanced production is in Taiwan; geopolitical tension, an earthquake or a power shortage would hit a single location."
+   ],
+   "watch": [
+    "Gross margin (66.4% now)",
+    "Share of high-performance computing in revenue",
+    "Annual investment budget and the 2027 figure",
+    "Share of 2-nanometre in revenue",
+    "Price: the margin-of-safety threshold"
+   ]
+  }
+ },
+ "2383": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "2026-Q3",
+  "one": "Yapay zekâ sunucularının devre kartı malzemesinde dünya birincisi. Kalite surlarını geçti; fiyat çok yüksek, kapıda bekliyor.",
+  "business": "Elite Material (台光電), baskılı devre kartlarının ana malzemesi olan bakır kaplı laminat üretir. Temmuz-Eylül 2026 çeyreğinde hasılat 60,9 milyar Tayvan doları, net kâr 14,5 milyar Tayvan doları oldu. Hasılatın %75-80'i veri merkezi altyapısından geliyor; bunun %55-65'i yapay zekâ sunucuları. Fabrikalar Tayvan, Çin ve Malezya'da.",
+  "moat_text": "Hendek dar. Üstünlük rakamla görünüyor: Prismark'ın Temmuz 2026 sıralamasında şirket sert laminat pazarında %16,2 payla birinci (2024'te üçüncüydü), halojensiz yüksek hızlı malzemede payı %38,6, akıllı telefon kartlarında kullanılan HDI malzemesinde yaklaşık %70. Brüt marj bir yılda %30,1'den %37,7'ye çıktı ve şirket son çeyrekte %5-20 zam yapıyor. Reel özsermaye kârlılığı beş yılda %19,2 ile %32,5 arasında kaldı, son 12 ayda %53,2. Zayıf yanı: her yeni sunucu neslinde malzeme yeniden onaydan geçiyor ve talep birkaç büyük şirketin yapay zekâ yatırımına bağlı. Bu yüzden geniş demiyoruz.",
+  "mgmt": "Kâr ana işe ve ortağa gidiyor. 2025 kârından hisse başına 25 Tayvan doları nakit temettü dağıtıldı (kârın yaklaşık %60'ı); şirket bu oranı altı yıldır koruyor. Yatırım hızla artıyor: 2025'te 9,9 milyar, 2026'da yaklaşık 28 milyar Tayvan doları. Aylık kapasite 5,85 milyon levhadan 2030 sonunda 15,25 milyon levhaya çıkarılacak. Borç düşük (net borç/FAVÖK 0,33), ama toplam yükümlülüklerin varlıklara oranı %62,1.",
+  "latest": "28 Ekim 2026: Temmuz-Eylül 2026 çeyreğinde hasılat 60,9 milyar Tayvan doları (yıllık +%142), brüt marj %37,7, net kâr 14,5 milyar Tayvan doları, hisse başına kâr 40,47 Tayvan doları (geçen yıl 11,19). İlk dokuz ayda hasılat 141,2 milyar, net kâr 29,7 milyar Tayvan doları, hisse başına kâr 82,92. Yönetim kurulu 2027-2030 için 9,4 milyon levhalık yeni kapasiteyi onayladı. Şirket son çeyrekte hasılatın %15-20 artmasını, brüt marjın %38-39,5 olmasını bekliyor.",
+  "risks": [
+   "Fiyat: F/K 44, PD/DD 20. Temkinli hesapla hisse adil değerin çok üzerinde; güvenlik marjı yok.",
+   "Kâr bir döngünün tepesinde olabilir: son çeyrekteki kâr bir yıl öncesinin yaklaşık 3,7 katı. Talep yapay zekâ sunucusu yatırımına bağlı; bu yatırım yavaşlarsa hem satış hem marj düşer.",
+   "Kapasite 2030'a kadar yaklaşık 2,6 katına çıkarılıyor. Şirket, yatırım yüzünden faaliyet nakit akışının iki yıl eksiye dönebileceğini söylüyor; serbest nakit akışı son beş dönemin çoğunda zaten zayıftı.",
+   "Ham madde: düşük kayıplı cam kumaşta Tayvan'da yalnız iki tedarikçi var, bakır fiyatı ton başına 14.000 doların üzerinde. Tayvan'daki yeni fabrika yaklaşık altı ay gecikti.",
+   "Beş üretim yerinden üçü Çin'de; ticaret kısıtları ve gümrük vergileri satışı ve maliyeti etkileyebilir."
+  ],
+  "watch": [
+   "Brüt marj (son çeyrek %37,7)",
+   "Yüksek hızlı malzemede pazar payı",
+   "Yatırım tutarı ve yeni fabrikaların takvimi",
+   "Fiyat: güvenlik marjı eşiği"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tpe/2383/financials/ratios/"
+   },
+   {
+    "t": "UAnalyze (鉅亨網): Elite Material 3. çeyrek sonuçları, ilk dokuz ay hisse başına kâr 82,92 (28 Eki 2026)",
+    "te": "UAnalyze (cnyes): Elite Material third-quarter results, nine-month EPS 82.92 (28 Oct 2026)",
+    "u": "https://uanalyze.com.tw/articles/1301857865"
+   },
+   {
+    "t": "StockFeel: Elite Material 3. çeyrek yatırımcı toplantısı notları (30 Eki 2026)",
+    "te": "StockFeel: Elite Material third-quarter investor conference notes (30 Oct 2026)",
+    "u": "https://www.stockfeel.com.tw/?p=278478"
+   },
+   {
+    "t": "UAnalyze (鉅亨網): Elite Material 2025 sonuçları ve temettü (11 Mar 2026)",
+    "te": "UAnalyze (cnyes): Elite Material 2025 results and dividend (11 Mar 2026)",
+    "u": "https://uanalyze.com.tw/articles/5965248827"
+   }
+  ],
+  "en": {
+   "one": "World number one in circuit board material for AI servers. It passed the quality walls; the price is very high, it waits at the gate.",
+   "business": "Elite Material (台光電) makes copper-clad laminate, the base material of printed circuit boards. In the July-September 2026 quarter revenue was 60.9 billion Taiwan dollars and net profit 14.5 billion Taiwan dollars. Data-centre infrastructure brings 75-80% of revenue; 55-65% of that is AI servers. Its plants are in Taiwan, China and Malaysia.",
+   "moat_text": "The moat is narrow. The advantage shows in the figures: in Prismark's July 2026 ranking the company is first in rigid laminate with a 16.2% share (it was third in 2024), its share is 38.6% in halogen-free high-speed material and about 70% in the HDI material used in smartphone boards. Gross margin rose from 30.1% to 37.7% in a year, and the company is raising prices by 5-20% in the last quarter. Real return on equity stayed between 19.2% and 32.5% over five years and is 53.2% in the last 12 months. The weak side: the material has to be approved again with every new server generation, and demand depends on the AI spending of a few large companies. That is why we do not call it wide.",
+   "mgmt": "Profit goes to the core business and to shareholders. A cash dividend of 25 Taiwan dollars per share was paid from 2025 profit (about 60% of profit); the company has kept this ratio for six years. Investment is rising fast: 9.9 billion Taiwan dollars in 2025 and about 28 billion in 2026. Monthly capacity will go from 5.85 million sheets to 15.25 million sheets by the end of 2030. Debt is low (net debt/EBITDA 0.33), but total liabilities are 62.1% of assets.",
+   "latest": "28 October 2026: In the July-September 2026 quarter revenue was 60.9 billion Taiwan dollars (+142% year on year), gross margin 37.7%, net profit 14.5 billion Taiwan dollars and earnings per share 40.47 Taiwan dollars (11.19 a year earlier). In the first nine months revenue was 141.2 billion and net profit 29.7 billion Taiwan dollars, with earnings per share of 82.92. The board approved 9.4 million sheets of new capacity for 2027-2030. For the last quarter the company expects revenue to grow 15-20% and gross margin of 38-39.5%.",
+   "risks": [
+    "Price: the P/E is 44 and the P/B is 20. On the conservative calculation the share is far above fair value; there is no margin of safety.",
+    "Profit may be at the top of a cycle: profit in the last quarter was about 3.7 times that of a year earlier. Demand depends on AI server spending; if that spending slows, both sales and margin fall.",
+    "Capacity is being raised to about 2.6 times its current level by 2030. The company says operating cash flow may turn negative for two years because of the investment; free cash flow was already weak in most of the last five periods.",
+    "Raw materials: there are only two suppliers of low-loss glass fabric in Taiwan, and copper is above 14,000 dollars per tonne. The new plant in Taiwan is about six months late.",
+    "Three of the five production sites are in China; trade restrictions and tariffs can affect sales and costs."
+   ],
+   "watch": [
+    "Gross margin (37.7% in the last quarter)",
+    "Market share in high-speed material",
+    "Investment spending and the timetable of the new plants",
+    "Price: the margin-of-safety threshold"
+   ]
+  }
+ },
+ "2454": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "2026-Q3",
+  "one": "Telefonlar ve öbür akıllı cihazlar için çip tasarlayan şirket. Kalite surlarını geçti; fiyat temkinli kazanca göre çok pahalı, kapıda bekliyor.",
+  "business": "MediaTek çip tasarlar, üretimi dışarıya yaptırır. Çipleri akıllı telefonlarda ve öbür akıllı cihazlarda kullanılır; şirket otomobil elektroniğine de açılıyor ve 2026'da veri merkezleri için müşteriye özel yapay zekâ çipi satmaya başladı. 2025'te hasılat 596 milyar Tayvan doları, hisse başına kâr 66,16 Tayvan doları oldu. 2026'nın üçüncü çeyreğinde hasılatın %58'i akıllı cihaz platformlarından, %37'si cep telefonu çiplerinden, %5'i güç yönetimi çiplerinden geldi.",
+  "moat_text": "Hendek dar. Üstünlük ölçekten ve tasarım birikiminden geliyor: şirket Tayvan'ın en büyük çip tasarımcısı, üçüncü çeyrekte hasılatının %25,1'ini (42,2 milyar Tayvan doları) araştırma ve geliştirmeye harcadı. Kanıt rakamlarda: brüt marj %46,3, reel özsermaye kârlılığı beş yılda %15,8 ile %24,9 arasında. Ama hendek geniş değil: cep telefonu çipi hasılatı üçüncü çeyrekte geçen yıla göre %17 geriledi, brüt marj dokuz ayda 1,7 puan düştü. Yeni büyüme kaynağı olan yapay zekâ çipi işi tek bir programa dayanıyor ve kalıcılığı henüz belli değil.",
+  "mgmt": "Şirket yılda iki kez nakit temettü ödüyor: 2025 için hisse başına 29,00 ve 24,50 Tayvan doları (hisse başına kâr 66,16). Kârın büyük bölümü dağıtılıyor (dağıtım oranı %86). Ağustos sonunda 3,9 milyar ABD dolarlık yurt dışı dönüştürülebilir tahvil çıkardı; 3,5 milyar dolarını Nvidia aldı, Alphabet de katıldı. Tahvil hisseye dönerse mevcut ortakların payı azalır. Net borç yok (net borç/FAVÖK −1,98). Üçüncü çeyrekte stoklar 153,5 milyar Tayvan dolarına çıktı (bir yıl önce 57,0 milyar) ve işletme nakit akışı eksiye döndü (−4,3 milyar).",
+  "latest": "31 Ekim 2026: Basına yansıyan üçüncü çeyrek sonuçlarına göre hasılat 168,06 milyar Tayvan doları (önceki çeyreğe göre +%10,4), brüt marj %46,3, net kâr 27,88 milyar Tayvan doları, hisse başına kâr 17,50 Tayvan doları. İlk dokuz ayda hasılat 469,39 milyar Tayvan doları (+%5,3), net kâr 76,37 milyar, hisse başına kâr 47,94 Tayvan doları. Şirket dördüncü çeyrekte 210,1-221,8 milyar Tayvan doları hasılat ve bunun içinde yaklaşık 2,5 milyar ABD doları yapay zekâ çipi satışı bekliyor; 2027 için bu işte yaklaşık 16 milyar ABD doları hedefliyor.",
+  "risks": [
+   "Fiyat: F/K 61,8, PD/DD 15,0. Temkinli hesapla hisse adil değerin çok üzerinde; güvenlik marjı yok. Fiyat, henüz gerçekleşmemiş 2027 yapay zekâ çipi satışlarını şimdiden içeriyor.",
+   "Yapay zekâ çipi işi tek programa bağlı: ilk çip Eylül 2026'da sevk edilmeye başladı, ikincisi 2028'in ilk çeyreğinde bekleniyor. Müşteri planını değiştirirse hedef tutmaz.",
+   "Cep telefonu çipi geliri düşüyor: üçüncü çeyrekte geçen yıla göre %17 geriledi.",
+   "Stoklar bir yılda yaklaşık 2,7 katına çıktı ve işletme nakit akışı üçüncü çeyrekte eksiye döndü; beklenen satış gelmezse stok değer kaybı yazılır.",
+   "Şirketin kendi fabrikası yok, üretimi dışarıya yaptırıyor; kapasite sıkışıklığı ve üretim fiyatlarındaki artış marjı etkiler."
+  ],
+  "watch": [
+   "Yapay zekâ çipi satışları (dördüncü çeyrek beklentisi yaklaşık 2,5 milyar ABD doları)",
+   "Brüt marj (şimdi %46,3)",
+   "Stok düzeyi ve işletme nakit akışı",
+   "Cep telefonu çipi hasılatı",
+   "Fiyat: güvenlik marjı eşiği"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tpe/2454/financials/ratios/"
+   },
+   {
+    "t": "Focus Taiwan (CNA): MediaTek yapay zekâ çipi satış beklentisi ve üçüncü çeyrek sonuçları (31 Ekim 2026)",
+    "te": "Focus Taiwan (CNA): MediaTek AI ASIC sales outlook and third-quarter results (31 October 2026)",
+    "u": "https://focustaiwan.tw/business/202610310007"
+   },
+   {
+    "t": "Jon Peddie Research: MediaTek 2026 üçüncü çeyrek finansal sonuçları (2 Kasım 2026)",
+    "te": "Jon Peddie Research: MediaTek's Q3'26 financial results (2 November 2026)",
+    "u": "https://www.jonpeddie.com/news/mediateks-q326-financial-results/"
+   },
+   {
+    "t": "MediaTek: 2026 olağan genel kurul tutanağı, 2025 sonuçları ve temettü (29 Mayıs 2026)",
+    "te": "MediaTek: 2026 annual shareholders' meeting minutes, 2025 results and dividends (29 May 2026)",
+    "u": "https://www.mediatek.com/hubfs/MediaTek%20Assets/Pdfs/Shareholder%20Meetings/Meeting-Minutes/Meeting-Minutes_2026.pdf"
+   },
+   {
+    "t": "Focus Taiwan (CNA): Nvidia, MediaTek'in 3,9 milyar dolarlık dönüştürülebilir tahviline 3,5 milyar dolar yatırdı (1 Eylül 2026)",
+    "te": "Focus Taiwan (CNA): Nvidia invests US$3.5 billion in MediaTek's US$3.9 billion convertible bond (1 September 2026)",
+    "u": "https://focustaiwan.tw/business/202609010010"
+   },
+   {
+    "t": "Focus Taiwan (CNA): MediaTek 2026'da rekor satış bekliyor (3 Kasım 2026)",
+    "te": "Focus Taiwan (CNA): MediaTek expects record sales in 2026 (3 November 2026)",
+    "u": "https://focustaiwan.tw/business/202611030021"
+   }
+  ],
+  "en": {
+   "one": "Designs chips for phones and other smart devices. It passed the quality walls; far too expensive against conservative earnings, so it waits at the gate.",
+   "business": "MediaTek designs chips and has them manufactured by others. Its chips are used in smartphones and other smart devices; the company is also moving into car electronics, and in 2026 it began selling custom artificial intelligence chips for data centres. In 2025 revenue was 596 billion Taiwan dollars and earnings per share 66.16 Taiwan dollars. In the third quarter of 2026, 58% of revenue came from smart edge platforms, 37% from mobile phone chips and 5% from power management chips.",
+   "moat_text": "The moat is narrow. The advantage comes from scale and design know-how: the company is Taiwan's largest chip designer and spent 25.1% of its third-quarter revenue (42.2 billion Taiwan dollars) on research and development. The evidence is in the figures: gross margin is 46.3% and real return on equity ranged from 15.8% to 24.9% over five years. But the moat is not wide: mobile phone chip revenue fell 17% from a year earlier in the third quarter, and gross margin dropped 1.7 points over nine months. The new source of growth, the artificial intelligence chip business, rests on a single programme and its durability is not yet clear.",
+   "mgmt": "The company pays a cash dividend twice a year: 29.00 and 24.50 Taiwan dollars per share for 2025 (earnings per share 66.16). Most of the profit is paid out (payout ratio 86%). At the end of August it issued an overseas convertible bond of 3.9 billion US dollars; Nvidia took 3.5 billion and Alphabet also took part. If the bond converts into shares, existing shareholders are diluted. There is no net debt (net debt/EBITDA −1.98). In the third quarter inventory rose to 153.5 billion Taiwan dollars (57.0 billion a year earlier) and operating cash flow turned negative (−4.3 billion).",
+   "latest": "31 October 2026: According to press reports of the third-quarter results, revenue was 168.06 billion Taiwan dollars (+10.4% from the previous quarter), gross margin 46.3%, net profit 27.88 billion Taiwan dollars and earnings per share 17.50 Taiwan dollars. In the first nine months revenue was 469.39 billion Taiwan dollars (+5.3%), net profit 76.37 billion and earnings per share 47.94 Taiwan dollars. For the fourth quarter the company expects revenue of 210.1-221.8 billion Taiwan dollars, including about 2.5 billion US dollars of artificial intelligence chip sales; for 2027 it targets about 16 billion US dollars in this business.",
+   "risks": [
+    "Price: the P/E is 61.8 and the P/B 15.0. On the conservative calculation the share is far above fair value; there is no margin of safety. The price already includes 2027 artificial intelligence chip sales that have not happened yet.",
+    "The artificial intelligence chip business depends on a single programme: the first chip began shipping in September 2026 and the second is expected in the first quarter of 2028. If the customer changes its plans, the target will be missed.",
+    "Mobile phone chip revenue is falling: it was down 17% from a year earlier in the third quarter.",
+    "Inventory rose to about 2.7 times its level a year ago and operating cash flow turned negative in the third quarter; if the expected sales do not come, inventory will be written down.",
+    "The company has no fabs of its own and outsources manufacturing; tight capacity and higher production prices affect the margin."
+   ],
+   "watch": [
+    "Artificial intelligence chip sales (fourth-quarter expectation about 2.5 billion US dollars)",
+    "Gross margin (46.3% now)",
+    "Inventory level and operating cash flow",
+    "Mobile phone chip revenue",
+    "Price: the margin-of-safety threshold"
+   ]
+  }
+ },
+ "2546": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-Q3",
+  "one": "Tayvan'da çip fabrikası, kamu altyapısı ve konut inşa eden yüklenici. Kârlı ve net nakitte, ama her işi yeniden kazanıyor; hendek ölçütünü geçemedi.",
+  "business": "Kedge Construction (根基營造), konut geliştiricisi Kindom Development (冠德建設) grubunun inşaat şirketidir. Üç iş kolu var: yüksek teknoloji fabrikaları ve diğer binalar, demiryolu ve köprü gibi kamu altyapısı, ana ortağın konut projeleri. 2025'te satış %51 artışla 21,5 milyar Tayvan doları, net kâr 1,24 milyar oldu; brüt kâr marjı %8,5 idi. Mayıs 2026'da eldeki işlerin yaklaşık yarısı yarı iletken fabrikası inşaatıydı, beşte biri ya da biraz fazlası Kindom grubunun işleriydi.",
+  "moat_text": "Hendek zayıf. Şirket bu ölçütü geçemedi. Yüklenicilik, iş iş alınan bir sözleşme işidir; müşteri bir sonraki projede başka firmaya gidebilir ve marj incedir (2025'te brüt %8,5). Güçlü yanı var: çip fabrikası inşaatında deneyim ve ana ortaktan gelen düzenli iş sayesinde reel özsermaye kârlılığı beş yılda %14,8 ile %23,9 arasında kaldı, son 12 ayda %27,1. Ama son 12 ayın rakamını tek bir çeyrek şişiriyor: 2026'nın ikinci çeyreğinde brüt marj %18,49'a çıktı, üçüncü çeyrekte %9,54'e geri döndü. İşçi ve malzeme maliyeti artıyor; sabit fiyatlı sözleşmede bu fark yükleniciye kalır.",
+  "mgmt": "Ana ortak Kindom Development; yönetim kurulu başkanlığı da onda. Ağustos 2023 kaydına göre Kindom 39,9 milyon hisse tutuyordu (güncel pay oranını bulamadık). İlişkili taraf işleri büyük: 2026'nın üçüncü çeyreğinde satışın %19,82'si grup içi projelerden geldi. 2025 kârından hisse başına 4,8 Tayvan doları nakit ve 1,2 Tayvan doları bedelsiz hisse dağıtıldı (dağıtım oranı %63,0); bedelsiz hisse sermayeyi 1,305 milyardan 1,462 milyar Tayvan dolarına çıkardı. Şirket ayrıca bir Japon ortakla %65 payına sahip olduğu bir prefabrik beton şirketi kuruyor ve fabrika için arsa alıyor.",
+  "latest": "6 Kasım 2026: Yönetim kurulu dokuz aylık sonuçları onayladı. Ocak-Eylül 2026'da satış 16,93 milyar Tayvan doları, brüt kâr 2,16 milyar, faaliyet kârı 1,74 milyar, net kâr 1,53 milyar, hisse başına kâr 10,46 Tayvan doları oldu. Üçüncü çeyrekte hisse başına kâr 2,52 Tayvan doları, brüt marj %9,54. İkinci çeyrekte net kâr 973 milyon Tayvan dolarıydı (bir yıl önce 263 milyon); bu sıçrama Kaohsiung'daki bir fabrika işinin gelirinin tek çeyrekte yazılmasından geldi. Henüz gelire yazılmamış iş tutarı 47,3 milyar Tayvan doları ile rekor düzeyde.",
+  "risks": [],
+  "watch": [],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tpe/2546/financials/ratios/"
+   },
+   {
+    "t": "Yahoo Finance Tayvan (MoneyDJ): Kedge dokuz aylık sonuç bildirimi (6 Kasım 2026)",
+    "te": "Yahoo Finance Taiwan (MoneyDJ): Kedge nine-month results filing (6 November 2026)",
+    "u": "https://tw.stock.yahoo.com/news/%E6%A0%B9%E5%9F%BA%E5%89%8D%E4%B8%89%E5%AD%A3%E5%90%88%E4%BD%B5%E7%8D%B2%E5%88%A915-28%E5%84%84%E5%85%83-%E6%AF%8F%E8%82%A1%E7%A8%85%E5%BE%8C10-46%E5%85%83-083200226.html"
+   },
+   {
+    "t": "Vocus: Kedge 2026 üçüncü çeyrek değerlendirmesi, marj ve eldeki işler (8 Kasım 2026)",
+    "te": "Vocus: Kedge third-quarter 2026 review, margins and backlog (8 November 2026)",
+    "u": "https://vocus.cc/article/6aee9780fd89780001e49247"
+   },
+   {
+    "t": "Economic Daily News: yüklenicilerin 2026 ilk yarı sonuçları, Kedge ikinci çeyrek (25 Ağustos 2026)",
+    "te": "Economic Daily News: contractors' first-half 2026 results, Kedge second quarter (25 August 2026)",
+    "u": "https://money.udn.com/money/amp/story/5607/9713734"
+   },
+   {
+    "t": "Fugle: Kedge yatırımcı toplantısı özeti, 2026 ilk çeyrek (29 Haziran 2026)",
+    "te": "Fugle: Kedge investor conference summary, first quarter 2026 (29 June 2026)",
+    "u": "https://blog.fugle.tw/post/earnings-call-2546-2026-06-29"
+   },
+   {
+    "t": "UDN: Kedge genel kurulu, 2025 sonuçları ve eldeki işler (25 Mayıs 2026)",
+    "te": "UDN: Kedge shareholders' meeting, 2025 results and backlog (25 May 2026)",
+    "u": "https://udn.com/news/story/7252/9524853"
+   },
+   {
+    "t": "Anue: Kedge yönetici ve ortak payları (Ağustos 2023)",
+    "te": "Anue: Kedge director and insider holdings (August 2023)",
+    "u": "https://www.cnyes.com/twstock/directorholder.aspx?code=2546"
+   },
+   {
+    "t": "Anue: Kedge şirket bilgileri",
+    "te": "Anue: Kedge company profile",
+    "u": "https://www.cnyes.com/twstock/2546/company/profile"
+   }
+  ],
+  "en": {
+   "one": "Taiwanese contractor building chip plants, public infrastructure and housing. Profitable with net cash, but wins work job by job; moat criterion not met.",
+   "business": "Kedge Construction (根基營造) is the construction company of the housing developer Kindom Development (冠德建設) group. It has three lines of work: high-tech plants and other buildings, public infrastructure such as railways and bridges, and the parent's housing projects. In 2025 sales rose 51% to 21.5 billion Taiwan dollars and net profit was 1.24 billion; the gross margin was 8.5%. In May 2026 about half of the work in hand was semiconductor plant construction, and a fifth or a little more was work for the Kindom group.",
+   "moat_text": "The moat is weak. The company did not meet this criterion. Contracting is work won job by job; the customer can go elsewhere on the next project, and margins are thin (8.5% gross in 2025). There is a strong side: experience in building chip plants and steady work from the parent kept real return on equity between 14.8% and 23.9% over five years, and at 27.1% over the last 12 months. But a single quarter inflates the last 12 months: the gross margin rose to 18.49% in the second quarter of 2026 and went back to 9.54% in the third. Labour and material costs are rising; under a fixed-price contract that difference stays with the contractor.",
+   "mgmt": "The parent is Kindom Development, which also holds the chair. According to an August 2023 record Kindom held 39.9 million shares (we could not find the current percentage). Related-party work is large: in the third quarter of 2026, 19.82% of sales came from projects inside the group. From 2025 profit the company paid 4.8 Taiwan dollars per share in cash and 1.2 Taiwan dollars in bonus shares (payout ratio 63.0%); the bonus shares lifted share capital from 1.305 billion to 1.462 billion Taiwan dollars. The company is also setting up a precast concrete company with a Japanese partner, in which it holds 65%, and is buying land for the plant.",
+   "latest": "6 November 2026: The board approved the nine-month results. In January-September 2026 sales were 16.93 billion Taiwan dollars, gross profit 2.16 billion, operating profit 1.74 billion, net profit 1.53 billion and earnings per share 10.46 Taiwan dollars. In the third quarter earnings per share were 2.52 Taiwan dollars and the gross margin 9.54%. Second-quarter net profit had been 973 million Taiwan dollars (263 million a year earlier); that jump came from the revenue of a plant job in Kaohsiung being booked in a single quarter. Work not yet booked as revenue stands at a record 47.3 billion Taiwan dollars.",
+   "risks": [],
+   "watch": []
+  }
+ },
+ "3017": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "2026-Q3",
+  "one": "Yapay zekâ sunucularını soğutan parçaların önde gelen üreticisi. Kalite surlarını geçti; fiyat çok yüksek, kapıda bekliyor.",
+  "business": "Asia Vital Components (奇鋐, AVC), sunucu ve bilgisayarlar için soğutma parçaları üretir: fanlar, ısı modülleri, sıvı soğutma plakaları, dağıtım boruları ve sunucu kasaları. 2026'nın ilk yarısında hasılatın %83,4'ü soğutma ve kasa ürünlerinden, %66,1'i sunuculardan geldi. İlk dokuz ayda hasılat 157,2 milyar Tayvan doları, net kâr 29,0 milyar Tayvan doları. Büyüme Vietnam'daki fabrikalarda yapılıyor.",
+  "moat_text": "Hendek dar. Şirket sıvı soğutmada öncü tedarikçilerden: yeni nesil grafik işlemcili sunucuların soğutma plakalarında ana tedarikçi konumunu koruyor, ayda yaklaşık 1 milyon plaka üretebiliyor. Marj bunu gösteriyor: brüt marj 2025'te %25,8 iken son çeyrekte %33,9; şirket bakır ve alüminyum maliyetini fiyata yansıtabildiğini söylüyor. Reel özsermaye kârlılığı beş yılda %23,0'ın altına inmedi, son 12 ayda %62,6. Zayıf yanı: 2025'te yapay zekâ sunucusu gelirinin yaklaşık %70'i grafik işlemcili sunuculardan, yani tek bir müşteri zincirinden geldi ve her yeni nesilde tasarım yeniden kazanılıyor. Rakipler de aynı işe yatırım yapıyor.",
+  "mgmt": "Yönetim kurulu başkanı ve genel müdür Shen Ching-hang (沈慶行); yönetim kurulu üyelerinin payı %13,83. Kâr ana işe gidiyor: 2026 yatırımı yaklaşık 15 milyar Tayvan doları, 2027'de 15-20 milyar; çoğu Vietnam'daki kapasite için. Sıvı soğutma plakası kapasitesi gelecek yıl %50'den fazla artırılacak. Yahoo'nun şirket sayfasına göre 2025 nakit temettüsü hisse başına 20,88 Tayvan doları. Şirketin net borcu yok (net borç/FAVÖK −0,81).",
+  "latest": "10 Kasım 2026: Temmuz-Eylül 2026 çeyreğinde hasılat 59,1 milyar Tayvan doları (yıllık +%51,8), brüt marj %33,86, faaliyet marjı %28,53, net kâr 11,6 milyar Tayvan doları, hisse başına kâr 29,32 Tayvan doları. Üçü de çeyrek rekoru. İlk dokuz ayda hisse başına kâr 73,86 Tayvan doları (2025'in tamamı 49,17). Şirket, 2027'de özel tasarım yapay zekâ çiplerinden (ASIC) gelen gelirin grafik işlemcilerden geleni geçmesini bekliyor.",
+  "risks": [
+   "Fiyat: F/K 31, PD/DD 16,2. Temkinli hesapla hisse adil değerin çok üzerinde; güvenlik marjı yok.",
+   "Kâr bir döngünün tepesinde olabilir: son çeyrekte net kâr bir yıl öncesinin iki katından fazla. Talep yapay zekâ sunucusu yatırımına bağlı; yavaşlarsa yeni kapasite boş kalır.",
+   "Müşteri yoğunlaşması: gelir birkaç büyük işlemci ve bulut şirketinin sunucu tasarımlarına bağlı. Bir nesilde tasarımı kaybetmek satışı hızla düşürür.",
+   "Sıvı soğutma plakalarında üretim verimi yılın ilk yarısında %60-70 idi, şimdi yaklaşık %80. Verim sorunu ya da sızıntı kaynaklı bir kalite sorunu marjı ve müşteri güvenini bozar.",
+   "Üretim Çin ve Vietnam'da; gümrük vergileri ve ticaret kısıtları maliyeti artırabilir."
+  ],
+  "watch": [
+   "Brüt marj (son çeyrek %33,86)",
+   "Aylık hasılat",
+   "ASIC ve grafik işlemci müşterilerinin gelirdeki payı",
+   "Fiyat: güvenlik marjı eşiği"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tpe/3017/financials/ratios/"
+   },
+   {
+    "t": "鉅亨網 (cnyes): AVC ilk dokuz ayda yedi sermayeden fazla kazandı, ASIC geliri gelecek yıl GPU'yu geçecek (10 Kas 2026)",
+    "te": "cnyes: AVC earned more than seven times its capital in nine months, ASIC revenue to pass GPU next year (10 Nov 2026)",
+    "u": "https://news.cnyes.com/news/id/6656704"
+   },
+   {
+    "t": "China Times: AVC 3. çeyrek hisse başına kâr 29,32, dokuz ay 73,86 (10 Kas 2026)",
+    "te": "China Times: AVC third-quarter EPS 29.32, nine months 73.86 (10 Nov 2026)",
+    "u": "https://www.chinatimes.com/realtimenews/20261110003431-260410"
+   },
+   {
+    "t": "經濟日報 (UDN Money): AVC'nin sıvı soğutma ürünleri ve üretim verimi (9 Kas 2026)",
+    "te": "Economic Daily News (UDN Money): AVC liquid-cooling products and production yield (9 Nov 2026)",
+    "u": "https://money.udn.com/money/story/5739/9865748"
+   },
+   {
+    "t": "Money Weekly (理財周刊): AVC Temmuz-Eylül 2025 çeyreği ve müşteri dağılımı (13 Kas 2025)",
+    "te": "Money Weekly: AVC July-September 2025 quarter and customer mix (13 Nov 2025)",
+    "u": "https://www.moneyweekly.com.tw/_Article?AID=202958"
+   },
+   {
+    "t": "UAnalyze (鉅亨網): AVC 2026 ilk yarı sonuçları (12 Ağu 2026)",
+    "te": "UAnalyze (cnyes): AVC first-half 2026 results (12 Aug 2026)",
+    "u": "https://uanalyze.com.tw/articles/5815653290"
+   },
+   {
+    "t": "UAnalyze (鉅亨網): AVC 2025 sonuçları ve yatırım planı (11 Mar 2026)",
+    "te": "UAnalyze (cnyes): AVC 2025 results and investment plan (11 Mar 2026)",
+    "u": "https://uanalyze.com.tw/articles/1131748834"
+   },
+   {
+    "t": "Yahoo Finance Tayvan: AVC şirket bilgileri (12 Kas 2026'da okundu)",
+    "te": "Yahoo Finance Taiwan: AVC company profile (read 12 Nov 2026)",
+    "u": "https://tw.stock.yahoo.com/quote/3017/profile"
+   }
+  ],
+  "en": {
+   "one": "A leading maker of parts that cool AI servers. It passed the quality walls; the price is very high, it waits at the gate.",
+   "business": "Asia Vital Components (奇鋐, AVC) makes cooling parts for servers and computers: fans, thermal modules, liquid-cooling cold plates, manifolds and server chassis. In the first half of 2026, 83.4% of revenue came from thermal and chassis products and 66.1% from servers. In the first nine months revenue was 157.2 billion Taiwan dollars and net profit 29.0 billion Taiwan dollars. Growth is being built in its plants in Vietnam.",
+   "moat_text": "The moat is narrow. The company is one of the leading suppliers in liquid cooling: it keeps its main-supplier position in cold plates for the next generation of GPU servers and can make about 1 million plates a month. The margin shows it: gross margin was 25.8% in 2025 and 33.9% in the last quarter; the company says it can pass copper and aluminium costs on in its prices. Real return on equity did not fall below 23.0% in five years and is 62.6% in the last 12 months. The weak side: in 2025 about 70% of AI server revenue came from GPU servers, that is, from a single customer chain, and the design has to be won again with every new generation. Competitors are investing in the same business.",
+   "mgmt": "The chairman and general manager is Shen Ching-hang (沈慶行); board members hold 13.83%. Profit goes to the core business: investment is about 15 billion Taiwan dollars in 2026 and 15-20 billion in 2027, mostly for capacity in Vietnam. Cold-plate capacity will be raised by more than 50% next year. According to Yahoo's company page the 2025 cash dividend was 20.88 Taiwan dollars per share. The company has no net debt (net debt/EBITDA −0.81).",
+   "latest": "10 November 2026: In the July-September 2026 quarter revenue was 59.1 billion Taiwan dollars (+51.8% year on year), gross margin 33.86%, operating margin 28.53%, net profit 11.6 billion Taiwan dollars and earnings per share 29.32 Taiwan dollars. All three are quarterly records. Earnings per share for the first nine months were 73.86 Taiwan dollars (49.17 for all of 2025). The company expects revenue from custom AI chips (ASIC) to pass revenue from GPUs in 2027.",
+   "risks": [
+    "Price: the P/E is 31 and the P/B is 16.2. On the conservative calculation the share is far above fair value; there is no margin of safety.",
+    "Profit may be at the top of a cycle: net profit in the last quarter was more than double that of a year earlier. Demand depends on AI server spending; if it slows, the new capacity stands idle.",
+    "Customer concentration: revenue depends on the server designs of a few large processor and cloud companies. Losing the design in one generation would cut sales quickly.",
+    "Production yield for liquid-cooling cold plates was 60-70% in the first half of the year and is about 80% now. A yield problem, or a quality problem caused by leaks, would hurt margin and customer trust.",
+    "Production is in China and Vietnam; tariffs and trade restrictions can raise costs."
+   ],
+   "watch": [
+    "Gross margin (33.86% in the last quarter)",
+    "Monthly revenue",
+    "Share of ASIC and GPU customers in revenue",
+    "Price: the margin-of-safety threshold"
+   ]
+  }
+ },
+ "5287": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 2,
+   "E": 2
+  },
+  "moat": "dar",
+  "per": "2026-Q3",
+  "one": "Tayvan'ın en büyük emlak ilan sitesi 591'in sahibi. Kalite surlarını geçiyor, ama satış büyümüyor ve fiyat yeterli marjı bırakmıyor; kapıda bekliyor.",
+  "business": "ADDCN (數字科技), alıcı ile satıcıyı buluşturan ilan siteleri işletir. Ev sahipleri, emlakçılar ve inşaat şirketleri ilan ve reklam ücreti öder; oyun eşyası pazarında satıcıdan %6 komisyon alınır. 2026'nın ilk dokuz ayında satışın %66'sı emlak sitesi 591'den, %17'si oyun eşyası pazarı 8591'den, %9'u otomobil sitesi 8891'den, %8'i iş ilanı sitesi 518 ve insan kaynağı hizmetlerinden geldi. Dokuz aylık satış 1,73 milyar Tayvan doları, faaliyet kârı 699 milyon Tayvan doları.",
+  "moat_text": "Hendek dar. Üstünlük gerçek ve rakamla görülüyor: yönetime göre 591'in çevrim içi emlak ilanındaki payı %80'in üzerinde, 8591'in payı yaklaşık %90, 8891'in payı yaklaşık %50. İlan sitesinde alıcı ilanın çok olduğu yere, ilan veren de alıcının çok olduğu yere gider; bu yüzden ikinciye az yer kalır. Reel özsermaye kârlılığı beş yılda %28,4'ün altına inmedi, son 12 ayda %33,0. Geniş demememizin üç nedeni var. Birincisi, satışın üçte ikisi tek siteden ve tek ülkenin konut piyasasından geliyor. İkincisi, satış büyümüyor: dokuz ayda %0,85 geriledi, faaliyet kârı %0,89 düştü. Üçüncüsü, faaliyet kâr marjı yaklaşık %40; bağımsız bir incelemeye göre 2018'de %49,2 idi. Pay rakamları yönetimin beyanıdır; bağımsız bir ölçüm bulamadık.",
+  "mgmt": "En büyük ortak yönetim kurulu başkanı Liao Shih-fang (廖世芳): 2023 faaliyet raporundaki 15 Nisan 2024 kaydına göre kendi adına ve iki yatırım şirketi üzerinden yaklaşık %26,5 paya sahipti. Kârın çoğu dağıtılıyor: şirket yılda iki kez temettü ödüyor, 2025 kârından hisse başına 11,4 Tayvan doları nakit ve 1,8 Tayvan doları bedelsiz hisse verdi (hisse başına kâr 13,93), 2026'nın ilk yarısı için 6,15 Tayvan doları nakit kararı aldı. Kalan para yeni sitelere gidiyor: yarı zamanlı iş, serbest çalışma, usta bulma ve iç mimarlık siteleri ücret almaya başladı. Şirketin erken aşama girişimlerde de payı var. Net borç yok.",
+  "latest": "10 Kasım 2026: Üçüncü çeyrek sonuçları açıklandı. Temmuz-Eylül 2026'da satış %0,83 artışla 597 milyon Tayvan doları, faaliyet kârı %2,27 artışla 264 milyon, net kâr %1,05 artışla 222 milyon Tayvan doları oldu; hisse başına kâr 3,4 Tayvan doları. Dokuz ayda satış 1,73 milyar Tayvan doları (%0,85 düşüş), faaliyet kârı 699 milyon (%0,89 düşüş), net kâr 684 milyon Tayvan doları (%14,71 artış), hisse başına kâr 10,43 Tayvan doları. Net kârdaki artış ana işten gelmiyor: ilk yarıda faaliyet dışı gelir yaklaşık 80 milyon Tayvan doları arttı; bu, yatırımların ve girişim paylarının değer artışıdır ve gerçekleşmemiştir. Ekim satışı 192 milyon Tayvan doları (%1,64 artış).",
+  "risks": [
+   "Son 12 ayın kârı, gerçekleşmemiş yatırım değer artışlarıyla olduğundan yüksek görünüyor (ilk yarıda yaklaşık 80 milyon Tayvan doları). Ana işin kârı dokuz ayda %0,89 geriledi; F/K bu yüzden olduğundan düşük görünüyor.",
+   "Satışın %66'sı 591'den geliyor ve bu gelir Tayvan konut piyasasına bağlı. Kredi kısıtlamaları sürüyor; 591'in geliri 2026'nın ilk çeyreğinde %7 geriledi.",
+   "Satış büyümüyor. Yeni siteler ücret almaya başladı ama katkıları henüz ayrı açıklanmıyor; tutmazlarsa harcanan para geri dönmez.",
+   "Oyun eşyası pazarının geliri oyunların popülerliğine bağlı: 2026'nın ilk çeyreğindeki %36 artış tek bir oyunun yeniden çıkışından geldi.",
+   "İnternette alışkanlık hızlı değişebilir: sosyal medya grupları ve büyük emlak zincirlerinin kendi siteleri ilanları 591'den uzaklaştırabilir."
+  ],
+  "watch": [
+   "591'in geliri ve satış içindeki payı",
+   "Faaliyet kârı (net kâr değil; yatırım değer artışları hariç)",
+   "Yeni sitelerin geliri ve ücretli üye sayısı",
+   "Yarıyıllık temettü ve dağıtım oranı"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tpex/5287/financials/ratios/"
+   },
+   {
+    "t": "Commercial Times: ADDCN dokuz ayda hisse başına 10,43 Tayvan doları kazandı (10 Kasım 2026)",
+    "te": "Commercial Times: ADDCN nine-month EPS of 10.43 (10 November 2026)",
+    "u": "https://www.ctee.com.tw/news/20261110702041-430502"
+   },
+   {
+    "t": "MoneyDJ: ADDCN üçüncü çeyrek ve dokuz aylık sonuçlar (11 Kasım 2026)",
+    "te": "MoneyDJ: ADDCN third-quarter and nine-month results (11 November 2026)",
+    "u": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=ee0277d9-f11e-4ba5-acd2-8d15bf1f3a1d"
+   },
+   {
+    "t": "Wantrich (China Times): ADDCN ikinci çeyrek, faaliyet dışı gelir ve yarıyıl temettüsü (12 Ağustos 2026)",
+    "te": "Wantrich (China Times): ADDCN second quarter, non-operating income and half-year dividend (12 August 2026)",
+    "u": "https://wantrich.chinatimes.com/news/20260812900286-420101"
+   },
+   {
+    "t": "Fugle: ADDCN yatırımcı toplantısı özeti, 2026 ilk çeyrek (25 Haziran 2026)",
+    "te": "Fugle: ADDCN investor conference summary, first quarter 2026 (25 June 2026)",
+    "u": "https://blog.fugle.tw/post/earnings-call-5287-2026-06-25"
+   },
+   {
+    "t": "ADDCN: 2023 faaliyet raporu, ortaklık yapısı ve temettü politikası (10 Mayıs 2024)",
+    "te": "ADDCN: 2023 annual report, shareholders and dividend policy (10 May 2024)",
+    "u": "https://www.addcn.com/html/pdf/shareholder_40.pdf"
+   },
+   {
+    "t": "nStock: ADDCN şirket özeti (12 Kasım 2026)",
+    "te": "nStock: ADDCN company summary (12 November 2026)",
+    "u": "https://www.nstock.tw/%E6%95%B8%E5%AD%97%E5%81%9A%E4%BB%80%E9%BA%BC.html"
+   },
+   {
+    "t": "StockFeel: ADDCN iş modeli incelemesi (13 Ocak 2020)",
+    "te": "StockFeel: ADDCN business model review (13 January 2020)",
+    "u": "https://www.stockfeel.com.tw/?p=78559"
+   },
+   {
+    "t": "Yahoo Finance Tayvan (Commercial Times): ADDCN 2025 üçüncü çeyrek sonuçları (12 Kasım 2025)",
+    "te": "Yahoo Finance Taiwan (Commercial Times): ADDCN third-quarter 2025 results (12 November 2025)",
+    "u": "https://tw.stock.yahoo.com/news/%E6%9A%91%E6%9C%9F%E6%97%BA%E5%AD%A3-%E6%95%B8%E5%AD%97%E7%AC%AC%E4%B8%89%E5%AD%A3%E7%8D%B2%E5%88%A9%E5%89%B5%E6%96%B0%E9%AB%98-201000530.html"
+   }
+  ],
+  "en": {
+   "one": "Owns 591, Taiwan's largest property listings site. Passes the quality walls, but sales are flat and the price is too high; waits at the gate.",
+   "business": "ADDCN (數字科技) runs listing sites that bring buyers and sellers together. Landlords, estate agents and builders pay listing and advertising fees; on the game-item marketplace the seller pays a 6% commission. In the first nine months of 2026, 66% of sales came from the property site 591, 17% from the game-item marketplace 8591, 9% from the car site 8891 and 8% from the job site 518 and staffing services. Nine-month sales were 1.73 billion Taiwan dollars and operating profit 699 million Taiwan dollars.",
+   "moat_text": "The moat is narrow. The advantage is real and shows in the figures: according to management, 591 has more than 80% of online property listings, 8591 about 90% of its market and 8891 about 50%. On a listings site buyers go where the listings are and advertisers go where the buyers are, so little room is left for the runner-up. Real return on equity did not fall below 28.4% in five years and was 33.0% over the last 12 months. We stop short of calling it wide for three reasons. First, two thirds of sales come from one site and one country's housing market. Second, sales are not growing: they slipped 0.85% over nine months and operating profit fell 0.89%. Third, the operating margin is about 40%; an independent review put it at 49.2% in 2018. The share figures are management's own statements; we could not find an independent measurement.",
+   "mgmt": "The largest shareholder is the chairman, Liao Shih-fang (廖世芳): according to the 15 April 2024 register in the 2023 annual report, the chairman held about 26.5% in his own name and through two investment companies. Most of the profit is paid out: the company pays dividends twice a year, gave 11.4 Taiwan dollars per share in cash and 1.8 Taiwan dollars in bonus shares from 2025 profit (earnings per share were 13.93), and resolved on 6.15 Taiwan dollars in cash for the first half of 2026. The remaining money goes into new sites: the part-time jobs, freelance work, home repair and interior design sites have started charging fees. The company also holds stakes in early-stage startups. There is no net debt.",
+   "latest": "10 November 2026: Third-quarter results were announced. In July-September 2026 sales rose 0.83% to 597 million Taiwan dollars, operating profit rose 2.27% to 264 million and net profit rose 1.05% to 222 million Taiwan dollars; earnings per share were 3.4 Taiwan dollars. Over nine months sales were 1.73 billion Taiwan dollars (down 0.85%), operating profit 699 million (down 0.89%), net profit 684 million Taiwan dollars (up 14.71%) and earnings per share 10.43 Taiwan dollars. The rise in net profit does not come from the core business: non-operating income rose by about 80 million Taiwan dollars in the first half; this is an increase in the value of investments and startup stakes, and it is unrealised. October sales were 192 million Taiwan dollars (up 1.64%).",
+   "risks": [
+    "Profit over the last 12 months looks higher than it is because of unrealised gains on investments (about 80 million Taiwan dollars in the first half). Core operating profit fell 0.89% over nine months; this makes the P/E look lower than it is.",
+    "66% of sales come from 591, and that revenue depends on Taiwan's housing market. Credit controls continue; 591's revenue fell 7% in the first quarter of 2026.",
+    "Sales are not growing. The new sites have started charging, but their contribution is not yet reported separately; if they do not take hold, the money spent will not come back.",
+    "Revenue from the game-item marketplace depends on how popular the games are: the 36% rise in the first quarter of 2026 came from the relaunch of a single game.",
+    "Habits on the internet can change fast: social media groups and the big estate agency chains' own sites could pull listings away from 591."
+   ],
+   "watch": [
+    "Revenue of 591 and its share of sales",
+    "Operating profit (not net profit; excluding gains on investments)",
+    "Revenue and paying members of the new sites",
+    "Half-year dividend and payout ratio"
+   ]
+  }
+ },
+ "5439": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-Q2",
+  "one": "Yapay zekâ sunucuları için çok katmanlı baskılı devre kartı üreten Tayvanlı şirket. Kârı iki yılda katlandı, ama kalıcı üstünlük kanıtı zayıf; hendek ölçütünü geçemedi.",
+  "business": "First Hi-tec (高技), az adetli ve çok çeşitli baskılı devre kartı üretir; üretim Tayvan'dadır. Haziran 2026'da yönetimin verdiği dağılıma göre satışın %65'i sunucu, %10'u ağ anahtarı, %10'u diğer ağ ürünleri kartlarından geliyor. Ana ürün 26 katmanlı kart. Satış 2024'te 4,18 milyar Tayvan dolarıydı, 2025'te 9,64 milyar oldu; net kâr 327 milyon Tayvan dolarından 1,28 milyara çıktı.",
+  "moat_text": "Hendek zayıf. Şirket bu ölçütü geçemedi. Güçlü yan gerçek: yüksek katmanlı kartta deneyim var, müşteriyle numune aşamasında çalışıyor ve Temmuz 2026'da çift haneli fiyat artışını kabul ettirdi. Ama bu üstünlüğün kalıcı olduğunu rakamlar göstermiyor. Reel özsermaye kârlılığı 2024'te %10,9 idi; 2025'te %38,2'ye, son 12 ayda %47,3'e sıçradı. Sıçrama bulut şirketlerinin yapay zekâ yatırımından geliyor, yani tek bir talep dalgasından. Aynı kartları daha büyük Tayvanlı üreticiler de yapıyor ve onlar da kapasite artırıyor. Dalga yavaşlayınca ne olduğu şimdiden görülüyor: Ekim 2026 satışı bir yıl öncesine göre %23,9 düştü.",
+  "mgmt": "Hâkim ortak görünmüyor; yönetim kurulu üyelerinin toplam payı %10,77 (Yahoo Finance Tayvan şirket sayfası, Eylül 2026). Şirket 2025 kârından hisse başına 7,2 Tayvan doları nakit temettü ödedi (toplam 669 milyon Tayvan doları; hisse başına kâr 13,74). Kalan kâr ana işe gidiyor: yıllık yatırım 1 milyar Tayvan dolarının üzerinde, iç katman ve yaş işlem hatları büyütülüyor, yeni hatların 2027'nin ilk çeyreğinde üretime girmesi hedefleniyor. Dolaşımda hisseye çevrilebilir tahvil var; çevrildikçe hisse sayısı artıyor.",
+  "latest": "11 Kasım 2026: Yönetim kurulu dokuz aylık sonuçları onayladı. Ocak-Eylül 2026'da satış 8,80 milyar Tayvan doları, faaliyet kârı 1,48 milyar, net kâr 1,23 milyar, hisse başına kâr 13,24 Tayvan doları oldu (2025'in tamamı: 13,74). İlk yarı rakamları çıkarılınca üçüncü çeyreğin net kârı yaklaşık 473 milyon Tayvan doları ediyor; bir yıl önceki 531 milyonun altında. Aylık satışlar da yavaşladı: eylülde %4,56, ekimde %23,89 yıllık düşüş (ekim satışı 764 milyon Tayvan doları). On aylık satış 9,57 milyar Tayvan doları ile hâlâ %21,44 yukarıda.",
+  "risks": [],
+  "watch": [],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tpex/5439/financials/ratios/"
+   },
+   {
+    "t": "MoneyDJ: First Hi-tec dokuz aylık sonuç bildirimi (12 Kasım 2026)",
+    "te": "MoneyDJ: First Hi-tec nine-month results filing (12 November 2026)",
+    "u": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=8620f8b7-26dd-44c5-b44d-12dcdb1f120a"
+   },
+   {
+    "t": "UDN: First Hi-tec dokuz ayda hisse başına 13,24 Tayvan doları kazandı (11 Kasım 2026)",
+    "te": "UDN: First Hi-tec nine-month EPS reaches 13.24 (11 November 2026)",
+    "u": "https://udn.com/news/story/7252/9872755"
+   },
+   {
+    "t": "Yahoo Finance Tayvan: First Hi-tec Ekim 2026 satış bildirimi (10 Kasım 2026)",
+    "te": "Yahoo Finance Taiwan: First Hi-tec October 2026 revenue announcement (10 November 2026)",
+    "u": "https://tw.stock.yahoo.com/news/%E5%85%AC%E5%91%8A-%E9%AB%98%E6%8A%80-2026%E5%B9%B410%E6%9C%88%E5%90%88%E4%BD%B5%E7%87%9F%E6%94%B67-64%E5%84%84%E5%85%83-%E5%B9%B4%E5%A2%9E-073445848.html"
+   },
+   {
+    "t": "Yahoo Finance Tayvan: First Hi-tec şirket bildirimleri (2026)",
+    "te": "Yahoo Finance Taiwan: First Hi-tec company announcements (2026)",
+    "u": "https://tw.stock.yahoo.com/quote/5439/announcement"
+   },
+   {
+    "t": "Yahoo Finance Tayvan: First Hi-tec çeyreklik gelir tablosu",
+    "te": "Yahoo Finance Taiwan: First Hi-tec quarterly income statement",
+    "u": "https://tw.stock.yahoo.com/quote/5439/income-statement"
+   },
+   {
+    "t": "Yahoo Finance Tayvan: First Hi-tec şirket bilgileri",
+    "te": "Yahoo Finance Taiwan: First Hi-tec company profile",
+    "u": "https://tw.stock.yahoo.com/quote/5439/profile"
+   },
+   {
+    "t": "Commercial Times: First Hi-tec genel kurulu, ürün dağılımı ve yatırım planı (18 Haziran 2026)",
+    "te": "Commercial Times: First Hi-tec shareholders' meeting, product mix and capex plan (18 June 2026)",
+    "u": "https://www.ctee.com.tw/news/20260618700249-430502"
+   },
+   {
+    "t": "Anue: First Hi-tec ikinci çeyrek ve fiyat artışı (27 Ağustos 2026)",
+    "te": "Anue: First Hi-tec second quarter and price increase (27 August 2026)",
+    "u": "https://hao.cnyes.com/post/264997"
+   },
+   {
+    "t": "Anue: First Hi-tec 2025 dokuz aylık sonuçları (5 Kasım 2025)",
+    "te": "Anue: First Hi-tec nine-month 2025 results (5 November 2025)",
+    "u": "https://news.cnyes.com/news/id/6220470"
+   },
+   {
+    "t": "nStock: First Hi-tec şirket özeti (11 Kasım 2026)",
+    "te": "nStock: First Hi-tec company summary (11 November 2026)",
+    "u": "https://www.nstock.tw/%E9%AB%98%E6%8A%80%E5%81%9A%E4%BB%80%E9%BA%BC.html"
+   }
+  ],
+  "en": {
+   "one": "Taiwanese maker of multilayer circuit boards for AI servers. Profit multiplied in two years, but a lasting edge is unproven; moat criterion not met.",
+   "business": "First Hi-tec (高技) makes printed circuit boards in small batches and many varieties; production is in Taiwan. By the breakdown management gave in June 2026, 65% of sales come from boards for servers, 10% for network switches and 10% for other networking products. The main product is a 26-layer board. Sales were 4.18 billion Taiwan dollars in 2024 and 9.64 billion in 2025; net profit rose from 327 million Taiwan dollars to 1.28 billion.",
+   "moat_text": "The moat is weak. The company did not meet this criterion. The strong side is real: it has experience in high-layer boards, works with customers from the sample stage, and pushed through a double-digit price increase in July 2026. But the figures do not show that this edge lasts. Real return on equity was 10.9% in 2024; it jumped to 38.2% in 2025 and 47.3% over the last 12 months. The jump comes from cloud companies' spending on AI, that is, from a single wave of demand. Larger Taiwanese makers produce the same boards, and they are adding capacity too. What happens when the wave slows is already visible: October 2026 sales fell 23.9% from a year earlier.",
+   "mgmt": "There appears to be no controlling shareholder; directors hold 10.77% in total (Yahoo Finance Taiwan company page, September 2026). From 2025 profit the company paid a cash dividend of 7.2 Taiwan dollars per share (669 million Taiwan dollars in total; earnings per share were 13.74). The rest of the profit goes into the core business: capital spending is above 1 billion Taiwan dollars a year, inner-layer and wet-process lines are being expanded, and the new lines are due to start production in the first quarter of 2027. Convertible bonds are outstanding; the share count rises as they convert.",
+   "latest": "11 November 2026: The board approved the nine-month results. In January-September 2026 sales were 8.80 billion Taiwan dollars, operating profit 1.48 billion, net profit 1.23 billion and earnings per share 13.24 Taiwan dollars (full-year 2025: 13.74). Subtracting the first-half figures gives a third-quarter net profit of about 473 million Taiwan dollars, below the 531 million of a year earlier. Monthly sales have slowed too: down 4.56% year on year in September and 23.89% in October (October sales: 764 million Taiwan dollars). Ten-month sales of 9.57 billion Taiwan dollars are still up 21.44%.",
+   "risks": [],
+   "watch": []
+  }
+ },
+ "5520": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-Q3",
+  "one": "Taipei bölgesine hazır beton satan şirket. Borcu yok, marjı yüksek, ama ürün proje proje satılan bir yapı malzemesi; hendek ölçütünü geçemedi.",
+  "business": "Lihtai (力泰建設), 1976'da kurulmuş bir hazır beton üreticisidir; adında inşaat geçse de işi beton satmaktır. Taipei ve Yeni Taipei'deki ofis kuleleri, çok yüksek binalar ve konut projelerine beton verir; Taipei 101 de bunların arasındaydı. Kum ve çakılı kendi mavnalarıyla taşır. 2025'te satış 4,18 milyar Tayvan doları, net kâr 611 milyon Tayvan doları oldu. 2026'nın ilk yarısında 466 bin metreküp beton sattı.",
+  "moat_text": "Hendek zayıf. Şirket bu ölçütü geçemedi; karar sınıra yakın. Güçlü yan rakamda görünüyor: brüt kâr marjı 2024'te %21, 2025'te %22, 2026'nın ilk yarısında %24; yani satış hacmi düşerken marj arttı. Şirket bunu yüksek dayanımlı ve düşük karbonlu ürünlerin payına bağlıyor. Reel özsermaye kârlılığı beş yılda %13,9 ile %18,7 arasında, son 12 ayda %16,4. Ama hazır beton, her projede yeniden teklif verilen bir yapı malzemesidir; çimentoyu şirket üretmez, dışarıdan alır. İş tek bölgeye ve o bölgedeki inşaat başlangıçlarına bağlı. Şirketin bölgedeki payını ya da rakiplerin neden aynı ürünü veremeyeceğini gösteren bir kaynak bulamadık. İlk yarıda satış hacmi yaklaşık %6 düştü, dokuz aylık kâr da %5,89 geriledi; bu, fiyat gücünün düşüşü telafi etmeye yetmediğini gösteriyor.",
+  "mgmt": "Kârın çoğu ortaklara dağıtılıyor: 2024 kârından hisse başına 5,5 Tayvan doları (hisse başına kâr 8,98), 2025 kârından 7 Tayvan doları (hisse başına kâr 9,97) nakit temettü ödendi. Borç yükü yok; yönetim, nakdin ödenmiş sermayeden (600 milyon Tayvan doları) fazla olduğunu söylüyor. Haziran 2026 sonunda özsermaye 3,46 milyar, toplam yükümlülük 1,29 milyar Tayvan doları. Hisse dar bir ortak grubunda: ilk on ortağın payı %41,29, yabancı payı %0,04 ve işlem hacmi düşük.",
+  "latest": "4 Kasım 2026: Dokuz aylık sonuçlar açıklandı. Ocak-Eylül 2026'da satış 3,01 milyar Tayvan doları, brüt kâr 741 milyon, faaliyet kârı 544 milyon, ana ortaklığa ait net kâr 447 milyon Tayvan doları oldu (yıllık %5,89 düşüş); hisse başına kâr 7,46 Tayvan doları. Şirket düşüşü inşaat başlangıçlarının azalmasına bağladı; maliyet baskısını, hafriyat toprağı sorunundan doğan şantiye gecikmelerini ve konut kredisi kısıtlamalarını da saydı. Ekim satışı 330 milyon Tayvan doları (yıllık %9,95 düşüş); on aylık satış 3,35 milyar Tayvan doları (%4,04 düşüş).",
+  "risks": [],
+  "watch": [],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tpex/5520/financials/ratios/"
+   },
+   {
+    "t": "MoneyDJ: Lihtai dokuz aylık sonuç bildirimi (4 Kasım 2026)",
+    "te": "MoneyDJ: Lihtai nine-month results filing (4 November 2026)",
+    "u": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=4a75dbbe-a63c-4ae8-93b3-500d0e33eb45"
+   },
+   {
+    "t": "Commercial Times: Lihtai'nin dokuz aylık kârı %5,89 düştü (4 Kasım 2026)",
+    "te": "Commercial Times: Lihtai nine-month profit down 5.89% (4 November 2026)",
+    "u": "https://www.ctee.com.tw/news/20261104701350-430503"
+   },
+   {
+    "t": "Fugle: Lihtai yatırımcı toplantısı özeti, 2026 ilk yarı (17 Eylül 2026)",
+    "te": "Fugle: Lihtai investor conference summary, first half 2026 (17 September 2026)",
+    "u": "https://blog.fugle.tw/post/earnings-call-5520-2026-09-17"
+   },
+   {
+    "t": "nStock: Lihtai şirket özeti (8 Kasım 2026)",
+    "te": "nStock: Lihtai company summary (8 November 2026)",
+    "u": "https://www.nstock.tw/%E5%8A%9B%E6%B3%B0%E5%81%9A%E4%BB%80%E9%BA%BC.html"
+   },
+   {
+    "t": "Anue: Lihtai şirket bilgileri",
+    "te": "Anue: Lihtai company profile",
+    "u": "https://www.cnyes.com/twstock/5520/company/profile"
+   },
+   {
+    "t": "Money Weekly: Lihtai, iş bölgesi ve düşük işlem hacmi (24 Kasım 2023)",
+    "te": "Money Weekly: Lihtai, operating area and thin trading (24 November 2023)",
+    "u": "https://www.moneyweekly.com.tw/_Article?AID=132867"
+   }
+  ],
+  "en": {
+   "one": "Sells ready-mixed concrete in the Taipei area. No debt and a high margin, but concrete is sold project by project; moat criterion not met.",
+   "business": "Lihtai (力泰建設) is a ready-mixed concrete producer founded in 1976; despite the word construction in its name, its business is selling concrete. It supplies office towers, very tall buildings and housing projects in Taipei and New Taipei; Taipei 101 was among them. It carries sand and gravel on its own barges. In 2025 sales were 4.18 billion Taiwan dollars and net profit 611 million Taiwan dollars. In the first half of 2026 it sold 466 thousand cubic metres of concrete.",
+   "moat_text": "The moat is weak. The company did not meet this criterion; the call is close to the line. The strong side shows in the figures: the gross margin was 21% in 2024, 22% in 2025 and 24% in the first half of 2026, so the margin rose while volume fell. The company links this to a larger share of high-strength and low-carbon products. Real return on equity ranged from 13.9% to 18.7% over five years and was 16.4% over the last 12 months. But ready-mixed concrete is a building material quoted anew for every project; the company does not make the cement, it buys it in. The business depends on one region and on construction starts there. We could not find a source showing the company's share in the region or why rivals could not supply the same product. Volume fell about 6% in the first half and nine-month profit fell 5.89%; this shows that pricing power was not enough to make up for the drop.",
+   "mgmt": "Most of the profit is paid out to shareholders: a cash dividend of 5.5 Taiwan dollars per share from 2024 profit (earnings per share 8.98) and 7 Taiwan dollars from 2025 profit (earnings per share 9.97). There is no debt burden; management says cash exceeds paid-in capital (600 million Taiwan dollars). At the end of June 2026 equity was 3.46 billion and total liabilities 1.29 billion Taiwan dollars. The shares sit with a narrow group of owners: the top ten shareholders hold 41.29%, foreign holders 0.04%, and trading volume is low.",
+   "latest": "4 November 2026: Nine-month results were announced. In January-September 2026 sales were 3.01 billion Taiwan dollars, gross profit 741 million, operating profit 544 million and net profit attributable to the parent 447 million Taiwan dollars (down 5.89% year on year); earnings per share were 7.46 Taiwan dollars. The company linked the fall to fewer construction starts; it also cited cost pressure, site delays caused by the excavated-soil disposal problem, and mortgage restrictions. October sales were 330 million Taiwan dollars (down 9.95% year on year); ten-month sales were 3.35 billion Taiwan dollars (down 4.04%).",
+   "risks": [],
+   "watch": []
+  }
+ },
+ "6498": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "2026-Q3",
+  "one": "Dizüstü bilgisayar kameralarına küçük plastik mercek yapan şirket. Kalite surlarını geçti; satışlar yazdan beri geriliyor, fiyat yüzünden kapıda bekliyor.",
+  "business": "Powertip Image (久禾光電) plastik optik mercek tasarlar ve üretir. Hasılatın yaklaşık %95'i dizüstü bilgisayar kamerası merceklerinden gelir; müşterileri arasında ASUS, Acer, HP ve Lenovo var. Üretim Çin'dedir. 2025'te hasılat 1,24 milyar Tayvan doları, hisse başına kâr 6,51 Tayvan doları oldu. Şirket Mayıs 2025'te Taipei Exchange'de işlem görmeye başladı.",
+  "moat_text": "Hendek dar. Şirket dizüstü bilgisayar kamera merceğinde ilk iki üreticiden biri ve payının %30'un üzerinde olduğunu söylüyor. Üstünlüğü çok ince ve dar merceği seri üretebilmesi; 2025'te 52 patent başvurusu yaptı. Kanıt rakamlarda: 2026'nın ilk dokuz ayında brüt marj %43,1, faaliyet marjı %26,3; reel özsermaye kârlılığı beş yılda %21,0 ile %30,6 arasında. Ama her şey tek ürüne ve birkaç bilgisayar markasına bağlı. Brüt marj 2025'teki %47,8'den geriledi, Çinli rakipler seri üretimde güçlü. Bu yüzden hendek geniş sayılamaz.",
+  "mgmt": "Halka arz öncesinde en büyük ortaklar Powertip Technology (久正光電, %36,26) ve Brightek (佰鴻, %19,05) idi (Mayıs 2025). 2025 kârından hisse başına 4,5 Tayvan doları nakit temettü ödendi (hisse başına kâr 6,51). Net nakit var (net borç/FAVÖK −3,1). Yönetim kurulu 2026 ve 2027 için Dongguan'da toplam yaklaşık 1 milyar Tayvan doları yatırım onayladı; bunun beşte biri makine, kalanı arsa ve bina. Yatırım ana işe gidiyor, ama Eylül 2026 sonundaki 1,61 milyar Tayvan doları özsermayeye göre büyük.",
+  "latest": "4 Kasım 2026: Yönetim kurulu 2026'nın ilk dokuz ayının sonuçlarını onayladı. Hasılat 1,01 milyar Tayvan doları, faaliyet kârı 266 milyon, net kâr 228 milyon Tayvan doları. Hisse başına kâr 4,83 Tayvan doları; geçen yılın aynı döneminde 4,61 idi. İlk yarıda hisse başına kâr 3,60 olduğuna göre üçüncü çeyreğe 1,23 Tayvan doları düşüyor; geçen yılın üçüncü çeyreği 2,15 idi. Ekim 2026 hasılatı 81 milyon Tayvan doları ile geçen yılın %28,6 altında kaldı.",
+  "risks": [
+   "Kazanç zirveden dönüyor olabilir: hasılat 2026'nın ilk beş ayında geçen yıla göre %34 arttı, ağustosta %19,3, ekimde %28,6 geriledi. Üçüncü çeyrekte hisse başına kâr hesapla 1,23 Tayvan doları (bir yıl önce 2,15). Fiyat ölçütüne yakın görünmesi son 12 ayın yüksek kârına dayanıyor.",
+   "Tek ürün: hasılatın yaklaşık %95'i dizüstü bilgisayar kamerası merceği. Bilgisayar satışları yavaşlarsa ya da bir marka tedarikçi değiştirirse kâr hızla düşer.",
+   "Üretim Çin'de. Müşteriler üretimin Çin dışına taşınmasını isterse yeni tesis kurmak gerekir; hisse Tayvan'da işlem gördüğü için enflasyon düzeltmesi Tayvan enflasyonuyla yapıldı.",
+   "Yaklaşık 1 milyar Tayvan dolarlık Dongguan yatırımı, satışların gerilediği bir dönemde yapılıyor; amortisman marjı aşağı çeker.",
+   "Şirket küçük (piyasa değeri yaklaşık 2,5 milyar Tayvan doları) ve borsada bir buçuk yıldır işlem görüyor; halka açık geçmişi kısa."
+  ],
+  "watch": [
+   "Aylık hasılatın yıllık değişimi",
+   "Brüt marj (2026'nın ilk dokuz ayında %43,1)",
+   "Dizüstü bilgisayar dışı merceklerin hasılattaki payı (şimdi yaklaşık %5)",
+   "Dongguan yatırımının tutarı ve takvimi"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tpex/6498/financials/ratios/"
+   },
+   {
+    "t": "Yahoo Finance Tayvan (MoneyDJ): Powertip Image ilk dokuz ayda 228 milyon Tayvan doları kâr, hisse başına 4,83; borsa bildirimi (4 Kasım 2026)",
+    "te": "Yahoo Finance Taiwan (MoneyDJ): Powertip Image nine-month profit NT$228 million, NT$4.83 per share; exchange filing (4 November 2026)",
+    "u": "https://tw.stock.yahoo.com/news/%E4%B9%85%E7%A6%BE%E5%85%89%E5%89%8D%E4%B8%89%E5%AD%A3%E5%90%88%E4%BD%B5%E7%8D%B2%E5%88%A92-28%E5%84%84%E5%85%83-%E6%AF%8F%E8%82%A1%E7%A8%85%E5%BE%8C4-83%E5%85%83-090500376.html"
+   },
+   {
+    "t": "Fugle: Powertip Image yatırımcı toplantısı notları (20 Mayıs 2026)",
+    "te": "Fugle: Powertip Image investor conference notes (20 May 2026)",
+    "u": "https://blog.fugle.tw/post/earnings-call-6498-2026-05-20"
+   },
+   {
+    "t": "Economic Daily News (udn): Powertip Image 2025 üçüncü çeyrek hisse başına kâr 2,15 (6 Kasım 2025)",
+    "te": "Economic Daily News (udn): Powertip Image Q3 2025 earnings per share 2.15 (6 November 2025)",
+    "u": "https://money.udn.com/money/story/5607/9120194"
+   },
+   {
+    "t": "Cnyes: Powertip Image 20 Mayıs'ta Taipei Exchange'e kote oluyor (5 Mayıs 2025)",
+    "te": "Cnyes: Powertip Image to list on the Taipei Exchange on 20 May (5 May 2025)",
+    "u": "https://news.cnyes.com/news/id/5959962"
+   },
+   {
+    "t": "Nstock: Powertip Image şirket özeti, Ekim 2026 hasılatı ve temettü",
+    "te": "Nstock: Powertip Image company summary, October 2026 revenue and dividend",
+    "u": "https://www.nstock.tw/久禾光做什麼.html"
+   },
+   {
+    "t": "HiStock: Powertip Image aylık hasılat (2026)",
+    "te": "HiStock: Powertip Image monthly revenue (2026)",
+    "u": "https://histock.tw/stock/financial.aspx?no=6498"
+   },
+   {
+    "t": "StockFeel: Powertip Image marjlar ve temettü",
+    "te": "StockFeel: Powertip Image margins and dividends",
+    "u": "https://www.stockfeel.com.tw/financial/?stock=6498"
+   }
+  ],
+  "en": {
+   "one": "Makes small plastic lenses for laptop cameras. It passed the quality walls; sales have fallen since summer, and it waits at the gate on price.",
+   "business": "Powertip Image (久禾光電) designs and makes plastic optical lenses. About 95% of revenue comes from laptop camera lenses; its customers include ASUS, Acer, HP and Lenovo. Production is in China. In 2025 revenue was 1.24 billion Taiwan dollars and earnings per share 6.51 Taiwan dollars. The company began trading on the Taipei Exchange in May 2025.",
+   "moat_text": "The moat is narrow. The company is one of the top two makers of laptop camera lenses and says its share is above 30%. Its edge is the ability to mass-produce very thin, narrow lenses; it filed 52 patents in 2025. The evidence is in the figures: in the first nine months of 2026 gross margin was 43.1% and operating margin 26.3%; real return on equity ranged from 21.0% to 30.6% over five years. But everything depends on one product and a handful of computer brands. Gross margin has slipped from 47.8% in 2025, and Chinese rivals are strong in mass production. So the moat cannot be called wide.",
+   "mgmt": "Before the listing the largest shareholders were Powertip Technology (久正光電, 36.26%) and Brightek (佰鴻, 19.05%) (May 2025). A cash dividend of 4.5 Taiwan dollars per share was paid from 2025 profit (earnings per share 6.51). The company holds net cash (net debt/EBITDA −3.1). The board approved investment of about 1 billion Taiwan dollars in total in Dongguan for 2026 and 2027; a fifth of it is machinery, the rest land and buildings. The investment goes into the core business, but it is large next to equity of 1.61 billion Taiwan dollars at the end of September 2026.",
+   "latest": "4 November 2026: The board approved the results for the first nine months of 2026. Revenue was 1.01 billion Taiwan dollars, operating profit 266 million and net profit 228 million Taiwan dollars. Earnings per share were 4.83 Taiwan dollars, against 4.61 in the same period last year. Since first-half earnings per share were 3.60, the third quarter accounts for 1.23 Taiwan dollars; the third quarter of last year was 2.15. October 2026 revenue was 81 million Taiwan dollars, 28.6% below last year.",
+   "risks": [
+    "Earnings may be turning down from a peak: revenue rose 34% year on year in the first five months of 2026, then fell 19.3% in August and 28.6% in October. Third-quarter earnings per share work out at 1.23 Taiwan dollars (2.15 a year earlier). Its closeness to the price criterion rests on the high profit of the last 12 months.",
+    "One product: about 95% of revenue is laptop camera lenses. If computer sales slow or a brand changes supplier, profit falls quickly.",
+    "Production is in China. If customers ask for production outside China, a new plant is needed; because the share trades in Taiwan, the inflation adjustment uses Taiwan's inflation.",
+    "The Dongguan investment of about 1 billion Taiwan dollars is being made while sales are falling; depreciation will pull the margin down.",
+    "The company is small (market value about 2.5 billion Taiwan dollars) and has traded for a year and a half; its public record is short."
+   ],
+   "watch": [
+    "Year-on-year change in monthly revenue",
+    "Gross margin (43.1% in the first nine months of 2026)",
+    "Share of non-laptop lenses in revenue (about 5% now)",
+    "Amount and timetable of the Dongguan investment"
+   ]
+  }
+ }
+}
