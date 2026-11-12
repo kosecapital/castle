@@ -1294,5 +1294,668 @@
     "Price: the margin-of-safety threshold"
    ]
   }
+ },
+ "AMAT": {
+  "scores": {
+   "A": 1,
+   "B": 2,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "2026-Q3",
+  "one": "Çip fabrikalarına üretim makinesi satar. Hendek dar, kalite surlarını geçti; fiyat yetmediği için kapıda bekliyor. Talep döngüsel.",
+  "business": "Applied Materials, çip üreticilerinin fabrikalarında kullandığı makineleri yapar ve satar; kurulu makinelere bakım, yedek parça ve hizmet verir. Son çeyrekte 9,12 milyar dolarlık hasılatın 7,04 milyar doları (yaklaşık %77) makine satışından, 1,78 milyar doları (yaklaşık %20) hizmetten geldi. 2025 mali yılında (ekimde biter) hasılat 28,37 milyar dolar, net kâr 7,00 milyar dolar oldu.",
+  "moat_text": "Hendek dar. Üstünlük gerçek ve rakamla görünüyor: brüt marj %50,3, makine bölümünün faaliyet kâr marjı %37,7, reel özsermaye kârlılığı beş yıldır %31,9'un altına inmedi (son 12 ayda %36,0). Bu makineleri yapmak yıllar süren araştırma ve müşteriyle birlikte geliştirme ister; kurulu makineler düzenli hizmet geliri getirir. Hendek geniş sayılmadı, çünkü üç sınır var. Talep çip üreticilerinin yatırım döngüsüne bağlı. Müşteri sayısı az. Satışın %28'i Çin'e gidiyor ve bu satış ABD'nin ihracat kurallarına bağlı. Teknolojinin ayrıntısı uzman olmayan biri için zor anlaşılır; anlaşılırlık puanı bu yüzden 1.",
+  "mgmt": "Hisseler halka yaygın; hâkim ortak yok. Kâr ana işe ve hissedara gidiyor: son çeyrekte 440 milyon dolarlık hisse geri alındı, 420 milyon dolar temettü ödendi. Çeyreklik temettü 2026'da %15 artışla hisse başına 0,53 dolara çıktı; 26 Temmuz 2026'da kullanılmamış geri alım yetkisi 12,8 milyar dolardı. Şirket net nakitte (net borç/FAVÖK −0,19): 7,04 milyar dolar nakit ve 2,20 milyar dolar kısa vadeli yatırıma karşılık 6,54 milyar dolar borç. Bir kusur: şirket, 2020-2022 arasında Çin'e yapılan bazı sevkiyatlar için 11 Şubat 2026'da ABD Ticaret Bakanlığı ile 252,5 milyon dolara uzlaştı; Adalet Bakanlığı ve SEC soruşturmalarını işlem yapmadan kapattı.",
+  "latest": "13 Ağustos 2026: 2026 mali yılının üçüncü çeyreğinde (26 Temmuz'da biten) hasılat %25 artışla 9,12 milyar dolar oldu; bu bir rekor. Hisse başına kâr %43 artışla 3,17 dolar (geçen yıl 2,22). Brüt marj %50,3, faaliyet kâr marjı %33,7. Faaliyet nakit akışı 3,04 milyar dolar. Çin'in hasılattaki payı %35'ten %28'e indi. Şirket artışı yapay zekâ çiplerine olan talebe bağladı ve dördüncü çeyrek için 10,25 milyar dolar (± 500 milyon) hasılat öngördü. Dördüncü çeyrek sonuçları 12 Kasım 2026'da açıklanacak; bu rapor o açıklamadan önce yazıldı.",
+  "risks": [
+   "Fiyat: F/K 32,1. Temkinli hesapla hisse adil değerin çok üzerinde; güvenlik marjı yok.",
+   "Döngü: bugünkü rekor kâr, çip üreticilerinin yapay zekâ yatırımlarına dayanıyor. Bu yatırım yavaşlarsa sipariş ve kâr hızla düşer.",
+   "Çin ve ihracat kuralları: hasılatın %28'i Çin'den geliyor. Şirket Ekim 2025'te yeni bir ABD kuralının 2026 mali yılı hasılatını yaklaşık 600 milyon dolar azaltacağını tahmin etmişti; kurallar daha da sıkılaşabilir.",
+   "Az sayıda büyük müşteri: makine satışının %67'si dökümhane ve mantık çipi üreticilerine gidiyor; bir büyük müşterinin yatırımını ertelemesi sonuçları doğrudan etkiler.",
+   "Teknoloji yarışı: rakipler yeni üretim adımlarında öne geçerse pay ve marj kaybedilir."
+  ],
+  "watch": [
+   "12 Kasım 2026'da açıklanacak dördüncü çeyrek sonuçları ve 2027 görünümü",
+   "Makine bölümünün hasılatı ve faaliyet kâr marjı",
+   "Çin'in hasılattaki payı ve yeni ihracat kuralları",
+   "Fiyat: güvenlik marjı eşiği"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/stocks/amat/financials/ratios/"
+   },
+   {
+    "t": "Applied Materials: 2026 mali yılı 3. çeyrek sonuçları (13 Ağustos 2026)",
+    "te": "Applied Materials: third-quarter fiscal 2026 results (13 August 2026)",
+    "u": "https://www.appliedmaterials.com/us/en/newsroom/press-releases/081326-applied-materials-announces-third-quarter-2026-results.html"
+   },
+   {
+    "t": "Applied Materials: ABD Ticaret Bakanlığı ile uzlaşma duyurusu (11 Şubat 2026)",
+    "te": "Applied Materials: resolution with the US Department of Commerce (11 February 2026)",
+    "u": "https://business.mammothtimes.com/mammothtimes/article/gnwcq-2026-2-12-applied-materials-reaches-resolution-with-the-us-department-of-commerce"
+   },
+   {
+    "t": "sec-api.io: Applied Materials, SEC belgelerine dayalı finansal inceleme (12 Ekim 2026)",
+    "te": "sec-api.io: Applied Materials, financial analysis based on SEC filings (12 October 2026)",
+    "u": "https://sec-api.io/insights/applied-materials-amat-financial-analysis-q3-fy2026-china-revenue-share-export-control-settlement-wafer-equipment-peers-and-scenarios-to-fy2029"
+   },
+   {
+    "t": "Applied Materials: 4. çeyrek sonuç tarihi duyurusu (22 Ekim 2026)",
+    "te": "Applied Materials: date of fourth-quarter results (22 October 2026)",
+    "u": "https://www.appliedmaterials.com/us/en/newsroom/press-releases/102226-applied-to-report-fourth-quarter-fiscal-2026-results.html"
+   }
+  ],
+  "en": {
+   "one": "It sells production machines to chip factories. Narrow moat; it passed the quality walls and waits at the gate on price. Demand is cyclical.",
+   "business": "Applied Materials makes and sells the machines chip makers use in their factories, and provides maintenance, spare parts and services for installed machines. In the latest quarter 7.04 billion dollars of its 9.12 billion dollars of revenue (about 77%) came from machine sales and 1.78 billion dollars (about 20%) from services. In fiscal 2025 (ending in October) revenue was 28.37 billion dollars and net profit 7.00 billion dollars.",
+   "moat_text": "The moat is narrow. The advantage is real and shows in the figures: gross margin is 50.3%, the operating margin of the machine segment is 37.7%, and real return on equity has not fallen below 31.9% in five years (36.0% over the last twelve months). Building these machines takes years of research and joint development with customers; installed machines bring steady service income. The moat is not rated wide because of three limits. Demand depends on the investment cycle of chip makers. There are few customers. And 28% of sales go to China, which depends on US export rules. The details of the technology are hard for a non-specialist to follow; that is why the score for understandability is 1.",
+   "mgmt": "The shares are widely held; there is no controlling shareholder. Profit goes to the core business and to shareholders: in the latest quarter the company bought back 440 million dollars of shares and paid 420 million dollars in dividends. The quarterly dividend rose 15% in 2026 to 0.53 dollars per share; on 26 July 2026 the unused buyback authorisation was 12.8 billion dollars. The company holds net cash (net debt/EBITDA −0.19): 7.04 billion dollars of cash and 2.20 billion dollars of short-term investments against 6.54 billion dollars of debt. One flaw: on 11 February 2026 the company settled with the US Department of Commerce for 252.5 million dollars over certain shipments to China between 2020 and 2022; the Department of Justice and the SEC closed their investigations without action.",
+   "latest": "13 August 2026: In the third quarter of fiscal 2026 (ending 26 July) revenue rose 25% to 9.12 billion dollars, a record. Earnings per share rose 43% to 3.17 dollars (2.22 a year earlier). Gross margin was 50.3% and operating margin 33.7%. Operating cash flow was 3.04 billion dollars. China's share of revenue fell from 35% to 28%. The company attributed the growth to demand for artificial intelligence chips and forecast revenue of 10.25 billion dollars (± 500 million) for the fourth quarter. Fourth-quarter results are due on 12 November 2026; this report was written before that release.",
+   "risks": [
+    "Price: the P/E is 32.1. On the conservative calculation the share is far above fair value; there is no margin of safety.",
+    "Cycle: today's record profit rests on chip makers' investment in artificial intelligence. If that investment slows, orders and profit fall quickly.",
+    "China and export rules: 28% of revenue comes from China. In October 2025 the company estimated that a new US rule would reduce fiscal 2026 revenue by about 600 million dollars; the rules may tighten further.",
+    "A small number of large customers: 67% of machine sales go to foundry and logic chip makers; one large customer delaying its investment affects results directly.",
+    "The technology race: if rivals get ahead in new production steps, share and margin are lost."
+   ],
+   "watch": [
+    "Fourth-quarter results due on 12 November 2026 and the outlook for 2027",
+    "Revenue and operating margin of the machine segment",
+    "China's share of revenue and new export rules",
+    "Price: the margin-of-safety threshold"
+   ]
+  }
+ },
+ "COST": {
+  "scores": {
+   "A": 2,
+   "B": 3,
+   "C": 2,
+   "D": 2,
+   "E": 2
+  },
+  "moat": "geniş",
+  "per": "2026-Q4",
+  "one": "Üyelikle çalışan toptan satış mağazaları zinciri. Hendek geniş, kalite surlarını geçti; fiyat çok yüksek olduğu için kapıda bekliyor.",
+  "business": "Costco, yalnız üyelerin alışveriş yapabildiği büyük depo mağazalar işletir. Malı çok düşük kâr payıyla satar; kazancın önemli bölümü yıllık üyelik aidatından gelir. 30 Ağustos 2026'da biten mali yılda net satışlar 297,2 milyar dolar, üyelik geliri 5,9 milyar dolar, net kâr 9,2 milyar dolar oldu. Yıl sonunda 939 mağazası vardı; 647'si ABD'de.",
+  "moat_text": "Hendek geniş. Üstünlük maliyet liderliğinden geliyor: az çeşit, büyük hacim ve düşük kâr payı sayesinde fiyatları rakiplerin inmesi zor bir düzeyde tutuyor; brüt kâr marjı yalnız %11,1. Üyeler de bunu ödüllendiriyor: Beancount'un aktardığına göre üyelik yenileme oranı ABD ve Kanada'da %92,3, dünya genelinde %89,8; ücretli üye sayısı 84,1 milyon. Aynı ölçeği ve üye sadakatini kurmak yıllar ve büyük sermaye ister. Reel özsermaye kârlılığı beş yıldır %22,6 ile %27,3 arasında.",
+  "mgmt": "Kâr ana işe ve hissedara gidiyor. 2026 mali yılında 2,5 milyar dolar temettü ödendi, 848 milyon dolarlık hisse geri alındı. 10 Kasım 2026'da hisse başına 30 dolar (toplam yaklaşık 13,3 milyar dolar) özel temettü açıklandı; ödeme 4 Aralık 2026'da. Aynı gün 4 milyar dolarlık yeni geri alım programı onaylandı. Şirketin net borcu yok (net borç/FAVÖK −0,78). 2027 mali yılında beşi taşınma olmak üzere 33 mağaza açmayı planlıyor.",
+  "latest": "24 Eylül 2026: 2026 mali yılının son çeyreğinde (16 hafta) net satışlar 93,9 milyar dolar (+%11,2), net kâr 3,0 milyar dolar, hisse başına kâr 6,75 dolar (geçen yıl 5,87). Benzin fiyatı ve kur etkisi hariç karşılaştırılabilir satışlar %6,7, dijital satışlar %19,8 arttı. Hisse başına kârın 0,15 doları gümrük vergisi iadelerinden gelen tek seferlik katkı. 10 Kasım 2026: hisse başına 30 dolar özel temettü açıklandı.",
+  "risks": [
+   "Fiyat: F/K 51,4. Temkinli hesapla hisse adil değerin çok üzerinde; güvenlik marjı ölçütünü geçemiyor.",
+   "Kâr payı çok ince (brüt marj %11,1): ücret, kira ya da gümrük vergisi maliyetindeki küçük bir artış kârı belirgin biçimde etkiler.",
+   "Kazanç üyelik aidatına dayanıyor; yenileme oranı düşerse kâr satışlardan daha hızlı geriler.",
+   "Satışların büyük bölümü ABD ve Kanada'dan geliyor (939 mağazanın 762'si); bu iki ülkede tüketici harcamasının zayıflaması doğrudan yansır."
+  ],
+  "watch": [
+   "Üyelik yenileme oranı ve ücretli üye sayısı",
+   "Karşılaştırılabilir satışların büyümesi (benzin ve kur hariç)",
+   "Yeni mağaza açılışları",
+   "Fiyat: güvenlik marjı eşiği"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/stocks/cost/financials/ratios/"
+   },
+   {
+    "t": "Costco (Finviz üzerinden basın bülteni): 2026 mali yılı 4. çeyrek ve yıl sonu sonuçları (24 Eyl 2026)",
+    "te": "Costco (press release via Finviz): fourth-quarter and fiscal year 2026 operating results (24 Sep 2026)",
+    "u": "https://finviz.com/news/395411/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-year-2026-operating-results"
+   },
+   {
+    "t": "Costco (SEC 8-K): 30 dolarlık özel temettü ve yeni geri alım programı (10 Kas 2026)",
+    "te": "Costco (SEC 8-K): 30 dollar special cash dividend and new buyback program (10 Nov 2026)",
+    "u": "https://www.sec.gov/Archives/edgar/data/0000909832/000090983226000134/costex9918-k111026.htm"
+   },
+   {
+    "t": "Supermarket News: Costco güçlü bir çeyrek daha geçirdi (25 Eyl 2026)",
+    "te": "Supermarket News: Costco delivers another strong quarter (25 Sep 2026)",
+    "u": "https://www.supermarketnews.com/finance/costco-delivers-another-strong-quarter"
+   },
+   {
+    "t": "Beancount: Costco 2026 mali yılı sonuçlarının incelemesi (26 Eyl 2026)",
+    "te": "Beancount: Costco fiscal 2026 earnings analysis (26 Sep 2026)",
+    "u": "https://beancount.io/blog/2026/09/26/costco-fy2026-earnings-analysis"
+   }
+  ],
+  "en": {
+   "one": "A chain of membership-based warehouse stores. The moat is wide; it passed the quality walls but waits at the gate on price.",
+   "business": "Costco runs large warehouse stores where only members can shop. It sells goods at a very low markup; an important part of its earnings comes from the annual membership fee. In the fiscal year that ended on 30 August 2026 net sales were 297.2 billion dollars, membership income 5.9 billion dollars and net profit 9.2 billion dollars. It had 939 warehouses at year end, 647 of them in the US.",
+   "moat_text": "The moat is wide. The advantage comes from cost leadership: with few product lines, large volume and a low markup it keeps prices at a level competitors find hard to match; the gross margin is only 11.1%. Members reward this: according to Beancount the membership renewal rate is 92.3% in the US and Canada and 89.8% worldwide, and there are 84.1 million paid members. Building the same scale and member loyalty would take years and a large amount of capital. Real return on equity has been between 22.6% and 27.3% for five years.",
+   "mgmt": "Profit goes to the core business and to shareholders. In fiscal 2026 it paid 2.5 billion dollars in dividends and bought back 848 million dollars of shares. On 10 November 2026 it declared a special dividend of 30 dollars per share (about 13.3 billion dollars in total), payable on 4 December 2026. On the same day a new 4 billion dollar buyback program was approved. The company has no net debt (net debt/EBITDA −0.78). It plans to open 33 warehouses in fiscal 2027, five of them relocations.",
+   "latest": "24 September 2026: In the last quarter of fiscal 2026 (16 weeks) net sales were 93.9 billion dollars (+11.2%), net profit 3.0 billion dollars and earnings per share 6.75 dollars (5.87 a year earlier). Comparable sales excluding gasoline prices and currency rose 6.7% and digital sales 19.8%. Of the earnings per share, 0.15 dollars is a one-time benefit from tariff refunds. 10 November 2026: a special dividend of 30 dollars per share was declared.",
+   "risks": [
+    "Price: the P/E is 51.4. On the conservative calculation the share is far above fair value; it does not pass the margin-of-safety criterion.",
+    "The markup is very thin (gross margin 11.1%): a small rise in wage, rent or tariff costs affects profit noticeably.",
+    "Earnings rest on the membership fee; if the renewal rate falls, profit declines faster than sales.",
+    "Most sales come from the US and Canada (762 of 939 warehouses); weaker consumer spending in these two countries shows up directly."
+   ],
+   "watch": [
+    "Membership renewal rate and number of paid members",
+    "Growth in comparable sales (excluding gasoline and currency)",
+    "New warehouse openings",
+    "Price: the margin-of-safety threshold"
+   ]
+  }
+ },
+ "CSCO": {
+  "scores": {
+   "A": 2,
+   "B": 3,
+   "C": 2,
+   "D": 2,
+   "E": 2
+  },
+  "moat": "geniş",
+  "per": "2026-Q4",
+  "one": "Şirket ve veri merkezi ağlarının donanımını ve yazılımını satan Cisco kalite surlarını geçti; hendek geniş. Fiyat temkinli kazanca göre yüksek, kapıda bekliyor.",
+  "business": "Cisco, bilgisayar ağlarını kuran cihazları (anahtar, yönlendirici, kablosuz erişim), ağ güvenliği ve iş birliği yazılımlarını ve bunların bakım hizmetini satar. Temmuz 2026'da biten mali yılda hasılat 63,3 milyar dolar (+%12), net kâr 13,3 milyar dolar oldu. Hasılatın 34,7 milyar doları ağ ürünlerinden, 8,2 milyar doları güvenlikten, 15,0 milyar doları hizmetlerden geldi.",
+  "moat_text": "Hendek geniş. Cisco'nun cihazları şirketlerin, kamu kurumlarının ve operatörlerin ağlarında kurulu; ağı yöneten ekipler bu ürünlerle eğitilmiş ve değiştirmek hem pahalı hem riskli. Bu kurulu taban sürekli gelir doğuruyor: yıllık hizmet geliri 15,0 milyar dolar, müşterilerle imzalanmış ama henüz gelire yazılmamış iş 46,7 milyar dolar. Fiyatlama gücü marjda görünüyor: 2026 mali yılında brüt marj %64,5. Reel özsermaye kârlılığı beş mali yılda %18,9 ile %25,7 arasında. Zayıf yanı: yapay zekâ veri merkezlerine satılan donanımda marj daha düşük ve alıcı birkaç çok büyük şirket; güvenlik geliri yılda yalnız %2 büyüdü.",
+  "mgmt": "Kâr hissedara dönüyor: 2026 mali yılında 6,6 milyar dolar temettü ödendi ve 6,1 milyar dolarlık hisse geri alındı; bu, 14,2 milyar dolarlık faaliyet nakit akışının büyük bölümü. Çeyreklik temettü hisse başına 0,42 dolar. 25 Temmuz 2026'da 15,9 milyar dolar nakit ve yatırıma karşı yaklaşık 29,5 milyar dolar borç vardı; net borç/FAVÖK 0,82.",
+  "latest": "12 Ağustos 2026: 2026 mali yılının dördüncü çeyreğinde hasılat %18 artışla 17,3 milyar dolar, net kâr %51 artışla 3,9 milyar dolar, hisse başına kâr 0,97 dolar oldu. Ağ ürünleri geliri 9,8 milyar dolar (+%28). Büyük bulut şirketlerinden alınan yapay zekâ altyapısı siparişleri çeyrekte yaklaşık 4 milyar dolar, yılda 9,3 milyar dolar. Brüt marj %64,1. 2027 mali yılı tahmini: hasılat 72,2-73,4 milyar dolar, hisse başına kâr 4,00-4,06 dolar. Yeni çeyreğin sonuçları 12 Kasım 2026'da açıklanacak.",
+  "risks": [
+   "Fiyat: F/K 29,5, PD/DD 7,7. Temkinli hesapla hisse adil değerin üzerinde; güvenlik marjı yok.",
+   "Marj baskısı: yapay zekâ donanımının payı arttıkça ve bellek maliyeti yükseldikçe brüt marj düşüyor; şirketin 2027 tahmini daha düşük ürün marjı içeriyor.",
+   "Büyümenin yeni kaynağı birkaç büyük bulut şirketinin yatırımı; bu yatırım yavaşlarsa sipariş hızla azalabilir.",
+   "Hizmet geliri yıl boyunca artmadı (15,0 milyar dolar); güvenlik geliri yalnız %2 büyüdü."
+  ],
+  "watch": [
+   "Brüt marj",
+   "Yapay zekâ altyapısı siparişleri ve geliri",
+   "Hizmet ve güvenlik gelirinin büyümesi",
+   "Fiyat: güvenlik marjı eşiği"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/stocks/csco/financials/ratios/"
+   },
+   {
+    "t": "Cisco: 2026 mali yılı dördüncü çeyrek ve yıl sonu sonuçları, basın açıklaması (12 Ağustos 2026)",
+    "te": "Cisco: fourth quarter and fiscal year 2026 earnings, press release (12 August 2026)",
+    "u": "https://investor.cisco.com/news/news-details/2026/CISCO-REPORTS-FOURTH-QUARTER-AND-FISCAL-YEAR-2026-EARNINGS/default.aspx"
+   },
+   {
+    "t": "TIKR: Cisco dördüncü çeyrek sonuçları ve yapay zekâ siparişleri (13 Ağustos 2026)",
+    "te": "TIKR: Cisco's fourth-quarter results and the AI order book (13 August 2026)",
+    "u": "https://www.tikr.com/blog/ciscos-q4-earnings-hit-a-record-17-3-billion-the-ai-order-book-explains-why"
+   },
+   {
+    "t": "Webull, Simply Wall St: Cisco sonuçlar sonrası değerlendirme, marj baskısı (15 Ağustos 2026)",
+    "te": "Webull, Simply Wall St: Cisco after the results, margin pressure (15 August 2026)",
+    "u": "https://www.webull.com/news/15404766488339456"
+   },
+   {
+    "t": "Cisco: 2027 mali yılı ilk çeyrek sonuç toplantısı duyurusu (3 Kasım 2026)",
+    "te": "Cisco: conference call notice for first-quarter fiscal 2027 results (3 November 2026)",
+    "u": "https://investor.cisco.com/news/news-details/2026/Cisco-Schedules-Conference-Call-for-Q1-Fiscal-Year-2027-Financial-Results/default.aspx"
+   }
+  ],
+  "en": {
+   "one": "Cisco sells hardware and software for corporate and data center networks. Passed the quality walls; wide moat. Price is high; waits at the gate.",
+   "business": "Cisco sells the devices that build computer networks (switches, routers, wireless access), network security and collaboration software, and the maintenance service for them. In the fiscal year to July 2026 revenue was 63.3 billion dollars (+12%) and net profit 13.3 billion dollars. Networking products brought 34.7 billion dollars of revenue, security 8.2 billion dollars and services 15.0 billion dollars.",
+   "moat_text": "The moat is wide. Cisco's devices are installed in the networks of companies, public bodies and telecom operators; the teams that run those networks are trained on these products, and replacing them is both costly and risky. This installed base produces steady income: annual services revenue is 15.0 billion dollars, and work signed with customers but not yet booked as revenue is 46.7 billion dollars. Pricing power shows in the margin: gross margin was 64.5% in fiscal 2026. Real return on equity ranged from 18.9% to 25.7% over five fiscal years. The weak side: hardware sold to artificial intelligence data centers carries a lower margin and the buyers are a few very large companies; security revenue grew only 2% in the year.",
+   "mgmt": "Profit returns to shareholders: in fiscal 2026 the company paid 6.6 billion dollars in dividends and bought back 6.1 billion dollars of shares; this is most of the 14.2 billion dollars of operating cash flow. The quarterly dividend is 0.42 dollars per share. On 25 July 2026 there was about 29.5 billion dollars of debt against 15.9 billion dollars of cash and investments; net debt/EBITDA is 0.82.",
+   "latest": "12 August 2026: in the fourth quarter of fiscal 2026 revenue rose 18% to 17.3 billion dollars, net profit rose 51% to 3.9 billion dollars and earnings per share were 0.97 dollars. Networking product revenue was 9.8 billion dollars (+28%). Artificial intelligence infrastructure orders from large cloud companies were about 4 billion dollars in the quarter and 9.3 billion dollars in the year. Gross margin was 64.1%. Guidance for fiscal 2027: revenue of 72.2-73.4 billion dollars and earnings per share of 4.00-4.06 dollars. Results for the new quarter will be announced on 12 November 2026.",
+   "risks": [
+    "Price: the P/E is 29.5 and the P/B 7.7. On the conservative calculation the share is above fair value; there is no margin of safety.",
+    "Margin pressure: as the share of artificial intelligence hardware grows and memory costs rise, gross margin falls; the company's 2027 guidance includes a lower product margin.",
+    "The new source of growth is the investment of a few large cloud companies; if that investment slows, orders can fall quickly.",
+    "Services revenue did not grow over the year (15.0 billion dollars); security revenue grew only 2%."
+   ],
+   "watch": [
+    "Gross margin",
+    "Artificial intelligence infrastructure orders and revenue",
+    "Growth in services and security revenue",
+    "Price: the margin-of-safety threshold"
+   ]
+  }
+ },
+ "HD": {
+  "scores": {
+   "A": 2,
+   "B": 3,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "geniş",
+  "per": "2026-Q2",
+  "one": "ABD'nin en büyük yapı market zinciri. Hendek geniş, kalite surlarını geçti; fiyat yetmediği için kapıda bekliyor. Borç yüksek, talep konut piyasasına bağlı.",
+  "business": "Home Depot ev tadilatı ve yapı malzemesi satar: hem evini kendi onaran müşteriye hem de ustalara ve müteahhitlere. 2 Ağustos 2026'da 2.364 mağazası ve 1.340'tan fazla SRS toptan satış noktası vardı. 2025 mali yılında satış 164,7 milyar dolar, net kâr 14,2 milyar dolar oldu.",
+  "moat_text": "Hendek geniş. Üstünlük ölçekten ve dağıtımdan geliyor: 2.364 mağaza, 164,7 milyar dolarlık satış ve bunun getirdiği alım gücü. Yeni bir rakibin aynı ağı kurması yıllar ve çok büyük sermaye ister. Kârlılık bunu gösteriyor: faaliyet kâr marjı son çeyrekte %14,3. Reel özsermaye kârlılığı son 12 ayda %97,0; ama bu oran dikkatle okunmalı, çünkü şirketin özsermayesi borcuna göre çok küçük (PD/DD 21,1). Zayıf yan: aynı mağaza satışları yavaş büyüyor (2025'te %0,3, son çeyrekte %1,7) ve büyük tadilat talebi konut piyasasına bağlı.",
+  "mgmt": "Hisseler halka yaygın; hâkim ortak yok. Kârın büyük kısmı temettüye gidiyor: yılın ilk altı ayında 8,06 milyar dolar net kârın 4,64 milyar doları temettü olarak ödendi. Çeyreklik temettü Şubat 2026'da %1,3 artışla hisse başına 2,33 dolara çıktı. Şirket ustalara satışı büyütmek için borçla satın alma yaptı: SRS'in ardından 4 Eylül 2025'te GMS'i yaklaşık 5,5 milyar dolara aldı. Borç bu yüzden yüksek: net borç/FAVÖK 2,48, eşiğin (3) altında ama ona yakın. 2 Ağustos 2026'da toplam finansal borç yaklaşık 52,9 milyar dolar, nakit 2,1 milyar dolardı.",
+  "latest": "18 Ağustos 2026: 2026 mali yılının ikinci çeyreğinde (2 Ağustos'ta biten) satış %5,7 artışla 47,9 milyar dolar oldu. Aynı mağaza satışları %1,7, ABD'de %1,3 arttı. Net kâr 4,77 milyar dolar (geçen yıl 4,55 milyar), hisse başına kâr 4,79 dolar (geçen yıl 4,58). Faaliyet kâr marjı %14,5'ten %14,3'e indi. Şirket yıl hedefini korudu: satışta %2,5-4,5 artış, aynı mağaza satışlarında sıfır ile %2 arası artış, hisse başına kârda sıfır ile %4 arası artış. Üçüncü çeyrek sonuçları 17 Kasım 2026'da açıklanacak.",
+  "risks": [
+   "Fiyat: F/K 24,6. Temkinli hesapla hisse adil değerin çok üzerinde; güvenlik marjı yok.",
+   "Borç: net borç/FAVÖK 2,48 ile eşiğe (3) yakın. Kâr düşerse ya da yeni bir borçlu satın alma olursa şirket 2. surda elenir.",
+   "Talep konut piyasasına ve faize bağlı: aynı mağaza satışları 2025'te yalnızca %0,3 arttı; yönetim müşterinin küçük işlere yöneldiğini söylüyor.",
+   "Marj geriliyor: altı aylık faaliyet kâr marjı %13,7'den %13,2'ye indi. Yıl hedefi, beklenen gümrük vergisi iadelerinin yakıt ve enerji maliyetini kısmen karşılayacağını varsayıyor.",
+   "SRS ve GMS satın almaları yeni bir iş kolu: toptan dağıtımın marjı mağazadan farklıdır ve beklenen fayda henüz kanıtlanmadı."
+  ],
+  "watch": [
+   "Aynı mağaza satışları",
+   "Faaliyet kâr marjı (yıl hedefi yaklaşık %12,4-12,6)",
+   "Net borç/FAVÖK (eşik 3)",
+   "17 Kasım 2026'da açıklanacak üçüncü çeyrek sonuçları"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/stocks/hd/financials/ratios/"
+   },
+   {
+    "t": "SEC: Home Depot 8-K eki, 2026 mali yılı 2. çeyrek sonuçları (18 Ağustos 2026)",
+    "te": "SEC: Home Depot 8-K exhibit, second-quarter fiscal 2026 results (18 August 2026)",
+    "u": "https://www.sec.gov/Archives/edgar/data/0000354950/000035495026000145/hd_exhibit991x08022026.htm"
+   },
+   {
+    "t": "Home Depot: 2025 mali yılı 4. çeyrek ve yıl sonuçları (24 Şubat 2026)",
+    "te": "Home Depot: fourth-quarter and fiscal 2025 results (24 February 2026)",
+    "u": "https://corporate.homedepot.com/news/earnings/home-depot-announces-fourth-quarter-2025-earnings"
+   },
+   {
+    "t": "Home Depot: GMS satın alması tamamlandı (4 Eylül 2025)",
+    "te": "Home Depot: acquisition of GMS completed (4 September 2025)",
+    "u": "https://corporate.homedepot.com/news/company/home-depot-and-its-subsidiary-srs-distribution-complete-acquisition-gms"
+   },
+   {
+    "t": "Retail Insight Network: Home Depot 2. çeyrek net satışları arttı (18 Ağustos 2026)",
+    "te": "Retail Insight Network: Home Depot posts rise in Q2 net sales (18 August 2026)",
+    "u": "https://www.retail-insight-network.com/newsletters/home-depot-posts-rise-q2-net-sales"
+   },
+   {
+    "t": "Earnings Whispers: Home Depot 3. çeyrek sonuç tarihi (3 Kasım 2026)",
+    "te": "Earnings Whispers: Home Depot third-quarter results date (3 November 2026)",
+    "u": "https://www.earningswhispers.com/article/HD/2611036981"
+   }
+  ],
+  "en": {
+   "one": "The largest US home improvement chain. Wide moat; it passed the quality walls and waits at the gate on price. Debt is high.",
+   "business": "Home Depot sells home improvement and building materials, both to people who repair their own homes and to tradespeople and contractors. On 2 August 2026 it had 2,364 stores and more than 1,340 SRS wholesale locations. In fiscal 2025 sales were 164.7 billion dollars and net profit 14.2 billion dollars.",
+   "moat_text": "The moat is wide. The advantage comes from scale and distribution: 2,364 stores, 164.7 billion dollars of sales and the buying power that brings. A new rival would need years and a very large amount of capital to build the same network. Profitability shows it: operating margin was 14.3% in the latest quarter. Real return on equity was 97.0% over the last twelve months; but this ratio must be read with care, because the company's equity is very small next to its debt (P/B 21.1). The weak side: comparable sales grow slowly (0.3% in 2025, 1.7% in the latest quarter) and demand for large renovations depends on the housing market.",
+   "mgmt": "The shares are widely held; there is no controlling shareholder. Most of the profit goes to dividends: in the first six months of the year 4.64 billion dollars of the 8.06 billion dollars of net profit was paid as dividends. The quarterly dividend rose 1.3% to 2.33 dollars per share in February 2026. The company made debt-funded acquisitions to grow sales to tradespeople: after SRS it bought GMS on 4 September 2025 for about 5.5 billion dollars. That is why debt is high: net debt/EBITDA is 2.48, below the threshold (3) but close to it. On 2 August 2026 total financial debt was about 52.9 billion dollars and cash 2.1 billion dollars.",
+   "latest": "18 August 2026: In the second quarter of fiscal 2026 (ending 2 August) sales rose 5.7% to 47.9 billion dollars. Comparable sales rose 1.7%, and 1.3% in the US. Net profit was 4.77 billion dollars (4.55 billion a year earlier) and earnings per share 4.79 dollars (4.58 a year earlier). Operating margin slipped from 14.5% to 14.3%. The company kept its full-year target: sales up 2.5-4.5%, comparable sales flat to up 2%, earnings per share flat to up 4%. Third-quarter results are due on 17 November 2026.",
+   "risks": [
+    "Price: the P/E is 24.6. On the conservative calculation the share is far above fair value; there is no margin of safety.",
+    "Debt: net debt/EBITDA is 2.48, close to the threshold (3). If profit falls or another debt-funded acquisition follows, the company is eliminated at Wall 2.",
+    "Demand depends on the housing market and interest rates: comparable sales rose only 0.3% in 2025; management says customers are turning to smaller projects.",
+    "The margin is slipping: six-month operating margin fell from 13.7% to 13.2%. The full-year target assumes that expected tariff refunds will partly offset fuel and energy costs.",
+    "The SRS and GMS acquisitions are a new line of business: wholesale distribution has a different margin from stores and the expected benefit is not yet proven."
+   ],
+   "watch": [
+    "Comparable sales",
+    "Operating margin (full-year target about 12.4-12.6%)",
+    "Net debt/EBITDA (threshold 3)",
+    "Third-quarter results due on 17 November 2026"
+   ]
+  }
+ },
+ "JNJ": {
+  "scores": {
+   "A": 1,
+   "B": 2,
+   "C": 2,
+   "D": 1,
+   "E": 2
+  },
+  "moat": "dar",
+  "per": "2026-Q3",
+  "one": "İlaç ve tıbbi cihaz üreticisi. Hendek dar ama gerçek, kalite surlarını geçti; fiyat yüksek olduğu için kapıda bekliyor.",
+  "business": "Johnson & Johnson iki kolda çalışır: reçeteli ilaçlar (kanser, bağışıklık ve sinir sistemi hastalıkları) ve tıbbi cihazlar (ameliyat, kalp, ortopedi, göz). 2026'nın üçüncü çeyreğinde satışlar 25,4 milyar dolar oldu: 16,8 milyar doları ilaçtan, 8,6 milyar doları tıbbi cihazdan. Satışların 15,0 milyar doları ABD'den geldi.",
+  "moat_text": "Hendek dar. Üstünlük patentlerden, araştırma ölçeğinden ve hastanelerle kurulu ilişkilerden geliyor; hepsi gerçek. Ama patent süreyle sınırlı: Stelara'nın patent korumasını yitirmesi son çeyrekte ilaç kolunun büyümesini yaklaşık 6,9 puan aşağı çekti. Kazancın sürmesi, biten her patentin yerine yeni ilaç konmasına bağlı; şimdilik Tremfya, Darzalex ve Carvykti bu açığı kapatıyor. Reel özsermaye kârlılığı beş yılda %14,3 ile %31,5 arasında, son 12 ayda %15,7: iyi, ama geniş hendekli bir işin düzeyinde ve istikrarında değil.",
+  "mgmt": "Kârın büyük bölümü temettüye gidiyor (temettü verimi %1,9); kalan nakit satın almalara ve araştırmaya ayrılıyor. Son çeyrekte kanser alanında çalışan Firefly Bio alındı. Borç düşük (net borç/FAVÖK 0,8). Kusur: talk pudrası davaları yıllardır kârı ve yönetimin zamanını yiyor; Temmuz 2026'da yumurtalık kanseri davaları için 5,5 milyar dolarlık bir çözüm önerildi. Şirket ortopedi işini ayırmayı planlıyor.",
+  "latest": "13 Ekim 2026: 2026'nın üçüncü çeyreğinde satışlar 25,4 milyar dolar (+%5,9). Net kâr 210 milyon dolara, hisse başına kâr 0,09 dolara düştü (geçen yıl 2,12 dolar); neden, talk davaları için önerilen çözümle ilgili tek seferlik gider. Düzeltilmiş hisse başına kâr 2,59 dolar (geçen yıl 2,80). İlaç satışları %7,7, tıbbi cihaz satışları %2,5 arttı. Şirket 2026 satış beklentisini 101,0-101,4 milyar dolara, düzeltilmiş hisse başına kâr beklentisini 11,05-11,15 dolara yükseltti.",
+  "risks": [
+   "Fiyat: F/K 42,6. Bu oran talk gideri son 12 ayın kârını düşürdüğü için olduğundan yüksek görünüyor; yine de temkinli hesapla hisse güvenlik marjı ölçütünü geçemiyor.",
+   "Talk davaları: 5,5 milyar dolarlık çözüm, kalan yaklaşık 76.000 davanın en az %95'inin katılımına bağlı. Koşul tutmazsa davalar ve giderler sürer.",
+   "Patent süreleri: Stelara'da görülen gelir kaybı başka büyük ilaçlarda da yaşanacak; yerine konan yeni ilaçlar yetmezse kâr geriler.",
+   "ABD'de ilaç fiyatlarına yönelik düzenlemeler: satışların yarıdan fazlası ABD'den geliyor.",
+   "Tıbbi cihaz kolu yavaş büyüyor (son çeyrekte %2,5); ortopedi işinin ayrılması şirketi küçültecek ve geçiş maliyeti getirecek."
+  ],
+  "watch": [
+   "Yeni ilaçların satış büyümesi (Tremfya, Darzalex, Carvykti)",
+   "Talk çözümüne katılım oranı ve ödeme takvimi",
+   "Tıbbi cihaz kolunun büyümesi ve ortopedi ayrılığı",
+   "Fiyat: güvenlik marjı eşiği"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/stocks/jnj/financials/ratios/"
+   },
+   {
+    "t": "Johnson & Johnson: 2026 üçüncü çeyrek sonuçları, beklenti yükseltildi (13 Eki 2026)",
+    "te": "Johnson & Johnson: Q3 2026 results, 2026 guidance raised (13 Oct 2026)",
+    "u": "https://www.jnj.com/media-center/press-releases/johnson-johnson-reports-q3-2026-results-raises-2026-guidance"
+   },
+   {
+    "t": "Finviz / Business Wire: Johnson & Johnson yumurtalık kanseri talk davaları için çözüm önerdi (27 Tem 2026)",
+    "te": "Finviz / Business Wire: Johnson & Johnson announces a proposed resolution of ovarian talc litigation (27 Jul 2026)",
+    "u": "https://finviz.com/news/373099/johnson-johnson-announces-a-proposed-resolution-of-ovarian-talc-litigation"
+   }
+  ],
+  "en": {
+   "one": "A maker of medicines and medical devices. The moat is narrow but real; it passed the quality walls but waits at the gate on price.",
+   "business": "Johnson & Johnson works in two arms: prescription medicines (cancer, immune and nervous system diseases) and medical devices (surgery, heart, orthopaedics, eye care). In the third quarter of 2026 sales were 25.4 billion dollars: 16.8 billion dollars from medicines and 8.6 billion dollars from medical devices. 15.0 billion dollars of sales came from the US.",
+   "moat_text": "The moat is narrow. The advantage comes from patents, research scale and established relationships with hospitals; all of it is real. But a patent has a time limit: Stelara's loss of patent protection pulled growth in the medicines arm down by about 6.9 points in the last quarter. For earnings to continue, each expiring patent has to be replaced by a new medicine; for now Tremfya, Darzalex and Carvykti are filling the gap. Real return on equity ranged between 14.3% and 31.5% in five years and was 15.7% in the last 12 months: good, but not at the level or the steadiness of a wide-moat business.",
+   "mgmt": "Most of the profit goes to dividends (dividend yield 1.9%); the remaining cash goes to acquisitions and research. In the last quarter it acquired Firefly Bio, which works in cancer. Debt is low (net debt/EBITDA 0.8). The flaw: talc lawsuits have been eating profit and management time for years; in July 2026 a 5.5 billion dollar resolution was proposed for the ovarian cancer cases. The company plans to separate its orthopaedics business.",
+   "latest": "13 October 2026: In the third quarter of 2026 sales were 25.4 billion dollars (+5.9%). Net profit fell to 210 million dollars and earnings per share to 0.09 dollars (2.12 dollars a year earlier); the cause is a one-time charge related to the proposed resolution of the talc lawsuits. Adjusted earnings per share were 2.59 dollars (2.80 a year earlier). Medicine sales rose 7.7% and medical device sales 2.5%. The company raised its 2026 sales forecast to 101.0-101.4 billion dollars and its adjusted earnings per share forecast to 11.05-11.15 dollars.",
+   "risks": [
+    "Price: the P/E is 42.6. This ratio looks higher than it is because the talc charge lowered the profit of the last 12 months; even so, on the conservative calculation the share does not pass the margin-of-safety criterion.",
+    "Talc lawsuits: the 5.5 billion dollar resolution depends on the participation of at least 95% of the roughly 76,000 remaining claims. If the condition is not met, the lawsuits and the costs continue.",
+    "Patent terms: the loss of income seen with Stelara will also happen with other large medicines; if the new medicines that replace them are not enough, profit falls.",
+    "Regulation of medicine prices in the US: more than half of sales come from the US.",
+    "The medical devices arm is growing slowly (2.5% in the last quarter); separating the orthopaedics business will make the company smaller and bring transition costs."
+   ],
+   "watch": [
+    "Sales growth of the new medicines (Tremfya, Darzalex, Carvykti)",
+    "Participation rate and payment schedule of the talc resolution",
+    "Growth of the medical devices arm and the orthopaedics separation",
+    "Price: the margin-of-safety threshold"
+   ]
+  }
+ },
+ "KO": {
+  "scores": {
+   "A": 2,
+   "B": 3,
+   "C": 2,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "geniş",
+  "per": "2026-Q3",
+  "one": "Dünyanın en bilinen içecek markasının sahibi. Hendek geniş, kalite surlarını geçti; fiyat yüksek olduğu için kapıda bekliyor.",
+  "business": "Coca-Cola, içeceklerin özünü (konsantre) ve markasını üretir; şişeleme ve dağıtımı çoğu ülkede bağımsız şişeleyiciler yapar. Bu yüzden az sermayeyle çalışır ve marjı yüksektir. 2026'nın üçüncü çeyreğinde net hasılat 13,4 milyar dolar, faaliyet marjı %33,4 oldu. Satış hacmi dünya genelinde %5 arttı.",
+  "moat_text": "Hendek geniş. Üstünlük markadan ve dünyanın hemen her yerine ulaşan şişeleyici ağından geliyor: bir rakibin aynı tanınırlığı ve raf yerini kazanması yıllar ve çok büyük sermaye ister. Fiyatlama gücü marjda görünüyor: faaliyet marjı %33,4 (bir yıl önce %32,0). Reel özsermaye kârlılığı beş yıldır %29,4 ile %39,6 arasında. Zayıf yan: Kuzey Amerika'da hacim büyümüyor (son çeyrekte yatay); büyüme gelişen pazarlardan ve Coca-Cola Zero Sugar gibi şekersiz ürünlerden geliyor.",
+  "mgmt": "Kârın büyük bölümü temettü olarak dağıtılıyor: dağıtım oranı %62,5, temettü verimi %2,2. Şirket şişeleme işlerini elden çıkarıp ana işe, yani marka ve konsantreye dönüyor; Afrika'daki şişeleme işinin satışının 2026'nın son çeyreğinde tamamlanması bekleniyor. Borç makul (net borç/FAVÖK 1,48). Üst yöneticilik görevini Henrique Braun yürütüyor.",
+  "latest": "27 Ekim 2026: 2026'nın üçüncü çeyreğinde net hasılat 13,4 milyar dolar (+%7), hisse başına kâr 0,93 dolar (+%8). Satış hacmi %5 arttı, fiyat ve ürün karması %1 katkı yaptı. Faaliyet marjı %33,4 (geçen yıl %32,0). Şirket 2026 beklentisini yükseltti: organik hasılat büyümesi en az %5, serbest nakit akışı en az 13,0 milyar dolar. İlk dokuz ayda serbest nakit akışı 11,4 milyar dolar.",
+  "risks": [
+   "Fiyat: F/K 28,6. Temkinli hesapla hisse güvenlik marjı ölçütünü geçemiyor.",
+   "ABD vergi idaresiyle (IRS) dava: 2007-2009 yıllarına ilişkin davada vergi mahkemesi şirket aleyhine karar verdi. Şirket 6 milyar dolar yatırdı; InvestmentNews'e göre kaybederse yaklaşık 14 milyar dolar daha ödeyebilir ve vergi oranı kalıcı olarak yükselir. Temyiz duruşması 25 Haziran 2026'da yapıldı.",
+   "Şekerli içecek tüketimi: sağlık kaygıları ve şeker vergileri gelişmiş pazarlarda hacmi baskılıyor; Kuzey Amerika'da hacim son çeyrekte artmadı.",
+   "Kur: şirket dünyanın hemen her yerinde satış yapıyor. Kur 2026'da kârı destekledi; şirket 2027 için hafif bir ters etki bekliyor.",
+   "Şirket, satın alma ve elden çıkarmaların 2027'de karşılaştırılabilir hasılatı yaklaşık %8 azaltmasını bekliyor; görünen büyüme bir süre düşük kalır."
+  ],
+  "watch": [
+   "Satış hacmi ve fiyat/ürün karması",
+   "Faaliyet marjı",
+   "IRS davasında temyiz kararı",
+   "Fiyat: güvenlik marjı eşiği"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/stocks/ko/financials/ratios/"
+   },
+   {
+    "t": "The Coca-Cola Company: 2026 üçüncü çeyrek sonuçları, yıl beklentisi yükseltildi (27 Eki 2026)",
+    "te": "The Coca-Cola Company: third quarter 2026 results, full-year guidance raised (27 Oct 2026)",
+    "u": "https://investors.coca-colacompany.com/news-events/press-releases/detail/1176/coca-cola-reports-third-quarter-202%206-results-and-raises-full-year-guidance"
+   },
+   {
+    "t": "Finviz: Coca-Cola 2026 kâr beklentisini yükseltti (27 Eki 2026)",
+    "te": "Finviz: Coca-Cola raises 2026 earnings outlook after Q3 revenue and profit exceed estimates (27 Oct 2026)",
+    "u": "https://finviz.com/news/408889/coca-cola-raises-2026-earnings-outlook-after-q3-revenue-and-profit-exceed-estimates"
+   },
+   {
+    "t": "InvestmentNews: Coca-Cola'nın 20 milyar dolarlık vergi davası temyiz mahkemesinde (22 Haz 2026)",
+    "te": "InvestmentNews: Coca-Cola's $20bn tax fight reaches federal appeals court this week (22 Jun 2026)",
+    "u": "https://www.investmentnews.com/regulation-legal-compliance/coca-colas-20bn-tax-fight-reaches-federal-appeals-court-this-week/267091"
+   }
+  ],
+  "en": {
+   "one": "The owner of the world's best-known drinks brand. The moat is wide; it passed the quality walls but waits at the gate on price.",
+   "business": "Coca-Cola makes the concentrate and owns the brands; in most countries independent bottlers do the bottling and distribution. That is why it works with little capital and has a high margin. In the third quarter of 2026 net revenue was 13.4 billion dollars and the operating margin 33.4%. Sales volume rose 5% worldwide.",
+   "moat_text": "The moat is wide. The advantage comes from the brand and from a bottler network that reaches almost everywhere in the world: a competitor would need years and a very large amount of capital to win the same recognition and shelf space. Pricing power shows in the margin: the operating margin is 33.4% (32.0% a year earlier). Real return on equity has been between 29.4% and 39.6% for five years. The weak side: volume is not growing in North America (flat in the last quarter); growth comes from emerging markets and from sugar-free products such as Coca-Cola Zero Sugar.",
+   "mgmt": "Most of the profit is paid out as dividends: the payout ratio is 62.5% and the dividend yield 2.2%. The company is selling its bottling operations and returning to the core business of brands and concentrate; the sale of the bottling operations in Africa is expected to close in the last quarter of 2026. Debt is reasonable (net debt/EBITDA 1.48). The chief executive is Henrique Braun.",
+   "latest": "27 October 2026: In the third quarter of 2026 net revenue was 13.4 billion dollars (+7%) and earnings per share 0.93 dollars (+8%). Sales volume rose 5%; price and mix added 1%. The operating margin was 33.4% (32.0% a year earlier). The company raised its 2026 outlook: organic revenue growth of at least 5% and free cash flow of at least 13.0 billion dollars. Free cash flow in the first nine months was 11.4 billion dollars.",
+   "risks": [
+    "Price: the P/E is 28.6. On the conservative calculation the share does not pass the margin-of-safety criterion.",
+    "Lawsuit with the US tax authority (IRS): in the case covering 2007-2009 the tax court ruled against the company. The company has deposited 6 billion dollars; according to InvestmentNews, if it loses it could pay about 14 billion dollars more and its tax rate would rise permanently. The appeal hearing was held on 25 June 2026.",
+    "Consumption of sugary drinks: health concerns and sugar taxes weigh on volume in developed markets; volume in North America did not grow in the last quarter.",
+    "Currency: the company sells almost everywhere in the world. Currency supported profit in 2026; the company expects a slight headwind for 2027.",
+    "The company expects acquisitions and divestitures to reduce comparable revenue by about 8% in 2027; reported growth will stay low for a while."
+   ],
+   "watch": [
+    "Sales volume and price/mix",
+    "Operating margin",
+    "The appeal ruling in the IRS case",
+    "Price: the margin-of-safety threshold"
+   ]
+  }
+ },
+ "MA": {
+  "scores": {
+   "A": 2,
+   "B": 3,
+   "C": 2,
+   "D": 2,
+   "E": 2
+  },
+  "moat": "geniş",
+  "per": "2026-Q3",
+  "one": "Dünyanın iki büyük kartlı ödeme ağından biri. Hendek geniş, kalite surlarını geçti; fiyat yüksek olduğu için kapıda bekliyor.",
+  "business": "Mastercard, kartla yapılan ödemeleri bankalar ve işyerleri arasında taşıyan ağı işletir; kredi vermez. Gelirin bir bölümü ağdan geçen işlemlerden, bir bölümü de bankalara ve işyerlerine sattığı ek hizmetlerden (güvenlik, veri, danışmanlık) gelir. 2026'nın üçüncü çeyreğinde net hasılat 9,8 milyar dolar: 5,7 milyar doları ödeme ağından, 4,1 milyar doları ek hizmetlerden. 30 Eylül 2026'da dolaşımda 3,8 milyar Mastercard ve Maestro kartı vardı.",
+  "moat_text": "Hendek geniş. Kart sahibi kartın her yerde geçmesini, işyeri de müşterinin kartını kabul etmeyi ister; iki taraf birbirini çektiği için yeni bir ağın aynı yaygınlığa ulaşması yıllar ve çok büyük sermaye ister. Fiyatlama gücü marjda görünüyor: son çeyrekte faaliyet marjı %59,8. Reel özsermaye kârlılığı beş yıldır %110'un üzerinde; ancak bu oran geri alımlar yüzünden özsermayenin çok küçük kalmasıyla şişiyor (30 Eylül 2026'da 6,7 milyar dolar). Zayıf yan: ücretler dava ve düzenleme konusu, bankalara ödenen teşvikler hasılattan hızlı büyüyor.",
+  "mgmt": "Kâr hissedara dönüyor. Üçüncü çeyrekte 3,0 milyar dolarlık hisse geri alındı, 763 milyon dolar temettü ödendi; 26 Ekim 2026 itibarıyla geri alım yetkisinden 4,9 milyar dolar kalmıştı. Borç düşük (net borç/FAVÖK 0,58) ama artıyor: uzun vadeli borç 30 Eylül 2026'da 22,2 milyar dolar, 2025 sonuna göre %21,6 fazla.",
+  "latest": "29 Ekim 2026: 2026'nın üçüncü çeyreğinde net hasılat 9,8 milyar dolar (+%14), net kâr 4,6 milyar dolar (+%18), hisse başına kâr 5,28 dolar (+%22). Brüt ödeme hacmi yerel para birimiyle %7, sınır ötesi hacim %11, işlem sayısı %9 arttı. Ek hizmet geliri %19 büyüdü. Çeyrekte 74 milyon dolar dava karşılığı ayrıldı.",
+  "risks": [
+   "Fiyat: F/K 34,5. Temkinli hesapla hisse güvenlik marjı ölçütünü geçemiyor.",
+   "Dava ve düzenleme: ABD'de işyerleriyle yapılan ücret anlaşması Haziran 2026'da ön onay aldı; kesin onay ve itirazlar sürüyor. Anlaşma takas ücretlerini beş yıl boyunca 10 baz puan indiriyor ve işyerine bazı kart türlerini reddetme hakkı veriyor.",
+   "Bankalara verilen indirim ve teşvikler son çeyrekte %18 arttı; ödeme ağı geliri %11 büyüdü. Fark sürerse marj daralır.",
+   "ABD'de kredi kartlarına ikinci bir ağ seçeneği zorunluluğu getirecek yasa teklifi (Credit Card Competition Act) gündemde; yasalaşırsa işlem payı azalabilir.",
+   "Özsermaye çok küçük olduğu için özsermaye kârlılığı ve PD/DD (85,2) işin gücünü olduğundan büyük gösterir; borç artarsa dayanıklılık azalır."
+  ],
+  "watch": [
+   "Brüt ödeme hacmi ve sınır ötesi hacmin büyümesi",
+   "Ek hizmet gelirinin büyümesi",
+   "Teşviklerin hasılata oranı",
+   "Fiyat: güvenlik marjı eşiği"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/stocks/ma/financials/ratios/"
+   },
+   {
+    "t": "Mastercard (SEC 8-K): 2026 üçüncü çeyrek sonuç bülteni (29 Eki 2026)",
+    "te": "Mastercard (SEC 8-K): third-quarter 2026 earnings release (29 Oct 2026)",
+    "u": "https://www.sec.gov/Archives/edgar/data/0001141391/000114139126000122/ma09302026-exx991xearnings.htm"
+   },
+   {
+    "t": "Zacks: Mastercard 3. çeyrek kârı beklentiyi aştı (29 Eki 2026)",
+    "te": "Zacks: Mastercard beats Q3 earnings on higher cross-border volumes, pricing (29 Oct 2026)",
+    "u": "https://www.zacks.com/stock/news/3018925/mastercard-beats-q3-earnings-on-higher-cross-border-volumes-pricing"
+   },
+   {
+    "t": "American Banker: Visa ve Mastercard'ın işyerleriyle ücret anlaşmasına ön onay (10 Haz 2026)",
+    "te": "American Banker: preliminary approval of the Visa and Mastercard fee settlement with merchants (10 Jun 2026)",
+    "u": "https://www.americanbanker.com/payments/news/judge-approves-card-network-fee-settlement-with-merchants"
+   }
+  ],
+  "en": {
+   "one": "One of the world's two large card payment networks. The moat is wide; it passed the quality walls but waits at the gate on price.",
+   "business": "Mastercard runs the network that carries card payments between banks and merchants; it does not lend. Part of its income comes from transactions passing through the network and part from extra services sold to banks and merchants (security, data, consulting). In the third quarter of 2026 net revenue was 9.8 billion dollars: 5.7 billion dollars from the payment network and 4.1 billion dollars from the extra services. On 30 September 2026 there were 3.8 billion Mastercard and Maestro cards in circulation.",
+   "moat_text": "The moat is wide. The cardholder wants a card that works everywhere and the merchant wants to accept the customer's card; because each side draws the other, a new network would need years and a very large amount of capital to reach the same coverage. Pricing power shows in the margin: the operating margin was 59.8% in the last quarter. Real return on equity has been above 110% for five years; however, this ratio is inflated because buybacks have left equity very small (6.7 billion dollars on 30 September 2026). The weak side: the fees are a subject of lawsuits and regulation, and the incentives paid to banks are growing faster than revenue.",
+   "mgmt": "Profit returns to shareholders. In the third quarter 3.0 billion dollars of shares were bought back and 763 million dollars of dividends were paid; as of 26 October 2026, 4.9 billion dollars remained under the buyback authorization. Debt is low (net debt/EBITDA 0.58) but rising: long-term debt was 22.2 billion dollars on 30 September 2026, 21.6% more than at the end of 2025.",
+   "latest": "29 October 2026: In the third quarter of 2026 net revenue was 9.8 billion dollars (+14%), net profit 4.6 billion dollars (+18%) and earnings per share 5.28 dollars (+22%). Gross dollar volume rose 7% in local currency, cross-border volume 11% and the number of transactions 9%. Income from the extra services grew 19%. A litigation provision of 74 million dollars was booked in the quarter.",
+   "risks": [
+    "Price: the P/E is 34.5. On the conservative calculation the share does not pass the margin-of-safety criterion.",
+    "Lawsuits and regulation: the fee settlement with merchants in the US received preliminary approval in June 2026; final approval and objections are still pending. The settlement lowers interchange fees by 10 basis points for five years and lets merchants decline some card types.",
+    "Rebates and incentives paid to banks rose 18% in the last quarter; payment network revenue grew 11%. If the gap continues, the margin narrows.",
+    "A bill in the US that would require a second network option on credit cards (the Credit Card Competition Act) is on the agenda; if it becomes law, the share of transactions could fall.",
+    "Because equity is very small, return on equity and the P/B (85.2) make the business look stronger than it is; if debt keeps rising, resilience falls."
+   ],
+   "watch": [
+    "Growth in gross dollar volume and cross-border volume",
+    "Growth in income from the extra services",
+    "Incentives as a share of revenue",
+    "Price: the margin-of-safety threshold"
+   ]
+  }
+ },
+ "PG": {
+  "scores": {
+   "A": 2,
+   "B": 3,
+   "C": 2,
+   "D": 2,
+   "E": 2
+  },
+  "moat": "geniş",
+  "per": "2027-Q1",
+  "one": "Tide, Pampers ve Gillette gibi markaların sahibi. Hendek geniş, kalite surlarını geçti; fiyat yetmediği için kapıda bekliyor.",
+  "business": "Procter & Gamble her gün kullanılan ev ve kişisel bakım ürünleri satar: deterjan, bebek bezi, tıraş, saç ve ağız bakımı. 2026 mali yılında (haziranda biter) net satış 87,0 milyar dolar, net kâr 16,1 milyar dolar oldu. Satışın yaklaşık %35'i çamaşır ve ev bakımından (30,3 milyar dolar), %23'ü bebek, kadın ve aile bakımından (20,4 milyar dolar) geldi.",
+  "moat_text": "Hendek geniş. Üstünlük markalardan ve dünya çapındaki dağıtımdan geliyor: ürünler her markette rafta, tüketici alıştığı markayı yeniden alıyor. Bunun karşılığı kârlılıkta görünüyor: reel özsermaye kârlılığı beş yıldır %23,6'nın altına inmedi, son 12 ayda %25,0. Son çeyrekte on ürün kategorisinin hepsinde ve altı bölgenin hepsinde organik satış arttı. Zayıf yan: dünya pazar payı geçen yılla aynı kaldı, en büyük 50 kategori ve ülke eşleşmesinin 29'unda pay korundu ya da arttı. Market markaları ve ham madde maliyeti marjı sıkıştırabiliyor; son çeyrekte brüt marj 1,6 puan düştü.",
+  "mgmt": "Hisseler halka yaygın; hâkim ortak yok. Kâr hissedara dönüyor: 2026 mali yılında 10,2 milyar dolar temettü ödendi, 5,0 milyar dolarlık hisse geri alındı. Şirket 136 yıldır aralıksız temettü ödüyor; Nisan 2026'daki artış art arda 70. yıllık artıştı. Borç düşük: net borç/FAVÖK 0,94. Haziran 2025'te açıklanan iki yıllık yeniden yapılanma planının vergi öncesi maliyeti yaklaşık 2 milyar dolar. Şirket 1 Ekim 2026'da Thorne'u satın aldı.",
+  "latest": "22 Ekim 2026: 2027 mali yılının ilk çeyreğinde (eylülde biten) net satış %4 artışla 23,3 milyar dolar oldu; organik satış da %4 arttı. Hisse başına kâr %1 artışla 1,97 dolar, net kâr %1 düşüşle 4,76 milyar dolar. Brüt marj 1,6 puan geriledi; nedeni pahalanan ham madde ve ürüne yapılan yatırım. Faaliyet nakit akışı 5,8 milyar dolar. Hissedara 3,9 milyar dolar döndü (2,6 milyar temettü, 1,3 milyar geri alım). Şirket yıl hedefini korudu: organik satışta %1-3, hisse başına kârda %1-5 artış.",
+  "risks": [
+   "Fiyat: F/K 25,4. Temkinli hesapla hisse adil değerin çok üzerinde; güvenlik marjı yok.",
+   "Maliyet: şirket 2027 mali yılında ham madde, enerji ve nakliyeden vergi sonrası yaklaşık 1,4 milyar dolar ek yük bekliyor. Bütün olumsuz kalemler hisse başına 0,79 dolar ediyor.",
+   "Büyüme yavaş: 2026 mali yılında organik satış yalnızca %1 arttı ve bu artış fiyattan geldi. Fiyat artışı sürdürülemezse kâr yerinde sayar.",
+   "Pazar payı artmıyor: dünya payı geçen yılla aynı; cilt bakımı, ağız bakımı ve kâğıt ürünlerinde pay geriledi."
+  ],
+  "watch": [
+   "Organik satışta hacim ve fiyat payı",
+   "Brüt marj ve ham madde maliyeti",
+   "Pazar payı (en büyük 50 kategori ve ülke eşleşmesi)",
+   "Fiyat: güvenlik marjı eşiği"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/stocks/pg/financials/ratios/"
+   },
+   {
+    "t": "SEC: P&G 8-K eki, 2027 mali yılı 1. çeyrek sonuçları (22 Ekim 2026)",
+    "te": "SEC: P&G 8-K exhibit, fiscal 2027 first-quarter results (22 October 2026)",
+    "u": "https://www.sec.gov/Archives/edgar/data/0000080424/000008042426000250/fy2627q1jas8-kexhibit991.htm"
+   },
+   {
+    "t": "SEC: P&G 8-K eki, 1. çeyrek sunumu (22 Ekim 2026)",
+    "te": "SEC: P&G 8-K exhibit, first-quarter slides (22 October 2026)",
+    "u": "https://www.sec.gov/Archives/edgar/data/0000080424/000008042426000252/slides.htm"
+   },
+   {
+    "t": "P&G: 2026 mali yılı 4. çeyrek ve yıl sonuçları (29 Temmuz 2026)",
+    "te": "P&G: fourth-quarter and fiscal year 2026 results (29 July 2026)",
+    "u": "https://us.pg.com/newsroom/news-releases/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2026-Results/"
+   },
+   {
+    "t": "Personal Care Insights: P&G 1. çeyrek büyümesine güzellik bölümü öncülük etti (23 Ekim 2026)",
+    "te": "Personal Care Insights: Beauty leads P&G Q1 FY2027 growth (23 October 2026)",
+    "u": "https://www.personalcareinsights.com/news/pg-beauty-leads-q1-growth.html"
+   }
+  ],
+  "en": {
+   "one": "Owner of brands such as Tide, Pampers and Gillette. Wide moat; it passed the quality walls and waits at the gate on price.",
+   "business": "Procter & Gamble sells household and personal care products used every day: detergent, diapers, shaving, hair and oral care. In fiscal 2026 (ending in June) net sales were 87.0 billion dollars and net profit 16.1 billion dollars. About 35% of sales came from fabric and home care (30.3 billion dollars) and 23% from baby, feminine and family care (20.4 billion dollars).",
+   "moat_text": "The moat is wide. The advantage comes from the brands and from worldwide distribution: the products are on the shelf in every store and shoppers buy the brand they know again. This shows in profitability: real return on equity has not fallen below 23.6% in five years and was 25.0% over the last twelve months. In the latest quarter organic sales grew in all ten product categories and all six regions. The weak side: global market share was flat on the year, and share was held or gained in 29 of the top 50 category and country combinations. Store brands and raw material costs can squeeze the margin; gross margin fell 1.6 points in the latest quarter.",
+   "mgmt": "The shares are widely held; there is no controlling shareholder. Profit returns to shareholders: in fiscal 2026 the company paid 10.2 billion dollars in dividends and bought back 5.0 billion dollars of shares. It has paid a dividend for 136 years without a break; the increase in April 2026 was the 70th annual increase in a row. Debt is low: net debt/EBITDA is 0.94. The two-year restructuring plan announced in June 2025 costs about 2 billion dollars before tax. The company acquired Thorne on 1 October 2026.",
+   "latest": "22 October 2026: In the first quarter of fiscal 2027 (ending in September) net sales rose 4% to 23.3 billion dollars; organic sales also rose 4%. Earnings per share rose 1% to 1.97 dollars and net profit fell 1% to 4.76 billion dollars. Gross margin fell 1.6 points because of dearer raw materials and investment in products. Operating cash flow was 5.8 billion dollars. Shareholders received 3.9 billion dollars (2.6 billion in dividends, 1.3 billion in buybacks). The company kept its full-year target: organic sales up 1-3% and earnings per share up 1-5%.",
+   "risks": [
+    "Price: the P/E is 25.4. On the conservative calculation the share is far above fair value; there is no margin of safety.",
+    "Costs: the company expects about 1.4 billion dollars of extra after-tax cost from raw materials, energy and transport in fiscal 2027. All the headwinds together amount to 0.79 dollars per share.",
+    "Growth is slow: organic sales rose only 1% in fiscal 2026 and the rise came from pricing. If price increases cannot continue, profit stands still.",
+    "Market share is not rising: global share was flat on the year; share fell in skin care, oral care and family care paper products."
+   ],
+   "watch": [
+    "Volume and price in organic sales growth",
+    "Gross margin and raw material costs",
+    "Market share (top 50 category and country combinations)",
+    "Price: the margin-of-safety threshold"
+   ]
+  }
+ },
+ "V": {
+  "scores": {
+   "A": 2,
+   "B": 3,
+   "C": 2,
+   "D": 2,
+   "E": 2
+  },
+  "moat": "geniş",
+  "per": "2026-Q4",
+  "one": "Dünyanın en büyük kartlı ödeme ağlarından biri. Hendek geniş, kalite surlarını geçti; fiyat yüksek olduğu için kapıda bekliyor.",
+  "business": "Visa, kartla yapılan ödemeleri bankalar ve işyerleri arasında taşıyan ağı işletir. Kredi vermez; her işlemden ve ödeme hacminden küçük bir ücret alır. 30 Eylül 2026'da biten mali yılda net hasılat 45,9 milyar dolar, net kâr 23,5 milyar dolar oldu. Ağ yıl boyunca 281,3 milyar işlem işledi.",
+  "moat_text": "Hendek geniş. Üstünlük ağın kendisinden geliyor: kart sahibi kartın her yerde geçmesini, işyeri de müşterinin cebindeki kartı kabul etmeyi ister. İki taraf birbirini çektiği için yeni bir ağın aynı yaygınlığa ulaşması yıllar ve çok büyük sermaye ister. Kanıt rakamlarda: son mali yılda 45,9 milyar dolar net hasılattan 23,5 milyar dolar net kâr kaldı; reel özsermaye kârlılığı beş yılda %32,3'ten %57,7'ye çıktı. Zayıf yan: ücretler sürekli dava ve düzenleme konusu, bankalara ödenen teşvikler de hasılattan hızlı büyüyor.",
+  "mgmt": "Kâr hissedara dönüyor. 2026 mali yılında geri alım ve temettü toplamı 25,6 milyar dolar; bunun 20,5 milyar doları geri alım. Çeyreklik temettü %16 artırılarak hisse başına 0,78 dolara çıkarıldı. Borç düşük (net borç/FAVÖK 0,28). Ağustos 2026'da dolandırıcılık tespiti yapan BioCatch'i 2,4 milyar dolar nakitle almak için anlaştı; ana işe yakın ve ölçeğine göre küçük bir alım.",
+  "latest": "27 Ekim 2026: 2026 mali yılının son çeyreğinde net hasılat 12,1 milyar dolar (+%13), net kâr 6,0 milyar dolar (+%18), hisse başına kâr 3,19 dolar (+%22). Ödeme hacmi sabit kurla %9, sınır ötesi hacim %14, işlem sayısı %10 arttı. Çeyrekte dava karşılığı olarak 469 milyon dolar ayrıldı. Şirket 2027 mali yılı için net hasılatta düşük çift haneli büyüme bekliyor.",
+  "risks": [
+   "Fiyat: F/K 34,6. Temkinli hesapla hisse güvenlik marjı ölçütünü geçemiyor.",
+   "Dava ve düzenleme: ABD'de işyerleriyle yapılan ücret anlaşması Haziran 2026'da ön onay aldı; kesin onay ve itirazlar sürüyor. Anlaşma takas ücretlerini beş yıl boyunca 10 baz puan indiriyor ve işyerine bazı kart türlerini reddetme hakkı veriyor.",
+   "Dava karşılıkları kârı düzenli olarak azaltıyor: 2026 mali yılında 1,7 milyar dolar, bir önceki yıl 2,5 milyar dolar.",
+   "Bankalara ve iş ortaklarına verilen teşvikler son çeyrekte %21 arttı; net hasılat %13 büyüdü. Fark sürerse marj daralır.",
+   "ABD'de kredi kartlarına ikinci bir ağ seçeneği zorunluluğu getirecek yasa teklifi (Credit Card Competition Act) gündemde; yasalaşırsa işlem payı azalabilir."
+  ],
+  "watch": [
+   "Ödeme hacmi ve sınır ötesi hacmin büyümesi",
+   "Teşviklerin hasılata oranı",
+   "İşyeri anlaşmasının kesin onayı ve dava karşılıkları",
+   "Fiyat: güvenlik marjı eşiği"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/stocks/v/financials/ratios/"
+   },
+   {
+    "t": "Visa (SEC 8-K, last10k.com): 2026 mali yılı 4. çeyrek ve yıl sonu sonuçları (27 Eki 2026)",
+    "te": "Visa (SEC 8-K, last10k.com): fiscal fourth-quarter and full-year 2026 results (27 Oct 2026)",
+    "u": "https://last10k.com/sec-filings/v/0001403161-26-000126.htm"
+   },
+   {
+    "t": "Visa Yatırımcı İlişkileri: sonuç duyurusu (27 Eki 2026)",
+    "te": "Visa Investor Relations: results announcement (27 Oct 2026)",
+    "u": "https://investor.visa.com/news/news-details/2026/Visa-Fiscal-Fourth-Quarter-and-Full-Year-2026-Financial-Results/default.aspx"
+   },
+   {
+    "t": "Zacks: Visa 4. çeyrek kârı beklentiyi aştı (28 Eki 2026)",
+    "te": "Zacks: Visa Q4 earnings beat estimates on strong payment volumes (28 Oct 2026)",
+    "u": "https://www.zacks.com/stock/news/3017346/visa-q4-earnings-beat-estimates-on-strong-payment-volumes"
+   },
+   {
+    "t": "American Banker: Visa ve Mastercard'ın işyerleriyle ücret anlaşmasına ön onay (10 Haz 2026)",
+    "te": "American Banker: preliminary approval of the Visa and Mastercard fee settlement with merchants (10 Jun 2026)",
+    "u": "https://www.americanbanker.com/payments/news/judge-approves-card-network-fee-settlement-with-merchants"
+   }
+  ],
+  "en": {
+   "one": "One of the world's largest card payment networks. The moat is wide; it passed the quality walls but waits at the gate on price.",
+   "business": "Visa runs the network that carries card payments between banks and merchants. It does not lend; it takes a small fee on each transaction and on payment volume. In the fiscal year that ended on 30 September 2026 net revenue was 45.9 billion dollars and net profit 23.5 billion dollars. The network processed 281.3 billion transactions during the year.",
+   "moat_text": "The moat is wide. The advantage comes from the network itself: the cardholder wants a card that works everywhere, and the merchant wants to accept the card the customer already carries. Because each side draws the other, a new network would need years and a very large amount of capital to reach the same coverage. The evidence is in the figures: in the last fiscal year 23.5 billion dollars of net profit remained from 45.9 billion dollars of net revenue; real return on equity rose from 32.3% to 57.7% in five years. The weak side: the fees are a constant subject of lawsuits and regulation, and the incentives paid to banks are growing faster than revenue.",
+   "mgmt": "Profit returns to shareholders. In fiscal 2026 buybacks and dividends totalled 25.6 billion dollars, of which 20.5 billion dollars was buybacks. The quarterly dividend was raised by 16% to 0.78 dollars per share. Debt is low (net debt/EBITDA 0.28). In August 2026 it agreed to acquire BioCatch, a fraud detection company, for 2.4 billion dollars in cash; the purchase is close to the core business and small for the company's size.",
+   "latest": "27 October 2026: In the last quarter of fiscal 2026 net revenue was 12.1 billion dollars (+13%), net profit 6.0 billion dollars (+18%) and earnings per share 3.19 dollars (+22%). Payments volume rose 9% at constant currency, cross-border volume 14% and the number of transactions 10%. A litigation provision of 469 million dollars was booked in the quarter. The company expects low double-digit growth in net revenue for fiscal 2027.",
+   "risks": [
+    "Price: the P/E is 34.6. On the conservative calculation the share does not pass the margin-of-safety criterion.",
+    "Lawsuits and regulation: the fee settlement with merchants in the US received preliminary approval in June 2026; final approval and objections are still pending. The settlement lowers interchange fees by 10 basis points for five years and lets merchants decline some card types.",
+    "Litigation provisions regularly reduce profit: 1.7 billion dollars in fiscal 2026 and 2.5 billion dollars the year before.",
+    "Incentives paid to banks and partners rose 21% in the last quarter; net revenue grew 13%. If the gap continues, the margin narrows.",
+    "A bill in the US that would require a second network option on credit cards (the Credit Card Competition Act) is on the agenda; if it becomes law, the share of transactions could fall."
+   ],
+   "watch": [
+    "Growth in payments volume and cross-border volume",
+    "Incentives as a share of revenue",
+    "Final approval of the merchant settlement and litigation provisions",
+    "Price: the margin-of-safety threshold"
+   ]
+  }
  }
 }

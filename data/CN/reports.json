@@ -378,5 +378,592 @@
     "Gap between loan growth and deposit growth"
    ]
   }
+ },
+ "000333": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 2,
+   "E": 2
+  },
+  "moat": "dar",
+  "per": "2026-Q3",
+  "one": "Çin'in büyük ev aletleri üreticisi. Hendek dar, kalite surlarını geçti; fiyat yetmediği için kapıda bekliyor. Son çeyrekte satış ve ana iş kârı geriledi.",
+  "business": "Midea klima, buzdolabı, çamaşır makinesi ve küçük ev aletleri üretir; ayrıca bina iklimlendirme sistemleri, sanayi robotları ve sanayi parçaları satar. 2025'te 458,5 milyar yuan gelirin 299,9 milyar yuanı ev aletlerinden geldi. Gelirin %42,7'si Çin dışından. Para, ürettiği cihazların ve sistemlerin satışından kazanılır.",
+  "moat_text": "Hendek dar. Kaynağı ölçek, marka ve ürün çeşitliliği: 2025'te brüt kâr marjı %26,2 oldu ve reel özsermaye kârlılığı beş yıldır %18 ile %21 arasında, son 12 ayda %19,3. Bu istikrar, tek ürüne bağlı rakiplerde yok. Zayıf yanı: ev aletlerinde rekabet serttir ve fiyatlama gücü sınırlıdır. 2026'nın üçüncü çeyreğinde gelir %4,12 düştü, brüt marj 0,47 puan geriledi. Bu yüzden hendek geniş sayılmadı.",
+  "mgmt": "En büyük ortak, Midea Holding'in de içinde olduğu gruptur; en büyük ortağın payı 31 Mart 2026'da %28,53'tü. Kâr hissedara dönüyor: 2025 için hisse başına 3,8 yuan yıl sonu temettüsü (yaklaşık 28,6 milyar yuan) ve 0,5 yuan ara temettü; 2026 ara temettüsü de hisse başına 0,5 yuan. 2026'da 13,3 milyar yuanlık hisse geri alındı; bunun 11,8 milyar yuanı iptal edilmek üzere. Şirket net nakitte (net borç/FAVÖK eksi 0,99). Satın almalar ana işe yakın: Avrupa'da Arbonia Climate ve TEKA. Dikkat edilecek nokta: 2026 kârının bir bölümü ana işten değil, bellek yongası üreticisi CXMT'deki payın değer artışından geldi.",
+  "latest": "29 Ekim 2026: Şirket dokuz aylık sonuçlarını açıkladı. Gelir %1,19 artışla 367,36 milyar yuan, ana ortaklık net kârı %9,27 artışla 41,39 milyar yuan oldu. Tek seferlik kalemler hariç net kâr ise %22,49 düşerek 28,79 milyar yuana indi. Üçüncü çeyrekte gelir %4,12 düşüşle 107,32 milyar yuan, net kâr %25,93 artışla 14,95 milyar yuan; tek seferlik kalemler hariç net kâr %15,70 düşüşle 9,19 milyar yuan. Aradaki farkın kaynağı, CXMT'nin halka arzına bağlı değerleme kazancı; bu kazanç üçüncü çeyrekte geçen yıla göre 5,47 milyar yuan arttı. Bina teknolojileri geliri dokuz ayda %10 artışla 30,9 milyar yuan, robot ve otomasyon geliri %10 artışla 24,9 milyar yuan oldu.",
+  "risks": [
+   "Açıklanan kâr ana işin kârından iyi görünüyor: dokuz ayda net kâr %9,27 arttı, tek seferlik kalemler hariç net kâr %22,49 düştü. Fark, bir yatırımın değer artışından geliyor ve tekrarlanmayabilir.",
+   "Satış büyümesi durdu: 2026'nın ilk yarısında Çin içi gelir yalnız %2,1 arttı, üçüncü çeyrekte toplam gelir %4,12 düştü.",
+   "Rekabet serttir; fiyat indirimleri marjı aşındırır. Brüt marj dokuz ayda 0,41 puan geriledi.",
+   "Gelirin %42,7'si yurt dışından geliyor; kur hareketleri, gümrük vergileri ve ticaret kısıtları kârı etkiler.",
+   "Sanayi teknolojileri geliri dokuz ayda %13 düştü; ev aleti dışı kolların büyümesi kesin değil."
+  ],
+  "watch": [
+   "Tek seferlik kalemler hariç net kâr",
+   "Brüt kâr marjı",
+   "Çin'de ev aletleri satışları",
+   "Yurt dışında kendi markasıyla yapılan satışların büyümesi"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/she/000333/financials/ratios/"
+   },
+   {
+    "t": "HKEX: Midea Group 2025 yıllık sonuç duyurusu (30 Mart 2026)",
+    "te": "HKEX: Midea Group 2025 annual results announcement (30 March 2026)",
+    "u": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0330/2026033001928.pdf"
+   },
+   {
+    "t": "HKEX: Midea Group 2026 ara dönem sonuç duyurusu (28 Ağustos 2026)",
+    "te": "HKEX: Midea Group 2026 interim results announcement (28 August 2026)",
+    "u": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082802074.pdf"
+   },
+   {
+    "t": "Quartr: Midea Group 2026 üçüncü çeyrek sonuç özeti (29 Ekim 2026)",
+    "te": "Quartr: Midea Group Q3 2026 earnings summary (29 October 2026)",
+    "u": "https://quartr.com/events/midea-group-000333-q3-2026_F9HRW0m4"
+   },
+   {
+    "t": "Gelonghui (Changjiang Securities): Midea, pay yatırımı kazancı açıklanan kârı yükseltti (4 Kasım 2026)",
+    "te": "Gelonghui (Changjiang Securities): Midea, equity investment gain lifts reported profit (4 November 2026)",
+    "u": "https://m.gelonghui.com/news/5344674"
+   },
+   {
+    "t": "ifeng: Midea dokuz aylık sonuçları ve geri alımlar (30 Ekim 2026)",
+    "te": "ifeng: Midea nine-month results and buybacks (30 October 2026)",
+    "u": "https://tech.ifeng.com/c/8xdfEgz2J03"
+   },
+   {
+    "t": "CFI: Midea 2026 ilk yarı sonuçları, aracı kurum notu (31 Ağustos 2026)",
+    "te": "CFI: Midea first-half 2026 results, broker note (31 August 2026)",
+    "u": "https://quote.cfi.cn/ybdata.aspx?id=20260831000806"
+   },
+   {
+    "t": "szse.io: Midea, ilk on ortağın pay durumu duyurusu (1 Nisan 2026)",
+    "te": "szse.io: Midea, announcement on the shareholdings of the top ten shareholders (1 April 2026)",
+    "u": "https://szse.io/releases/000333-midea-group-co-ltd/1225071406-announcement-on-the-shareholding-status-of-top-ten"
+   }
+  ],
+  "en": {
+   "one": "China's large home appliance maker. Narrow moat; it passed the quality walls and waits at the gate on price. Core profit fell last quarter.",
+   "business": "Midea makes air conditioners, refrigerators, washing machines and small appliances; it also sells building climate systems, industrial robots and industrial components. In 2025, 299.9 billion yuan of its 458.5 billion yuan revenue came from home appliances. 42.7% of revenue comes from outside China. It earns money by selling the appliances and systems it makes.",
+   "moat_text": "The moat is narrow. It comes from scale, brand and product range: gross margin was 26.2% in 2025 and real return on equity has been between 18% and 21% for five years, 19.3% over the last twelve months. Rivals that depend on one product do not have this stability. The weak side: competition in home appliances is fierce and pricing power is limited. In the third quarter of 2026 revenue fell 4.12% and gross margin slipped 0.47 points. That is why the moat is not rated wide.",
+   "mgmt": "The largest shareholder is the group that includes Midea Holding; the largest shareholder's stake was 28.53% on 31 March 2026. Profit returns to shareholders: a final dividend of 3.8 yuan per share for 2025 (about 28.6 billion yuan) plus a 0.5 yuan interim dividend; the 2026 interim dividend is also 0.5 yuan per share. Shares worth 13.3 billion yuan were bought back in 2026, of which 11.8 billion yuan is for cancellation. The company holds net cash (net debt/EBITDA minus 0.99). Acquisitions are close to the core business: Arbonia Climate and TEKA in Europe. A point to note: part of 2026 profit came not from the core business but from the rise in value of a stake in memory chip maker CXMT.",
+   "latest": "29 October 2026: The company reported nine-month results. Revenue rose 1.19% to 367.36 billion yuan and net profit attributable to shareholders rose 9.27% to 41.39 billion yuan. Net profit excluding one-off items, however, fell 22.49% to 28.79 billion yuan. In the third quarter revenue fell 4.12% to 107.32 billion yuan and net profit rose 25.93% to 14.95 billion yuan; net profit excluding one-off items fell 15.70% to 9.19 billion yuan. The gap comes from a valuation gain tied to the listing of CXMT; that gain was 5.47 billion yuan higher than a year earlier in the third quarter. Building technologies revenue rose 10% to 30.9 billion yuan in nine months and robotics and automation revenue rose 10% to 24.9 billion yuan.",
+   "risks": [
+    "Reported profit looks better than core profit: in nine months net profit rose 9.27% while net profit excluding one-off items fell 22.49%. The gap comes from the rise in value of an investment and may not recur.",
+    "Sales growth has stalled: revenue in China rose only 2.1% in the first half of 2026, and total revenue fell 4.12% in the third quarter.",
+    "Competition is fierce; price cuts erode the margin. Gross margin slipped 0.41 points in nine months.",
+    "42.7% of revenue comes from abroad; currency moves, tariffs and trade restrictions affect profit.",
+    "Industrial technology revenue fell 13% in nine months; growth outside home appliances is not assured."
+   ],
+   "watch": [
+    "Net profit excluding one-off items",
+    "Gross margin",
+    "Home appliance sales in China",
+    "Growth in overseas sales under its own brands"
+   ]
+  }
+ },
+ "002415": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 2,
+   "E": 2
+  },
+  "moat": "dar",
+  "per": "2026-Q3",
+  "one": "Güvenlik kamerası ve görüntü sistemleri üreticisi. Hendek dar, kalite surlarını geçti; fiyat yetmediği için kapıda bekliyor. Batı ülkelerindeki yasaklar kalıcı risk.",
+  "business": "Hikvision güvenlik kameraları, kayıt cihazları ve bunları yöneten yazılımları üretir; kamu kurumlarına, işletmelere ve bayiler üzerinden küçük işletmelere satar. Yeni kolları arasında depo robotları, termal kameralar, akıllı ev ürünleri ve otomotiv elektroniği var. 2025'te gelir 92,51 milyar yuan, net kâr 14,20 milyar yuan oldu. Gelirin %29,42'si yurt dışı ana işten, %27,51'i yeni kollardan geldi.",
+  "moat_text": "Hendek dar. Kaynağı ölçek, yazılımla donanımın birlikte satılması ve yaygın satış ağı. Kanıt marjda: brüt kâr marjı 2020-2025 arasında %42 ile %46 arasındaydı, 2026'nın üçüncü çeyreğinde %49,05. Donanım üreticisi için bu yüksek bir düzey. Şirket gelirinin %12,70'ini araştırma ve geliştirmeye harcıyor (2025'te 11,75 milyar yuan). Zayıf yanı: üstünlük sınanıyor. 2025'te gelir yerinde saydı (%0,01 artış). ABD şirketi 2019'da ticaret kara listesine aldı, Kanada 2025'te ülkedeki işini kapatma kararı verdi; bazı pazarlar kapanıyor. Reel özsermaye kârlılığı 2021'deki %27,35'ten 2024'te %15,46'ya inmiş, son 12 ayda %21,31'e toparlandı. Bu yüzden hendek geniş sayılmadı.",
+  "mgmt": "Hâkim ortak devlete ait China Electronics Technology HIK Group'tur; payı Haziran 2025 tarihli habere göre %36,93. Kârın çoğu hissedara dönüyor: 2025 için toplam nakit temettü yaklaşık 10,54 milyar yuan, net kârın %74,25'i. 2026 ara temettüsü 10 hisseye 5,5 yuan, toplam 5,04 milyar yuan. Şirket 2010'daki halka arzdan beri sermaye artırmadı. Net borcu yok (net borç/FAVÖK eksi 1,37). Alacaklar azalıyor: alacak ve senetler 2025'te 7,77 milyar yuan düştü.",
+  "latest": "16 Ekim 2026: Şirket dokuz aylık sonuçlarını açıkladı. Gelir %12,60 artışla 74,04 milyar yuan, ana ortaklık net kârı %38,55 artışla 12,91 milyar yuan oldu. Üçüncü çeyrekte gelir %13,71 artışla 27,22 milyar yuan, net kâr %36,97 artışla 5,02 milyar yuan; brüt kâr marjı %49,05. Gider artışı %4,62 ile gelir artışının altında kaldı. Şirket Temmuz'da 2026 gelirinin 100 milyar yuanı aşmasını beklediğini söylemişti.",
+  "risks": [
+   "Fiyat: hisse, temkinli hesapla adil değerin üzerinde; güvenlik marjı yok.",
+   "Yaptırımlar: ABD 2019'da şirketi ticaret kara listesine aldı, Kanada Haziran 2025'te ülkedeki işini kapatma kararı verdi. Başka ülkeler de benzer adım atarsa yurt dışı gelir (2025'te %29,42) küçülür ve parça tedariki zorlaşır.",
+   "Çin'de kamu ve işletme harcamalarına bağımlılık: 2026'nın ilk yarısında yurt içi ana iş geliri yalnız %4,98 arttı.",
+   "Marj artışı kalıcı olmayabilir: brüt marj uzun yıllar %42-46 aralığındaydı; bellek ve elektronik parça fiyatları yükseliyor.",
+   "Yuanın değerlenmesi yurt dışı kârını azaltır: 2026'nın ilk çeyreğinde 326 milyon yuan kur zararı yazıldı."
+  ],
+  "watch": [
+   "Brüt kâr marjı (üçüncü çeyrekte %49,05)",
+   "Yeni kolların gelir payı (2026'nın ilk yarısında %32,40)",
+   "Yurt dışı gelirin büyümesi ve yeni yaptırım kararları",
+   "Alacakların düzeyi ve faaliyet nakit akışı"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/she/002415/financials/ratios/"
+   },
+   {
+    "t": "Hikvision: yatırımcı ilişkileri toplantı kaydı, 2025 ve 2026 ilk çeyrek sonuçları (18 Nisan 2026)",
+    "te": "Hikvision: investor relations activity record, 2025 and first-quarter 2026 results (18 April 2026)",
+    "u": "https://pdf.dfcfw.com/pdf/H2_AN202604181821317578_1.pdf"
+   },
+   {
+    "t": "Gelonghui: Hikvision dokuz aylık sonuçları (17 Ekim 2026)",
+    "te": "Gelonghui: Hikvision nine-month results (17 October 2026)",
+    "u": "https://m.gelonghui.com/news/5326439"
+   },
+   {
+    "t": "Jiemian: Hikvision üçüncü çeyrek raporu haberi (Ekim 2026)",
+    "te": "Jiemian: report on Hikvision's third-quarter results (October 2026)",
+    "u": "https://m.jiemian.com/article/15202337.html"
+   },
+   {
+    "t": "Jiemian: Hikvision 2026 ilk yarı sonuçları (Temmuz 2026)",
+    "te": "Jiemian: Hikvision first-half 2026 results (July 2026)",
+    "u": "https://www.jiemian.com/article/14826967.html"
+   },
+   {
+    "t": "International Security Journal: Hikvision 2025 ve 2026 ilk çeyrek sonuçları (30 Nisan 2026)",
+    "te": "International Security Journal: Hikvision 2025 and first-quarter 2026 results (30 April 2026)",
+    "u": "https://internationalsecurityjournal.com/hikvision-financial-results/"
+   },
+   {
+    "t": "Caixin Global: Kanada, Hikvision'ın ülkedeki işini kapatma kararı verdi (30 Haziran 2025)",
+    "te": "Caixin Global: Canada orders Hikvision to close its business in the country (30 June 2025)",
+    "u": "https://www.caixinglobal.com/2025-06-30/canada-kicks-out-chinese-surveillance-gear-maker-102336423.html"
+   }
+  ],
+  "en": {
+   "one": "Maker of security cameras and video systems. Narrow moat; it passed the quality walls, waits at the gate on price. Western bans are a risk.",
+   "business": "Hikvision makes security cameras, recorders and the software that runs them; it sells to public bodies, to enterprises and, through dealers, to small businesses. Its newer lines include warehouse robots, thermal cameras, smart home products and automotive electronics. In 2025 revenue was 92.51 billion yuan and net profit 14.20 billion yuan. 29.42% of revenue came from the overseas core business and 27.51% from the newer lines.",
+   "moat_text": "The moat is narrow. It comes from scale, from selling software together with hardware and from a wide sales network. The proof is in the margin: gross margin was between 42% and 46% in 2020-2025 and 49.05% in the third quarter of 2026. That is a high level for a hardware maker. The company spends 12.70% of revenue on research and development (11.75 billion yuan in 2025). The weak side: the advantage is being tested. Revenue stood still in 2025 (up 0.01%). The United States put the company on its trade blacklist in 2019 and Canada ordered it to close its business there in 2025; some markets are closing. Real return on equity fell from 27.35% in 2021 to 15.46% in 2024 and recovered to 21.31% over the last twelve months. That is why the moat is not rated wide.",
+   "mgmt": "The controlling shareholder is state-owned China Electronics Technology HIK Group; its stake was 36.93% according to a June 2025 report. Most of the profit returns to shareholders: total cash dividends for 2025 were about 10.54 billion yuan, 74.25% of net profit. The 2026 interim dividend is 5.5 yuan per 10 shares, 5.04 billion yuan in total. The company has not raised equity since its 2010 listing. It has no net debt (net debt/EBITDA minus 1.37). Receivables are falling: receivables and notes fell 7.77 billion yuan in 2025.",
+   "latest": "16 October 2026: The company reported nine-month results. Revenue rose 12.60% to 74.04 billion yuan and net profit attributable to shareholders rose 38.55% to 12.91 billion yuan. In the third quarter revenue rose 13.71% to 27.22 billion yuan and net profit rose 36.97% to 5.02 billion yuan; gross margin was 49.05%. Expenses grew 4.62%, less than revenue. In July the company had said it expected 2026 revenue to exceed 100 billion yuan.",
+   "risks": [
+    "Price: on the conservative calculation the share is above fair value; there is no margin of safety.",
+    "Sanctions: the United States put the company on its trade blacklist in 2019 and Canada ordered it to close its business there in June 2025. If other countries take similar steps, overseas revenue (29.42% in 2025) shrinks and sourcing parts gets harder.",
+    "Dependence on public and enterprise spending in China: domestic core revenue rose only 4.98% in the first half of 2026.",
+    "The rise in margin may not last: gross margin was in the 42-46% range for many years, and prices of memory and electronic components are rising.",
+    "A stronger yuan reduces overseas profit: a currency loss of 326 million yuan was booked in the first quarter of 2026."
+   ],
+   "watch": [
+    "Gross margin (49.05% in the third quarter)",
+    "Revenue share of the newer lines (32.40% in the first half of 2026)",
+    "Overseas revenue growth and new sanction decisions",
+    "Receivables and operating cash flow"
+   ]
+  }
+ },
+ "002475": {
+  "scores": {
+   "A": 1,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-Q3",
+  "one": "Telefon, kulaklık, veri merkezi ve otomobil için parça üreten ve cihaz monte eden fason üretici. Marjı ince, borcu artıyor; hendek ölçütünü geçemedi.",
+  "business": "Luxshare, başka markalar için bağlantı parçaları, kablolar ve modüller üretir, telefon ve kulaklık gibi cihazları monte eder. 2026'nın ilk yarısında 174,50 milyar yuan gelirin 122,48 milyar yuanı tüketici elektroniğinden, 32,39 milyar yuanı otomotiv elektroniğinden, 16,61 milyar yuanı iletişim ve veri merkezi ürünlerinden geldi. Para, büyük hacimli üretimden alınan ince bir paydan kazanılır: 2025'te brüt kâr marjı %11,9 oldu.",
+  "moat_text": "Hendek zayıf. Üstünlük var: ölçek, hassas üretim becerisi ve büyük müşterilerle uzun ilişki. Ama iş fason üretimdir; tasarım ve marka müşterinindir, fiyatı da müşteri belirler. Marj bunu gösteriyor: 2026'nın ilk yarısında brüt kâr marjı %11,78; tüketici elektroniğinde %10,25. Dokuz ayda 285,01 milyar yuan gelire karşılık ana ortaklık net kârı 13,06 milyar yuan, yani yaklaşık %4,6. Gelir %29,01 artarken kâr %13,36 arttı: büyüme kârlılığı aşağı çekiyor. Reel özsermaye kârlılığı beş yıl boyunca %17,91 ile %19,26 arasında kaldıktan sonra son 12 ayda %15,55'e indi. B puanı 1 olduğu için şirket 3. suru geçemedi.",
+  "mgmt": "Hâkim ortak Luxshare Limited'dir (%37,32). Yönetim kurulu başkanı Wang Laichun'dur. Kârın çoğu şirkette kalıyor: dağıtım oranı %21,88, temettü verimi %0,27. 2026'da üç kez temettü dağıtıldı, toplam 1,77 milyar yuan; geri alıma yaklaşık 1 milyar yuan harcandı. Para büyümeye ve satın almalara gidiyor: Alman otomotiv kablo üreticisi Leoni ve Wingtech'in fason tasarım (ODM) varlıkları. Borç yüksek: borç/varlık oranı Haziran 2026'da %67,44, net borç/FAVÖK 2,23. Dokuz ayda finansman gideri 3,22 milyar yuan oldu. 2026'nın ilk yarısında faaliyet nakit akışı eksi 2,45 milyar yuandı.",
+  "latest": "29 Ekim 2026: Şirket dokuz aylık sonuçlarını açıkladı. Gelir %29,01 artışla 285,01 milyar yuan, ana ortaklık net kârı %13,36 artışla 13,06 milyar yuan oldu; bu, şirketin Ağustos'ta verdiği 13,25-14,40 milyar yuanlık tahmin aralığının altında. Üçüncü çeyrekte gelir %14,62 artışla 110,51 milyar yuan, net kâr %6,98 artışla 5,21 milyar yuan. Şirket 2026 yılı için 19,09-19,92 milyar yuan net kâr bekliyor (%15-20 artış).",
+  "risks": [
+   "Gelirin yaklaşık %70'i tüketici elektroniğinden gelir ve az sayıda büyük müşteriye bağlıdır; bir müşterinin siparişi başka üreticiye kaydırması kârı doğrudan düşürür.",
+   "Marj incedir (dokuz ayda net kâr gelirin yaklaşık %4,6'sı); maliyet artışı ya da kur zararı kârı hızla eritir. 2026'nın ilk yarısında yaklaşık 1,99 milyar yuan kur zararı yazıldı.",
+   "Borç artıyor: net borç/FAVÖK 2,23 ile 2. surun eşiğine (3,0) yaklaşıyor; serbest nakit akışı son 12 ayda eksi.",
+   "Leoni ve Wingtech varlıkları gibi büyük satın almaların beklenen kârı getirmesi kesin değil.",
+   "Gümrük vergileri ve ticaret kısıtları, üretimin yerini ve maliyetini değiştirebilir."
+  ],
+  "watch": [
+   "Brüt ve net kâr marjı",
+   "Net borç/FAVÖK ve finansman gideri",
+   "Faaliyet nakit akışı",
+   "Otomotiv ve veri merkezi gelirlerinin payı"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/she/002475/financials/ratios/"
+   },
+   {
+    "t": "cninfo: Luxshare Precision 2026 yarıyıl raporu özeti (25 Ağustos 2026)",
+    "te": "cninfo: Luxshare Precision 2026 half-year report summary (25 August 2026)",
+    "u": "https://static.cninfo.com.cn/finalpage/2026-08-25/1225500220.pdf"
+   },
+   {
+    "t": "HKEX: Luxshare Precision, dokuz aylık kâr tahmini duyurusu (24 Ağustos 2026)",
+    "te": "HKEX: Luxshare Precision, nine-month profit estimate announcement (24 August 2026)",
+    "u": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0825/2026082500017.pdf"
+   },
+   {
+    "t": "Stockstar: Luxshare Precision üçüncü çeyrek raporu haberi (30 Ekim 2026)",
+    "te": "Stockstar: report on Luxshare Precision's third-quarter results (30 October 2026)",
+    "u": "https://wap.stockstar.com/detail/IG2026103000043302"
+   },
+   {
+    "t": "Gasgoo: Luxshare 2026 yılı net kârında %15-20 artış bekliyor (4 Kasım 2026)",
+    "te": "Gasgoo: Luxshare projects full-year net profit up 15%-20% (4 November 2026)",
+    "u": "https://autonews.gasgoo.com/articles/news/luxshare-precision-projects-full-year-net-profit-attributable-to-shareholders-up-15-20-year-on-year-2117777963021660161"
+   },
+   {
+    "t": "Gelonghui (Everbright Securities): Luxshare 2026 ilk yarı notu (4 Eylül 2026)",
+    "te": "Gelonghui (Everbright Securities): note on Luxshare's first half of 2026 (4 September 2026)",
+    "u": "https://m.gelonghui.com/news/5306700"
+   },
+   {
+    "t": "China Merchants Securities: Luxshare şirket notu (6 Mayıs 2026)",
+    "te": "China Merchants Securities: Luxshare company update (6 May 2026)",
+    "u": "https://pdf.dfcfw.com/pdf/H3_AP202605071822015464_1.pdf"
+   }
+  ],
+  "en": {
+   "one": "Contract manufacturer of parts and devices for phones, earphones, data centres and cars. Thin margins, rising debt; it did not pass.",
+   "business": "Luxshare makes connectors, cables and modules for other brands and assembles devices such as phones and earphones. In the first half of 2026, 122.48 billion yuan of its 174.50 billion yuan revenue came from consumer electronics, 32.39 billion yuan from automotive electronics and 16.61 billion yuan from communications and data centre products. It earns a thin slice of a large production volume: gross margin was 11.9% in 2025.",
+   "moat_text": "The moat is weak. There is an advantage: scale, precision manufacturing skill and long relationships with large customers. But this is contract manufacturing; the design and the brand belong to the customer, and the customer sets the price. The margin shows it: gross margin was 11.78% in the first half of 2026 and 10.25% in consumer electronics. In nine months net profit attributable to shareholders was 13.06 billion yuan on revenue of 285.01 billion yuan, about 4.6%. Revenue rose 29.01% while profit rose 13.36%: growth is pulling profitability down. Real return on equity stayed between 17.91% and 19.26% for five years and then fell to 15.55% over the last twelve months. With a B score of 1, the company did not pass Wall 3.",
+   "mgmt": "The controlling shareholder is Luxshare Limited (37.32%). The board is chaired by Wang Laichun. Most of the profit stays in the company: the payout ratio is 21.88% and the dividend yield 0.27%. Dividends were paid three times in 2026, 1.77 billion yuan in total; about 1 billion yuan was spent on buybacks. The money goes to growth and acquisitions: German automotive cable maker Leoni and Wingtech's contract design (ODM) assets. Debt is high: the debt-to-asset ratio was 67.44% in June 2026 and net debt/EBITDA is 2.23. Finance costs were 3.22 billion yuan in nine months. Operating cash flow was minus 2.45 billion yuan in the first half of 2026.",
+   "latest": "29 October 2026: The company reported nine-month results. Revenue rose 29.01% to 285.01 billion yuan and net profit attributable to shareholders rose 13.36% to 13.06 billion yuan; this is below the 13.25-14.40 billion yuan range the company estimated in August. In the third quarter revenue rose 14.62% to 110.51 billion yuan and net profit rose 6.98% to 5.21 billion yuan. The company expects net profit of 19.09-19.92 billion yuan for 2026 (up 15-20%).",
+   "risks": [
+    "About 70% of revenue comes from consumer electronics and depends on a small number of large customers; if a customer moves orders to another manufacturer, profit falls directly.",
+    "The margin is thin (nine-month net profit is about 4.6% of revenue); higher costs or currency losses erode profit quickly. A currency loss of about 1.99 billion yuan was booked in the first half of 2026.",
+    "Debt is rising: at 2.23, net debt/EBITDA is approaching the Wall 2 threshold (3.0); free cash flow is negative over the last twelve months.",
+    "It is not certain that large acquisitions such as Leoni and the Wingtech assets will deliver the expected profit.",
+    "Tariffs and trade restrictions can change where production takes place and what it costs."
+   ],
+   "watch": [
+    "Gross and net profit margin",
+    "Net debt/EBITDA and finance costs",
+    "Operating cash flow",
+    "Share of automotive and data centre revenue"
+   ]
+  }
+ },
+ "300750": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "2026-Q3",
+  "one": "Dünyanın en büyük elektrikli araç bataryası üreticisi. Hendek dar, kalite surlarını geçti; fiyat yetmediği için kapıda bekliyor. Marj daralıyor.",
+  "business": "CATL, elektrikli araçlar ve enerji depolama tesisleri için lityum batarya üretir ve otomobil üreticilerine, enerji şirketlerine satar. 2025'te 423,7 milyar yuan gelirin %74,7'si araç bataryasından, %14,7'si enerji depolama bataryasından geldi; gelirin %30,6'sı yurt dışındandı. 2025 net kârı 72,2 milyar yuan oldu. Şirket 2025'te 661 GWh batarya sattı.",
+  "moat_text": "Hendek dar. Üstünlük ölçekten ve maliyetten geliyor ve rakamla görünüyor: şirket dünya araç bataryası pazarında dokuz yıldır birinci, 2026'nın ilk sekiz ayında payı %39,4 (ikinci sıradaki BYD %15,1). 2025'te kapasite kullanımı %96,9, araştırma harcaması 22,15 milyar yuandı. Reel özsermaye kârlılığı beş yıldır %20,3'ün altına inmedi (son 12 ayda %23,5). Hendek geniş sayılmadı, çünkü fiyatlama gücü sınırlı ve şu an sınanıyor: brüt marj dokuz ayda %25,31'den %22,72'ye, üçüncü çeyrekte %20,69'a indi. Yeni vergi yükünü müşteriye yansıtmak için görüşmeler sürüyor; müşteriler de kârı baskı altındaki otomobil üreticileri. Batarya teknolojisi hızla değişiyor ve kazanç devlet kararlarına duyarlı.",
+  "mgmt": "En büyük ortak, kurucu Zeng Yuqun'un şirketi Xiamen Ruiting'dir (%22,04); kurucu ortaklardan Huang Shilin'in payı %9,09. Hisseler Shenzhen'de ve Hong Kong'da işlem görüyor. Kâr hem büyümeye hem hissedara gidiyor: 2025 için 10 hisseye 69,57 yuan nakit temettü açıklandı; şirket ayrıca 3,30 milyar yuanlık hisse geri aldı, bunlar iptal edilecek. Net borç yok (net borç/FAVÖK −1,99): 30 Eylül 2026'da 369,81 milyar yuan nakde karşılık yaklaşık 169 milyar yuan banka borcu ve tahvil vardı. Küçük kusur: tahvil borcu yıl başındaki 3,44 milyar yuandan 52,74 milyar yuana çıktı, stoklar %53 arttı ve faaliyet nakit akışı düştü; büyüme çok sermaye istiyor.",
+  "latest": "20 Ekim 2026: Şirket dokuz aylık sonuçlarını açıkladı. Üçüncü çeyrekte gelir %58,58 artışla 165,22 milyar yuan, ana ortaklık net kârı %14,54 artışla 21,25 milyar yuan oldu; kâr ikinci çeyreğe göre %5,77 düştü. Dokuz ayda gelir %56,19 artışla 442,14 milyar yuan, net kâr %31,60 artışla 64,53 milyar yuan. Brüt marj üçüncü çeyrekte %20,69'a indi; art arda ikinci düşüş. Faaliyet nakit akışı %23,60 azalarak 61,63 milyar yuan oldu. Şirket marj baskısını ürün karmasına, 1 Eylül 2026'da %2 oranıyla başlayan lityum batarya tüketim vergisine ve ihracat KDV iadesinin %9'dan %6'ya inmesine bağladı. Ertesi gün hisse Shenzhen'de yaklaşık %12 düştü.",
+  "risks": [
+   "Fiyat: temkinli hesapla güvenlik marjı eşiğin altında. Kâr artışı yavaşlıyor (üçüncü çeyrekte %14,54, dokuz ayda %31,60); marj daralmaya devam ederse eşik daha da uzaklaşır.",
+   "Vergi ve teşvik kararları: lityum batarya tüketim vergisi 1 Eylül 2027'de %4'e çıkacak, ihracat KDV iadesi 1 Ocak 2027'de tümüyle kalkacak. Şirket bu yükü müşteriye ne kadar yansıtabileceğini henüz bilmiyor.",
+   "Müşteri baskısı: alıcılar kârı zaten baskı altında olan otomobil üreticileri; fiyat pazarlığında güçlüler.",
+   "İşletme sermayesi: dokuz ayda stoklar %53,15, alacaklar %47,78 arttı, faaliyet nakit akışı %23,60 düştü.",
+   "Ticaret engelleri: gelirin %30,6'sı yurt dışından geliyor ve orada brüt marj daha yüksek (%31,44, yurt içinde %24,00); gümrük ve yerli üretim kuralları bu kârı azaltabilir."
+  ],
+  "watch": [
+   "Brüt kâr marjı (üçüncü çeyrekte %20,69)",
+   "Vergi yükünün müşteriyle paylaşımına ilişkin görüşmelerin sonucu",
+   "Dünya pazar payı (ilk sekiz ayda %39,4)",
+   "Faaliyet nakit akışı ve stoklar"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/she/300750/financials/ratios/"
+   },
+   {
+    "t": "cninfo: CATL 2026 üçüncü çeyrek raporu (21 Ekim 2026)",
+    "te": "cninfo: CATL third-quarter 2026 report (21 October 2026)",
+    "u": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225613175.PDF"
+   },
+   {
+    "t": "CnEVPost: CATL 2026 üçüncü çeyrek sonuçları (20 Ekim 2026)",
+    "te": "CnEVPost: CATL Q3 2026 earnings (20 October 2026)",
+    "u": "https://cnevpost.com/2026/10/20/catl-q3-2026-earnings/"
+   },
+   {
+    "t": "CnEVPost: CATL hisseleri kâr baskısıyla düştü (21 Ekim 2026)",
+    "te": "CnEVPost: CATL shares fall on profit pressure (21 October 2026)",
+    "u": "https://cnevpost.com/2026/10/21/catl-shares-fall-profit-pressure/"
+   },
+   {
+    "t": "CarNewsChina: CATL 2025 yıllık sonuçları (10 Mart 2026)",
+    "te": "CarNewsChina: CATL 2025 annual results (10 March 2026)",
+    "u": "https://carnewschina.com/2026/03/10/catl-reports-record-breaking-financial-results-in-2025-with-10-billion-usd-net-profit/"
+   }
+  ],
+  "en": {
+   "one": "The world's largest electric vehicle battery maker. Narrow moat; it passed the quality walls and waits at the gate on price. Margins are shrinking.",
+   "business": "CATL makes lithium batteries for electric vehicles and energy storage plants and sells them to carmakers and energy companies. In 2025, 74.7% of its 423.7 billion yuan revenue came from vehicle batteries and 14.7% from energy storage batteries; 30.6% of revenue came from abroad. Net profit in 2025 was 72.2 billion yuan. The company sold 661 GWh of batteries in 2025.",
+   "moat_text": "The moat is narrow. The advantage comes from scale and cost and shows in the figures: the company has been first in the world vehicle battery market for nine years, with a 39.4% share in the first eight months of 2026 (second-placed BYD has 15.1%). In 2025 capacity utilisation was 96.9% and research spending 22.15 billion yuan. Real return on equity has not fallen below 20.3% in five years (23.5% over the last twelve months). The moat is not rated wide because pricing power is limited and is being tested now: gross margin fell from 25.31% to 22.72% over nine months and to 20.69% in the third quarter. Talks on passing the new tax burden to customers are still under way, and those customers are carmakers whose own profits are under pressure. Battery technology changes fast and earnings are sensitive to government decisions.",
+   "mgmt": "The largest shareholder is Xiamen Ruiting, the company of founder Zeng Yuqun (22.04%); co-founder Huang Shilin holds 9.09%. The shares trade in Shenzhen and Hong Kong. Profit goes both to growth and to shareholders: a cash dividend of 69.57 yuan per 10 shares was announced for 2025, and the company has also bought back 3.30 billion yuan of shares, which will be cancelled. There is no net debt (net debt/EBITDA −1.99): on 30 September 2026 there was 369.81 billion yuan of cash against about 169 billion yuan of bank debt and bonds. A small flaw: bonds outstanding rose from 3.44 billion yuan at the start of the year to 52.74 billion yuan, inventories rose 53% and operating cash flow fell; growth needs a lot of capital.",
+   "latest": "20 October 2026: The company reported nine-month results. In the third quarter revenue rose 58.58% to 165.22 billion yuan and net profit attributable to shareholders rose 14.54% to 21.25 billion yuan; profit fell 5.77% from the second quarter. Over nine months revenue rose 56.19% to 442.14 billion yuan and net profit rose 31.60% to 64.53 billion yuan. Gross margin fell to 20.69% in the third quarter, the second decline in a row. Operating cash flow fell 23.60% to 61.63 billion yuan. The company attributed the margin pressure to product mix, to the consumption tax on lithium batteries that began at 2% on 1 September 2026, and to the cut in the export VAT rebate from 9% to 6%. The next day the share fell about 12% in Shenzhen.",
+   "risks": [
+    "Price: on the conservative calculation the margin of safety is below the threshold. Profit growth is slowing (14.54% in the third quarter, 31.60% over nine months); if the margin keeps shrinking, the threshold moves further away.",
+    "Tax and incentive decisions: the consumption tax on lithium batteries rises to 4% on 1 September 2027 and the export VAT rebate ends entirely on 1 January 2027. The company does not yet know how much of this it can pass on to customers.",
+    "Customer pressure: the buyers are carmakers whose profits are already under pressure; they are strong in price negotiations.",
+    "Working capital: over nine months inventories rose 53.15% and receivables 47.78%, while operating cash flow fell 23.60%.",
+    "Trade barriers: 30.6% of revenue comes from abroad, where gross margin is higher (31.44% against 24.00% at home); tariffs and local production rules can reduce this profit."
+   ],
+   "watch": [
+    "Gross margin (20.69% in the third quarter)",
+    "The outcome of talks on sharing the tax burden with customers",
+    "World market share (39.4% in the first eight months)",
+    "Operating cash flow and inventories"
+   ]
+  }
+ },
+ "600519": {
+  "scores": {
+   "A": 2,
+   "B": 3,
+   "C": 1,
+   "D": 1,
+   "E": 2
+  },
+  "moat": "geniş",
+  "per": "2026-Q3",
+  "one": "Çin'in en bilinen içki markası Moutai'nin üreticisi. Hendek geniş, kalite surlarını geçti; fiyat yetmediği için kapıda bekliyor. Büyüme durdu.",
+  "business": "Kweichow Moutai, Çin'e özgü sert içki baijiu üretir ve satar. Gelirin %86'sından fazlası tek üründen, Moutai içkisinden gelir; kalanı daha ucuz seri içkilerdir. 2026'nın ilk dokuz ayında gelir 130,97 milyar yuan, net kâr 64,47 milyar yuan oldu. Satışın yaklaşık %56'sı artık doğrudan satıştan geliyor; bunun büyük kısmı şirketin kendi uygulaması i-Moutai üzerinden yapılıyor (58,56 milyar yuan).",
+  "moat_text": "Hendek geniş. Üstünlük markadan geliyor: Moutai, Çin'de armağan ve ziyafet içkisi olarak rakipsiz bir yere sahip ve şirket fiyatını kendisi belirliyor. Kanıt kârlılıkta: dokuz ayda 130,97 milyar yuan gelirden 64,47 milyar yuan net kâr kaldı (gelirin yaklaşık yarısı), reel özsermaye kârlılığı beş yıldır %28,7'nin altına inmedi (son 12 ayda %30,3). Şirket 18 Temmuz 2026'da Moutai'nin sözleşme fiyatını şişe başına 1.269 yuandan 1.369 yuana çıkardı. Zayıf yan: talep artık büyümüyor. 2025'te gelir ve kâr, şirketin 2001'de borsaya girmesinden beri ilk kez düştü. Üçüncü çeyrekte fiyat artışına rağmen Moutai içkisinin geliri yalnızca %0,79 arttı; bu, satış hacminin azaldığını düşündürüyor.",
+  "mgmt": "Şirketi devlete ait Moutai Grubu yönetiyor; grubun doğrudan payı 2025 sonunda %54,40 idi. Kârın büyük kısmı temettüye gidiyor: 2025 için toplam 65,03 milyar yuan nakit temettü dağıtıldı, bu net kârın %79'u. 2024-2026 planı kârın en az %75'ini dağıtmayı öngörüyor. Şirket 2025'te iki kez hisse geri alıp iptal etti; grup da yaklaşık 3 milyar yuanlık hisse aldı. Net borç yok (net borç/FAVÖK −0,45); 30 Eylül 2026'da nakit 195,99 milyar yuandı. Küçük kusur: nakdin bir bölümü grubun finansman şirketi üzerinden, grup şirketlerinin mevduatıyla birlikte yönetiliyor ve nakit akışı bu yüzden yıldan yıla oynuyor. Kamu ortağının öncelikleri küçük ortağınkinden farklı olabilir.",
+  "latest": "30 Ekim 2026: Şirket dokuz aylık sonuçlarını açıkladı. Üçüncü çeyrekte gelir %3,08 artışla 40,27 milyar yuan, ana ortaklık net kârı %3,78 artışla 19,95 milyar yuan oldu. Dokuz ayda gelir %1,96 artışla 130,97 milyar yuan, net kâr %0,25 düşüşle 64,47 milyar yuan. Doğrudan satış %32,8 artarak 73,77 milyar yuana çıktı; bayi satışı %21,6 düşerek 57,12 milyar yuana indi. Faaliyet maliyeti %22,0 arttı, gelirden çok daha hızlı. Bayilerden alınan ön ödemeler (sözleşme yükümlülükleri) yıl başındaki 8,01 milyar yuandan 2,08 milyar yuana geriledi.",
+  "risks": [
+   "Fiyat: F/K 21,9. Temkinli hesapla hisse adil değerin çok üzerinde; güvenlik marjı yok.",
+   "Talep zayıf: 2025'te gelir %1,2, net kâr %4,5 düştü; 2026'nın dokuz ayında net kâr yine %0,25 geriledi. Çin'de baijiu üretimi 2025'te %12,1 azaldı ve dokuz yıldır düşüyor.",
+   "Bayi kanalı küçülüyor: bayi satışı dokuz ayda %21,6 düştü, ön ödemeler %74 azaldı. Bu, bayilerin elindeki paranın ve isteğin azaldığını gösteriyor.",
+   "Tek ürün: gelirin %86'sından fazlası Moutai içkisinden geliyor. Yurt dışı satış küçük ve dokuz ayda %57,85 düşerek 1,64 milyar yuana indi.",
+   "Kamu kararları: şirket devlet kontrolünde; resmî ziyafet ve armağan harcamalarına getirilen kısıtlar talebi doğrudan etkiler."
+  ],
+  "watch": [
+   "Moutai içkisinin geliri ve satış hacmi",
+   "Moutai'nin piyasadaki toptan fiyatı",
+   "Sözleşme yükümlülükleri (bayi ön ödemeleri)",
+   "Fiyat: güvenlik marjı eşiği"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/sha/600519/financials/ratios/"
+   },
+   {
+    "t": "10jqka: Kweichow Moutai 2026 üçüncü çeyrek raporu (30 Ekim 2026)",
+    "te": "10jqka: Kweichow Moutai third-quarter 2026 report (30 October 2026)",
+    "u": "https://stock.10jqka.com.cn/20261030/c681314571.shtml"
+   },
+   {
+    "t": "Huxiu: Moutai üçüncü çeyrek raporu incelemesi (31 Ekim 2026)",
+    "te": "Huxiu: review of Moutai's third-quarter report (31 October 2026)",
+    "u": "https://m.huxiu.com/article/4901880.html"
+   },
+   {
+    "t": "Vinetur: Kweichow Moutai üçüncü çeyrekte yeniden büyüdü (31 Ekim 2026)",
+    "te": "Vinetur: Kweichow Moutai returned to quarterly growth (31 October 2026)",
+    "u": "https://www.vinetur.com/en/20261031110144/kweichow-moutai-returned-to-quarterly-growth-with-third-quarter-revenue-up-308.html"
+   },
+   {
+    "t": "Yicai Global: Kweichow Moutai'nin kârı 25 yılda ilk kez düştü (17 Nisan 2026)",
+    "te": "Yicai Global: Kweichow Moutai logs first earnings drop in 25 years (17 April 2026)",
+    "u": "https://www.yicaiglobal.com/news/kweichow-moutai-slides-as-chinese-distiller-logs-first-drop-in-profit-revenue-since-listing-in-2001"
+   },
+   {
+    "t": "Tiger Brokers: Kweichow Moutai 2025 yıllık raporu özeti (Nisan 2026)",
+    "te": "Tiger Brokers: summary of Kweichow Moutai's 2025 annual report (April 2026)",
+    "u": "https://www.itiger.com/news/1131123980"
+   }
+  ],
+  "en": {
+   "one": "Maker of Moutai, China's best-known liquor brand. Wide moat; it passed the quality walls and waits at the gate on price. Growth has stopped.",
+   "business": "Kweichow Moutai makes and sells baijiu, the Chinese spirit. More than 86% of revenue comes from a single product, Moutai liquor; the rest is cheaper series liquors. In the first nine months of 2026 revenue was 130.97 billion yuan and net profit 64.47 billion yuan. About 56% of sales now come from direct sales, most of them through the company's own app, i-Moutai (58.56 billion yuan).",
+   "moat_text": "The moat is wide. The advantage comes from the brand: Moutai holds an unrivalled place in China as the liquor for gifts and banquets, and the company sets its own price. The evidence is in profitability: in nine months 64.47 billion yuan of net profit was left from 130.97 billion yuan of revenue (about half of revenue), and real return on equity has not fallen below 28.7% in five years (30.3% over the last twelve months). On 18 July 2026 the company raised Moutai's contract price from 1,269 yuan to 1,369 yuan a bottle. The weak side: demand is no longer growing. In 2025 revenue and profit fell for the first time since the company listed in 2001. In the third quarter Moutai liquor revenue rose only 0.79% despite the price rise, which suggests lower volume.",
+   "mgmt": "The company is run by state-owned Moutai Group, whose direct stake was 54.40% at the end of 2025. Most of the profit goes to dividends: total cash dividends for 2025 were 65.03 billion yuan, 79% of net profit. The 2024-2026 plan calls for paying out at least 75% of profit. In 2025 the company bought back and cancelled shares twice, and the group bought about 3 billion yuan of shares. There is no net debt (net debt/EBITDA −0.45); cash was 195.99 billion yuan on 30 September 2026. A small flaw: part of the cash is managed through the group's finance company together with deposits of group companies, which makes cash flow swing from year to year. The state owner's priorities may differ from those of minority shareholders.",
+   "latest": "30 October 2026: The company reported nine-month results. In the third quarter revenue rose 3.08% to 40.27 billion yuan and net profit attributable to shareholders rose 3.78% to 19.95 billion yuan. Over nine months revenue rose 1.96% to 130.97 billion yuan and net profit fell 0.25% to 64.47 billion yuan. Direct sales rose 32.8% to 73.77 billion yuan; sales through distributors fell 21.6% to 57.12 billion yuan. Operating costs rose 22.0%, much faster than revenue. Advance payments from distributors (contract liabilities) fell from 8.01 billion yuan at the start of the year to 2.08 billion yuan.",
+   "risks": [
+    "Price: the P/E is 21.9. On the conservative calculation the share is far above fair value; there is no margin of safety.",
+    "Demand is weak: in 2025 revenue fell 1.2% and net profit 4.5%; in the first nine months of 2026 net profit slipped another 0.25%. Baijiu output in China fell 12.1% in 2025 and has been falling for nine years.",
+    "The distributor channel is shrinking: sales through distributors fell 21.6% in nine months and advance payments fell 74%. This shows distributors have less money and less appetite.",
+    "One product: more than 86% of revenue comes from Moutai liquor. Sales abroad are small and fell 57.85% to 1.64 billion yuan in nine months.",
+    "Government decisions: the company is state-controlled; limits on official banquets and gift spending affect demand directly."
+   ],
+   "watch": [
+    "Revenue and sales volume of Moutai liquor",
+    "The wholesale market price of Moutai",
+    "Contract liabilities (advance payments from distributors)",
+    "Price: the margin-of-safety threshold"
+   ]
+  }
+ },
+ "601138": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-Q3",
+  "one": "Yapay zekâ sunucuları ve ağ cihazları üreten dev fason üretici. Kâr hızla büyüyor ama net marj %4 dolayında; hendek zayıf, ölçütü geçemedi.",
+  "business": "Foxconn Industrial Internet (FII), başka şirketlerin tasarladığı sunucuları, ağ cihazlarını ve telefon parçalarını üretir. 2025'te 902,89 milyar yuan gelirin 602,68 milyar yuanı bulut bilişim (sunucu) işinden, 297,85 milyar yuanı iletişim ve mobil ağ cihazlarından geldi. Para, çok büyük hacimli üretimden alınan ince bir paydan kazanılır: 2026'nın ilk dokuz ayında 941,41 milyar yuan gelire karşılık ana ortaklık net kârı 40,38 milyar yuan oldu.",
+  "moat_text": "Hendek zayıf. Üstünlük gerçek: ölçek, Meksika ve Vietnam'a yayılmış fabrikalar ve yapay zekâ sunucusunda büyük müşterilerle kurulmuş ilişki. Üçüncü çeyrekte bulut bilişim geliri %75 arttı. Ama iş fason üretimdir: ürünün tasarımı ve markası müşterinindir, fiyatı da müşteri belirler. Bunu marj gösteriyor: dokuz aylık net kâr gelirin yaklaşık %4,3'ü. Reel özsermaye kârlılığı 2021-2024 arasında %14,06 ile %16,21 arasındaydı; 2025'te %21,09'a, son 12 ayda %29,26'ya çıkması yapay zekâ yatırım dalgasının sonucu. Bu dalganın kalıcı olduğu henüz kanıtlanmadı. B puanı 1 olduğu için şirket 3. suru geçemedi.",
+  "mgmt": "Hâkim ortak Tayvanlı Hon Hai'dir (Foxconn). Hon Hai'nin denetlediği China Galaxy Enterprise tek başına %36,73 paya sahip; Hon Hai'ye bağlı dokuz ortağın toplam payı yaklaşık %84. Halka açıklık düşük. Kâr hissedara dönüyor: 2025 için toplam nakit temettü 19,45 milyar yuan, ana ortaklık net kârının %55,12'si. Temmuz 2026'da başlayan geri alım programında 19 Eylül'e kadar 1,00 milyar yuanlık hisse alındı. Net borç/FAVÖK 0,43. Zayıf yanı nakit: stok büyüdüğü için 2025'te faaliyet nakit akışı %78,01 düşerek 5,24 milyar yuana indi; 2026'nın ilk dokuz ayında 3,22 milyar yuan oldu.",
+  "latest": "29 Ekim 2026: Şirket dokuz aylık sonuçlarını açıkladı. Gelir %55,88 artışla 941,41 milyar yuan, ana ortaklık net kârı %79,55 artışla 40,38 milyar yuan oldu; ikisi de 2025'in tamamını geçti. Üçüncü çeyrekte gelir %57,73 artışla 383,55 milyar yuan, net kâr %60,35 artışla 16,63 milyar yuan. Bulut bilişim geliri çeyrekte %75, ağ cihazları geliri 1,2 kat arttı. Dokuz aylık faaliyet nakit akışı 3,22 milyar yuan (geçen yıl eksi 4,14 milyar yuan).",
+  "risks": [
+   "Kârın büyümesi yapay zekâ veri merkezi yatırımlarına bağlıdır; büyük müşteriler yatırımı yavaşlatırsa sipariş ve kâr birlikte düşer.",
+   "Net marj %4 dolayındadır; müşterinin fiyat baskısı ya da parça maliyetindeki artış kârı hızla eritir.",
+   "Kâr nakde yavaş dönüyor: dokuz ayda 40,38 milyar yuan net kâra karşılık faaliyet nakit akışı 3,22 milyar yuan.",
+   "Üretimin önemli bölümü Meksika ve Vietnam'dadır; gümrük vergileri ve ticaret kısıtları maliyeti ve siparişi etkileyebilir.",
+   "Hon Hai payların yaklaşık %84'ünü elinde tutuyor; küçük ortağın söz hakkı sınırlıdır."
+  ],
+  "watch": [
+   "Bulut bilişim (yapay zekâ sunucusu) gelirinin büyümesi",
+   "Net kâr marjı",
+   "Faaliyet nakit akışı ve stok düzeyi",
+   "Büyük bulut şirketlerinin yatırım planları"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/sha/601138/financials/ratios/"
+   },
+   {
+    "t": "cninfo: Foxconn Industrial Internet 2025 yıllık rapor özeti (Mart 2026)",
+    "te": "cninfo: Foxconn Industrial Internet 2025 annual report summary (March 2026)",
+    "u": "https://static.cninfo.com.cn/finalpage/2026-03-11/1225004416.PDF"
+   },
+   {
+    "t": "Xinhua Finance (cnfin): FII üçüncü çeyrek raporu haberi (29 Ekim 2026)",
+    "te": "Xinhua Finance (cnfin): report on FII's third-quarter results (29 October 2026)",
+    "u": "https://www.cnfin.com/gs-lb/detail/20261029/4488225_1.html"
+   },
+   {
+    "t": "10jqka (Securities Daily): FII dokuz aylık net kârı 40 milyar yuanı aştı (30 Ekim 2026)",
+    "te": "10jqka (Securities Daily): FII nine-month net profit tops 40 billion yuan (30 October 2026)",
+    "u": "https://stock.10jqka.com.cn/20261030/c681314558.shtml"
+   },
+   {
+    "t": "Gelonghui (Changjiang Securities): FII üçüncü çeyrek notu (5 Kasım 2026)",
+    "te": "Gelonghui (Changjiang Securities): note on FII's third quarter (5 November 2026)",
+    "u": "https://m.gelonghui.com/news/5345669"
+   },
+   {
+    "t": "Eastmoney: FII 2025 sonuçları ve temettü önerisi (10 Mart 2026)",
+    "te": "Eastmoney: FII 2025 results and dividend proposal (10 March 2026)",
+    "u": "https://finance.eastmoney.com/a/202603103667797362.html"
+   }
+  ],
+  "en": {
+   "one": "Giant contract manufacturer of AI servers and network equipment. Profit grows fast but net margin is about 4%; moat weak, it did not pass.",
+   "business": "Foxconn Industrial Internet (FII) builds servers, network equipment and phone parts designed by other companies. In 2025, 602.68 billion yuan of its 902.89 billion yuan revenue came from cloud computing (servers) and 297.85 billion yuan from communication and mobile network equipment. It earns a thin slice of a very large production volume: in the first nine months of 2026 net profit attributable to shareholders was 40.38 billion yuan on revenue of 941.41 billion yuan.",
+   "moat_text": "The moat is weak. The advantage is real: scale, factories spread across Mexico and Vietnam, and established relationships with large customers in AI servers. Cloud computing revenue rose 75% in the third quarter. But this is contract manufacturing: the design and the brand belong to the customer, and the customer sets the price. The margin shows it: nine-month net profit is about 4.3% of revenue. Real return on equity was between 14.06% and 16.21% in 2021-2024; its rise to 21.09% in 2025 and 29.26% over the last twelve months is the result of the AI investment wave. It is not yet proven that this wave will last. With a B score of 1, the company did not pass Wall 3.",
+   "mgmt": "The controlling shareholder is Taiwan's Hon Hai (Foxconn). China Galaxy Enterprise, controlled by Hon Hai, holds 36.73% on its own; nine Hon Hai-related shareholders together hold about 84%. The free float is small. Profit returns to shareholders: total cash dividends for 2025 were 19.45 billion yuan, 55.12% of attributable net profit. Under the buyback programme started in July 2026, shares worth 1.00 billion yuan had been bought by 19 September. Net debt/EBITDA is 0.43. The weak spot is cash: because inventory grew, operating cash flow fell 78.01% to 5.24 billion yuan in 2025; it was 3.22 billion yuan in the first nine months of 2026.",
+   "latest": "29 October 2026: The company reported nine-month results. Revenue rose 55.88% to 941.41 billion yuan and net profit attributable to shareholders rose 79.55% to 40.38 billion yuan; both exceeded the whole of 2025. In the third quarter revenue rose 57.73% to 383.55 billion yuan and net profit rose 60.35% to 16.63 billion yuan. Cloud computing revenue rose 75% in the quarter and network equipment revenue rose 1.2 times. Nine-month operating cash flow was 3.22 billion yuan (minus 4.14 billion yuan a year earlier).",
+   "risks": [
+    "Profit growth depends on spending on AI data centres; if large customers slow their investment, orders and profit fall together.",
+    "Net margin is about 4%; price pressure from customers or higher component costs can erode profit quickly.",
+    "Profit turns into cash slowly: operating cash flow was 3.22 billion yuan in nine months against net profit of 40.38 billion yuan.",
+    "A large part of production is in Mexico and Vietnam; tariffs and trade restrictions can affect costs and orders.",
+    "Hon Hai holds about 84% of the shares; minority shareholders have limited say."
+   ],
+   "watch": [
+    "Growth in cloud computing (AI server) revenue",
+    "Net profit margin",
+    "Operating cash flow and inventory",
+    "Investment plans of the large cloud companies"
+   ]
+  }
+ },
+ "601899": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-Q3",
+  "one": "Çin'in büyük altın ve bakır madencisi. Maliyeti düşük, kârı rekor düzeyde; ama ürün emtia, kârı metal fiyatı belirliyor. Hendek ölçütünü geçemedi.",
+  "business": "Zijin Mining altın, bakır, çinko, gümüş ve lityum çıkarır, bir kısmını kendi tesislerinde işler. 2026'nın ilk yarısında brüt kârın %41,7'si altından, %33,8'i bakırdan geldi. İlk dokuz ayda 70,13 ton altın ve 815,7 bin ton bakır üretti. Varlıklarının %49'u Çin dışında, 17 ülkededir.",
+  "moat_text": "Hendek zayıf. Üstünlük maliyette ve ölçekte: 2026'nın ilk yarısında maden ürünlerinin brüt kâr marjı %69,34 oldu; altının birim maliyeti gram başına 347,30 yuan, Çin'de külçe fiyatı gram başına 1.033 yuandı. Ama altın ve bakır emtiadır; fiyatı şirket değil piyasa koyar. Kâr artışı bunu gösteriyor: ilk yarıda Londra altın fiyatı %53,0, bakır fiyatı %38,5 yükseldi; şirketin dokuz aylık geliri %11,51 artarken net kârı %51,93 arttı. Reel özsermaye kârlılığı 2021-2023 arasında %20 ile %22 arasındaydı, son 12 ayda %35,18. Aradaki fark büyük ölçüde fiyattan geliyor; fiyat dönerse kâr da döner. B puanı 1 olduğu için şirket 3. suru geçemedi.",
+  "mgmt": "Şirketin önemli ortağı, kamuya ait Minxi Xinghang'dır. Kârın bir kısmı temettüye gidiyor: 2025 için hisse başına 0,38 yuan (10,1 milyar yuan), 2026 ara temettüsü hisse başına 0,42 yuan (11,1 milyar yuan); dağıtım oranı %37,49. Nisan 2026'da 2,50 milyar yuanlık geri alım tamamlandı. Kalan kâr büyük satın almalara gidiyor: Chifeng Gold'un %25,85'i için yaklaşık 18,26 milyar yuan, Gansu Northwest Gold'un %72'si için yaklaşık 2,4 milyar yuan. Şirket ayrıca 1,5 milyar dolarlık hisseye çevrilebilir tahvil çıkardı. Borç azalıyor: borç/varlık oranı Haziran 2026'da %49,55 ile 2012'den beri ilk kez %50'nin altına indi; net borç/FAVÖK 0,49.",
+  "latest": "23 Ekim 2026: Şirket dokuz aylık sonuçlarını açıkladı. Gelir %11,51 artışla 283,45 milyar yuan, ana ortaklık net kârı %51,93 artışla 57,53 milyar yuan oldu ve 2025'in tamamını geçti. Faaliyet nakit akışı %61,74 artışla 84,33 milyar yuan. Altın üretimi %8 artışla 70,13 ton; bakır üretimi 815,7 bin ton. Lityum karbonat eşdeğeri üretimi 79,1 bin ton. Şirket 22 Ekim'de Chifeng Gold'da %25,85 payın alımının tamamlandığını duyurdu.",
+  "risks": [
+   "Kâr altın ve bakır fiyatına bağlıdır; fiyatlar 2026'da çok yükseldi, gerilerse kâr ve özsermaye kârlılığı birlikte düşer.",
+   "Varlıkların %49'u Çin dışında, 17 ülkededir; şirketin kendisi kaynak milliyetçiliğini, artan maden vergilerini ve sınır ötesi işletme risklerini sayıyor. Enflasyon düzeltmesi Çin enflasyonuyla yapıldı.",
+   "Kongo'daki Kamoa-Kakula bakır madeninin 2026 üretim planı 380-420 bin tondan 290-330 bin tona indirildi; şirketin 2026 için 1,2 milyon tonluk bakır hedefi baskı altında.",
+   "Şirket büyük satın almalarla büyüyor; yüksek metal fiyatlarıyla alınan madenler fiyat düşerse pahalıya alınmış olur.",
+   "Faizli borç Haziran 2026 sonunda 168,01 milyar yuandı; borç oranı düşse de tutar büyük."
+  ],
+  "watch": [
+   "Altın ve bakır fiyatı",
+   "Altın ve bakırın birim üretim maliyeti",
+   "Kamoa-Kakula'nın üretimi ve 2026 bakır hedefi (1,2 milyon ton)",
+   "Borç/varlık oranı ve yeni satın almalar"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/sha/601899/financials/ratios/"
+   },
+   {
+    "t": "HKEX: Zijin Mining 2026 ara dönem sonuç duyurusu (21 Ağustos 2026)",
+    "te": "HKEX: Zijin Mining 2026 interim results announcement (21 August 2026)",
+    "u": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0823/2026082300141.pdf"
+   },
+   {
+    "t": "Eastmoney (Shanghai Securities News): Zijin Mining dokuz aylık kârı geçen yılın tamamını geçti (3 Kasım 2026)",
+    "te": "Eastmoney (Shanghai Securities News): Zijin Mining nine-month profit exceeds all of last year (3 November 2026)",
+    "u": "https://wap.eastmoney.com/a/202611033920041722.html"
+   },
+   {
+    "t": "Quartr: Zijin Mining 2026 üçüncü çeyrek sonuç özeti (23 Ekim 2026)",
+    "te": "Quartr: Zijin Mining Q3 2026 earnings summary (23 October 2026)",
+    "u": "https://quartr.com/events/zijin-mining-group-2899-q3-2026_F3A5YDgi"
+   },
+   {
+    "t": "Reporte Minero: Zijin Mining, Chifeng Gold'un denetimini aldı (26 Ekim 2026)",
+    "te": "Reporte Minero: Zijin Mining takes control of Chifeng Gold (26 October 2026)",
+    "u": "https://www.reporteminero.cl/noticia/noticias/2026/10/zijin-mining-adquiere-control-chifeng-gold-oro"
+   },
+   {
+    "t": "Engineering News: Zijin, Kongo'daki maden baskınından sonra bakır hedefinin baskı altında olduğunu söyledi (24 Ağustos 2026; yalnız başlığı okundu)",
+    "te": "Engineering News: Zijin says copper target under pressure after Congo mine flood (24 August 2026; headline only)",
+    "u": "https://www.engineeringnews.co.za/article/zijin-says-copper-target-under-pressure-after-congo-mine-flood-2026-08-24"
+   },
+   {
+    "t": "Yicai Global: Zijin Mining'in Chifeng Gold'u devralması (23 Mart 2026)",
+    "te": "Yicai Global: Zijin Mining's takeover of Chifeng Gold (23 March 2026)",
+    "u": "https://www.yicaiglobal.com/news/chinas-chifeng-gold-sinks-as-peer-zijin-mining-is-set-to-become-its-no-1-shareholder"
+   }
+  ],
+  "en": {
+   "one": "China's large gold and copper miner. Costs are low and profit is at a record, but metal prices set the profit. It did not pass.",
+   "business": "Zijin Mining mines gold, copper, zinc, silver and lithium and processes part of it in its own plants. In the first half of 2026, 41.7% of gross profit came from gold and 33.8% from copper. In the first nine months it produced 70.13 tonnes of gold and 815.7 thousand tonnes of copper. 49% of its assets are outside China, in 17 countries.",
+   "moat_text": "The moat is weak. The advantage is in cost and scale: in the first half of 2026 the gross margin on mined products was 69.34%; the unit cost of gold was 347.30 yuan per gram, while the bullion price in China was 1,033 yuan per gram. But gold and copper are commodities; the market sets the price, not the company. The profit growth shows it: in the first half the London gold price rose 53.0% and the copper price 38.5%; the company's nine-month revenue rose 11.51% while net profit rose 51.93%. Real return on equity was between 20% and 22% in 2021-2023 and is 35.18% over the last twelve months. Most of the difference comes from prices; if prices turn, profit turns too. With a B score of 1, the company did not pass Wall 3.",
+   "mgmt": "A substantial shareholder is state-owned Minxi Xinghang. Part of the profit goes to dividends: 0.38 yuan per share for 2025 (10.1 billion yuan) and a 2026 interim dividend of 0.42 yuan per share (11.1 billion yuan); the payout ratio is 37.49%. A 2.50 billion yuan buyback was completed in April 2026. The rest of the profit goes to large acquisitions: about 18.26 billion yuan for 25.85% of Chifeng Gold and about 2.4 billion yuan for 72% of Gansu Northwest Gold. The company also issued 1.5 billion dollars of bonds convertible into shares. Debt is falling: the debt-to-asset ratio was 49.55% in June 2026, below 50% for the first time since 2012; net debt/EBITDA is 0.49.",
+   "latest": "23 October 2026: The company reported nine-month results. Revenue rose 11.51% to 283.45 billion yuan and net profit attributable to shareholders rose 51.93% to 57.53 billion yuan, exceeding the whole of 2025. Operating cash flow rose 61.74% to 84.33 billion yuan. Gold output rose 8% to 70.13 tonnes; copper output was 815.7 thousand tonnes. Lithium carbonate equivalent output was 79.1 thousand tonnes. On 22 October the company announced that the purchase of a 25.85% stake in Chifeng Gold was completed.",
+   "risks": [
+    "Profit depends on gold and copper prices; prices rose sharply in 2026, and if they fall, profit and return on equity fall together.",
+    "49% of assets are outside China, in 17 countries; the company itself lists resource nationalism, higher mining taxes and cross-border operating risks. The inflation adjustment uses Chinese inflation.",
+    "The 2026 production plan of the Kamoa-Kakula copper mine in Congo was cut from 380-420 thousand tonnes to 290-330 thousand tonnes; the company's 2026 copper target of 1.2 million tonnes is under pressure.",
+    "The company grows through large acquisitions; mines bought at high metal prices turn out expensive if prices fall.",
+    "Interest-bearing debt was 168.01 billion yuan at the end of June 2026; the ratio is falling but the amount is large."
+   ],
+   "watch": [
+    "Gold and copper prices",
+    "Unit production cost of gold and copper",
+    "Kamoa-Kakula output and the 2026 copper target (1.2 million tonnes)",
+    "Debt-to-asset ratio and new acquisitions"
+   ]
+  }
  }
 }

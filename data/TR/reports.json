@@ -830,5 +830,96 @@
    "risks": [],
    "watch": []
   }
+ },
+ "TOASO": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "9/2026",
+  "one": "Fiat ve öteki Stellantis markalarının Türkiye'deki üreticisi ve dağıtıcısı. Kalite surlarını geçiyor; fiyatı kale eşiğine yetmediği için kapıda bekliyor.",
+  "business": "Tofaş, Bursa'daki fabrikasında Stellantis için otomobil ve hafif ticari araç üretir, Türkiye'de Fiat, Peugeot, Citroën, Opel ve DS markalarını satar. Stellantis'in Türkiye'deki satış işi Nisan 2025 sonunda Tofaş'a bağlandı. 2026'nın ilk dokuz ayında 202.357 araç sattı (+%13) ve 99.702 araç üretti (+%11); hasılat 293,5 milyar TL oldu. Taşıt kredisi veren Koç Stellantis Finansman da şirkete bağlı. 30 Haziran 2026'da 4.603 kişi çalıştırıyordu.",
+  "moat_text": "Hendek dar. Üstünlük ölçekten ve dağıtım hakkından geliyor: Tofaş, 2026'nın ilk dokuz ayında Türkiye'de satılan her dört hafif araçtan birini sattı (pazar payı %25,2, bir yıl öncesine göre 6 puan yukarıda). Hafif ticari araçta pay %48,6, otomobilde %18,6. Zayıf yanı açık: bu üstünlük bugün marjda görünmüyor. Üçüncü çeyrekte FAVÖK marjı %3,0; 2025'te fabrika kapasitesinin yalnız %33'ü kullanıldı. Hangi modelin Bursa'da üretileceğine ve hangi markaların satılacağına tek bir ortak, Stellantis karar veriyor. Reel özsermaye kârlılığı da bunu gösteriyor: beş yılın ilk üçünde %55'in üzerindeydi, son iki mali yılda %11,9 ve %13,7'ye indi.",
+  "mgmt": "Kontrol iki ortakta: Stellantis Europe %37,86, Koç Holding %37,62 (30 Haziran 2026). Kalan payların büyük bölümü halka açık. Kâr düzenli olarak temettüye gidiyor: 2026'da 10,7 milyar TL ödendi (30 Haziran 2026 alım gücüyle), dağıtım oranı %59,7, temettü verimi %8,3. Buna karşılık serbest nakit akışı son iki mali yılda ve son 12 ayda eksi; temettü nakitten değil borçtan karşılanıyor. 2025'te Stellantis'in Türkiye'deki satış şirketi ortaklardan birinden, yani ilişkili taraftan alındı. Bu yüzden puan 2 değil 1.",
+  "latest": "5 Kasım 2026: Üçüncü çeyrek net kârı 4,33 milyar TL ile beklentinin (yaklaşık 2,5 milyar) çok üstünde geldi; geçen yıl 1,57 milyar TL idi. Satış geliri %29 düşüşle 80,5 milyar TL, FAVÖK 2,4 milyar TL, FAVÖK marjı %3,0 (geçen yıl %2,0). Kârı net finansman geliri (1,0 milyar TL) ve parasal kazanç (1,25 milyar TL) büyüttü. Çeyrekte yurt içi satış %38 düşüşle yaklaşık 54,1 bin, ihracat %80 artışla yaklaşık 17,6 bin adet oldu. Dokuz aylık net kâr 10,97 milyar TL (+%188,6), esas faaliyet kârı 5,55 milyar TL. Şirket 2026 hedeflerini indirdi: yurt içi satış 270–290 bin (önce 300–320 bin), ihracat 70–80 bin (önce 75–85 bin), üretim 135–145 bin adet (önce 145–155 bin). Yatırım bütçesi 250 milyon avroda kaldı; vergi öncesi kâr marjı beklentisi yaklaşık %4.",
+  "risks": [
+   "Kârın büyük bölümü otomotiv işinden gelmiyor. Dokuz aylık net kâr 10,97 milyar TL, esas faaliyet kârı 5,55 milyar TL; bunun 2,9 milyar TL'si finansman kolunun. Gerisi finansman geliri ve enflasyon muhasebesinin parasal kazancı. Bu kalemler azalırsa kâr hızla düşer.",
+   "Borç testi finansman kolu çıkarılarak geçildi. Kaynağın konsolide net borç/FAVÖK oranı 4,22; Koç Stellantis Finansman hariç oran 1,5 (eşik 3,0). 30 Eylül 2026'da konsolide net borç 51,6 milyar TL, kol hariç 12,5 milyar TL. Kolun 43,3 milyar TL kredi alacağı var; tahsilat bozulursa zarar Tofaş'ın bilançosuna yazılır.",
+   "Tek ortağa bağımlılık: üretilecek model, ihracat adedi ve satılan markalar Stellantis'in kararına bağlı. Egea'nın üretimi 2026 ortasında bitti; yerine gelen modeller beklenen adede ulaşmazsa fabrika düşük kapasiteyle çalışmayı sürdürür.",
+   "Yurt içi talep zayıflıyor: üçüncü çeyrekte yurt içi satış %38 düştü ve şirket yıllık hedeflerini indirdi. Kredi koşulları ve vergi değişiklikleri satışı doğrudan etkiler.",
+   "Serbest nakit akışı son iki mali yılda ve son 12 ayda eksi. Bu sürerse 2. surun nakit testi de zorlaşır."
+  ],
+  "watch": [
+   "Finansman kolu hariç net borç/FAVÖK (eşik 3,0)",
+   "FAVÖK marjı ve vergi öncesi kâr marjı (2026 beklentisi yaklaşık %4, 2028 hedefi %5–7)",
+   "Üretim adedi ve kapasite kullanımı (2026 hedefi 135–145 bin)",
+   "Serbest nakit akışının artıya dönmesi"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/ist/TOASO/financials/ratios/"
+   },
+   {
+    "t": "Tofaş: 30 Haziran 2026 özet konsolide finansal tablolar, ortaklık yapısı ve bölüm dipnotu (KAP eki, 29 Tem 2026)",
+    "te": "Tofaş: condensed consolidated financial statements for 30 June 2026, ownership and segment notes (KAP attachment, 29 Jul 2026)",
+    "u": "https://kap.org.tr/tr/api/file/download/4028328c9f52dc3f019faec44fe808ef"
+   },
+   {
+    "t": "CNBC-e: Tofaş 3. çeyrek bilançosu (5 Kas 2026)",
+    "te": "CNBC-e: Tofaş third-quarter results (5 Nov 2026)",
+    "u": "https://www.cnbce.com/sirket-bilancolari/tofastan-toaso-beklentileri-asan-3ceyrek-bilancosu-iste-detaylar-h41136"
+   },
+   {
+    "t": "Foreks: Oyak Yatırım'ın Tofaş 3Ç26 değerlendirmesi (6 Kas 2026)",
+    "te": "Foreks: Oyak Yatırım's review of Tofaş 3Q26 (6 Nov 2026)",
+    "u": "https://www.foreks.com/haber/detay/6aed90934b1852391445d4c5/FRKS/tr/hisse-degerlendirmesi-oyak-yatirim-tofas-icin-hedef-fiyatini-415-tl-tavsiyesini-endeks-ustu-getiri-olarak-korudu-06-11-26/"
+   },
+   {
+    "t": "Foreks: Tofaş 2026 satış, ihracat ve üretim beklentilerini düşürdü (5 Kas 2026)",
+    "te": "Foreks: Tofaş cut its 2026 sales, export and production expectations (5 Nov 2026)",
+    "u": "https://www.foreks.com/haber/detay/6aecc17195131d72027d7c26/PICNEWS/tr/tofas-2026-satis-ihracat-ve-uretim-beklentilerini-dusurdu-05-11-26/"
+   },
+   {
+    "t": "Bloomberg HT: Tofaş'tan beklentileri aşan kâr (6 Kas 2026)",
+    "te": "Bloomberg HT: Tofaş profit beats expectations (6 Nov 2026)",
+    "u": "https://www.bloomberght.com/tofas-tan-beklentileri-asan-kar-performansi-3793718"
+   },
+   {
+    "t": "Hisse.net: Tofaş 3. çeyrek bilançosunu açıkladı (6 Kas 2026)",
+    "te": "Hisse.net: Tofaş announced third-quarter results (6 Nov 2026)",
+    "u": "https://www.hisse.net/haber/tofas-toaso-3-ceyrek-bilancosunu-acikladi-kari-yuzde-189-artti-105676"
+   },
+   {
+    "t": "İş Yatırım: Tofaş şirket güncellemesi (16 Şub 2026)",
+    "te": "İş Yatırım: Tofaş company update (16 Feb 2026)",
+    "u": "https://arastirma.isyatirim.com.tr/wp-content/uploads/2026/02/TOASO_Sirket-Guncelleme_160226.pdf"
+   }
+  ],
+  "en": {
+   "one": "Maker and distributor of Fiat and other Stellantis brands in Türkiye. It passes the quality walls but waits at the gate on price.",
+   "business": "Tofaş builds cars and light commercial vehicles for Stellantis at its plant in Bursa, and sells the Fiat, Peugeot, Citroën, Opel and DS brands in Türkiye. Stellantis's sales business in Türkiye was folded into Tofaş at the end of April 2025. In the first nine months of 2026 it sold 202,357 vehicles (+13%) and built 99,702 (+11%); revenue was 293.5 billion TRY. Koç Stellantis Finansman, which lends for vehicle purchases, also belongs to the company. It employed 4,603 people on 30 June 2026.",
+   "moat_text": "The moat is narrow. The advantage comes from scale and distribution rights: in the first nine months of 2026 Tofaş sold one in four light vehicles sold in Türkiye (market share 25.2%, up 6 points on a year earlier). Its share is 48.6% in light commercial vehicles and 18.6% in cars. The weak point is plain: this advantage does not show in the margin today. EBITDA margin was 3.0% in the third quarter, and only 33% of plant capacity was used in 2025. A single partner, Stellantis, decides which models are built in Bursa and which brands are sold. Real return on equity shows the same: it was above 55% in the first three of the five years and fell to 11.9% and 13.7% in the last two fiscal years.",
+   "mgmt": "Control lies with two partners: Stellantis Europe 37.86% and Koç Holding 37.62% (30 June 2026). Most of the remaining shares are publicly traded. Profit is regularly paid out as dividends: 10.7 billion TRY was paid in 2026 (in 30 June 2026 purchasing power), the payout ratio is 59.7% and the dividend yield 8.3%. Against that, free cash flow was negative in the last two fiscal years and over the last 12 months; the dividend is covered by debt, not by cash. In 2025 Stellantis's sales company in Türkiye was bought from one of the partners, a related party. That is why this score is 1 rather than 2.",
+   "latest": "5 November 2026: Third-quarter net profit of 4.33 billion TRY was far above expectations (about 2.5 billion); it was 1.57 billion TRY a year earlier. Sales revenue fell 29% to 80.5 billion TRY, EBITDA was 2.4 billion TRY and EBITDA margin 3.0% (2.0% a year earlier). Net financing income (1.0 billion TRY) and the monetary gain (1.25 billion TRY) lifted profit. In the quarter domestic sales fell 38% to about 54.1 thousand units and exports rose 80% to about 17.6 thousand. Nine-month net profit was 10.97 billion TRY (+188.6%) and operating profit 5.55 billion TRY. The company cut its 2026 targets: domestic sales 270–290 thousand (previously 300–320 thousand), exports 70–80 thousand (previously 75–85 thousand), production 135–145 thousand units (previously 145–155 thousand). The investment budget stayed at 250 million euros; the expected pre-tax profit margin is about 4%.",
+   "risks": [
+    "Most of the profit does not come from the automotive business. Nine-month net profit was 10.97 billion TRY and operating profit 5.55 billion TRY, of which 2.9 billion TRY belongs to the finance arm. The rest is financing income and the monetary gain from inflation accounting. If these items shrink, profit falls quickly.",
+    "The debt test was passed with the finance arm taken out. The source's consolidated net debt/EBITDA ratio is 4.22; without Koç Stellantis Finansman it is 1.5 (threshold 3.0). On 30 September 2026 consolidated net debt was 51.6 billion TRY, and 12.5 billion TRY without the arm. The arm holds 43.3 billion TRY of loan receivables; if collections deteriorate, the loss lands on Tofaş's balance sheet.",
+    "Dependence on one partner: the models to be built, export volume and the brands sold depend on Stellantis's decisions. Production of the Egea ended in mid-2026; if the models replacing it do not reach the expected volume, the plant keeps running at low capacity.",
+    "Domestic demand is weakening: domestic sales fell 38% in the third quarter and the company cut its full-year targets. Credit conditions and tax changes affect sales directly.",
+    "Free cash flow was negative in the last two fiscal years and over the last 12 months. If this continues, the cash test at Wall 2 also gets harder."
+   ],
+   "watch": [
+    "Net debt/EBITDA without the finance arm (threshold 3.0)",
+    "EBITDA margin and pre-tax profit margin (about 4% expected for 2026, 5–7% targeted for 2028)",
+    "Production units and capacity use (2026 target 135–145 thousand)",
+    "Free cash flow turning positive"
+   ]
+  }
  }
 }

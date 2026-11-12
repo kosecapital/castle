@@ -1178,5 +1178,656 @@
    "risks": [],
    "watch": []
   }
+ },
+ "4519": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 2,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "2026-Q3",
+  "one": "Roche'un çoğunluk payına sahip olduğu Japon ilaç şirketi. Kalite surlarını geçti; hendek gerçek ama Roche'a bağlı. Fiyat yüksek, kapıda bekliyor.",
+  "business": "Chugai iki yoldan kazanır. Roche'un ilaçlarını Japonya'da tek başına satar. Kendi bulduğu ilaçları (Hemlibra, Actemra gibi) Roche'un dünya çapındaki ağı üzerinden ihraç eder ve bunlardan lisans geliri alır. 2025 yılında hasılat 1,258 trilyon yen oldu; bunun 724,1 milyar yeni, yani %57,6'sı Roche'a yapılan satıştı.",
+  "moat_text": "Hendek dar. Üstünlük gerçek: şirketin kendi laboratuvarından çıkan patentli ilaçlar dünyada satılıyor ve Roche'un satış ağı Chugai'ye tek başına kuramayacağı bir dağıtım sağlıyor. Roche'un geliştirdiği ilaçlarda Japonya için ilk hak Chugai'de. Kârlılık bunu gösteriyor: reel özsermaye kârlılığı son beş mali yılda %17,9 ile %27,3 arasında, ortalama %21,7. Sınıfı düşüren şey bağımlılık: hasılatın yarıdan fazlası tek bir alıcıdan, Roche'tan geliyor. Patentlerin süresi sınırlı ve Japonya'da ilaç fiyatları her yıl devlet tarafından indiriliyor.",
+  "mgmt": "Roche şirketin %59,89'una sahip; anlaşma gereği Chugai'nin borsada kalmasını destekliyor ve Chugai kendi yönetimini sürdürüyor. Roche ile küçük ortak arasında çıkar çatışması doğurabilecek işlemleri Mart 2022'de kurulan özel bir kurul inceliyor. 2026 için temettü tahmini hisse başına 132 yen (66 yen ara, 66 yen yıl sonu). 2025'te 150 yeni yüzüncü yıl temettüsü olmak üzere 272 yen ödenmişti. Net borç yok (net borç/FAVÖK −1,22).",
+  "latest": "27 Ekim 2026: Ocak-Eylül 2026 sonuçları açıklandı. Hasılat %17,2 artışla 1,068 trilyon yen, temel (Core) faaliyet kârı %19,0 artışla 536,1 milyar yen, temel net kâr %20,2 artışla 384,7 milyar yen oldu. Yurt içi ürün satışı 406,3 milyar yen (+%18,2; öne çekilen sevkiyatlar dahil), yurt dışı ürün satışı 500,5 milyar yen (+%11,0). Yıllık tahmin değişmedi: hasılat 1,345 trilyon yen, temel faaliyet kârı 670,0 milyar yen. 28 Eylül 2026'da şirket emugrobart'ın obezitede geliştirilmesini durdurdu; Roche haklarını geri verdi.",
+  "risks": [
+   "Fiyat: F/K 23,4, PD/DD 5,6. Temkinli hesapla hisse adil değerin üzerinde; güvenlik marjı yok.",
+   "Roche'a bağımlılık: 2025 hasılatının %57,6'sı Roche'a satıştan geldi. Roche'un ihracat alımı ya da stok kararı Chugai'nin kârını doğrudan etkiler.",
+   "Patent süresi: kâr birkaç büyük ilaca dayanıyor; patenti biten ilaçta benzer ürünler fiyatı düşürür. Avastin satışı fiyat indirimleriyle geriliyor.",
+   "Japonya'da ilaç fiyatları her yıl gözden geçiriliyor ve indiriliyor.",
+   "Araştırma sonuç vermeyebilir: 2026'da emugrobart obezitede durduruldu, Roche aynı ilacı Mart 2026'da iki kas hastalığında da bırakmıştı."
+  ],
+  "watch": [
+   "Roche'a ihracat ve lisans gelirleri",
+   "Hemlibra satışları",
+   "Japonya'daki ilaç fiyatı indirimleri",
+   "Fiyat: güvenlik marjı eşiği"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tyo/4519/financials/ratios/"
+   },
+   {
+    "t": "Chugai yatırımcı sayfası: 2026 3. çeyrek konsolide finansal özet (27 Ekim 2026)",
+    "te": "Chugai investor relations: FY2026 Q3 consolidated financial overview (27 October 2026)",
+    "u": "https://dllr03zngnwrw.cloudfront.net/english/ir/finance/latest.html"
+   },
+   {
+    "t": "Chugai yatırımcı sayfası: çeyrek raporları listesi (27 Ekim 2026)",
+    "te": "Chugai investor relations: list of quarterly reports (27 October 2026)",
+    "u": "https://dllr03zngnwrw.cloudfront.net/english/ir/reports_downloads/tanshin.html"
+   },
+   {
+    "t": "Gyokai Digest: Chugai Ocak-Eylül 2026 sonuç özeti (27 Ekim 2026)",
+    "te": "Gyokai Digest: Chugai results summary, January-September 2026 (27 October 2026)",
+    "u": "https://www.gyokaidigest.com/companies/chugai-pharm/report/2026-Q3"
+   },
+   {
+    "t": "Chugai: kurumsal yönetim, Roche'un payı ve ortaklık koşulları",
+    "te": "Chugai: corporate governance, Roche's shareholding and alliance terms",
+    "u": "https://dllr03zngnwrw.cloudfront.net/english/ir/governance/concept.html"
+   },
+   {
+    "t": "Envalith: Chugai şirket özeti, Roche'a satışın payı (2025 yılı)",
+    "te": "Envalith: Chugai overview, share of sales to Roche (fiscal 2025)",
+    "u": "https://envalith.com/en/companies/4519/overview"
+   },
+   {
+    "t": "1stOncology: Chugai 2026 2. çeyrek sonuçları (24 Temmuz 2026)",
+    "te": "1stOncology: Chugai announces 2026 2nd quarter results (24 July 2026)",
+    "u": "https://www.1stoncology.com/blog/?p=112429"
+   },
+   {
+    "t": "ChemXplore: Chugai emugrobart'ın obezitede geliştirilmesini durdurdu (28 Eylül 2026)",
+    "te": "ChemXplore: Chugai halts obesity development of emugrobart (28 September 2026)",
+    "u": "https://chemxplore.com/news/chugai-discontinues-gym329-obesity-development"
+   }
+  ],
+  "en": {
+   "one": "Japanese drug maker majority-owned by Roche. Passed the quality walls; the moat is real but tied to Roche. Price is high; waits at the gate.",
+   "business": "Chugai earns money in two ways. It is the sole seller of Roche's medicines in Japan. It exports the medicines it discovered itself (such as Hemlibra and Actemra) through Roche's worldwide network and receives royalty income on them. In 2025 revenue was 1.258 trillion yen; 724.1 billion yen of it, or 57.6%, was sales to Roche.",
+   "moat_text": "The moat is narrow. The advantage is real: patented medicines from the company's own laboratories are sold around the world, and Roche's sales network gives Chugai a reach it could not build alone. Chugai has the first right in Japan to medicines developed by Roche. Profitability shows it: real return on equity ranged from 17.9% to 27.3% over the last five fiscal years, averaging 21.7%. What lowers the class is dependence: more than half of revenue comes from a single buyer, Roche. Patents have a limited life, and drug prices in Japan are cut by the government every year.",
+   "mgmt": "Roche owns 59.89% of the company; under the agreement it supports keeping Chugai listed, and Chugai runs its own management. A special committee set up in March 2022 reviews transactions that could create a conflict between Roche and minority shareholders. The dividend forecast for 2026 is 132 yen per share (66 yen interim, 66 yen year-end). In 2025 it paid 272 yen, of which 150 yen was a 100th anniversary dividend. There is no net debt (net debt/EBITDA −1.22).",
+   "latest": "27 October 2026: results for January-September 2026 were announced. Revenue rose 17.2% to 1.068 trillion yen, Core operating profit rose 19.0% to 536.1 billion yen and Core net profit rose 20.2% to 384.7 billion yen. Domestic product sales were 406.3 billion yen (+18.2%, including shipments brought forward) and overseas product sales 500.5 billion yen (+11.0%). The full-year forecast is unchanged: revenue 1.345 trillion yen, Core operating profit 670.0 billion yen. On 28 September 2026 the company stopped developing emugrobart for obesity; Roche returned the rights.",
+   "risks": [
+    "Price: the P/E is 23.4 and the P/B 5.6. On the conservative calculation the share is above fair value; there is no margin of safety.",
+    "Dependence on Roche: 57.6% of 2025 revenue came from sales to Roche. Roche's export purchases or inventory decisions affect Chugai's profit directly.",
+    "Patent life: profit rests on a few large medicines; when a patent ends, similar products push the price down. Avastin sales are falling with price cuts.",
+    "Drug prices in Japan are reviewed and cut every year.",
+    "Research may not pay off: in 2026 emugrobart was stopped in obesity, and Roche had dropped the same drug in two muscle diseases in March 2026."
+   ],
+   "watch": [
+    "Exports to Roche and royalty income",
+    "Hemlibra sales",
+    "Drug price cuts in Japan",
+    "Price: the margin-of-safety threshold"
+   ]
+  }
+ },
+ "5803": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "2026-Q2",
+  "one": "Veri merkezlerine optik kablo ve bağlantı parçası satan Japon şirketi. Kalite surlarını geçti; kâr tek bir talep dalgasına bağlı. Fiyat yüksek, kapıda bekliyor.",
+  "business": "Fujikura optik fiber, optik kablo ve bağlantı parçaları üretir; ayrıca elektronik parça, otomobil kablo donanımı ve enerji kablosu satar. Mart 2026'da biten yılda bilgi ve iletişim kolu 653,0 milyar yen satış yaptı; bu, kol satışları toplamının yaklaşık %55'i ve kol kârlarının yaklaşık %81'i (152,7 milyar yen). Bu kolun satışının 457,0 milyar yeni ABD'ye yapıldı. Başlıca alıcılar ABD'deki büyük veri merkezi işletmecileri ve telekom şirketleri.",
+  "moat_text": "Hendek dar. Üstünlük gerçek ve rakamda görünüyor: bilgi ve iletişim kolunun faaliyet kâr marjı %23,4, oysa şirketin içinde bulunduğu sektörün ortanca marjı %5,4. Büyük veri merkezi işletmecileri ürünü onaylayıp hatlarına aldıktan sonra tedarikçiyi kolay değiştirmez; şirket Haziran 2026'da böyle bir müşteriden beklemediği büyük bir proje siparişi aldı. Ama bu kârlılık yeni: reel özsermaye kârlılığı 2023 ve 2024 mali yıllarında %12,5 ve %12,8 idi, 2026'da %28,8'e çıktı. Yükseliş yapay zekâ veri merkezi yatırımlarıyla geldi ve birkaç büyük alıcıya dayanıyor; kalıcı olup olmadığı henüz belli değil. Öbür kollarda marj düşük (otomotiv %3,8, elektronik %4,4).",
+  "mgmt": "Şirket kârın yaklaşık %40'ını dağıtmayı hedefliyor. Mart 2027 yılı için temettü tahmini hisse başına 80 yen; aynı yılın hisse başına kâr tahmini 196,9 yen. Hisse altıya bölündü. Mart 2026 sonunda özsermayenin toplam varlıklara oranı %57,8 idi; net borç yok (net borç/FAVÖK −0,27). Kâr ana işe ve temettüye gidiyor.",
+  "latest": "10 Kasım 2026: Nisan-Eylül 2026 dönemi sonuçları açıklandı. Satış %55,2 artışla 867,4 milyar yen, faaliyet kârı %160,6 artışla 235,0 milyar yen, net kâr %168,5 artışla 180,3 milyar yen oldu. Bilgi ve iletişim kolunun satışı %91,6 arttı. Mart 2027 yılı tahmini: satış 1,768 trilyon yen (önceki 1,755), faaliyet kârı 429 milyar yen (önceki 432), net kâr 326 milyar yen (değişmedi). Şirket yıla kâr düşüşü tahminiyle başlamış, 18 Haziran ve 7 Ağustos 2026'da tahminini yükseltmişti.",
+  "risks": [
+   "Fiyat: F/K 18,9, PD/DD 7,4. Temkinli hesap son üç okumanın en düşüğünü kullanır; ona göre hisse adil değerin üzerinde, güvenlik marjı yok.",
+   "Kâr yapay zekâ veri merkezi yatırımlarına bağlı: bu yatırım yavaşlarsa satış ve marj birlikte düşer. 2023 mali yılında reel özsermaye kârlılığı %12,5 idi.",
+   "Müşteri ve bölge yoğunlaşması: bilgi ve iletişim kolunun satışının büyük bölümü ABD'deki birkaç büyük alıcıya gidiyor.",
+   "Kur: şirketin açıklamasına göre dolar karşısında 1 yenlik değişim yıllık faaliyet kârını yaklaşık 2,7 milyar yen oynatıyor.",
+   "Üretim darboğazı: optik fiber üretiminde kullanılan hidrojenin tedariki 2026'da sıkıntı yarattı; şirket etkinin azaldığını bildirdi."
+  ],
+  "watch": [
+   "Bilgi ve iletişim kolunun satışı ve marjı",
+   "Büyük veri merkezi işletmecilerinin yatırım planları",
+   "Dolar/yen kuru",
+   "Fiyat: güvenlik marjı eşiği"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tyo/5803/financials/ratios/"
+   },
+   {
+    "t": "EDINET DB: Fujikura şirket sayfası, ara dönem sonuçları ve tahmin değişikliği (10 Kasım 2026)",
+    "te": "EDINET DB: Fujikura company page, interim results and forecast revision (10 November 2026)",
+    "u": "https://edinetdb.jp/company/5803"
+   },
+   {
+    "t": "EDINET DB: Fujikura Nisan-Eylül 2026 bilanço özeti (10 Kasım 2026)",
+    "te": "EDINET DB: Fujikura earnings summary, April-September 2026 (10 November 2026)",
+    "u": "https://edinetdb.jp/company/E01334/earnings/FY2027-Q2"
+   },
+   {
+    "t": "Quartr: Fujikura Nisan-Haziran 2026 sonuç özeti (7 Ağustos 2026)",
+    "te": "Quartr: Fujikura results summary, April-June 2026 (7 August 2026)",
+    "u": "https://quartr.com/events/fujikura-ltd-5803-q1-2027_FY0ZICoj"
+   },
+   {
+    "t": "Reuters, Newsweek Japan: Fujikura yıllık kâr tahminini yükseltti (18 Haziran 2026)",
+    "te": "Reuters via Newsweek Japan: Fujikura raises full-year profit forecast (18 June 2026)",
+    "u": "https://www.newsweekjapan.jp/articles/-/325964"
+   },
+   {
+    "t": "Envalith: Fujikura iş kolları (Mart 2026 yılı)",
+    "te": "Envalith: Fujikura segments (year to March 2026)",
+    "u": "https://envalith.com/en/companies/5803/segments"
+   }
+  ],
+  "en": {
+   "one": "Japanese maker of optical cable and connectors for data centers. Passed quality walls; profit rides one demand wave. Price is high; waits at the gate.",
+   "business": "Fujikura makes optical fiber, optical cable and connectors; it also sells electronic components, automotive wire harnesses and power cable. In the year to March 2026 the Information and Communications arm had sales of 653.0 billion yen; this was about 55% of total segment sales and about 81% of segment profits (152.7 billion yen). 457.0 billion yen of this arm's sales went to the United States. The main buyers are large US data center operators and telecom companies.",
+   "moat_text": "The moat is narrow. The advantage is real and shows in the numbers: the Information and Communications arm earns an operating margin of 23.4%, while the median margin of the company's industry is 5.4%. Once large data center operators approve a product and build it into their lines, they do not switch supplier easily; in June 2026 the company received a large project order from such a customer that it had not expected. But this profitability is new: real return on equity was 12.5% and 12.8% in fiscal 2023 and 2024, and rose to 28.8% in 2026. The rise came with artificial intelligence data center investment and rests on a few large buyers; it is not yet clear whether it will last. Margins are low in the other arms (automotive 3.8%, electronics 4.4%).",
+   "mgmt": "The company aims to pay out about 40% of profit. The dividend forecast for the year to March 2027 is 80 yen per share; the forecast earnings per share for the same year are 196.9 yen. The share was split six for one. At the end of March 2026 equity was 57.8% of total assets; there is no net debt (net debt/EBITDA −0.27). Profit goes to the main business and to dividends.",
+   "latest": "10 November 2026: results for April-September 2026 were announced. Sales rose 55.2% to 867.4 billion yen, operating profit rose 160.6% to 235.0 billion yen and net profit rose 168.5% to 180.3 billion yen. Sales of the Information and Communications arm rose 91.6%. Forecast for the year to March 2027: sales 1.768 trillion yen (previously 1.755), operating profit 429 billion yen (previously 432), net profit 326 billion yen (unchanged). The company had started the year forecasting a fall in profit and raised its forecast on 18 June and 7 August 2026.",
+   "risks": [
+    "Price: the P/E is 18.9 and the P/B 7.4. The conservative calculation uses the lowest of the last three readings; on that basis the share is above fair value and there is no margin of safety.",
+    "Profit depends on artificial intelligence data center investment: if it slows, sales and margin fall together. In fiscal 2023 real return on equity was 12.5%.",
+    "Customer and regional concentration: most of the Information and Communications arm's sales go to a few large buyers in the United States.",
+    "Currency: according to the company, a 1 yen move against the dollar shifts annual operating profit by about 2.7 billion yen.",
+    "Production bottleneck: the supply of hydrogen used in making optical fiber caused trouble in 2026; the company reported that the effect has eased."
+   ],
+   "watch": [
+    "Sales and margin of the Information and Communications arm",
+    "Investment plans of large data center operators",
+    "Dollar/yen exchange rate",
+    "Price: the margin-of-safety threshold"
+   ]
+  }
+ },
+ "6098": {
+  "scores": {
+   "A": 1,
+   "B": 2,
+   "C": 1,
+   "D": 2,
+   "E": 2
+  },
+  "moat": "dar",
+  "per": "2026-Q1",
+  "one": "İş arama sitesi Indeed'in sahibi; ayrıca geçici personel ve ilan platformları işletiyor. Kalite surlarını geçiyor; fiyat çok yüksek olduğu için kapıda bekliyor.",
+  "business": "Recruit'in üç işi var. İK teknolojisi kolu, iş arama sitesi Indeed'de işverenlerin verdiği iş ilanlarından gelir elde eder. Personel kolu şirketlere geçici çalışan sağlar. Üçüncü kol Japonya'da konut ve gündelik yaşam hizmetleri için ilan platformları işletir. Mart 2026'da biten yılda hasılat 3,70 trilyon yen oldu: İK teknolojisi 1,46 trilyon, personel 1,70 trilyon, ilan platformları 0,56 trilyon yen. Kârın büyük bölümü İK teknolojisinden gelir: 794,3 milyar yenlik düzeltilmiş FAVÖK'ün (şirketin EBITDA+S ölçütü) 549,9 milyarı.",
+  "moat_text": "Hendek dar ama gerçek. Indeed'de iş arayan çok olduğu için işveren oraya ilan verir, ilan çok olduğu için de iş arayan oraya gelir; bu döngüyü yeni bir sitenin kurması zordur. Fiyat gücü rakamda görünüyor: ABD'de işe alım talebi durgunken ilan başına gelir Temmuz-Eylül 2026'da %39 arttı, kolun düzeltilmiş FAVÖK marjı ilk yarıda %47,5 oldu. Reel özsermaye kârlılığı 2023 mali yılındaki %14,7'den 2026 mali yılında %28,1'e çıktı. Geniş demiyoruz, çünkü üstünlük tek bir kaynağa, Indeed'e dayanıyor ve marjdaki sıçrama yeni; işe alım düştüğünde ne kadar kalıcı olduğu henüz sınanmadı. Hasılatın yarısına yakınını getiren personel işinde marj yalnız %6 dolayında ve hendek yok.",
+  "mgmt": "Kâr hissedara geri alımla dönüyor. Mart 2026'da biten yılda 678,7 milyar yenlik hisse geri alındı. Nisan 2026'da başlayan 350 milyar yenlik programın 177,6 milyar yeni 30 Eylül 2026'ya kadar kullanıldı; süre Mart 2027 sonuna uzatıldı. Temettü küçük: yıllık hisse başına 26 yen. Şirketin net borcu yok (net borç/FAVÖK −0,84); 30 Eylül 2026'da 988,2 milyar yen nakdi vardı.",
+  "latest": "11 Kasım 2026: Temmuz-Eylül 2026 çeyreğinde hasılat %19,7 artışla 1,09 trilyon yen, düzeltilmiş FAVÖK %43,6 artışla 297,9 milyar yen, net kâr %64,0 artışla 209,0 milyar yen oldu; üçü de rekor. Altı aylık hasılat 2,14 trilyon yen (+%19,3), net kâr 411,6 milyar yen (+%65,7). İK teknolojisinin dolar cinsinden hasılatı çeyrekte %27,5 arttı. Şirket yıllık tahminini değiştirmedi: hasılat 4,23 trilyon yen, net kâr 755 milyar yen. İK teknolojisi için yıllık beklentisini 11,92 milyar dolara çıkardı (Ağustos'ta 11,48 milyar).",
+  "risks": [
+   "Fiyat: F/K 43,9, PD/DD 14,1. Temkinli hesapla hisse adil değerin çok üzerinde; güvenlik marjı yok.",
+   "Kâr artışı ilan sayısından değil, ilan başına fiyattan geliyor. İşverenler bu fiyatı ödemeyi bırakırsa ya da işe alım daha da düşerse kâr geriler.",
+   "İşe alım döngüseldir: durgunlukta ilan ve geçici personel talebi birlikte düşer. Reel özsermaye kârlılığı 2023 mali yılında %14,7'ye inmişti.",
+   "Yapay zekâ iş aramayı ve aday eşleştirmeyi değiştiriyor; iş arayanlar başka bir kanala kayarsa Indeed'in üstünlüğü zayıflar.",
+   "Kârın büyük bölümü dolar cinsinden kazanılıyor; yen değerlenirse yen cinsinden hasılat ve kâr düşer."
+  ],
+  "watch": [
+   "ABD'de ilan başına gelirin artışı",
+   "İK teknolojisi kolunun düzeltilmiş FAVÖK marjı (yıllık beklenti %46,5)",
+   "Hisse geri alımlarının tutarı",
+   "Fiyat: güvenlik marjı eşiği"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tyo/6098/financials/ratios/"
+   },
+   {
+    "t": "MarketScreener: Recruit Holdings 2026 mali yılı 2. çeyrek sonuç özeti, şirket belgesi (11 Kas 2026)",
+    "te": "MarketScreener: Recruit Holdings FY2026 Q2 results summary, company document (11 Nov 2026)",
+    "u": "https://www.marketscreener.com/news/recruit-financial-document-recruit-202703q2-summary-en-ce785edbdb8cf727"
+   },
+   {
+    "t": "Staffing Industry Analysts: Recruit Holdings 2. çeyrekte rekor hasılat açıkladı (11 Kas 2026)",
+    "te": "Staffing Industry Analysts: Recruit Holdings posts record-high revenue in Q2, HR Tech surges (11 Nov 2026)",
+    "u": "https://www.staffingindustry.com/news/global-daily-news/recruit-holdings-posts-record-high-revenue-in-q2-hr-tech-surges"
+   },
+   {
+    "t": "Yahoo Finance: Recruit Holdings'in ilk yarı kârı Indeed sayesinde sıçradı (11 Kas 2026)",
+    "te": "Yahoo Finance: Recruit Holdings profit jumps as Indeed monetisation boosts first-half earnings (11 Nov 2026)",
+    "u": "https://sg.finance.yahoo.com/news/recruit-holdings-profit-jumps-indeed-073750544.html"
+   },
+   {
+    "t": "Recruit Holdings: 2026 mali yılı 1. çeyrek sonuç özeti (7 Ağu 2026)",
+    "te": "Recruit Holdings: FY2026 Q1 results summary (7 Aug 2026)",
+    "u": "https://recruit-holdings.com/en/ir/library/upload/recruit_202703Q1_summary_en/"
+   },
+   {
+    "t": "Recruit Holdings: Mart 2026'da biten yılın sonuç bildirimi (15 May 2026)",
+    "te": "Recruit Holdings: earnings release for the year ended March 2026 (15 May 2026)",
+    "u": "https://recruit-holdings.com/en/ir/library/upload/Recruit_202603Q4_earnings_en.html"
+   },
+   {
+    "t": "Recruit Holdings: hisse geri alım durumu (2 Kas 2026)",
+    "te": "Recruit Holdings: status of share repurchases (2 Nov 2026)",
+    "u": "https://recruit-holdings.com/en/newsroom/20261102_0001/"
+   }
+  ],
+  "en": {
+   "one": "Owner of the job site Indeed; also runs staffing and listing platforms. It passes the quality walls but waits at the gate on price.",
+   "business": "Recruit has three businesses. The HR technology arm earns income from the job postings employers place on the job site Indeed. The staffing arm supplies temporary workers to companies. The third arm runs listing platforms in Japan for housing and everyday lifestyle services. In the year to March 2026 revenue was 3.70 trillion yen: HR technology 1.46 trillion, staffing 1.70 trillion and listing platforms 0.56 trillion yen. Most of the profit comes from HR technology: 549.9 billion of the 794.3 billion yen of adjusted EBITDA (the company's EBITDA+S measure).",
+   "moat_text": "The moat is narrow but real. Employers post on Indeed because many job seekers are there, and job seekers come because many postings are there; a new site finds this loop hard to build. Pricing power shows in the figures: while hiring demand in the US was stagnant, revenue per job posting rose 39% in July-September 2026, and the arm's adjusted EBITDA margin was 47.5% in the first half. Real return on equity rose from 14.7% in fiscal 2023 to 28.1% in fiscal 2026. We do not call it wide, because the advantage rests on a single source, Indeed, and the jump in margin is recent; how durable it is when hiring falls has not been tested yet. In staffing, which brings close to half of revenue, the margin is only about 6% and there is no moat.",
+   "mgmt": "Profit returns to shareholders through buybacks. Shares worth 678.7 billion yen were bought back in the year to March 2026. Of the 350 billion yen programme that began in April 2026, 177.6 billion yen had been used by 30 September 2026; its term was extended to the end of March 2027. The dividend is small: 26 yen per share for the year. The company has no net debt (net debt/EBITDA −0.84); it held 988.2 billion yen of cash on 30 September 2026.",
+   "latest": "11 November 2026: In the July-September 2026 quarter revenue rose 19.7% to 1.09 trillion yen, adjusted EBITDA rose 43.6% to 297.9 billion yen and net profit rose 64.0% to 209.0 billion yen; all three were records. Six-month revenue was 2.14 trillion yen (+19.3%) and net profit 411.6 billion yen (+65.7%). HR technology revenue in dollars rose 27.5% in the quarter. The company kept its full-year forecast: revenue 4.23 trillion yen and net profit 755 billion yen. It raised its full-year outlook for HR technology to 11.92 billion dollars (11.48 billion in August).",
+   "risks": [
+    "Price: the P/E is 43.9 and the P/B 14.1. On the conservative calculation the share is far above fair value; there is no margin of safety.",
+    "Profit growth comes from the price per posting, not from the number of postings. If employers stop paying this price, or hiring falls further, profit declines.",
+    "Hiring is cyclical: in a downturn, demand for postings and for temporary staff falls together. Real return on equity had dropped to 14.7% in fiscal 2023.",
+    "Artificial intelligence is changing job search and candidate matching; if job seekers move to another channel, Indeed's advantage weakens.",
+    "Most of the profit is earned in dollars; if the yen strengthens, revenue and profit in yen fall."
+   ],
+   "watch": [
+    "Growth in revenue per job posting in the US",
+    "Adjusted EBITDA margin of the HR technology arm (46.5% expected for the year)",
+    "Amount of share buybacks",
+    "Price: the margin-of-safety threshold"
+   ]
+  }
+ },
+ "6857": {
+  "scores": {
+   "A": 2,
+   "B": 3,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "geniş",
+  "per": "2026-Q2",
+  "one": "Çiplerin çalışıp çalışmadığını sınayan makinelerin dünya lideri. Kalite surlarını geçiyor, hendek geniş; fiyat temkinli kazanca göre çok yüksek, kapıda bekliyor.",
+  "business": "Advantest, yarı iletken üreticilerine çipleri sınayan test sistemleri satar ve bu sistemlerin bakımını yapar. Mart 2026'da biten yılda satış 1,13 trilyon yen, net kâr 375,4 milyar yen oldu. Nisan-Eylül 2026'da 845,2 milyar yenlik satışın 770,2 milyarı test sistemlerinden geldi. Satışın %99,4'ü Japonya dışındaki müşterilere yapıldı.",
+  "moat_text": "Hendek geniş. Şirketin açıkladığı rakama göre yarı iletken test cihazı pazarındaki payı 2024'te %58, 2025'te %65. Pazarda iki büyük üretici var; öbürü ABD'li Teradyne. Çip üreticisi bir test düzenini kurduktan sonra değiştirmesi pahalı ve yavaştır; yeni bir rakibin yetişmesi yıllar ister. Fiyat gücü marjda görünüyor: Nisan-Eylül 2026'da faaliyet kârı satışın yaklaşık %54'ü oldu. Zayıf yanı döngü: reel özsermaye kârlılığı 2024 mali yılında %12,3'e inmiş, 2026 mali yılında %54,4'e çıkmıştı. Bugünkü kâr yapay zekâ çiplerine yapılan yatırımın zirvesini yansıtıyor.",
+  "mgmt": "Kâr hem büyümeye hem hissedara gidiyor. Şirket 28 Ekim 2026'da 280 milyar yene kadar yeni bir hisse geri alım programı açıkladı (en çok 11 milyon hisse, 29 Ekim 2026 ile 24 Mart 2027 arası); ilk yarıda 105,9 milyar yenlik hisse geri alınmıştı. Ara temettü hisse başına 49 yene çıkarıldı (geçen yıl 29 yen). Hedef, üç yıllık plan boyunca kârın en az yarısını hissedara döndürmek. Net borç yok (net borç/FAVÖK −0,40); 30 Eylül 2026'da 401,8 milyar yen nakdi vardı.",
+  "latest": "28 Ekim 2026: Nisan-Eylül 2026 sonuçları açıklandı. Satış %60,5 artışla 845,2 milyar yen, faaliyet kârı %96,5 artışla 456,8 milyar yen, net kâr %116,8 artışla 368,1 milyar yen oldu. Kârın yaklaşık 57 milyar yeni, elindeki yatırım amaçlı menkul kıymetlerin değer artışından geldi. Şirket Mart 2027 yılı tahminini yükseltti: satış 1,863 trilyon yen (önce 1,714 trilyon), faaliyet kârı 967 milyar yen (önce 846 milyar), net kâr 741,5 milyar yen (önce 660 milyar).",
+  "risks": [
+   "Fiyat: F/K 37,7, PD/DD 18,7. Temkinli hesapla hisse adil değerin çok üzerinde; güvenlik marjı yok.",
+   "İş çok döngüsel: reel özsermaye kârlılığı 2024 mali yılında %12,3 idi, son 12 ayda %62. Yapay zekâ çiplerine yatırım yavaşlarsa satış ve kâr sert düşer.",
+   "Müşteri yoğunlaşması: şirkete göre satışın önemli bölümü az sayıda büyük müşteriden geliyor. Birinin siparişini ertelemesi sonucu doğrudan etkiler.",
+   "Satışın neredeyse tamamı Japonya dışında; yen değerlenirse ya da çip ihracatına yeni kısıtlar gelirse satış ve kâr düşer.",
+   "Son altı ayın kârında yaklaşık 57 milyar yenlik menkul kıymet değer artışı var; bu kazanç tekrarlanmayabilir."
+  ],
+  "watch": [
+   "Test cihazı pazarının büyüklüğü (şirketin 2026 tahmini: çip test sistemlerinde yaklaşık 11,5 milyar dolar)",
+   "Pazar payı (2025'te %65)",
+   "Faaliyet kâr marjı (yıllık tahmin %51,9)",
+   "Fiyat: güvenlik marjı eşiği"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tyo/6857/financials/ratios/"
+   },
+   {
+    "t": "Advantest: 2026 mali yılı 2. çeyrek sonuç bildirimi (28 Eki 2026)",
+    "te": "Advantest: FY2026 Q2 financial results release (28 Oct 2026)",
+    "u": "https://www.advantest.com/en/news/2026/mpd9kn0000000gii-att/E_FR_FY2026_2Q.pdf"
+   },
+   {
+    "t": "Advantest: 2026 mali yılı 2. çeyrek konsolide sonuçların özeti (28 Eki 2026)",
+    "te": "Advantest: review of consolidated results, FY2026 Q2 (28 Oct 2026)",
+    "u": "https://www.advantest.com/en/investors/financial-highlights/review"
+   },
+   {
+    "t": "Advantest: sonuç toplantısı konuşma notları (28 Eki 2026)",
+    "te": "Advantest: earnings briefing speaker notes (28 Oct 2026)",
+    "u": "https://www.advantest.com/document/ja/investors/ir-library/result/JE_BIZ_261028_note.pdf"
+   },
+   {
+    "t": "Advantest: 2026 entegre yıllık raporu (pazar payı, Mart 2026 yılı rakamları)",
+    "te": "Advantest: Integrated Annual Report 2026 (market share, figures for the year to March 2026)",
+    "u": "https://www.advantest.com/document/en/investors/ir-library/annual/E_02_IAR2026.pdf"
+   },
+   {
+    "t": "AllInvestView: Advantest sonuç özeti ve yönetimin pazar yorumu (30 Eki 2026)",
+    "te": "AllInvestView: Advantest earnings summary and management's market commentary (30 Oct 2026)",
+    "u": "https://www.allinvestview.com/earnings/ATEYY/q2-2027/"
+   },
+   {
+    "t": "SemiVision: Advantest ve test cihazı pazarı (10 Ağu 2025)",
+    "te": "SemiVision: Advantest leading the AI testing wave (10 Aug 2025)",
+    "u": "https://tspasemiconductor.substack.com/p/advantest-leading-the-ai-testing"
+   }
+  ],
+  "en": {
+   "one": "World leader in machines that test whether chips work. It passes the quality walls with a wide moat, but waits at the gate on price.",
+   "business": "Advantest sells test systems that check chips to semiconductor makers, and services those systems. In the year to March 2026 sales were 1.13 trillion yen and net profit 375.4 billion yen. In April-September 2026, test systems brought 770.2 billion of the 845.2 billion yen of sales. Customers outside Japan accounted for 99.4% of sales.",
+   "moat_text": "The moat is wide. By the company's own figures, its share of the semiconductor tester market was 58% in 2024 and 65% in 2025. The market has two large makers; the other is Teradyne of the US. Once a chip maker has set up a test platform, changing it is costly and slow; a new rival would need years to catch up. Pricing power shows in the margin: in April-September 2026 operating profit was about 54% of sales. The weak point is the cycle: real return on equity fell to 12.3% in fiscal 2024 and rose to 54.4% in fiscal 2026. Today's profit reflects the peak of investment in artificial intelligence chips.",
+   "mgmt": "Profit goes both to growth and to shareholders. On 28 October 2026 the company announced a new share buyback of up to 280 billion yen (at most 11 million shares, from 29 October 2026 to 24 March 2027); it had bought back 105.9 billion yen of shares in the first half. The interim dividend was raised to 49 yen per share (29 yen a year earlier). The aim is to return at least half of profit to shareholders over the three-year plan. There is no net debt (net debt/EBITDA −0.40); it held 401.8 billion yen of cash on 30 September 2026.",
+   "latest": "28 October 2026: results for April-September 2026 were announced. Sales rose 60.5% to 845.2 billion yen, operating profit rose 96.5% to 456.8 billion yen and net profit rose 116.8% to 368.1 billion yen. About 57 billion yen of the profit came from a rise in the value of investment securities it holds. The company raised its forecast for the year to March 2027: sales 1.863 trillion yen (previously 1.714 trillion), operating profit 967 billion yen (previously 846 billion) and net profit 741.5 billion yen (previously 660 billion).",
+   "risks": [
+    "Price: the P/E is 37.7 and the P/B 18.7. On the conservative calculation the share is far above fair value; there is no margin of safety.",
+    "The business is highly cyclical: real return on equity was 12.3% in fiscal 2024 and 62% over the last 12 months. If investment in artificial intelligence chips slows, sales and profit fall sharply.",
+    "Customer concentration: according to the company, a small number of large customers account for a substantial part of sales. One of them delaying orders affects results directly.",
+    "Almost all sales are outside Japan; if the yen strengthens or new limits are placed on chip exports, sales and profit fall.",
+    "Profit for the last six months includes about 57 billion yen of gains on securities; this gain may not recur."
+   ],
+   "watch": [
+    "Size of the tester market (the company's 2026 estimate: about 11.5 billion dollars for chip test systems)",
+    "Market share (65% in 2025)",
+    "Operating margin (51.9% forecast for the year)",
+    "Price: the margin-of-safety threshold"
+   ]
+  }
+ },
+ "7741": {
+  "scores": {
+   "A": 1,
+   "B": 3,
+   "C": 1,
+   "D": 2,
+   "E": 2
+  },
+  "moat": "geniş",
+  "per": "2026-Q2",
+  "one": "Gözlük camı ve çip üretiminde kullanılan cam levhalar yapan Japon şirketi. Kalite surlarını geçti, hendek geniş; fiyat yüksek, kapıda bekliyor.",
+  "business": "HOYA iki kolda çalışır. Sağlık kolu gözlük camı, kontakt lens, göz içi mercek ve tıbbi endoskop satar. Bilgi ve iletişim kolu çip üretiminde kalıp olarak kullanılan cam levhalar (maske levhası), ekran üretimi için maskeler, sabit diskler için cam tabanlar ve optik mercekler yapar. Mart 2026'da biten yılda hasılat 947,7 milyar yen, net kâr 253,1 milyar yen oldu. Hasılatın %62'si sağlık kolundan geldi, ama kârın büyük kısmını öbür kol kazandı (kol kârı 192,3 milyar yen, marj %54,2).",
+  "moat_text": "Hendek geniş. Şirket rakibi az olan küçük pazarları seçiyor ve orada birinci oluyor. Çip üretimindeki maske levhalarında pazar payı çok yüksek ve en ileri çiplerde ana tedarikçi. Sabit disklerin cam tabanında tek üretici (pay %100); veri merkezlerinde kullanılan 3,5 inç disk tabanlarında tahmini payı yaklaşık %40. Fiyatlama gücü marjda görünüyor: bilgi ve iletişim kolunun kâr marjı Nisan-Eylül 2026'da %55,1. Reel özsermaye kârlılığı beş mali yılda %17,1 ile %22,5 arasında. Zayıf yanı: müşteriler ileri maske levhalarında zamanla ikinci bir tedarikçiye yönelebilir; sağlık kolunda marj daha düşük (%20,3) ve rakip daha çok.",
+  "mgmt": "Kâr hissedara dönüyor. Mart 2026 yılında şirket 99,6 milyar yen temettü ödedi (hisse başına 295 yen) ve 172,0 milyar yenlik hisse geri aldı. Dağıtım oranı hedefi yaklaşık %40; şirket elindeki nakdi üç yıl kadar bir sürede, çoğunlukla geri alımla azaltmayı planlıyor. Mart 2026 sonunda 574,1 milyar yen nakde karşı 42,2 milyar yen faizli borcu vardı. Ana iş dışındaki birimleri satıyor: 9 Ekim 2026'da ABD'deki göz ameliyatı aletleri şirketi MID Labs'in Bausch + Lomb'a satışı için anlaşma imzalandı.",
+  "latest": "30 Ekim 2026: Nisan-Eylül 2026 dönemi sonuçları açıklandı. Hasılat %13,4 artışla 515,8 milyar yen, faaliyet kârı %31,6 artışla 173,4 milyar yen, net kâr %27,3 artışla 136,5 milyar yen oldu. Sağlık kolunun hasılatı 308,2 milyar yen (+%8,5), bilgi ve iletişim kolununki 207,7 milyar yen (+%23,1). Ara temettü hisse başına 125 yenden 160 yene çıktı; altı ayda 78,1 milyar yenlik hisse geri alındı. Şirket yıl için yalnız hasılat tahmini verdi: 1,043 trilyon yen (+%10,1); kâr tahmini yok.",
+  "risks": [
+   "Fiyat: F/K 28,0, PD/DD 7,7. Temkinli hesapla hisse adil değerin üzerinde; güvenlik marjı yok.",
+   "Kârın büyük kısmı çip ve sabit disk üreticilerine satılan ara ürünlerden geliyor; bu sektörlerin yatırımı döngüseldir.",
+   "Müşteriler ileri maske levhalarında ikinci bir tedarikçi kullanmaya başlarsa pay ve marj düşebilir.",
+   "Tek müşteri ağırlığı: Seagate hasılatın %11,75'ini oluşturuyor.",
+   "Satışın çoğu yurt dışında; yen değerlenirse yen cinsinden kâr azalır. ABD'de endoskop satışı zayıf."
+  ],
+  "watch": [
+   "Bilgi ve iletişim kolunun kâr marjı",
+   "İleri maske levhalarındaki pay",
+   "Gözlük camı satışlarının büyümesi",
+   "Fiyat: güvenlik marjı eşiği"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tyo/7741/financials/ratios/"
+   },
+   {
+    "t": "Gyokai Digest: HOYA Nisan-Eylül 2026 sonuç özeti (30 Ekim 2026)",
+    "te": "Gyokai Digest: HOYA first-half results summary, April-September 2026 (30 October 2026)",
+    "u": "https://www.gyokaidigest.com/en/companies/hoya/report/2027-Q2"
+   },
+   {
+    "t": "EDINET DB: HOYA ara dönem bilanço özeti (30 Ekim 2026)",
+    "te": "EDINET DB: HOYA interim earnings summary (30 October 2026)",
+    "u": "https://edinetdb.jp/company/E01124/earnings/FY2027-Q2"
+   },
+   {
+    "t": "HOYA: finansal sonuç belgeleri listesi (30 Ekim 2026)",
+    "te": "HOYA: list of financial results documents (30 October 2026)",
+    "u": "https://www.hoya.com/en/investor/kessan/"
+   },
+   {
+    "t": "HOYA Entegre Rapor 2026: bilgi teknolojisi kolu, pazar payları",
+    "te": "HOYA Integrated Report 2026: Information Technology business, market shares",
+    "u": "https://www.hoya.com/ir/2026/en/review/it.html"
+   },
+   {
+    "t": "Envalith: HOYA şirket özeti, Mart 2026 yılı faaliyet raporundan",
+    "te": "Envalith: HOYA overview, from the annual report for the year to March 2026",
+    "u": "https://envalith.com/en/companies/7741/overview"
+   },
+   {
+    "t": "Gyokai Digest: HOYA, MID Labs'i Bausch + Lomb'a satıyor (9 Ekim 2026)",
+    "te": "Gyokai Digest: HOYA to sell MID Labs to Bausch + Lomb (9 October 2026)",
+    "u": "https://www.gyokaidigest.com/en/disclosures/7741-tdnet-20261009-140120261009548466"
+   }
+  ],
+  "en": {
+   "one": "Japanese maker of eyeglass lenses and glass plates for chipmaking. Passed the quality walls with a wide moat; price is high; waits at the gate.",
+   "business": "HOYA works in two arms. The Life Care arm sells eyeglass lenses, contact lenses, intraocular lenses and medical endoscopes. The Information and Communications arm makes the glass plates used as templates in chipmaking (mask blanks), masks for display production, glass substrates for hard disks and optical lenses. In the year to March 2026 revenue was 947.7 billion yen and net profit 253.1 billion yen. Life Care brought 62% of revenue, but the other arm earned most of the profit (segment profit 192.3 billion yen, margin 54.2%).",
+   "moat_text": "The moat is wide. The company picks small markets with few competitors and becomes number one there. In mask blanks for chipmaking its market share is very high and it is the main supplier for the most advanced chips. It is the only maker of glass substrates for hard disks (100% share); its estimated share of 3.5-inch disk substrates used in data centers is about 40%. Pricing power shows in the margin: the Information and Communications arm earned a 55.1% margin in April-September 2026. Real return on equity ranged from 17.1% to 22.5% over five fiscal years. The weak side: customers may move to a second supplier for advanced mask blanks over time; in Life Care the margin is lower (20.3%) and competitors are more numerous.",
+   "mgmt": "Profit returns to shareholders. In the year to March 2026 the company paid 99.6 billion yen in dividends (295 yen per share) and bought back 172.0 billion yen of shares. The payout target is about 40%; the company plans to reduce its cash over roughly three years, mainly through buybacks. At the end of March 2026 it held 574.1 billion yen of cash against 42.2 billion yen of interest-bearing debt. It sells units outside the main business: on 9 October 2026 it signed an agreement to sell MID Labs, a US maker of eye surgery instruments, to Bausch + Lomb.",
+   "latest": "30 October 2026: results for April-September 2026 were announced. Revenue rose 13.4% to 515.8 billion yen, operating profit rose 31.6% to 173.4 billion yen and net profit rose 27.3% to 136.5 billion yen. Life Care revenue was 308.2 billion yen (+8.5%) and Information and Communications revenue 207.7 billion yen (+23.1%). The interim dividend rose from 125 yen to 160 yen per share; 78.1 billion yen of shares were bought back in six months. The company gave only a revenue forecast for the year: 1.043 trillion yen (+10.1%); there is no profit forecast.",
+   "risks": [
+    "Price: the P/E is 28.0 and the P/B 7.7. On the conservative calculation the share is above fair value; there is no margin of safety.",
+    "Most of the profit comes from intermediate products sold to chip and hard disk makers; investment in these industries is cyclical.",
+    "If customers start using a second supplier for advanced mask blanks, share and margin can fall.",
+    "Single-customer weight: Seagate accounts for 11.75% of revenue.",
+    "Most sales are abroad; if the yen strengthens, profit in yen falls. Endoscope sales in the US are weak."
+   ],
+   "watch": [
+    "Margin of the Information and Communications arm",
+    "Share in advanced mask blanks",
+    "Growth in eyeglass lens sales",
+    "Price: the margin-of-safety threshold"
+   ]
+  }
+ },
+ "8035": {
+  "scores": {
+   "A": 2,
+   "B": 3,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "geniş",
+  "per": "2026-Q2",
+  "one": "Çip fabrikalarına üretim makinesi satan Japon şirketi. Kalite surlarını geçti, hendek geniş; fiyat temkinli kazanca göre yüksek, kapıda bekliyor.",
+  "business": "Tokyo Electron, çip üreticilerine üretim makineleri satar: ışığa duyarlı kaplama ve banyo, aşındırma, film kaplama, temizleme ve test makineleri. Kurulu makinelerin bakımından ve yedek parçasından da gelir elde eder. Mart 2026'da biten yılda satış 2,44 trilyon yen oldu; satışın %90,2'si yurt dışına yapıldı. Müşterileri arasında Samsung Electronics ve TSMC var.",
+  "moat_text": "Hendek geniş. Şirket dünyanın dördüncü büyük çip makinesi üreticisi. Işığa duyarlı kaplama ve banyo makinelerinde dünya pazarının %91'i onda (2025 verisi, şirket tahmini). Bu makineler çip fabrikasının üretim hattına yıllarca süren ortak çalışmayla yerleşir; müşteri bir kez kurduktan sonra kolay değiştirmez. Şirket satışının %11,4'ünü araştırmaya harcıyor (277,9 milyar yen); bir rakibin yetişmesi yıllar ve büyük sermaye ister. Güç rakamda görünüyor: Nisan-Eylül 2026'da faaliyet kâr marjı yaklaşık %30,4, reel özsermaye kârlılığı beş mali yılda %18,2 ile %31,8 arasında, ortalama %27,2. Zayıf yanı: talep çip üreticilerinin yatırım döngüsüne bağlı ve öbür makine türlerinde güçlü rakipler var.",
+  "mgmt": "Şirket kârın yaklaşık yarısını temettü olarak dağıtmayı hedefliyor. Mart 2026 yılında toplam 287,4 milyar yen temettü ödedi ve 150,0 milyar yenlik hisse geri aldı. 30 Ekim 2026'da 150 milyar yene kadar yeni bir geri alım açıkladı (1 Kasım 2026 - 31 Mart 2027). 1 Ekim 2026'da hisse beşe bölündü. Net borç yok (net borç/FAVÖK −0,63); özsermayenin toplam varlıklara oranı %68,2.",
+  "latest": "30 Ekim 2026: Nisan-Eylül 2026 dönemi sonuçları açıklandı. Satış %41,3 artışla 1,67 trilyon yen, faaliyet kârı %67,2 artışla 506,8 milyar yen, net kâr %56,0 artışla 376,9 milyar yen oldu. Şirket Mart 2027 yılı için tahmin verdi: satış 3,7 trilyon yen (+%51,4), faaliyet kârı 1,169 trilyon yen (+%87,1), net kâr 865 milyar yen (+%50,6). Yıl sonu temettü tahmini bölünme sonrası hisse başına 108 yen.",
+  "risks": [
+   "Fiyat: F/K 29,0, PD/DD 9,3. Temkinli hesapla hisse adil değerin üzerinde; güvenlik marjı yok.",
+   "Kâr döngüsel: çip üreticileri yatırımı kıstığında sipariş hızla düşer. Reel özsermaye kârlılığı 2024 mali yılında %18,2'ye inmişti; bugünkü kâr yapay zekâ yatırımlarının en hızlı olduğu dönemi yansıtıyor.",
+   "Müşteri yoğunlaşması: satış birkaç büyük çip üreticisinin yatırım kararına bağlı.",
+   "Çin ve ihracat kısıtları: şirket Çin'deki yatırımların durakladığını bildirdi; ABD-Çin ihracat denetimleri satışı sınırlayabilir.",
+   "Satışın %90,2'si yurt dışında; yen değerlenirse yen cinsinden kâr azalır."
+  ],
+  "watch": [
+   "Çip üreticilerinin yatırım harcamaları",
+   "Faaliyet kâr marjı",
+   "Çin'e satışın seyri",
+   "Fiyat: güvenlik marjı eşiği"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tyo/8035/financials/ratios/"
+   },
+   {
+    "t": "Gyokai Digest: Tokyo Electron Nisan-Eylül 2026 sonuç özeti (30 Ekim 2026)",
+    "te": "Gyokai Digest: Tokyo Electron first-half results summary, April-September 2026 (30 October 2026)",
+    "u": "https://www.gyokaidigest.com/en/companies/tokyo-electron/report/2027-Q2"
+   },
+   {
+    "t": "Tiger Brokers: Tokyo Electron ikinci çeyrek kârı ve 150 milyar yenlik geri alım (30 Ekim 2026)",
+    "te": "Tiger Brokers: Tokyo Electron Q2 profit and 150 billion yen buyback (30 October 2026)",
+    "u": "https://www.itiger.com/news/1157765943"
+   },
+   {
+    "t": "Envalith: Tokyo Electron şirket özeti, Mart 2026 yılı faaliyet raporundan (19 Temmuz 2026)",
+    "te": "Envalith: Tokyo Electron overview, from the annual report for the year to March 2026 (19 July 2026)",
+    "u": "https://envalith.com/en/companies/8035/overview"
+   },
+   {
+    "t": "Envalith: Tokyo Electron iş kolları, araştırma harcaması ve yurt dışı satış payı (Mart 2026 yılı)",
+    "te": "Envalith: Tokyo Electron segments, R&D spending and overseas sales share (year to March 2026)",
+    "u": "https://envalith.com/en/companies/8035/segments"
+   },
+   {
+    "t": "Shared Research: Tokyo Electron raporu, pazar payı (Ekim 2026)",
+    "te": "Shared Research: Tokyo Electron report, market share (October 2026)",
+    "u": "https://sharedresearch.jp/en/companies/8035/report/6a55ddd098e91022dd71a1ee"
+   }
+  ],
+  "en": {
+   "one": "Japanese maker of chip production machines. It passed the quality walls with a wide moat; the price is high, so it waits at the gate.",
+   "business": "Tokyo Electron sells production machines to chipmakers: photoresist coating and developing, etching, film deposition, cleaning and testing machines. It also earns income from servicing installed machines and from spare parts. In the year to March 2026 sales were 2.44 trillion yen; 90.2% of sales went abroad. Its customers include Samsung Electronics and TSMC.",
+   "moat_text": "The moat is wide. The company is the world's fourth-largest maker of chip production equipment. It holds 91% of the world market for photoresist coating and developing machines (2025 data, company estimate). These machines are fitted into a chip factory's production line through years of joint work; once installed, the customer does not switch easily. The company spends 11.4% of sales on research (277.9 billion yen); a competitor would need years and a large amount of capital to catch up. The strength shows in the numbers: the operating margin was about 30.4% in April-September 2026, and real return on equity ranged from 18.2% to 31.8% over five fiscal years, averaging 27.2%. The weak side: demand depends on chipmakers' investment cycle, and there are strong competitors in the other machine types.",
+   "mgmt": "The company aims to pay out about half of profit as dividends. In the year to March 2026 it paid 287.4 billion yen in dividends and bought back 150.0 billion yen of shares. On 30 October 2026 it announced a new buyback of up to 150 billion yen (1 November 2026 - 31 March 2027). The share was split five for one on 1 October 2026. There is no net debt (net debt/EBITDA −0.63); equity is 68.2% of total assets.",
+   "latest": "30 October 2026: results for April-September 2026 were announced. Sales rose 41.3% to 1.67 trillion yen, operating profit rose 67.2% to 506.8 billion yen and net profit rose 56.0% to 376.9 billion yen. The company gave a forecast for the year to March 2027: sales 3.7 trillion yen (+51.4%), operating profit 1.169 trillion yen (+87.1%), net profit 865 billion yen (+50.6%). The year-end dividend forecast is 108 yen per share after the split.",
+   "risks": [
+    "Price: the P/E is 29.0 and the P/B 9.3. On the conservative calculation the share is above fair value; there is no margin of safety.",
+    "Profit is cyclical: when chipmakers cut investment, orders fall quickly. Real return on equity dropped to 18.2% in fiscal 2024; today's profit reflects the fastest phase of artificial intelligence investment.",
+    "Customer concentration: sales depend on the investment decisions of a few large chipmakers.",
+    "China and export restrictions: the company reported that investment in China has paused; US-China export controls can limit sales.",
+    "90.2% of sales are abroad; if the yen strengthens, profit in yen falls."
+   ],
+   "watch": [
+    "Chipmakers' capital spending",
+    "Operating margin",
+    "The course of sales to China",
+    "Price: the margin-of-safety threshold"
+   ]
+  }
+ },
+ "9325": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 0
+  },
+  "moat": "zayıf",
+  "per": "2026-Q2",
+  "one": "E-ticaret depolarını işleten ve teslimat yapan bir lojistik şirketi. Kârlı ve net borcu yok, ama satışın %69'u tek müşteriden; hendek ve dayanıklılık ölçütlerini geçemedi.",
+  "business": "PHYZ Holdings, büyük e-ticaret, perakende ve üretim şirketlerinin dağıtım merkezlerini onlar adına işletir; ayrıca merkezler arası taşıma ve eve teslimat yapar. Mart 2026'da biten yılda satış 40,3 milyar yen, faaliyet kârı 1,53 milyar yen oldu. Satışın 26,9 milyar yeni depo işletmesinden, 10,5 milyar yeni taşımadan geldi; kalanı bilgi sistemleri ve uluslararası lojistik. Japonya'da 27 tesisi, 812 çalışanı ve ortalama 2.370 kadar yarı zamanlı çalışanı var.",
+  "moat_text": "Hendek zayıf. Şirket bu ölçütü geçemedi. Depo işletmesi ve teslimat, sözleşmeyle alınan ve emeğe dayanan bir iştir; aynı işi başka lojistik şirketleri de yapar. Fiyat gücü marjda görünmüyor: faaliyet kâr marjı Mart 2026 yılında %3,8. Satışın %69,1'i tek müşteriden, Amazon Japan'dan geliyor (bir yıl önce %67,0); fiyatı ve iş hacmini o belirler. Güçlü yanı var: reel özsermaye kârlılığı beş yılda %15,6 ile %29,4 arasında, çünkü iş az sermaye istiyor. Ama bu, rakibin aşamayacağı bir üstünlük değil; sözleşme değişirse getiri de değişir.",
+  "mgmt": "Hâkim ortak AZ-COM Maruwa Holdings, payların %58,3'üne sahip; kendisi de büyük bir lojistik şirketi. PHYZ ana ortağından borç alıyor ve yönetimde ortak isimler var; işlemler yönetim kurulu onayından geçiyor. Mart 2026 yılı için hisse başına 30 yen temettü ödendi (dağıtım oranı %31,5); yeni yıl için 38 yen öngörülüyor. Ekim 2025'te ev aletleri lojistiği yapan bir şirket satın alındı. Net borç yok (net borç/FAVÖK −0,39).",
+  "latest": "30 Ekim 2026: Nisan-Eylül 2026 dönemi sonuçları açıklandı. Satış %12,5 artışla 21,3 milyar yen, faaliyet kârı %49,3 artışla 703 milyon yen, net kâr %39,8 artışla 423 milyon yen oldu. Depo işletmesinde satış %5,8, taşımada %32,5 arttı; taşımayı klima kurulumlu teslimat işi büyüttü. Şirket 7 Mayıs 2026'da verdiği yıllık tahmini değiştirmedi: satış 45,0 milyar yen, faaliyet kârı 2,25 milyar yen, net kâr 1,4 milyar yen.",
+  "risks": [],
+  "watch": [],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tyo/9325/financials/ratios/"
+   },
+   {
+    "t": "LNEWS: PHYZ HD Nisan-Eylül sonuçları, bölüm ayrıntıları (30 Eki 2026)",
+    "te": "LNEWS: PHYZ HD April-September results with segment detail (30 Oct 2026)",
+    "u": "https://www.lnews.jp/2026/10/s1030504.html"
+   },
+   {
+    "t": "Tokyo Borsası: PHYZ Holdings Mart 2026 yılı sonuç bildirimi (7 May 2026)",
+    "te": "Tokyo Stock Exchange: PHYZ Holdings results filing, year to March 2026 (7 May 2026)",
+    "u": "https://www2.jpx.co.jp/disc/93250/081220260507517703_tse-acedjpsm-93250-20260507393250-ixbrl.htm"
+   },
+   {
+    "t": "Tokyo Borsası: PHYZ Holdings Nisan-Haziran 2026 sonuç bildirimi (31 Tem 2026)",
+    "te": "Tokyo Stock Exchange: PHYZ Holdings results filing, April-June 2026 (31 Jul 2026)",
+    "u": "https://www2.jpx.co.jp/disc/93250/081220260731504571_tse-qcedjpsm-93250-20260731393250-ixbrl.htm"
+   },
+   {
+    "t": "EDINET DB: PHYZ Holdings yıllık menkul kıymet raporu metni, Mart 2026 yılı (bölümler, ana müşteri, ana ortak)",
+    "te": "EDINET DB: PHYZ Holdings annual securities report text, year to March 2026 (segments, main customer, parent)",
+    "u": "https://edinetdb.jp/company/E32990/text?fy=2026"
+   },
+   {
+    "t": "EDINET DB: PHYZ Holdings ana müşteriler",
+    "te": "EDINET DB: PHYZ Holdings main customers",
+    "u": "https://edinetdb.jp/company/E32990/main-customers"
+   },
+   {
+    "t": "Kabuyoho: PHYZ Holdings sonuç ve tahmin (7 May 2026)",
+    "te": "Kabuyoho: PHYZ Holdings results and forecast (7 May 2026)",
+    "u": "https://kabuyoho.jp/sp/report?bcode=9325"
+   }
+  ],
+  "en": {
+   "one": "Logistics company running e-commerce warehouses and deliveries. Profitable, but 69% of sales come from one customer; it did not meet the moat and resilience criteria.",
+   "business": "PHYZ Holdings runs distribution centres on behalf of large e-commerce, retail and manufacturing companies; it also carries goods between centres and delivers to homes. In the year to March 2026 sales were 40.3 billion yen and operating profit 1.53 billion yen. Warehouse operations brought 26.9 billion yen of sales and transport 10.5 billion yen; the rest is information systems and international logistics. It has 27 sites in Japan, 812 employees and about 2,370 part-time workers on average.",
+   "moat_text": "The moat is weak. The company did not meet this criterion. Running warehouses and making deliveries is labour-based work won by contract; other logistics companies do the same job. Pricing power does not show in the margin: the operating margin was 3.8% in the year to March 2026. A single customer, Amazon Japan, brings 69.1% of sales (67.0% a year earlier); it sets the price and the volume of work. There is a strong side: real return on equity ranged from 15.6% to 29.4% over five years, because the business needs little capital. But this is not an advantage a rival cannot match; if the contract changes, the return changes too.",
+   "mgmt": "The controlling shareholder, AZ-COM Maruwa Holdings, owns 58.3% of the shares; it is itself a large logistics company. PHYZ borrows from its parent and shares some officers with it; transactions go through board approval. A dividend of 30 yen per share was paid for the year to March 2026 (payout ratio 31.5%); 38 yen is planned for the new year. In October 2025 it bought a company that handles home appliance logistics. There is no net debt (net debt/EBITDA −0.39).",
+   "latest": "30 October 2026: results for April-September 2026 were announced. Sales rose 12.5% to 21.3 billion yen, operating profit rose 49.3% to 703 million yen and net profit rose 39.8% to 423 million yen. Sales grew 5.8% in warehouse operations and 32.5% in transport; delivery with air conditioner installation drove the transport growth. The company kept the full-year forecast it gave on 7 May 2026: sales 45.0 billion yen, operating profit 2.25 billion yen, net profit 1.4 billion yen.",
+   "risks": [],
+   "watch": []
+  }
+ },
+ "9983": {
+  "scores": {
+   "A": 2,
+   "B": 3,
+   "C": 2,
+   "D": 2,
+   "E": 2
+  },
+  "moat": "geniş",
+  "per": "2026-Q4",
+  "one": "Uniqlo'nun sahibi; sade, gündelik giysiyi dünya çapında satıyor. Kalite surlarını geçiyor, hendek geniş; fiyat temkinli kazanca göre çok yüksek, kapıda bekliyor.",
+  "business": "Fast Retailing, Uniqlo ve GU mağazalarında kendi tasarladığı gündelik giysileri satar; ürünü kendisi planlar, ürettirir ve kendi mağazasında satar. Ağustos 2026'da biten yılda hasılat 3,96 trilyon yen, faaliyet kârı 743,1 milyar yen oldu. Hasılatın 2,41 trilyon yeni Japonya dışındaki Uniqlo'dan, 1,08 trilyon yeni Japonya'daki Uniqlo'dan, 336,7 milyar yeni GU'dan geldi.",
+  "moat_text": "Hendek geniş. Üstünlük markadan ve ölçekten geliyor: şirket az sayıda temel ürünü çok büyük adetlerle ürettirir, bu da kaliteyi düşük fiyata sunmasını sağlar. Tasarımdan mağazaya bütün zincir tek elde. Bunu rakamlar gösteriyor: faaliyet kârı hasılatın yaklaşık %18,7'si, bir giyim perakendecisi için yüksek. Japonya dışındaki Uniqlo'nun hasılatı bir yılda %26,2, faaliyet kârı %44,9 arttı. Reel özsermaye kârlılığı beş yılda %14,7 ile %19,8 arasında kaldı ve son üç yılda her yıl yükseldi. Bir rakibin aynı ölçeği ve marka güvenini kurması yıllar ve büyük sermaye ister. Zayıf yanı: GU hedeflerinin gerisinde kaldı, öbür markaların hasılatı %2,3 düştü.",
+  "mgmt": "En büyük ortak, şirketin başındaki Tadashi Yanai: payların %18,29'u onda. Yanai ailesinden iki kişi de %8,99 ve %7,91'e sahip. Kâr önce mağaza açmaya, sonra temettüye gidiyor. 2026 mali yılı temettüsü hisse başına 850 yene çıkarıldı (önceki öngörü 640 yen); 2027 için 900 yen planlanıyor ve şirket kârın yaklaşık yarısını dağıtmayı hedefliyor. Net borç yok (net borç/FAVÖK −1,55).",
+  "latest": "8 Ekim 2026: Ağustos 2026'da biten yılın sonuçları açıklandı. Hasılat %16,6 artışla 3,96 trilyon yen, faaliyet kârı %31,7 artışla 743,1 milyar yen, ana ortaklık payına düşen net kâr %25,3 artışla 542,5 milyar yen oldu. Japonya dışındaki Uniqlo'nun faaliyet kârı 448,1 milyar yen (+%44,9), Japonya'daki Uniqlo'nun 196,6 milyar yen (+%6,6). Finansman geliri 59,3 milyar yen; bunun 7,1 milyar yeni kur farkı kazancı. Ağustos 2027 yılı tahmini: hasılat 4,45 trilyon yen (+%12,3), faaliyet kârı 830 milyar yen (+%11,7), net kâr 560 milyar yen (+%3,2).",
+  "risks": [
+   "Fiyat: F/K 46,2, PD/DD 8,8. Temkinli hesapla hisse adil değerin çok üzerinde; güvenlik marjı yok.",
+   "Kâr büyümesi yavaşlıyor: şirket yeni yıl için net kârda yalnız %3,2 artış öngörüyor. Yüksek fiyat daha hızlı bir büyümeyi varsayıyor.",
+   "Kur: zayıf yen yurt dışı kârını yen cinsinden büyütüyor. Yen değerlenirse açıklanan kâr düşer; yeni yıl tahmini 1 dolar = 160 yen varsayıyor.",
+   "Büyüme artık Japonya dışından geliyor. Kuzey Amerika, Avrupa ya da Çin'de talep düşerse ya da gümrük vergileri artarsa büyüme durur.",
+   "Giyim satışı havaya ve modaya duyarlıdır; ılık bir kış ya da tutmayan bir sezon stok indirimine ve marj kaybına yol açar."
+  ],
+  "watch": [
+   "Japonya dışındaki Uniqlo'nun hasılat ve kâr artışı",
+   "Faaliyet kâr marjı",
+   "Japonya'da aynı mağaza satışları (yeni yıl beklentisi yaklaşık %2 artış)",
+   "Fiyat: güvenlik marjı eşiği"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tyo/9983/financials/ratios/"
+   },
+   {
+    "t": "Quartr: Fast Retailing 2026 mali yılı sonuç özeti (8 Eki 2026)",
+    "te": "Quartr: Fast Retailing fiscal 2026 results summary (8 Oct 2026)",
+    "u": "https://quartr.com/events/fast-retailing-co-ltd-9983-q4-2026_ofgwwRvz"
+   },
+   {
+    "t": "FashionUnited: Fast Retailing 2026 mali yılında hasılatını %16,6 artırdı (8 Eki 2026)",
+    "te": "FashionUnited: Uniqlo International drives Fast Retailing's 16.6 percent revenue growth in FY2026 (8 Oct 2026)",
+    "u": "https://fashionunited.uk/news/business/uniqlo-international-drives-fast-retailings-16-6-percent-revenue-growth-in-fy2026/2026100890770"
+   },
+   {
+    "t": "Just Style: Fast Retailing 2027 tahminini açıkladı (8 Eki 2026)",
+    "te": "Just Style: Fast Retailing raises FY27 forecast on Uniqlo outperformance (8 Oct 2026)",
+    "u": "https://www.just-style.com/news/fast-retailing-raises-fy27-forecast-on-uniqlo-outperformance/"
+   },
+   {
+    "t": "MarketScreener: Fast Retailing büyük ortaklar",
+    "te": "MarketScreener: Fast Retailing major shareholders",
+    "u": "https://www.marketscreener.com/quote/stock/FAST-RETAILING-CO-LTD-6491478/company-shareholders/"
+   }
+  ],
+  "en": {
+   "one": "Owner of Uniqlo, selling plain everyday clothing worldwide. It passes the quality walls with a wide moat, but waits at the gate on price.",
+   "business": "Fast Retailing sells everyday clothing of its own design in Uniqlo and GU stores; it plans the product, has it made and sells it in its own stores. In the year to August 2026 revenue was 3.96 trillion yen and operating profit 743.1 billion yen. Uniqlo outside Japan brought 2.41 trillion yen of revenue, Uniqlo in Japan 1.08 trillion yen and GU 336.7 billion yen.",
+   "moat_text": "The moat is wide. The advantage comes from the brand and from scale: the company has a small number of basic products made in very large volumes, which lets it offer quality at a low price. The whole chain from design to store is in one hand. The figures show it: operating profit is about 18.7% of revenue, high for a clothing retailer. Revenue at Uniqlo outside Japan rose 26.2% in a year and its operating profit 44.9%. Real return on equity stayed between 14.7% and 19.8% over five years and rose in each of the last three. Building the same scale and trust in the brand would take a competitor years and a large amount of capital. The weak point: GU fell short of its targets, and revenue at the other brands fell 2.3%.",
+   "mgmt": "The largest shareholder is Tadashi Yanai, who heads the company: he owns 18.29% of the shares. Two members of the Yanai family own 8.99% and 7.91%. Profit goes first to opening stores, then to dividends. The dividend for fiscal 2026 was raised to 850 yen per share (the earlier projection was 640 yen); 900 yen is planned for 2027 and the company aims to pay out about half of profit. There is no net debt (net debt/EBITDA −1.55).",
+   "latest": "8 October 2026: results for the year to August 2026 were announced. Revenue rose 16.6% to 3.96 trillion yen, operating profit rose 31.7% to 743.1 billion yen and net profit attributable to owners of the parent rose 25.3% to 542.5 billion yen. Operating profit was 448.1 billion yen at Uniqlo outside Japan (+44.9%) and 196.6 billion yen at Uniqlo in Japan (+6.6%). Finance income was 59.3 billion yen, of which 7.1 billion yen was a currency gain. Forecast for the year to August 2027: revenue 4.45 trillion yen (+12.3%), operating profit 830 billion yen (+11.7%), net profit 560 billion yen (+3.2%).",
+   "risks": [
+    "Price: the P/E is 46.2 and the P/B 8.8. On the conservative calculation the share is far above fair value; there is no margin of safety.",
+    "Profit growth is slowing: the company expects net profit to rise only 3.2% in the new year. The high price assumes faster growth.",
+    "Currency: the weak yen enlarges overseas profit in yen terms. If the yen strengthens, reported profit falls; the forecast for the new year assumes 160 yen to the dollar.",
+    "Growth now comes from outside Japan. If demand falls in North America, Europe or China, or if tariffs rise, growth stops.",
+    "Clothing sales are sensitive to weather and fashion; a mild winter or a season that does not sell leads to markdowns and lost margin."
+   ],
+   "watch": [
+    "Revenue and profit growth at Uniqlo outside Japan",
+    "Operating margin",
+    "Same-store sales in Japan (about 2% growth expected for the new year)",
+    "Price: the margin-of-safety threshold"
+   ]
+  }
  }
 }
