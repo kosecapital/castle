@@ -5,7 +5,7 @@
    "tr": "Ocak-Eylül 2026",
    "en": "January-September 2026",
    "pct": -1.5,
-   "url": "https://kap.org.tr/en/api/BildirimPdf/1695780"
+   "url": "https://kap.org.tr/tr/api/file/download/4028328da17e515f01a1c1018ea40e93"
   },
   "quarter": null,
   "guidance": null,
@@ -14,16 +14,16 @@
    "tr": "Hindistan'daki iş 15 Mayıs 2025'te bir hükümet kararıyla durdu; 2024'te grup hasılatının yaklaşık üçte biriydi ve geçmiş büyümenin içinde.",
    "en": "The business in India was stopped by a government decision on 15 May 2025; it was about a third of group revenue in 2024 and is part of past growth.",
    "remaining_pct": 3.4,
-   "basis_tr": "sürdürülen faaliyetlerin kârından: 2026'nın ilk dokuz ayında 2,84 milyar TL, bir yıl önce aynı parayla 2,74 milyar TL",
-   "basis_en": "from profit on continuing operations: 2.84 billion TRY in the first nine months of 2026, against 2.74 billion a year earlier in the same money",
+   "basis_tr": "sürdürülen faaliyetlerin kârından: 2026'nın ilk dokuz ayında 2,84 milyar TL, bir yıl önce 2,74 milyar TL (ikisi de kendi döneminin parasıyla)",
+   "basis_en": "from profit on continuing operations: 2.84 billion TRY in the first nine months of 2026, against 2.74 billion a year earlier (each in the money of its own period)",
    "url": "https://kap.org.tr/en/api/BildirimPdf/1695780"
   },
   "permanent": null,
   "dividend": null,
   "skip": null,
-  "note_tr": null,
-  "note_en": null,
-  "notes": null
+  "note_tr": "Çelebi enflasyon muhasebesi uygulamıyor: şirketin işlevsel para birimi avro, tabloları TL'ye çevrilerek sunuluyor ve geçen yılın rakamları yeniden değerlenmiyor (yalnız Çelebi Kargo uyguluyor). Bu yüzden hem geçmiş kâr dizisi hem buradaki değişimler nominaldir ve tüketici enflasyonuyla düzeltildi.",
+  "note_en": "Çelebi does not apply inflation accounting: its functional currency is the euro, its statements are presented translated into lira, and last year's figures are not restated (only Çelebi Kargo applies it). So both the past profit series and the changes here are nominal and were adjusted for consumer inflation.",
+  "notes": "Functional currency / TAS 29 status from Note 2.1 of the 30.09.2026 statements: https://kap.org.tr/tr/api/file/download/4028328da17e515f01a1c1018ea40e93"
  },
  "TOASO": {
   "metric": "net profit",
@@ -256,8 +256,8 @@
   "permanent": null,
   "dividend": null,
   "skip": null,
-  "note_tr": null,
-  "note_en": null,
+  "note_tr": "Geçen yılın dokuz aylık kârında Tatilbudur'un kontrolünün alınmasından doğan bir kazanç, bu yılınkinde Crescenta'nın pazarlıklı satın alım kazancı var; ikisi de konsolide tutarın küçük bir bölümüyle İş Yatırım'ın payına düşer ve düşüşün yönünü değiştirmez.",
+  "note_en": "Last year's nine-month profit includes a gain from taking control of Tatilbudur, and this year's includes the Crescenta bargain-purchase gain; only a small part of each consolidated amount falls to İş Yatırım's share, and neither changes the direction of the decline.",
   "notes": null
  }
 }

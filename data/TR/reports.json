@@ -105,8 +105,8 @@
   "earn": {
    "k": 0.913,
    "basis": {
-    "tr": "Hesap son 12 ayın kârına dayanır. Bu kârın içindeki tek seferlik kazançlar: Nisan-Haziran 2026 çeyreğinde ertelenmiş vergi geliri (çeyreğin toplam vergi geliri 2.777,5). Şirket, imalat kazancında kurumlar vergisi oranını %12,5'e indiren düzenleme (4 Haziran 2026) sonrası ertelenmiş vergi bakiyelerinin yeni oranla yeniden ölçüldüğünü söylüyor; yeniden ölçümün tutarını ayrıca açıklamıyor: son 12 ay kârının %8,7 kadarı. Net etki %8,7; kazanç bu kadar indirildi. Son 12 ayın kârı 0,91 ile çarpılarak kullanıldı.",
-    "en": "The calculation rests on the profit of the last 12 months. One-off gains inside that profit: Deferred tax income in the April-June 2026 quarter (total tax income for the quarter 2,777.5). The company says deferred tax balances were remeasured after the regulation of 4 June 2026 cut the corporate tax rate on manufacturing income to 12.5%; it does not disclose the remeasurement amount separately: 8.7% of last-12-month profit. The net effect is 8.7%; earnings were lowered by that much. Last-12-month profit was used multiplied by 0.91."
+    "tr": "Hesap son 12 ayın kârına dayanır. Bu kârın içindeki tek seferlik kazançlar: Nisan-Haziran 2026 çeyreğinde ertelenmiş vergi geliri (çeyreğin toplam vergi geliri 2.777,5). Şirket, imalat kazancında kurumlar vergisi oranını %12,5'e indiren düzenleme (4 Haziran 2026) sonrası ertelenmiş vergi bakiyelerinin yeni oranla yeniden ölçüldüğünü söylüyor; yeniden ölçümün tutarını ayrıca açıklamıyor: son 12 ay kârının %8,7 kadarı. Net etki %8,7; kazanç bu kadar indirildi. Ocak-Eylül 2026 vergi öncesi kârının %82 kadarı (16,9 milyar TL) net parasal pozisyon kazancıdır. Bu kalem enflasyon muhasebesinden gelir: şirketin borçları enflasyonla erir; aynı tabloda stoklar, amortisman ve öbür giderler enflasyonla yukarı düzeltilir ve faaliyet kârını düşürür. İkisi aynı düzeltmenin iki yüzüdür; bu yüzden kalem tek seferlik sayılmadı ve kazançtan düşülmedi. Büyüklüğü enflasyona ve borcun para birimine bağlıdır, yıldan yıla değişir. Son 12 ayın kârı 0,91 ile çarpılarak kullanıldı.",
+    "en": "The calculation rests on the profit of the last 12 months. One-off gains inside that profit: Deferred tax income in the April-June 2026 quarter (total tax income for the quarter 2,777.5). The company says deferred tax balances were remeasured after the regulation of 4 June 2026 cut the corporate tax rate on manufacturing income to 12.5%; it does not disclose the remeasurement amount separately: 8.7% of last-12-month profit. The net effect is 8.7%; earnings were lowered by that much. 82% of pre-tax profit for January-September 2026 (16.9 billion TRY) is a net monetary position gain. This item comes from inflation accounting: inflation erodes the company's liabilities, while in the same statement inventories, depreciation and other costs are restated upwards and reduce operating profit. The two are two sides of one adjustment, so the item was not treated as a one-off and was not deducted. Its size depends on inflation and on the currency of the debt, and changes from year to year. Last-12-month profit was used multiplied by 0.91."
    },
    "per": "9/2026"
   }
@@ -124,7 +124,7 @@
   "business": "İş Yatırım aracılık, portföy yönetimi, kurumsal finansman ve halka arz hizmetleri verir; hisse, borçlanma aracı ve türev işlemlerine aracılık eder. İş Bankası'nın iştirakidir. 608 kişi çalıştırıyor.",
   "moat_text": "Hendek dar. Üstünlük ölçekten, markadan ve İş Bankası'nın müşteri ağından geliyor. Ürünün kendisi (aracılık) kolay taklit edilir ve komisyonlar rekabete açıktır; bu yüzden hendeği geniş saymıyoruz.",
   "mgmt": "Ana ortak İş Bankası; halka açıklık %29,2. Şirket kârının büyük bölümünü temettü olarak dağıtıyor (son temettü hisse başına 5,67 TL).",
-  "latest": "9 Kasım 2026: Dokuz aylık ana ortaklık net kârı 4,81 milyar TL, ana ortaklık özkaynağı 39,2 milyar TL. Yılın ilk yarısında net kâr 2,62 milyar TL ile geçen yılın %35 altındaydı (14 Ağustos 2026).",
+  "latest": "9 Kasım 2026: Dokuz aylık ana ortaklık net kârı 4,81 milyar TL, ana ortaklık özkaynağı 39,2 milyar TL. Yılın ilk yarısında net kâr 2,62 milyar TL ile geçen yılın %35 altındaydı (14 Ağustos 2026). Üçüncü çeyrekte konsolide kâra 1,0 milyar TL pazarlıklı satın alım kazancı girdi (İş Girişim'in bağlı ortaklığı Enlila, Crescenta Biosciences'ın %50,10'unu aldı); İş Yatırım'ın payına düşen kısım yaklaşık 230 milyon TL'dir.",
   "risks": [
    "Kazanç, işlem hacmine ve alım-satım gelirine bağlı. 2026'nın ilk yarısında kâr %35 düştü; kötü bir piyasa yılında daha da düşebilir.",
    "Özsermaye kârlılığı geriliyor: 2023'te %45, 2025'te %24, son okumalar %16–20.",
@@ -166,6 +166,11 @@
     "t": "Büyüme yargısının kaynağı: Ocak-Eylül 2026",
     "te": "Source for the growth judgment: January-September 2026",
     "u": "https://kap.org.tr/en/api/BildirimPdf/1696009"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://kap.org.tr/tr/api/file/download/4028328da17e515f01a1c1851fad0ef9"
    }
   ],
   "per": "9/2026",
@@ -174,7 +179,7 @@
    "business": "İş Yatırım provides brokerage, asset management, corporate finance and IPO services; it brokers trades in equities, debt instruments and derivatives. It is a subsidiary of İş Bankası. It employs 608 people.",
    "moat_text": "The moat is narrow. The advantage comes from scale, brand and İş Bankası's customer network. The product itself (brokerage) is easy to copy and commissions are open to competition; that is why we do not count the moat as wide.",
    "mgmt": "The main shareholder is İş Bankası; the free float is 29.2%. The company pays out most of its profit as dividends (the latest dividend was 5.67 TRY per share).",
-   "latest": "9 November 2026: Nine-month net profit attributable to the parent was 4.81 billion TRY and parent equity 39.2 billion TRY. In the first half of the year net profit was 2.62 billion TRY, 35% below the previous year (14 August 2026).",
+   "latest": "9 November 2026: Nine-month net profit attributable to the parent was 4.81 billion TRY and parent equity 39.2 billion TRY. In the first half of the year net profit was 2.62 billion TRY, 35% below the previous year (14 August 2026). In the third quarter consolidated profit included a bargain-purchase gain of 1.0 billion TRY (Enlila, a subsidiary of İş Girişim, bought 50.10% of Crescenta Biosciences); about 230 million TRY of it falls to İş Yatırım's share.",
    "risks": [
     "Earnings depend on trading volume and trading income. Profit fell 35% in the first half of 2026; in a bad market year it could fall further.",
     "Return on equity is declining: 45% in 2023, 24% in 2025, and 16–20% in the latest readings.",
@@ -190,16 +195,16 @@
   "growth": {
    "g": null,
    "basis": {
-    "tr": "Formül yılda %0,0 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %−22,7; Temmuz-Eylül 2026 çeyreği %4,3. Rakamlar enflasyon muhasebesiyle hazırlandığı için zaten reeldir. Formül zaten sıfır büyüme varsayıyor; indirilecek bir şey yok.",
-    "en": "The formula gave growth of 0.0% a year. Latest figures (net profit, year on year): January-September 2026 −22.7%; July-September 2026 quarter 4.3%. The figures are prepared under inflation accounting, so they are already real. The formula already assumes zero growth; there is nothing to lower."
+    "tr": "Formül yılda %0,0 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %−22,7; Temmuz-Eylül 2026 çeyreği %4,3. Rakamlar enflasyon muhasebesiyle hazırlandığı için zaten reeldir. Geçen yılın dokuz aylık kârında Tatilbudur'un kontrolünün alınmasından doğan bir kazanç, bu yılınkinde Crescenta'nın pazarlıklı satın alım kazancı var; ikisi de konsolide tutarın küçük bir bölümüyle İş Yatırım'ın payına düşer ve düşüşün yönünü değiştirmez. Formül zaten sıfır büyüme varsayıyor; indirilecek bir şey yok.",
+    "en": "The formula gave growth of 0.0% a year. Latest figures (net profit, year on year): January-September 2026 −22.7%; July-September 2026 quarter 4.3%. The figures are prepared under inflation accounting, so they are already real. Last year's nine-month profit includes a gain from taking control of Tatilbudur, and this year's includes the Crescenta bargain-purchase gain; only a small part of each consolidated amount falls to İş Yatırım's share, and neither changes the direction of the decline. The formula already assumes zero growth; there is nothing to lower."
    },
    "per": "9/2026"
   },
   "earn": {
    "k": 1.0,
    "basis": {
-    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı.",
-    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are."
+    "tr": "Hesap son 12 ayın kârına dayanır. Bu kârın içindeki tek seferlik kazançlar: Temmuz-Eylül 2026 çeyreğinde pazarlıklı satın alım kazancı: İş Girişim'in bağlı ortaklığı Enlila, 22 Temmuz 2026'da ABD'li Crescenta Biosciences'ın %50,10'unu, payına düşen net varlıkların gerçeğe uygun değerinin altında bir bedelle aldı. Konsolide tutar 1.002 milyon TL; nakit girişi değildir. İş Yatırım'ın payı ortaklık zincirinden hesaplandı (İş Girişim'de %31,96 × Enlila'da %71,77 = %22,9; yaklaşık 230 milyon TL), çünkü şirket bu payı ayrıca açıklamıyor: son 12 ay kârının %2,9 kadarı. Net etki %2,9; %3'ün altında olduğu için dikkate alınmadı. Ocak-Eylül 2026 kârı, 6,1 milyar TL net parasal pozisyon kaybından sonradır (vergi öncesi kârın %60 kadarı): şirketin elindeki nakit ve alacaklar enflasyonla eridi. Bu kayıp kârdan zaten düşülmüş durumda; kazanç yükseltilmedi.",
+    "en": "The calculation rests on the profit of the last 12 months. One-off gains inside that profit: Bargain-purchase gain in the July-September 2026 quarter: Enlila, a subsidiary of İş Girişim, bought 50.10% of US-based Crescenta Biosciences on 22 July 2026 for less than the fair value of its share of net assets. The consolidated amount is 1,002 million TRY; it is not a cash inflow. İş Yatırım's share was calculated through the ownership chain (31.96% of İş Girişim × 71.77% of Enlila = 22.9%; about 230 million TRY), because the company does not disclose this share separately: 2.9% of last-12-month profit. The net effect is 2.9%; being under 3%, it was disregarded. Profit for January-September 2026 is after a net monetary position loss of 6.1 billion TRY (equal to 60% of pre-tax profit): inflation eroded the company's cash and receivables. That loss is already deducted from profit; earnings were not raised."
    },
    "per": "9/2026"
   }
@@ -293,8 +298,8 @@
   "earn": {
    "k": 1.0,
    "basis": {
-    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı.",
-    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are."
+    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı. Ocak-Eylül 2026 vergi öncesi kârının %24 kadarı (7,5 milyar TL) net parasal pozisyon kazancıdır. Bu kalem enflasyon muhasebesinden gelir: şirketin borçları enflasyonla erir; aynı tabloda stoklar, amortisman ve öbür giderler enflasyonla yukarı düzeltilir ve faaliyet kârını düşürür. İkisi aynı düzeltmenin iki yüzüdür; bu yüzden kalem tek seferlik sayılmadı ve kazançtan düşülmedi. Büyüklüğü enflasyona ve borcun para birimine bağlıdır, yıldan yıla değişir.",
+    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are. 24% of pre-tax profit for January-September 2026 (7.5 billion TRY) is a net monetary position gain. This item comes from inflation accounting: inflation erodes the company's liabilities, while in the same statement inventories, depreciation and other costs are restated upwards and reduce operating profit. The two are two sides of one adjustment, so the item was not treated as a one-off and was not deducted. Its size depends on inflation and on the currency of the debt, and changes from year to year."
    },
    "per": "9/2026"
   }
@@ -308,16 +313,16 @@
    "E": 1
   },
   "moat": "dar",
-  "one": "Havalimanı yer hizmetlerinde yerleşik bir oyuncu. Kalite surlarını geçti; ama Hindistan'daki işi kapandı, kalan işin kârı yavaş büyüyor ve fiyat güvenlik marjı için yetmiyor.",
+  "one": "Havalimanı yer hizmetlerinde yerleşik bir oyuncu. Kalite surlarını geçti; ama Hindistan'daki işi kapandı, kalan işin kârı enflasyonun gerisinde kalıyor ve fiyat güvenlik marjı için yetmiyor.",
   "business": "Çelebi Hava Servisi, havayollarına ve kargo şirketlerine havalimanlarında yer hizmeti ve kargo-antrepo hizmeti verir. 1958'de kuruldu; Çelebi Havacılık Holding'in bağlı ortaklığıdır. 8.141 kişi çalıştırıyor.",
   "moat_text": "Hendek dar. Bir havalimanında yer hizmeti verebilmek için lisans ve imtiyaz gerekir; bu, rakip sayısını sınırlar ve yüksek kârlılığı açıklar (özsermaye kârlılığı beş yıldır %40'ın üzerinde, faaliyet marjı %23). Ama aynı lisanslar hendeğin en zayıf yeri: veren makam geri alabilir.",
   "mgmt": "Halka açıklık yalnızca %9,6; hisse sığ ve kontrol tümüyle ana ortakta. Kârın büyük bölümü temettü olarak dağıtılıyor (ödeme oranı %73).",
   "latest": "9 Kasım 2026: Dokuz aylık ana ortaklık net kârı 2,21 milyar TL, hasılat 17,56 milyar TL, faaliyet kârı 4,10 milyar TL. Durdurulan faaliyetlerden 1,02 milyar TL zarar yazıldı. Hindistan'daki iştiraklerin güvenlik izinleri Mayıs 2025'te iptal edilmiş, faaliyetleri 15 Mayıs 2025'te durmuştu; hukuki süreç sürüyor (19 Ağustos 2026 tarihli ara dönem raporu).",
   "risks": [
-   "Fiyat güvenlik marjı için yetmiyor: formül yılda %12,3 büyüme veriyordu, okumada bulunanlar yüzünden %3,4 alındı.",
+   "Fiyat güvenlik marjı için yetmiyor: kalan işin kârı TL olarak yılda %3,4 arttı, enflasyon ise %30 dolayında; hesapta büyüme sıfır alındı.",
    "İmtiyaz riski gerçekleşti: Hindistan'daki iş bir hükümet kararıyla bir günde durdu. Aynı şey başka bir ülkede de olabilir.",
    "Müşteriler havayolları: pazarlık güçleri yüksek, sözleşmeler yenilenmeyebilir.",
-   "Güvenlik marjı eşiğe çok yakın ve fark ölçüm hassasiyeti içinde. Tablodaki PD/DD 3,6 olarak yuvarlanmış; dokuz aylık bilançodaki özkaynakla (9,12 milyar TL) hesaplanınca 3,55 ve marj %25 dolayında çıkıyor. Küçük bir fiyat ya da kâr değişimi sonucu değiştirir.",
+   "Rakamlar TL'ye çevrilmiş avro hesaplarıdır: şirket enflasyon muhasebesi uygulamıyor, kâr ve özkaynak kurla birlikte oynar. Veri kaynağının F/K'sı da şirketin tablolarından toplanan kârla tutmuyor; hesapta şirketin belgesi esas alındı.",
    "Düşük halka açıklık: az ortak, sığ işlem."
   ],
   "watch": [
@@ -361,20 +366,25 @@
     "t": "Büyüme yargısının kaynağı: Ocak-Eylül 2026",
     "te": "Source for the growth judgment: January-September 2026",
     "u": "https://kap.org.tr/en/api/BildirimPdf/1695780"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: Ocak-Eylül 2026",
+    "te": "Source for the growth judgment: January-September 2026",
+    "u": "https://kap.org.tr/tr/api/file/download/4028328da17e515f01a1c1018ea40e93"
    }
   ],
   "per": "9/2026",
   "en": {
-   "one": "An established airport ground-handling company. It passed the quality walls, but its business in India was shut, profit from what remains is growing slowly and the price leaves too little margin of safety.",
+   "one": "An established airport ground-handling company. It passed the quality walls, but its business in India was shut, profit from what remains is not keeping up with inflation and the price leaves too little margin of safety.",
    "business": "Çelebi Hava Servisi provides ground handling and cargo and warehouse services at airports to airlines and cargo companies. It was founded in 1958 and is a subsidiary of Çelebi Havacılık Holding. It employs 8,141 people.",
    "moat_text": "The moat is narrow. Providing ground handling at an airport requires a licence and a concession; this limits the number of competitors and explains the high profitability (return on equity above 40% for five years, operating margin 23%). But those same licences are the weakest point of the moat: the authority that grants them can take them back.",
    "mgmt": "The free float is only 9.6%; the stock is thinly traded and control rests entirely with the parent. Most of the profit is paid out as dividends (payout ratio 73%).",
    "latest": "9 November 2026: Nine-month net profit attributable to the parent was 2.21 billion TRY, revenue 17.56 billion TRY and operating profit 4.10 billion TRY. A loss of 1.02 billion TRY was booked from discontinued operations. The security clearances of the subsidiaries in India were revoked in May 2025 and their operations stopped on 15 May 2025; the legal process continues (interim report dated 19 August 2026).",
    "risks": [
-    "The price leaves too little margin of safety: the formula gave growth of 12.3% a year; because of what the reading found, 3.4% was used.",
+    "The price leaves too little margin of safety: profit from the remaining business rose 3.4% a year in lira while inflation was about 30%; the calculation assumes zero growth.",
     "Concession risk has materialised: the business in India stopped in a single day by a government decision. The same could happen in another country.",
     "The customers are airlines: their bargaining power is high and contracts may not be renewed.",
-    "The margin of safety is very close to the threshold and the difference is within measurement precision. P/B in the table is rounded to 3.6; calculated with equity from the nine-month balance sheet (9.12 billion TRY) it is 3.55 and the margin comes out at around 25%. A small change in price or profit changes the result.",
+    "The figures are euro accounts translated into lira: the company does not apply inflation accounting, so profit and equity move with the exchange rate. The data source's P/E also does not match the profit added up from the company's statements; the calculation uses the company's document.",
     "Low free float: few shareholders, thin trading."
    ],
    "watch": [
@@ -385,18 +395,18 @@
    ]
   },
   "growth": {
-   "g": 3.4,
+   "g": 0.0,
    "basis": {
-    "tr": "Formül yılda %12,3 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %−1,5. Rakamlar enflasyon muhasebesiyle hazırlandığı için zaten reeldir. Hindistan'daki iş 15 Mayıs 2025'te bir hükümet kararıyla durdu; 2024'te grup hasılatının yaklaşık üçte biriydi ve geçmiş büyümenin içinde. Kalan işin büyümesi sürdürülen faaliyetlerin kârından: 2026'nın ilk dokuz ayında 2,84 milyar TL, bir yıl önce aynı parayla 2,74 milyar TL: yılda %3,4. Geçmiş büyüme yerine bu hız kullanıldı: %3,4.",
-    "en": "The formula gave growth of 12.3% a year. Latest figures (net profit, year on year): January-September 2026 −1.5%. The figures are prepared under inflation accounting, so they are already real. The business in India was stopped by a government decision on 15 May 2025; it was about a third of group revenue in 2024 and is part of past growth. Growth of the remaining business, from profit on continuing operations: 2.84 billion TRY in the first nine months of 2026, against 2.74 billion a year earlier in the same money: 3.4% a year. This rate was used instead of past growth: 3.4%."
+    "tr": "Formül yılda %9,4 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %−1,5. Çelebi enflasyon muhasebesi uygulamıyor: şirketin işlevsel para birimi avro, tabloları TL'ye çevrilerek sunuluyor ve geçen yılın rakamları yeniden değerlenmiyor (yalnız Çelebi Kargo uyguluyor). Bu yüzden hem geçmiş kâr dizisi hem buradaki değişimler nominaldir ve tüketici enflasyonuyla düzeltildi. Hindistan'daki iş 15 Mayıs 2025'te bir hükümet kararıyla durdu; 2024'te grup hasılatının yaklaşık üçte biriydi ve geçmiş büyümenin içinde. Kalan işin büyümesi sürdürülen faaliyetlerin kârından: 2026'nın ilk dokuz ayında 2,84 milyar TL, bir yıl önce 2,74 milyar TL (ikisi de kendi döneminin parasıyla): yılda %3,4, enflasyondan arındırılınca %0,0. Geçmiş büyüme yerine bu hız kullanıldı: %0,0.",
+    "en": "The formula gave growth of 9.4% a year. Latest figures (net profit, year on year): January-September 2026 −1.5%. Çelebi does not apply inflation accounting: its functional currency is the euro, its statements are presented translated into lira, and last year's figures are not restated (only Çelebi Kargo applies it). So both the past profit series and the changes here are nominal and were adjusted for consumer inflation. The business in India was stopped by a government decision on 15 May 2025; it was about a third of group revenue in 2024 and is part of past growth. Growth of the remaining business, from profit on continuing operations: 2.84 billion TRY in the first nine months of 2026, against 2.74 billion a year earlier (each in the money of its own period): 3.4% a year, 0.0% after inflation. This rate was used instead of past growth: 0.0%."
    },
    "per": "9/2026"
   },
   "earn": {
-   "k": 1.0,
+   "k": 0.8,
    "basis": {
-    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı.",
-    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are."
+    "tr": "Hesap son 12 ayın kârına dayanır. Kaynağın F/K'sı son 12 ay için 4,5 milyar TL kâr ima ediyor; şirketin kendi tablolarından toplanan son 12 ay kârı 3,6 milyar TL. Farkın nedeni bulunamadı; şirketin belgesi esas alındı ve kazanç bu orana indirildi (%20,0). Son 12 ayın kârı 0,80 ile çarpılarak kullanıldı.",
+    "en": "The calculation rests on the profit of the last 12 months. The data source's P/E implies a last-12-month profit of 4.5 billion TRY; the last-12-month profit added up from the company's own statements is 3.6 billion TRY. The reason for the gap was not found; the company's document was taken as the basis and earnings were lowered to that ratio (20.0%). Last-12-month profit was used multiplied by 0.80."
    },
    "per": "9/2026"
   }
@@ -495,8 +505,8 @@
   "earn": {
    "k": 1.0,
    "basis": {
-    "tr": "Hesap son 12 ayın kârına dayanır. Sabit kıymet yeniden değerlemesinin ertelenmiş vergi etkisi (559 milyon TL) şirketçe tek seferlik sayılmıyor ve yinelenip yinelenmeyeceği belirtilmiyor; kazançtan düşülmedi.",
-    "en": "The calculation rests on the profit of the last 12 months. The deferred-tax effect of the fixed-asset revaluation (559 million TRY) is not called one-off by the company and nothing says whether it recurs; it was not deducted."
+    "tr": "Hesap son 12 ayın kârına dayanır. Sabit kıymet yeniden değerlemesinin ertelenmiş vergi etkisi (559 milyon TL) şirketçe tek seferlik sayılmıyor ve yinelenip yinelenmeyeceği belirtilmiyor; kazançtan düşülmedi. Ocak-Eylül 2026 vergi öncesi kârının %45 kadarı (3,2 milyar TL) net parasal pozisyon kazancıdır. Bu kalem enflasyon muhasebesinden gelir: şirketin borçları enflasyonla erir; aynı tabloda stoklar, amortisman ve öbür giderler enflasyonla yukarı düzeltilir ve faaliyet kârını düşürür. İkisi aynı düzeltmenin iki yüzüdür; bu yüzden kalem tek seferlik sayılmadı ve kazançtan düşülmedi. Büyüklüğü enflasyona ve borcun para birimine bağlıdır, yıldan yıla değişir.",
+    "en": "The calculation rests on the profit of the last 12 months. The deferred-tax effect of the fixed-asset revaluation (559 million TRY) is not called one-off by the company and nothing says whether it recurs; it was not deducted. 45% of pre-tax profit for January-September 2026 (3.2 billion TRY) is a net monetary position gain. This item comes from inflation accounting: inflation erodes the company's liabilities, while in the same statement inventories, depreciation and other costs are restated upwards and reduce operating profit. The two are two sides of one adjustment, so the item was not treated as a one-off and was not deducted. Its size depends on inflation and on the currency of the debt, and changes from year to year."
    },
    "per": "9/2026"
   }
@@ -595,8 +605,8 @@
   "earn": {
    "k": 1.0,
    "basis": {
-    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı.",
-    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are."
+    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı. Ocak-Eylül 2026 vergi öncesi kârının %54 kadarı (22,2 milyar TL) net parasal pozisyon kazancıdır. Bu kalem enflasyon muhasebesinden gelir: şirketin borçları enflasyonla erir; aynı tabloda stoklar, amortisman ve öbür giderler enflasyonla yukarı düzeltilir ve faaliyet kârını düşürür. İkisi aynı düzeltmenin iki yüzüdür; bu yüzden kalem tek seferlik sayılmadı ve kazançtan düşülmedi. Büyüklüğü enflasyona ve borcun para birimine bağlıdır, yıldan yıla değişir.",
+    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are. 54% of pre-tax profit for January-September 2026 (22.2 billion TRY) is a net monetary position gain. This item comes from inflation accounting: inflation erodes the company's liabilities, while in the same statement inventories, depreciation and other costs are restated upwards and reduce operating profit. The two are two sides of one adjustment, so the item was not treated as a one-off and was not deducted. Its size depends on inflation and on the currency of the debt, and changes from year to year."
    },
    "per": "9/2026"
   }
@@ -681,8 +691,8 @@
   "earn": {
    "k": 1.0,
    "basis": {
-    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı.",
-    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are."
+    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı. Şubat-Temmuz 2026 kârı, 0,4 milyar TL net parasal pozisyon kaybından sonradır (vergi öncesi kârın %24 kadarı): şirketin elindeki nakit ve alacaklar enflasyonla eridi. Bu kayıp kârdan zaten düşülmüş durumda; kazanç yükseltilmedi.",
+    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are. Profit for February-July 2026 is after a net monetary position loss of 0.4 billion TRY (equal to 24% of pre-tax profit): inflation eroded the company's cash and receivables. That loss is already deducted from profit; earnings were not raised."
    },
    "per": "6/2026"
   }
@@ -1111,8 +1121,8 @@
   "earn": {
    "k": 1.0,
    "basis": {
-    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı.",
-    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are."
+    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı. Ocak-Eylül 2026 vergi öncesi kârının %25 kadarı (3,0 milyar TL) net parasal pozisyon kazancıdır. Bu kalem enflasyon muhasebesinden gelir: şirketin borçları enflasyonla erir; aynı tabloda stoklar, amortisman ve öbür giderler enflasyonla yukarı düzeltilir ve faaliyet kârını düşürür. İkisi aynı düzeltmenin iki yüzüdür; bu yüzden kalem tek seferlik sayılmadı ve kazançtan düşülmedi. Büyüklüğü enflasyona ve borcun para birimine bağlıdır, yıldan yıla değişir.",
+    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are. 25% of pre-tax profit for January-September 2026 (3.0 billion TRY) is a net monetary position gain. This item comes from inflation accounting: inflation erodes the company's liabilities, while in the same statement inventories, depreciation and other costs are restated upwards and reduce operating profit. The two are two sides of one adjustment, so the item was not treated as a one-off and was not deducted. Its size depends on inflation and on the currency of the debt, and changes from year to year."
    },
    "per": "9/2026"
   }

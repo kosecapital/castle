@@ -247,8 +247,14 @@ def run(cc):
                     L2[c]["ek"] = ek               # kazanç yargısı (CLAUDE.md): son 12 ay okumaları bu çarpanla alınır
                 roe_c = [x for x in (None if rr is None else rr * ek, rroe6[-2], None if rroe6[-1] is None else rroe6[-1] * ek) if x is not None]
                 if roe_c and min(roe_c) > 0:       # 4. surun büyüme hızı (fiyat testi ve ön hesap için)
-                    g, gh, gs, gpo = growth(h, labs, cpi_of, min(roe_c), not defl, P, str(int(min(era_years)) - 1) if (era_explicit and era_years) else None)
+                    # İşlevsel para birimi yabancı olan şirket (meta.flags.fx) enflasyon muhasebesi uygulamaz: kâr dizisi nominaldir,
+                    # her yıl o yılın tüketici enflasyonuyla düzeltilir (CLAUDE.md, "İşlevsel para birimi yabancı olan şirket").
+                    fx = c in ((meta.get("flags") or {}).get("fx") or {})
+                    g, gh, gs, gpo = growth(h, labs, cpi_of, min(roe_c), (not defl) and not fx, P,
+                                            str(int(min(era_years)) - 1) if (era_explicit and era_years and not fx) else None)
                     L2[c].update(g=rnd(g, 2), gh=rnd(gh, 2), gs=rnd(gs, 2), gpo=rnd(gpo))
+                    if fx:
+                        L2[c]["fx"] = 1
                     # büyüme yargısı (CLAUDE.md, "Büyüme yargısı"): okuma sırasında bulunan, kaynaklı bir gerçek büyüme hızını aşağı çeker.
                     # Yalnız indirir: formülün verdiği hızın üstüne çıkamaz.
                     gj = (reports.get(c) or {}).get("growth") or {}
