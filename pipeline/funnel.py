@@ -267,6 +267,8 @@ def run(cc):
                     elif not l3pass(rep["scores"]):
                         s = rep["scores"]
                         e, w = 3, ("moat" if s["B"] < 2 else "mgmt" if s["D"] < 1 else "fragile")
+                    elif (rep.get("growth") or {}).get("permanent"):
+                        e, w = 3, "decline"          # kârdaki kötüleşmenin nedeni kalıcı: fiyat testine alınmaz (CLAUDE.md, "Büyüme yargısı")
                     else:
                         e, w = 4, "price"            # kale ya da bekleme: fiyat testi istemcide de hesaplanır
         U.append(dict(c=c, n=u["n"], s=u["s"], p=u["p"], m=u["m"], f=u.get("f"), pe=pe, pb=pb, per=u.get("per"),

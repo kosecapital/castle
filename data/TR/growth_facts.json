@@ -1,0 +1,263 @@
+{
+ "CLEBI": {
+  "metric": "net profit",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": -1.5,
+   "url": "https://kap.org.tr/en/api/BildirimPdf/1695780"
+  },
+  "quarter": null,
+  "guidance": null,
+  "adjusted": null,
+  "departed": {
+   "tr": "Hindistan'daki iş 15 Mayıs 2025'te bir hükümet kararıyla durdu; 2024'te grup hasılatının yaklaşık üçte biriydi ve geçmiş büyümenin içinde.",
+   "en": "The business in India was stopped by a government decision on 15 May 2025; it was about a third of group revenue in 2024 and is part of past growth.",
+   "remaining_pct": 3.4,
+   "basis_tr": "sürdürülen faaliyetlerin kârından: 2026'nın ilk dokuz ayında 2,84 milyar TL, bir yıl önce aynı parayla 2,74 milyar TL",
+   "basis_en": "from profit on continuing operations: 2.84 billion TRY in the first nine months of 2026, against 2.74 billion a year earlier in the same money",
+   "url": "https://kap.org.tr/en/api/BildirimPdf/1695780"
+  },
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": null
+ },
+ "TOASO": {
+  "metric": "net profit",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": 188.6,
+   "cur_val": "10972.7",
+   "prev_val": "3802.1",
+   "unit": "milyon TL / million TL",
+   "date": "2026-11-05",
+   "url": "https://www.cnbce.com/sirket-bilancolari/tofastan-toaso-beklentileri-asan-3ceyrek-bilancosu-iste-detaylar-h41136",
+   "primary": false
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 175.9,
+   "cur_val": "4331.8",
+   "prev_val": "1570 (yuvarlanmış / rounded)",
+   "unit": "milyon TL / million TL",
+   "date": "2026-11-05",
+   "url": "https://www.foreks.com/haber/detay/6aecc17195131d72027d7c26/PICNEWS/tr/tofas-2026-satis-ihracat-ve-uretim-beklentilerini-dusurdu-05-11-26/",
+   "primary": false
+  },
+  "guidance": null,
+  "adjusted": null,
+  "departed": {
+   "tr": "Egea'nın üretimi 2026 ortasında bitti; yerini K0 ailesi aldı. Dokuz ayda üretilen 99.702 aracın 27.646'sı Egea idi. Şirket 5 Kasım 2026'da yıllık üretim hedefini 135-145 bine (önce 145-155 bin), yurt içi satışı 270-290 bine, ihracatı 70-80 bine indirdi.",
+   "en": "Egea production ended in mid-2026; the K0 family replaced it. Of 99,702 vehicles built in nine months, 27,646 were Egea. On 5 November 2026 the company cut its full-year production target to 135-145 thousand (was 145-155 thousand), domestic sales to 270-290 thousand and exports to 70-80 thousand.",
+   "remaining_pct": null,
+   "basis_tr": "Şirket kalan işin kâr büyümesini açıklamıyor; yalnız adet hedefleri ve yaklaşık %4 vergi öncesi kâr marjı beklentisi var.",
+   "basis_en": "The company does not disclose profit growth of the remaining business; only unit targets and a pre-tax margin expectation of about 4%.",
+   "url": "https://www.foreks.com/haber/detay/6aecc17195131d72027d7c26/PICNEWS/tr/tofas-2026-satis-ihracat-ve-uretim-beklentilerini-dusurdu-05-11-26/"
+  },
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Not primary: numbers from CNBC-e and Foreks news of the KAP filing (5 Nov 2026); the Q3 2025 value is given only rounded (1.57 bn TL), so the quarter percent is approximate. Inflation-adjusted statements, so growth is real. The comparison is distorted by structure, not by an item the company calls one-off: Stellantis Otomotiv was merged in May 2025 (Bloomberg HT), so 9M 2025 holds only part of that business; 9M 2025 operating result was a loss of 625.4 mn TL versus a 5,552.5 mn TL profit in 9M 2026. Q3 revenue fell 29% (80.5 vs 113.2 bn TL). No net profit guidance; pre-tax profit margin guidance for 2026 changed from 3-4% to about 4%, the 2028 target of 5-7% kept, capex about 250 mn euros kept; domestic market 1,100-1,150 thousand (was 1,100-1,200 thousand). Whether the Egea end is a lasting loss is not stated by any source read; Bloomberg HT says it limited growth."
+ },
+ "MAVI": {
+  "metric": "net profit",
+  "ytd": {
+   "tr": "Şubat-Temmuz 2026 (mali yılın ilk yarısı)",
+   "en": "February-July 2026 (first half of the fiscal year)",
+   "pct": -33.0,
+   "cur_val": "980.3",
+   "prev_val": "1463.3",
+   "unit": "milyon TL / million TL",
+   "date": "2026-09-16",
+   "url": "https://kap.org.tr/tr/api/file/download/4028328ca09bee8f01a0aa3314df7959",
+   "primary": true
+  },
+  "quarter": {
+   "tr": "Mayıs-Temmuz 2026 çeyreği",
+   "en": "May-July 2026 quarter",
+   "pct": -13.6,
+   "cur_val": "263.0",
+   "prev_val": "304.4",
+   "unit": "milyon TL / million TL",
+   "date": "2026-09-16",
+   "url": "https://kap.org.tr/tr/api/file/download/4028328ca09bee8f01a0aa3314df7959",
+   "primary": true
+  },
+  "guidance": null,
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Primary: reviewed interim financial statements to 31 July 2026 (KAP attachment). Inflation-adjusted (TAS 29, purchasing power of 31 July 2026), so the declines are real. Figures are profit attributable to owners. CONFLICT WITH THE EXISTING REPORT: the 807 mn TL in the report and the company press release is TOTAL net profit including the minority's loss (806.7 vs 1,339.7 a year earlier, -39.8%; quarter 239.1 vs 219.0, +9.2%); the owners' share is 980.3 mn TL. No profit guidance. Revised 2026 guidance (16 Sep 2026, per the company release carried by Foreks/Habertürk): consolidated revenue flat to low-single-digit decline in real terms (prior range not found); EBITDA margin 18% +/-0.5 points and net cash target unchanged; store plan unchanged. Board approved a second buyback of 1 bn TL. The KAP guidance notice 1664202 opens but its attachment is not readable; fintables and uscmarkets pages failed. No source read states a lasting cause; the company cites weak consumer demand (existing report)."
+ },
+ "MPARK": {
+  "metric": "net profit",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": 5.05,
+   "cur_val": "5553.5",
+   "prev_val": null,
+   "unit": "milyon TL / million TL",
+   "date": "2026-11-05",
+   "url": "https://www.yatirimx.com.tr/sirket-haberleri/mlp-saglik-9-ayda-555-milyar-tl-net-kr-acikladi/27732",
+   "primary": false
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 6.0,
+   "cur_val": "2225",
+   "prev_val": "yaklaşık 2100 / about 2100",
+   "unit": "milyon TL / million TL",
+   "date": "2026-11-05",
+   "url": "https://www.foreks.com/haber/detay/6aec15164b1852391445c1f3/FRKS/tr/hisse-degerlendirmesi-fiba-yatirim-mlp-saglik-icin-hedef-fiyatini-728-50-tl-ve-tavsiyesini-endeksin-uzerinde-getiri-olarak-korudu-05-11-26/",
+   "primary": false
+  },
+  "guidance": null,
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Not primary: I did not find the 9M26 KAP file. 9M: 5,553,513 thousand TL, +5.05% (YatırımX and Borsagündem, from KAP; prior-year value not stated). Q3: 2,225 mn TL, +6% per Fiba Yatırım; Oyak gives 2.22 bn vs 2.1 bn. Inflation-adjusted statements, so growth is real. Brokers (not the company) say Q3 profit was helped by a non-repeating effect: after MLP bought the remaining 20% of Samsun Medikal (115 mn dollars, completed September 2026) the minority's share of first-half profit was added to the parent's profit; no adjusted figure given. Primary H1 2026 statements (KAP file 4028328d9f52dddd019fd2b409ab138f, dated 5 Aug 2026): parent net profit 3,153.0 vs 3,018.0 mn TL (+4.5%), Q2 1,368.4 vs 1,379.9 (-0.8%); H1 includes tax income of 558.7 mn TL from fixed-asset revaluation. No company guidance found in any page read. Medical tourism revenue -8% in Q3, attributed by Oyak to real appreciation of the lira while patient numbers rose; not called permanent. DIVIDEND NOT RESOLVED: Paratic (28 Apr 2026) reports the board decided on 31 Mar 2026 NOT to distribute a dividend from 2025 profit (proposal to the AGM); yet the H1 2026 statements show 410,197 thousand TL 'dividend distribution' charged to owners' equity and paid in cash (275,823 in H1 2025), with 191,012 thousand shares. No per-share amount is disclosed in what I read, so dps is left null; do not derive it. vkyanaliz.com KAP mirror PDFs returned 404."
+ },
+ "CCOLA": {
+  "metric": "net profit",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": 23.1,
+   "cur_val": "22455",
+   "prev_val": "18246",
+   "unit": "milyon TL / million TL",
+   "date": "2026-11-03",
+   "url": "https://www.yatirimx.com.tr/sirket-haberleri/coca-cola-icecek-9-aylik-bilancosunu-acikladi-net-kr-224-milyar-tl/27613",
+   "primary": false
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": -16.4,
+   "cur_val": "7786",
+   "prev_val": "9316",
+   "unit": "milyon TL / million TL",
+   "date": "2026-11-03",
+   "url": "https://www.yatirimx.com.tr/sirket-haberleri/coca-cola-icecek-9-aylik-bilancosunu-acikladi-net-kr-224-milyar-tl/27613",
+   "primary": false
+  },
+  "guidance": null,
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Not primary: the KAP notice (kap.org.tr/en/api/BildirimPdf/1691891) opens but the attached release is not in it; kap.org.tr/tr/Bildirim/1691891 is robots-blocked; I found no URL for the 3Q26 release on cci.com.tr. Numbers from YatırımX (4 Nov 2026), consistent with Paratic and Foreks (3 Nov): Q3 7.8 bn TL, -16.4% with inflation accounting; without inflation accounting Q3 net profit 8 bn TL, +15.6% (Foreks). The 9M +23.1% and Q3 -16.4% are from inflation-adjusted statements (real). Sources do not all say 'attributable to parent'; Paratic does. No profit guidance: company guides volume, net sales revenue per case and EBIT margin. On 3 Nov 2026 it raised international volume growth to low double digit, expects flat Türkiye volume, consolidated volume growth up to high single digit, net revenue per case (with inflation accounting) down low single digit, EBIT margin guidance (flat, per the FY25 release) maintained. Fiba Yatırım note (Foreks, 4 Nov): Q3 EBITDA 12,622 mn TL, about -17%; Türkiye EBITDA margin down 10 points to 9.6% on costlier raw materials replacing cheap stock plus a high base; no source calls this permanent. FY2025 base (from the FY25 release, 3 Mar 2026): net income 14,072 mn TL, -27.4%, with one-offs named there (Competition Board fine 211 mn TL, about 870 mn TL deferred tax charge in Q4, about 1 bn TL Uzbekistan tax audit accrual)."
+ },
+ "BIMAS": {
+  "metric": "net profit",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": 79.1,
+   "cur_val": "26152",
+   "prev_val": "14599",
+   "unit": "milyon TL / million TL",
+   "date": "2026-11-09",
+   "url": "https://arastirma.isyatirim.com.tr/2026/11/10/bimas-is-bim-3c-2026-kar-analizi/",
+   "primary": false
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 51.8,
+   "cur_val": "10386",
+   "prev_val": "6843",
+   "unit": "milyon TL / million TL",
+   "date": "2026-11-09",
+   "url": "https://arastirma.isyatirim.com.tr/2026/11/10/bimas-is-bim-3c-2026-kar-analizi/",
+   "primary": false
+  },
+  "guidance": null,
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Figures are parent-share net profit from inflation-adjusted (TMS 29) statements, so the growth is real; read from İş Yatırım's research note of 10 Nov 2026, not the KAP filing (I could not find the KAP file URL; foreks.com article was blocked by a permission timeout). 9M values 26,151,834 and 14,598,567 thousand TL also confirmed by a Foreks KAP headline and CNBC-e. Company gives no profit guidance: only real sales growth 6% (+/-2 points) and EBITDA margin about 7.5% (excluding inflation accounting and TFRS 16), both maintained per İş Yatırım. Not called one-off by anyone, but relevant: Q3 monetary gain fell 46% to 3,566 (from 6,545); 9M monetary gain 22,188 (+8%) against 9M net profit 26,152; Q3 tax expense fell 33%; investment income rose from 1.6 to 4.2 billion TL. 9M operating profit 19,720 (+61%), EBITDA 43,470 (+14%), revenue +8% real. Q3 customer traffic -1.8%, store openings slowed (113 net)."
+ },
+ "FROTO": {
+  "metric": "net profit",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": -33.6,
+   "cur_val": "19264",
+   "prev_val": "29013",
+   "unit": "milyon TL / million TL",
+   "date": "2026-11-05",
+   "url": "https://kap.org.tr/tr/api/file/download/4028328da17e515f01a1ac5082c40d63",
+   "primary": true
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": -23.4,
+   "cur_val": "8351",
+   "prev_val": "10899",
+   "unit": "milyon TL / million TL",
+   "date": "2026-11-05",
+   "url": "https://kap.org.tr/tr/api/file/download/4028328da17e515f01a1ac5082c40d63",
+   "primary": true
+  },
+  "guidance": null,
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Primary: the company's 9M26 results bulletin on KAP. Inflation-adjusted (TMS 29) statements, so the declines are real; the bulletin rounds them to -34% and -23%. The bulletin gives total net profit only (no parent/minority split, no EPS). No profit guidance; final 2026 guidance (5 Nov 2026): revenue 'mid-to-high single digit contraction' (unchanged), adjusted EBITDA margin 6-7% (unchanged), total wholesale 645-705 thousand units (was 655-715), domestic retail 65-75 thousand (was 75-85), exports 580-630 thousand unchanged, capex 300-400 mn euros. Nothing labelled one-off by the company, but note: tax expense fell to 1,280 from 6,640 mn TL after the corporate tax rate for manufacturing income was cut to 12.5% (published 4 June) and deferred tax was remeasured, so pre-tax profit fell more than net profit; investment income fell to 5,989 from 12,369; monetary gain 16,910 vs 16,732. Koçfinans consolidated from 1 July 2026 and added 407 mn TL net profit. I found no source statement of a lasting cause. Midas article (getmidas.com ...p-891832) was blocked by a permission timeout."
+ },
+ "ISMEN": {
+  "metric": "net profit",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": -22.7,
+   "url": "https://kap.org.tr/en/api/BildirimPdf/1696009"
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 4.3,
+   "url": "https://kap.org.tr/en/api/BildirimPdf/1696009"
+  },
+  "guidance": null,
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": null
+ }
+}

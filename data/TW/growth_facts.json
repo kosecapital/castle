@@ -1,0 +1,248 @@
+{
+ "3017": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": 129.02,
+   "cur_val": "73.86",
+   "prev_val": "32.25",
+   "unit": "Tayvan doları / Taiwan dollars",
+   "date": "2026-11-10",
+   "url": "https://uanalyze.com.tw/articles/9857458877",
+   "primary": false
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 114.48,
+   "cur_val": "29.32",
+   "prev_val": "13.67",
+   "date": "2026-11-10",
+   "url": "https://www.chinatimes.com/realtimenews/20261110003431-260410",
+   "primary": false
+  },
+  "guidance": null,
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "No numeric profit guidance. Outlook from the 10 Nov 2026 call (cnyes via uanalyze): ASIC revenue to pass GPU in 2027; cold-plate capacity (about 1m pieces/month) to expand over 50% in 2027; capex NT$15-20bn in 2027 vs about 15bn in 2026. Net profit: Q3 NT$11.564bn vs 5.339bn (article: up 1.17 times; my division +116.6%); nine months NT$29.047bn vs 12.55bn (article: up 1.32 times; +131.5%). Prior-year EPS (Q3 13.67; nine months 32.25) from https://wantrich.chinatimes.com/news/20251112900656-420101. No one-off item mentioned. Company release not opened."
+ },
+ "2454": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": -7.38,
+   "cur_val": "47.94",
+   "prev_val": "51.76",
+   "unit": "Tayvan doları / Taiwan dollars",
+   "date": "2026-10-30",
+   "url": "https://uanalyze.com.tw/articles/1867558064",
+   "primary": false
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 10.48,
+   "cur_val": "17.50",
+   "prev_val": "15.84",
+   "date": "2026-10-30",
+   "url": "https://www.stockfeel.com.tw/?p=278716",
+   "primary": false
+  },
+  "guidance": null,
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "No EPS/net profit guidance. Company guidance is revenue only: Q4 2026 revenue NT$210.1-221.8bn (+25-32% QoQ, +40-48% YoY), gross margin 45% +/-1.5 pts; full-year 2026 USD revenue growth to exceed the earlier high-single-digit target; 2027 operating margin above 20% and about US$16bn from the first AI accelerator programme (StockFeel call summary, technews). Nine-month net profit NT$76.37bn, -7.3% YoY (cnyes via uanalyze); prior-year nine-month EPS 51.76 and net profit NT$82.394bn from https://uanalyze.com.tw/articles/6916737291. Q3 parent net profit 27.882bn vs 25.221bn (+10.6%); technews quotes 28.199bn, which is total net profit incl. minorities. Mobile phone revenue -17% YoY in Q3 (37% of revenue); no source read calls it lasting. tw.stock.yahoo.com/quote/2454/eps was blocked (permission not answered). Company's own release not opened."
+ },
+ "5287": {
+  "metric": "net profit",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": 14.71,
+   "cur_val": "684",
+   "prev_val": "596",
+   "unit": "milyon Tayvan doları / million Taiwan dollars",
+   "date": "2026-11-10",
+   "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=ee0277d9-f11e-4ba5-acd2-8d15bf1f3a1d",
+   "primary": false
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 1.05,
+   "cur_val": "222",
+   "prev_val": "220",
+   "date": "2026-11-10",
+   "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=ee0277d9-f11e-4ba5-acd2-8d15bf1f3a1d",
+   "primary": false
+  },
+  "guidance": null,
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Used net profit because prior-year EPS conflicts: Commercial Times (https://www.ctee.com.tw/news/20261110702041-430502) gives nine-month EPS 10.43 vs 9.10, MoneyDJ gives 10.43 vs 9.92; 9.92 is the EPS originally reported in Nov 2025 (Yahoo/Commercial Times 2025 article: nine-month net profit NT$596m, EPS 9.92; Q3 2025 NT$220m, EPS 3.67), so 9.10 looks like a restatement for more shares (my inference, not stated). Q3 2026 EPS 3.4 vs 3.67 originally reported. Percentages (14.71, 1.05) are as stated by MoneyDJ; prior values are from the 2025 article (rounded). Nine-month operating profit NT$699m, -0.89% YoY, while net profit +14.71%: the gap is non-operating, but neither article names it and the company gives no adjusted figure, so adjusted is null; core growth is about -0.9% on operating profit. No guidance. Company filing not opened."
+ },
+ "1580": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": -17.5,
+   "cur_val": "7.73",
+   "prev_val": "9.37",
+   "unit": "Tayvan doları / Taiwan dollars",
+   "date": "2026-11-06",
+   "url": "https://tw.stock.yahoo.com/news/%E6%96%B0%E9%BA%A5%E5%89%8D%E4%B8%89%E5%AD%A3%E5%90%88%E4%BD%B5%E7%8D%B2%E5%88%A93-81%E5%84%84%E5%85%83-%E6%AF%8F%E8%82%A1%E7%A8%85%E5%BE%8C7-73%E5%85%83-062500344.html",
+   "primary": true
+  },
+  "quarter": null,
+  "guidance": null,
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Nine-month 2026 figures are the exchange filing reproduced on Yahoo Taiwan (parent net profit NT$381.235m, basic EPS 7.73, revenue NT$3,527m, operating profit NT$610m). Prior-year nine months (parent net profit NT$466m, EPS 9.37, revenue NT$3,648m) from https://wantrich.chinatimes.com/news/20251112900637-420101. Net profit change is -18.2% (381/466). SINGLE QUARTER NOT FOUND: the filing is cumulative only and I could not find first-half 2026 or Q3 2025 stand-alone figures (tw.stock.yahoo.com/quote/1580/eps was blocked; statementdog is a data site and was not used). No guidance. The 'permanent' entry is evidence of margin pressure from a year-old source, not a statement of lasting cause; no 2026 call summary after Q3 was found."
+ },
+ "2308": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": 61.75,
+   "cur_val": "26.64",
+   "prev_val": "16.47",
+   "unit": "Tayvan doları / Taiwan dollars",
+   "date": "2026-10-29",
+   "url": "https://www.stockfeel.com.tw/?p=278472",
+   "primary": false
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 26.26,
+   "cur_val": "9.04",
+   "prev_val": "7.16",
+   "date": "2026-10-29",
+   "url": "https://www.stockfeel.com.tw/?p=278472",
+   "primary": false
+  },
+  "guidance": null,
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "No numeric profit guidance: management said Q4 revenue will be higher than Q3 and gross margin should not be worse than Q3's 34.1%; AI and liquid-cooling revenue expected to keep growing in 2027. Q3 included an inventory write-down of about NT$3.9bn (mainly Power Electronics; partly at subsidiary Delta Thailand) that management called an accounting provision, to be consumed from Q1 2027; the company gave NO adjusted growth figure, so adjusted is null. Net profit: Q3 NT$23.495bn (+26.28% YoY, -6.53% QoQ), nine months NT$69.186bn (+61.71%) per cnyes via https://uanalyze.com.tw/articles/4466957915. Gross margin 34.08% vs 35.64% in Q2; material costs up about 2% YTD, to be partly passed on. Sources are call summaries, not the company release; Taipei Times page failed to load."
+ },
+ "6498": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": 5.7,
+   "url": "https://tw.stock.yahoo.com/quote/6498/eps"
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": -41.4,
+   "url": "https://tw.stock.yahoo.com/quote/6498/eps"
+  },
+  "guidance": null,
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": "Ekim 2026 hasılatı geçen yılın %28,6 altında.",
+  "note_en": "October 2026 revenue was 28.6% below last year.",
+  "notes": null
+ },
+ "2330": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": 68.45,
+   "cur_val": "78.75",
+   "prev_val": "46.75",
+   "unit": "Tayvan doları / Taiwan dollars",
+   "date": "2026-10-15",
+   "url": "https://www.ctee.com.tw/news/20261015701496-430501",
+   "primary": false
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 68.7,
+   "cur_val": "29.43",
+   "prev_val": "17.44",
+   "date": "2026-10-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000726/a3q26e_withguidancexfinal.htm",
+   "primary": true
+  },
+  "guidance": null,
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "IMPORTANT: guidance.pct (44) is REVENUE growth in USD, not EPS/net profit; the company gives no profit guidance, treat guidance as null for EPS if you need like-for-like. Quarter figures are from the company's 6-K (primary). Nine-month EPS 78.75 and net profit NT$2,042.1bn (+68.5%) are from Commercial Times (ctee); prior-year nine-month EPS 46.75 and net profit NT$1,212.1bn from cnyes copy on uanalyze (https://uanalyze.com.tw/articles/1197335425); EPS pct is my division. The TSMC release itself shows only the quarter. Management says overseas-fab margin dilution rises from about 2 points to 3-4 points over five years (crnasia) - a margin headwind, not a deterioration in results."
+ },
+ "2383": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": 165.51,
+   "cur_val": "82.92",
+   "prev_val": "31.23",
+   "unit": "Tayvan doları / Taiwan dollars",
+   "date": "2026-10-28",
+   "url": "https://uanalyze.com.tw/articles/1301857865",
+   "primary": false
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 261.66,
+   "cur_val": "40.47",
+   "prev_val": "11.19",
+   "date": "2026-10-28",
+   "url": "https://www.stockfeel.com.tw/?p=278478",
+   "primary": false
+  },
+  "guidance": null,
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "No EPS guidance (company does not publish numeric financial forecasts). Q4 2026: revenue +15-20% QoQ, gross margin 38-39.5%; capacity 5.85m to 9.0m sheets/month by end-2027 (StockFeel call summary). Net profit: Q3 NT$14.499bn vs 3.964bn (+265.8%); nine months NT$29.713bn vs 10.912bn (article says up 1.72 times; my division +172.3%). Prior-year nine-month EPS 31.23 from https://uanalyze.com.tw/articles/5899037137. Q3 non-operating income included a PRC government subsidy of NT$107m (not labelled one-off). LTN page failed to load. Company release not opened."
+ }
+}

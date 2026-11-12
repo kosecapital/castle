@@ -1,0 +1,1043 @@
+{
+ "COST": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Eylül 2025-Ağustos 2026 mali yılı (52 hafta)",
+   "en": "fiscal year September 2025-August 2026 (52 weeks)",
+   "pct": 14.0,
+   "cur_val": "20.76",
+   "prev_val": "18.21",
+   "unit": "dolar / dollars",
+   "date": "2026-09-24",
+   "url": "https://finviz.com/news/395411/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-year-2026-operating-results",
+   "primary": false
+  },
+  "quarter": {
+   "tr": "Mayıs-Ağustos 2026 çeyreği (16 hafta)",
+   "en": "May-August 2026 quarter (16 weeks)",
+   "pct": 14.99,
+   "cur_val": "6.75",
+   "prev_val": "5.87",
+   "unit": "dolar / dollars",
+   "date": "2026-09-24",
+   "url": "https://finviz.com/news/395411/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-year-2026-operating-results",
+   "primary": false
+  },
+  "guidance": null,
+  "adjusted": {
+   "what_tr": "Son çeyrekte gümrük vergisi (IEEPA) iadelerinden, bir kısmı üyelere yansıtıldıktan sonra, hisse başına 0,15 dolarlık tek seferlik fayda. Şirket düzeltilmiş büyüme oranı vermiyor.",
+   "what_en": "A non-recurring benefit of 0.15 dollars a share in the last quarter from IEEPA tariff refunds, net of the part reinvested in member value. The company gives no adjusted growth figure.",
+   "ytd_pct": null,
+   "quarter_pct": null,
+   "url": "https://finviz.com/news/395411/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-year-2026-operating-results"
+  },
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Source is Costco's press release as reproduced by Finviz (full text, but not the company's own site or SEC), so primary: false. Net income: quarter 2,998M vs 2,610M (+14.9%); year 9,226M vs 8,099M (+13.9%). Excluding the 0.15 benefit (my arithmetic, not a company figure): quarter 6.60 vs 5.87 = +12.4%; year 20.61 vs 18.21 = +13.2%. Costco gives no earnings guidance. Next results (fiscal Q1 2027) are due in December; nothing newer than the 24 Sep release was found. The 30 dollar special dividend of 10 Nov 2026 is already in the site report."
+ },
+ "TBBK": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": 20.6,
+   "url": "https://investors.thebancorp.com/press-releases/news-details/2026/The-Bancorp-Reports-3Q-2026-EPS-of-1-53-ROA-of-2-51-and-ROE-of-36-0-Powered-by-Continuous-and-Sustained-Growth-in-Fintech-Fees/default.aspx"
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 29.7,
+   "url": "https://investors.thebancorp.com/press-releases/news-details/2026/The-Bancorp-Reports-3Q-2026-EPS-of-1-53-ROA-of-2-51-and-ROE-of-36-0-Powered-by-Continuous-and-Sustained-Growth-in-Fintech-Fees/default.aspx"
+  },
+  "guidance": null,
+  "adjusted": null,
+  "departed": {
+   "tr": "Önemli bir ortak (Chime) en geç Temmuz 2028'de ayrılıyor; geçmiş büyümenin içinde o da var. Chime'ın payı açıklanmadığı için geçmiş büyüme Chime hariç hesaplanamıyor.",
+   "en": "An important partner (Chime) leaves by July 2028 at the latest; it is part of past growth. Chime's share is not disclosed, so past growth cannot be calculated without it.",
+   "remaining_pct": 16.2,
+   "basis_tr": "şirketin ayrılığı da içeren kendi beklentisinden: hisse başına kâr 2026'da 5,95–6,05, 2028'de 8,00–8,20 dolar",
+   "basis_en": "from the company's own outlook, which includes the departure: earnings per share of 5.95–6.05 dollars in 2026 and 8.00–8.20 in 2028",
+   "url": "https://investors.thebancorp.com/press-releases/news-details/2026/The-Bancorp-Reports-3Q-2026-EPS-of-1-53-ROA-of-2-51-and-ROE-of-36-0-Powered-by-Continuous-and-Sustained-Growth-in-Fintech-Fees/default.aspx"
+  },
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": null
+ },
+ "JNJ": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": -49.78,
+   "cur_val": "4.49",
+   "prev_val": "8.94",
+   "unit": "dolar / dollars",
+   "date": "2026-10-13",
+   "url": "https://s203.q4cdn.com/636242992/files/content_files/3Q26-Earnings-Press-Release-Final-with-attachments.pdf",
+   "primary": true
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": -95.75,
+   "cur_val": "0.09",
+   "prev_val": "2.12",
+   "unit": "dolar / dollars",
+   "date": "2026-10-13",
+   "url": "https://www.jnj.com/media-center/press-releases/johnson-johnson-reports-q3-2026-results-raises-2026-guidance",
+   "primary": true
+  },
+  "guidance": {
+   "tr": "2026 yılı için şirket beklentisi (düzeltilmiş hisse başına kâr)",
+   "en": "company guidance for 2026 (adjusted EPS)",
+   "pct": 2.9,
+   "detail_tr": "düzeltilmiş hisse başına kâr 11,05-11,15 dolar (önceki 10,96-11,11); 2025'te 10,79. Şirket artışı %2,4-%3,3, ortada %2,9 olarak veriyor.",
+   "detail_en": "adjusted EPS of 11.05-11.15 dollars (previously 10.96-11.11); 10.79 in 2025. The company states growth of 2.4%-3.3%, 2.9% at the midpoint.",
+   "date": "2026-10-13",
+   "url": "https://www.jnj.com/media-center/press-releases/johnson-johnson-reports-q3-2026-results-raises-2026-guidance",
+   "primary": true
+  },
+  "adjusted": {
+   "what_tr": "Talk davalarının önerilen çözümü için tek seferlik karşılık: dava kalemi 3. çeyrekte 5,52 milyar, dokuz ayda 6,12 milyar dolar gider. Geçen yılın dokuz ayında ise 6,89 milyar dolarlık dava geliri vardı. Düzeltilmiş hisse başına kâr: çeyrekte 2,59 (2,80), dokuz ayda 8,19 (8,33) dolar.",
+   "what_en": "One-time charge for the proposed talc litigation resolution: the litigation item was a 5.52 billion dollar expense in Q3 and 6.12 billion in the nine months. The nine months of last year had a 6.89 billion dollar litigation benefit. Adjusted EPS: 2.59 (2.80) in the quarter, 8.19 (8.33) dollars in the nine months.",
+   "ytd_pct": -1.7,
+   "quarter_pct": -7.5,
+   "url": "https://s203.q4cdn.com/636242992/files/content_files/3Q26-Earnings-Press-Release-Final-with-attachments.pdf"
+  },
+  "departed": {
+   "tr": "Stelara ilacının patent koruması bitti; biyobenzerler pazara girdi. Satışı dokuz ayda 4,85 milyar dolardan 2,11 milyar dolara indi (−%56,4), 3. çeyrekte 716 milyon dolar (−%54,4). Ayrıca şirket ortopedi işini ayırmayı planlıyor; tarih açıklanmadı.",
+   "en": "The Stelara medicine lost patent protection and biosimilars entered. Its sales fell from 4.85 billion to 2.11 billion dollars in the nine months (−56.4%), and were 716 million dollars in Q3 (−54.4%). The company also plans to separate its Orthopaedics business; no date is given.",
+   "remaining_pct": 2.9,
+   "basis_tr": "Kalan işin kârı ayrı açıklanmıyor. Rakam, Stelara kaybını içeren 2026 düzeltilmiş hisse başına kâr beklentisidir (11,05-11,15 dolar; 2025'te 10,79). Ortopedi hâlâ rakamların içinde.",
+   "basis_en": "Profit of the remaining business is not disclosed. The figure is the 2026 adjusted EPS guidance, which already includes the Stelara loss (11.05-11.15 dollars; 10.79 in 2025). Orthopaedics is still inside the figures.",
+   "url": "https://s203.q4cdn.com/636242992/files/content_files/3Q26-Earnings-Press-Release-Final-with-attachments.pdf"
+  },
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Primary: J&J's own release (jnj.com) for the quarter and guidance, and the full release PDF with attachments (q4cdn) for the nine months and the reconciliation. Nine-month net earnings 10,979M vs 21,688M (-49.4%); adjusted net earnings 20,034M vs 20,206M (-0.9%). The 2025 base is itself inflated by a 6,894M litigation benefit, so reported growth is distorted in both years. 2025 adjusted EPS 10.79 was read from a third-party summary of the January 2026 release (quantisnow) and matches the growth rates J&J states (2.4%-3.3%). Stelara: the release says it cut Innovative Medicine's Q3 operational growth by about 690 basis points. Orthopaedics separation costs 369M in Q3, 746M in nine months; structure/timing not stated (a news summary, finsee.ai, says an investor review on 8 December may clarify). Stelara decline is a lasting cause but is a single product whose comparison eases from here; I put it under 'departed', not 'permanent'."
+ },
+ "BWMX": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": 31.6,
+   "cur_val": "27.9",
+   "prev_val": "21.2",
+   "unit": "Meksika pesosu / Mexican pesos",
+   "date": "2026-10-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001788257/000121390026111757/ea030869501ex99-1.htm",
+   "primary": true
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 17.9,
+   "cur_val": "9.9",
+   "prev_val": "8.4",
+   "unit": "Meksika pesosu / Mexican pesos",
+   "date": "2026-10-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001788257/000121390026111757/ea030869501ex99-1.htm",
+   "primary": true
+  },
+  "guidance": {
+   "tr": "2026 yılı için şirket beklentisi (yalnız gelir; kâr beklentisi yok)",
+   "en": "company guidance for 2026 (revenue only; no profit guidance)",
+   "pct": null,
+   "detail_tr": "net gelir %24-26 artış (satın alma dahil), organik büyüme %4-5, FAVÖK marjı %19",
+   "detail_en": "net revenue up 24-26% (including the acquisition), organic growth 4-5%, EBITDA margin 19%",
+   "date": "2026-10-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001788257/000121390026111757/ea030869501ex99-1.htm",
+   "primary": true
+  },
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "EPS is BASIC (the release gives no diluted EPS), in nominal pesos. Net income: Q3 390.3 vs 314.2 million pesos (+24.2%); nine months 1,066.2 vs 792.9 million (+34.5%). Shares rose (39.5 vs 37.3 million weighted in Q3) because shares were issued for the acquisition. IMPORTANT for the growth test: the jump is acquisition-driven. Tupperware Latam was acquired in June 2026 and consolidated from then (Q3 revenue 1,375.8 million pesos, 28.5% of the group); Q3 revenue +43.1% in total but only +2.3% excluding Tupperware (existing report), Jafra brand -2.8%, Betterware brand +9.7%. The company's 'comparable organic EBITDA' grew 2.8% in nine months. The comparison is also flattered by a 108.8 million peso unrealised derivative loss in 9M 2025 (none in 2026), partly offset by FX (-11.6 million loss vs +73.2 million gain), 43 million of non-recurring acquisition costs in 2026 and a 34-35 million tax benefit in 2025; the company gives no adjusted net income, so 'adjusted' is null. Q3 effective tax rate 45.8% (company calls it temporary). Do not use the headline 'combined' nine-month EPS of 45.42 (+114.2%): it adds Tupperware's pre-acquisition profit. Within Tupperware, B2B sales (111.8 million pesos in Q3 2025) went to zero and Argentina and US sales fell from 178.0 to 23.4 million; the release calls these extraordinary prior-year non-direct-channel sales discontinued after the acquisition - they were never in Betterware's own history, so not 'departed'. Quarterly dividend approved: 250 million pesos (0.3424 US dollars per share)."
+ },
+ "PG": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Temmuz-Eylül 2026 çeyreği (2027 mali yılının 1. çeyreği)",
+   "en": "July-September 2026 quarter (fiscal 2027 Q1)",
+   "pct": 1.0,
+   "cur_val": "1.97",
+   "prev_val": "1.95",
+   "unit": "dolar / dollars",
+   "date": "2026-10-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000080424/000008042426000250/fy2627q1jas8-kexhibit991.htm",
+   "primary": true
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği (2027 mali yılının 1. çeyreği)",
+   "en": "July-September 2026 quarter (fiscal 2027 Q1)",
+   "pct": 1.0,
+   "cur_val": "1.97",
+   "prev_val": "1.95",
+   "unit": "dolar / dollars",
+   "date": "2026-10-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000080424/000008042426000250/fy2627q1jas8-kexhibit991.htm",
+   "primary": true
+  },
+  "guidance": {
+   "tr": "2027 mali yılı için şirket beklentisi",
+   "en": "company guidance for fiscal 2027",
+   "pct": 3.0,
+   "detail_tr": "hisse başına kâr %1-5 artış; 2026 mali yılında 6,62 dolar. Çekirdek hisse başına kâr %0-3 artış: 6,89-7,11 dolar; 2026'da 6,89",
+   "detail_en": "diluted EPS up 1-5% from 6.62 dollars in fiscal 2026. Core EPS flat to up 3%: 6.89-7.11 dollars; 6.89 in fiscal 2026",
+   "date": "2026-10-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000080424/000008042426000250/fy2627q1jas8-kexhibit991.htm",
+   "primary": true
+  },
+  "adjusted": {
+   "what_tr": "Haziran 2025'te açıklanan yeniden yapılanma planının gideri (çeyrekte hisse başına 0,03 dolar) hariç çekirdek hisse başına kâr: 2,00 dolar (önceki yıl 1,99)",
+   "what_en": "Core EPS excluding restructuring charges under the plan announced in June 2025 (0.03 dollars per share in the quarter): 2.00 dollars (1.99 a year earlier)",
+   "ytd_pct": 0.5,
+   "quarter_pct": 0.5,
+   "url": "https://www.sec.gov/Archives/edgar/data/0000080424/000008042426000250/fy2627q1jas8-kexhibit991.htm"
+  },
+  "departed": {
+   "tr": "Haziran 2025 planı kapsamında bazı markalar, ürün biçimleri ve pazara giriş yolları bırakılıyor; şirket bunun organik satışı 0,3-0,5 puan düşürdüğünü söylüyor. Adı verilen büyük bir elden çıkarma yok.",
+   "en": "Under the June 2025 plan some brands, product forms and go-to-market routes are being discontinued; the company puts the drag on organic sales at 0.3-0.5 points. No large named divestiture.",
+   "remaining_pct": null,
+   "basis_tr": "Şirketin 2027 beklentisi bu etkiyi içeriyor: organik satış %1-3, hisse başına kâr %1-5 artış.",
+   "basis_en": "The fiscal 2027 guidance already includes this effect: organic sales up 1-3%, EPS up 1-5%.",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000080424/000008042426000250/fy2627q1jas8-kexhibit991.htm"
+  },
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Latest report is Q1 of fiscal 2027, so ytd = quarter. Net earnings attributable to P&G were 4,731 million dollars vs 4,750 million (flat) per the release as read today; the existing Castle report says 4.76 billion and -1%, which looks like total net earnings including minorities - worth a check. Release states core EPS +1% (2.00 vs 1.99 = +0.5% by arithmetic). Headwinds in guidance: about 1.4 billion dollars after-tax commodity cost; all headwinds 0.79 dollars per share. Thorne acquisition effective 1 Oct 2026 (adds to sales guidance: all-in 2-4%). The 'departed' item is small; judge whether it qualifies."
+ },
+ "MSFT": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Temmuz-Eylül 2026 çeyreği (2027 mali yılının ilk çeyreği)",
+   "en": "July-September 2026 quarter (first quarter of fiscal 2027)",
+   "pct": 32.3,
+   "cur_val": "4.92",
+   "prev_val": "3.72",
+   "unit": "dolar / dollars",
+   "date": "2026-10-28",
+   "url": "https://www.jamessharp.co.uk/market-news/microsoft-announces-first-quarter-results/",
+   "primary": false
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği (2027 mali yılının ilk çeyreği)",
+   "en": "July-September 2026 quarter (first quarter of fiscal 2027)",
+   "pct": 32.3,
+   "cur_val": "4.92",
+   "prev_val": "3.72",
+   "unit": "dolar / dollars",
+   "date": "2026-10-28",
+   "url": "https://www.jamessharp.co.uk/market-news/microsoft-announces-first-quarter-results/",
+   "primary": false
+  },
+  "guidance": null,
+  "adjusted": {
+   "what_tr": "OpenAI yatırımlarının etkisi: bu çeyrekte net kazanç hisse başına kâra 0,03 dolar ekledi, geçen yıl net zarar 0,41 dolar düşürmüştü. Şirketin bunu dışarıda bırakan rakamı 4,89 dolar (geçen yıl 4,13).",
+   "what_en": "Impact of the OpenAI investments: net gains added 0.03 dollars to EPS this quarter; a year ago net losses cut it by 0.41 dollars. The company's figure excluding this is 4.89 dollars (4.13 a year ago).",
+   "ytd_pct": 18.0,
+   "quarter_pct": 18.0,
+   "url": "https://www.jamessharp.co.uk/market-news/microsoft-announces-first-quarter-results/"
+  },
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "The latest cumulative period is the first quarter itself, so ytd equals quarter. Source is the full text of Microsoft's press release as republished by James Sharp (regulatory news feed); the original microsoft.com page (https://www.microsoft.com/en-us/Investor/earnings/FY-2027-Q1/press-release-webcast) was blocked by a permission timeout, hence primary: false. Company states GAAP EPS +32% and non-GAAP +18% (+19% constant currency); GAAP net income 36,629 mn dollars (+32%), non-GAAP 36.4 bn (+18%). No EPS or net income guidance: the release says guidance is given on the call; I could not open a page with the call guidance (fourweekmba.com failed)."
+ },
+ "HD": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "2026 mali yılının ilk yarısı (Şubat-Temmuz 2026)",
+   "en": "first half of fiscal 2026 (February-July 2026)",
+   "pct": 0.7,
+   "cur_val": "8.09",
+   "prev_val": "8.03",
+   "unit": "dolar / dollars",
+   "date": "2026-08-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000354950/000035495026000145/hd_exhibit991x08022026.htm",
+   "primary": true
+  },
+  "quarter": {
+   "tr": "Mayıs-Temmuz 2026 çeyreği (mali 2. çeyrek)",
+   "en": "May-July 2026 quarter (fiscal Q2)",
+   "pct": 4.6,
+   "cur_val": "4.79",
+   "prev_val": "4.58",
+   "unit": "dolar / dollars",
+   "date": "2026-08-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000354950/000035495026000145/hd_exhibit991x08022026.htm",
+   "primary": true
+  },
+  "guidance": {
+   "tr": "2026 mali yılı için şirket beklentisi",
+   "en": "company guidance for fiscal 2026",
+   "pct": 2.0,
+   "detail_tr": "hisse başına kâr yaklaşık %0-4 artış; 2025 mali yılında 14,23 dolar. Düzeltilmiş hisse başına kâr da %0-4; 2025'te 14,69 dolar",
+   "detail_en": "diluted EPS about flat to up 4% from 14.23 dollars in fiscal 2025. Adjusted EPS also flat to up 4% from 14.69 dollars",
+   "date": "2026-08-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000354950/000035495026000145/hd_exhibit991x08022026.htm",
+   "primary": true
+  },
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Q3 fiscal 2026 results are due 17 Nov 2026; not out. Guidance pct is the midpoint of 'flat to 4%'. Adjusted EPS (excludes amortisation of acquired intangibles, a recurring item, not a one-off): Q2 4.92 vs 4.68 (+5.1%), first half 8.35 vs 8.24 (+1.3%). Net earnings: Q2 4,766 vs 4,551 million dollars; first half 8,055 vs 7,984 million."
+ },
+ "SYF": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": 4.2,
+   "cur_val": "7.52",
+   "prev_val": "7.22",
+   "unit": "dolar / dollars",
+   "date": "2026-10-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001601712/000160171226000043/syf-20260930.htm",
+   "primary": true
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": -6.3,
+   "cur_val": "2.68",
+   "prev_val": "2.86",
+   "unit": "dolar / dollars",
+   "date": "2026-10-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001601712/000160171226000040/earningsrelease3q26.htm",
+   "primary": true
+  },
+  "guidance": {
+   "tr": "2026 yılı için şirket beklentisi",
+   "en": "company guidance for 2026",
+   "pct": 2.4,
+   "detail_tr": "hisse başına kâr yaklaşık 9,50 dolar (önceki aralık 9,25-9,50); 2025'te 9,28. Alacak artışı orta tek haneli, net zarar yazma oranı %5,5'in altında",
+   "detail_en": "EPS of about 9.50 dollars (previously 9.25-9.50); 9.28 in 2025. Receivables growth mid-single digit, net charge-off rate below 5.5%",
+   "date": "2026-10-20",
+   "url": "https://finsee.ai/earnings/syf/2026/q3/en/",
+   "primary": false
+  },
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Nine-month EPS and net earnings (2,582 vs 2,801 million dollars, -7.8%) are from the 10-Q; the date field is the earnings-release date. EPS rose year to date while net earnings fell, because of buybacks. The 2026 EPS guidance and the 2025 EPS of 9.28 come from two secondary summaries (finsee.ai, 247wallst.com) that agree; the earnings release itself gives no numbers (outlook was given on the call), so primary=false. Q3 fall: 30 million dollar reserve build vs 152 million release a year earlier, plus higher technology and marketing expense; the company does not label these one-off, so 'adjusted' is null. 10-Q says 'Corp, Other' includes certain partner programmes that will not be renewed beyond expiry (unnamed, no figures) - not enough for 'departed'. CFPB late-fee rule was vacated April 2025; release lists possible 'constraints on the pricing of our credit products' only as a risk factor."
+ },
+ "AMAT": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "2026 mali yılının ilk dokuz ayı (Kasım 2025-Temmuz 2026)",
+   "en": "first nine months of fiscal 2026 (November 2025-July 2026)",
+   "pct": 46.6,
+   "cur_val": "9.22",
+   "prev_val": "6.29",
+   "unit": "dolar / dollars",
+   "date": "2026-08-13",
+   "url": "https://www.appliedmaterials.com/us/en/newsroom/press-releases/081326-applied-materials-announces-third-quarter-2026-results.html",
+   "primary": true
+  },
+  "quarter": {
+   "tr": "Mayıs-Temmuz 2026 çeyreği (mali 3. çeyrek)",
+   "en": "May-July 2026 quarter (fiscal Q3)",
+   "pct": 42.8,
+   "cur_val": "3.17",
+   "prev_val": "2.22",
+   "unit": "dolar / dollars",
+   "date": "2026-08-13",
+   "url": "https://www.appliedmaterials.com/us/en/newsroom/press-releases/081326-applied-materials-announces-third-quarter-2026-results.html",
+   "primary": true
+  },
+  "guidance": {
+   "tr": "2026 mali yılının 4. çeyreği için şirket beklentisi (yıllık beklenti yok)",
+   "en": "company guidance for fiscal 2026 Q4 only (no full-year guidance)",
+   "pct": 85.3,
+   "detail_tr": "4. çeyrek düzeltilmiş hisse başına kâr 4,02 dolar (± 0,20); bir yıl önce 2,17. Dokuz aylık 8,73 ile birlikte yıl yaklaşık 12,75 eder; 2025 mali yılında 9,42 (+%35,4, kendi hesabımız)",
+   "detail_en": "Q4 non-GAAP EPS of 4.02 dollars (± 0.20); 2.17 a year earlier. With 8.73 for nine months the year comes to about 12.75; 9.42 in fiscal 2025 (+35.4%, our arithmetic)",
+   "date": "2026-08-13",
+   "url": "https://www.appliedmaterials.com/us/en/newsroom/press-releases/081326-applied-materials-announces-third-quarter-2026-results.html",
+   "primary": true
+  },
+  "adjusted": {
+   "what_tr": "Stratejik yatırımların gerçekleşmemiş değer artışı (dokuz ayda 949 milyon dolar), ABD Ticaret Bakanlığı uzlaşması (253 milyon dolar gider) ve önceki yılın vergi kalemleri (738 ve 320 milyon dolar) hariç şirketin düzeltilmiş hisse başına kârı: dokuz ayda 8,73 (önceki yıl 7,25), çeyrekte 3,50 (2,48)",
+   "what_en": "Company non-GAAP EPS excluding unrealised gains on strategic investments (949 million dollars in nine months), the US Commerce Department settlement (253 million charge) and prior-year tax items (738 and 320 million): 8.73 for nine months (7.25 a year earlier), 3.50 for the quarter (2.48)",
+   "ytd_pct": 20.4,
+   "quarter_pct": 41.1,
+   "url": "https://www.appliedmaterials.com/us/en/newsroom/press-releases/081326-applied-materials-announces-third-quarter-2026-results.html"
+  },
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Q4/fiscal 2026 results were NOT yet out when checked (12 Nov 2026, about 18:30-19:00 UTC; release is due about 21:01 UTC, 4:01 pm ET). All figures are from the 13 Aug 2026 Q3 release. The guidance pct (85.3) is for the single Q4 quarter, non-GAAP, vs Q4 FY2025 non-GAAP 2.17 (FY2025 release, https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-fourth-quarter-and-fiscal-year-2025); the implied full-year +35.4% is my arithmetic, not a company figure. China: share of revenue 37% in FY2024, 30% in FY2025, 28% in Q3 FY2026 (2,506 vs 2,548 million dollars, flat in dollars); neither release quantifies business lost to export rules, so 'departed' is left null. CEO in the Q3 release: 'we expect another strong growth year for Applied Materials in 2027' (no numbers)."
+ },
+ "OMF": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": 0.2,
+   "cur_val": "4.85",
+   "prev_val": "4.84",
+   "unit": "dolar / dollars",
+   "date": "2026-10-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001584207/000158420726000041/omf-20260930.htm",
+   "primary": true
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": -4.2,
+   "cur_val": "1.60",
+   "prev_val": "1.67",
+   "unit": "dolar / dollars",
+   "date": "2026-10-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001584207/000158420726000038/exhibit991earningsreleaseo.htm",
+   "primary": true
+  },
+  "guidance": null,
+  "adjusted": {
+   "what_tr": "Şirketin düzeltilmiş (C&I) hisse başına kârı; borç geri alım zararı (3. çeyrek 2025'te 39 milyon dolar) ve yeniden yapılanma giderleri hariç: çeyrekte 1,51 (önceki yıl 1,90); dokuz ayda 4,77 (5,07; çeyreklerin toplamı)",
+   "what_en": "Company C&I adjusted EPS, excluding losses on debt repurchases (39 million dollars in Q3 2025) and restructuring charges: 1.51 for the quarter (1.90 a year earlier); 4.77 for nine months (5.07; sum of quarters)",
+   "ytd_pct": -5.9,
+   "quarter_pct": -20.5,
+   "url": "https://www.sec.gov/Archives/edgar/data/0001584207/000158420726000038/exhibit991earningsreleaseo.htm"
+  },
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "GAAP nine-month figures are from the 10-Q (net income 563 vs 579 million dollars, -2.8%). The nine-month C&I adjusted EPS (4.77 vs 5.07) is a sum of quarterly figures in the release tables, not a stated number - treat as approximate. The company gives no EPS guidance. Per a secondary summary of the call (thecerbatgem.com/?p=10451571): 2026 managed receivables growth about 9% (high end of range), C&I net charge-offs at the high end of 7.4-7.9%, operating expense ratio about 6.6%; management expects lower losses in Q4 and consumer loan losses around 7% in 2027. Q3 provision 615 vs 488 million dollars; net charge-off rate 6.89% vs 6.67%. No lasting cause cited by any source."
+ },
+ "MA": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": 21.58,
+   "cur_val": "14.59",
+   "prev_val": "12.00",
+   "unit": "dolar / dollars",
+   "date": "2026-10-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001141391/000114139126000122/ma09302026-exx991xearnings.htm",
+   "primary": true
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 21.66,
+   "cur_val": "5.28",
+   "prev_val": "4.34",
+   "unit": "dolar / dollars",
+   "date": "2026-10-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001141391/000114139126000122/ma09302026-exx991xearnings.htm",
+   "primary": true
+  },
+  "guidance": null,
+  "adjusted": {
+   "what_tr": "Şirketin düzeltilmiş hisse başına kârı: dava giderleri (çeyrekte 74 milyon, dokuz ayda 156 milyon dolar; geçen yıl 83 ve 330 milyon), 202 milyon dolarlık yeniden yapılanma gideri ve hisse yatırımlarının kazanç/zararı hariç. Çeyrekte 5,31 (4,38), dokuz ayda 14,94 (12,25) dolar.",
+   "what_en": "The company's adjusted EPS: excludes litigation charges (74 million in the quarter, 156 million dollars in the nine months; 83 and 330 million last year), a 202 million dollar restructuring charge and gains/losses on equity investments. 5.31 (4.38) in the quarter, 14.94 (12.25) dollars in the nine months.",
+   "ytd_pct": 22.0,
+   "quarter_pct": 21.0,
+   "url": "https://www.sec.gov/Archives/edgar/data/0001141391/000114139126000122/ma09302026-exx991xearnings.htm"
+  },
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Primary: SEC 8-K exhibit 99.1. Company-stated changes: GAAP EPS +22% in both periods (currency-neutral +22% quarter, +19% nine months); adjusted EPS +21% quarter, +22% nine months (currency-neutral +21% / +19%); my pct for ytd/quarter is computed from the EPS values. Net income 4,628M vs 3,927M (+18%) quarter; 12,898M vs 10,908M (+18%) nine months. No EPS guidance; from the call transcript (Mitrade, not primary, https://www.mitrade.com/insights/news/live-news/article-8-2212413-20261030): 2026 and Q4 net revenue growth at the high end of low double digits (currency-neutral, excluding acquisitions), operating expenses low double digits; formal 2027 guidance comes with the next release. Lost portfolio already absorbed: the Capital One debit migration (late Q3 2025 to Q1 2026) held US debit volume growth to 1% in Q3 and is now being lapped; growth stayed at 22% through it, so I did not list it under 'departed'. Other headwinds named: new EU customs fee and lower crypto purchases in intra-Europe cross-border, Middle East travel."
+ },
+ "GOOGL": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": 104.38,
+   "cur_val": "16.33",
+   "prev_val": "7.99",
+   "unit": "dolar / dollars",
+   "date": "2026-10-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001652044/000165204426000080/googexhibit991q32026.htm",
+   "primary": true
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": -26.13,
+   "cur_val": "2.12",
+   "prev_val": "2.87",
+   "unit": "dolar / dollars",
+   "date": "2026-10-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001652044/000165204426000080/googexhibit991q32026.htm",
+   "primary": true
+  },
+  "guidance": null,
+  "adjusted": {
+   "what_tr": "Hisse senedi yatırımlarının değerleme kazanç ve zararları. Şirket, 3. çeyrekteki 8,7 milyar dolarlık zararın hisse başına kârı 0,55 dolar azalttığını söylüyor (geçen yılın aynı çeyreğinde 10,7 milyar dolar kazanç vardı). Dokuz ayda nakit dışı menkul kıymet kazancı 126,8 milyar dolar (2025'te 22,3 milyar). Şirket düzeltilmiş hisse başına kâr açıklamıyor.",
+   "what_en": "Valuation gains and losses on equity securities. The company says the 8.7 billion dollar loss in Q3 cut EPS by 0.55 dollars (a 10.7 billion dollar gain in the same quarter last year). Non-cash gains on securities in the nine months were 126.8 billion dollars (22.3 billion in 2025). The company publishes no adjusted EPS.",
+   "ytd_pct": null,
+   "quarter_pct": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/0001652044/000165204426000080/googexhibit991q32026.htm"
+  },
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": {
+   "tr": "Son çeyrekte hisse başına kâr %26,1 düştü, dokuz ayda %104,4 arttı; ikisini de hisse senedi yatırımlarının değerlemesi belirliyor (son çeyrekte 8,2 milyar dolar zarar, bir yıl önce 12,8 milyar dolar kazanç). Şirket düzeltilmiş kâr açıklamıyor. Bu rakamlar işin büyümesini göstermediği için kullanılmadı; hasılat çeyrekte %25 arttı ve büyümenin durduğunu gösteren bir veri yok. Hız indirilmedi.",
+   "en": "Earnings per share fell 26.1% in the latest quarter and rose 104.4% over nine months; both are driven by the valuation of equity investments (an 8.2 billion dollar loss in the latest quarter, a 12.8 billion gain a year earlier). The company publishes no adjusted profit. Because these figures do not show the growth of the business, they were not used; revenue rose 25% in the quarter and nothing shows that growth has stopped. The rate was not lowered."
+  },
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Primary: SEC 8-K exhibit 99.1. Percent changes computed from reported EPS. Both periods are heavily distorted by equity-securities marks in other income (OI&E: Q3 -8,221M vs +12,759M; 9M +127,478M vs +26,604M), so neither the +104% nor the -26% describes the operating business; the company gives no adjusted EPS and no EPS guidance. My arithmetic only (not a company figure): Q3 2026 EPS plus the 0.55 effect = 2.67; the Q3 2025 after-tax effect of the 10.7bn gain is not given. Net income Q3 26,468M vs 34,979M; 9M 201,239M vs 97,715M. Revenue Q3 +25% (from existing site report). Interest expense rose to 967M from 143M."
+ },
+ "KO": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": 14.0,
+   "cur_val": "2.86",
+   "prev_val": "2.51",
+   "unit": "dolar / dollars",
+   "date": "2026-10-27",
+   "url": "https://last10k.com/sec-filings/ko/0001628280-26-067403.htm",
+   "primary": true
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 8.0,
+   "cur_val": "0.93",
+   "prev_val": "0.86",
+   "unit": "dolar / dollars",
+   "date": "2026-10-27",
+   "url": "https://investors.coca-colacompany.com/news-events/press-releases/detail/1176/coca-cola-reports-third-quarter-202%206-results-and-raises-full-year-guidance",
+   "primary": true
+  },
+  "guidance": {
+   "tr": "2026 yılı için şirket beklentisi (karşılaştırılabilir hisse başına kâr)",
+   "en": "company guidance for 2026 (comparable EPS)",
+   "pct": 11.0,
+   "detail_tr": "karşılaştırılabilir hisse başına kâr en az %11 artacak (önceki beklenti %9-10); 2025'te 3,00 dolar. İçinde yaklaşık 3 puan kur katkısı ve yaklaşık 1 puan satılan işlerin olumsuz etkisi var; kur ve satışlar hariç en az %9.",
+   "detail_en": "comparable EPS to grow at least 11% (previously 9% to 10%); 3.00 dollars in 2025. Includes about 3 points of currency tailwind and about 1 point of headwind from divestitures; at least 9% excluding currency and divestitures.",
+   "date": "2026-10-27",
+   "url": "https://investors.coca-colacompany.com/news-events/press-releases/detail/1176/coca-cola-reports-third-quarter-202%206-results-and-raises-full-year-guidance",
+   "primary": true
+  },
+  "adjusted": {
+   "what_tr": "Şirketin karşılaştırılabilir hisse başına kârı: 192 milyon dolarlık emeklilik planı tasfiye gideri, riskten korunma ve menkul kıymet değerlemeleri, Afrika şişeleme işine ilişkin değer düşüklüğü düzeltmeleri ve vergi kalemleri hariç. Çeyrekte 0,91 (0,82), dokuz ayda 2,74 (2,42) dolar. Kur etkisi hariç artış çeyrekte %9, dokuz ayda %11.",
+   "what_en": "The company's comparable EPS: excludes a 192 million dollar pension settlement charge, hedge and securities mark-to-market, adjustments to the impairment on the Africa bottling operations and tax items. 0.91 (0.82) in the quarter, 2.74 (2.42) dollars in the nine months. Currency-neutral growth was 9% in the quarter and 11% in the nine months.",
+   "ytd_pct": 13.0,
+   "quarter_pct": 11.0,
+   "url": "https://last10k.com/sec-filings/ko/0001628280-26-067403.htm"
+  },
+  "departed": {
+   "tr": "Şişeleme işlerinin satışı: Hindistan (Mayıs 2025), Nijerya'daki bitmiş ürün işi (Ekim 2025) satıldı; Afrika şişeleme işinin satışının 2026'nın son çeyreğinde tamamlanması bekleniyor. Şirkete göre etkisi: 2026'da gelire yaklaşık 2 puan, hisse başına kâra yaklaşık 1 puan; son çeyrekte 4 ve 3 puan; 2027'de gelire yaklaşık 8, hisse başına kâra yaklaşık 2 puan.",
+   "en": "Sale of bottling operations: India (May 2025) and the finished-product business in Nigeria (October 2025) were sold; the sale of the Africa bottling operations is expected to close in the last quarter of 2026. Effect according to the company: about 2 points on revenue and about 1 point on EPS in 2026; 4 and 3 points in the last quarter; about 8 points on revenue and about 2 points on EPS in 2027.",
+   "remaining_pct": 9.0,
+   "basis_tr": "Şirketin 2026 beklentisi: kur ve satılan/alınan işler hariç karşılaştırılabilir hisse başına kâr en az %9 artar. Satışları içeren beklenti (kur dahil) en az %11.",
+   "basis_en": "Company guidance for 2026: comparable currency-neutral EPS excluding acquisitions and divestitures grows at least 9%. The guidance including the divestitures (and currency) is at least 11%.",
+   "url": "https://investors.coca-colacompany.com/news-events/press-releases/detail/1176/coca-cola-reports-third-quarter-202%206-results-and-raises-full-year-guidance"
+  },
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Primary: Coca-Cola's own release (IR site) plus the SEC 8-K as mirrored by last10k.com for the dollar values and the non-GAAP reconciliation. Company-stated percents: GAAP EPS +8% quarter, +14% nine months; comparable EPS +11% quarter, +13% nine months. Net income attributable to shareowners 4,009M vs 3,696M (+8%); 12,358M vs 10,836M (+14%). 2025 comparable EPS 3.00 (GAAP 3.04) from the company's Q4 2025 release of 10 Feb 2026 (https://investors.coca-colacompany.com/news-events/press-releases/detail/1151/coca-cola-reports-fourth-quarter-and-full-year-2025-results). The bottling businesses are low-margin, so the EPS loss is small (1-2 points a year) relative to the revenue loss; the company's own 2027 'considerations' already quantify it. The IRS tax case (appeal heard June 2026) remains undecided; nothing new read on it."
+ },
+ "VIRT": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": 46.8,
+   "cur_val": "5.27",
+   "prev_val": "3.59",
+   "unit": "dolar / dollars",
+   "date": "2026-11-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001592386/000110465926123022/tm2629046d1_ex99-1.htm",
+   "primary": true
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 91.9,
+   "cur_val": "1.65",
+   "prev_val": "0.86",
+   "unit": "dolar / dollars",
+   "date": "2026-11-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001592386/000110465926123022/tm2629046d1_ex99-1.htm",
+   "primary": true
+  },
+  "guidance": null,
+  "adjusted": {
+   "what_tr": "Şirketin normalleştirilmiş düzeltilmiş hisse başına kârı (kıdem, işlem giderleri, pay bazlı ödemeler ve iş satışı kazançları hariç; 2025'in dokuz ayında 67 milyon dolarlık RFQ-hub satış kazancı vardı): dokuz ayda 5,83 (önceki yıl 3,88), çeyrekte 1,77 (1,05)",
+   "what_en": "Company normalized adjusted EPS (excludes severance, transaction costs, share-based pay and gains on business sales; nine months 2025 included a 67 million dollar gain on the sale of RFQ-hub): 5.83 for nine months (3.88 a year earlier), 1.77 for the quarter (1.05)",
+   "ytd_pct": 50.3,
+   "quarter_pct": 68.6,
+   "url": "https://www.sec.gov/Archives/edgar/data/0001592386/000110465926123022/tm2629046d1_ex99-1.htm"
+  },
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "No company guidance (Virtu gives none). Net income: Q3 282.5 vs 149.1 million dollars; nine months 914.1 vs 631.7 million. Secondary source (finviz.com/news/417187, summary of the call) says adjusted EPS fell each quarter in 2026: 2.24, 1.82, 1.77, with daily adjusted net trading income 12.9, 11.6, 11.0 million dollars; management restated a 'through-the-cycle' aim of 10 million a day, i.e. below the current level. Same source: media speculation about a sale of Virtu Execution Services, which management called strategic. RFQ-hub was sold in 2025; its earnings contribution is not disclosed in what I read."
+ },
+ "XP": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Ocak-Haziran 2026 (iki çeyreğin toplamı)",
+   "en": "January-June 2026 (sum of two quarters)",
+   "pct": 8.6,
+   "cur_val": "5.16",
+   "prev_val": "4.75",
+   "unit": "Brezilya reali / Brazilian reais",
+   "date": "2026-08-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001787425/000095010326012481/dp251884_6k-ex9901.htm",
+   "primary": true
+  },
+  "quarter": {
+   "tr": "Nisan-Haziran 2026 çeyreği",
+   "en": "April-June 2026 quarter",
+   "pct": 8.5,
+   "cur_val": "2.67",
+   "prev_val": "2.46",
+   "unit": "Brezilya reali / Brazilian reais",
+   "date": "2026-08-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001787425/000095010326012481/dp251884_6k-ex9901.htm",
+   "primary": true
+  },
+  "guidance": null,
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "3Q26 results are due 16 Nov 2026 (marketscreener calendar); not out. The releases give no half-year figures: ytd is my sum of Q1 (2.49 vs 2.29 reais, release of 18 May 2026, https://www.businesswire.com/news/home/20260518553415/en/xp-inc.-reports-first-quarter-2026-results/) and Q2 (2.67 vs 2.46) diluted EPS; sums of quarterly EPS are approximate. Net income: Q1 1,318 vs 1,236 million reais (+7%), Q2 1,384 vs 1,321 (+5%), first half 2,702 vs 2,557 (+5.7%, my sum). Reported and adjusted net income are identical. No numeric guidance; management targets a BIS ratio of 16-19% by year-end via distributions (20.3% in Q2). Q2: fixed-income revenue fell 16%, corporate revenue rose 117% (existing report). No tax or regulatory change mentioned in either release."
+ },
+ "LLY": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": 50.51,
+   "cur_val": "23.42",
+   "prev_val": "15.56",
+   "unit": "dolar / dollars",
+   "date": "2026-10-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000059478/000005947826000104/q326lillysalesandearningsp.htm",
+   "primary": true
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 16.26,
+   "cur_val": "7.22",
+   "prev_val": "6.21",
+   "unit": "dolar / dollars",
+   "date": "2026-10-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000059478/000005947826000104/q326lillysalesandearningsp.htm",
+   "primary": true
+  },
+  "guidance": {
+   "tr": "2026 yılı için şirket beklentisi (düzeltilmiş hisse başına kâr)",
+   "en": "company guidance for 2026 (non-GAAP EPS)",
+   "pct": 46.63,
+   "detail_tr": "düzeltilmiş hisse başına kâr 35,00-36,00 dolar (önceki beklenti 35,50-36,50); 2025'te 24,21. Yüzde, aralığın ortasına göredir.",
+   "detail_en": "non-GAAP EPS of 35.00-36.00 dollars (previously 35.50-36.50); 24.21 in 2025. The percent uses the midpoint.",
+   "date": "2026-10-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000059478/000005947826000104/q326lillysalesandearningsp.htm",
+   "primary": true
+  },
+  "adjusted": {
+   "what_tr": "Şirketin düzeltilmiş (non-GAAP) hisse başına kârı: satın alınan maddi olmayan varlıkların itfası, değer düşüklüğü ve yeniden yapılanma giderleri ile 2025'teki ABD vergi yasası etkisi (hisse başına 0,39 dolar) hariç. Satın alınan Ar-Ge giderleri (3. çeyrekte hisse başına 4,57 dolar; geçen yıl 0,71) düzeltilmiş kârın içinde kalır.",
+   "what_en": "The company's non-GAAP EPS: excludes amortisation of acquired intangibles, impairment and restructuring charges and the 2025 US tax-law item (0.39 dollars a share). Acquired R&D charges (4.57 dollars a share in Q3; 0.71 a year earlier) stay inside non-GAAP earnings.",
+   "ytd_pct": 46.43,
+   "quarter_pct": 6.55,
+   "url": "https://www.sec.gov/Archives/edgar/data/0000059478/000005947826000104/q326lillysalesandearningsp.htm"
+  },
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Primary: SEC 8-K exhibit; 2025 non-GAAP EPS 24.21 (reported 22.95) from Lilly's own Q4 2025 release of 4 Feb 2026 (https://investor.lilly.com/news-releases/news-release-details/lilly-reports-fourth-quarter-2025-financial-results-and-provides). Non-GAAP values: Q3 7.48 vs 7.02; 9M 24.41 vs 16.67 (percents computed; the release states 16% for reported Q3 and 7% for non-GAAP Q3). Q3 growth is low mainly because acquired IPR&D was 4,181M (AtaiBeckley, Curevo) vs 656M a year earlier; 9M acquired IPR&D 7,541M vs 2,381M. The EPS guidance was CUT by 0.50 at both ends in October (because of those IPR&D charges) while revenue guidance was raised to 91-92bn. Implied Q4 non-GAAP EPS from guidance: 10.59-11.59 (my arithmetic). Minor: Q3 revenue included 410M of Jardiance milestones with none remaining. No GAAP EPS guidance is given.",
+  "exclude": {
+   "quarter": {
+    "tr": "Son çeyrek kullanılmadı: satın alınan araştırma projelerinin gideri hisse başına 4,57 dolar tuttu (bir yıl önce 0,71); bu gider satın almaya bağlıdır ve çeyrekten çeyreğe çok oynar. Düzeltilmiş hisse başına kâr o çeyrekte %6,6 arttı.",
+    "en": "The latest quarter was not used: acquired research charges came to 4.57 dollars per share (0.71 a year earlier); this cost depends on acquisitions and swings widely from quarter to quarter. Adjusted earnings per share rose 6.6% in that quarter."
+   }
+  }
+ },
+ "AAPL": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Eylül 2026'da biten mali yıl",
+   "en": "fiscal year ended September 2026",
+   "pct": 20.4,
+   "cur_val": "8.98",
+   "prev_val": "7.46",
+   "unit": "dolar / dollars",
+   "date": "2026-11-02",
+   "url": "https://last10k.com/sec-filings/aapl/0000320193-26-000024.htm",
+   "primary": true
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 13.5,
+   "cur_val": "2.10",
+   "prev_val": "1.85",
+   "unit": "dolar / dollars",
+   "date": "2026-11-02",
+   "url": "https://last10k.com/sec-filings/aapl/0000320193-26-000024.htm",
+   "primary": true
+  },
+  "guidance": null,
+  "adjusted": {
+   "what_tr": "Gümrük vergisi iadeleri çeyrekte hisse başına kâra 0,05 dolar ekledi (şirketin açıklaması). İade hariç çeyrek kârı 2,05 dolar eder; büyüme hesabı benim.",
+   "what_en": "Tariff refunds added 0.05 dollars to diluted EPS in the quarter (company statement). Excluding them quarterly EPS is 2.05 dollars; the growth figure is my arithmetic.",
+   "ytd_pct": null,
+   "quarter_pct": 10.8,
+   "url": "https://apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results"
+  },
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Primary: Apple's press release (apple.com newsroom) and its 8-K Exhibit 99.1 as reproduced by Last10K (accession 0000320193-26-000024). Net income: quarter 30,711 vs 27,466 mn dollars; year 132,175 vs 112,010 mn dollars (+18.0%). The release says quarterly EPS 'up 14%' (2.10/1.85 is 13.5%). No guidance in the release; I did not read the call. Tariff refunds also added about 1 point to the 47.9% gross margin; the release does not give a full-year refund amount, so ytd adjusted is null and the quarter figure (2.05/1.85) is derived, not company-stated. Dividend 0.27 dollars a quarter."
+ },
+ "V": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Ekim 2025-Eylül 2026 mali yılı",
+   "en": "fiscal year October 2025-September 2026",
+   "pct": 20.78,
+   "cur_val": "12.32",
+   "prev_val": "10.20",
+   "unit": "dolar / dollars",
+   "date": "2026-10-27",
+   "url": "https://last10k.com/sec-filings/v/0001403161-26-000126.htm",
+   "primary": true
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 21.76,
+   "cur_val": "3.19",
+   "prev_val": "2.62",
+   "unit": "dolar / dollars",
+   "date": "2026-10-27",
+   "url": "https://last10k.com/sec-filings/v/0001403161-26-000126.htm",
+   "primary": true
+  },
+  "guidance": {
+   "tr": "2027 mali yılı için şirket beklentisi (düzeltilmiş hisse başına kâr)",
+   "en": "company outlook for fiscal 2027 (adjusted EPS)",
+   "pct": null,
+   "detail_tr": "düzeltilmiş hisse başına kâr büyümesi \"düşük çift haneli ile onlu yaşların başı\" arasında (sayı verilmedi); 2026 mali yılında 13,27 dolar. İlk çeyrek için \"onlu yaşların ortasının alt ucu\".",
+   "detail_en": "adjusted EPS growth \"in the low double digits to low teens\" (no number given); 13.27 dollars in fiscal 2026. First quarter: \"at the low end of mid-teens\".",
+   "date": "2026-10-27",
+   "url": "https://www.zacks.com/stock/news/3017664/visa-q4-earnings-call-highlights-fy27-outlook-and-growth-priorities",
+   "primary": false
+  },
+  "adjusted": {
+   "what_tr": "Şirketin düzeltilmiş (non-GAAP) hisse başına kârı: dava karşılıkları (çeyrekte 469 milyon, yılda 1,7 milyar dolar), kıdem giderleri (563 milyon), Visa Vakfı'na bağış (282 milyon) ve vergi kalemleri hariç.",
+   "what_en": "The company's non-GAAP EPS: excludes litigation provisions (469 million in the quarter, 1.7 billion dollars in the year), severance costs (563 million), the donation to the Visa Foundation (282 million) and tax items.",
+   "ytd_pct": 15.69,
+   "quarter_pct": 16.78,
+   "url": "https://last10k.com/sec-filings/v/0001403161-26-000126.htm"
+  },
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Results are from the SEC 8-K as mirrored by last10k.com (the 8-K itself; treated as primary). The investor.visa.com URL in the site report is only the announcement of the release date, not the results. Company-stated changes: GAAP EPS +22% quarter, +21% year; non-GAAP EPS 3.48 vs 2.98 (+17%) quarter, 13.27 vs 11.47 (+16%) year; GAAP net income 6.0bn (+18%) quarter, 23.5bn (+17%) year. My pct values are computed from the EPS values. The fiscal 2027 outlook is NOT in the release; it comes from the earnings call as summarised by Zacks (primary: false): net revenue growth low double digits, adjusted operating expenses low double digits, adjusted EPS low double digits to low teens. No number given, so pct is null (roughly 10-13%, my reading). Headwinds named on the call per Zacks: currency volatility, Middle East travel."
+ },
+ "SLM": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026 (ana ortaklık net kârı)",
+   "en": "January-September 2026 (net income to common)",
+   "pct": -35.3,
+   "url": "https://www.sec.gov/Archives/edgar/data/0001032033/000103203326000051/slm102226ex991.htm"
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği (zarar)",
+   "en": "July-September 2026 quarter (a loss)",
+   "pct": -100.0,
+   "url": "https://www.sec.gov/Archives/edgar/data/0001032033/000103203326000051/slm102226ex991.htm"
+  },
+  "guidance": null,
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": null
+ },
+ "BBW": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "2026 mali yılının ilk yarısı (Şubat-Temmuz 2026)",
+   "en": "first half of fiscal 2026 (February-July 2026)",
+   "pct": 2.4,
+   "cur_val": "2.16",
+   "prev_val": "2.11",
+   "unit": "dolar / dollars",
+   "date": "2026-08-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001113809/000143774926029054/ex_1009466.htm",
+   "primary": true
+  },
+  "quarter": {
+   "tr": "Mayıs-Temmuz 2026 çeyreği (mali 2. çeyrek)",
+   "en": "May-July 2026 quarter (fiscal Q2)",
+   "pct": -25.5,
+   "cur_val": "0.70",
+   "prev_val": "0.94",
+   "unit": "dolar / dollars",
+   "date": "2026-08-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001113809/000143774926029054/ex_1009466.htm",
+   "primary": true
+  },
+  "guidance": {
+   "tr": "2026 mali yılı için şirket beklentisi (vergi öncesi kâr; hisse başına kâr beklentisi yok)",
+   "en": "company guidance for fiscal 2026 (pre-tax income; no EPS guidance)",
+   "pct": -4.8,
+   "detail_tr": "vergi öncesi kâr 60-68 milyon dolar (orta nokta 64); 2025 mali yılında 67,2 milyon. Yaklaşık 13 milyon dolarlık gümrük vergisi iadesi hariç 53-61 milyon (orta nokta −%15,2). Gelir 500-525 milyon dolar; 2025'te 529,8 milyon",
+   "detail_en": "pre-tax income of 60-68 million dollars (midpoint 64); 67.2 million in fiscal 2025. Excluding a tariff refund of about 13 million dollars: 53-61 million (midpoint −15.2%). Revenue of 500-525 million dollars; 529.8 million in fiscal 2025",
+   "date": "2026-08-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001113809/000143774926029054/ex_1009466.htm",
+   "primary": true
+  },
+  "adjusted": {
+   "what_tr": "Önceki yılın maliyetlerine ait 7 milyon dolarlık gümrük vergisi (IEEPA) iadesi hariç: ilk yarıda hisse başına kâr 1,73 dolar (önceki yıl 2,11), vergi öncesi kâr 28,5 milyon dolar (34,9 milyon)",
+   "what_en": "Excluding a 7 million dollar tariff (IEEPA) refund relating to prior-year costs: first-half EPS of 1.73 dollars (2.11 a year earlier), pre-tax income of 28.5 million dollars (34.9 million)",
+   "ytd_pct": -18.0,
+   "quarter_pct": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/0001113809/000143774926029054/ex_1009466.htm"
+  },
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Q3 fiscal 2026 results not yet out (the company usually reports in early December). Guidance is in pre-tax income, lowered on 27 Aug 2026; pct is midpoint vs fiscal 2025 actual 67.2 million dollars (fiscal 2025 release of 12 Mar 2026, https://ir.buildabear.com/news-releases/news-release-details/build-bear-workshop-reports-fourth-and-record-fiscal-2025; fiscal 2025 diluted EPS 3.99, up from 3.80). The original March guidance was pre-tax income from a mid-single-digit decline to low-single-digit growth, with revenue up mid-single digits; revenue is now guided DOWN (500-525 vs 529.8). The release does not say in which quarter the 7 million refund was booked, so no adjusted Q2 figure; the remaining ~6 million of the ~13 million full-year refund is expected in the second half. Ongoing tariff cost guided at 10-11 million dollars for fiscal 2026 (about 11 million in fiscal 2025). Q2: revenue -7.2%, e-commerce demand -15.6%, commercial and franchise revenue -9.0%; CEO: results 'fell short of our expectations', wholesale opportunities 'may take longer to realize'. No source names a lasting cause, so 'permanent' is null."
+ },
+ "CSCO": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "2026 mali yılı (Temmuz 2026'da biten yıl)",
+   "en": "fiscal year 2026 (year ended July 2026)",
+   "pct": 30.6,
+   "cur_val": "3.33",
+   "prev_val": "2.55",
+   "unit": "dolar / dollars",
+   "date": "2026-08-12",
+   "url": "https://investor.cisco.com/news/news-details/2026/CISCO-REPORTS-FOURTH-QUARTER-AND-FISCAL-YEAR-2026-EARNINGS/default.aspx",
+   "primary": true
+  },
+  "quarter": {
+   "tr": "Mayıs-Temmuz 2026 çeyreği (mali 4. çeyrek)",
+   "en": "May-July 2026 quarter (fiscal Q4)",
+   "pct": 51.6,
+   "cur_val": "0.97",
+   "prev_val": "0.64",
+   "unit": "dolar / dollars",
+   "date": "2026-08-12",
+   "url": "https://investor.cisco.com/news/news-details/2026/CISCO-REPORTS-FOURTH-QUARTER-AND-FISCAL-YEAR-2026-EARNINGS/default.aspx",
+   "primary": true
+  },
+  "guidance": {
+   "tr": "2027 mali yılı için şirket beklentisi",
+   "en": "company guidance for fiscal 2027",
+   "pct": 21.0,
+   "detail_tr": "hisse başına kâr 4,00-4,06 dolar (orta nokta 4,03); 2026 mali yılında 3,33. Düzeltilmiş hisse başına kâr 5,05-5,11 dolar; 2026'da 4,33 (orta nokta +%17,3). 1. çeyrek: 1,08-1,10 dolar",
+   "detail_en": "GAAP EPS of 4.00-4.06 dollars (midpoint 4.03); 3.33 in fiscal 2026. Non-GAAP EPS of 5.05-5.11 dollars; 4.33 in fiscal 2026 (midpoint +17.3%). Q1: 1.08-1.10 dollars",
+   "date": "2026-08-12",
+   "url": "https://investor.cisco.com/news/news-details/2026/CISCO-REPORTS-FOURTH-QUARTER-AND-FISCAL-YEAR-2026-EARNINGS/default.aspx",
+   "primary": true
+  },
+  "adjusted": {
+   "what_tr": "Yatırım kazançları (4. çeyrekte 869 milyon, yılda 1.398 milyon dolar; vergi öncesi), vergi kalemleri ve yeniden yapılanma gideri (yılda 693 milyon dolar) hariç şirketin düzeltilmiş hisse başına kârı: yılda 4,33 (önceki yıl 3,81), çeyrekte 1,22 (0,99)",
+   "what_en": "Company non-GAAP EPS excluding investment gains (869 million dollars in Q4, 1,398 million in the year, pre-tax), tax matters and restructuring charges (693 million in the year): 4.33 for the year (3.81 a year earlier), 1.22 for the quarter (0.99)",
+   "ytd_pct": 13.6,
+   "quarter_pct": 23.2,
+   "url": "https://investor.cisco.com/news/news-details/2026/CISCO-REPORTS-FOURTH-QUARTER-AND-FISCAL-YEAR-2026-EARNINGS/default.aspx"
+  },
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Q1 fiscal 2027 results were NOT yet out when checked (12 Nov 2026, 18:30-19:00 UTC; release is due after the US close, about 21:05 UTC). Searches returned only previews. All figures are from the 12 Aug 2026 Q4/FY2026 release. Percentages computed from the EPS figures (release states +31% FY, +52% Q4 GAAP; +14% and +23% non-GAAP). Guidance pct is the midpoint of the GAAP range vs FY2026 GAAP EPS; note the FY2026 GAAP base includes about 0.22 dollars per share of Q4 investment gains. A restructuring plan was announced 13 May 2026. No divestiture named."
+ },
+ "AVGO": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Kasım 2025-Ağustos 2026 (mali yılın ilk dokuz ayı)",
+   "en": "November 2025-August 2026 (first nine months of the fiscal year)",
+   "pct": 101.66,
+   "cur_val": "6.09",
+   "prev_val": "3.02",
+   "unit": "dolar / dollars",
+   "date": "2026-09-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001730168/000173016826000076/avgo-08022026x8kxex99.htm",
+   "primary": true
+  },
+  "quarter": {
+   "tr": "Mayıs-Ağustos 2026 çeyreği (2 Ağustos'ta bitti)",
+   "en": "May-August 2026 quarter (ended 2 August)",
+   "pct": 215.29,
+   "cur_val": "2.68",
+   "prev_val": "0.85",
+   "unit": "dolar / dollars",
+   "date": "2026-09-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001730168/000173016826000076/avgo-08022026x8kxex99.htm",
+   "primary": true
+  },
+  "guidance": null,
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Primary: SEC 8-K exhibit. GAAP diluted EPS; percents computed from reported values. Non-GAAP (excludes amortisation of acquired intangibles, stock compensation, restructuring; these are recurring, so not put under 'adjusted'): Q3 non-GAAP EPS 3.32 vs 1.69 (+96%); nine-month non-GAAP net income 38,631M vs 24,014M (+61%), nine-month non-GAAP EPS not reported. GAAP tax rate about 14% in Q3 FY26 vs about 22% in Q3 FY25; a 315M excise tax benefit in 9M FY26. Company guidance covers only next-quarter revenue (about 34.8bn dollars, +93%) and non-GAAP operating margin about 66%; no EPS guidance for the year. News only (The Star/Bloomberg, 4 Sep 2026, https://www.thestar.com.my/business/business-news/2026/09/04/broadcom-forecasts-explosive-ai-chip-growth): CEO said AI chip revenue should about double to about 115bn dollars in fiscal 2027 and that the company is on track for more than 30 dollars EPS in fiscal 2028; same article notes Marvell won a custom-chip deal with Google (competition, not a loss). Release date: the SEC exhibit reads 2 Sep 2026 per the fetch tool; the site report says 9 September (that is the StorageNewsletter publication date) - please check. StorageNewsletter URL was blocked (permission prompt timed out). Next results (fiscal Q4) expected in December."
+ },
+ "NVDA": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Şubat-Temmuz 2026 (2027 mali yılının ilk yarısı)",
+   "en": "February-July 2026 (first half of fiscal 2027)",
+   "pct": 163.6,
+   "cur_val": "4.85",
+   "prev_val": "1.84",
+   "unit": "dolar / dollars",
+   "date": "2026-08-26",
+   "url": "https://nvidianews.nvidia.com/_gallery/download_pdf/6a8f4ad73d6332b41f76ab70",
+   "primary": true
+  },
+  "quarter": {
+   "tr": "Mayıs-Temmuz 2026 çeyreği",
+   "en": "May-July 2026 quarter",
+   "pct": 127.8,
+   "cur_val": "2.46",
+   "prev_val": "1.08",
+   "unit": "dolar / dollars",
+   "date": "2026-08-26",
+   "url": "https://nvidianews.nvidia.com/_gallery/download_pdf/6a8f4ad73d6332b41f76ab70",
+   "primary": true
+  },
+  "guidance": null,
+  "adjusted": {
+   "what_tr": "Şirketin düzeltilmiş (non-GAAP) kârı hisse senedi yatırımlarından gelen kazancı (çeyrekte vergi öncesi 7,77 milyar dolar; geçen yıl 2,25 milyar) ve satın alma giderlerini dışarıda bırakır: çeyrekte 2,22 dolar (geçen yıl 1,01), altı ayda 4,09 dolar (geçen yıl 1,78).",
+   "what_en": "The company's non-GAAP EPS excludes gains on equity securities (7.77 billion dollars pre-tax in the quarter; 2.25 billion a year ago) and acquisition-related costs: 2.22 dollars in the quarter (1.01 a year ago), 4.09 dollars in six months (1.78 a year ago).",
+   "ytd_pct": 129.8,
+   "quarter_pct": 119.8,
+   "url": "https://nvidianews.nvidia.com/_gallery/download_pdf/6a8f4ad73d6332b41f76ab70"
+  },
+  "departed": {
+   "tr": "Çin'e veri merkezi çipi satışı: şirketin gelecek çeyrek beklentisi (108,0 milyar dolar hasılat, ±%2) Çin'den veri merkezi geliri içermiyor.",
+   "en": "Data center chip sales to China: the company's outlook for the next quarter (revenue of 108.0 billion dollars, plus or minus 2%) assumes no data center compute revenue from China.",
+   "remaining_pct": null,
+   "basis_tr": "Şirket Çin hariç büyümeyi ayrı açıklamıyor; beklenti bu kaybı içeriyor ve bir önceki çeyreğin 96,2 milyar dolarlık hasılatının %12 üstünde.",
+   "basis_en": "The company does not disclose growth excluding China; the outlook already includes the loss and is 12% above the previous quarter's revenue of 96.2 billion dollars.",
+   "url": "https://nvidianews.nvidia.com/_gallery/download_pdf/6a8f4ad73d6332b41f76ab70"
+  },
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Primary: NVIDIA's press release PDF for the quarter ended 26 July 2026 (the PDF shows no issue date; 26 Aug 2026 is from the existing report). Third-quarter results are due 17 November 2026, so this is still the latest. Company states GAAP EPS +128% and non-GAAP +120% for the quarter; six-month percents are my arithmetic from reported values. GAAP net income: quarter 59,688 vs 26,422 mn dollars (+126%); six months 118,010 vs 45,197. No EPS guidance: outlook covers revenue (108.0 bn, +/-2%), gross margin 74.0% and operating expenses for the next quarter only. The revenue jump from 96.2 to 108.0 bn is +12.3% quarter on quarter. The China item is listed under departed because the company itself excludes it; how much China contributed historically was not in the release."
+ },
+ "META": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": 39.81,
+   "cur_val": "20.44",
+   "prev_val": "14.62",
+   "unit": "dolar / dollars",
+   "date": "2026-10-21",
+   "url": "https://finviz.com/news/405782/meta-reports-third-quarter-2026-results",
+   "primary": false
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 264.76,
+   "cur_val": "3.83",
+   "prev_val": "1.05",
+   "unit": "dolar / dollars",
+   "date": "2026-10-21",
+   "url": "https://finviz.com/news/405782/meta-reports-third-quarter-2026-results",
+   "primary": false
+  },
+  "guidance": null,
+  "adjusted": {
+   "what_tr": "2026'nın 3. çeyreğinde 52 eyalet başsavcısıyla varılan anlaşma için 9,89 milyar dolarlık hukuk gideri; şirkete göre bu gider olmasa hisse başına kâr 7,40 dolar olurdu. Geçen yılın aynı çeyreğinde vergi oranı %87 idi (vergi karşılığı 18,95 milyar dolar); okunan bültende 2025 için düzeltilmiş rakam yok.",
+   "what_en": "A 9.89 billion dollar legal charge in Q3 2026 for the agreement with 52 state attorneys general; the company says EPS would have been 7.40 dollars without it. In the same quarter last year the tax rate was 87% (tax provision 18.95 billion dollars); the release read gives no adjusted 2025 figure.",
+   "ytd_pct": null,
+   "quarter_pct": null,
+   "url": "https://finviz.com/news/405782/meta-reports-third-quarter-2026-results"
+  },
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "NOT primary in the strict sense: Meta's own IR page (investor.atmeta.com/.../Meta-Reports-Third-Quarter-2026-Results) was BLOCKED (permission prompt timed out); figures are from the full press release as reproduced by Finviz/PR Newswire. Percents computed from reported EPS. Both comparisons are distorted in BOTH years: Q3 2026 by the legal charge, Q3 2025 by a very large tax provision (87% rate), and 9M 2026 by an unusually low tax provision (1,028M on the nine months vs 22,888M in 9M 2025, i.e. a large tax benefit earlier in 2026 that I did not trace). The cleanest read is operating profit: Q3 income from operations 12,988M vs 20,535M (-37%), or 22.88bn excluding the charge (+11%); 9M income from operations 54,635M vs 58,531M (-7%) including the charge (about +10% excluding it, my arithmetic) while revenue rose 29%. No EPS guidance. Company guidance: 2026 total expenses 175-179bn dollars; 2026 operating income excluding the charge expected above 2025; capex 135-145bn; Q4 revenue 73-76bn; Q4 tax rate 15-17%; Reality Labs losses 18-19bn in 2026, about 15bn in 2027."
+ }
+}

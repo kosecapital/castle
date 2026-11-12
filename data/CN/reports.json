@@ -52,6 +52,16 @@
     "t": "10jqka: Zhuhai Mingjun'un pay satış planı (25 Şubat 2026)",
     "te": "10jqka: Zhuhai Mingjun's plan to sell shares (25 February 2026)",
     "u": "https://stock.10jqka.com.cn/20260225/c674916203.shtml"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: Ocak-Eylül 2026",
+    "te": "Source for the growth judgment: January-September 2026",
+    "u": "https://tech.ifeng.com/c/8xXqDo2fwdb"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: şirket belgesi",
+    "te": "Source for the growth judgment: company document",
+    "u": "https://m.gelonghui.com/news/5336770"
    }
   ],
   "en": {
@@ -73,6 +83,14 @@
     "Operating cash flow",
     "Zhuhai Mingjun's share sales and pledge ratio"
    ]
+  },
+  "growth": {
+   "g": 2.3,
+   "basis": {
+    "tr": "Formül yılda %4,6 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %−20,3 (şirketin düzeltilmiş rakamı; açıklanan %−19,5); Temmuz-Eylül 2026 çeyreği %−44,3 (şirketin düzeltilmiş rakamı; açıklanan %−43,3). Düzeltme: Tek seferlik kalemler hariç net kâr: dokuz ayda 16,403 milyar yuan, üçüncü çeyrekte 3,696 milyar yuan; düşüş raporlananla aynı, tek seferlik kalem etkisi yok. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %2,3.",
+    "en": "The formula gave growth of 4.6% a year. Latest figures (net profit, year on year): January-September 2026 −20.3% (the company's adjusted figure; reported −19.5%); July-September 2026 quarter −44.3% (the company's adjusted figure; reported −43.3%). Adjustment: Net profit excluding non-recurring items: 16.403 billion yuan in nine months, 3.696 billion in the third quarter; the fall matches the reported one, no one-off effect. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 2.3%."
+   },
+   "per": "2026-Q3"
   }
  },
  "000807": {
@@ -241,6 +259,11 @@
     "t": "GF Securities: TCL Smart Home 2026 ilk çeyrek değerlendirmesi (22 Nisan 2026)",
     "te": "GF Securities: TCL Smart Home 2026 first-quarter review (22 April 2026)",
     "u": "https://pdf.dfcfw.com/pdf/H3_AP202604231821480075_1.pdf"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: Ocak-Eylül 2026",
+    "te": "Source for the growth judgment: January-September 2026",
+    "u": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=002668&id=12657160"
    }
   ],
   "en": {
@@ -266,8 +289,8 @@
   "growth": {
    "g": 8.1,
    "basis": {
-    "tr": "Formül yılda %16,1 veriyordu. 2026'nın ilk dokuz ayında ana ortaklık net kârı %20,67 geriledi. Şirkete göre neden kur zararı (yaklaşık 284 milyon yuan); kur farkı hariç kâr %0,70 arttı. Kur zararını kalıcı saymadık, ama ana işin kârı da bu yıl büyümedi. Bu yüzden formülün hızı ile bu yılın sıfır büyümesinin ortası alındı: %8,1. Düşüş kalıcı bir nedene dayanırsa şirket 3. surda yeniden değerlendirilir.",
-    "en": "The formula gave 16.1% a year. In the first nine months of 2026 net profit attributable to the parent fell 20.67%. The company puts this down to currency losses (about 284 million yuan); excluding exchange differences profit rose 0.70%. We did not treat the currency loss as permanent, but core profit did not grow this year either. So the midpoint between the formula's rate and this year's zero growth was used: 8.1%. If the decline turns out to have a lasting cause, the company will be reassessed at Wall 3."
+    "tr": "Formül yılda %16,1 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %0,7 (şirketin düzeltilmiş rakamı; açıklanan %−20,7); Temmuz-Eylül 2026 çeyreği %−22,1. Düzeltme: şirketin açıkladığı kur farkı hariç kâr (dokuz ay); kur zararı yaklaşık 284 milyon yuan. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %8,1.",
+    "en": "The formula gave growth of 16.1% a year. Latest figures (net profit, year on year): January-September 2026 0.7% (the company's adjusted figure; reported −20.7%); July-September 2026 quarter −22.1%. Adjustment: profit excluding exchange differences as stated by the company (nine months); the currency loss was about 284 million yuan. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 8.1%."
    },
    "per": "2026-Q3"
   }
@@ -364,6 +387,11 @@
     "t": "10jqka: Bank of Chengdu 2026 ilk üç çeyrek sonuçları, sermaye oranları ve ortaklar (29 Ekim 2026)",
     "te": "10jqka: Bank of Chengdu first three quarters of 2026, capital ratios and shareholders (29 October 2026)",
     "u": "https://news.10jqka.com.cn/20261029/c681251005.shtml"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: Ocak-Eylül 2026",
+    "te": "Source for the growth judgment: January-September 2026",
+    "u": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=601838&id=12671870"
    }
   ],
   "en": {
@@ -385,6 +413,14 @@
     "Core tier 1 ratio (8.85%)",
     "Gap between loan growth and deposit growth"
    ]
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %6,6 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %4,1 (şirketin düzeltilmiş rakamı; açıklanan %4,5); Temmuz-Eylül 2026 çeyreği %4,7 (şirketin düzeltilmiş rakamı; açıklanan %4,8). Düzeltme: olağan dışı kalemler hariç net kâr. En düşüğü, enflasyondan arındırılınca, %3,4. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 6.6% a year. Latest figures (net profit, year on year): January-September 2026 4.1% (the company's adjusted figure; reported 4.5%); July-September 2026 quarter 4.7% (the company's adjusted figure; reported 4.8%). Adjustment: net profit excluding non-recurring items. The lowest, after inflation, is 3.4%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q3"
   }
  },
  "000333": {
@@ -476,6 +512,14 @@
     "Home appliance sales in China",
     "Growth in overseas sales under its own brands"
    ]
+  },
+  "growth": {
+   "g": 2.7,
+   "basis": {
+    "tr": "Formül yılda %5,4 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %−22,5 (şirketin düzeltilmiş rakamı; açıklanan %9,3); Temmuz-Eylül 2026 çeyreği %−15,7 (şirketin düzeltilmiş rakamı; açıklanan %25,9). Düzeltme: Tek seferlik kalemler hariç net kâr (şirketin kendi 'koufei' rakamı): dokuz ayda 28,788 milyar yuan, üçüncü çeyrekte 9,193 milyar yuan. Fark, borsaya açılan ChangXin (CXMT) yatırımının değer artışından ve kur korumasından gelen kazançlardan doğuyor; dokuz ayda tek seferlik kalemler net 12,605 milyar yuan. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %2,7.",
+    "en": "The formula gave growth of 5.4% a year. Latest figures (net profit, year on year): January-September 2026 −22.5% (the company's adjusted figure; reported 9.3%); July-September 2026 quarter −15.7% (the company's adjusted figure; reported 25.9%). Adjustment: Net profit excluding non-recurring items (the company's own figure): 28.788 billion yuan in nine months, 9.193 billion in the third quarter. The gap comes from fair-value gains on the investment in ChangXin (CXMT), which listed in the period, and from currency-hedging gains; non-recurring items were a net 12.605 billion yuan in nine months. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 2.7%."
+   },
+   "per": "2026-Q3"
   }
  },
  "002415": {
@@ -562,6 +606,14 @@
     "Overseas revenue growth and new sanction decisions",
     "Receivables and operating cash flow"
    ]
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %0,0 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %41,5 (şirketin düzeltilmiş rakamı; açıklanan %38,5); Temmuz-Eylül 2026 çeyreği %43,1 (şirketin düzeltilmiş rakamı; açıklanan %37,0). Düzeltme: Tek seferlik kalemler hariç net kâr: dokuz ayda 12,696 milyar yuan, üçüncü çeyrekte 4,984 milyar yuan; büyüme raporlanandan da yüksek, kârı şişiren tek seferlik kalem yok. Formül zaten sıfır büyüme varsayıyor; indirilecek bir şey yok.",
+    "en": "The formula gave growth of 0.0% a year. Latest figures (net profit, year on year): January-September 2026 41.5% (the company's adjusted figure; reported 38.5%); July-September 2026 quarter 43.1% (the company's adjusted figure; reported 37.0%). Adjustment: Net profit excluding non-recurring items: 12.696 billion yuan in nine months, 4.984 billion in the third quarter; growth is even higher than reported, no one-off inflates profit. The formula already assumes zero growth; there is nothing to lower."
+   },
+   "per": "2026-Q3"
   }
  },
  "002475": {
@@ -724,6 +776,14 @@
     "World market share (39.4% in the first eight months)",
     "Operating cash flow and inventories"
    ]
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %11,7 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %32,7 (şirketin düzeltilmiş rakamı; açıklanan %31,6); Temmuz-Eylül 2026 çeyreği %14,9 (şirketin düzeltilmiş rakamı; açıklanan %14,5). Düzeltme: olağan dışı kalemler hariç net kâr. En düşüğü, enflasyondan arındırılınca, %14,1. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 11.7% a year. Latest figures (net profit, year on year): January-September 2026 32.7% (the company's adjusted figure; reported 31.6%); July-September 2026 quarter 14.9% (the company's adjusted figure; reported 14.5%). Adjustment: net profit excluding non-recurring items. The lowest, after inflation, is 14.1%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q3"
   }
  },
  "600519": {
@@ -805,6 +865,14 @@
     "Contract liabilities (advance payments from distributors)",
     "Price: the margin-of-safety threshold"
    ]
+  },
+  "growth": {
+   "g": 3.1,
+   "basis": {
+    "tr": "Formül yılda %6,1 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %−0,6 (şirketin düzeltilmiş rakamı; açıklanan %−0,2); Temmuz-Eylül 2026 çeyreği %3,8. Düzeltme: Tek seferlik kalemler hariç net kâr (koufei): dokuz ayda 64,325 milyar yuan; fark çok küçük, kârı bozan tek seferlik kalem yok. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %3,1.",
+    "en": "The formula gave growth of 6.1% a year. Latest figures (net profit, year on year): January-September 2026 −0.6% (the company's adjusted figure; reported −0.2%); July-September 2026 quarter 3.8%. Adjustment: Net profit excluding non-recurring items: 64.325 billion yuan in nine months; the gap is tiny, no one-off distorts profit. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 3.1%."
+   },
+   "per": "2026-Q3"
   }
  },
  "601138": {

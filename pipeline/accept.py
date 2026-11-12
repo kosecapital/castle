@@ -226,6 +226,12 @@ def accept(cc, dry=False):
     gone = sorted(new_core.get("RX", {}))
     if gone:
         print("raporu saklanan, şimdi 1. ya da 2. surda elenenler (sayfada uyarıyla görünür; `one` cümlesi yeni duruma uymalı):", ", ".join(gone))
+    nog = [u["c"] for u in new_core["U"] if u["e"] == 4 and not (reports.get(u["c"]) or {}).get("growth")]
+    oldg = [u["c"] for u in new_core["U"] if u["e"] == 4 and (reports.get(u["c"]) or {}).get("growth") and reports[u["c"]]["growth"].get("per") != u.get("per")]
+    if nog:
+        print("BÜYÜME YARGISI EKSİK (4. surdaki her şirkette zorunlu; CLAUDE.md, \"Büyüme yargısı\"):", ", ".join(nog))
+    if oldg:
+        print("büyüme yargısı eski bilanço dönemine ait, güncel gerçeklerle yeniden yazılacaklar:", ", ".join(oldg))
     if pend:
         queue(cc, new_core, 30)
     else:

@@ -496,7 +496,7 @@
   "mgmt": "Hâkim ortak yok. 31 Mayıs 2026'da en büyük ortak %8,22 ile çalışanların hisse birliği. Hikari Tsushin'e bağlı fonlar (UH Partners 2 ve 3, Hikari Tsushin KK) toplam yaklaşık %22 tutuyor. Misawa Homes, Daiwa House, Mitsui Home ve Sekisui Chemical %4,69'ar paya sahip; bunlar aynı zamanda sektörün müşterileri. Şirket 2026 mali yılında bölünme sonrası hisse başına 42 yen temettü ödedi (şirketin açıkladığı dağıtım oranı %30,1) ve 354 milyon yenlik geri alım yaptı. 2027 için 44 yen öngörüyor. Yıl içinde üç küçük şirket aldı; faizli borç 2,4 milyar yen, nakit 8,2 milyar yen.",
   "latest": "30 Eylül 2026: Haziran-Ağustos 2026 çeyreğinde (2027 mali yılının ilk çeyreği) satışlar 5.847 milyon yen, faaliyet kârı 942 milyon yen, olağan kâr 964 milyon yen (yıllık %10 artış), net kâr 524 milyon yen oldu. 14 Temmuz 2026'da açıklanan yıllık sonuçta satışlar %25,0 artışla 24.704 milyon yen, net kâr %143,2 artışla 3.146 milyon yen olmuştu. Şirket Mayıs 2027'de bitecek yıl için 27.000 milyon yen satış ve 3.280 milyon yen net kâr (%4,2 artış) bekliyor.",
   "risks": [
-   "Fiyat güvenlik marjı için yetmiyor: formül yılda %11,5 büyüme veriyordu, okumada bulunanlar yüzünden %6,8 alındı. Kârın 2026'daki sıçraması yasa değişikliğine ve ücret artışına dayanıyor; rakipler ücret kırarsa marj eski düzeyine dönebilir.",
+   "Fiyat güvenlik marjı için yetmiyor: formül yılda %11,5 büyüme veriyordu, okumada bulunanlar yüzünden %5,7 alındı. Kârın 2026'daki sıçraması yasa değişikliğine ve ücret artışına dayanıyor; rakipler ücret kırarsa marj eski düzeyine dönebilir.",
    "Konut başlangıçları geriliyor; faiz ve inşaat maliyeti artarsa denetlenecek bina sayısı düşer.",
    "Atama iptal edilir, yenilenmez ya da ihlal nedeniyle durdurulursa ana iş durur.",
    "Kısıtlı sektörlerdeki ortakların oy payı %24,75; bu oran üçte biri aşarsa atanmış kuruluş statüsü tehlikeye girer.",
@@ -543,6 +543,16 @@
     "t": "Monex Scouter: ERI Holdings şirket analizi",
     "te": "Monex Scouter: ERI Holdings company analysis",
     "u": "https://scouter.monex.co.jp/report/zaimu/6083"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: Mayıs 2026 yılı",
+    "te": "Source for the growth judgment: year to May 2026",
+    "u": "https://www2.jpx.co.jp/disc/60830/140120260713591776.pdf"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: Haziran-Ağustos 2026 çeyreği",
+    "te": "Source for the growth judgment: June-August 2026 quarter",
+    "u": "https://japanir.jp/wp-content/uploads/2026/09/6083-20260930-01.pdf"
    }
   ],
   "en": {
@@ -552,7 +562,7 @@
    "mgmt": "There is no controlling shareholder. On 31 May 2026 the largest holder was the employee shareholding association with 8.22%. Funds linked to Hikari Tsushin (UH Partners 2 and 3, Hikari Tsushin KK) hold about 22% in total. Misawa Homes, Daiwa House, Mitsui Home and Sekisui Chemical each own 4.69%; they are also customers of the industry. For fiscal 2026 the company paid a dividend of 42 yen per share on a post-split basis (payout ratio reported by the company: 30.1%) and bought back 354 million yen of shares. It forecasts 44 yen for 2027. It bought three small companies during the year; interest-bearing debt is 2.4 billion yen against 8.2 billion yen of cash.",
    "latest": "30 September 2026: In the June-August 2026 quarter (first quarter of fiscal 2027), sales were 5,847 million yen, operating profit 942 million yen, ordinary profit 964 million yen (up 10% year on year) and net profit 524 million yen. In the full-year results announced on 14 July 2026, sales had risen 25.0% to 24,704 million yen and net profit 143.2% to 3,146 million yen. For the year ending May 2027 the company expects sales of 27,000 million yen and net profit of 3,280 million yen (up 4.2%).",
    "risks": [
-    "The price leaves too little margin of safety: the formula gave growth of 11.5% a year; because of what the reading found, 6.8% was used. The 2026 profit jump rests on a law change and fee increases; if rivals cut fees, the margin could return to its old level.",
+    "The price leaves too little margin of safety: the formula gave growth of 11.5% a year; because of what the reading found, 5.7% was used. The 2026 profit jump rests on a law change and fee increases; if rivals cut fees, the margin could return to its old level.",
     "Housing starts are falling; higher interest rates and construction costs would reduce the number of buildings to inspect.",
     "If the designation is revoked, not renewed or suspended for a violation, the core business stops.",
     "Shareholders in restricted industries hold 24.75% of votes; if this passes one third, the designated-body status is at risk.",
@@ -566,10 +576,10 @@
    ]
   },
   "growth": {
-   "g": 6.8,
+   "g": 5.7,
    "basis": {
-    "tr": "Formül yılda %11,5 veriyordu. Ama kâr sıçraması bir kereye özgü: Nisan 2025'te enerji verimliliği uygunluğu bütün yeni binalarda zorunlu oldu ve Mayıs 2026 yılında net kâr %143,2 arttı. Sonrasında büyüme durdu: Haziran-Ağustos 2026 çeyreğinde net kâr %0,6 arttı, şirketin Mayıs 2027 yılı tahmini %4,2 artış (enflasyondan arındırılınca %2,1). Bu kadar büyük sapmada ikisinin ortası alındı: %6,8.",
-    "en": "The formula gave 11.5% a year. But the profit jump was a one-off: in April 2025 energy-efficiency conformity became mandatory for all new buildings, and net profit rose 143.2% in the year to May 2026. Growth has since stalled: net profit rose 0.6% in the June-August 2026 quarter, and the company forecasts a 4.2% rise for the year to May 2027 (2.1% after inflation). With a gap this large the midpoint was used: 6.8%."
+    "tr": "Formül yılda %11,5 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Mayıs 2026 yılı %143,2; Haziran-Ağustos 2026 çeyreği %0,6; Mayıs 2027 yılı için şirket tahmini %4,2. Mayıs 2026 yılındaki sıçrama bir kereye özgü: Nisan 2025'te enerji verimliliği uygunluğu bütün yeni binalarda zorunlu oldu. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %5,7.",
+    "en": "The formula gave growth of 11.5% a year. Latest figures (net profit, year on year): year to May 2026 143.2%; June-August 2026 quarter 0.6%; company forecast for the year to May 2027 4.2%. The jump in the year to May 2026 was a one-off: in April 2025 energy-efficiency conformity became mandatory for all new buildings. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 5.7%."
    },
    "per": "2026-Q1"
   }
@@ -997,6 +1007,11 @@
     "t": "Kabutore: Colan Totte büyük ortaklar (31 Mart 2026)",
     "te": "Kabutore: Colan Totte major shareholders (31 March 2026)",
     "u": "https://www.kabutore.biz/genzaikabuka/okabunushi7792.html"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: Eylül 2026 yılı (net kâr)",
+    "te": "Source for the growth judgment: year to September 2026 (net profit)",
+    "u": "https://japanir.jp/wp-content/uploads/2026/11/7792-20261106-01.pdf"
    }
   ],
   "en": {
@@ -1023,8 +1038,8 @@
    "g": 9.7,
    "dy": 3.5,
    "basis": {
-    "tr": "Formül yılda %16,1 veriyordu. Eylül 2026 yılında net kâr %13,8 arttı; şirketin Eylül 2027 yılı tahmini hisse başına kârda %5,6 artış (enflasyondan arındırılınca %3,4). Tahmin formülün hızının çok altında olduğu için ikisinin ortası alındı: %9,7. Kaynakta temettü verimi yok; şirketin açıkladığı hisse başına 50 yen temettü ve 1.435 yen fiyatla %3,5 kullanıldı.",
-    "en": "The formula gave 16.1% a year. Net profit rose 13.8% in the year to September 2026; the company forecasts a 5.6% rise in earnings per share for the year to September 2027 (3.4% after inflation). Because the forecast is far below the formula's rate, the midpoint was used: 9.7%. The data source has no dividend yield; 3.5% was used, from the company's declared dividend of 50 yen per share and a price of 1,435 yen."
+    "tr": "Formül yılda %16,1 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Eylül 2026 yılı (net kâr) %13,8; Eylül 2027 yılı için şirket tahmini %5,6. En düşüğü, enflasyondan arındırılınca, %3,4. Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %9,7. Kaynakta temettü verimi yok; şirketin Eylül 2026 yılı için açıkladığı hisse başına 50 JPY temettüden %3,5 hesaplandı.",
+    "en": "The formula gave growth of 16.1% a year. Latest figures (earnings per share, year on year): year to September 2026 (net profit) 13.8%; company forecast for the year to September 2027 5.6%. The lowest, after inflation, is 3.4%. Because this is less than half the formula's rate, the midpoint of the two was used: 9.7%. The data source has no dividend yield; 3.5% was calculated from the dividend of 50 JPY per share the company declared for the year to September 2026."
    },
    "per": "2026-Q4"
   }
@@ -1285,6 +1300,14 @@
     "Drug price cuts in Japan",
     "Price: the margin-of-safety threshold"
    ]
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %4,7 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 %20,2 (şirketin düzeltilmiş rakamı; açıklanan %22,8); Temmuz-Eylül 2026 çeyreği (dokuz aylık eksi altı aylık, türetildi; net kâr) %15,6 (şirketin düzeltilmiş rakamı; açıklanan %29,1); 2026 yılı için şirket tahmini (Core, değişmedi) %7,7. Düzeltme: Şirketin kendi Core ölçüsü (maddi olmayan varlık itfası 1,9 milyar yen ve yeniden yapılanma gideri 11,6 milyar yen hariç): dokuz ayda Core net kâr 384,7 milyar yen. Ayrıca üçüncü çeyrekte yurt içi satışlar, sistem değişikliği öncesi öne çekilen toptancı sevkiyatlarıyla geçici olarak yükseldi; tek seferlik gelir de var (tutarı açıklanmadı). En düşüğü, enflasyondan arındırılınca, %5,5. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 4.7% a year. Latest figures (earnings per share, year on year): January-September 2026 20.2% (the company's adjusted figure; reported 22.8%); July-September 2026 quarter (nine months minus six months, derived; net profit) 15.6% (the company's adjusted figure; reported 29.1%); company forecast for 2026 (Core basis, unchanged) 7.7%. Adjustment: The company's own Core measure (excluding 1.9 billion yen of intangible amortisation and 11.6 billion yen of restructuring costs): Core net income 384.7 billion yen in nine months. Also, third-quarter domestic sales were lifted temporarily by wholesaler shipments brought forward before a system change, and there was one-time income (amount not disclosed). The lowest, after inflation, is 5.5%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q3"
   }
  },
  "5803": {
@@ -1345,6 +1368,11 @@
     "t": "Envalith: Fujikura iş kolları (Mart 2026 yılı)",
     "te": "Envalith: Fujikura segments (year to March 2026)",
     "u": "https://envalith.com/en/companies/5803/segments"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: Nisan-Eylül 2026",
+    "te": "Source for the growth judgment: April-September 2026",
+    "u": "https://s.kabutan.jp/news/k202611100051/"
    }
   ],
   "en": {
@@ -1366,6 +1394,14 @@
     "Dollar/yen exchange rate",
     "Price: the margin-of-safety threshold"
    ]
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %22,2 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Nisan-Eylül 2026 %168,5; Temmuz-Eylül 2026 çeyreği %178,7; Mart 2027'de biten yıl için şirket beklentisi %107,4. En düşüğü, enflasyondan arındırılınca, %103,2. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 22.2% a year. Latest figures (net profit, year on year): April-September 2026 168.5%; July-September 2026 quarter 178.7%; company forecast for the year to March 2027 107.4%. The lowest, after inflation, is 103.2%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q2"
   }
  },
  "6098": {
@@ -1452,6 +1488,14 @@
     "Amount of share buybacks",
     "Price: the margin-of-safety threshold"
    ]
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %16,5 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Nisan-Eylül 2026 %71,0; Temmuz-Eylül 2026 çeyreği %68,8; Mart 2027 yılı için şirket tahmini %55,2. En düşüğü, enflasyondan arındırılınca, %52,0. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 16.5% a year. Latest figures (earnings per share, year on year): April-September 2026 71.0%; July-September 2026 quarter 68.8%; company forecast for the year to March 2027 55.2%. The lowest, after inflation, is 52.0%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q1"
   }
  },
  "6857": {
@@ -1538,6 +1582,14 @@
     "Operating margin (51.9% forecast for the year)",
     "Price: the margin-of-safety threshold"
    ]
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %25,0 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Nisan-Eylül 2026 %118,6; Temmuz-Eylül 2026 çeyreği (altı aylık eksi ilk çeyrek, türetildi; net kâr) %142,7; Mart 2027 yılı için şirket tahmini (28 Ekim'de yükseltildi) %99,4. En düşüğü, enflasyondan arındırılınca, %95,3. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 25.0% a year. Latest figures (earnings per share, year on year): April-September 2026 118.6%; July-September 2026 quarter (six months minus first quarter, derived; net profit) 142.7%; company forecast for the year to March 2027 (raised on 28 October) 99.4%. The lowest, after inflation, is 95.3%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q2"
   }
  },
  "7741": {
@@ -1624,6 +1676,14 @@
     "Growth in eyeglass lens sales",
     "Price: the margin-of-safety threshold"
    ]
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %10,4 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Nisan-Eylül 2026 %30,4; Temmuz-Eylül 2026 çeyreği (altı aylık eksi ilk çeyrek, türetildi) %30,8. En düşüğü, enflasyondan arındırılınca, %27,7. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 10.4% a year. Latest figures (earnings per share, year on year): April-September 2026 30.4%; July-September 2026 quarter (six months minus first quarter, derived) 30.8%. The lowest, after inflation, is 27.7%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q2"
   }
  },
  "8035": {
@@ -1684,6 +1744,11 @@
     "t": "Shared Research: Tokyo Electron raporu, pazar payı (Ekim 2026)",
     "te": "Shared Research: Tokyo Electron report, market share (October 2026)",
     "u": "https://sharedresearch.jp/en/companies/8035/report/6a55ddd098e91022dd71a1ee"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: Mart 2027 yılı için şirket tahmini",
+    "te": "Source for the growth judgment: company forecast for the year to March 2027",
+    "u": "https://edinetdb.jp/company/E02652/earnings/FY2027-Q2"
    }
   ],
   "en": {
@@ -1705,6 +1770,14 @@
     "The course of sales to China",
     "Price: the margin-of-safety threshold"
    ]
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %5,2 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Nisan-Eylül 2026 %56,0; Temmuz-Eylül 2026 çeyreği (altı aylık eksi ilk çeyrek, türetildi) %71,7; Mart 2027 yılı için şirket tahmini %50,6. En düşüğü, enflasyondan arındırılınca, %47,5. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 5.2% a year. Latest figures (net profit, year on year): April-September 2026 56.0%; July-September 2026 quarter (six months minus first quarter, derived) 71.7%; company forecast for the year to March 2027 50.6%. The lowest, after inflation, is 47.5%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q2"
   }
  },
  "9325": {
@@ -1824,6 +1897,11 @@
     "t": "MarketScreener: Fast Retailing büyük ortaklar",
     "te": "MarketScreener: Fast Retailing major shareholders",
     "u": "https://www.marketscreener.com/quote/stock/FAST-RETAILING-CO-LTD-6491478/company-shareholders/"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: Haziran-Ağustos 2026 çeyreği (yıllık eksi dokuz aylık, türetildi)",
+    "te": "Source for the growth judgment: June-August 2026 quarter (full year minus nine months, derived)",
+    "u": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0709/2026070900203.pdf"
    }
   ],
   "en": {
@@ -1845,6 +1923,14 @@
     "Same-store sales in Japan (about 2% growth expected for the new year)",
     "Price: the margin-of-safety threshold"
    ]
+  },
+  "growth": {
+   "g": 6.1,
+   "basis": {
+    "tr": "Formül yılda %11,2 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Eylül 2025-Ağustos 2026 mali yılı %25,3; Haziran-Ağustos 2026 çeyreği (yıllık eksi dokuz aylık, türetildi) %24,0; Ağustos 2027 yılı için şirket tahmini %3,2. En düşüğü, enflasyondan arındırılınca, %1,1. Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %6,1.",
+    "en": "The formula gave growth of 11.2% a year. Latest figures (net profit, year on year): fiscal year September 2025-August 2026 25.3%; June-August 2026 quarter (full year minus nine months, derived) 24.0%; company forecast for the year to August 2027 3.2%. The lowest, after inflation, is 1.1%. Because this is less than half the formula's rate, the midpoint of the two was used: 6.1%."
+   },
+   "per": "2026-Q4"
   }
  }
 }

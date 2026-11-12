@@ -1,0 +1,375 @@
+{
+ "6098": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Nisan-Eylül 2026",
+   "en": "April-September 2026",
+   "pct": 71.0,
+   "cur_val": "296,01",
+   "prev_val": "173,12",
+   "unit": "yen (temel hisse başına kâr) / yen (basic EPS)",
+   "date": "2026-11-11",
+   "url": "https://www.marketscreener.com/news/recruit-financial-document-recruit-202703q2-summary-en-ce785edbdb8cf727",
+   "primary": true
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 68.8,
+   "cur_val": "150,54",
+   "prev_val": "89,16",
+   "unit": "yen (temel hisse başına kâr) / yen (basic EPS)",
+   "date": "2026-11-11",
+   "url": "https://www.marketscreener.com/news/recruit-financial-document-recruit-202703q2-summary-en-ce785edbdb8cf727",
+   "primary": true
+  },
+  "guidance": {
+   "tr": "Mart 2027 yılı için şirket tahmini",
+   "en": "company forecast for the year to March 2027",
+   "pct": 55.2,
+   "detail_tr": "temel hisse başına kâr 543,00 yen; Mart 2026 yılında 349,78 yen. Net kâr 755,0 milyar yen; önceki yıl 496,9 milyar yen (+%51,9)",
+   "detail_en": "basic EPS 543.00 yen; 349.78 in the year to March 2026. Net profit 755.0 billion yen; 496.9 billion the year before (+51.9%)",
+   "date": "2026-11-11",
+   "url": "https://www.marketscreener.com/news/recruit-financial-document-recruit-202703q2-summary-en-ce785edbdb8cf727",
+   "primary": true
+  },
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Source is the company's own FY2026 Q2 summary document, hosted on MarketScreener (dated 11 Nov 2026; its disclaimer says published 10 Nov). Net profit: Q2 209.0bn vs 127.4bn yen (+64.0%); H1 411.6bn vs 248.3bn (+65.7%). Diluted and adjusted EPS not in the document. Full-year guidance unchanged from 7 Aug 2026. Note the guidance implies a slower second half: H2 net profit 755.0-411.6 = 343.4bn vs 496.9-248.3 = 248.6bn a year earlier, about +38% (my arithmetic). The company names no one-off; the Q1 summary attributes the jump to HR Technology monetisation and cost efficiency (segment EBITDA+S 215.7bn vs 119.4bn in Q1). No business sold or lost found."
+ },
+ "8035": {
+  "metric": "net profit",
+  "ytd": {
+   "tr": "Nisan-Eylül 2026",
+   "en": "April-September 2026",
+   "pct": 56.0,
+   "cur_val": "376,929",
+   "prev_val": "241,626",
+   "unit": "milyar yen / billion yen",
+   "date": "2026-10-30",
+   "url": "https://www.gyokaidigest.com/en/companies/tokyo-electron/report/2027-Q2",
+   "primary": false
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği (altı aylık eksi ilk çeyrek, türetildi)",
+   "en": "July-September 2026 quarter (six months minus first quarter, derived)",
+   "pct": 71.7,
+   "cur_val": "212,588",
+   "prev_val": "123,825",
+   "unit": "milyar yen / billion yen",
+   "date": "2026-10-30",
+   "url": "https://www.gyokaidigest.com/en/companies/tokyo-electron/report/2027-Q2",
+   "primary": false
+  },
+  "guidance": {
+   "tr": "Mart 2027 yılı için şirket tahmini",
+   "en": "company forecast for the year to March 2027",
+   "pct": 50.6,
+   "detail_tr": "net kâr 865,0 milyar yen; Mart 2026 yılında 574,5 milyar yen. Hisse başına kâr tahmini 381,69 yen (1'e 5 bölünme sonrası)",
+   "detail_en": "net profit 865.0 billion yen; 574.5 billion in the year to March 2026. EPS forecast 381.69 yen (after the 5-for-1 split)",
+   "date": "2026-10-30",
+   "url": "https://edinetdb.jp/company/E02652/earnings/FY2027-Q2",
+   "primary": false
+  },
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Not primary: the tanshin itself was not found; figures from Gyokai Digest (H1 376,929m vs 241,626m yen) and EDINET DB (forecast 865bn, EPS 381.69; FY to March 2026 actual 574,454m, EPS 1,254.57 pre-split; H1 basic EPS 166.13 post-split). Q1 from RTTNews: net income 164,341m vs 117,801m yen (+39.5%), EPS 360.15 vs 256.49 pre-split. Quarter figure is my subtraction. A 5-for-1 split took effect 1 Oct 2026, so EPS figures before and after are not comparable; I used net profit. On a split-adjusted basis the EPS forecast is 381.69 vs about 250.91 (1,254.57/5), about +52.1% (my arithmetic). Guidance implies H2 net profit 865.0-376.9 = 488.1bn vs 574.5-241.6 = 332.8bn (about +47%). EDINET DB's own year-on-year percentages on that page are mismatched (it compares H1 with the prior full year) - ignore them. No one-off or departed business found in the pages opened."
+ },
+ "5803": {
+  "metric": "net profit",
+  "ytd": {
+   "tr": "Nisan-Eylül 2026",
+   "en": "April-September 2026",
+   "pct": 168.5,
+   "cur_val": "180.289",
+   "prev_val": "67.147",
+   "unit": "milyon yen / million yen",
+   "date": "2026-11-10",
+   "url": "https://s.kabutan.jp/news/k202611100051/",
+   "primary": false
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 178.7,
+   "cur_val": "99.855",
+   "prev_val": "35.829",
+   "date": "2026-11-10",
+   "url": "https://s.kabutan.jp/news/k202611100051/",
+   "primary": false
+  },
+  "guidance": {
+   "tr": "Mart 2027'de biten yıl için şirket beklentisi",
+   "en": "company forecast for the year to March 2027",
+   "pct": 107.43,
+   "detail_tr": "net kâr 326 milyar yen (hisse başına 196,8 yen); Mart 2026 yılında 157,2 milyar yen. İkinci yarı için kalan: 145,7 milyar yen; geçen yılın ikinci yarısı 90,0 milyar yen (+%61,9)",
+   "detail_en": "net profit of 326 billion yen (196.8 yen per share); 157.2 billion yen in the year to March 2026. Implied second half: 145.7 billion yen against 90.0 billion a year earlier (+61.9%)",
+   "date": "2026-11-10",
+   "url": "https://s.kabutan.jp/news/k202611100051/",
+   "primary": false
+  },
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Figures from Kabutan's summary of the 10 Nov 2026 kessan tanshin (net profit 180,289 vs 67,147 million yen; EPS 108.9 vs 40.6 yen; Q2 alone 99,855 vs 35,829; EPS 60.3 vs 21.6). EDINET DB page (https://edinetdb.jp/company/E01334/earnings/FY2027-Q2) confirms net profit 180.3bn, EPS 108.87, forecast 326.0bn / EPS 196.86, prior year 157.2bn; its prior-year EPS (94.93) looks internally inconsistent, so guidance pct is on net profit. Second-half figures are my subtraction, not company-stated. Forecast net profit unchanged on 10 Nov although H1 was strong: implied H2 (145.7bn) is below H1 (180.3bn). Kabutan says dividend forecast was raised to 80 yen from 38. Company's own tanshin PDF was not opened. No sold business or one-off item found in sources read (Electronics segment Q1 profit fell 73.5% on smartphone mix, per sbbit.jp)."
+ },
+ "9983": {
+  "metric": "net profit",
+  "ytd": {
+   "tr": "Eylül 2025-Ağustos 2026 mali yılı",
+   "en": "fiscal year September 2025-August 2026",
+   "pct": 25.3,
+   "cur_val": "542,5",
+   "prev_val": "yaklaşık 433,0 (orandan türetildi) / about 433.0 (derived from the rate)",
+   "unit": "milyar yen / billion yen",
+   "date": "2026-10-08",
+   "url": "https://quartr.com/events/fast-retailing-co-ltd-9983-q4-2026_ofgwwRvz",
+   "primary": false
+  },
+  "quarter": {
+   "tr": "Haziran-Ağustos 2026 çeyreği (yıllık eksi dokuz aylık, türetildi)",
+   "en": "June-August 2026 quarter (full year minus nine months, derived)",
+   "pct": 24.0,
+   "cur_val": "116,4",
+   "prev_val": "yaklaşık 93,9 / about 93.9",
+   "unit": "milyar yen / billion yen",
+   "date": "2026-10-08",
+   "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0709/2026070900203.pdf",
+   "primary": false
+  },
+  "guidance": {
+   "tr": "Ağustos 2027 yılı için şirket tahmini",
+   "en": "company forecast for the year to August 2027",
+   "pct": 3.2,
+   "detail_tr": "ana ortaklığa ait net kâr 560 milyar yen; Ağustos 2026 yılında 542,5 milyar yen",
+   "detail_en": "profit attributable to owners 560 billion yen; 542.5 billion in the year to August 2026",
+   "date": "2026-10-08",
+   "url": "https://quartr.com/events/fast-retailing-co-ltd-9983-q4-2026_ofgwwRvz",
+   "primary": false
+  },
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Full-year tanshin (8 Oct 2026) not found on HKEX/JPX in search; full-year figures from Quartr, Gyokai Digest, Fashionsnap and FashionUnited (all agree: 542.5bn, +25.3%; forecast 560bn, +3.2%). No source gave the FY2025 amount or full-year EPS; 433.0bn is 542.5/1.253. Nine-month figures ARE primary (HKEX filing 9 July 2026): profit 426,077m vs 339,099m yen; basic EPS 1,388.62 vs 1,105.36. Quarter figure is my subtraction, so about +/-1 point uncertain. Forecast: revenue +12.3%, business profit 830bn (+11.7% per existing report; Just Style says +15.5% for 'business profit'), but net profit only +3.2%: Quartr says FY2026 finance income included a 7.1bn yen currency gain and the forecast assumes none; Gyokai Digest cites higher investment, restructuring of unprofitable stores and currency. Restructuring mentioned: Theory closing its US e-commerce outlet site, Comptoir des Cotonniers closing unprofitable stores; none is a significant departed business. No company-labelled one-off."
+ },
+ "4519": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": 22.8,
+   "cur_val": "228,07",
+   "prev_val": "185,70",
+   "unit": "yen (hisse başına kâr, IFRS) / yen (EPS, IFRS)",
+   "date": "2026-10-27",
+   "url": "https://www.gyokaidigest.com/companies/chugai-pharm/report/2026-Q3",
+   "primary": false
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği (dokuz aylık eksi altı aylık, türetildi; net kâr)",
+   "en": "July-September 2026 quarter (nine months minus six months, derived; net profit)",
+   "pct": 29.1,
+   "cur_val": "143,6",
+   "prev_val": "yaklaşık 111,2 / about 111.2",
+   "unit": "milyar yen, net kâr / billion yen, net profit",
+   "date": "2026-10-27",
+   "url": "https://www.gyokaidigest.com/companies/chugai-pharm/report/2026-Q3",
+   "primary": false
+  },
+  "guidance": {
+   "tr": "2026 yılı için şirket tahmini (Core, değişmedi)",
+   "en": "company forecast for 2026 (Core basis, unchanged)",
+   "pct": 7.7,
+   "detail_tr": "Core hisse başına kâr 295,00 yen (+%7,7); Core net kâr 485,0 milyar yen (+%7,5). 2025 tutarları sayfada yok; orandan yaklaşık 273,9 yen",
+   "detail_en": "Core EPS 295.00 yen (+7.7%); Core net income 485.0 billion yen (+7.5%). The 2025 amounts are not on the page; about 273.9 yen from the rate",
+   "date": "2026-10-27",
+   "url": "https://dllr03zngnwrw.cloudfront.net/english/ir/finance/latest.html",
+   "primary": true
+  },
+  "adjusted": {
+   "what_tr": "Şirketin kendi Core ölçüsü (maddi olmayan varlık itfası 1,9 milyar yen ve yeniden yapılanma gideri 11,6 milyar yen hariç): dokuz ayda Core net kâr 384,7 milyar yen. Ayrıca üçüncü çeyrekte yurt içi satışlar, sistem değişikliği öncesi öne çekilen toptancı sevkiyatlarıyla geçici olarak yükseldi; tek seferlik gelir de var (tutarı açıklanmadı)",
+   "what_en": "The company's own Core measure (excluding 1.9 billion yen of intangible amortisation and 11.6 billion yen of restructuring costs): Core net income 384.7 billion yen in nine months. Also, third-quarter domestic sales were lifted temporarily by wholesaler shipments brought forward before a system change, and there was one-time income (amount not disclosed)",
+   "ytd_pct": 20.2,
+   "quarter_pct": 15.6,
+   "url": "https://dllr03zngnwrw.cloudfront.net/english/ir/finance/latest.html"
+  },
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "The tanshin PDF link on Chugai's IR mirror failed (client error). Nine-month IFRS net income 375.3bn (+22.8%), Core net income 384.7bn (+20.2%) and the full-year forecast are from Chugai's own IR page (primary); EPS 228.07 vs 185.70 is from Gyokai Digest (not primary). Quarter figures are derived from rounded numbers and rates, so +/-1 point: IFRS H1 231.7bn (+19.2%, Gyokai Digest Q2 page) -> Q3 143.6bn vs about 111.2bn; Core H1 238.4bn vs 193.5bn (1stOncology copy of the company release) -> Core Q3 146.3bn vs about 126.6bn (+15.6%). Important: guidance (unchanged) is Core net income +7.5% for the full year while nine months are +20.2%; it implies Q4 Core net income of about 100.3bn vs about 131.1bn a year earlier (about -23%, my arithmetic; 2025 full-year 451.2bn derived from 485.0/1.075) - either the forecast is conservative or the Q3 pull-forward reverses. Emugrobart (obesity) development was stopped on 28 Sep 2026; it is a pipeline project with no sales, so not a departed business."
+ },
+ "6857": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Nisan-Eylül 2026",
+   "en": "April-September 2026",
+   "pct": 118.6,
+   "cur_val": "506,12",
+   "prev_val": "231,49",
+   "unit": "yen (seyreltilmiş hisse başına kâr) / yen (diluted EPS)",
+   "date": "2026-10-28",
+   "url": "https://www.advantest.com/en/news/2026/mpd9kn0000000gii-att/E_FR_FY2026_2Q.pdf",
+   "primary": true
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği (altı aylık eksi ilk çeyrek, türetildi; net kâr)",
+   "en": "July-September 2026 quarter (six months minus first quarter, derived; net profit)",
+   "pct": 142.7,
+   "cur_val": "193,303",
+   "prev_val": "79,633",
+   "unit": "milyar yen, net kâr / billion yen, net profit",
+   "date": "2026-10-28",
+   "url": "https://www.advantest.com/en/news/2026/mpd9kn0000000gii-att/E_FR_FY2026_2Q.pdf",
+   "primary": true
+  },
+  "guidance": {
+   "tr": "Mart 2027 yılı için şirket tahmini (28 Ekim'de yükseltildi)",
+   "en": "company forecast for the year to March 2027 (raised on 28 October)",
+   "pct": 99.4,
+   "detail_tr": "temel hisse başına kâr 1.027,08 yen; Mart 2026 yılında 515,15 yen. Net kâr 741,5 milyar yen; önceki yıl 375,4 milyar yen (+%97,5)",
+   "detail_en": "basic EPS 1,027.08 yen; 515.15 in the year to March 2026. Net profit 741.5 billion yen; 375.4 billion the year before (+97.5%)",
+   "date": "2026-10-28",
+   "url": "https://www.advantest.com/en/news/2026/mpd9kn0000000gii-att/E_FR_FY2026_2Q.pdf",
+   "primary": true
+  },
+  "adjusted": {
+   "what_tr": "Şirket düzeltilmiş bir büyüme rakamı vermiyor. Altı aylık kârın içinde stratejik yatırımlardan 54,2 milyar yen değerleme kazancı var (finansal gelir 57,0 milyar yen; bir yıl önce böyle bir kazanç yoktu). Vergi öncesi tutardır",
+   "what_en": "The company gives no adjusted growth figure. Six-month profit includes 54.2 billion yen of valuation gains on strategic investments (financial income 57.0 billion yen; no such gain a year earlier). This is a pre-tax amount",
+   "ytd_pct": null,
+   "quarter_pct": null,
+   "url": "https://www.advantest.com/en/news/2026/mpd9kn0000000gii-att/E_FR_FY2026_2Q.pdf"
+  },
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "All primary (Advantest's own releases). H1 net profit 368,083m vs 169,813m yen (+116.8%); basic EPS 508.99 vs 232.19. Q1 (release of July, https://www.advantest.com/en/news/2026/qnpuno0000000cr7-att/E_FR_FY2026_1Q.pdf): net profit 174,780m vs 90,180m (+93.8%); basic EPS 241.27 vs 123.14; valuation gains 41,075m in Q1, so about 13.1bn in Q2. Quarter values are my subtraction; EPS by subtraction is 267.72 vs 109.05 basic (+145.5%). FY2025 actuals from the full-year release (https://www.advantest.com/news/2026/a81o6o0000000hgw-att/E_FR_FY2025_FN.pdf): net profit 375,353m, basic EPS 515.15, diluted 513.30. Guidance implies H2 net profit 741.5-368.1 = 373.4bn vs 375.4-169.8 = 205.5bn (about +82%). The prior-year H1 had a 2.5bn yen gain on a partial business divestiture (Services and Others) - small. No lost customer mentioned; the review says customers continued to invest actively in testers."
+ },
+ "6083": {
+  "metric": "net profit",
+  "ytd": {
+   "tr": "Mayıs 2026 yılı",
+   "en": "year to May 2026",
+   "pct": 143.2,
+   "url": "https://www2.jpx.co.jp/disc/60830/140120260713591776.pdf"
+  },
+  "quarter": {
+   "tr": "Haziran-Ağustos 2026 çeyreği",
+   "en": "June-August 2026 quarter",
+   "pct": 0.6,
+   "url": "https://japanir.jp/wp-content/uploads/2026/09/6083-20260930-01.pdf"
+  },
+  "guidance": {
+   "tr": "Mayıs 2027 yılı için şirket tahmini",
+   "en": "company forecast for the year to May 2027",
+   "pct": 4.2,
+   "url": "https://japanir.jp/wp-content/uploads/2026/09/6083-20260930-01.pdf",
+   "detail_tr": "net kâr 3.280 milyon yen; önceki yıl 3.146 milyon yen",
+   "detail_en": "net profit of 3,280 million yen; 3,146 million the year before"
+  },
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": "Mayıs 2026 yılındaki sıçrama bir kereye özgü: Nisan 2025'te enerji verimliliği uygunluğu bütün yeni binalarda zorunlu oldu.",
+  "note_en": "The jump in the year to May 2026 was a one-off: in April 2025 energy-efficiency conformity became mandatory for all new buildings.",
+  "notes": null
+ },
+ "7792": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Eylül 2026 yılı (net kâr)",
+   "en": "year to September 2026 (net profit)",
+   "pct": 13.8,
+   "url": "https://japanir.jp/wp-content/uploads/2026/11/7792-20261106-01.pdf"
+  },
+  "quarter": null,
+  "guidance": {
+   "tr": "Eylül 2027 yılı için şirket tahmini",
+   "en": "company forecast for the year to September 2027",
+   "pct": 5.56,
+   "url": "https://japanir.jp/wp-content/uploads/2026/11/7792-20261106-01.pdf",
+   "detail_tr": "hisse başına kâr 175,33 yen; önceki yıl 166,10 yen",
+   "detail_en": "earnings per share of 175.33 yen; 166.10 the year before"
+  },
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": {
+   "dps": 50,
+   "cur": "JPY",
+   "for_tr": "Eylül 2026 yılı",
+   "for_en": "year to September 2026",
+   "url": "https://japanir.jp/wp-content/uploads/2026/11/7792-20261106-01.pdf"
+  },
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": null
+ },
+ "7741": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Nisan-Eylül 2026",
+   "en": "April-September 2026",
+   "pct": 30.4,
+   "cur_val": "408,44",
+   "prev_val": "313,19",
+   "unit": "yen (temel hisse başına kâr) / yen (basic EPS)",
+   "date": "2026-10-30",
+   "url": "https://www.gyokaidigest.com/en/companies/hoya/report/2027-Q2",
+   "primary": false
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği (altı aylık eksi ilk çeyrek, türetildi)",
+   "en": "July-September 2026 quarter (six months minus first quarter, derived)",
+   "pct": 30.8,
+   "cur_val": "211,86",
+   "prev_val": "161,97",
+   "unit": "yen (temel hisse başına kâr) / yen (basic EPS)",
+   "date": "2026-10-30",
+   "url": "https://www.gyokaidigest.com/en/companies/hoya/report/2027-Q2",
+   "primary": false
+  },
+  "guidance": null,
+  "adjusted": null,
+  "departed": {
+   "tr": "HOYA, ABD'li vitreus cerrahisi aletleri üreticisi MID Labs'in tamamını Bausch + Lomb'a satıyor (sözleşme 9 Ekim 2026, kapanış 2 Kasım 2026). Mart 2026 yılında geliri 34 milyon dolar, net kârı 5 milyon dolardı; şirket konsolide kâra etkisinin çok küçük olacağını söylüyor",
+   "en": "HOYA is selling all of MID Labs, a US maker of vitreous surgery instruments, to Bausch + Lomb (signed 9 October 2026, closing 2 November 2026). In the year to March 2026 its revenue was 34 million dollars and net profit 5 million dollars; the company says the effect on consolidated earnings will be minimal",
+   "remaining_pct": null,
+   "basis_tr": "Şirket kalan işin büyümesini ayrı açıklamıyor; satılan iş gelirin binde üçü kadar",
+   "basis_en": "The company does not disclose growth of the remaining business; the unit is roughly 0.3% of revenue",
+   "url": "https://www.gyokaidigest.com/en/disclosures/7741-tdnet-20261009-140120261009548466"
+  },
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Not primary: HOYA's tanshin and presentation PDFs on ssl4.eir-parts.net were blocked (permission request not answered): https://ssl4.eir-parts.net/doc/7741/tdnet/2901246/00.pdf and .../2901244/00.pdf. H1 from Gyokai Digest and EDINET DB (EPS 408.44; net profit 136.5bn, +27.3%). Q1 from RTTNews: profit 65.791bn vs 51.840bn yen, EPS 196.58 vs 151.22 (Gyokai Digest: +26.9%). Quarter EPS is my subtraction; net profit by subtraction is about 70.7bn vs about 55.4bn (+27.6%, prior H1 derived from the rate). No profit forecast: only full-year revenue 1.043tn yen (+10.1%); the company said it will give an earnings forecast with Q3 results. From HOYA's own Q2 call transcript (primary, https://www.hoya.com/wp-content/uploads/2026/11/FY26-Q2-Transcript_E-1.pdf): Q2 operating profit 89.4bn (+27%, +23% constant currency), pre-tax 91.6bn (+27%); a temporary factor lifted the Life Care margin by about 100bp (about 20% without it); management sees no need for a major cut to its full-year growth plan; 2.5-inch HDD substrates expected to fall by double digits; US eyeglass lens recovery to take several more quarters; China IOL weakness continues and competitors took some MiYOSMART share. None is described as a lasting group-level deterioration, so `permanent` is null. EDINET DB's -45.7% is a period mismatch - ignore. The '0.3% of revenue' is my arithmetic (34m dollars vs about 950bn yen)."
+ }
+}

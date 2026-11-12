@@ -1,0 +1,370 @@
+{
+ "COALINDIA": {
+  "metric": "net profit",
+  "ytd": {
+   "tr": "Nisan-Eylül 2026",
+   "en": "April-September 2026",
+   "pct": 17.71,
+   "cur_val": "15,368",
+   "prev_val": "13,056",
+   "unit": "crore rupi (10 milyon rupi) / crore rupees",
+   "date": "2026-10-29",
+   "url": "https://upstox.com/news/market-news/earnings/coal-india-q2-results-net-profit-rises-53-to-6-516-crore-yo-y-board-declares-second-dividend-for-fy-27/article-202658/",
+   "primary": false
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 52.99,
+   "cur_val": "6,516",
+   "prev_val": "4,259",
+   "unit": "crore rupi (10 milyon rupi) / crore rupees",
+   "date": "2026-10-29",
+   "url": "https://upstox.com/news/market-news/earnings/coal-india-q2-results-net-profit-rises-53-to-6-516-crore-yo-y-board-declares-second-dividend-for-fy-27/article-202658/",
+   "primary": false
+  },
+  "guidance": null,
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Net profit attributable to owners from Upstox (news summary, 29 Oct 2026); the article does not say explicitly that 15,368 is the owners' share, but it sits just below total PAT 15,397 (+19%) as 6,516 sits below 6,547, so I take it as owners'. Screener EPS: quarter 10.57 vs 6.91 (+53.0%); half-year 14.36+10.57=24.93 vs 14.27+6.91=21.18 (+17.7%). The quarter's +53% is against a weak base: July-September 2025 profit (4,259) was unusually low (Screener: 8,788 in the quarter before it). Half-year: production 321 Mt (-2%), offtake 384.2 Mt (+8%), revenue +14%. Fiscal 2026 profit had fallen (Screener: 31,071 vs 35,450 crore, EPS 50.46 vs 57.61), so current growth is partly recovery. No profit guidance found; no one-off item reported in the summaries read. Not a departure, but note: on 1 Nov 2026 the company disclosed a draft prospectus for an IPO of subsidiary SECL in which Coal India would sell up to 668,056,100 shares (Screener announcement list) - a future minority share of profit would go to outside holders. Second interim dividend 10.25 rupees (first 5.50). Company presentation on BSE could not be opened."
+ },
+ "TCS": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Nisan-Eylül 2026",
+   "en": "April-September 2026",
+   "pct": 9.66,
+   "cur_val": "75.27",
+   "prev_val": "68.64",
+   "unit": "rupi / rupees",
+   "date": "2026-10-08",
+   "url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2026-27/q2/IND%20AS/Consolidated.pdf",
+   "primary": true
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 14.98,
+   "cur_val": "38.37",
+   "prev_val": "33.37",
+   "date": "2026-10-08",
+   "url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2026-27/q2/IND%20AS/Consolidated.pdf",
+   "primary": true
+  },
+  "guidance": null,
+  "adjusted": {
+   "what_tr": "Geçen yılın aynı çeyreğinde 1.135 crore rupi (11,35 milyar rupi) yeniden yapılanma gideri vardı; şirketin basın bülteni karşılaştırmayı bu kalem hariç yapıyor: hisse başına kâr 38,37 rupi, bir yıl önce 35,67 rupi (net kâr 13.884'e karşı 12.904 crore). Nisan-Haziran 2026'da da 668 crore rupilik dava uzlaşma gideri var; altı ay için şirket düzeltilmiş rakam vermiyor.",
+   "what_en": "The year-ago quarter carried a restructuring expense of 1,135 crore rupees (11.35 billion rupees); the company's press release compares excluding it: EPS of 38.37 rupees against 35.67 a year earlier (net profit 13,884 against 12,904 crore). April-June 2026 also carried a 668 crore legal claim settlement; the company gives no adjusted six-month figure.",
+   "ytd_pct": null,
+   "quarter_pct": 7.57,
+   "url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2026-27/q2/IND%20AS/Press%20Release%20-%20INR.pdf"
+  },
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "All from company documents (Ind AS consolidated statements and INR press release, 8 Oct 2026). Profit attributable to shareholders: quarter 13,884 vs 12,075 crore (+15.0% reported; +7.6% vs 12,904 excluding the year-ago restructuring charge); six months 27,233 vs 24,835 crore (+9.7%). In US dollars the press release shows net income 1,450m vs 1,464m (prior year excluding exceptional items), i.e. about -1%, and EPS 0.40 vs 0.40: rupee growth is largely currency. A rough adjusted six-month EPS can be built from press-release quarterly EPS excluding exceptionals (Q1 FY27 38.28 + Q2 38.37 = 76.65) but I did not open a page with the Q1 FY26 adjusted EPS, so ytd_pct is null. Some media quote 13,934 vs 12,131 crore (total profit incl. minorities). TCS gives no guidance; management kept its 26-28% long-term EBIT margin aspiration (Quartr summary). Second interim dividend 12 rupees. Only the first 100,000 characters of the statements PDF were read."
+ },
+ "HINDZINC": {
+  "metric": "net profit",
+  "ytd": {
+   "tr": "Nisan-Eylül 2026",
+   "en": "April-September 2026",
+   "pct": 143.0,
+   "cur_val": "11,881",
+   "prev_val": "4,883",
+   "unit": "crore rupi (10 milyon rupi) / crore rupees",
+   "date": "2026-10-19",
+   "url": "https://www.psuconnect.in/financial/hindustan-zinc-q2-profit-surges-142-to-record-6-412-cr",
+   "primary": false
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 142.0,
+   "cur_val": "6,412",
+   "prev_val": "2,649",
+   "unit": "crore rupi (10 milyon rupi) / crore rupees",
+   "date": "2026-10-19",
+   "url": "https://www.psuconnect.in/financial/hindustan-zinc-q2-profit-surges-142-to-record-6-412-cr",
+   "primary": false
+  },
+  "guidance": null,
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Current figures and growth percentages (+142%, +143%) as stated in news reproductions of the company's release (PSU Connect, Free Press Journal, 19 Oct 2026); year-ago values 2,649 and 4,883 (2,234+2,649) are from Screener. Screener EPS: quarter 15.18 vs 6.27, half-year 28.12 vs 11.56 (+143%). The jump is price-driven, not volume-driven: mined metal +5%, refined metal +7%, silver output +20%, while revenue rose 77%; the release attributes revenue to higher metal prices, higher output and better by-product realisation, and says silver was about 45% of half-year profit. Zinc cost of production fell 29% to 703 dollars/tonne (776 for the half-year, -23%). No price figures (LME zinc, silver) were in the pages I could open. No profit guidance found (a headline, page not opened, says the company cut its annual production cost forecast). No exceptional items reported. Nothing departed. No evidence of lasting deterioration - the opposite question applies here (commodity-price windfall). Screener shows dividend payout 0% for fiscal 2026 (118% in fiscal 2025), which may matter for the dividend yield used. Company call transcript on BSE and engineeringnews.co.za could not be opened."
+ },
+ "ITC": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Nisan-Eylül 2026",
+   "en": "April-September 2026",
+   "pct": -17.39,
+   "cur_val": "6.84",
+   "prev_val": "8.28",
+   "unit": "rupi / rupees",
+   "date": "2026-11-02",
+   "url": "https://www.screener.in/company/ITC/consolidated/",
+   "primary": false
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": -18.58,
+   "cur_val": "3.33",
+   "prev_val": "4.09",
+   "unit": "rupi / rupees",
+   "date": "2026-11-02",
+   "url": "https://www.screener.in/company/ITC/consolidated/",
+   "primary": false
+  },
+  "guidance": null,
+  "adjusted": {
+   "what_tr": "Century Pulp and Paper satın alımının giderleri (25,66 crore rupi) istisnai kalem olarak ayrıldı. İstisnai kalemler öncesi konsolide net kâr çeyrekte %17,0 düştü (4.249 crore rupi). Yarıyıl için düzeltilmiş rakam bulunamadı.",
+   "what_en": "Costs of the Century Pulp and Paper acquisition (25.66 crore rupees) are shown as an exceptional item. Consolidated net profit before exceptional items fell 17.0% in the quarter (4,249 crore rupees). No adjusted half-year figure found.",
+   "ytd_pct": null,
+   "quarter_pct": -17.0,
+   "url": "https://www.investywise.com/itc-limited-q2-fy27-results-media-statement/"
+  },
+  "departed": {
+   "tr": "Otelcilik işi 1 Ocak 2025'te ayrı şirkete (ITC Hotels) devredildi. Mart 2025 yılının konsolide net kârı (35.052 crore rupi) Mart 2026 yılınınkinden (21.018 crore rupi) çok yüksek; aradaki farkın ayrılma kazancından geldiği bu oturumda şirket belgesinden doğrulanamadı.",
+   "en": "The hotels business was demerged into a separate company (ITC Hotels) on 1 January 2025. Consolidated net profit for the year to March 2025 (35,052 crore rupees) is far above the year to March 2026 (21,018 crore rupees); that the gap comes from the demerger gain could not be confirmed from a company document in this session.",
+   "remaining_pct": null,
+   "basis_tr": "Kalan işin büyümesi bulunamadı. Son iki dönem karşılaştırmasının iki yanında da otel yok.",
+   "basis_en": "Growth of the remaining business not found. Hotels are in neither side of the latest period comparisons.",
+   "url": "https://www.screener.in/company/ITC/consolidated/"
+  },
+  "permanent": {
+   "tr": "Sigarada vergi 1 Şubat 2026'da kalıcı olarak arttı; şirket bunu \"benzeri görülmemiş vergi artışı\" diye anıyor ve hacmin kaçak sigaraya kayma riskinden söz ediyor (Nisan-Haziran 2026 basın açıklaması). Sigara kolunun kârı Temmuz-Eylül 2026'da %27,2 düştü (3.813 crore rupi; bir yıl önce 5.241). Yasal değişiklik sürüyor; şirket bir toparlanma tarihi vermiyor.",
+   "en": "Cigarette taxes rose permanently on 1 February 2026; the company calls it an \"unprecedented increase in tax\" and cites the risk of volume moving to illicit trade (April-June 2026 press release). Cigarette segment profit fell 27.2% in July-September 2026 (3,813 crore rupees; 5,241 a year earlier). The law remains in force; the company gives no recovery date.",
+   "url": "https://itcportal.com/content/dam/itc-corporate/pdfs/financial-result/quarterly-results-2026-2027/june-2026/ITC-Press-Release-Q1-FY2027.pdf"
+  },
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "CONFLICT / CAUTION. Main figures are consolidated EPS from Screener (not primary): quarter 3.33 vs 4.09, half-year 3.51+3.33=6.84 vs 4.19+4.09=8.28 (my sum). Consolidated profit for the period: quarter 4,229 vs 5,187 crore (-18.5%), half-year 8,738 vs 10,530 (-17.0%); the FY27 consolidated figures 4,229.33 and 8,738.12 are confirmed by a news reproduction of the filing (investywise). STANDALONE is much worse for the half-year: PAT 7,716 vs 10,086 crore (-23.5%), EPS 6.16 vs 8.06; quarter 4,137 vs 5,176 (-20.1%), EPS 3.30 vs 4.13 (psuconnect, reproducing the filing: https://www.psuconnect.in/financial/itc-q2-results-standalone-pat-at-4137-cr). The company's own Q1 press release says Q1 standalone PAT was down 27% and consolidated PAT before exceptional items down 23%, while Screener's Q1 consolidated shows only -15.6% (4,509 vs 5,343): so Q1 FY27 consolidated very probably contains an exceptional gain that I could not identify, and the consolidated half-year -17% understates the underlying fall. Treat roughly -20% to -23% as the underlying half-year decline. No guidance. Company says cigarettes improved quarter on quarter (news summary). Gross revenue is not comparable because of the tax change. Hotels demerger date (1 Jan 2025) is from my general knowledge, not from a page opened this session. ITC's Q2 media statement and results on BSE (AnnPdfOpen ff62231c..., 6ad82347...) could not be opened: permission request timed out. Paper segment includes Century Pulp and Paper from 1 Aug 2026."
+ },
+ "BAJAJ_AUTO": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Nisan-Eylül 2026",
+   "en": "April-September 2026",
+   "pct": 54.99,
+   "cur_val": "240.45",
+   "prev_val": "155.14",
+   "unit": "rupi / rupees",
+   "date": "2026-10-27",
+   "url": "https://www.screener.in/company/BAJAJ-AUTO/consolidated/",
+   "primary": false
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 64.55,
+   "cur_val": "125.04",
+   "prev_val": "75.99",
+   "unit": "rupi / rupees",
+   "date": "2026-10-27",
+   "url": "https://www.screener.in/company/BAJAJ-AUTO/consolidated/",
+   "primary": false
+  },
+  "guidance": null,
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Consolidated EPS from Screener (not primary); half-year is my sum of quarters (115.41+125.04 vs 79.15+75.99). Consolidated net profit attributable to owners, quarter: 3,436.10 vs 2,122.03 crore (+61.9%; Autocar Professional, 27 Oct 2026). Screener's profit line (incl. minorities) shows 3,384 vs 2,122 for the quarter and 6,573 vs 4,332 for the half-year (+51.7%). EPS grows faster than profit, consistent with the July 2026 buyback mentioned in the existing report. STANDALONE (no KTM): quarter PAT 3,353.76 vs 2,479-2,484 crore (+35%), half-year 6,336.60 vs 4,575.72 (+38.5%) - sources differ slightly on the year-ago quarter (2,479 / 2,480 / 2,484). IMPORTANT: consolidated growth is inflated by an ADDED business, not organic: KTM has been consolidated since November 2025 (per the existing report; consolidated revenue +59% vs standalone +34%). Standalone +35-38% is the better guide to like-for-like growth; news cites favourable currency and exports +40% as drivers. No EPS/profit guidance found. No exceptional items reported in the summaries read. Nothing lost or sold. Company press release and BSE call transcript (AnnPdfOpen c7171a79...) could not be opened: permission request timed out."
+ },
+ "BEL": {
+  "metric": "net profit",
+  "ytd": {
+   "tr": "Nisan-Eylül 2026",
+   "en": "April-September 2026",
+   "pct": 15.01,
+   "cur_val": "2,594.90",
+   "prev_val": "2,256.21",
+   "unit": "crore rupi (10 milyon rupi) / crore rupees",
+   "date": "2026-10-30",
+   "url": "https://www.freepressjournal.in/business/bharat-electronics-q2-fy27-consolidated-profit-jumps-1968-to-154037-crore",
+   "primary": false
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 19.67,
+   "cur_val": "1,540.37",
+   "prev_val": "1,287.16",
+   "unit": "crore rupi (10 milyon rupi) / crore rupees",
+   "date": "2026-10-30",
+   "url": "https://www.freepressjournal.in/business/bharat-electronics-q2-fy27-consolidated-profit-jumps-1968-to-154037-crore",
+   "primary": false
+  },
+  "guidance": null,
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Consolidated net profit from Free Press Journal (30 Oct 2026), a news summary of the filing. Consolidated EPS: quarter 2.11 vs 1.76 (+19.9%); half-year from Screener quarters 1.44+2.11=3.55 vs 1.33+1.76=3.09 (+14.9%). Standalone half-year PAT 2,589 vs 2,255 crore (+14.8%), EPS 3.54 vs 3.09 (call summary, compoundingai.in). Half-year revenue +25.8%, so profit grew much more slowly than revenue. No PAT/EPS guidance: on the 30 Oct 2026 call management reaffirmed FY27 revenue growth of 15%+ (another summary says 15-20%), EBITDA margin around 28%, order inflow of at least 25,000 crore excluding QRSAM (50,000+ with it), R&D 2,200+ crore, capex about 1,200 crore (news summaries, not the transcript). Management said the strong first half was partly timing: deliveries pulled forward and spread more evenly instead of loaded into Q4 - so half-year revenue growth should not be extrapolated. No exceptional items, departed business or lasting deterioration reported. BSE results PDF and transcript could not be opened."
+ },
+ "NESTLEIND": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Nisan-Eylül 2026",
+   "en": "April-September 2026",
+   "pct": 41.8,
+   "cur_val": "10.38",
+   "prev_val": "7.32",
+   "unit": "rupi / rupees",
+   "date": "2026-10-15",
+   "url": "https://www.freepressjournal.in/business/nestl-india-reports-standalone-q2-fy27-profit-of-102677-crore-up-363-year-on-year",
+   "primary": false
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 36.41,
+   "cur_val": "5.32",
+   "prev_val": "3.90",
+   "unit": "rupi / rupees",
+   "date": "2026-10-15",
+   "url": "https://www.freepressjournal.in/business/nestl-india-reports-standalone-q2-fy27-profit-of-102677-crore-up-363-year-on-year",
+   "primary": false
+  },
+  "guidance": null,
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "STANDALONE figures (the company's headline basis; Screener also shows standalone only) from Free Press Journal's summary of the filing (15 Oct 2026). Net profit: quarter 1,026.77 vs 753.20 crore (+36.3%), half-year 2,001.89 vs 1,412.43 (+41.7%). Screener shows EPS 3.91 for the year-ago quarter (article: 3.90). This year's profit is AFTER exceptional charges of 36.9 crore in the quarter and 99.2 crore in the half-year (mainly past service cost on employee benefits and restructuring), so underlying growth is slightly higher; the company gives no adjusted growth figure, and I could not check whether the year-ago periods had exceptional items. The year-ago base was weak (Screener: June 2025 quarter 659, Sept 2025 quarter 753 crore; fiscal 2026 EPS 18.38 vs 17.19, +6.9%), so +42% is partly recovery: sales +20.5% with material cost down from 45.5% to 43.1% of sales (existing report). No guidance; chairman notes rising food inflation, cocoa volatile, coffee and wheat range-bound. Nothing departed, no lasting deterioration reported. Company press release on BSE (AnnPdfOpen 5531c097...) could not be opened: permission request timed out."
+ },
+ "HAL": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Nisan-Eylül 2026",
+   "en": "April-September 2026",
+   "pct": 15.47,
+   "cur_val": "52.71",
+   "prev_val": "45.65",
+   "unit": "rupi / rupees",
+   "date": "2026-11-12",
+   "url": "https://www.freepressjournal.in/business/hal-q2-earnings-soar-to-new-heights-net-profit-jumps-1548-as-revenue-crosses-13100-crore",
+   "primary": false
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 15.95,
+   "cur_val": "28.94",
+   "prev_val": "24.96",
+   "unit": "rupi / rupees",
+   "date": "2026-11-12",
+   "url": "https://www.businesstoday.in/markets/stocks/story/hal-q2-earnings-net-profit-rises-to-rs-1839-crore-revenue-up-15-567041-2026-11-12",
+   "primary": false
+  },
+  "guidance": null,
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Results published today (12 Nov 2026); only news summaries could be read, no company document. Consolidated half-year: net profit 3,525.30 vs 3,052.82 crore (+15.48%), basic EPS 52.71 vs 45.65 (Free Press Journal; the article labels these as Q2 but they are the half-year: they equal Screener Q1 1,590 + Q2 1,936 and EPS 23.77 + 28.94; half-year revenue 13,128 crore). Consolidated quarter: net profit 1,936 vs 1,669 crore (+16.0%, Sahi), EPS 28.94 vs 24.96 (Business Today). Business Today's headline net profit 1,839 vs 1,662 crore (+10.6%) is evidently standalone. EBITDA margin 22.8% vs 23.5%. No profit/EPS guidance: news reports (Sahi, 18 May and 4 Aug 2026, unnamed management) give FY27 revenue growth of 10-12% and EBITDA margin of 30-31%, and 20 LCA Mk1A deliveries in FY27; half-year revenue growth (+14.7%) is above that. No exceptional items, departed business or lasting deterioration reported. Screener still showed June 2026 as the last quarter. BSE PDFs could not be opened."
+ },
+ "HCLTECH": {
+  "metric": "net profit",
+  "ytd": {
+   "tr": "Nisan-Eylül 2026",
+   "en": "April-September 2026",
+   "pct": 20.8,
+   "cur_val": "9,758",
+   "prev_val": "8,078",
+   "unit": "crore rupi (10 milyon rupi) / crore rupees",
+   "date": "2026-10-12",
+   "url": "https://www.screener.in/company/HCLTECH/consolidated/",
+   "primary": false
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 21.2,
+   "cur_val": "5,132",
+   "prev_val": "4,235",
+   "unit": "crore rupi (10 milyon rupi) / crore rupees",
+   "date": "2026-10-12",
+   "url": "https://www.hcltech.com/press-releases/hcltech-delivers-strong-q2-led-record-deal-bookings-33-billion",
+   "primary": true
+  },
+  "guidance": null,
+  "adjusted": {
+   "what_tr": "Geçen yılın aynı çeyreğinde (Temmuz-Eylül 2025) faaliyet kârı marjını 0,55 puan düşüren yeniden yapılanma gideri vardı; baz düşük. Şirket bu gider hariç net kâr ya da büyüme rakamı vermiyor.",
+   "what_en": "The year-ago quarter (July-September 2025) included a restructuring cost that cut the EBIT margin by 55 basis points, so the base is low. The company gives no net profit or growth figure excluding it.",
+   "ytd_pct": null,
+   "quarter_pct": null,
+   "url": "https://www.hcltech.com/sites/default/files/document/open/quarter-results/2025-10/HCLTech_Q2_FY26_Investor_Release.pdf"
+  },
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Quarter: company press release (12 Oct 2026) states net income 5,132 crore, +21.2% YoY; year-ago 4,235 crore is from the company's Q2 FY26 investor release. Half-year is my sum of quarters, not a company-stated figure: FY27 4,626 + 5,132 = 9,758; FY26 3,843 + 4,235 = 8,078 (Q1 FY26 3,843 and Q2 FY26 4,235 from the Q2 FY26 investor release; Q1 FY27 4,626 from Screener; Screener shows 3,844/4,236). Screener quarterly EPS: 18.91 vs 15.61 (+21.1%), half-year 35.95 vs 29.77 (+20.8%). Company does not publish quarterly EPS in the release (only LTM diluted EPS; a news site quoted LTM EPS 70.22, +12.2% YoY, vs 62.57 a year earlier - LTM growth is much lower than the quarter's because Q3 FY26 was weak; I did not verify the cause this session). No EPS guidance: FY27 revenue growth 2.5-4% in constant currency (services 3-4%), EBIT margin 17.5-18.5%. Dividend 12 rupees per share for the quarter. HCL Software revenue fell YoY (2,709 vs 2,826 crore, news summary). No client loss or divestiture found. BSE transcript PDF and ticker.finology.in could not be opened."
+ },
+ "INFY": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Nisan-Eylül 2026",
+   "en": "April-September 2026",
+   "pct": 11.77,
+   "cur_val": "38.46",
+   "prev_val": "34.41",
+   "unit": "rupi / rupees",
+   "date": "2026-10-23",
+   "url": "https://www.infosys.com/investors/reports-filings/quarterly-results/2026-2027/q2/documents/ifrs-inr-press-release.pdf",
+   "primary": true
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 8.79,
+   "cur_val": "19.30",
+   "prev_val": "17.74",
+   "unit": "rupi / rupees",
+   "date": "2026-10-23",
+   "url": "https://www.infosys.com/investors/reports-filings/quarterly-results/2026-2027/q2/documents/ifrs-inr-press-release.pdf",
+   "primary": true
+  },
+  "guidance": null,
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Diluted EPS from the company's IFRS INR press release (23 Oct 2026). Net profit attributable to owners grew less than EPS: quarter 7,823 vs 7,364 crore (+6.2%), half-year 15,592 vs 14,285 crore (+9.1%); the gap is the lower share count (the existing report cites the buyback completed Dec 2025; not re-read this session). No EPS guidance: FY27 guidance is revenue growth of 1-2% in constant currency (cut from 1.5-3% per the existing report) and operating margin 20-22%. Release mentions no one-off items, no client loss or exit. Interim dividend 26 rupees per share (+13%). BSE PDF links (call transcript) could not be opened: permission request timed out."
+ }
+}

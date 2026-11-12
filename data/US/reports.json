@@ -58,6 +58,14 @@
     "Gains on loan sales and sale volumes under the new partnership",
     "Whether return on equity stays above 15%"
    ]
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %0,0 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 (ana ortaklık net kârı) %−35,3; Temmuz-Eylül 2026 çeyreği (zarar) %−100,0. Formül zaten sıfır büyüme varsayıyor; indirilecek bir şey yok.",
+    "en": "The formula gave growth of 0.0% a year. Latest figures (earnings per share, year on year): January-September 2026 (net income to common) −35.3%; July-September 2026 quarter (a loss) −100.0%. The formula already assumes zero growth; there is nothing to lower."
+   },
+   "per": "2026-Q3"
   }
  },
  "WU": {
@@ -275,6 +283,14 @@
     "Return on equity and return on invested capital",
     "Cash and the pace of buybacks"
    ]
+  },
+  "growth": {
+   "g": 2.6,
+   "basis": {
+    "tr": "Formül yılda %5,1 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): 2026 mali yılının ilk yarısı (Şubat-Temmuz 2026) %−18,0 (şirketin düzeltilmiş rakamı; açıklanan %2,4); Mayıs-Temmuz 2026 çeyreği (mali 2. çeyrek) %−25,5; 2026 mali yılı için şirket beklentisi (vergi öncesi kâr; hisse başına kâr beklentisi yok) %−4,8. Düzeltme: Önceki yılın maliyetlerine ait 7 milyon dolarlık gümrük vergisi (IEEPA) iadesi hariç: ilk yarıda hisse başına kâr 1,73 dolar (önceki yıl 2,11), vergi öncesi kâr 28,5 milyon dolar (34,9 milyon). En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %2,6.",
+    "en": "The formula gave growth of 5.1% a year. Latest figures (earnings per share, year on year): first half of fiscal 2026 (February-July 2026) −18.0% (the company's adjusted figure; reported 2.4%); May-July 2026 quarter (fiscal Q2) −25.5%; company guidance for fiscal 2026 (pre-tax income; no EPS guidance) −4.8%. Adjustment: Excluding a 7 million dollar tariff (IEEPA) refund relating to prior-year costs: first-half EPS of 1.73 dollars (2.11 a year earlier), pre-tax income of 28.5 million dollars (34.9 million). The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 2.6%."
+   },
+   "per": "2026-Q2"
   }
  },
  "CHCI": {
@@ -397,6 +413,16 @@
     "t": "SEC: Synchrony 3Ç26 sonuç açıklaması (20 Eki 2026)",
     "te": "SEC: Synchrony 3Q26 earnings release (20 Oct 2026)",
     "u": "https://www.sec.gov/Archives/edgar/data/0001601712/000160171226000040/earningsrelease3q26.htm"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: Ocak-Eylül 2026",
+    "te": "Source for the growth judgment: January-September 2026",
+    "u": "https://www.sec.gov/Archives/edgar/data/0001601712/000160171226000043/syf-20260930.htm"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: 2026 yılı için şirket beklentisi",
+    "te": "Source for the growth judgment: company guidance for 2026",
+    "u": "https://finsee.ai/earnings/syf/2026/q3/en/"
    }
   ],
   "en": {
@@ -417,6 +443,14 @@
     "Return on equity",
     "Price: the margin-of-safety threshold"
    ]
+  },
+  "growth": {
+   "g": 2.2,
+   "basis": {
+    "tr": "Formül yılda %4,4 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 %4,2; Temmuz-Eylül 2026 çeyreği %−6,3; 2026 yılı için şirket beklentisi %2,4. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %2,2.",
+    "en": "The formula gave growth of 4.4% a year. Latest figures (earnings per share, year on year): January-September 2026 4.2%; July-September 2026 quarter −6.3%; company guidance for 2026 2.4%. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 2.2%."
+   },
+   "per": "2026-Q3"
   }
  },
  "SMCI": {
@@ -556,6 +590,14 @@
     "Dividend and debt",
     "Whether return on equity stays above 15% in a calm period"
    ]
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %3,8 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 %50,3 (şirketin düzeltilmiş rakamı; açıklanan %46,8); Temmuz-Eylül 2026 çeyreği %68,6 (şirketin düzeltilmiş rakamı; açıklanan %91,9). Düzeltme: Şirketin normalleştirilmiş düzeltilmiş hisse başına kârı (kıdem, işlem giderleri, pay bazlı ödemeler ve iş satışı kazançları hariç; 2025'in dokuz ayında 67 milyon dolarlık RFQ-hub satış kazancı vardı): dokuz ayda 5,83 (önceki yıl 3,88), çeyrekte 1,77 (1,05). En düşüğü, enflasyondan arındırılınca, %44,9. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 3.8% a year. Latest figures (earnings per share, year on year): January-September 2026 50.3% (the company's adjusted figure; reported 46.8%); July-September 2026 quarter 68.6% (the company's adjusted figure; reported 91.9%). Adjustment: Company normalized adjusted EPS (excludes severance, transaction costs, share-based pay and gains on business sales; nine months 2025 included a 67 million dollar gain on the sale of RFQ-hub): 5.83 for nine months (3.88 a year earlier), 1.77 for the quarter (1.05). The lowest, after inflation, is 44.9%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q3"
   }
  },
  "XP": {
@@ -615,6 +657,14 @@
     "Capital distribution (buybacks, dividends)",
     "The real/dollar exchange rate"
    ]
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %6,8 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Haziran 2026 (iki çeyreğin toplamı) %8,6; Nisan-Haziran 2026 çeyreği %8,5. En düşüğü, enflasyondan arındırılınca, %4,6. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 6.8% a year. Latest figures (earnings per share, year on year): January-June 2026 (sum of two quarters) 8.6%; April-June 2026 quarter 8.5%. The lowest, after inflation, is 4.6%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q2"
   }
  },
  "OMF": {
@@ -655,6 +705,11 @@
     "t": "SEC: OneMain 3Ç26 sonuç açıklaması (30 Eki 2026)",
     "te": "SEC: OneMain 3Q26 earnings release (30 Oct 2026)",
     "u": "https://www.sec.gov/Archives/edgar/data/0001584207/000158420726000038/exhibit991earningsreleaseo.htm"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: Ocak-Eylül 2026",
+    "te": "Source for the growth judgment: January-September 2026",
+    "u": "https://www.sec.gov/Archives/edgar/data/0001584207/000158420726000041/omf-20260930.htm"
    }
   ],
   "en": {
@@ -676,6 +731,14 @@
     "Whether earnings cover the dividend",
     "Return on equity"
    ]
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %0,0 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 %−5,9 (şirketin düzeltilmiş rakamı; açıklanan %0,2); Temmuz-Eylül 2026 çeyreği %−20,5 (şirketin düzeltilmiş rakamı; açıklanan %−4,2). Düzeltme: Şirketin düzeltilmiş (C&I) hisse başına kârı; borç geri alım zararı (3. çeyrek 2025'te 39 milyon dolar) ve yeniden yapılanma giderleri hariç: çeyrekte 1,51 (önceki yıl 1,90); dokuz ayda 4,77 (5,07; çeyreklerin toplamı). Formül zaten sıfır büyüme varsayıyor; indirilecek bir şey yok.",
+    "en": "The formula gave growth of 0.0% a year. Latest figures (earnings per share, year on year): January-September 2026 −5.9% (the company's adjusted figure; reported 0.2%); July-September 2026 quarter −20.5% (the company's adjusted figure; reported −4.2%). Adjustment: Company C&I adjusted EPS, excluding losses on debt repurchases (39 million dollars in Q3 2025) and restructuring charges: 1.51 for the quarter (1.90 a year earlier); 4.77 for nine months (5.07; sum of quarters). The formula already assumes zero growth; there is nothing to lower."
+   },
+   "per": "2026-Q3"
   }
  },
  "TBBK": {
@@ -694,7 +757,7 @@
   "mgmt": "Temettü ödemiyor; kârını hisse geri alımına ayırıyor. Üçüncü çeyrekte yaklaşık 50 milyon dolarlık hisse geri alındı; hisse sayısı bir yılda 46,5 milyondan 41,1 milyona indi. Yönetim 2027'den 2028 başına kadar düzeltilmiş net kârın tamamına yakınını geri alıma ayırmayı planlıyor.",
   "latest": "30 Ekim 2026: Üçüncü çeyrekte hisse başına kâr 1,53 dolar, düzeltilmiş 1,47 dolar (+%24,6). Chime en geç Temmuz 2028'de ayrılacak. Bu yüzden 2027 hisse başına kâr beklentisi 8,10–8,30 dolardan 7,00–7,20 dolara indirildi; 2026 beklentisi (5,95–6,05 dolar) korundu. Net faiz marjı %3,75 (bir yıl önce %4,45).",
   "risks": [
-   "Fiyat güvenlik marjı için yetmiyor: formül yılda %24,5 büyüme veriyordu, okumada bulunanlar yüzünden %12,0 alındı. Ortak yoğunlaşması: Chime'ın ayrılışı 2027 kâr beklentisini yaklaşık %13 düşürdü. Başka bir büyük ortağın ayrılması benzer etki yapar.",
+   "Fiyat güvenlik marjı için yetmiyor: formül yılda %24,5 büyüme veriyordu, okumada bulunanlar yüzünden %12,1 alındı. Ortak yoğunlaşması: Chime'ın ayrılışı 2027 kâr beklentisini yaklaşık %13 düşürdü. Başka bir büyük ortağın ayrılması benzer etki yapar.",
    "Net faiz marjı daralıyor: bir yılda %4,45'ten %3,75'e.",
    "Kredi kalitesi: yakın izlemedeki krediler bir çeyrekte %14 artarak 166,5 milyon dolara çıktı; çoğu gayrimenkul köprü kredisi.",
    "Düzenleme: bankaların fintek ortaklıkları denetçilerin yakın izlemesinde; yeni kurallar maliyeti artırabilir.",
@@ -716,6 +779,11 @@
     "t": "Finviz (Earnings Whispers): The Bancorp 3Ç26 sonuçları ve Chime'ın ayrılışı (30 Eki 2026)",
     "te": "Finviz (Earnings Whispers): The Bancorp 3Q26 results and Chime's exit (30 Oct 2026)",
     "u": "https://finviz.com/news/412637/the-bancorp-narrowly-misses-as-chime-exit-forces-steep-2027-guidance-reset"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: Ocak-Eylül 2026",
+    "te": "Source for the growth judgment: January-September 2026",
+    "u": "https://investors.thebancorp.com/press-releases/news-details/2026/The-Bancorp-Reports-3Q-2026-EPS-of-1-53-ROA-of-2-51-and-ROE-of-36-0-Powered-by-Continuous-and-Sustained-Growth-in-Fintech-Fees/default.aspx"
    }
   ],
   "en": {
@@ -725,7 +793,7 @@
    "mgmt": "It pays no dividend; it puts its profit into share buybacks. About 50 million dollars of shares were bought back in the third quarter; the share count fell from 46.5 million to 41.1 million in a year. Management plans to put nearly all of adjusted net profit into buybacks from 2027 to early 2028.",
    "latest": "30 October 2026: Third-quarter earnings per share were 1.53 dollars, or 1.47 dollars adjusted (+24.6%). Chime will leave by July 2028 at the latest. Because of this, the 2027 earnings-per-share outlook was cut from 8.10–8.30 dollars to 7.00–7.20; the 2026 outlook (5.95–6.05 dollars) was kept. Net interest margin was 3.75% (4.45% a year earlier).",
    "risks": [
-    "The price leaves too little margin of safety: the formula gave growth of 24.5% a year; because of what the reading found, 12.0% was used. Partner concentration: Chime's departure cut the 2027 earnings outlook by about 13%. The departure of another large partner would have a similar effect.",
+    "The price leaves too little margin of safety: the formula gave growth of 24.5% a year; because of what the reading found, 12.1% was used. Partner concentration: Chime's departure cut the 2027 earnings outlook by about 13%. The departure of another large partner would have a similar effect.",
     "Net interest margin is narrowing: from 4.45% to 3.75% in a year.",
     "Credit quality: criticised loans rose 14% in one quarter to 166.5 million dollars; most are real estate bridge loans.",
     "Regulation: banks' fintech partnerships are closely watched by supervisors; new rules may raise costs.",
@@ -739,10 +807,10 @@
    ]
   },
   "growth": {
-   "g": 12.0,
+   "g": 12.1,
    "basis": {
-    "tr": "Formül geçmiş beş yılın eğilimini (yılda %24,5) on yıl ileri taşıyordu. Ama önemli bir ortak (Chime) en geç Temmuz 2028'de ayrılıyor ve bu geçmiş büyümenin içinde. Chime'ın payı açıklanmadığı için geçmiş büyüme Chime hariç hesaplanamıyor; onun yerine şirketin ayrılığı da içeren kendi beklentisi kullanıldı: hisse başına kâr 2026'da 5,95–6,05, 2028'de 8,00–8,20 dolar. Bu, yılda yaklaşık %16,2, enflasyondan arındırılınca %12,0 büyüme demek.",
-    "en": "The formula carried the five-year trend (24.5% a year) forward for ten years. But an important partner (Chime) leaves by July 2028 at the latest, and it is part of that past growth. Chime's share is not disclosed, so past growth cannot be calculated without it; the company's own outlook, which includes the departure, was used instead: earnings per share of 5.95–6.05 dollars in 2026 and 8.00–8.20 in 2028. That is about 16.2% a year, or 12.0% after inflation."
+    "tr": "Formül yılda %24,5 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 %20,6; Temmuz-Eylül 2026 çeyreği %29,7. Önemli bir ortak (Chime) en geç Temmuz 2028'de ayrılıyor; geçmiş büyümenin içinde o da var. Chime'ın payı açıklanmadığı için geçmiş büyüme Chime hariç hesaplanamıyor. Kalan işin büyümesi şirketin ayrılığı da içeren kendi beklentisinden: hisse başına kâr 2026'da 5,95–6,05, 2028'de 8,00–8,20 dolar: yılda %16,2, enflasyondan arındırılınca %12,1. Geçmiş büyüme yerine bu hız kullanıldı: %12,1.",
+    "en": "The formula gave growth of 24.5% a year. Latest figures (earnings per share, year on year): January-September 2026 20.6%; July-September 2026 quarter 29.7%. An important partner (Chime) leaves by July 2028 at the latest; it is part of past growth. Chime's share is not disclosed, so past growth cannot be calculated without it. Growth of the remaining business, from the company's own outlook, which includes the departure: earnings per share of 5.95–6.05 dollars in 2026 and 8.00–8.20 in 2028: 16.2% a year, 12.1% after inflation. This rate was used instead of past growth: 12.1%."
    },
    "per": "2026-Q3"
   }
@@ -843,6 +911,14 @@
     "Net debt/EBITDA",
     "Whether free cash flow covers the dividend"
    ]
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %0,0 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 %31,6; Temmuz-Eylül 2026 çeyreği %17,9. Formül zaten sıfır büyüme varsayıyor; indirilecek bir şey yok.",
+    "en": "The formula gave growth of 0.0% a year. Latest figures (earnings per share, year on year): January-September 2026 31.6%; July-September 2026 quarter 17.9%. The formula already assumes zero growth; there is nothing to lower."
+   },
+   "per": "2026-Q3"
   }
  },
  "GPRK": {
@@ -921,6 +997,16 @@
     "t": "MacTrast: Apple 2026 mali yılı 4. çeyrek sonuçları (2 Kas 2026)",
     "te": "MacTrast: Apple fiscal 2026 fourth-quarter results (2 Nov 2026)",
     "u": "https://www.mactrast.com/?p=173782"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: Eylül 2026'da biten mali yıl",
+    "te": "Source for the growth judgment: fiscal year ended September 2026",
+    "u": "https://last10k.com/sec-filings/aapl/0000320193-26-000024.htm"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: şirket belgesi",
+    "te": "Source for the growth judgment: company document",
+    "u": "https://apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results"
    }
   ],
   "en": {
@@ -941,6 +1027,14 @@
     "iPhone sales",
     "Price: the margin-of-safety threshold"
    ]
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %6,8 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Eylül 2026'da biten mali yıl %20,4; Temmuz-Eylül 2026 çeyreği %10,8 (şirketin düzeltilmiş rakamı; açıklanan %13,5). Düzeltme: Gümrük vergisi iadeleri çeyrekte hisse başına kâra 0,05 dolar ekledi (şirketin açıklaması). İade hariç çeyrek kârı 2,05 dolar eder; büyüme hesabı benim. En düşüğü, enflasyondan arındırılınca, %6,8. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 6.8% a year. Latest figures (earnings per share, year on year): fiscal year ended September 2026 20.4%; July-September 2026 quarter 10.8% (the company's adjusted figure; reported 13.5%). Adjustment: Tariff refunds added 0.05 dollars to diluted EPS in the quarter (company statement). Excluding them quarterly EPS is 2.05 dollars; the growth figure is my arithmetic. The lowest, after inflation, is 6.8%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q4"
   }
  },
  "NVDA": {
@@ -981,6 +1075,11 @@
     "t": "Unite.AI: NVIDIA 2027 mali yılı 2. çeyrek sonuçları (26 Ağu 2026)",
     "te": "Unite.AI: NVIDIA fiscal 2027 second-quarter results (26 Aug 2026)",
     "u": "https://www.unite.ai/nvidia-posts-96-2b-quarter-as-data-center-revenue-hits-89b/"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: Şubat-Temmuz 2026 (2027 mali yılının ilk yarısı)",
+    "te": "Source for the growth judgment: February-July 2026 (first half of fiscal 2027)",
+    "u": "https://nvidianews.nvidia.com/_gallery/download_pdf/6a8f4ad73d6332b41f76ab70"
    }
   ],
   "en": {
@@ -1002,6 +1101,14 @@
     "Capital spending plans of the large customers",
     "Price: the margin-of-safety threshold"
    ]
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %25,0 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Şubat-Temmuz 2026 (2027 mali yılının ilk yarısı) %129,8 (şirketin düzeltilmiş rakamı; açıklanan %163,6); Mayıs-Temmuz 2026 çeyreği %119,8 (şirketin düzeltilmiş rakamı; açıklanan %127,8). Düzeltme: Şirketin düzeltilmiş (non-GAAP) kârı hisse senedi yatırımlarından gelen kazancı (çeyrekte vergi öncesi 7,77 milyar dolar; geçen yıl 2,25 milyar) ve satın alma giderlerini dışarıda bırakır: çeyrekte 2,22 dolar (geçen yıl 1,01), altı ayda 4,09 dolar (geçen yıl 1,78). En düşüğü, enflasyondan arındırılınca, %112,0. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 25.0% a year. Latest figures (earnings per share, year on year): February-July 2026 (first half of fiscal 2027) 129.8% (the company's adjusted figure; reported 163.6%); May-July 2026 quarter 119.8% (the company's adjusted figure; reported 127.8%). Adjustment: The company's non-GAAP EPS excludes gains on equity securities (7.77 billion dollars pre-tax in the quarter; 2.25 billion a year ago) and acquisition-related costs: 2.22 dollars in the quarter (1.01 a year ago), 4.09 dollars in six months (1.78 a year ago). The lowest, after inflation, is 112.0%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q2"
   }
  },
  "MSFT": {
@@ -1041,6 +1148,11 @@
     "t": "AI Weekly: Microsoft 2027 mali yılı 1. çeyrek sonuçları (28 Eki 2026)",
     "te": "AI Weekly: Microsoft fiscal 2027 first-quarter results (28 Oct 2026)",
     "u": "https://aiweekly.co/alerts/microsoft-q1-revenue-hits-923b-azure-up-48-as-capex-jumps-to-394b-with-175b"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: Temmuz-Eylül 2026 çeyreği (2027 mali yılının ilk çeyreği)",
+    "te": "Source for the growth judgment: July-September 2026 quarter (first quarter of fiscal 2027)",
+    "u": "https://www.jamessharp.co.uk/market-news/microsoft-announces-first-quarter-results/"
    }
   ],
   "en": {
@@ -1061,6 +1173,14 @@
     "Return on invested capital",
     "Price: the margin-of-safety threshold"
    ]
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %13,6 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Temmuz-Eylül 2026 çeyreği (2027 mali yılının ilk çeyreği) %18,0 (şirketin düzeltilmiş rakamı; açıklanan %32,3); Temmuz-Eylül 2026 çeyreği (2027 mali yılının ilk çeyreği) %18,0 (şirketin düzeltilmiş rakamı; açıklanan %32,3). Düzeltme: OpenAI yatırımlarının etkisi: bu çeyrekte net kazanç hisse başına kâra 0,03 dolar ekledi, geçen yıl net zarar 0,41 dolar düşürmüştü. Şirketin bunu dışarıda bırakan rakamı 4,89 dolar (geçen yıl 4,13). En düşüğü, enflasyondan arındırılınca, %13,8. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 13.6% a year. Latest figures (earnings per share, year on year): July-September 2026 quarter (first quarter of fiscal 2027) 18.0% (the company's adjusted figure; reported 32.3%); July-September 2026 quarter (first quarter of fiscal 2027) 18.0% (the company's adjusted figure; reported 32.3%). Adjustment: Impact of the OpenAI investments: net gains added 0.03 dollars to EPS this quarter; a year ago net losses cut it by 0.41 dollars. The company's figure excluding this is 4.89 dollars (4.13 a year ago). The lowest, after inflation, is 13.8%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2027-Q1"
   }
  },
  "GOOGL": {
@@ -1101,6 +1221,11 @@
     "t": "AI Weekly: Alphabet 3Ç26 sonuçları (28 Eki 2026)",
     "te": "AI Weekly: Alphabet 3Q26 results (28 Oct 2026)",
     "u": "https://aiweekly.co/alerts/alphabet-posts-1276b-q3-with-google-cloud-up-103-to-307b-as-2027-capex-set-to"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: Ocak-Eylül 2026",
+    "te": "Source for the growth judgment: January-September 2026",
+    "u": "https://www.sec.gov/Archives/edgar/data/0001652044/000165204426000080/googexhibit991q32026.htm"
    }
   ],
   "en": {
@@ -1122,6 +1247,14 @@
     "Capital spending and free cash flow",
     "Price: the margin-of-safety threshold"
    ]
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %16,4 büyüme veriyordu. Son çeyrekte hisse başına kâr %26,1 düştü, dokuz ayda %104,4 arttı; ikisini de hisse senedi yatırımlarının değerlemesi belirliyor (son çeyrekte 8,2 milyar dolar zarar, bir yıl önce 12,8 milyar dolar kazanç). Şirket düzeltilmiş kâr açıklamıyor. Bu rakamlar işin büyümesini göstermediği için kullanılmadı; hasılat çeyrekte %25 arttı ve büyümenin durduğunu gösteren bir veri yok. Hız indirilmedi.",
+    "en": "The formula gave growth of 16.4% a year. Earnings per share fell 26.1% in the latest quarter and rose 104.4% over nine months; both are driven by the valuation of equity investments (an 8.2 billion dollar loss in the latest quarter, a 12.8 billion gain a year earlier). The company publishes no adjusted profit. Because these figures do not show the growth of the business, they were not used; revenue rose 25% in the quarter and nothing shows that growth has stopped. The rate was not lowered."
+   },
+   "per": "2026-Q3"
   }
  },
  "META": {
@@ -1162,6 +1295,11 @@
     "t": "Meta: 3Ç26 sonuç açıklaması (21 Eki 2026)",
     "te": "Meta: 3Q26 earnings release (21 Oct 2026)",
     "u": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: Ocak-Eylül 2026",
+    "te": "Source for the growth judgment: January-September 2026",
+    "u": "https://finviz.com/news/405782/meta-reports-third-quarter-2026-results"
    }
   ],
   "en": {
@@ -1183,6 +1321,14 @@
     "Reality Labs loss",
     "Price: the margin-of-safety threshold"
    ]
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %18,8 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 %39,8; Temmuz-Eylül 2026 çeyreği %264,8. En düşüğü, enflasyondan arındırılınca, %34,8. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 18.8% a year. Latest figures (earnings per share, year on year): January-September 2026 39.8%; July-September 2026 quarter 264.8%. The lowest, after inflation, is 34.8%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q3"
   }
  },
  "AVGO": {
@@ -1222,6 +1368,11 @@
     "t": "StorageNewsletter: Broadcom 2026 mali yılı 3. çeyrek sonuçları (9 Eyl 2026)",
     "te": "StorageNewsletter: Broadcom fiscal 2026 third-quarter results (9 Sep 2026)",
     "u": "https://www.storagenewsletter.com/2026/09/09/broadcom-fiscal-3q26-financial-results/"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: Kasım 2025-Ağustos 2026 (mali yılın ilk dokuz ayı)",
+    "te": "Source for the growth judgment: November 2025-August 2026 (first nine months of the fiscal year)",
+    "u": "https://www.sec.gov/Archives/edgar/data/0001730168/000173016826000076/avgo-08022026x8kxex99.htm"
    }
   ],
   "en": {
@@ -1242,6 +1393,14 @@
     "Free cash flow margin",
     "Price: the margin-of-safety threshold"
    ]
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %10,7 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Kasım 2025-Ağustos 2026 (mali yılın ilk dokuz ayı) %101,7; Mayıs-Ağustos 2026 çeyreği (2 Ağustos'ta bitti) %215,3. En düşüğü, enflasyondan arındırılınca, %94,5. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 10.7% a year. Latest figures (earnings per share, year on year): November 2025-August 2026 (first nine months of the fiscal year) 101.7%; May-August 2026 quarter (ended 2 August) 215.3%. The lowest, after inflation, is 94.5%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q3"
   }
  },
  "LLY": {
@@ -1301,6 +1460,14 @@
     "Gross margin",
     "Price: the margin-of-safety threshold"
    ]
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %25,0 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 %46,4 (şirketin düzeltilmiş rakamı; açıklanan %50,5); 2026 yılı için şirket beklentisi (düzeltilmiş hisse başına kâr) %46,6. Düzeltme: Şirketin düzeltilmiş (non-GAAP) hisse başına kârı: satın alınan maddi olmayan varlıkların itfası, değer düşüklüğü ve yeniden yapılanma giderleri ile 2025'teki ABD vergi yasası etkisi (hisse başına 0,39 dolar) hariç. Satın alınan Ar-Ge giderleri (3. çeyrekte hisse başına 4,57 dolar; geçen yıl 0,71) düzeltilmiş kârın içinde kalır. Son çeyrek kullanılmadı: satın alınan araştırma projelerinin gideri hisse başına 4,57 dolar tuttu (bir yıl önce 0,71); bu gider satın almaya bağlıdır ve çeyrekten çeyreğe çok oynar. Düzeltilmiş hisse başına kâr o çeyrekte %6,6 arttı. En düşüğü, enflasyondan arındırılınca, %41,2. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 25.0% a year. Latest figures (earnings per share, year on year): January-September 2026 46.4% (the company's adjusted figure; reported 50.5%); company guidance for 2026 (non-GAAP EPS) 46.6%. Adjustment: The company's non-GAAP EPS: excludes amortisation of acquired intangibles, impairment and restructuring charges and the 2025 US tax-law item (0.39 dollars a share). Acquired R&D charges (4.57 dollars a share in Q3; 0.71 a year earlier) stay inside non-GAAP earnings. The latest quarter was not used: acquired research charges came to 4.57 dollars per share (0.71 a year earlier); this cost depends on acquisitions and swings widely from quarter to quarter. Adjusted earnings per share rose 6.6% in that quarter. The lowest, after inflation, is 41.2%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q3"
   }
  },
  "AMAT": {
@@ -1377,6 +1544,14 @@
     "China's share of revenue and new export rules",
     "Price: the margin-of-safety threshold"
    ]
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %3,9 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): 2026 mali yılının ilk dokuz ayı (Kasım 2025-Temmuz 2026) %20,4 (şirketin düzeltilmiş rakamı; açıklanan %46,6); Mayıs-Temmuz 2026 çeyreği (mali 3. çeyrek) %41,1 (şirketin düzeltilmiş rakamı; açıklanan %42,8); 2026 mali yılının 4. çeyreği için şirket beklentisi (yıllık beklenti yok) %85,3. Düzeltme: Stratejik yatırımların gerçekleşmemiş değer artışı (dokuz ayda 949 milyon dolar), ABD Ticaret Bakanlığı uzlaşması (253 milyon dolar gider) ve önceki yılın vergi kalemleri (738 ve 320 milyon dolar) hariç şirketin düzeltilmiş hisse başına kârı: dokuz ayda 8,73 (önceki yıl 7,25), çeyrekte 3,50 (2,48). En düşüğü, enflasyondan arındırılınca, %16,1. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 3.9% a year. Latest figures (earnings per share, year on year): first nine months of fiscal 2026 (November 2025-July 2026) 20.4% (the company's adjusted figure; reported 46.6%); May-July 2026 quarter (fiscal Q3) 41.1% (the company's adjusted figure; reported 42.8%); company guidance for fiscal 2026 Q4 only (no full-year guidance) 85.3%. Adjustment: Company non-GAAP EPS excluding unrealised gains on strategic investments (949 million dollars in nine months), the US Commerce Department settlement (253 million charge) and prior-year tax items (738 and 320 million): 8.73 for nine months (7.25 a year earlier), 3.50 for the quarter (2.48). The lowest, after inflation, is 16.1%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q3"
   }
  },
  "COST": {
@@ -1451,6 +1626,14 @@
     "New warehouse openings",
     "Price: the margin-of-safety threshold"
    ]
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %9,0 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Eylül 2025-Ağustos 2026 mali yılı (52 hafta) %14,0; Mayıs-Ağustos 2026 çeyreği (16 hafta) %15,0. En düşüğü, enflasyondan arındırılınca, %9,9. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 9.0% a year. Latest figures (earnings per share, year on year): fiscal year September 2025-August 2026 (52 weeks) 14.0%; May-August 2026 quarter (16 weeks) 15.0%. The lowest, after inflation, is 9.9%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q4"
   }
  },
  "CSCO": {
@@ -1525,6 +1708,14 @@
     "Growth in services and security revenue",
     "Price: the margin-of-safety threshold"
    ]
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %0,0 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): 2026 mali yılı (Temmuz 2026'da biten yıl) %13,6 (şirketin düzeltilmiş rakamı; açıklanan %30,6); Mayıs-Temmuz 2026 çeyreği (mali 4. çeyrek) %23,2 (şirketin düzeltilmiş rakamı; açıklanan %51,6); 2027 mali yılı için şirket beklentisi %21,0. Düzeltme: Yatırım kazançları (4. çeyrekte 869 milyon, yılda 1.398 milyon dolar; vergi öncesi), vergi kalemleri ve yeniden yapılanma gideri (yılda 693 milyon dolar) hariç şirketin düzeltilmiş hisse başına kârı: yılda 4,33 (önceki yıl 3,81), çeyrekte 1,22 (0,99). Formül zaten sıfır büyüme varsayıyor; indirilecek bir şey yok.",
+    "en": "The formula gave growth of 0.0% a year. Latest figures (earnings per share, year on year): fiscal year 2026 (year ended July 2026) 13.6% (the company's adjusted figure; reported 30.6%); May-July 2026 quarter (fiscal Q4) 23.2% (the company's adjusted figure; reported 51.6%); company guidance for fiscal 2027 21.0%. Adjustment: Company non-GAAP EPS excluding investment gains (869 million dollars in Q4, 1,398 million in the year, pre-tax), tax matters and restructuring charges (693 million in the year): 4.33 for the year (3.81 a year earlier), 1.22 for the quarter (0.99). The formula already assumes zero growth; there is nothing to lower."
+   },
+   "per": "2026-Q4"
   }
  },
  "HD": {
@@ -1606,6 +1797,14 @@
     "Net debt/EBITDA (threshold 3)",
     "Third-quarter results due on 17 November 2026"
    ]
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %0,0 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): 2026 mali yılının ilk yarısı (Şubat-Temmuz 2026) %0,7; Mayıs-Temmuz 2026 çeyreği (mali 2. çeyrek) %4,6; 2026 mali yılı için şirket beklentisi %2,0. Formül zaten sıfır büyüme varsayıyor; indirilecek bir şey yok.",
+    "en": "The formula gave growth of 0.0% a year. Latest figures (earnings per share, year on year): first half of fiscal 2026 (February-July 2026) 0.7%; May-July 2026 quarter (fiscal Q2) 4.6%; company guidance for fiscal 2026 2.0%. The formula already assumes zero growth; there is nothing to lower."
+   },
+   "per": "2026-Q2"
   }
  },
  "JNJ": {
@@ -1651,6 +1850,11 @@
     "t": "Finviz / Business Wire: Johnson & Johnson yumurtalık kanseri talk davaları için çözüm önerdi (27 Tem 2026)",
     "te": "Finviz / Business Wire: Johnson & Johnson announces a proposed resolution of ovarian talc litigation (27 Jul 2026)",
     "u": "https://finviz.com/news/373099/johnson-johnson-announces-a-proposed-resolution-of-ovarian-talc-litigation"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: Ocak-Eylül 2026",
+    "te": "Source for the growth judgment: January-September 2026",
+    "u": "https://s203.q4cdn.com/636242992/files/content_files/3Q26-Earnings-Press-Release-Final-with-attachments.pdf"
    }
   ],
   "en": {
@@ -1672,6 +1876,14 @@
     "Growth of the medical devices arm and the orthopaedics separation",
     "Price: the margin-of-safety threshold"
    ]
+  },
+  "growth": {
+   "g": 0.0,
+   "basis": {
+    "tr": "Formül yılda %1,8 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 %−1,7 (şirketin düzeltilmiş rakamı; açıklanan %−49,8); Temmuz-Eylül 2026 çeyreği %−7,5 (şirketin düzeltilmiş rakamı; açıklanan %−95,8); 2026 yılı için şirket beklentisi (düzeltilmiş hisse başına kâr) %2,9. Düzeltme: Talk davalarının önerilen çözümü için tek seferlik karşılık: dava kalemi 3. çeyrekte 5,52 milyar, dokuz ayda 6,12 milyar dolar gider. Geçen yılın dokuz ayında ise 6,89 milyar dolarlık dava geliri vardı. Düzeltilmiş hisse başına kâr: çeyrekte 2,59 (2,80), dokuz ayda 8,19 (8,33) dolar. Stelara ilacının patent koruması bitti; biyobenzerler pazara girdi. Satışı dokuz ayda 4,85 milyar dolardan 2,11 milyar dolara indi (−%56,4), 3. çeyrekte 716 milyon dolar (−%54,4). Ayrıca şirket ortopedi işini ayırmayı planlıyor; tarih açıklanmadı. Kalan işin büyümesi Kalan işin kârı ayrı açıklanmıyor. Rakam, Stelara kaybını içeren 2026 düzeltilmiş hisse başına kâr beklentisidir (11,05-11,15 dolar; 2025'te 10,79). Ortopedi hâlâ rakamların içinde: yılda %2,9, enflasyondan arındırılınca %0,0. Geçmiş büyüme yerine bu hız kullanıldı: %0,0.",
+    "en": "The formula gave growth of 1.8% a year. Latest figures (earnings per share, year on year): January-September 2026 −1.7% (the company's adjusted figure; reported −49.8%); July-September 2026 quarter −7.5% (the company's adjusted figure; reported −95.8%); company guidance for 2026 (adjusted EPS) 2.9%. Adjustment: One-time charge for the proposed talc litigation resolution: the litigation item was a 5.52 billion dollar expense in Q3 and 6.12 billion in the nine months. The nine months of last year had a 6.89 billion dollar litigation benefit. Adjusted EPS: 2.59 (2.80) in the quarter, 8.19 (8.33) dollars in the nine months. The Stelara medicine lost patent protection and biosimilars entered. Its sales fell from 4.85 billion to 2.11 billion dollars in the nine months (−56.4%), and were 716 million dollars in Q3 (−54.4%). The company also plans to separate its Orthopaedics business; no date is given. Growth of the remaining business, Profit of the remaining business is not disclosed. The figure is the 2026 adjusted EPS guidance, which already includes the Stelara loss (11.05-11.15 dollars; 10.79 in 2025). Orthopaedics is still inside the figures: 2.9% a year, 0.0% after inflation. This rate was used instead of past growth: 0.0%."
+   },
+   "per": "2026-Q3"
   }
  },
  "KO": {
@@ -1722,6 +1934,11 @@
     "t": "InvestmentNews: Coca-Cola'nın 20 milyar dolarlık vergi davası temyiz mahkemesinde (22 Haz 2026)",
     "te": "InvestmentNews: Coca-Cola's $20bn tax fight reaches federal appeals court this week (22 Jun 2026)",
     "u": "https://www.investmentnews.com/regulation-legal-compliance/coca-colas-20bn-tax-fight-reaches-federal-appeals-court-this-week/267091"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: Ocak-Eylül 2026",
+    "te": "Source for the growth judgment: January-September 2026",
+    "u": "https://last10k.com/sec-filings/ko/0001628280-26-067403.htm"
    }
   ],
   "en": {
@@ -1743,6 +1960,14 @@
     "The appeal ruling in the IRS case",
     "Price: the margin-of-safety threshold"
    ]
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %3,6 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 %13,0 (şirketin düzeltilmiş rakamı; açıklanan %14,0); Temmuz-Eylül 2026 çeyreği %11,0 (şirketin düzeltilmiş rakamı; açıklanan %8,0); 2026 yılı için şirket beklentisi (karşılaştırılabilir hisse başına kâr) %11,0. Düzeltme: Şirketin karşılaştırılabilir hisse başına kârı: 192 milyon dolarlık emeklilik planı tasfiye gideri, riskten korunma ve menkul kıymet değerlemeleri, Afrika şişeleme işine ilişkin değer düşüklüğü düzeltmeleri ve vergi kalemleri hariç. Çeyrekte 0,91 (0,82), dokuz ayda 2,74 (2,42) dolar. Kur etkisi hariç artış çeyrekte %9, dokuz ayda %11. Şişeleme işlerinin satışı: Hindistan (Mayıs 2025), Nijerya'daki bitmiş ürün işi (Ekim 2025) satıldı; Afrika şişeleme işinin satışının 2026'nın son çeyreğinde tamamlanması bekleniyor. Şirkete göre etkisi: 2026'da gelire yaklaşık 2 puan, hisse başına kâra yaklaşık 1 puan; son çeyrekte 4 ve 3 puan; 2027'de gelire yaklaşık 8, hisse başına kâra yaklaşık 2 puan. Kalan işin büyümesi Şirketin 2026 beklentisi: kur ve satılan/alınan işler hariç karşılaştırılabilir hisse başına kâr en az %9 artar. Satışları içeren beklenti (kur dahil) en az %11: yılda %9,0, enflasyondan arındırılınca %5,1. Bu, formülün hızından düşük değil; hız indirilmedi.",
+    "en": "The formula gave growth of 3.6% a year. Latest figures (earnings per share, year on year): January-September 2026 13.0% (the company's adjusted figure; reported 14.0%); July-September 2026 quarter 11.0% (the company's adjusted figure; reported 8.0%); company guidance for 2026 (comparable EPS) 11.0%. Adjustment: The company's comparable EPS: excludes a 192 million dollar pension settlement charge, hedge and securities mark-to-market, adjustments to the impairment on the Africa bottling operations and tax items. 0.91 (0.82) in the quarter, 2.74 (2.42) dollars in the nine months. Currency-neutral growth was 9% in the quarter and 11% in the nine months. Sale of bottling operations: India (May 2025) and the finished-product business in Nigeria (October 2025) were sold; the sale of the Africa bottling operations is expected to close in the last quarter of 2026. Effect according to the company: about 2 points on revenue and about 1 point on EPS in 2026; 4 and 3 points in the last quarter; about 8 points on revenue and about 2 points on EPS in 2027. Growth of the remaining business, Company guidance for 2026: comparable currency-neutral EPS excluding acquisitions and divestitures grows at least 9%. The guidance including the divestitures (and currency) is at least 11%: 9.0% a year, 5.1% after inflation. That is not below the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q3"
   }
  },
  "MA": {
@@ -1814,6 +2039,14 @@
     "Incentives as a share of revenue",
     "Price: the margin-of-safety threshold"
    ]
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %12,9 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 %22,0 (şirketin düzeltilmiş rakamı; açıklanan %21,6); Temmuz-Eylül 2026 çeyreği %21,0 (şirketin düzeltilmiş rakamı; açıklanan %21,7). Düzeltme: Şirketin düzeltilmiş hisse başına kârı: dava giderleri (çeyrekte 74 milyon, dokuz ayda 156 milyon dolar; geçen yıl 83 ve 330 milyon), 202 milyon dolarlık yeniden yapılanma gideri ve hisse yatırımlarının kazanç/zararı hariç. Çeyrekte 5,31 (4,38), dokuz ayda 14,94 (12,25) dolar. En düşüğü, enflasyondan arındırılınca, %16,7. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 12.9% a year. Latest figures (earnings per share, year on year): January-September 2026 22.0% (the company's adjusted figure; reported 21.6%); July-September 2026 quarter 21.0% (the company's adjusted figure; reported 21.7%). Adjustment: The company's adjusted EPS: excludes litigation charges (74 million in the quarter, 156 million dollars in the nine months; 83 and 330 million last year), a 202 million dollar restructuring charge and gains/losses on equity investments. 5.31 (4.38) in the quarter, 14.94 (12.25) dollars in the nine months. The lowest, after inflation, is 16.7%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q3"
   }
  },
  "PG": {
@@ -1888,6 +2121,14 @@
     "Market share (top 50 category and country combinations)",
     "Price: the margin-of-safety threshold"
    ]
+  },
+  "growth": {
+   "g": 0.3,
+   "basis": {
+    "tr": "Formül yılda %0,6 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Temmuz-Eylül 2026 çeyreği (2027 mali yılının 1. çeyreği) %0,5 (şirketin düzeltilmiş rakamı; açıklanan %1,0); Temmuz-Eylül 2026 çeyreği (2027 mali yılının 1. çeyreği) %0,5 (şirketin düzeltilmiş rakamı; açıklanan %1,0); 2027 mali yılı için şirket beklentisi %3,0. Düzeltme: Haziran 2025'te açıklanan yeniden yapılanma planının gideri (çeyrekte hisse başına 0,03 dolar) hariç çekirdek hisse başına kâr: 2,00 dolar (önceki yıl 1,99). En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %0,3.",
+    "en": "The formula gave growth of 0.6% a year. Latest figures (earnings per share, year on year): July-September 2026 quarter (fiscal 2027 Q1) 0.5% (the company's adjusted figure; reported 1.0%); July-September 2026 quarter (fiscal 2027 Q1) 0.5% (the company's adjusted figure; reported 1.0%); company guidance for fiscal 2027 3.0%. Adjustment: Core EPS excluding restructuring charges under the plan announced in June 2025 (0.03 dollars per share in the quarter): 2.00 dollars (1.99 a year earlier). The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 0.3%."
+   },
+   "per": "2027-Q1"
   }
  },
  "V": {
@@ -1943,6 +2184,11 @@
     "t": "American Banker: Visa ve Mastercard'ın işyerleriyle ücret anlaşmasına ön onay (10 Haz 2026)",
     "te": "American Banker: preliminary approval of the Visa and Mastercard fee settlement with merchants (10 Jun 2026)",
     "u": "https://www.americanbanker.com/payments/news/judge-approves-card-network-fee-settlement-with-merchants"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: 2027 mali yılı için şirket beklentisi (düzeltilmiş hisse başına kâr)",
+    "te": "Source for the growth judgment: company outlook for fiscal 2027 (adjusted EPS)",
+    "u": "https://www.zacks.com/stock/news/3017664/visa-q4-earnings-call-highlights-fy27-outlook-and-growth-priorities"
    }
   ],
   "en": {
@@ -1964,6 +2210,14 @@
     "Final approval of the merchant settlement and litigation provisions",
     "Price: the margin-of-safety threshold"
    ]
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %11,3 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ekim 2025-Eylül 2026 mali yılı %15,7 (şirketin düzeltilmiş rakamı; açıklanan %20,8); Temmuz-Eylül 2026 çeyreği %16,8 (şirketin düzeltilmiş rakamı; açıklanan %21,8). Düzeltme: Şirketin düzeltilmiş (non-GAAP) hisse başına kârı: dava karşılıkları (çeyrekte 469 milyon, yılda 1,7 milyar dolar), kıdem giderleri (563 milyon), Visa Vakfı'na bağış (282 milyon) ve vergi kalemleri hariç. En düşüğü, enflasyondan arındırılınca, %11,6. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 11.3% a year. Latest figures (earnings per share, year on year): fiscal year October 2025-September 2026 15.7% (the company's adjusted figure; reported 20.8%); July-September 2026 quarter 16.8% (the company's adjusted figure; reported 21.8%). Adjustment: The company's non-GAAP EPS: excludes litigation provisions (469 million in the quarter, 1.7 billion dollars in the year), severance costs (563 million), the donation to the Visa Foundation (282 million) and tax items. The lowest, after inflation, is 11.6%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q4"
   }
  }
 }

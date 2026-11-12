@@ -335,7 +335,7 @@ var STEPS = [
 function stT(i) { return STEPS[i].t[LANG === "en" ? 1 : 0]; }
 function stFull(i) { var s = STEPS[i]; return stT(i) + (s.sub ? ": " + s.sub[LANG === "en" ? 1 : 0].toLowerCase() : ""); }   // "2. sur: kalite"
 var WHY = {
-  noprofit: ["Son 12 ayda net kâr yok", "No net profit in the last 12 months"], nodata: ["Kâr verisi eksik", "Profit data missing"], nope: ["Son 12 ayda kâr görünmüyor", "No profit shown for the last 12 months"], vehicle: ["Varlık sepeti", "Asset basket"], small: ["Çok küçük", "Too small"], equity: ["Özsermaye negatif", "Negative equity"], nobook: ["Defter değeri verisi eksik", "Book value data missing"],
+  noprofit: ["Son 12 ayda net kâr yok", "No net profit in the last 12 months"], nodata: ["Kâr verisi eksik", "Profit data missing"], nope: ["Son 12 ayda kâr görünmüyor", "No profit shown for the last 12 months"], vehicle: ["Varlık sepeti", "Asset basket"], small: ["Çok küçük", "Too small"], equity: ["Özsermaye negatif", "Negative equity"], nobook: ["Defter değeri verisi eksik", "Book value data missing"], decline: ["Kalıcı kâr kaybı", "Lasting loss of profit"],
   roe_ttm: ["Son 12 ay kârlılığı düşük", "Low return in the last 12 months"], roe_min: ["Kârlılık istikrarsız", "Unstable returns"], loss: ["Zarar yılı var", "A loss-making year"], history: ["Geçmiş kısa", "Short history"],
   data: ["Veri doğrulanamadı", "Data not verified"], cash: ["Kâr nakde dönmüyor", "Profit not turning into cash"], roe_avg: ["Ortalama kârlılık düşük", "Low average return"], debt: ["Borç yüksek", "High debt"],
   moat: ["Hendek zayıf", "Weak moat"], mgmt: ["Sermaye tahsisi", "Capital allocation"], fragile: ["Kırılgan", "Fragile"], pending: ["Sırada", "In the queue"]
@@ -428,6 +428,7 @@ function why(u) { // elenme nedeni, tam cümle
     case "nobook": return L("Veri kaynakları şirketin defter değerini vermiyor: PD/DD hesaplanamıyor, şirket değerlendirilemedi", "The data sources give no book value for the company: P/B cannot be calculated, so the company could not be assessed");
     case "small": return mt("small_text") + L(": bilgi ve işlem derinliği sınırlı", ": limited information and trading depth");
     case "roe_ttm": return L("Son 12 ay özsermaye kârlılığı " + (u.nom ? "enflasyondan arındırılınca " : "") + pct(u.rr) + " (eşik " + pct(P.roeMin, 0) + ")", "Return on equity over the last 12 months is " + pct(u.rr) + (u.nom ? " after inflation" : "") + " (threshold " + pct(P.roeMin, 0) + ")");
+    case "decline": return L("Kârdaki kötüleşmenin nedeni kalıcı; şirket fiyat testine alınmadı", "The cause of the fall in profit is lasting; the company was not taken to the price test");
     case "moat": return L("Kalıcı bir rekabet üstünlüğü (hendek) yok ya da zayıf", "No durable competitive advantage (moat), or only a weak one");
     case "mgmt": return L("Yönetim ve sermaye tahsisi testini geçemedi", "Did not pass the management and capital allocation test");
     case "fragile": return L("Kazanç kalitesi ya da dayanıklılık testini geçemedi", "Did not pass the earnings quality or resilience test");
@@ -1008,7 +1009,7 @@ function panelCo(c) {
       "<dt>" + L("Adil çarpan", "Fair multiple") + "<small>" + L("ikisinin düşüğü: ", "the lower of the two: ") + (v.peg < v.dcf0 && v.by === "dcf" ? L("indirgenmiş nakit akışı. PEG uygulanmadı: şirketin hiç büyümese edeceği değerin (" + num(v.dcf0) + ") altında", "discounted cash flow. PEG was not applied: it is below what the company would be worth with no growth (" + num(v.dcf0) + ")") : v.by === "dcf" ? L("indirgenmiş nakit akışı", "discounted cash flow") : v.by === "peg" ? "PEG" : L("PEG; ama şirketin hiç büyümese edeceği değerin altına inmez", "PEG, but never below what the company would be worth with no growth")) + "</small></dt><dd>" + num(v.fair) + "</dd>" +
       "<dt>" + L("Güvenlik marjı", "Margin of safety") + "</dt><dd><b>" + pct(v.mos) + "</b></dd>" +
       "<dt>" + L("Alım eşiği", "Threshold price") + "<small>" + L("marj " + pct(P.mos, 0) + " için", "for a margin of " + pct(P.mos, 0)) + "</small></dt><dd>" + money(v.buy, u) + "</dd></dl>";
-    if (r && r.growth && r.growth.basis && (l.gj || l.dyj)) h += '<p class="note"><b>' + L("Büyüme yargısı: ", "Growth judgment: ") + "</b>" + esc(LANG === "en" && r.growth.basis.en ? r.growth.basis.en : r.growth.basis.tr) + "</p>";
+    if (r && r.growth && r.growth.basis) h += '<p class="note"><b>' + L("Büyüme yargısı: ", "Growth judgment: ") + "</b>" + esc(LANG === "en" && r.growth.basis.en ? r.growth.basis.en : r.growth.basis.tr) + "</p>";
     if (st === "sirada") h += '<p class="note">' + L("Bu bir ön hesaptır. Şirket 3. surda okunmadan kale sayılmaz.", "This is a preliminary calculation. A company does not count as a castle until it has been read at Wall 3.") + "</p>";
   }
   if (rep) {

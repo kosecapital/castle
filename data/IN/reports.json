@@ -258,6 +258,14 @@
     "KTM's profitability and consolidated debt",
     "Price: the margin-of-safety threshold"
    ]
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %9,4 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Nisan-Eylül 2026 %55,0; Temmuz-Eylül 2026 çeyreği %64,5. En düşüğü, enflasyondan arındırılınca, %46,1. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 9.4% a year. Latest figures (earnings per share, year on year): April-September 2026 55.0%; July-September 2026 quarter 64.5%. The lowest, after inflation, is 46.1%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q2"
   }
  },
  "BEL": {
@@ -334,6 +342,14 @@
     "Share of non-defence and export revenue",
     "Price: the margin-of-safety threshold"
    ]
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %10,9 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Nisan-Eylül 2026 %15,0; Temmuz-Eylül 2026 çeyreği %19,7. En düşüğü, enflasyondan arındırılınca, %8,4. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 10.9% a year. Latest figures (net profit, year on year): April-September 2026 15.0%; July-September 2026 quarter 19.7%. The lowest, after inflation, is 8.4%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q2"
   }
  },
  "COALINDIA": {
@@ -420,6 +436,14 @@
     "Shipments and stocks",
     "Amount invested outside the core business"
    ]
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %8,9 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Nisan-Eylül 2026 %17,7; Temmuz-Eylül 2026 çeyreği %53,0. En düşüğü, enflasyondan arındırılınca, %11,0. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 8.9% a year. Latest figures (net profit, year on year): April-September 2026 17.7%; July-September 2026 quarter 53.0%. The lowest, after inflation, is 11.0%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q2"
   }
  },
  "HAL": {
@@ -511,6 +535,14 @@
     "EBITDA margin",
     "Price: the margin-of-safety threshold"
    ]
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %11,1 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Nisan-Eylül 2026 %15,5; Temmuz-Eylül 2026 çeyreği %15,9. En düşüğü, enflasyondan arındırılınca, %8,8. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 11.1% a year. Latest figures (earnings per share, year on year): April-September 2026 15.5%; July-September 2026 quarter 15.9%. The lowest, after inflation, is 8.8%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q1"
   }
  },
  "HCLTECH": {
@@ -571,6 +603,11 @@
     "t": "Screener.in: HCLTech mali tablolar ve ortaklık yapısı (11 Kas 2026)",
     "te": "Screener.in: HCLTech financials and shareholding (11 Nov 2026)",
     "u": "https://www.screener.in/company/HCLTECH/consolidated/"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: şirket belgesi",
+    "te": "Source for the growth judgment: company document",
+    "u": "https://www.hcltech.com/sites/default/files/document/open/quarter-results/2025-10/HCLTech_Q2_FY26_Investor_Release.pdf"
    }
   ],
   "en": {
@@ -592,6 +629,14 @@
     "Annual recurring revenue of the software products",
     "Price: the margin-of-safety threshold"
    ]
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %1,9 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Nisan-Eylül 2026 %20,8; Temmuz-Eylül 2026 çeyreği %21,2. En düşüğü, enflasyondan arındırılınca, %13,9. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 1.9% a year. Latest figures (net profit, year on year): April-September 2026 20.8%; July-September 2026 quarter 21.2%. The lowest, after inflation, is 13.9%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q2"
   }
  },
  "HINDUNILVR": {
@@ -769,6 +814,14 @@
     "Dividend decisions and their ratio to profit",
     "Timetable and cost of the capacity investments"
    ]
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %2,9 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Nisan-Eylül 2026 %143,0; Temmuz-Eylül 2026 çeyreği %142,0. En düşüğü, enflasyondan arındırılınca, %128,1. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 2.9% a year. Latest figures (net profit, year on year): April-September 2026 143.0%; July-September 2026 quarter 142.0%. The lowest, after inflation, is 128.1%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q2"
   }
  },
  "INFY": {
@@ -834,6 +887,11 @@
     "t": "Screener.in: Infosys mali tablolar ve ortaklık yapısı (11 Kas 2026)",
     "te": "Screener.in: Infosys financials and shareholding (11 Nov 2026)",
     "u": "https://www.screener.in/company/INFY/consolidated/"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: Nisan-Eylül 2026",
+    "te": "Source for the growth judgment: April-September 2026",
+    "u": "https://www.infosys.com/investors/reports-filings/quarterly-results/2026-2027/q2/documents/ifrs-inr-press-release.pdf"
    }
   ],
   "en": {
@@ -855,6 +913,14 @@
     "Share of new work in large contracts",
     "Price: the margin-of-safety threshold"
    ]
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %3,9 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Nisan-Eylül 2026 %11,8; Temmuz-Eylül 2026 çeyreği %8,8. En düşüğü, enflasyondan arındırılınca, %2,5. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 3.9% a year. Latest figures (earnings per share, year on year): April-September 2026 11.8%; July-September 2026 quarter 8.8%. The lowest, after inflation, is 2.5%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q2"
   }
  },
  "ITC": {
@@ -867,7 +933,7 @@
   },
   "moat": "geniş",
   "per": "2026-Q2",
-  "one": "Hindistan'ın en büyük sigara üreticisi. Hendek geniş ve kalite surlarını geçti; vergi artışı kârı düşürdü, fiyat yetmediği için kapıda bekliyor.",
+  "one": "Hindistan'ın en büyük sigara üreticisi. Hendek geniş; ama sigara vergisi kalıcı olarak arttı ve kâr geriledi. Bu yüzden fiyat testine alınmadı.",
   "business": "ITC dört kolda çalışır: sigara, paketli gıda ve kişisel bakım ürünleri, tarım ürünleri ticareti, kâğıt ve ambalaj. Mart 2026'da biten mali yılda konsolide satış 788,7 milyar rupi, net kâr 210,2 milyar rupi oldu. Kârın asıl kaynağı sigaradır: Temmuz-Eylül 2026 çeyreğinde bölüm kârlarının yaklaşık dörtte üçü sigaradan geldi.",
   "moat_text": "Hendek geniş. ITC ülkenin en büyük sigara üreticisi ve satıcısıdır; marka, dağıtım ağı ve reklam yasağı yeni bir rakibin girmesini çok zorlaştırır. Bu güç özsermaye kârlılığında görünüyor: reel özsermaye kârlılığı beş yılda %18,3 ile %25,9 arasında kaldı, ortalaması %21,8. Zayıf yan açık: kârın büyük bölümü tek üründen geliyor ve o ürünün vergisini devlet belirliyor. 1 Şubat 2026'da gelen vergi artışından sonra sigara kolunun çeyreklik kârı %27,2 düştü. Gıda ve öbür tüketim ürünleri hızlı büyüyor ama kârı henüz küçük.",
   "mgmt": "Şirketin kontrol eden bir ortağı yok. Eylül 2026'da hisselerin %49,8'i yerli kurumların, %33,2'si yabancı kurumların elindeydi. En büyük ortak British American Tobacco, Mayıs 2025'te %2,5'lik pay satarak payını %23'ün altına indirdi. Kârın neredeyse tamamı temettü olarak dağıtılıyor: dağıtım oranı %96, temettü verimi %5,1. Net borç yok (net borç/FAVÖK −0,86).",
@@ -928,7 +994,7 @@
    }
   ],
   "en": {
-   "one": "India's largest cigarette maker. Wide moat; passed the quality walls. A tax increase cut profit, and it waits at the gate on price.",
+   "one": "India's largest cigarette maker. Wide moat, but cigarette tax rose for good and profit fell. For that reason it was not taken to the price test.",
    "business": "ITC works in four lines: cigarettes, packaged food and personal care products, agricultural trading, and paper and packaging. In the fiscal year that ended in March 2026 consolidated sales were 788.7 billion rupees and net profit 210.2 billion rupees. The main source of profit is cigarettes: in the July-September 2026 quarter about three quarters of segment profit came from cigarettes.",
    "moat_text": "The moat is wide. ITC is the country's largest maker and seller of cigarettes; the brands, the distribution network and the advertising ban make it very hard for a new rival to enter. This strength shows in return on equity: real return on equity stayed between 18.3% and 25.9% over five years and averaged 21.8%. The weak side is clear: most of the profit comes from one product, and the state sets the tax on that product. After the tax increase of 1 February 2026 the quarterly profit of the cigarette business fell 27.2%. Food and other consumer products are growing fast, but their profit is still small.",
    "mgmt": "The company has no controlling shareholder. In September 2026 domestic institutions held 49.8% of the shares and foreign institutions 33.2%. The largest shareholder, British American Tobacco, sold a 2.5% stake in May 2025 and brought its holding below 23%. Almost all of the profit is paid out as dividends: the payout ratio is 96% and the dividend yield 5.1%. There is no net debt (net debt/EBITDA −0.86).",
@@ -946,6 +1012,15 @@
     "Profit margin of food and other consumer products",
     "Price: the margin-of-safety threshold"
    ]
+  },
+  "growth": {
+   "g": null,
+   "permanent": true,
+   "basis": {
+    "tr": "Formül yılda %0,7 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Nisan-Eylül 2026 %−17,4; Temmuz-Eylül 2026 çeyreği %−17,0 (şirketin düzeltilmiş rakamı; açıklanan %−18,6). Düzeltme: Century Pulp and Paper satın alımının giderleri (25,66 crore rupi) istisnai kalem olarak ayrıldı. İstisnai kalemler öncesi konsolide net kâr çeyrekte %17,0 düştü (4.249 crore rupi). Yarıyıl için düzeltilmiş rakam bulunamadı. Sigarada vergi 1 Şubat 2026'da kalıcı olarak arttı; şirket bunu \"benzeri görülmemiş vergi artışı\" diye anıyor ve hacmin kaçak sigaraya kayma riskinden söz ediyor (Nisan-Haziran 2026 basın açıklaması). Sigara kolunun kârı Temmuz-Eylül 2026'da %27,2 düştü (3.813 crore rupi; bir yıl önce 5.241). Yasal değişiklik sürüyor; şirket bir toparlanma tarihi vermiyor. Kötüleşmenin nedeni kalıcı olduğu için şirket fiyat testine alınmadı.",
+    "en": "The formula gave growth of 0.7% a year. Latest figures (earnings per share, year on year): April-September 2026 −17.4%; July-September 2026 quarter −17.0% (the company's adjusted figure; reported −18.6%). Adjustment: Costs of the Century Pulp and Paper acquisition (25.66 crore rupees) are shown as an exceptional item. Consolidated net profit before exceptional items fell 17.0% in the quarter (4,249 crore rupees). No adjusted half-year figure found. Cigarette taxes rose permanently on 1 February 2026; the company calls it an \"unprecedented increase in tax\" and cites the risk of volume moving to illicit trade (April-June 2026 press release). Cigarette segment profit fell 27.2% in July-September 2026 (3,813 crore rupees; 5,241 a year earlier). The law remains in force; the company gives no recovery date. Because the cause of the deterioration is lasting, the company was not taken to the price test."
+   },
+   "per": "2026-Q2"
   }
  },
  "NESTLEIND": {
@@ -1020,6 +1095,14 @@
     "Licence fee rate",
     "Price: the margin-of-safety threshold"
    ]
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %4,2 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Nisan-Eylül 2026 %41,8; Temmuz-Eylül 2026 çeyreği %36,4. En düşüğü, enflasyondan arındırılınca, %28,6. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 4.2% a year. Latest figures (earnings per share, year on year): April-September 2026 41.8%; July-September 2026 quarter 36.4%. The lowest, after inflation, is 28.6%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q2"
   }
  },
  "TCS": {
@@ -1085,6 +1168,16 @@
     "t": "Screener.in: TCS mali tablolar ve ortaklık yapısı (12 Kas 2026)",
     "te": "Screener.in: TCS financials and shareholding (12 Nov 2026)",
     "u": "https://www.screener.in/company/TCS/consolidated/"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: Nisan-Eylül 2026",
+    "te": "Source for the growth judgment: April-September 2026",
+    "u": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2026-27/q2/IND%20AS/Consolidated.pdf"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: şirket belgesi",
+    "te": "Source for the growth judgment: company document",
+    "u": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2026-27/q2/IND%20AS/Press%20Release%20-%20INR.pdf"
    }
   ],
   "en": {
@@ -1106,6 +1199,14 @@
     "Total value of new contracts",
     "Price: the margin-of-safety threshold"
    ]
+  },
+  "growth": {
+   "g": 2.1,
+   "basis": {
+    "tr": "Formül yılda %2,8 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Nisan-Eylül 2026 %9,7; Temmuz-Eylül 2026 çeyreği %7,6 (şirketin düzeltilmiş rakamı; açıklanan %15,0). Düzeltme: Geçen yılın aynı çeyreğinde 1.135 crore rupi (11,35 milyar rupi) yeniden yapılanma gideri vardı; şirketin basın bülteni karşılaştırmayı bu kalem hariç yapıyor: hisse başına kâr 38,37 rupi, bir yıl önce 35,67 rupi (net kâr 13.884'e karşı 12.904 crore). Nisan-Haziran 2026'da da 668 crore rupilik dava uzlaşma gideri var; altı ay için şirket düzeltilmiş rakam vermiyor. En düşüğü, enflasyondan arındırılınca, %1,4. Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %2,1.",
+    "en": "The formula gave growth of 2.8% a year. Latest figures (earnings per share, year on year): April-September 2026 9.7%; July-September 2026 quarter 7.6% (the company's adjusted figure; reported 15.0%). Adjustment: The year-ago quarter carried a restructuring expense of 1,135 crore rupees (11.35 billion rupees); the company's press release compares excluding it: EPS of 38.37 rupees against 35.67 a year earlier (net profit 13,884 against 12,904 crore). April-June 2026 also carried a 668 crore legal claim settlement; the company gives no adjusted six-month figure. The lowest, after inflation, is 1.4%. Because this is less than half the formula's rate, the midpoint of the two was used: 2.1%."
+   },
+   "per": "2026-Q2"
   }
  }
 }

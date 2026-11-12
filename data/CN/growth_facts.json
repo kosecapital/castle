@@ -1,0 +1,252 @@
+{
+ "000333": {
+  "metric": "net profit",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": 9.27,
+   "cur_val": "41,393",
+   "prev_val": "37,88 (orandan türetildi / derived from the rate)",
+   "unit": "milyar yuan / billion yuan",
+   "date": "2026-10-29",
+   "url": "https://quartr.com/events/midea-group-000333-q3-2026_F9HRW0m4",
+   "primary": false
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 25.93,
+   "cur_val": "14,947",
+   "prev_val": "11,87 (orandan türetildi / derived from the rate)",
+   "unit": "milyar yuan / billion yuan",
+   "date": "2026-10-29",
+   "url": "https://quartr.com/events/midea-group-000333-q3-2026_F9HRW0m4",
+   "primary": false
+  },
+  "guidance": null,
+  "adjusted": {
+   "what_tr": "Tek seferlik kalemler hariç net kâr (şirketin kendi 'koufei' rakamı): dokuz ayda 28,788 milyar yuan, üçüncü çeyrekte 9,193 milyar yuan. Fark, borsaya açılan ChangXin (CXMT) yatırımının değer artışından ve kur korumasından gelen kazançlardan doğuyor; dokuz ayda tek seferlik kalemler net 12,605 milyar yuan",
+   "what_en": "Net profit excluding non-recurring items (the company's own figure): 28.788 billion yuan in nine months, 9.193 billion in the third quarter. The gap comes from fair-value gains on the investment in ChangXin (CXMT), which listed in the period, and from currency-hedging gains; non-recurring items were a net 12.605 billion yuan in nine months",
+   "ytd_pct": -22.49,
+   "quarter_pct": -15.7,
+   "url": "https://m.gelonghui.com/news/5344674"
+  },
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Not primary: the cninfo PDF of the Q3 report (https://static.cninfo.com.cn/finalpage/2026-10-30/1225645132.PDF) returned a server error. Figures from Quartr summary (29 Oct 2026) and a Gelonghui copy of a Changjiang Securities note (4 Nov 2026); they agree. Nine-month basic EPS 5.54 yuan, +11.24% (ifeng, https://tech.ifeng.com/c/8xdfEgz2J03); Q3-alone EPS not found. Fair-value change gain was 5.474bn yuan higher than a year earlier in Q3 (Gelonghui); the CXMT gain itself is not given separately. Quartr also says the adjusted decline is partly a matter of classification: FX losses sit in recurring profit while the hedging gains are classed as non-recurring. So the true core trend lies between +9.27% and -22.49%; the company gives no third figure. No guidance found."
+ },
+ "601838": {
+  "metric": "net profit",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": 4.48,
+   "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=601838&id=12671870"
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 4.78,
+   "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=601838&id=12671870"
+  },
+  "guidance": null,
+  "adjusted": {
+   "what_tr": "olağan dışı kalemler hariç net kâr",
+   "what_en": "net profit excluding non-recurring items",
+   "ytd_pct": 4.14,
+   "quarter_pct": 4.66,
+   "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=601838&id=12671870"
+  },
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": null
+ },
+ "300750": {
+  "metric": "net profit",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": 31.6,
+   "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225613175.PDF"
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 14.54,
+   "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225613175.PDF"
+  },
+  "guidance": null,
+  "adjusted": {
+   "what_tr": "olağan dışı kalemler hariç net kâr",
+   "what_en": "net profit excluding non-recurring items",
+   "ytd_pct": 32.68,
+   "quarter_pct": 14.86,
+   "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225613175.PDF"
+  },
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": null
+ },
+ "002668": {
+  "metric": "net profit",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": -20.67,
+   "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=002668&id=12657160"
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": -22.15,
+   "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=002668&id=12657160"
+  },
+  "guidance": null,
+  "adjusted": {
+   "what_tr": "şirketin açıkladığı kur farkı hariç kâr (dokuz ay); kur zararı yaklaşık 284 milyon yuan",
+   "what_en": "profit excluding exchange differences as stated by the company (nine months); the currency loss was about 284 million yuan",
+   "ytd_pct": 0.7,
+   "quarter_pct": null,
+   "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=002668&id=12657160"
+  },
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": null
+ },
+ "600519": {
+  "metric": "net profit",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": -0.25,
+   "cur_val": "64,467",
+   "prev_val": "64,627",
+   "unit": "milyar yuan / billion yuan",
+   "date": "2026-10-30",
+   "url": "https://stock.10jqka.com.cn/20261030/c681314571.shtml",
+   "primary": false
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 3.78,
+   "cur_val": "19,951",
+   "prev_val": "19,22 (orandan türetildi / derived from the rate)",
+   "unit": "milyar yuan / billion yuan",
+   "date": "2026-10-30",
+   "url": "https://stock.10jqka.com.cn/20261030/c681314571.shtml",
+   "primary": false
+  },
+  "guidance": null,
+  "adjusted": {
+   "what_tr": "Tek seferlik kalemler hariç net kâr (koufei): dokuz ayda 64,325 milyar yuan; fark çok küçük, kârı bozan tek seferlik kalem yok",
+   "what_en": "Net profit excluding non-recurring items: 64.325 billion yuan in nine months; the gap is tiny, no one-off distorts profit",
+   "ytd_pct": -0.55,
+   "quarter_pct": null,
+   "url": "https://m.huxiu.com/article/4901880.html"
+  },
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Not primary: the Q3 2026 filing itself could not be opened (Sina bulletin page for the 2025 Q3 report loops on a redirect; no Sina/SSE link for the 2026 Q3 report surfaced in search; cls.cn returned binary; wallstreetcn blocked by robots). Figures from 10jqka (30 Oct 2026) and Huxiu (31 Oct 2026), consistent with each other. Prior-year nine-month profit 64.627bn and basic EPS 51.53 yuan confirmed from a Sina article on the 2025 Q3 report (https://finance.sina.com.cn/stock/estate/integration/2025-10-29/doc-infvqfem0221146.shtml). 2026 EPS not found in any page opened; Q3 2025 value is derived (19.951/1.0378). No company profit guidance found. Possible lasting-cause facts, which Huxiu calls 'signals to watch', not proven structural: nine-month distributor (wholesale/agency) revenue -21.58% while direct +32.79%; contract liabilities -74.0% since start of year to 2.084bn yuan; overseas revenue -57.85%; Moutai 1935 contract price cut from 798 to 668 yuan; operating cost +22.0% vs revenue +1.96%; Q3 Moutai-liquor revenue only +0.79% despite the Feitian contract price rise from 1,269 to 1,369 yuan on 18 July. I left `permanent` null because no source states a lasting cause."
+ },
+ "002415": {
+  "metric": "net profit",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": 38.55,
+   "cur_val": "12,911",
+   "prev_val": "9,319",
+   "unit": "milyar yuan / billion yuan",
+   "date": "2026-10-16",
+   "url": "https://m.gelonghui.com/news/5326439",
+   "primary": false
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 36.97,
+   "cur_val": "5,016",
+   "prev_val": "3,662",
+   "unit": "milyar yuan / billion yuan",
+   "date": "2026-10-16",
+   "url": "https://m.gelonghui.com/news/5326439",
+   "primary": false
+  },
+  "guidance": null,
+  "adjusted": {
+   "what_tr": "Tek seferlik kalemler hariç net kâr: dokuz ayda 12,696 milyar yuan, üçüncü çeyrekte 4,984 milyar yuan; büyüme raporlanandan da yüksek, kârı şişiren tek seferlik kalem yok",
+   "what_en": "Net profit excluding non-recurring items: 12.696 billion yuan in nine months, 4.984 billion in the third quarter; growth is even higher than reported, no one-off inflates profit",
+   "ytd_pct": 41.52,
+   "quarter_pct": 43.13,
+   "url": "https://m.gelonghui.com/news/5326439"
+  },
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "2026 figures not primary (Gelonghui 17 Oct, Jiemian, Sina; all agree). Prior-year values ARE primary: Hikvision's own 2025 Q3 report (https://pdf.dfcfw.com/pdf/H2_AN202510171763891232_1.pdf): Q3 2025 net profit 3,661.77m yuan, nine months 9,319.12m; basic EPS 0.399 and 1.014. Q3 2026 basic EPS 0.547 yuan, +37.09% (ifeng, https://tech.ifeng.com/c/8xGyqtg03OG); nine-month 2026 EPS not found. No profit guidance: the only company statement known (from the existing report, not re-opened) is the July expectation that 2026 revenue exceeds 100 billion yuan. Jiemian attributes profit growth to operating leverage (expenses +4.62% vs revenue +12.60%). Departed: Canada ordered the company to close its Canadian business in June 2025 (cited in the existing report; I did not re-open that source and the company does not disclose its size), so I left `departed` null; total growth above already includes that loss."
+ },
+ "000651": {
+  "metric": "net profit",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": -19.51,
+   "cur_val": "17,274",
+   "prev_val": "21,46 (orandan türetildi / derived from the rate)",
+   "unit": "milyar yuan / billion yuan",
+   "date": "2026-10-26",
+   "url": "https://tech.ifeng.com/c/8xXqDo2fwdb",
+   "primary": false
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": -43.31,
+   "cur_val": "3,996",
+   "prev_val": "7,05 (orandan türetildi / derived from the rate)",
+   "unit": "milyar yuan / billion yuan",
+   "date": "2026-10-26",
+   "url": "https://tech.ifeng.com/c/8xXqDo2fwdb",
+   "primary": false
+  },
+  "guidance": null,
+  "adjusted": {
+   "what_tr": "Tek seferlik kalemler hariç net kâr: dokuz ayda 16,403 milyar yuan, üçüncü çeyrekte 3,696 milyar yuan; düşüş raporlananla aynı, tek seferlik kalem etkisi yok",
+   "what_en": "Net profit excluding non-recurring items: 16.403 billion yuan in nine months, 3.696 billion in the third quarter; the fall matches the reported one, no one-off effect",
+   "ytd_pct": -20.32,
+   "quarter_pct": -44.32,
+   "url": "https://m.gelonghui.com/news/5336770"
+  },
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Not primary: yicai.com page blocked (permission request timed out), eastmoney link showed unrelated content, filing itself not found. Figures from ifeng (26 Oct 2026) and a Gelonghui copy of a broker note (28 Oct); they agree. Nine-month basic EPS 3.09 yuan, -19.95% (ifeng); Q3 EPS not found. Causes cited: Q3 gross margin 22.69%, down 5.62 points (price competition, raw material costs); lower interest income; higher selling expenses; fading of the trade-in subsidy; destocking; China household air-conditioner sales -8.4% in nine months, -15.1% in Q3. Both sources frame this as a cyclical downturn, not structural, so `permanent` is null. No company guidance found."
+ }
+}

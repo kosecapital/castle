@@ -93,6 +93,14 @@
     "The Chinese subsidiary's Shanghai listing process",
     "Dividend per share"
    ]
+  },
+  "growth": {
+   "g": 1.5,
+   "basis": {
+    "tr": "Formül yılda %2,9 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 %−17,5. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %1,5.",
+    "en": "The formula gave growth of 2.9% a year. Latest figures (earnings per share, year on year): January-September 2026 −17.5%. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 1.5%."
+   },
+   "per": "2026-Q3"
   }
  },
  "1615": {
@@ -213,6 +221,11 @@
     "t": "UAnalyze: Delta 2025'te 60,1 milyar Tayvan doları kâr etti, 11,6 Tayvan doları temettü önerdi (Şubat 2026)",
     "te": "UAnalyze: Delta earned NT$60.1 billion in 2025, proposes NT$11.6 dividend (February 2026)",
     "u": "https://uanalyze.com.tw/articles/6260448112"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: Ocak-Eylül 2026",
+    "te": "Source for the growth judgment: January-September 2026",
+    "u": "https://www.stockfeel.com.tw/?p=278472"
    }
   ],
   "en": {
@@ -235,6 +248,14 @@
     "Inventory write-down provisions",
     "Price: the margin-of-safety threshold"
    ]
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %11,0 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 %61,8; Temmuz-Eylül 2026 çeyreği %26,3. En düşüğü, enflasyondan arındırılınca, %23,4. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 11.0% a year. Latest figures (earnings per share, year on year): January-September 2026 61.8%; July-September 2026 quarter 26.3%. The lowest, after inflation, is 23.4%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q3"
   }
  },
  "2330": {
@@ -296,6 +317,11 @@
     "t": "TSMC: yönetim kurulu kararları (12 Mayıs 2026)",
     "te": "TSMC: Board of Directors meeting resolutions (12 May 2026)",
     "u": "https://pr.tsmc.com/english/news/3311"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: Ocak-Eylül 2026",
+    "te": "Source for the growth judgment: January-September 2026",
+    "u": "https://www.ctee.com.tw/news/20261015701496-430501"
    }
   ],
   "en": {
@@ -318,6 +344,14 @@
     "Share of 2-nanometre in revenue",
     "Price: the margin-of-safety threshold"
    ]
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %22,6 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 %68,5; Temmuz-Eylül 2026 çeyreği %68,7. En düşüğü, enflasyondan arındırılınca, %64,6. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 22.6% a year. Latest figures (earnings per share, year on year): January-September 2026 68.5%; July-September 2026 quarter 68.7%. The lowest, after inflation, is 64.6%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q3"
   }
  },
  "2383": {
@@ -389,6 +423,14 @@
     "Investment spending and the timetable of the new plants",
     "Price: the margin-of-safety threshold"
    ]
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %18,7 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 %165,5; Temmuz-Eylül 2026 çeyreği %261,7. En düşüğü, enflasyondan arındırılınca, %159,5. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 18.7% a year. Latest figures (earnings per share, year on year): January-September 2026 165.5%; July-September 2026 quarter 261.7%. The lowest, after inflation, is 159.5%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q3"
   }
  },
  "2454": {
@@ -450,6 +492,16 @@
     "t": "Focus Taiwan (CNA): MediaTek 2026'da rekor satış bekliyor (3 Kasım 2026)",
     "te": "Focus Taiwan (CNA): MediaTek expects record sales in 2026 (3 November 2026)",
     "u": "https://focustaiwan.tw/business/202611030021"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: Ocak-Eylül 2026",
+    "te": "Source for the growth judgment: January-September 2026",
+    "u": "https://uanalyze.com.tw/articles/1867558064"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: Temmuz-Eylül 2026 çeyreği",
+    "te": "Source for the growth judgment: July-September 2026 quarter",
+    "u": "https://www.stockfeel.com.tw/?p=278716"
    }
   ],
   "en": {
@@ -472,6 +524,14 @@
     "Mobile phone chip revenue",
     "Price: the margin-of-safety threshold"
    ]
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %0,0 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 %−7,4; Temmuz-Eylül 2026 çeyreği %10,5. Formül zaten sıfır büyüme varsayıyor; indirilecek bir şey yok.",
+    "en": "The formula gave growth of 0.0% a year. Latest figures (earnings per share, year on year): January-September 2026 −7.4%; July-September 2026 quarter 10.5%. The formula already assumes zero growth; there is nothing to lower."
+   },
+   "per": "2026-Q3"
   }
  },
  "2546": {
@@ -611,6 +671,11 @@
     "t": "Yahoo Finance Tayvan: AVC şirket bilgileri (12 Kas 2026'da okundu)",
     "te": "Yahoo Finance Taiwan: AVC company profile (read 12 Nov 2026)",
     "u": "https://tw.stock.yahoo.com/quote/3017/profile"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: Ocak-Eylül 2026",
+    "te": "Source for the growth judgment: January-September 2026",
+    "u": "https://uanalyze.com.tw/articles/9857458877"
    }
   ],
   "en": {
@@ -632,6 +697,14 @@
     "Share of ASIC and GPU customers in revenue",
     "Price: the margin-of-safety threshold"
    ]
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %25,0 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 %129,0; Temmuz-Eylül 2026 çeyreği %114,5. En düşüğü, enflasyondan arındırılınca, %109,6. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 25.0% a year. Latest figures (earnings per share, year on year): January-September 2026 129.0%; July-September 2026 quarter 114.5%. The lowest, after inflation, is 109.6%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q3"
   }
  },
  "5287": {
@@ -728,6 +801,14 @@
     "Revenue and paying members of the new sites",
     "Half-year dividend and payout ratio"
    ]
+  },
+  "growth": {
+   "g": 2.7,
+   "basis": {
+    "tr": "Formül yılda %5,4 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %14,7; Temmuz-Eylül 2026 çeyreği %1,1. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %2,7.",
+    "en": "The formula gave growth of 5.4% a year. Latest figures (net profit, year on year): January-September 2026 14.7%; July-September 2026 quarter 1.1%. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 2.7%."
+   },
+   "per": "2026-Q3"
   }
  },
  "5439": {
@@ -976,8 +1057,8 @@
   "growth": {
    "g": 5.4,
    "basis": {
-    "tr": "Formül yılda %10,8 veriyordu. Ama kazanç zirveden dönüyor görünüyor: üçüncü çeyrekte hisse başına kâr 1,23 Tayvan doları (bir yıl önce 2,10), ekim hasılatı geçen yılın %28,6 altında. Tek ürünlü ve bilgisayar döngüsüne bağlı bir işte bu düşüşün geçici olduğunu gösteren bir veri yok. Formülün hızı ile son çeyreğin sıfır büyümesinin ortası alındı: %5,4.",
-    "en": "The formula gave 10.8% a year. But earnings appear to be turning down from a peak: third-quarter earnings per share were 1.23 Taiwan dollars (2.10 a year earlier) and October revenue was 28.6% below last year. In a one-product business tied to the computer cycle, nothing shows that this fall is temporary. The midpoint between the formula's rate and the latest quarter's zero growth was used: 5.4%."
+    "tr": "Formül yılda %10,8 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 %5,7; Temmuz-Eylül 2026 çeyreği %−41,4. Ekim 2026 hasılatı geçen yılın %28,6 altında. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %5,4.",
+    "en": "The formula gave growth of 10.8% a year. Latest figures (earnings per share, year on year): January-September 2026 5.7%; July-September 2026 quarter −41.4%. October 2026 revenue was 28.6% below last year. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 5.4%."
    },
    "per": "2026-Q3"
   }
