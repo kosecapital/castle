@@ -35,7 +35,8 @@
   "Fiyat, piyasa değeri, F/K ve PD/DD: İş Yatırım'ın temel değerler tablosu, 10 Kasım 2026 kapanışı; 629 payın tamamı.",
   "İş Yatırım tablosu F/K ve PD/DD'yi tek ondalıkla verir. Bu yüzden Türkiye'de güvenlik marjı birkaç puan oynayabilir; eşiğe çok yakın bir şirketin durumu küçük bir fiyat değişikliğiyle değişir.",
   "Beş yıllık oranlar: stockanalysis.com, 11 Kasım 2026'da okundu. Bazı sayfalar son çeyreği henüz içermiyor; her şirketin yanında sayfanın kendi güncelleme tarihi tutulur.",
-  "Haberler ve bilanço özetleri: Kasım 2026'nın ilk on gününde yayımlanan kaynaklar. Her şirket sayfasının altında bağlantıları var."
+  "Haberler ve bilanço özetleri: Kasım 2026'nın ilk on gününde yayımlanan kaynaklar. Her şirket sayfasının altında bağlantıları var.",
+  "4. surun büyüme hızı için geçmiş kâr eğilimi, enflasyon muhasebesi uygulayan şirketlerde 2022'den sonrasına bakılarak hesaplanır. Kaynak her mali yılı bir sonraki yılın sonundaki parayla verir; rakamlar buna göre aynı yılın parasına çevrilir. 2022'den bu yana çoğu şirkette reel kâr gerilediği için büyüme hızı sıfır sayılır."
  ],
  "small_text": "Piyasa değeri 3 milyar TL'nin altında",
  "small_rule": "Piyasa değeri 3 milyar TL'nin altındaki şirketler dışarıda kalır.",
@@ -76,7 +77,8 @@
    "Price, market value, P/E and P/B: İş Yatırım's fundamentals table, close of 10 November 2026; all 629 stocks.",
    "İş Yatırım's table gives P/E and P/B to one decimal place. In Türkiye the margin of safety can therefore move by a few points; a company very close to the threshold can change status with a small move in price.",
    "Five-year ratios: stockanalysis.com, read on 11 November 2026. Some pages do not yet include the latest quarter; the page's own update date is kept with each company.",
-   "News and earnings summaries: sources published in the first ten days of November 2026. Links are at the bottom of each company page."
+   "News and earnings summaries: sources published in the first ten days of November 2026. Links are at the bottom of each company page.",
+   "For the growth rate at Wall 4, the past profit trend of companies that apply inflation accounting is calculated from 2022 onwards. The source states each fiscal year in the money of the following year-end; the figures are converted to the same year's money accordingly. Because real profit has fallen at most companies since 2022, their growth rate counts as zero."
   ],
   "small_text": "Market value below 3 billion TRY",
   "small_rule": "Companies with a market value below 3 billion TRY are left out.",

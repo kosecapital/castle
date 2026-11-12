@@ -35,7 +35,7 @@ Veriyi GitHub'daki `collect` iş akışı toplar (`.github/workflows/collect.yml
   2. İkinci kaynak (`sa`): stockanalysis oran sayfasındaki güncel PD/DD. Yalnız kârlı ve `mcapMin` üstündeki şirketler için indirilir; bilanço dönemi değişmedikçe yeniden indirilmez, fiyatla ölçeklenir (`in/pbcache.json`).
   3. Kaynağın son yıllık bilançosu (`bvy`, `eqy`): yalnız öbürleri yoksa.
   Hiçbiri yoksa `nb: "nodata"` yazılır; kaynağın defter değeri eksiyse `nb: "neg"`. Sayfa, PD/DD'nin nereden geldiğini rakamın altında söyler; "özsermaye negatif" yalnız negatif olduğu bilinen şirkete denir.
-- `history.json`: adayların beş yıllık oranları (stockanalysis.com oran sayfaları). Bilanço dönemi değişmedikçe sayfa yeniden indirilmez.
+- `history.json`: adayların beş yıllık oranları (stockanalysis.com oran sayfaları). Bilanço dönemi değişmedikçe sayfa yeniden indirilmez. 4. surun büyüme hesabı için aynı sayfadan beş yıllık diziler de saklanır: `mc` piyasa değeri, `pes` F/K, `pbs` PD/DD, `dys` temettü verimi, `pos` dağıtım oranı, `bb` pay sayısındaki değişim.
 - `macro.json`: döviz kuru, son yıllık enflasyon, yıl sonu enflasyonları, önerilen `mcapMin`.
 - `status.json`: toplayıcının özeti; ilk beş şirket, eksik sayfalar, hatalar, `pe_fix` (boş F/K'ların dökümü ve tutarlılık denetimi), `pb_fix` (boş PD/DD'lerin dökümü: yolların tutarlılığı, hangi yoldan kaç şirket, `missing_pct`).
 
@@ -96,7 +96,18 @@ python3 -m http.server 8765 --directory .preview   # yerel deneme: http://127.0.
 | 1. Kırmızı çizgiler | GYO ve yatırım ortaklığı değil; son 12 ayda net kâr var (F/K > 0); özsermaye pozitif; piyasa değeri ≥ `meta.mcapMin`. F/K yoksa neden ayrı yazılır: zarar (`noprofit`), kaynakta veri yok (`nodata`), bilinmiyor (`nope`). PD/DD yoksa da: özsermaye negatif (`equity`), kaynaklarda defter değeri yok (`nobook`) | universe.json |
 | 2. Kalite | Son 12 ay reel özsermaye kârlılığı ≥ %12. Beş yıllık geçmiş var, zarar yılı yok. Reel özsermaye kârlılığı ortalaması ≥ %15, hiçbir okuma < %10 değil. Net borç/FAVÖK ≤ 3 (şirketin içinde finansman şirketi varsa o kol hariç). Serbest nakit akışı son beş dönemin en az ikisinde pozitif (finans şirketlerinde borç ve nakit testi yok) | universe.json + history.json + finarm.json |
 | 3. Hendek ve yönetim | Claude'un yazdığı puanlar: B ≥ 2 ve A, C, D, E ≥ 1 | reports.json |
-| 4. Fiyat | Temkinli F/K = PD/DD ÷ (son üç reel özsermaye kârlılığı okumasının en düşüğü). Adil çarpan = 100 ÷ (reel getiri eşiği − büyüme payı). Güvenlik marjı ≥ %25 ise "kale", değilse "kapıda bekliyor" | hesap |
+| 4. Fiyat | Temkinli F/K = PD/DD ÷ (son üç reel özsermaye kârlılığı okumasının en düşüğü). Adil çarpan = indirgenmiş nakit akışı (İNA) ile PEG'in düşüğü (aşağıda). Güvenlik marjı ≥ %25 ise "kale", değilse "kapıda bekliyor" | hesap + history.json |
+
+**4. surun adil çarpanı** (Alper'in 12 Kasım 2026 kararı; önce tek aşamalı ve sabit büyüme paylıydı). Hesap `funnel.py` içindeki `fair_value()` ve sayfadaki `val()` işlevindedir; ikisi aynı sonucu vermelidir.
+
+- **Büyüme hızı** (reel, yılda): şu ikisinin düşüğü, 0 ile `gCap` (%25) arasında.
+  - Geçmiş: son beş mali yılın reel hisse başına kâr eğilimi. Net kâr = piyasa değeri ÷ F/K (oran sayfası); pay sayısındaki değişim "Buyback Yield / Dilution" satırından; her yıl o yılın tüketici enflasyonuyla düzeltilir; uçlara değil beş yılın eğilimine bakılır (en az dört yıl).
+  - Sürdürülebilir: temkinli özsermaye kârlılığı × dağıtılmayan kâr oranı (dağıtım oranı: mali yılların ortancası).
+  - Enflasyon muhasebesi uygulayan şirkette kaynak her mali yılı bir sonraki yılın parasıyla verir (Ford Otosan ve Coca-Cola İçecek'te doğrulandı); düzeltme buna göre yapılır ve yalnız dönemin (`meta.era`) bir yıl öncesinden sonrası kullanılır.
+- **İNA:** iki aşama. İlk `gYears` (10) yıl şirketin büyüme hızı, sonra hendek sınıfının kalıcı büyümesi (`gNarrow` %1,5, `gWide` %3). Her yıl ortağa kalan nakit = kâr × (1 − büyüme ÷ özsermaye kârlılığı). İskonto: reel getiri eşiği `r` (%10).
+- **PEG:** adil F/K = büyüme hızı (%) + temettü verimi (%). PEG büyüme için ödenen fazlayı sınırlar; değeri, şirketin hiç büyümese edeceği tutarın (büyüme 0 ile İNA) altına indirmez.
+- Adil çarpan = min(İNA, max(PEG, büyümesiz İNA)).
+- Kale çıkan şirkette marj çoğu zaman büyüme varsayımına dayanır: bunu `one` cümlesinde ve `risks` listesinin ilk maddesinde, varsayılan büyüme hızıyla birlikte söyle (bkz. Rapor yazımı).
 
 "Reel": enflasyon muhasebesi (TMS/IAS 29) uygulayan şirketin rakamı zaten reeldir. Diğerlerinde nominal özsermaye kârlılığı o yılın tüketici enflasyonuyla düzeltilir: `(1+ROE)/(1+enflasyon) − 1`. `meta.deflate` değeri `all` ise bütün şirketler, `nominal_only` ise yalnız `nom=1` olanlar düzeltilir.
 2. surun beş yıllık rakamlarının tek kaynağı stockanalysis.com oran sayfasıdır (özsermaye kârlılığı, net borç/FAVÖK, serbest nakit akışı). Şirketin kendi tanımı farklı bir oran verse de süzgeç herkese aynı kaynağı uygular; fark önemliyse rapora `note` yazılır.
@@ -246,7 +257,7 @@ Geçme koşulu: B ≥ 2 ve diğerleri ≥ 1. Elenen şirkette `risks` ve `watch`
 - **Her çalıştırmada yazılır:** `data/<CC>/meta.json`, `data/<CC>/reports.json`, `data/<CC>/finarm.json` (yalnız "Finansman kolu" kuralına göre); `accept.py`, `funnel.py`, `geo.mjs` ve `build_site.py` çıktıları.
 - **Gerekirse düzeltilir:** `pipeline/sources.json` ve `countries.json` içindeki `sa` (oran sayfası adresleri), `geo` (harita kadrajı), `exclude_exchanges` (borsa sayılmayan pazarlar); `pipeline/sectors.json` (eksik sektör çevirisi).
 - **Yalnız bozuk bir şeyi onarmak için:** `collect.py`, `accept.py`, `build_site.py`, `geo.mjs`, `template.html`, `check_site.cjs`. Ne değiştirdiğini ve nedenini özetine yaz.
-- **Dokunulmaz (Alper açıkça istemedikçe):** `pipeline/params.json`, `funnel.py` içindeki sur kuralları, `pipeline/charter.json`, `.github/workflows/collect.yml` içindeki saatler.
+- **Dokunulmaz (Alper açıkça istemedikçe):** `pipeline/params.json` (büyüme tavanı `gCap` ve `gYears` dahil), `funnel.py` içindeki sur kuralları ve adil çarpan hesabı, `pipeline/charter.json`, `.github/workflows/collect.yml` içindeki saatler.
 
 ## Çalıştırma özeti
 

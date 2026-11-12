@@ -62,7 +62,8 @@ def fair_value(P, roe_n, g, dy, wide):
     """4. sur: adil F/K (temkinli kazancın katı). İki ölçü birden; adil olan ikisinin düşüğüdür. Sayfadaki val() ile aynı hesap.
     İNA: iki aşamalı indirgenmiş nakit akışı. İlk gYears yıl şirketin büyüme hızı g, sonra hendek sınıfının kalıcı büyümesi. Her yıl ortağa
          kalan nakit = kâr × (1 − büyüme ÷ özsermaye kârlılığı): büyümeyi finanse eden kâr nakit sayılmaz. İskonto: reel getiri eşiği r.
-    PEG: adil F/K = reel büyüme hızı (%) + temettü verimi (%)."""
+    PEG: adil F/K = reel büyüme hızı (%) + temettü verimi (%). PEG büyüme için ödenen fazlayı sınırlar; değeri, şirket hiç büyümese
+         edeceği tutarın (g = 0 ile İNA) altına indirmez: büyümeyen şirkette PEG sıfıra yaklaşır, bu bir değerleme değildir."""
     r, gt, n = P["r"] / 100.0, (P["gWide"] if wide else P["gNarrow"]) / 100.0, int(P["gYears"])
     g = max(0.0, min(g or 0.0, P["gCap"], roe_n)) / 100.0
     roe = roe_n / 100.0
@@ -70,8 +71,10 @@ def fair_value(P, roe_n, g, dy, wide):
     stage1 = (1 - g / roe) / (1 + r) * sum(q ** t for t in range(n))
     stage2 = (1 + g) ** (n - 1) * (1 + gt) * (1 - gt / roe) / max(0.005, r - gt) / (1 + r) ** n
     dcf = max(0.01, stage1 + stage2)
-    peg = max(0.01, g * 100.0 + max(0.0, dy or 0.0))
-    return dict(dcf=dcf, peg=peg, fair=min(dcf, peg), by="dcf" if dcf <= peg else "peg")
+    peg = max(0.0, g * 100.0 + max(0.0, dy or 0.0))
+    dcf0 = 1 / (1 + r) * sum((1 / (1 + r)) ** t for t in range(n)) + (1 + gt) * (1 - gt / roe) / max(0.005, r - gt) / (1 + r) ** n   # g = 0
+    lim = max(peg, dcf0)
+    return dict(dcf=dcf, peg=peg, dcf0=dcf0, fair=min(dcf, lim), by="dcf" if dcf <= lim else ("peg" if peg >= dcf0 else "dcf0"))
 
 
 def roe_cons(u, l):

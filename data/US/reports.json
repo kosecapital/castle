@@ -226,13 +226,13 @@
   },
   "moat": "dar",
   "per": "2026-Q2",
-  "one": "Çocukların kendi oyuncak ayısını yaptığı mağazalar zinciri. Ölçütleri kıl payı geçiyor; satışlar bu yıl geriliyor.",
+  "one": "Çocukların kendi oyuncak ayısını yaptığı mağazalar zinciri. Kalite surlarını geçiyor; satışlar bu yıl geriliyor ve fiyat güvenlik marjı için yetmiyor.",
   "business": "Build-A-Bear, müşterinin kendi peluş oyuncağını seçip doldurduğu ve giydirdiği mağazalar işletir. Dünyada 674 noktası var: 379'unu kendisi işletiyor, 177'sini iş ortakları işletiyor, 118'i bayilik. 2025 mali yılında hasılat 529,8 milyon dolarla üst üste beşinci kez rekor kırdı.",
   "moat_text": "Hendek dar. Üstünlük markadan ve mağazadaki deneyimden geliyor; bu deneyimi internetten satın almak zor. Kanıtı rakamlarda: reel özsermaye kârlılığı son beş mali yılın hepsinde %30'un üzerinde (son 12 ayda %28), yatırılan sermayenin getirisi %21–31 arasında (son 12 ayda %15,7). Zayıf yanı: oyuncak isteğe bağlı bir harcama ve modaya açık; 2026'da satışlar gerilemeye başladı. Kalıcılığı belirsiz olduğu için hendeği geniş saymıyoruz.",
   "mgmt": "Banka borcu yok. Kâr hissedara dönüyor: 2026'nın ilk yarısında 17,1 milyon dolar hisse geri alımı ve 5,8 milyon dolar temettü. Geri alım programında 43,2 milyon dolar kaldı. Nakit bir yılda 39,1 milyon dolardan 14,0 milyon dolara indi. Beş yıllık tablodaki net borç/FAVÖK (1,59) banka borcundan değil, mağaza kira yükümlülüklerinden geliyor.",
   "latest": "27 Ağustos 2026: 1 Ağustos'ta biten çeyrekte hasılat 115,3 milyon dolar (−%7,2), vergi öncesi kâr 11,6 milyon dolar (geçen yıl 15,3 milyon), hisse başına kâr 0,70 dolar (geçen yıl 0,94). İnternet satış talebi %15,6 düştü. Şirket yıl beklentisini indirdi: hasılat 500–525 milyon dolar, vergi öncesi kâr 60–68 milyon dolar. Bu kârın yaklaşık 13 milyon doları gümrük vergisi iadesi.",
   "risks": [
-   "Güvenlik marjı eşiğin hemen üzerinde. Fiyattaki küçük bir artış ya da kârlılıktaki küçük bir düşüş şirketi kapıya geri gönderir.",
+   "Fiyat güvenlik marjı için yetmiyor: yeni hesapta büyüme hızı geçmiş beş yılın eğilimine göre düşük kalıyor. Kârlılıktaki küçük bir düşüş marjı daha da azaltır.",
    "Satışlar geriliyor: ikinci çeyrekte hasılat %7,2, internet satış talebi %15,6 düştü. Yönetim çeyreğin beklentisinin altında kaldığını söyledi.",
    "Bu yılın kârını tek seferlik bir gelir destekliyor: yaklaşık 13 milyon dolarlık gümrük vergisi iadesi. Önceki yıla ait 7 milyon dolar çıkarılınca ilk yarının vergi öncesi kârı 28,5 milyon dolar (geçen yıl 34,9 milyon).",
    "Ürünler ithal; gümrük vergileri maliyeti artırıyor. Şirket süren vergilerin bu yılki yükünü 10–11 milyon dolar olarak veriyor.",
@@ -257,13 +257,13 @@
    }
   ],
   "en": {
-   "one": "A chain of stores where children make their own teddy bear. It clears the criteria by a hair; sales are falling this year.",
+   "one": "A chain of stores where children make their own teddy bears. It passes the quality walls; sales are falling this year and the price leaves too little margin of safety.",
    "business": "Build-A-Bear runs stores where the customer picks, stuffs and dresses a plush toy of their own. It has 674 locations worldwide: it runs 379 itself, partners run 177 and 118 are franchises. In fiscal 2025 revenue was 529.8 million dollars, a record for the fifth year in a row.",
    "moat_text": "The moat is narrow. The advantage comes from the brand and the in-store experience, which is hard to buy online. The numbers back it: real return on equity was above 30% in each of the last five fiscal years (28% over the last 12 months) and return on invested capital was between 21% and 31% (15.7% over the last 12 months). The weak point: a toy is discretionary spending and exposed to fashion; in 2026 sales began to fall. Because its durability is uncertain, we do not count the moat as wide.",
    "mgmt": "No bank debt. Profit returns to shareholders: in the first half of 2026 there were 17.1 million dollars of buybacks and 5.8 million dollars of dividends. 43.2 million dollars remain in the buyback programme. Cash fell from 39.1 million dollars to 14.0 million in a year. The net debt/EBITDA in the five-year table (1.59) comes from store lease liabilities, not from bank debt.",
    "latest": "27 August 2026: In the quarter ended 1 August revenue was 115.3 million dollars (−7.2%), pre-tax profit 11.6 million dollars (15.3 million a year earlier) and earnings per share 0.70 dollars (0.94 a year earlier). E-commerce demand fell 15.6%. The company lowered its full-year outlook: revenue of 500–525 million dollars and pre-tax profit of 60–68 million dollars. About 13 million dollars of that profit is a tariff refund.",
    "risks": [
-    "The margin of safety is only just above the threshold. A small rise in the price or a small fall in profitability sends the company back to the gate.",
+    "The price leaves too little margin of safety: in the new calculation the growth rate is low on the five-year trend. A small fall in profitability would reduce the margin further.",
     "Sales are falling: in the second quarter revenue fell 7.2% and e-commerce demand 15.6%. Management said the quarter fell short of its expectations.",
     "This year's profit is supported by a one-off: a tariff refund of about 13 million dollars. Excluding the 7 million dollars that relate to the prior year, first-half pre-tax profit was 28.5 million dollars (34.9 million a year earlier).",
     "The products are imported and tariffs raise costs. The company puts this year's cost of ongoing tariffs at 10–11 million dollars.",
@@ -688,13 +688,13 @@
   },
   "moat": "dar",
   "per": "2026-Q3",
-  "one": "Fintek şirketlerinin arkasındaki banka. Çok kârlı; önemli bir ortağı (Chime) ayrılıyor, fiyat güvenlik marjı için yetmiyor.",
+  "one": "Fintek şirketlerinin arkasındaki banka. Fiyat testini geçti; ama hesap geçmişteki hızlı büyümenin sürmesine dayanıyor ve önemli bir ortağı (Chime) ayrılıyor.",
   "business": "The Bancorp, kendi banka lisansı olmayan finans teknolojisi şirketlerinin arkasındaki bankadır: onların adına kart çıkarır, hesap tutar ve ödeme işler; karşılığında ücret alır. Bu hesaplardan gelen ucuz mevduatı krediye çevirir. 2026'nın üçüncü çeyreğinde ortaklarının kartlarından 54,3 milyar dolarlık işlem geçti (+%23,4); net faiz geliri 90,1 milyon dolar, fintek ücretleri 41,8 milyon dolar.",
   "moat_text": "Hendek dar. Üstünlük banka lisansından, düzenlemelere uyum deneyiminden ve ölçekten geliyor: şirketin açıkladığı özsermaye kârlılığı üçüncü çeyrekte %36,0. Bir fintek şirketinin arkasındaki bankayı değiştirmesi yıllar alır. Zayıf yanı tam da bu çeyrekte göründü: büyük bir ortak (Chime) kendi bankasını satın almayı planlıyor ve ayrılıyor. Üstünlük az sayıda ortağa bağlı.",
   "mgmt": "Temettü ödemiyor; kârını hisse geri alımına ayırıyor. Üçüncü çeyrekte yaklaşık 50 milyon dolarlık hisse geri alındı; hisse sayısı bir yılda 46,5 milyondan 41,1 milyona indi. Yönetim 2027'den 2028 başına kadar düzeltilmiş net kârın tamamına yakınını geri alıma ayırmayı planlıyor.",
   "latest": "30 Ekim 2026: Üçüncü çeyrekte hisse başına kâr 1,53 dolar, düzeltilmiş 1,47 dolar (+%24,6). Chime en geç Temmuz 2028'de ayrılacak. Bu yüzden 2027 hisse başına kâr beklentisi 8,10–8,30 dolardan 7,00–7,20 dolara indirildi; 2026 beklentisi (5,95–6,05 dolar) korundu. Net faiz marjı %3,75 (bir yıl önce %4,45).",
   "risks": [
-   "Ortak yoğunlaşması: Chime'ın ayrılışı 2027 kâr beklentisini yaklaşık %13 düşürdü. Başka bir büyük ortağın ayrılması benzer etki yapar.",
+   "Güvenlik marjı büyüme varsayımına dayanıyor: hesap, reel hisse başına kârın on yıl boyunca yılda %24,5 büyüyeceğini varsayar (son beş yılın eğilimi %24,5, şirketin kendi kârıyla finanse edebildiği büyüme %27,4). Büyüme yavaşlarsa marj erir. Ortak yoğunlaşması: Chime'ın ayrılışı 2027 kâr beklentisini yaklaşık %13 düşürdü. Başka bir büyük ortağın ayrılması benzer etki yapar.",
    "Net faiz marjı daralıyor: bir yılda %4,45'ten %3,75'e.",
    "Kredi kalitesi: yakın izlemedeki krediler bir çeyrekte %14 artarak 166,5 milyon dolara çıktı; çoğu gayrimenkul köprü kredisi.",
    "Düzenleme: bankaların fintek ortaklıkları denetçilerin yakın izlemesinde; yeni kurallar maliyeti artırabilir.",
@@ -719,13 +719,13 @@
    }
   ],
   "en": {
-   "one": "The bank behind fintech companies. Very profitable; an important partner, Chime, is leaving, and the price does not leave a margin of safety.",
+   "one": "The bank behind fintech companies. It passed the price test, but the calculation rests on past fast growth continuing, and an important partner (Chime) is leaving.",
    "business": "The Bancorp is the bank behind financial technology companies that have no banking licence of their own: it issues cards, holds accounts and processes payments in their name, and charges fees for it. It turns the cheap deposits from these accounts into loans. In the third quarter of 2026, 54.3 billion dollars of transactions went through its partners' cards (+23.4%); net interest income was 90.1 million dollars and fintech fees 41.8 million dollars.",
    "moat_text": "The moat is narrow. The advantage comes from the banking licence, experience in regulatory compliance and scale: the return on equity the company reported for the third quarter is 36.0%. It takes a fintech company years to change the bank behind it. The weak point showed up this very quarter: a large partner, Chime, plans to buy a bank of its own and is leaving. The advantage depends on a small number of partners.",
    "mgmt": "It pays no dividend; it puts its profit into share buybacks. About 50 million dollars of shares were bought back in the third quarter; the share count fell from 46.5 million to 41.1 million in a year. Management plans to put nearly all of adjusted net profit into buybacks from 2027 to early 2028.",
    "latest": "30 October 2026: Third-quarter earnings per share were 1.53 dollars, or 1.47 dollars adjusted (+24.6%). Chime will leave by July 2028 at the latest. Because of this, the 2027 earnings-per-share outlook was cut from 8.10–8.30 dollars to 7.00–7.20; the 2026 outlook (5.95–6.05 dollars) was kept. Net interest margin was 3.75% (4.45% a year earlier).",
    "risks": [
-    "Partner concentration: Chime's departure cut the 2027 earnings outlook by about 13%. The departure of another large partner would have a similar effect.",
+    "The margin of safety rests on a growth assumption: the calculation assumes real earnings per share grow 24.5% a year for ten years (five-year trend 24.5%, growth the company can fund from its own profit 27.4%). If growth slows, the margin shrinks. Partner concentration: Chime's departure cut the 2027 earnings outlook by about 13%. The departure of another large partner would have a similar effect.",
     "Net interest margin is narrowing: from 4.45% to 3.75% in a year.",
     "Credit quality: criticised loans rose 14% in one quarter to 166.5 million dollars; most are real estate bridge loans.",
     "Regulation: banks' fintech partnerships are closely watched by supervisors; new rules may raise costs.",
