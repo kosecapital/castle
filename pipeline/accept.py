@@ -34,10 +34,7 @@ def kales(core, P):
         if u["e"] != 4:
             continue
         l, s = core["L2"][u["c"]], core["R"][u["c"]]["scores"]
-        cand = [x for x in (u["rr"] if u["nom"] else u["roe"], l["rroe"][-2], l["rroe"][-1]) if x is not None]
-        pen = u["pb"] / (min(cand) / 100.0)
-        fair = 100.0 / (P["r"] - (P["gWide"] if s["B"] >= 3 else P["gNarrow"]))
-        out[u["c"]] = round((1 - pen / fair) * 100, 1)
+        out[u["c"]] = round(funnel.price_test(P, u, l, s["B"] >= 3)["mos"], 1)
     return out
 
 
@@ -65,10 +62,7 @@ def queue(cc, core=None, limit=40):
         if not (u["e"] == 3 and u["w"] == "pending"):
             continue
         l = core["L2"][u["c"]]
-        cand = [x for x in (u["rr"] if u["nom"] else u["roe"], l["rroe"][-2], l["rroe"][-1]) if x is not None]
-        pen = u["pb"] / (min(cand) / 100.0)
-        mn = (1 - pen / (100.0 / (P["r"] - P["gNarrow"]))) * 100
-        mw = (1 - pen / (100.0 / (P["r"] - P["gWide"]))) * 100
+        mn, mw = funnel.price_test(P, u, l, False)["mos"], funnel.price_test(P, u, l, True)["mos"]
         rows.append((0 if mn >= P["mos"] else 1 if mw >= P["mos"] else 2, -u["m"], u["c"], u["n"], u["s"], u["m"], mn, mw, u.get("per")))
     rows.sort()
     n0, n1 = sum(1 for r in rows if r[0] == 0), sum(1 for r in rows if r[0] == 1)
