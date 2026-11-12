@@ -1,0 +1,498 @@
+{
+ "cc": "GB",
+ "fetched": "2026-11-12T23:16:32Z",
+ "errors": [],
+ "pb_fix": {
+  "paths": {
+   "cur": {
+    "n": 873,
+    "med": 1.0,
+    "within10": 96.3,
+    "ok": true
+   },
+   "bvc": {
+    "n": 862,
+    "med": 1.0,
+    "within10": 100.0,
+    "ok": true
+   },
+   "bvq": {
+    "n": 862,
+    "med": 1.0,
+    "within10": 100.0,
+    "ok": true
+   },
+   "eq": {
+    "n": 869,
+    "med": 1.0,
+    "within10": 79.9,
+    "ok": false
+   },
+   "bvh": {
+    "n": 704,
+    "med": 1.0,
+    "within10": 100.0,
+    "ok": true
+   },
+   "bvy": {
+    "n": 849,
+    "med": 1.0,
+    "within10": 72.8,
+    "ok": true
+   },
+   "eqy": {
+    "n": 860,
+    "med": 1.0,
+    "within10": 60.8,
+    "ok": true
+   }
+  },
+  "counts": {
+   "cur": 26,
+   "bvy": 54,
+   "eqy": 2
+  },
+  "neg": 77,
+  "nodata": 39,
+  "sa_asked": 0,
+  "sa_pages": 0,
+  "sa_reused": 0,
+  "sa_failed": 0,
+  "sa_blocked": false,
+  "missing_pct": 0.0,
+  "nodata_top": [
+   "ABT",
+   "ICFG",
+   "1947",
+   "KOD",
+   "AIC",
+   "CASP",
+   "IFRX",
+   "PCA",
+   "CHA",
+   "KLSO",
+   "B90",
+   "RHAI",
+   "GSCU",
+   "MTR",
+   "EPP"
+  ],
+  "fixed_top": [
+   [
+    "SDLF",
+    38.379,
+    "cur"
+   ],
+   [
+    "ZEG",
+    19.168,
+    "cur"
+   ],
+   [
+    "SCT",
+    11.505,
+    "cur"
+   ],
+   [
+    "CAN",
+    0.749,
+    "bvy"
+   ],
+   [
+    "APN",
+    13.996,
+    "bvy"
+   ],
+   [
+    "AVON",
+    5.003,
+    "cur"
+   ],
+   [
+    "ASC",
+    6.532,
+    "cur"
+   ],
+   [
+    "GKP",
+    1.176,
+    "bvy"
+   ],
+   [
+    "CGL",
+    0.812,
+    "bvy"
+   ],
+   [
+    "TFW",
+    1.644,
+    "cur"
+   ],
+   [
+    "MCG",
+    1.46,
+    "cur"
+   ],
+   [
+    "NET",
+    4.896,
+    "cur"
+   ],
+   [
+    "SRT",
+    5.43,
+    "cur"
+   ],
+   [
+    "CCP",
+    1.186,
+    "cur"
+   ],
+   [
+    "DOTD",
+    1.59,
+    "cur"
+   ]
+  ]
+ },
+ "source": "TradingView tarayıcısı",
+ "market": "uk",
+ "total": 1075,
+ "kept": 1071,
+ "excluded": {
+  "fiyat ya da piyasa değeri yok": 4
+ },
+ "mcap_check": {
+  "tutarlı": 1029,
+  "pay sayısıyla tutmuyor": 17,
+  "pay sayısı yok": 25
+ },
+ "cur": "GBP",
+ "pcur": "GBX",
+ "exchanges": {
+  "LSE": 1034,
+  "AQUIS": 37
+ },
+ "periods": {
+  "2026-H1": 694,
+  "2025-H2": 198,
+  "2026-H2": 129,
+  "None": 27,
+  "2026-Q3": 14,
+  "2026-Q2": 8
+ },
+ "pe_fix": {
+  "eps_n": 489,
+  "eps_med": 1.0,
+  "eps_within5": 100.0,
+  "roe_n": 479,
+  "roe_med": 1.0507,
+  "roe_within25": 92.1,
+  "roe_scale": 1.0,
+  "eps_ok": true,
+  "counts": {
+   "loss": 439,
+   "nodata": 128,
+   "roe": 4,
+   "eps": 2
+  },
+  "nodata_top": [
+   "AMC",
+   "ROSE",
+   "IGG",
+   "CAN",
+   "PRN",
+   "APN",
+   "TBTG",
+   "ABT",
+   "GKP",
+   "CGL",
+   "MCG",
+   "TIN",
+   "IDHC",
+   "PRE",
+   "SOM"
+  ],
+  "fixed_top": [
+   [
+    "SSIC",
+    0.66,
+    "roe"
+   ],
+   [
+    "GDWN",
+    175.61,
+    "roe"
+   ],
+   [
+    "IGR",
+    26.28,
+    "roe"
+   ],
+   [
+    "TEK4",
+    15.74,
+    "roe"
+   ],
+   [
+    "ZAM",
+    1.82,
+    "eps"
+   ],
+   [
+    "OMIP",
+    8.24,
+    "eps"
+   ]
+  ]
+ },
+ "pe_filled_pct": 47.1,
+ "top5": [
+  {
+   "c": "HSBA",
+   "n": "HSBC Holdings Plc",
+   "p": 1354,
+   "m": 232189.1,
+   "pe": 11.91,
+   "pb": 1.571,
+   "per": "2026-Q3"
+  },
+  {
+   "c": "AZN",
+   "n": "AstraZeneca PLC",
+   "p": 13930,
+   "m": 215515.5,
+   "pe": 26.45,
+   "pb": 5.548,
+   "per": "2026-Q3"
+  },
+  {
+   "c": "SHEL",
+   "n": "Shell Plc",
+   "p": 3665,
+   "m": 207922.1,
+   "pe": 8.53,
+   "pb": 1.401,
+   "per": "2026-Q3"
+  },
+  {
+   "c": "RR.",
+   "n": "Rolls-Royce Holdings plc",
+   "p": 1369.6,
+   "m": 110938.6,
+   "pe": 37.89,
+   "pb": 40.104,
+   "per": "2026-H1"
+  },
+  {
+   "c": "RIO",
+   "n": "Rio Tinto plc",
+   "p": 6325,
+   "m": 109625.8,
+   "pe": 11.5,
+   "pb": 2.085,
+   "per": "2026-H1"
+  }
+ ],
+ "history": {
+  "candidates": 165,
+  "have": 118,
+  "fetched": 118,
+  "kept": 0,
+  "no_mapping": 0,
+  "failed": [
+   [
+    "RR.",
+    404
+   ],
+   [
+    "BA.",
+    404
+   ],
+   [
+    "UU.",
+    404
+   ],
+   [
+    "JD.",
+    404
+   ],
+   [
+    "JET2",
+    404
+   ],
+   [
+    "QQ.",
+    404
+   ],
+   [
+    "YCA",
+    404
+   ],
+   [
+    "MPE",
+    404
+   ],
+   [
+    "POLR",
+    404
+   ],
+   [
+    "HAN",
+    404
+   ],
+   [
+    "JHD",
+    404
+   ],
+   [
+    "AO.",
+    404
+   ],
+   [
+    "AT.",
+    404
+   ],
+   [
+    "AAZ",
+    404
+   ],
+   [
+    "TAM",
+    404
+   ],
+   [
+    "MHA",
+    404
+   ],
+   [
+    "YU.",
+    404
+   ],
+   [
+    "WVIA",
+    404
+   ],
+   [
+    "FRP",
+    404
+   ],
+   [
+    "TFW",
+    404
+   ],
+   [
+    "VIC",
+    404
+   ],
+   [
+    "MSI",
+    404
+   ],
+   [
+    "TRB",
+    404
+   ],
+   [
+    "ASY",
+    404
+   ],
+   [
+    "RFX",
+    404
+   ],
+   [
+    "FDEV",
+    404
+   ],
+   [
+    "TSTL",
+    404
+   ],
+   [
+    "FNX",
+    404
+   ],
+   [
+    "SRT",
+    404
+   ],
+   [
+    "SUP",
+    404
+   ],
+   [
+    "W7L",
+    404
+   ],
+   [
+    "SRB",
+    404
+   ],
+   [
+    "PGH",
+    404
+   ],
+   [
+    "QTX",
+    404
+   ],
+   [
+    "BVXP",
+    404
+   ],
+   [
+    "HDD",
+    404
+   ],
+   [
+    "RCN",
+    404
+   ],
+   [
+    "JNEO",
+    404
+   ],
+   [
+    "ALU",
+    404
+   ],
+   [
+    "IGP",
+    404
+   ],
+   [
+    "ANP",
+    404
+   ],
+   [
+    "CNS",
+    404
+   ],
+   [
+    "BOOM",
+    404
+   ],
+   [
+    "MTEC",
+    404
+   ],
+   [
+    "TEK4",
+    404
+   ],
+   [
+    "KOO",
+    404
+   ],
+   [
+    "CFX",
+    404
+   ]
+  ],
+  "failed_n": 47,
+  "blocked": false,
+  "budget_left": 5882
+ },
+ "ok": true
+}

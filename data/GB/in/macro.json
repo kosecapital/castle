@@ -1,0 +1,30 @@
+{
+ "fetched": "2026-11-12T23:16:33Z",
+ "cur": "GBP",
+ "pcur": "GBX",
+ "years": [
+  "2021",
+  "2022",
+  "2023",
+  "2024",
+  "2025"
+ ],
+ "fx": 0.7555,
+ "mcapMin": 50,
+ "cpi_cur": 3.5,
+ "cpi_cur_src": "TradingView ECONOMICS:GBIRYY (son açıklanan yıllık TÜFE)",
+ "cpi": {
+  "2021": 5.39,
+  "2022": 10.53,
+  "2023": 3.99,
+  "2024": 2.5,
+  "2025": 3.88
+ },
+ "cpi_src": {
+  "2021": "IMF WEO 2025-04 (dönem sonu)",
+  "2022": "IMF WEO 2025-04 (dönem sonu)",
+  "2023": "IMF WEO 2025-04 (dönem sonu)",
+  "2024": "IMF WEO 2025-04 (dönem sonu)",
+  "2025": "Dünya Bankası FP.CPI.TOTL.ZG (yıllık ortalama)"
+ }
+}

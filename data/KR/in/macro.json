@@ -1,0 +1,30 @@
+{
+ "fetched": "2026-11-12T23:20:03Z",
+ "cur": "KRW",
+ "pcur": "KRW",
+ "years": [
+  "2021",
+  "2022",
+  "2023",
+  "2024",
+  "2025"
+ ],
+ "fx": 1334.69,
+ "mcapMin": 80000,
+ "cpi_cur": 2.8,
+ "cpi_cur_src": "TradingView ECONOMICS:KRIRYY (son açıklanan yıllık TÜFE)",
+ "cpi": {
+  "2021": 3.7,
+  "2022": 5.02,
+  "2023": 3.18,
+  "2024": 1.93,
+  "2025": 2.12
+ },
+ "cpi_src": {
+  "2021": "IMF WEO 2025-04 (dönem sonu)",
+  "2022": "IMF WEO 2025-04 (dönem sonu)",
+  "2023": "IMF WEO 2025-04 (dönem sonu)",
+  "2024": "IMF WEO 2025-04 (dönem sonu)",
+  "2025": "Dünya Bankası FP.CPI.TOTL.ZG (yıllık ortalama)"
+ }
+}
