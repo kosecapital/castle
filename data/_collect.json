@@ -1,17 +1,49 @@
 {
- "when": "2026-11-12T09:02:42Z",
+ "when": "2026-11-12T16:24:44Z",
  "args": [
-  "TW",
-  "IN"
+  "--refresh"
  ],
  "results": [
   {
+   "cc": "US",
+   "ok": true,
+   "fetched": "2026-11-12T15:29:13Z",
+   "n": 4934,
+   "candidates": 832,
+   "pages": 829,
+   "missing": 3,
+   "blocked": false,
+   "errors": []
+  },
+  {
+   "cc": "CN",
+   "ok": true,
+   "fetched": "2026-11-12T15:42:41Z",
+   "n": 5236,
+   "candidates": 705,
+   "pages": 687,
+   "missing": 18,
+   "blocked": false,
+   "errors": []
+  },
+  {
+   "cc": "JP",
+   "ok": true,
+   "fetched": "2026-11-12T15:55:37Z",
+   "n": 3865,
+   "candidates": 685,
+   "pages": 678,
+   "missing": 7,
+   "blocked": false,
+   "errors": []
+  },
+  {
    "cc": "TW",
    "ok": true,
-   "fetched": "2026-11-12T08:55:19Z",
+   "fetched": "2026-11-12T16:05:25Z",
    "n": 2303,
    "candidates": 546,
-   "pages": 196,
+   "pages": 542,
    "missing": 4,
    "blocked": false,
    "errors": []
@@ -19,11 +51,22 @@
   {
    "cc": "IN",
    "ok": true,
-   "fetched": "2026-11-12T08:57:55Z",
-   "n": 4848,
-   "candidates": 506,
-   "pages": 117,
+   "fetched": "2026-11-12T16:13:13Z",
+   "n": 4851,
+   "candidates": 502,
+   "pages": 459,
    "missing": 43,
+   "blocked": false,
+   "errors": []
+  },
+  {
+   "cc": "TR",
+   "ok": true,
+   "fetched": "2026-11-12T16:22:06Z",
+   "n": 629,
+   "candidates": 68,
+   "pages": 67,
+   "missing": 1,
    "blocked": false,
    "errors": []
   }

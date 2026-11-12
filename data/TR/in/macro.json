@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-10T22:41:29Z",
+ "fetched": "2026-11-12T16:22:22Z",
  "cur": "TRY",
  "pcur": "TRY",
  "years": [
@@ -9,7 +9,7 @@
   "2024",
   "2025"
  ],
- "fx": 50.2087,
+ "fx": 50.2529,
  "mcapMin": 3000,
  "cpi_cur": 29.77,
  "cpi_cur_src": "TradingView ECONOMICS:TRIRYY (son açıklanan yıllık TÜFE)",
@@ -17,12 +17,14 @@
   "2021": 36.08,
   "2022": 64.27,
   "2023": 64.77,
-  "2024": 44.38
+  "2024": 44.38,
+  "2025": 34.88
  },
  "cpi_src": {
   "2021": "IMF WEO 2025-04 (dönem sonu)",
   "2022": "IMF WEO 2025-04 (dönem sonu)",
   "2023": "IMF WEO 2025-04 (dönem sonu)",
-  "2024": "IMF WEO 2025-04 (dönem sonu)"
+  "2024": "IMF WEO 2025-04 (dönem sonu)",
+  "2025": "Dünya Bankası FP.CPI.TOTL.ZG (yıllık ortalama)"
  }
 }

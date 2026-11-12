@@ -1,83 +1,83 @@
 {
  "cc": "IN",
- "fetched": "2026-11-12T08:57:55Z",
+ "fetched": "2026-11-12T16:13:13Z",
  "errors": [],
  "pb_fix": {
   "paths": {
    "cur": {
-    "n": 2998,
-    "med": 0.9985,
-    "within10": 99.0,
+    "n": 3001,
+    "med": 0.9987,
+    "within10": 99.1,
     "ok": true
    },
    "bvc": {
-    "n": 2998,
+    "n": 3001,
     "med": 1.0,
     "within10": 100.0,
     "ok": true
    },
    "bvq": {
-    "n": 2998,
+    "n": 3001,
     "med": 1.0,
     "within10": 100.0,
     "ok": true
    },
    "eq": {
-    "n": 2999,
-    "med": 0.9879,
-    "within10": 89.2,
+    "n": 3002,
+    "med": 0.9967,
+    "within10": 91.2,
     "ok": true
    },
    "bvh": {
-    "n": 711,
+    "n": 712,
     "med": 1.0,
     "within10": 98.5,
     "ok": true
    },
    "bvy": {
-    "n": 2912,
+    "n": 2915,
     "med": 1.0407,
     "within10": 73.8,
     "ok": true
    },
    "eqy": {
-    "n": 2969,
-    "med": 1.0322,
-    "within10": 69.4,
+    "n": 2972,
+    "med": 1.0384,
+    "within10": 70.1,
     "ok": true
    }
   },
   "counts": {
-   "cur": 1397,
+   "cur": 1398,
    "eq": 12,
-   "sa": 10,
-   "bvy": 5,
+   "sa": 8,
+   "bvy": 6,
    "eqy": 43
   },
   "neg": 217,
   "nodata": 164,
-  "sa_asked": 10,
-  "sa_pages": 10,
-  "sa_reused": 0,
+  "sa_asked": 8,
+  "sa_pages": 0,
+  "sa_reused": 8,
   "sa_failed": 0,
   "sa_blocked": false,
   "missing_pct": 0.0,
   "nodata_top": [
+   "AONESTEELS",
    "LORDSMARK",
    "RUNWALENTR",
-   "AONESTEELS",
    "SPICEJET",
    "SWARAJ",
    "MKJEWELS",
-   "JAYTEX",
    "JSIPL",
+   "JAYTEX",
    "DCMSIL",
    "REGENCY",
-   "ACSTECH",
    "BCSSL",
+   "ACSTECH",
    "PSTITANIA",
    "SCAGRO",
-   "PHCAP"
+   "CSML"
   ],
   "fixed_top": [
    [
@@ -116,13 +116,13 @@
     "cur"
    ],
    [
-    "ASHOKLEY",
-    7.172,
+    "ENRIN",
+    21.924,
     "cur"
    ],
    [
-    "ENRIN",
-    21.924,
+    "ASHOKLEY",
+    7.172,
     "cur"
    ],
    [
@@ -159,35 +159,35 @@
  },
  "source": "TradingView tarayıcısı",
  "market": "india",
- "total": 5471,
- "kept": 4848,
+ "total": 5473,
+ "kept": 4851,
  "excluded": {
-  "fiyat ya da piyasa değeri yok": 623
+  "fiyat ya da piyasa değeri yok": 622
  },
  "mcap_check": {
-  "tutarlı": 4739,
+  "tutarlı": 4741,
   "pay sayısı yok": 94,
-  "pay sayısıyla tutmuyor": 15
+  "pay sayısıyla tutmuyor": 16
  },
  "cur": "INR",
  "pcur": "INR",
  "exchanges": {
   "NSE": 3171,
-  "BSE": 1677
+  "BSE": 1680
  },
  "periods": {
   "2026-Q2": 2263,
   "2026-Q1": 1595,
-  "2025-H2": 433,
+  "2025-H2": 435,
   "2026-H1": 352,
-  "None": 153,
+  "None": 154,
   "2025-Q4": 34
  },
  "pe_fix": {
-  "eps_n": 3586,
+  "eps_n": 3588,
   "eps_med": 1.0,
   "eps_within5": 100.0,
-  "roe_n": 2326,
+  "roe_n": 2328,
   "roe_med": 1.0648,
   "roe_within25": 91.3,
   "roe_scale": 1.0,
@@ -195,7 +195,7 @@
   "counts": {
    "nodata": 350,
    "loss": 815,
-   "roe": 96,
+   "roe": 97,
    "eps": 5
   },
   "nodata_top": [
@@ -213,82 +213,82 @@
    "SHADOWFAX",
    "MOLBIO",
    "JNPR",
-   "SEDEMAC"
+   "ESDS"
   ],
   "fixed_top": [
    [
     "EDELALTS",
-    42.19,
+    42.18,
     "roe"
    ],
    [
     "HDFIRE",
-    51.42,
-    "roe"
-   ],
-   [
-    "AIMTRON",
-    66.72,
-    "eps"
-   ],
-   [
-    "SFCTECH",
-    26.95,
+    50.36,
     "roe"
    ],
    [
     "ORIENTCABL",
-    63.15,
+    63.05,
+    "roe"
+   ],
+   [
+    "AIMTRON",
+    66.66,
+    "eps"
+   ],
+   [
+    "SFCTECH",
+    28.14,
     "roe"
    ],
    [
     "MILLWORKS",
-    29.61,
+    29.47,
     "roe"
    ],
    [
     "BLSPOLY",
-    33.43,
+    33.58,
     "roe"
    ],
    [
     "HYPERSOFT",
-    108.42,
+    106.15,
     "eps"
    ],
    [
     "MRTX",
-    31.35,
+    31.5,
     "roe"
    ],
    [
     "TIPCO",
-    15.76,
+    16.39,
     "roe"
    ],
    [
     "SJLOGISTIC",
-    6.96,
+    6.38,
     "roe"
    ],
    [
     "BRAHMINFRA",
-    7.7,
+    7.5,
     "eps"
    ],
    [
     "RAKSAN",
-    11.9,
+    11.63,
     "roe"
    ],
    [
     "VPAL",
-    28.76,
+    27.71,
     "roe"
    ],
    [
     "SPEEDEX",
-    21.43,
+    21.45,
     "roe"
    ]
   ]
@@ -298,54 +298,54 @@
   {
    "c": "RELIANCE",
    "n": "Reliance Industries Limited",
-   "p": 1334.4,
-   "m": 17915728.8,
-   "pe": 21.99,
-   "pb": 1.912,
-   "per": "2026-Q2"
-  },
-  {
-   "c": "JPL",
-   "n": "Jio Platforms Limited",
-   "p": 1398.6,
-   "m": 13004993.5,
-   "pe": null,
-   "pb": 3.656,
+   "p": 1339.7,
+   "m": 18044287.9,
+   "pe": 22.08,
+   "pb": 1.92,
    "per": "2026-Q2"
   },
   {
    "c": "BHARTIARTL",
    "n": "Bharti Airtel Limited",
-   "p": 2083.5,
-   "m": 12879719.6,
-   "pe": 41.47,
-   "pb": 8.225,
+   "p": 2096,
+   "m": 13141680.0,
+   "pe": 41.72,
+   "pb": 8.275,
+   "per": "2026-Q2"
+  },
+  {
+   "c": "JPL",
+   "n": "Jio Platforms Limited",
+   "p": 1395.9,
+   "m": 12928098.3,
+   "pe": null,
+   "pb": 3.649,
    "per": "2026-Q2"
   },
   {
    "c": "HDFCBANK",
    "n": "HDFC Bank Limited",
-   "p": 810.95,
-   "m": 12285646.5,
-   "pe": 15.63,
-   "pb": 2.055,
+   "p": 812.3,
+   "m": 12480093.9,
+   "pe": 15.66,
+   "pb": 2.058,
    "per": "2026-Q2"
   },
   {
    "c": "ICICIBANK",
    "n": "ICICI Bank Limited",
-   "p": 1589,
-   "m": 11382183.0,
-   "pe": 19.51,
-   "pb": 2.921,
+   "p": 1590,
+   "m": 11274465.1,
+   "pe": 19.53,
+   "pb": 2.923,
    "per": "2026-Q2"
   }
  ],
  "history": {
-  "candidates": 506,
-  "have": 463,
-  "fetched": 117,
-  "kept": 346,
+  "candidates": 502,
+  "have": 459,
+  "fetched": 459,
+  "kept": 0,
   "no_mapping": 0,
   "failed": [
    [
@@ -357,11 +357,11 @@
     404
    ],
    [
-    "KESAR",
+    "AFCOM",
     404
    ],
    [
-    "AFCOM",
+    "KESAR",
     404
    ],
    [
@@ -417,11 +417,11 @@
     404
    ],
    [
-    "SVRL",
+    "KSSMART",
     404
    ],
    [
-    "KSSMART",
+    "SVRL",
     404
    ],
    [
@@ -441,11 +441,11 @@
     404
    ],
    [
-    "FOSECOC",
+    "VIKRAMTH",
     404
    ],
    [
-    "VIKRAMTH",
+    "FOSECOC",
     404
    ],
    [
@@ -477,19 +477,7 @@
     404
    ],
    [
-    "GOELCONS",
-    404
-   ],
-   [
-    "UNIABEXAL",
-    404
-   ],
-   [
     "META",
-    404
-   ],
-   [
-    "EXHICON",
     404
    ],
    [
@@ -497,7 +485,19 @@
     404
    ],
    [
+    "UNIABEXAL",
+    404
+   ],
+   [
+    "GOELCONS",
+    429
+   ],
+   [
     "LTELEVATOR",
+    404
+   ],
+   [
+    "MAXGROW",
     404
    ],
    [
@@ -505,11 +505,11 @@
     404
    ],
    [
-    "TOTEM",
+    "EXHICON",
     404
    ],
    [
-    "MAXGROW",
+    "TOTEM",
     404
    ],
    [
@@ -523,7 +523,7 @@
   ],
   "failed_n": 43,
   "blocked": false,
-  "budget_left": 5677
+  "budget_left": 2805
  },
  "ok": true
 }

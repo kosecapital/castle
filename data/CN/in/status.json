@@ -1,17 +1,156 @@
 {
  "cc": "CN",
- "fetched": "2026-11-10T23:56:53Z",
+ "fetched": "2026-11-12T15:42:41Z",
  "errors": [],
+ "pb_fix": {
+  "paths": {
+   "cur": {
+    "n": 5168,
+    "med": 1.0163,
+    "within10": 99.3,
+    "ok": true
+   },
+   "bvc": {
+    "n": 5163,
+    "med": 1.0,
+    "within10": 100.0,
+    "ok": true
+   },
+   "bvq": {
+    "n": 5163,
+    "med": 1.0,
+    "within10": 100.0,
+    "ok": true
+   },
+   "eq": {
+    "n": 5161,
+    "med": 0.994,
+    "within10": 75.9,
+    "ok": false
+   },
+   "bvh": {
+    "n": 6,
+    "med": 1.0,
+    "within10": 100.0,
+    "ok": false
+   },
+   "bvy": {
+    "n": 5154,
+    "med": 1.0118,
+    "within10": 81.3,
+    "ok": true
+   },
+   "eqy": {
+    "n": 5156,
+    "med": 0.9963,
+    "within10": 63.0,
+    "ok": true
+   }
+  },
+  "counts": {
+   "cur": 12,
+   "bvy": 4
+  },
+  "neg": 49,
+  "nodata": 2,
+  "sa_asked": 0,
+  "sa_pages": 0,
+  "sa_reused": 0,
+  "sa_failed": 0,
+  "sa_blocked": false,
+  "missing_pct": 0.0,
+  "nodata_top": [
+   "000803",
+   "002731"
+  ],
+  "fixed_top": [
+   [
+    "601088",
+    2.378,
+    "bvy"
+   ],
+   [
+    "600028",
+    0.817,
+    "bvy"
+   ],
+   [
+    "601668",
+    0.38,
+    "cur"
+   ],
+   [
+    "000002",
+    0.32,
+    "bvy"
+   ],
+   [
+    "301109",
+    1.493,
+    "cur"
+   ],
+   [
+    "688827",
+    9.774,
+    "bvy"
+   ],
+   [
+    "600881",
+    49.496,
+    "cur"
+   ],
+   [
+    "300402",
+    2.16,
+    "cur"
+   ],
+   [
+    "002356",
+    5.163,
+    "cur"
+   ],
+   [
+    "300068",
+    8.758,
+    "cur"
+   ],
+   [
+    "600831",
+    46.059,
+    "cur"
+   ],
+   [
+    "002513",
+    305.955,
+    "cur"
+   ],
+   [
+    "000692",
+    53.603,
+    "cur"
+   ],
+   [
+    "300477",
+    882.096,
+    "cur"
+   ],
+   [
+    "300422",
+    2.867,
+    "cur"
+   ]
+  ]
+ },
  "source": "TradingView tarayıcısı",
  "market": "china",
- "total": 5242,
+ "total": 5241,
  "kept": 5236,
  "excluded": {
-  "fiyat ya da piyasa değeri yok": 6
+  "fiyat ya da piyasa değeri yok": 5
  },
  "mcap_check": {
-  "tutarlı": 4697,
-  "pay sayısıyla tutmuyor": 539
+  "tutarlı": 4659,
+  "pay sayısıyla tutmuyor": 577
  },
  "cur": "CNY",
  "pcur": "CNY",
@@ -20,11 +159,11 @@
   "SSE": 2317
  },
  "periods": {
-  "2026-Q3": 5070,
-  "2026-Q2": 146,
+  "2026-Q3": 5073,
+  "2026-Q2": 142,
   "2026-H1": 15,
   "2026-Q1": 4,
-  "None": 1
+  "None": 2
  },
  "pe_fix": {
   "eps_n": 3509,
@@ -36,8 +175,8 @@
   "roe_scale": 1.0,
   "eps_ok": true,
   "counts": {
-   "nodata": 80,
-   "loss": 1643,
+   "nodata": 81,
+   "loss": 1642,
    "eps": 1
   },
   "nodata_top": [
@@ -54,13 +193,13 @@
    "688801",
    "601818",
    "001248",
-   "001399",
-   "001280"
+   "688808",
+   "001399"
   ],
   "fixed_top": [
    [
     "000708",
-    10.89,
+    10.79,
     "eps"
    ]
   ]
@@ -70,54 +209,54 @@
   {
    "c": "601398",
    "n": "Industrial and Commercial Bank of China Limited Class A",
-   "p": 8.6,
-   "m": 2912256.1,
-   "pe": 7.98,
-   "pb": 0.765,
+   "p": 8.69,
+   "m": 2884618.4,
+   "pe": 8.06,
+   "pb": 0.773,
    "per": "2026-Q3"
   },
   {
    "c": "688825",
    "n": "CXMT Corporation Class A",
-   "p": 40.45,
-   "m": 2714685.2,
+   "p": 40.97,
+   "m": 2855884.0,
    "pe": null,
-   "pb": 10.69,
+   "pb": 10.827,
    "per": "2026-Q3"
   },
   {
    "c": "601288",
    "n": "Agricultural Bank of China Limited Class A",
-   "p": 7.35,
-   "m": 2542369.7,
+   "p": 7.26,
+   "m": 2498894.9,
    "pe": null,
-   "pb": 0.888,
+   "pb": 0.877,
    "per": "2026-Q3"
   },
   {
    "c": "601939",
    "n": "China Construction Bank Corporation Class A",
-   "p": 12.03,
-   "m": 2424793.0,
-   "pe": 8.97,
-   "pb": 0.879,
+   "p": 12.01,
+   "m": 2401316.4,
+   "pe": 8.96,
+   "pb": 0.878,
    "per": "2026-Q2"
   },
   {
    "c": "601857",
    "n": "PetroChina Co., Ltd. Class A",
-   "p": 11.82,
-   "m": 2231571.7,
+   "p": 12.03,
+   "m": 2113450.6,
    "pe": null,
-   "pb": 1.332,
+   "pb": 1.355,
    "per": "2026-Q1"
   }
  ],
  "history": {
-  "candidates": 704,
-  "have": 686,
-  "fetched": 1,
-  "kept": 685,
+  "candidates": 705,
+  "have": 687,
+  "fetched": 687,
+  "kept": 0,
   "no_mapping": 0,
   "failed": [
    [
@@ -145,15 +284,15 @@
     404
    ],
    [
+    "601869",
+    404
+   ],
+   [
     "601995",
     404
    ],
    [
     "601600",
-    404
-   ],
-   [
-    "601869",
     404
    ],
    [
@@ -195,7 +334,7 @@
   ],
   "failed_n": 18,
   "blocked": false,
-  "budget_left": 5995
+  "budget_left": 4484
  },
  "ok": true
 }

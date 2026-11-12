@@ -1,48 +1,201 @@
 {
  "cc": "US",
- "fetched": "2026-11-10T23:56:41Z",
+ "fetched": "2026-11-12T15:29:13Z",
  "errors": [],
+ "pb_fix": {
+  "paths": {
+   "cur": {
+    "n": 4278,
+    "med": 1.001,
+    "within10": 92.8,
+    "ok": true
+   },
+   "bvc": {
+    "n": 4277,
+    "med": 1.0,
+    "within10": 100.0,
+    "ok": true
+   },
+   "bvq": {
+    "n": 4277,
+    "med": 1.0,
+    "within10": 100.0,
+    "ok": true
+   },
+   "eq": {
+    "n": 4301,
+    "med": 1.0,
+    "within10": 81.4,
+    "ok": false
+   },
+   "bvh": {
+    "n": 195,
+    "med": 1.0,
+    "within10": 100.0,
+    "ok": true
+   },
+   "bvy": {
+    "n": 4016,
+    "med": 1.0094,
+    "within10": 57.2,
+    "ok": true
+   },
+   "eqy": {
+    "n": 4099,
+    "med": 1.0099,
+    "within10": 47.8,
+    "ok": true
+   }
+  },
+  "counts": {
+   "cur": 130,
+   "bvy": 63,
+   "eqy": 13
+  },
+  "neg": 380,
+  "nodata": 31,
+  "sa_asked": 0,
+  "sa_pages": 0,
+  "sa_reused": 0,
+  "sa_failed": 0,
+  "sa_blocked": false,
+  "missing_pct": 0.0,
+  "nodata_top": [
+   "HUBG",
+   "ASBH",
+   "IMC",
+   "XIII",
+   "HYAC",
+   "SCQC",
+   "ETS",
+   "SRL",
+   "NAMM",
+   "EDHL",
+   "JBDI",
+   "CRMN",
+   "SNSC",
+   "STAK",
+   "NCPL"
+  ],
+  "fixed_top": [
+   [
+    "EQIX",
+    7.15,
+    "cur"
+   ],
+   [
+    "JCI",
+    6.34,
+    "cur"
+   ],
+   [
+    "APD",
+    5.008,
+    "cur"
+   ],
+   [
+    "COR",
+    21.811,
+    "cur"
+   ],
+   [
+    "BDX",
+    2.372,
+    "cur"
+   ],
+   [
+    "WAT",
+    3.056,
+    "cur"
+   ],
+   [
+    "ROK",
+    12.629,
+    "cur"
+   ],
+   [
+    "VIK",
+    36.376,
+    "cur"
+   ],
+   [
+    "RBLX",
+    240.555,
+    "cur"
+   ],
+   [
+    "CRWV",
+    5.344,
+    "cur"
+   ],
+   [
+    "PPL",
+    1.786,
+    "cur"
+   ],
+   [
+    "BIP",
+    4.096,
+    "cur"
+   ],
+   [
+    "LVS",
+    45.528,
+    "cur"
+   ],
+   [
+    "SWKS",
+    2.158,
+    "cur"
+   ],
+   [
+    "PTC",
+    6.272,
+    "cur"
+   ]
+  ]
+ },
  "source": "TradingView tarayıcısı",
  "market": "america",
- "total": 7431,
- "kept": 4940,
+ "total": 7362,
+ "kept": 4934,
  "excluded": {
-  "OTC": 2487,
+  "OTC": 2424,
   "fiyat ya da piyasa değeri yok": 4
  },
  "mcap_check": {
-  "tutarlı": 4637,
-  "pay sayısıyla tutmuyor": 285,
-  "pay sayısı yok": 18
+  "tutarlı": 4630,
+  "pay sayısıyla tutmuyor": 288,
+  "pay sayısı yok": 16
  },
  "cur": "USD",
  "pcur": "USD",
  "exchanges": {
-  "NASDAQ": 3123,
-  "NYSE": 1607,
-  "AMEX": 209,
+  "NASDAQ": 3121,
+  "NYSE": 1606,
+  "AMEX": 206,
   "CBOE": 1
  },
  "periods": {
-  "2026-Q3": 2807,
-  "2026-Q2": 1412,
+  "2026-Q3": 2819,
+  "2026-Q2": 1394,
   "2026-H1": 215,
   "2026-Q4": 152,
-  "2026-Q1": 119,
-  "2027-Q1": 114
+  "2026-Q1": 118,
+  "2027-Q1": 115
  },
  "pe_fix": {
-  "eps_n": 2910,
+  "eps_n": 2904,
   "eps_med": 1.0,
   "eps_within5": 100.0,
-  "roe_n": 2621,
+  "roe_n": 2620,
   "roe_med": 1.0494,
   "roe_within25": 86.5,
   "roe_scale": 1.0,
   "eps_ok": true,
   "counts": {
    "nodata": 390,
-   "loss": 2014,
+   "loss": 2009,
    "roe": 4,
    "eps": 6
   },
@@ -54,64 +207,64 @@
    "ARXS",
    "FDXF",
    "MAIR",
-   "QNT",
    "JAN",
+   "QNT",
    "LLYVA",
+   "MBGL",
    "JMKE",
    "MANE",
-   "MBGL",
    "OCTV",
-   "MSGR"
+   "MWH"
   ],
   "fixed_top": [
    [
     "WSE",
-    21.92,
+    21.88,
     "roe"
    ],
    [
     "GLNG",
-    27.1,
+    26.64,
     "eps"
    ],
    [
     "TK",
-    6.17,
+    6.23,
     "eps"
    ],
    [
     "CMTV",
-    14.06,
+    14.24,
     "eps"
    ],
    [
     "OVBC",
-    15.68,
+    15.96,
     "eps"
    ],
    [
     "FGBI",
-    11.59,
+    11.34,
     "eps"
    ],
    [
     "TRAD",
-    100.85,
+    100.65,
     "roe"
    ],
    [
     "BVC",
-    31.33,
+    33.25,
     "roe"
    ],
    [
     "SPCB",
-    52.27,
+    44.95,
     "eps"
    ],
    [
     "THH",
-    441.72,
+    419.92,
     "roe"
    ]
   ]
@@ -121,54 +274,54 @@
   {
    "c": "AAPL",
    "n": "Apple Inc.",
-   "p": 348.51,
-   "m": 5064610.7,
-   "pe": 38.83,
-   "pb": 45.182,
+   "p": 357.755,
+   "m": 5198960.7,
+   "pe": 39.86,
+   "pb": 46.381,
    "per": "2026-Q4"
-  },
-  {
-   "c": "NVDA",
-   "n": "NVIDIA Corporation",
-   "p": 168.89,
-   "m": 4070249.0,
-   "pe": 21.35,
-   "pb": 17.81,
-   "per": "2026-Q2"
   },
   {
    "c": "MSFT",
    "n": "Microsoft Corporation",
-   "p": 533.16,
-   "m": 3959349.7,
-   "pe": 27.84,
-   "pb": 8.416,
+   "p": 525.4,
+   "m": 3901722.5,
+   "pe": 27.44,
+   "pb": 8.293,
    "per": "2027-Q1"
+  },
+  {
+   "c": "NVDA",
+   "n": "NVIDIA Corporation",
+   "p": 161.485,
+   "m": 3891788.4,
+   "pe": 20.41,
+   "pb": 17.029,
+   "per": "2026-Q2"
   },
   {
    "c": "GOOGL",
    "n": "Alphabet Inc.",
-   "p": 287.38,
-   "m": 3500849.6,
-   "pe": 15.0,
-   "pb": 5.357,
+   "p": 295.24,
+   "m": 3593037.4,
+   "pe": 15.41,
+   "pb": 5.503,
    "per": "2026-Q3"
   },
   {
    "c": "AMZN",
    "n": "Amazon.com, Inc.",
-   "p": 270.87,
-   "m": 2928954.5,
-   "pe": 21.89,
-   "pb": 4.772,
+   "p": 271.6187,
+   "m": 2937050.6,
+   "pe": 21.95,
+   "pb": 4.786,
    "per": "2026-Q3"
   }
  ],
  "history": {
-  "candidates": 811,
-  "have": 808,
-  "fetched": 4,
-  "kept": 804,
+  "candidates": 832,
+  "have": 829,
+  "fetched": 829,
+  "kept": 0,
   "no_mapping": 0,
   "failed": [
    [
@@ -186,7 +339,7 @@
   ],
   "failed_n": 3,
   "blocked": false,
-  "budget_left": 5996
+  "budget_left": 5171
  },
  "ok": true
 }

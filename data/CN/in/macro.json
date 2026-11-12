@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-10T23:56:54Z",
+ "fetched": "2026-11-12T15:42:42Z",
  "cur": "CNY",
  "pcur": "CNY",
  "years": [
@@ -9,7 +9,7 @@
   "2024",
   "2025"
  ],
- "fx": 6.6698,
+ "fx": 6.6699,
  "mcapMin": 400,
  "cpi_cur": 0.7,
  "cpi_cur_src": "TradingView ECONOMICS:CNIRYY (son açıklanan yıllık TÜFE)",
@@ -17,14 +17,19 @@
   "2021": 1.47,
   "2022": 1.82,
   "2023": -0.24,
-  "2024": 0.03,
-  "2025": 0.06
+  "2024": 0.03
  },
  "cpi_src": {
   "2021": "IMF WEO 2025-04 (dönem sonu)",
   "2022": "IMF WEO 2025-04 (dönem sonu)",
   "2023": "IMF WEO 2025-04 (dönem sonu)",
-  "2024": "IMF WEO 2025-04 (dönem sonu)",
-  "2025": "Dünya Bankası FP.CPI.TOTL.ZG (yıllık ortalama)"
- }
+  "2024": "IMF WEO 2025-04 (dönem sonu)"
+ },
+ "cpi_missing": [
+  "2025"
+ ],
+ "cpi_errors": [
+  "Dünya Bankası: ReadTimeout HTTPSConnectionPool(host='api.worldbank.org', port=443): Read timed out. (read t",
+  "Dünya Bankası: ReadTimeout HTTPSConnectionPool(host='api.worldbank.org', port=443): Read timed out. (read t"
+ ]
 }
