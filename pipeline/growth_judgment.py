@@ -153,9 +153,13 @@ def judge_earn(f):
                      " Bu kayıp kârdan zaten düşülmüş durumda; kazanç yükseltilmedi.")
             b_en += (f" Profit for {mo['en']} is after a net monetary position loss of {en(amt)} billion {cur} (equal to {tr_en(100 * sh)}% of pre-tax profit): inflation eroded the company's cash and receivables."
                      " That loss is already deducted from profit; earnings were not raised.")
+    rt = f.get("retained")                               # dağıtılmayan pay, şirketin kendi tablolarından (enflasyon muhasebesi uygulayan şirket)
+    if rt and rt.get("b") is not None:
+        b_tr += f" Dağıtılan pay şirketin kendi tablolarından okundu ({rt['tr']}): ana ortaklık kârının %{tr(100 * (1 - rt['b']), 0)} kadarı temettü ve geri alımla ortaklara ödendi, %{tr(100 * rt['b'], 0)} kadarı şirkette kaldı."
+        b_en += f" The share distributed was read from the company's own statements ({rt['en']}): {en(100 * (1 - rt['b']), 0)}% of parent profit was paid to shareholders in dividends and buybacks, and {en(100 * rt['b'], 0)}% stayed in the company."
     if k < 1:
         b_tr += f" Son 12 ayın kârı {tr(k, 2)} ile çarpılarak kullanıldı."; b_en += f" Last-12-month profit was used multiplied by {en(k, 2)}."
-    return dict(k=k, basis=dict(tr=b_tr, en=b_en))
+    return dict(k=k, basis=dict(tr=b_tr, en=b_en), **({"b": rt["b"]} if rt and rt.get("b") is not None else {}), **({"ks": round(k_src, 3)} if k_src < 1 else {}))
 
 
 def run_earn(cc):
@@ -183,7 +187,7 @@ def run_earn(cc):
         rec["per"] = byc[c].get("per")
         reports[c]["earn"] = rec
         have = {s["u"] for s in reports[c]["sources"]}
-        for m in [f.get("ttm") or {}] + (f.get("gains") or []) + (f.get("guidance") or []) + [f.get("monetary") or {}]:
+        for m in [f.get("ttm") or {}] + (f.get("gains") or []) + (f.get("guidance") or []) + [f.get("monetary") or {}] + [dict(url=x) for x in ((f.get("retained") or {}).get("urls") or [])]:
             if m.get("url") and m["url"] not in have:
                 have.add(m["url"])
                 reports[c]["sources"].append(dict(t="Kazanç yargısının kaynağı", te="Source for the earnings judgment", u=m["url"]))

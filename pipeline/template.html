@@ -377,6 +377,25 @@ function loadWorld50() { // ayrıntılı kıyı çizgileri; bir ülkeye ilk giri
 }
 
 /* ---------- değerleme (4. sur) ---------- */
+// Ortağın kazancı ve alıkonan kârın sınavı (CLAUDE.md, "Ortağın kazancı"): beş yılın nakdi ve dağıtımı ne söylüyor, hesaba nasıl girdi
+function ownT(l) {
+  var o = l.ow, t = "", e = "";
+  if (!o) return L("Ölçülemedi: kaynakta beş yıllık nakit akışı ya da dağıtım verisi yok.", "Could not be measured: the source has no five-year cash-flow or payout data.");
+  if (o.c != null) {
+    t = "Son beş mali yılda serbest nakit akışı kârın " + pct(o.c * 100, 0) + " kadarıydı. " + (o.gn > 0 ? "Aynı dönemde reel kâr yılda " + pct(o.gn, 1) + " büyüdü; bu büyüme kârın " + pct(o.need * 100, 0) + " kadarının işte kalmasını gerektirirdi." : "Aynı dönemde reel kâr büyümedi (yılda " + pct(o.gn, 1) + "); büyüme için işte kalması gereken bir pay yok.");
+    e = "Over the last five fiscal years free cash flow was " + pct(o.c * 100, 0) + " of profit. " + (o.gn > 0 ? "Over the same period real profit grew by " + pct(o.gn, 1) + " a year; that growth would have required " + pct(o.need * 100, 0) + " of profit to stay in the business." : "Over the same period real profit did not grow (" + pct(o.gn, 1) + " a year), so no share needed to stay in the business for growth.");
+    if (o.kc < 1) { t += " Nakde dönmeyen kârın bunu aşan bölümü (enflasyona karşı sermayeyi korumak için gereken pay ayrıldıktan sonra " + pct((1 - o.kc) * 100, 0) + ") işi yerinde tutmak için harcanmış sayıldı ve kazançtan düşüldü."; e += " The part of uncollected profit beyond that (" + pct((1 - o.kc) * 100, 0) + " after setting aside what is needed to protect capital against inflation) was treated as spent on keeping the business where it is and was deducted from earnings."; }
+    else { t += " Nakde dönmeyen pay bunu aşmıyor; kazanç bu nedenle indirilmedi."; e += " The uncollected share does not exceed that; earnings were not lowered on this account."; }
+  } else { t = "Nakit ölçüsü uygulanmadı (finans şirketi ya da finansman kolu var: nakit akışı kredi hacmiyle birlikte oynar)."; e = "The cash measure was not applied (a financial company, or one with a finance arm: cash flow moves with lending volume)."; }
+  if (o.b != null) {
+    t += " Alıkonan kârın sınavı: kârın " + pct(o.b * 100, 0) + " kadarı ortaklara dağıtılmadı (temettü ve geri alımdan sonra" + (o.bs ? "; şirketin kendi tablolarından" : "") + ")";
+    e += " Retained-earnings test: " + pct(o.b * 100, 0) + " of profit was not distributed to shareholders (after dividends and buybacks" + (o.bs ? "; from the company's own statements" : "") + ")";
+    if (o.rho == null) { t += "; şirkette kalan pay çok küçük, sınav uygulanmaz."; e += "; the share kept is too small for the test to apply."; }
+    else if (o.rho >= P.r) { t += "; şirkette kalan paranın getirisi " + pct(o.rho, 1) + ", eşiğin (" + pct(P.r, 0) + ") üstünde."; e += "; the return on the money kept is " + pct(o.rho, 1) + ", above the threshold (" + pct(P.r, 0) + ")."; }
+    else { t += "; şirkette kalan paranın getirisi " + pct(o.rho, 1) + ", eşiğin (" + pct(P.r, 0) + ") altında: bu dönemde alıkonan kâr, ortağa aynı ölçüde kazanç artışı getirmedi. Bu, fiyat hesabını değiştirmez (büyüme hızı zaten gerçekleşen büyümeyle sınırlı); yönetim puanında ve risklerde değerlendirilir."; e += "; the return on the money kept is " + pct(o.rho, 1) + ", below the threshold (" + pct(P.r, 0) + "): profit retained in this period did not bring the owner a matching rise in earnings. This does not change the price calculation (the growth rate is already limited to growth actually achieved); it is weighed in the management score and the risks."; }
+  }
+  return L(t, e);
+}
 function val(c) {
   var u = C.byC[c], l = C.L2[c], r = C.R[c], n = l.rroe.length;
   var ek = l.ek || 1, ttm = u.nom ? u.rr : u.roe; // kazanç yargısı: son 12 ay okumaları çarpanla alınır (funnel.py roe_cons ile aynı)
@@ -408,11 +427,12 @@ function ndS(v) { return v < 0 ? L("net nakit", "net cash") : num(v, Math.abs(v 
 function failText(f) {
   var era = eraL();
   switch (f.k) {
+    case "roe_ttm": return L("Son 12 ay özsermaye kârlılığı kazanç düzeltmesinden sonra " + pct(f.v) + " (eşik " + pct(P.roeMin, 0) + ")", "Return on equity over the last 12 months is " + pct(f.v) + " after the earnings adjustment (threshold " + pct(P.roeMin, 0) + ")");
     case "data": return L("Güncel beş yıllık veri doğrulanamadı", "Up-to-date five-year data could not be verified");
     case "history": return L("Beş yıllık mali geçmiş yok (halka arzı yeni)", "No five-year financial history (recently listed)");
     case "loss": return L("Son beş yılda zarar yılı var: ", "A loss-making year in the last five years: ") + f.v.join(", ");
-    case "roe_min": return L("Reel özsermaye kârlılığı istikrarsız: " + era + " en düşük okuma " + pct(f.v) + (f.ej ? " (kazanç yargısından sonra)" : "") + " (eşik " + pct(P.eraMin, 0) + ")", "Real return on equity is unstable: the lowest reading " + era + " is " + pct(f.v) + (f.ej ? " (after the earnings judgment)" : "") + " (threshold " + pct(P.eraMin, 0) + ")");
-    case "roe_avg": return L("Reel özsermaye kârlılığı yetersiz: " + era + " ortalama " + pct(f.v) + (f.ej ? " (kazanç yargısından sonra)" : "") + " (eşik " + pct(P.eraAvg, 0) + ")", "Real return on equity is too low: the average " + era + " is " + pct(f.v) + (f.ej ? " (after the earnings judgment)" : "") + " (threshold " + pct(P.eraAvg, 0) + ")");
+    case "roe_min": return L("Reel özsermaye kârlılığı istikrarsız: " + era + " en düşük okuma " + pct(f.v) + (f.ej ? " (kazanç düzeltmesinden sonra)" : "") + " (eşik " + pct(P.eraMin, 0) + ")", "Real return on equity is unstable: the lowest reading " + era + " is " + pct(f.v) + (f.ej ? " (after the earnings adjustment)" : "") + " (threshold " + pct(P.eraMin, 0) + ")");
+    case "roe_avg": return L("Reel özsermaye kârlılığı yetersiz: " + era + " ortalama " + pct(f.v) + (f.ej ? " (kazanç düzeltmesinden sonra)" : "") + " (eşik " + pct(P.eraAvg, 0) + ")", "Real return on equity is too low: the average " + era + " is " + pct(f.v) + (f.ej ? " (after the earnings adjustment)" : "") + " (threshold " + pct(P.eraAvg, 0) + ")");
     case "debt": return L("Borç yükü yüksek: " + (f.fa ? "finansman kolu hariç " : "") + "net borç/FAVÖK ", "Heavy debt: net debt/EBITDA " + (f.fa ? "excluding the finance arm " : "")) + ndS(f.v) + L(" (eşik ", " (threshold ") + num(P.ndMax) + ")";
     case "cash": return f.v[0] ? L("Kâr nakde dönmüyor: son " + f.v[1] + " dönemde serbest nakit akışı yalnız " + f.v[0] + " kez pozitif", "Profit does not turn into cash: free cash flow was positive in only " + f.v[0] + " of the last " + f.v[1] + " periods") : L("Kâr nakde dönmüyor: son " + f.v[1] + " dönemde serbest nakit akışı hiç pozitif olmadı", "Profit does not turn into cash: free cash flow was never positive in the last " + f.v[1] + " periods");
   }
@@ -428,7 +448,7 @@ function why(u) { // elenme nedeni, tam cümle
     case "equity": return L("Özsermaye negatif", "Negative equity");
     case "nobook": return L("Veri kaynakları şirketin defter değerini vermiyor: PD/DD hesaplanamıyor, şirket değerlendirilemedi", "The data sources give no book value for the company: P/B cannot be calculated, so the company could not be assessed");
     case "small": return mt("small_text") + L(": bilgi ve işlem derinliği sınırlı", ": limited information and trading depth");
-    case "roe_ttm": return L("Son 12 ay özsermaye kârlılığı " + (u.nom ? "enflasyondan arındırılınca " : "") + pct(u.rr * (u.ek || 1)) + (u.ek ? " (kazanç yargısından sonra)" : "") + " (eşik " + pct(P.roeMin, 0) + ")", "Return on equity over the last 12 months is " + pct(u.rr * (u.ek || 1)) + (u.nom ? " after inflation" : "") + (u.ek ? " (after the earnings judgment)" : "") + " (threshold " + pct(P.roeMin, 0) + ")");
+    case "roe_ttm": return L("Son 12 ay özsermaye kârlılığı " + (u.nom ? "enflasyondan arındırılınca " : "") + pct(u.rr * (u.ek || 1)) + (u.ek ? " (kazanç düzeltmesinden sonra)" : "") + " (eşik " + pct(P.roeMin, 0) + ")", "Return on equity over the last 12 months is " + pct(u.rr * (u.ek || 1)) + (u.nom ? " after inflation" : "") + (u.ek ? " (after the earnings adjustment)" : "") + " (threshold " + pct(P.roeMin, 0) + ")");
     case "decline": return L("Kârdaki kötüleşmenin nedeni kalıcı; şirket fiyat testine alınmadı", "The cause of the fall in profit is lasting; the company was not taken to the price test");
     case "moat": return L("Kalıcı bir rekabet üstünlüğü (hendek) yok ya da zayıf", "No durable competitive advantage (moat), or only a weak one");
     case "mgmt": return L("Yönetim ve sermaye tahsisi testini geçemedi", "Did not pass the management and capital allocation test");
@@ -984,6 +1004,7 @@ function panelCo(c) {
     else { cls = "na"; mk = "–"; sub = L("Bu sura gelmedi", "Did not reach this wall"); }
     return '<li><span class="' + cls + '" aria-hidden="true">' + mk + "</span><span>" + stFull(i + 1) + tail + (sub ? "<small>" + esc(sub) + "</small>" : "") + "</span></li>";
   }).join("") + "</ol>";
+  if (l && l.ow && l.ow.kc < 1 && u.e < 4 && st !== "sirada") h += '<p class="note"><b>' + L("Ortağın kazancı: ", "Owner earnings: ") + "</b>" + ownT(l) + "</p>";
   if (l && l.rroe.some(function (x) { return x != null; })) {
     h += "<h3>" + L("Beş yılın rakamları", "Five years of numbers") + "</h3>" + roeChart(c);
     var kv = "", era = eraL(), eraT = era.charAt(0).toLocaleUpperCase("tr") + era.slice(1);
@@ -1002,7 +1023,7 @@ function panelCo(c) {
   var nt = C.Nt[c]; if (nt) h += '<p class="note">' + esc(LANG === "en" && nt.en ? nt.en : nt.tr) + "</p>";
   if (v) {
     h += "<h3>" + L("Fiyat testi", "Price test") + (st === "sirada" ? L(" (ön hesap)", " (preliminary)") : "") + "</h3>" + gauge(u, v) + '<dl class="kv">' +
-      "<dt>" + L("Temkinli özsermaye kârlılığı", "Conservative return on equity") + "<small>" + L("son üç okumanın en düşüğü", "lowest of the last three readings") + (l.ek ? L("; son 12 ayın kârı kazanç yargısıyla " + pct((1 - l.ek) * 100, 0) + " indirildi", "; last-12-month profit was lowered by " + pct((1 - l.ek) * 100, 0) + " under the earnings judgment") : "") + "</small></dt><dd><b>" + pct(v.roeN) + "</b></dd>" +
+      "<dt>" + L("Temkinli özsermaye kârlılığı", "Conservative return on equity") + "<small>" + L("son üç okumanın en düşüğü", "lowest of the last three readings") + (l.ek ? L("; son 12 ayın kârı kazanç düzeltmesiyle " + pct((1 - l.ek) * 100, 0) + " indirildi", "; last-12-month profit was lowered by " + pct((1 - l.ek) * 100, 0) + " under the earnings adjustment") : "") + "</small></dt><dd><b>" + pct(v.roeN) + "</b></dd>" +
       "<dt>" + L("Temkinli kazanca göre F/K", "P/E on conservative earnings") + "</dt><dd>" + num(v.pen) + "</dd>" +
       "<dt>" + L("Büyüme hızı", "Growth rate") + "<small>" + L("reel, yılda; geçmiş beş yıl ", "real, per year; past five years ") + (v.gh == null ? L("hesaplanamadı", "not available") : pct(v.gh, 1)) + L(", sürdürülebilir ", ", sustainable ") + (v.gs == null ? na : pct(v.gs, 1)) + L("; düşük olan alınır, en çok ", "; the lower is used, capped at ") + pct(P.gCap, 0) + (l.gj ? L(". Formül " + pct(l.gm, 1) + " veriyordu; okumada bulunanlar yüzünden indirildi", ". The formula gave " + pct(l.gm, 1) + "; it was lowered because of what the reading found") : "") + "</small></dt><dd>" + pct(v.g1, 1) + "</dd>" +
       "<dt>" + L("İndirgenmiş nakit akışına göre adil F/K", "Fair P/E by discounted cash flow") + "<small>" + L("reel iskonto ", "real discount rate ") + pct(P.r, 1) + L("; " + P.gYears + " yıl bu büyüme, sonra yılda ", "; " + P.gYears + " years at this growth, then ") + pct(v.g, 1) + (r ? L(" (hendek " + r.moat + ")", " a year (moat: " + moatW(r.moat) + ")") : L(" (dar hendek varsayımı)", " a year (assuming a narrow moat)")) + "</small></dt><dd>" + num(v.dcf) + "</dd>" +
@@ -1012,6 +1033,7 @@ function panelCo(c) {
       "<dt>" + L("Alım eşiği", "Threshold price") + "<small>" + L("marj " + pct(P.mos, 0) + " için", "for a margin of " + pct(P.mos, 0)) + "</small></dt><dd>" + money(v.buy, u) + "</dd></dl>";
     if (r && r.earn && r.earn.basis) h += '<p class="note"><b>' + L("Kazanç yargısı: ", "Earnings judgment: ") + "</b>" + esc(LANG === "en" && r.earn.basis.en ? r.earn.basis.en : r.earn.basis.tr) + "</p>";
     if (r && r.growth && r.growth.basis) h += '<p class="note"><b>' + L("Büyüme yargısı: ", "Growth judgment: ") + "</b>" + esc(LANG === "en" && r.growth.basis.en ? r.growth.basis.en : r.growth.basis.tr) + "</p>";
+    h += '<p class="note"><b>' + L("Ortağın kazancı: ", "Owner earnings: ") + "</b>" + ownT(l) + "</p>";
     if (st === "sirada") h += '<p class="note">' + L("Bu bir ön hesaptır. Şirket 3. surda okunmadan kale sayılmaz.", "This is a preliminary calculation. A company does not count as a castle until it has been read at Wall 3.") + "</p>";
   }
   if (rep) {

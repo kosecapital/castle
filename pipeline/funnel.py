@@ -92,6 +92,67 @@ def price_test(P, u, l, wide):
     return dict(fv, roe_n=roe_n, pen=pen, mos=(1 - pen / fv["fair"]) * 100)
 
 
+def owner_share(h, labs, cpi_of, ias29, P, first=None, cash=True, over=None):
+    """Ortağın kazancı ve alıkonan kârın sınavı (CLAUDE.md, "Ortağın kazancı"). Son beş mali yıl, kaynağın oran sayfasından.
+    c    : serbest nakit akışı ÷ kâr (finans şirketinde ve finansman kolu olanda ölçülmez; cash=False).
+    kc   : ortağın kazancı çarpanı. Nakde dönmeyen pay (1 − c), büyümenin gerektirdiği paydan (reel kâr büyümesi ÷ reel özsermaye
+           kârlılığı) fazlaysa aradaki fark kazançtan düşülür: o para işi yerinde tutmak için harcanmıştır, ortağa kalmaz. Fark
+           %3'ün altındaysa düşülmez. Enflasyon muhasebesi uygulamayan şirkette özsermayeyi enflasyona karşı korumak için gereken pay
+           (enflasyon ÷ özsermaye kârlılığı) önce düşülür: reel kârlılık hesabı o payı zaten kârdan düşmüştür.
+    b    : dağıtılmayan pay = 1 − (temettü + net geri alım) ÷ kâr (pay ihracı dağıtımdan düşülür). Enflasyon muhasebesi uygulayan
+           şirkette kaynağın dağıtım oranı güvenilmez; `over` (şirketin kendi tablolarından okunan oran) varsa o kullanılır.
+    rho  : alıkonan kârın sınavı: şirkette kalan paranın getirisi = reel kâr büyümesi ÷ şirkette kalan pay (b ile 1 − c'nin büyüğü).
+           Yalnız gösterilir ve raporda değerlendirilir; fiyat hesabına girmez (büyüme hızı ve temkinli kârlılık bunu zaten taşır).
+    Döner: dict ya da None (ölçülemiyor)."""
+    mc, pes = h.get("mc"), h.get("pes")
+    if not mc or not pes:
+        return None
+    fcf, pos, bb = h.get("fcf") or [None] * 6, h.get("pos") or [None] * 6, h.get("bb") or [None] * 6
+    ni = [(mc[i] / pes[i]) if (mc[i] and pes[i] and pes[i] > 0) else None for i in range(5)]
+    idxs = [i for i in range(5) if ni[i]]
+    if len(idxs) < 4:
+        return None
+    cum = [1.0]
+    for i in range(1, 5):
+        cum.append(cum[-1] * (1 + (cpi_of(labs[i]) or 0.0) / 100.0))
+    pts = [(i, math.log(ni[i] / (cum[min(i + 1, 4)] if ias29 else cum[i]))) for i in idxs if not (ias29 and first and labs[i] < first)]
+    if len(pts) < 4:
+        return None
+    mx, my = sum(x for x, _ in pts) / len(pts), sum(y for _, y in pts) / len(pts)
+    gn = (math.exp(sum((x - mx) * (y - my) for x, y in pts) / sum((x - mx) ** 2 for x, _ in pts)) - 1) * 100
+    roes = [(labs[i], v) for i, v in enumerate((h.get("roe") or [])[:5]) if v is not None and v > 0]
+    if not roes:
+        return None
+    infl = 0.0 if ias29 else (sum((cpi_of(lab) or 0.0) for lab, _ in roes) / len(roes)) / (sum(v for _, v in roes) / len(roes))
+    rroe = sum((v if ias29 else real(v, cpi_of(lab))) for lab, v in roes) / len(roes)
+    adj = lambda x: max(0.0, min(1.0, (x - infl) / (1 - infl))) if infl < 0.9 else 0.0
+    tot = sum(ni[i] for i in idxs)
+    b = None
+    if over is not None:
+        b = over
+    elif not ias29 and any(pos[i] is not None or bb[i] is not None for i in idxs):
+        b = 1 - sum((pos[i] or 0.0) / 100.0 * ni[i] + (bb[i] or 0.0) / 100.0 * mc[i] for i in idxs) / tot
+    c, kc, need = None, 1.0, None
+    fi = [i for i in idxs if fcf[i] is not None]
+    if cash and len(fi) >= 4:
+        c = sum(fcf[i] / 100.0 * mc[i] for i in fi) / sum(ni[i] for i in fi)
+        if rroe > 0:
+            need = min(1.0, max(0.0, gn) / rroe)
+            x = adj(1 - c) - need
+            if x >= 0.03:
+                kc = max(0.2, round(1 - x, 3))
+    cands = [x for x in (b, None if c is None else 1 - c) if x is not None]
+    if not cands:
+        return None
+    keep = adj(max(cands))
+    rho = round(max(0.0, gn) / keep, 1) if keep > 0.02 else None
+    r3 = lambda x: None if x is None else round(x, 3)
+    out = dict(k=r3(keep), b=r3(b), c=r3(c), gn=round(gn, 1), rho=rho, need=r3(need), kc=kc)
+    if over is not None:
+        out["bs"] = 1
+    return out
+
+
 def growth(h, labs, cpi_of, roe_n, ias29, P, first=None):
     """Şirketin büyüme hızı (reel, %): geçmiş ile sürdürülebilir olanın düşüğü, 0 ile gCap arasında.
     Geçmiş (gh): son beş mali yılın reel hisse başına kâr eğilimi. Net kâr = piyasa değeri ÷ F/K (oran sayfası); pay sayısındaki değişim
@@ -182,6 +243,19 @@ def run(cc):
         # Kazanç yargısı (CLAUDE.md): son 12 ayın okumaları 2. surun eşiklerinde de yargılanmış kazançla sınanır.
         ej = (reports.get(c) or {}).get("earn") or {}
         ek = ej["k"] if isinstance(ej.get("k"), (int, float)) and 0 < ej["k"] < 1 else 1.0
+        # Ortağın kazancı (CLAUDE.md): beş yılda nakde dönmeyen ve büyümenin gerektirmediği kâr payı kazançtan düşülür. Okunmuş olsun
+        # olmasın her şirkete aynı veriyle uygulanır. Finans şirketinde ve finansman kolu olanda nakit ölçüsü kullanılmaz.
+        ow, h0 = None, hist.get(c)
+        if h0 and pe and pe > 0 and pb and pb > 0:
+            fy0 = h0.get("fy") or years
+            labs0 = [fy0[i] if i < len(fy0) and fy0[i] else years[i] for i in range(5)] + ["cur"]
+            ia = (not defl) and not fxc
+            ov = ej.get("b")
+            ow = owner_share(h0, labs0, cpi_of, ia, P, str(int(min(era_years)) - 1) if (era_explicit and era_years and ia) else None,
+                             cash=not (u.get("fin") or finarm.get(c)), over=ov if isinstance(ov, (int, float)) else None)
+        kc = ow["kc"] if ow else 1.0
+        ks = ej["ks"] if isinstance(ej.get("ks"), (int, float)) and 0 < ej["ks"] < 1 else 1.0
+        ek = round(min(ek, ks * kc), 3)              # tek seferlik kazanç, şirket beklentisi ve ortağın kazancı: en düşüğü (kaynak düzeltmesi hepsine uygulanır)
         e, w = None, None
         if u.get("veh"):
             e, w = 1, "vehicle"
@@ -195,7 +269,7 @@ def run(cc):
             e, w = 1, ("nobook" if u.get("nb") == "nodata" else "equity")
         elif u["m"] < mcap_min:
             e, w = 1, "small"
-        elif rr is None or rr * ek < P["roeMin"]:
+        elif rr is None or rr < P["roeMin"]:
             e, w = 2, "roe_ttm"
         else:
             h = hist.get(c)
@@ -210,6 +284,8 @@ def run(cc):
                 roe6 = (list(h["roe"]) + [None] * 6)[:6]
                 rroe6 = [(real(v, cf(lab)) if defl else v) for lab, v in zip(labs, roe6)]
                 fails, flags = [], []
+                if rr * ek < P["roeMin"]:          # kaynağın rakamı eşiği geçiyor, düzeltilmiş kazanç geçmiyor: beş yıllık rakamlar yine gösterilir
+                    fails.append({"k": "roe_ttm", "v": round(rr * ek, 1), "ej": 1})
                 has_hist = (h["roe"][0] is not None) or (h.get("roic") and h["roic"][0] is not None)
                 if h.get("stale"):
                     fails.append({"k": "data"})
@@ -256,8 +332,10 @@ def run(cc):
                 L2[c] = dict(asof=h.get("asof"), stale=h.get("stale", 0), roe=roe6, rroe=[rnd(v, 2) for v in rroe6],
                              roic=h.get("roic"), fcf=h["fcf"], nd=nd, pe=h.get("pe"), pb=h.get("pb"), dy=h.get("dy"), po=h.get("po"),
                              avg=rnd(avg), mn=rnd(mn), fails=fails, flags=flags, ok=0 if fails else 1)
+                if ow:
+                    L2[c]["ow"] = ow
                 if ek < 1:
-                    L2[c]["ek"] = ek               # kazanç yargısı (CLAUDE.md): son 12 ay okumaları bu çarpanla alınır
+                    L2[c]["ek"] = round(ek, 3)     # kazanç yargısı (CLAUDE.md): son 12 ay okumaları bu çarpanla alınır
                 roe_c = [x for x in (None if rr is None else rr * ek, rroe6[-2], None if rroe6[-1] is None else rroe6[-1] * ek) if x is not None]
                 if roe_c and min(roe_c) > 0:       # 4. surun büyüme hızı (fiyat testi ve ön hesap için)
                     # İşlevsel para birimi yabancı olan şirket (meta.flags.fx) enflasyon muhasebesi uygulamaz: kâr dizisi nominaldir,

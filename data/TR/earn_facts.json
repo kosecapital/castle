@@ -21,6 +21,23 @@
    "url": "https://kap.org.tr/en/api/BildirimPdf/1695704",
    "tr": "Ocak-Eylül 2026",
    "en": "January-September 2026"
+  },
+  "retained": {
+   "b": 0.639,
+   "years": 3,
+   "dist": 26062.3,
+   "profit": 72140.7,
+   "tr": "2023-2025 arasındaki üç yıl",
+   "en": "the three years 2023-2025",
+   "urls": [
+    "https://www.bim.com.tr/DonemselFinansalSonuclar/2025/12%20Ayl%C4%B1k%20Sonu%C3%A7lar.pdf",
+    "https://www.bim.com.tr/DonemselFinansalSonuclar/2024/12%20Ayl%C4%B1k%20Sonu%C3%A7lar.pdf"
+   ],
+   "titles": [
+    "BİM yatırımcı ilişkileri: 1 Ocak-31 Aralık 2025 konsolide finansal tablolar ve bağımsız denetçi raporu (Güney/EY, 10 Mart 2026)",
+    "BİM yatırımcı ilişkileri: 1 Ocak-31 Aralık 2024 konsolide finansal tablolar ve bağımsız denetçi raporu (Güney/EY, 11 Mart 2025)"
+   ],
+   "how": "Ana ortaklığa ödenen temettü + pay geri alımı ÷ ana ortaklık net kârı; hepsi son yılın parasıyla (önceki yıl, şirketin kendi yeniden değerleme oranıyla çevrildi)."
   }
  },
  "CCOLA": {
@@ -45,6 +62,21 @@
    "url": "https://kap.org.tr/en/api/BildirimPdf/1691889",
    "tr": "Ocak-Eylül 2026",
    "en": "January-September 2026"
+  },
+  "retained": {
+   "b": 0.801,
+   "years": 2,
+   "dist": 6649.6,
+   "profit": 33461.9,
+   "tr": "2024 ve 2025 yılları (2024 yılının tabloları açılamadı)",
+   "en": "2024 and 2025 (the 2024 statements could not be opened)",
+   "urls": [
+    "https://ccicomtrcdn.cci.com.tr/global/yatirimci-iliskileri/CCOLA_31.12.2025_TR.pdf"
+   ],
+   "titles": [
+    "CCI yatırımcı ilişkileri: 1 Ocak-31 Aralık 2025 konsolide finansal tablolar ve bağımsız denetçi raporu (PwC, 3 Mart 2026)"
+   ],
+   "how": "Ana ortaklığa ödenen temettü + pay geri alımı ÷ ana ortaklık net kârı; hepsi son yılın parasıyla (önceki yıl, şirketin kendi yeniden değerleme oranıyla çevrildi)."
   }
  },
  "CLEBI": {
@@ -96,6 +128,21 @@
    "url": "https://kap.org.tr/en/api/BildirimPdf/1693370",
    "tr": "Ocak-Eylül 2026",
    "en": "January-September 2026"
+  },
+  "retained": {
+   "b": 0.301,
+   "years": 2,
+   "dist": 59353.2,
+   "profit": 84855.4,
+   "tr": "2024 ve 2025 yılları (2024 yılının tabloları açılamadı)",
+   "en": "2024 and 2025 (the 2024 statements could not be opened)",
+   "urls": [
+    "https://kap.org.tr/tr/api/file/download/4028328d9b827481019c4466ab8662b2"
+   ],
+   "titles": [
+    "KAP: Ford Otomotiv Sanayi A.Ş. 31 Aralık 2025 hesap dönemine ait konsolide finansal tablolar ve bağımsız denetçi raporu (Güney/EY, 9 Şubat 2026)"
+   ],
+   "how": "Ana ortaklığa ödenen temettü + pay geri alımı ÷ ana ortaklık net kârı; hepsi son yılın parasıyla (önceki yıl, şirketin kendi yeniden değerleme oranıyla çevrildi)."
   }
  },
  "ISMEN": {
@@ -130,6 +177,23 @@
    "url": "https://kap.org.tr/en/api/BildirimPdf/1696009",
    "tr": "Ocak-Eylül 2026",
    "en": "January-September 2026"
+  },
+  "retained": {
+   "b": 0.418,
+   "years": 3,
+   "dist": 14612.3,
+   "profit": 25121.6,
+   "tr": "2023-2025 arasındaki üç yıl",
+   "en": "the three years 2023-2025",
+   "urls": [
+    "https://kap.org.tr/tr/api/file/download/4028328d9c81f589019cbf990ccc43cc",
+    "https://www.isyatirim.com.tr/tr-tr/bizi-taniyin/yatirimci-iliskileri/Yatirimci_Iliskileri_Belgeler/finansal-raporlar/2024/ISMEN%20Finansal%20Tablolar_31%20Aral%C4%B1k%202024%20Final.pdf"
+   ],
+   "titles": [
+    "KAP: İş Yatırım Menkul Değerler A.Ş. 1 Ocak-31 Aralık 2025 konsolide finansal tablolar ve bağımsız denetçi raporu (PwC, 5 Mart 2026)",
+    "İş Yatırım yatırımcı ilişkileri: 31 Aralık 2024 konsolide finansal tablolar ve bağımsız denetçi raporu (PwC, 3 Mart 2025)"
+   ],
+   "how": "Ana ortaklığa ödenen temettü + pay geri alımı ÷ ana ortaklık net kârı; hepsi son yılın parasıyla (önceki yıl, şirketin kendi yeniden değerleme oranıyla çevrildi)."
   }
  },
  "MAVI": {
@@ -154,6 +218,23 @@
    "tr": "Şubat-Temmuz 2026",
    "en": "February-July 2026",
    "url": "https://kap.org.tr/tr/api/file/download/4028328ca09bee8f01a0aa3314df7959"
+  },
+  "retained": {
+   "b": 0.547,
+   "years": 3,
+   "dist": 4150.1,
+   "profit": 9164.8,
+   "tr": "Ocak 2024, Ocak 2025 ve Ocak 2026'da biten üç mali yıl",
+   "en": "the three fiscal years ended January 2024, January 2025 and January 2026",
+   "urls": [
+    "https://storage.fintables.com/media/uploads/kap-attachments/Mavi%20Giyim%2031.01.2026%20ENG%20signed.pdf",
+    "https://www.mavicompany.com/i/assets/documents/2025/MaviGiyimSanayiveTic_AS_31012025-ENG.pdf"
+   ],
+   "titles": [
+    "Mavi Giyim: consolidated financial statements for the year ended 31 January 2026, English convenience translation of the KAP attachment (auditor report 17 March 2026)",
+    "Mavi investor relations: consolidated financial statements for the year ended 31 January 2025, English convenience translation (auditor report 18 March 2025)"
+   ],
+   "how": "Ana ortaklığa ödenen temettü + pay geri alımı ÷ ana ortaklık net kârı; hepsi son yılın parasıyla (önceki yıl, şirketin kendi yeniden değerleme oranıyla çevrildi)."
   }
  },
  "MPARK": {
@@ -181,6 +262,21 @@
    "url": "https://kap.org.tr/tr/api/BildirimPdf/1692568",
    "tr": "Ocak-Eylül 2026",
    "en": "January-September 2026"
+  },
+  "retained": {
+   "b": 0.89,
+   "years": 2,
+   "dist": 1365.3,
+   "profit": 12356.2,
+   "tr": "2024 ve 2025 yılları (2024 yılının tabloları açılamadı)",
+   "en": "2024 and 2025 (the 2024 statements could not be opened)",
+   "urls": [
+    "https://kap.org.tr/tr/api/file/download/4028328c9cc9d176019cd38b7bc96851"
+   ],
+   "titles": [
+    "KAP: MLP Sağlık Hizmetleri A.Ş. 2025 Entegre Faaliyet Raporu, içinde 31 Aralık 2025 konsolide finansal tablolar (Deloitte denetçi raporu 6 Mart 2026)"
+   ],
+   "how": "Ana ortaklığa ödenen temettü + pay geri alımı ÷ ana ortaklık net kârı; hepsi son yılın parasıyla (önceki yıl, şirketin kendi yeniden değerleme oranıyla çevrildi)."
   }
  },
  "TOASO": {
@@ -205,6 +301,23 @@
    "url": "https://kap.org.tr/en/api/BildirimPdf/1693478",
    "tr": "Ocak-Eylül 2026",
    "en": "January-September 2026"
+  },
+  "retained": {
+   "b": 0.266,
+   "years": 3,
+   "dist": 32051.7,
+   "profit": 43693.2,
+   "tr": "2023-2025 arasındaki üç yıl",
+   "en": "the three years 2023-2025",
+   "urls": [
+    "https://kap.org.tr/tr/api/file/download/4028328d9b827483019c43fd2470706d",
+    "https://tofas.com.tr/en/InvestorRelations/AnnualandInterimReports/Documents/Annual_Report_2024.pdf"
+   ],
+   "titles": [
+    "KAP: Tofaş Türk Otomobil Fabrikası A.Ş. 31 Aralık 2025 konsolide finansal tablolar ve bağımsız denetçi raporu (DRT/Deloitte, 9 Şubat 2026; KAP 17 Şubat 2026, bildirim 1557929)",
+    "Tofaş investor relations: 2024 Annual Report (English), containing consolidated financial statements as of 31 December 2024 and independent auditor's report (from p. 152; statements approved by the board 12 February 2025)"
+   ],
+   "how": "Ana ortaklığa ödenen temettü + pay geri alımı ÷ ana ortaklık net kârı; hepsi son yılın parasıyla (önceki yıl, şirketin kendi yeniden değerleme oranıyla çevrildi)."
   }
  }
 }

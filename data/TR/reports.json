@@ -71,6 +71,11 @@
     "t": "Kazanç yargısının kaynağı",
     "te": "Source for the earnings judgment",
     "u": "https://www.fordotosan.com.tr/documents/Documents/Ozel_Durum_Aciklamalari/january-1-june-30-2026-condensed-interim-consolidated-financial-statements.pdf"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://kap.org.tr/tr/api/file/download/4028328d9b827481019c4466ab8662b2"
    }
   ],
   "per": "9/2026",
@@ -105,9 +110,10 @@
   "earn": {
    "k": 0.913,
    "basis": {
-    "tr": "Hesap son 12 ayın kârına dayanır. Bu kârın içindeki tek seferlik kazançlar: Nisan-Haziran 2026 çeyreğinde ertelenmiş vergi geliri (çeyreğin toplam vergi geliri 2.777,5). Şirket, imalat kazancında kurumlar vergisi oranını %12,5'e indiren düzenleme (4 Haziran 2026) sonrası ertelenmiş vergi bakiyelerinin yeni oranla yeniden ölçüldüğünü söylüyor; yeniden ölçümün tutarını ayrıca açıklamıyor: son 12 ay kârının %8,7 kadarı. Net etki %8,7; kazanç bu kadar indirildi. Ocak-Eylül 2026 vergi öncesi kârının %82 kadarı (16,9 milyar TL) net parasal pozisyon kazancıdır. Bu kalem enflasyon muhasebesinden gelir: şirketin borçları enflasyonla erir; aynı tabloda stoklar, amortisman ve öbür giderler enflasyonla yukarı düzeltilir ve faaliyet kârını düşürür. İkisi aynı düzeltmenin iki yüzüdür; bu yüzden kalem tek seferlik sayılmadı ve kazançtan düşülmedi. Büyüklüğü enflasyona ve borcun para birimine bağlıdır, yıldan yıla değişir. Son 12 ayın kârı 0,91 ile çarpılarak kullanıldı.",
-    "en": "The calculation rests on the profit of the last 12 months. One-off gains inside that profit: Deferred tax income in the April-June 2026 quarter (total tax income for the quarter 2,777.5). The company says deferred tax balances were remeasured after the regulation of 4 June 2026 cut the corporate tax rate on manufacturing income to 12.5%; it does not disclose the remeasurement amount separately: 8.7% of last-12-month profit. The net effect is 8.7%; earnings were lowered by that much. 82% of pre-tax profit for January-September 2026 (16.9 billion TRY) is a net monetary position gain. This item comes from inflation accounting: inflation erodes the company's liabilities, while in the same statement inventories, depreciation and other costs are restated upwards and reduce operating profit. The two are two sides of one adjustment, so the item was not treated as a one-off and was not deducted. Its size depends on inflation and on the currency of the debt, and changes from year to year. Last-12-month profit was used multiplied by 0.91."
+    "tr": "Hesap son 12 ayın kârına dayanır. Bu kârın içindeki tek seferlik kazançlar: Nisan-Haziran 2026 çeyreğinde ertelenmiş vergi geliri (çeyreğin toplam vergi geliri 2.777,5). Şirket, imalat kazancında kurumlar vergisi oranını %12,5'e indiren düzenleme (4 Haziran 2026) sonrası ertelenmiş vergi bakiyelerinin yeni oranla yeniden ölçüldüğünü söylüyor; yeniden ölçümün tutarını ayrıca açıklamıyor: son 12 ay kârının %8,7 kadarı. Net etki %8,7; kazanç bu kadar indirildi. Ocak-Eylül 2026 vergi öncesi kârının %82 kadarı (16,9 milyar TL) net parasal pozisyon kazancıdır. Bu kalem enflasyon muhasebesinden gelir: şirketin borçları enflasyonla erir; aynı tabloda stoklar, amortisman ve öbür giderler enflasyonla yukarı düzeltilir ve faaliyet kârını düşürür. İkisi aynı düzeltmenin iki yüzüdür; bu yüzden kalem tek seferlik sayılmadı ve kazançtan düşülmedi. Büyüklüğü enflasyona ve borcun para birimine bağlıdır, yıldan yıla değişir. Dağıtılan pay şirketin kendi tablolarından okundu (2024 ve 2025 yılları (2024 yılının tabloları açılamadı)): ana ortaklık kârının %70 kadarı temettü ve geri alımla ortaklara ödendi, %30 kadarı şirkette kaldı. Son 12 ayın kârı 0,91 ile çarpılarak kullanıldı.",
+    "en": "The calculation rests on the profit of the last 12 months. One-off gains inside that profit: Deferred tax income in the April-June 2026 quarter (total tax income for the quarter 2,777.5). The company says deferred tax balances were remeasured after the regulation of 4 June 2026 cut the corporate tax rate on manufacturing income to 12.5%; it does not disclose the remeasurement amount separately: 8.7% of last-12-month profit. The net effect is 8.7%; earnings were lowered by that much. 82% of pre-tax profit for January-September 2026 (16.9 billion TRY) is a net monetary position gain. This item comes from inflation accounting: inflation erodes the company's liabilities, while in the same statement inventories, depreciation and other costs are restated upwards and reduce operating profit. The two are two sides of one adjustment, so the item was not treated as a one-off and was not deducted. Its size depends on inflation and on the currency of the debt, and changes from year to year. The share distributed was read from the company's own statements (2024 and 2025 (the 2024 statements could not be opened)): 70% of parent profit was paid to shareholders in dividends and buybacks, and 30% stayed in the company. Last-12-month profit was used multiplied by 0.91."
    },
+   "b": 0.301,
    "per": "9/2026"
   }
  },
@@ -120,12 +126,13 @@
    "E": 1
   },
   "moat": "dar",
-  "one": "Türkiye'nin büyük aracı kurumu ve İş Bankası iştiraki. Fiyat ucuz, ama kazanç piyasaya bağlı ve oynak.",
+  "one": "Türkiye'nin büyük aracı kurumu ve İş Bankası iştiraki. Fiyat ucuz; ama kazanç piyasaya bağlı, reel kâr geriliyor ve son üç yılda alıkonan kâr kazancı artırmadı.",
   "business": "İş Yatırım aracılık, portföy yönetimi, kurumsal finansman ve halka arz hizmetleri verir; hisse, borçlanma aracı ve türev işlemlerine aracılık eder. İş Bankası'nın iştirakidir. 608 kişi çalıştırıyor.",
   "moat_text": "Hendek dar. Üstünlük ölçekten, markadan ve İş Bankası'nın müşteri ağından geliyor. Ürünün kendisi (aracılık) kolay taklit edilir ve komisyonlar rekabete açıktır; bu yüzden hendeği geniş saymıyoruz.",
-  "mgmt": "Ana ortak İş Bankası; halka açıklık %29,2. Şirket kârının büyük bölümünü temettü olarak dağıtıyor (son temettü hisse başına 5,67 TL).",
+  "mgmt": "Ana ortak İş Bankası; halka açıklık %29,2. Şirket 2023-2025'te ana ortaklık kârının %58'ini temettü olarak dağıttı. 2025'te ödenen temettü (10,1 milyar TL) o yılın kârını (7,4 milyar TL) aştı: şirket kullanamadığı sermayeyi ortaklara geri verdi. Öte yandan girişim sermayesi kolu (İş Girişim) ana işle ilgisi olmayan alanlara yatırım yapıyor; 2026'nın dokuz ayında bu kolun ana ortaklığa katkısı zarardı.",
   "latest": "9 Kasım 2026: Dokuz aylık ana ortaklık net kârı 4,81 milyar TL, ana ortaklık özkaynağı 39,2 milyar TL. Yılın ilk yarısında net kâr 2,62 milyar TL ile geçen yılın %35 altındaydı (14 Ağustos 2026). Üçüncü çeyrekte konsolide kâra 1,0 milyar TL pazarlıklı satın alım kazancı girdi (İş Girişim'in bağlı ortaklığı Enlila, Crescenta Biosciences'ın %50,10'unu aldı); İş Yatırım'ın payına düşen kısım yaklaşık 230 milyon TL'dir.",
   "risks": [
+   "Alıkonan kârın sınavı geçilemedi: 2023-2025'te ana ortaklık kârının %42'si şirkette kaldı, aynı dönemde reel kâr yılda yaklaşık %8 geriledi. Hesap büyüme varsaymıyor; yine de kâr gerilemeyi sürdürürse bugünkü kazanç düzeyi de korunamaz.",
    "Kazanç, işlem hacmine ve alım-satım gelirine bağlı. 2026'nın ilk yarısında kâr %35 düştü; kötü bir piyasa yılında daha da düşebilir.",
    "Özsermaye kârlılığı geriliyor: 2023'te %45, 2025'te %24, son okumalar %16–20.",
    "Bilanço ağırlıkla parasal varlıklardan oluşuyor; enflasyon muhasebesi bu yapıyı cezalandırıyor.",
@@ -171,16 +178,27 @@
     "t": "Kazanç yargısının kaynağı",
     "te": "Source for the earnings judgment",
     "u": "https://kap.org.tr/tr/api/file/download/4028328da17e515f01a1c1851fad0ef9"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://kap.org.tr/tr/api/file/download/4028328d9c81f589019cbf990ccc43cc"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://www.isyatirim.com.tr/tr-tr/bizi-taniyin/yatirimci-iliskileri/Yatirimci_Iliskileri_Belgeler/finansal-raporlar/2024/ISMEN%20Finansal%20Tablolar_31%20Aral%C4%B1k%202024%20Final.pdf"
    }
   ],
   "per": "9/2026",
   "en": {
-   "one": "A large Turkish brokerage and a subsidiary of İş Bankası. The price is low, but earnings depend on the market and are volatile.",
+   "one": "A large Turkish brokerage and a subsidiary of İş Bankası. The price is low, but earnings depend on the market, real profit is falling and profit retained over the last three years has not raised earnings.",
    "business": "İş Yatırım provides brokerage, asset management, corporate finance and IPO services; it brokers trades in equities, debt instruments and derivatives. It is a subsidiary of İş Bankası. It employs 608 people.",
    "moat_text": "The moat is narrow. The advantage comes from scale, brand and İş Bankası's customer network. The product itself (brokerage) is easy to copy and commissions are open to competition; that is why we do not count the moat as wide.",
-   "mgmt": "The main shareholder is İş Bankası; the free float is 29.2%. The company pays out most of its profit as dividends (the latest dividend was 5.67 TRY per share).",
+   "mgmt": "The main shareholder is İş Bankası; the free float is 29.2%. In 2023-2025 the company paid out 58% of parent profit as dividends. Dividends paid in 2025 (10.1 billion TRY) exceeded that year's profit (7.4 billion TRY): the company returned capital it could not use to its shareholders. On the other hand, the venture-capital arm (İş Girişim) invests in areas unrelated to the main business; in the first nine months of 2026 that arm's contribution to parent profit was a loss.",
    "latest": "9 November 2026: Nine-month net profit attributable to the parent was 4.81 billion TRY and parent equity 39.2 billion TRY. In the first half of the year net profit was 2.62 billion TRY, 35% below the previous year (14 August 2026). In the third quarter consolidated profit included a bargain-purchase gain of 1.0 billion TRY (Enlila, a subsidiary of İş Girişim, bought 50.10% of Crescenta Biosciences); about 230 million TRY of it falls to İş Yatırım's share.",
    "risks": [
+    "The retained-earnings test was not passed: in 2023-2025, 42% of parent profit stayed in the company while real profit fell by about 8% a year. The calculation assumes no growth; even so, if profit keeps falling, today's level of earnings will not hold either.",
     "Earnings depend on trading volume and trading income. Profit fell 35% in the first half of 2026; in a bad market year it could fall further.",
     "Return on equity is declining: 45% in 2023, 24% in 2025, and 16–20% in the latest readings.",
     "The balance sheet consists mostly of monetary assets; inflation accounting penalises this structure.",
@@ -203,9 +221,10 @@
   "earn": {
    "k": 1.0,
    "basis": {
-    "tr": "Hesap son 12 ayın kârına dayanır. Bu kârın içindeki tek seferlik kazançlar: Temmuz-Eylül 2026 çeyreğinde pazarlıklı satın alım kazancı: İş Girişim'in bağlı ortaklığı Enlila, 22 Temmuz 2026'da ABD'li Crescenta Biosciences'ın %50,10'unu, payına düşen net varlıkların gerçeğe uygun değerinin altında bir bedelle aldı. Konsolide tutar 1.002 milyon TL; nakit girişi değildir. İş Yatırım'ın payı ortaklık zincirinden hesaplandı (İş Girişim'de %31,96 × Enlila'da %71,77 = %22,9; yaklaşık 230 milyon TL), çünkü şirket bu payı ayrıca açıklamıyor: son 12 ay kârının %2,9 kadarı. Net etki %2,9; %3'ün altında olduğu için dikkate alınmadı. Ocak-Eylül 2026 kârı, 6,1 milyar TL net parasal pozisyon kaybından sonradır (vergi öncesi kârın %60 kadarı): şirketin elindeki nakit ve alacaklar enflasyonla eridi. Bu kayıp kârdan zaten düşülmüş durumda; kazanç yükseltilmedi.",
-    "en": "The calculation rests on the profit of the last 12 months. One-off gains inside that profit: Bargain-purchase gain in the July-September 2026 quarter: Enlila, a subsidiary of İş Girişim, bought 50.10% of US-based Crescenta Biosciences on 22 July 2026 for less than the fair value of its share of net assets. The consolidated amount is 1,002 million TRY; it is not a cash inflow. İş Yatırım's share was calculated through the ownership chain (31.96% of İş Girişim × 71.77% of Enlila = 22.9%; about 230 million TRY), because the company does not disclose this share separately: 2.9% of last-12-month profit. The net effect is 2.9%; being under 3%, it was disregarded. Profit for January-September 2026 is after a net monetary position loss of 6.1 billion TRY (equal to 60% of pre-tax profit): inflation eroded the company's cash and receivables. That loss is already deducted from profit; earnings were not raised."
+    "tr": "Hesap son 12 ayın kârına dayanır. Bu kârın içindeki tek seferlik kazançlar: Temmuz-Eylül 2026 çeyreğinde pazarlıklı satın alım kazancı: İş Girişim'in bağlı ortaklığı Enlila, 22 Temmuz 2026'da ABD'li Crescenta Biosciences'ın %50,10'unu, payına düşen net varlıkların gerçeğe uygun değerinin altında bir bedelle aldı. Konsolide tutar 1.002 milyon TL; nakit girişi değildir. İş Yatırım'ın payı ortaklık zincirinden hesaplandı (İş Girişim'de %31,96 × Enlila'da %71,77 = %22,9; yaklaşık 230 milyon TL), çünkü şirket bu payı ayrıca açıklamıyor: son 12 ay kârının %2,9 kadarı. Net etki %2,9; %3'ün altında olduğu için dikkate alınmadı. Ocak-Eylül 2026 kârı, 6,1 milyar TL net parasal pozisyon kaybından sonradır (vergi öncesi kârın %60 kadarı): şirketin elindeki nakit ve alacaklar enflasyonla eridi. Bu kayıp kârdan zaten düşülmüş durumda; kazanç yükseltilmedi. Dağıtılan pay şirketin kendi tablolarından okundu (2023-2025 arasındaki üç yıl): ana ortaklık kârının %58 kadarı temettü ve geri alımla ortaklara ödendi, %42 kadarı şirkette kaldı.",
+    "en": "The calculation rests on the profit of the last 12 months. One-off gains inside that profit: Bargain-purchase gain in the July-September 2026 quarter: Enlila, a subsidiary of İş Girişim, bought 50.10% of US-based Crescenta Biosciences on 22 July 2026 for less than the fair value of its share of net assets. The consolidated amount is 1,002 million TRY; it is not a cash inflow. İş Yatırım's share was calculated through the ownership chain (31.96% of İş Girişim × 71.77% of Enlila = 22.9%; about 230 million TRY), because the company does not disclose this share separately: 2.9% of last-12-month profit. The net effect is 2.9%; being under 3%, it was disregarded. Profit for January-September 2026 is after a net monetary position loss of 6.1 billion TRY (equal to 60% of pre-tax profit): inflation eroded the company's cash and receivables. That loss is already deducted from profit; earnings were not raised. The share distributed was read from the company's own statements (the three years 2023-2025): 58% of parent profit was paid to shareholders in dividends and buybacks, and 42% stayed in the company."
    },
+   "b": 0.418,
    "per": "9/2026"
   }
  },
@@ -218,7 +237,7 @@
    "E": 1
   },
   "moat": "geniş",
-  "one": "Coca-Cola'nın Türkiye, Pakistan ve Orta Asya şişeleyicisi. İş çok iyi; fiyat makul ama güvenlik marjı eksik.",
+  "one": "Coca-Cola'nın Türkiye, Pakistan ve Orta Asya şişeleyicisi. Hendeği güçlü; ama beş yılda kârının yarısından azı nakde döndü ve düzeltilmiş kârlılık kalite eşiğinin altında kaldı.",
   "business": "Coca-Cola İçecek, Coca-Cola ürünlerini Türkiye, Pakistan, Kazakistan, Özbekistan, Irak ve bölgedeki diğer ülkelerde üretir ve dağıtır. 10.834 kişi çalıştırıyor.",
   "moat_text": "Hendek geniş. Marka dünyanın en tanınanlarından biri ve şirket bölgesinde bu markanın şişeleme ve dağıtım hakkına sahip. Yaygın dağıtım ağı yeni bir rakibin kolayca kuramayacağı bir varlık. Fiyatlama gücü rakamlarda görünüyor: brüt marj %37,6, faaliyet marjı %15,9.",
   "mgmt": "Ana ortaklar Anadolu Efes ve The Coca-Cola Company; halka açıklık %29,4. Borç düşük ve azalıyor: net borç/FAVÖK 2025 sonunda 0,77 iken üçüncü çeyrekte 0,29.",
@@ -265,11 +284,16 @@
     "t": "Büyüme yargısının kaynağı: Ocak-Eylül 2026",
     "te": "Source for the growth judgment: January-September 2026",
     "u": "https://kap.org.tr/tr/api/BildirimPdf/1691889"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://ccicomtrcdn.cci.com.tr/global/yatirimci-iliskileri/CCOLA_31.12.2025_TR.pdf"
    }
   ],
   "per": "9/2026",
   "en": {
-   "one": "Coca-Cola's bottler for Türkiye, Pakistan and Central Asia. An excellent business; the price is reasonable but the margin of safety falls short.",
+   "one": "Coca-Cola's bottler for Türkiye, Pakistan and Central Asia. The moat is strong, but less than half of its profit turned into cash over five years and adjusted return on equity fell below the quality threshold.",
    "business": "Coca-Cola İçecek produces and distributes Coca-Cola products in Türkiye, Pakistan, Kazakhstan, Uzbekistan, Iraq and other countries in the region. It employs 10,834 people.",
    "moat_text": "The moat is wide. The brand is one of the best known in the world, and the company holds the bottling and distribution rights for it in its region. The extensive distribution network is an asset a new competitor could not easily build. Pricing power shows in the numbers: gross margin 37.6%, operating margin 15.9%.",
    "mgmt": "The main shareholders are Anadolu Efes and The Coca-Cola Company; the free float is 29.4%. Debt is low and falling: net debt/EBITDA was 0.77 at the end of 2025 and 0.29 in the third quarter.",
@@ -298,9 +322,10 @@
   "earn": {
    "k": 1.0,
    "basis": {
-    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı. Ocak-Eylül 2026 vergi öncesi kârının %24 kadarı (7,5 milyar TL) net parasal pozisyon kazancıdır. Bu kalem enflasyon muhasebesinden gelir: şirketin borçları enflasyonla erir; aynı tabloda stoklar, amortisman ve öbür giderler enflasyonla yukarı düzeltilir ve faaliyet kârını düşürür. İkisi aynı düzeltmenin iki yüzüdür; bu yüzden kalem tek seferlik sayılmadı ve kazançtan düşülmedi. Büyüklüğü enflasyona ve borcun para birimine bağlıdır, yıldan yıla değişir.",
-    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are. 24% of pre-tax profit for January-September 2026 (7.5 billion TRY) is a net monetary position gain. This item comes from inflation accounting: inflation erodes the company's liabilities, while in the same statement inventories, depreciation and other costs are restated upwards and reduce operating profit. The two are two sides of one adjustment, so the item was not treated as a one-off and was not deducted. Its size depends on inflation and on the currency of the debt, and changes from year to year."
+    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı. Ocak-Eylül 2026 vergi öncesi kârının %24 kadarı (7,5 milyar TL) net parasal pozisyon kazancıdır. Bu kalem enflasyon muhasebesinden gelir: şirketin borçları enflasyonla erir; aynı tabloda stoklar, amortisman ve öbür giderler enflasyonla yukarı düzeltilir ve faaliyet kârını düşürür. İkisi aynı düzeltmenin iki yüzüdür; bu yüzden kalem tek seferlik sayılmadı ve kazançtan düşülmedi. Büyüklüğü enflasyona ve borcun para birimine bağlıdır, yıldan yıla değişir. Dağıtılan pay şirketin kendi tablolarından okundu (2024 ve 2025 yılları (2024 yılının tabloları açılamadı)): ana ortaklık kârının %20 kadarı temettü ve geri alımla ortaklara ödendi, %80 kadarı şirkette kaldı.",
+    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are. 24% of pre-tax profit for January-September 2026 (7.5 billion TRY) is a net monetary position gain. This item comes from inflation accounting: inflation erodes the company's liabilities, while in the same statement inventories, depreciation and other costs are restated upwards and reduce operating profit. The two are two sides of one adjustment, so the item was not treated as a one-off and was not deducted. Its size depends on inflation and on the currency of the debt, and changes from year to year. The share distributed was read from the company's own statements (2024 and 2025 (the 2024 statements could not be opened)): 20% of parent profit was paid to shareholders in dividends and buybacks, and 80% stayed in the company."
    },
+   "b": 0.801,
    "per": "9/2026"
   }
  },
@@ -408,6 +433,7 @@
     "tr": "Hesap son 12 ayın kârına dayanır. Kaynağın F/K'sı son 12 ay için 4,5 milyar TL kâr ima ediyor; şirketin kendi tablolarından toplanan son 12 ay kârı 3,6 milyar TL. Farkın nedeni bulunamadı; şirketin belgesi esas alındı ve kazanç bu orana indirildi (%20,0). Son 12 ayın kârı 0,80 ile çarpılarak kullanıldı.",
     "en": "The calculation rests on the profit of the last 12 months. The data source's P/E implies a last-12-month profit of 4.5 billion TRY; the last-12-month profit added up from the company's own statements is 3.6 billion TRY. The reason for the gap was not found; the company's document was taken as the basis and earnings were lowered to that ratio (20.0%). Last-12-month profit was used multiplied by 0.80."
    },
+   "ks": 0.8,
    "per": "9/2026"
   }
  },
@@ -462,6 +488,11 @@
     "t": "Kazanç yargısının kaynağı",
     "te": "Source for the earnings judgment",
     "u": "https://kap.org.tr/tr/api/BildirimPdf/1692568"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://kap.org.tr/tr/api/file/download/4028328c9cc9d176019cd38b7bc96851"
    }
   ],
   "per": "9/2026",
@@ -495,9 +526,10 @@
   "earn": {
    "k": 1.0,
    "basis": {
-    "tr": "Hesap son 12 ayın kârına dayanır. Sabit kıymet yeniden değerlemesinin ertelenmiş vergi etkisi (559 milyon TL) şirketçe tek seferlik sayılmıyor ve yinelenip yinelenmeyeceği belirtilmiyor; kazançtan düşülmedi. Ocak-Eylül 2026 vergi öncesi kârının %45 kadarı (3,2 milyar TL) net parasal pozisyon kazancıdır. Bu kalem enflasyon muhasebesinden gelir: şirketin borçları enflasyonla erir; aynı tabloda stoklar, amortisman ve öbür giderler enflasyonla yukarı düzeltilir ve faaliyet kârını düşürür. İkisi aynı düzeltmenin iki yüzüdür; bu yüzden kalem tek seferlik sayılmadı ve kazançtan düşülmedi. Büyüklüğü enflasyona ve borcun para birimine bağlıdır, yıldan yıla değişir.",
-    "en": "The calculation rests on the profit of the last 12 months. The deferred-tax effect of the fixed-asset revaluation (559 million TRY) is not called one-off by the company and nothing says whether it recurs; it was not deducted. 45% of pre-tax profit for January-September 2026 (3.2 billion TRY) is a net monetary position gain. This item comes from inflation accounting: inflation erodes the company's liabilities, while in the same statement inventories, depreciation and other costs are restated upwards and reduce operating profit. The two are two sides of one adjustment, so the item was not treated as a one-off and was not deducted. Its size depends on inflation and on the currency of the debt, and changes from year to year."
+    "tr": "Hesap son 12 ayın kârına dayanır. Sabit kıymet yeniden değerlemesinin ertelenmiş vergi etkisi (559 milyon TL) şirketçe tek seferlik sayılmıyor ve yinelenip yinelenmeyeceği belirtilmiyor; kazançtan düşülmedi. Ocak-Eylül 2026 vergi öncesi kârının %45 kadarı (3,2 milyar TL) net parasal pozisyon kazancıdır. Bu kalem enflasyon muhasebesinden gelir: şirketin borçları enflasyonla erir; aynı tabloda stoklar, amortisman ve öbür giderler enflasyonla yukarı düzeltilir ve faaliyet kârını düşürür. İkisi aynı düzeltmenin iki yüzüdür; bu yüzden kalem tek seferlik sayılmadı ve kazançtan düşülmedi. Büyüklüğü enflasyona ve borcun para birimine bağlıdır, yıldan yıla değişir. Dağıtılan pay şirketin kendi tablolarından okundu (2024 ve 2025 yılları (2024 yılının tabloları açılamadı)): ana ortaklık kârının %11 kadarı temettü ve geri alımla ortaklara ödendi, %89 kadarı şirkette kaldı.",
+    "en": "The calculation rests on the profit of the last 12 months. The deferred-tax effect of the fixed-asset revaluation (559 million TRY) is not called one-off by the company and nothing says whether it recurs; it was not deducted. 45% of pre-tax profit for January-September 2026 (3.2 billion TRY) is a net monetary position gain. This item comes from inflation accounting: inflation erodes the company's liabilities, while in the same statement inventories, depreciation and other costs are restated upwards and reduce operating profit. The two are two sides of one adjustment, so the item was not treated as a one-off and was not deducted. Its size depends on inflation and on the currency of the debt, and changes from year to year. The share distributed was read from the company's own statements (2024 and 2025 (the 2024 statements could not be opened)): 11% of parent profit was paid to shareholders in dividends and buybacks, and 89% stayed in the company."
    },
+   "b": 0.89,
    "per": "9/2026"
   }
  },
@@ -562,6 +594,16 @@
     "t": "Büyüme yargısının kaynağı: Ocak-Eylül 2026",
     "te": "Source for the growth judgment: January-September 2026",
     "u": "https://kap.org.tr/tr/api/BildirimPdf/1695704"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://www.bim.com.tr/DonemselFinansalSonuclar/2025/12%20Ayl%C4%B1k%20Sonu%C3%A7lar.pdf"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://www.bim.com.tr/DonemselFinansalSonuclar/2024/12%20Ayl%C4%B1k%20Sonu%C3%A7lar.pdf"
    }
   ],
   "per": "9/2026",
@@ -595,9 +637,10 @@
   "earn": {
    "k": 1.0,
    "basis": {
-    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı. Ocak-Eylül 2026 vergi öncesi kârının %54 kadarı (22,2 milyar TL) net parasal pozisyon kazancıdır. Bu kalem enflasyon muhasebesinden gelir: şirketin borçları enflasyonla erir; aynı tabloda stoklar, amortisman ve öbür giderler enflasyonla yukarı düzeltilir ve faaliyet kârını düşürür. İkisi aynı düzeltmenin iki yüzüdür; bu yüzden kalem tek seferlik sayılmadı ve kazançtan düşülmedi. Büyüklüğü enflasyona ve borcun para birimine bağlıdır, yıldan yıla değişir.",
-    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are. 54% of pre-tax profit for January-September 2026 (22.2 billion TRY) is a net monetary position gain. This item comes from inflation accounting: inflation erodes the company's liabilities, while in the same statement inventories, depreciation and other costs are restated upwards and reduce operating profit. The two are two sides of one adjustment, so the item was not treated as a one-off and was not deducted. Its size depends on inflation and on the currency of the debt, and changes from year to year."
+    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı. Ocak-Eylül 2026 vergi öncesi kârının %54 kadarı (22,2 milyar TL) net parasal pozisyon kazancıdır. Bu kalem enflasyon muhasebesinden gelir: şirketin borçları enflasyonla erir; aynı tabloda stoklar, amortisman ve öbür giderler enflasyonla yukarı düzeltilir ve faaliyet kârını düşürür. İkisi aynı düzeltmenin iki yüzüdür; bu yüzden kalem tek seferlik sayılmadı ve kazançtan düşülmedi. Büyüklüğü enflasyona ve borcun para birimine bağlıdır, yıldan yıla değişir. Dağıtılan pay şirketin kendi tablolarından okundu (2023-2025 arasındaki üç yıl): ana ortaklık kârının %36 kadarı temettü ve geri alımla ortaklara ödendi, %64 kadarı şirkette kaldı.",
+    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are. 54% of pre-tax profit for January-September 2026 (22.2 billion TRY) is a net monetary position gain. This item comes from inflation accounting: inflation erodes the company's liabilities, while in the same statement inventories, depreciation and other costs are restated upwards and reduce operating profit. The two are two sides of one adjustment, so the item was not treated as a one-off and was not deducted. Its size depends on inflation and on the currency of the debt, and changes from year to year. The share distributed was read from the company's own statements (the three years 2023-2025): 36% of parent profit was paid to shareholders in dividends and buybacks, and 64% stayed in the company."
    },
+   "b": 0.639,
    "per": "9/2026"
   }
  },
@@ -650,6 +693,16 @@
     "t": "Büyüme yargısının kaynağı: Şubat-Temmuz 2026 (mali yılın ilk yarısı)",
     "te": "Source for the growth judgment: February-July 2026 (first half of the fiscal year)",
     "u": "https://kap.org.tr/tr/api/file/download/4028328ca09bee8f01a0aa3314df7959"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://storage.fintables.com/media/uploads/kap-attachments/Mavi%20Giyim%2031.01.2026%20ENG%20signed.pdf"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://www.mavicompany.com/i/assets/documents/2025/MaviGiyimSanayiveTic_AS_31012025-ENG.pdf"
    }
   ],
   "per": "6/2026",
@@ -681,9 +734,10 @@
   "earn": {
    "k": 1.0,
    "basis": {
-    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı. Şubat-Temmuz 2026 kârı, 0,4 milyar TL net parasal pozisyon kaybından sonradır (vergi öncesi kârın %24 kadarı): şirketin elindeki nakit ve alacaklar enflasyonla eridi. Bu kayıp kârdan zaten düşülmüş durumda; kazanç yükseltilmedi.",
-    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are. Profit for February-July 2026 is after a net monetary position loss of 0.4 billion TRY (equal to 24% of pre-tax profit): inflation eroded the company's cash and receivables. That loss is already deducted from profit; earnings were not raised."
+    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı. Şubat-Temmuz 2026 kârı, 0,4 milyar TL net parasal pozisyon kaybından sonradır (vergi öncesi kârın %24 kadarı): şirketin elindeki nakit ve alacaklar enflasyonla eridi. Bu kayıp kârdan zaten düşülmüş durumda; kazanç yükseltilmedi. Dağıtılan pay şirketin kendi tablolarından okundu (Ocak 2024, Ocak 2025 ve Ocak 2026'da biten üç mali yıl): ana ortaklık kârının %45 kadarı temettü ve geri alımla ortaklara ödendi, %55 kadarı şirkette kaldı.",
+    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are. Profit for February-July 2026 is after a net monetary position loss of 0.4 billion TRY (equal to 24% of pre-tax profit): inflation eroded the company's cash and receivables. That loss is already deducted from profit; earnings were not raised. The share distributed was read from the company's own statements (the three fiscal years ended January 2024, January 2025 and January 2026): 45% of parent profit was paid to shareholders in dividends and buybacks, and 55% stayed in the company."
    },
+   "b": 0.547,
    "per": "6/2026"
   }
  },
@@ -1083,6 +1137,16 @@
     "t": "Büyüme yargısının kaynağı: Ocak-Eylül 2026",
     "te": "Source for the growth judgment: January-September 2026",
     "u": "https://kap.org.tr/tr/api/BildirimPdf/1693478"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://kap.org.tr/tr/api/file/download/4028328d9b827483019c43fd2470706d"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://tofas.com.tr/en/InvestorRelations/AnnualandInterimReports/Documents/Annual_Report_2024.pdf"
    }
   ],
   "en": {
@@ -1116,9 +1180,10 @@
   "earn": {
    "k": 1.0,
    "basis": {
-    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı. Ocak-Eylül 2026 vergi öncesi kârının %25 kadarı (3,0 milyar TL) net parasal pozisyon kazancıdır. Bu kalem enflasyon muhasebesinden gelir: şirketin borçları enflasyonla erir; aynı tabloda stoklar, amortisman ve öbür giderler enflasyonla yukarı düzeltilir ve faaliyet kârını düşürür. İkisi aynı düzeltmenin iki yüzüdür; bu yüzden kalem tek seferlik sayılmadı ve kazançtan düşülmedi. Büyüklüğü enflasyona ve borcun para birimine bağlıdır, yıldan yıla değişir.",
-    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are. 25% of pre-tax profit for January-September 2026 (3.0 billion TRY) is a net monetary position gain. This item comes from inflation accounting: inflation erodes the company's liabilities, while in the same statement inventories, depreciation and other costs are restated upwards and reduce operating profit. The two are two sides of one adjustment, so the item was not treated as a one-off and was not deducted. Its size depends on inflation and on the currency of the debt, and changes from year to year."
+    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı. Ocak-Eylül 2026 vergi öncesi kârının %25 kadarı (3,0 milyar TL) net parasal pozisyon kazancıdır. Bu kalem enflasyon muhasebesinden gelir: şirketin borçları enflasyonla erir; aynı tabloda stoklar, amortisman ve öbür giderler enflasyonla yukarı düzeltilir ve faaliyet kârını düşürür. İkisi aynı düzeltmenin iki yüzüdür; bu yüzden kalem tek seferlik sayılmadı ve kazançtan düşülmedi. Büyüklüğü enflasyona ve borcun para birimine bağlıdır, yıldan yıla değişir. Dağıtılan pay şirketin kendi tablolarından okundu (2023-2025 arasındaki üç yıl): ana ortaklık kârının %73 kadarı temettü ve geri alımla ortaklara ödendi, %27 kadarı şirkette kaldı.",
+    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are. 25% of pre-tax profit for January-September 2026 (3.0 billion TRY) is a net monetary position gain. This item comes from inflation accounting: inflation erodes the company's liabilities, while in the same statement inventories, depreciation and other costs are restated upwards and reduce operating profit. The two are two sides of one adjustment, so the item was not treated as a one-off and was not deducted. Its size depends on inflation and on the currency of the debt, and changes from year to year. The share distributed was read from the company's own statements (the three years 2023-2025): 73% of parent profit was paid to shareholders in dividends and buybacks, and 27% stayed in the company."
    },
+   "b": 0.266,
    "per": "9/2026"
   }
  }
