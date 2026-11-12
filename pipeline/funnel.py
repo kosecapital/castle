@@ -103,7 +103,9 @@ def run(cc):
             # "noprofit" zarar olduğu biliniyor, "nodata" kaynak son 12 ayın kârını vermiyor, "nope" hangisi olduğu bilinmiyor
             e, w = 1, {"loss": "noprofit", "nodata": "nodata"}.get(u.get("np"), "nope")
         elif not pb or pb <= 0:
-            e, w = 1, "equity"
+            # kural aynı: pozitif PD/DD yoksa şirket 1. surda kalır. Yalnız neden doğru adlandırılır:
+            # "equity" özsermaye negatif, "nobook" kaynaklarda defter değeri yok (özsermayenin işareti bilinmiyor)
+            e, w = 1, ("nobook" if u.get("nb") == "nodata" else "equity")
         elif u["m"] < mcap_min:
             e, w = 1, "small"
         elif rr is None or rr < P["roeMin"]:
@@ -188,6 +190,8 @@ def run(cc):
                       roe=None if roe is None else round(roe, 1), rr=None if rr is None else round(rr, 1)))
         if u.get("pc"):
             U[-1]["pc"] = u["pc"]             # fiyatı ülkenin olağan biriminden farklı yazılan pay
+        if u.get("pbs"):
+            U[-1]["pbs"] = u["pbs"]           # PD/DD, kaynağın PD/DD alanından değil: aynı kaynağın başka alanı, ikinci kaynak ya da yıllık bilanço
         if u.get("pes"):
             U[-1]["pes"] = u["pes"]           # F/K, kaynağın başka bir son 12 ay alanından hesaplandı ("eps" ya da "roe")
 

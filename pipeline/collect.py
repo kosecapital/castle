@@ -33,7 +33,18 @@ COLUMNS = [
     "fiscal_period_current", "fiscal_period_end_current",
     # F/K boş geldiğinde nedenini ayırmak için (zarar mı, kaynakta veri mi yok): son 12 ay hisse başına kâr ve özsermaye kârlılığı
     "earnings_per_share_diluted_ttm", "earnings_per_share_basic_ttm", "return_on_equity", "net_income",
+    # PD/DD (price_book_fq) boş geldiğinde: aynı kaynağın öbür defter değeri alanları. Kaynak, son çeyreğin bilançosu henüz işlenmediyse
+    # (Tayvan'da yeni açıklanan çeyrek) ya da o çeyrekte bilanço hiç açıklanmıyorsa (Hindistan'da 1. ve 3. çeyrek) price_book_fq alanını boş verir.
+    "price_book_current", "book_value_per_share_current", "book_value_per_share_fq", "book_value_per_share_fh", "book_value_per_share_fy",
+    "total_equity_fq", "total_equity_fy",
 ]
+# PD/DD yedek yolları, tazeden eskiye. (anahtar, tür, alan). Tür: "ratio" hazır oran, "bvps" fiyat ÷ hisse başına defter değeri, "eq" piyasa değeri ÷ özsermaye.
+# Her yol, PD/DD'si dolu şirketlerde kaynağın kendi PD/DD'siyle karşılaştırılır (pb_checks); tutmayan yol o ülkede kullanılmaz.
+PB_PATHS = [("cur", "ratio", "price_book_current"), ("bvc", "bvps", "book_value_per_share_current"), ("bvq", "bvps", "book_value_per_share_fq"),
+            ("eq", "eq", "total_equity_fq"), ("bvh", "bvps", "book_value_per_share_fh"),
+            ("bvy", "bvps", "book_value_per_share_fy"), ("eqy", "eq", "total_equity_fy")]
+PB_ANNUAL = {"bvy", "eqy"}          # son yıllık bilançodan: en eski; yalnız başka hiçbir yol yoksa
+PB_SA_MAX = 2500                    # bir ülkede PD/DD için ikinci kaynaktan (stockanalysis) en çok bu kadar sayfa
 # probe komutu için: geçmiş dizileri dahil geniş liste
 PROBE = COLUMNS + ["country", "type", "typespecs", "return_on_equity", "return_on_equity_fy", "net_income_fy", "total_equity_fq", "net_debt", "ebitda",
                    "free_cash_flow", "dividends_yield_current", "net_income_fy_h", "free_cash_flow_fy_h", "total_debt_fy_h", "ebitda_fy_h", "total_assets_fy_h", "fiscal_period_fy_h"]
@@ -193,6 +204,48 @@ def pe_fallback(r, close, pb, cur, eps_ok, roe_scale):
     return None, None, "nodata"
 
 
+def pb_alts(r, close, cur, mc_main, main):
+    """Kaynağın PD/DD alanı dışındaki defter değeri alanlarından PD/DD adayları: {yol: değer}. Ayrıca özsermayenin işareti (eksi mi)."""
+    pmaj, pdiv = MINOR.get(cur, (cur, 1.0))
+    same = r.get("fundamental_currency_code") == pmaj
+    out, neg = {}, None
+    for key, kind, col in PB_PATHS:
+        v = r.get(col)
+        if not isinstance(v, (int, float)):
+            continue
+        if kind != "ratio" and neg is None:
+            neg = v <= 0                                   # en taze defter değeri alanının işareti
+        if v <= 0:
+            continue
+        if kind == "ratio":
+            pb = v
+        elif kind == "bvps":
+            pb = close / pdiv / v if (same and close) else None
+        else:
+            pb = mc_main * 1e6 / v if (mc_main and r.get("fundamental_currency_code") == main) else None
+        if pb and 0.01 < pb < 2000:
+            out[key] = pb
+    return out, neg
+
+
+def pb_checks(pairs):
+    """pairs: [(kaynağın PD/DD'si, {yol: değer})]. Her yol kaynağın kendi PD/DD'siyle tutuyor mu?
+    Taze yollar: ortanca oran 0,97-1,03 ve şirketlerin en az %85'i %10 içinde. Yıllık yollar (bilanço eski olabilir): ortanca 0,80-1,25.
+    En az 30 şirkette karşılaştırılamayan yol kullanılmaz."""
+    ok, info = {}, {}
+    for key, _, _ in PB_PATHS:
+        xs = [a[key] / pb for pb, a in pairs if pb and pb > 0 and key in a]
+        m = _median(xs)
+        w10 = None if not xs else round(100 * sum(1 for x in xs if abs(x - 1) <= 0.10) / len(xs), 1)
+        if key in PB_ANNUAL:
+            good = bool(m and len(xs) >= 30 and 0.80 < m < 1.25)
+        else:
+            good = bool(m and len(xs) >= 30 and 0.97 < m < 1.03 and w10 >= 85)
+        ok[key] = good
+        info[key] = dict(n=len(xs), med=None if m is None else round(m, 4), within10=w10, ok=good)
+    return ok, info
+
+
 def universe_tv(k, st):
     total, rows = tv_scan(k["market"], COLUMNS)
     eps_ok, roe_scale, pe_chk = pe_checks(rows)
@@ -225,6 +278,7 @@ def universe_tv(k, st):
             else:
                 excl["kur bulunamadı: " + str(mcur)] += 1; continue
         pb, pe, fl = r.get("price_book_fq"), r.get("price_earnings_ttm"), r.get("float_shares_percent_current")
+        alts, eq_neg = pb_alts(r, close, cur, mc / 1e6, main)
         pes = why_none = None
         if pe is None or pe <= 0:                          # kaynak F/K vermedi: zarar mı, veri mi eksik?
             pe, pes, why_none = pe_fallback(r, close, pb, cur, eps_ok, roe_scale)
@@ -243,7 +297,23 @@ def universe_tv(k, st):
             u["pes"] = pes                                 # F/K kaynağın F/K alanından değil, aynı kaynağın başka alanından hesaplandı
         if why_none:
             u["np"] = why_none                             # F/K yok: "loss" zarar, "nodata" kaynakta son 12 ay kârı yok
+        u["_pbq"], u["_alt"], u["_neg"] = pb, alts, eq_neg     # geçici: PD/DD yedeği için (pb_fill siler)
         out.append(u)
+    pb_ok, pb_chk = pb_checks([(u["_pbq"], u["_alt"]) for u in out])
+    pbfix = collections.Counter()
+    for u in out:
+        if u["pb"] is not None:
+            continue
+        key = next((kk for kk, _, _ in PB_PATHS if kk not in PB_ANNUAL and pb_ok[kk] and kk in u["_alt"]), None)
+        if key:
+            u["pb"], u["pbs"] = round(u["_alt"][key], 3), key   # PD/DD kaynağın PD/DD alanından değil, aynı kaynağın başka alanından
+            pbfix[key] += 1
+        elif u["_neg"]:
+            u["nb"] = "neg"                                # kaynağın defter değeri eksi: özsermaye negatif
+        else:
+            u["nb"] = "nodata"                             # kaynakta defter değeri yok: ikinci kaynak ve yıllık bilanço denenir (pb_fill)
+            u["_fy"] = next(([kk, u["_alt"][kk]] for kk in ("bvy", "eqy") if pb_ok[kk] and kk in u["_alt"]), None)
+    st["pb_fix"] = dict(paths=pb_chk, counts=dict(pbfix))
     st.update(source="TradingView tarayıcısı", market=k["market"], total=total, kept=len(out), excluded=dict(excl), mcap_check=dict(chk),
               cur=main, pcur=pcur, exchanges=dict(collections.Counter(u["x"] for u in out).most_common()),
               periods=dict(collections.Counter(str(u["per"]) for u in out).most_common(6)))
@@ -447,6 +517,96 @@ def sa_parse(text):
     return out
 
 
+def sa_fetch(u, paths, today):
+    """Bir şirketin oran sayfasını indirir. Döner: (kayıt ya da None, son durum kodu)."""
+    import requests
+    ent, code = None, None
+    for p in paths:
+        url = "https://stockanalysis.com/" + p + "/financials/ratios/"
+        for attempt in range(3):
+            try:
+                r = requests.get(url, headers={"user-agent": HEADERS["user-agent"]}, timeout=60)
+                code = r.status_code
+            except Exception as e:
+                code = type(e).__name__
+            if code in (429, 500, 502, 503, 504) or isinstance(code, str):
+                time.sleep(8 * (attempt + 1)); continue
+            break
+        time.sleep(0.45 + random.random() * 0.3)
+        if code == 200:
+            ent = sa_parse(r.text)
+            if ent:
+                ent.update(per=u.get("per"), got=today.isoformat(), url=url)
+                break
+    return ent, code
+
+
+def pb_fill(cc, k, uni, meta, mac, st, budget):
+    """Kaynakta defter değeri hiç olmayan şirketlerde PD/DD'yi tamamlar. Önce ikinci kaynak (stockanalysis oran sayfasındaki güncel PD/DD;
+    yalnız 1. surun öbür koşullarını geçen şirketler için), o da yoksa kaynağın son yıllık bilançosu. Hangi yoldan geldiği satırda `pbs` olarak yazılır.
+    Hiçbiri yoksa `nb: "nodata"` kalır: şirket "özsermaye negatif" değil, "defter değeri verisi eksik" diye görünür.
+    Döner: (indirilen sayfalar {kod: kayıt}, indirilen sayfa sayısı)."""
+    src = load(J("pipeline", "sources.json"), {})
+    mcap_min = (meta or {}).get("mcapMin", mac.get("mcapMin")) or 0
+    fix = collections.Counter(st.get("pb_fix", {}).get("counts", {}))
+    pre, got, fail, streak, blocked, today = {}, 0, 0, 0, False, now().date()
+    cpath = J("data", cc, "in", "pbcache.json")
+    cache, keep, reused = load(cpath, {}), {}, 0
+    need = [u for u in uni if u.get("nb") == "nodata" and not u.get("veh") and u.get("pe") and u["pe"] > 0 and u["m"] >= mcap_min]
+    need.sort(key=lambda u: -u["m"])
+
+    def use(u, v):
+        if v is not None and 0.01 < v < 2000:
+            u["pb"], u["pbs"] = round(v, 3), "sa"
+            del u["nb"]; fix["sa"] += 1
+        elif v is not None and v < 0:
+            u["nb"] = "neg"
+
+    for u in need:
+        c = u["c"]
+        old = cache.get(c)
+        age = (today - datetime.date.fromisoformat(old["got"])).days if old and old.get("got") else None
+        # bilanço dönemi aynıysa sayfa yeniden indirilmez: PD/DD yalnız fiyatla değişir, o da eldeki fiyatla ölçeklenir
+        if old and old.get("per") == u.get("per") and age is not None and age <= (45 if old.get("pb") is not None else 7):
+            keep[c] = old; reused += 1
+            if old.get("pb") is not None and old.get("p0") and u.get("p"):
+                use(u, old["pb"] * u["p"] / old["p0"])
+            continue
+        if blocked or got + fail >= min(budget, PB_SA_MAX):
+            continue
+        paths = sa_paths(u, k, src)
+        if not paths:
+            continue
+        ent, code = sa_fetch(u, paths, today)
+        keep[c] = dict(pb=ent.get("pb") if ent else None, p0=u.get("p"), per=u.get("per"), got=today.isoformat())
+        if ent:
+            got += 1; streak = 0
+            pre[c] = ent
+            use(u, ent.get("pb"))
+        else:
+            fail += 1; streak += 1
+            if code in (403, 429) and streak >= 8:
+                blocked = True
+                del keep[c]
+    dump(keep, cpath, indent=0)
+    for u in uni:
+        if u.get("nb") == "nodata" and u.get("_fy"):
+            u["pb"], u["pbs"] = round(u["_fy"][1], 3), u["_fy"][0]
+            del u["nb"]; fix[u["pbs"]] += 1
+        for t in ("_pbq", "_alt", "_neg", "_fy"):
+            u.pop(t, None)
+    big = sorted(uni, key=lambda u: -u["m"])
+    core1 = [u for u in uni if not u.get("veh") and u.get("pe") and u["pe"] > 0 and u["m"] >= mcap_min]
+    miss = [u for u in core1 if u.get("pb") is None and u.get("nb") != "neg"]
+    st.setdefault("pb_fix", {}).update(
+        counts=dict(fix), neg=sum(1 for u in uni if u.get("nb") == "neg"), nodata=sum(1 for u in uni if u.get("nb") == "nodata"),
+        sa_asked=len(need), sa_pages=got, sa_reused=reused, sa_failed=fail, sa_blocked=blocked,
+        missing_pct=round(100 * len(miss) / max(1, len(core1)), 1),     # kârlı ve yeterince büyük şirketler içinde PD/DD'si bilinmeyenlerin oranı
+        nodata_top=[u["c"] for u in big if u.get("nb") == "nodata"][:15],
+        fixed_top=[[u["c"], u["pb"], u["pbs"]] for u in big if u.get("pbs")][:15])
+    return pre, got
+
+
 def candidates(uni, meta, mac, P):
     cpi_cur = (meta or {}).get("cpi", {}).get("cur", mac.get("cpi_cur"))
     mcap_min = (meta or {}).get("mcapMin", mac.get("mcapMin")) or 0
@@ -463,8 +623,8 @@ def candidates(uni, meta, mac, P):
     return out
 
 
-def history(cc, k, uni, meta, mac, st, budget):
-    import requests
+def history(cc, k, uni, meta, mac, st, budget, pre=None):
+    pre = pre or {}
     P, src = load(J("pipeline", "params.json")), load(J("pipeline", "sources.json"), {})
     live, old = load(J("data", cc, "history.json"), {}), load(J("data", cc, "in", "history.json"), {})
     cand = candidates(uni, meta, mac, P)
@@ -473,6 +633,9 @@ def history(cc, k, uni, meta, mac, st, budget):
     today = now().date()
     for u in cand:
         c = u["c"]
+        if c in pre:                                       # PD/DD için bu çalıştırmada zaten indirildi
+            out[c] = pre[c]; kept += 1
+            continue
         prev = old.get(c) or live.get(c)
         fresh = prev and prev.get("per") == u.get("per") and prev.get("got") and (today - datetime.date.fromisoformat(prev["got"])).days <= 45
         if fresh or blocked or got >= budget:
@@ -485,24 +648,7 @@ def history(cc, k, uni, meta, mac, st, budget):
             if prev:
                 out[c] = prev
             continue
-        ent, code = None, None
-        for p in paths:
-            url = "https://stockanalysis.com/" + p + "/financials/ratios/"
-            for attempt in range(3):
-                try:
-                    r = requests.get(url, headers={"user-agent": HEADERS["user-agent"]}, timeout=60)
-                    code = r.status_code
-                except Exception as e:
-                    code = type(e).__name__
-                if code in (429, 500, 502, 503, 504) or isinstance(code, str):
-                    time.sleep(8 * (attempt + 1)); continue
-                break
-            time.sleep(0.45 + random.random() * 0.3)
-            if code == 200:
-                ent = sa_parse(r.text)
-                if ent:
-                    ent.update(per=u.get("per"), got=today.isoformat(), url=url)
-                    break
+        ent, code = sa_fetch(u, paths, today)
         if ent:
             out[c] = ent; got += 1; streak = 0
         else:
@@ -538,10 +684,18 @@ def run_one(cc, budget):
             uni, fx_main = universe_tv(k, st)
         st["pe_filled_pct"] = round(100 * sum(1 for u in uni if u.get("pe")) / max(1, len(uni)), 1)
         st["top5"] = [dict(c=u["c"], n=u["n"], p=u["p"], m=u["m"], pe=u["pe"], pb=u["pb"], per=u["per"]) for u in sorted(uni, key=lambda u: -u["m"])[:5]]
-        dump(uni, os.path.join(d, "universe.json"), indent=0)
         mac = macro(cc, k, st, fx_main, years)
         dump(mac, os.path.join(d, "macro.json"), indent=1)
-        hist, got = history(cc, k, uni, meta, mac, st, budget)
+        try:
+            pre, got0 = pb_fill(cc, k, uni, meta, mac, st, budget)
+        finally:
+            for u in uni:                                  # geçici alanlar dosyaya yazılmaz
+                for t in ("_pbq", "_alt", "_neg", "_fy"):
+                    u.pop(t, None)
+        st["top5"] = [dict(c=u["c"], n=u["n"], p=u["p"], m=u["m"], pe=u["pe"], pb=u["pb"], per=u["per"]) for u in sorted(uni, key=lambda u: -u["m"])[:5]]
+        dump(uni, os.path.join(d, "universe.json"), indent=0)
+        hist, got = history(cc, k, uni, meta, mac, st, budget - got0, pre)
+        got += got0
         dump(hist, os.path.join(d, "history.json"), indent=0)
         st["ok"] = True
     except Exception as e:

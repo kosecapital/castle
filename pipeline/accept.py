@@ -9,7 +9,8 @@
 
 İnternet kullanmaz. Bir denetim tutmazsa hiçbir şeyi değiştirmez ve 1 koduyla çıkar (CLAUDE.md kural 6: emin değilsen yayımlama).
 Denetimler:
-  1. Toplayıcı hatasız bitmiş mi; şirket sayısı öncekinin %15 içinde mi; F/K dolu olanların oranı %30-90 arasında mı.
+  1. Toplayıcı hatasız bitmiş mi; şirket sayısı öncekinin %15 içinde mi; F/K dolu olanların oranı %30-90 arasında mı;
+     kârlı ve yeterince büyük şirketlerin en çok %10'unda PD/DD eksik mi.
   2. Adayların en çok %30'unun beş yıllık verisi eksik mi (daha fazlası adres kalıbı hatasıdır: pipeline/sources.json).
   3. Süzgeçten sonra: 2. suru geçenlerin en az %70'i aynı mı (önceki sonuç varsa).
 """
@@ -151,6 +152,12 @@ def accept(cc, dry=False):
     pef = 100 * sum(1 for u in uni if u.get("pe")) / max(1, n)
     if not 30 <= pef <= 90:
         bad.append(f"F/K dolu olanların oranı %{pef:.0f}: olağan aralığın (%30-90) dışında")
+    # PD/DD: kârlı ve yeterince büyük şirketlerde defter değeri bilinmeyenlerin oranı (özsermayesi negatif olduğu bilinenler sayılmaz)
+    core1 = [u for u in uni if not u.get("veh") and u.get("pe") and u["pe"] > 0 and u["m"] >= meta.get("mcapMin", 0)]
+    nob = [u for u in core1 if u.get("pb") is None and u.get("nb") != "neg"]
+    if core1 and len(nob) / len(core1) > 0.10:
+        big = ", ".join(u["c"] for u in sorted(nob, key=lambda u: -u["m"])[:6])
+        bad.append(f"kârlı şirketlerin %{100 * len(nob) / len(core1):.0f} kadarında PD/DD yok ({len(nob)}/{len(core1)}; en büyükleri {big}): bunlar yanlış nedenle 1. surda kalırdı. status.json içindeki pb_fix'e bak")
     h = st.get("history", {})
     cand, have = h.get("candidates") or 0, sum(1 for c in hin if hin[c])
     if cand and (cand - have) / cand > 0.30:

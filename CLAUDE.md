@@ -30,9 +30,14 @@ Veriyi GitHub'daki `collect` iş akışı toplar (`.github/workflows/collect.yml
 
 - `universe.json`: bütün şirketler (fiyat, piyasa değeri, F/K, PD/DD, bilanço dönemi). Kaynak TradingView tarayıcısı; Türkiye için İş Yatırım'ın temel değerler tablosu.
   Kaynak bazı kârlı şirketlerde son 12 ay F/K'sını boş verir. Toplayıcı bunu aynı kaynağın öbür son 12 ay alanlarıyla ayırır: `np: "loss"` zarar, `np: "nodata"` kaynakta kâr verisi yok. Kâr varsa F/K aynı büyüklükten hesaplanır ve satıra `pes` yazılır (`eps`: fiyat ÷ hisse başına kâr, `roe`: PD/DD ÷ özsermaye kârlılığı). Sayfa bunu şirketin F/K'sının altında söyler; "zarar" yalnız `np: "loss"` olan şirkete denir.
+  Kaynak PD/DD'yi de boş verebilir (12 Kasım 2026'da Tayvan'da kârlı şirketlerin üçte biri, TSMC dahil): son çeyreğin bilançosu henüz işlenmemiştir ya da o çeyrekte bilanço açıklanmaz (Hindistan'da 1. ve 3. çeyrek). Bu, özsermayenin negatif olduğu anlamına gelmez. Toplayıcı PD/DD'yi sırayla şuralardan tamamlar ve satıra `pbs` yazar:
+  1. Aynı kaynağın son açıklanan bilanço alanları (`cur`, `bvc`, `bvq`, `eq`, `bvh`: güncel PD/DD, fiyat ÷ hisse başına defter değeri, piyasa değeri ÷ özsermaye). Her yol, PD/DD'si dolu şirketlerde kaynağın kendi PD/DD'siyle karşılaştırılır; ortancası %3 içinde tutmayan yol o ülkede kullanılmaz.
+  2. İkinci kaynak (`sa`): stockanalysis oran sayfasındaki güncel PD/DD. Yalnız kârlı ve `mcapMin` üstündeki şirketler için indirilir; bilanço dönemi değişmedikçe yeniden indirilmez, fiyatla ölçeklenir (`in/pbcache.json`).
+  3. Kaynağın son yıllık bilançosu (`bvy`, `eqy`): yalnız öbürleri yoksa.
+  Hiçbiri yoksa `nb: "nodata"` yazılır; kaynağın defter değeri eksiyse `nb: "neg"`. Sayfa, PD/DD'nin nereden geldiğini rakamın altında söyler; "özsermaye negatif" yalnız negatif olduğu bilinen şirkete denir.
 - `history.json`: adayların beş yıllık oranları (stockanalysis.com oran sayfaları). Bilanço dönemi değişmedikçe sayfa yeniden indirilmez.
 - `macro.json`: döviz kuru, son yıllık enflasyon, yıl sonu enflasyonları, önerilen `mcapMin`.
-- `status.json`: toplayıcının özeti; ilk beş şirket, eksik sayfalar, hatalar, `pe_fix` (boş F/K'ların dökümü ve tutarlılık denetimi).
+- `status.json`: toplayıcının özeti; ilk beş şirket, eksik sayfalar, hatalar, `pe_fix` (boş F/K'ların dökümü ve tutarlılık denetimi), `pb_fix` (boş PD/DD'lerin dökümü: yolların tutarlılığı, hangi yoldan kaç şirket, `missing_pct`).
 
 Gelen veriyi Claude oturumu `python3 pipeline/accept.py <ÜLKE>` ile denetler ve yerine alır. Yalnız Claude oturumları `docs/` klasörüne yazar.
 
@@ -88,7 +93,7 @@ python3 -m http.server 8765 --directory .preview   # yerel deneme: http://127.0.
 
 | Sur | Kural | Kaynak alan |
 |---|---|---|
-| 1. Kırmızı çizgiler | GYO ve yatırım ortaklığı değil; son 12 ayda net kâr var (F/K > 0); özsermaye pozitif; piyasa değeri ≥ `meta.mcapMin`. F/K yoksa neden ayrı yazılır: zarar (`noprofit`), kaynakta veri yok (`nodata`), bilinmiyor (`nope`) | universe.json |
+| 1. Kırmızı çizgiler | GYO ve yatırım ortaklığı değil; son 12 ayda net kâr var (F/K > 0); özsermaye pozitif; piyasa değeri ≥ `meta.mcapMin`. F/K yoksa neden ayrı yazılır: zarar (`noprofit`), kaynakta veri yok (`nodata`), bilinmiyor (`nope`). PD/DD yoksa da: özsermaye negatif (`equity`), kaynaklarda defter değeri yok (`nobook`) | universe.json |
 | 2. Kalite | Son 12 ay reel özsermaye kârlılığı ≥ %12. Beş yıllık geçmiş var, zarar yılı yok. Reel özsermaye kârlılığı ortalaması ≥ %15, hiçbir okuma < %10 değil. Net borç/FAVÖK ≤ 3 (şirketin içinde finansman şirketi varsa o kol hariç). Serbest nakit akışı son beş dönemin en az ikisinde pozitif (finans şirketlerinde borç ve nakit testi yok) | universe.json + history.json + finarm.json |
 | 3. Hendek ve yönetim | Claude'un yazdığı puanlar: B ≥ 2 ve A, C, D, E ≥ 1 | reports.json |
 | 4. Fiyat | Temkinli F/K = PD/DD ÷ (son üç reel özsermaye kârlılığı okumasının en düşüğü). Adil çarpan = 100 ÷ (reel getiri eşiği − büyüme payı). Güvenlik marjı ≥ %25 ise "kale", değilse "kapıda bekliyor" | hesap |
@@ -145,6 +150,7 @@ Sınırlar:
    - `top5` içindeki beş şirketin fiyatı ve piyasa değeri ikinci bir kaynakla (stockanalysis.com, WebFetch ile) %5 içinde tutuyor mu? Para birimi doğru mu? F/K ve PD/DD, iki kaynak aynı bilanço dönemindeyse %5 içinde tutmalı; dönem farklıysa farkı not et.
    - `pe_filled_pct` %30-90 arasında mı?
    - `pe_fix`: `eps_med` ve `roe_med` 1'e yakın mı (kaynağın alanları birbiriyle tutuyor mu)? `nodata_top` içinde ülkenin bilinen büyük şirketleri varsa bunu `data_notes` içine yaz: bu şirketler zararda değil, kaynak son 12 ay kârını vermediği için değerlendirilemedi. `fixed_top` içinden iki şirketin F/K'sını ikinci kaynakla karşılaştır (%10 içinde).
+   - `pb_fix`: `missing_pct` %10'un altında mı (kârlı ve yeterince büyük şirketlerde PD/DD'si bilinmeyenlerin oranı; `accept.py` bunu kendisi de denetler ve tutmazsa veriyi almaz)? `paths` içinde `ok: true` olan yolların ortancası (`med`) 1'e yakın mı? `fixed_top` içinden iki şirketin PD/DD'sini şirketin son bilançosundaki özsermayeyle karşılaştır (piyasa değeri ÷ ana ortaklığa ait özsermaye, %10 içinde). `nodata_top` içinde bilinen büyük bir şirket varsa `data_notes` içine yaz.
    - `history.failed_n`, aday sayısının (`history.candidates`) %30'unu geçiyor mu? Geçiyorsa adres kalıbı yanlıştır: `status.json` içindeki `failed` listesinden birkaç kodu stockanalysis.com'da ara, doğru yolu `pipeline/sources.json` (ya da ülkeye özelse `countries.json` içindeki `sa`) içine yaz, gönder ve bu ülkeyi ertesi güne bırak. Toplayıcı gece yeniden dener.
 3. **meta.json yaz.** `data/TR/meta.json` ve `data/US/meta.json` örnektir. Doldurulacaklar:
    - `cc`, `iso`, `name`, `market` (countries.json'dan), `exchange` (borsanın Türkçe okunur adı), `cur` (ana para birimi kodu), `asof`, `fx` ve `mcapMin` (`macro.json`'dan; `mcapMin` yaklaşık 60 milyon ABD doları karşılığıdır). `small_text` ve `small_rule` cümlelerini `mcapMin`'e göre yaz.
