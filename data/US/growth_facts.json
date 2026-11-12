@@ -9,8 +9,8 @@
    "prev_val": "18.21",
    "unit": "dolar / dollars",
    "date": "2026-09-24",
-   "url": "https://finviz.com/news/395411/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-year-2026-operating-results",
-   "primary": false
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/costex9918-k92426.htm",
+   "primary": true
   },
   "quarter": {
    "tr": "Mayıs-Ağustos 2026 çeyreği (16 hafta)",
@@ -20,8 +20,8 @@
    "prev_val": "5.87",
    "unit": "dolar / dollars",
    "date": "2026-09-24",
-   "url": "https://finviz.com/news/395411/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-year-2026-operating-results",
-   "primary": false
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/costex9918-k92426.htm",
+   "primary": true
   },
   "guidance": null,
   "adjusted": {
@@ -29,7 +29,8 @@
    "what_en": "A non-recurring benefit of 0.15 dollars a share in the last quarter from IEEPA tariff refunds, net of the part reinvested in member value. The company gives no adjusted growth figure.",
    "ytd_pct": null,
    "quarter_pct": null,
-   "url": "https://finviz.com/news/395411/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-year-2026-operating-results"
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/costex9918-k92426.htm",
+   "primary": true
   },
   "departed": null,
   "permanent": null,
@@ -235,8 +236,8 @@
    "prev_val": "3.72",
    "unit": "dolar / dollars",
    "date": "2026-10-28",
-   "url": "https://www.jamessharp.co.uk/market-news/microsoft-announces-first-quarter-results/",
-   "primary": false
+   "url": "https://news.microsoft.com/source/2026/10/28/microsoft-announces-first-quarter-results-2/",
+   "primary": true
   },
   "quarter": {
    "tr": "Temmuz-Eylül 2026 çeyreği (2027 mali yılının ilk çeyreği)",
@@ -246,8 +247,8 @@
    "prev_val": "3.72",
    "unit": "dolar / dollars",
    "date": "2026-10-28",
-   "url": "https://www.jamessharp.co.uk/market-news/microsoft-announces-first-quarter-results/",
-   "primary": false
+   "url": "https://news.microsoft.com/source/2026/10/28/microsoft-announces-first-quarter-results-2/",
+   "primary": true
   },
   "guidance": null,
   "adjusted": {
@@ -255,7 +256,8 @@
    "what_en": "Impact of the OpenAI investments: net gains added 0.03 dollars to EPS this quarter; a year ago net losses cut it by 0.41 dollars. The company's figure excluding this is 4.89 dollars (4.13 a year ago).",
    "ytd_pct": 18.0,
    "quarter_pct": 18.0,
-   "url": "https://www.jamessharp.co.uk/market-news/microsoft-announces-first-quarter-results/"
+   "url": "https://news.microsoft.com/source/2026/10/28/microsoft-announces-first-quarter-results-2/",
+   "primary": true
   },
   "departed": null,
   "permanent": null,
@@ -339,8 +341,8 @@
    "detail_tr": "hisse başına kâr yaklaşık 9,50 dolar (önceki aralık 9,25-9,50); 2025'te 9,28. Alacak artışı orta tek haneli, net zarar yazma oranı %5,5'in altında",
    "detail_en": "EPS of about 9.50 dollars (previously 9.25-9.50); 9.28 in 2025. Receivables growth mid-single digit, net charge-off rate below 5.5%",
    "date": "2026-10-20",
-   "url": "https://finsee.ai/earnings/syf/2026/q3/en/",
-   "primary": false
+   "url": "https://d1io3yog0oux5.cloudfront.net/_ed32584ad018cf7628a9ab6a24ce0154/synchrony/db/3606/34034/presentation/3Q%2726+Earnings+Presentation_Final.pdf",
+   "primary": true
   },
   "adjusted": null,
   "departed": null,
@@ -533,7 +535,7 @@
    "prev_val": "2.51",
    "unit": "dolar / dollars",
    "date": "2026-10-27",
-   "url": "https://last10k.com/sec-filings/ko/0001628280-26-067403.htm",
+   "url": "https://investors.coca-colacompany.com/filings-reports/all-sec-filings/content/0001628280-26-067403/a2026q3earningsreleaseex-9.htm",
    "primary": true
   },
   "quarter": {
@@ -562,7 +564,8 @@
    "what_en": "The company's comparable EPS: excludes a 192 million dollar pension settlement charge, hedge and securities mark-to-market, adjustments to the impairment on the Africa bottling operations and tax items. 0.91 (0.82) in the quarter, 2.74 (2.42) dollars in the nine months. Currency-neutral growth was 9% in the quarter and 11% in the nine months.",
    "ytd_pct": 13.0,
    "quarter_pct": 11.0,
-   "url": "https://last10k.com/sec-filings/ko/0001628280-26-067403.htm"
+   "url": "https://investors.coca-colacompany.com/filings-reports/all-sec-filings/content/0001628280-26-067403/a2026q3earningsreleaseex-9.htm",
+   "primary": true
   },
   "departed": {
    "tr": "Şişeleme işlerinin satışı: Hindistan (Mayıs 2025), Nijerya'daki bitmiş ürün işi (Ekim 2025) satıldı; Afrika şişeleme işinin satışının 2026'nın son çeyreğinde tamamlanması bekleniyor. Şirkete göre etkisi: 2026'da gelire yaklaşık 2 puan, hisse başına kâra yaklaşık 1 puan; son çeyrekte 4 ve 3 puan; 2027'de gelire yaklaşık 8, hisse başına kâra yaklaşık 2 puan.",
@@ -718,7 +721,7 @@
    "prev_val": "7.46",
    "unit": "dolar / dollars",
    "date": "2026-11-02",
-   "url": "https://last10k.com/sec-filings/aapl/0000320193-26-000024.htm",
+   "url": "https://www.apple.com/newsroom/pdfs/fy2026q4/FY26_Q4_Consolidated_Financial_Statements.pdf",
    "primary": true
   },
   "quarter": {
@@ -729,7 +732,7 @@
    "prev_val": "1.85",
    "unit": "dolar / dollars",
    "date": "2026-11-02",
-   "url": "https://last10k.com/sec-filings/aapl/0000320193-26-000024.htm",
+   "url": "https://www.apple.com/newsroom/pdfs/fy2026q4/FY26_Q4_Consolidated_Financial_Statements.pdf",
    "primary": true
   },
   "guidance": null,
@@ -758,7 +761,7 @@
    "prev_val": "10.20",
    "unit": "dolar / dollars",
    "date": "2026-10-27",
-   "url": "https://last10k.com/sec-filings/v/0001403161-26-000126.htm",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000126/q42026earningsrelease.htm",
    "primary": true
   },
   "quarter": {
@@ -769,7 +772,7 @@
    "prev_val": "2.62",
    "unit": "dolar / dollars",
    "date": "2026-10-27",
-   "url": "https://last10k.com/sec-filings/v/0001403161-26-000126.htm",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000126/q42026earningsrelease.htm",
    "primary": true
   },
   "guidance": {
@@ -779,15 +782,16 @@
    "detail_tr": "düzeltilmiş hisse başına kâr büyümesi \"düşük çift haneli ile onlu yaşların başı\" arasında (sayı verilmedi); 2026 mali yılında 13,27 dolar. İlk çeyrek için \"onlu yaşların ortasının alt ucu\".",
    "detail_en": "adjusted EPS growth \"in the low double digits to low teens\" (no number given); 13.27 dollars in fiscal 2026. First quarter: \"at the low end of mid-teens\".",
    "date": "2026-10-27",
-   "url": "https://www.zacks.com/stock/news/3017664/visa-q4-earnings-call-highlights-fy27-outlook-and-growth-priorities",
-   "primary": false
+   "url": "https://s1.q4cdn.com/050606653/files/content_files/4Q26-Earnings-Deck_vFINAL.pdf",
+   "primary": true
   },
   "adjusted": {
    "what_tr": "Şirketin düzeltilmiş (non-GAAP) hisse başına kârı: dava karşılıkları (çeyrekte 469 milyon, yılda 1,7 milyar dolar), kıdem giderleri (563 milyon), Visa Vakfı'na bağış (282 milyon) ve vergi kalemleri hariç.",
    "what_en": "The company's non-GAAP EPS: excludes litigation provisions (469 million in the quarter, 1.7 billion dollars in the year), severance costs (563 million), the donation to the Visa Foundation (282 million) and tax items.",
    "ytd_pct": 15.69,
    "quarter_pct": 16.78,
-   "url": "https://last10k.com/sec-filings/v/0001403161-26-000126.htm"
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000126/q42026earningsrelease.htm",
+   "primary": true
   },
   "departed": null,
   "permanent": null,
@@ -1010,8 +1014,8 @@
    "prev_val": "14.62",
    "unit": "dolar / dollars",
    "date": "2026-10-21",
-   "url": "https://finviz.com/news/405782/meta-reports-third-quarter-2026-results",
-   "primary": false
+   "url": "https://s21.q4cdn.com/399680738/files/doc_news/Meta-Reports-Third-Quarter-2026-Results-2026.pdf",
+   "primary": true
   },
   "quarter": {
    "tr": "Temmuz-Eylül 2026 çeyreği",
@@ -1021,8 +1025,8 @@
    "prev_val": "1.05",
    "unit": "dolar / dollars",
    "date": "2026-10-21",
-   "url": "https://finviz.com/news/405782/meta-reports-third-quarter-2026-results",
-   "primary": false
+   "url": "https://s21.q4cdn.com/399680738/files/doc_news/Meta-Reports-Third-Quarter-2026-Results-2026.pdf",
+   "primary": true
   },
   "guidance": null,
   "adjusted": {
@@ -1030,7 +1034,8 @@
    "what_en": "A 9.89 billion dollar legal charge in Q3 2026 for the agreement with 52 state attorneys general; the company says EPS would have been 7.40 dollars without it. In the same quarter last year the tax rate was 87% (tax provision 18.95 billion dollars); the release read gives no adjusted 2025 figure.",
    "ytd_pct": null,
    "quarter_pct": null,
-   "url": "https://finviz.com/news/405782/meta-reports-third-quarter-2026-results"
+   "url": "https://s21.q4cdn.com/399680738/files/doc_news/Meta-Reports-Third-Quarter-2026-Results-2026.pdf",
+   "primary": true
   },
   "departed": null,
   "permanent": null,

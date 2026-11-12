@@ -436,9 +436,9 @@
     "u": "https://www.sec.gov/Archives/edgar/data/0001601712/000160171226000043/syf-20260930.htm"
    },
    {
-    "t": "Büyüme yargısının kaynağı: 2026 yılı için şirket beklentisi",
-    "te": "Source for the growth judgment: company guidance for 2026",
-    "u": "https://finsee.ai/earnings/syf/2026/q3/en/"
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://d1io3yog0oux5.cloudfront.net/_ed32584ad018cf7628a9ab6a24ce0154/synchrony/db/3606/34034/presentation/3Q%2726+Earnings+Presentation_Final.pdf"
    }
   ],
   "en": {
@@ -1063,14 +1063,14 @@
     "u": "https://www.mactrast.com/?p=173782"
    },
    {
-    "t": "Büyüme yargısının kaynağı: Eylül 2026'da biten mali yıl",
-    "te": "Source for the growth judgment: fiscal year ended September 2026",
-    "u": "https://last10k.com/sec-filings/aapl/0000320193-26-000024.htm"
-   },
-   {
     "t": "Büyüme yargısının kaynağı: şirket belgesi",
     "te": "Source for the growth judgment: company document",
     "u": "https://apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://www.apple.com/newsroom/pdfs/fy2026q4/FY26_Q4_Consolidated_Financial_Statements.pdf"
    }
   ],
   "en": {
@@ -1235,9 +1235,9 @@
     "u": "https://aiweekly.co/alerts/microsoft-q1-revenue-hits-923b-azure-up-48-as-capex-jumps-to-394b-with-175b"
    },
    {
-    "t": "Büyüme yargısının kaynağı: Temmuz-Eylül 2026 çeyreği (2027 mali yılının ilk çeyreği)",
-    "te": "Source for the growth judgment: July-September 2026 quarter (first quarter of fiscal 2027)",
-    "u": "https://www.jamessharp.co.uk/market-news/microsoft-announces-first-quarter-results/"
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://news.microsoft.com/source/2026/10/28/microsoft-announces-first-quarter-results-2/"
    }
   ],
   "en": {
@@ -1413,14 +1413,14 @@
     "u": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
    },
    {
-    "t": "Büyüme yargısının kaynağı: Ocak-Eylül 2026",
-    "te": "Source for the growth judgment: January-September 2026",
-    "u": "https://finviz.com/news/405782/meta-reports-third-quarter-2026-results"
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://s21.q4cdn.com/399680738/files/doc_news/Meta-Reports-First-Quarter-2026-Results-2026.pdf"
    },
    {
     "t": "Kazanç yargısının kaynağı",
     "te": "Source for the earnings judgment",
-    "u": "https://s21.q4cdn.com/399680738/files/doc_news/Meta-Reports-First-Quarter-2026-Results-2026.pdf"
+    "u": "https://s21.q4cdn.com/399680738/files/doc_news/Meta-Reports-Third-Quarter-2026-Results-2026.pdf"
    }
   ],
   "en": {
@@ -1779,6 +1779,11 @@
     "t": "Kazanç yargısının kaynağı",
     "te": "Source for the earnings judgment",
     "u": "https://www.sec.gov/Archives/edgar/data/0000909832/000090983226000084/costex9918-k92426.htm"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: Eylül 2025-Ağustos 2026 mali yılı (52 hafta)",
+    "te": "Source for the growth judgment: fiscal year September 2025-August 2026 (52 weeks)",
+    "u": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/costex9918-k92426.htm"
    }
   ],
   "en": {
@@ -2146,9 +2151,9 @@
     "u": "https://www.investmentnews.com/regulation-legal-compliance/coca-colas-20bn-tax-fight-reaches-federal-appeals-court-this-week/267091"
    },
    {
-    "t": "Büyüme yargısının kaynağı: Ocak-Eylül 2026",
-    "te": "Source for the growth judgment: January-September 2026",
-    "u": "https://last10k.com/sec-filings/ko/0001628280-26-067403.htm"
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://investors.coca-colacompany.com/filings-reports/all-sec-filings/content/0001628280-26-067403/a2026q3earningsreleaseex-9.htm"
    }
   ],
   "en": {
@@ -2420,9 +2425,14 @@
     "u": "https://www.americanbanker.com/payments/news/judge-approves-card-network-fee-settlement-with-merchants"
    },
    {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000126/q42026earningsrelease.htm"
+   },
+   {
     "t": "Büyüme yargısının kaynağı: 2027 mali yılı için şirket beklentisi (düzeltilmiş hisse başına kâr)",
     "te": "Source for the growth judgment: company outlook for fiscal 2027 (adjusted EPS)",
-    "u": "https://www.zacks.com/stock/news/3017664/visa-q4-earnings-call-highlights-fy27-outlook-and-growth-priorities"
+    "u": "https://s1.q4cdn.com/050606653/files/content_files/4Q26-Earnings-Deck_vFINAL.pdf"
    }
   ],
   "en": {

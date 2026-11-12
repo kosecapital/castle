@@ -111,24 +111,24 @@
   "ytd": {
    "tr": "Nisan-Eylül 2026",
    "en": "April-September 2026",
-   "pct": -17.39,
-   "cur_val": "6.84",
+   "pct": -17.51,
+   "cur_val": "6.83",
    "prev_val": "8.28",
    "unit": "rupi / rupees",
    "date": "2026-11-02",
-   "url": "https://www.screener.in/company/ITC/consolidated/",
-   "primary": false
+   "url": "https://itcportal.com/content/dam/itc-corporate/pdfs/financial-result/quarterly-results-2026-2027/september-2026/ITC-Financial-Result-Q2-FY2027-cfs.pdf",
+   "primary": true
   },
   "quarter": {
    "tr": "Temmuz-Eylül 2026 çeyreği",
    "en": "July-September 2026 quarter",
-   "pct": -18.58,
-   "cur_val": "3.33",
+   "pct": -18.83,
+   "cur_val": "3.32",
    "prev_val": "4.09",
    "unit": "rupi / rupees",
    "date": "2026-11-02",
-   "url": "https://www.screener.in/company/ITC/consolidated/",
-   "primary": false
+   "url": "https://itcportal.com/content/dam/itc-corporate/pdfs/financial-result/quarterly-results-2026-2027/september-2026/ITC-Financial-Result-Q2-FY2027-cfs.pdf",
+   "primary": true
   },
   "guidance": null,
   "adjusted": {
@@ -136,15 +136,17 @@
    "what_en": "Costs of the Century Pulp and Paper acquisition (25.66 crore rupees) are shown as an exceptional item. Consolidated net profit before exceptional items fell 17.0% in the quarter (4,249 crore rupees). No adjusted half-year figure found.",
    "ytd_pct": null,
    "quarter_pct": -17.0,
-   "url": "https://www.investywise.com/itc-limited-q2-fy27-results-media-statement/"
+   "url": "https://itcportal.com/content/dam/itc-corporate/pdfs/financial-result/quarterly-results-2026-2027/september-2026/ITC-Quarterly-Result-Presentation-Q2-FY2027.pdf",
+   "primary": true
   },
   "departed": {
-   "tr": "Otelcilik işi 1 Ocak 2025'te ayrı şirkete (ITC Hotels) devredildi. Mart 2025 yılının konsolide net kârı (35.052 crore rupi) Mart 2026 yılınınkinden (21.018 crore rupi) çok yüksek; aradaki farkın ayrılma kazancından geldiği bu oturumda şirket belgesinden doğrulanamadı.",
-   "en": "The hotels business was demerged into a separate company (ITC Hotels) on 1 January 2025. Consolidated net profit for the year to March 2025 (35,052 crore rupees) is far above the year to March 2026 (21,018 crore rupees); that the gap comes from the demerger gain could not be confirmed from a company document in this session.",
+   "tr": "Otelcilik işi 1 Ocak 2025'te ayrı şirkete (ITC Hotels) devredildi. Mart 2025 yılının konsolide net kârı (35.052 crore rupi) Mart 2026 yılınınkinden (21.018 crore rupi) çok yüksek; fark durdurulan faaliyetlerden geliyor: 15.016 crore rupi, büyük bölümü ayrılmada yazılan değerleme kazancı. Sürdürülen faaliyetlerin kârı 20.036 crore rupiden 21.018 crore rupiye çıktı.",
+   "en": "The hotels business was demerged into a separate company (ITC Hotels) on 1 January 2025. Consolidated net profit for the year to March 2025 (35,052 crore rupees) is far above the year to March 2026 (21,018 crore rupees); the gap comes from discontinued operations: 15,016 crore rupees, most of it the fair-value gain booked on the demerger. Profit from continuing operations rose from 20,036 to 21,018 crore rupees.",
    "remaining_pct": null,
    "basis_tr": "Kalan işin büyümesi bulunamadı. Son iki dönem karşılaştırmasının iki yanında da otel yok.",
    "basis_en": "Growth of the remaining business not found. Hotels are in neither side of the latest period comparisons.",
-   "url": "https://www.screener.in/company/ITC/consolidated/"
+   "url": "https://itcportal.com/content/dam/itc-corporate/pdfs/financial-result/quarterly-results-2025-2026/march-2026/ITC-Financial-Result-Q4-FY2026-cfs.pdf",
+   "primary": true
   },
   "permanent": {
    "tr": "Sigarada vergi 1 Şubat 2026'da kalıcı olarak arttı; şirket bunu \"benzeri görülmemiş vergi artışı\" diye anıyor ve hacmin kaçak sigaraya kayma riskinden söz ediyor (Nisan-Haziran 2026 basın açıklaması). Sigara kolunun kârı Temmuz-Eylül 2026'da %27,2 düştü (3.813 crore rupi; bir yıl önce 5.241). Yasal değişiklik sürüyor; şirket bir toparlanma tarihi vermiyor.",
@@ -235,8 +237,8 @@
    "prev_val": "7.32",
    "unit": "rupi / rupees",
    "date": "2026-10-15",
-   "url": "https://www.freepressjournal.in/business/nestl-india-reports-standalone-q2-fy27-profit-of-102677-crore-up-363-year-on-year",
-   "primary": false
+   "url": "https://nsearchives.nseindia.com/corporate/NESTLEIND1_15102026122005_BSENSEOutcomeResults15102026signed.pdf",
+   "primary": true
   },
   "quarter": {
    "tr": "Temmuz-Eylül 2026 çeyreği",
@@ -246,8 +248,8 @@
    "prev_val": "3.90",
    "unit": "rupi / rupees",
    "date": "2026-10-15",
-   "url": "https://www.freepressjournal.in/business/nestl-india-reports-standalone-q2-fy27-profit-of-102677-crore-up-363-year-on-year",
-   "primary": false
+   "url": "https://nsearchives.nseindia.com/corporate/NESTLEIND1_15102026122005_BSENSEOutcomeResults15102026signed.pdf",
+   "primary": true
   },
   "guidance": null,
   "adjusted": null,
@@ -298,13 +300,13 @@
   "ytd": {
    "tr": "Nisan-Eylül 2026",
    "en": "April-September 2026",
-   "pct": 20.8,
-   "cur_val": "9,758",
+   "pct": 20.77,
+   "cur_val": "9,756",
    "prev_val": "8,078",
    "unit": "crore rupi (10 milyon rupi) / crore rupees",
    "date": "2026-10-12",
-   "url": "https://www.screener.in/company/HCLTECH/consolidated/",
-   "primary": false
+   "url": "https://nsearchives.nseindia.com/corporate/HCLTECH_12102026170757_InvestorRelease_5.pdf",
+   "primary": true
   },
   "quarter": {
    "tr": "Temmuz-Eylül 2026 çeyreği",

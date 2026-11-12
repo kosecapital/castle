@@ -7,7 +7,8 @@
    "net_profit": 132175,
    "tr": "Ekim 2025 - Eylül 2026 (26 Eylül 2026'da biten mali yıl; son rapor yıl sonu)",
    "en": "October 2025 - September 2026 (fiscal year ended 26 September 2026; latest report is the full year)",
-   "url": "https://last10k.com/sec-filings/aapl/0000320193-26-000024.htm"
+   "url": "https://www.apple.com/newsroom/pdfs/fy2026q4/FY26_Q4_Consolidated_Financial_Statements.pdf",
+   "primary": true
   },
   "tax_rate": 17.0,
   "gains": [],
@@ -339,7 +340,8 @@
    "net_profit": 14629,
    "tr": "Ekim 2025 - Eylül 2026 (dört çeyrek: 2025'in 4. çeyreği 0,53 + 2026'nın ilk dokuz ayı 2,86)",
    "en": "October 2025 - September 2026 (four quarters: Q4 2025 0.53 + first nine months of 2026 2.86)",
-   "url": "https://last10k.com/sec-filings/ko/0001628280-26-067403.htm"
+   "url": "https://investors.coca-colacompany.com/filings-reports/all-sec-filings/content/0001628280-26-067403/a2026q3earningsreleaseex-9.htm",
+   "primary": true
   },
   "tax_rate": 17.9,
   "gains": [
@@ -411,7 +413,8 @@
    "net_profit": 75249,
    "tr": "Ekim 2025 - Eylül 2026 (dört çeyrek: 2025'in 4. çeyreği 8,88 + 2026'nın ilk dokuz ayı 20,44)",
    "en": "October 2025 - September 2026 (four quarters: Q4 2025 8.88 + first nine months of 2026 20.44)",
-   "url": "https://finviz.com/news/405782/meta-reports-third-quarter-2026-results"
+   "url": "https://s21.q4cdn.com/399680738/files/doc_news/Meta-Reports-Third-Quarter-2026-Results-2026.pdf",
+   "primary": true
   },
   "tax_rate": 30.0,
   "gains": [
@@ -444,7 +447,8 @@
    "net_profit": 142631,
    "tr": "Ekim 2025 - Eylül 2026 (dört çeyrek: 2026 mali yılının 2., 3., 4. çeyrekleri ve 2027 mali yılının 1. çeyreği)",
    "en": "October 2025 - September 2026 (four quarters: Q2, Q3, Q4 of fiscal 2026 and Q1 of fiscal 2027)",
-   "url": "https://www.jamessharp.co.uk/market-news/microsoft-announces-first-quarter-results/"
+   "url": "https://news.microsoft.com/source/2026/10/28/microsoft-announces-first-quarter-results-2/",
+   "primary": true
   },
   "tax_rate": null,
   "gains": [
@@ -634,8 +638,9 @@
     "low": 9.5,
     "high": 9.5,
     "kind": "reported",
-    "url": "https://finsee.ai/earnings/syf/2026/q3/en/",
-    "date": "2026-10-20"
+    "url": "https://d1io3yog0oux5.cloudfront.net/_ed32584ad018cf7628a9ab6a24ce0154/synchrony/db/3606/34034/presentation/3Q%2726+Earnings+Presentation_Final.pdf",
+    "date": "2026-10-20",
+    "primary": true
    }
   ],
   "notes": "TTM = Q4 2025 (diluted EPS 2.04, net earnings 751; copy of the 8-K exhibit at https://www.boardroomalpha.com/sec/syf-8-k-2026-01-27-0001601712-26-000003/earningsrelease4q25.htm) + nine months 2026 (7.52; 2,582; 10-Q). net_profit is net earnings before preferred dividends; available to common was 2,512 in nine months 2026 (Q4 2025 figure not read). Guidance of 'about 9.50' is from a secondary summary of the Q3 call (finsee.ai); the earnings release itself has no numbers, so primary=false and low=high. With 7.52 earned, it implies about 1.98 for Q4 2026. No one-off gain above the threshold: the only gain found is 30 million pre-tax on the exchange of Visa Class B-2 shares in nine months 2026 (under 1% of 12-month profit). Q4 2025 carried a one-off charge (51 million after tax, 0.14 per share, early-retirement programme), ignored per brief. Tax rate 24.4% is the 10-Q figure for nine months 2026. Only part of the 10-Q was read (characters 0-200,000)."
@@ -712,7 +717,8 @@
    "net_profit": 23504,
    "tr": "Ekim 2025 - Eylül 2026 (2026 mali yılı)",
    "en": "October 2025 - September 2026 (fiscal year 2026)",
-   "url": "https://last10k.com/sec-filings/v/0001403161-26-000126.htm"
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000126/q42026earningsrelease.htm",
+   "primary": true
   },
   "tax_rate": 16.3,
   "gains": [],

@@ -411,8 +411,8 @@ function failText(f) {
     case "data": return L("Güncel beş yıllık veri doğrulanamadı", "Up-to-date five-year data could not be verified");
     case "history": return L("Beş yıllık mali geçmiş yok (halka arzı yeni)", "No five-year financial history (recently listed)");
     case "loss": return L("Son beş yılda zarar yılı var: ", "A loss-making year in the last five years: ") + f.v.join(", ");
-    case "roe_min": return L("Reel özsermaye kârlılığı istikrarsız: " + era + " en düşük okuma " + pct(f.v) + " (eşik " + pct(P.eraMin, 0) + ")", "Real return on equity is unstable: the lowest reading " + era + " is " + pct(f.v) + " (threshold " + pct(P.eraMin, 0) + ")");
-    case "roe_avg": return L("Reel özsermaye kârlılığı yetersiz: " + era + " ortalama " + pct(f.v) + " (eşik " + pct(P.eraAvg, 0) + ")", "Real return on equity is too low: the average " + era + " is " + pct(f.v) + " (threshold " + pct(P.eraAvg, 0) + ")");
+    case "roe_min": return L("Reel özsermaye kârlılığı istikrarsız: " + era + " en düşük okuma " + pct(f.v) + (f.ej ? " (kazanç yargısından sonra)" : "") + " (eşik " + pct(P.eraMin, 0) + ")", "Real return on equity is unstable: the lowest reading " + era + " is " + pct(f.v) + (f.ej ? " (after the earnings judgment)" : "") + " (threshold " + pct(P.eraMin, 0) + ")");
+    case "roe_avg": return L("Reel özsermaye kârlılığı yetersiz: " + era + " ortalama " + pct(f.v) + (f.ej ? " (kazanç yargısından sonra)" : "") + " (eşik " + pct(P.eraAvg, 0) + ")", "Real return on equity is too low: the average " + era + " is " + pct(f.v) + (f.ej ? " (after the earnings judgment)" : "") + " (threshold " + pct(P.eraAvg, 0) + ")");
     case "debt": return L("Borç yükü yüksek: " + (f.fa ? "finansman kolu hariç " : "") + "net borç/FAVÖK ", "Heavy debt: net debt/EBITDA " + (f.fa ? "excluding the finance arm " : "")) + ndS(f.v) + L(" (eşik ", " (threshold ") + num(P.ndMax) + ")";
     case "cash": return f.v[0] ? L("Kâr nakde dönmüyor: son " + f.v[1] + " dönemde serbest nakit akışı yalnız " + f.v[0] + " kez pozitif", "Profit does not turn into cash: free cash flow was positive in only " + f.v[0] + " of the last " + f.v[1] + " periods") : L("Kâr nakde dönmüyor: son " + f.v[1] + " dönemde serbest nakit akışı hiç pozitif olmadı", "Profit does not turn into cash: free cash flow was never positive in the last " + f.v[1] + " periods");
   }
@@ -428,7 +428,7 @@ function why(u) { // elenme nedeni, tam cümle
     case "equity": return L("Özsermaye negatif", "Negative equity");
     case "nobook": return L("Veri kaynakları şirketin defter değerini vermiyor: PD/DD hesaplanamıyor, şirket değerlendirilemedi", "The data sources give no book value for the company: P/B cannot be calculated, so the company could not be assessed");
     case "small": return mt("small_text") + L(": bilgi ve işlem derinliği sınırlı", ": limited information and trading depth");
-    case "roe_ttm": return L("Son 12 ay özsermaye kârlılığı " + (u.nom ? "enflasyondan arındırılınca " : "") + pct(u.rr) + " (eşik " + pct(P.roeMin, 0) + ")", "Return on equity over the last 12 months is " + pct(u.rr) + (u.nom ? " after inflation" : "") + " (threshold " + pct(P.roeMin, 0) + ")");
+    case "roe_ttm": return L("Son 12 ay özsermaye kârlılığı " + (u.nom ? "enflasyondan arındırılınca " : "") + pct(u.rr * (u.ek || 1)) + (u.ek ? " (kazanç yargısından sonra)" : "") + " (eşik " + pct(P.roeMin, 0) + ")", "Return on equity over the last 12 months is " + pct(u.rr * (u.ek || 1)) + (u.nom ? " after inflation" : "") + (u.ek ? " (after the earnings judgment)" : "") + " (threshold " + pct(P.roeMin, 0) + ")");
     case "decline": return L("Kârdaki kötüleşmenin nedeni kalıcı; şirket fiyat testine alınmadı", "The cause of the fall in profit is lasting; the company was not taken to the price test");
     case "moat": return L("Kalıcı bir rekabet üstünlüğü (hendek) yok ya da zayıf", "No durable competitive advantage (moat), or only a weak one");
     case "mgmt": return L("Yönetim ve sermaye tahsisi testini geçemedi", "Did not pass the management and capital allocation test");
@@ -936,7 +936,7 @@ function roeChart(c) {
     s += '<text x="' + cx + '" y="' + (v < 0 ? yv + 11 : yv - 4) + '" text-anchor="middle" font-size="10" fill="var(--ink)">' + num(v, 0) + (v > hi ? " ↑" : "") + "</text>";
   });
   s += "</svg>";
-  var capt = (u.nom ? (M.chart_note_nominal ? mt("chart_note_nominal") : L("Özsermaye kârlılığı (%), yıllık enflasyondan arındırılmış.", "Return on equity (%), adjusted for annual inflation.")) : (M.chart_note ? mt("chart_note") : L("Özsermaye kârlılığı (%).", "Return on equity (%)."))) +
+  var capt = (u.fx && M.chart_note_fx ? mt("chart_note_fx") : u.nom ? (M.chart_note_nominal ? mt("chart_note_nominal") : L("Özsermaye kârlılığı (%), yıllık enflasyondan arındırılmış.", "Return on equity (%), adjusted for annual inflation.")) : (M.chart_note ? mt("chart_note") : L("Özsermaye kârlılığı (%).", "Return on equity (%)."))) +
     L(" Kesik çizgi, " + pct(P.eraAvg, 0) + "'lik ortalama eşiğidir. Son sütun kaynağın en güncel okumasıdır ve son çeyreği içermeyebilir.", " The dashed line is the " + pct(P.eraAvg, 0) + " average threshold. The last column is the source's most recent reading and may not include the latest quarter.");
   return '<figure class="fig">' + s + "<figcaption>" + esc(capt) + "</figcaption></figure>";
 }

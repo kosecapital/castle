@@ -257,14 +257,14 @@
     "te": "stockanalysis.com: Coca-Cola İçecek statistics"
    },
    {
-    "t": "Büyüme yargısının kaynağı: Ocak-Eylül 2026",
-    "te": "Source for the growth judgment: January-September 2026",
-    "u": "https://www.yatirimx.com.tr/sirket-haberleri/coca-cola-icecek-9-aylik-bilancosunu-acikladi-net-kr-224-milyar-tl/27613"
-   },
-   {
     "t": "Kazanç yargısının kaynağı",
     "te": "Source for the earnings judgment",
     "u": "https://kap.org.tr/en/api/BildirimPdf/1691889"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: Ocak-Eylül 2026",
+    "te": "Source for the growth judgment: January-September 2026",
+    "u": "https://kap.org.tr/tr/api/BildirimPdf/1691889"
    }
   ],
   "per": "9/2026",
@@ -459,16 +459,6 @@
     "te": "stockanalysis.com: MLP Sağlık statistics"
    },
    {
-    "t": "Büyüme yargısının kaynağı: Ocak-Eylül 2026",
-    "te": "Source for the growth judgment: January-September 2026",
-    "u": "https://www.yatirimx.com.tr/sirket-haberleri/mlp-saglik-9-ayda-555-milyar-tl-net-kr-acikladi/27732"
-   },
-   {
-    "t": "Büyüme yargısının kaynağı: Temmuz-Eylül 2026 çeyreği",
-    "te": "Source for the growth judgment: July-September 2026 quarter",
-    "u": "https://www.foreks.com/haber/detay/6aec15164b1852391445c1f3/FRKS/tr/hisse-degerlendirmesi-fiba-yatirim-mlp-saglik-icin-hedef-fiyatini-728-50-tl-ve-tavsiyesini-endeksin-uzerinde-getiri-olarak-korudu-05-11-26/"
-   },
-   {
     "t": "Kazanç yargısının kaynağı",
     "te": "Source for the earnings judgment",
     "u": "https://kap.org.tr/tr/api/BildirimPdf/1692568"
@@ -497,8 +487,8 @@
   "growth": {
    "g": null,
    "basis": {
-    "tr": "Formül yılda %0,0 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %5,0; Temmuz-Eylül 2026 çeyreği %6,0. Rakamlar enflasyon muhasebesiyle hazırlandığı için zaten reeldir. Formül zaten sıfır büyüme varsayıyor; indirilecek bir şey yok.",
-    "en": "The formula gave growth of 0.0% a year. Latest figures (net profit, year on year): January-September 2026 5.0%; July-September 2026 quarter 6.0%. The figures are prepared under inflation accounting, so they are already real. The formula already assumes zero growth; there is nothing to lower."
+    "tr": "Formül yılda %0,0 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %5,0; Temmuz-Eylül 2026 çeyreği %5,9. Rakamlar enflasyon muhasebesiyle hazırlandığı için zaten reeldir. Formül zaten sıfır büyüme varsayıyor; indirilecek bir şey yok.",
+    "en": "The formula gave growth of 0.0% a year. Latest figures (net profit, year on year): January-September 2026 5.0%; July-September 2026 quarter 5.9%. The figures are prepared under inflation accounting, so they are already real. The formula already assumes zero growth; there is nothing to lower."
    },
    "per": "9/2026"
   },
@@ -564,14 +554,14 @@
     "te": "stockanalysis.com: BİM statistics"
    },
    {
-    "t": "Büyüme yargısının kaynağı: Ocak-Eylül 2026",
-    "te": "Source for the growth judgment: January-September 2026",
-    "u": "https://arastirma.isyatirim.com.tr/2026/11/10/bimas-is-bim-3c-2026-kar-analizi/"
-   },
-   {
     "t": "Kazanç yargısının kaynağı",
     "te": "Source for the earnings judgment",
     "u": "https://kap.org.tr/en/api/BildirimPdf/1695704"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: Ocak-Eylül 2026",
+    "te": "Source for the growth judgment: January-September 2026",
+    "u": "https://kap.org.tr/tr/api/BildirimPdf/1695704"
    }
   ],
   "per": "9/2026",
@@ -1088,6 +1078,11 @@
     "t": "Kazanç yargısının kaynağı",
     "te": "Source for the earnings judgment",
     "u": "https://kap.org.tr/en/api/BildirimPdf/1693478"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: Ocak-Eylül 2026",
+    "te": "Source for the growth judgment: January-September 2026",
+    "u": "https://kap.org.tr/tr/api/BildirimPdf/1693478"
    }
   ],
   "en": {
@@ -1113,8 +1108,8 @@
   "growth": {
    "g": null,
    "basis": {
-    "tr": "Formül yılda %0,0 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %188,6; Temmuz-Eylül 2026 çeyreği %175,9. Rakamlar enflasyon muhasebesiyle hazırlandığı için zaten reeldir. Formül zaten sıfır büyüme varsayıyor; indirilecek bir şey yok.",
-    "en": "The formula gave growth of 0.0% a year. Latest figures (net profit, year on year): January-September 2026 188.6%; July-September 2026 quarter 175.9%. The figures are prepared under inflation accounting, so they are already real. The formula already assumes zero growth; there is nothing to lower."
+    "tr": "Formül yılda %0,0 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %188,6; Temmuz-Eylül 2026 çeyreği %176,3. Rakamlar enflasyon muhasebesiyle hazırlandığı için zaten reeldir. Formül zaten sıfır büyüme varsayıyor; indirilecek bir şey yok.",
+    "en": "The formula gave growth of 0.0% a year. Latest figures (net profit, year on year): January-September 2026 188.6%; July-September 2026 quarter 176.3%. The figures are prepared under inflation accounting, so they are already real. The formula already assumes zero growth; there is nothing to lower."
    },
    "per": "9/2026"
   },

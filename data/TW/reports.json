@@ -231,11 +231,6 @@
     "u": "https://uanalyze.com.tw/articles/6260448112"
    },
    {
-    "t": "Büyüme yargısının kaynağı: Ocak-Eylül 2026",
-    "te": "Source for the growth judgment: January-September 2026",
-    "u": "https://www.stockfeel.com.tw/?p=278472"
-   },
-   {
     "t": "Kazanç yargısının kaynağı",
     "te": "Source for the earnings judgment",
     "u": "https://filecenter.deltaww.com/ir/download/calendar/3Q26_Analyst Meeting.pdf"
@@ -340,14 +335,14 @@
     "u": "https://pr.tsmc.com/english/news/3311"
    },
    {
-    "t": "Büyüme yargısının kaynağı: Ocak-Eylül 2026",
-    "te": "Source for the growth judgment: January-September 2026",
-    "u": "https://www.ctee.com.tw/news/20261015701496-430501"
-   },
-   {
     "t": "Kazanç yargısının kaynağı",
     "te": "Source for the earnings judgment",
     "u": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-07/bf09036349a253e83f78155099133806cad0320b/2Q26%20ManagementReport.pdf"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: Ocak-Eylül 2026",
+    "te": "Source for the growth judgment: January-September 2026",
+    "u": "https://investor.tsmc.com/chinese/encrypt/files/encrypt_file/reports/2026-10/3a94d1034b9e6b22446b674f7aaf3d088a12a193/FS.pdf"
    }
   ],
   "en": {
@@ -436,6 +431,11 @@
     "t": "UAnalyze (鉅亨網): Elite Material 2025 sonuçları ve temettü (11 Mar 2026)",
     "te": "UAnalyze (cnyes): Elite Material 2025 results and dividend (11 Mar 2026)",
     "u": "https://uanalyze.com.tw/articles/5965248827"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://www.emctw.com/upload/media/New_Investors/Financial_Information/Quarterly_Results/Consolidated/CH/115/115Q3_合併_完稿財報_IMSv2-電子書.pdf"
    }
   ],
   "en": {
@@ -536,19 +536,19 @@
     "u": "https://focustaiwan.tw/business/202611030021"
    },
    {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://www.mediatek.com/hubfs/MediaTek%20Assets/Pdfs/Quarterly%20Earnings%20Release/2026/Quarterly%20Earnings%20Release-2026Q2/Press%20Release.pdf?hsLang=en"
+   },
+   {
     "t": "Büyüme yargısının kaynağı: Ocak-Eylül 2026",
     "te": "Source for the growth judgment: January-September 2026",
-    "u": "https://uanalyze.com.tw/articles/1867558064"
+    "u": "https://www.mediatek.com/hubfs/MediaTek-Assets/Pdfs/Quarterly%20Earnings%20Release/2026/Quarterly%20Earnings%20Release-2026Q3/Financial%20Statements.pdf"
    },
    {
     "t": "Büyüme yargısının kaynağı: Temmuz-Eylül 2026 çeyreği",
     "te": "Source for the growth judgment: July-September 2026 quarter",
-    "u": "https://www.stockfeel.com.tw/?p=278716"
-   },
-   {
-    "t": "Kazanç yargısının kaynağı",
-    "te": "Source for the earnings judgment",
-    "u": "https://www.mediatek.com/hubfs/MediaTek%20Assets/Pdfs/Quarterly%20Earnings%20Release/2026/Quarterly%20Earnings%20Release-2026Q2/Press%20Release.pdf?hsLang=en"
+    "u": "https://www.mediatek.com/hubfs/MediaTek-Assets/Pdfs/Quarterly%20Earnings%20Release/2026/Quarterly%20Earnings%20Release-2026Q3/Press%20Release.pdf"
    }
   ],
   "en": {
@@ -728,9 +728,9 @@
     "u": "https://tw.stock.yahoo.com/quote/3017/profile"
    },
    {
-    "t": "Büyüme yargısının kaynağı: Ocak-Eylül 2026",
-    "te": "Source for the growth judgment: January-September 2026",
-    "u": "https://uanalyze.com.tw/articles/9857458877"
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://www.twse.com.tw/pdf/en/3017_en.pdf"
    }
   ],
   "en": {
@@ -1138,8 +1138,8 @@
   "growth": {
    "g": 5.4,
    "basis": {
-    "tr": "Formül yılda %10,8 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 %5,7; Temmuz-Eylül 2026 çeyreği %−41,4. Ekim 2026 hasılatı geçen yılın %28,6 altında. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %5,4.",
-    "en": "The formula gave growth of 10.8% a year. Latest figures (earnings per share, year on year): January-September 2026 5.7%; July-September 2026 quarter −41.4%. October 2026 revenue was 28.6% below last year. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 5.4%."
+    "tr": "Formül yılda %10,8 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 %4,8; Temmuz-Eylül 2026 çeyreği %−41,4. Ekim 2026 hasılatı geçen yılın %28,6 altında. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %5,4.",
+    "en": "The formula gave growth of 10.8% a year. Latest figures (earnings per share, year on year): January-September 2026 4.8%; July-September 2026 quarter −41.4%. October 2026 revenue was 28.6% below last year. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 5.4%."
    },
    "per": "2026-Q3"
   },

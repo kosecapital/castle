@@ -169,7 +169,19 @@ def run(cc):
         pe, pb = u.get("pe"), u.get("pb")
         roe = (pb / pe * 100.0) if (pe and pb and pe > 0 and pb > 0) else None
         defl = deflate_all or bool(u.get("nom"))
-        rr = real(roe, cpi["cur"]) if defl else roe
+        cf = cpi_of
+        # İşlevsel para birimi yabancı olan şirket (meta.flags.fx): özsermaye kârlılığı o para biriminin enflasyonuyla düzeltilir
+        # (meta.fx_cpi; kâr da özsermaye de o parayla ölçülür). Enflasyon dizisi yoksa düzeltilmez.
+        fxc = ((meta.get("flags") or {}).get("fx") or {}).get(c)
+        fxcpi = (meta.get("fx_cpi") or {}).get(fxc["cur"]) if fxc else None
+        if fxcpi:
+            fys = sorted(y for y in fxcpi if y != "cur")
+            cf = lambda lab, t=fxcpi, fys=fys: t["cur"] if lab == "cur" else t[lab] if lab in t else (t["cur"] if lab > fys[-1] else t[fys[0]])
+            defl = True
+        rr = real(roe, cf("cur")) if defl else roe
+        # Kazanç yargısı (CLAUDE.md): son 12 ayın okumaları 2. surun eşiklerinde de yargılanmış kazançla sınanır.
+        ej = (reports.get(c) or {}).get("earn") or {}
+        ek = ej["k"] if isinstance(ej.get("k"), (int, float)) and 0 < ej["k"] < 1 else 1.0
         e, w = None, None
         if u.get("veh"):
             e, w = 1, "vehicle"
@@ -183,7 +195,7 @@ def run(cc):
             e, w = 1, ("nobook" if u.get("nb") == "nodata" else "equity")
         elif u["m"] < mcap_min:
             e, w = 1, "small"
-        elif rr is None or rr < P["roeMin"]:
+        elif rr is None or rr * ek < P["roeMin"]:
             e, w = 2, "roe_ttm"
         else:
             h = hist.get(c)
@@ -196,7 +208,7 @@ def run(cc):
                 fy = h.get("fy") or years          # şirketin kendi mali yılları (kaynak sayfasındaki sütunlar)
                 labs = [fy[i] if i < len(fy) and fy[i] else years[i] for i in range(5)] + ["cur"]
                 roe6 = (list(h["roe"]) + [None] * 6)[:6]
-                rroe6 = [(real(v, cpi_of(lab)) if defl else v) for lab, v in zip(labs, roe6)]
+                rroe6 = [(real(v, cf(lab)) if defl else v) for lab, v in zip(labs, roe6)]
                 fails, flags = [], []
                 has_hist = (h["roe"][0] is not None) or (h.get("roic") and h["roic"][0] is not None)
                 if h.get("stale"):
@@ -210,10 +222,13 @@ def run(cc):
                 avg = mn = None
                 if len(vals) >= 3:
                     avg, mn = sum(vals) / len(vals), min(vals)
-                    if mn < P["eraMin"]:
-                        fails.append({"k": "roe_min", "v": round(mn, 1)})
-                    elif avg < P["eraAvg"]:
-                        fails.append({"k": "roe_avg", "v": round(avg, 1)})
+                    # eşikler yargılanmış kazançla sınanır: son 12 ay okuması kazanç çarpanıyla alınır (grafikteki rakam kaynağınkidir)
+                    valsj = [v * (ek if lab == "cur" else 1.0) for lab, v in zip(labs, rroe6) if v is not None and in_era(lab)]
+                    avgj, mnj = sum(valsj) / len(valsj), min(valsj)
+                    if mnj < P["eraMin"]:
+                        fails.append(dict({"k": "roe_min", "v": round(mnj, 1)}, **({"ej": 1} if mn >= P["eraMin"] else {})))
+                    elif avgj < P["eraAvg"]:
+                        fails.append(dict({"k": "roe_avg", "v": round(avgj, 1)}, **({"ej": 1} if avg >= P["eraAvg"] else {})))
                 elif not fails:
                     fails.append({"k": "history"})
                 fin = bool(u.get("fin"))
@@ -241,15 +256,13 @@ def run(cc):
                 L2[c] = dict(asof=h.get("asof"), stale=h.get("stale", 0), roe=roe6, rroe=[rnd(v, 2) for v in rroe6],
                              roic=h.get("roic"), fcf=h["fcf"], nd=nd, pe=h.get("pe"), pb=h.get("pb"), dy=h.get("dy"), po=h.get("po"),
                              avg=rnd(avg), mn=rnd(mn), fails=fails, flags=flags, ok=0 if fails else 1)
-                ej = (reports.get(c) or {}).get("earn") or {}
-                ek = ej["k"] if isinstance(ej.get("k"), (int, float)) and 0 < ej["k"] < 1 else 1.0
                 if ek < 1:
                     L2[c]["ek"] = ek               # kazanç yargısı (CLAUDE.md): son 12 ay okumaları bu çarpanla alınır
                 roe_c = [x for x in (None if rr is None else rr * ek, rroe6[-2], None if rroe6[-1] is None else rroe6[-1] * ek) if x is not None]
                 if roe_c and min(roe_c) > 0:       # 4. surun büyüme hızı (fiyat testi ve ön hesap için)
                     # İşlevsel para birimi yabancı olan şirket (meta.flags.fx) enflasyon muhasebesi uygulamaz: kâr dizisi nominaldir,
                     # her yıl o yılın tüketici enflasyonuyla düzeltilir (CLAUDE.md, "İşlevsel para birimi yabancı olan şirket").
-                    fx = c in ((meta.get("flags") or {}).get("fx") or {})
+                    fx = bool(fxc)
                     g, gh, gs, gpo = growth(h, labs, cpi_of, min(roe_c), (not defl) and not fx, P,
                                             str(int(min(era_years)) - 1) if (era_explicit and era_years and not fx) else None)
                     L2[c].update(g=rnd(g, 2), gh=rnd(gh, 2), gs=rnd(gs, 2), gpo=rnd(gpo))
@@ -284,8 +297,12 @@ def run(cc):
                     else:
                         e, w = 4, "price"            # kale ya da bekleme: fiyat testi istemcide de hesaplanır
         U.append(dict(c=c, n=u["n"], s=u["s"], p=u["p"], m=u["m"], f=u.get("f"), pe=pe, pb=pb, per=u.get("per"),
-                      e=e, w=w, nom=1 if (u.get("nom") or deflate_all) else 0, fin=1 if u.get("fin") else 0,
+                      e=e, w=w, nom=1 if (u.get("nom") or deflate_all or fxcpi) else 0, fin=1 if u.get("fin") else 0,
                       roe=None if roe is None else round(roe, 1), rr=None if rr is None else round(rr, 1)))
+        if fxcpi:
+            U[-1]["fx"] = fxc["cur"]          # özsermaye kârlılığı bu para biriminin enflasyonuyla düzeltildi
+        if ek < 1 and e == 2 and w == "roe_ttm" and rr is not None and rr >= P["roeMin"]:
+            U[-1]["ek"] = ek                  # eşiğin altına kazanç yargısıyla indi; sayfa bunu söyler
         if u.get("pc"):
             U[-1]["pc"] = u["pc"]             # fiyatı ülkenin olağan biriminden farklı yazılan pay
         if u.get("pbs"):

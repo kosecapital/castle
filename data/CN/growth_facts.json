@@ -9,8 +9,8 @@
    "prev_val": "37,88 (orandan türetildi / derived from the rate)",
    "unit": "milyar yuan / billion yuan",
    "date": "2026-10-29",
-   "url": "https://quartr.com/events/midea-group-000333-q3-2026_F9HRW0m4",
-   "primary": false
+   "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225645132.PDF",
+   "primary": true
   },
   "quarter": {
    "tr": "Temmuz-Eylül 2026 çeyreği",
@@ -20,16 +20,17 @@
    "prev_val": "11,87 (orandan türetildi / derived from the rate)",
    "unit": "milyar yuan / billion yuan",
    "date": "2026-10-29",
-   "url": "https://quartr.com/events/midea-group-000333-q3-2026_F9HRW0m4",
-   "primary": false
+   "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225645132.PDF",
+   "primary": true
   },
   "guidance": null,
   "adjusted": {
-   "what_tr": "Tek seferlik kalemler hariç net kâr (şirketin kendi 'koufei' rakamı): dokuz ayda 28,788 milyar yuan, üçüncü çeyrekte 9,193 milyar yuan. Fark, borsaya açılan ChangXin (CXMT) yatırımının değer artışından ve kur korumasından gelen kazançlardan doğuyor; dokuz ayda tek seferlik kalemler net 12,605 milyar yuan",
-   "what_en": "Net profit excluding non-recurring items (the company's own figure): 28.788 billion yuan in nine months, 9.193 billion in the third quarter. The gap comes from fair-value gains on the investment in ChangXin (CXMT), which listed in the period, and from currency-hedging gains; non-recurring items were a net 12.605 billion yuan in nine months",
+   "what_tr": "Tek seferlik kalemler hariç net kâr (şirketin kendi 'koufei' rakamı): dokuz ayda 28,788 milyar yuan, üçüncü çeyrekte 9,193 milyar yuan. Fark, şirketin 'olağan dışı' diye ayırdığı kalemlerden geliyor; en büyüğü finansal araçların değer artışı ve yatırım geliri (dokuz ayda 14,417 milyar yuan). Dokuz ayda tek seferlik kalemler net 12,605 milyar yuan",
+   "what_en": "Net profit excluding non-recurring items (the company's own figure): 28.788 billion yuan in nine months, 9.193 billion in the third quarter. The gap comes from the items the company itself classes as non-recurring; the largest is fair-value changes and investment income on financial instruments (14.417 billion yuan in nine months). Non-recurring items were a net 12.605 billion yuan in nine months",
    "ytd_pct": -22.49,
    "quarter_pct": -15.7,
-   "url": "https://m.gelonghui.com/news/5344674"
+   "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225645132.PDF",
+   "primary": true
   },
   "departed": null,
   "permanent": null,
@@ -45,13 +46,15 @@
    "tr": "Ocak-Eylül 2026",
    "en": "January-September 2026",
    "pct": 4.48,
-   "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=601838&id=12671870"
+   "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225636378.PDF",
+   "primary": true
   },
   "quarter": {
    "tr": "Temmuz-Eylül 2026 çeyreği",
    "en": "July-September 2026 quarter",
    "pct": 4.78,
-   "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=601838&id=12671870"
+   "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225636378.PDF",
+   "primary": true
   },
   "guidance": null,
   "adjusted": {
@@ -59,7 +62,8 @@
    "what_en": "net profit excluding non-recurring items",
    "ytd_pct": 4.14,
    "quarter_pct": 4.66,
-   "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=601838&id=12671870"
+   "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225636378.PDF",
+   "primary": true
   },
   "departed": null,
   "permanent": null,
@@ -105,13 +109,15 @@
    "tr": "Ocak-Eylül 2026",
    "en": "January-September 2026",
    "pct": -20.67,
-   "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=002668&id=12657160"
+   "url": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225619269.PDF",
+   "primary": true
   },
   "quarter": {
    "tr": "Temmuz-Eylül 2026 çeyreği",
    "en": "July-September 2026 quarter",
    "pct": -22.15,
-   "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=002668&id=12657160"
+   "url": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225619269.PDF",
+   "primary": true
   },
   "guidance": null,
   "adjusted": {
@@ -119,7 +125,8 @@
    "what_en": "profit excluding exchange differences as stated by the company (nine months); the currency loss was about 284 million yuan",
    "ytd_pct": 0.7,
    "quarter_pct": null,
-   "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=002668&id=12657160"
+   "url": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225619269.PDF",
+   "primary": true
   },
   "departed": null,
   "permanent": null,
@@ -139,8 +146,8 @@
    "prev_val": "64,627",
    "unit": "milyar yuan / billion yuan",
    "date": "2026-10-30",
-   "url": "https://stock.10jqka.com.cn/20261030/c681314571.shtml",
-   "primary": false
+   "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649896.PDF",
+   "primary": true
   },
   "quarter": {
    "tr": "Temmuz-Eylül 2026 çeyreği",
@@ -150,8 +157,8 @@
    "prev_val": "19,22 (orandan türetildi / derived from the rate)",
    "unit": "milyar yuan / billion yuan",
    "date": "2026-10-30",
-   "url": "https://stock.10jqka.com.cn/20261030/c681314571.shtml",
-   "primary": false
+   "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649896.PDF",
+   "primary": true
   },
   "guidance": null,
   "adjusted": {
@@ -159,7 +166,8 @@
    "what_en": "Net profit excluding non-recurring items: 64.325 billion yuan in nine months; the gap is tiny, no one-off distorts profit",
    "ytd_pct": -0.55,
    "quarter_pct": null,
-   "url": "https://m.huxiu.com/article/4901880.html"
+   "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649896.PDF",
+   "primary": true
   },
   "departed": null,
   "permanent": null,
@@ -179,8 +187,8 @@
    "prev_val": "9,319",
    "unit": "milyar yuan / billion yuan",
    "date": "2026-10-16",
-   "url": "https://m.gelonghui.com/news/5326439",
-   "primary": false
+   "url": "https://static.cninfo.com.cn/finalpage/2026-10-17/1225607861.PDF",
+   "primary": true
   },
   "quarter": {
    "tr": "Temmuz-Eylül 2026 çeyreği",
@@ -190,8 +198,8 @@
    "prev_val": "3,662",
    "unit": "milyar yuan / billion yuan",
    "date": "2026-10-16",
-   "url": "https://m.gelonghui.com/news/5326439",
-   "primary": false
+   "url": "https://static.cninfo.com.cn/finalpage/2026-10-17/1225607861.PDF",
+   "primary": true
   },
   "guidance": null,
   "adjusted": {
@@ -199,7 +207,8 @@
    "what_en": "Net profit excluding non-recurring items: 12.696 billion yuan in nine months, 4.984 billion in the third quarter; growth is even higher than reported, no one-off inflates profit",
    "ytd_pct": 41.52,
    "quarter_pct": 43.13,
-   "url": "https://m.gelonghui.com/news/5326439"
+   "url": "https://static.cninfo.com.cn/finalpage/2026-10-17/1225607861.PDF",
+   "primary": true
   },
   "departed": null,
   "permanent": null,
@@ -219,8 +228,8 @@
    "prev_val": "21,46 (orandan türetildi / derived from the rate)",
    "unit": "milyar yuan / billion yuan",
    "date": "2026-10-26",
-   "url": "https://tech.ifeng.com/c/8xXqDo2fwdb",
-   "primary": false
+   "url": "https://static.cninfo.com.cn/finalpage/2026-10-27/1225627217.PDF",
+   "primary": true
   },
   "quarter": {
    "tr": "Temmuz-Eylül 2026 çeyreği",
@@ -230,8 +239,8 @@
    "prev_val": "7,05 (orandan türetildi / derived from the rate)",
    "unit": "milyar yuan / billion yuan",
    "date": "2026-10-26",
-   "url": "https://tech.ifeng.com/c/8xXqDo2fwdb",
-   "primary": false
+   "url": "https://static.cninfo.com.cn/finalpage/2026-10-27/1225627217.PDF",
+   "primary": true
   },
   "guidance": null,
   "adjusted": {
@@ -239,7 +248,8 @@
    "what_en": "Net profit excluding non-recurring items: 16.403 billion yuan in nine months, 3.696 billion in the third quarter; the fall matches the reported one, no one-off effect",
    "ytd_pct": -20.32,
    "quarter_pct": -44.32,
-   "url": "https://m.gelonghui.com/news/5336770"
+   "url": "https://static.cninfo.com.cn/finalpage/2026-10-27/1225627217.PDF",
+   "primary": true
   },
   "departed": null,
   "permanent": null,

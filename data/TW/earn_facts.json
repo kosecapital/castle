@@ -65,10 +65,11 @@
   "eps_cur": "TWD",
   "ttm": {
    "eps": 93.36,
-   "net_profit": 33453,
+   "net_profit": 33450,
    "tr": "Ekim 2025 - Eylül 2026 (2025 son çeyreği 10,44 + 2026'nın ilk dokuz ayı 82,92)",
    "en": "October 2025 - September 2026 (fourth quarter 2025 10.44 + first nine months of 2026 82.92)",
-   "url": "https://uanalyze.com.tw/articles/1301857865"
+   "url": "https://www.emctw.com/upload/media/New_Investors/Financial_Information/Quarterly_Results/Consolidated/CH/115/115Q3_合併_完稿財報_IMSv2-電子書.pdf",
+   "primary": true
   },
   "tax_rate": 22.5,
   "gains": [],
@@ -102,7 +103,8 @@
    "net_profit": 35683,
    "tr": "Ekim 2025 - Eylül 2026 (2025 son çeyreği 16,92 + 2026'nın ilk dokuz ayı 73,86)",
    "en": "October 2025 - September 2026 (fourth quarter 2025 16.92 + first nine months of 2026 73.86)",
-   "url": "https://news.cnyes.com/news/id/6656704"
+   "url": "https://www.twse.com.tw/pdf/en/3017_en.pdf",
+   "primary": true
   },
   "tax_rate": null,
   "gains": [],

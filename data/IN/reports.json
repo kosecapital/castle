@@ -645,6 +645,11 @@
     "t": "Büyüme yargısının kaynağı: şirket belgesi",
     "te": "Source for the growth judgment: company document",
     "u": "https://www.hcltech.com/sites/default/files/document/open/quarter-results/2025-10/HCLTech_Q2_FY26_Investor_Release.pdf"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://nsearchives.nseindia.com/corporate/HCLTECH_12102026170757_InvestorRelease_5.pdf"
    }
   ],
   "en": {
@@ -670,8 +675,8 @@
   "growth": {
    "g": null,
    "basis": {
-    "tr": "Formül yılda %1,9 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Nisan-Eylül 2026 %20,8; Temmuz-Eylül 2026 çeyreği %21,2. En düşüğü, enflasyondan arındırılınca, %13,9. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
-    "en": "The formula gave growth of 1.9% a year. Latest figures (net profit, year on year): April-September 2026 20.8%; July-September 2026 quarter 21.2%. The lowest, after inflation, is 13.9%. That is not less than half the formula's rate; the rate was not lowered."
+    "tr": "Formül yılda %1,9 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Nisan-Eylül 2026 %20,8; Temmuz-Eylül 2026 çeyreği %21,2. En düşüğü, enflasyondan arındırılınca, %13,8. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 1.9% a year. Latest figures (net profit, year on year): April-September 2026 20.8%; July-September 2026 quarter 21.2%. The lowest, after inflation, is 13.8%. That is not less than half the formula's rate; the rate was not lowered."
    },
    "per": "2026-Q2"
   },
@@ -1057,6 +1062,21 @@
     "t": "Screener.in: ITC, yıllık rakamlar ve ortaklık yapısı (Eyl 2026)",
     "te": "Screener.in: ITC, annual figures and shareholding (Sep 2026)",
     "u": "https://www.screener.in/company/ITC/consolidated/"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: Nisan-Eylül 2026",
+    "te": "Source for the growth judgment: April-September 2026",
+    "u": "https://itcportal.com/content/dam/itc-corporate/pdfs/financial-result/quarterly-results-2026-2027/september-2026/ITC-Financial-Result-Q2-FY2027-cfs.pdf"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: şirket belgesi",
+    "te": "Source for the growth judgment: company document",
+    "u": "https://itcportal.com/content/dam/itc-corporate/pdfs/financial-result/quarterly-results-2026-2027/september-2026/ITC-Quarterly-Result-Presentation-Q2-FY2027.pdf"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: Otelcilik işi 1 Ocak 2025'te ayrı şirkete (ITC Hotels) devredildi. Mart 2025 yıl",
+    "te": "Source for the growth judgment: The hotels business was demerged into a separate company (ITC Hotels) on 1 Janua",
+    "u": "https://itcportal.com/content/dam/itc-corporate/pdfs/financial-result/quarterly-results-2025-2026/march-2026/ITC-Financial-Result-Q4-FY2026-cfs.pdf"
    }
   ],
   "en": {
@@ -1083,8 +1103,8 @@
    "g": null,
    "permanent": true,
    "basis": {
-    "tr": "Formül yılda %0,7 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Nisan-Eylül 2026 %−17,4; Temmuz-Eylül 2026 çeyreği %−17,0 (şirketin düzeltilmiş rakamı; açıklanan %−18,6). Düzeltme: Century Pulp and Paper satın alımının giderleri (25,66 crore rupi) istisnai kalem olarak ayrıldı. İstisnai kalemler öncesi konsolide net kâr çeyrekte %17,0 düştü (4.249 crore rupi). Yarıyıl için düzeltilmiş rakam bulunamadı. Sigarada vergi 1 Şubat 2026'da kalıcı olarak arttı; şirket bunu \"benzeri görülmemiş vergi artışı\" diye anıyor ve hacmin kaçak sigaraya kayma riskinden söz ediyor (Nisan-Haziran 2026 basın açıklaması). Sigara kolunun kârı Temmuz-Eylül 2026'da %27,2 düştü (3.813 crore rupi; bir yıl önce 5.241). Yasal değişiklik sürüyor; şirket bir toparlanma tarihi vermiyor. Kötüleşmenin nedeni kalıcı olduğu için şirket fiyat testine alınmadı.",
-    "en": "The formula gave growth of 0.7% a year. Latest figures (earnings per share, year on year): April-September 2026 −17.4%; July-September 2026 quarter −17.0% (the company's adjusted figure; reported −18.6%). Adjustment: Costs of the Century Pulp and Paper acquisition (25.66 crore rupees) are shown as an exceptional item. Consolidated net profit before exceptional items fell 17.0% in the quarter (4,249 crore rupees). No adjusted half-year figure found. Cigarette taxes rose permanently on 1 February 2026; the company calls it an \"unprecedented increase in tax\" and cites the risk of volume moving to illicit trade (April-June 2026 press release). Cigarette segment profit fell 27.2% in July-September 2026 (3,813 crore rupees; 5,241 a year earlier). The law remains in force; the company gives no recovery date. Because the cause of the deterioration is lasting, the company was not taken to the price test."
+    "tr": "Formül yılda %0,7 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Nisan-Eylül 2026 %−17,5; Temmuz-Eylül 2026 çeyreği %−17,0 (şirketin düzeltilmiş rakamı; açıklanan %−18,8). Düzeltme: Century Pulp and Paper satın alımının giderleri (25,66 crore rupi) istisnai kalem olarak ayrıldı. İstisnai kalemler öncesi konsolide net kâr çeyrekte %17,0 düştü (4.249 crore rupi). Yarıyıl için düzeltilmiş rakam bulunamadı. Sigarada vergi 1 Şubat 2026'da kalıcı olarak arttı; şirket bunu \"benzeri görülmemiş vergi artışı\" diye anıyor ve hacmin kaçak sigaraya kayma riskinden söz ediyor (Nisan-Haziran 2026 basın açıklaması). Sigara kolunun kârı Temmuz-Eylül 2026'da %27,2 düştü (3.813 crore rupi; bir yıl önce 5.241). Yasal değişiklik sürüyor; şirket bir toparlanma tarihi vermiyor. Kötüleşmenin nedeni kalıcı olduğu için şirket fiyat testine alınmadı.",
+    "en": "The formula gave growth of 0.7% a year. Latest figures (earnings per share, year on year): April-September 2026 −17.5%; July-September 2026 quarter −17.0% (the company's adjusted figure; reported −18.8%). Adjustment: Costs of the Century Pulp and Paper acquisition (25.66 crore rupees) are shown as an exceptional item. Consolidated net profit before exceptional items fell 17.0% in the quarter (4,249 crore rupees). No adjusted half-year figure found. Cigarette taxes rose permanently on 1 February 2026; the company calls it an \"unprecedented increase in tax\" and cites the risk of volume moving to illicit trade (April-June 2026 press release). Cigarette segment profit fell 27.2% in July-September 2026 (3,813 crore rupees; 5,241 a year earlier). The law remains in force; the company gives no recovery date. Because the cause of the deterioration is lasting, the company was not taken to the price test."
    },
    "per": "2026-Q2"
   }
@@ -1146,6 +1166,11 @@
     "t": "Kazanç yargısının kaynağı",
     "te": "Source for the earnings judgment",
     "u": "https://nsearchives.nseindia.com/corporate/NESTLEIND1_21042026142731_AFRs31032026signed.pdf"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: Nisan-Eylül 2026",
+    "te": "Source for the growth judgment: April-September 2026",
+    "u": "https://nsearchives.nseindia.com/corporate/NESTLEIND1_15102026122005_BSENSEOutcomeResults15102026signed.pdf"
    }
   ],
   "en": {

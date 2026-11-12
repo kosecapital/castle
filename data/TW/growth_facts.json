@@ -9,8 +9,8 @@
    "prev_val": "32.25",
    "unit": "Tayvan doları / Taiwan dollars",
    "date": "2026-11-10",
-   "url": "https://uanalyze.com.tw/articles/9857458877",
-   "primary": false
+   "url": "https://www.twse.com.tw/pdf/en/3017_en.pdf",
+   "primary": true
   },
   "quarter": {
    "tr": "Temmuz-Eylül 2026 çeyreği",
@@ -19,8 +19,8 @@
    "cur_val": "29.32",
    "prev_val": "13.67",
    "date": "2026-11-10",
-   "url": "https://www.chinatimes.com/realtimenews/20261110003431-260410",
-   "primary": false
+   "url": "https://www.twse.com.tw/pdf/en/3017_en.pdf",
+   "primary": true
   },
   "guidance": null,
   "adjusted": null,
@@ -42,8 +42,8 @@
    "prev_val": "51.76",
    "unit": "Tayvan doları / Taiwan dollars",
    "date": "2026-10-30",
-   "url": "https://uanalyze.com.tw/articles/1867558064",
-   "primary": false
+   "url": "https://www.mediatek.com/hubfs/MediaTek-Assets/Pdfs/Quarterly%20Earnings%20Release/2026/Quarterly%20Earnings%20Release-2026Q3/Financial%20Statements.pdf",
+   "primary": true
   },
   "quarter": {
    "tr": "Temmuz-Eylül 2026 çeyreği",
@@ -52,8 +52,8 @@
    "cur_val": "17.50",
    "prev_val": "15.84",
    "date": "2026-10-30",
-   "url": "https://www.stockfeel.com.tw/?p=278716",
-   "primary": false
+   "url": "https://www.mediatek.com/hubfs/MediaTek-Assets/Pdfs/Quarterly%20Earnings%20Release/2026/Quarterly%20Earnings%20Release-2026Q3/Press%20Release.pdf",
+   "primary": true
   },
   "guidance": null,
   "adjusted": null,
@@ -132,8 +132,8 @@
    "prev_val": "16.47",
    "unit": "Tayvan doları / Taiwan dollars",
    "date": "2026-10-29",
-   "url": "https://www.stockfeel.com.tw/?p=278472",
-   "primary": false
+   "url": "https://filecenter.deltaww.com/ir/download/calendar/3Q26_Analyst Meeting.pdf",
+   "primary": true
   },
   "quarter": {
    "tr": "Temmuz-Eylül 2026 çeyreği",
@@ -142,8 +142,8 @@
    "cur_val": "9.04",
    "prev_val": "7.16",
    "date": "2026-10-29",
-   "url": "https://www.stockfeel.com.tw/?p=278472",
-   "primary": false
+   "url": "https://filecenter.deltaww.com/ir/download/calendar/3Q26_Analyst Meeting.pdf",
+   "primary": true
   },
   "guidance": null,
   "adjusted": null,
@@ -160,7 +160,7 @@
   "ytd": {
    "tr": "Ocak-Eylül 2026",
    "en": "January-September 2026",
-   "pct": 5.7,
+   "pct": 4.8,
    "url": "https://tw.stock.yahoo.com/quote/6498/eps"
   },
   "quarter": {
@@ -177,7 +177,7 @@
   "skip": null,
   "note_tr": "Ekim 2026 hasılatı geçen yılın %28,6 altında.",
   "note_en": "October 2026 revenue was 28.6% below last year.",
-  "notes": null
+  "notes": " UPDATE 12 Nov 2026: prior-year nine-month basic EPS is 4.61 in the company's own Q3 2025 report (https://ptic.com.tw/-pub/user_files/investor/zh-tw/%E8%B2%A1%E5%8B%99%E5%AD%A3%E5%A0%B1/114%E5%B9%B4Q3%E5%90%88%E4%BD%B5%E8%B2%A1%E5%A0%B1.pdf), not Yahoo's 4.57; pct recomputed 4.83/4.61 = +4.8%. The 2026 leg (4.83) is still from Yahoo: the Q3 2026 report was not on the company site and MOPS refused."
  },
  "2330": {
   "metric": "EPS",
@@ -189,8 +189,8 @@
    "prev_val": "46.75",
    "unit": "Tayvan doları / Taiwan dollars",
    "date": "2026-10-15",
-   "url": "https://www.ctee.com.tw/news/20261015701496-430501",
-   "primary": false
+   "url": "https://investor.tsmc.com/chinese/encrypt/files/encrypt_file/reports/2026-10/3a94d1034b9e6b22446b674f7aaf3d088a12a193/FS.pdf",
+   "primary": true
   },
   "quarter": {
    "tr": "Temmuz-Eylül 2026 çeyreği",
@@ -222,8 +222,8 @@
    "prev_val": "31.23",
    "unit": "Tayvan doları / Taiwan dollars",
    "date": "2026-10-28",
-   "url": "https://uanalyze.com.tw/articles/1301857865",
-   "primary": false
+   "url": "https://www.emctw.com/upload/media/New_Investors/Financial_Information/Quarterly_Results/Consolidated/CH/115/115Q3_合併_完稿財報_IMSv2-電子書.pdf",
+   "primary": true
   },
   "quarter": {
    "tr": "Temmuz-Eylül 2026 çeyreği",
@@ -232,8 +232,8 @@
    "cur_val": "40.47",
    "prev_val": "11.19",
    "date": "2026-10-28",
-   "url": "https://www.stockfeel.com.tw/?p=278478",
-   "primary": false
+   "url": "https://www.emctw.com/upload/media/New_Investors/Financial_Information/Quarterly_Results/Consolidated/CH/115/115Q3_合併_完稿財報_IMSv2-電子書.pdf",
+   "primary": true
   },
   "guidance": null,
   "adjusted": null,

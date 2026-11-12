@@ -4,10 +4,11 @@
   "eps_cur": "JPY",
   "ttm": {
    "eps": 306.09,
-   "net_profit": 503700,
+   "net_profit": 503712,
    "tr": "Ekim 2025 - Eylül 2026 (2025 yılı + Ocak-Eylül 2026 − Ocak-Eylül 2025)",
    "en": "October 2025 - September 2026 (full year 2025 + January-September 2026 − January-September 2025)",
-   "url": "https://www.gyokaidigest.com/companies/chugai-pharm/report/2026-Q3"
+   "url": "https://www2.jpx.co.jp/disc/45190/140120261026556449.pdf",
+   "primary": true
   },
   "tax_rate": null,
   "gains": [],
@@ -35,7 +36,8 @@
    "net_profit": 270305,
    "tr": "Ekim 2025 - Eylül 2026 (Mart 2026 yılı + Nisan-Eylül 2026 − Nisan-Eylül 2025)",
    "en": "October 2025 - September 2026 (year to March 2026 + April-September 2026 − April-September 2025)",
-   "url": "https://japanir.jp/wp-content/uploads/2026/11/5803-20261110-02.pdf"
+   "url": "https://www2.jpx.co.jp/disc/58030/140120261109569418.pdf",
+   "primary": true
   },
   "tax_rate": 20.8,
   "gains": [],
@@ -52,8 +54,9 @@
     "low": 196.86,
     "high": 196.86,
     "kind": "reported",
-    "url": "https://japanir.jp/wp-content/uploads/2026/11/5803-20261110-01.pdf",
-    "date": "2026-11-10"
+    "url": "https://www2.jpx.co.jp/disc/58030/140120261109569418.pdf",
+    "date": "2026-11-10",
+    "primary": true
    }
   ],
   "notes": "All figures from the company's own tanshin (Japanese GAAP). EPS is on the current share count: 6-for-1 split effective 1 April 2026, prior periods restated by the company (FY to March 2026 EPS 94.93; H1 108.87 vs 40.56). No diluted EPS is reported. TTM EPS = 94.93 + 108.87 - 40.56 = 163.24; net profit = 157,163 + 180,289 - 67,147 = 270,305. Guidance (326,000 million yen; EPS 196.86) was left unchanged on 10 Nov 2026 (EPS 196.88 before; operating profit cut from 432,000 to 429,000); it is ABOVE the 12-month level. One-off gains are small: extraordinary income was 8,617 in FY to March 2026 (affiliate share sale 3,072; insurance income 2,537; investment securities sale 2,370; pension plan termination 489; other 149), 2,438 in H1 of that year and 1,812 in H1 of this year (affiliate share sale 1,712). The 12-month total of 7,991 is about 3.0% of 12-month net profit pre-tax and no single line reaches 3%; extraordinary losses over the same 12 months were 3,693 (3,485 - 1,854 + 2,062), so the net is about 4,300. Of the 7,991, 6,179 falls in the fiscal year to March 2026 (second half) and the full fiscal year had 8,617. tax_rate = FY to March 2026 income taxes 42,565 / profit before tax 204,613 (my division)."
@@ -66,7 +69,8 @@
    "net_profit": 3149.6,
    "tr": "Eylül 2025 - Ağustos 2026 (Mayıs 2026 yılı + Haziran-Ağustos 2026 − Haziran-Ağustos 2025)",
    "en": "September 2025 - August 2026 (year to May 2026 + June-August 2026 − June-August 2025)",
-   "url": "https://japanir.jp/wp-content/uploads/2026/09/6083-20260930-01.pdf"
+   "url": "https://www2.jpx.co.jp/disc/60830/140120260928540983.pdf",
+   "primary": true
   },
   "tax_rate": 34.1,
   "gains": [],
@@ -83,8 +87,9 @@
     "low": 145.32,
     "high": 145.32,
     "kind": "reported",
-    "url": "https://japanir.jp/wp-content/uploads/2026/09/6083-20260930-01.pdf",
-    "date": "2026-09-30"
+    "url": "https://www2.jpx.co.jp/disc/60830/140120260928540983.pdf",
+    "date": "2026-09-30",
+    "primary": true
    }
   ],
   "notes": "All from the company's own tanshin. EPS on the current share count: 3-for-1 split effective 1 June 2026, both years restated by the company (FY to May 2026 EPS 139.41; prior year 56.44). No diluted EPS (no potential shares). TTM EPS = 139.41 + 23.38 - 22.88 = 139.91; net profit = 3,146.578 + 524.795 - 521.771 = 3,149.6 million yen. Guidance (first given 14 July 2026, confirmed unchanged 30 Sept 2026) is ABOVE the 12-month level (+4.2% on the fiscal year). Negative goodwill gain is 94,646 thousand yen, about 3.0% of 12-month net profit; normally not taxable, but the company states no after-tax amount. Extraordinary income in FY to May 2026 totalled 95,003 thousand; extraordinary losses were larger (281,379 thousand: impairment 164,928, damages 97,702, asset retirement 18,748), so net extraordinary items REDUCED profit. Q1 FY2027 has no extraordinary income; small non-operating items only (settlement income 8,087 thousand, insurance 994 thousand). tax_rate = FY to May 2026 income taxes 1,631.8 / profit before tax 4,787.5 (my division). The big jump in FY to May 2026 (+143%) is operating (energy-efficiency conformity mandatory from April 2025), not a booked one-off gain."
@@ -97,7 +102,8 @@
    "net_profit": 660200,
    "tr": "Ekim 2025 - Eylül 2026 (Mart 2026 yılı + Nisan-Eylül 2026 − Nisan-Eylül 2025)",
    "en": "October 2025 - September 2026 (year to March 2026 + April-September 2026 − April-September 2025)",
-   "url": "https://www.marketscreener.com/news/recruit-financial-document-recruit-202703q2-summary-en-ce785edbdb8cf727"
+   "url": "https://recruit-holdings.com/en/ir/library/upload/Recruit_202703Q2_summary_en.html",
+   "primary": true
   },
   "tax_rate": 23.0,
   "gains": [],
@@ -111,8 +117,9 @@
     "low": 543.0,
     "high": 543.0,
     "kind": "reported",
-    "url": "https://www.marketscreener.com/news/recruit-financial-document-recruit-202703q2-summary-en-ce785edbdb8cf727",
-    "date": "2026-08-07"
+    "url": "https://recruit-holdings.com/en/ir/library/upload/Recruit_202703Q2_summary_en.html",
+    "date": "2026-08-07",
+    "primary": true
    }
   ],
   "notes": "Source: the company's own FY2026 Q2 summary (hosted on MarketScreener, 11 Nov 2026), Q1 summary (https://recruit-holdings.com/en/ir/library/upload/recruit_202703Q1_summary_en/) and FY2025 earnings release (https://recruit-holdings.com/en/ir/library/upload/Recruit_202603Q4_earnings_en.html). The site still shows period 2026-Q1 (implied EPS 408.88); the latest reported quarter is now July-September 2026, so the TTM here is one quarter newer. EPS is BASIC: 349.78 (FY to March 2026) + 296.01 (H1 FY2026) - 173.12 (H1 FY2025); diluted H1 figures are not in the summary (FY2025 diluted 347.59). Net profit in rounded billions: 496.9 + 411.6 - 248.3 = 660.2bn. On the site's Q1 basis: basic EPS 349.78 + 145.48 - 83.97 = 411.29; net profit 496.9 + 202.6 - 120.9 = 578.6bn. Guidance (IFRS, basic EPS) was raised on 7 Aug 2026 from 623.0bn / 447.00 yen and kept on 11 Nov 2026; it is above the last 12 months. No one-off gain named in the documents opened; the company attributes the jump to HR Technology monetisation and efficiency. FY2025 other operating income 13.1bn and finance income 34.7bn, no breakdown. The Q2 earnings release (full statements) could not be opened (https://recruit-holdings.com/en/ir/library/upload/Recruit_202703Q2_earnings_en.html: permission not answered), so H1 FY2026 other income and finance income were not checked. Tax rate is my division for FY2025: 147.9 / 644.6."
@@ -208,7 +215,8 @@
    "net_profit": 1511.5,
    "tr": "Ekim 2025 - Eylül 2026 (mali yılın tamamı)",
    "en": "October 2025 - September 2026 (full fiscal year)",
-   "url": "https://japanir.jp/wp-content/uploads/2026/11/7792-20261106-01.pdf"
+   "url": "https://www2.jpx.co.jp/disc/77920/140120261105565997.pdf",
+   "primary": true
   },
   "tax_rate": 32.3,
   "gains": [],
@@ -222,8 +230,9 @@
     "low": 175.33,
     "high": 175.33,
     "kind": "reported",
-    "url": "https://japanir.jp/wp-content/uploads/2026/11/7792-20261106-01.pdf",
-    "date": "2026-11-06"
+    "url": "https://www2.jpx.co.jp/disc/77920/140120261105565997.pdf",
+    "date": "2026-11-06",
+    "primary": true
    }
   ],
   "notes": "From the company's own full-year tanshin (6 Nov 2026; non-consolidated). The latest report is a full fiscal year, so the 12 months are the fiscal year. ttm.eps is DILUTED (165.62); basic EPS is 166.10. Net profit 1,511,524 thousand yen. The forecast EPS of 175.33 is on the basic basis (compare with 166.10): +5.6%, so guidance is ABOVE the 12-month level; half-year forecast: net profit 770 million yen, EPS 84.38. No extraordinary income in either year. Non-operating income totals only 12,342 thousand yen (FX gain 5,605; interest 3,744; compensation 1,280), under 1% of net profit. There was an extraordinary LOSS (impairment 29,561 thousand). No share split. tax_rate = income taxes 720,988 / profit before tax 2,232,513 (my division)."

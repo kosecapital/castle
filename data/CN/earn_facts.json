@@ -31,10 +31,11 @@
   "eps_cur": "CNY",
   "ttm": {
    "eps": 4.43,
-   "net_profit": 24815.8,
+   "net_profit": 24815.6,
    "tr": "Ekim 2025 - Eylül 2026 (2026 dokuz ay + 2025 yılı − 2025 dokuz ay)",
    "en": "October 2025 - September 2026 (nine months 2026 + full year 2025 − nine months 2025)",
-   "url": "https://tech.ifeng.com/c/8xXqDo2fwdb"
+   "url": "https://static.cninfo.com.cn/finalpage/2026-10-27/1225627217.PDF",
+   "primary": true
   },
   "tax_rate": null,
   "gains": [
@@ -61,7 +62,8 @@
    "net_profit": 17787.6,
    "tr": "Ekim 2025 - Eylül 2026 (2026 dokuz ay + 2025 yılı − 2025 dokuz ay)",
    "en": "October 2025 - September 2026 (nine months 2026 + full year 2025 − nine months 2025)",
-   "url": "https://wap.stockstar.com/detail/SN2026101600031849"
+   "url": "https://static.cninfo.com.cn/finalpage/2026-10-17/1225607861.PDF",
+   "primary": true
   },
   "tax_rate": null,
   "gains": [],
@@ -78,7 +80,8 @@
    "net_profit": 921.4,
    "tr": "Ekim 2025 - Eylül 2026 (2026 dokuz ay + 2025 yılı − 2025 dokuz ay)",
    "en": "October 2025 - September 2026 (nine months 2026 + full year 2025 − nine months 2025)",
-   "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=002668&id=12657160"
+   "url": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225619269.PDF",
+   "primary": true
   },
   "tax_rate": 11.1,
   "gains": [],
@@ -136,10 +139,11 @@
   "eps_cur": "CNY",
   "ttm": {
    "eps": 3.11,
-   "net_profit": 13708.4,
+   "net_profit": 13708.9,
    "tr": "Ekim 2025 - Eylül 2026 (2026 dokuz ay + 2025 yılı − 2025 dokuz ay)",
    "en": "October 2025 - September 2026 (nine months 2026 + full year 2025 − nine months 2025)",
-   "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=601838&id=12671870"
+   "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225636378.PDF",
+   "primary": true
   },
   "tax_rate": 13.2,
   "gains": [],

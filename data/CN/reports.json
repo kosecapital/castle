@@ -54,14 +54,9 @@
     "u": "https://stock.10jqka.com.cn/20260225/c674916203.shtml"
    },
    {
-    "t": "Büyüme yargısının kaynağı: Ocak-Eylül 2026",
-    "te": "Source for the growth judgment: January-September 2026",
-    "u": "https://tech.ifeng.com/c/8xXqDo2fwdb"
-   },
-   {
-    "t": "Büyüme yargısının kaynağı: şirket belgesi",
-    "te": "Source for the growth judgment: company document",
-    "u": "https://m.gelonghui.com/news/5336770"
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://static.cninfo.com.cn/finalpage/2026-10-27/1225627217.PDF"
    }
   ],
   "en": {
@@ -269,9 +264,9 @@
     "u": "https://pdf.dfcfw.com/pdf/H3_AP202604231821480075_1.pdf"
    },
    {
-    "t": "Büyüme yargısının kaynağı: Ocak-Eylül 2026",
-    "te": "Source for the growth judgment: January-September 2026",
-    "u": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=002668&id=12657160"
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225619269.PDF"
    }
   ],
   "en": {
@@ -405,9 +400,9 @@
     "u": "https://news.10jqka.com.cn/20261029/c681251005.shtml"
    },
    {
-    "t": "Büyüme yargısının kaynağı: Ocak-Eylül 2026",
-    "te": "Source for the growth judgment: January-September 2026",
-    "u": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=601838&id=12671870"
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225636378.PDF"
    }
   ],
   "en": {
@@ -545,8 +540,8 @@
   "growth": {
    "g": 2.0,
    "basis": {
-    "tr": "Formül yılda %4,0 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %−22,5 (şirketin düzeltilmiş rakamı; açıklanan %9,3); Temmuz-Eylül 2026 çeyreği %−15,7 (şirketin düzeltilmiş rakamı; açıklanan %25,9). Düzeltme: Tek seferlik kalemler hariç net kâr (şirketin kendi 'koufei' rakamı): dokuz ayda 28,788 milyar yuan, üçüncü çeyrekte 9,193 milyar yuan. Fark, borsaya açılan ChangXin (CXMT) yatırımının değer artışından ve kur korumasından gelen kazançlardan doğuyor; dokuz ayda tek seferlik kalemler net 12,605 milyar yuan. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %2,0.",
-    "en": "The formula gave growth of 4.0% a year. Latest figures (net profit, year on year): January-September 2026 −22.5% (the company's adjusted figure; reported 9.3%); July-September 2026 quarter −15.7% (the company's adjusted figure; reported 25.9%). Adjustment: Net profit excluding non-recurring items (the company's own figure): 28.788 billion yuan in nine months, 9.193 billion in the third quarter. The gap comes from fair-value gains on the investment in ChangXin (CXMT), which listed in the period, and from currency-hedging gains; non-recurring items were a net 12.605 billion yuan in nine months. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 2.0%."
+    "tr": "Formül yılda %4,0 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %−22,5 (şirketin düzeltilmiş rakamı; açıklanan %9,3); Temmuz-Eylül 2026 çeyreği %−15,7 (şirketin düzeltilmiş rakamı; açıklanan %25,9). Düzeltme: Tek seferlik kalemler hariç net kâr (şirketin kendi 'koufei' rakamı): dokuz ayda 28,788 milyar yuan, üçüncü çeyrekte 9,193 milyar yuan. Fark, şirketin 'olağan dışı' diye ayırdığı kalemlerden geliyor; en büyüğü finansal araçların değer artışı ve yatırım geliri (dokuz ayda 14,417 milyar yuan). Dokuz ayda tek seferlik kalemler net 12,605 milyar yuan. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %2,0.",
+    "en": "The formula gave growth of 4.0% a year. Latest figures (net profit, year on year): January-September 2026 −22.5% (the company's adjusted figure; reported 9.3%); July-September 2026 quarter −15.7% (the company's adjusted figure; reported 25.9%). Adjustment: Net profit excluding non-recurring items (the company's own figure): 28.788 billion yuan in nine months, 9.193 billion in the third quarter. The gap comes from the items the company itself classes as non-recurring; the largest is fair-value changes and investment income on financial instruments (14.417 billion yuan in nine months). Non-recurring items were a net 12.605 billion yuan in nine months. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 2.0%."
    },
    "per": "2026-Q3"
   },
@@ -626,7 +621,7 @@
    {
     "t": "Kazanç yargısının kaynağı",
     "te": "Source for the earnings judgment",
-    "u": "https://wap.stockstar.com/detail/SN2026101600031849"
+    "u": "https://static.cninfo.com.cn/finalpage/2026-10-17/1225607861.PDF"
    }
   ],
   "en": {

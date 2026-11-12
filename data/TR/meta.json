@@ -36,7 +36,8 @@
   "İş Yatırım tablosu F/K ve PD/DD'yi tek ondalıkla verir. Bu yüzden Türkiye'de güvenlik marjı birkaç puan oynayabilir; eşiğe çok yakın bir şirketin durumu küçük bir fiyat değişikliğiyle değişir.",
   "Beş yıllık oranlar: stockanalysis.com, 11 Kasım 2026'da okundu. Bazı sayfalar son çeyreği henüz içermiyor; her şirketin yanında sayfanın kendi güncelleme tarihi tutulur.",
   "Haberler ve bilanço özetleri: Kasım 2026'nın ilk on gününde yayımlanan kaynaklar. Her şirket sayfasının altında bağlantıları var.",
-  "4. surun büyüme hızı için geçmiş kâr eğilimi, enflasyon muhasebesi uygulayan şirketlerde 2022'den sonrasına bakılarak hesaplanır. Kaynak her mali yılı bir sonraki yılın sonundaki parayla verir; rakamlar buna göre aynı yılın parasına çevrilir. 2022'den bu yana çoğu şirkette reel kâr gerilediği için büyüme hızı sıfır sayılır."
+  "4. surun büyüme hızı için geçmiş kâr eğilimi, enflasyon muhasebesi uygulayan şirketlerde 2022'den sonrasına bakılarak hesaplanır. Kaynak her mali yılı bir sonraki yılın sonundaki parayla verir; rakamlar buna göre aynı yılın parasına çevrilir. 2022'den bu yana çoğu şirkette reel kâr gerilediği için büyüme hızı sıfır sayılır.",
+  "İşlevsel para birimi TL olmayan şirket enflasyon muhasebesi uygulamaz (şimdilik Çelebi: avro). Özsermaye kârlılığı o para biriminin enflasyonuyla düzeltilir (avro bölgesi, Eurostat: 2021 %5,0; 2022 %9,2; 2023 %2,9; 2024 %2,4; 2025 %1,9; Eylül 2026 %3,8); TL'ye çevrilmiş kârın büyümesi ise TÜFE ile."
  ],
  "small_text": "Piyasa değeri 3 milyar TL'nin altında",
  "small_rule": "Piyasa değeri 3 milyar TL'nin altındaki şirketler dışarıda kalır.",
@@ -66,7 +67,7 @@
   "nom_codes": [
    "KTLEV"
   ],
-  "note": "İş Yatırım sektör adlarına göre: veh = varlık sepeti (1. surda elenir), fin = borç ve nakit testi uygulanmaz, nom = enflasyon muhasebesi uygulamıyor (kârlılığı TÜFE ile düzeltilir). fx = işlevsel para birimi TL olmayan ve bu yüzden enflasyon muhasebesi uygulamayan şirketler (kaynağıyla): büyüme hesabında kâr dizisi nominal sayılır ve TÜFE ile düzeltilir.",
+  "note": "İş Yatırım sektör adlarına göre: veh = varlık sepeti (1. surda elenir), fin = borç ve nakit testi uygulanmaz, nom = enflasyon muhasebesi uygulamıyor (kârlılığı TÜFE ile düzeltilir). fx = işlevsel para birimi TL olmayan ve bu yüzden enflasyon muhasebesi uygulamayan şirketler (kaynağıyla): büyüme hesabında kâr dizisi nominal sayılır ve TÜFE ile düzeltilir. ias29_ok = enflasyon muhasebesi uyguladığı şirketin kendi tablosundan doğrulanan kodlar (net parasal pozisyon kalemi dolu).",
   "fx": {
    "CLEBI": {
     "cur": "EUR",
@@ -74,7 +75,24 @@
     "en": "Functional currency is the euro; does not apply inflation accounting (financial statements of 30 September 2026, Note 2.1).",
     "u": "https://kap.org.tr/tr/api/file/download/4028328da17e515f01a1c1018ea40e93"
    }
-  }
+  },
+  "ias29_ok": [
+   "ASTOR",
+   "BIMAS",
+   "CCOLA",
+   "FONET",
+   "FROTO",
+   "GEDIK",
+   "GRSEL",
+   "ISMEN",
+   "MAVI",
+   "MPARK",
+   "ORGE",
+   "PCILT",
+   "TBORG",
+   "TEHOL",
+   "TOASO"
+  ]
  },
  "en": {
   "name": "Türkiye",
@@ -86,12 +104,33 @@
    "İş Yatırım's table gives P/E and P/B to one decimal place. In Türkiye the margin of safety can therefore move by a few points; a company very close to the threshold can change status with a small move in price.",
    "Five-year ratios: stockanalysis.com, read on 11 November 2026. Some pages do not yet include the latest quarter; the page's own update date is kept with each company.",
    "News and earnings summaries: sources published in the first ten days of November 2026. Links are at the bottom of each company page.",
-   "For the growth rate at Wall 4, the past profit trend of companies that apply inflation accounting is calculated from 2022 onwards. The source states each fiscal year in the money of the following year-end; the figures are converted to the same year's money accordingly. Because real profit has fallen at most companies since 2022, their growth rate counts as zero."
+   "For the growth rate at Wall 4, the past profit trend of companies that apply inflation accounting is calculated from 2022 onwards. The source states each fiscal year in the money of the following year-end; the figures are converted to the same year's money accordingly. Because real profit has fallen at most companies since 2022, their growth rate counts as zero.",
+   "A company whose functional currency is not the lira does not apply inflation accounting (for now Çelebi: euro). Its return on equity is adjusted by that currency's inflation (euro area, Eurostat: 2021 5.0%; 2022 9.2%; 2023 2.9%; 2024 2.4%; 2025 1.9%; September 2026 3.8%); the growth of its profit translated into lira is adjusted by Turkish consumer inflation."
   ],
   "small_text": "Market value below 3 billion TRY",
   "small_rule": "Companies with a market value below 3 billion TRY are left out.",
   "era_label": "since 2023",
   "chart_note": "Return on equity (%). The lighter 2021 and 2022 bars are nominal figures from before inflation accounting; comparison is meaningful from 2023 onwards.",
-  "chart_note_nominal": "Return on equity (%), adjusted for inflation. This company does not apply inflation accounting; the figures were adjusted by annual consumer inflation."
- }
+  "chart_note_nominal": "Return on equity (%), adjusted for inflation. This company does not apply inflation accounting; the figures were adjusted by annual consumer inflation.",
+  "chart_note_fx": "Return on equity (%), adjusted for inflation. This company's functional currency is the euro and it does not apply inflation accounting; the figures were adjusted by annual euro-area inflation."
+ },
+ "fx_cpi": {
+  "EUR": {
+   "2021": 5.0,
+   "2022": 9.2,
+   "2023": 2.9,
+   "2024": 2.4,
+   "2025": 1.9,
+   "cur": 3.8,
+   "note": "Avro bölgesi HICP, yıllık değişim: aralık ayları; cur = Eylül 2026 (Eurostat, 16 Ekim 2026).",
+   "sources": [
+    "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/-/2-20012022-ap",
+    "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-17012024-ap",
+    "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-19012026-ap",
+    "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-07012026-ap",
+    "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-16102026-ap"
+   ]
+  }
+ },
+ "chart_note_fx": "Özsermaye kârlılığı (%), enflasyondan arındırılmış. Bu şirketin işlevsel para birimi avro ve enflasyon muhasebesi uygulamıyor; rakamlar avro bölgesinin yıllık enflasyonuyla düzeltildi."
 }

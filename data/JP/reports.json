@@ -550,9 +550,9 @@
     "u": "https://www2.jpx.co.jp/disc/60830/140120260713591776.pdf"
    },
    {
-    "t": "Büyüme yargısının kaynağı: Haziran-Ağustos 2026 çeyreği",
-    "te": "Source for the growth judgment: June-August 2026 quarter",
-    "u": "https://japanir.jp/wp-content/uploads/2026/09/6083-20260930-01.pdf"
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://www2.jpx.co.jp/disc/60830/140120260928540983.pdf"
    }
   ],
   "en": {
@@ -1017,9 +1017,9 @@
     "u": "https://www.kabutore.biz/genzaikabuka/okabunushi7792.html"
    },
    {
-    "t": "Büyüme yargısının kaynağı: Eylül 2026 yılı (net kâr)",
-    "te": "Source for the growth judgment: year to September 2026 (net profit)",
-    "u": "https://japanir.jp/wp-content/uploads/2026/11/7792-20261106-01.pdf"
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://www2.jpx.co.jp/disc/77920/140120261105565997.pdf"
    }
   ],
   "en": {
@@ -1295,6 +1295,11 @@
     "t": "ChemXplore: Chugai emugrobart'ın obezitede geliştirilmesini durdurdu (28 Eylül 2026)",
     "te": "ChemXplore: Chugai halts obesity development of emugrobart (28 September 2026)",
     "u": "https://chemxplore.com/news/chugai-discontinues-gym329-obesity-development"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://www2.jpx.co.jp/disc/45190/140120261026556449.pdf"
    }
   ],
   "en": {
@@ -1394,19 +1399,9 @@
     "u": "https://envalith.com/en/companies/5803/segments"
    },
    {
-    "t": "Büyüme yargısının kaynağı: Nisan-Eylül 2026",
-    "te": "Source for the growth judgment: April-September 2026",
-    "u": "https://s.kabutan.jp/news/k202611100051/"
-   },
-   {
     "t": "Kazanç yargısının kaynağı",
     "te": "Source for the earnings judgment",
-    "u": "https://japanir.jp/wp-content/uploads/2026/11/5803-20261110-02.pdf"
-   },
-   {
-    "t": "Kazanç yargısının kaynağı",
-    "te": "Source for the earnings judgment",
-    "u": "https://japanir.jp/wp-content/uploads/2026/11/5803-20261110-01.pdf"
+    "u": "https://www2.jpx.co.jp/disc/58030/140120261109569418.pdf"
    }
   ],
   "en": {
@@ -1509,6 +1504,11 @@
     "t": "Recruit Holdings: hisse geri alım durumu (2 Kas 2026)",
     "te": "Recruit Holdings: status of share repurchases (2 Nov 2026)",
     "u": "https://recruit-holdings.com/en/newsroom/20261102_0001/"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://recruit-holdings.com/en/ir/library/upload/Recruit_202703Q2_summary_en.html"
    }
   ],
   "en": {
@@ -1733,6 +1733,11 @@
     "t": "Kazanç yargısının kaynağı",
     "te": "Source for the earnings judgment",
     "u": "https://www.hoya.com/wp-content/uploads/2026/04/FY25-Q3-FAQ-en-1.pdf"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: HOYA, ABD'li vitreus cerrahisi aletleri üreticisi MID Labs'in tamamını Bausch + ",
+    "te": "Source for the growth judgment: HOYA is selling all of MID Labs, a US maker of vitreous surgery instruments, to ",
+    "u": "https://www2.jpx.co.jp/disc/77410/140120261009548466.pdf"
    }
   ],
   "en": {
@@ -1830,11 +1835,6 @@
     "t": "Shared Research: Tokyo Electron raporu, pazar payı (Ekim 2026)",
     "te": "Shared Research: Tokyo Electron report, market share (October 2026)",
     "u": "https://sharedresearch.jp/en/companies/8035/report/6a55ddd098e91022dd71a1ee"
-   },
-   {
-    "t": "Büyüme yargısının kaynağı: Mart 2027 yılı için şirket tahmini",
-    "te": "Source for the growth judgment: company forecast for the year to March 2027",
-    "u": "https://edinetdb.jp/company/E02652/earnings/FY2027-Q2"
    },
    {
     "t": "Kazanç yargısının kaynağı",

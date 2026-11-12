@@ -81,11 +81,12 @@
   "unit": "crore INR (10 million rupees)",
   "eps_cur": "INR",
   "ttm": {
-   "eps": 67.51,
-   "net_profit": 18322,
+   "eps": 67.56,
+   "net_profit": 18320,
    "tr": "Ekim 2025 - Eylül 2026 (dört çeyrek)",
    "en": "October 2025 - September 2026 (four quarters)",
-   "url": "https://www.screener.in/company/HCLTECH/consolidated/"
+   "url": "https://nsearchives.nseindia.com/corporate/HCLTECH_12102026170757_InvestorRelease_5.pdf",
+   "primary": true
   },
   "tax_rate": 24.7,
   "gains": [],

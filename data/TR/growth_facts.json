@@ -35,19 +35,19 @@
    "prev_val": "3802.1",
    "unit": "milyon TL / million TL",
    "date": "2026-11-05",
-   "url": "https://www.cnbce.com/sirket-bilancolari/tofastan-toaso-beklentileri-asan-3ceyrek-bilancosu-iste-detaylar-h41136",
-   "primary": false
+   "url": "https://kap.org.tr/tr/api/BildirimPdf/1693478",
+   "primary": true
   },
   "quarter": {
    "tr": "Temmuz-Eylül 2026 çeyreği",
    "en": "July-September 2026 quarter",
-   "pct": 175.9,
+   "pct": 176.3,
    "cur_val": "4331.8",
-   "prev_val": "1570 (yuvarlanmış / rounded)",
+   "prev_val": "1567.6",
    "unit": "milyon TL / million TL",
    "date": "2026-11-05",
-   "url": "https://www.foreks.com/haber/detay/6aecc17195131d72027d7c26/PICNEWS/tr/tofas-2026-satis-ihracat-ve-uretim-beklentilerini-dusurdu-05-11-26/",
-   "primary": false
+   "url": "https://kap.org.tr/tr/api/BildirimPdf/1693478",
+   "primary": true
   },
   "guidance": null,
   "adjusted": null,
@@ -107,22 +107,22 @@
    "en": "January-September 2026",
    "pct": 5.05,
    "cur_val": "5553.5",
-   "prev_val": null,
+   "prev_val": "5286.3",
    "unit": "milyon TL / million TL",
-   "date": "2026-11-05",
-   "url": "https://www.yatirimx.com.tr/sirket-haberleri/mlp-saglik-9-ayda-555-milyar-tl-net-kr-acikladi/27732",
-   "primary": false
+   "date": "2026-11-04",
+   "url": "https://kap.org.tr/tr/api/BildirimPdf/1692568",
+   "primary": true
   },
   "quarter": {
    "tr": "Temmuz-Eylül 2026 çeyreği",
    "en": "July-September 2026 quarter",
-   "pct": 6.0,
+   "pct": 5.9,
    "cur_val": "2225",
-   "prev_val": "yaklaşık 2100 / about 2100",
+   "prev_val": "2100.2",
    "unit": "milyon TL / million TL",
-   "date": "2026-11-05",
-   "url": "https://www.foreks.com/haber/detay/6aec15164b1852391445c1f3/FRKS/tr/hisse-degerlendirmesi-fiba-yatirim-mlp-saglik-icin-hedef-fiyatini-728-50-tl-ve-tavsiyesini-endeksin-uzerinde-getiri-olarak-korudu-05-11-26/",
-   "primary": false
+   "date": "2026-11-04",
+   "url": "https://kap.org.tr/tr/api/BildirimPdf/1692568",
+   "primary": true
   },
   "guidance": null,
   "adjusted": null,
@@ -144,8 +144,8 @@
    "prev_val": "18246",
    "unit": "milyon TL / million TL",
    "date": "2026-11-03",
-   "url": "https://www.yatirimx.com.tr/sirket-haberleri/coca-cola-icecek-9-aylik-bilancosunu-acikladi-net-kr-224-milyar-tl/27613",
-   "primary": false
+   "url": "https://kap.org.tr/tr/api/BildirimPdf/1691889",
+   "primary": true
   },
   "quarter": {
    "tr": "Temmuz-Eylül 2026 çeyreği",
@@ -155,8 +155,8 @@
    "prev_val": "9316",
    "unit": "milyon TL / million TL",
    "date": "2026-11-03",
-   "url": "https://www.yatirimx.com.tr/sirket-haberleri/coca-cola-icecek-9-aylik-bilancosunu-acikladi-net-kr-224-milyar-tl/27613",
-   "primary": false
+   "url": "https://kap.org.tr/tr/api/BildirimPdf/1691889",
+   "primary": true
   },
   "guidance": null,
   "adjusted": null,
@@ -178,8 +178,8 @@
    "prev_val": "14599",
    "unit": "milyon TL / million TL",
    "date": "2026-11-09",
-   "url": "https://arastirma.isyatirim.com.tr/2026/11/10/bimas-is-bim-3c-2026-kar-analizi/",
-   "primary": false
+   "url": "https://kap.org.tr/tr/api/BildirimPdf/1695704",
+   "primary": true
   },
   "quarter": {
    "tr": "Temmuz-Eylül 2026 çeyreği",
@@ -189,8 +189,8 @@
    "prev_val": "6843",
    "unit": "milyon TL / million TL",
    "date": "2026-11-09",
-   "url": "https://arastirma.isyatirim.com.tr/2026/11/10/bimas-is-bim-3c-2026-kar-analizi/",
-   "primary": false
+   "url": "https://kap.org.tr/tr/api/BildirimPdf/1695704",
+   "primary": true
   },
   "guidance": null,
   "adjusted": null,
