@@ -6,7 +6,7 @@
  "exchange": "Hindistan Ulusal Borsası (NSE) ve Bombay Borsası (BSE)",
  "cur": "INR",
  "asof": "2026-11-12",
- "fx": 93.95,
+ "fx": 94.033,
  "mcapMin": 6000,
  "years": [
   "2021",
@@ -21,7 +21,7 @@
   "2023": 5.69,
   "2024": 5.22,
   "2025": 1.33,
-  "cur": 5.54
+  "cur": 6.09
  },
  "deflate": "all",
  "inflation_note": "Hint şirketleri enflasyon muhasebesi uygulamaz. Bu yüzden bütün şirketlerin özsermaye kârlılığı yıl sonu tüketici enflasyonuyla düzeltildi: 2021 için %5,66, 2022 için %5,72, 2023 için %5,69, 2024 için %5,22, 2025 için %1,33. Son 12 ay için en son açıklanan yıllık oran (Eylül 2026, %5,54) kullanıldı.",

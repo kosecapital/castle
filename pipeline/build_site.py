@@ -8,7 +8,10 @@ Girdi : data/<CC>/{meta,core,geo}.json (önce funnel.py ve geo.mjs çalışmış
 
 Kullanım: python3 pipeline/build_site.py
 """
-import json, os, shutil, datetime
+import json, os, shutil, datetime, sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import funnel  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 J = lambda *p: os.path.join(ROOT, *p)
@@ -33,10 +36,7 @@ def kale_list(core):
         if u["e"] != 4:
             continue
         l, s = core["L2"][u["c"]], core["R"][u["c"]]["scores"]
-        cand = [x for x in (u["rr"] if u["nom"] else u["roe"], l["rroe"][-2], l["rroe"][-1]) if x is not None]
-        pen = u["pb"] / (min(cand) / 100.0)
-        fair = 100.0 / (P["r"] - (P["gWide"] if s["B"] >= 3 else P["gNarrow"]))
-        if (1 - pen / fair) * 100 >= P["mos"]:
+        if funnel.price_test(P, u, l, s["B"] >= 3)["mos"] >= P["mos"]:
             out.append(u["c"])
     return out
 

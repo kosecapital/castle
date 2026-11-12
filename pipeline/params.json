@@ -7,5 +7,7 @@
   "r": 10.0,
   "mos": 25.0,
   "gWide": 3.0,
-  "gNarrow": 1.5
+  "gNarrow": 1.5,
+  "gCap": 15.0,
+  "gYears": 10
 }

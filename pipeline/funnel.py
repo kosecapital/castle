@@ -10,7 +10,7 @@ Kullanım: python3 pipeline/funnel.py TR
 Kurallar pipeline/params.json içindedir; ülkeye özgü ayarlar meta.json içindedir.
 Bu betik yalnızca hesap yapar; internete çıkmaz.
 """
-import json, os, sys, collections
+import math, json, os, sys, collections
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -56,6 +56,70 @@ def arm_ratio(fa, nd, per):
         return None
     ebitda = a / nd - o
     return x / ebitda if ebitda > 0 else None
+
+
+def fair_value(P, roe_n, g, dy, wide):
+    """4. sur: adil F/K (temkinli kazancın katı). İki ölçü birden; adil olan ikisinin düşüğüdür. Sayfadaki val() ile aynı hesap.
+    İNA: iki aşamalı indirgenmiş nakit akışı. İlk gYears yıl şirketin büyüme hızı g, sonra hendek sınıfının kalıcı büyümesi. Her yıl ortağa
+         kalan nakit = kâr × (1 − büyüme ÷ özsermaye kârlılığı): büyümeyi finanse eden kâr nakit sayılmaz. İskonto: reel getiri eşiği r.
+    PEG: adil F/K = reel büyüme hızı (%) + temettü verimi (%)."""
+    r, gt, n = P["r"] / 100.0, (P["gWide"] if wide else P["gNarrow"]) / 100.0, int(P["gYears"])
+    g = max(0.0, min(g or 0.0, P["gCap"], roe_n)) / 100.0
+    roe = roe_n / 100.0
+    q = (1 + g) / (1 + r)
+    stage1 = (1 - g / roe) / (1 + r) * sum(q ** t for t in range(n))
+    stage2 = (1 + g) ** (n - 1) * (1 + gt) * (1 - gt / roe) / max(0.005, r - gt) / (1 + r) ** n
+    dcf = max(0.01, stage1 + stage2)
+    peg = max(0.01, g * 100.0 + max(0.0, dy or 0.0))
+    return dict(dcf=dcf, peg=peg, fair=min(dcf, peg), by="dcf" if dcf <= peg else "peg")
+
+
+def roe_cons(u, l):
+    """Temkinli özsermaye kârlılığı: son 12 ay ve son iki mali yıl okumasının en düşüğü (reel)."""
+    return min(x for x in (u["rr"] if u["nom"] else u["roe"], l["rroe"][-2], l["rroe"][-1]) if x is not None)
+
+
+def price_test(P, u, l, wide):
+    """Bir şirketin fiyat testi: temkinli F/K, adil F/K (İNA ve PEG), güvenlik marjı."""
+    roe_n = roe_cons(u, l)
+    pen = u["pb"] / (roe_n / 100.0)
+    fv = fair_value(P, roe_n, l.get("g"), l.get("dy"), wide)
+    return dict(fv, roe_n=roe_n, pen=pen, mos=(1 - pen / fv["fair"]) * 100)
+
+
+def growth(h, labs, cpi_of, roe_n, ias29, P, first=None):
+    """Şirketin büyüme hızı (reel, %): geçmiş ile sürdürülebilir olanın düşüğü, 0 ile gCap arasında.
+    Geçmiş (gh): son beş mali yılın reel hisse başına kâr eğilimi. Net kâr = piyasa değeri ÷ F/K (oran sayfası); pay sayısındaki değişim
+        "Buyback Yield / Dilution" satırından; her yıl o yılın tüketici enflasyonuyla düzeltilir; uçlara değil beş yılın eğilimine bakılır
+        (logaritmik doğrusal eğim, en az dört yıl). Enflasyon muhasebesi (TMS 29) uygulayan şirkette kaynak her mali yılı bir sonraki
+        yılın sonundaki parayla (ertesi yılın raporundaki karşılaştırmalı sütun), son mali yılı ise kendi yıl sonu parasıyla verir
+        (Ford Otosan'da 2023 ve 2024 rakamlarıyla doğrulandı); düzeltme buna göre yapılır ve yalnız `first` yılından sonrası kullanılır.
+    Sürdürülebilir (gs): temkinli özsermaye kârlılığı × dağıtılmayan kâr oranı (dağıtım oranı: eldeki mali yılların ortancası).
+    Döner: (kullanılan, gh, gs, dağıtım oranı)."""
+    pos = sorted(x for x in (h.get("pos") or [])[:5] if x is not None)
+    po = pos[len(pos) // 2] if pos else h.get("po")
+    po = max(0.0, min(100.0, po or 0.0))
+    gs = roe_n * (1 - po / 100.0)
+    gh = None
+    mc, pes, bb = h.get("mc"), h.get("pes"), h.get("bb") or [None] * 6
+    if mc and pes:
+        cum = [1.0]
+        for i in range(1, 5):
+            cum.append(cum[-1] * (1 + (cpi_of(labs[i]) or 0.0) / 100.0))
+        pts, sh = [], 1.0
+        for i in range(5):
+            if i:
+                sh *= 1 - (bb[i] or 0.0) / 100.0
+            if ias29 and first and labs[i] < first:
+                continue
+            idx = cum[min(i + 1, 4)] if ias29 else cum[i]
+            if mc[i] and pes[i] and pes[i] > 0:
+                pts.append((i, math.log(mc[i] / pes[i] / sh / idx)))
+        if len(pts) >= 4:
+            mx, my = sum(x for x, _ in pts) / len(pts), sum(y for _, y in pts) / len(pts)
+            gh = (math.exp(sum((x - mx) * (y - my) for x, y in pts) / sum((x - mx) ** 2 for x, _ in pts)) - 1) * 100
+    g = max(0.0, min(gs if gh is None else min(gh, gs), P["gCap"]))
+    return g, gh, gs, po
 
 
 def run(cc):
@@ -166,6 +230,10 @@ def run(cc):
                 L2[c] = dict(asof=h.get("asof"), stale=h.get("stale", 0), roe=roe6, rroe=[rnd(v, 2) for v in rroe6],
                              roic=h.get("roic"), fcf=h["fcf"], nd=nd, pe=h.get("pe"), pb=h.get("pb"), dy=h.get("dy"), po=h.get("po"),
                              avg=rnd(avg), mn=rnd(mn), fails=fails, flags=flags, ok=0 if fails else 1)
+                roe_c = [x for x in (rr, rroe6[-2], rroe6[-1]) if x is not None]
+                if roe_c and min(roe_c) > 0:       # 4. surun büyüme hızı (fiyat testi ve ön hesap için)
+                    g, gh, gs, gpo = growth(h, labs, cpi_of, min(roe_c), not defl, P, str(int(min(era_years)) - 1) if (era_explicit and era_years) else None)
+                    L2[c].update(g=rnd(g, 2), gh=rnd(gh, 2), gs=rnd(gs, 2), gpo=rnd(gpo))
                 if labs[:5] != years:
                     L2[c]["fy"] = labs[:5]
                 if h.get("url"):
@@ -219,13 +287,10 @@ def run(cc):
         if u["e"] != 4:
             continue
         l, s = L2[c], R[c]["scores"]
-        cand = [x for x in (u["rr"] if u["nom"] else u["roe"], l["rroe"][-2], l["rroe"][-1]) if x is not None]
-        roe_n = min(cand)
-        pen = u["pb"] / (roe_n / 100.0)
-        g = P["gWide"] if s["B"] >= 3 else P["gNarrow"]
-        fair = 100.0 / (P["r"] - g)
-        mos = (1 - pen / fair) * 100
-        print(f"   {c:8} temkinli ROE {roe_n:5.1f} | temkinli F/K {pen:5.1f} | adil {fair:4.1f} | marj {mos:6.1f}% | "
+        t = price_test(P, u, l, s["B"] >= 3)
+        roe_n, pen, fair, mos = t["roe_n"], t["pen"], t["fair"], t["mos"]
+        print(f"   {c:8} temkinli ROE {roe_n:5.1f} | büyüme {l.get('g')} (geçmiş {l.get('gh')}, sürdürülebilir {l.get('gs')}) | temkinli F/K {pen:5.1f} | "
+              f"adil İNA {t['dcf']:4.1f} PEG {t['peg']:4.1f} | marj {mos:6.1f}% | "
               f"alım eşiği {u['p'] * fair * (1 - P['mos'] / 100) / pen:9.2f} | fiyat {u['p']} -> {'KALE' if mos >= P['mos'] else 'BEKLEME'}")
     return out
 
