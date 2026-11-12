@@ -1,45 +1,200 @@
 {
  "cc": "IN",
- "fetched": "2026-11-11T23:30:08Z",
+ "fetched": "2026-11-12T08:57:55Z",
  "errors": [],
+ "pb_fix": {
+  "paths": {
+   "cur": {
+    "n": 2998,
+    "med": 0.9985,
+    "within10": 99.0,
+    "ok": true
+   },
+   "bvc": {
+    "n": 2998,
+    "med": 1.0,
+    "within10": 100.0,
+    "ok": true
+   },
+   "bvq": {
+    "n": 2998,
+    "med": 1.0,
+    "within10": 100.0,
+    "ok": true
+   },
+   "eq": {
+    "n": 2999,
+    "med": 0.9879,
+    "within10": 89.2,
+    "ok": true
+   },
+   "bvh": {
+    "n": 711,
+    "med": 1.0,
+    "within10": 98.5,
+    "ok": true
+   },
+   "bvy": {
+    "n": 2912,
+    "med": 1.0407,
+    "within10": 73.8,
+    "ok": true
+   },
+   "eqy": {
+    "n": 2969,
+    "med": 1.0322,
+    "within10": 69.4,
+    "ok": true
+   }
+  },
+  "counts": {
+   "cur": 1397,
+   "eq": 12,
+   "sa": 10,
+   "bvy": 5,
+   "eqy": 43
+  },
+  "neg": 217,
+  "nodata": 164,
+  "sa_asked": 10,
+  "sa_pages": 10,
+  "sa_reused": 0,
+  "sa_failed": 0,
+  "sa_blocked": false,
+  "missing_pct": 0.0,
+  "nodata_top": [
+   "LORDSMARK",
+   "RUNWALENTR",
+   "AONESTEELS",
+   "SPICEJET",
+   "SWARAJ",
+   "MKJEWELS",
+   "JAYTEX",
+   "JSIPL",
+   "DCMSIL",
+   "REGENCY",
+   "ACSTECH",
+   "BCSSL",
+   "PSTITANIA",
+   "SCAGRO",
+   "PHCAP"
+  ],
+  "fixed_top": [
+   [
+    "HAL",
+    8.065,
+    "cur"
+   ],
+   [
+    "GRASIM",
+    2.069,
+    "cur"
+   ],
+   [
+    "EICHERMOT",
+    8.297,
+    "cur"
+   ],
+   [
+    "VBL",
+    6.737,
+    "cur"
+   ],
+   [
+    "POWERINDIA",
+    25.059,
+    "cur"
+   ],
+   [
+    "TATAPOWER",
+    2.775,
+    "cur"
+   ],
+   [
+    "TMPV",
+    0.983,
+    "cur"
+   ],
+   [
+    "ASHOKLEY",
+    7.172,
+    "cur"
+   ],
+   [
+    "ENRIN",
+    21.924,
+    "cur"
+   ],
+   [
+    "MANIPALHOS",
+    9.833,
+    "cur"
+   ],
+   [
+    "OIL",
+    1.25,
+    "cur"
+   ],
+   [
+    "ALKEM",
+    4.713,
+    "cur"
+   ],
+   [
+    "INDOMIM",
+    22.094,
+    "cur"
+   ],
+   [
+    "NMDC",
+    1.851,
+    "cur"
+   ],
+   [
+    "SCHAEFFLER",
+    9.023,
+    "cur"
+   ]
+  ]
+ },
  "source": "TradingView tarayıcısı",
  "market": "india",
- "total": 5477,
- "kept": 4851,
+ "total": 5471,
+ "kept": 4848,
  "excluded": {
-  "fiyat ya da piyasa değeri yok": 626
+  "fiyat ya da piyasa değeri yok": 623
  },
  "mcap_check": {
   "tutarlı": 4739,
-  "pay sayısı yok": 95,
-  "pay sayısıyla tutmuyor": 17
+  "pay sayısı yok": 94,
+  "pay sayısıyla tutmuyor": 15
  },
  "cur": "INR",
  "pcur": "INR",
  "exchanges": {
-  "NSE": 3173,
-  "BSE": 1678
+  "NSE": 3171,
+  "BSE": 1677
  },
  "periods": {
   "2026-Q2": 2263,
-  "2026-Q1": 1597,
-  "2025-H2": 432,
-  "2026-H1": 353,
-  "None": 154,
+  "2026-Q1": 1595,
+  "2025-H2": 433,
+  "2026-H1": 352,
+  "None": 153,
   "2025-Q4": 34
  },
  "pe_fix": {
-  "eps_n": 3587,
+  "eps_n": 3586,
   "eps_med": 1.0,
   "eps_within5": 100.0,
-  "roe_n": 2327,
-  "roe_med": 1.0647,
+  "roe_n": 2326,
+  "roe_med": 1.0648,
   "roe_within25": 91.3,
   "roe_scale": 1.0,
   "eps_ok": true,
   "counts": {
-   "nodata": 351,
-   "loss": 816,
+   "nodata": 350,
+   "loss": 815,
    "roe": 96,
    "eps": 5
   },
@@ -63,72 +218,72 @@
   "fixed_top": [
    [
     "EDELALTS",
-    40.17,
+    42.19,
     "roe"
    ],
    [
     "HDFIRE",
-    49.26,
+    51.42,
     "roe"
    ],
    [
     "AIMTRON",
-    67.88,
+    66.72,
     "eps"
    ],
    [
     "SFCTECH",
-    26.1,
+    26.95,
     "roe"
    ],
    [
     "ORIENTCABL",
-    62.52,
+    63.15,
     "roe"
    ],
    [
     "MILLWORKS",
-    30.53,
+    29.61,
     "roe"
    ],
    [
     "BLSPOLY",
-    34.01,
+    33.43,
     "roe"
    ],
    [
     "HYPERSOFT",
-    106.96,
+    108.42,
     "eps"
    ],
    [
     "MRTX",
-    30.3,
+    31.35,
     "roe"
    ],
    [
     "TIPCO",
-    15.95,
+    15.76,
     "roe"
    ],
    [
     "SJLOGISTIC",
-    6.56,
+    6.96,
     "roe"
    ],
    [
     "BRAHMINFRA",
-    7.63,
+    7.7,
     "eps"
    ],
    [
     "RAKSAN",
-    11.49,
+    11.9,
     "roe"
    ],
    [
     "VPAL",
-    29.0,
+    28.76,
     "roe"
    ],
    [
@@ -138,59 +293,59 @@
    ]
   ]
  },
- "pe_filled_pct": 75.9,
+ "pe_filled_pct": 76.0,
  "top5": [
   {
    "c": "RELIANCE",
    "n": "Reliance Industries Limited",
-   "p": 1335.4,
+   "p": 1334.4,
    "m": 17915728.8,
-   "pe": 22.01,
-   "pb": 1.914,
+   "pe": 21.99,
+   "pb": 1.912,
    "per": "2026-Q2"
   },
   {
    "c": "JPL",
    "n": "Jio Platforms Limited",
-   "p": 1403.5,
+   "p": 1398.6,
    "m": 13004993.5,
    "pe": null,
-   "pb": 3.669,
+   "pb": 3.656,
    "per": "2026-Q2"
   },
   {
    "c": "BHARTIARTL",
    "n": "Bharti Airtel Limited",
-   "p": 2109,
+   "p": 2083.5,
    "m": 12879719.6,
-   "pe": 41.98,
-   "pb": 8.326,
+   "pe": 41.47,
+   "pb": 8.225,
    "per": "2026-Q2"
   },
   {
    "c": "HDFCBANK",
    "n": "HDFC Bank Limited",
-   "p": 806.6,
+   "p": 810.95,
    "m": 12285646.5,
-   "pe": 15.55,
-   "pb": 2.044,
+   "pe": 15.63,
+   "pb": 2.055,
    "per": "2026-Q2"
   },
   {
    "c": "ICICIBANK",
    "n": "ICICI Bank Limited",
-   "p": 1571.6,
+   "p": 1589,
    "m": 11382183.0,
-   "pe": 19.3,
-   "pb": 2.889,
+   "pe": 19.51,
+   "pb": 2.921,
    "per": "2026-Q2"
   }
  ],
  "history": {
-  "candidates": 381,
-  "have": 345,
-  "fetched": 345,
-  "kept": 0,
+  "candidates": 506,
+  "have": 463,
+  "fetched": 117,
+  "kept": 346,
   "no_mapping": 0,
   "failed": [
    [
@@ -218,7 +373,15 @@
     404
    ],
    [
+    "AXISOL",
+    404
+   ],
+   [
     "AMIC",
+    404
+   ],
+   [
+    "MODINSU",
     404
    ],
    [
@@ -246,11 +409,19 @@
     404
    ],
    [
+    "KELENRG",
+    404
+   ],
+   [
     "MILLWORKS",
     404
    ],
    [
     "SVRL",
+    404
+   ],
+   [
+    "KSSMART",
     404
    ],
    [
@@ -263,6 +434,10 @@
    ],
    [
     "ROBU",
+    404
+   ],
+   [
+    "ADCINDIA",
     404
    ],
    [
@@ -334,13 +509,21 @@
     404
    ],
    [
+    "MAXGROW",
+    404
+   ],
+   [
+    "DANLAW",
+    404
+   ],
+   [
     "TIPCO",
     404
    ]
   ],
-  "failed_n": 36,
+  "failed_n": 43,
   "blocked": false,
-  "budget_left": 5309
+  "budget_left": 5677
  },
  "ok": true
 }

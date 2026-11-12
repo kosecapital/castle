@@ -439,6 +439,50 @@ null
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/ITC/financials/ratios/"
 },
+"HAL": {
+"asof": "2026-08-12",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+29.24,
+27.17,
+28.91,
+26.09,
+23.98,
+null
+],
+"roic": [
+53.14,
+95.53,
+180.39,
+null,
+null,
+null
+],
+"fcf": [
+18.88,
+8.81,
+3.28,
+4.55,
+4.04,
+2.85
+],
+"nd": -5.77,
+"pe": 34.88,
+"pb": 8.06,
+"dy": 0.93,
+"po": 32.29,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/HAL/financials/ratios/"
+},
 "JSWSTEEL": {
 "asof": "2026-10-23",
 "stale": 0,
@@ -834,6 +878,50 @@ null,
 "per": "2026-Q2",
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/TVSMOTOR/financials/ratios/"
+},
+"EICHERMOT": {
+"asof": "2026-07-29",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+13.94,
+21.12,
+24.22,
+24.07,
+23.77,
+null
+],
+"roic": [
+17.48,
+20.81,
+18.04,
+17.86,
+20.11,
+20.46
+],
+"fcf": [
+1.32,
+2.65,
+2.64,
+2.01,
+1.95,
+1.69
+],
+"nd": -0.96,
+"pe": 35.66,
+"pb": 8.34,
+"dy": 1.09,
+"po": 39.04,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/EICHERMOT/financials/ratios/"
 },
 "IOC": {
 "asof": "2026-10-30",
@@ -1495,6 +1583,50 @@ null
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/LTM/financials/ratios/"
 },
+"POWERINDIA": {
+"asof": "2026-08-07",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+null,
+8.0,
+12.72,
+13.78,
+21.04,
+null
+],
+"roic": [
+9.7,
+10.03,
+13.53,
+38.69,
+160.8,
+183.97
+],
+"fcf": [
+-1.58,
+-0.05,
+0.55,
+2.42,
+0.68,
+0.57
+],
+"nd": -3.09,
+"pe": 111.26,
+"pb": 25.06,
+"dy": 0.03,
+"po": 3.1,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/POWERINDIA/financials/ratios/"
+},
 "APOLLOHOSP": {
 "asof": "2026-11-04",
 "stale": 0,
@@ -1935,6 +2067,50 @@ null,
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/PFC/financials/ratios/"
 },
+"TMPV": {
+"asof": "2026-08-13",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+-21.16,
+5.12,
+43.06,
+17.56,
+-1.12,
+null
+],
+"roic": [
+1.54,
+5.73,
+23.53,
+13.93,
+2.63,
+1.53
+],
+"fcf": [
+3.4,
+17.34,
+15.11,
+19.31,
+-0.5,
+-0.49
+],
+"nd": 3.21,
+"pe": 1.38,
+"pb": 0.91,
+"dy": 1.01,
+"po": 1.39,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/TMPV/financials/ratios/"
+},
 "HEROMOTOCO": {
 "asof": "2026-10-28",
 "stale": 0,
@@ -2111,6 +2287,50 @@ null,
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/NYKAA/financials/ratios/"
 },
+"ASHOKLEY": {
+"asof": "2026-08-14",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+-3.22,
+14.02,
+23.85,
+24.46,
+21.64,
+null
+],
+"roic": [
+6.45,
+7.85,
+12.04,
+12.91,
+13.3,
+12.41
+],
+"fcf": [
+6.79,
+-13.28,
+-14.7,
+-2.53,
+-8.66,
+-7.66
+],
+"nd": 3.79,
+"pe": 29.3,
+"pb": 5.52,
+"dy": 2.02,
+"po": 59.12,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/ASHOKLEY/financials/ratios/"
+},
 "VEDL": {
 "asof": "2026-10-28",
 "stale": 0,
@@ -2198,6 +2418,50 @@ null,
 "per": "2026-Q2",
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/LLOYDSME/financials/ratios/"
+},
+"ENRIN": {
+"asof": "2026-08-06",
+"stale": 0,
+"fy": [
+null,
+null,
+null,
+"2024",
+"2025"
+],
+"roe": [
+null,
+null,
+null,
+null,
+28.96,
+null
+],
+"roic": [
+null,
+null,
+null,
+27.61,
+48.67,
+82.99
+],
+"fcf": [
+null,
+null,
+null,
+null,
+2.83,
+3.13
+],
+"nd": -1.54,
+"pe": 72.48,
+"pb": 21.92,
+"dy": 0.13,
+"po": null,
+"ttm": "2026-06-30",
+"per": "2026-Q3",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/ENRIN/financials/ratios/"
 },
 "INDUSTOWER": {
 "asof": "2026-10-27",
@@ -2771,6 +3035,50 @@ null
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/KALYANKJIL/financials/ratios/"
 },
+"NMDC": {
+"asof": "2026-08-14",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+39.34,
+27.56,
+23.07,
+23.59,
+23.36,
+null
+],
+"roic": [
+43.08,
+26.53,
+27.71,
+27.97,
+24.96,
+21.95
+],
+"fcf": [
+12.06,
+1.8,
+9.38,
+-2.21,
+2.72,
+2.9
+],
+"nd": -0.54,
+"pe": 8.48,
+"pb": 1.85,
+"dy": 4.87,
+"po": 41.27,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/NMDC/financials/ratios/"
+},
 "RADICO": {
 "asof": "2026-10-27",
 "stale": 0,
@@ -2990,6 +3298,50 @@ null
 "per": "2026-Q2",
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/ABBOTINDIA/financials/ratios/"
+},
+"SCHAEFFLER": {
+"asof": "2026-10-27",
+"stale": 0,
+"fy": [
+"2021",
+"2022",
+"2023",
+"2024",
+"2025"
+],
+"roe": [
+18.52,
+22.15,
+19.78,
+18.52,
+20.21,
+null
+],
+"roic": [
+27.18,
+31.55,
+26.66,
+23.26,
+25.03,
+25.6
+],
+"fcf": [
+1.02,
+0.62,
+0.73,
+0.18,
+1.36,
+1.0
+],
+"nd": -0.73,
+"pe": 42.19,
+"pb": 8.99,
+"dy": 0.99,
+"po": 41.67,
+"ttm": "2026-09-30",
+"per": "2026-Q3",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/SCHAEFFLER/financials/ratios/"
 },
 "BERGEPAINT": {
 "asof": "2026-11-05",
@@ -3299,6 +3651,50 @@ null
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/MPHASIS/financials/ratios/"
 },
+"CUPID": {
+"asof": "2026-11-11",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+12.66,
+20.42,
+17.02,
+12.71,
+27.3,
+35.9
+],
+"roic": [
+15.98,
+29.94,
+29.62,
+15.23,
+30.7,
+30.07
+],
+"fcf": [
+0.51,
+8.97,
+-0.53,
+-1.8,
+0.19,
+0.01
+],
+"nd": 0.49,
+"pe": 374.5,
+"pb": 85.21,
+"dy": null,
+"po": null,
+"ttm": "2026-09-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/CUPID/financials/ratios/"
+},
 "COLPAL": {
 "asof": "2026-10-23",
 "stale": 0,
@@ -3607,6 +4003,94 @@ null,
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/AJANTPHARM/financials/ratios/"
 },
+"HINDCOPPER": {
+"asof": "2026-11-11",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+24.93,
+14.8,
+13.52,
+18.81,
+30.6,
+40.86
+],
+"roic": [
+21.5,
+14.48,
+13.61,
+17.35,
+36.97,
+55.43
+],
+"fcf": [
+5.75,
+3.43,
+-0.72,
+0.58,
+2.31,
+3.23
+],
+"nd": -0.55,
+"pe": 38.33,
+"pb": 10.02,
+"dy": 0.64,
+"po": 16.03,
+"ttm": "2026-09-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/HINDCOPPER/financials/ratios/"
+},
+"PAGEIND": {
+"asof": "2026-08-13",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+54.37,
+46.45,
+38.36,
+48.54,
+52.5,
+null
+],
+"roic": [
+73.03,
+43.87,
+35.85,
+53.7,
+61.1,
+57.44
+],
+"fcf": [
+0.47,
+-0.4,
+2.56,
+2.36,
+1.94,
+1.68
+],
+"nd": -0.13,
+"pe": 53.63,
+"pb": 27.15,
+"dy": 1.51,
+"po": 88.54,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/PAGEIND/financials/ratios/"
+},
 "PREMIERENE": {
 "asof": "2026-11-04",
 "stale": 0,
@@ -3738,6 +4222,50 @@ null,
 "per": "2026-Q2",
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/NH/financials/ratios/"
+},
+"IRCTC": {
+"asof": "2026-08-12",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+39.66,
+46.26,
+38.93,
+38.15,
+34.96,
+null
+],
+"roic": [
+250.05,
+206.85,
+127.07,
+89.58,
+79.45,
+78.04
+],
+"fcf": [
+0.76,
+1.25,
+0.86,
+1.3,
+3.02,
+3.17
+],
+"nd": -1.68,
+"pe": 26.95,
+"pb": 8.76,
+"dy": 1.92,
+"po": 22.96,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/IRCTC/financials/ratios/"
 },
 "KARURVYSYA": {
 "asof": "2026-09-30",
@@ -3914,6 +4442,50 @@ null,
 "per": "2026-Q2",
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/LALPATHLAB/financials/ratios/"
+},
+"CRISIL": {
+"asof": "2026-10-23",
+"stale": 0,
+"fy": [
+"2021",
+"2022",
+"2023",
+"2024",
+"2025"
+],
+"roe": [
+32.23,
+33.49,
+33.08,
+28.78,
+27.37,
+null
+],
+"roic": [
+40.67,
+46.98,
+54.92,
+48.98,
+41.04,
+31.18
+],
+"fcf": [
+1.81,
+1.85,
+2.26,
+1.22,
+2.16,
+2.48
+],
+"nd": -0.49,
+"pe": 35.51,
+"pb": 9.74,
+"dy": 1.4,
+"po": 52.25,
+"ttm": "2026-09-30",
+"per": "2026-Q3",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/CRISIL/financials/ratios/"
 },
 "ACUTAAS": {
 "asof": "2026-10-27",
@@ -4575,6 +5147,50 @@ null,
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/GABRIEL/financials/ratios/"
 },
+"GRSE": {
+"asof": "2026-11-11",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+15.83,
+17.08,
+23.14,
+28.11,
+31.79,
+31.54
+],
+"roic": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"fcf": [
+-15.81,
+26.99,
+-8.62,
+-0.27,
+-1.62,
+-0.45
+],
+"nd": -3.64,
+"pe": 30.89,
+"pb": 8.76,
+"dy": 0.89,
+"po": 27.42,
+"ttm": "2026-09-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/GRSE/financials/ratios/"
+},
 "FORCEMOT": {
 "asof": "2026-10-28",
 "stale": 0,
@@ -4707,6 +5323,50 @@ null,
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/CEMPRO/financials/ratios/"
 },
+"GILLETTE": {
+"asof": "2026-07-30",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+35.07,
+38.45,
+42.01,
+null,
+66.44,
+null
+],
+"roic": [
+50.68,
+63.18,
+82.06,
+96.81,
+101.33,
+96.9
+],
+"fcf": [
+2.11,
+2.32,
+1.87,
+1.45,
+2.38,
+2.33
+],
+"nd": -0.28,
+"pe": 36.37,
+"pb": 25.54,
+"dy": 3.22,
+"po": 117.06,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/GILLETTE/financials/ratios/"
+},
 "HATSUN": {
 "asof": "2026-10-22",
 "stale": 0,
@@ -4750,6 +5410,50 @@ null,
 "per": "2026-Q2",
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/HATSUN/financials/ratios/"
+},
+"PGHH": {
+"asof": "2026-07-29",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+79.31,
+80.56,
+78.45,
+null,
+114.93,
+null
+],
+"roic": [
+612.55,
+null,
+336.25,
+299.11,
+360.36,
+398.85
+],
+"fcf": [
+1.2,
+1.68,
+0.79,
+1.64,
+2.89,
+3.72
+],
+"nd": -0.53,
+"pe": 29.34,
+"pb": 31.22,
+"dy": 3.57,
+"po": 104.68,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/PGHH/financials/ratios/"
 },
 "NETWEB": {
 "asof": "2026-10-24",
@@ -5147,6 +5851,50 @@ null
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/GESHIP/financials/ratios/"
 },
+"CAPLIPOINT": {
+"asof": "2026-08-12",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+22.74,
+22.06,
+21.69,
+20.68,
+19.94,
+null
+],
+"roic": [
+31.5,
+29.42,
+28.47,
+25.93,
+23.76,
+21.57
+],
+"fcf": [
+4.76,
+1.72,
+1.73,
+1.58,
+2.4,
+1.42
+],
+"nd": -1.26,
+"pe": 27.48,
+"pb": 5.35,
+"dy": 0.33,
+"po": 9.16,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/CAPLIPOINT/financials/ratios/"
+},
 "KAJARIACER": {
 "asof": "2026-10-24",
 "stale": 0,
@@ -5191,6 +5939,50 @@ null
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/KAJARIACER/financials/ratios/"
 },
+"CASTROLIND": {
+"asof": "2026-10-24",
+"stale": 0,
+"fy": [
+"2021",
+"2022",
+"2023",
+"2024",
+"2025"
+],
+"roe": [
+49.55,
+46.16,
+43.12,
+42.15,
+45.47,
+null
+],
+"roic": [
+268.57,
+142.44,
+98.04,
+94.86,
+111.42,
+90.82
+],
+"fcf": [
+4.5,
+6.62,
+4.26,
+4.88,
+5.22,
+4.47
+],
+"nd": -0.56,
+"pe": 18.63,
+"pb": 9.91,
+"dy": 6.04,
+"po": 112.48,
+"ttm": "2026-09-30",
+"per": "2026-Q3",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/CASTROLIND/financials/ratios/"
+},
 "IGIL": {
 "asof": "2026-10-21",
 "stale": 0,
@@ -5234,6 +6026,50 @@ null,
 "per": "2026-Q2",
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/IGIL/financials/ratios/"
+},
+"TDPOWERSYS": {
+"asof": "2026-10-12",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+14.13,
+17.11,
+18.07,
+22.3,
+24.72,
+28.47
+],
+"roic": [
+12.78,
+17.26,
+20.91,
+25.17,
+26.83,
+27.65
+],
+"fcf": [
+-0.03,
+2.94,
+1.31,
+-0.2,
+0.19,
+0.12
+],
+"nd": -0.33,
+"pe": 71.48,
+"pb": 18.68,
+"dy": 0.17,
+"po": 11.94,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/TDPOWERSYS/financials/ratios/"
 },
 "EMMVEE": {
 "asof": "2026-10-14",
@@ -5895,6 +6731,50 @@ null,
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/ASTRAZEN/financials/ratios/"
 },
+"TRITURBINE": {
+"asof": "2026-11-11",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+36.15,
+23.83,
+31.29,
+32.89,
+26.22,
+21.29
+],
+"roic": [
+57.84,
+153.96,
+216.97,
+159.41,
+67.97,
+27.86
+],
+"fcf": [
+6.39,
+1.48,
+1.4,
+0.8,
+0.28,
+0.57
+],
+"nd": -1.64,
+"pe": 47.28,
+"pb": 10.96,
+"dy": 0.85,
+"po": 45.27,
+"ttm": "2026-09-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/TRITURBINE/financials/ratios/"
+},
 "HONASA": {
 "asof": "2026-11-06",
 "stale": 0,
@@ -5982,6 +6862,50 @@ null,
 "per": "2026-Q2",
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/KFINTECH/financials/ratios/"
+},
+"TRAVELFOOD": {
+"asof": "2026-08-13",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+2.69,
+44.07,
+38.39,
+38.78,
+35.7,
+null
+],
+"roic": [
+3.36,
+58.07,
+36.21,
+44.91,
+52.09,
+46.69
+],
+"fcf": [
+null,
+null,
+null,
+null,
+2.13,
+2.26
+],
+"nd": -0.86,
+"pe": 33.27,
+"pb": 10.73,
+"dy": 0.85,
+"po": 28.42,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/TRAVELFOOD/financials/ratios/"
 },
 "BAYERCROP": {
 "asof": "2026-11-03",
@@ -6247,6 +7171,94 @@ null
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/SKYGOLD/financials/ratios/"
 },
+"BBOX": {
+"asof": "2026-08-12",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+31.14,
+8.52,
+35.44,
+33.04,
+21.27,
+null
+],
+"roic": [
+42.61,
+22.92,
+32.24,
+33.34,
+23.64,
+22.12
+],
+"fcf": [
+1.78,
+-5.49,
+2.08,
+-2.17,
+0.14,
+0.08
+],
+"nd": 1.0,
+"pe": 67.91,
+"pb": 12.1,
+"dy": 0.11,
+"po": 7.68,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/BBOX/financials/ratios/"
+},
+"SHREEJISPG": {
+"asof": "2026-08-14",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+null,
+58.17,
+43.61,
+50.63,
+29.87,
+null
+],
+"roic": [
+24.56,
+31.61,
+29.18,
+28.13,
+20.69,
+20.93
+],
+"fcf": [
+null,
+null,
+null,
+null,
+-1.19,
+-0.44
+],
+"nd": -0.57,
+"pe": 88.61,
+"pb": 18.63,
+"dy": 0.11,
+"po": 10.06,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/SHREEJISPG/financials/ratios/"
+},
 "ECLERX": {
 "asof": "2026-10-28",
 "stale": 0,
@@ -6334,6 +7346,50 @@ null
 "per": "2026-Q2",
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/SHAILY/financials/ratios/"
+},
+"ACE": {
+"asof": "2026-07-20",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+16.43,
+20.66,
+30.51,
+28.74,
+22.89,
+null
+],
+"roic": [
+17.42,
+22.44,
+39.86,
+36.4,
+27.47,
+26.52
+],
+"fcf": [
+1.93,
+4.14,
+1.52,
+1.28,
+3.64,
+2.34
+],
+"nd": -1.19,
+"pe": 32.18,
+"pb": 6.89,
+"dy": 0.17,
+"po": 5.45,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/ACE/financials/ratios/"
 },
 "SUDEEPPHRM": {
 "asof": "2026-10-28",
@@ -6642,6 +7698,94 @@ null
 "per": "2026-Q2",
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/PGIL/financials/ratios/"
+},
+"AVALON": {
+"asof": "2026-08-04",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+115.32,
+16.78,
+5.16,
+10.95,
+16.94,
+null
+],
+"roic": [
+17.73,
+15.88,
+5.66,
+10.26,
+14.18,
+15.46
+],
+"fcf": [
+null,
+null,
+-0.56,
+-0.42,
+0.06,
+0.03
+],
+"nd": 0.36,
+"pe": 105.91,
+"pb": 18.81,
+"dy": null,
+"po": null,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/AVALON/financials/ratios/"
+},
+"MANORAMA": {
+"asof": "2026-08-13",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+11.69,
+10.51,
+12.63,
+27.56,
+39.4,
+null
+],
+"roic": [
+8.05,
+9.31,
+9.55,
+17.14,
+27.25,
+28.27
+],
+"fcf": [
+-6.71,
+0.65,
+-8.09,
+-1.4,
+2.9,
+1.52
+],
+"nd": 0.69,
+"pe": 48.88,
+"pb": 18.82,
+"dy": 0.04,
+"po": 1.86,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/MANORAMA/financials/ratios/"
 },
 "SCI": {
 "asof": "2026-11-04",
@@ -7259,6 +8403,50 @@ null
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/IEX/financials/ratios/"
 },
+"VOLTAMP": {
+"asof": "2026-10-29",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+14.96,
+19.51,
+24.98,
+22.13,
+18.07,
+18.41
+],
+"roic": [
+12.31,
+18.36,
+20.9,
+19.54,
+16.62,
+15.82
+],
+"fcf": [
+1.27,
+3.16,
+2.01,
+2.2,
+0.17,
+0.09
+],
+"nd": -0.14,
+"pe": 30.58,
+"pb": 5.35,
+"dy": 1.02,
+"po": 31.28,
+"ttm": "2026-09-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/VOLTAMP/financials/ratios/"
+},
 "JAINREC": {
 "asof": "2026-11-03",
 "stale": 0,
@@ -7611,6 +8799,50 @@ null
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/BLS/financials/ratios/"
 },
+"MBAPL": {
+"asof": "2026-07-14",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+32.15,
+46.54,
+7.32,
+15.23,
+31.5,
+null
+],
+"roic": [
+21.45,
+27.22,
+5.6,
+10.54,
+16.34,
+13.27
+],
+"fcf": [
+-9.61,
+-5.63,
+2.01,
+-0.48,
+-13.04,
+-6.2
+],
+"nd": 3.48,
+"pe": 55.02,
+"pb": 15.42,
+"dy": 0.05,
+"po": 2.83,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/MBAPL/financials/ratios/"
+},
 "PNGJL": {
 "asof": "2026-10-29",
 "stale": 0,
@@ -7654,6 +8886,50 @@ null,
 "per": "2026-Q2",
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/PNGJL/financials/ratios/"
+},
+"BBTC": {
+"asof": "2026-08-13",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+11.39,
+-12.24,
+27.25,
+30.51,
+28.71,
+null
+],
+"roic": [
+12.72,
+-508.84,
+26.64,
+31.44,
+30.6,
+29.76
+],
+"fcf": [
+14.53,
+30.91,
+12.43,
+15.46,
+23.72,
+24.07
+],
+"nd": -0.22,
+"pe": 7.1,
+"pb": 0.95,
+"dy": 1.29,
+"po": 9.19,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/BBTC/financials/ratios/"
 },
 "APTUS": {
 "asof": "2026-11-04",
@@ -7830,6 +9106,50 @@ null,
 "per": "2026-Q2",
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/JAYNECOIND/financials/ratios/"
+},
+"GENUSPOWER": {
+"asof": "2026-08-13",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+6.17,
+2.99,
+6.28,
+17.8,
+29.0,
+null
+],
+"roic": [
+3.46,
+4.26,
+6.48,
+16.19,
+20.05,
+17.93
+],
+"fcf": [
+0.76,
+3.17,
+-3.52,
+-7.7,
+-8.65,
+-6.42
+],
+"nd": 1.57,
+"pe": 12.48,
+"pb": 3.62,
+"dy": 0.17,
+"po": 2.13,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/GENUSPOWER/financials/ratios/"
 },
 "TANLA": {
 "asof": "2026-10-27",
@@ -8051,6 +9371,50 @@ null,
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/KIRLPNU/financials/ratios/"
 },
+"SANOFICONR": {
+"asof": "2026-10-28",
+"stale": 0,
+"fy": [
+null,
+null,
+"2023",
+"2024",
+"2025"
+],
+"roe": [
+null,
+null,
+null,
+75.32,
+73.09,
+null
+],
+"roic": [
+null,
+null,
+118.81,
+null,
+663.27,
+null
+],
+"fcf": [
+null,
+null,
+null,
+3.78,
+1.61,
+3.26
+],
+"nd": -1.29,
+"pe": 28.87,
+"pb": 23.37,
+"dy": 2.14,
+"po": 61.76,
+"ttm": "2026-09-30",
+"per": "2026-Q3",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/SANOFICONR/financials/ratios/"
+},
 "ESABINDIA": {
 "asof": "2026-11-04",
 "stale": 0,
@@ -8138,6 +9502,50 @@ null,
 "per": "2026-Q2",
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/THYROCARE/financials/ratios/"
+},
+"PRECWIRE": {
+"asof": "2026-11-06",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+18.51,
+14.6,
+15.23,
+16.63,
+23.03,
+22.27
+],
+"roic": [
+24.63,
+18.59,
+20.89,
+21.44,
+26.23,
+25.1
+],
+"fcf": [
+3.64,
+3.61,
+0.46,
+2.76,
+-0.39,
+-1.11
+],
+"nd": -0.18,
+"pe": 40.35,
+"pb": 7.77,
+"dy": 0.31,
+"po": 12.53,
+"ttm": "2026-09-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/PRECWIRE/financials/ratios/"
 },
 "WAAREERTL": {
 "asof": "2026-09-30",
@@ -8227,6 +9635,50 @@ null
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/KENNAMET/financials/ratios/"
 },
+"SANOFI": {
+"asof": "2026-10-29",
+"stale": 0,
+"fy": [
+"2021",
+"2022",
+"2023",
+"2024",
+"2025"
+],
+"roe": [
+43.48,
+35.45,
+31.83,
+33.45,
+40.59,
+null
+],
+"roic": [
+63.1,
+94.98,
+66.98,
+53.42,
+60.67,
+74.52
+],
+"fcf": [
+2.95,
+2.79,
+1.05,
+3.02,
+4.38,
+4.45
+],
+"nd": -0.7,
+"pe": 20.8,
+"pb": 9.15,
+"dy": 3.74,
+"po": 77.71,
+"ttm": "2026-09-30",
+"per": "2026-Q3",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/SANOFI/financials/ratios/"
+},
 "SMLMAH": {
 "asof": "2026-10-19",
 "stale": 0,
@@ -8270,6 +9722,94 @@ null
 "per": "2026-Q2",
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/SMLMAH/financials/ratios/"
+},
+"KRISHANA": {
+"asof": "2026-07-13",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+16.01,
+11.07,
+14.38,
+25.29,
+38.15,
+null
+],
+"roic": [
+13.65,
+7.11,
+10.26,
+15.39,
+21.11,
+18.67
+],
+"fcf": [
+-11.05,
+-15.05,
+-8.04,
+7.97,
+-10.47,
+-4.15
+],
+"nd": 2.09,
+"pe": 38.31,
+"pb": 13.1,
+"dy": 0.04,
+"po": 1.57,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/KRISHANA/financials/ratios/"
+},
+"TIMEX": {
+"asof": "2026-11-03",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+22.9,
+122.28,
+29.39,
+38.02,
+77.26,
+71.01
+],
+"roic": [
+13.83,
+48.87,
+24.37,
+30.77,
+67.41,
+80.33
+],
+"fcf": [
+-2.8,
+0.69,
+2.24,
+-0.26,
+3.6,
+0.82
+],
+"nd": -0.1,
+"pe": 73.44,
+"pb": 44.74,
+"dy": null,
+"po": 29.71,
+"ttm": "2026-09-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/TIMEX/financials/ratios/"
 },
 "SONATSOFTW": {
 "asof": "2026-11-05",
@@ -8491,6 +10031,50 @@ null
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/SJS/financials/ratios/"
 },
+"KOVAI": {
+"asof": "2026-11-11",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+18.63,
+17.43,
+22.36,
+21.16,
+20.33,
+20.77
+],
+"roic": [
+13.14,
+13.91,
+19.15,
+19.59,
+19.25,
+19.64
+],
+"fcf": [
+9.31,
+6.73,
+5.02,
+-0.33,
+2.0,
+1.45
+],
+"nd": 0.03,
+"pe": 25.88,
+"pb": 4.61,
+"dy": 0.23,
+"po": 5.96,
+"ttm": "2026-09-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/KOVAI/financials/ratios/"
+},
 "AEROFLEX": {
 "asof": "2026-10-28",
 "stale": 0,
@@ -8622,6 +10206,50 @@ null,
 "per": "2026-Q2",
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/SHARDACROP/financials/ratios/"
+},
+"BORORENEW": {
+"asof": "2026-10-30",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+23.7,
+8.18,
+-5.48,
+-9.19,
+10.15,
+29.95
+],
+"roic": [
+27.52,
+8.06,
+-5.12,
+-5.96,
+28.56,
+33.31
+],
+"fcf": [
+-2.64,
+-6.58,
+-2.27,
+-0.15,
+4.24,
+-0.13
+],
+"nd": -1.28,
+"pe": 14.04,
+"pb": 3.18,
+"dy": null,
+"po": null,
+"ttm": "2026-09-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/BORORENEW/financials/ratios/"
 },
 "V2RETAIL": {
 "asof": "2026-11-03",
@@ -8799,6 +10427,94 @@ null,
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/REDTAPE/financials/ratios/"
 },
+"NIRLON": {
+"asof": "2026-09-30",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+21.06,
+35.9,
+53.06,
+59.78,
+83.82,
+59.92
+],
+"roic": [
+8.12,
+15.08,
+18.72,
+19.05,
+27.81,
+21.56
+],
+"fcf": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"nd": 1.52,
+"pe": 20.64,
+"pb": 12.17,
+"dy": 4.66,
+"po": 96.15,
+"ttm": "2026-09-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/NIRLON/financials/ratios/"
+},
+"SBCL": {
+"asof": "2026-11-04",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+33.29,
+34.61,
+27.76,
+20.63,
+21.61,
+23.67
+],
+"roic": [
+25.9,
+28.05,
+24.49,
+19.86,
+21.24,
+21.77
+],
+"fcf": [
+-1.47,
+1.15,
+1.56,
+2.34,
+0.89,
+0.07
+],
+"nd": 0.11,
+"pe": 51.99,
+"pb": 11.27,
+"dy": 0.58,
+"po": 26.51,
+"ttm": "2026-09-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/SBCL/financials/ratios/"
+},
 "BAJAJCON": {
 "asof": "2026-10-14",
 "stale": 0,
@@ -8975,6 +10691,50 @@ null,
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/GULFOILLUB/financials/ratios/"
 },
+"ITDC": {
+"asof": "2026-08-10",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+1.5,
+18.16,
+20.84,
+24.82,
+21.74,
+null
+],
+"roic": [
+-4.42,
+49.82,
+44.58,
+50.35,
+45.72,
+43.03
+],
+"fcf": [
+0.31,
+-0.98,
+-0.09,
+0.86,
+1.9,
+1.09
+],
+"nd": -2.97,
+"pe": 67.59,
+"pb": 13.47,
+"dy": 0.46,
+"po": 30.89,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/ITDC/financials/ratios/"
+},
 "STYLAMIND": {
 "asof": "2026-10-28",
 "stale": 0,
@@ -9018,6 +10778,94 @@ null,
 "per": "2026-Q2",
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/STYLAMIND/financials/ratios/"
+},
+"JAMNAAUTO": {
+"asof": "2026-08-07",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+22.27,
+22.92,
+24.35,
+19.02,
+21.58,
+null
+],
+"roic": [
+18.36,
+19.19,
+21.07,
+15.59,
+20.15,
+20.72
+],
+"fcf": [
+-0.91,
+7.21,
+-1.39,
+3.09,
+5.66,
+4.62
+],
+"nd": 0.11,
+"pe": 24.96,
+"pb": 4.79,
+"dy": 1.03,
+"po": 25.68,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/JAMNAAUTO/financials/ratios/"
+},
+"SENCO": {
+"asof": "2026-08-11",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+19.43,
+18.96,
+15.66,
+9.55,
+25.62,
+null
+],
+"roic": [
+11.47,
+10.13,
+8.6,
+6.29,
+14.91,
+13.51
+],
+"fcf": [
+null,
+null,
+-1.03,
+-5.81,
+-18.61,
+-15.57
+],
+"nd": 2.77,
+"pe": 9.71,
+"pb": 2.17,
+"dy": 0.59,
+"po": 5.02,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/SENCO/financials/ratios/"
 },
 "STYL": {
 "asof": "2026-10-29",
@@ -9107,6 +10955,50 @@ null,
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/ROSSTECH/financials/ratios/"
 },
+"QUESS": {
+"asof": "2026-10-30",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+10.03,
+8.41,
+4.75,
+2.27,
+19.71,
+24.0
+],
+"roic": [
+10.22,
+8.01,
+5.57,
+10.68,
+26.51,
+31.46
+],
+"fcf": [
+4.81,
+6.61,
+5.51,
+3.91,
+8.74,
+8.03
+],
+"nd": -1.11,
+"pe": 18.72,
+"pb": 4.47,
+"dy": 2.33,
+"po": 59.39,
+"ttm": "2026-09-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/QUESS/financials/ratios/"
+},
 "LUMAXIND": {
 "asof": "2026-10-26",
 "stale": 0,
@@ -9151,6 +11043,182 @@ null,
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/LUMAXIND/financials/ratios/"
 },
+"FIEMIND": {
+"asof": "2026-08-12",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+15.54,
+19.93,
+20.11,
+21.29,
+22.69,
+null
+],
+"roic": [
+18.4,
+23.81,
+23.54,
+25.85,
+27.44,
+25.04
+],
+"fcf": [
+6.16,
+3.67,
+1.7,
+2.79,
+0.7,
+0.69
+],
+"nd": -0.54,
+"pe": 19.46,
+"pb": 4.25,
+"dy": 2.06,
+"po": 40.04,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/FIEMIND/financials/ratios/"
+},
+"SHARDAMOTR": {
+"asof": "2026-08-10",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+29.73,
+31.31,
+33.97,
+30.46,
+29.09,
+null
+],
+"roic": [
+93.66,
+102.76,
+71.24,
+79.05,
+93.76,
+71.96
+],
+"fcf": [
+7.03,
+-18.23,
+7.31,
+3.94,
+6.69,
+5.25
+],
+"nd": -2.22,
+"pe": 15.48,
+"pb": 3.93,
+"dy": 2.23,
+"po": 34.59,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/SHARDAMOTR/financials/ratios/"
+},
+"VADILALIND": {
+"asof": "2026-10-30",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+16.28,
+27.7,
+31.05,
+24.28,
+20.06,
+27.01
+],
+"roic": [
+14.08,
+19.81,
+22.94,
+19.51,
+16.48,
+21.95
+],
+"fcf": [
+1.05,
+-1.19,
+4.24,
+0.94,
+1.58,
+3.35
+],
+"nd": 0.05,
+"pe": 21.02,
+"pb": 5.0,
+"dy": 0.85,
+"po": 24.21,
+"ttm": "2026-09-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/VADILALIND/financials/ratios/"
+},
+"GUJTHEM": {
+"asof": "2026-08-07",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+50.35,
+45.92,
+33.76,
+21.69,
+17.41,
+null
+],
+"roic": [
+71.27,
+48.2,
+33.91,
+20.94,
+13.24,
+11.36
+],
+"fcf": [
+4.46,
+1.58,
+-0.36,
+-0.82,
+-4.99,
+-2.44
+],
+"nd": 1.88,
+"pe": 86.0,
+"pb": 17.61,
+"dy": 0.17,
+"po": 14.99,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/GUJTHEM/financials/ratios/"
+},
 "RAMRAT": {
 "asof": "2026-10-29",
 "stale": 0,
@@ -9194,6 +11262,50 @@ null,
 "per": "2026-Q2",
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/RAMRAT/financials/ratios/"
+},
+"GOLDIAM": {
+"asof": "2026-11-07",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+21.04,
+15.24,
+14.81,
+16.96,
+18.38,
+20.16
+],
+"roic": [
+33.61,
+20.88,
+24.06,
+26.09,
+26.66,
+28.09
+],
+"fcf": [
+-0.8,
+4.0,
+5.51,
+-0.44,
+0.26,
+0.73
+],
+"nd": -1.24,
+"pe": 22.22,
+"pb": 3.84,
+"dy": 1.27,
+"po": 18.49,
+"ttm": "2026-09-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/GOLDIAM/financials/ratios/"
 },
 "VMARCIND": {
 "asof": "2026-11-06",
@@ -9283,6 +11395,50 @@ null
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/CARERATING/financials/ratios/"
 },
+"SOTL": {
+"asof": "2026-11-03",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+22.45,
+16.68,
+13.08,
+6.9,
+10.46,
+29.18
+],
+"roic": [
+32.07,
+26.22,
+14.12,
+7.9,
+11.99,
+35.2
+],
+"fcf": [
+24.43,
+-5.86,
+2.34,
+0.92,
+5.41,
+5.21
+],
+"nd": -0.6,
+"pe": 7.84,
+"pb": 2.04,
+"dy": 0.75,
+"po": 10.03,
+"ttm": "2026-09-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/SOTL/financials/ratios/"
+},
 "HDFIRE": {
 "asof": "2026-10-05",
 "stale": 0,
@@ -9326,6 +11482,50 @@ null
 "per": null,
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/HDFIRE/financials/ratios/"
+},
+"SAATVIKGL": {
+"asof": "2026-11-05",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+35.73,
+26.44,
+142.5,
+94.09,
+41.97,
+13.98
+],
+"roic": [
+10.65,
+10.75,
+41.76,
+43.15,
+28.76,
+10.17
+],
+"fcf": [
+null,
+null,
+null,
+null,
+-13.11,
+-41.38
+],
+"nd": 4.35,
+"pe": 25.07,
+"pb": 3.28,
+"dy": null,
+"po": null,
+"ttm": "2026-09-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/SAATVIKGL/financials/ratios/"
 },
 "CRAMC": {
 "asof": "2026-10-09",
@@ -9415,6 +11615,50 @@ null,
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/SWARAJENG/financials/ratios/"
 },
+"RPGLIFE": {
+"asof": "2026-10-29",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+21.8,
+24.01,
+25.69,
+40.48,
+20.28,
+15.6
+],
+"roic": [
+27.27,
+34.23,
+37.41,
+42.59,
+30.47,
+20.99
+],
+"fcf": [
+4.4,
+5.01,
+0.99,
+1.11,
+-0.29,
+-0.26
+],
+"nd": -1.7,
+"pe": 38.73,
+"pb": 4.97,
+"dy": 0.93,
+"po": 36.35,
+"ttm": "2026-09-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/RPGLIFE/financials/ratios/"
+},
 "DPABHUSHAN": {
 "asof": "2026-11-06",
 "stale": 0,
@@ -9459,6 +11703,50 @@ null,
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/DPABHUSHAN/financials/ratios/"
 },
+"MSTCLTD": {
+"asof": "2026-08-13",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+32.85,
+33.59,
+23.03,
+58.76,
+26.6,
+null
+],
+"roic": [
+313.77,
+null,
+null,
+null,
+null,
+null
+],
+"fcf": [
+4.44,
+45.52,
+-6.66,
+6.57,
+-1.94,
+-1.07
+],
+"nd": -5.0,
+"pe": 19.61,
+"pb": 5.18,
+"dy": 2.4,
+"po": 47.16,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/MSTCLTD/financials/ratios/"
+},
 "TBZ": {
 "asof": "2026-10-27",
 "stale": 0,
@@ -9502,6 +11790,94 @@ null,
 "per": "2026-Q2",
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/TBZ/financials/ratios/"
+},
+"HAWKINCOOK": {
+"asof": "2026-07-29",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+42.93,
+38.74,
+36.04,
+32.01,
+31.67,
+null
+],
+"roic": [
+67.16,
+45.41,
+51.67,
+52.55,
+48.67,
+44.82
+],
+"fcf": [
+-2.7,
+2.21,
+4.63,
+1.81,
+1.22,
+1.12
+],
+"nd": -0.83,
+"pe": 31.76,
+"pb": 9.63,
+"dy": 1.72,
+"po": 54.58,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/HAWKINCOOK/financials/ratios/"
+},
+"JSLL": {
+"asof": "2026-08-07",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+36.97,
+41.59,
+43.52,
+35.64,
+61.3,
+null
+],
+"roic": [
+32.38,
+50.01,
+59.9,
+34.92,
+62.88,
+60.8
+],
+"fcf": [
+null,
+-5.5,
+1.01,
+0.78,
+3.28,
+4.88
+],
+"nd": -0.21,
+"pe": 19.25,
+"pb": 9.65,
+"dy": 1.23,
+"po": 23.71,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/JSLL/financials/ratios/"
 },
 "SHILCTECH": {
 "asof": "2026-10-28",
@@ -9591,6 +11967,50 @@ null,
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/AIMTRON/financials/ratios/"
 },
+"GVPIL": {
+"asof": "2026-08-13",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+-35.06,
+-97.01,
+-90.68,
+17.46,
+71.7,
+null
+],
+"roic": [
+-19.38,
+-49.32,
+-73.66,
+null,
+147.96,
+171.81
+],
+"fcf": [
+4.35,
+13.04,
+10.1,
+22.41,
+18.16,
+10.92
+],
+"nd": -1.3,
+"pe": 15.72,
+"pb": 7.34,
+"dy": 1.1,
+"po": null,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/GVPIL/financials/ratios/"
+},
 "SFCTECH": {
 "asof": "2026-10-19",
 "stale": 0,
@@ -9634,6 +12054,50 @@ null
 "per": "2026-Q1",
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/SFCTECH/financials/ratios/"
+},
+"KPL": {
+"asof": "2026-08-10",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+100.1,
+10.18,
+11.2,
+16.41,
+22.74,
+null
+],
+"roic": [
+75.28,
+13.75,
+12.33,
+13.89,
+18.5,
+19.54
+],
+"fcf": [
+0.91,
+-1.97,
+3.09,
+3.26,
+-2.07,
+-0.68
+],
+"nd": 0.92,
+"pe": 51.01,
+"pb": 12.53,
+"dy": null,
+"po": null,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/KPL/financials/ratios/"
 },
 "ORIENTCABL": {
 "asof": "2026-09-21",
@@ -9723,6 +12187,50 @@ null
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/ASHAPURMIN/financials/ratios/"
 },
+"SEAMECLTD": {
+"asof": "2026-11-03",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+11.83,
+4.35,
+14.16,
+9.16,
+21.94,
+26.69
+],
+"roic": [
+6.1,
+2.06,
+11.91,
+6.21,
+17.8,
+19.19
+],
+"fcf": [
+-3.28,
+-15.71,
+-6.33,
+9.89,
+-1.62,
+7.74
+],
+"nd": -0.2,
+"pe": 12.04,
+"pb": 2.75,
+"dy": 0.13,
+"po": 1.52,
+"ttm": "2026-09-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/SEAMECLTD/financials/ratios/"
+},
 "MPSLTD": {
 "asof": "2026-11-03",
 "stale": 0,
@@ -9766,6 +12274,50 @@ null
 "per": "2026-Q2",
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/MPSLTD/financials/ratios/"
+},
+"STEELCAS": {
+"asof": "2026-07-29",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+23.32,
+37.94,
+30.94,
+24.25,
+24.1,
+null
+],
+"roic": [
+18.44,
+31.58,
+31.1,
+26.34,
+26.63,
+26.58
+],
+"fcf": [
+-4.71,
+6.57,
+4.84,
+2.83,
+2.36,
+1.39
+],
+"nd": -0.82,
+"pe": 42.46,
+"pb": 9.8,
+"dy": 0.47,
+"po": 20.08,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/STEELCAS/financials/ratios/"
 },
 "AGIIL": {
 "asof": "2026-11-06",
@@ -10031,6 +12583,94 @@ null,
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/VSTIND/financials/ratios/"
 },
+"KIRIINDUS": {
+"asof": "2026-11-05",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+16.35,
+4.06,
+6.09,
+8.78,
+114.88,
+115.1
+],
+"roic": [
+2.8,
+-2.66,
+-3.73,
+-2.75,
+-2.53,
+6.3
+],
+"fcf": [
+2.15,
+4.52,
+-5.38,
+-21.55,
+211.13,
+124.84
+],
+"nd": -14.07,
+"pe": 0.63,
+"pb": 0.49,
+"dy": null,
+"po": null,
+"ttm": "2026-09-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/KIRIINDUS/financials/ratios/"
+},
+"BONDADA": {
+"asof": "2026-07-30",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+19.19,
+24.42,
+37.0,
+35.14,
+34.93,
+34.93
+],
+"roic": [
+13.5,
+16.25,
+25.93,
+29.09,
+31.95,
+29.46
+],
+"fcf": [
+null,
+null,
+0.86,
+-4.55,
+3.4,
+2.55
+],
+"nd": 0.38,
+"pe": 16.15,
+"pb": 4.5,
+"dy": 0.1,
+"po": 0.55,
+"ttm": "2026-03-31",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/BONDADA/financials/ratios/"
+},
 "SBC": {
 "asof": "2026-10-15",
 "stale": 0,
@@ -10074,6 +12714,94 @@ null,
 "per": "2026-Q2",
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/SBC/financials/ratios/"
+},
+"HIRECT": {
+"asof": "2026-11-10",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+7.53,
+-5.81,
+10.59,
+26.1,
+21.11,
+8.16
+],
+"roic": [
+6.9,
+5.16,
+11.63,
+15.7,
+13.05,
+6.11
+],
+"fcf": [
+5.27,
+1.08,
+1.9,
+0.8,
+-0.51,
+-1.72
+],
+"nd": 2.36,
+"pe": 91.02,
+"pb": 9.77,
+"dy": 0.16,
+"po": 14.7,
+"ttm": "2026-09-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/HIRECT/financials/ratios/"
+},
+"MAYURUNIQ": {
+"asof": "2026-11-04",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+14.19,
+14.27,
+15.11,
+16.38,
+18.37,
+20.02
+],
+"roic": [
+14.56,
+15.12,
+16.24,
+18.14,
+19.97,
+20.0
+],
+"fcf": [
+-2.17,
+4.87,
+4.55,
+6.69,
+5.07,
+4.02
+],
+"nd": -0.94,
+"pe": 14.17,
+"pb": 2.62,
+"dy": 0.82,
+"po": 11.63,
+"ttm": "2026-09-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/MAYURUNIQ/financials/ratios/"
 },
 "UNIPARTS": {
 "asof": "2026-11-04",
@@ -10251,6 +12979,50 @@ null,
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/WEBELSOLAR/financials/ratios/"
 },
+"JAYKAY": {
+"asof": "2026-08-14",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+16.06,
+6.12,
+5.55,
+2.11,
+36.54,
+null
+],
+"roic": [
+3.41,
+9.78,
+6.19,
+-1.07,
+2.35,
+4.48
+],
+"fcf": [
+-4.72,
+-15.13,
+-7.38,
+-3.21,
+0.58,
+0.33
+],
+"nd": -0.94,
+"pe": 13.34,
+"pb": 3.9,
+"dy": null,
+"po": null,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/JAYKAY/financials/ratios/"
+},
 "SHRINGARMS": {
 "asof": "2026-11-04",
 "stale": 0,
@@ -10427,6 +13199,94 @@ null,
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/ASHOKA/financials/ratios/"
 },
+"KERNEX": {
+"asof": "2026-08-13",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+-30.99,
+-30.72,
+-28.38,
+37.99,
+43.61,
+null
+],
+"roic": [
+-15.64,
+-26.67,
+-20.88,
+24.29,
+36.49,
+55.11
+],
+"fcf": [
+-2.63,
+-9.65,
+-7.84,
+0.8,
+-7.94,
+-3.92
+],
+"nd": 0.45,
+"pe": 15.55,
+"pb": 11.79,
+"dy": null,
+"po": null,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/KERNEX/financials/ratios/"
+},
+"INDOTECH": {
+"asof": "2026-08-11",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+8.76,
+16.27,
+24.15,
+25.66,
+28.35,
+null
+],
+"roic": [
+10.92,
+21.72,
+29.85,
+28.34,
+33.45,
+32.34
+],
+"fcf": [
+7.98,
+-6.33,
+2.25,
+1.66,
+1.94,
+0.76
+],
+"nd": -0.85,
+"pe": 29.51,
+"pb": 8.05,
+"dy": 0.36,
+"po": null,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/INDOTECH/financials/ratios/"
+},
 "CARRARO": {
 "asof": "2026-11-06",
 "stale": 0,
@@ -10470,6 +13330,50 @@ null,
 "per": "2026-Q2",
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/CARRARO/financials/ratios/"
+},
+"ARVSMART": {
+"asof": "2026-11-05",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+5.99,
+5.73,
+9.11,
+16.62,
+12.13,
+23.53
+],
+"roic": [
+7.42,
+7.7,
+13.6,
+16.57,
+11.18,
+18.55
+],
+"fcf": [
+17.37,
+-8.71,
+0.46,
+-3.11,
+-9.44,
+-10.87
+],
+"nd": 1.47,
+"pe": 15.15,
+"pb": 3.27,
+"dy": 0.36,
+"po": 5.5,
+"ttm": "2026-09-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/ARVSMART/financials/ratios/"
 },
 "BEPL": {
 "asof": "2026-10-19",
@@ -10559,6 +13463,50 @@ null,
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/RELTD/financials/ratios/"
 },
+"CARYSIL": {
+"asof": "2026-11-04",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+28.94,
+18.73,
+17.55,
+14.46,
+17.28,
+17.73
+],
+"roic": [
+19.11,
+13.94,
+11.69,
+10.65,
+13.27,
+12.93
+],
+"fcf": [
+-1.15,
+0.91,
+-1.51,
+0.73,
+-0.13,
+-0.51
+],
+"nd": 1.31,
+"pe": 25.05,
+"pb": 4.05,
+"dy": 0.32,
+"po": 8.68,
+"ttm": "2026-09-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/CARYSIL/financials/ratios/"
+},
 "JUBLCPL": {
 "asof": "2026-11-05",
 "stale": 0,
@@ -10602,6 +13550,94 @@ null,
 "per": "2026-Q2",
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/JUBLCPL/financials/ratios/"
+},
+"DRAGARWQ": {
+"asof": "2026-08-03",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+36.29,
+38.56,
+34.28,
+29.8,
+25.22,
+null
+],
+"roic": [
+16.16,
+14.58,
+13.55,
+13.42,
+13.61,
+13.67
+],
+"fcf": [
+2.9,
+-0.17,
+1.26,
+-0.49,
+2.06,
+1.65
+],
+"nd": 1.47,
+"pe": 36.87,
+"pb": 8.16,
+"dy": 0.07,
+"po": 2.52,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/DRAGARWQ/financials/ratios/"
+},
+"PANAMAPET": {
+"asof": "2026-11-04",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+34.66,
+27.08,
+19.0,
+15.87,
+15.6,
+39.83
+],
+"roic": [
+38.75,
+35.89,
+23.26,
+19.17,
+16.81,
+41.08
+],
+"fcf": [
+8.72,
+9.88,
+-3.86,
+5.86,
+-8.83,
+5.56
+],
+"nd": -0.25,
+"pe": 4.0,
+"pb": 1.32,
+"dy": 0.68,
+"po": 2.71,
+"ttm": "2026-09-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/PANAMAPET/financials/ratios/"
 },
 "KMCSHIL": {
 "asof": "2026-08-14",
@@ -10647,6 +13683,182 @@ null
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/KMCSHIL/financials/ratios/"
 },
+"CRIZAC": {
+"asof": "2026-10-30",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+93.22,
+67.58,
+42.18,
+36.79,
+40.0,
+32.55
+],
+"roic": [
+154.84,
+126.91,
+97.56,
+88.13,
+85.23,
+45.99
+],
+"fcf": [
+null,
+null,
+null,
+null,
+4.11,
+11.58
+],
+"nd": -1.39,
+"pe": 13.17,
+"pb": 4.1,
+"dy": null,
+"po": 66.97,
+"ttm": "2026-09-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/CRIZAC/financials/ratios/"
+},
+"MARSONS": {
+"asof": "2026-08-13",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+-273.44,
+235.88,
+7.29,
+40.99,
+27.24,
+null
+],
+"roic": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"fcf": [
+0.22,
+0.12,
+-0.84,
+-1.47,
+-0.0,
+-0.0
+],
+"nd": -0.24,
+"pe": 59.58,
+"pb": 12.06,
+"dy": null,
+"po": 1.96,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/MARSONS/financials/ratios/"
+},
+"OSWALPUMPS": {
+"asof": "2026-08-08",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+null,
+55.73,
+75.61,
+87.47,
+35.08,
+null
+],
+"roic": [
+17.74,
+28.63,
+54.85,
+52.21,
+28.05,
+20.05
+],
+"fcf": [
+null,
+null,
+null,
+null,
+-6.41,
+-7.72
+],
+"nd": -0.34,
+"pe": 7.7,
+"pb": 1.63,
+"dy": null,
+"po": null,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/OSWALPUMPS/financials/ratios/"
+},
+"TECHNVISN": {
+"asof": "2026-08-13",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+null,
+16.18,
+163.38,
+0.72,
+1.38,
+null
+],
+"roic": [
+null,
+null,
+null,
+null,
+9.16,
+68.0
+],
+"fcf": [
+0.45,
+0.24,
+1.8,
+0.18,
+-1.09,
+-1.38
+],
+"nd": -1.33,
+"pe": 948.25,
+"pb": 180.7,
+"dy": null,
+"po": null,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/TECHNVISN/financials/ratios/"
+},
 "DOLPHIN": {
 "asof": "2026-10-31",
 "stale": 0,
@@ -10690,6 +13902,50 @@ null,
 "per": "2026-Q2",
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/DOLPHIN/financials/ratios/"
+},
+"DDEVPLSTIK": {
+"asof": "2026-08-10",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+27.96,
+23.49,
+31.48,
+24.82,
+21.84,
+null
+],
+"roic": [
+13.47,
+21.22,
+30.92,
+26.64,
+22.2,
+20.93
+],
+"fcf": [
+null,
+15.72,
+5.26,
+3.2,
+0.58,
+0.43
+],
+"nd": -0.01,
+"pe": 12.2,
+"pb": 2.59,
+"dy": 0.7,
+"po": 8.49,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/DDEVPLSTIK/financials/ratios/"
 },
 "GANDHAR": {
 "asof": "2026-10-27",
@@ -10955,6 +14211,94 @@ null,
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/EFCIL/financials/ratios/"
 },
+"ALGOQUANT": {
+"asof": "2026-08-14",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+12.07,
+-8.64,
+47.64,
+37.56,
+28.37,
+null
+],
+"roic": [
+16.09,
+-14.08,
+30.32,
+22.63,
+-37.8,
+null
+],
+"fcf": [
+5.78,
+-9.13,
+-1.44,
+4.03,
+4.03,
+2.37
+],
+"nd": -2.52,
+"pe": 52.58,
+"pb": 17.76,
+"dy": null,
+"po": null,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/ALGOQUANT/financials/ratios/"
+},
+"VEEDOL": {
+"asof": "2026-11-05",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+16.88,
+15.44,
+17.96,
+19.38,
+19.66,
+21.66
+],
+"roic": [
+17.52,
+16.72,
+19.8,
+19.86,
+19.1,
+20.61
+],
+"fcf": [
+4.49,
+6.24,
+4.59,
+-0.54,
+7.52,
+-0.47
+],
+"nd": -0.44,
+"pe": 10.41,
+"pb": 2.09,
+"dy": 4.15,
+"po": 44.32,
+"ttm": "2026-09-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/VEEDOL/financials/ratios/"
+},
 "SUNCLAY": {
 "asof": "2026-11-04",
 "stale": 0,
@@ -11042,6 +14386,50 @@ null,
 "per": "2026-Q2",
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/MACPOWER/financials/ratios/"
+},
+"PIXTRANS": {
+"asof": "2026-11-06",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+20.72,
+14.15,
+18.22,
+20.73,
+16.54,
+20.02
+],
+"roic": [
+16.83,
+11.92,
+18.82,
+25.63,
+22.77,
+31.61
+],
+"fcf": [
+-1.33,
+8.52,
+6.3,
+3.92,
+7.41,
+5.85
+],
+"nd": -1.83,
+"pe": 16.79,
+"pb": 3.08,
+"dy": 0.52,
+"po": 8.63,
+"ttm": "2026-09-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/PIXTRANS/financials/ratios/"
 },
 "SIYSIL": {
 "asof": "2026-10-27",
@@ -11131,6 +14519,50 @@ null,
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/EVEREADY/financials/ratios/"
 },
+"VIMTALABS": {
+"asof": "2026-10-30",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+19.3,
+18.68,
+16.38,
+19.27,
+18.55,
+17.7
+],
+"roic": [
+18.55,
+19.28,
+17.09,
+19.92,
+19.97,
+18.64
+],
+"fcf": [
+4.2,
+5.77,
+-1.57,
+0.67,
+2.79,
+1.72
+],
+"nd": -0.47,
+"pe": 28.39,
+"pb": 4.65,
+"dy": 0.4,
+"po": 11.12,
+"ttm": "2026-09-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/VIMTALABS/financials/ratios/"
+},
 "BUILDPRO": {
 "asof": "2026-11-05",
 "stale": 0,
@@ -11174,6 +14606,94 @@ null,
 "per": "2026-Q2",
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/BUILDPRO/financials/ratios/"
+},
+"CANTABIL": {
+"asof": "2026-08-05",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+26.79,
+35.25,
+22.72,
+20.81,
+21.98,
+null
+],
+"roic": [
+11.5,
+18.87,
+14.67,
+13.92,
+14.35,
+12.9
+],
+"fcf": [
+2.98,
+3.0,
+4.45,
+4.58,
+7.25,
+5.94
+],
+"nd": 1.8,
+"pe": 23.13,
+"pb": 4.72,
+"dy": 0.56,
+"po": 12.87,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/CANTABIL/financials/ratios/"
+},
+"MUKANDLTD": {
+"asof": "2026-08-12",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+31.23,
+22.6,
+11.81,
+8.19,
+48.88,
+null
+],
+"roic": [
+8.01,
+-9.64,
+8.75,
+6.17,
+3.68,
+1.9
+],
+"fcf": [
+-17.4,
+2.22,
+0.57,
+4.16,
+-31.9,
+-25.83
+],
+"nd": 13.24,
+"pe": 3.19,
+"pb": 1.4,
+"dy": 2.15,
+"po": 6.85,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/MUKANDLTD/financials/ratios/"
 },
 "ADVAIT": {
 "asof": "2026-10-30",
@@ -11262,6 +14782,50 @@ null,
 "per": "2026-Q2",
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/SHANTIGOLD/financials/ratios/"
+},
+"TAJGVK": {
+"asof": "2026-07-31",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+0.57,
+22.5,
+18.37,
+19.49,
+39.56,
+null
+],
+"roic": [
+1.27,
+13.66,
+15.33,
+16.13,
+12.68,
+10.24
+],
+"fcf": [
+5.55,
+6.96,
+3.51,
+2.52,
+-1.63,
+-1.44
+],
+"nd": -0.12,
+"pe": 4.86,
+"pb": 1.5,
+"dy": 0.62,
+"po": 3.03,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/TAJGVK/financials/ratios/"
 },
 "INDORAMA": {
 "asof": "2026-10-16",
@@ -11394,6 +14958,50 @@ null,
 "per": "2026-Q2",
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/GKENERGY/financials/ratios/"
+},
+"HESTERBIO": {
+"asof": "2026-11-05",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+15.69,
+10.09,
+7.16,
+9.16,
+16.55,
+34.66
+],
+"roic": [
+10.22,
+5.76,
+5.23,
+6.17,
+9.65,
+11.7
+],
+"fcf": [
+-3.77,
+-4.19,
+2.01,
+4.12,
+4.31,
+4.15
+],
+"nd": 0.87,
+"pe": 14.16,
+"pb": 4.15,
+"dy": 0.47,
+"po": 6.63,
+"ttm": "2026-09-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/HESTERBIO/financials/ratios/"
 },
 "VENUSREM": {
 "asof": "2026-10-26",
@@ -11571,6 +15179,94 @@ null,
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/EUROPRATIK/financials/ratios/"
 },
+"ANONDITA": {
+"asof": "2026-05-22",
+"stale": 0,
+"fy": [
+null,
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+null,
+null,
+39.89,
+66.14,
+40.27,
+40.27
+],
+"roic": [
+null,
+7.3,
+19.34,
+36.92,
+33.3,
+23.76
+],
+"fcf": [
+null,
+null,
+null,
+null,
+-4.38,
+-2.73
+],
+"nd": 0.47,
+"pe": 49.61,
+"pb": 14.56,
+"dy": null,
+"po": null,
+"ttm": "2026-03-31",
+"per": "2025-H2",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/ANONDITA/financials/ratios/"
+},
+"SYNCOMF": {
+"asof": "2026-08-11",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+9.66,
+8.39,
+9.3,
+15.69,
+20.19,
+null
+],
+"roic": [
+5.82,
+4.45,
+7.42,
+15.14,
+19.06,
+20.2
+],
+"fcf": [
+0.55,
+-1.82,
+-1.34,
+0.87,
+4.79,
+2.42
+],
+"nd": -1.29,
+"pe": 22.4,
+"pb": 4.62,
+"dy": 0.5,
+"po": 11.12,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/SYNCOMF/financials/ratios/"
+},
 "KRISHNADEF": {
 "asof": "2026-10-29",
 "stale": 0,
@@ -11658,6 +15354,50 @@ null,
 "per": "2026-H1",
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/UTSSAV/financials/ratios/"
+},
+"ALPEXSOLAR": {
+"asof": "2026-08-14",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+0.53,
+9.43,
+33.33,
+47.78,
+51.79,
+null
+],
+"roic": [
+4.47,
+9.93,
+26.78,
+44.89,
+35.87,
+22.98
+],
+"fcf": [
+null,
+null,
+-2.42,
+-1.11,
+-23.82,
+-23.08
+],
+"nd": 1.17,
+"pe": 9.72,
+"pb": 3.41,
+"dy": null,
+"po": null,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/ALPEXSOLAR/financials/ratios/"
 },
 "DYCL": {
 "asof": "2026-10-27",
@@ -11879,6 +15619,94 @@ null,
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/PRIZOR/financials/ratios/"
 },
+"DISAQ": {
+"asof": "2026-07-20",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+19.46,
+13.99,
+18.43,
+19.67,
+18.75,
+18.75
+],
+"roic": [
+76.18,
+40.17,
+50.32,
+44.18,
+30.11,
+36.73
+],
+"fcf": [
+0.35,
+2.12,
+2.53,
+0.54,
+-0.99,
+-0.94
+],
+"nd": -1.73,
+"pe": 31.83,
+"pb": 5.55,
+"dy": 1.7,
+"po": 26.87,
+"ttm": "2026-03-31",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/DISAQ/financials/ratios/"
+},
+"BFUTILITIE": {
+"asof": "2026-08-14",
+"stale": 0,
+"fy": [
+"2021",
+"2022",
+"2023",
+"2024",
+"2025"
+],
+"roe": [
+null,
+384.02,
+127.7,
+63.43,
+42.69,
+null
+],
+"roic": [
+9.47,
+14.85,
+27.01,
+24.69,
+24.64,
+null
+],
+"fcf": [
+21.41,
+21.21,
+28.9,
+11.72,
+17.91,
+null
+],
+"nd": null,
+"pe": null,
+"pb": null,
+"dy": null,
+"po": null,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/BFUTILITIE/financials/ratios/"
+},
 "NITTAGELA": {
 "asof": "2026-10-30",
 "stale": 0,
@@ -11922,6 +15750,50 @@ null,
 "per": "2026-Q2",
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/NITTAGELA/financials/ratios/"
+},
+"FRONTSP": {
+"asof": "2026-11-11",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+11.83,
+10.19,
+15.84,
+32.51,
+39.89,
+34.33
+],
+"roic": [
+11.61,
+10.06,
+15.11,
+31.67,
+38.48,
+33.28
+],
+"fcf": [
+3.72,
+0.78,
+0.81,
+0.95,
+1.16,
+3.47
+],
+"nd": -0.3,
+"pe": 27.18,
+"pb": 8.0,
+"dy": 0.05,
+"po": 1.29,
+"ttm": "2026-09-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/FRONTSP/financials/ratios/"
 },
 "KAPSTON": {
 "asof": "2026-10-20",
@@ -12099,6 +15971,50 @@ null,
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/TINNARUBR/financials/ratios/"
 },
+"CEINSYS": {
+"asof": "2026-08-11",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+7.32,
+16.73,
+16.19,
+19.58,
+24.59,
+null
+],
+"roic": [
+6.91,
+12.31,
+12.53,
+14.86,
+19.36,
+16.06
+],
+"fcf": [
+9.75,
+22.54,
+4.58,
+-1.31,
+-0.54,
+-0.66
+],
+"nd": 0.28,
+"pe": 10.96,
+"pb": 2.26,
+"dy": 0.48,
+"po": 5.29,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/CEINSYS/financials/ratios/"
+},
 "BLSPOLY": {
 "asof": "2026-10-17",
 "stale": 0,
@@ -12275,6 +16191,50 @@ null,
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/ACCENTMIC/financials/ratios/"
 },
+"DLINKINDIA": {
+"asof": "2026-10-31",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+14.87,
+25.36,
+22.77,
+22.9,
+21.21,
+23.53
+],
+"roic": [
+22.72,
+38.06,
+34.45,
+40.1,
+33.55,
+30.99
+],
+"fcf": [
+6.52,
+0.61,
+12.4,
+6.14,
+0.98,
+1.91
+],
+"nd": -1.07,
+"pe": 13.27,
+"pb": 3.16,
+"dy": 6.32,
+"po": 107.67,
+"ttm": "2026-09-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/DLINKINDIA/financials/ratios/"
+},
 "JAGSNPHARM": {
 "asof": "2026-10-28",
 "stale": 0,
@@ -12318,6 +16278,50 @@ null,
 "per": "2026-Q2",
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/JAGSNPHARM/financials/ratios/"
+},
+"ACCELYA": {
+"asof": "2026-10-22",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+30.4,
+47.58,
+33.95,
+46.03,
+36.14,
+null
+],
+"roic": [
+38.75,
+63.75,
+65.88,
+69.36,
+52.34,
+50.54
+],
+"fcf": [
+7.7,
+6.02,
+5.92,
+6.54,
+5.68,
+6.13
+],
+"nd": -0.29,
+"pe": 15.88,
+"pb": 6.07,
+"dy": 7.95,
+"po": 126.2,
+"ttm": "2026-09-30",
+"per": "2027-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/ACCELYA/financials/ratios/"
 },
 "GARUDA": {
 "asof": "2026-11-04",
@@ -12407,6 +16411,50 @@ null,
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/AEROENTER/financials/ratios/"
 },
+"KPEL": {
+"asof": "2026-08-11",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+18.5,
+37.25,
+37.41,
+46.46,
+43.48,
+null
+],
+"roic": [
+16.02,
+29.02,
+22.71,
+25.32,
+23.53,
+20.19
+],
+"fcf": [
+5.94,
+7.58,
+-1.65,
+-3.88,
+-5.62,
+-6.81
+],
+"nd": 1.34,
+"pe": 7.63,
+"pb": 2.67,
+"dy": 0.22,
+"po": 1.67,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/KPEL/financials/ratios/"
+},
 "BENARAS": {
 "asof": "2026-10-16",
 "stale": 0,
@@ -12451,6 +16499,50 @@ null,
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/BENARAS/financials/ratios/"
 },
+"HMAAGRO": {
+"asof": "2026-11-03",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+35.8,
+27.87,
+16.33,
+11.33,
+18.64,
+22.94
+],
+"roic": [
+15.26,
+14.23,
+8.54,
+4.42,
+7.48,
+10.5
+],
+"fcf": [
+null,
+null,
+-7.97,
+7.29,
+-11.13,
+-16.45
+],
+"nd": 2.69,
+"pe": 5.88,
+"pb": 1.22,
+"dy": 1.12,
+"po": 6.56,
+"ttm": "2026-09-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/HMAAGRO/financials/ratios/"
+},
 "BHARATSE": {
 "asof": "2026-10-27",
 "stale": 0,
@@ -12494,6 +16586,182 @@ null,
 "per": "2026-Q2",
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/BHARATSE/financials/ratios/"
+},
+"JAYBARMARU": {
+"asof": "2026-11-02",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+6.09,
+7.72,
+6.16,
+5.98,
+22.19,
+22.59
+],
+"roic": [
+5.88,
+7.16,
+6.15,
+5.21,
+15.64,
+15.78
+],
+"fcf": [
+4.52,
+15.34,
+3.36,
+-10.69,
+5.78,
+10.07
+],
+"nd": 1.8,
+"pe": 8.86,
+"pb": 1.83,
+"dy": 0.56,
+"po": 4.99,
+"ttm": "2026-09-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/JAYBARMARU/financials/ratios/"
+},
+"EXPLEOSOL": {
+"asof": "2026-08-14",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+22.69,
+28.95,
+15.85,
+16.56,
+17.56,
+null
+],
+"roic": [
+41.64,
+38.99,
+20.5,
+21.4,
+24.84,
+28.44
+],
+"fcf": [
+-0.07,
+-1.68,
+2.86,
+13.88,
+11.6,
+8.89
+],
+"nd": -1.98,
+"pe": 9.51,
+"pb": 1.69,
+"dy": 13.03,
+"po": 123.95,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/EXPLEOSOL/financials/ratios/"
+},
+"DSSL": {
+"asof": "2026-08-13",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+27.95,
+38.73,
+41.02,
+37.29,
+31.04,
+null
+],
+"roic": [
+21.07,
+28.44,
+32.85,
+28.82,
+22.38,
+20.26
+],
+"fcf": [
+-6.64,
+3.24,
+2.21,
+2.81,
+-1.88,
+-1.4
+],
+"nd": 0.83,
+"pe": 15.7,
+"pb": 4.28,
+"dy": 0.05,
+"po": 0.75,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/DSSL/financials/ratios/"
+},
+"ALLDIGI": {
+"asof": "2026-10-29",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+15.02,
+22.25,
+26.94,
+32.99,
+32.22,
+37.71
+],
+"roic": [
+31.12,
+34.94,
+42.7,
+42.03,
+40.1,
+36.87
+],
+"fcf": [
+6.31,
+7.54,
+6.59,
+7.05,
+10.79,
+9.96
+],
+"nd": 0.18,
+"pe": 13.47,
+"pb": 5.0,
+"dy": 7.19,
+"po": 96.78,
+"ttm": "2026-09-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/ALLDIGI/financials/ratios/"
 },
 "SKMEGGPROD": {
 "asof": "2026-10-23",
@@ -12582,6 +16850,50 @@ null,
 "per": "2026-Q2",
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/RAJRILTD/financials/ratios/"
+},
+"MATRIMONY": {
+"asof": "2026-11-10",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+18.68,
+16.57,
+18.2,
+16.99,
+15.25,
+23.93
+],
+"roic": [
+78.16,
+51.75,
+null,
+102.57,
+null,
+54.14
+],
+"fcf": [
+4.54,
+4.47,
+3.54,
+4.0,
+7.33,
+6.74
+],
+"nd": -2.42,
+"pe": 21.03,
+"pb": 5.3,
+"dy": 0.86,
+"po": 17.85,
+"ttm": "2026-09-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/MATRIMONY/financials/ratios/"
 },
 "GPTHEALTH": {
 "asof": "2026-11-05",
@@ -12935,6 +17247,182 @@ null,
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/ARROWGREEN/financials/ratios/"
 },
+"3BBLACKBIO": {
+"asof": "2026-08-13",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+20.1,
+14.1,
+15.24,
+19.21,
+19.89,
+null
+],
+"roic": [
+24.74,
+12.6,
+11.6,
+17.72,
+22.41,
+15.79
+],
+"fcf": [
+13.69,
+5.85,
+4.0,
+3.06,
+2.79,
+2.33
+],
+"nd": -1.77,
+"pe": 20.69,
+"pb": 3.49,
+"dy": 0.37,
+"po": 7.67,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/3BBLACKBIO/financials/ratios/"
+},
+"SUNRAKSHAK": {
+"asof": "2026-08-14",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+8.11,
+null,
+null,
+24.27,
+29.55,
+null
+],
+"roic": [
+7.01,
+null,
+19.51,
+17.16,
+23.29,
+20.35
+],
+"fcf": [
+-2.41,
+null,
+5.25,
+-4.44,
+-13.07,
+-8.33
+],
+"nd": 0.45,
+"pe": 25.7,
+"pb": 6.02,
+"dy": null,
+"po": null,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/SUNRAKSHAK/financials/ratios/"
+},
+"GANDHITUBE": {
+"asof": "2026-11-03",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+24.17,
+28.75,
+27.46,
+24.02,
+23.51,
+27.8
+],
+"roic": [
+32.55,
+32.36,
+24.88,
+20.95,
+21.37,
+24.81
+],
+"fcf": [
+8.9,
+7.46,
+2.56,
+5.47,
+5.76,
+7.88
+],
+"nd": -0.18,
+"pe": 14.23,
+"pb": 4.19,
+"dy": 1.66,
+"po": 23.7,
+"ttm": "2026-09-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/GANDHITUBE/financials/ratios/"
+},
+"MBECL": {
+"asof": "2026-08-12",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"roic": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"fcf": [
+-7.19,
+14.49,
+-12.95,
+-20.99,
+19.62,
+3.98
+],
+"nd": -0.44,
+"pe": 0.29,
+"pb": 1.86,
+"dy": null,
+"po": null,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/MBECL/financials/ratios/"
+},
 "KAMDHENU": {
 "asof": "2026-10-28",
 "stale": 0,
@@ -13023,6 +17511,50 @@ null,
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/PRADPME/financials/ratios/"
 },
+"TEMBO": {
+"asof": "2026-08-11",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+13.11,
+17.79,
+25.99,
+38.63,
+27.72,
+null
+],
+"roic": [
+6.93,
+12.71,
+17.59,
+21.9,
+16.63,
+16.74
+],
+"fcf": [
+-0.78,
+-2.42,
+-5.51,
+-27.39,
+-35.97,
+-17.61
+],
+"nd": 1.34,
+"pe": 10.42,
+"pb": 2.16,
+"dy": 0.18,
+"po": 1.85,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/TEMBO/financials/ratios/"
+},
 "JYOTIRES": {
 "asof": "2026-11-05",
 "stale": 0,
@@ -13110,6 +17642,50 @@ null,
 "per": "2026-Q2",
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/BIRLACABLE/financials/ratios/"
+},
+"GULPOLY": {
+"asof": "2026-08-06",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+18.7,
+8.14,
+3.05,
+4.12,
+16.09,
+null
+],
+"roic": [
+19.44,
+6.59,
+1.88,
+4.32,
+13.49,
+17.17
+],
+"fcf": [
+-3.02,
+-22.67,
+-11.16,
+-1.29,
+20.29,
+17.5
+],
+"nd": 1.02,
+"pe": 7.32,
+"pb": 1.44,
+"dy": 0.87,
+"po": 6.34,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/GULPOLY/financials/ratios/"
 },
 "SAFEENTP": {
 "asof": "2026-08-19",
@@ -13243,6 +17819,94 @@ null,
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/SEJALLTD/financials/ratios/"
 },
+"JPOLYINVST": {
+"asof": "2026-08-13",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+74.63,
+14.99,
+11.8,
+14.17,
+54.8,
+null
+],
+"roic": [
+32.18,
+18.25,
+2.42,
+1.48,
+80.89,
+77.38
+],
+"fcf": [
+229.71,
+230.03,
+-0.11,
+0.18,
+0.55,
+0.6
+],
+"nd": null,
+"pe": 1.23,
+"pb": 0.62,
+"dy": null,
+"po": null,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/JPOLYINVST/financials/ratios/"
+},
+"SEKURITIND": {
+"asof": "2026-11-02",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+29.7,
+16.01,
+16.46,
+17.37,
+19.96,
+19.56
+],
+"roic": [
+49.07,
+50.88,
+63.5,
+73.7,
+93.49,
+78.98
+],
+"fcf": [
+1.24,
+4.26,
+2.37,
+2.48,
+3.88,
+2.93
+],
+"nd": -3.82,
+"pe": 22.07,
+"pb": 4.11,
+"dy": 2.29,
+"po": 50.7,
+"ttm": "2026-09-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/SEKURITIND/financials/ratios/"
+},
 "FLYSBS": {
 "asof": "2026-09-07",
 "stale": 0,
@@ -13287,6 +17951,50 @@ null,
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/FLYSBS/financials/ratios/"
 },
+"ELITECON": {
+"asof": "2026-03-07",
+"stale": 0,
+"fy": [
+"2021",
+"2022",
+"2023",
+"2024",
+"2025"
+],
+"roe": [
+-1.29,
+12.27,
+null,
+null,
+153.2,
+null
+],
+"roic": [
+-3.9,
+2.69,
+-688.75,
+18.44,
+58.95,
+73.55
+],
+"fcf": [
+1.29,
+-1943.93,
+-2912.14,
+null,
+-0.1,
+null
+],
+"nd": 0.84,
+"pe": 2.77,
+"pb": 1.73,
+"dy": null,
+"po": null,
+"ttm": "2025-12-31",
+"per": "2025-Q4",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/ELITECON/financials/ratios/"
+},
 "PREMIERPOL": {
 "asof": "2026-10-10",
 "stale": 0,
@@ -13330,6 +18038,50 @@ null,
 "per": "2026-Q2",
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/PREMIERPOL/financials/ratios/"
+},
+"ARIHANT": {
+"asof": "2026-08-14",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+-6.06,
+7.53,
+7.31,
+17.0,
+17.28,
+null
+],
+"roic": [
+-0.93,
+5.41,
+7.4,
+16.06,
+20.26,
+16.64
+],
+"fcf": [
+-132.76,
+443.03,
+28.62,
+-5.63,
+3.29,
+3.19
+],
+"nd": 0.63,
+"pe": 13.36,
+"pb": 2.68,
+"dy": null,
+"po": null,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/ARIHANT/financials/ratios/"
 },
 "VIVIDEL": {
 "asof": "2026-10-23",
@@ -13418,6 +18170,50 @@ null
 "per": "2026-Q2",
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/BSHSL/financials/ratios/"
+},
+"TANKUP": {
+"asof": "2026-08-05",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+44.53,
+120.39,
+105.48,
+29.73,
+26.29,
+26.29
+],
+"roic": [
+6.23,
+37.6,
+50.9,
+16.23,
+14.99,
+9.41
+],
+"fcf": [
+null,
+null,
+null,
+null,
+-17.25,
+-3.93
+],
+"nd": 4.4,
+"pe": 189.8,
+"pb": 31.21,
+"dy": null,
+"po": null,
+"ttm": "2026-03-31",
+"per": "2025-H2",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/TANKUP/financials/ratios/"
 },
 "UNIHEALTH": {
 "asof": "2026-07-07",
@@ -13594,6 +18390,94 @@ null,
 "per": "2025-Q4",
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/MADRASFERT/financials/ratios/"
+},
+"SRM": {
+"asof": "2026-08-13",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+49.3,
+34.79,
+27.98,
+27.17,
+32.25,
+null
+],
+"roic": [
+37.86,
+32.41,
+26.85,
+25.26,
+29.08,
+28.83
+],
+"fcf": [
+null,
+null,
+null,
+-12.57,
+-7.63,
+-7.22
+],
+"nd": -0.28,
+"pe": 7.72,
+"pb": 2.26,
+"dy": null,
+"po": null,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/SRM/financials/ratios/"
+},
+"ARYAMAN": {
+"asof": "2026-08-14",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+13.04,
+6.98,
+28.78,
+31.4,
+18.96,
+null
+],
+"roic": [
+null,
+45.28,
+156.63,
+null,
+null,
+27.83
+],
+"fcf": [
+27.63,
+7.94,
+8.95,
+7.97,
+4.52,
+3.92
+],
+"nd": -1.66,
+"pe": 22.12,
+"pb": 3.82,
+"dy": null,
+"po": null,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/ARYAMAN/financials/ratios/"
 },
 "SSEGL": {
 "asof": "2026-10-30",
@@ -13903,6 +18787,50 @@ null
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/VIESL/financials/ratios/"
 },
+"INDOAMIN": {
+"asof": "2026-08-12",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+13.16,
+19.77,
+17.52,
+19.2,
+22.3,
+null
+],
+"roic": [
+8.12,
+12.65,
+10.73,
+12.18,
+12.79,
+12.77
+],
+"fcf": [
+-3.71,
+-2.0,
+4.97,
+-5.71,
+0.06,
+0.04
+],
+"nd": 1.99,
+"pe": 10.64,
+"pb": 2.18,
+"dy": 0.43,
+"po": 4.53,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/INDOAMIN/financials/ratios/"
+},
 "BAHETI": {
 "asof": "2026-11-02",
 "stale": 0,
@@ -13946,6 +18874,50 @@ null,
 "per": "2026-H1",
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/BAHETI/financials/ratios/"
+},
+"TAC": {
+"asof": "2026-05-14",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+26.37,
+98.62,
+58.06,
+42.14,
+36.35,
+36.35
+],
+"roic": [
+61.19,
+154.44,
+63.42,
+69.53,
+57.12,
+39.16
+],
+"fcf": [
+null,
+null,
+null,
+1.34,
+0.9,
+0.92
+],
+"nd": -0.82,
+"pe": 37.17,
+"pb": 9.3,
+"dy": null,
+"po": null,
+"ttm": "2026-03-31",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/TAC/financials/ratios/"
 },
 "KARNIKA": {
 "asof": "2026-10-10",
@@ -14034,6 +19006,50 @@ null,
 "per": "2026-Q2",
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/RMDRIP/financials/ratios/"
+},
+"MANAKSTEEL": {
+"asof": "2026-08-10",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+14.45,
+4.38,
+9.61,
+3.31,
+12.97,
+null
+],
+"roic": [
+12.29,
+4.91,
+8.42,
+2.77,
+13.24,
+15.93
+],
+"fcf": [
+-2.63,
+6.85,
+-24.67,
+-19.82,
+8.03,
+3.1
+],
+"nd": 0.79,
+"pe": 13.79,
+"pb": 2.39,
+"dy": null,
+"po": null,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/MANAKSTEEL/financials/ratios/"
 },
 "VADILENT": {
 "asof": "2026-10-30",
@@ -14387,6 +19403,50 @@ null,
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/GLOBAL/financials/ratios/"
 },
+"SOLEX": {
+"asof": "2026-08-14",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+3.37,
+7.46,
+20.83,
+41.26,
+47.41,
+null
+],
+"roic": [
+3.09,
+8.06,
+13.53,
+22.56,
+28.48,
+21.23
+],
+"fcf": [
+-22.2,
+-12.03,
+-0.94,
+-16.73,
+1.56,
+2.16
+],
+"nd": 1.27,
+"pe": 8.83,
+"pb": 2.81,
+"dy": 0.08,
+"po": 0.74,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/SOLEX/financials/ratios/"
+},
 "KOTHARIPET": {
 "asof": "2026-11-03",
 "stale": 0,
@@ -14739,6 +19799,94 @@ null,
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/WANBURY/financials/ratios/"
 },
+"ECOSMOBLTY": {
+"asof": "2026-08-11",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+14.8,
+46.7,
+42.75,
+30.11,
+23.65,
+null
+],
+"roic": [
+19.86,
+59.35,
+49.34,
+45.74,
+39.6,
+36.98
+],
+"fcf": [
+null,
+null,
+null,
+3.79,
+5.36,
+4.72
+],
+"nd": -1.35,
+"pe": 12.21,
+"pb": 2.69,
+"dy": 1.99,
+"po": 24.26,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/ECOSMOBLTY/financials/ratios/"
+},
+"SUPREMEINF": {
+"asof": "2026-08-14",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"roic": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"fcf": [
+-53.91,
+-51.43,
+-8.25,
+2.89,
+-1.82,
+-1.5
+],
+"nd": 633.9,
+"pe": 0.11,
+"pb": 2.95,
+"dy": null,
+"po": null,
+"ttm": "2026-06-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/SUPREMEINF/financials/ratios/"
+},
 "SUPREMEPWR": {
 "asof": "2026-10-16",
 "stale": 0,
@@ -14958,6 +20106,50 @@ null,
 "per": "2026-Q2",
 "got": "2026-11-11",
 "url": "https://stockanalysis.com/quote/nse/PASUPTAC/financials/ratios/"
+},
+"SICALLOG": {
+"asof": "2026-11-11",
+"stale": 0,
+"fy": [
+"2022",
+"2023",
+"2024",
+"2025",
+"2026"
+],
+"roe": [
+null,
+null,
+-12.49,
+-18.11,
+24.69,
+null
+],
+"roic": [
+null,
+null,
+-5.54,
+-2.56,
+4.47,
+0.94
+],
+"fcf": [
+78.14,
+-1.77,
+-0.7,
+-11.91,
+-10.33,
+-8.2
+],
+"nd": 16.2,
+"pe": 7.05,
+"pb": 2.31,
+"dy": null,
+"po": null,
+"ttm": "2026-09-30",
+"per": "2026-Q1",
+"got": "2026-11-12",
+"url": "https://stockanalysis.com/quote/nse/SICALLOG/financials/ratios/"
 },
 "BLUEWATER": {
 "asof": "2026-11-07",
