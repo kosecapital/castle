@@ -151,5 +151,33 @@
   "drop": null,
   "guidance": [],
   "notes": "9M 2026 from the bank's Q3 2026 report (Sina copy of the filing): net profit 9,917.974m (9M 2025: 9,492.539m), basic = diluted EPS 2.28 (2.24); Q3 3,013.455m, EPS 0.65 (-4.41% although profit rose 4.78%: more shares outstanding). FY2025 from the bank's own action-plan evaluation report (https://pdf.dfcfw.com/pdf/H2_AN202604221821462040_1.pdf): net profit 13.283bn (rounded), basic EPS 3.07; the 2025 annual report itself was not opened, so FY2025 diluted EPS and the excl.-non-recurring figure were not read. TTM EPS 3.11 = 2.28 + 3.07 - 2.24 (basic for 2025); net profit uses the rounded 13,283. Non-recurring items are negligible: 61.1m after tax in 9M 2026 (government subsidies 79.9m pre-tax), 0.6% of profit; none listed. Tax rate is my division: 9M 2026 income tax 1,509.4 / total profit 11,427.4. No profit guidance."
+ },
+ "603605": {
+  "unit": "million CNY",
+  "eps_cur": "CNY",
+  "ttm": {
+   "eps": 4.42,
+   "net_profit": 1728.2,
+   "tr": "Ekim 2025 - Eylül 2026 (2026 dokuz ay + 2025 yılı − 2025 dokuz ay): kâr 1.256,1 + 1.497,8 − 1.025,7 = 1.728,2 milyon yuan; hisse başına 3,20 + 3,81 − 2,59 = 4,42 yuan",
+   "en": "October 2025 - September 2026 (nine months 2026 + full year 2025 − nine months 2025): profit 1,256.1 + 1,497.8 − 1,025.7 = 1,728.2 million yuan; per share 3.20 + 3.81 − 2.59 = 4.42 yuan",
+   "url": "https://stockmc.xueqiu.com/202610/603605_20261030_XV1A.pdf",
+   "primary": true
+  },
+  "tax_rate": 11.8,
+  "gains": [
+   {
+    "tr": "Şirketin 'olağan dışı' diye ayırdığı kalemlerin son 12 aydaki net tutarı (çoğu, Flower Knows'un denetimi alınırken eski payın yeniden değerlenmesinden doğan 445,4 milyon yuanlık kazanç)",
+    "en": "Net total over the last 12 months of the items the company itself classes as non-recurring (mostly the 445.4 million yuan gain from revaluing the earlier stake when control of Flower Knows was taken)",
+    "frac": 0.295,
+    "how": null,
+    "period_tr": null,
+    "period_en": null,
+    "url": "https://stockmc.xueqiu.com/202610/603605_20261030_XV1A.pdf"
+   }
+  ],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "All primary. Q3 2026 report: 9M net profit 1,256.100m, excl. non-recurring 743.276m, basic EPS 3.20, diluted 3.19; non-recurring table 9M (yuan): asset disposal 1,481,955.73; government grants 56,154,055.27; fair value/disposal of financial assets 27,577,628.04; gain on business combination achieved in stages 445,360,152.15; other non-operating 9,649,024.63; less tax 19,916,117.61 and minorities 7,483,465.99; total 512,823,232.22 (after tax and minorities; Q3 alone 9,161,104.15). 2025 annual report summary: FY2025 net profit 1,497.751m, excl. 1,472.510m (non-recurring 25.242m), basic EPS 3.81, diluted 3.80; Q4 2025 net profit 472.051m, excl. 474.804m. Q3 2025 report: 9M 2025 net profit 1,025.700m, excl. 997.706m, non-recurring 27.994m, basic = diluted EPS 2.59. TTM net profit = 1,256.100 + 1,497.751 - 1,025.700 = 1,728.151m (= Q4 2025 472.051 + 9M 2026 1,256.100). TTM basic EPS 4.42 (diluted 3.19 + 3.80 - 2.59 = 4.40). TTM non-recurring = 512.823 + 25.242 - 27.994 = 510.071m = 29.5% of TTM net profit (frac is already after tax and minorities, from the company's table). The dataset implies 19,400 / 11.23 = 1,727.5m, matching the filing. Tax rate is my division: 9M 2026 income tax 174.771m / total profit 1,485.393m = 11.8% (low because the step-acquisition gain carries almost no tax; the table's tax effect on all non-recurring items is only 19.9m). No company EPS or profit guidance found. Note: Flower Knows is consolidated from Q2/Q3 2026 at 51%, so future recurring profit includes its share; the script is not asked to add that back."
  }
 }

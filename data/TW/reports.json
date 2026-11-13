@@ -1151,5 +1151,232 @@
    },
    "per": "2026-Q3"
   }
+ },
+ "3218": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 1,
+   "E": 2
+  },
+  "moat": "dar",
+  "per": "2026-Q2",
+  "one": "Tayvan'da göz kliniği zinciri ve gözlükçü işleten şirket. Kalite surlarını geçti; son çeyrekte hisse başına kâr geriledi, Çin'deki yeni hastane kârı baskılayabilir.",
+  "business": "Universal Vision Biotechnology (大學光), anlaşmalı göz kliniklerine cihaz, sarf malzemesi ve yönetim hizmeti verir; kendi gözlük mağazalarını da işletir. Şubat 2026'da Tayvan'da 33 anlaşmalı kliniği ve 35 mağazası, Çin'de 5 anlaşmalı hastanesi ve 4 kliniği vardı. Para, lazerle göz çizdirme, katarakt ameliyatı ve çocuklarda miyop kontrolü ürünlerinden gelir. 2025'te hasılat 4,20 milyar Tayvan doları oldu; %88'i Tayvan'dan, %12'si Çin'den geldi. Hisse başına kâr 12,31 Tayvan doları.",
+  "moat_text": "Hendek dar. Üstünlük ölçekten ve markadan geliyor. Şirketin aktardığına göre Tayvan'daki SMILE lazer cihazlarının yaklaşık %21'i (21 cihaz) onda, ama bu ameliyatların yarısından fazlası onun kliniklerinde yapılıyor. Kanıt marjda: 2026'nın ilk dokuz ayında brüt marj %57,5, faaliyet marjı %30,3; reel özsermaye kârlılığı beş yılda %24,7 ile %30,9 arasında kaldı. Hastalar pahalı seçeneğe kayıyor: katarakt ameliyatlarının %53'ü femtosaniye lazerle yapılıyor (2020'de %19). Zayıf yanı da açık: göz çizdirme isteğe bağlı bir harcama. 2025'te Tayvan pazarı %20-30 daraldı, şirketin bu işi yaklaşık %18 geriledi. Hisse başına kâr 2023'ten beri artmıyor (12,71, 12,57, 12,31). Aynı model Çin'de tutmadı: orada hasılat 2025'te %18 düştü ve iş zararda. Bu yüzden hendek geniş sayılamaz.",
+  "mgmt": "Şirketi 1994'te iki göz hekimi, Lin Pi-jung (林丕容) ve Ou Shu-fang (歐淑芳) kurdu; Ou yönetim kurulu başkanı, genel müdür Lu Cheng-hung. Borsa kayıtlarını aktaran veri sitesine göre Lin Pi-jung 19,3 milyon, Qun-Yi Development 7,5 milyon hisse tutuyor (sermaye 84,7 milyon hisse). Kârın çoğu ortağa dönüyor: 2025 kârından hisse başına 7,75 Tayvan doları nakit temettü ödendi (kârın yaklaşık %63'ü), bir yıl önce 7,5. Kusuru da var: şirket ana işle ilgisi olmayan ABD devlet tahvili yatırımı yaptı. Bu yatırım 2025'in ikinci çeyreğinde 205 milyon Tayvan doları değerleme zararı yazdırdı; 2026'nın ikinci çeyreğinde yaklaşık 52 milyon zararla tamamen satıldı. Şirket uzun vadeli yatırım olarak TSMC hissesi de tutuyor. 2026'da Çin'deki bağlı şirketin kalan %30'unu aldı ve Suzhou'da bir göz hastanesi kuruyor. Klinikler hekimlere ait ayrı kuruluşlardır; şirketin geliri onlarla yaptığı sözleşmelere dayanır.",
+  "latest": "12 Kasım 2026: Yönetim kurulu 2026'nın ilk dokuz ayının sonuçlarını onayladı. Hasılat 3,38 milyar Tayvan doları (geçen yılın aynı dönemi 3,17 milyar), faaliyet kârı 1,02 milyar (geçen yıl 1,04 milyar), ana ortaklığa düşen net kâr 779 milyon Tayvan doları (geçen yıl 748 milyon). Hisse başına kâr 9,20 Tayvan doları; geçen yıl 8,83 idi. Üçüncü çeyrekte hasılat %13,3 arttı, ama hisse başına kâr 4,05'ten 3,21 Tayvan dolarına indi: geçen yılın aynı çeyreğinde yaklaşık 98 milyon Tayvan doları faaliyet dışı gelir vardı, bu yıl yok. Eylül sonunda ana ortaklığa ait özsermaye 4,20 milyar Tayvan doları. Ekim hasılatı 377 milyon Tayvan doları ile geçen yılın %8,73 üstünde.",
+  "risks": [
+   "Fiyat ölçütündeki pay büyüme varsayımına ve kârın korunmasına dayanır, ama kâr üç yıldır artmıyor: hisse başına kâr 2023'te 12,71, 2025'te 12,31 Tayvan doları; 2026'nın üçüncü çeyreğinde 4,05'ten 3,21'e indi. Brüt marj da dokuz ayda %59,1'den %57,5'e geriledi.",
+   "Göz çizdirme isteğe bağlı bir harcamadır: 2025'te Tayvan pazarı %20-30 daraldı. Tüketici güveni düşerse en kârlı iş ilk etkilenir.",
+   "Çin'de iş zararda ve şirket oraya yeni para koyuyor: Suzhou'daki hastanenin 2027'nin ilk çeyreğinde açılması bekleniyor; açılış öncesi giderler kârı düşürür, geri dönüşü belirsiz.",
+   "Klinikler şirkete ait değildir; gelir, hekimlerin sahibi olduğu kliniklerle yapılan sözleşmelere ve hekimlerin şirkette kalmasına bağlıdır. Sağlık kurallarındaki bir değişiklik bu düzeni etkileyebilir.",
+   "Şirket geçmişte ana iş dışı tahvil yatırımından zarar yazdı ve hâlâ TSMC hissesi tutuyor; benzer bir yatırım kârı yeniden oynatabilir."
+  ],
+  "watch": [
+   "Aylık hasılatın yıllık değişimi (Ekim 2026: %8,73)",
+   "Brüt marj (2026'nın ilk dokuz ayında %57,5)",
+   "Çin'deki işin kârı ve Suzhou hastanesinin açılış tarihi",
+   "Hisse başına temettü (2025 kârından 7,75 Tayvan doları)"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tpex/3218/financials/ratios/"
+   },
+   {
+    "t": "Yahoo Finance Tayvan (MoneyDJ): Universal Vision dokuz aylık sonuçlar, borsa bildirimi (12 Kasım 2026)",
+    "te": "Yahoo Finance Taiwan (MoneyDJ): Universal Vision nine-month results, exchange filing (12 November 2026)",
+    "u": "https://tw.stock.yahoo.com/news/%E5%A4%A7%E5%AD%B8%E5%85%89%E5%89%8D%E4%B8%89%E5%AD%A3%E5%90%88%E4%BD%B5%E7%8D%B2%E5%88%A97-79%E5%84%84%E5%85%83-%E6%AF%8F%E8%82%A1%E7%A8%85%E5%BE%8C9-20%E5%85%83-122900948.html"
+   },
+   {
+    "t": "Yahoo Finance Tayvan (MoneyDJ): Universal Vision 2026 üçüncü çeyrek gelir tablosu (12 Kasım 2026)",
+    "te": "Yahoo Finance Taiwan (MoneyDJ): Universal Vision Q3 2026 income statement (12 November 2026)",
+    "u": "https://tw.stock.yahoo.com/news/%E5%A4%A7%E5%AD%B8%E5%85%89-115%E5%B9%B4%E7%AC%AC3%E5%AD%A3%E7%B6%9C%E5%90%88%E6%90%8D%E7%9B%8A%E8%A1%A8-%E6%AF%8F%E8%82%A1%E7%9B%88%E9%A4%983-21%E5%85%83-092300567.html"
+   },
+   {
+    "t": "MoneyDJ: Universal Vision 2026 ilk yarı sonuçları, borsa bildirimi (12 Ağustos 2026)",
+    "te": "MoneyDJ: Universal Vision first-half 2026 results, exchange filing (12 August 2026)",
+    "u": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=9de3c023-4a98-4dd3-b61b-ba8c84e31fd3"
+   },
+   {
+    "t": "Global Bio & Investment Monthly: Universal Vision 2025 dokuz aylık sonuçlar, borsa bildirimi (12 Kasım 2025)",
+    "te": "Global Bio & Investment Monthly: Universal Vision nine-month 2025 results, exchange filing (12 November 2025)",
+    "u": "https://news.gbimonthly.com/tw/invest/show.php?num=81721"
+   },
+   {
+    "t": "China Times: Universal Vision 2025 ilk yarı sonuçları (13 Ağustos 2025)",
+    "te": "China Times: Universal Vision first-half 2025 results (13 August 2025)",
+    "u": "https://wantrich.chinatimes.com/news/20250813900564-420101"
+   },
+   {
+    "t": "Fugle: Universal Vision yatırımcı toplantısı notları (26 Mart 2026)",
+    "te": "Fugle: Universal Vision investor conference notes (26 March 2026)",
+    "u": "https://blog.fugle.tw/post/earnings-call-3218-2026-03-26"
+   },
+   {
+    "t": "Fugle: Universal Vision yatırımcı toplantısı notları (17 Ağustos 2026)",
+    "te": "Fugle: Universal Vision investor conference notes (17 August 2026)",
+    "u": "https://blog.fugle.tw/post/earnings-call-3218-2026-08-17"
+   },
+   {
+    "t": "Vocus: Universal Vision yatırımcı toplantısı özeti (26 Mart 2026)",
+    "te": "Vocus: Universal Vision investor conference summary (26 March 2026)",
+    "u": "https://vocus.cc/article/69dcd817fd89780001998e1a"
+   },
+   {
+    "t": "SinoPac Securities: Universal Vision 2025 ikinci çeyrekte değerleme zararı yazdı (15 Ağustos 2025)",
+    "te": "SinoPac Securities: Universal Vision books a valuation loss in Q2 2025 (15 August 2025)",
+    "u": "https://www.sinotrade.com.tw/richclub/hotnews/3218-大學光-2Q25認列評價損失-台灣營收成長幅度收斂-中國營運逢挑戰-689e852263793f3efc3c461b"
+   },
+   {
+    "t": "Cnyes (uanalyze): Universal Vision yılın ikinci yarısını daha iyi bekliyor (17 Ağustos 2026)",
+    "te": "Cnyes (uanalyze): Universal Vision expects a better second half (17 August 2026)",
+    "u": "https://uanalyze.com.tw/articles/3592353567"
+   },
+   {
+    "t": "MoneyDJ: Universal Vision üçüncü çeyrek hasılatı ve Çin hastanesi (30 Eylül 2026)",
+    "te": "MoneyDJ: Universal Vision third-quarter revenue and the China hospital (30 September 2026)",
+    "u": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=6e9ddd82-4f01-4f89-9362-2de18234fc54"
+   },
+   {
+    "t": "nStock: Universal Vision şirket özeti, Ekim 2026 hasılatı",
+    "te": "nStock: Universal Vision company summary, October 2026 revenue",
+    "u": "https://www.nstock.tw/大學光做什麼.html"
+   },
+   {
+    "t": "Cnyes (EMBA dergisi): Universal Vision'ın kuruluşu ve iş modeli (30 Aralık 2024)",
+    "te": "Cnyes (EMBA magazine): Universal Vision's founding and business model (30 December 2024)",
+    "u": "https://news.cnyes.com/news/id/5821682"
+   },
+   {
+    "t": "Poorstock: Universal Vision yönetici ve büyük ortak payları",
+    "te": "Poorstock: Universal Vision insider and major shareholder holdings",
+    "u": "https://poorstock.com/holders/3218"
+   }
+  ],
+  "en": {
+   "one": "Eye clinic chain and optical shops in Taiwan. Passed quality walls; earnings per share fell last quarter, and a new China hospital may hurt profit.",
+   "business": "Universal Vision Biotechnology (大學光) supplies partner eye clinics with equipment, consumables and management services, and runs its own optical shops. In February 2026 it had 33 partner clinics and 35 shops in Taiwan, and 5 partner hospitals and 4 clinics in China. The money comes from laser vision correction, cataract surgery and myopia-control products for children. Revenue in 2025 was 4.20 billion Taiwan dollars; 88% came from Taiwan and 12% from China. Earnings per share were 12.31 Taiwan dollars.",
+   "moat_text": "The moat is narrow. The advantage comes from scale and brand. According to the company, it owns about 21% of the SMILE laser machines in Taiwan (21 machines), yet more than half of these operations are done in its clinics. The evidence is in the margin: in the first nine months of 2026 gross margin was 57.5% and operating margin 30.3%; real return on equity stayed between 24.7% and 30.9% over five years. Patients are moving to the costlier option: 53% of cataract operations use a femtosecond laser (19% in 2020). The weak side is also clear: laser vision correction is discretionary spending. In 2025 the Taiwan market shrank by 20-30% and the company's business in it fell about 18%. Earnings per share have not grown since 2023 (12.71, 12.57, 12.31). The same model did not work in China: revenue there fell 18% in 2025 and the business loses money. So the moat cannot be called wide.",
+   "mgmt": "The company was founded in 1994 by two eye doctors, Lin Pi-jung (林丕容) and Ou Shu-fang (歐淑芳); Ou is chairman and the general manager is Lu Cheng-hung. According to a data site that relays exchange records, Lin Pi-jung holds 19.3 million shares and Qun-Yi Development 7.5 million (share capital is 84.7 million shares). Most of the profit returns to shareholders: a cash dividend of 7.75 Taiwan dollars per share was paid from 2025 profit (about 63% of profit), after 7.5 a year earlier. There is a flaw: the company invested in US government bonds, which have nothing to do with the core business. That investment caused a valuation loss of 205 million Taiwan dollars in the second quarter of 2025; it was sold in full in the second quarter of 2026 at a loss of about 52 million. The company also holds TSMC shares as a long-term investment. In 2026 it bought the remaining 30% of its China subsidiary and is building an eye hospital in Suzhou. The clinics are separate entities owned by doctors; the company's income rests on its contracts with them.",
+   "latest": "12 November 2026: The board approved the results for the first nine months of 2026. Revenue was 3.38 billion Taiwan dollars (3.17 billion in the same period last year), operating profit 1.02 billion (1.04 billion last year), and net profit attributable to the parent 779 million Taiwan dollars (748 million last year). Earnings per share were 9.20 Taiwan dollars, against 8.83 last year. In the third quarter revenue rose 13.3%, but earnings per share fell from 4.05 to 3.21 Taiwan dollars: the same quarter last year had about 98 million Taiwan dollars of non-operating income, and this year has none. Equity attributable to the parent was 4.20 billion Taiwan dollars at the end of September. October revenue was 377 million Taiwan dollars, 8.73% above last year.",
+   "risks": [
+    "The room in the price criterion rests on the growth assumption and on profit holding up, but profit has not grown for three years: earnings per share were 12.71 Taiwan dollars in 2023 and 12.31 in 2025, and fell from 4.05 to 3.21 in the third quarter of 2026. Gross margin also slipped from 59.1% to 57.5% over nine months.",
+    "Laser vision correction is discretionary spending: the Taiwan market shrank by 20-30% in 2025. If consumer confidence falls, the most profitable business is hit first.",
+    "The China business loses money and the company is putting new money into it: the Suzhou hospital is expected to open in the first quarter of 2027; pre-opening costs reduce profit and the payback is uncertain.",
+    "The clinics do not belong to the company; income depends on contracts with clinics owned by doctors and on those doctors staying. A change in health rules could affect this arrangement.",
+    "The company has booked losses on a bond investment outside its core business and still holds TSMC shares; a similar investment could swing profit again."
+   ],
+   "watch": [
+    "Year-on-year change in monthly revenue (October 2026: 8.73%)",
+    "Gross margin (57.5% in the first nine months of 2026)",
+    "Profit of the China business and the opening date of the Suzhou hospital",
+    "Dividend per share (7.75 Taiwan dollars from 2025 profit)"
+   ]
+  },
+  "earn": {
+   "k": 0.942,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Kaynağın F/K'sı son 12 ay için hisse başına 13,47 TWD kâr ima ediyor; şirketin kendi tablolarından toplanan son 12 ay kârı hisse başına 12,68 TWD. Farkın nedeni bulunamadı; şirketin belgesi esas alındı ve kazanç bu orana indirildi (%5,8). Aynı dönemin tek seferlik giderleri: Nisan-Haziran 2026 çeyreğinde ABD devlet tahvili yatırımının satışından yaklaşık 52 milyon Tayvan doları zarar (vergi öncesi; %20,4 vergi oranıyla çevrildi): %3,9. Giderler kazançlardan büyük; kazanç indirilmedi (yargı kazancı yükseltmez). Son 12 ayın kârı 0,94 ile çarpılarak kullanıldı.",
+    "en": "The calculation rests on the profit of the last 12 months. The data source's P/E implies a last-12-month profit of 13.47 TWD per share; the last-12-month profit added up from the company's own statements is 12.68 TWD per share. The reason for the gap was not found; the company's document was taken as the basis and earnings were lowered to that ratio (5.8%). One-off charges in the same period: A loss of about 52 million Taiwan dollars on the sale of the US government bond investment in the April-June 2026 quarter (pre-tax; converted at a 20.4% tax rate): 3.9%. The charges exceed the gains; earnings were not lowered (the judgment never raises earnings). Last-12-month profit was used multiplied by 0.94."
+   },
+   "ks": 0.942,
+   "per": "2026-Q2"
+  },
+  "growth": {
+   "g": 5.3,
+   "basis": {
+    "tr": "Formül yılda %10,7 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 %4,2; Temmuz-Eylül 2026 çeyreği %−20,7. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %5,3.",
+    "en": "The formula gave growth of 10.7% a year. Latest figures (earnings per share, year on year): January-September 2026 4.2%; July-September 2026 quarter −20.7%. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 5.3%."
+   },
+   "per": "2026-Q2"
+  }
+ },
+ "6826": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-H1",
+  "one": "Çip fabrikalarına gaz ve kimyasal besleme sistemi kuran Tayvanlı şirket. Kârlılığı yüksek, ama iş proje proje alınıyor; hendek ölçütünü geçemedi.",
+  "business": "Taiwan Puritic (和淞科技) çip fabrikalarının gaz ve kimyasal besleme sistemlerini tasarlar, kurar ve dener; bu sistemlerin donanımını da üretir (vana kutusu, gaz kabini, atık gaz yıkayıcı). 1996'da kuruldu, merkezi ve fabrikası Hsinchu'nun Hukou ilçesindedir. 2025'te hasılat 16,53 milyar Tayvan doları, net kâr 2,34 milyar Tayvan doları oldu. Hasılatın %82,9'u sistem kurulumundan, %17,1'i donanım ve diğer işlerden geliyor. Müşteriler arasında TSMC, UMC, Micron, Nanya ve Winbond sayılıyor.",
+  "moat_text": "Hendek zayıf. Şirket bu ölçütü geçemedi. Üstünlük var: donanımın çoğunu kendi üretiyor, ileri çip fabrikalarında iş geçmişi var ve bu kârlılıkta görünüyor. Reel özsermaye kârlılığı son dört yılda %32,1 ile %33,1 arasında, son 12 ayda %36,2; brüt marj 2021'de %12,0 iken 2025'te %26,2 oldu. Ama iş, her yeni fabrika için ayrı ayrı alınan projedir; şirket hedefini yurt içi ve yurt dışı projelere teklif vermek diye anlatıyor. Aynı işi Tayvan'da Marketech (帆宣), Trusval (信紘科) ve Nova Technology (朋億) de yapıyor. Hasılat çip üreticilerinin yatırım harcamasına bağlı: 2024'te %3,9 geriledi, 2026'nın ilk on ayında %39,5 arttı. Brüt marj 2026'nın ilk yarısında %22,3'e indi (bir yıl önce %25,8). Yüksek kârlılık, fabrika yatırımlarının çok güçlü olduğu yıllara denk geliyor; yatırım yavaşladığında kârlılığı koruyacak, rakamla kanıtlı bir üstünlük göremedik. Müşteri payları ve eldeki sipariş tutarı okuduğumuz kaynaklarda yoktu.",
+  "mgmt": "En büyük ortak Cathay Chemical (國化, 1713): %27,73 pay, özkaynak yöntemiyle. Cathay Chemical payını %20'nin üstünde tutmayı hedeflediğini söylüyor. Kâr ortağa ve ana işe gidiyor: 2025 kârından hisse başına 14 Tayvan doları nakit temettü ödendi (hisse başına kârın %51'i); 2024 kârından 11 Tayvan doları nakit ve 3 Tayvan doları bedelsiz hisse verilmişti. Net nakit var (net borç/FAVÖK −2,59). Şirket 2024'te nakit sermaye artırımı yaptı; ödenmiş sermaye 608 milyondan 658 milyon Tayvan dolarına çıktı. Yönetim kurulu Temmuz 2026'da ABD'deki bağlı şirket Propersys'e sermaye koymayı onayladı. Hisse, Taipei Borsası'nın gelişen şirketler pazarında (興櫃) işlem görüyor: şirket sonuçlarını üç ayda bir değil, altı ayda bir açıklıyor ve işlem hacmi düşük.",
+  "latest": "11 Ağustos 2026: Yönetim kurulu 2026'nın ilk yarı sonuçlarını onayladı. Hasılat 10,04 milyar Tayvan doları (geçen yılın aynı dönemi 7,87 milyar; %27,6 artış). Faaliyet kârı 1,50 milyar Tayvan doları ile geçen yılın 1,47 milyarına yakın kaldı; brüt marj %25,8'den %22,3'e indi. Net kâr 1,19 milyar Tayvan doları (geçen yıl 867 milyon), hisse başına kâr 13,94 Tayvan doları (geçen yıl 10,14). Net kârdaki artışın büyük bölümü faaliyet dışından geliyor: geçen yıl 330 milyon Tayvan doları faaliyet dışı gider vardı, bu yıl 148 milyon gelir var. Haziran sonunda özsermaye 7,52 milyar Tayvan doları. Ekim 2026 hasılatı 2,66 milyar Tayvan doları ile aylık rekor; ilk on ayın hasılatı 18,55 milyar Tayvan doları (%39,5 artış). Üçüncü çeyrek sonucu açıklanmaz; sıradaki tablo 2026 yıl sonudur.",
+  "risks": [],
+  "watch": [],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tpex/6826/financials/ratios/"
+   },
+   {
+    "t": "Yahoo Finance Tayvan (MoneyDJ): Taiwan Puritic 2026 ilk yarı konsolide sonuçları, borsa bildirimi (11 Ağustos 2026)",
+    "te": "Yahoo Finance Taiwan (MoneyDJ): Taiwan Puritic first-half 2026 consolidated results, exchange filing (11 August 2026)",
+    "u": "https://tw.stock.yahoo.com/news/%E5%92%8C%E6%B7%9E%E4%B8%8A%E5%8D%8A%E5%B9%B4%E5%90%88%E4%BD%B5%E7%8D%B2%E5%88%A911-92%E5%84%84%E5%85%83-%E6%AF%8F%E8%82%A1%E7%A8%85%E5%BE%8C13-94%E5%85%83-122300402.html"
+   },
+   {
+    "t": "Lisa-1688: Taiwan Puritic yıllık ve altı aylık gelir tablosu ve bilanço özetleri (2020-2025)",
+    "te": "Lisa-1688: Taiwan Puritic annual and half-year income statement and balance sheet summaries (2020-2025)",
+    "u": "https://www.lisa-1688.com.tw/m/cmpany_fs.php?STID=66826"
+   },
+   {
+    "t": "Commercial Times: gelişen şirketler pazarının 2025 yıllık sonuçları, Taiwan Puritic hisse başına kâr 27,33 (2 Mayıs 2026)",
+    "te": "Commercial Times: Emerging Stock Board 2025 annual results, Taiwan Puritic EPS 27.33 (2 May 2026)",
+    "u": "https://www.ctee.com.tw/news/20260502700036-430201"
+   },
+   {
+    "t": "MoneyDJ: Taiwan Puritic şirket tanıtımı, iş kolları ve müşteriler (16 Temmuz 2025)",
+    "te": "MoneyDJ: Taiwan Puritic company profile, segments and customers (16 July 2025)",
+    "u": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=e5452a82-e894-41ad-beff-53ff8c76fd69"
+   },
+   {
+    "t": "Fugle: Cathay Chemical yatırımcı toplantısı notları, Taiwan Puritic payı ve temettüsü (19 Mart 2026)",
+    "te": "Fugle: Cathay Chemical investor conference notes, Taiwan Puritic stake and dividend (19 March 2026)",
+    "u": "https://blog.fugle.tw/post/earnings-call-1713-2026-03-19"
+   },
+   {
+    "t": "LINE Today (MoneyDJ): Cathay Chemical, Taiwan Puritic payını %20'nin üstünde tutacak (21 Mart 2025)",
+    "te": "LINE Today (MoneyDJ): Cathay Chemical to keep its Taiwan Puritic stake above 20% (21 March 2025)",
+    "u": "https://today.line.me/tw/v3/article/wJ1B17Y"
+   },
+   {
+    "t": "HiStock: Taiwan Puritic aylık hasılat (Ekim 2026'ya kadar)",
+    "te": "HiStock: Taiwan Puritic monthly revenue (to October 2026)",
+    "u": "https://histock.tw/stock/financial.aspx?no=6826"
+   },
+   {
+    "t": "nStock: Taiwan Puritic şirket özeti, temettü ve marjlar (12 Kasım 2026)",
+    "te": "nStock: Taiwan Puritic company summary, dividends and margins (12 November 2026)",
+    "u": "https://www.nstock.tw/%E5%92%8C%E6%B7%9E%E5%81%9A%E4%BB%80%E9%BA%BC.html"
+   },
+   {
+    "t": "China Times: Taiwan Puritic'in işi ve hedefleri (30 Haziran 2021)",
+    "te": "China Times: Taiwan Puritic's business and plans (30 June 2021)",
+    "u": "https://www.chinatimes.com/newspapers/20210630000220-260511"
+   },
+   {
+    "t": "nStock: Taiwan Puritic yönetim kurulu ABD'deki bağlı şirkete sermaye artırımını onayladı, borsa bildirimi (2 Temmuz 2026)",
+    "te": "nStock: Taiwan Puritic board approves capital increase for its US subsidiary, exchange filing (2 July 2026)",
+    "u": "https://www.nstock.tw/news/article_m?id=505502"
+   }
+  ],
+  "en": {
+   "one": "Taiwanese builder of gas and chemical supply systems for chip fabs. Returns are high, but work is won project by project; moat criterion not met.",
+   "business": "Taiwan Puritic (和淞科技) designs, installs and tests the gas and chemical supply systems of chip fabs; it also makes the equipment for these systems (valve boxes, gas cabinets, exhaust scrubbers). It was founded in 1996; its head office and factory are in Hukou, Hsinchu. In 2025 revenue was 16.53 billion Taiwan dollars and net profit 2.34 billion Taiwan dollars. System installation brings 82.9% of revenue, equipment and other work 17.1%. Customers named include TSMC, UMC, Micron, Nanya and Winbond.",
+   "moat_text": "The moat is weak. The company did not meet this criterion. There is an advantage: it makes most of the equipment itself, has a track record at leading-edge chip fabs, and this shows in its returns. Real return on equity was between 32.1% and 33.1% in the last four years and 36.2% in the last 12 months; gross margin rose from 12.0% in 2021 to 26.2% in 2025. But the work is a project won separately for each new fab; the company describes its own aim as bidding for projects at home and abroad. Marketech (帆宣), Trusval (信紘科) and Nova Technology (朋億) do the same work in Taiwan. Revenue depends on chipmakers' capital spending: it fell 3.9% in 2024 and rose 39.5% in the first ten months of 2026. Gross margin fell to 22.3% in the first half of 2026 (25.8% a year earlier). The high returns coincide with years of very strong fab investment; we could not find an advantage, proven with numbers, that would protect returns when investment slows. Customer shares and the order backlog were not in the sources we read.",
+   "mgmt": "The largest shareholder is Cathay Chemical (國化, 1713): a 27.73% stake, held under the equity method. Cathay Chemical says it aims to keep its stake above 20%. Profit goes to shareholders and the main business: a cash dividend of 14 Taiwan dollars per share was paid from 2025 profit (51% of earnings per share); from 2024 profit it was 11 Taiwan dollars in cash and 3 Taiwan dollars in bonus shares. There is net cash (net debt/EBITDA −2.59). The company raised cash through a share issue in 2024; paid-in capital rose from 608 million to 658 million Taiwan dollars. In July 2026 the board approved a capital injection into the US subsidiary Propersys. The shares trade on the Taipei Exchange's Emerging Stock Board (興櫃): the company reports results every six months, not every three, and trading volume is low.",
+   "latest": "11 August 2026: The board approved the results for the first half of 2026. Revenue was 10.04 billion Taiwan dollars (7.87 billion in the same period last year; up 27.6%). Operating profit was 1.50 billion Taiwan dollars, close to last year's 1.47 billion; gross margin fell from 25.8% to 22.3%. Net profit was 1.19 billion Taiwan dollars (867 million last year) and earnings per share 13.94 Taiwan dollars (10.14 last year). Most of the rise in net profit comes from non-operating items: last year there was a non-operating expense of 330 million Taiwan dollars, this year an income of 148 million. Equity was 7.52 billion Taiwan dollars at the end of June. October 2026 revenue was 2.66 billion Taiwan dollars, a monthly record; revenue for the first ten months was 18.55 billion Taiwan dollars (up 39.5%). No third-quarter result is published; the next statement is the 2026 year-end.",
+   "risks": [],
+   "watch": []
+  }
  }
 }

@@ -302,5 +302,162 @@
    }
   ],
   "notes": "All primary: the full-year kessan tanshin (8 Oct 2026, Japanese, IFRS). FY Aug 2026 profit attributable 542,516m (FY2025: 433,009m); basic EPS 1,768.08, diluted 1,765.70 (1,411.44 / 1,409.32). Forecast EPS 1,825.06 is basic; forecast is ABOVE the last 12 months (+3.2%). No company-labelled one-off gain. Currency gains: 7,168m in finance income (33,826m the year before) and 15,306m in other income (5,990m the year before); reversal of impairment 253m; each is under 3% of net profit pre-tax, though together the FX gains are 22,474m pre-tax (about 3% of net profit after tax at 27.2%). Finance income total 74,460m is mostly interest. Tax rate is my division: income tax 218,364 / profit before tax 802,505."
+ },
+ "194A": {
+  "unit": "million JPY",
+  "eps_cur": "JPY",
+  "ttm": {
+   "eps": 124.88,
+   "net_profit": 939,
+   "tr": "Temmuz 2025 - Haziran 2026 (mali yılın tamamı)",
+   "en": "July 2025 - June 2026 (full fiscal year)",
+   "url": "https://www2.jpx.co.jp/disc/194A0/081220260813518909_tse-acedjpsm-194A0-202608133194A0-ixbrl.htm"
+  },
+  "tax_rate": 27.6,
+  "gains": [
+   {
+    "tr": "Negatif şerefiye kazancı: Ocak 2026'da bağlı ortaklık Kaltech'in devraldığı fotokatalizör işinde ödenen bedel, alınan net varlıkların değerinden düşük kaldı (olağan dışı gelir, 227,5 milyon yen vergi öncesi)",
+    "en": "Negative goodwill gain: in the photocatalyst business taken over by the subsidiary Kaltech in January 2026 the price paid was below the value of the net assets acquired (extraordinary income, 227.5 million yen pre-tax)",
+    "frac": 0.1754,
+    "how": 27.6,
+    "period_tr": "Haziran 2026 mali yılı (Ocak-Haziran 2026)",
+    "period_en": "fiscal year to June 2026 (January-June 2026)",
+    "url": "https://www2.jpx.co.jp/disc/194A0/140120260813518909.pdf"
+   },
+   {
+    "tr": "Kademeli edinim kazancı: iştirak Asuka Medical'in tamamı alınırken eski payın yeniden değerlenmesi (olağan dışı gelir, 12,9 milyon yen vergi öncesi)",
+    "en": "Gain on step acquisition: revaluation of the earlier stake when the affiliate Asuka Medical became wholly owned (extraordinary income, 12.9 million yen pre-tax)",
+    "frac": 0.01,
+    "how": 27.6,
+    "period_tr": "Haziran 2026 mali yılı (Temmuz 2025-Mart 2026)",
+    "period_en": "fiscal year to June 2026 (July 2025-March 2026)",
+    "url": "https://www2.jpx.co.jp/disc/194A0/140120260813518909.pdf"
+   },
+   {
+    "tr": "Duran varlık satış kazancı (olağan dışı gelir, 11,0 milyon yen vergi öncesi)",
+    "en": "Gain on sale of fixed assets (extraordinary income, 11.0 million yen pre-tax)",
+    "frac": 0.0084,
+    "how": 27.6,
+    "period_tr": "Haziran 2026 mali yılı",
+    "period_en": "fiscal year to June 2026",
+    "url": "https://www2.jpx.co.jp/disc/194A0/140120260813518909.pdf"
+   }
+  ],
+  "offsets": [
+   {
+    "tr": "Değer düşüklüğü zararı (olağan dışı gider, 83,4 milyon yen vergi öncesi)",
+    "en": "Impairment loss (extraordinary loss, 83.4 million yen pre-tax)",
+    "frac": 0.0643,
+    "how": 27.6,
+    "period_tr": "Nisan-Haziran 2026 çeyreği",
+    "period_en": "April-June 2026 quarter",
+    "url": "https://www2.jpx.co.jp/disc/194A0/140120260813518909.pdf"
+   }
+  ],
+  "drop": null,
+  "guidance": [
+   {
+    "fy_tr": "Haziran 2027 mali yılı",
+    "fy_en": "fiscal year to June 2027",
+    "mid": 132.9,
+    "low": 132.9,
+    "high": 132.9,
+    "kind": "reported",
+    "url": "https://www2.jpx.co.jp/disc/194A0/081220260813518909_tse-acedjpsm-194A0-202608133194A0-ixbrl.htm",
+    "date": "2026-08-13"
+   }
+  ],
+  "notes": "All primary: full-year kessan tanshin of 13 Aug 2026 (Japanese GAAP, consolidated; amounts in thousand yen) and the nine-month tanshin of 13 May 2026. TTM = FY to June 2026 because the Q1 FY2027 tanshin (filed 11 Nov 2026) could NOT be opened (see growth_facts notes): profit attributable 939,402k; basic EPS 124.88, diluted 121.39 (the data source's P/E implies 1,351/11.13 = 121.4, i.e. the diluted figure; I used BASIC because the company's forecast EPS 132.90 is basic). Tax rate is my division: income taxes 357,483k / profit before tax 1,296,886k = 27.6%. One-offs, all from the extraordinary section: gains 251,315k = negative goodwill 227,452k + step-acquisition gain 12,913k + gain on sale of fixed assets 10,950k; losses 86,140k = impairment 83,376k + retirement of fixed assets 897k + other 1,866k (the last two left out as too small). frac = pre-tax amount x (1 - 0.2756) / 939,402k, following the rule that pre-tax amounts are converted at the effective rate. CAVEAT for the main session: the company does not disclose the tax effect of these items; a negative goodwill gain and a step-acquisition gain are usually not taxed, so the true after-tax share may be closer to the pre-tax share (227,452/939,402 = 24.2%; 12,913 = 1.4%). With the converted figures net one-offs = 0.1754+0.0100+0.0084-0.0643 = 12.95% of TTM profit; untaxed gains with the impairment at 27.6% would give about 20.3%. Nine-month figures: negative goodwill 154,454k, step gain 12,913k, fixed asset gain 7,700k, no impairment; so 72,998k of the negative goodwill gain and the whole impairment fall in April-June 2026 (subtraction). The cause of the impairment is not stated in the tanshin. Forecast EPS 132.90 (13 Aug 2026) is ABOVE the last 12 months; whether it was revised on 11 Nov 2026 was not read. Enterprise is not IAS 29; no `monetary`."
+ },
+ "3854": {
+  "unit": "million JPY",
+  "eps_cur": "JPY",
+  "ttm": {
+   "eps": 167.01,
+   "net_profit": 4175,
+   "tr": "Ağustos 2025 - Temmuz 2026 (mali yılın tamamı)",
+   "en": "August 2025 - July 2026 (full fiscal year)",
+   "url": "https://www2.jpx.co.jp/disc/38540/081220260904532017_tse-acedjpsm-38540-20260907338540-ixbrl.htm"
+  },
+  "tax_rate": null,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [
+   {
+    "fy_tr": "Temmuz 2027 mali yılı",
+    "fy_en": "fiscal year to July 2027",
+    "mid": 141.67,
+    "low": 141.67,
+    "high": 141.67,
+    "kind": "reported",
+    "url": "https://www2.jpx.co.jp/disc/38540/081220260904532017_tse-acedjpsm-38540-20260907338540-ixbrl.htm",
+    "date": "2026-09-07"
+   }
+  ],
+  "notes": "Primary: full-year kessan tanshin summary (7 Sep 2026, Japanese GAAP): profit attributable 4,175m (FY2025 3,488m), basic EPS 167.01 (141.32); no dilutive shares. The last four quarters are the fiscal year itself, so no arithmetic. Source check: price 2,310 / P/E 13.83 = 167.0, matches. Forecast EPS 141.67 is BELOW the last 12 months (-15.2%). One-offs: the full-year income statement could not be read (only the summary page opened; the full PDF was blocked). What was read: first half (Aug 2025-Jan 2026, interim tanshin of 6 Mar 2026, https://assets.finboard.net/tdnet-filings/20260305576562.pdf): no extraordinary income, extraordinary loss 60 thousand yen, non-operating income 18.8m. FY2025: no extraordinary income, loss 1.4m. For the full year, ordinary profit 5,607m vs net profit 4,175m implies a 25.5% charge if there were no extraordinary items (FY2025 actual tax rate 26.8%: 1,277.9 / 4,766.2; first half FY2026 31.4%: 894.0 / 2,850.1), so there is no sign of a material one-off gain, but second-half extraordinary items are unverified. EDINET DB shows full-year non-operating income of 42.9m and non-operating expenses of 0.9m (not primary). tax_rate left null because the FY2026 rate was not read."
+ },
+ "6200": {
+  "unit": "million JPY",
+  "eps_cur": "JPY",
+  "ttm": {
+   "eps": 52.36,
+   "net_profit": 4374,
+   "tr": "Ekim 2025 - Eylül 2026 (mali yılın tamamı; dört çeyrek: 962 + 1.065 + 1.050 + 1.297 = 4.374 milyon yen)",
+   "en": "October 2025 - September 2026 (the full fiscal year; four quarters: 962 + 1,065 + 1,050 + 1,297 = 4,374 million yen)",
+   "url": "https://finance.matsui.co.jp/stock/6200/settlement/index",
+   "primary": false
+  },
+  "tax_rate": null,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [
+   {
+    "fy_tr": "Eylül 2027'de biten yıl",
+    "fy_en": "year to September 2027",
+    "mid": 59.01,
+    "low": 59.01,
+    "high": 59.01,
+    "kind": "reported",
+    "url": "https://www.kabutec.jp/company/?code=6200",
+    "date": "2026-11-02",
+    "primary": false
+   }
+  ],
+  "notes": "Japanese GAAP; fiscal year ends 30 September, so the last 12 months equal FY2026. EPS 52.36 and net profit 4,374m are from Matsui Securities and Kabutec, net profit also from Yahoo Finance Japan's summary of the 2 Nov 2026 tanshin; the tanshin PDF itself (https://www.release.tdnet.info/inbs/140120261102562860.pdf) was blocked, so NOT primary. Cross-check with primary documents: nine months to June 2026 net profit 3,077m, EPS 36.63 (JPX Q3 tanshin, https://www2.jpx.co.jp/disc/62000/081220260803506966_tse-qcedjpsm-62000-20260803362000-ixbrl.htm), leaving 1,297m for July-September; quarterly split 962 / 1,065 / 1,050 / 1,297 (Matsui; Q1 962.8m and Q3 1,050m also in company documents). Source check: price 679 / P/E 12.97 = 52.35, matches EPS 52.36. No diluted EPS is reported. Guidance EPS 59.01 (net profit 4,800m) is ABOVE the 12-month level. One-off gains: NOT VERIFIED - the income statement of the full-year tanshin could not be read, so extraordinary income/losses and the tax rate for FY2026 are unknown; tax_rate left null. Indirect evidence only: net profit / ordinary profit was 4,374/6,226 = 70.3% in FY2026 vs 4,130/5,997 = 68.9% in FY2025 and 3,077/4,502 = 68.3% for the nine months, i.e. the fourth quarter ratio was 1,297/1,724 = 75.2% - a lower tax charge or a small extraordinary gain in Q4 is possible (about 90m yen, roughly 2% of annual profit, if Q4 had been at 70%; my arithmetic) and should be checked in the tanshin. Nine-month documents mention no extraordinary gain. Equity fell from 13,505m (June 2026) to about 12,800m (Sept 2026) because of the buyback."
+ },
+ "6224": {
+  "unit": "million JPY",
+  "eps_cur": "JPY",
+  "ttm": {
+   "eps": 113.06,
+   "net_profit": 1459,
+   "tr": "Eylül 2025 - Ağustos 2026 (Şubat 2026 yılı + Mart-Ağustos 2026 − Mart-Ağustos 2025)",
+   "en": "September 2025 - August 2026 (year to February 2026 + March-August 2026 − March-August 2025)",
+   "url": "https://finance.matsui.co.jp/stock/6224/settlement/index",
+   "primary": false
+  },
+  "tax_rate": 27.2,
+  "gains": [],
+  "offsets": [],
+  "drop": {
+   "tr": "Şubat 2026 yılında olağan dışı gelir 64 milyon yen (sigorta iptal iadesi vb.), olağan dışı gider 13 milyon yen; net etkisi kârın %3'ünün altında.",
+   "en": "In the year to February 2026 extraordinary income was 64 million yen (insurance surrender refunds etc.) and extraordinary losses 13 million; the net effect is under 3% of profit."
+  },
+  "guidance": [
+   {
+    "fy_tr": "Şubat 2027'de biten yıl",
+    "fy_en": "year to February 2027",
+    "mid": 96.85,
+    "low": 96.85,
+    "high": 96.85,
+    "kind": "reported",
+    "url": "https://www2.jpx.co.jp/disc/62240/081220260715594254_tse-qcedjpsm-62240-20260715362240-ixbrl.htm",
+    "date": "2026-07-15",
+    "primary": true
+   }
+  ],
+  "notes": "Japanese GAAP; fiscal year ends February. TTM EPS = 111.64 + 51.39 - 49.97 = 113.06 (basic); net profit = 1,423 + 665 - 629 = 1,459. FY figures are primary (JPX tanshin of 14 Apr 2026: EPS 111.64 basic, 104.69 diluted; net profit 1,423). H1 figures are NOT primary: the 15 Oct 2026 tanshin could not be opened; EPS 51.39 and 49.97 and prior H1 net profit 629 from Matsui Securities, H1 net profit 665 from Yahoo Finance Japan's summary of the tanshin (Matsui shows 664, truncated). Diluted H1 EPS not read. Check against the dataset: market cap 14,919 / P/E 10.74 = 1,389 implied, below the 1,459 from documents, so the source is not overstating profit. Guidance (EPS 96.85, net profit 1,251) is BELOW the 12-month level of 113.06 (ratio 0.857) and was unchanged on 15 Oct 2026 per Yahoo's summary. One-offs: extraordinary gains 64m and losses 13m for the full FY to February 2026 (EDINET DB extract of the securities report, not primary); net 51m pre-tax is about 2.6% of 1,955m pre-tax profit; the split falling inside the last 12 months and H1 FY2027 extraordinary items were not read. tax_rate = income taxes 532 / pre-tax profit 1,955 for FY to February 2026 (my division, from the same extract). The low tax burden last year (27.2%) versus the forecast's implied 34.6% (1 - 1,251/1,914, my arithmetic, assumes no extraordinary items) accounts for most of the forecast fall; no specific tax one-off was found or quantified, so none is entered in gains."
  }
 }

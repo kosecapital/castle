@@ -760,5 +760,83 @@
   "drop": null,
   "guidance": [],
   "notes": "Figures are in Brazilian reais (the share trades in dollars). Net income by quarter: 3Q25 1,330 (https://www.businesswire.com/news/home/20251117520293/en), 4Q25 1,282 reported / 1,331 adjusted (https://www.businesswire.com/news/home/20260212416895/en/), 1Q26 1,318, 2Q26 1,384 (sum 5,314 reported; 5,363 adjusted). Diluted EPS: 2.47 + 2.56 + 2.49 + 2.67 = 10.19, but the 4Q25 figure (2.56) is ADJUSTED diluted EPS: the 4Q25 release gives no reported EPS. Reported 4Q25 net income is 49 million lower than adjusted (hedge of social charges +13, PSU expiration -3, tax expenses +39, all charges), so reported 12-month EPS is roughly 0.09 lower (my estimate, not a company figure). In the other three quarters reported and adjusted are identical. No net income or EPS guidance (only a BIS capital ratio target of 16-19% by end-2026). No one-off gain is identified in any of the four releases. Effective tax rate: the releases show only a 'normalised' rate with a negative sign (2Q26 -12.4%, 1Q26 -9.0%, full-year 2025 -13.4%) and the tax lines came through garbled, so tax_rate is left null. 3Q26 results are due 16 November 2026 (not out)."
+ },
+ "DECK": {
+  "unit": "million USD",
+  "eps_cur": "USD",
+  "ttm": {
+   "eps": 7.53,
+   "net_profit": 1059.8,
+   "tr": "Ekim 2025 - Eylül 2026 (2026 mali yılının 3. çeyreği 3,33 + 4. çeyreği 0,96 + 2027 mali yılının ilk altı ayı 3,24)",
+   "en": "October 2025 - September 2026 (fiscal 2026 Q3 3.33 + Q4 0.96 + first six months of fiscal 2027 3.24)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000910521/000091052126000028/deckex991pressrelease-9302.htm"
+  },
+  "tax_rate": 22.6,
+  "gains": [
+   {
+    "tr": "İptal edilen gümrük tarifelerinin (IEEPA) iadesi: 46,0 milyon dolar iade ve 3,0 milyon dolar faiz; şirkete göre hisse başına yaklaşık 0,28 dolar (vergi sonrası)",
+    "en": "Refunds of cancelled customs tariffs (IEEPA): 46.0 million dollars of refunds and 3.0 million dollars of interest; about 0.28 dollars per share according to the company (after tax)",
+    "frac": 0.0372,
+    "how": null,
+    "period_tr": "Temmuz-Eylül 2026 çeyreği (2027 mali yılının 2. çeyreği)",
+    "period_en": "July-September 2026 quarter (fiscal Q2 2027)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000910521/000091052126000028/deckex991pressrelease-9302.htm"
+   }
+  ],
+  "offsets": [],
+  "drop": null,
+  "guidance": [
+   {
+    "fy_tr": "2027 mali yılı (Mart 2027'de biter)",
+    "fy_en": "Fiscal 2027 (ends March 2027)",
+    "mid": 7.875,
+    "low": 7.8,
+    "high": 7.95,
+    "kind": "reported",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000910521/000091052126000028/deckex991pressrelease-9302.htm",
+    "date": "2026-10-22",
+    "primary": true
+   }
+  ],
+  "notes": "All four releases read (company documents). Diluted EPS: Q3 FY26 3.33 (net income 481.1; release 29 Jan 2026, https://ir.deckers.com/news-events/press-releases/detail/220/deckers-brands-reports-third-quarter-fiscal-year-2026-financial-results) + Q4 FY26 0.96 (135.6; release 21 May 2026, https://ir.deckers.com/sec-filings/all-sec-filings/content/0000910521-26-000007/deckex991pressrelease-3312.htm) + six months FY27 3.24 (443.1) = 7.53; net income 1,059.8. Sum of four single quarters is 7.54 (Q1 0.94, Q2 2.31). The source's P/E implies 86.095 / 11.41 = 7.55, in line. Tax rate 22.6% = 129.4 / 572.5 for the six months (company guides about 23%). One-off gain: 0.28 / 7.53 = 3.72% of 12-month EPS; cross-check 49.0 million pre-tax x (1 - 0.226) = 37.9 million = 3.6% of 12-month net income. The company states the 0.28 as the EPS effect (World Footwear describes it as after-tax); 'how' left null because the per-share figure is the company's own. Refunds through 8 Oct 2026 total 87.9 million plus 4.7 million interest; only the Q2 part (46.0 + 3.0) is inside the 12 months to 30 Sep, the rest falls in the December quarter. The Q1 FY27 release reported no refunds. Guidance 7.80-7.95 includes about 0.52 of refunds; excluding them 7.28-7.43 (my subtraction, midpoint 7.355), against 12-month EPS excluding the refund of 7.25: guidance does not sit below the 12-month profit either way. No other one-off gains, impairments or tax items in the four releases. No offsets disclosed."
+ },
+ "LULU": {
+  "unit": "million USD",
+  "eps_cur": "USD",
+  "ttm": {
+   "eps": 12.15,
+   "net_profit": 1418.0,
+   "tr": "Ağustos 2025 - Temmuz 2026 (dört çeyrek): 2025 mali yılı 13,26 dolar ve 1.579,2 milyon dolar, eksi 2025'in ilk yarısı 5,70 ve 685,5, artı 2026'nın ilk yarısı 4,59 ve 524,3",
+   "en": "August 2025 - July 2026 (four quarters): fiscal 2025 at 13.26 dollars and 1,579.2 million dollars, minus first half of 2025 at 5.70 and 685.5, plus first half of 2026 at 4.59 and 524.3",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001397187/000139718726000126/lulu-20260802xex991.htm",
+   "primary": true
+  },
+  "tax_rate": 29.6,
+  "gains": [
+   {
+    "tr": "İptal edilen gümrük vergilerinin (IEEPA) iadesi: 134,5 milyon dolar (satışların maliyetinden düşüldü) ve 4,1 milyon dolar faiz. Şirkete göre hisse başına kâra vergi sonrası 0,86 dolar ekledi",
+    "en": "Refunds of cancelled (IEEPA) tariffs: 134.5 million dollars (booked as a reduction of cost of goods sold) plus 4.1 million of interest. According to the company it added 0.86 dollars after tax to diluted EPS",
+    "frac": 0.0708,
+    "how": null,
+    "period_tr": "Mayıs-Temmuz 2026 çeyreği (2026 mali yılının 2. çeyreği)",
+    "period_en": "May-July 2026 quarter (fiscal Q2 2026)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001397187/000139718726000126/lulu-20260802xex991.htm"
+   }
+  ],
+  "offsets": [],
+  "drop": null,
+  "guidance": [
+   {
+    "fy_tr": "2026 mali yılı (Ocak 2027'de biter)",
+    "fy_en": "fiscal 2026 (ends January 2027)",
+    "mid": 9.605,
+    "low": 9.48,
+    "high": 9.73,
+    "kind": "reported",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001397187/000139718726000126/lulu-20260802xex991.htm",
+    "date": "2026-09-03"
+   }
+  ],
+  "notes": "TTM arithmetic: EPS 13.26 - 5.70 + 4.59 = 12.15; net income 1,579.2 - 685.477 + 524.271 = 1,418.0 mn dollars. Sources: 8-K Ex. 99.1 of 3 Sep 2026 (Q2 and first-half figures, both years) and of 17 Mar 2026 (FY2025: https://www.sec.gov/Archives/edgar/data/1397187/000139718726000019/lulu-20260201xex991.htm). Quarterly EPS: Q3 FY2025 not read separately (13.26 - 5.70 - 5.01 = 2.55 by subtraction; quarterly EPS need not add up exactly because of the falling share count), Q4 FY2025 5.01, Q1 FY2026 1.69, Q2 FY2026 2.92. The dataset's P/E 8.7 at 106.115 implies EPS 12.20, in line. GAIN: frac = 0.86 / 12.15 = 0.0708; the 0.86 is the company's own after-tax per-share figure (also +560 bp on Q2 gross and operating margin). The refunds return tariffs paid mostly in fiscal 2025 (216 mn remitted under IEEPA in FY2025, 230 mn cumulative, per sec-api.io summary of the 10-K/10-Q, secondary), so part of the tariff cost they reverse sits in the same 12 months; the company does not net it and I did not. Guidance 'does not reflect any further potential tariff refunds'. No other one-off items are named in the Q1, Q2 or FY2025 releases (no impairments, no gains). IMPORTANT for the rule: the fiscal 2026 guidance (9.48-9.73, mid 9.605 = 0.79 x ttm) INCLUDES the 0.86 one-off; excluding it the range is 8.62-8.87, mid 8.745 = 0.72 x ttm (my subtraction; the company does not publish an ex-refund range, so only the reported range is listed in 'guidance'). Tax rate 29.6% is the company's stated Q2 FY2026 rate (Q1 31.8%, FY2025 29.5%; guidance about 30%). No dividend. Fiscal year ends on the Sunday nearest 31 January (FY2025: 52 weeks to 1 Feb 2026; FY2024 had 53 weeks)."
  }
 }

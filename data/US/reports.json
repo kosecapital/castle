@@ -2471,5 +2471,450 @@
    },
    "per": "2026-Q4"
   }
+ },
+ "DECK": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 2,
+   "E": 2
+  },
+  "moat": "dar",
+  "per": "2026-Q2",
+  "one": "HOKA ve UGG markalarının sahibi. Kalite surlarını geçti, hendek dar; son kârda tek seferlik tarife iadesi var ve satış beklentisi indirildi.",
+  "business": "Deckers ayakkabı tasarlar ve satar; üretimi dışarıya yaptırır. İki markası var: koşu ayakkabısı HOKA ve koyun derisi botlarıyla bilinen UGG. Mart 2026'da biten mali yılda net satış 5,47 milyar dolar, net kâr 1,02 milyar dolar oldu. Satışın 2,74 milyar doları UGG'den, 2,59 milyar doları HOKA'dan geldi; 3,21 milyar doları toptan, 2,26 milyar doları doğrudan tüketiciye satıştı. Satışın %42'si ABD dışından geldi.",
+  "moat_text": "Hendek dar. Üstünlük iki markadan geliyor ve rakamlarda görünüyor: 2026 mali yılında brüt marj %57,7, faaliyet marjı %23,1 oldu; reel özsermaye kârlılığı beş yılda %22,3'ün altına inmedi, son 12 ayda %39,1. Şirketin borcu yok. Zayıf yan: satışın %97'si iki markaya bağlı ve ayakkabıda beğeni çabuk değişir. Büyüme yavaşlıyor: HOKA'nın satışı 2026 mali yılında %15,9 artmıştı, son çeyrekte %6,8 arttı. Aynı çeyrekte doğrudan satış %1,8 düştü, karşılaştırılabilir doğrudan satış %6,4 geriledi. Yüksek özsermaye kârlılığının bir bölümü de geri alımlarla küçülen özsermayeden geliyor. Bu yüzden hendek geniş sayılmadı.",
+  "mgmt": "Kârın tamamı geri alıma gidiyor; şirket temettü ödemiyor. 2026 mali yılında 1,075 milyar dolara yaklaşık 10,5 milyon hisse geri alındı (ortalama 102,43 dolar). Nisan-Eylül 2026'da 637,5 milyon dolarlık geri alım daha yapıldı; kalan yetki yaklaşık 4,4 milyar dolar. Geri alımlar yüzünden özsermaye Mart 2026'daki 2,50 milyar dolardan Eylül sonunda 2,32 milyar dolara indi. Borç yok, kasada 1,21 milyar dolar var. Şirket küçük markalardan çıktı: Sanuk satıldı, Koolaburra kapatılıyor. Mali yıl martta biter.",
+  "latest": "22 Ekim 2026: 2027 mali yılının ikinci çeyreğinde (eylülde biten) net satış %3,5 artışla 1,48 milyar dolar oldu. HOKA %6,8, UGG %3,5 arttı; doğrudan satış %1,8 düştü. Net kâr 313,1 milyon dolar (geçen yıl 268,2), hisse başına kâr 2,31 dolar (geçen yıl 1,82). Bu kârın 0,28 doları tek seferlik: iptal edilen gümrük tarifelerinden 46,0 milyon dolar iade ve 3,0 milyon dolar faiz geldi. Brüt marj %60,5; iade bunun yaklaşık 3,1 puanı. Şirket yıllık satış beklentisini 5,86-5,91 milyar dolardan 5,70-5,725 milyar dolara indirdi. Hisse başına kâr beklentisini 7,35-7,50 dolardan 7,80-7,95 dolara çıkardı; bunun 0,52 doları tarife iadesi.",
+  "risks": [
+   "Son 12 ayın kârı bugünkü kazanç gücünü biraz yüksek gösteriyor: hisse başına 7,53 doların 0,28 doları tek seferlik tarife iadesi. Yıl beklentisi iadeler çıkınca 7,28-7,43 dolar; bu, geçen yılın 7,02 dolarının yalnız %4-6 üstü. Güvenlik marjı geçmişteki hızlı büyümenin sürmesine dayanıyor; büyüme yavaşlarsa marj daralır.",
+   "Satış yavaşlıyor: şirket yıllık satış beklentisini indirdi, HOKA için beklenti düşük çift haneli artıştan yüksek tek haneli artışa çekildi. Son çeyrekte karşılaştırılabilir doğrudan satış %6,4 düştü.",
+   "İki marka riski: satışın %97'si HOKA ve UGG'den geliyor. Koşu ayakkabısında rekabet yoğun; markalardan biri gözden düşerse kâr hızla geriler.",
+   "Tarife: ürünler ABD dışında üretiliyor. Gümrük vergisi maliyeti artırıyor; iadeler tek seferlik ve şirketin beklentisi yeni iade içermiyor.",
+   "Özsermaye geri alımlarla küçülüyor. Bu, özsermaye kârlılığını yükseltir ama işin kendisinin iyileştiğini göstermez."
+  ],
+  "watch": [
+   "HOKA satış büyümesi ve doğrudan satışta karşılaştırılabilir satış",
+   "Brüt marj (tarife iadesi hariç)",
+   "Yıllık satış ve hisse başına kâr beklentisi",
+   "Geri alım tutarı ve özsermaye"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/stocks/deck/financials/ratios/"
+   },
+   {
+    "t": "SEC: Deckers 8-K eki, 2027 mali yılı 2. çeyrek sonuçları (22 Ekim 2026)",
+    "te": "SEC: Deckers 8-K exhibit, fiscal 2027 second-quarter results (22 October 2026)",
+    "u": "https://www.sec.gov/Archives/edgar/data/0000910521/000091052126000028/deckex991pressrelease-9302.htm"
+   },
+   {
+    "t": "Business Wire: Deckers 2027 mali yılı 1. çeyrek sonuçları (23 Temmuz 2026)",
+    "te": "Business Wire: Deckers fiscal 2027 first-quarter results (23 July 2026)",
+    "u": "https://www.businesswire.com/news/home/20260723881452/en/"
+   },
+   {
+    "t": "Deckers Yatırımcı İlişkileri: 8-K eki, 2026 mali yılı 4. çeyrek ve yıl sonuçları (21 Mayıs 2026)",
+    "te": "Deckers Investor Relations: 8-K exhibit, fourth-quarter and fiscal year 2026 results (21 May 2026)",
+    "u": "https://ir.deckers.com/sec-filings/all-sec-filings/content/0000910521-26-000007/deckex991pressrelease-3312.htm"
+   },
+   {
+    "t": "Deckers Yatırımcı İlişkileri: 2026 mali yılı 3. çeyrek sonuçları (29 Ocak 2026)",
+    "te": "Deckers Investor Relations: fiscal 2026 third-quarter results (29 January 2026)",
+    "u": "https://ir.deckers.com/news-events/press-releases/detail/220/deckers-brands-reports-third-quarter-fiscal-year-2026-financial-results"
+   },
+   {
+    "t": "World Footwear: Deckers yıllık satış beklentisini indirdi (28 Ekim 2026)",
+    "te": "World Footwear: Deckers lowers full-year sales outlook (28 October 2026)",
+    "u": "https://www.worldfootwear.com/news/deckers-lowers-full-year-sales-outlook/11863.html"
+   }
+  ],
+  "en": {
+   "one": "Owner of HOKA and UGG. Passed the quality walls, narrow moat; recent profit includes a one-off tariff refund and the sales outlook was cut.",
+   "business": "Deckers designs and sells footwear; manufacturing is outsourced. It has two brands: HOKA running shoes and UGG, known for its sheepskin boots. In the fiscal year that ended in March 2026 net sales were 5.47 billion dollars and net profit 1.02 billion dollars. UGG brought in 2.74 billion dollars and HOKA 2.59 billion dollars; 3.21 billion dollars was wholesale and 2.26 billion dollars direct to consumer. 42% of sales came from outside the United States.",
+   "moat_text": "The moat is narrow. The advantage comes from two brands and it shows in the numbers: in fiscal 2026 the gross margin was 57.7% and the operating margin 23.1%; real return on equity has not fallen below 22.3% in five years and was 39.1% over the last twelve months. The company has no debt. The weak side: 97% of sales depend on two brands, and taste in footwear changes quickly. Growth is slowing: HOKA sales rose 15.9% in fiscal 2026 and 6.8% in the latest quarter. In the same quarter direct sales fell 1.8% and comparable direct sales fell 6.4%. Part of the high return on equity also comes from equity that shrinks with buybacks. For these reasons the moat is not counted as wide.",
+   "mgmt": "All of the profit goes to buybacks; the company pays no dividend. In fiscal 2026 it bought back about 10.5 million shares for 1.075 billion dollars (average 102.43 dollars). From April to September 2026 it bought back a further 637.5 million dollars; about 4.4 billion dollars of authorisation remains. Because of the buybacks, equity fell from 2.50 billion dollars in March 2026 to 2.32 billion dollars at the end of September. There is no debt and 1.21 billion dollars of cash. The company has left its small brands: Sanuk was sold and Koolaburra is being phased out. The fiscal year ends in March.",
+   "latest": "22 October 2026: in the second quarter of fiscal 2027 (ending in September) net sales rose 3.5% to 1.48 billion dollars. HOKA grew 6.8% and UGG 3.5%; direct sales fell 1.8%. Net profit was 313.1 million dollars (268.2 a year earlier) and earnings per share 2.31 dollars (1.82 a year earlier). Of this, 0.28 dollars is one-off: 46.0 million dollars of refunds of cancelled customs tariffs and 3.0 million dollars of interest came in. The gross margin was 60.5%; the refund is about 3.1 points of it. The company cut its full-year sales outlook from 5.86-5.91 billion dollars to 5.70-5.725 billion dollars. It raised its earnings per share outlook from 7.35-7.50 dollars to 7.80-7.95 dollars; 0.52 dollars of that is tariff refunds.",
+   "risks": [
+    "Profit of the last twelve months slightly overstates current earning power: 0.28 dollars of the 7.53 dollars per share is a one-off tariff refund. Without refunds the full-year outlook is 7.28-7.43 dollars, only 4-6% above last year's 7.02 dollars. The margin of safety rests on the fast growth of the past continuing; if growth slows, the margin narrows.",
+    "Sales are slowing: the company cut its full-year sales outlook, and the HOKA outlook went from a low-double-digit to a high-single-digit increase. Comparable direct sales fell 6.4% in the latest quarter.",
+    "Two-brand risk: 97% of sales come from HOKA and UGG. Competition in running shoes is intense; if one of the brands falls out of favour, profit drops quickly.",
+    "Tariffs: the products are made outside the United States. Customs duties raise costs; the refunds are one-off and the company's outlook includes no further refunds.",
+    "Equity is shrinking with buybacks. This lifts return on equity but does not show that the business itself has improved."
+   ],
+   "watch": [
+    "HOKA sales growth and comparable direct sales",
+    "Gross margin (excluding tariff refunds)",
+    "Full-year sales and earnings per share outlook",
+    "Buyback amount and equity"
+   ]
+  },
+  "earn": {
+   "k": 0.963,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Bu kârın içindeki tek seferlik kazançlar: İptal edilen gümrük tarifelerinin (IEEPA) iadesi: 46,0 milyon dolar iade ve 3,0 milyon dolar faiz; şirkete göre hisse başına yaklaşık 0,28 dolar (vergi sonrası): son 12 ay kârının %3,7 kadarı. Net etki %3,7; kazanç bu kadar indirildi. Şirketin 2027 mali yılı (Mart 2027'de biter) için hisse başına kâr beklentisi 7,88 USD; son 12 ayda 7,53 USD. Beklenti daha düşük değil. Son 12 ayın kârı 0,96 ile çarpılarak kullanıldı.",
+    "en": "The calculation rests on the profit of the last 12 months. One-off gains inside that profit: Refunds of cancelled customs tariffs (IEEPA): 46.0 million dollars of refunds and 3.0 million dollars of interest; about 0.28 dollars per share according to the company (after tax): 3.7% of last-12-month profit. The net effect is 3.7%; earnings were lowered by that much. The company's earnings-per-share outlook for Fiscal 2027 (ends March 2027) is 7.88 USD; the last 12 months were 7.53 USD. The outlook is not lower. Last-12-month profit was used multiplied by 0.96."
+   },
+   "per": "2026-Q2"
+  },
+  "growth": {
+   "g": 13.0,
+   "basis": {
+    "tr": "Formül yılda %25,0 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Nisan-Eylül 2026 (2027 mali yılının ilk yarısı) %8,0 (şirketin düzeltilmiş rakamı; açıklanan %18,2); Temmuz-Eylül 2026 çeyreği %11,5 (şirketin düzeltilmiş rakamı; açıklanan %26,9); 2027 mali yılı için şirket beklentisi (hisse başına kâr, tarife iadesi hariç) %4,8. Düzeltme: İptal edilen gümrük tarifelerinin (IEEPA) iadesi: 2. çeyrekte 46,0 milyon dolar iade ve 3,0 milyon dolar faiz. Şirkete göre çeyreğin hisse başına kârına etkisi yaklaşık 0,28 dolar. İade çıkınca hisse başına kâr çeyrekte 2,03 dolar (geçen yıl 1,82), altı ayda 2,96 dolar (geçen yıl 2,74). En düşüğü, enflasyondan arındırılınca, %1,1. Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %13,0.",
+    "en": "The formula gave growth of 25.0% a year. Latest figures (earnings per share, year on year): April-September 2026 (first half of fiscal 2027) 8.0% (the company's adjusted figure; reported 18.2%); July-September 2026 quarter 11.5% (the company's adjusted figure; reported 26.9%); company guidance for fiscal 2027 (EPS, excluding tariff refunds) 4.8%. Adjustment: Refunds of cancelled customs tariffs (IEEPA): 46.0 million dollars of refunds and 3.0 million dollars of interest in the second quarter. The company puts the effect on the quarter's EPS at about 0.28 dollars. Without the refund EPS is 2.03 dollars in the quarter (1.82 a year earlier) and 2.96 dollars in six months (2.74 a year earlier). The lowest, after inflation, is 1.1%. Because this is less than half the formula's rate, the midpoint of the two was used: 13.0%."
+   },
+   "per": "2026-Q2"
+  }
+ },
+ "EAT": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2027-Q1",
+  "one": "Chili's ve Maggiano's restoranlarının sahibi. Kâr üç yılda üçe katlandı; ama bu üstünlük yeni ve kolay aşılır. Hendek surunu geçemedi.",
+  "business": "Brinker International, ABD'de Chili's Grill & Bar ve Maggiano's Little Italy restoranlarını işletir ve franchise verir. 24 Haziran 2026'da 1.635 restoranı vardı; 1.163'ü kendisinin, 472'si franchise. Parayı restoranlarındaki yemek ve içki satışından kazanır: 2026 mali yılında gelir 5,81 milyar dolar, net kâr 487,0 milyon dolar. Franchise geliri, şirketin kendi deyişiyle, önemsizdir. Mali yıl haziran sonunda biter.",
+  "moat_text": "Hendek zayıf; şirket 3. suru bu yüzden geçemedi. Üstünlük gerçek ama yeni: Chili's'te aynı restoran satışları 2025 mali yılında %25,3, 2026'da %9,2 arttı; son çeyrekte %10,1. Faaliyet marjı 2024'te %5,2 iken 2026'da %10,7 oldu; net kâr 155,3 milyon dolardan 487,0 milyon dolara çıktı. Ama bu sonuç fiyat, menü ve reklamla her yıl yeniden kazanılıyor: reklam gideri iki yılda 130,2 milyon dolardan 163,6 milyon dolara çıktı. Müşteriyi bağlayan bir şey yok; şirket de sektörü \"fiyat, hizmet, yer ve kolaylık açısından çok rekabetçi\" diye tanımlıyor ve salon restoranlarında müşteri sayısının yıllardır belirgin artmadığını söylüyor. Aynı şirketin ikinci markası Maggiano's'ta satışlar geriliyor (son çeyrekte −%3,4). Yatırılan sermayenin getirisi 2023 mali yılında %8,7 idi, bugün %25,9. Reel özsermaye kârlılığı son iki mali yılda %179 ve %112, son 12 ayda %126; ama bu rakamlar çok küçük bir özsermayeye bölündüğü için yüksek. Önceki üç yılda özsermaye negatifti. Bu süzgeç, her yıl yeniden savunulması gereken üstünlüğü hendek saymıyor.",
+  "mgmt": "Şirket temettü ödemiyor: 2025 ve 2026 mali yıllarında temettü açıklanmadı. Kâr geri alıma ve restoranlara gidiyor: 2026 mali yılında 2,9 milyon hisse 400,0 milyon dolara geri alındı (net kâr 487,0 milyon dolar), yatırım harcaması 231,9 milyon dolar oldu. Ağustos 2026'da geri alım yetkisi 750 milyon dolara çıkarıldı. Temmuz 2026'da %8,25 faizli 350 milyon dolarlık tahvil, kredi limitinden borçlanılarak erken ödendi. Şirket ayrıca bir franchise sahibinden 12 Chili's restoranını yaklaşık 27,5 milyon dolara aldı. Özsermaye küçük (399,9 milyon dolar), çünkü yıllardır kârın çoğu geri alıma gidiyor.",
+  "latest": "28 Ekim 2026: 2027 mali yılının ilk çeyreğinde (23 Eylül 2026'da bitti) gelir 1.475,6 milyon dolar (geçen yıl 1.349,2 milyon), net kâr 113,3 milyon dolar (99,5 milyon), hisse başına kâr 2,64 dolar (2,17). Chili's'te aynı restoran satışları %10,1, müşteri sayısı %6,4 arttı; Maggiano's'ta satışlar %3,4 geriledi. Kârda 17,6 milyon dolarlık erken borç ödeme zararı var. Şirket 2027 beklentisini yükseltti: gelir 6,23–6,33 milyar dolar, düzeltilmiş hisse başına kâr 13,30–13,90 dolar (önce 12,60–13,40). Yıl 53 haftadır; fazladan hafta hisse başına kâra yaklaşık 0,70 dolar ekler. Çeyrekte 125,0 milyon dolarlık hisse geri alındı.",
+  "risks": [
+   "Kârdaki sıçrama Chili's'in son üç yıldaki satış artışına dayanıyor. Müşteri başka bir zincire kolayca gider; 2024 mali yılında faaliyet marjı %5,2 idi.",
+   "Özsermaye çok küçük (399,9 milyon dolar) ve önceki üç yılda negatifti. Özsermaye kârlılığı bu yüzden işin gerçek getirisini olduğundan yüksek gösteriyor.",
+   "Restoran işi döngüseldir. Yönetim tüketicinin enflasyon ve benzin fiyatı yüzünden baskı altında olduğunu söylüyor; gıda ve işçilik maliyetleri de kârı sıkıştırabilir.",
+   "Şirketin 2027 kâr beklentisi 53 haftalık bir yıl içindir. Fazladan haftanın katkısı (hisse başına yaklaşık 0,70 dolar) ertesi yıl olmayacak."
+  ],
+  "watch": [
+   "Chili's'te aynı restoran satışları ve müşteri sayısı",
+   "Faaliyet marjı %10'un üzerinde kalıyor mu",
+   "Maggiano's'ta satışlar toparlanıyor mu",
+   "Kredi limitinden kullanılan borç ve geri alım tutarı"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/stocks/eat/financials/ratios/"
+   },
+   {
+    "t": "SEC: Brinker International 2027 mali yılı 1. çeyrek sonuç açıklaması (28 Eki 2026)",
+    "te": "SEC: Brinker International fiscal 2027 first-quarter earnings release (28 Oct 2026)",
+    "u": "https://www.sec.gov/Archives/edgar/data/0000703351/000070335126000036/fy27q1ex991-earningsrelease.htm"
+   },
+   {
+    "t": "Brinker International: 2026 mali yılı faaliyet raporu ve 10-K (24 Haziran 2026'da biten yıl)",
+    "te": "Brinker International: fiscal 2026 annual report and 10-K (year ended 24 June 2026)",
+    "u": "https://s21.q4cdn.com/420141687/files/content_files/EAT_AR_BMK1.pdf"
+   },
+   {
+    "t": "Franchising.com: Brinker 2026 mali yılı 4. çeyrek ve yıl sonu sonuç açıklaması (12 Ağu 2026)",
+    "te": "Franchising.com: Brinker fiscal 2026 fourth-quarter and full-year earnings release (12 Aug 2026)",
+    "u": "https://www.franchising.com/news/20260812_brinker_international_reports_fourth_quarter_and_full_year_fiscal_2026_resu.html"
+   },
+   {
+    "t": "Nation's Restaurant News: Brinker 2027'ye güçlü başladı (28 Eki 2026)",
+    "te": "Nation's Restaurant News: Brinker's 2027 off to a strong start (28 Oct 2026)",
+    "u": "https://www.nrn.com/casual-dining/brinker-s-2027-off-to-a-strong-start-as-chili-s-compounds-year-over-year-sales-growth"
+   }
+  ],
+  "en": {
+   "one": "Owner of the Chili's and Maggiano's restaurants. Profit tripled in three years, but the advantage is new and easily overcome. Did not pass Wall 3.",
+   "business": "Brinker International operates and franchises Chili's Grill & Bar and Maggiano's Little Italy restaurants in the US. At 24 June 2026 it had 1,635 restaurants: 1,163 company-owned and 472 franchised. It earns its money from food and drink sales in its own restaurants: in fiscal 2026 revenue was 5.81 billion dollars and net profit 487.0 million. Franchise revenue is, in the company's own words, not material. The fiscal year ends in late June.",
+   "moat_text": "The moat is weak; this is why the company did not pass Wall 3. The advantage is real but new: comparable restaurant sales at Chili's rose 25.3% in fiscal 2025 and 9.2% in fiscal 2026, and 10.1% in the latest quarter. The operating margin went from 5.2% in 2024 to 10.7% in 2026; net profit rose from 155.3 million dollars to 487.0 million. But this result is won again every year with price, menu and advertising: advertising expense rose from 130.2 million dollars to 163.6 million in two years. Nothing ties the customer in; the company itself describes the industry as \"highly competitive as to price, service, restaurant location, convenience\" and says casual dining has not seen significant growth in customer traffic in recent years. Sales at the same company's second brand, Maggiano's, are falling (−3.4% in the latest quarter). Return on invested capital was 8.7% in fiscal 2023 and is 25.9% today. Real return on equity was 179% and 112% in the last two fiscal years and 126% over the last 12 months, but these figures are high because they are divided by a very small equity. Equity was negative in the three years before that. This filter does not count an advantage that has to be defended anew every year as a moat.",
+   "mgmt": "The company pays no dividend: none was declared in fiscal 2025 or 2026. Profit goes to buybacks and to the restaurants: in fiscal 2026 it bought back 2.9 million shares for 400.0 million dollars (net profit 487.0 million) and capital expenditure was 231.9 million. In August 2026 the buyback authorisation was raised to 750 million dollars. In July 2026 the 350 million dollars of 8.25% notes were redeemed early with borrowings under the credit line. The company also bought 12 Chili's restaurants from a franchisee for about 27.5 million dollars. Equity is small (399.9 million dollars) because most of the profit has gone to buybacks for years.",
+   "latest": "28 October 2026: In the first quarter of fiscal 2027 (ended 23 September 2026) revenue was 1,475.6 million dollars (1,349.2 million a year earlier), net profit 113.3 million (99.5 million) and earnings per share 2.64 dollars (2.17). Comparable restaurant sales at Chili's rose 10.1% and traffic 6.4%; sales at Maggiano's fell 3.4%. Profit includes a 17.6 million dollar loss on early repayment of debt. The company raised its 2027 outlook: revenue of 6.23–6.33 billion dollars and adjusted earnings per share of 13.30–13.90 dollars (previously 12.60–13.40). The year has 53 weeks; the extra week adds about 0.70 dollars to earnings per share. 125.0 million dollars of shares were bought back in the quarter.",
+   "risks": [
+    "The jump in profit rests on the sales growth at Chili's over the last three years. Customers can easily move to another chain; the operating margin was 5.2% in fiscal 2024.",
+    "Equity is very small (399.9 million dollars) and was negative in the three years before. Return on equity therefore overstates the true return of the business.",
+    "The restaurant business is cyclical. Management says consumers are under pressure from inflation and gas prices; food and labour costs can also squeeze profit.",
+    "The company's 2027 earnings outlook is for a 53-week year. The contribution of the extra week (about 0.70 dollars per share) will not be there the year after."
+   ],
+   "watch": [
+    "Comparable restaurant sales and traffic at Chili's",
+    "Whether the operating margin stays above 10%",
+    "Whether sales at Maggiano's recover",
+    "Borrowings under the credit line and the amount of buybacks"
+   ]
+  }
+ },
+ "LULU": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 1,
+   "E": 2
+  },
+  "moat": "dar",
+  "per": "2026-Q2",
+  "one": "Spor ve yoga giyimi markası. Hendek dar, kalite surlarını geçti. Kâr düşüyor: şirket beklentisini iki kez indirdi, son kârda tek seferlik gümrük iadesi var.",
+  "business": "lululemon, kendi markasıyla spor ve yoga giyimi tasarlar; kendi mağazalarında ve kendi internet sitesinde satar. 2025 mali yılında (1 Şubat 2026'da bitti) hasılat 11,10 milyar dolar, net kâr 1,58 milyar dolar oldu. Hasılatın 7,85 milyar doları (yaklaşık %71) Amerika kıtasından, 1,75 milyar doları Çin'den geldi. Satışın 5,05 milyar doları mağazalardan, 4,92 milyar doları internetten geldi. 2 Ağustos 2026'da 825 mağazası vardı.",
+  "moat_text": "Hendek dar. Üstünlük markadan ve ürünü aracısız, kendi mağazasında satmaktan geliyor. Rakamla görünüyor: brüt marj 2025 mali yılında %56,6, faaliyet kâr marjı %19,9; reel özsermaye kârlılığı beş yıldır %24,8'in altına inmedi (son 12 ayda %26,2). Hendek geniş sayılmadı, çünkü üstünlük tek markaya dayanıyor ve şu an zayıflıyor. Amerika kıtasında karşılaştırılabilir satışlar son çeyrekte %12 düştü. Brüt marj 2024'te %59,2 iken 2025'te %56,6'ya indi; şirket bunu gümrük vergilerine ve artan indirimli satışa bağlıyor. Giyimde müşteriyi tutan bir sözleşme ya da geçiş maliyeti yok; moda değişirse marka gücü de değişir.",
+  "mgmt": "Hisseler halka yaygın. Kurucu Chip Wilson yaklaşık %8,7 paya sahip; yönetimde değil. Wilson 2026'da yönetim kuruluna aday gösterdi; 26 Mayıs 2026'da şirketle anlaştı ve kurula iki bağımsız üye eklendi. Genel müdür Calvin McDonald 31 Ocak 2026'da ayrıldı; yerine Heidi O'Neill 8 Eylül 2026'da başladı. 25 Haziran 2026 genel kurulunda ücret politikasına oyların %63,2'si karşı çıktı. Şirket temettü ödemiyor; kâr mağaza yatırımına ve geri alıma gidiyor. 2025 mali yılında 1,2 milyar dolarlık, 2026'nın ilk yarısında 695 milyon dolarlık hisse geri alındı (ortalama 141 dolar; bugünkü fiyat 106 dolar). Faizli borç yok; 2 Ağustos 2026'da nakit 1,39 milyar dolar, kira yükümlülüğü 2,14 milyar dolardı. Mali yıl ocak sonunda biter.",
+  "latest": "3 Eylül 2026: 2026 mali yılının ikinci çeyreğinde (2 Ağustos'ta biten) hasılat %4 azalışla 2,42 milyar dolar oldu. Karşılaştırılabilir satışlar %9 düştü; Amerika kıtasında %12. Net kâr 329 milyon dolar (geçen yıl 371 milyon), hisse başına kâr 2,92 dolar (geçen yıl 3,10). Bu kârın 0,86 doları tek seferlik: iptal edilen gümrük vergilerinden 134,5 milyon dolar iade ve 4,1 milyon dolar faiz geldi. İade hariç hisse başına kâr 2,06 dolar eder (hesap bizim). Şirket yıl beklentisini ikinci kez indirdi: hasılat 10,35-10,50 milyar dolar (%5-7 düşüş), hisse başına kâr 9,48-9,73 dolar (iade dahil; 2025'te 13,26). Üçüncü çeyrek için beklenti 0,93-0,98 dolar.",
+  "risks": [
+   "Kâr düşüyor ve hesap son 12 ayın kârına dayanıyor: son 12 ayda hisse başına kâr 12,15 dolar, şirketin 2026 mali yılı beklentisi 9,48-9,73 dolar. Bunun 0,86 doları tek seferlik gümrük iadesi; iade hariç 8,62-8,87 dolar eder. Beklenti 2026'da iki kez indirildi (mart: 12,10-12,30; haziran: 10,95-11,15). Kâr daha da düşerse güvenlik marjı erir.",
+   "Amerika kıtası: hasılatın yaklaşık %71'i buradan geliyor ve karşılaştırılabilir satışlar son çeyrekte %12 düştü. Düşüşün geçici mi kalıcı mı olduğu henüz belli değil.",
+   "Çin: büyümenin kaynağıydı (2025'te hasılat +%29). Son çeyrekte hasılat sabit kurla %2 azaldı; yönetim sonucun beklentinin çok altında kaldığını söyledi.",
+   "Gümrük ve indirim: gümrük vergileri ve küçük gönderi muafiyetinin kalkması 2025'te brüt kârı yaklaşık 275 milyon dolar azalttı (önlemler öncesi). Muafiyetin kaldırılması yürürlükte; indirimli satış artarsa marj daha da daralır.",
+   "Yönetim değişimi: genel müdür Eylül 2026'da değişti, 2026'da kurula dört yeni üye girdi. Yeni planın sonuç verip vermeyeceği bilinmiyor."
+  ],
+  "watch": [
+   "Amerika kıtasında karşılaştırılabilir satışlar",
+   "Brüt marj (gümrük iadesi hariç) ve indirimli satışın payı",
+   "Şirketin hisse başına kâr beklentisi ve üçüncü çeyrek sonucu",
+   "Çin'de sabit kurla hasılat büyümesi"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/stocks/lulu/financials/ratios/"
+   },
+   {
+    "t": "lululemon: 2026 mali yılı 2. çeyrek sonuçları, SEC 8-K eki (3 Eylül 2026)",
+    "te": "lululemon: second-quarter fiscal 2026 results, SEC 8-K exhibit (3 September 2026)",
+    "u": "https://www.sec.gov/Archives/edgar/data/0001397187/000139718726000126/lulu-20260802xex991.htm"
+   },
+   {
+    "t": "lululemon: 2026 mali yılı 1. çeyrek sonuçları, SEC 8-K eki (4 Haziran 2026)",
+    "te": "lululemon: first-quarter fiscal 2026 results, SEC 8-K exhibit (4 June 2026)",
+    "u": "https://www.sec.gov/Archives/edgar/data/0001397187/000139718726000077/lulu-20260503xex991.htm"
+   },
+   {
+    "t": "lululemon: 2025 mali yılı 4. çeyrek ve yıl sonuçları, SEC 8-K eki (17 Mart 2026)",
+    "te": "lululemon: fourth-quarter and full-year fiscal 2025 results, SEC 8-K exhibit (17 March 2026)",
+    "u": "https://www.sec.gov/Archives/edgar/data/1397187/000139718726000019/lulu-20260201xex991.htm"
+   },
+   {
+    "t": "sec-api.io: lululemon, SEC belgelerine dayalı inceleme (2. çeyrek, gümrük iadeleri, vekâlet anlaşması)",
+    "te": "sec-api.io: lululemon, analysis based on SEC filings (Q2, tariff refunds, proxy settlement)",
+    "u": "https://sec-api.io/insights/lululemon-lulu-q2-fy2026-earnings-tariffs-proxy"
+   },
+   {
+    "t": "SGI Europe: lululemon'un zor çeyreği (Eylül 2026)",
+    "te": "SGI Europe: lululemon's tough quarter deepens across key markets (September 2026)",
+    "u": "https://www.sgieurope.com/financial-results/lululemons-tough-quarter-deepens-across-key-markets/122957.article"
+   }
+  ],
+  "en": {
+   "one": "A sports and yoga clothing brand. Narrow moat; it passed the quality walls. Profit is falling: guidance was cut twice and recent profit includes a one-off tariff refund.",
+   "business": "lululemon designs sports and yoga clothing under its own brand and sells it in its own stores and on its own website. In fiscal 2025 (ended 1 February 2026) revenue was 11.10 billion dollars and net profit 1.58 billion dollars. Of revenue, 7.85 billion dollars (about 71%) came from the Americas and 1.75 billion dollars from China. Stores brought in 5.05 billion dollars of sales and the website 4.92 billion dollars. It had 825 stores on 2 August 2026.",
+   "moat_text": "The moat is narrow. The advantage comes from the brand and from selling the product directly, in its own stores. It shows in the numbers: gross margin was 56.6% in fiscal 2025 and operating margin 19.9%; real return on equity has not fallen below 24.8% in five years (26.2% in the last 12 months). The moat is not counted as wide, because the advantage rests on a single brand and is weakening now. Comparable sales in the Americas fell 12% in the last quarter. Gross margin went from 59.2% in 2024 to 56.6% in 2025; the company puts this down to tariffs and more markdowns. In clothing there is no contract or switching cost that holds the customer; if fashion moves, the brand's strength moves with it.",
+   "mgmt": "The shares are widely held. Founder Chip Wilson owns about 8.7%; he is not in management. In 2026 Wilson nominated directors; on 26 May 2026 he reached an agreement with the company and two independent directors joined the board. Chief executive Calvin McDonald left on 31 January 2026; Heidi O'Neill started on 8 September 2026. At the annual meeting of 25 June 2026, 63.2% of votes went against the pay policy. The company pays no dividend; profit goes to store investment and buybacks. It bought back 1.2 billion dollars of shares in fiscal 2025 and 695 million dollars in the first half of 2026 (at an average of 141 dollars; the price today is 106 dollars). There is no interest-bearing debt; on 2 August 2026 cash was 1.39 billion dollars and lease liabilities 2.14 billion dollars. The fiscal year ends at the end of January.",
+   "latest": "3 September 2026: In the second quarter of fiscal 2026 (ended 2 August) revenue fell 4% to 2.42 billion dollars. Comparable sales fell 9%; 12% in the Americas. Net profit was 329 million dollars (371 million a year earlier) and earnings per share 2.92 dollars (3.10 a year earlier). Of this, 0.86 dollars is one-off: 134.5 million dollars of refunds of cancelled tariffs and 4.1 million dollars of interest came in. Excluding the refund, earnings per share come to 2.06 dollars (our arithmetic). The company cut its full-year guidance for the second time: revenue of 10.35-10.50 billion dollars (down 5-7%) and earnings per share of 9.48-9.73 dollars (including the refund; 13.26 in 2025). Guidance for the third quarter is 0.93-0.98 dollars.",
+   "risks": [
+    "Profit is falling and the calculation rests on the last 12 months: earnings per share were 12.15 dollars in the last 12 months, while the company's guidance for fiscal 2026 is 9.48-9.73 dollars. Of that, 0.86 dollars is a one-off tariff refund; excluding it the range is 8.62-8.87 dollars. Guidance was cut twice in 2026 (March: 12.10-12.30; June: 10.95-11.15). If profit falls further, the margin of safety shrinks.",
+    "The Americas: about 71% of revenue comes from here and comparable sales fell 12% in the last quarter. It is not yet clear whether the decline is temporary or lasting.",
+    "China: it was the source of growth (revenue +29% in 2025). In the last quarter revenue fell 2% in constant currency; management said the result was well below its expectations.",
+    "Tariffs and markdowns: tariffs and the end of the small-parcel exemption reduced gross profit by about 275 million dollars in 2025 (before mitigation). The removal of the exemption is in force; if markdowns rise, the margin narrows further.",
+    "Change of management: the chief executive changed in September 2026 and four new directors joined the board in 2026. Whether the new plan will work is not known."
+   ],
+   "watch": [
+    "Comparable sales in the Americas",
+    "Gross margin (excluding the tariff refund) and the share of markdown sales",
+    "The company's earnings-per-share guidance and the third-quarter result",
+    "Revenue growth in China in constant currency"
+   ]
+  },
+  "earn": {
+   "k": 0.791,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Bu kârın içindeki tek seferlik kazançlar: İptal edilen gümrük vergilerinin (IEEPA) iadesi: 134,5 milyon dolar (satışların maliyetinden düşüldü) ve 4,1 milyon dolar faiz. Şirkete göre hisse başına kâra vergi sonrası 0,86 dolar ekledi: son 12 ay kârının %7,1 kadarı. Net etki %7,1; kazanç bu kadar indirildi. Şirketin 2026 mali yılı (Ocak 2027'de biter) için hisse başına kâr beklentisi 9,61 USD; son 12 ayda 12,15 USD. Beklenti daha düşük olduğu için kazanç bu orana indirildi (%20,9). Son 12 ayın kârı 0,79 ile çarpılarak kullanıldı.",
+    "en": "The calculation rests on the profit of the last 12 months. One-off gains inside that profit: Refunds of cancelled (IEEPA) tariffs: 134.5 million dollars (booked as a reduction of cost of goods sold) plus 4.1 million of interest. According to the company it added 0.86 dollars after tax to diluted EPS: 7.1% of last-12-month profit. The net effect is 7.1%; earnings were lowered by that much. The company's earnings-per-share outlook for fiscal 2026 (ends January 2027) is 9.61 USD; the last 12 months were 12.15 USD. Because the outlook is lower, earnings were lowered to that ratio (20.9%). Last-12-month profit was used multiplied by 0.79."
+   },
+   "per": "2026-Q2"
+  },
+  "growth": {
+   "g": 8.8,
+   "basis": {
+    "tr": "Formül yılda %17,6 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): 2026 mali yılının ilk yarısı (Şubat-Temmuz 2026) %−34,6 (şirketin düzeltilmiş rakamı; açıklanan %−19,5); Mayıs-Temmuz 2026 çeyreği (mali 2. çeyrek) %−33,5 (şirketin düzeltilmiş rakamı; açıklanan %−5,8); 2026 mali yılı için şirket beklentisi (Ocak 2027'de biter) %−27,6. Düzeltme: İptal edilen gümrük vergilerinin iadesi (134,5 milyon dolar ve 4,1 milyon dolar faiz) 2. çeyrekte hisse başına kâra vergi sonrası 0,86 dolar ekledi (şirketin açıklaması). İade hariç çeyrek kârı 2,06 dolar (geçen yıl 3,10), ilk yarı kârı 3,73 dolar (geçen yıl 5,70) eder; büyüme hesabı benim. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %8,8.",
+    "en": "The formula gave growth of 17.6% a year. Latest figures (earnings per share, year on year): first half of fiscal 2026 (February-July 2026) −34.6% (the company's adjusted figure; reported −19.5%); May-July 2026 quarter (fiscal Q2) −33.5% (the company's adjusted figure; reported −5.8%); company guidance for fiscal 2026 (ends January 2027) −27.6%. Adjustment: Refunds of cancelled tariffs (134.5 million dollars plus 4.1 million of interest) added 0.86 dollars after tax to diluted EPS in Q2 (company statement). Excluding them quarterly EPS is 2.06 dollars (3.10 a year earlier) and first-half EPS 3.73 dollars (5.70 a year earlier); the growth figures are my arithmetic. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 8.8%."
+   },
+   "per": "2026-Q2"
+  }
+ },
+ "PSIX": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-Q3",
+  "one": "Jeneratör ve iş makineleri için motor ve güç sistemi üreticisi. Kalite surlarını geçti; hendek zayıf olduğu için 3. surda elendi.",
+  "business": "Power Solutions International (PSI), emisyon sertifikalı motorlar ve güç sistemleri tasarlar, üretir ve bunları makine üreticilerine satar. Üç pazarı var: güç sistemleri (veri merkezleri ile petrol ve gaz sahaları için jeneratör paketleri), sanayi (forklift, iş makinesi) ve ulaştırma. 2026'nın ilk dokuz ayında net satışlar 483,2 milyon dolar oldu; 382,0 milyon doları güç sistemlerinden geldi. 2025'te net satışlar 722,4 milyon dolardı.",
+  "moat_text": "Hendek zayıf; şirket bu yüzden 3. surda elendi. Üstünlük var: emisyon sertifikalı, farklı yakıtlarla çalışan motor paketleri ve Weichai'den motor tedariki. Ama rakamlar fiyatlama gücü göstermiyor. Brüt kâr marjı 2024'te %29,5 iken 2025'te %25,6'ya, son çeyreğinde %21,9'a indi; şirket, veri merkezi ürünlerinin marjının petrol ve gaz ürünlerinden düşük olduğunu söylüyor. Satışlar birkaç büyük alıcıya bağlı: 2025'te dört müşteri satışların %53'ünü yaptı (şirketin dipnotunda %20, %13, %10, %10). Reel özsermaye kârlılığı 2024'te %216,7, 2025'te %88,4, son 12 ayda %30,7; bu yüksek oranlar çok küçük bir özsermayeden geliyor: kaynağa göre özsermaye 2023'e kadar eksiydi.",
+  "mgmt": "Weichai America, hisselerin yaklaşık %46,0'ına sahip ve yönetim kurulundaki dört üyeyle çoğunluğu elinde tutuyor. PSI, Weichai'den motor alıyor: 2026'nın ilk dokuz ayında 31,1 milyon dolarlık stok alımı yapıldı; Weichai'ye bağlı SWIEC ile 2029'a kadar toplam 290,1 milyon dolarlık asgari alım taahhüdü var. Weichai ile iş birliği anlaşması 20 Mart 2026'da sona erdi; yenilemesi görüşülüyor. Kâr borç ödemeye gidiyor: kredi borcu 2025 sonunda 95,0 milyon dolardı, 30 Eylül 2026'da 35,0 milyon dolar. Okuduğumuz belgelerde temettü ya da geri alım programı yok. 9 Ocak 2026'da çelik kabin üreticisi MTL 11,1 milyon dolara alındı. Önceki genel müdür Mayıs 2026'da ayrıldı; yenisi 17 Ağustos 2026'da göreve başladı. 20 Mart 2026'da şirkete karşı menkul kıymet toplu davası açıldı.",
+  "latest": "5 Kasım 2026: 2026'nın 3. çeyreğinde net satışlar 202,1 milyon dolar (geçen yıl 203,8), net kâr 29,9 milyon dolar (27,6), hisse başına kâr 1,30 dolar (1,20). Brüt kâr marjı %29,7; bunun yaklaşık 1,9 puanı yinelenmesi beklenmeyen 3,8 milyon dolarlık gümrük vergisi iadesinden geldi. Dokuz ayda net satışlar %9 düşüşle 483,2 milyon dolar, net kâr 54,1 milyon dolar (geçen yıl 97,9), hisse başına kâr 2,34 dolar (4,25). Geçen yılın kârında vergi karşılığı iptalinden gelen tek seferlik fayda vardı; vergi öncesi kâr 80,7 milyon dolardan 72,3 milyon dolara indi. Şirket yılın ikinci yarısında satışların geçen yılın ikinci yarısını geçmesini bekliyor; yıl için kâr beklentisi vermiyor.",
+  "risks": [
+   "Kâr geriliyor: 2026'nın ilk dokuz ayında hisse başına kâr 4,25 dolardan 2,34 dolara indi; petrol ve gaz talebi zayıf ve şirket bunun süreceğini söylüyor.",
+   "Satışlar birkaç müşteriye bağlı: 3. çeyrekte üç müşteri satışların %47'sini yaptı. Birinin siparişini kesmesi kârı hemen düşürür.",
+   "Büyüme veri merkezi talebine dayanıyor; bu ürünlerin marjı daha düşük ve şirket gelecek dönemler için bir satış düzeyi öngörmüyor.",
+   "Hâkim ortak Weichai aynı zamanda tedarikçi. İş birliği anlaşması 20 Mart 2026'da bitti ve henüz yenilenmedi; ilişkili taraf işlemleri küçük ortağın aleyhine olabilir.",
+   "20 Mart 2026'da açılan menkul kıymet toplu davası ve ona bağlı türev davalar sürüyor; şirket olası zararı tahmin edemiyor."
+  ],
+  "watch": [
+   "Brüt kâr marjı (gümrük vergisi iadesi hariç)",
+   "Güç sistemleri satışları: veri merkezi ile petrol ve gaz ayrımı",
+   "En büyük müşterilerin satışlardaki payı",
+   "Weichai ile iş birliği anlaşmasının yenilenmesi ve ilişkili taraf alımları"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/stocks/psix/financials/ratios/"
+   },
+   {
+    "t": "PSI (SEC 8-K): 2026 3. çeyrek sonuçları (5 Kas 2026)",
+    "te": "PSI (SEC 8-K): third quarter 2026 financial results (5 Nov 2026)",
+    "u": "https://www.sec.gov/Archives/edgar/data/0001137091/000162828026071095/psiearningsrelease-septemb.htm"
+   },
+   {
+    "t": "PSI (SEC 10-Q): 30 Eylül 2026'da biten çeyrek raporu (5 Kas 2026)",
+    "te": "PSI (SEC 10-Q): quarterly report for the period ended 30 September 2026 (5 Nov 2026)",
+    "u": "https://www.sec.gov/Archives/edgar/data/0001137091/000162828026071065/psix-20260930.htm"
+   },
+   {
+    "t": "PSI (SEC 8-K): 2025 4. çeyrek ve yıl sonu sonuçları (2 Mar 2026)",
+    "te": "PSI (SEC 8-K): fourth quarter and full year 2025 financial results (2 Mar 2026)",
+    "u": "https://www.sec.gov/Archives/edgar/data/1137091/000162828026013226/psiearningsrelease-decembe.htm"
+   },
+   {
+    "t": "PSI (SEC 10-K, XBRL dipnotu): 2025 müşteri yoğunlaşması",
+    "te": "PSI (SEC 10-K, XBRL note): 2025 customer concentration",
+    "u": "https://www.sec.gov/Archives/edgar/data/1137091/000162828026013207/R9.htm"
+   },
+   {
+    "t": "Panabee: PSI 2025 yıllık raporunun özeti (2 Mar 2026)",
+    "te": "Panabee: summary of PSI's 2025 annual report (2 Mar 2026)",
+    "u": "https://www.panabee.com/news/power-earnings-2025-annual"
+   }
+  ],
+  "en": {
+   "one": "Maker of engines and power systems for generators and industrial equipment. Passed the quality walls; did not pass Wall 3 because the moat is weak.",
+   "business": "Power Solutions International (PSI) designs and builds emission-certified engines and power systems and sells them to equipment makers. It has three markets: power systems (generator packages for data centers and oil and gas fields), industrial (forklifts, construction equipment) and transportation. In the first nine months of 2026 net sales were 483.2 million dollars; 382.0 million came from power systems. Net sales in 2025 were 722.4 million dollars.",
+   "moat_text": "The moat is weak; this is why the company did not pass Wall 3. There is an advantage: emission-certified engine packages that run on several fuels, and engine supply from Weichai. But the numbers do not show pricing power. Gross margin was 29.5% in 2024, fell to 25.6% in 2025 and to 21.9% in its last quarter; the company says data center products carry lower margins than oil and gas products. Sales depend on a few large buyers: four customers made 53% of 2025 sales (20%, 13%, 10% and 10% in the company's note). Real return on equity was 216.7% in 2024, 88.4% in 2025 and 30.7% in the last 12 months; these high figures come from a very small equity base: according to the source, equity was negative until 2023.",
+   "mgmt": "Weichai America owns about 46.0% of the shares and holds a majority of the board with four seats. PSI buys engines from Weichai: inventory purchases were 31.1 million dollars in the first nine months of 2026; there is a minimum purchase commitment of 290.1 million dollars in total through 2029 with Weichai affiliate SWIEC. The collaboration agreement with Weichai expired on 20 March 2026; its renewal is under negotiation. Profit goes to paying down debt: the revolving credit balance was 95.0 million dollars at the end of 2025 and 35.0 million on 30 September 2026. The documents we read show no dividend or buyback program. On 9 January 2026 the company bought steel enclosure maker MTL for 11.1 million dollars. The former chief executive left in May 2026; the new one took office on 17 August 2026. A securities class action was filed against the company on 20 March 2026.",
+   "latest": "5 November 2026: in the third quarter of 2026 net sales were 202.1 million dollars (203.8 a year earlier), net income 29.9 million dollars (27.6) and EPS 1.30 dollars (1.20). Gross margin was 29.7%; about 1.9 points of it came from a 3.8 million dollar tariff refund that is not expected to recur. In the nine months net sales fell 9% to 483.2 million dollars, net income was 54.1 million dollars (97.9 a year earlier) and EPS 2.34 dollars (4.25). Last year's profit included a one-off benefit from the release of a tax valuation allowance; pre-tax income fell from 80.7 million dollars to 72.3 million. The company expects second-half sales to exceed last year's second half; it gives no profit guidance for the year.",
+   "risks": [
+    "Profit is falling: EPS in the first nine months of 2026 dropped from 4.25 dollars to 2.34 dollars; oil and gas demand is soft and the company says this will continue.",
+    "Sales depend on a few customers: three customers made 47% of third-quarter sales. If one cuts its orders, profit falls at once.",
+    "Growth rests on data center demand; these products carry lower margins and the company does not predict a sales level for future periods.",
+    "The controlling shareholder Weichai is also a supplier. The collaboration agreement ended on 20 March 2026 and has not been renewed yet; related-party dealings may work against minority shareholders.",
+    "The securities class action filed on 20 March 2026 and the related derivative suits are pending; the company cannot estimate a possible loss."
+   ],
+   "watch": [
+    "Gross margin (excluding the tariff refund)",
+    "Power systems sales: the split between data center and oil and gas",
+    "Share of the largest customers in sales",
+    "Renewal of the collaboration agreement with Weichai and related-party purchases"
+   ]
+  }
+ },
+ "SFM": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 2,
+   "E": 2
+  },
+  "moat": "zayıf",
+  "per": "2026-Q3",
+  "one": "Doğal ve organik gıda marketleri zinciri. Kalite surlarını geçti; müşteri sayısı ve kâr beklentisi düştüğü için hendek zayıf bulundu, 3. surda elendi.",
+  "business": "Sprouts, ABD'de taze, doğal ve organik gıdaya odaklanan marketler işletir. 27 Eylül 2026'da 25 eyalette 504 mağazası vardı. 2025'te net satışlar 8,8 milyar dolar, net kâr 524 milyon dolar oldu. 2025'in son çeyreğinde satışların yaklaşık %26'sı kendi markasından (Sprouts Brand), yaklaşık %15,5'i internet siparişlerinden geldi. Mali yıl aralık sonunda biter (2025'te 28 Aralık); 2026 mali yılı 53 haftadır.",
+  "moat_text": "Hendek zayıf. Üstünlük ürün seçkisinden ve kendi markasından geliyor: brüt kâr marjı 2025'te %38,8, reel özsermaye kârlılığı beş yılda %18,2 ile %34,8 arasında, son 12 ayda %28,7. Ama bu üstünlük 2026'da sınandı ve tutmadı. Karşılaştırılabilir mağaza satışları üç çeyrektir geriliyor (3. çeyrekte −%0,9); TIKR'ın aktardığına göre işlem sayısı %3,3 düştü. Şirket yıl başındaki hisse başına kâr beklentisini 5,28-5,44 dolardan yaklaşık 4,80 dolara indirdi ve ocakta fiyat indirimine gideceğini açıkladı. Aynı dönemde Costco ve Walmart satışlarını artırdı. Market işinde rakip çok ve büyük; Sprouts'un maliyet üstünlüğü yok, fiyat farkını koruyamadığı görülüyor. Bu yüzden B puanı 1; şirket 3. suru geçemedi.",
+  "mgmt": "Hisseler Nasdaq'ta işlem görüyor. Şirket temettü ödemiyor; kâr yeni mağazalara ve hisse geri alımına gidiyor. 2025'te 4,0 milyon hisse 472 milyon dolara, 2026'nın dokuz ayında 299 milyon dolarlık hisse geri alındı. Bu alımlar bugünkü fiyatın (51 dolar) çok üstünde yapıldı: 2025'te hisse başına ortalama yaklaşık 118 dolar. 2026'da net 42 mağaza açılacak; yatırım harcaması yaklaşık 310 milyon dolar. 600 milyon dolarlık kredi limitinden hiç kullanılmadı. 1 Eylül 2026'da yönetim değişikliği açıklandı: Nick Konat 4 Ocak 2027'de genel müdür olacak, 2019'dan beri genel müdür olan Jack Sinclair icracı yönetim kurulu başkanlığına geçecek.",
+  "latest": "28 Ekim 2026: 3. çeyrekte (27 Eylül'de biten 13 hafta) net satışlar 2,30 milyar dolar (+%5), karşılaştırılabilir mağaza satışları −%0,9, net kâr 113,4 milyon dolar (geçen yıl 120,1), hisse başına kâr 1,21 dolar (1,22). Dokuz ayda net kâr 406,3 milyon dolar (433,8), hisse başına kâr 4,30 dolar (4,38). Şirket yıl beklentisini indirdi: 52 hafta esasıyla hisse başına kâr yaklaşık 4,80 dolar (önceki 5,32-5,40; 2025'te 5,31), faaliyet kârı yaklaşık 605 milyon dolar (önceki 675-685). 4. çeyrek için karşılaştırılabilir satışlarda %2-%4 düşüş ve 0,47-0,51 dolar hisse başına kâr bekliyor (geçen yıl 0,92). Hisse ertesi gün %23 düştü.",
+  "risks": [
+   "Kâr düşüyor: şirket 4. çeyrekte hisse başına 0,47-0,51 dolar kâr bekliyor (geçen yıl 0,92). Son 12 ayın kârı (5,22 dolar) bugünkü kazanç gücünü olduğundan yüksek gösteriyor; F/K bu yüzden düşük görünüyor.",
+   "Ocak 2027'de yapılacak fiyat indirimi brüt kâr marjını (3. çeyrekte %38,2; geçen yıl %38,7) daha da aşağı çekebilir; müşteri geri gelmezse kâr iki yönden düşer.",
+   "Walmart, Costco ve Kroger gibi rakipler çok daha büyük; Sprouts'un satışları gerilerken Walmart ve Costco karşılaştırılabilir satışlarını artırdı.",
+   "Şirket 2026'da net 42 mağaza açıyor; mevcut mağazalarda satış gerilerken yeni kira ve sabit gider yükü kârı sıkıştırır.",
+   "Genel müdür 4 Ocak 2027'de değişiyor; yeni yönetimin fiyat ve büyüme kararları henüz sınanmadı."
+  ],
+  "watch": [
+   "Karşılaştırılabilir mağaza satışları ve işlem sayısı",
+   "Brüt kâr marjı ve ocaktaki fiyat indiriminin etkisi",
+   "2027 için hisse başına kâr beklentisi",
+   "Yeni mağazaların satışları ve geri alımların hızı"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/stocks/sfm/financials/ratios/"
+   },
+   {
+    "t": "Sprouts (SEC 8-K): 2026 3. çeyrek sonuçları (28 Eki 2026)",
+    "te": "Sprouts (SEC 8-K): third quarter 2026 results (28 Oct 2026)",
+    "u": "https://www.sec.gov/Archives/edgar/data/0001575515/000157551526000059/sfm-20260927xex991.htm"
+   },
+   {
+    "t": "Sprouts (SEC 8-K): 3. çeyrek sunumu (28 Eki 2026)",
+    "te": "Sprouts (SEC 8-K): third quarter earnings presentation (28 Oct 2026)",
+    "u": "https://www.sec.gov/Archives/edgar/data/0001575515/000157551526000059/sfm-ex992.htm"
+   },
+   {
+    "t": "Sprouts (SEC 8-K): 2026 2. çeyrek sonuçları (29 Tem 2026)",
+    "te": "Sprouts (SEC 8-K): second quarter 2026 results (29 Jul 2026)",
+    "u": "https://www.sec.gov/Archives/edgar/data/0001575515/000157551526000036/sfm-20260628xex991.htm"
+   },
+   {
+    "t": "Sprouts (Business Wire basın bülteni): 2025 4. çeyrek ve yıl sonu sonuçları (19 Şub 2026)",
+    "te": "Sprouts (press release on Business Wire): fourth quarter and full year 2025 results (19 Feb 2026)",
+    "u": "https://www.businesswire.com/news/home/20260219678830/en/Sprouts-Farmers-Market-Inc-Reports-Fourth-Quarter-and-Full-Year-2025-Results"
+   },
+   {
+    "t": "Sprouts (SEC 8-K): genel müdür değişikliği (1 Eyl 2026)",
+    "te": "Sprouts (SEC 8-K): CEO succession (1 Sep 2026)",
+    "u": "https://www.sec.gov/Archives/edgar/data/0001575515/000157551526000041/ex991sfmceotransitionpress.htm"
+   },
+   {
+    "t": "Supermarket News: Sprouts 3. çeyrekte karşılaştırılabilir satışlarda düşüş açıkladı (29 Eki 2026)",
+    "te": "Supermarket News: Sprouts Farmers Market reports lower comparable sales in third quarter (29 Oct 2026)",
+    "u": "https://www.supermarketnews.com/finance/sprouts-farmers-market-reports-lower-comparable-sales-in-third-quarter"
+   },
+   {
+    "t": "TIKR: Sprouts hissesi 3. çeyrek sonuçları ve indirilen beklentiyle %23 düştü (29 Eki 2026)",
+    "te": "TIKR: Sprouts Farmers Market sinks 23% on Q3 miss and guidance cut (29 Oct 2026)",
+    "u": "https://www.tikr.com/blog/sprouts-farmers-market-sinks-23-on-q3-miss-and-guidance-cut-need-to-improve-our-performance"
+   },
+   {
+    "t": "The Motley Fool: Sprouts 2025 4. çeyrek toplantı dökümü (19 Şub 2026)",
+    "te": "The Motley Fool: Sprouts Q4 2025 earnings call transcript (19 Feb 2026)",
+    "u": "https://www.fool.com/earnings/call-transcripts/2026/02/19/sprouts-sfm-q4-2025-earnings-call-transcript/"
+   }
+  ],
+  "en": {
+   "one": "A chain of natural and organic grocery stores. It passed the quality walls; with customer visits and profit guidance falling, the moat was judged weak and it failed Wall 3.",
+   "business": "Sprouts runs grocery stores in the US focused on fresh, natural and organic food. On 27 September 2026 it had 504 stores in 25 states. In 2025 net sales were 8.8 billion dollars and net profit 524 million dollars. In the last quarter of 2025 about 26% of sales came from its own label (Sprouts Brand) and about 15.5% from online orders. The fiscal year ends in late December (28 December in 2025); fiscal 2026 has 53 weeks.",
+   "moat_text": "The moat is weak. The advantage comes from the product range and the own label: gross margin was 38.8% in 2025, and real return on equity has been between 18.2% and 34.8% over five years, 28.7% in the last 12 months. But this advantage was tested in 2026 and did not hold. Comparable store sales have fallen for three quarters (−0.9% in the third quarter); according to TIKR the number of transactions fell 3.3%. The company cut its earnings per share guidance from 5.28-5.44 dollars at the start of the year to about 4.80 dollars and said it will cut prices in January. In the same period Costco and Walmart grew their sales. Grocery has many large competitors; Sprouts has no cost advantage and has not been able to hold its price premium. That is why the B score is 1; the company did not pass Wall 3.",
+   "mgmt": "The shares trade on Nasdaq. The company pays no dividend; profit goes to new stores and share buybacks. In 2025 it bought back 4.0 million shares for 472 million dollars, and in the first nine months of 2026 another 299 million dollars. These purchases were made far above today's price (51 dollars): about 118 dollars a share on average in 2025. It will open 42 net new stores in 2026; capital spending is about 310 million dollars. Nothing is drawn on the 600 million dollar credit line. A management change was announced on 1 September 2026: Nick Konat becomes chief executive on 4 January 2027, and Jack Sinclair, chief executive since 2019, becomes executive chairman.",
+   "latest": "28 October 2026: in the third quarter (13 weeks ended 27 September) net sales were 2.30 billion dollars (+5%), comparable store sales −0.9%, net profit 113.4 million dollars (120.1 a year earlier) and earnings per share 1.21 dollars (1.22). In the nine months net profit was 406.3 million dollars (433.8) and earnings per share 4.30 dollars (4.38). The company cut its full-year guidance: on a 52-week basis, earnings per share of about 4.80 dollars (previously 5.32-5.40; 5.31 in 2025) and operating profit of about 605 million dollars (previously 675-685). For the fourth quarter it expects comparable sales to fall 2%-4% and earnings per share of 0.47-0.51 dollars (0.92 a year earlier). The share fell 23% the next day.",
+   "risks": [
+    "Profit is falling: the company expects earnings per share of 0.47-0.51 dollars in the fourth quarter (0.92 a year earlier). The last 12 months' profit (5.22 dollars) overstates today's earning power; that is why the P/E looks low.",
+    "The price cuts planned for January 2027 may push gross margin (38.2% in the third quarter; 38.7% a year earlier) lower still; if customers do not return, profit falls from both sides.",
+    "Competitors such as Walmart, Costco and Kroger are far larger; while Sprouts' sales fell, Walmart and Costco grew their comparable sales.",
+    "The company is opening 42 net new stores in 2026; while sales at existing stores fall, new rent and fixed costs squeeze profit.",
+    "The chief executive changes on 4 January 2027; the new management's pricing and growth decisions are not yet tested."
+   ],
+   "watch": [
+    "Comparable store sales and number of transactions",
+    "Gross margin and the effect of the January price cuts",
+    "Earnings per share guidance for 2027",
+    "Sales at new stores and the pace of buybacks"
+   ]
+  }
  }
 }

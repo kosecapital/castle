@@ -1107,5 +1107,132 @@
     "Debt-to-asset ratio and new acquisitions"
    ]
   }
+ },
+ "603605": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 1,
+   "E": 2
+  },
+  "moat": "dar",
+  "per": "2026-Q3",
+  "one": "Çin'in büyük yerli kozmetik markası; hendek dar, ölçütü geçti. Ancak son 12 ay kârının yaklaşık %30'u tek seferlik kazanç; çekirdek kâr %25,5 düştü.",
+  "business": "Proya cilt bakımı, makyaj ve saç bakımı ürünleri üretir ve kendi markalarıyla satar: Proya, Caitang (彩棠), Off&Relax, Yuanse Bota (原色波塔), Flower Knows (花知晓). 2025 geliri 10,60 milyar yuan, net kârı 1,50 milyar yuandı; gelirin %72,64'ü ana markadan geldi. Satışın çoğu internetten yapılır: 2026'nın ilk yarısında 5,37 milyar yuan gelirin 4,04 milyar yuanı kendi çevrim içi mağazalarından geldi.",
+  "moat_text": "Hendek dar. Marka gerçek: 2025 brüt kâr marjı %73,26 ve reel özsermaye kârlılığı beş yıldır %19'un üzerinde (2024'te %32,03, 2025'te %25,25). Ana marka Tmall'un 11 Kasım açılış satışlarında güzellik dalında dört yıldır birinci. Ama üstünlük pahalıya korunuyor ve şu an sınanıyor. Satış giderleri gelirin 2025'te %49,63'ü, 2026'nın dokuz ayında %53,22'siydi; araştırma payı yaklaşık %2. Ana markanın geliri 2026'nın ilk yarısında %7,19, Caitang'ınki %21,93 düştü. Tek seferlik kalemler hariç net kâr dokuz ayda %25,5 geriledi; üçüncü çeyrekte net kâr marjı %3,92'ye indi. Son 12 ayın %27,54'lük reel özsermaye kârlılığı, 445 milyon yuanlık tek seferlik kazancı içerir. Bu yüzden hendek geniş sayılmadı.",
+  "mgmt": "Şirketi kurucu aile yönetir. Yönetim kurulu başkanı Hou Junchen'in payı %34,53, eşinin kardeşi Fang Yuyou'nun payı %15,06'dır; genel müdür, başkanın oğlu Hou Yameng'dir. Fang Yuyou'nun 46,2 milyon hissesi rehinli ve dondurulmuş durumdadır; basına göre neden bir aile içi pay devri davasıdır. Kârın yaklaşık yarısı ortağa gidiyor: 2025 temettüsü kârın %52,58'iydi, 2026 ara temettüsü 10 hisseye 11,80 yuan (462 milyon yuan) ve ilk yarıda 129 milyon yuanlık geri alım yapıldı. Şirket Mayıs 2026'da 351 milyon yuan ödeyerek makyaj markası Flower Knows'taki payını %51'e çıkardı; iki adımda toplam 779 milyon yuan ödendi ve bilançoya 924 milyon yuan şerefiye girdi. Hong Kong'da ikinci bir halka arz başvurusu sürüyor; gerçekleşirse pay sayısı artar. Nakit, finansal borçtan fazladır.",
+  "latest": "29 Ekim 2026: Şirket dokuz aylık sonuçlarını açıkladı. Gelir %7,46 artışla 7,63 milyar yuan, ana ortaklık net kârı %22,46 artışla 1,26 milyar yuan oldu. Bu kârın 445 milyon yuanı, Flower Knows'un denetimi alınırken eski payın yeniden değerlenmesinden gelen tek seferlik kazançtır. Tek seferlik kalemler hariç net kâr %25,50 düşüşle 743 milyon yuan. Üçüncü çeyrekte gelir, Flower Knows'un katılmasıyla, %29,76 artarak 2,25 milyar yuana çıktı; net kâr %61,18 düşüşle 88 milyon yuan. Şirket düşüşü artan tanıtım giderlerine bağladı. Faaliyet nakit akışı %61,06 azalarak 467 milyon yuana indi.",
+  "risks": [
+   "Son 12 ayın kârı olağan kazancı yüksek gösteriyor: 1,73 milyar yuan kârın yaklaşık 510 milyon yuanı tek seferlik kalemdir; tek seferlik kalemler hariç kâr dokuz ayda %25,5, üçüncü çeyrekte %65,2 düştü. Düşüş sürerse fiyat ölçütü tutmaz.",
+   "Satış giderleri gelirin %53'ünü geçti; ana markanın geliri yine de düşüyor. Reklam maliyeti artmaya devam ederse marj daha da daralır.",
+   "Flower Knows 2,83 milyar yuan değerlemeyle alındı ve 924 milyon yuan şerefiye doğdu; marka beklenen kârı getirmezse şerefiye silinir.",
+   "Satışın büyük kısmı Tmall ve Douyin gibi birkaç platformdan geçer; platformların kuralları ve trafik fiyatları kârı doğrudan etkiler.",
+   "İkinci büyük ortağın hisselerinin çoğu rehinli ve dondurulmuş durumdadır; Hong Kong halka arzı da mevcut ortakların payını sulandırabilir."
+  ],
+  "watch": [
+   "Tek seferlik kalemler hariç net kâr (dokuz ayda 743 milyon yuan)",
+   "Satış giderlerinin gelire oranı (dokuz ayda %53,22)",
+   "Ana markanın gelirindeki değişim (ilk yarıda %−7,19)",
+   "Flower Knows'un kârı ve şerefiye değer düşüklüğü"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/sha/603605/financials/ratios/"
+   },
+   {
+    "t": "Proya: 2026 üçüncü çeyrek raporu (29 Ekim 2026)",
+    "te": "Proya: third-quarter 2026 report (29 October 2026)",
+    "u": "https://stockmc.xueqiu.com/202610/603605_20261030_XV1A.pdf"
+   },
+   {
+    "t": "Proya: 2025 yıllık rapor özeti (20 Nisan 2026)",
+    "te": "Proya: 2025 annual report summary (20 April 2026)",
+    "u": "https://pdf.dfcfw.com/pdf/H2_AN202604211821386592_1.pdf"
+   },
+   {
+    "t": "China Securities Journal: Proya 2026 yarıyıl rapor özeti ve yönetim kurulu kararları (25 Ağustos 2026)",
+    "te": "China Securities Journal: Proya 2026 half-year report summary and board resolutions (25 August 2026)",
+    "u": "https://epaper.cs.com.cn/zgzqb/images/2026-08/25/B032/zqB03225.pdf"
+   },
+   {
+    "t": "China Securities Journal: Proya 2025 üçüncü çeyrek raporu (31 Ekim 2025)",
+    "te": "China Securities Journal: Proya third-quarter 2025 report (31 October 2025)",
+    "u": "https://epaper.cs.com.cn/zgzqb/images/2025-10/31/B333/zqB33331.pdf"
+   },
+   {
+    "t": "National Business Daily: Proya, Flower Knows'ta payını %51'e çıkarıyor (22 Mayıs 2026)",
+    "te": "National Business Daily: Proya raises its stake in Flower Knows to 51% (22 May 2026)",
+    "u": "https://www.nbd.com.cn/articles/2026-05-22/4404138.html"
+   },
+   {
+    "t": "Xinhua: Flower Knows'un devri ve yönetim değişikliği (22 Temmuz 2026)",
+    "te": "Xinhua: Flower Knows takeover and board change (22 July 2026)",
+    "u": "https://www.news.cn/fashion/20260722/8d31f43ee3f544d48a0bb21a28c060a3/c.html"
+   },
+   {
+    "t": "Guoyuan Securities: Proya 2026 yarıyıl notu, marka ve kanal gelirleri (28 Ağustos 2026)",
+    "te": "Guoyuan Securities: note on Proya's 2026 half-year report, revenue by brand and channel (28 August 2026)",
+    "u": "https://pdf.dfcfw.com/pdf/H3_AP202608281828646194_1.pdf"
+   },
+   {
+    "t": "Jianghai Securities: Proya 2025 ve 2026 ilk çeyrek notu (28 Nisan 2026)",
+    "te": "Jianghai Securities: note on Proya's 2025 and first-quarter 2026 results (28 April 2026)",
+    "u": "https://pdf.dfcfw.com/pdf/H3_AP202604281821681068_1.pdf"
+   },
+   {
+    "t": "Gelonghui (Great Wall Securities): Proya üçüncü çeyrek marj notu (5 Kasım 2026)",
+    "te": "Gelonghui (Great Wall Securities): note on Proya's third-quarter margins (5 November 2026)",
+    "u": "https://m.gelonghui.com/news/5345675"
+   },
+   {
+    "t": "Huaxia Times (Sina): Proya üçüncü çeyrek haberi, Hong Kong başvurusu (31 Ekim 2026)",
+    "te": "Huaxia Times (Sina): report on Proya's third quarter and Hong Kong filing (31 October 2026)",
+    "u": "https://cj.sina.com.cn/articles/view/1838672663/6d97eb1702001rbpo"
+   },
+   {
+    "t": "36Kr: Fang Yuyou'nun dondurulan hisseleri (15 Nisan 2026)",
+    "te": "36Kr: Fang Yuyou's frozen shares (15 April 2026)",
+    "u": "https://www.36kr.com/p/3767567490188037"
+   }
+  ],
+  "en": {
+   "one": "A large Chinese cosmetics brand; narrow moat, meets the criterion. But about 30% of last-12-month profit is a one-off gain; core profit fell 25.5%.",
+   "business": "Proya makes skincare, make-up and hair care products and sells them under its own brands: Proya, Caitang (彩棠), Off&Relax, Yuanse Bota (原色波塔), Flower Knows (花知晓). Revenue in 2025 was 10.60 billion yuan and net profit 1.50 billion yuan; 72.64% of revenue came from the main brand. Most sales are online: in the first half of 2026, 4.04 billion yuan of its 5.37 billion yuan revenue came from its own online stores.",
+   "moat_text": "The moat is narrow. The brand is real: gross margin was 73.26% in 2025 and real return on equity has been above 19% for five years (32.03% in 2024, 25.25% in 2025). The main brand has ranked first in beauty in Tmall's 11 November opening sales for four years. But the edge is costly to keep and is being tested now. Selling expenses were 49.63% of revenue in 2025 and 53.22% in the first nine months of 2026; research takes about 2%. Main-brand revenue fell 7.19% in the first half of 2026 and Caitang's fell 21.93%. Net profit excluding non-recurring items fell 25.5% in nine months; net margin dropped to 3.92% in the third quarter. The 27.54% real return on equity of the last twelve months includes a one-off gain of 445 million yuan. That is why the moat is not rated wide.",
+   "mgmt": "The founding family runs the company. Chairman Hou Junchen holds 34.53% and his wife's brother Fang Yuyou holds 15.06%; the general manager is the chairman's son, Hou Yameng. 46.2 million of Fang Yuyou's shares are pledged and frozen; according to the press the cause is a family lawsuit over a share transfer. About half of profit goes to shareholders: the 2025 dividend was 52.58% of profit, the 2026 interim dividend is 11.80 yuan per 10 shares (462 million yuan) and 129 million yuan of shares were bought back in the first half. In May 2026 the company paid 351 million yuan to raise its stake in the make-up brand Flower Knows to 51%; it paid 779 million yuan in total over two steps and 924 million yuan of goodwill came onto the balance sheet. An application for a second listing in Hong Kong is pending; if it goes ahead, the share count rises. Cash exceeds financial debt.",
+   "latest": "29 October 2026: The company reported nine-month results. Revenue rose 7.46% to 7.63 billion yuan and net profit attributable to shareholders rose 22.46% to 1.26 billion yuan. Of that profit, 445 million yuan is a one-off gain from revaluing the earlier stake when control of Flower Knows was taken. Net profit excluding non-recurring items fell 25.50% to 743 million yuan. In the third quarter revenue rose 29.76% to 2.25 billion yuan, with Flower Knows included; net profit fell 61.18% to 88 million yuan. The company blamed higher promotion spending. Operating cash flow fell 61.06% to 467 million yuan.",
+   "risks": [
+    "Last-12-month profit overstates ordinary earnings: about 510 million yuan of the 1.73 billion yuan profit is non-recurring; profit excluding non-recurring items fell 25.5% in nine months and 65.2% in the third quarter. If the decline continues, the price criterion does not hold.",
+    "Selling expenses passed 53% of revenue; main-brand revenue is falling all the same. If advertising costs keep rising, the margin narrows further.",
+    "Flower Knows was bought at a valuation of 2.83 billion yuan and 924 million yuan of goodwill arose; if the brand does not deliver the expected profit, the goodwill is written off.",
+    "Most sales go through a few platforms such as Tmall and Douyin; their rules and traffic prices affect profit directly.",
+    "Most of the second-largest shareholder's shares are pledged and frozen; the Hong Kong listing can also dilute existing shareholders."
+   ],
+   "watch": [
+    "Net profit excluding non-recurring items (743 million yuan in nine months)",
+    "Selling expenses as a share of revenue (53.22% in nine months)",
+    "Change in main-brand revenue (−7.19% in the first half)",
+    "Flower Knows's profit and goodwill impairment"
+   ]
+  },
+  "earn": {
+   "k": 0.705,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Bu kârın içindeki tek seferlik kazançlar: Şirketin 'olağan dışı' diye ayırdığı kalemlerin son 12 aydaki net tutarı (çoğu, Flower Knows'un denetimi alınırken eski payın yeniden değerlenmesinden doğan 445,4 milyon yuanlık kazanç): son 12 ay kârının %29,5 kadarı. Net etki %29,5; kazanç bu kadar indirildi. Son 12 ayın kârı 0,70 ile çarpılarak kullanıldı.",
+    "en": "The calculation rests on the profit of the last 12 months. One-off gains inside that profit: Net total over the last 12 months of the items the company itself classes as non-recurring (mostly the 445.4 million yuan gain from revaluing the earlier stake when control of Flower Knows was taken): 29.5% of last-12-month profit. The net effect is 29.5%; earnings were lowered by that much. Last-12-month profit was used multiplied by 0.70."
+   },
+   "per": "2026-Q3"
+  },
+  "growth": {
+   "g": 4.8,
+   "basis": {
+    "tr": "Formül yılda %9,7 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %−25,5 (şirketin düzeltilmiş rakamı; açıklanan %22,5); Temmuz-Eylül 2026 çeyreği %−65,2 (şirketin düzeltilmiş rakamı; açıklanan %−61,2). Düzeltme: Tek seferlik kalemler hariç net kâr (şirketin kendi 'koufei' rakamı): dokuz ayda 743,3 milyon yuan, üçüncü çeyrekte 79,0 milyon yuan. Fark, şirketin 'olağan dışı' diye ayırdığı kalemlerden geliyor; en büyüğü, Flower Knows'un denetimi alınırken eski payın yeniden değerlenmesinden doğan 445,4 milyon yuanlık kazanç. Dokuz ayda tek seferlik kalemler net 512,8 milyon yuan. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %4,8.",
+    "en": "The formula gave growth of 9.7% a year. Latest figures (net profit, year on year): January-September 2026 −25.5% (the company's adjusted figure; reported 22.5%); July-September 2026 quarter −65.2% (the company's adjusted figure; reported −61.2%). Adjustment: Net profit excluding non-recurring items (the company's own figure): 743.3 million yuan in nine months, 79.0 million in the third quarter. The gap comes from the items the company itself classes as non-recurring; the largest is the 445.4 million yuan gain from revaluing the earlier stake when control of Flower Knows was taken. Non-recurring items were a net 512.8 million yuan in nine months. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 4.8%."
+   },
+   "per": "2026-Q3"
+  }
  }
 }

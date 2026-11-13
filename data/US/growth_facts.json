@@ -1044,5 +1044,104 @@
   "note_tr": null,
   "note_en": null,
   "notes": "NOT primary in the strict sense: Meta's own IR page (investor.atmeta.com/.../Meta-Reports-Third-Quarter-2026-Results) was BLOCKED (permission prompt timed out); figures are from the full press release as reproduced by Finviz/PR Newswire. Percents computed from reported EPS. Both comparisons are distorted in BOTH years: Q3 2026 by the legal charge, Q3 2025 by a very large tax provision (87% rate), and 9M 2026 by an unusually low tax provision (1,028M on the nine months vs 22,888M in 9M 2025, i.e. a large tax benefit earlier in 2026 that I did not trace). The cleanest read is operating profit: Q3 income from operations 12,988M vs 20,535M (-37%), or 22.88bn excluding the charge (+11%); 9M income from operations 54,635M vs 58,531M (-7%) including the charge (about +10% excluding it, my arithmetic) while revenue rose 29%. No EPS guidance. Company guidance: 2026 total expenses 175-179bn dollars; 2026 operating income excluding the charge expected above 2025; capex 135-145bn; Q4 revenue 73-76bn; Q4 tax rate 15-17%; Reality Labs losses 18-19bn in 2026, about 15bn in 2027."
+ },
+ "DECK": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Nisan-Eylül 2026 (2027 mali yılının ilk yarısı)",
+   "en": "April-September 2026 (first half of fiscal 2027)",
+   "pct": 18.25,
+   "cur_val": "3.24",
+   "prev_val": "2.74",
+   "unit": "dolar / dollars",
+   "date": "2026-10-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000910521/000091052126000028/deckex991pressrelease-9302.htm",
+   "primary": true
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 26.92,
+   "cur_val": "2.31",
+   "prev_val": "1.82",
+   "unit": "dolar / dollars",
+   "date": "2026-10-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000910521/000091052126000028/deckex991pressrelease-9302.htm",
+   "primary": true
+  },
+  "guidance": {
+   "tr": "2027 mali yılı için şirket beklentisi (hisse başına kâr, tarife iadesi hariç)",
+   "en": "company guidance for fiscal 2027 (EPS, excluding tariff refunds)",
+   "pct": 4.8,
+   "detail_tr": "hisse başına kâr 7,80-7,95 dolar (önceki 7,35-7,50); 2026 mali yılında 7,02. Ortası 7,875 dolar, artış %12,2. Şirkete göre bunun 0,52 doları tek seferlik tarife iadesi; iade çıkınca 7,28-7,43 dolar, ortada %4,8 artış.",
+   "detail_en": "EPS of 7.80-7.95 dollars (previously 7.35-7.50); 7.02 in fiscal 2026. The midpoint is 7.875 dollars, an increase of 12.2%. The company says 0.52 dollars of this is one-off tariff refunds; without them 7.28-7.43 dollars, a 4.8% increase at the midpoint.",
+   "date": "2026-10-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000910521/000091052126000028/deckex991pressrelease-9302.htm",
+   "primary": true
+  },
+  "adjusted": {
+   "what_tr": "İptal edilen gümrük tarifelerinin (IEEPA) iadesi: 2. çeyrekte 46,0 milyon dolar iade ve 3,0 milyon dolar faiz. Şirkete göre çeyreğin hisse başına kârına etkisi yaklaşık 0,28 dolar. İade çıkınca hisse başına kâr çeyrekte 2,03 dolar (geçen yıl 1,82), altı ayda 2,96 dolar (geçen yıl 2,74).",
+   "what_en": "Refunds of cancelled customs tariffs (IEEPA): 46.0 million dollars of refunds and 3.0 million dollars of interest in the second quarter. The company puts the effect on the quarter's EPS at about 0.28 dollars. Without the refund EPS is 2.03 dollars in the quarter (1.82 a year earlier) and 2.96 dollars in six months (2.74 a year earlier).",
+   "ytd_pct": 8.03,
+   "quarter_pct": 11.54,
+   "url": "https://www.sec.gov/Archives/edgar/data/0000910521/000091052126000028/deckex991pressrelease-9302.htm",
+   "primary": true
+  },
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Primary: SEC 8-K exhibit 99.1 of 22 Oct 2026 read. Reported EPS: Q2 2.31 vs 1.82 (+26.9%), six months 3.24 vs 2.74 (+18.2%); net income Q2 313.1 vs 268.2, six months 443.1 vs 407.4 (million dollars). The company itself quantifies the IEEPA tariff refund at about 0.28 dollars of Q2 EPS and about 0.52 dollars of the fiscal 2027 EPS outlook; the ex-refund figures (2.03, 2.96, 7.28-7.43) are MY subtraction from those company figures, the company does not print an adjusted EPS. Q1 FY27 release (23 Jul 2026) reported no refunds, so the six-month effect is taken as 0.28. JUDGMENT CALL for the main session: guidance.pct is set to the ex-refund 4.8% (midpoint 7.355 vs 7.02); the as-stated guidance midpoint 7.875 gives +12.2%. Change pct to 12.2 if the stated figure is preferred. Fiscal 2026 EPS 7.02 vs 6.33 (+11%). Sales outlook for fiscal 2027 cut from 5.86-5.91 to 5.70-5.725 billion dollars (about +4.2% to +4.6% on 5,472.3); HOKA cut from low-double-digit to high-single-digit growth, UGG from mid- to low-single-digit. Multi-year framework given in May 2026 (FY2028-FY2030): high-single-digit sales growth, low-double-digit EPS growth assuming buybacks; not confirmed as reiterated in October. Departed: Koolaburra phase-out and Sanuk sale are small (Other brands 146.2 of 5,472.3 million dollars in fiscal 2026, 2.7%), not listed. No permanent cause of decline found. No dividend."
+ },
+ "LULU": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "2026 mali yılının ilk yarısı (Şubat-Temmuz 2026)",
+   "en": "first half of fiscal 2026 (February-July 2026)",
+   "pct": -19.5,
+   "cur_val": "4.59",
+   "prev_val": "5.70",
+   "unit": "dolar / dollars",
+   "date": "2026-09-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001397187/000139718726000126/lulu-20260802xex991.htm",
+   "primary": true
+  },
+  "quarter": {
+   "tr": "Mayıs-Temmuz 2026 çeyreği (mali 2. çeyrek)",
+   "en": "May-July 2026 quarter (fiscal Q2)",
+   "pct": -5.8,
+   "cur_val": "2.92",
+   "prev_val": "3.10",
+   "unit": "dolar / dollars",
+   "date": "2026-09-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001397187/000139718726000126/lulu-20260802xex991.htm",
+   "primary": true
+  },
+  "guidance": {
+   "tr": "2026 mali yılı için şirket beklentisi (Ocak 2027'de biter)",
+   "en": "company guidance for fiscal 2026 (ends January 2027)",
+   "pct": -27.6,
+   "detail_tr": "hisse başına kâr 9,48-9,73 dolar (ortası 9,605; önceki beklenti 10,95-11,15); 2025 mali yılında 13,26. Beklenti 2. çeyrekteki 0,86 dolarlık gümrük iadesini içeriyor; iade hariç 8,62-8,87 dolar, ortası 8,745 (−%34,0, kendi hesabımız)",
+   "detail_en": "diluted EPS of 9.48-9.73 dollars (midpoint 9.605; previous guidance 10.95-11.15); 13.26 in fiscal 2025. The guidance includes the 0.86 dollars of tariff refunds booked in Q2; excluding them 8.62-8.87 dollars, midpoint 8.745 (−34.0%, our arithmetic)",
+   "date": "2026-09-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001397187/000139718726000126/lulu-20260802xex991.htm",
+   "primary": true
+  },
+  "adjusted": {
+   "what_tr": "İptal edilen gümrük vergilerinin iadesi (134,5 milyon dolar ve 4,1 milyon dolar faiz) 2. çeyrekte hisse başına kâra vergi sonrası 0,86 dolar ekledi (şirketin açıklaması). İade hariç çeyrek kârı 2,06 dolar (geçen yıl 3,10), ilk yarı kârı 3,73 dolar (geçen yıl 5,70) eder; büyüme hesabı benim.",
+   "what_en": "Refunds of cancelled tariffs (134.5 million dollars plus 4.1 million of interest) added 0.86 dollars after tax to diluted EPS in Q2 (company statement). Excluding them quarterly EPS is 2.06 dollars (3.10 a year earlier) and first-half EPS 3.73 dollars (5.70 a year earlier); the growth figures are my arithmetic.",
+   "ytd_pct": -34.6,
+   "quarter_pct": -33.5,
+   "url": "https://www.sec.gov/Archives/edgar/data/0001397187/000139718726000126/lulu-20260802xex991.htm"
+  },
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "All ytd/quarter/guidance figures read in the company's 8-K Exhibit 99.1 of 3 Sep 2026 (primary). Net income: Q2 329.2 vs 370.9 mn dollars (-11.2%); first half 524.3 vs 685.5 mn (-23.5%). Prior-year comparison for guidance: FY2025 diluted EPS 13.26 (8-K Ex. 99.1 of 17 Mar 2026). The company gives no non-GAAP EPS; it only states that IEEPA refunds added 0.86 dollars to Q2 diluted EPS, so the adjusted growth figures (2.06/3.10, 3.73/5.70) are derived, not company-stated. FY2026 guidance history: 12.10-12.30 (17 Mar 2026), 10.95-11.15 (4 Jun 2026), 9.48-9.73 (3 Sep 2026); the last 'does not reflect any further potential tariff refunds' and excludes future buybacks. Q3 guidance 0.93-0.98 (single quarter, not used). PERMANENT left null on purpose: the fall has several causes (Americas comparable sales -12%, markdowns, tariffs, China -2% in constant currency). One of them is a rule in force (de minimis exemption removed 29 Aug 2025, upheld by the Court of International Trade 13 Aug 2026, per sec-api.io summary of the 10-Q, secondary), but the filings do not separate its amount from tariffs, and the IEEPA tariffs themselves were invalidated (refunds received). I found no sourced evidence that the demand decline is structural; main session may want to weigh this. DEPARTED: none found (no exited business or lost licence). No dividend is paid. Q3 fiscal 2026 results (quarter ended about 1 Nov 2026) were not out; I could not find an announced date."
  }
 }

@@ -2049,5 +2049,908 @@
    },
    "per": "2026-Q4"
   }
+ },
+ "194A": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 2,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "2026-Q4",
+  "one": "Japonya'da 39 hayvan hastanesi işletiyor. Kalite surlarını geçti, hendek dar; son yılın kârının bir bölümü tek seferlik kazanç, yeni yıl beklentisi yalnız %7 artış.",
+  "business": "WOLVES HAND, Japonya'da evcil hayvan hastaneleri işletir; parayı hayvan sahiplerinin ödediği muayene ve tedavi ücretlerinden kazanır. Haziran 2026 sonunda 39 yeri vardı: 12 merkez hastane ve 27 uydu hastane (Kansai 15, Kanto 14, Kyushu ve Okinawa 9, Hokkaido 1). Haziran 2026'da biten yılda satış 6,16 milyar yen, faaliyet kârı 1,13 milyar yen oldu; satışın yaklaşık %84'ü hastanelerden geldi. Kalanı veteriner kliniği yazılımı, veteriner eğitimi, tıbbi cihaz ve hijyen cihazlarıdır. Mali yıl haziranda biter.",
+  "moat_text": "Hendek dar. Üstünlük, merkez hastanelerdeki ileri donanımdan (BT, MR, ışın tedavisi) ve ağdan geliyor: uydu hastaneler günlük bakımı yapar, zor vakayı grubun kendi merkezine gönderir. Tek bir kliniğin bu donanımı kurması pahalıdır. Rakamlar bunu destekliyor: faaliyet kâr marjı %18,3 (bir yıl önce %16,6), yıllık vaka sayısı 415.891 (bir yıl önce 395.059). Reel özsermaye kârlılığı son dört mali yılda %22,0 ile %36,0 arasında. Zayıf yanı: sektör çok parçalı ve klinik açmak kolay; üstünlük yereldir ve veteriner hekime bağlıdır (yılda ortalama 115 hekim). Geçmiş kısa: şirket 2024'te halka açıldı; 2020 mali yılında satın almalara bağlı 2,05 milyar yen değer düşüklüğü yazmıştı. Şerefiye 1,76 milyar yen, varlıkların %26,0'ı.",
+  "mgmt": "Şirketi kurucusu ve genel müdürü Masashi Kitai yönetiyor. Haziran 2025'te payların %44,0'ı onda, yaklaşık %38'i J-STAR fonlarındaydı; 2 Eylül 2026'da ikincil pay satışı ve büyük ortak değişikliği duyuruldu, güncel oranlar okunamadı. Şirket bugüne kadar temettü ödemedi; Haziran 2027 yılı için ilk kez hisse başına 26 yen öngörüyor (kârın yaklaşık %20'si). Kâr hastane satın almaya ve borç ödemeye gitti. Küçük kusurlar var: son yılda ana işin dışına çıkan alımlar yapıldı (lazer cihazı üreticisi, fotokatalizör işi, kitin nanofiber işi); genel müdürün %100 sahibi olduğu şirketten bina ve otopark kiralanıyor (yılda 24,2 milyon yen); Aralık 2020'deki bir pay geri alımı sermaye koruma kurallarını aşmıştı. Finansal borç 1,97 milyar yen, nakit 0,81 milyar yen (net borç/FAVÖK 0,79).",
+  "latest": "13 Ağustos 2026: Haziran 2026'da biten yılın sonuçları açıklandı. Satış %12,7 artışla 6,16 milyar yen, faaliyet kârı %23,9 artışla 1,13 milyar yen, net kâr %58,4 artışla 939 milyon yen oldu. Net kârın içinde 251 milyon yen olağan dışı gelir var; 227 milyon yeni, Ocak 2026'da devralınan fotokatalizör işinden doğan negatif şerefiye kazancı. Aynı yıl 83 milyon yen değer düşüklüğü yazıldı. Haziran 2027 yılı tahmini: satış 7,54 milyar yen (+%22,4), faaliyet kârı 1,57 milyar yen (+%39,3), net kâr 1,01 milyar yen (+%7,0), hisse başına kâr 132,90 yen. Temmuz 2026'da iki satın alma daha duyuruldu (Meditrix, North One). Temmuz-Eylül 2026 çeyreği sonuçları 11 Kasım 2026'da açıklandı; belge bu okumada açılamadı.",
+  "risks": [
+   "Son 12 ayın kârı tek seferlik kazançla büyüdü: 227 milyon yen negatif şerefiye kazancı net kârın yaklaşık dörtte biri. Şirket yeni yıl için net kârda yalnız %7,0 artış öngörüyor; fiyat hesabındaki büyüme varsayımı bundan yüksekse güvenlik marjı zayıflar.",
+   "Büyüme satın almaya dayanıyor ve şirket ana işinin dışına çıkıyor (lazer cihazı, fotokatalizör, kitin nanofiber, araştırma projeleri). Bu işler kâr getirmezse yeni değer düşüklükleri yazılabilir; şerefiye varlıkların %26,0'ı.",
+   "Veteriner hekim bulmak zor; yeni mezunlar için rekabet yoğun. Hekim kaybı ya da ücret artışı hastanelerin kârını doğrudan düşürür.",
+   "Geçmiş kısa: şirket 2024'te halka açıldı ve beş yıllık özsermaye kârlılığı geçmişinin yalnız dört yılı var. Yüksek kârlılık kısmen küçük özsermayeden geliyor.",
+   "Şirket kurucusuna bağlı; onunla ilişkili taraf kiralamaları var. Eylül 2026'daki pay satışından sonra ortaklık yapısı değişti."
+  ],
+  "watch": [
+   "Olağan dışı kalemler hariç net kâr ve hisse başına kâr (yıllık tahmin 132,90 yen)",
+   "Mevcut hastanelerde vaka sayısı ve faaliyet kâr marjı",
+   "Yeni satın almaların bedeli, şerefiye ve değer düşüklüğü",
+   "Finansal borç ve ilk temettü (hisse başına 26 yen)"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tyo/194A/financials/ratios/"
+   },
+   {
+    "t": "Tokyo Borsası: WOLVES HAND Haziran 2026 yılı sonuç bildirimi (13 Ağu 2026)",
+    "te": "Tokyo Stock Exchange: WOLVES HAND results filing, year to June 2026 (13 Aug 2026)",
+    "u": "https://www2.jpx.co.jp/disc/194A0/140120260813518909.pdf"
+   },
+   {
+    "t": "Tokyo Borsası: WOLVES HAND Haziran 2026 yılı sonuç bildirimi, özet tablo (13 Ağu 2026)",
+    "te": "Tokyo Stock Exchange: WOLVES HAND results filing, summary page, year to June 2026 (13 Aug 2026)",
+    "u": "https://www2.jpx.co.jp/disc/194A0/081220260813518909_tse-acedjpsm-194A0-202608133194A0-ixbrl.htm"
+   },
+   {
+    "t": "Tokyo Borsası: WOLVES HAND Temmuz 2025-Mart 2026 sonuç bildirimi (13 May 2026)",
+    "te": "Tokyo Stock Exchange: WOLVES HAND results filing, July 2025-March 2026 (13 May 2026)",
+    "u": "https://www2.jpx.co.jp/disc/194A0/140120260513528921.pdf"
+   },
+   {
+    "t": "EDINET DB: WOLVES HAND yıllık menkul kıymet raporu metni, Haziran 2026 yılı (hastaneler, vaka sayısı, riskler, ilişkili taraflar)",
+    "te": "EDINET DB: WOLVES HAND annual securities report text, year to June 2026 (hospitals, cases, risks, related parties)",
+    "u": "https://edinetdb.jp/company/E39640/text"
+   },
+   {
+    "t": "Finboard: WOLVES HAND büyük ortaklar (Haziran 2025)",
+    "te": "Finboard: WOLVES HAND major shareholders (June 2025)",
+    "u": "https://finboard.jp/companies/JP:194A/ownership"
+   },
+   {
+    "t": "Yahoo! Finance Japan: WOLVES HAND borsa bildirimleri listesi (2 Eyl 2026 pay satışı ve geri alım duyuruları, Temmuz 2026 satın almaları)",
+    "te": "Yahoo! Finance Japan: WOLVES HAND list of exchange disclosures (2 Sep 2026 share offering and buyback notices, July 2026 acquisitions)",
+    "u": "https://finance.yahoo.co.jp/quote/194A.T/disclosure"
+   },
+   {
+    "t": "Matsui Securities: WOLVES HAND çeyreklik sonuçlar",
+    "te": "Matsui Securities: WOLVES HAND quarterly results",
+    "u": "https://finance.matsui.co.jp/stock/194A/settlement/index"
+   }
+  ],
+  "en": {
+   "one": "Runs 39 animal hospitals in Japan. Passed the quality walls, narrow moat; last year's profit includes a one-off gain and the forecast is 7% growth.",
+   "business": "WOLVES HAND runs hospitals for pets in Japan; it earns its money from the examination and treatment fees paid by pet owners. At the end of June 2026 it had 39 sites: 12 centre hospitals and 27 satellite hospitals (Kansai 15, Kanto 14, Kyushu and Okinawa 9, Hokkaido 1). In the year to June 2026 sales were 6.16 billion yen and operating profit 1.13 billion yen; about 84% of sales came from the hospitals. The rest is veterinary clinic software, veterinary education, medical devices and hygiene devices. The fiscal year ends in June.",
+   "moat_text": "The moat is narrow. The advantage comes from advanced equipment at the centre hospitals (CT, MRI, radiotherapy) and from the network: satellite hospitals handle everyday care and send difficult cases to the group's own centre. That equipment is expensive for a single clinic to install. The figures support this: the operating margin is 18.3% (16.6% a year earlier) and the number of cases in the year was 415,891 (395,059 a year earlier). Real return on equity ranged from 22.0% to 36.0% over the last four fiscal years. The weak side: the sector is very fragmented and a clinic is easy to open; the advantage is local and depends on the veterinarians (115 on average in the year). The record is short: the company listed in 2024, and in fiscal 2020 it wrote off 2.05 billion yen of acquisition-related value. Goodwill is 1.76 billion yen, 26.0% of assets.",
+   "mgmt": "The company is run by its founder and chief executive, Masashi Kitai. In June 2025 he owned 44.0% of the shares and J-STAR funds about 38%; on 2 September 2026 a secondary share offering and a change of major shareholder were announced, and the current stakes could not be read. The company has never paid a dividend; for the year to June 2027 it plans its first, 26 yen per share (about 20% of profit). Profit has gone to buying hospitals and repaying debt. There are small flaws: last year's purchases went outside the main business (a laser device maker, a photocatalyst business, a chitin nanofibre business); buildings and parking are leased from a company wholly owned by the chief executive (24.2 million yen a year); and a share buyback in December 2020 breached capital-maintenance rules. Financial debt is 1.97 billion yen and cash 0.81 billion yen (net debt/EBITDA 0.79).",
+   "latest": "13 August 2026: results for the year to June 2026 were announced. Sales rose 12.7% to 6.16 billion yen, operating profit rose 23.9% to 1.13 billion yen and net profit rose 58.4% to 939 million yen. Net profit includes 251 million yen of extraordinary income; 227 million yen of it is a negative goodwill gain from the photocatalyst business taken over in January 2026. An impairment of 83 million yen was booked in the same year. Forecast for the year to June 2027: sales 7.54 billion yen (+22.4%), operating profit 1.57 billion yen (+39.3%), net profit 1.01 billion yen (+7.0%), earnings per share 132.90 yen. Two more acquisitions were announced in July 2026 (Meditrix, North One). Results for the July-September 2026 quarter were announced on 11 November 2026; the document could not be opened in this reading.",
+   "risks": [
+    "The profit of the last 12 months was enlarged by a one-off gain: the 227 million yen negative goodwill gain is about a quarter of net profit. The company expects net profit to rise only 7.0% in the new year; if the growth assumed in the price calculation is higher than that, the margin of safety weakens.",
+    "Growth rests on acquisitions, and the company is moving outside its main business (laser devices, photocatalyst, chitin nanofibre, research projects). If these do not earn a profit, new impairments may follow; goodwill is 26.0% of assets.",
+    "Veterinarians are hard to find; competition for new graduates is intense. Losing veterinarians or paying them more cuts hospital profit directly.",
+    "The record is short: the company listed in 2024 and only four of the five years of return-on-equity history exist. The high return comes partly from a small equity base.",
+    "The company depends on its founder, and there are related-party leases with him. The shareholder structure changed after the share offering in September 2026."
+   ],
+   "watch": [
+    "Net profit and earnings per share excluding extraordinary items (full-year forecast 132.90 yen)",
+    "Number of cases and operating margin at existing hospitals",
+    "Price paid for new acquisitions, goodwill and impairments",
+    "Financial debt and the first dividend (26 yen per share)"
+   ]
+  },
+  "earn": {
+   "k": 0.871,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Bu kârın içindeki tek seferlik kazançlar: Negatif şerefiye kazancı: Ocak 2026'da bağlı ortaklık Kaltech'in devraldığı fotokatalizör işinde ödenen bedel, alınan net varlıkların değerinden düşük kaldı (olağan dışı gelir, 227,5 milyon yen vergi öncesi): son 12 ay kârının %17,5 kadarı; Kademeli edinim kazancı: iştirak Asuka Medical'in tamamı alınırken eski payın yeniden değerlenmesi (olağan dışı gelir, 12,9 milyon yen vergi öncesi): son 12 ay kârının %1,0 kadarı; Duran varlık satış kazancı (olağan dışı gelir, 11,0 milyon yen vergi öncesi): son 12 ay kârının %0,8 kadarı. Aynı dönemin tek seferlik giderleri: Değer düşüklüğü zararı (olağan dışı gider, 83,4 milyon yen vergi öncesi): %6,4. Net etki %13,0; kazanç bu kadar indirildi. Şirketin Haziran 2027 mali yılı için hisse başına kâr beklentisi 132,90 JPY; son 12 ayda 124,88 JPY. Beklenti daha düşük değil. Son 12 ayın kârı 0,87 ile çarpılarak kullanıldı.",
+    "en": "The calculation rests on the profit of the last 12 months. One-off gains inside that profit: Negative goodwill gain: in the photocatalyst business taken over by the subsidiary Kaltech in January 2026 the price paid was below the value of the net assets acquired (extraordinary income, 227.5 million yen pre-tax): 17.5% of last-12-month profit; Gain on step acquisition: revaluation of the earlier stake when the affiliate Asuka Medical became wholly owned (extraordinary income, 12.9 million yen pre-tax): 1.0% of last-12-month profit; Gain on sale of fixed assets (extraordinary income, 11.0 million yen pre-tax): 0.8% of last-12-month profit. One-off charges in the same period: Impairment loss (extraordinary loss, 83.4 million yen pre-tax): 6.4%. The net effect is 13.0%; earnings were lowered by that much. The company's earnings-per-share outlook for fiscal year to June 2027 is 132.90 JPY; the last 12 months were 124.88 JPY. The outlook is not lower. Last-12-month profit was used multiplied by 0.87."
+   },
+   "per": "2026-Q4"
+  },
+  "growth": {
+   "g": 11.8,
+   "dy": 1.9,
+   "basis": {
+    "tr": "Formül yılda %19,3 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Temmuz 2025-Haziran 2026 mali yılı %57,4; Nisan-Haziran 2026 çeyreği (yıllık eksi dokuz aylık, türetildi) %16,0; Haziran 2027 yılı için şirket tahmini %6,4. En düşüğü, enflasyondan arındırılınca, %4,2. Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %11,8. Kaynakta temettü verimi yok; şirketin Haziran 2027 yılı (ilk temettü, tahmin) için açıkladığı hisse başına 26 JPY temettüden %1,9 hesaplandı.",
+    "en": "The formula gave growth of 19.3% a year. Latest figures (earnings per share, year on year): fiscal year July 2025-June 2026 57.4%; April-June 2026 quarter (full year minus nine months, derived) 16.0%; company forecast for the year to June 2027 6.4%. The lowest, after inflation, is 4.2%. Because this is less than half the formula's rate, the midpoint of the two was used: 11.8%. The data source has no dividend yield; 1.9% was calculated from the dividend of 26 JPY per share the company declared for the year to June 2027 (first dividend, forecast)."
+   },
+   "per": "2026-Q4"
+  }
+ },
+ "3150": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 2,
+   "E": 2
+  },
+  "moat": "zayıf",
+  "per": "2026-Q2",
+  "one": "Küçük işletmelere çatı güneş paneli ve elektrik satan şirket. Kârlı ve borcu az, ama üstünlüğü satış gücüne dayanıyor; hendek ölçütünü geçemedi.",
+  "business": "grems iki iş yapar. Küçük ve orta boy fabrikalara çatı güneş paneli ve batarya satıp kurar; müşteri kendi elektriğini üretip faturasını düşürür. Ayrıca küçük işletmelere düşük gerilim elektrik satar. Mart 2026'da biten yılda satış 33,9 milyar yen, faaliyet kârı 7,15 milyar yen oldu. Enerji çözümleri kolu 14,7 milyar yen satış ve 5,03 milyar yen kâr, elektrik satışı kolu 19,2 milyar yen satış ve 2,89 milyar yen kâr getirdi. Mart 2026'da 73 bin elektrik sözleşmesi vardı.",
+  "moat_text": "Hendek zayıf. Şirket bu ölçütü geçemedi. Rakamlar güçlü: faaliyet kâr marjı %21,1, enerji çözümleri kolunda %34,2; reel özsermaye kârlılığı beş yılda %23,8 ile %28,4 arasında. Şirket, hedef aldığı 600 bin işletmenin yalnız %1'ine ulaştığını ve bu alanda büyük rakibi olmadığını söylüyor. Ama üstünlük satış ekibine ve kurulum ağına dayanıyor; bunu koruyan bir lisans, marka ya da uzun süreli sözleşme yok. Panel satışı bir kerelik iştir, her müşteri yeniden bulunur. Elektrik satışında ürün herkesle aynıdır ve kâr, toptan piyasa fiyatı ile satış fiyatı arasındaki farka bağlıdır: Mart 2025 yılında bu kolun kâr artışının yaklaşık 0,79 milyar yeni piyasa farkından geldi. Yüksek kârlılık pazara yeni rakip çekerse onu durduracak bir engel görmedik.",
+  "mgmt": "Kurucu Masaomi Tanaka %46,66 paya sahip (31 Mart 2026); ikinci ortak Enaris %7,35 tutuyor. Şirket Mart 2025 yılından beri kârın yaklaşık %40'ını dağıtmayı hedefliyor: Mart 2026 yılı için hisse başına 85 yen ödedi (dağıtım oranı %40,1), yeni yıl için 93 yen öngörüyor. Kalan kâr ana işe ve şebeke bataryası tesislerine gidiyor (altı tesis planlandı). Nakit 16,3 milyar yen, banka borcu yaklaşık 3,7 milyar yen; özsermaye oranı %68,0. Şirket Mart 2026 yılında ev tipi panel satışını küçülttü ve 111 milyon yen yeniden yapılanma gideri yazdı. Mali yıl mart sonunda biter.",
+  "latest": "4 Kasım 2026: Nisan-Eylül 2026 dönemi sonuçları açıklandı. Satış %11,4 artışla 19,41 milyar yen, faaliyet kârı %24,8 artışla 4,55 milyar yen, net kâr %23,2 artışla 3,09 milyar yen oldu. Elektrik satışı kolunda satış %27,6, kâr %32,2 arttı. Enerji çözümleri kolunda satış ev tipi satışın bırakılmasıyla %8,7 düştü, kâr %13,1 arttı. Yıllık tahmin değişmedi: satış 37,17 milyar yen, faaliyet kârı 7,90 milyar yen (%10,5 artış), net kâr 5,38 milyar yen (%9,8 artış). Bu tahmin, yılın ikinci yarısında geçen yıla göre biraz daha düşük kâr anlamına geliyor.",
+  "risks": [
+   "Elektrik satışının kârı toptan piyasa fiyatına ve şirketin korunma işlemlerine bağlıdır; fiyat farkı daralırsa kâr düşer.",
+   "Güneş paneli satışı bir kerelik iştir; satış ekibinin hızı düşerse ya da teşvikler değişirse bu kolun kârı geriler.",
+   "Şirketin yıllık tahmini, ikinci yarıda net kârın geçen yılın aynı dönemine göre yaklaşık %4 düşeceğini ima ediyor.",
+   "Kurucu %46,66 payla şirketi tek başına yönlendirebilir; küçük ortağın etkisi sınırlıdır."
+  ],
+  "watch": [
+   "Elektrik sözleşmesi sayısı (Mart 2026'da 73 bin)",
+   "Elektrik satışı kolunun kâr marjı (Mart 2026 yılında %15,0)",
+   "Enerji çözümleri kolunun kâr marjı (%34,2)",
+   "Şebeke bataryası tesislerinin devreye girişi ve getirisi"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tyo/3150/financials/ratios/"
+   },
+   {
+    "t": "JPX: grems, Mart 2026 yılı sonuç özeti (15 Mayıs 2026)",
+    "te": "JPX: grems, summary of results for the year to March 2026 (15 May 2026)",
+    "u": "https://www2.jpx.co.jp/disc/31500/081220260515536016_tse-acedjpsm-31500-20260515331500-ixbrl.htm"
+   },
+   {
+    "t": "JPX: grems, Mart 2026 yılı sonuç bülteni, tam metin (15 Mayıs 2026)",
+    "te": "JPX: grems, full results release for the year to March 2026 (15 May 2026)",
+    "u": "https://www2.jpx.co.jp/disc/31500/140120260515536016.pdf"
+   },
+   {
+    "t": "JPX: grems, Mart 2026 yılı sonuç ek sunumu (15 Mayıs 2026)",
+    "te": "JPX: grems, supplementary results material for the year to March 2026 (15 May 2026)",
+    "u": "https://www2.jpx.co.jp/disc/31500/140120260515536017.pdf"
+   },
+   {
+    "t": "JPX: grems, Mart 2027 yılı 1. çeyrek sonuç özeti (5 Ağustos 2026)",
+    "te": "JPX: grems, first-quarter results summary for the year to March 2027 (5 August 2026)",
+    "u": "https://www2.jpx.co.jp/disc/31500/081220260804509096_tse-qcedjpsm-31500-20260805331500-ixbrl.htm"
+   },
+   {
+    "t": "Money Post (FISCO): grems ara dönem sonuçları (5 Kasım 2026)",
+    "te": "Money Post (FISCO): grems interim results (5 November 2026)",
+    "u": "https://www.moneypost.jp/1462359"
+   },
+   {
+    "t": "Matsui Securities: grems çeyreklik sonuçlar",
+    "te": "Matsui Securities: grems quarterly results",
+    "u": "https://finance.matsui.co.jp/stock/3150/settlement/index"
+   },
+   {
+    "t": "The Shashi: grems büyük ortaklar (31 Mart 2026)",
+    "te": "The Shashi: grems major shareholders (31 March 2026)",
+    "u": "https://the-shashi.com/tse/3150/shareholders/"
+   },
+   {
+    "t": "logmi Finance: grems Mart 2025 yılı sonuç toplantısı (11 Haziran 2025)",
+    "te": "logmi Finance: grems results briefing for the year to March 2025 (11 June 2025)",
+    "u": "https://finance.logmi.jp/articles/381928"
+   }
+  ],
+  "en": {
+   "one": "Sells rooftop solar and electricity to small businesses. Profitable with little debt, but its edge rests on sales force; it failed the moat criterion.",
+   "business": "grems does two things. It sells and installs rooftop solar panels and batteries at small and mid-sized factories; the customer generates its own power and cuts its bill. It also sells low-voltage electricity to small businesses. In the year to March 2026 sales were 33.9 billion yen and operating profit 7.15 billion yen. Energy solutions brought 14.7 billion yen of sales and 5.03 billion yen of profit; retail electricity brought 19.2 billion yen of sales and 2.89 billion yen of profit. It had 73 thousand electricity contracts in March 2026.",
+   "moat_text": "The moat is weak. The company did not meet this criterion. The numbers are strong: the operating margin is 21.1%, and 34.2% in energy solutions; real return on equity ranged from 23.8% to 28.4% over five years. The company says it has reached only 1% of the 600 thousand businesses it targets and has no major competitor in this niche. But the edge rests on the sales team and the installer network; no licence, brand or long-term contract protects it. A panel sale is a one-time job, and each customer has to be found anew. In retail electricity the product is the same as everyone's, and profit depends on the gap between the wholesale market price and the selling price: in the year to March 2025 about 0.79 billion yen of this segment's profit increase came from the market spread. If high returns attract new rivals, we saw no barrier that would stop them.",
+   "mgmt": "The founder, Masaomi Tanaka, holds 46.66% (31 March 2026); the second shareholder, Enaris, holds 7.35%. Since the year to March 2025 the company has aimed to pay out about 40% of profit: it paid 85 yen per share for the year to March 2026 (payout 40.1%) and plans 93 yen for the new year. The rest goes into the core business and grid battery sites (six are planned). Cash is 16.3 billion yen and bank debt about 3.7 billion yen; the equity ratio is 68.0%. In the year to March 2026 the company scaled back residential panel sales and booked 111 million yen of restructuring costs. The fiscal year ends in March.",
+   "latest": "4 November 2026: results for April-September 2026 were announced. Sales rose 11.4% to 19.41 billion yen, operating profit rose 24.8% to 4.55 billion yen, and net profit rose 23.2% to 3.09 billion yen. In retail electricity, sales rose 27.6% and profit 32.2%. In energy solutions, sales fell 8.7% after the exit from residential sales, while profit rose 13.1%. The full-year forecast is unchanged: sales 37.17 billion yen, operating profit 7.90 billion yen (up 10.5%), net profit 5.38 billion yen (up 9.8%). This forecast implies slightly lower profit in the second half than a year earlier.",
+   "risks": [
+    "Retail electricity profit depends on the wholesale market price and on the company's hedging; if the spread narrows, profit falls.",
+    "A solar panel sale is a one-time job; if the sales team slows or subsidies change, this segment's profit declines.",
+    "The company's full-year forecast implies that second-half net profit will be about 4% lower than in the same period a year earlier.",
+    "The founder, with 46.66%, can steer the company alone; minority shareholders have limited influence."
+   ],
+   "watch": [
+    "Number of electricity contracts (73 thousand in March 2026)",
+    "Retail electricity segment margin (15.0% in the year to March 2026)",
+    "Energy solutions segment margin (34.2%)",
+    "Start-up and returns of the grid battery sites"
+   ]
+  }
+ },
+ "3393": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 2,
+   "E": 2
+  },
+  "moat": "zayıf",
+  "per": "2026-Q2",
+  "one": "Küçük işletmelere fotokopi makinesi, ağ donanımı ve bulut yazılımı satan BT grubu. Kalite surunu geçti; hendek zayıf olduğu için 3. surda elendi.",
+  "business": "Startia Holdings, Japonya'da küçük ve orta boy işletmelere ofis BT'si satar. BT altyapısı kolu fotokopi makinesi, iş telefonu, ağ ve güvenlik donanımı satar, bakımını yapar; internet hattı ve elektrik de satar. Dijital dönüşüm kolu Cloud CIRCUS adlı pazarlama yazılımını ve iş otomasyonu araçlarını abonelikle sunar. Mart 2026'da biten yılda hasılat 23,8 milyar yen, faaliyet kârı 3,2 milyar yen oldu; hasılatın 18,9 milyar yeni BT altyapısından, 4,9 milyar yeni dijital dönüşümden geldi. Mali yıl mart sonunda biter.",
+  "moat_text": "Hendek zayıf; şirket bu yüzden 3. surda elendi. Hasılatın yaklaşık beşte dördü başka üreticilerin makinelerini satmaktan ve bakımından geliyor. Bu işte lisans, ölçek ya da marka üstünlüğü yok: aynı makineyi başka bayiler de satar ve şirket küçüktür (hasılat 23,8 milyar yen). Üstünlük satış ekibinden ve eldeki müşteriye ikinci, üçüncü ürünü satmaktan geliyor; bu gerçek ama rakip aynısını yapabilir. Rakamlar iyi: reel özsermaye kârlılığı beş yılda %17,2'den %26,6'ya çıktı, son 12 ayda %29,7; faaliyet kâr marjı 2025 mali yılındaki %12,3'ten %13,6'ya yükseldi; dijital dönüşüm kolunun marjı %19,4. Ama şirket müşteri kaybı oranını ve yinelenen gelirin payını okuduğumuz belgelerde açıklamıyor; kalıcılığı rakamla gösteremedik. Şirket kendi risk bölümünde üç şeyi sayıyor: kâğıtsız ofis fotokopi talebini azaltabilir, rekabet fiyatı ve bakım ücretini düşürebilir, üretken yapay zekâ aracı konumunun değerini aşındırabilir.",
+  "mgmt": "En büyük ortak Hideyuki Hongo: 30 Eylül 2026'da payların %25,47'si onda. Çalışanların hisse birliği %3,66, Hikari Tsushin %1,82 tutuyor. Kâr ortağa ve ana işe gidiyor. 2026 mali yılında hisse başına 145 yen temettü ödendi (8 yeni yıl dönümü temettüsü; şirketin açıkladığı dağıtım oranı %58,6) ve 361 milyon yenlik pay geri alındı. 2027 mali yılından itibaren hedef, özsermayenin %13'ü kadar temettü ve azalmayan temettü; öngörü yine 145 yen. Şirket ana işinde küçük bayiler satın alıyor: 2 Kasım 2026'da Iwate'deki ofis makinesi bayisi Hanamaki Jimuki'nin tamamını 1.011 milyon yen nakitle aldı. Nisan-Eylül 2026'da BT altyapısı kolundaki yeniden yapılanma yüzünden 249 milyon yen değer düşüklüğü yazdı; çoğu şerefiye. 30 Eylül 2026'da nakit 6,9 milyar yen, banka borcu 2,2 milyar yen.",
+  "latest": "6 Kasım 2026: Nisan-Eylül 2026 sonuçları açıklandı. Hasılat %11,0 artışla 12.778 milyon yen, faaliyet kârı %26,7 artışla 1.785 milyon yen, ana ortaklık payına düşen net kâr %34,4 artışla 1.259 milyon yen oldu (hisse başına 134,29 yen; bir yıl önce 99,91 yen). BT altyapısının hasılatı 10.110 milyon yen (+%12,3), kârı 1.089 milyon yen (+%27,5); dijital dönüşümün hasılatı 2.655 milyon yen (+%6,1), kârı 613 milyon yen (+%23,7). Dönemde 269 milyon yen menkul kıymet satış kazancı ve 249 milyon yen değer düşüklüğü var; ikisi birbirini büyük ölçüde götürüyor. Şirket aynı gün yıllık tahminini yükseltti: hasılat 26.300 milyon yen, faaliyet kârı 3.700 milyon yen, net kâr 2.457 milyon yen (önce 26.000, 3.550 ve 2.343). Yeni tahmin son 12 ayın kârının (2.640 milyon yen) altında. Ara temettü 67 yen.",
+  "risks": [
+   "Şirketin yıllık kâr tahmini (2.457 milyon yen) son 12 ayın kârının (2.640 milyon yen) altında; tahmin tutarsa yılın ikinci yarısında kâr geçen yılın aynı döneminin gerisinde kalır.",
+   "Fotokopi makinesi ve bakımı ana gelir kaynağı. Kâğıtsız ofis ve şube birleşmeleri talebi azaltabilir; rekabet fiyatı ve bakım ücretini düşürebilir.",
+   "Şirket başkasının ürününü satıyor. Üreticinin teslimatı gecikirse ya da satış primi koşulları değişirse kâr etkilenir; primler ikinci ve dördüncü çeyrekte yazıldığı için çeyrek kârı oynaktır.",
+   "Üretken yapay zekâ, küçük işletmeye aracılık eden satıcının ve pazarlama yazılımının değerini aşındırabilir.",
+   "Büyüme kısmen satın almayla geliyor. Nisan-Eylül 2026'da 249 milyon yen değer düşüklüğü yazıldı; Hanamaki Jimuki alımının şerefiyesi henüz belli değil."
+  ],
+  "watch": [
+   "Yıllık net kâr tahmini (2.457 milyon yen) ve ikinci yarının kârı",
+   "BT altyapısı kolunun kârı (Nisan-Eylül 2026'da 1.089 milyon yen)",
+   "Dijital dönüşüm kolunun hasılat artışı (Nisan-Eylül 2026'da %6,1)",
+   "Şerefiye ve yeni satın almalar"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tyo/3393/financials/ratios/"
+   },
+   {
+    "t": "Startia Holdings: yarıyıl raporu, Nisan-Eylül 2026 (EDINET, 6 Kas 2026)",
+    "te": "Startia Holdings: semi-annual securities report, April-September 2026 (EDINET, 6 Nov 2026)",
+    "u": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100ZCLX.pdf"
+   },
+   {
+    "t": "Startia Holdings: Mart 2026 yılı sonuç bülteni (TDnet, 15 May 2026)",
+    "te": "Startia Holdings: kessan tanshin for the year to March 2026 (TDnet, 15 May 2026)",
+    "u": "https://www2.jpx.co.jp/disc/33930/140120260515538141.pdf"
+   },
+   {
+    "t": "Startia Holdings: Nisan-Haziran 2026 sonuç bülteni (TDnet, 7 Ağu 2026)",
+    "te": "Startia Holdings: kessan tanshin for April-June 2026 (TDnet, 7 Aug 2026)",
+    "u": "https://www2.jpx.co.jp/disc/33930/140120260807515095.pdf"
+   },
+   {
+    "t": "Startia Holdings: Mart 2026 yılı sonuç sunumu (TDnet, 15 May 2026)",
+    "te": "Startia Holdings: results presentation for the year to March 2026 (TDnet, 15 May 2026)",
+    "u": "https://www2.jpx.co.jp/disc/33930/140120260515538196.pdf"
+   },
+   {
+    "t": "Kabutan: Startia Holdings sonuçları ve tahmin değişikliği (6 Kas 2026)",
+    "te": "Kabutan: Startia Holdings results and forecast revision (6 Nov 2026)",
+    "u": "https://s.kabutan.jp/stocks/3393/finance/"
+   },
+   {
+    "t": "EDINET DB: Startia Holdings yıllık menkul kıymet raporu metni, 2026 mali yılı",
+    "te": "EDINET DB: Startia Holdings annual securities report text, fiscal 2026",
+    "u": "https://edinetdb.jp/company/E05539/text?fy=2026"
+   }
+  ],
+  "en": {
+   "one": "IT group selling copiers, network equipment and cloud software to small businesses. It passed the quality wall but was eliminated at Wall 3 because the moat is weak.",
+   "business": "Startia Holdings sells office IT to small and medium-sized businesses in Japan. The IT infrastructure arm sells and maintains copiers, business phones, network and security equipment; it also sells internet lines and electricity. The digital transformation arm offers the Cloud CIRCUS marketing software and business automation tools by subscription. In the year to March 2026 revenue was 23.8 billion yen and operating profit 3.2 billion yen; IT infrastructure brought 18.9 billion yen of revenue and digital transformation 4.9 billion yen. The fiscal year ends in March.",
+   "moat_text": "The moat is weak; this is why the company was eliminated at Wall 3. About four fifths of revenue comes from selling and maintaining other manufacturers' machines. There is no licence, scale or brand advantage in this business: other dealers sell the same machine, and the company is small (revenue of 23.8 billion yen). The advantage comes from the sales force and from selling a second and third product to the customer it already has; that is real, but a rival can do the same. The figures are good: real return on equity rose from 17.2% to 26.6% over five years and is 29.7% for the last 12 months; the operating margin rose from 12.3% in fiscal 2025 to 13.6%; the digital transformation arm's margin is 19.4%. But the documents we read do not give the customer loss rate or the share of recurring revenue; we could not show durability with figures. The company's own risk section names three things: the paperless office may reduce copier demand, competition may push down prices and maintenance fees, and generative AI may erode the value of its position as an intermediary.",
+   "mgmt": "The largest shareholder is Hideyuki Hongo, with 25.47% of the shares on 30 September 2026. The employee shareholding association holds 3.66% and Hikari Tsushin 1.82%. Profit goes to shareholders and the core business. For fiscal 2026 the company paid a dividend of 145 yen per share (8 yen of it an anniversary dividend; the payout ratio reported by the company is 58.6%) and bought back 361 million yen of shares. From fiscal 2027 the target is a dividend of 13% of equity and a dividend that does not fall; the forecast is again 145 yen. The company buys small dealers in its core business: on 2 November 2026 it bought all of Hanamaki Jimuki, an office equipment dealer in Iwate, for 1,011 million yen in cash. In April-September 2026 it booked a 249 million yen impairment because of a reorganisation in the IT infrastructure arm; most of it is goodwill. On 30 September 2026 cash was 6.9 billion yen and bank debt 2.2 billion yen.",
+   "latest": "6 November 2026: results for April-September 2026 were announced. Revenue rose 11.0% to 12,778 million yen, operating profit rose 26.7% to 1,785 million yen and net profit attributable to owners of the parent rose 34.4% to 1,259 million yen (134.29 yen per share; 99.91 yen a year earlier). IT infrastructure revenue was 10,110 million yen (+12.3%) and its profit 1,089 million yen (+27.5%); digital transformation revenue was 2,655 million yen (+6.1%) and its profit 613 million yen (+23.7%). The period includes a 269 million yen gain on the sale of securities and a 249 million yen impairment; the two largely cancel out. On the same day the company raised its full-year forecast: revenue 26,300 million yen, operating profit 3,700 million yen, net profit 2,457 million yen (previously 26,000, 3,550 and 2,343). The new forecast is below the profit of the last 12 months (2,640 million yen). The interim dividend is 67 yen.",
+   "risks": [
+    "The company's full-year profit forecast (2,457 million yen) is below the profit of the last 12 months (2,640 million yen); if the forecast holds, second-half profit will fall short of the same period last year.",
+    "Copiers and their maintenance are the main source of income. The paperless office and branch consolidation may reduce demand; competition may push down prices and maintenance fees.",
+    "The company sells other makers' products. Profit is affected if a manufacturer's deliveries are delayed or the terms of sales rebates change; rebates are booked in the second and fourth quarters, so quarterly profit swings.",
+    "Generative AI may erode the value of a dealer acting as intermediary for small businesses, and of the marketing software.",
+    "Part of the growth comes from acquisitions. A 249 million yen impairment was booked in April-September 2026; the goodwill from the Hanamaki Jimuki purchase is not yet known."
+   ],
+   "watch": [
+    "Full-year net profit forecast (2,457 million yen) and second-half profit",
+    "Profit of the IT infrastructure arm (1,089 million yen in April-September 2026)",
+    "Revenue growth of the digital transformation arm (6.1% in April-September 2026)",
+    "Goodwill and new acquisitions"
+   ]
+  }
+ },
+ "3843": {
+  "scores": {
+   "A": 1,
+   "B": 2,
+   "C": 2,
+   "D": 0,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "2026-Q1",
+  "one": "Apartmanlara toplu internet ve küçük operatörlere mobil altyapı satan şirket. Kalite surlarını geçti; kurucudan yapılan ilişkili satın alma yüzünden yönetim ölçütünü geçemedi.",
+  "business": "FreeBit üç iş yapar. Bağlı ortaklığı Gigaprize apartmanlara toplu internet kurar ve işletir; Nisan 2026 sonunda yaklaşık 1,465 milyon konuta hizmet veriyordu. Şirket küçük mobil operatörlere ve internet sağlayıcılara altyapı satar. Üçüncü iş internet reklamı ve satış ortaklığıdır. Nisan 2026'da biten yılda satış 62,7 milyar yen, faaliyet kârı 6,89 milyar yen oldu; kârın 4,22 milyar yeni apartman internetinin olduğu bölümden geldi. Mali yıl nisanda biter.",
+  "moat_text": "Hendek dar. Apartman interneti bina sahibiyle yapılan toplu sözleşmeye dayanır ve gelir her ay yinelenir; hizmet verilen konut sayısı bir yılda 1,342 milyondan 1,465 milyona çıktı. Reel özsermaye kârlılığı beş yılda %10,2'den %39,2'ye yükseldi, son 12 ayda %42,0. Zayıf yanları açık. Konutların büyük kısmı başka markalar adına (OEM) hizmettir: tek müşteri D.U-NET grup satışının %13,9'unu getiriyor. Kendi markasıyla Gigaprize sektörde onuncu sırada (MM Research, Mart 2025; Shared Research raporundan). Mobil altyapıda rakiplerin hizmeti benzer, hat kapasitesi NTT Docomo'dan alınıyor. Reklam bölümünün kârı %16,1 düştü. Özsermaye kârlılığı borçla da büyüyor: özkaynak oranı %23,9.",
+  "mgmt": "Şirket yönetim ölçütünü geçemedi. FreeBit, Eylül 2025'te kurucusu ve genel müdürü Ishida'nın şirketi CountUp'ı 493 milyon yene satın aldı. Özel inceleme komitesi, CountUp'ın iki patentinin ona ait olmayabileceğini ve değerlemenin dayanağının hatalı olduğunu buldu. Bedel 1 yene indirildi, 493 milyon yen geri alınıyor; Ishida ayrıca 117,6 milyon yen ödedi ve Ekim 2026'da görevlerinden ayrıldı. Yıl sonuçları dört aydan fazla gecikti; denetçi mali tablolara olumlu, iç kontrole olumsuz görüş verdi. Ishida hâlâ %16,70 ile en büyük ortak; Alps Alpine %16,09, SoftBank %7,33 paya sahip (30 Nisan 2026). Temettü hisse başına 41 yen (dağıtım oranı %21,5); yeni yıl için 62 yen öngörülüyor. Şirket, satın alma girişimlerine karşı savunma önlemini sürdürüyor.",
+  "latest": "6 Kasım 2026: Mayıs-Temmuz 2026 çeyreği sonuçları açıklandı. Satış %10,2 artışla 16,72 milyar yen oldu. Faaliyet kârı %2,7 düşüşle 1,64 milyar yen, net kâr %6,3 düşüşle 995 milyon yen oldu. Reklam bölümünün kârı %49,1 düştü. Yıllık tahmin değişmedi: satış 66,0 milyar yen, faaliyet kârı 7,25 milyar yen, net kâr 4,5 milyar yen (%8,3 artış). 28 Ekim 2026'da geciken yıl sonuçları açıklanmıştı: net kâr %51,2 artışla 4,15 milyar yen.",
+  "risks": [
+   "İç kontrol zayıflığı sürüyor: denetçi Nisan 2026 yılı için iç kontrole olumsuz görüş verdi ve kurucu hâlâ en büyük ortak.",
+   "Son çeyrekte net kâr %6,3 düştü; yıllık %8,3 artış tahmini kalan dokuz ayda toparlanma gerektiriyor.",
+   "Apartman internetinde tek müşteri D.U-NET grup satışının %13,9'unu getiriyor; bu müşteri başka sağlayıcıya geçerse büyüme durur.",
+   "Borç yüksek: faizli borç 17,9 milyar yen, kredilerde özsermaye ve kâr koşulları var; Temmuz 2026'da imtiyazlı payların geri alınmasına 2,24 milyar yen nakit gitti."
+  ],
+  "watch": [
+   "Hizmet verilen konut sayısı (1,465 milyon)",
+   "İç kontrol raporu ve yeni yönetimin aldığı önlemler",
+   "Reklam bölümünün kârı",
+   "Çeyreklik net kâr ve yıllık tahmin (4,5 milyar yen)"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tyo/3843/financials/ratios/"
+   },
+   {
+    "t": "FreeBit: Nisan 2027 mali yılı 1. çeyrek sonuç özeti (6 Kasım 2026)",
+    "te": "FreeBit: summary of first-quarter results for fiscal year ending April 2027 (6 November 2026)",
+    "u": "https://pdf.irpocket.com/C3843/xoA3/DnNg/GX5c/JJmW.pdf"
+   },
+   {
+    "t": "FreeBit: Nisan 2026 mali yılı sonuç özeti (28 Ekim 2026)",
+    "te": "FreeBit: summary of results for fiscal year ended April 2026 (28 October 2026)",
+    "u": "https://pdf.irpocket.com/C3843/xoA3/f6yw/oHaE/REpw.pdf"
+   },
+   {
+    "t": "EDINET: FreeBit menkul kıymet raporu, Nisan 2026 mali yılı (28 Ekim 2026)",
+    "te": "EDINET: FreeBit annual securities report, fiscal year ended April 2026 (28 October 2026)",
+    "u": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100ZAC4.pdf"
+   },
+   {
+    "t": "Keitai Watch: FreeBit özel inceleme raporu ve kurucunun ayrılması (8 Ekim 2026)",
+    "te": "Keitai Watch: FreeBit special investigation report and the founder's resignation (8 October 2026)",
+    "u": "https://k-tai.watch.impress.co.jp/docs/news/2146790.html"
+   },
+   {
+    "t": "Shared Research: FreeBit araştırma raporu (15 Ekim 2025)",
+    "te": "Shared Research: FreeBit research report (15 October 2025)",
+    "u": "https://freebit.com/ir/pdf/3843_JP_20251015.pdf"
+   }
+  ],
+  "en": {
+   "one": "Sells bulk apartment internet and mobile infrastructure for small operators. Passed the quality walls; failed the management criterion over a related-party purchase from the founder.",
+   "business": "FreeBit has three businesses. Its subsidiary Gigaprize installs and runs bulk internet for apartment buildings; it served about 1.465 million homes at the end of April 2026. The company sells infrastructure to small mobile operators and internet providers. The third business is internet advertising and affiliate marketing. In the year to April 2026 sales were 62.7 billion yen and operating profit 6.89 billion yen; 4.22 billion of that came from the segment that holds apartment internet. The fiscal year ends in April.",
+   "moat_text": "The moat is narrow. Apartment internet rests on bulk contracts with building owners and the revenue recurs every month; homes served rose from 1.342 million to 1.465 million in a year. Real return on equity rose from 10.2% to 39.2% over five years and is 42.0% for the last 12 months. The weak points are clear. Most of the homes are served under other brands (OEM): a single customer, D.U-NET, brings 13.9% of group sales. Under its own brand Gigaprize ranks tenth in the industry (MM Research, March 2025; from the Shared Research report). In mobile infrastructure rivals offer similar services and line capacity is bought from NTT Docomo. Profit in the advertising segment fell 16.1%. Return on equity is also lifted by debt: the equity ratio is 23.9%.",
+   "mgmt": "The company did not meet the management criterion. In September 2025 FreeBit bought CountUp, a company owned by its founder and chief executive Ishida, for 493 million yen. A special investigation committee found that CountUp's two patents may not belong to it and that the basis of the valuation was flawed. The price was cut to 1 yen and 493 million yen is being recovered; Ishida also paid 117.6 million yen and left his posts in October 2026. The annual results were more than four months late; the auditor gave a clean opinion on the accounts and an adverse opinion on internal control. Ishida is still the largest shareholder with 16.70%; Alps Alpine holds 16.09% and SoftBank 7.33% (30 April 2026). The dividend is 41 yen per share (payout 21.5%); 62 yen is planned for the new year. The company keeps its takeover defence measure.",
+   "latest": "6 November 2026: results for the May-July 2026 quarter were announced. Sales rose 10.2% to 16.72 billion yen. Operating profit fell 2.7% to 1.64 billion yen and net profit fell 6.3% to 995 million yen. Profit in the advertising segment fell 49.1%. The full-year forecast is unchanged: sales 66.0 billion yen, operating profit 7.25 billion yen, net profit 4.5 billion yen (up 8.3%). The delayed annual results had been announced on 28 October 2026: net profit rose 51.2% to 4.15 billion yen.",
+   "risks": [
+    "The internal control weakness remains: the auditor gave an adverse opinion on internal control for the year to April 2026, and the founder is still the largest shareholder.",
+    "Net profit fell 6.3% in the latest quarter; the forecast of an 8.3% rise for the year needs a recovery in the remaining nine months.",
+    "In apartment internet a single customer, D.U-NET, brings 13.9% of group sales; growth stops if it moves to another provider.",
+    "Debt is high: interest-bearing debt is 17.9 billion yen and the loans carry equity and profit covenants; redeeming preferred shares took 2.24 billion yen of cash in July 2026."
+   ],
+   "watch": [
+    "Homes served (1.465 million)",
+    "The internal control report and the new management's measures",
+    "Profit of the advertising segment",
+    "Quarterly net profit and the full-year forecast (4.5 billion yen)"
+   ]
+  }
+ },
+ "3854": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 2,
+   "E": 2
+  },
+  "moat": "dar",
+  "per": "2026-Q4",
+  "one": "Küçük ve orta boy şirketlere kendi yazılımını satan bir bilişim şirketi. Kalite surlarını geçti; ama şirket bu yıl kârının %15 düşmesini bekliyor.",
+  "business": "I'LL, küçük ve orta boy şirketlere satış, stok ve muhasebe işlerini yürüten kendi paket yazılımı \"Aladdin Office\"i kurar, müşteriye göre uyarlar ve bakımını yapar. Ayrıca çok sayıda internet mağazasını tek yerden yöneten \"CROSS MALL\" ve müşteri puanlarını birleştiren \"CROSS POINT\" bulut hizmetlerini satar. Temmuz 2026'da biten yılda satış 20.889 milyon yen, faaliyet kârı 5.565 milyon yen oldu. Bir yıl önce satışın %88'i sistem kolundan, %12'si internet kolundan geldi.",
+  "moat_text": "Hendek dar. Üstünlük, müşterinin işine göre uyarlanmış yazılımı değiştirmenin zor olmasından geliyor. Kanıtı rakamlarda: bakım ve hizmet geliri (yinelenen gelir) Temmuz 2025 yılında %15,3 artışla 8.319 milyon yen oldu, satışın %43,1'i. Ağustos 2025-Ocak 2026 arasında %13,0 daha arttı. Faaliyet kâr marjı 2021 mali yılında %13,9 iken 2026'da %26,6'ya çıktı. Reel özsermaye kârlılığı beş yılda %22,0 ile %32,9 arasında; 2026'da %30,5. Şirket CROSS MALL'da aylık ücreti artırdı, donanımdaki zammı da müşteriye yansıttı. Zayıf yanı: satışın yarıdan fazlası yeni kurulum, uyarlama ve donanımdan geliyor; bu gelir her yıl yeniden kazanılır. Şirketin kendi risk listesi rakip paketleri, ucuz hazır yazılımları ve bulut yazılımlarını sayıyor. Pazar payı rakamı bulunamadı.",
+  "mgmt": "En büyük ortak %33,48 ile GT Holding adlı limited şirket; OLIVE adlı şirket %5,11 tutuyor (2026 mali yılının yarıyıl raporu). Kaynak bu şirketlerin kime ait olduğunu söylemiyor. Mali yıl temmuzda biter. Şirketin bilançosunda borç kalemi yok. Temmuz 2026 yılı için hisse başına 67 yen temettü ödendi (dağıtım oranı %40,1); yeni yıl için 70 yen öngörülüyor (%49,4). Satın alma yok; yatırımın çoğu kendi yazılımının geliştirilmesine gidiyor. Bir kusur: 2025 mali yılında şirket bir güven fonu aracılığıyla 1.250.000 kendi payını 3.931 milyon yene aldı ve yıl içinde piyasada sattı. Bu işlem 900 milyon yen zarar ve 73 milyon yen ücret getirdi; zarar birikmiş kârdan düşüldü.",
+  "latest": "7 Eylül 2026: Temmuz 2026'da biten yılda satış %8,3 artışla 20.889 milyon yen, faaliyet kârı %15,5 artışla 5.565 milyon yen, net kâr %19,7 artışla 4.175 milyon yen oldu. Hisse başına kâr 167,01 yen (bir yıl önce 141,32 yen). Şirket Temmuz 2027'de bitecek yıl için 22.800 milyon yen satış (%9,1 artış), 5.000 milyon yen faaliyet kârı (%10,2 düşüş) ve 3.546 milyon yen net kâr (%15,1 düşüş) bekliyor; hisse başına 141,67 yen. Son çeyrekte (Mayıs-Temmuz 2026) satış 5.346 milyon yen, faaliyet kârı 1.325 milyon yen oldu; bir yıl önce 5.196 ve 1.354 milyon yendi (yıllık eksi dokuz aylık, türetildi).",
+  "risks": [
+   "Şirket Temmuz 2027 yılı için hisse başına kârın 167,01 yenden 141,67 yene düşmesini bekliyor (%15 düşüş). Fiyat hesabı son 12 ayın kârına ve geçmiş büyümeye dayanır; kâr beklendiği gibi düşerse marj daralır. Düşüşün nedeni okunan belgelerde yazmıyor.",
+   "Satışın yarıdan fazlası yeni kurulum, uyarlama ve donanımdan geliyor; küçük ve orta boy şirketler bilişim harcamasını keserse bu gelir düşer.",
+   "Rakip paketler, ucuz hazır yazılımlar ve bulut yazılımları fiyatı aşağı çekebilir; yapay zekâ mevcut ürünü eskitebilir.",
+   "İş mühendise dayanıyor; işe alım zorlaşır ya da ücretler hızla artarsa marj daralır.",
+   "Sistem arızası ya da veri sızıntısı bulut hizmetlerinde müşteri kaybına ve tazminata yol açabilir."
+  ],
+  "watch": [
+   "Faaliyet kâr marjı (2026 mali yılında %26,6; şirketin hedefi %30)",
+   "Bakım ve hizmet gelirinin (yinelenen gelir) büyümesi",
+   "Altı aylık kârın şirket tahminine göre gidişi (tahmin: 1.719 milyon yen net kâr)",
+   "Personel giderleri ve çalışan sayısı"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tyo/3854/financials/ratios/"
+   },
+   {
+    "t": "JPX: I'LL 2026 Temmuz dönemi yıllık sonuç özeti (7 Eylül 2026)",
+    "te": "JPX: I'LL full-year results summary for the year ended July 2026 (7 September 2026)",
+    "u": "https://www2.jpx.co.jp/disc/38540/081220260904532017_tse-acedjpsm-38540-20260907338540-ixbrl.htm"
+   },
+   {
+    "t": "JPX: I'LL 2026 Temmuz dönemi üçüncü çeyrek sonuç özeti (5 Haziran 2026)",
+    "te": "JPX: I'LL third-quarter results summary, year ending July 2026 (5 June 2026)",
+    "u": "https://www2.jpx.co.jp/disc/38540/081220260604563189_tse-qcedjpsm-38540-20260605338540-ixbrl.htm"
+   },
+   {
+    "t": "TDnet (Finboard kopyası): I'LL 2026 Temmuz dönemi yarıyıl sonuç özeti (6 Mart 2026)",
+    "te": "TDnet (Finboard copy): I'LL interim results summary, year ending July 2026 (6 March 2026)",
+    "u": "https://assets.finboard.net/tdnet-filings/20260305576562.pdf"
+   },
+   {
+    "t": "JPX: I'LL 2025 Temmuz dönemi yıllık sonuç özeti (5 Eylül 2025)",
+    "te": "JPX: I'LL full-year results summary for the year ended July 2025 (5 September 2025)",
+    "u": "https://www2.jpx.co.jp/disc/38540/140120250905554027.pdf"
+   },
+   {
+    "t": "EDINET DB: I'LL 2025 Temmuz yılı menkul kıymet raporu metni (17 Ekim 2025)",
+    "te": "EDINET DB: I'LL securities report text, year ended July 2025 (17 October 2025)",
+    "u": "https://edinetdb.jp/company/E05705/text?fy=2026"
+   },
+   {
+    "t": "EDINET DB: I'LL büyük ortaklar (2026 mali yılı yarıyıl raporu)",
+    "te": "EDINET DB: I'LL major shareholders (half-year report, fiscal 2026)",
+    "u": "https://edinetdb.jp/company/E05705/shareholders"
+   },
+   {
+    "t": "Money Post: I'LL 2026 Temmuz yılı sonuçları (Eylül 2026)",
+    "te": "Money Post: I'LL results for the year ended July 2026 (September 2026)",
+    "u": "https://www.moneypost.jp/1443715"
+   }
+  ],
+  "en": {
+   "one": "An IT company that sells its own software to small and mid-sized firms. It passed the quality walls, but the company expects profit to fall 15% this year.",
+   "business": "I'LL installs, customises and maintains its own package software \"Aladdin Office\", which runs sales, inventory and accounting for small and mid-sized companies. It also sells the cloud services \"CROSS MALL\", which manages many online shops from one place, and \"CROSS POINT\", which unifies customer points. In the year ended July 2026 sales were 20,889 million yen and operating profit 5,565 million yen. A year earlier 88% of sales came from the systems business and 12% from the web business.",
+   "moat_text": "The moat is narrow. The advantage comes from how hard it is to replace software that has been tailored to a customer's own work. The numbers show it: maintenance and service revenue (recurring revenue) rose 15.3% to 8,319 million yen in the year to July 2025, 43.1% of sales. It rose a further 13.0% between August 2025 and January 2026. The operating margin went from 13.9% in fiscal 2021 to 26.6% in 2026. Real return on equity was between 22.0% and 32.9% over five years; 30.5% in 2026. The company raised the monthly fee for CROSS MALL and passed on hardware price increases to customers. The weak side: more than half of sales comes from new installations, customisation and hardware; that revenue has to be won again every year. The company's own risk list names rival packages, cheap off-the-shelf software and cloud software. No market-share figure was found.",
+   "mgmt": "The largest shareholder is a limited company called GT Holding with 33.48%; a company called OLIVE holds 5.11% (half-year report for fiscal 2026). The source does not say who owns these companies. The fiscal year ends in July. There is no borrowings line on the balance sheet. A dividend of 67 yen per share was paid for the year to July 2026 (payout ratio 40.1%); 70 yen is planned for the new year (49.4%). There are no acquisitions; most investment goes into developing its own software. One flaw: in fiscal 2025 the company bought 1,250,000 of its own shares for 3,931 million yen through a trust and sold them in the market within the year. This brought a loss of 900 million yen and fees of 73 million yen; the loss was charged to retained earnings.",
+   "latest": "7 September 2026: In the year ended July 2026 sales rose 8.3% to 20,889 million yen, operating profit rose 15.5% to 5,565 million yen and net profit rose 19.7% to 4,175 million yen. Earnings per share were 167.01 yen (141.32 yen a year earlier). For the year ending July 2027 the company expects sales of 22,800 million yen (up 9.1%), operating profit of 5,000 million yen (down 10.2%) and net profit of 3,546 million yen (down 15.1%); 141.67 yen per share. In the last quarter (May-July 2026) sales were 5,346 million yen and operating profit 1,325 million yen; a year earlier they were 5,196 and 1,354 million yen (full year minus nine months, derived).",
+   "risks": [
+    "The company expects earnings per share to fall from 167.01 yen to 141.67 yen in the year to July 2027 (a 15% decline). The price calculation rests on the last 12 months' profit and on past growth; if profit falls as expected, the margin narrows. The documents read do not give the reason for the decline.",
+    "More than half of sales comes from new installations, customisation and hardware; if small and mid-sized companies cut IT spending, this revenue falls.",
+    "Rival packages, cheap off-the-shelf software and cloud software can push prices down; artificial intelligence could make the current product obsolete.",
+    "The business depends on engineers; if hiring gets harder or wages rise quickly, the margin narrows.",
+    "A system failure or data leak could cause customer losses and compensation claims in the cloud services."
+   ],
+   "watch": [
+    "Operating margin (26.6% in fiscal 2026; the company's target is 30%)",
+    "Growth of maintenance and service revenue (recurring revenue)",
+    "Half-year profit against the company forecast (forecast: net profit of 1,719 million yen)",
+    "Personnel costs and headcount"
+   ]
+  },
+  "earn": {
+   "k": 0.848,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Şirketin Temmuz 2027 mali yılı için hisse başına kâr beklentisi 141,67 JPY; son 12 ayda 167,01 JPY. Beklenti daha düşük olduğu için kazanç bu orana indirildi (%15,2). Son 12 ayın kârı 0,85 ile çarpılarak kullanıldı.",
+    "en": "The calculation rests on the profit of the last 12 months. The company's earnings-per-share outlook for fiscal year to July 2027 is 141.67 JPY; the last 12 months were 167.01 JPY. Because the outlook is lower, earnings were lowered to that ratio (15.2%). Last-12-month profit was used multiplied by 0.85."
+   },
+   "per": "2026-Q4"
+  },
+  "growth": {
+   "g": 7.3,
+   "basis": {
+    "tr": "Formül yılda %14,6 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Temmuz 2026 yılı %18,2; Mayıs-Temmuz 2026 çeyreği (yıllık eksi dokuz aylık, türetildi) %9,4; Temmuz 2027 yılı için şirket tahmini %−15,2. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %7,3.",
+    "en": "The formula gave growth of 14.6% a year. Latest figures (earnings per share, year on year): year to July 2026 18.2%; May-July 2026 quarter (full year minus nine months, derived) 9.4%; company forecast for the year to July 2027 −15.2%. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 7.3%."
+   },
+   "per": "2026-Q4"
+  }
+ },
+ "6200": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 2,
+   "E": 2
+  },
+  "moat": "dar",
+  "per": "2026-Q4",
+  "one": "Kurumlara çalışan eğitimi satan şirket. Kalite surlarını geçti, hendek dar; ama kâr artışı %6'ya yavaşladı ve yıl içinde beklenti iki kez indirildi.",
+  "business": "Insource şirketlere ve kamu kurumlarına çalışan eğitimi satar. Eğitmeni kuruma gönderir, herkese açık kurslar düzenler ve Leaf adlı eğitim yönetim yazılımını kiralar. Ekim 2025-Haziran 2026 döneminde satışın 5,58 milyar yeni kuruma gönderilen eğitimden, 2,81 milyar yeni açık kurslardan, 1,52 milyar yeni BT hizmetlerinden geldi. Eylül 2026'da biten yılda satış 15,56 milyar yen, faaliyet kârı 6,16 milyar yen oldu. Mali yıl eylülde biter.",
+  "moat_text": "Hendek dar. Kanıt kârlılıkta: faaliyet kâr marjı Eylül 2026 yılında %39,6, bir önceki yıl %41,2 idi; brüt marj %76 dolayında. Reel özsermaye kârlılığı beş yılda %31,8 ile %36,8 arasında kaldı ve şirketin net borcu yok. Kendi hazırladığı içerik, geniş satış ağı ve Leaf yazılımı (919 ücretli kurum, yaklaşık 5,46 milyon etkin kullanıcı) ölçek üstünlüğü sağlıyor. Zayıf yanı: kurumsal eğitimde giriş engeli düşük, müşteri başka sağlayıcıya kolay geçer. 2026'da büyük şirketlerden sipariş zayıf kaldı, satış artışı %16,3'ten %7,2'ye indi ve marj 1,6 puan geriledi. Üretken yapay zekânın eğitim talebini nasıl değiştireceği de belli değil.",
+  "mgmt": "En büyük ortak %30,20 ile Ruplus şirketidir; Takayuki Funahashi'nin payı %6,35'tir (30 Eylül 2025). Şirket kârın %50'sini dağıtmayı ve özsermayenin %18'i kadar temettü ödemeyi hedefliyor. Eylül 2026 yılı için hisse başına 35 yen ödüyor: 29,5 yen olağan, 5,5 yen borsaya girişin 10. yılı için bir kerelik. Bu, hisse başına 52,36 yen kârın yaklaşık %67'sidir. Temmuz 2026'da 3 milyon hisseye ve 2 milyar yene kadar geri alım ile 4 milyon hisseye kadar iptal kararı alındı. Büyük bir satın alma yok; özkaynak oranı %78,7.",
+  "latest": "2 Kasım 2026: Eylül 2026'da biten yılın sonuçları açıklandı. Satış %7,2 artışla 15,56 milyar yen, faaliyet kârı %3,1 artışla 6,16 milyar yen, net kâr %5,9 artışla 4,37 milyar yen oldu; hisse başına kâr 52,36 yen. Şirket yıla 4,63 milyar yen net kâr beklentisiyle başlamış, 7 Mayıs'ta bunu 4,40 milyar yene indirmiş, 24 Eylül'de olağan kâr beklentisini bir kez daha düşürmüştü. Eylül 2027 yılı için tahmin: satış 17,11 milyar yen (+%10,0), faaliyet kârı 6,85 milyar yen (+%11,2), net kâr 4,80 milyar yen (+%9,7), hisse başına kâr 59,01 yen, temettü 36 yen. Aynı gün 2029'a uzanan yeni orta vadeli plan da duyuruldu.",
+  "risks": [
+   "Fiyat hesabı geçmiş yılların hızlı büyümesine dayanır; oysa hisse başına kâr Eylül 2026 yılında yalnız %6,4 arttı ve şirket yıl içinde beklentisini iki kez indirdi. Büyüme bu düzeyde kalırsa güvenlik marjı daralır.",
+   "Büyük şirketlerden gelen eğitim siparişi 2026'da zayıf kaldı; şirketler bütçe kıstığında eğitim harcaması ertelenir.",
+   "Üretken yapay zekâ eğitim içeriğini ucuzlatabilir; bu, yüksek kâr marjını aşağı çekebilir.",
+   "35 yenlik temettünün 5,5 yeni bir kereliktir ve dağıtım kârın yaklaşık %67'sine çıktı; bu oran şirketin %50 hedefinin üstündedir.",
+   "Ruplus %30,20 payla en büyük ortaktır; küçük ortağın kararlardaki ağırlığı sınırlıdır."
+  ],
+  "watch": [
+   "Faaliyet kâr marjı (Eylül 2026 yılında %39,6)",
+   "Kuruma gönderilen eğitimde satış artışı ve büyük şirket siparişleri",
+   "Leaf'in ücretli kurum sayısı (919) ve yıllık yinelenen geliri (1,48 milyar yen)",
+   "Eylül 2027 tahminine göre gidişat (hisse başına kâr 59,01 yen)"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tyo/6200/financials/ratios/"
+   },
+   {
+    "t": "JPX: Insource, Eylül 2026 mali yılı 3. çeyrek sonuç özeti (3 Ağustos 2026)",
+    "te": "JPX: Insource, summary of third-quarter results for fiscal year ending September 2026 (3 August 2026)",
+    "u": "https://www2.jpx.co.jp/disc/62000/081220260803506966_tse-qcedjpsm-62000-20260803362000-ixbrl.htm"
+   },
+   {
+    "t": "JPX: Insource, Eylül 2025 mali yılı sonuç özeti (4 Kasım 2025)",
+    "te": "JPX: Insource, summary of results for fiscal year ended September 2025 (4 November 2025)",
+    "u": "https://www2.jpx.co.jp/disc/62000/081220251104586143_tse-acedjpsm-62000-20251104362000-ixbrl.htm"
+   },
+   {
+    "t": "Insource: 3. çeyrek sonuç sunumu (21 Temmuz 2026)",
+    "te": "Insource: third-quarter results presentation (21 July 2026)",
+    "u": "https://www.insource.co.jp/resource/pdf/ir/__ie_26072107.pdf"
+   },
+   {
+    "t": "Insource: 3. çeyrek sonuç özeti, iş kolu satışları ve geri alım kararı (21 Temmuz 2026)",
+    "te": "Insource: third-quarter results summary, sales by business and buyback decision (21 July 2026)",
+    "u": "https://www.insource.co.jp/resource/pdf/ir/26072105.pdf"
+   },
+   {
+    "t": "Insource: temettü tahmininin değiştirilmesi, 10. yıl temettüsü (21 Temmuz 2026)",
+    "te": "Insource: revision of dividend forecast, 10th-anniversary dividend (21 July 2026)",
+    "u": "https://www.insource.co.jp/resource/pdf/ir/26072104.pdf"
+   },
+   {
+    "t": "Insource: yıllık tahminin indirilmesi (7 Mayıs 2026)",
+    "te": "Insource: revision of full-year forecast (7 May 2026)",
+    "u": "https://www.insource.co.jp/resource/pdf/ir/26050702.pdf"
+   },
+   {
+    "t": "Matsui Securities: Insource olağan kâr tahminini %4 indirdi (24 Eylül 2026)",
+    "te": "Matsui Securities: Insource cuts ordinary profit forecast by 4% (24 September 2026)",
+    "u": "https://finance.matsui.co.jp/news/621009/index"
+   },
+   {
+    "t": "Yahoo! Finance Japan: Insource Eylül 2026 yılı sonuç özeti ve Eylül 2027 tahmini (2 Kasım 2026)",
+    "te": "Yahoo! Finance Japan: Insource results summary for year to September 2026 and forecast for year to September 2027 (2 November 2026)",
+    "u": "https://finance.yahoo.co.jp/quote/6200.T/financials"
+   },
+   {
+    "t": "Kabutec: Insource hisse başına kâr, tahmin ve büyük ortaklar (30 Eylül 2025)",
+    "te": "Kabutec: Insource EPS, forecast and major shareholders (30 September 2025)",
+    "u": "https://www.kabutec.jp/company/?code=6200"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://finance.matsui.co.jp/stock/6200/settlement/index"
+   }
+  ],
+  "en": {
+   "one": "A company that sells employee training to organisations. It passed the quality walls and the moat is narrow; but profit growth slowed to 6% and guidance was cut twice during the year.",
+   "business": "Insource sells employee training to companies and public bodies. It sends instructors to the client, runs open seminars and rents out its learning management software, Leaf. In October 2025-June 2026, 5.58 billion yen of sales came from on-site training, 2.81 billion yen from open seminars and 1.52 billion yen from IT services. In the year to September 2026 sales were 15.56 billion yen and operating profit 6.16 billion yen. The fiscal year ends in September.",
+   "moat_text": "The moat is narrow. The evidence is in profitability: the operating margin was 39.6% in the year to September 2026, against 41.2% the year before; gross margin is about 76%. Real return on equity stayed between 31.8% and 36.8% over five years and the company has no net debt. Its own content, a wide sales network and the Leaf software (919 paying organisations, about 5.46 million active users) give it a scale advantage. The weak side: barriers to entry in corporate training are low and a client can easily move to another provider. In 2026 orders from large companies were weak, sales growth fell from 16.3% to 7.2% and the margin slipped 1.6 points. It is also unclear how generative AI will change training demand.",
+   "mgmt": "The largest shareholder is the company Ruplus with 30.20%; Takayuki Funahashi holds 6.35% (30 September 2025). The company aims to pay out 50% of profit and a dividend equal to 18% of equity. For the year to September 2026 it pays 35 yen per share: 29.5 yen ordinary and a one-time 5.5 yen for the 10th anniversary of its listing. That is about 67% of earnings per share of 52.36 yen. In July 2026 it decided to buy back up to 3 million shares and 2 billion yen, and to cancel up to 4 million shares. There is no large acquisition; the equity ratio is 78.7%.",
+   "latest": "2 November 2026: results for the year to September 2026 were announced. Sales rose 7.2% to 15.56 billion yen, operating profit rose 3.1% to 6.16 billion yen and net profit rose 5.9% to 4.37 billion yen; earnings per share were 52.36 yen. The company had started the year expecting net profit of 4.63 billion yen, cut this to 4.40 billion yen on 7 May, and lowered its ordinary profit forecast once more on 24 September. The forecast for the year to September 2027: sales 17.11 billion yen (+10.0%), operating profit 6.85 billion yen (+11.2%), net profit 4.80 billion yen (+9.7%), earnings per share 59.01 yen, dividend 36 yen. A new medium-term plan running to 2029 was announced the same day.",
+   "risks": [
+    "The price calculation rests on the fast growth of past years; yet earnings per share rose only 6.4% in the year to September 2026 and the company cut its guidance twice during the year. If growth stays at this level, the margin of safety narrows.",
+    "Training orders from large companies were weak in 2026; when companies cut budgets, training spending is postponed.",
+    "Generative AI may make training content cheaper; that could pull the high profit margin down.",
+    "Of the 35 yen dividend, 5.5 yen is one-time, and the payout rose to about 67% of profit; this is above the company's 50% target.",
+    "Ruplus is the largest shareholder with 30.20%; minority shareholders have limited weight in decisions."
+   ],
+   "watch": [
+    "Operating margin (39.6% in the year to September 2026)",
+    "Sales growth in on-site training and orders from large companies",
+    "Leaf's paying organisations (919) and annual recurring revenue (1.48 billion yen)",
+    "Progress against the September 2027 forecast (earnings per share 59.01 yen)"
+   ]
+  },
+  "earn": {
+   "k": 1.0,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Şirketin Eylül 2027'de biten yıl için hisse başına kâr beklentisi 59,01 JPY; son 12 ayda 52,36 JPY. Beklenti daha düşük değil.",
+    "en": "The calculation rests on the profit of the last 12 months. The company's earnings-per-share outlook for year to September 2027 is 59.01 JPY; the last 12 months were 52.36 JPY. The outlook is not lower."
+   },
+   "per": "2026-Q4"
+  },
+  "growth": {
+   "g": 10.0,
+   "basis": {
+    "tr": "Formül yılda %15,9 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ekim 2025-Eylül 2026 mali yılı %6,4; Temmuz-Eylül 2026 çeyreği (yıllık eksi dokuz aylık, türetildi) %7,1; Eylül 2027 yılı için şirket tahmini %12,7. En düşüğü, enflasyondan arındırılınca, %4,2. Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %10,0.",
+    "en": "The formula gave growth of 15.9% a year. Latest figures (earnings per share, year on year): fiscal year October 2025-September 2026 6.4%; July-September 2026 quarter (full year minus nine months, derived) 7.1%; company forecast for the year to September 2027 12.7%. The lowest, after inflation, is 4.2%. Because this is less than half the formula's rate, the midpoint of the two was used: 10.0%."
+   },
+   "per": "2026-Q4"
+  }
+ },
+ "6224": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 1,
+   "E": 2
+  },
+  "moat": "dar",
+  "per": "2026-Q2",
+  "one": "Japonya'da bantlı konveyör parçalarında pazar lideri. Kalite surlarını geçti; ama şirket bu yıl net kârda %12,1 düşüş bekliyor.",
+  "business": "JRC, açık hava bantlı konveyörlerin makara, tambur gibi parçalarını üretir ve bakımını yapar. Ayrıca atık ve biyokütle tesislerine konveyör kurar, fabrikalara robot sistemi kurar. Şubat 2026'da biten yılda satış 13,7 milyar yen, faaliyet kârı 1,96 milyar yen oldu. Satışın %74'ü konveyör kolundan geldi. Mali yıl şubatta biter.",
+  "moat_text": "Hendek dar. Şirketin kendi tahminine göre Japonya konveyör parçası pazarındaki payı yaklaşık %52'dir (Şubat 2024 yılı); 2017'de %41 idi. Parçalar zor koşullarda aşınır: konveyör parçası siparişlerinin %86'sı yenileme ve değiştirmedir. Konveyör kolunun kâr marjı %25,3'tür. Reel özsermaye kârlılığı dört yılda %19,9 ile %24,6 arasında kaldı. Zayıf yanı: yurt içi pazar küçüktür (yaklaşık 8 milyar yen) ve pay rakamı resmî istatistik değil, şirketin tahminidir. Büyüme satın almalarla ve marjı düşük kollarla geliyor: çevre tesisleri kolunun marjı %9,2, robot kolununki %5,5.",
+  "mgmt": "Şirket Ağustos 2023'te borsaya girdi; geçmişi kısadır. Integral fonu Ocak 2020'de ortak olmuştu. Bilinen büyük ortak Hikari Tsushin'dir: %7,35 (Temmuz 2026 bildirimi). Şirket kârın yaklaşık %30'unu dağıtmayı hedefler: Şubat 2026 yılı için hisse başına 33 yen ödedi (dağıtım oranı %29,6), bu yıl için 34 yen öngörüyor. Kalan kâr satın almalara gidiyor; Ağustos 2026'da Kiden ve Tokai Conveyor'un alımı duyuruldu. Kasım 2025'te pay geri alımı yapıldı. Hisse opsiyonları pay sayısını %6,1 artırabilir.",
+  "latest": "15 Ekim 2026: Mart-Ağustos 2026 dönemi sonuçları açıklandı. Satış %7,2 artışla 6,78 milyar yen, faaliyet kârı %11,0 artışla 1,00 milyar yen, net kâr %5,6 artışla 665 milyon yen oldu. İlk çeyrekte net kâr %43,2 düşmüştü; ikinci çeyrek bunu kapattı. Özkaynak oranı %44,9'dur. Yıllık tahmin değişmedi: satış 15,1 milyar yen, faaliyet kârı 1,97 milyar yen (%0,1 artış), net kâr 1,25 milyar yen (%12,1 düşüş), hisse başına kâr 96,85 yen.",
+  "risks": [
+   "Şirket Şubat 2027 yılı için net kârda %12,1 düşüş bekliyor (hisse başına 96,85 yen; geçen yıl 111,64 yen). Güvenlik marjı kârın sürmesine ve büyüme varsayımına dayanır; kâr tahmin gibi düşerse marj daralır.",
+   "Çeyrek kârları çok oynar: geçen yılın ikinci çeyreğinde net kâr 113 milyon yen, dördüncü çeyreğinde 524 milyon yen oldu. Proje teslimleri sonucu belirliyor.",
+   "Yurt içi konveyör parçası pazarı küçüktür (yaklaşık 8 milyar yen) ve büyümüyor. Büyüme satın almalara ve yurt dışına bağlıdır; satın alınan işlerin marjı daha düşüktür.",
+   "Çelik, rulman, kauçuk ve boya fiyatları artarsa maliyet yükselir; şirket artışın ancak bir kısmını müşteriye yansıtabildiğini söylüyor.",
+   "Ana fabrika Minamiawaji'dedir; oradaki bir afet üretimi durdurur."
+  ],
+  "watch": [
+   "Yıllık net kâr tahmini (1,25 milyar yen) ve gerçekleşme",
+   "Konveyör kolunun kâr marjı (%25,3)",
+   "Yurt içi pazar payı (yaklaşık %52)",
+   "Satın almaların borca ve marja etkisi"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tyo/6224/financials/ratios/"
+   },
+   {
+    "t": "JPX: JRC, Şubat 2026 mali yılı sonuç özeti (14 Nisan 2026)",
+    "te": "JPX: JRC, summary of results for fiscal year ended February 2026 (14 April 2026)",
+    "u": "https://www2.jpx.co.jp/disc/62240/081220260413503143_tse-acedjpsm-62240-20260414362240-ixbrl.htm"
+   },
+   {
+    "t": "JPX: JRC, Şubat 2027 mali yılı 1. çeyrek sonuç özeti (15 Temmuz 2026)",
+    "te": "JPX: JRC, summary of first-quarter results for fiscal year ending February 2027 (15 July 2026)",
+    "u": "https://www2.jpx.co.jp/disc/62240/081220260715594254_tse-qcedjpsm-62240-20260715362240-ixbrl.htm"
+   },
+   {
+    "t": "Yahoo! Finance Japan: JRC ara dönem bilanço özeti (15 Ekim 2026)",
+    "te": "Yahoo! Finance Japan: JRC interim results summary (15 October 2026)",
+    "u": "https://finance.yahoo.co.jp/quote/6224.T/financials"
+   },
+   {
+    "t": "Matsui Securities: JRC çeyreklik sonuçlar ve hisse başına kâr",
+    "te": "Matsui Securities: JRC quarterly results and EPS",
+    "u": "https://finance.matsui.co.jp/stock/6224/settlement/index"
+   },
+   {
+    "t": "JPX: JRC, iş planı ve büyüme olanakları (28 Mayıs 2025)",
+    "te": "JPX: JRC, business plan and growth potential (28 May 2025)",
+    "u": "https://www2.jpx.co.jp/disc/62240/140120250528569658.pdf"
+   },
+   {
+    "t": "EDINET DB: JRC faaliyet raporu metni (Şubat 2026 yılı)",
+    "te": "EDINET DB: JRC securities report text (year to February 2026)",
+    "u": "https://edinetdb.jp/company/E38780/text"
+   },
+   {
+    "t": "EDINET DB: JRC kollar ve büyük ortak bildirimi (Temmuz 2026)",
+    "te": "EDINET DB: JRC segments and large-holding report (July 2026)",
+    "u": "https://edinetdb.jp/company/E38780/earnings/FY2027-Q1"
+   },
+   {
+    "t": "FISCO: JRC 3. çeyrek sonuç toplantısı dökümü (21 Ocak 2026)",
+    "te": "FISCO: JRC third-quarter results briefing transcript (21 January 2026)",
+    "u": "https://www.fisco.co.jp/wordpress/wp-content/uploads/FISCO/jrc20260121.pdf"
+   },
+   {
+    "t": "logmi Finance: JRC bildirim listesi (2025-2026)",
+    "te": "logmi Finance: JRC disclosure list (2025-2026)",
+    "u": "https://finance.logmi.jp/companies/4185"
+   }
+  ],
+  "en": {
+   "one": "The market leader in belt-conveyor parts in Japan. It passed the quality walls; but the company expects net profit to fall 12.1% this year.",
+   "business": "JRC makes and maintains parts for outdoor belt conveyors, such as rollers and pulleys. It also installs conveyors in waste and biomass plants and builds robot systems for factories. In the year to February 2026 sales were 13.7 billion yen and operating profit 1.96 billion yen. The conveyor segment brought 74% of sales. The fiscal year ends in February.",
+   "moat_text": "The moat is narrow. By the company's own estimate its share of the Japanese conveyor parts market is about 52% (year to February 2024); it was 41% in 2017. The parts wear out in harsh conditions: 86% of conveyor parts orders are renewals and replacements. The conveyor segment's margin is 25.3%. Real return on equity stayed between 19.9% and 24.6% over four years. The weak side: the domestic market is small (about 8 billion yen), and the share figure is the company's estimate, not an official statistic. Growth comes from acquisitions and from lower-margin segments: the environmental plant segment's margin is 9.2% and the robot segment's 5.5%.",
+   "mgmt": "The company listed in August 2023; its history is short. The Integral fund became a shareholder in January 2020. The known large shareholder is Hikari Tsushin with 7.35% (July 2026 filing). The company aims to pay out about 30% of profit: it paid 33 yen per share for the year to February 2026 (payout 29.6%) and plans 34 yen this year. The rest goes to acquisitions; the purchases of Kiden and Tokai Conveyor were announced in August 2026. It bought back shares in November 2025. Stock options could raise the share count by 6.1%.",
+   "latest": "15 October 2026: results for March-August 2026 were announced. Sales rose 7.2% to 6.78 billion yen, operating profit rose 11.0% to 1.00 billion yen, and net profit rose 5.6% to 665 million yen. Net profit had fallen 43.2% in the first quarter; the second quarter made up for it. The equity ratio is 44.9%. The full-year forecast is unchanged: sales 15.1 billion yen, operating profit 1.97 billion yen (up 0.1%), net profit 1.25 billion yen (down 12.1%), EPS 96.85 yen.",
+   "risks": [
+    "The company expects net profit to fall 12.1% in the year to February 2027 (96.85 yen per share; 111.64 yen last year). The margin of safety rests on profit holding up and on the growth assumption; if profit falls as forecast, the margin narrows.",
+    "Quarterly profit swings widely: net profit was 113 million yen in last year's second quarter and 524 million yen in its fourth. Project deliveries decide the result.",
+    "The domestic conveyor parts market is small (about 8 billion yen) and not growing. Growth depends on acquisitions and overseas; the acquired businesses earn lower margins.",
+    "If steel, bearing, rubber and paint prices rise, costs go up; the company says it can pass on only part of the increase.",
+    "The main plant is in Minamiawaji; a disaster there would stop production."
+   ],
+   "watch": [
+    "Full-year net profit forecast (1.25 billion yen) and the outcome",
+    "Conveyor segment margin (25.3%)",
+    "Domestic market share (about 52%)",
+    "Effect of acquisitions on debt and margin"
+   ]
+  },
+  "earn": {
+   "k": 0.857,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Şubat 2026 yılında olağan dışı gelir 64 milyon yen (sigorta iptal iadesi vb.), olağan dışı gider 13 milyon yen; net etkisi kârın %3'ünün altında. Şirketin Şubat 2027'de biten yıl için hisse başına kâr beklentisi 96,85 JPY; son 12 ayda 113,06 JPY. Beklenti daha düşük olduğu için kazanç bu orana indirildi (%14,3). Son 12 ayın kârı 0,86 ile çarpılarak kullanıldı.",
+    "en": "The calculation rests on the profit of the last 12 months. In the year to February 2026 extraordinary income was 64 million yen (insurance surrender refunds etc.) and extraordinary losses 13 million; the net effect is under 3% of profit. The company's earnings-per-share outlook for year to February 2027 is 96.85 JPY; the last 12 months were 113.06 JPY. Because the outlook is lower, earnings were lowered to that ratio (14.3%). Last-12-month profit was used multiplied by 0.86."
+   },
+   "per": "2026-Q2"
+  },
+  "growth": {
+   "g": 5.9,
+   "basis": {
+    "tr": "Formül yılda %11,9 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Mart-Ağustos 2026 %2,8; Haziran-Ağustos 2026 çeyreği %219,7; Şubat 2027 yılı için şirket tahmini %−13,2. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %5,9.",
+    "en": "The formula gave growth of 11.9% a year. Latest figures (earnings per share, year on year): March-August 2026 2.8%; June-August 2026 quarter 219.7%; company forecast for the year to February 2027 −13.2%. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 5.9%."
+   },
+   "per": "2026-Q2"
+  }
+ },
+ "7033": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 2
+  },
+  "moat": "zayıf",
+  "per": "2026-Q2",
+  "one": "Büyük şirketlerin projelerine yönetim desteği (PMO) veren danışmanlık şirketi. Kârlı ve borcu az, ama iş danışman sayısına bağlı; hendek ölçütünü geçemedi.",
+  "business": "Management Solutions (MSOL), büyük şirketlerin projelerine proje yönetim ofisi (PMO) danışmanı verir; geliri danışman sayısı, doluluk oranı ve aylık ücretten oluşur. 2025'te satış 23,07 milyar yen, faaliyet kârı 2,74 milyar yen oldu. Haziran 2026'da 1.050 PMO danışmanı vardı; doluluk %84,8, danışman başına aylık ortalama ücret 1,797 milyon yendi. Bağlı şirketi MSOL Digital dijital dönüşüm desteği verir.",
+  "moat_text": "Hendek zayıf. Şirket bu ölçütü geçemedi. Gelir, danışmanın çalıştığı saatten gelir; müşteriyi bağlayan bir ürün, lisans ya da uzun sözleşme yoktur. Şirket de yıllık raporunda birçok danışmanlık firmasının aynı hizmeti sunduğunu, rekabet artarsa fiyatın düşebileceğini yazıyor. Güçlü yanı var: reel özsermaye kârlılığı 2021'de %34,6, 2022'de %16,9, 2023'te %42,7, 2025'te %28,5; aylık ücret bir yılda 1,747 milyon yenden 1,797 milyon yene çıktı; satışın yaklaşık %96'sı yıllık cirosu 100 milyar yeni aşan müşterilerden geliyor. Ama bu kârlılık az sermaye isteyen bir emek işinin sonucudur. Faaliyet kâr marjı %11,9'dur ve işe alım hızına göre oynar: Nisan-Haziran 2026 çeyreğinde %9,7'ye indi.",
+  "mgmt": "En büyük ortak %23,81 ile United Trust; kurucu ve başkan Shinya Takahashi'nin kendi payı %8,64 (30 Haziran 2026). Hâkim ortak yok. 2025 için hisse başına 32 yen temettü ödendi; 2026 için 50 yen öngörülüyor. Şirket 2025'te 947 milyon yene 600.000 pay geri aldı. Kasada 3,44 milyar yen nakit, 0,51 milyar yen banka borcu var. Kusur: 2025'te biri şirkette, biri bağlı şirkette iki eski üst yöneticinin bir taşerondan usulsüz para aldığı ortaya çıktı; özel inceleme için 88,8 milyon yen karşılık ayrıldı. Şirkete göre kurumsal bir dahil yok ve doğrudan para kaybı olmadı. Mali yıl 2024'te ekimden aralığa alındı; 2024 dönemi 14 aydır.",
+  "latest": "14 Ağustos 2026: Ocak-Haziran 2026 sonuçları açıklandı. Satış %12,5 artışla 12,54 milyar yen, faaliyet kârı %37,0 artışla 1,57 milyar yen, net kâr %46,8 artışla 1,08 milyar yen oldu. Hisse başına kâr 68,60 yen (bir yıl önce 45,09 yen). Yıllık tahmin değişmedi: satış 26,0 milyar yen, faaliyet kârı 3,0 milyar yen, net kâr 2,04 milyar yen, hisse başına kâr 129,75 yen. Şirket ikinci yarıda işe alım ve marka harcamasının artacağını söylüyor. Üçüncü çeyrek sonuçları 13 Kasım 2026'da henüz açıklanmamıştı.",
+  "risks": [
+   "Şirketin yıllık tahmini (hisse başına 129,75 yen) son 12 ayın kârının (135,37 yen) altında; ikinci yarıda maliyet artışı bekleniyor.",
+   "Danışman bulmak ve elde tutmak zorlaşırsa büyüme durur; yeni mezun alımı doluluğu %85,4'ten %84,8'e indirdi.",
+   "Büyük şirketler proje bütçesini kıstığında danışman sözleşmeleri kolayca sonlandırılır.",
+   "İki eski üst yöneticinin taşerondan para alması iç denetimin zayıf kaldığını gösterdi."
+  ],
+  "watch": [
+   "PMO danışman sayısı (1.050) ve doluluk oranı (%84,8)",
+   "Danışman başına aylık ortalama ücret (1,797 milyon yen)",
+   "Faaliyet kâr marjı",
+   "Üçüncü çeyrek sonuçları ve yıllık tahmin"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tyo/7033/financials/ratios/"
+   },
+   {
+    "t": "JPX: Management Solutions, Aralık 2026 mali yılı 2. çeyrek (ara dönem) sonuç özeti (14 Ağustos 2026)",
+    "te": "JPX: Management Solutions, summary of second-quarter (interim) results for fiscal year ending December 2026 (14 August 2026)",
+    "u": "https://www2.jpx.co.jp/disc/70330/081220260813519993_tse-scedjpsy-70330-20260814370330-ixbrl.htm"
+   },
+   {
+    "t": "EDINET: Management Solutions yarıyıl raporu, Ocak-Haziran 2026 (14 Ağustos 2026)",
+    "te": "EDINET: Management Solutions semi-annual report, January-June 2026 (14 August 2026)",
+    "u": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YWQF.pdf"
+   },
+   {
+    "t": "JPX: Management Solutions 2. çeyrek sonuç sunumu (Ağustos 2026)",
+    "te": "JPX: Management Solutions second-quarter results presentation (August 2026)",
+    "u": "https://www2.jpx.co.jp/disc/70330/140120260813520104.pdf"
+   },
+   {
+    "t": "JPX: Management Solutions, Aralık 2025 mali yılı sonuç özeti (16 Şubat 2026)",
+    "te": "JPX: Management Solutions, summary of results for fiscal year ended December 2025 (16 February 2026)",
+    "u": "https://www2.jpx.co.jp/disc/70330/081220260213562180_tse-acedjpsm-70330-20260216370330-ixbrl.htm"
+   },
+   {
+    "t": "EDINET: Management Solutions yıllık menkul kıymet raporu, 2025 mali yılı",
+    "te": "EDINET: Management Solutions annual securities report, fiscal year 2025",
+    "u": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100XT2O.pdf"
+   },
+   {
+    "t": "JPX: Management Solutions kurumsal yönetim raporu (18 Mayıs 2026)",
+    "te": "JPX: Management Solutions corporate governance report (18 May 2026)",
+    "u": "https://www2.jpx.co.jp/disc/70330/100920260518539810.html"
+   },
+   {
+    "t": "Kabutan: Management Solutions ara dönem sonuç haberi (14 Ağustos 2026)",
+    "te": "Kabutan: Management Solutions interim results news (14 August 2026)",
+    "u": "https://s.kabutan.jp/news/k202608140156/"
+   }
+  ],
+  "en": {
+   "one": "A consultancy providing project management (PMO) support to large companies. Profitable with little debt, but work depends on headcount; did not meet the moat criterion.",
+   "business": "Management Solutions (MSOL) supplies project management office (PMO) consultants to large companies' projects; revenue is the number of consultants times utilisation and the monthly rate. In 2025 sales were 23.07 billion yen and operating profit 2.74 billion yen. In June 2026 it had 1,050 PMO consultants; utilisation was 84.8% and the average monthly rate per consultant 1.797 million yen. Its subsidiary MSOL Digital provides digital transformation support.",
+   "moat_text": "The moat is weak. The company did not meet this criterion. Revenue comes from the hours consultants work; there is no product, licence or long contract that ties the customer in. The company itself writes in its annual report that many consulting firms offer the same service and that prices could fall if competition grows. There is a strong side: real return on equity was 34.6% in 2021, 16.9% in 2022, 42.7% in 2023 and 28.5% in 2025; the monthly rate rose from 1.747 million yen to 1.797 million yen in a year; about 96% of sales come from customers with annual revenue above 100 billion yen. But this return is the result of a labour business that needs little capital. The operating margin is 11.9% and moves with the pace of hiring: it fell to 9.7% in the April-June 2026 quarter.",
+   "mgmt": "The largest shareholder is United Trust with 23.81%; founder and president Shinya Takahashi holds 8.64% himself (30 June 2026). There is no controlling shareholder. A dividend of 32 yen per share was paid for 2025; 50 yen is planned for 2026. The company bought back 600,000 shares for 947 million yen in 2025. It holds 3.44 billion yen of cash against 0.51 billion yen of bank debt. A flaw: in 2025 it emerged that two former senior executives, one at the company and one at a subsidiary, had taken improper payments from a subcontractor; a provision of 88.8 million yen was booked for the special investigation. The company says there was no organisational involvement and no direct monetary loss. The fiscal year-end moved from October to December in 2024; the 2024 period covers 14 months.",
+   "latest": "14 August 2026: results for January-June 2026 were announced. Sales rose 12.5% to 12.54 billion yen, operating profit rose 37.0% to 1.57 billion yen, and net profit rose 46.8% to 1.08 billion yen. Earnings per share were 68.60 yen (45.09 yen a year earlier). The full-year forecast is unchanged: sales 26.0 billion yen, operating profit 3.0 billion yen, net profit 2.04 billion yen, earnings per share 129.75 yen. The company says hiring and branding costs will rise in the second half. Third-quarter results had not yet been announced on 13 November 2026.",
+   "risks": [
+    "The company's full-year forecast (129.75 yen per share) is below the profit of the last 12 months (135.37 yen); it expects costs to rise in the second half.",
+    "Growth stops if consultants become harder to hire and keep; graduate hiring lowered utilisation from 85.4% to 84.8%.",
+    "When large companies cut project budgets, consultant contracts are easy to end.",
+    "Two former senior executives taking money from a subcontractor showed that internal control fell short."
+   ],
+   "watch": [
+    "Number of PMO consultants (1,050) and utilisation (84.8%)",
+    "Average monthly rate per consultant (1.797 million yen)",
+    "Operating margin",
+    "Third-quarter results and the full-year forecast"
+   ]
+  }
+ },
+ "9560": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 2
+  },
+  "moat": "zayıf",
+  "per": "2026-Q4",
+  "one": "İş insanlarına yoğun İngilizce koçluğu ve İngilizce öğrenme abonelikleri satar. Kalite surlarını geçti; hendek zayıf olduğu için 3. surda elendi.",
+  "business": "PROGRIT, çalışan yetişkinlere iki üç aylık yoğun İngilizce koçluğu satar: her müşteriye tam zamanlı bir danışman ve bir çalışma uygulaması verilir. Aylık abonelikle çalışan uygulamaları da var: dinleme için Shadoten, konuşma için Speafull. Ağustos 2026'da biten yılda hasılat 7,65 milyar yen oldu; 4,48 milyar yeni koçluktan, 3,17 milyar yeni aboneliklerden geldi. Şirket 412 kuruma da eğitim satıyor. Nisan 2026'da rakip ENGLISH COMPANY'yi (eski adı Study Hacker) satın aldı.",
+  "moat_text": "Hendek zayıf; şirket bu yüzden 3. surda elendi. Üstünlük var: brüt kâr marjı %73,5, faaliyet kâr marjı %19,9; reel özsermaye kârlılığı beş mali yılda %38,2 ile %59,8 arasında, ortalama %45,8. Koçluğu bitirenlerin %72'si devam kursuna yazılıyor, yeni sözleşmelerin %23'ü tavsiyeyle geliyor. Shadoten'in 13.363 ücretli üyesi var (bir yılda +%31,3). Ama bu üstünlük kolay aşılır. İngilizce koçluğu lisans ya da büyük sermaye istemez; müşteri iki üç aylık kurs alır ve onu bağlayan bir şey yoktur. Abonelik uygulamaları yapay zekâlı İngilizce uygulamalarıyla doğrudan yarışıyor; şirket yapay zekânın talebi azaltabileceğini kendi riskleri arasında sayıyor. Geçmiş kısa: şirket Eylül 2022'de halka açıldı. Yüksek özsermaye kârlılığı kısmen işin az sermaye istemesinden ve müşterinin peşin ödemesinden gelir (sözleşme yükümlülükleri 1,46 milyar yen); 2026'da borçla yapılan geri alım özsermayeyi küçülttü, bu da oranı yükseltti.",
+  "mgmt": "Kurucu ve şirketin başındaki Shogo Okada, birlikte hareket edenlerle payların %35,06'sını bildirdi (Temmuz 2025). Öbür kurucu Shuntaro Yamazaki %15,55 bildirmişti (Mayıs 2025); başkan yardımcılığından ayrıldı ve şirket ardından ToSTNeT-3 üzerinden 830 milyon yenlik hisse geri aldı. Geri alım borçla yapıldı: faizli borç 249 milyon yenden 1,07 milyar yene çıktı, özsermayenin toplam varlıklara oranı %50,4'ten %36,3'e indi. Nakit 4,24 milyar yen; net borç yok. Temettü 2026 mali yılında hisse başına 22 yen (kârın %24,4'ü); 2027 için 32 yen öngörülüyor, hedef kârın yaklaşık %30'u. İlk satın alma Nisan 2026'da yapıldı: ENGLISH COMPANY alındığında zarardaydı ve Mart 2025'te özsermayesi eksi 597 milyon yendi. Şirket 2035'te 100 milyar yen hasılat hedefliyor ve bunun yarısını satın almalardan bekliyor. Mali yıl ağustosta biter; konsolide tablo ilk kez bu yıl hazırlandı, bu yüzden önceki yılla karşılaştırma tam değildir.",
+  "latest": "14 Ekim 2026: Ağustos 2026'da biten yılın sonuçları açıklandı (ilk konsolide yıl; karşılaştırma önceki yılın konsolide olmayan rakamlarıyla). Hasılat %33,1 artışla 7,65 milyar yen, faaliyet kârı %26,5 artışla 1,52 milyar yen, net kâr %25,0 artışla 1,11 milyar yen, hisse başına kâr 90,33 yen oldu. ENGLISH COMPANY nisandan beri rakamların içinde. Ertelenmiş vergi kalemi (−129 milyon yen) vergi yükünü azalttı. Ağustos 2027 yılı tahmini: hasılat 9,5 milyar yen (+%24,2), faaliyet kârı 1,75 milyar yen (+%15,0), net kâr 1,2 milyar yen (+%8,0), hisse başına kâr 105,22 yen. Şirket faaliyet kâr marjının %19,9'dan %18,4'e inmesini bekliyor.",
+  "risks": [
+   "Kâr hasılattan yavaş büyüyor: şirket yeni yıl için hasılatta %24,2, net kârda yalnız %8,0 artış öngörüyor. 2026 kârında vergi yükünü azaltan 129 milyon yenlik ertelenmiş vergi kalemi var; bunun yinelenip yinelenmeyeceği okunamadı.",
+   "Yapay zekâ: ücretsiz ya da ucuz yapay zekâlı İngilizce araçları hem koçluğa hem aboneliklere olan talebi azaltabilir. Şirketin kendi sunucu ve yapay zekâ kullanım maliyeti de bir yılda 64 milyon yen arttı.",
+   "Satın almalar: şirket büyümenin yarısını satın almalardan bekliyor. İlk aldığı şirket zarardaydı ve konsolide marjı aşağı çekiyor; 283 milyon yen şerefiye var ve satın alma bedelinin dağıtımı geçici.",
+   "Özsermaye kârlılığı olduğundan yüksek görünebilir: borçla yapılan 830 milyon yenlik geri alım özsermayeyi 2,21 milyar yene indirdi. Öbür kurucunun ve varlık şirketinin elinde yaklaşık 2 milyon hisse bulunduğu bildirildi; satılırsa fiyata baskı yapar.",
+   "İş tek alana bağlı: yetişkinlere İngilizce eğitimi. Kurumların eğitim bütçesi ya da kişilerin harcaması azalırsa kâr düşer."
+  ],
+  "watch": [
+   "Faaliyet kâr marjı (yeni yıl beklentisi %18,4)",
+   "Shadoten ve Speafull ücretli üye sayısı",
+   "ENGLISH COMPANY'nin kârlılığı",
+   "Yeni satın almalar ve borç"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tyo/9560/financials/ratios/"
+   },
+   {
+    "t": "JPX (TDnet): PROGRIT Ağustos 2026 yılı üçüncü çeyrek sonuç bildirimi (9 Temmuz 2026)",
+    "te": "JPX (TDnet): PROGRIT third-quarter kessan tanshin, year to August 2026 (9 July 2026)",
+    "u": "https://www2.jpx.co.jp/disc/95600/081220260708590066_tse-qcedjpsm-95600-20260709395600-ixbrl.htm"
+   },
+   {
+    "t": "Envalith: PROGRIT Ağustos 2026 yılı sonuç özeti (14 Ekim 2026)",
+    "te": "Envalith: PROGRIT earnings release summary, year to August 2026 (14 October 2026)",
+    "u": "https://envalith.com/en/companies/9560/reports/01a13943-b41d-7b24-947f-4955c6b0d275"
+   },
+   {
+    "t": "Envalith: PROGRIT sonuç toplantısı özeti (14 Ekim 2026)",
+    "te": "Envalith: PROGRIT earnings call summary (14 October 2026)",
+    "u": "https://envalith.com/en/companies/9560/reports/01a13a46-025d-7dc6-92c1-a97133b0c666"
+   },
+   {
+    "t": "Matsui Securities: PROGRIT çeyreklik sonuçlar (14 Ekim 2026 açıklaması)",
+    "te": "Matsui Securities: PROGRIT quarterly results (announced 14 October 2026)",
+    "u": "https://finance.matsui.co.jp/stock/9560/settlement/index"
+   },
+   {
+    "t": "Yahoo! Finance Japan: PROGRIT sonuç bildirimi özeti ve Ağustos 2027 tahmini (14 Ekim 2026)",
+    "te": "Yahoo! Finance Japan: PROGRIT tanshin summary and forecast for the year to August 2027 (14 October 2026)",
+    "u": "https://finance.yahoo.co.jp/quote/9560.T/financials"
+   },
+   {
+    "t": "EDINET DB: PROGRIT 2026 mali yılı sonuç bildirimi (14 Ekim 2026)",
+    "te": "EDINET DB: PROGRIT fiscal 2026 kessan tanshin (14 October 2026)",
+    "u": "https://edinetdb.jp/company/E37936/earnings/FY2026"
+   },
+   {
+    "t": "Envalith: PROGRIT üçüncü çeyrek sonuç özeti, büyük ortaklar ve satın alma (9 Temmuz 2026)",
+    "te": "Envalith: PROGRIT third-quarter release summary, major shareholders and the acquisition (9 July 2026)",
+    "u": "https://envalith.com/en/companies/9560/reports/019f46a2-1592-7e7d-a4f9-8b9365ae49f1"
+   },
+   {
+    "t": "Envalith: PROGRIT üçüncü çeyrek toplantısı özeti, geri alım (9 Temmuz 2026)",
+    "te": "Envalith: PROGRIT third-quarter call summary, share buyback (9 July 2026)",
+    "u": "https://envalith.com/en/companies/9560/reports/019f46a3-7b7e-7f1b-b012-4b799666f923"
+   },
+   {
+    "t": "Envalith: PROGRIT ikinci çeyrek toplantısı özeti, Study Hacker satın alması (9 Nisan 2026)",
+    "te": "Envalith: PROGRIT second-quarter call summary, Study Hacker acquisition (9 April 2026)",
+    "u": "https://envalith.com/en/companies/9560/reports/019d71aa-158f-7120-85dd-caf573235a44"
+   }
+  ],
+  "en": {
+   "one": "Sells intensive English coaching and English-learning subscriptions to working adults. It passed the quality walls; the moat is weak, so it was eliminated at Wall 3.",
+   "business": "PROGRIT sells two-to-three-month intensive English coaching to working adults: each customer gets a full-time consultant and a study app. It also has apps on monthly subscription: Shadoten for listening and Speafull for speaking. In the year to August 2026 revenue was 7.65 billion yen; 4.48 billion yen came from coaching and 3.17 billion yen from subscriptions. The company also sells training to 412 corporate clients. In April 2026 it bought a competitor, ENGLISH COMPANY (formerly Study Hacker).",
+   "moat_text": "The moat is weak; this is why the company was eliminated at Wall 3. There is an advantage: the gross margin is 73.5% and the operating margin 19.9%; real return on equity ranged from 38.2% to 59.8% over five fiscal years, averaging 45.8%. 72% of those who finish the coaching enrol in a continuation course, and 23% of new contracts come by referral. Shadoten has 13,363 paying members (+31.3% in a year). But the advantage is easy to overcome. English coaching needs no licence and no large capital; the customer buys a two-to-three-month course and nothing ties them in. The subscription apps compete directly with AI English apps; the company itself lists the risk that AI reduces demand. The record is short: the company listed in September 2022. The high return on equity comes partly from the business needing little capital and customers paying in advance (contract liabilities of 1.46 billion yen); the debt-funded buyback in 2026 shrank equity, which raised the ratio.",
+   "mgmt": "The founder who heads the company, Shogo Okada, reported 35.06% of the shares together with joint holders (July 2025). The other founder, Shuntaro Yamazaki, had reported 15.55% (May 2025); he stepped down as vice president, and the company then bought back 830 million yen of shares through ToSTNeT-3. The buyback was funded with debt: interest-bearing debt rose from 249 million yen to 1.07 billion yen, and equity fell from 50.4% to 36.3% of total assets. Cash is 4.24 billion yen; there is no net debt. The dividend for fiscal 2026 was 22 yen per share (24.4% of profit); 32 yen is projected for 2027, and the target is about 30% of profit. The first acquisition was made in April 2026: ENGLISH COMPANY was loss-making when bought and had negative equity of 597 million yen in March 2025. The company targets revenue of 100 billion yen in 2035 and expects half of it from acquisitions. The fiscal year ends in August; consolidated accounts were prepared for the first time this year, so the comparison with the prior year is not exact.",
+   "latest": "14 October 2026: results for the year to August 2026 were announced (first consolidated year; compared with the prior year's non-consolidated figures). Revenue rose 33.1% to 7.65 billion yen, operating profit rose 26.5% to 1.52 billion yen, net profit rose 25.0% to 1.11 billion yen and earnings per share were 90.33 yen. ENGLISH COMPANY has been in the figures since April. A deferred tax item (−129 million yen) reduced the tax charge. Forecast for the year to August 2027: revenue 9.5 billion yen (+24.2%), operating profit 1.75 billion yen (+15.0%), net profit 1.2 billion yen (+8.0%), earnings per share 105.22 yen. The company expects the operating margin to fall from 19.9% to 18.4%.",
+   "risks": [
+    "Profit is growing more slowly than revenue: for the new year the company expects revenue to rise 24.2% and net profit only 8.0%. Profit for 2026 includes a deferred tax item of 129 million yen that reduced the tax charge; whether it will recur could not be read.",
+    "Artificial intelligence: free or cheap AI English tools can reduce demand for both coaching and subscriptions. The company's own server and AI usage costs also rose by 64 million yen in a year.",
+    "Acquisitions: the company expects half of its growth from acquisitions. The first company it bought was loss-making and pulls the consolidated margin down; there is 283 million yen of goodwill and the purchase price allocation is provisional.",
+    "Return on equity may look higher than it is: the debt-funded 830 million yen buyback lowered equity to 2.21 billion yen. The other founder and his asset company were reported to hold about 2 million shares; a sale would weigh on the price.",
+    "The business depends on a single field: English education for adults. If corporate training budgets or personal spending fall, profit falls."
+   ],
+   "watch": [
+    "Operating margin (18.4% expected for the new year)",
+    "Paying members of Shadoten and Speafull",
+    "Profitability of ENGLISH COMPANY",
+    "New acquisitions and debt"
+   ]
+  }
  }
 }

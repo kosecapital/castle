@@ -258,5 +258,46 @@
   "note_tr": null,
   "note_en": null,
   "notes": "Not primary: yicai.com page blocked (permission request timed out), eastmoney link showed unrelated content, filing itself not found. Figures from ifeng (26 Oct 2026) and a Gelonghui copy of a broker note (28 Oct); they agree. Nine-month basic EPS 3.09 yuan, -19.95% (ifeng); Q3 EPS not found. Causes cited: Q3 gross margin 22.69%, down 5.62 points (price competition, raw material costs); lower interest income; higher selling expenses; fading of the trade-in subsidy; destocking; China household air-conditioner sales -8.4% in nine months, -15.1% in Q3. Both sources frame this as a cyclical downturn, not structural, so `permanent` is null. No company guidance found."
+ },
+ "603605": {
+  "metric": "net profit",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": 22.46,
+   "cur_val": "1,2561",
+   "prev_val": "1,0257",
+   "unit": "milyar yuan / billion yuan",
+   "date": "2026-10-29",
+   "url": "https://stockmc.xueqiu.com/202610/603605_20261030_XV1A.pdf",
+   "primary": true
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": -61.18,
+   "cur_val": "0,0882",
+   "prev_val": "0,2272",
+   "unit": "milyar yuan / billion yuan",
+   "date": "2026-10-29",
+   "url": "https://stockmc.xueqiu.com/202610/603605_20261030_XV1A.pdf",
+   "primary": true
+  },
+  "guidance": null,
+  "adjusted": {
+   "what_tr": "Tek seferlik kalemler hariç net kâr (şirketin kendi 'koufei' rakamı): dokuz ayda 743,3 milyon yuan, üçüncü çeyrekte 79,0 milyon yuan. Fark, şirketin 'olağan dışı' diye ayırdığı kalemlerden geliyor; en büyüğü, Flower Knows'un denetimi alınırken eski payın yeniden değerlenmesinden doğan 445,4 milyon yuanlık kazanç. Dokuz ayda tek seferlik kalemler net 512,8 milyon yuan",
+   "what_en": "Net profit excluding non-recurring items (the company's own figure): 743.3 million yuan in nine months, 79.0 million in the third quarter. The gap comes from the items the company itself classes as non-recurring; the largest is the 445.4 million yuan gain from revaluing the earlier stake when control of Flower Knows was taken. Non-recurring items were a net 512.8 million yuan in nine months",
+   "ytd_pct": -25.5,
+   "quarter_pct": -65.2,
+   "url": "https://stockmc.xueqiu.com/202610/603605_20261030_XV1A.pdf",
+   "primary": true
+  },
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Primary: Proya Q3 2026 report (full text read from the Xueqiu-hosted copy of the exchange filing, announced 29 Oct 2026). 9M 2026 net profit 1,256,099,520.86 (+22.46%), excl. non-recurring 743,276,288.64 (-25.50%), basic EPS 3.20 (+23.55%); Q3 88,203,021.45 (-61.18%), excl. 79,041,917.30 (-65.20%), EPS 0.23 (-59.65%). Prior-year values from the Q3 2025 report (China Securities Journal e-paper, https://epaper.cs.com.cn/zgzqb/images/2025-10/31/B333/zqB33331.pdf): 9M 1,025,700,052.65, Q3 227,188,720.58. Reported growth is inflated by the one-off Flower Knows step-acquisition gain (445.36m, booked in Q2); Q3 revenue growth (+29.76%) comes from consolidating Flower Knows (Q3 colour cosmetics +248.53%, skincare -8.29% per Great Wall Securities). Company's reason for the profit fall: higher brand promotion spending. No company profit guidance found. Nothing 'departed' and no sourced permanent cause: the fall is a marketing-cost squeeze, main brand revenue -7.19% in H1 2026. Source has a dividend yield, so dividend left null (company figures: 2025 total 2.00 yuan/share incl. 0.80 interim; 2026 interim 1.18 yuan/share)."
  }
 }

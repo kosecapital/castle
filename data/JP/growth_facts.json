@@ -377,5 +377,189 @@
   "note_tr": null,
   "note_en": null,
   "notes": "Not primary: HOYA's tanshin and presentation PDFs on ssl4.eir-parts.net were blocked (permission request not answered): https://ssl4.eir-parts.net/doc/7741/tdnet/2901246/00.pdf and .../2901244/00.pdf. H1 from Gyokai Digest and EDINET DB (EPS 408.44; net profit 136.5bn, +27.3%). Q1 from RTTNews: profit 65.791bn vs 51.840bn yen, EPS 196.58 vs 151.22 (Gyokai Digest: +26.9%). Quarter EPS is my subtraction; net profit by subtraction is about 70.7bn vs about 55.4bn (+27.6%, prior H1 derived from the rate). No profit forecast: only full-year revenue 1.043tn yen (+10.1%); the company said it will give an earnings forecast with Q3 results. From HOYA's own Q2 call transcript (primary, https://www.hoya.com/wp-content/uploads/2026/11/FY26-Q2-Transcript_E-1.pdf): Q2 operating profit 89.4bn (+27%, +23% constant currency), pre-tax 91.6bn (+27%); a temporary factor lifted the Life Care margin by about 100bp (about 20% without it); management sees no need for a major cut to its full-year growth plan; 2.5-inch HDD substrates expected to fall by double digits; US eyeglass lens recovery to take several more quarters; China IOL weakness continues and competitors took some MiYOSMART share. None is described as a lasting group-level deterioration, so `permanent` is null. EDINET DB's -45.7% is a period mismatch - ignore. The '0.3% of revenue' is my arithmetic (34m dollars vs about 950bn yen)."
+ },
+ "194A": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Temmuz 2025-Haziran 2026 mali yılı",
+   "en": "fiscal year July 2025-June 2026",
+   "pct": 57.4,
+   "cur_val": "124,88",
+   "prev_val": "79,34",
+   "unit": "yen (temel hisse başına kâr) / yen (basic EPS)",
+   "date": "2026-08-13",
+   "url": "https://www2.jpx.co.jp/disc/194A0/081220260813518909_tse-acedjpsm-194A0-202608133194A0-ixbrl.htm",
+   "primary": true
+  },
+  "quarter": {
+   "tr": "Nisan-Haziran 2026 çeyreği (yıllık eksi dokuz aylık, türetildi)",
+   "en": "April-June 2026 quarter (full year minus nine months, derived)",
+   "pct": 16.0,
+   "cur_val": "45,30",
+   "prev_val": "39,06",
+   "unit": "yen (temel hisse başına kâr) / yen (basic EPS)",
+   "date": "2026-08-13",
+   "url": "https://www2.jpx.co.jp/disc/194A0/140120260513528921.pdf",
+   "primary": true
+  },
+  "guidance": {
+   "tr": "Haziran 2027 yılı için şirket tahmini",
+   "en": "company forecast for the year to June 2027",
+   "pct": 6.42,
+   "url": "https://www2.jpx.co.jp/disc/194A0/081220260813518909_tse-acedjpsm-194A0-202608133194A0-ixbrl.htm",
+   "detail_tr": "hisse başına kâr 132,90 yen; önceki yıl 124,88 yen",
+   "detail_en": "earnings per share of 132.90 yen; 124.88 the year before",
+   "primary": true
+  },
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": {
+   "dps": 26,
+   "cur": "JPY",
+   "for_tr": "Haziran 2027 yılı (ilk temettü, tahmin)",
+   "for_en": "year to June 2027 (first dividend, forecast)",
+   "url": "https://www2.jpx.co.jp/disc/194A0/081220260813518909_tse-acedjpsm-194A0-202608133194A0-ixbrl.htm",
+   "primary": true
+  },
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Primary: full-year tanshin of 13 Aug 2026 (summary page and PDF) and nine-month tanshin of 13 May 2026, both on www2.jpx.co.jp. FY June 2026: basic EPS 124.88 vs 79.34 (+57.4%); profit attributable 939,402k vs 593m (+58.4%). Nine months: EPS 79.58 vs 40.28; profit 597,775k vs 301,086k. Quarter is my subtraction: 124.88-79.58 = 45.30 vs 79.34-40.28 = 39.06 (+16.0%); quarterly EPS by subtraction ignores share-count changes (Matsui Securities shows Q4 EPS 45.48 vs 39.07, same result). Guidance: profit 1,005,368k (+7.0%), EPS 132.90; 132.90/124.88 = +6.42%. The company gives no adjusted growth figure, so `adjusted` is null. But FY2026 profit includes extraordinary gains of 251,315k (negative goodwill 227,452k) against extraordinary losses of 86,140k: the +57.4% and the Q4 +16.0% are flattered by them (Q4 alone holds 72,998k of the negative goodwill gain and the 83,376k impairment, both by subtraction from the nine-month figures). Ordinary profit rose 24.6% in the year; the forecast has operating profit +39.3% but net profit only +7.0% (the tanshin does not explain the gap; the absence of the one-off gain is the likely reason, my inference). Dividend: nothing paid for FY2026 or earlier; 26 yen is the company's FORECAST for FY June 2027 (payout 19.6%), not a declared dividend. NOT READ: the Q1 FY2027 tanshin (July-September 2026) was filed on 11 Nov 2026 15:30 (IRBANK listing, doc id 140120261111573837); the PDF could not be opened (https://www2.jpx.co.jp/disc/194A0/140120261111573837.pdf and https://f.irbank.net/pdf/20261111/140120261111573837.pdf: permission request not answered; kabutan.jp article k202611110220 failed). Only a Kabutan headline seen in search results says Q1 ordinary profit rose 16%; no figures were read, so ytd/quarter here are still the June 2026 year. The main session should re-read Q1 and update ytd/quarter and check whether the forecast was changed. No lost customer or exited business found; nothing indicating a lasting deterioration, so `departed` and `permanent` are null."
+ },
+ "3854": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Temmuz 2026 yılı",
+   "en": "year to July 2026",
+   "pct": 18.2,
+   "cur_val": "167,01",
+   "prev_val": "141,32",
+   "unit": "yen (hisse başına kâr) / yen (EPS)",
+   "date": "2026-09-07",
+   "url": "https://www2.jpx.co.jp/disc/38540/081220260904532017_tse-acedjpsm-38540-20260907338540-ixbrl.htm",
+   "primary": true
+  },
+  "quarter": {
+   "tr": "Mayıs-Temmuz 2026 çeyreği (yıllık eksi dokuz aylık, türetildi)",
+   "en": "May-July 2026 quarter (full year minus nine months, derived)",
+   "pct": 9.4,
+   "cur_val": "49,79",
+   "prev_val": "45,51",
+   "unit": "yen (hisse başına kâr) / yen (EPS)",
+   "date": "2026-09-07",
+   "url": "https://www2.jpx.co.jp/disc/38540/081220260904532017_tse-acedjpsm-38540-20260907338540-ixbrl.htm",
+   "primary": true
+  },
+  "guidance": {
+   "tr": "Temmuz 2027 yılı için şirket tahmini",
+   "en": "company forecast for the year to July 2027",
+   "pct": -15.17,
+   "url": "https://www2.jpx.co.jp/disc/38540/081220260904532017_tse-acedjpsm-38540-20260907338540-ixbrl.htm",
+   "detail_tr": "hisse başına kâr 141,67 yen; önceki yıl 167,01 yen",
+   "detail_en": "earnings per share of 141.67 yen; 167.01 the year before",
+   "primary": true
+  },
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": {
+   "dps": 67,
+   "cur": "JPY",
+   "for_tr": "Temmuz 2026 yılı",
+   "for_en": "year to July 2026",
+   "url": "https://www2.jpx.co.jp/disc/38540/081220260904532017_tse-acedjpsm-38540-20260907338540-ixbrl.htm",
+   "primary": true
+  },
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Primary: full-year kessan tanshin summary (7 Sep 2026, JPX iXBRL) and Q3 tanshin summary (5 Jun 2026, JPX iXBRL, https://www2.jpx.co.jp/disc/38540/081220260604563189_tse-qcedjpsm-38540-20260605338540-ixbrl.htm). FY EPS 167.01 vs 141.32 (+18.2%; net profit 4,175m vs 3,488m, +19.7%). Quarter is my subtraction: EPS 167.01-117.22=49.79 vs 141.32-95.81=45.51 (+9.4%); net profit 4,175-2,931=1,244m vs 3,488-2,356=1,132m (+9.9%). EPS subtraction is approximate because average share counts differ between periods. Q4 operating profit by subtraction fell: 1,325m vs 1,354m (-2.1%). Guidance FY Jul 2027: net profit 3,546m (-15.1%), EPS 141.67 (-15.17% vs 167.01); operating profit 5,000m (-10.2%) on sales +9.1%; first half net profit 1,719m (-12.1%). The reason for the forecast decline could NOT be read: the full tanshin PDF (https://www2.jpx.co.jp/disc/38540/140120260904532017.pdf) was blocked (permission request not answered) and the web search budget ran out. No lost customer or exited business found; nothing supports `permanent`. Dividend: 32 interim + 35 year-end = 67 yen; forecast 70 yen."
+ },
+ "6200": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Ekim 2025-Eylül 2026 mali yılı",
+   "en": "fiscal year October 2025-September 2026",
+   "pct": 6.4,
+   "cur_val": "52,36",
+   "prev_val": "49,20",
+   "unit": "yen (temel hisse başına kâr) / yen (basic EPS)",
+   "date": "2026-11-02",
+   "url": "https://www.kabutec.jp/company/?code=6200",
+   "primary": false
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği (yıllık eksi dokuz aylık, türetildi)",
+   "en": "July-September 2026 quarter (full year minus nine months, derived)",
+   "pct": 7.1,
+   "cur_val": "15,73",
+   "prev_val": "14,69",
+   "unit": "yen (temel hisse başına kâr) / yen (basic EPS)",
+   "date": "2026-11-02",
+   "url": "https://www.kabutec.jp/company/?code=6200",
+   "primary": false
+  },
+  "guidance": {
+   "tr": "Eylül 2027 yılı için şirket tahmini",
+   "en": "company forecast for the year to September 2027",
+   "pct": 12.7,
+   "detail_tr": "temel hisse başına kâr 59,01 yen; Eylül 2026 yılında 52,36 yen. Net kâr 4,80 milyar yen; önceki yıl 4,37 milyar yen (+%9,7)",
+   "detail_en": "basic EPS 59.01 yen; 52.36 in the year to September 2026. Net profit 4.80 billion yen; 4.37 billion the year before (+9.7%)",
+   "date": "2026-11-02",
+   "url": "https://www.kabutec.jp/company/?code=6200",
+   "primary": false
+  },
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "NOT primary for the FY to Sept 2026 figures: the full-year tanshin of 2 Nov 2026 (https://www.release.tdnet.info/inbs/140120261102562860.pdf; also Yahoo copy and the presumed JPX copy) could not be opened (robots / permission prompt unanswered). FY2026 EPS 52.36 and FY2027 forecast EPS 59.01 are from Kabutec (which labels them as tanshin basic EPS); EPS 52.36 and net profit 4,374m also on Matsui Securities (https://finance.matsui.co.jp/stock/6200/settlement/index); net profit 4,374m (+5.9%), forecast net profit 4,800m (+9.7%), dividend 36 yen on Yahoo Finance Japan's summary of the tanshin (https://finance.yahoo.co.jp/quote/6200.T/financials). Primary and read by me: FY2025 EPS 49.20, net profit 4,130m (JPX tanshin 4 Nov 2025, https://www2.jpx.co.jp/disc/62000/081220251104586143_tse-acedjpsm-62000-20251104362000-ixbrl.htm); nine-month EPS 36.63 vs 34.51, net profit 3,077m vs 2,897m (JPX Q3 tanshin, https://www2.jpx.co.jp/disc/62000/081220260803506966_tse-qcedjpsm-62000-20260803362000-ixbrl.htm). ytd = 52.36/49.20 = +6.4%. Quarter derived: 52.36-36.63 = 15.73 vs 49.20-34.51 = 14.69, +7.1% (net profit 4,374-3,077 = 1,297 vs 4,130-2,897 = 1,233, +5.2%); Matsui shows Q4 EPS 15.53 on a different share average. Guidance 59.01/52.36 = +12.7%; EPS grows faster than net profit (+9.7%) because of the July-September 2026 buyback (up to 3m shares). Guidance is above last year, but note the company missed its own FY2026 plan: initial forecast net profit 4,630m (EPS 55.15), cut to 4,400m (EPS 52.39) on 7 May 2026, ordinary profit forecast cut again 6,430m -> 6,200m on 24 Sept 2026; actual 4,374m. No business sold, exited or major customer lost was found; the company cites weak orders from large enterprises in on-site training. No permanent cause found. Dividend yield exists in the dataset, so dividend left null (FY2026 35 yen incl. 5.5 commemorative; FY2027 forecast 36 yen)."
+ },
+ "6224": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Mart-Ağustos 2026",
+   "en": "March-August 2026",
+   "pct": 2.8,
+   "cur_val": "51,39",
+   "prev_val": "49,97",
+   "unit": "yen (temel hisse başına kâr) / yen (basic EPS)",
+   "date": "2026-10-15",
+   "url": "https://finance.matsui.co.jp/stock/6224/settlement/index",
+   "primary": false
+  },
+  "quarter": {
+   "tr": "Haziran-Ağustos 2026 çeyreği",
+   "en": "June-August 2026 quarter",
+   "pct": 219.7,
+   "cur_val": "28,71",
+   "prev_val": "8,98",
+   "unit": "yen (temel hisse başına kâr) / yen (basic EPS)",
+   "date": "2026-10-15",
+   "url": "https://finance.matsui.co.jp/stock/6224/settlement/index",
+   "primary": false
+  },
+  "guidance": {
+   "tr": "Şubat 2027 yılı için şirket tahmini",
+   "en": "company forecast for the year to February 2027",
+   "pct": -13.2,
+   "detail_tr": "hisse başına kâr 96,85 yen; Şubat 2026 yılında 111,64 yen. Net kâr 1.251 milyon yen; önceki yıl 1.423 milyon yen (−%12,1)",
+   "detail_en": "EPS 96.85 yen; 111.64 in the year to February 2026. Net profit 1,251 million yen; 1,423 million the year before (−12.1%)",
+   "date": "2026-07-15",
+   "url": "https://www2.jpx.co.jp/disc/62240/081220260715594254_tse-qcedjpsm-62240-20260715362240-ixbrl.htm",
+   "primary": true
+  },
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "The H1 tanshin of 15 Oct 2026 could not be opened (tdnet/logmi/xj-storage copies blocked), so ytd and quarter are NOT primary: EPS from Matsui Securities' results table (H1 51.39 vs 49.97; Q2 alone 28.71 vs 8.98); net profit H1 665m, +5.6% from Yahoo Finance Japan's summary of the tanshin (prior H1 629m per Matsui). By my subtraction from the primary Q1 tanshin (Q1 EPS 22.70 vs 41.14) the quarter would be 28.69 vs 8.83 (+224.9%); net profit Q2 372m vs 113m. The quarter jump is against a very weak base (Q2 last year operating profit 206m), not a new level. Guidance is primary: FY tanshin of 14 Apr 2026 and Q1 tanshin of 15 Jul 2026 both give EPS 96.85, net profit 1,251m (-12.1%), operating profit 1,965m (+0.1%); Yahoo's summary of the 15 Oct tanshin says the forecast was not revised (not primary). pct = 96.85/111.64-1 = -13.2% (my arithmetic). The company's stated reason for the lower net profit was not found; arithmetic from the forecast shows net/ordinary profit of 65.4% (1,251/1,914) against 74.7% last year (1,423/1,904), i.e. a higher tax/extraordinary burden rather than lower operating profit. No lost customer or exited business found; the securities report says there is no dependence on specific customers. Consolidation changes in Q1: JRC Vietnam added; JRC C&M and Seiko Tech removed (merged within the group). Dividend left null because the source has a yield; company dividend is 34 yen forecast (15 interim + 19 year-end incl. 4 commemorative)."
  }
 }

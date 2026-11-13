@@ -244,5 +244,39 @@
   "note_tr": null,
   "note_en": null,
   "notes": "No EPS guidance (company does not publish numeric financial forecasts). Q4 2026: revenue +15-20% QoQ, gross margin 38-39.5%; capacity 5.85m to 9.0m sheets/month by end-2027 (StockFeel call summary). Net profit: Q3 NT$14.499bn vs 3.964bn (+265.8%); nine months NT$29.713bn vs 10.912bn (article says up 1.72 times; my division +172.3%). Prior-year nine-month EPS 31.23 from https://uanalyze.com.tw/articles/5899037137. Q3 non-operating income included a PRC government subsidy of NT$107m (not labelled one-off). LTN page failed to load. Company release not opened."
+ },
+ "3218": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": 4.19,
+   "cur_val": "9.20",
+   "prev_val": "8.83",
+   "unit": "Tayvan doları / Taiwan dollars",
+   "date": "2026-11-12",
+   "url": "https://tw.stock.yahoo.com/news/%E5%A4%A7%E5%AD%B8%E5%85%89%E5%89%8D%E4%B8%89%E5%AD%A3%E5%90%88%E4%BD%B5%E7%8D%B2%E5%88%A97-79%E5%84%84%E5%85%83-%E6%AF%8F%E8%82%A1%E7%A8%85%E5%BE%8C9-20%E5%85%83-122900948.html",
+   "primary": true
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": -20.74,
+   "cur_val": "3.21",
+   "prev_val": "4.05",
+   "date": "2026-11-12",
+   "url": "https://tw.stock.yahoo.com/news/%E5%A4%A7%E5%AD%B8%E5%85%89-115%E5%B9%B4%E7%AC%AC3%E5%AD%A3%E7%B6%9C%E5%90%88%E6%90%8D%E7%9B%8A%E8%A1%A8-%E6%AF%8F%E8%82%A1%E7%9B%88%E9%A4%983-21%E5%85%83-092300567.html",
+   "primary": true
+  },
+  "guidance": null,
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "exclude": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "All figures are MOPS exchange filings as reproduced by MoneyDJ/Yahoo Taiwan and gbimonthly (marked primary on that basis, same as existing TW records; MOPS itself not opened). Nine months 2026: parent net profit NT$779.280m, EPS 9.20 (Yahoo/MoneyDJ, 12 Nov 2026); nine months 2025: parent 748.361m, EPS 8.83 (https://news.gbimonthly.com/tw/invest/show.php?num=81721); pct = 9.20/8.83-1 = +4.19% (parent profit +4.13%). Quarter: Q3 2026 EPS 3.21 is in the filing headline and = 9.20 - 5.99 (H1 2026, MoneyDJ filing); Q3 2025 EPS 4.05 = 8.83 - 4.78 (H1 2025, China Times) - my subtraction, also shown by histock. JUDGMENT CALL FOR MAIN SESSION (exclude.quarter not set by me): the Q3 drop is a base effect outside operations. From the filings: Q3 2025 operating profit 316.1m (1,042.069 - 726) but pre-tax 413.6m (991.625 - 578), i.e. about +97.6m non-operating income; Q3 2026 operating profit 340.254m (1,022.021 - 681.767), pre-tax 338.222m (988.076 - 649.854), non-operating -2.0m. Operating profit rose about 7.6% in the quarter, revenue +13.3%. I could NOT find a document stating what the Q3 2025 non-operating gain was; the company held a US Treasury bond ETF that produced a NT$205m valuation loss in Q2 2025 (SinoPac note) and was sold in Q2 2026 (Fugle call notes), so a valuation rebound is likely but unconfirmed - hence no exclude. Nine-month operating profit fell 1.9% (1,022.0 vs 1,042.1) while EPS rose because the 2025 base carried net non-operating losses of 50.4m. No EPS/profit guidance: management only gives a 2026 revenue growth target of high single digit to double digit (Fugle, 26 Mar 2026; revenue guidance is not counted). No departed business; China is 12% of revenue (2025, -18%), two China clinics were closed in 2024. No permanent cause found. Dividend yield is in the source (6.17%), so dividend left null; company paid NT$7.75 cash per share from 2025 profit."
  }
 }

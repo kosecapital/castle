@@ -165,5 +165,28 @@
   "drop": null,
   "guidance": [],
   "notes": "EPS 6.73 = FY2025 6.51 (nstock.tw, stockfeel, winvest.tw) - 9M 2025 4.61 (udn, 6 Nov 2025) + 9M 2026 4.83 (exchange announcement of 4 Nov 2026 reproduced on Yahoo Taiwan: net profit 228.005m, pre-tax 310.017m, operating profit 265.828m). Only the 9M 2026 figures are from the company's filing; the 2025 pieces are news/data-page figures. Net profit 317 is approximate: about 292 (FY2025, winvest.tw, rounded) - 203 (9M 2025, udn, rounded) + 228.0. CONFLICT: Yahoo's single-quarter EPS table gives 2025 Q4 1.97, 2026 Q1 1.75, Q2 1.85 (Q3 2026 not yet in the table; 4.83 - 3.60 = 1.23), which sums to 6.80; Yahoo shows Q3 2025 as 2.10 where udn reported 2.15, and its 2025 quarters sum to 6.54 against the reported annual 6.51 (share count changed with the May 2025 listing). The site's implied EPS is 6.704. Tax rate 26.5% is my calculation from the 9M 2026 announcement (1 - 228.005/310.017). No company EPS/profit guidance: at the 20 May 2026 investor conference management only said the second half of 2026 should be roughly flat with the first half (Fugle notes). No one-off gain identified by the company. Non-operating income is material but not broken down: 9M 2026 pre-tax profit exceeds operating profit by 44.2m TWD (14% of pre-tax); the announcement says nothing on its composition. For Q3 2025 udn reported an FX gain of about 9m TWD (that quarter is outside the last 12 months). Could not open: wantgoo income statement (empty page); MOPS not tried."
+ },
+ "3218": {
+  "unit": "million TWD",
+  "eps_cur": "TWD",
+  "ttm": {
+   "eps": 12.68,
+   "net_profit": 1073,
+   "tr": "Ekim 2025 - Eylül 2026 (2025 yılı 12,31 − 2025'in ilk dokuz ayı 8,83 + 2026'nın ilk dokuz ayı 9,20)",
+   "en": "October 2025 - September 2026 (full year 2025 12.31 − first nine months of 2025 8.83 + first nine months of 2026 9.20)",
+   "url": "https://tw.stock.yahoo.com/news/%E5%A4%A7%E5%AD%B8%E5%85%89%E5%89%8D%E4%B8%89%E5%AD%A3%E5%90%88%E4%BD%B5%E7%8D%B2%E5%88%A97-79%E5%84%84%E5%85%83-%E6%AF%8F%E8%82%A1%E7%A8%85%E5%BE%8C9-20%E5%85%83-122900948.html"
+  },
+  "tax_rate": 20.4,
+  "gains": [],
+  "offsets": [
+   {
+    "tr": "Nisan-Haziran 2026 çeyreğinde ABD devlet tahvili yatırımının satışından yaklaşık 52 milyon Tayvan doları zarar (vergi öncesi; %20,4 vergi oranıyla çevrildi)",
+    "en": "A loss of about 52 million Taiwan dollars on the sale of the US government bond investment in the April-June 2026 quarter (pre-tax; converted at a 20.4% tax rate)",
+    "frac": 0.0386
+   }
+  ],
+  "drop": null,
+  "guidance": [],
+  "notes": "TTM here runs to 30 Sep 2026 (the dataset row is still 2026-Q2). EPS 12.68 = 12.31 - 8.83 + 9.20. Nine-month legs are exchange filings (2026: Yahoo/MoneyDJ; 2025: gbimonthly). The FY2025 leg is NOT primary: EPS 12.31 and Q4 2025 parent profit NT$294m from Fugle/Vocus conference notes (AI-assisted summaries); FY2025 parent profit 1.042bn (Vocus) / 1.043bn (Fugle). Net profit = 294 + 779.28 = about 1,073m (1,042 - 748.361 + 779.280 = 1,072.9); approximate. Check: 12.68 x 84.7m shares = 1,074m. SOURCE VS DOCUMENT: the dataset P/E 9.32 at 125.5 implies EPS 13.47, i.e. the four quarters to June 2026 (4.05 + 3.48 + 3.31 + 2.67 = 13.51); my TTM to September is 12.68, about 6% lower, because Q3 2025 (4.05, with about 97.6m non-operating income) dropped out and Q3 2026 (3.21) came in. The script will see the source more than 3% above the document. One-off check for Oct 2025 - Sep 2026: non-operating result by quarter = Q4 2025 +15.8m and Q1 2026 +21.0m (histock, pre-tax minus operating profit; nature not found, together about 2.7% of TTM profit after tax, not identified as one-off, so not listed), Q2 2026 -53.0m (filing arithmetic; Fugle notes say about 52m final loss on full disposal of US Treasuries), Q3 2026 -2.0m (filing arithmetic). So the last 12 months are NOT inflated by a one-off gain; net non-operating items were a loss. If TTM to June 2026 were used instead, Q3 2025's +97.6m non-operating income (about 78m after tax, nature unconfirmed) would be inside it. Offset frac = 52 x (1 - 0.2036) / 1,073 = 0.0386; the 52m figure is from an AI-generated call summary, not primary. tax_rate = (988.076 - 786.889) / 988.076 = 20.36% for nine months 2026 (my division). No EPS guidance. Diluted EPS not found. The company still holds TSMC shares as a long-term investment which, per Fugle notes, moves only the balance sheet (other comprehensive income), not profit."
  }
 }

@@ -1320,5 +1320,106 @@
    },
    "per": "2026-Q2"
   }
+ },
+ "ORIANA": {
+  "scores": {
+   "A": 1,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2025-H2",
+  "one": "Güneş santrali ve batarya depolama müteahhidi. Kalite surlarını geçti; iş ihaleyle alınıyor, marj daralıyor. Hendek zayıf olduğu için 3. suru geçemedi.",
+  "business": "Oriana Power (TrueRE markası) Hindistan'da güneş santralleri ve batarya depolama tesisleri kurar. Bir bölümünü müşteri için yapar; bir bölümünü kendi proje şirketlerinde kurup işletir, sonra yatırımcıya satar. Mart 2026'da biten mali yılda konsolide hasılat 18,1 milyar rupi (+%83,7), ana ortaklık net kârı 2,52 milyar rupi (+%59,1) oldu. Teslim edilen güneş gücü 835 MW'ın üzerinde; 700 MW'tan fazla güneş ve 1.000 MWh'ten fazla depolama yapım aşamasında. Yönetime göre bekleyen sipariş yaklaşık 70 milyar rupi.",
+  "moat_text": "Hendek zayıf; şirket bu ölçütü geçemedi. İş ihale ve teklifle alınır. Yönetim Haziran 2026 toplantısında depolama ve müteahhitlik ihalelerinde saldırgan teklifler verildiğini, düşük fiyatlı ihalelerden çekildiğini söyledi. Üstünlük, proje geliştirme ile yapımı bir arada yürütmekten geliyor ve rakamda görünüyor: FAVÖK marjı yaklaşık %23, reel özsermaye kârlılığı son beş mali yılda %31,1 ile %58,0 arasında. Ama bu üstünlük kolay aşılır ve kısa bir geçmişe dayanıyor: hasılat Mart 2022'de biten yıldaki 1,2 milyar rupiden 18,1 milyar rupiye çıktı, net kâr marjı son yıl %16,06'dan %13,91'e indi, reel özsermaye kârlılığı %45,7'den %31,1'e geriledi. Fiyatı şirket değil ihale belirliyor.",
+  "mgmt": "Kurucu ortakların payı %57,98 (Eylül 2026). Şirket NSE'nin KOBİ pazarında (Emerge) işlem görür; sonuçlarını yılda iki kez açıklar ve mali yılı mart sonunda biter. Temettü dağıtmıyor; kâr yeni projelere gidiyor. Borç büyüyor: toplam finansal borç 31 Mart 2026'da 5,09 milyar rupi (bir yıl önce 2,71 milyar), finansman gideri 629 milyon rupi (bir yıl önce 245 milyon). Faaliyet nakit akışı 3,37 milyar rupi, yatırım nakit çıkışı 5,06 milyar rupi. Yapı karmaşık: 74 bağlı ortaklık var; satılması planlanan 14'ü konsolide edilmiyor. Şirket ana işin yanında yeşil amonyak ve hidrojen yatırımlarına giriyor. Eylül 2026'da her pay beşe bölündü (nominal değer 10 rupiden 2 rupiye). Denetçi görüşü olumlu.",
+  "latest": "28 Mayıs 2026: Mart 2026'da biten mali yılda konsolide hasılat 18,1 milyar rupi (+%83,7), FAVÖK 4,25 milyar rupi (+%73,4), ana ortaklık net kârı 2,52 milyar rupi (+%59,1). İkinci yarıda (Ekim 2025-Mart 2026) net kâr 1,31 milyar rupi; artış %19,0'a yavaşladı. Tek seferlik kalem yok. Yönetim, yaklaşık 238 MW'lık işler durumdaki güneş santrallerinin Actis'e satışının bu yıla yetişmediğini ve kârın beklentinin altında kaldığını söyledi. Haberlere göre satışın ilk bölümleri Eylül 2026 sonunda tamamlandı: 110 MWp için işletme değeri 5,01 milyar rupi. Nisan-Eylül 2026 sonuçları 13 Kasım 2026 itibarıyla açıklanmamıştı.",
+  "risks": [
+   "Kâr büyümesi yavaşlıyor ve marj daralıyor: son yarı yılda net kâr %19,0 arttı (yılın tamamında %59,1), net kâr marjı %16,06'dan %13,91'e indi. Yönetim ihalelerde saldırgan fiyatlama olduğunu söylüyor.",
+   "Kârın bir bölümü kendi kurduğu santrallerin satışına bağlı. Satış gecikince kâr o dönem gelmiyor; gelince de o dönemin kârını yükseltiyor. Actis satışı Nisan-Eylül 2026 dönemine düşecek.",
+   "Borç ve işletme sermayesi hızla büyüyor: finansal borç bir yılda 2,71 milyar rupiden 5,09 milyar rupiye, ticari alacak 3,94 milyar rupiden 6,71 milyar rupiye çıktı.",
+   "İş kamu ihalelerine, şebeke bağlantısına ve teşvik kurallarına bağlı. Yönetim arazi, bağlantı ve onay gecikmelerini, kur ve hammadde maliyetini risk olarak sayıyor.",
+   "KOBİ pazarında işlem görüyor: sonuçlar yılda iki kez açıklanır, tablolar eski Hint muhasebe standartlarıyla (AS) hazırlanır ve 14 bağlı ortaklık konsolide edilmez."
+  ],
+  "watch": [
+   "Nisan-Eylül 2026 net kârı ve içindeki santral satışı kazancı",
+   "FAVÖK ve net kâr marjı",
+   "Finansal borç ve ticari alacak",
+   "Yeni sipariş ve depolamanın hasılattaki payı"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/nse/ORIANA/financials/ratios/"
+   },
+   {
+    "t": "Oriana Power: 31 Mart 2026'da biten yılın denetlenmiş sonuçları, borsa bildirimi (28 May 2026)",
+    "te": "Oriana Power: audited results for the year ended 31 March 2026, exchange filing (28 May 2026)",
+    "u": "https://nsearchives.nseindia.com/corporate/ORIANA_28052026225021_OPL_outcome_of_BM.pdf"
+   },
+   {
+    "t": "Oriana Power: 2026 mali yılı sonuç sunumu, borsa bildirimi (29 May 2026)",
+    "te": "Oriana Power: FY26 earnings release, exchange filing (29 May 2026)",
+    "u": "https://nsearchives.nseindia.com/corporate/ORIANA_29052026043631_Oriana_EarningRelease.pdf"
+   },
+   {
+    "t": "Oriana Power: 10 Haziran 2026 yatırımcı toplantısı dökümü, borsa bildirimi (17 Haz 2026)",
+    "te": "Oriana Power: transcript of the 10 June 2026 analyst meet, exchange filing (17 Jun 2026)",
+    "u": "https://nsearchives.nseindia.com/corporate/ORIANA_17062026214848_OPL_Transcript_Analystmeet.pdf"
+   },
+   {
+    "t": "Oriana Power: 2026 mali yılı yatırımcı sunumu, borsa bildirimi (10 Haz 2026)",
+    "te": "Oriana Power: FY26 investor presentation, exchange filing (10 Jun 2026)",
+    "u": "https://nsearchives.nseindia.com/corporate/ORIANA_10062026120938_InvestorPresentationFY26.pdf"
+   },
+   {
+    "t": "Oriana Power: pay bölünmesi için kayıt tarihi bildirimi (25 Ağu 2026)",
+    "te": "Oriana Power: record date for the share split, exchange filing (25 Aug 2026)",
+    "u": "https://nsearchives.nseindia.com/corporate/ORIANA_25082026203443_OPL_RecordDate_Disclosure_250826.pdf"
+   },
+   {
+    "t": "Renewable Watch: TrueRE Oriana Power 110 MWp güneş projesini Actis'e sattı (1 Eki 2026)",
+    "te": "Renewable Watch: TrueRE Oriana Power sells 110 MWp C&I solar projects to Actis (1 Oct 2026)",
+    "u": "https://renewablewatch.in/2026/10/01/truere-oriana-power-sells-110-mwp-ci-solar-projects-to-actis/"
+   },
+   {
+    "t": "SolarQuarter: Oriana Power 70 MWp güneş ve 30 MWh depolama satışının ilk bölümünü tamamladı (29 Eyl 2026)",
+    "te": "SolarQuarter: Oriana Power completes first tranche of 70 MWp solar and 30 MWh BESS divestment (29 Sep 2026)",
+    "u": "https://solarquarter.com/2026/09/29/oriana-power-completes-first-tranche-of-70-mwp-solar-and-30-mwh-bess-divestment/"
+   },
+   {
+    "t": "Multibagg: Oriana Power 2026 mali yılı sonuçları (29 May 2026)",
+    "te": "Multibagg: Oriana Power FY26 results (29 May 2026)",
+    "u": "https://www.multibagg.ai/market-pulse/articles/oriana-fy26-95446"
+   },
+   {
+    "t": "Screener.in: Oriana Power mali tablolar ve ortaklık yapısı (12 Kas 2026)",
+    "te": "Screener.in: Oriana Power financials and shareholding (12 Nov 2026)",
+    "u": "https://www.screener.in/company/ORIANA/consolidated/"
+   }
+  ],
+  "en": {
+   "one": "Solar and battery storage contractor. Passed the quality walls; work is won by tender, margins are narrowing. Weak moat, so it failed Wall 3.",
+   "business": "Oriana Power (TrueRE brand) builds solar plants and battery storage facilities in India. It builds part of them for customers; part it builds and runs in its own project companies and later sells to investors. In the fiscal year that ended in March 2026, consolidated revenue was 18.1 billion rupees (+83.7%) and net profit attributable to owners was 2.52 billion rupees (+59.1%). Solar capacity delivered is above 835 MW; more than 700 MW of solar and more than 1,000 MWh of storage are under construction. Management puts the unexecuted order book at about 70 billion rupees.",
+   "moat_text": "The moat is weak; the company did not pass this criterion. Work is won by tender and by bid. At the June 2026 meeting management said that bidding in storage and contracting tenders was aggressive and that it had stepped back from low-priced tenders. The advantage comes from doing project development and construction together, and it shows in the numbers: the EBITDA margin is about 23% and real return on equity was between 31.1% and 58.0% in the last five fiscal years. But this advantage is easy to overcome and rests on a short record: revenue went from 1.2 billion rupees in the year that ended in March 2022 to 18.1 billion rupees, the net profit margin fell from 16.06% to 13.91% last year, and real return on equity fell from 45.7% to 31.1%. The price is set by the tender, not by the company.",
+   "mgmt": "The founders hold 57.98% (September 2026). The company trades on the NSE's SME platform (Emerge); it reports results twice a year and its fiscal year ends in March. It pays no dividend; profit goes into new projects. Debt is growing: total borrowings were 5.09 billion rupees on 31 March 2026 (2.71 billion a year earlier) and finance costs were 629 million rupees (245 million a year earlier). Operating cash flow was 3.37 billion rupees and investing cash outflow 5.06 billion rupees. The structure is complex: there are 74 subsidiaries, and 14 that are planned for sale are not consolidated. Alongside its main business the company is entering green ammonia and hydrogen investments. In September 2026 each share was split into five (face value from 10 rupees to 2 rupees). The auditor's opinion is unmodified.",
+   "latest": "28 May 2026: In the fiscal year that ended in March 2026, consolidated revenue was 18.1 billion rupees (+83.7%), EBITDA 4.25 billion rupees (+73.4%) and net profit attributable to owners 2.52 billion rupees (+59.1%). In the second half (October 2025-March 2026) net profit was 1.31 billion rupees; growth slowed to 19.0%. There were no one-off items. Management said the sale of about 238 MW of operating solar plants to Actis did not close within the year and that profit fell short of its expectation. According to news reports the first parts of the sale closed at the end of September 2026: an enterprise value of 5.01 billion rupees for 110 MWp. Results for April-September 2026 had not been published as of 13 November 2026.",
+   "risks": [
+    "Profit growth is slowing and the margin is narrowing: net profit rose 19.0% in the latest half-year (59.1% for the full year) and the net profit margin fell from 16.06% to 13.91%. Management says pricing in tenders is aggressive.",
+    "Part of the profit depends on selling plants the company built itself. When a sale is delayed the profit does not arrive in that period; when it closes it lifts that period's profit. The Actis sale will fall in the April-September 2026 period.",
+    "Debt and working capital are growing fast: in one year borrowings went from 2.71 billion rupees to 5.09 billion rupees and trade receivables from 3.94 billion rupees to 6.71 billion rupees.",
+    "The business depends on public tenders, grid connection and incentive rules. Management lists delays in land, connectivity and approvals, the exchange rate and input costs as risks.",
+    "It trades on the SME platform: results come twice a year, the statements are prepared under the older Indian accounting standards (AS), and 14 subsidiaries are not consolidated."
+   ],
+   "watch": [
+    "April-September 2026 net profit and the plant-sale gain inside it",
+    "EBITDA and net profit margin",
+    "Borrowings and trade receivables",
+    "New orders and the share of storage in revenue"
+   ]
+  }
  }
 }
