@@ -1,5 +1,5 @@
 {
- "note": "Beş yıllık oran sayfalarının adres kalıpları: TradingView borsa kodu -> stockanalysis.com yolu. {t}: kod, {lc}: küçük harf, {dot}: alt çizgi yerine nokta, {t4}/{t5}/{t6}: başına sıfır eklenmiş. Liste ise sırayla denenir. 'verified' içindekiler 11 Kasım 2026'da canlı sınandı; diğerleri tahmindir ve ülke eklenirken doğrulanır (status.json içindeki 'failed' sayısına bak).",
+ "note": "Beş yıllık oran sayfalarının adres kalıpları: TradingView borsa kodu -> stockanalysis.com yolu. {t}: kod, {lc}: küçük harf, {dot}: alt çizgi yerine nokta, {nd}: sondaki nokta atılmış (RR. -> RR), {t4}/{t5}/{t6}: başına sıfır eklenmiş. Liste ise sırayla denenir. 'verified' içindekiler 11 Kasım 2026'da canlı sınandı; diğerleri tahmindir ve ülke eklenirken doğrulanır (status.json içindeki 'failed' sayısına bak).",
  "verified": ["NASDAQ", "NYSE", "BIST", "TSE", "LSE", "HKEX", "SSE", "SZSE", "TWSE", "NSE", "BSE", "KRX", "TSX", "XETR", "SIX", "TADAWUL", "ASX", "OMXSTO", "BME", "BMFBOVESPA", "ADX", "MIL", "IDX", "SGX", "OMXCOP", "BMV", "SET", "TASE", "JSE", "OSL"],
  "sa": {
   "NASDAQ": "stocks/{lc}", "NYSE": "stocks/{lc}", "AMEX": "stocks/{lc}", "CBOE": "stocks/{lc}",
@@ -8,7 +8,7 @@
   "TSE": "quote/tyo/{t}", "NAG": "quote/ngo/{t}", "FSE": "quote/fuk/{t}", "SAPSE": "quote/spse/{t}",
   "TWSE": "quote/tpe/{t}", "TPEX": ["quote/tpex/{t}", "quote/two/{t}"],
   "NSE": "quote/nse/{t}", "BSE": ["quote/bom/{t}", "quote/nse/{t}"],
-  "LSE": ["quote/lon/{t}", "quote/lon/{dot}"], "AQUIS": "quote/aqse/{t}",
+  "LSE": ["quote/lon/{nd}", "quote/aim/{nd}", "quote/lon/{dot}"], "AQUIS": "quote/aqse/{t}",
   "KRX": ["quote/krx/{t}", "quote/kosdaq/{t}"],
   "TSX": ["quote/tsx/{t}", "quote/tsx/{dot}"], "TSXV": ["quote/tsxv/{t}", "quote/tsxv/{dot}"], "CSE": "quote/cse/{t}", "NEO": "quote/neo/{t}",
   "XETR": "quote/etr/{t}", "FWB": "quote/fra/{t}",

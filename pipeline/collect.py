@@ -467,7 +467,7 @@ def sa_paths(u, k, src):
         return []
     if isinstance(pats, str):
         pats = [pats]
-    v = dict(t=t, lc=t.lower(), t4=t.zfill(4), t5=t.zfill(5), t6=t.zfill(6), dot=t.replace("_", "."), dash=t.replace("_", "-").replace(".", "-"),
+    v = dict(t=t, nd=t.rstrip("."), lc=t.lower(), t4=t.zfill(4), t5=t.zfill(5), t6=t.zfill(6), dot=t.replace("_", "."), dash=t.replace("_", "-").replace(".", "-"),
              lcdot=t.lower().replace("_", "."), lcdash=t.lower().replace("_", ".").replace("/", "."))
     return [p.format(**v) for p in pats]
 
