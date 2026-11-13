@@ -1,0 +1,65 @@
+{
+ "cc": "GB",
+ "iso": "826",
+ "name": "Birleşik Krallık",
+ "market": "uk",
+ "exchange": "Londra Borsası (ana pazar ve AIM) ve Aquis Borsası",
+ "cur": "GBP",
+ "asof": "2026-11-12",
+ "fx": 0.7555,
+ "mcapMin": 50,
+ "years": [
+  "2021",
+  "2022",
+  "2023",
+  "2024",
+  "2025"
+ ],
+ "cpi": {
+  "2021": 5.4,
+  "2022": 10.5,
+  "2023": 4.0,
+  "2024": 2.5,
+  "2025": 3.4,
+  "cur": 3.5
+ },
+ "deflate": "all",
+ "inflation_note": "Birleşik Krallık şirketleri enflasyon muhasebesi uygulamaz. Bu yüzden bütün şirketlerin özsermaye kârlılığı yıl sonu tüketici enflasyonuyla düzeltildi: 2021 için %5,4, 2022 için %10,5, 2023 için %4,0, 2024 için %2,5, 2025 için %3,4. Son 12 ay için en son açıklanan yıllık oran (Eylül 2026, %3,5) kullanıldı.",
+ "data_notes": [
+  "Fiyat, piyasa değeri, F/K ve PD/DD: TradingView tarayıcısı, 12 Kasım 2026. Fiyatlar peni (GBX), piyasa değerleri milyon sterlin olarak yazılır. Evren 1.071 paydır: 1.034'ü Londra Borsası'nda (ana pazar ve AIM), 37'si Aquis Borsası'nda. Depo sertifikaları, ana kotasyonu başka ülkede olan paylar ve kapalı uçlu fonların çoğu evrende yoktur; evrendeki 30 yatırım ortaklığı 1. surda dışarıda kalır.",
+  "Karşılaştırma: Londra Borsası'nın kendi güncel listesi bu çalıştırmada açılamadı. İkincil kaynaklara göre Londra Borsası'nda Mayıs 2026'da fonlar dahil 1.534 şirket vardı (Fortune, borsa verisine dayanarak). Finansal Davranış Otoritesi'ne (FCA) göre Haziran 2026'da ana pazarda 512 ticari şirketin payı kotaydı; AIM'de 2025 sonunda 619 şirket vardı. Fon dışı şirketlerde evren bu toplamın (yaklaşık 1.130) yaklaşık %11 altında. Aquis'te 80 kadar şirket var; evrende 37'si bulunuyor.",
+  "Üçüncü kaynakla düzeltilenler (13 Kasım 2026). IG Design Group: kaynak F/K'yı 26,3 gösteriyordu; şirketin 31 Mart 2026'da biten yıl sonuçlarında ana ortaklığa düşen sonuç 112,3 milyon sterlin zarar (süren faaliyetler 5,4 milyon kâr, durdurulan faaliyetler 117,7 milyon zarar). Şirket 'zarar' olarak işaretlendi. Softcat: kaynağın PD/DD'si (11,5) 31 Ocak 2026 bilançosuna dayanıyordu; şirketin 31 Temmuz 2026 bilançosuyla (özsermaye 364,0 milyon sterlin, 196,9 milyon pay; investing.com'da hisse başına defter değeri 1,85 sterlin) 9,16 olarak düzeltildi.",
+  "Goodwin'de F/K (175,6) yalnız süren faaliyetlerin kârına dayanır; kaynak, ikinci kaynak ve investing.com aynı esası kullanıyor. Şirketin 30 Nisan 2026'da biten yılda açıkladığı toplam hisse başına kârla (738,44 peni; satılmak üzere ayrılan makine mühendisliği bölümü dahil) F/K yaklaşık 19,8 olur. Bölümün satışı anlaşıldı, henüz tamamlanmadı.",
+  "Rio Tinto'da kaynağın piyasa değeri (109,6 milyar sterlin) çift kotasyonlu grubun tamamını kapsar; yalnız Londra'da işlem gören Rio Tinto plc paylarının değeri yaklaşık 79,4 milyar sterlindir (1.255 milyon pay, şirketin 30 Eylül 2026 bildirimi). F/K ve PD/DD hisse başına hesaplandığı için bundan etkilenmez. HSBC, AstraZeneca, Shell ve Rolls-Royce'ta fiyat, piyasa değeri, F/K ve PD/DD ikinci kaynakla %4 içinde tutuyor.",
+  "Kaynağın PD/DD alanı boş olan 82 şirkette PD/DD aynı kaynağın son bilanço alanlarından hesaplandı (26 şirkette son açıklanan, 56 şirkette son yıllık bilanço); hangisi olduğu şirketin sayfasında yazar. Denetim: Avon Technologies'te kaynak 5,00, şirketin 30 Eylül 2026 bilançosuyla hesap yaklaşık 4,8.",
+  "Veri kaynağı 128 şirkette son 12 ayın kârını vermiyor. En büyükleri: Airtel Mobile Commerce, Rosebank Industries, IG Group, Canal+, Princes Group ve Applied Nutrition. Bu şirketler zararda değil; kaynakta kâr verisi olmadığı için değerlendirilemedi ve sayfalarında 'kâr verisi eksik' yazar.",
+  "Beş yıllık oranlar: stockanalysis.com oran sayfaları. 47 adayın sayfası bulunamadı (Rolls-Royce, BAE Systems, United Utilities, JD Sports ve Jet2 dahil): kodu noktayla biten paylar ve AIM payları başka adreste duruyor. Adres kalıbı 13 Kasım 2026'da düzeltildi; bu şirketler veri gelene kadar 2. surda 'veri eksik' olarak durur.",
+  "İngiliz şirketlerinin çoğu yılda iki kez bilanço açıklar; mali yıl her şirkette takvim yılıyla bitmez. Grafikte şirketin kendi mali yılları yazar; enflasyon düzeltmesi aynı adı taşıyan takvim yılının oranıyla yapılır. Dolar ya da avroyla raporlayan şirketlerde de düzeltme Birleşik Krallık enflasyonuyla yapıldı.",
+  "Yıl sonu enflasyonu: Ulusal İstatistik Ofisi (ONS), tüketici fiyat endeksi (D7G7 serisi), aralık ayı yıllık oranları (2021-2025). Son yıllık oran: ONS, Eylül 2026 (%3,5); ekim oranı 18 Kasım 2026'da açıklanacak.",
+  "3. sur okuması sırayla yapılır: önce fiyatı kale olmaya yetenler. Okunmayan şirket 'sırada' görünür."
+ ],
+ "small_text": "Piyasa değeri 50 milyon sterlinin altında",
+ "small_rule": "Piyasa değeri 50 milyon sterlinin (yaklaşık 66 milyon ABD doları) altındaki şirketler dışarıda kalır.",
+ "en": {
+  "name": "United Kingdom",
+  "exchange": "London Stock Exchange (Main Market and AIM) and Aquis Stock Exchange",
+  "cur": "GBP",
+  "inflation_note": "UK companies do not apply inflation accounting. The return on equity of every company was therefore adjusted by year-end consumer inflation: 5.4% for 2021, 10.5% for 2022, 4.0% for 2023, 2.5% for 2024 and 3.4% for 2025. For the last 12 months the most recently published annual rate (September 2026, 3.5%) was used.",
+  "data_notes": [
+   "Price, market value, P/E and P/B: TradingView screener, 12 November 2026. Prices are in pence (GBX), market values in millions of pounds. The universe is 1,071 stocks: 1,034 on the London Stock Exchange (Main Market and AIM) and 37 on the Aquis Stock Exchange. Depositary receipts, stocks whose main listing is in another country and most closed-end funds are not in the universe; the 30 investment trusts that are in it stay outside at Wall 1.",
+   "For comparison: the London Stock Exchange's own current list could not be opened in this run. According to secondary sources there were 1,534 companies on the London Stock Exchange in May 2026, funds included (Fortune, citing exchange data). According to the Financial Conduct Authority (FCA), 512 commercial companies had shares listed on the Main Market in June 2026; AIM had 619 companies at the end of 2025. For non-fund companies the universe is about 11% below that total (about 1,130). Aquis has about 80 companies; 37 of them are in the universe.",
+   "Corrected with a third source (13 November 2026). IG Design Group: the source showed a P/E of 26.3; in the company's results for the year ended 31 March 2026 the result attributable to the parent is a loss of 112.3 million pounds (continuing operations a profit of 5.4 million, discontinued operations a loss of 117.7 million). The company was marked as loss-making. Softcat: the source's P/B (11.5) rested on the balance sheet of 31 January 2026; with the company's balance sheet of 31 July 2026 (equity 364.0 million pounds, 196.9 million shares; book value per share of 1.85 pounds on investing.com) it was corrected to 9.16.",
+   "For Goodwin the P/E (175.6) rests on profit from continuing operations only; the source, the second source and investing.com all use that basis. With the total earnings per share the company reported for the year ended 30 April 2026 (738.44 pence, including the mechanical engineering division held for sale) the P/E is about 19.8. The sale of the division has been agreed but is not yet complete.",
+   "For Rio Tinto the source's market value (109.6 billion pounds) covers the whole dual-listed group; the Rio Tinto plc shares traded in London alone are worth about 79.4 billion pounds (1,255 million shares, company notice as at 30 September 2026). P/E and P/B are calculated per share and are not affected. For HSBC, AstraZeneca, Shell and Rolls-Royce, price, market value, P/E and P/B agree with the second source within 4%.",
+   "For 82 companies where the source's P/B field is empty, P/B was calculated from the same source's latest balance-sheet fields (the latest reported balance sheet for 26 companies, the last annual balance sheet for 56); the company's page says which. Check: for Avon Technologies the source gives 5.00; with the company's balance sheet of 30 September 2026 the figure is about 4.8.",
+   "For 128 companies the data source gives no profit figure for the last 12 months. The largest are Airtel Mobile Commerce, Rosebank Industries, IG Group, Canal+, Princes Group and Applied Nutrition. These companies are not loss-making; they could not be assessed because the source has no profit data, and their pages say 'profit data missing'.",
+   "Five-year ratios: stockanalysis.com ratio pages. The pages of 47 candidates could not be found (including Rolls-Royce, BAE Systems, United Utilities, JD Sports and Jet2): stocks whose ticker ends in a dot and AIM stocks sit at a different address. The address pattern was corrected on 13 November 2026; until the data arrives these companies stay at Wall 2 as 'data missing'.",
+   "Most UK companies publish a balance sheet twice a year, and the fiscal year does not end with the calendar year for every company. The chart shows each company's own fiscal years; the inflation adjustment uses the rate of the calendar year with the same name. For companies that report in dollars or euros the adjustment was also made with UK inflation.",
+   "Year-end inflation: Office for National Statistics (ONS), consumer prices index (series D7G7), December annual rates (2021-2025). Latest annual rate: ONS, September 2026 (3.5%); the October rate is due on 18 November 2026.",
+   "The Wall 3 reading is done in order: companies priced low enough to be castles come first. A company that has not been read yet is shown as 'in the queue'."
+  ],
+  "small_text": "Market value below 50 million pounds",
+  "small_rule": "Companies with a market value below 50 million pounds (about 66 million US dollars) are left out."
+ },
+ "pcur": "GBX"
+}

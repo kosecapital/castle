@@ -1,0 +1,23 @@
+{
+ "138040": {
+  "unit": "million KRW",
+  "eps_cur": "KRW",
+  "ttm": {
+   "eps": 14100,
+   "net_profit": 2463300,
+   "tr": "Temmuz 2025 - Haziran 2026: 2025 yılı hisse başına kârı 12.903 won, eksi 2025'in ilk yarısı (yaklaşık 7.392 won), artı 2026'nın ilk yarısı 8.589 won. Net kâr konsolidedir (azınlık payı dahil): 668,4 + 323,3 + 680,2 + 791,4 milyar won. Üçüncü çeyreğin (Temmuz-Eylül 2026) hisse başına kârı henüz okunamadı.",
+   "en": "July 2025 - June 2026: 2025 EPS of 12,903 won, minus the first half of 2025 (about 7,392 won), plus the first half of 2026 at 8,589 won. Net profit is consolidated (including non-controlling interest): 668.4 + 323.3 + 680.2 + 791.4 billion won. Earnings per share for the third quarter (July-September 2026) could not be read yet.",
+   "url": "https://www.meritzgroup.com/commfiles/hld/attach/2026/20260814/202608140952118610015U.pdf",
+   "primary": true
+  },
+  "tax_rate": 25.7,
+  "gains": [],
+  "offsets": [],
+  "drop": {
+   "tr": "Hisse senedi yatırımlarından kazançlar (kâr-zarara yansıyan: 2026'nın 1. çeyreğinde yaklaşık 86 milyar, 2. çeyreğinde yaklaşık 250 milyar won, vergi öncesi) sigorta ve aracı kurumun olağan yatırım işinin parçası; tek seferlik sayılmadı. Çeyrekten çeyreğe çok oynuyor: üçüncü çeyrekte değer kaybı yazıldı.",
+   "en": "Gains on equity investments (through profit and loss: about 86 billion won in Q1 2026 and about 250 billion in Q2 2026, pre-tax) are part of the ordinary investment business of the insurer and the securities firm; they were not treated as one-off. They swing widely from quarter to quarter: the third quarter brought valuation losses."
+  },
+  "guidance": [],
+  "notes": "IMPORTANT: ttm here ends JUNE 2026 (same period as the dataset's P/E; price 112,600 / 8.0 = 14,075 vs my 14,100, a match). Q3 2026 was announced on 11 Nov 2026 but only net profit is known, from press reports: 490.5 billion consolidated (-26.6%). Four quarters to SEPTEMBER 2026 = 323.3 + 680.2 + 791.4 + 490.5 = 2,285.4 billion consolidated, 7.2% below the June figure; EPS to September is not published in anything I read (scaling 14,100 by 2,285.4/2,463.3 gives about 13,080: my arithmetic, ignores buybacks, NOT a company figure). The main session should decide whether to wait for the company's 3Q26 document. Arithmetic: FY2025 basic EPS 12,903 and consolidated net profit 2,350.1 billion (owners 2,300.4) from the company's 2025 status disclosure; 9M 2025 EPS 11,102 and net profit 2,026.8 billion, Q3 2025 668.4 billion from the 3Q25 transcript, so Q4 2025 = 323.3 billion and Q4 EPS = 1,801; 1H 2026 EPS 8,589 (+16.2% yoy), Q1 3,926, so Q2 4,663; net profit Q1 680.2, Q2 791.4 billion (1Q26, 2Q26 transcripts). 1H 2025 EPS is DERIVED from the +16.2% growth rate (8,589 / 1.162 = 7,392; rounding range 7,389-7,395); the 2Q25 transcript URL looped on a redirect and could not be read. Owners' net profit for 1H 2026 is 1,442.0 billion per press (Smarttoday 12 Aug 2026) vs 1,471.6 consolidated; I have no owners' figure for 1H 2025, so net_profit is the consolidated total. Tax rate computed from 2025: 811,416 / 3,161,551. One-off check: the company labels no item one-off in the 12 months. Items seen: equity gains (see drop; together about 336 billion pre-tax, roughly 250 billion after tax = about 10% of 12-month profit if one chose to treat them as one-off: a judgment call for the main session); Q4 2025 bond swap losses at Meritz Fire (amount not given; a charge); Q2 2026 net provisions 187.5 billion; Coupang warehouse fire net impact capped at 15 billion; Q3 2025 performance fee about 40 billion and Homeplus provision reversal 10.5 billion (each under 3%). No EPS guidance. Also note: BPS at June 2026 is 68,642 won (2Q26 transcript), so price / BPS = 1.64, while the dataset P/B is 1.786; the main session may want to check which path produced 1.786."
+ }
+}

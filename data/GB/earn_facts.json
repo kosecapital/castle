@@ -1,0 +1,131 @@
+{
+ "BGEO": {
+  "unit": "million GEL",
+  "eps_cur": "GEL",
+  "ttm": {
+   "eps": 57.0,
+   "net_profit": 2455.4,
+   "tr": "Ekim 2025 - Eylül 2026 (2025'in 4. çeyreği artı 2026'nın dokuz ayı): seyreltilmiş hisse başına kâr 13,62 + 43,38 = 57,00 lari; ana ortaklık kârı 589,7 + 1.865,7 = 2.455,4 milyon lari",
+   "en": "October 2025 - September 2026 (Q4 2025 plus nine months 2026): diluted EPS 13.62 + 43.38 = 57.00 lari; profit attributable to shareholders 589.7 + 1,865.7 = 2,455.4 million lari",
+   "url": "https://www.directorstalkinterviews.com/wp-content/uploads/2026/11/43420100-2e2c-4f33-a56d-e06ca2bc6ebd.pdf",
+   "primary": true
+  },
+  "tax_rate": 16.7,
+  "gains": [],
+  "offsets": [
+   {
+    "tr": "Hisse bazlı ödüllerin muhasebesindeki değişiklikten doğan tek seferlik gider (şirketin kendi 'tek seferlik kalem' tanımı)",
+    "en": "One-off expense from a revised accounting treatment of share-based awards (the company's own 'one-off item')",
+    "frac": 0.0121,
+    "how": null,
+    "period_tr": "Ekim-Aralık 2025 çeyreği",
+    "period_en": "October-December 2025 quarter",
+    "url": "https://www.ticker.app/lse/BGEO/rns/2026-02-25/4Q25-and-FY25-Preliminary-Results/2459U"
+   }
+  ],
+  "drop": null,
+  "guidance": [],
+  "notes": "TTM = 4Q25 (diluted EPS 13.62, basic 13.84; profit attributable 589.7) from the FY25 preliminary results RNS of 25 Feb 2026 (ticker.app full text) + 9M26 (diluted 43.38, basic 43.81; 1,865.7) from the 3Q26 release. Basic TTM EPS would be 57.65. Quarterly profit: 4Q25 589.7, 1Q26 585.0 (derived 1,865.7 - 618.8 - 661.9 = 585.0; matches secondary summaries), 2Q26 618.8, 3Q26 661.9. Company reports in GEL; dataset is in GBP/pence, so the script's source-vs-document check cannot run on like units (rough check: 2,455.4m GEL at about 3.49 GEL/GBP [AJ Bell conversion 941.7m GEL = 270.0m GBP] is about 704m GBP; dataset implies 5,855 / 8.61 = 680m GBP, within about 3.5%). ONE-OFFS: no one-off gain inside the last 12 months. The only company-labelled one-off in the window is a GEL 29.6m ESOP catch-up expense in 4Q25 (profit before one-offs 619.3 vs reported 589.7; the difference equals the full 29.6, so no tax effect was applied); frac = 29.6 / 2,455.4 = 0.0121. Not listed: GEL 5.8m goodwill impairment in 2Q26 (Other Businesses; 0.2% of TTM; not labelled one-off by the company). The big one-off gain (GEL 668.8m, mainly Ameriabank bargain purchase, 1Q24) is in FY2024 only - outside the TTM but inside the five-year history: FY24 reported profit 2,485.2 vs 1,813.0 before one-offs, so the source's 2024 ROE (41.3% nominal) and the FY25 EPS fall (basic 50.27 vs 56.91) are distorted by it; adjusted basic EPS FY25 50.96 vs FY24 41.46. Tax rate: 9M26 373.3 / 2,239.0 = 16.7%; FY25 417.2 / 2,580.5 = 16.2%. No absolute EPS guidance (medium-term targets only)."
+ },
+ "FOUR": {
+  "unit": "million USD",
+  "eps_cur": "USD",
+  "ttm": {
+   "eps": 3.61,
+   "net_profit": 101.6,
+   "tr": "29 Haziran 2025 - 27 Haziran 2026 (2025 yılı 403,3 sent − 2025 ilk yarı 196,9 + 2026 ilk yarı 154,7 = 361,1 sent; net kâr 113,6 − 55,5 + 43,5 = 101,6 milyon dolar)",
+   "en": "29 June 2025 - 27 June 2026 (full year 2025 403.3 cents − first half 2025 196.9 + first half 2026 154.7 = 361.1 cents; net profit 113.6 − 55.5 + 43.5 = 101.6 million dollars)",
+   "url": "https://investors.4imprint.com/media/av0ltear/4imprint-2026-interim-announcement-final-clean.pdf",
+   "primary": true
+  },
+  "tax_rate": 25.0,
+  "gains": [],
+  "offsets": [
+   {
+    "tr": "Vergi uygulamalarındaki belirsizlik için ayrılan tek seferlik gider (2026 ilk yarı; vergi sonrası 5,1 milyon dolar: faaliyet gideri 2,9 milyon, net finansman gideri 2,3 milyon, vergi geliri 0,1 milyon)",
+    "en": "One-off charge for uncertain tax treatments (first half of 2026; 5.1 million dollars after tax: 2.9 million in operating costs, 2.3 million net finance cost, 0.1 million tax credit)",
+    "frac": 0.0502,
+    "url": "https://investors.4imprint.com/media/av0ltear/4imprint-2026-interim-announcement-final-clean.pdf"
+   }
+  ],
+  "drop": null,
+  "guidance": [],
+  "notes": "EPS is diluted, in US dollars (3.611); basic TTM would be 404.4 - 197.4 + 155.1 = 362.1c. The company reports half-yearly: TTM = FY2025 - H1 2025 + H1 2026, all three columns read in the H1 2026 interim announcement (company PDF, primary). No non-controlling interest, so profit for the period = attributable to shareholders. NO ONE-OFF GAINS found in the 12 months: FY2025 and H1 2025 had no adjusting items; no disposal, property or pension gains (pension remeasurement nil). H1 2026 has a one-off CHARGE (adjusting items, uncertain historical income tax treatments, 5.1m after tax = 5.0% of TTM profit), listed as offset. Finance income on cash deposits (3.1m reported in H1 2026, 3.4m in H1 2025) is recurring. Tax rate 25% is the company's adjusted effective rate for H1 2026 (reported: 16.1/59.6 = 27%). Guidance left empty: the company guides adjusted PROFIT BEFORE TAX of about 130m for FY2026, not EPS (rule: non-EPS measure is not used). For information only, my arithmetic, not a company figure: 130m x (1 - 0.25) = 97.5m adjusted profit, about 4% below the 101.6m TTM reported profit. Cross-check with the dataset: 4,096p / 15.22 = 269p; 361.1c x 0.7555 (meta fx) = 273p, within 2%."
+ },
+ "MEGP": {
+  "unit": "million GBP",
+  "eps_cur": "GBX",
+  "ttm": {
+   "eps": 14.65,
+   "net_profit": 55.52,
+   "tr": "Mayıs 2025 - Nisan 2026: 2025 mali yılı (seyreltilmiş 14,91 peni; 56,572 milyon sterlin) eksi 2025'in ilk yarısı (6,74; 25,591) artı 2026'nın ilk yarısı (6,48; 24,539)",
+   "en": "May 2025 - April 2026: fiscal 2025 (diluted 14.91 pence; 56.572 million pounds) minus first half 2025 (6.74; 25.591) plus first half 2026 (6.48; 24.539)",
+   "url": "https://me-group.com/wp-content/uploads/2026/07/260713-ME-Group-2026-Interim-Results-RNS-FINAL.pdf",
+   "primary": true
+  },
+  "tax_rate": 25.0,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "EPS is in pence (price is in pence), net profit in million GBP. All three periods are printed in the company's interim results RNS of 13 Jul 2026 (H1 26, H1 25 and FY25 columns); FY25 figures also read in the annual results RNS of 23 Mar 2026. Basic TTM EPS would be 15.00 - 6.79 + 6.50 = 14.71p. Check against the source: 103p / 7.03 = 14.65p; 385.1m / 7.03 = 54.8m vs 55.52m (within 3%). No non-controlling interest: all profit is attributable to owners. Tax rate 25.0% is H1 2026 (8,183 / 32,722); FY2025 was 27.7% (provisions for French tax reassessments, amount not disclosed). ONE-OFFS BELOW THRESHOLD, not listed: net non-operating income was 550k in H1 2026 (of which a 541k fair-value gain on an FVTPL investment), about 0.7% of 12-month profit after 25% tax; FY2025 non-operating income was 2,211k in total, of which at least 1,595k (Grenoble building sale) fell in H1 2025, outside the 12 months, so at most about 0.6m sits in H2 2025; its composition is not disclosed. Together at most about 1.2m pre-tax, about 1.6% of profit. FY2025 also had a 1.2m loss on sale of PP&E. Guidance is profit before tax only (69-74m for FY2026), not EPS, so it is not entered; at a 25% tax rate it would imply roughly 51.8-55.5m after tax against 55.52m for the 12 months (my arithmetic, not a company figure)."
+ },
+ "SNWS": {
+  "unit": "million GBP",
+  "eps_cur": "GBX",
+  "ttm": {
+   "eps": 10.1,
+   "net_profit": 24.4,
+   "tr": "Eylül 2025 - Ağustos 2026 (29 Ağustos 2026'da biten 52 haftalık mali yıl; son rapor yıl sonu). İlk yarı 12,2 + ikinci yarı 12,2 = 24,4 milyon sterlin; hisse başına 5,0 + 5,1 = 10,1 peni",
+   "en": "September 2025 - August 2026 (52-week fiscal year ended 29 August 2026; latest report is the full year). First half 12.2 + second half 12.2 = 24.4 million pounds; per share 5.0 + 5.1 = 10.1 pence",
+   "url": "https://www.ticker.app/lse/SNWS/rns/2026-11-04/Preliminary-Results/6836B",
+   "primary": true
+  },
+  "tax_rate": 24.0,
+  "gains": [
+   {
+    "tr": "FIFA Dünya Kupası koleksiyon ürünlerinin düzeltilmiş faaliyet kârına katkısı: 3,5 milyon sterlin (vergi öncesi). Turnuva yıllarında yinelenir, her yıl olmaz",
+    "en": "Contribution of FIFA World Cup collectables to adjusted operating profit: 3.5 million pounds (pre-tax). It recurs in tournament years, not every year",
+    "frac": 0.109,
+    "how": "3.5 x (1 - 0.24) / 24.4; pre-tax amount from the company, converted at the company's 24.0% tax rate",
+    "period_tr": "Eylül 2025 - Ağustos 2026 mali yılı",
+    "period_en": "fiscal year September 2025 - August 2026",
+    "url": "https://www.ticker.app/lse/SNWS/rns/2026-11-04/Preliminary-Results/6836B",
+    "primary": true
+   }
+  ],
+  "offsets": [
+   {
+    "tr": "Düzeltme kalemleri (ağ yeniden yapılanması 2,3; teknoloji dönüşümü 1,1; program planlaması 0,7 milyon sterlin; vergi sonrası toplam 3,0 milyon sterlin)",
+    "en": "Adjusting items (network reorganisation 2.3; technology transformation 1.1; programme planning 0.7 million pounds; 3.0 million pounds in total after tax)",
+    "frac": 0.123,
+    "how": "3.0 / 24.4, after tax as stated by the company",
+    "period_tr": "Eylül 2025 - Ağustos 2026 mali yılı",
+    "period_en": "fiscal year September 2025 - August 2026",
+    "url": "https://www.ticker.app/lse/SNWS/rns/2026-11-04/Preliminary-Results/6836B",
+    "primary": true
+   }
+  ],
+  "drop": null,
+  "guidance": [],
+  "notes": "Read in the 4 Nov 2026 preliminary results RNS (ticker.app full text): statutory PAT attributable to ordinary shareholders 24.4m (FY2025 28.3m); basic EPS 10.1p, diluted 9.7p (11.7p / 11.3p); PBT 32.1m, tax 7.7m, effective rate 24.0%; weighted shares 242.6m basic. H1 (interim RNS 6 May 2026): PAT 12.2m, basic EPS 5.0p; H2 by subtraction 12.2m and 5.1p. EPS is in pence, so eps_cur is GBX to match the price unit; net profit in million GBP. Source check: price 68p / P/E 7.0 = 9.7p, close to diluted EPS 9.7p and 4% BELOW basic 10.1p, so the source is not above the document. NO one-off gain inside the 12 months: the 3.7m McColl's impairment reversal is in FY2025, outside. One-off costs of 3.0m after tax are listed as offsets. JUDGMENT CALL for the main session: the World Cup collectables contribution ('record ... of over £3m', 29 Sep 2026 trading update; it is not clear whether this is profit or margin) is event-driven; I put it in drop as ordinary recurring business. If treated as a gain it would be about 2.3m after tax = 9% of profit, more than offset netting aside. No EPS guidance: FY2027 profit will be lower per the company (7-9m transition costs) but no figure is given, so the rule cannot lower earnings; this is said in the first risk."
+ },
+ "TBCG": {
+  "unit": "million GEL",
+  "eps_cur": "GEL",
+  "ttm": {
+   "eps": 27.34,
+   "net_profit": 1522.9,
+   "tr": "Ekim 2025 - Eylül 2026 (2025'in 4. çeyreği 6,83 lari ve 380,4 milyon lari; artı 2026'nın dokuz ayı 20,51 lari ve 1.142,5 milyon lari). Seyreltilmiş hisse başına kâr, ana ortaklık kârı.",
+   "en": "October 2025 - September 2026 (Q4 2025: 6.83 lari and 380.4 million lari; plus nine months 2026: 20.51 lari and 1,142.5 million lari). Diluted EPS, profit attributable to shareholders.",
+   "url": "https://pdf.dfcfw.com/pdf/H22_AN202611060006874162_1.pdf",
+   "primary": true
+  },
+  "tax_rate": 15.1,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "TTM = Q4 2025 (diluted EPS 6.83, attributable profit 380.407m; FY2025 results RNS of 20 Feb 2026 via ticker.app full text) + 9M 2026 (20.51; 1,142.5m; 3Q/9M 2026 results RNS of 6 Nov 2026). Basic EPS TTM = 6.91 + 20.78 = 27.69. Units are GEL, the source's P/E is on a GBP price, so the script's source-vs-document check cannot run on same units; rough cross-check by me: market cap 3,040m GBP / 7.12 = 427m GBP; 1,522.9m GEL / 427m = 3.57 GEL per GBP, a plausible rate (GEL/GBP not given in the document, so unverified). Tax rate 15.1% = FY2025 income tax 252.9 / pre-tax 1,673.2; 9M 2026 was 12.4% (164.1 / 1,319.2), and Uzbekistan booked a GEL 2.0m tax credit in 3Q 2026. One-off items: the 3Q 2026 report identifies none for 2026; the only labelled non-recurring items are charges in earlier periods (GEL 24.6m pre-tax Uzbekistan impairment in 9M 2025, outside the TTM window as far as the documents show; GEL 9.8m asset write-down in 4Q 2024). Net FX/derivative gains (GEL 93.4m in 3Q 2026) are ordinary recurring bank income, not labelled unusual. No absolute EPS guidance (targets are ROE 23%+, loan growth 15%+, payout 25-45%)."
+ }
+}

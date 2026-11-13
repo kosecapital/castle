@@ -1,0 +1,645 @@
+{
+ "ALTN": {
+  "scores": {
+   "A": 2,
+   "B": 0,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "yok",
+  "per": "2026-H1",
+  "one": "Kazakistan'da tek madenden altın çıkaran şirket. Kalite surlarını geçti; kârı altın fiyatı belirlediği için hendek surunda elendi.",
+  "business": "AltynGold, Kazakistan'ın doğusundaki Sekisovskoye yeraltı madeninden altın çıkarır ve satar. Geliri satılan ons ile altın fiyatının çarpımıdır. 2026'nın ilk yarısında 24.628 ons altın sattı; ortalama satış fiyatı ons başına 4.615 dolar, hasılat 115,2 milyon dolar oldu. Şirket dolarla raporlar; hisseleri Londra'da işlem görür.",
+  "moat_text": "Hendek yok. Altın bir emtiadır; şirket fiyatı kendisi belirleyemez. İlk yarıda hasılat %64,6 arttı, ama satılan ons yalnız %9,0 arttı; artışın kalanı altın fiyatındaki %50,3'lük yükselişten geldi. Reel özsermaye kârlılığı da fiyatı izliyor: 2022'de %10,9, 2023'te %12,6, 2025'te %48,4. Maliyet üstünlüğü de kanıtlı değil: toplam sürdürme maliyeti ons başına 1.299 dolardan 1.995 dolara çıktı. Şirket tek madene bağlı; madenin lisansı 2029'a kadar. B puanı 0 olduğu için şirket bu surda elendi.",
+  "mgmt": "Şirketi Assaubayev ailesi yönetir: başkan, genel müdür ve bir icra kurulu üyesi aileden. Bir veri sitesine göre hisselerin %65,6'sı ailenin şirketi AGold Mining Group'ta; şirketin kendi belgesinden doğrulayamadık. Temettü ödenmiyor, geri alım yok; yönetim kurulu bir temettü politikasını inceliyor. Kâr madene ve borca gidiyor: ilk yarıda 26,1 milyon dolar yatırım yapıldı, borç 41,2 milyon dolardan 31,4 milyon dolara indi. 2026-2028 için 95 milyon dolarlık yatırım planı var. Aileye bağlı şirketlerle işlemler var; Altyn Group Qazaqstan'dan 2,8 milyon dolar alacak duruyor.",
+  "latest": "29 Eylül 2026: Ocak-Haziran 2026 hasılatı 115,2 milyon dolar (geçen yıl 70,0 milyon; +%64,6). Net kâr 42,7 milyon dolar (27,0 milyon; +%58,4), hisse başına kâr 156,38 sent (98,71 sent). Satış maliyeti 29,8 milyon dolardan 55,3 milyon dolara çıktı; toplam sürdürme maliyeti ons başına 1.995 dolar (1.299 dolar). Net borç 19,3 milyon dolar. Şirket 2026 için 52-55 bin onsluk üretim hedefini korudu. 25 Ağustos 2026'da Teren-Sai sahasının sözleşmesinin uzatılması onaylandı.",
+  "risks": [
+   "Kâr altın fiyatına bağlı: ilk yarıdaki ortalama satış fiyatı ons başına 4.615 dolardı, 2025'te 3.474 dolar. Fiyat düşerse kâr hızla düşer; satılan ons yılda yalnız %9 arttı.",
+   "Tek maden, tek ülke: bütün üretim Sekisovskoye'den gelir ve madenin lisansı 2029'a kadar. Uzatma Kazakistan devletinin kararına bağlı.",
+   "Maliyet hızla artıyor: toplam sürdürme maliyeti bir yılda ons başına 1.299 dolardan 1.995 dolara çıktı. Şirket artışın yarısından fazlasını altının değeriyle artan maden çıkarma vergisine bağlıyor.",
+   "Şirket Kazakistan'da çalışır ve dolarla raporlar; sayfadaki enflasyon düzeltmesi Birleşik Krallık enflasyonuyla yapıldı. Aile şirketi çoğunluğa sahip, halka açık pay küçük ve temettü yok."
+  ],
+  "watch": [
+   "Altın fiyatı ve ons başına toplam sürdürme maliyeti",
+   "Sekisovskoye lisansının 2029 sonrasına uzatılması ve Teren-Sai üretim lisansı",
+   "2026 üretimi 52-55 bin ons hedefinde kalıyor mu",
+   "Temettü politikası kararı ve ilişkili taraf alacakları"
+  ],
+  "sources": [
+   {
+    "t": "AltynGold: yarıyıl finansal raporu, Business Wire metni (29 Eyl 2026)",
+    "te": "AltynGold: half-year financial report, Business Wire text (29 Sep 2026)",
+    "u": "https://finance.yahoo.com/markets/commodities/articles/half-financial-report-060000328.html"
+   },
+   {
+    "t": "AltynGold: 2025 yıllık finansal raporu, Business Wire (29 Nis 2026)",
+    "te": "AltynGold: 2025 annual financial report, Business Wire (29 Apr 2026)",
+    "u": "https://www.businesswire.com/news/home/20260428720102/en/"
+   },
+   {
+    "t": "AltynGold: 2026 birinci çeyrek üretim sonuçları, Business Wire (21 May 2026)",
+    "te": "AltynGold: first-quarter 2026 production results, Business Wire (21 May 2026)",
+    "u": "https://www.businesswire.com/news/home/20260521920058/en/"
+   },
+   {
+    "t": "Freedom Broker: AltynGold 2025 sonuçları (4 May 2026)",
+    "te": "Freedom Broker: AltynGold results of 2025 (4 May 2026)",
+    "u": "https://fbroker.kz/en/analytics/analytics-article/altyngold-plc-itogi-2025-goda-ru-2"
+   },
+   {
+    "t": "Simply Wall St: AltynGold ortaklık yapısı (Eylül 2026)",
+    "te": "Simply Wall St: AltynGold ownership (September 2026)",
+    "u": "https://simplywall.st/stocks/gb/materials/lse-altn/altyngold-shares/ownership"
+   },
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/lon/ALTN/financials/ratios/"
+   }
+  ],
+  "en": {
+   "one": "A gold miner with a single mine in Kazakhstan. It passed the quality walls; it was eliminated at the moat wall because the gold price sets its profit.",
+   "business": "AltynGold mines and sells gold from the Sekisovskoye underground mine in eastern Kazakhstan. Its revenue is ounces sold times the gold price. In the first half of 2026 it sold 24,628 ounces at an average price of 4,615 dollars an ounce, for revenue of 115.2 million dollars. The company reports in dollars; its shares trade in London.",
+   "moat_text": "There is no moat. Gold is a commodity; the company cannot set its own price. First-half revenue rose 64.6%, but ounces sold rose only 9.0%; the rest came from a 50.3% rise in the gold price. Real return on equity follows the price too: 10.9% in 2022, 12.6% in 2023, 48.4% in 2025. A cost advantage is not proven either: all-in sustaining cost rose from 1,299 to 1,995 dollars an ounce. The company depends on one mine, whose licence runs to 2029. With a B score of 0 the company was eliminated at this wall.",
+   "mgmt": "The Assaubayev family runs the company: the chairman, the chief executive and one executive director are family members. According to a data site, 65.6% of the shares are held by the family's company AGold Mining Group; we could not confirm this from the company's own document. No dividend is paid and there are no buybacks; the board is reviewing a dividend policy. Profit goes into the mine and to debt: 26.1 million dollars was invested in the first half, and borrowings fell from 41.2 million to 31.4 million dollars. An investment plan of 95 million dollars covers 2026-2028. There are dealings with family-related companies; 2.8 million dollars is still owed by Altyn Group Qazaqstan.",
+   "latest": "29 September 2026: Revenue for January-June 2026 was 115.2 million dollars (70.0 million a year earlier; +64.6%). Net profit was 42.7 million dollars (27.0 million; +58.4%) and earnings per share 156.38 cents (98.71 cents). Cost of sales rose from 29.8 million to 55.3 million dollars; all-in sustaining cost was 1,995 dollars an ounce (1,299 dollars). Net debt was 19.3 million dollars. The company kept its 2026 production target of 52-55 thousand ounces. On 25 August 2026 the extension of the contract for the Teren-Sai site was approved.",
+   "risks": [
+    "Profit depends on the gold price: the average selling price in the first half was 4,615 dollars an ounce, against 3,474 dollars in 2025. If the price falls, profit falls fast; ounces sold rose only 9% in a year.",
+    "One mine, one country: all production comes from Sekisovskoye, and the mine's licence runs to 2029. An extension depends on a decision by the state of Kazakhstan.",
+    "Costs are rising fast: all-in sustaining cost went from 1,299 to 1,995 dollars an ounce in a year. The company puts more than half of the increase down to the mineral extraction tax, which rises with the value of gold.",
+    "The company operates in Kazakhstan and reports in dollars; the inflation adjustment on the page was made with United Kingdom inflation. A family company holds the majority, the free float is small and there is no dividend."
+   ],
+   "watch": [
+    "The gold price and all-in sustaining cost per ounce",
+    "Extension of the Sekisovskoye licence beyond 2029 and the Teren-Sai production licence",
+    "Whether 2026 production stays within the 52-55 thousand ounce target",
+    "The dividend policy decision and related-party receivables"
+   ]
+  }
+ },
+ "BGEO": {
+  "scores": {
+   "A": 1,
+   "B": 2,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "2026-Q3",
+  "one": "Gürcistan ve Ermenistan'ın en büyük kredi veren bankalarının sahibi. Kalite surlarını geçti; marj, kârın ve yılda %15,4 reel büyümenin süreceği varsayımına dayanıyor.",
+  "business": "Lion Finance Group (eski adıyla Bank of Georgia Group), Gürcistan'da Bank of Georgia'nın, Ermenistan'da Ameriabank'ın sahibidir. Parayı kredi faizi ile mevduat faizi arasındaki farktan ve ödeme, kart komisyonlarından kazanır. 30 Eylül 2026'da 46,5 milyar lari kredisi ve 44,9 milyar lari mevduatı vardı. 2026'nın ilk dokuz ayında kârın 1.419 milyon larisi Gürcistan'dan, 434 milyon larisi Ermenistan'dan geldi. Şirket Londra'da işlem görür ama hesaplarını lari ile tutar.",
+  "moat_text": "Hendek dar. Üstünlük ölçekten ve müşterinin günlük bankası olmaktan geliyor. Şirketin yatırımcı sunumunun özetine göre Bank of Georgia, Mart 2026'da Gürcistan'da kredilerin %38'iyle birinciydi; ülkenin iki büyük bankası sektör varlıklarının %76,6'sını tutuyor (2025'in ilk sekiz ayı). Ameriabank Ermenistan'da kredilerin %23,0'üyle birinci. Bank of Georgia'nın üye işyeri ödeme hacmindeki payı %56,8; aylık 2,35 milyon etkin bireysel müşterisi var. Bu, rakamlarda görünüyor: net faiz marjı %6,5, gider/gelir oranı %32,1, reel özsermaye kârlılığı beş yılın ortalamasında %26, en düşük yılında %19. 2024'ün %38'lik okuması Ameriabank alımından doğan tek seferlik kazançla şişmiştir. Zayıf yanı: üstünlük iki küçük ülkeyle sınırlı ve o ülkelerin merkez bankası kurallarına, siyasetine, kuruna bağlı. Bu yüzden geniş değil, dar.",
+  "mgmt": "Şirketi profesyonel yönetim yürütüyor. Bilinen en büyük ortak Georgia Capital'dir: Ağustos 2025 bildirimine göre oyların %18,12'si; daha yeni bir bildirim okunamadı. Kâr üçe bölünüyor: büyüyen kredilere sermaye, çeyreklik temettü ve geri alınıp iptal edilen hisseler. 2025'te hisse başına 10,50 lari temettü ve 203 milyon larilik geri alımla dağıtım oranı %30 oldu; hedef %30-50. 2026'da çeyreklik temettü 2,85, 3,05 ve 3,25 lariye çıktı; dört ayrı geri alım programı açıklandı (53,5, 55, 59 ve 62 milyon lari). Ameriabank 2024'te yaklaşık 303,6 milyon dolara alındı ve bugün kârın dörtte birine yakınını getiriyor. Şirketin merkezi Tiflis'te, tescili Londra'da.",
+  "latest": "3 Kasım 2026: Şirket üçüncü çeyrekte 661,9 milyon lari kâr açıkladı (geçen yıl 547,2 milyon; +%21,0). Seyreltilmiş hisse başına kâr 15,42 lari (geçen yıl 12,58). Dokuz aylık kâr 1.865,7 milyon lari (geçen yıl ana ortaklık payı 1.571,6 milyon), hisse başına 43,38 lari (geçen yıl 35,99). Krediler sabit kurla yılda %24,6 büyüdü: Gürcistan %18,6, Ermenistan %38,1. Özsermaye kârlılığı (şirketin açıkladığı) %27,2, risk maliyeti %0,7, sorunlu kredi oranı %2,0. Ana ortaklığa ait özsermaye 9.910,5 milyon lari. Çeyrek temettüsü hisse başına 3,25 lari; geri alım programı 62 milyon lari uzatıldı. Sonuç metninde kârı şişiren tek seferlik bir kazanç yok.",
+  "risks": [
+   "Hesap yılda %15,4 reel büyüme varsayıyor. Marj büyüme varsayımına ve bugünkü kârın sürmesine dayanıyor. Şirketin kendi orta vade hedefi yılda yaklaşık %15 kredi büyümesi ve en az %20 özsermaye kârlılığı; bugünkü rakamlar (%24,6 ve %27,2) bunların üstünde. Büyüme ve kârlılık hedefe doğru inerse marj daralır.",
+   "Şirket Birleşik Krallık'ta değil, Gürcistan ve Ermenistan'da çalışıyor ve lari ile raporluyor. Enflasyon düzeltmesi Birleşik Krallık enflasyonuyla yapıldı; lari ya da dram değer kaybederse sterlin cinsinden kâr düşer.",
+   "Siyaset ve bölge riski: şirket, Ekim 2024 seçimlerinden sonraki siyasi gerginliği ve Rusya'ya yakınlıktan doğan yaptırım riskini kendi risk listesinde sayıyor.",
+   "Kredilerin ve mevduatın yaklaşık %40'ı yabancı para. Kur sert oynarsa borçlunun ödeme gücü bozulur; risk maliyeti bugün çok düşük (%0,7) ve buradan yükselebilir.",
+   "Merkez bankası kararları kârı doğrudan etkiler: Gürcistan Temmuz 2026'da yabancı para zorunlu karşılıklara faiz ödemeyi kesti; Ermenistan 2027'de sermaye tamponunu %2,25'e çıkarıyor. Ameriabank'ın çekirdek sermaye oranı %14,0, alt sınır %12,0."
+  ],
+  "watch": [
+   "Özsermaye kârlılığı %20 hedefinin üzerinde kalıyor mu",
+   "Risk maliyeti ve sorunlu kredi oranı (%0,7 ve %2,0)",
+   "Kredi büyümesi, özellikle Ermenistan'da (%38,1)",
+   "Lari ve dram kuru; Gürcistan'da siyaset ve yaptırım haberleri"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/lon/BGEO/financials/ratios/"
+   },
+   {
+    "t": "Lion Finance Group: 3Ç26 ve 9A26 sonuç açıklaması, tam metin (3 Kas 2026)",
+    "te": "Lion Finance Group: 3Q26 and 9M26 results announcement, full text (3 Nov 2026)",
+    "u": "https://www.directorstalkinterviews.com/wp-content/uploads/2026/11/43420100-2e2c-4f33-a56d-e06ca2bc6ebd.pdf"
+   },
+   {
+    "t": "RNS: Lion Finance Group 4Ç25 ve 2025 ön sonuçları (25 Şub 2026)",
+    "te": "RNS: Lion Finance Group 4Q25 and FY25 preliminary results (25 Feb 2026)",
+    "u": "https://www.ticker.app/lse/BGEO/rns/2026-02-25/4Q25-and-FY25-Preliminary-Results/2459U"
+   },
+   {
+    "t": "RNS: Lion Finance Group 2025 yarıyıl raporu, başlıca riskler (20 Ağu 2025)",
+    "te": "RNS: Lion Finance Group half-year report 2025, principal risks (20 Aug 2025)",
+    "u": "https://www.ticker.app/lse/BGEO/rns/2025-08-20/Half-year-Report/9798V"
+   },
+   {
+    "t": "RNS: Georgia Capital'in pay bildirimi, %18,12 (6 Ağu 2025)",
+    "te": "RNS: Georgia Capital holding notification, 18.12% (6 Aug 2025)",
+    "u": "https://www.lse.co.uk/rns/BGEO/holdings-in-company-ojq5eob1bnx2fbh.html"
+   },
+   {
+    "t": "AJ Bell / Alliance News: Lion Finance üçüncü çeyrek temettüsünü artırdı, geri alımı uzattı (4 Kas 2026)",
+    "te": "AJ Bell / Alliance News: Lion Finance ups third quarter dividend, extends buyback programme (4 Nov 2026)",
+    "u": "https://www.ajbell.co.uk/news/articles/lion-finance-ups-third-quarter-dividend-extends-buyback-programme"
+   },
+   {
+    "t": "Quartr: Lion Finance Group yatırımcı sunumu özeti, pazar payları (7 May 2026)",
+    "te": "Quartr: Lion Finance Group investor presentation summary, market shares (7 May 2026)",
+    "u": "https://quartr.com/events/lion-finance-group-plc-bgeo-investor-presentation_oSWQdx3c"
+   },
+   {
+    "t": "BM.GE: En büyük iki bankanın payı biraz azaldı, Bankalar Birliği (29 Eyl 2025)",
+    "te": "BM.GE: Concentration of the two largest banks has slightly decreased, Banking Association (29 Sep 2025)",
+    "u": "https://bm.ge/en/news/concentration-of-the-two-largest-banks-has-slightly-decreased-banking-association"
+   }
+  ],
+  "en": {
+   "one": "Owner of the largest lenders in Georgia and Armenia. Passed the quality walls; the margin rests on profit holding up and assumed real growth of 15.4% a year.",
+   "business": "Lion Finance Group (formerly Bank of Georgia Group) owns Bank of Georgia in Georgia and Ameriabank in Armenia. It earns the spread between loan interest and deposit interest, plus payment and card fees. At 30 September 2026 it had 46.5 billion lari of loans and 44.9 billion lari of deposits. In the first nine months of 2026, 1,419 million lari of profit came from Georgia and 434 million lari from Armenia. The company is listed in London but keeps its accounts in lari.",
+   "moat_text": "The moat is narrow. The advantage comes from scale and from being the customer's everyday bank. According to a summary of the company's investor presentation, Bank of Georgia was first in Georgia with 38% of loans in March 2026; the country's two large banks hold 76.6% of sector assets (first eight months of 2025). Ameriabank is first in Armenia with 23.0% of loans. Bank of Georgia's share of merchant acquiring volume is 56.8%; it has 2.35 million monthly active retail customers. This shows in the numbers: net interest margin 6.5%, cost-to-income ratio 32.1%, real return on equity averaging 26% over five years and 19% in its lowest year. The 38% reading for 2024 is inflated by a one-off gain from the Ameriabank purchase. The weak point: the advantage is confined to two small countries and depends on their central bank rules, politics and currencies. That is why it is narrow, not wide.",
+   "mgmt": "The company is run by professional management. The largest known shareholder is Georgia Capital: 18.12% of the votes according to an August 2025 notification; no newer notification could be read. Profit is split three ways: capital for the growing loan book, a quarterly dividend, and shares bought back and cancelled. In 2025 a dividend of 10.50 lari a share and 203 million lari of buybacks gave a payout ratio of 30%; the target is 30-50%. In 2026 the quarterly dividend rose to 2.85, 3.05 and 3.25 lari; four separate buyback programmes were announced (53.5, 55, 59 and 62 million lari). Ameriabank was bought in 2024 for about 303.6 million dollars and now brings in close to a quarter of profit. The head office is in Tbilisi and the company is registered in London.",
+   "latest": "3 November 2026: The company reported third-quarter profit of 661.9 million lari (547.2 million a year earlier; +21.0%). Diluted earnings per share were 15.42 lari (12.58 a year earlier). Nine-month profit was 1,865.7 million lari (1,571.6 million attributable to shareholders a year earlier), or 43.38 lari a share (35.99 a year earlier). Loans grew 24.6% year on year in constant currency: Georgia 18.6%, Armenia 38.1%. Return on equity (as reported by the company) was 27.2%, cost of risk 0.7%, the non-performing loan ratio 2.0%. Equity attributable to shareholders was 9,910.5 million lari. The quarterly dividend is 3.25 lari a share; the buyback programme was extended by 62 million lari. The results text shows no one-off gain inflating profit.",
+   "risks": [
+    "The calculation assumes real growth of 15.4% a year. The margin rests on the growth assumption and on today's profit holding up. The company's own medium-term targets are loan growth of about 15% a year and return on equity of at least 20%; today's figures (24.6% and 27.2%) are above them. If growth and profitability come down towards the targets, the margin narrows.",
+    "The company operates in Georgia and Armenia, not in the UK, and reports in lari. The inflation adjustment was made with UK inflation; if the lari or the dram loses value, profit in sterling falls.",
+    "Political and regional risk: the company lists the political tension after the October 2024 elections and the sanctions risk from proximity to Russia among its own risks.",
+    "About 40% of loans and deposits are in foreign currency. A sharp currency move weakens borrowers' ability to pay; cost of risk is very low today (0.7%) and can rise from here.",
+    "Central bank decisions affect profit directly: Georgia stopped paying interest on foreign-currency mandatory reserves in July 2026; Armenia is raising its capital buffer to 2.25% in 2027. Ameriabank's core capital ratio is 14.0% against a minimum of 12.0%."
+   ],
+   "watch": [
+    "Whether return on equity stays above the 20% target",
+    "Cost of risk and the non-performing loan ratio (0.7% and 2.0%)",
+    "Loan growth, especially in Armenia (38.1%)",
+    "The lari and dram exchange rates; political and sanctions news in Georgia"
+   ]
+  },
+  "earn": {
+   "k": 1.0,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Aynı dönemin tek seferlik giderleri: Hisse bazlı ödüllerin muhasebesindeki değişiklikten doğan tek seferlik gider (şirketin kendi 'tek seferlik kalem' tanımı): %1,2. Giderler kazançlardan büyük; kazanç indirilmedi (yargı kazancı yükseltmez).",
+    "en": "The calculation rests on the profit of the last 12 months. One-off charges in the same period: One-off expense from a revised accounting treatment of share-based awards (the company's own 'one-off item'): 1.2%. The charges exceed the gains; earnings were not lowered (the judgment never raises earnings)."
+   },
+   "per": "2026-Q3"
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %15,4 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 %20,5; Temmuz-Eylül 2026 çeyreği %22,6. En düşüğü, enflasyondan arındırılınca, %16,4. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 15.4% a year. Latest figures (earnings per share, year on year): January-September 2026 20.5%; July-September 2026 quarter 22.6%. The lowest, after inflation, is 16.4%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q3"
+  }
+ },
+ "FOUR": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 2,
+   "E": 2
+  },
+  "moat": "dar",
+  "per": "2026-H1",
+  "one": "Kuzey Amerika'nın en büyük promosyon ürünleri satıcısı. Kalite surlarını geçti; ama kâr 2026'da düşüyor ve şirketin beklentisi geçen yılın altında.",
+  "business": "4imprint, işletmelere ve kurumlara logo baskılı promosyon ürünleri satar: kalem, çanta, tişört, bardak. Müşteriyi katalog, internet ve televizyon reklamıyla bulur; siparişi tedarikçi basar ve doğrudan müşteriye yollar, şirket stok tutmaz. 2025'te hasılat 1.346,8 milyon dolar, sipariş sayısı 2,06 milyon. 2026'nın ilk yarısında hasılatın %98'i Kuzey Amerika'dan geldi. Şirket Londra'da işlem görür ama dolar ile raporlar.",
+  "moat_text": "Hendek dar. Üstünlük ölçekten, tanınan markadan ve az sermaye isteyen iş modelinden geliyor. Şirket, kendi tahminine göre 27,7 milyar dolarlık dağınık ABD ve Kanada pazarının en büyük satıcısı; payı yaklaşık %5 (bizim hesabımız). Reel özsermaye kârlılığı beş yılın ortalamasında %57, en düşük yılında %24. Şirketin açıkladığı ortalama kullanılan sermaye getirisi 2025'te %87. Siparişlerin yaklaşık %80'i eski müşterilerden geliyor; pazarlamaya harcanan her dolar 7,86 dolar hasılat getirdi. Zayıf yanı: ürün sıradan, rakibe geçmek kolay. Müşterilerin 24 ay içinde yeniden sipariş verme oranı %45. Yeni müşteri siparişi 2025'te %12 düştü. Gümrük vergileri brüt marjı 2026'nın ilk yarısında %32,8'den %31,5'e indirdi; fiyat artışı bunu tam karşılamadı.",
+  "mgmt": "Şirketin hâkim ortağı yok; en büyük ortak BlackRock (%7,13, Şubat 2026). Borç yok; 27 Haziran 2026'da nakit 136,9 milyon dolar. Kâr önce işe, sonra temettüye gidiyor: 2025'te hisse başına 240 sent olağan temettü ve 250 sent özel temettü ödendi (toplam 142,8 milyon dolar). Şirket satın alma yapmıyor; fazla nakdi özel temettüyle dağıtıyor. Geri alım yok denecek kadar az: çalışan payları için 2025'te 5,4 milyon dolarlık hisse alındı. Mali yıl aralık sonundaki cumartesi biter; şirket yılda iki kez bilanço, arada faaliyet güncellemesi açıklar.",
+  "latest": "10 Kasım 2026: Şirket ilk on ayın faaliyet güncellemesini açıkladı. Hasılat geçen yılın %2 üstünde, sipariş sayısı %1 altında, ortalama sipariş tutarı %3 yüksek. Yeni müşteri siparişi %5 düştü (ilk çeyrek −%9, ikinci −%5, üçüncü −%3). Faaliyet marjı %9'un biraz üstünde. Ekim sonunda nakit 152 milyon dolar. 2026 beklentisi korundu: hasılat 2025'in (1,35 milyar dolar) biraz üstünde, düzeltilmiş vergi öncesi kâr yaklaşık 130 milyon dolar (2025: 150,8 milyon). 5 Ağustos 2026'da açıklanan ilk yarı sonuçları: hasılat 666,4 milyon dolar (+%1), net kâr 43,5 milyon dolar (geçen yıl 55,5 milyon), hisse başına kâr 155,1 sent (197,4). Kârın içinde, vergi uygulamalarındaki belirsizlik için ayrılan 5,1 milyon dolarlık tek seferlik gider var.",
+  "risks": [
+   "Kâr düşüyor: 2026'nın ilk yarısında hisse başına kâr %21 geriledi (tek seferlik gider hariç %12). Şirketin 2026 düzeltilmiş vergi öncesi kâr beklentisi yaklaşık 130 milyon dolar; 2025'te 150,8 milyon dolardı. Fiyat hesabı geçmiş büyümeye dayanırsa güvenlik marjı olduğundan yüksek görünür.",
+   "Gümrük vergileri tedarikçi maliyetini artırıyor. Brüt marj ilk yarıda %32,8'den %31,5'e indi; vergi politikası yeniden değişirse marj daha da daralabilir.",
+   "Yeni müşteri kazanımı zayıf: yeni müşteri siparişi 2025'te %12, 2026'nın ilk on ayında %5 düştü. Büyüme pazarlamanın verimine bağlı.",
+   "Promosyon ürünü işletmelerin pazarlama bütçesinden alınır; ekonomi yavaşlayınca ilk kısılan harcamalardandır. 2021'de reel özsermaye kârlılığı %24'e inmişti.",
+   "Şirket neredeyse tümüyle ABD'de çalışır ve dolarla raporlar; buradaki enflasyon düzeltmesi Birleşik Krallık enflasyonuyla yapıldı. Hisse sterlinle işlem gördüğü için kur da fiyatı etkiler."
+  ],
+  "watch": [
+   "2026 düzeltilmiş vergi öncesi kârı beklentiyi (yaklaşık 130 milyon dolar) tutuyor mu",
+   "Yeni müşteri siparişlerindeki değişim",
+   "Brüt marj ve faaliyet marjı (ilk yarıda %31,5 ve %9,4)",
+   "Pazarlamaya harcanan her doların getirdiği hasılat (ilk yarıda 7,75 dolar)"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/lon/FOUR/financials/ratios/"
+   },
+   {
+    "t": "4imprint: 27 Haziran 2026'da biten 26 haftanın ara dönem sonuçları (5 Ağu 2026)",
+    "te": "4imprint: half-year results for the 26 weeks ended 27 June 2026 (5 Aug 2026)",
+    "u": "https://investors.4imprint.com/media/av0ltear/4imprint-2026-interim-announcement-final-clean.pdf"
+   },
+   {
+    "t": "4imprint: 27 Aralık 2025'te biten yılın sonuç açıklaması (11 Mar 2026)",
+    "te": "4imprint: final results for the period ended 27 December 2025 (11 Mar 2026)",
+    "u": "https://investors.4imprint.com/media/v4okh2w0/results-announcement-fy-2025-final.pdf"
+   },
+   {
+    "t": "4imprint: 2025 faaliyet raporu",
+    "te": "4imprint: Annual Report 2025",
+    "u": "https://investors.4imprint.com/media/4pxdv4c3/4imprint_ar25_web.pdf"
+   },
+   {
+    "t": "RTTNews: 4imprint 2026 beklentisini yineledi (10 Kas 2026)",
+    "te": "RTTNews: 4imprint reaffirms FY26 guidance after resilient trading (10 Nov 2026)",
+    "u": "https://www.rttnews.com/3712422/4imprint-reaffirms-fy26-guidance-after-resilient-trading.aspx"
+   },
+   {
+    "t": "AJ Bell: 4imprint beklentisini korudu, yeni müşteri siparişlerindeki düşüş yavaşladı (10 Kas 2026)",
+    "te": "AJ Bell: 4imprint sticks with guidance as new customer order trend improves (10 Nov 2026)",
+    "u": "https://www.ajbell.co.uk/news/articles/4imprint-sticks-guidance-new-customer-order-trend-improves"
+   }
+  ],
+  "en": {
+   "one": "North America's largest seller of promotional products. It passed the quality walls, but profit is falling in 2026 and company guidance is below last year.",
+   "business": "4imprint sells promotional products printed with a logo to businesses and organisations: pens, bags, T-shirts, mugs. It finds customers through catalogues, the internet and television advertising; the supplier prints the order and ships it straight to the customer, so the company holds no stock. In 2025 revenue was 1,346.8 million dollars on 2.06 million orders. In the first half of 2026, 98% of revenue came from North America. The company is listed in London but reports in dollars.",
+   "moat_text": "The moat is narrow. The advantage comes from scale, a well-known brand and a business model that needs little capital. By its own estimate the company is the largest seller in a fragmented US and Canadian market of 27.7 billion dollars; its share is about 5% (our calculation). Real return on equity averaged 57% over five years and was 24% in its lowest year. The return on average capital employed reported by the company was 87% in 2025. About 80% of orders come from existing customers; each dollar spent on marketing brought in 7.86 dollars of revenue. The weak point: the product is ordinary and switching to a competitor is easy. The share of customers who reorder within 24 months is 45%. Orders from new customers fell 12% in 2025. Tariffs cut the gross margin from 32.8% to 31.5% in the first half of 2026; price increases did not fully make up for it.",
+   "mgmt": "The company has no controlling shareholder; the largest holder is BlackRock (7.13%, February 2026). There is no debt; cash was 136.9 million dollars at 27 June 2026. Profit goes first to the business, then to dividends: in 2025 it paid a regular dividend of 240 cents per share and a special dividend of 250 cents (142.8 million dollars in total). The company makes no acquisitions; it hands out surplus cash through special dividends. Buybacks are negligible: 5.4 million dollars of shares were bought in 2025 for employee share plans. The financial year ends on the Saturday at the end of December; the company reports results twice a year, with trading updates in between.",
+   "latest": "10 November 2026: The company published its trading update for the first ten months. Revenue was 2% above last year, order count 1% below, and average order value 3% higher. Orders from new customers fell 5% (first quarter −9%, second −5%, third −3%). The operating margin was just above 9%. Cash was 152 million dollars at the end of October. The 2026 outlook was kept: revenue slightly above 2025 (1.35 billion dollars) and adjusted profit before tax of about 130 million dollars (2025: 150.8 million). First-half results announced on 5 August 2026: revenue 666.4 million dollars (+1%), net profit 43.5 million dollars (55.5 million a year earlier), earnings per share 155.1 cents (197.4). Profit includes a one-off charge of 5.1 million dollars for uncertain tax treatments.",
+   "risks": [
+    "Profit is falling: earnings per share dropped 21% in the first half of 2026 (12% excluding the one-off charge). The company's 2026 outlook for adjusted profit before tax is about 130 million dollars; it was 150.8 million in 2025. If the price calculation rests on past growth, the margin of safety looks higher than it is.",
+    "Tariffs are raising supplier costs. The gross margin fell from 32.8% to 31.5% in the first half; if tariff policy changes again, the margin may narrow further.",
+    "New customer acquisition is weak: orders from new customers fell 12% in 2025 and 5% in the first ten months of 2026. Growth depends on how well marketing works.",
+    "Promotional products are bought out of companies' marketing budgets; they are among the first expenses cut when the economy slows. In 2021 real return on equity fell to 24%.",
+    "The company works almost entirely in the US and reports in dollars; the inflation adjustment here was made with UK inflation. Because the share trades in sterling, the exchange rate also affects the price."
+   ],
+   "watch": [
+    "Whether 2026 adjusted profit before tax meets the outlook (about 130 million dollars)",
+    "The change in orders from new customers",
+    "Gross margin and operating margin (31.5% and 9.4% in the first half)",
+    "Revenue per marketing dollar (7.75 dollars in the first half)"
+   ]
+  },
+  "earn": {
+   "k": 1.0,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Aynı dönemin tek seferlik giderleri: Vergi uygulamalarındaki belirsizlik için ayrılan tek seferlik gider (2026 ilk yarı; vergi sonrası 5,1 milyon dolar: faaliyet gideri 2,9 milyon, net finansman gideri 2,3 milyon, vergi geliri 0,1 milyon): %5,0. Giderler kazançlardan büyük; kazanç indirilmedi (yargı kazancı yükseltmez).",
+    "en": "The calculation rests on the profit of the last 12 months. One-off charges in the same period: One-off charge for uncertain tax treatments (first half of 2026; 5.1 million dollars after tax: 2.9 million in operating costs, 2.3 million net finance cost, 0.1 million tax credit): 5.0%. The charges exceed the gains; earnings were not lowered (the judgment never raises earnings)."
+   },
+   "per": "2026-H1"
+  },
+  "growth": {
+   "g": 9.8,
+   "basis": {
+    "tr": "Formül yılda %19,6 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): 28 Aralık 2025 - 27 Haziran 2026 (ilk yarı, 26 hafta) %−12,3 (şirketin düzeltilmiş rakamı; açıklanan %−21,4); 2026 yılı için şirket beklentisi (düzeltilmiş vergi öncesi kâr) %−13,8. Düzeltme: Vergi uygulamalarındaki belirsizlik için ilk yarıda ayrılan tek seferlik gider (kâra etkisi 5,1 milyon dolar) hariç düzeltilmiş hisse başına kâr: 173,2 sent (geçen yıl 197,4). En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %9,8.",
+    "en": "The formula gave growth of 19.6% a year. Latest figures (earnings per share, year on year): 28 December 2025 - 27 June 2026 (first half, 26 weeks) −12.3% (the company's adjusted figure; reported −21.4%); company guidance for 2026 (adjusted profit before tax) −13.8%. Adjustment: Adjusted basic EPS excluding the first-half one-off charge for uncertain tax treatments (5.1 million dollars effect on profit): 173.2 cents (197.4 a year earlier). The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 9.8%."
+   },
+   "per": "2026-H1"
+  }
+ },
+ "MEGP": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 1,
+   "E": 2
+  },
+  "moat": "dar",
+  "per": "2026-H1",
+  "one": "Fotoğraf kabini ve self-servis çamaşırhane makinesi işletir. Kalite surlarını geçti; marj yılda %5,1 reel büyüme varsayıyor, oysa şirket 2026 kâr beklentisini indirdi.",
+  "business": "ME Group, 16 ülkede yaklaşık 49.700 otomat işletir: 30.356 fotoğraf kabini (Photo.ME) ve süpermarket otoparklarındaki 8.106 açık hava çamaşır makinesi (Wash.ME). Parayı müşterinin makineye attığı ücretten kazanır; yer sahibine pay verir. 31 Ekim 2025'te biten mali yılda hasılat 315,4 milyon sterlin, vergi öncesi kâr 78,2 milyon sterlin. Hasılatın %68,3'ü ve FAVÖK'ün %80,1'i Kıta Avrupası'ndan gelir; en büyük ve en kârlı pazar Fransa.",
+  "moat_text": "Hendek dar. Üstünlük ölçekten ve yer sözleşmelerinden geliyor: 30 binden fazla kabin, istasyon ve süpermarketlerle çok yıllı anlaşmalar (SNCF beş yıl, RATP yedi yıl yenilendi). Rakamla kanıtı: reel özsermaye kârlılığı beş yılın ortalamasında %22,6, son 12 ayda %23,8; 2025 mali yılında FAVÖK 120,4 milyon sterlin, hasılatın %38'i. Çamaşırhane kolu büyüyor: 2025'te gelir 112,4 milyon sterlin (+%17,3), grup FAVÖK'ünün %46,1'i. Zayıf yanı: fotoğraf kabini geliri geriliyor (2025'te −%4,0, 2026'nın ilk yarısında −%6,2). Kimlik fotoğrafı kuralları devletin elinde; Almanya'daki kural değişikliği talebi düşürdü. Çamaşır makinesinde üstünlük yere bağlı; kalıcılığı kabindeki kadar kanıtlı değil.",
+  "mgmt": "Kurucu ailenin şirketi: icra kurulu başkanı Serge Crasnianski oyların %36,49'unu elinde tutuyor (23 Mart 2026). Kârın yarısından fazlası temettüye gidiyor: 2025 için hisse başına 8,64 peni, kârın %58'i. Mart 2026'da 18 milyon sterline kadar geri alım başladı; temmuza kadar 4,5 milyon sterlinlik hisse alındı. Kalan para yeni çamaşır makinelerine gidiyor (2025'te yatırım 65,6 milyon sterlin). Kusurlar: şirket Haziran 2025'te kendini satışa açtı, Aralık 2025'te yeterli teklif gelmediğini açıklayıp süreci bitirdi. 2025 hesaplarının denetimi gecikti, hisse Mart 2026'da geçici olarak işleme kapandı; makinelerdeki nakdin hesabında bulunan hata yüzünden geçmiş bilançolar düzeltildi (nakit 8,7 milyon sterlin azaldı; kâr değişmedi). Mali yıl ekimde biter.",
+  "latest": "13 Temmuz 2026: 30 Nisan 2026'da biten altı ayda hasılat 154,3 milyon sterlin (+%0,3), vergi öncesi kâr 32,7 milyon sterlin (−%3,8), net kâr 24,5 milyon sterlin (geçen yıl 25,6 milyon), seyreltilmiş hisse başına kâr 6,48 peni (6,74). Fotoğraf kabini geliri %6,2 düştü, çamaşırhane geliri %16,3 arttı. Ara temettü 3,85 peniden 3,60 peniye indirildi. Net nakit 7,5 milyon sterlin (bir yıl önce 27,6 milyon). Şirket 1 Haziran 2026'da tam yıl vergi öncesi kâr beklentisini 69–74 milyon sterline çekmişti (2025: 78,2 milyon); o gün hisse %26 düştü. Neden: nisanda, özellikle Fransa'da, kabin geliri %17 geriledi. Mayısta otomat geliri %11,1 arttı; şirket beklentiyi yineledi.",
+  "risks": [
+   "Hesap yılda %5,1 reel büyüme varsayıyor. Fiyat hesabı son 12 ayın kârına ve büyüme varsayımına dayanıyor; ikisi de zayıflıyor. Şirketin 2026 vergi öncesi kâr beklentisi 69–74 milyon sterlin, geçen yıl 78,2 milyon; ilk yarıda hisse başına kâr %3,9 düştü. Mali yıl 31 Ekim 2026'da bitti, sonuçlar henüz açıklanmadı.",
+   "Fotoğraf kabini geliri yapısal olarak geriliyor olabilir: 2025'te −%4,0, 2026'nın ilk yarısında −%6,2. Devletler kimlik fotoğrafını dijitale taşırsa (Almanya'daki kural değişikliği gibi) kabine gerek azalır.",
+   "İş büyük ölçüde İngiltere dışında: hasılatın %68,3'ü Kıta Avrupası'ndan, en çok Fransa'dan; Japonya da var. Enflasyon düzeltmesi İngiltere enflasyonuyla yapıldı; kâr avro ve yen kuruna da bağlı.",
+   "Hesap ve yönetişim soruları: 2025 denetimi gecikti, nakit rakamı geçmişe dönük düzeltildi, Fransa'daki vergi incelemeleri için karşılık ayrıldı. Tek kişi oyların %36,49'una sahip.",
+   "Büyüme çamaşırhane makinelerine yapılan yatırıma bağlı. Net nakit bir yılda 27,6 milyondan 7,5 milyon sterline indi; yeni makinelerin getirisi düşerse temettü ve geri alım aynı anda sürmez."
+  ],
+  "watch": [
+   "2026 mali yılı vergi öncesi kârı 69–74 milyon sterlin aralığında mı",
+   "Fotoğraf kabini gelirindeki değişim, özellikle Fransa ve Almanya",
+   "Çamaşırhane makinesi sayısı (yıllık hedef yaklaşık 1.300 kurulum) ve gelir artışı",
+   "Net nakit, temettü ve geri alımın gidişi"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/lon/MEGP/financials/ratios/"
+   },
+   {
+    "t": "ME Group: 2026 ara dönem sonuçları, RNS (13 Tem 2026)",
+    "te": "ME Group: 2026 interim results, RNS (13 Jul 2026)",
+    "u": "https://me-group.com/wp-content/uploads/2026/07/260713-ME-Group-2026-Interim-Results-RNS-FINAL.pdf"
+   },
+   {
+    "t": "ME Group: 2025 yıllık sonuçları, RNS (23 Mar 2026)",
+    "te": "ME Group: 2025 annual results, RNS (23 Mar 2026)",
+    "u": "https://www.ticker.app/lse/MEGP/rns/2026-03-23/2025-Annual-Results/6674X"
+   },
+   {
+    "t": "ME Group: faaliyet güncellemesi, RNS (1 Haz 2026)",
+    "te": "ME Group: trading update, RNS (1 Jun 2026)",
+    "u": "https://www.ticker.app/lse/MEGP/rns/2026-06-01/Trading-Update/3741G"
+   },
+   {
+    "t": "ME Group: büyük ortaklar tablosu (23 Mar 2026)",
+    "te": "ME Group: major shareholders table (23 Mar 2026)",
+    "u": "https://me-group.com/shareholder-information/"
+   },
+   {
+    "t": "AJ Bell / Alliance News: hisse %26 düştü (1 Haz 2026)",
+    "te": "AJ Bell / Alliance News: shares plunge 26% (1 Jun 2026)",
+    "u": "https://www.ajbell.co.uk/news/articles/me-group-shares-plunge-26-lower-sales-view-soft-french-trading"
+   },
+   {
+    "t": "Hargreaves Lansdown / Sharecast: teklif dönemi sona erdi (5 Ara 2025)",
+    "te": "Hargreaves Lansdown / Sharecast: offer period terminated (5 Dec 2025)",
+    "u": "https://www.hl.co.uk/shares/stock-market-news/company--news/me-group-terminates-offer-period-after-no-adequate-bids"
+   }
+  ],
+  "en": {
+   "one": "Runs photobooths and self-service laundry machines. Passed the quality walls; the margin assumes real growth of 5.1% a year, yet the company cut its 2026 profit outlook.",
+   "business": "ME Group runs about 49,700 vending units in 16 countries: 30,356 photobooths (Photo.ME) and 8,106 outdoor laundry machines in supermarket car parks (Wash.ME). It earns the fee the customer pays into the machine and gives the site owner a share. In the fiscal year ended 31 October 2025 revenue was 315.4 million pounds and profit before tax 78.2 million pounds. Continental Europe brings 68.3% of revenue and 80.1% of EBITDA; France is the largest and most profitable market.",
+   "moat_text": "The moat is narrow. The advantage comes from scale and site contracts: more than 30 thousand booths and multi-year agreements with stations and supermarkets (SNCF renewed for five years, RATP for seven). The proof in numbers: real return on equity averaged 22.6% over five years and is 23.8% for the last 12 months; fiscal 2025 EBITDA was 120.4 million pounds, 38% of revenue. The laundry arm is growing: revenue of 112.4 million pounds in 2025 (+17.3%), 46.1% of group EBITDA. The weak side: photobooth revenue is falling (−4.0% in 2025, −6.2% in the first half of 2026). ID photo rules are in the hands of governments; a rule change in Germany cut demand. In laundry the advantage depends on the site; its durability is less proven than in booths.",
+   "mgmt": "A founder-family company: chief executive Serge Crasnianski holds 36.49% of the votes (23 March 2026). More than half of profit goes to dividends: 8.64 pence a share for 2025, 58% of profit. A buyback of up to 18 million pounds began in March 2026; 4.5 million pounds of shares had been bought by July. The rest goes into new laundry machines (capital spending of 65.6 million pounds in 2025). Flaws: the company put itself up for sale in June 2025 and ended the process in December 2025, saying no adequate offer had come. The audit of the 2025 accounts was delayed and the shares were temporarily suspended in March 2026; past balance sheets were restated for an error in counting the cash inside the machines (cash down 8.7 million pounds; profit unchanged). The fiscal year ends in October.",
+   "latest": "13 July 2026: In the six months ended 30 April 2026 revenue was 154.3 million pounds (+0.3%), profit before tax 32.7 million pounds (−3.8%), net profit 24.5 million pounds (25.6 million a year earlier) and diluted earnings per share 6.48 pence (6.74). Photobooth revenue fell 6.2%; laundry revenue rose 16.3%. The interim dividend was cut from 3.85 pence to 3.60 pence. Net cash was 7.5 million pounds (27.6 million a year earlier). On 1 June 2026 the company had set its full-year profit before tax outlook at 69–74 million pounds (2025: 78.2 million); the shares fell 26% that day. The reason: in April booth revenue fell 17%, especially in France. In May vending revenue rose 11.1%; the company repeated the outlook.",
+   "risks": [
+    "The calculation assumes real growth of 5.1% a year. The price calculation rests on the last 12 months' profit and on the growth assumption; both are weakening. The company's 2026 profit before tax outlook is 69–74 million pounds against 78.2 million last year; earnings per share fell 3.9% in the first half. The fiscal year ended on 31 October 2026 and the results are not out yet.",
+    "Photobooth revenue may be in structural decline: −4.0% in 2025 and −6.2% in the first half of 2026. If governments move ID photos to digital channels (as with the rule change in Germany), fewer booths are needed.",
+    "Most of the business is outside the UK: 68.3% of revenue comes from Continental Europe, mostly France; there is Japan too. The inflation adjustment was made with UK inflation; profit also depends on the euro and the yen.",
+    "Accounting and governance questions: the 2025 audit was delayed, the cash figure was restated for past years, and a provision was made for tax reassessments in France. One person holds 36.49% of the votes.",
+    "Growth depends on the money put into laundry machines. Net cash fell from 27.6 million to 7.5 million pounds in a year; if returns on new machines drop, the dividend and the buyback cannot both continue."
+   ],
+   "watch": [
+    "Whether fiscal 2026 profit before tax lands in the 69–74 million pound range",
+    "The change in photobooth revenue, especially in France and Germany",
+    "Number of laundry machines (yearly target of about 1,300 installations) and revenue growth",
+    "Net cash, the dividend and the pace of the buyback"
+   ]
+  },
+  "earn": {
+   "k": 1.0,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı.",
+    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are."
+   },
+   "per": "2026-H1"
+  },
+  "growth": {
+   "g": 5.1,
+   "basis": {
+    "tr": "Formül yılda %10,2 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Kasım 2025-Nisan 2026 (2026 mali yılının ilk yarısı) %−3,9; 2026 mali yılı için şirket beklentisi (vergi öncesi kâr; hisse başına kâr beklentisi yok) %−8,6. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %5,1.",
+    "en": "The formula gave growth of 10.2% a year. Latest figures (earnings per share, year on year): November 2025-April 2026 (first half of fiscal 2026) −3.9%; company guidance for fiscal 2026 (profit before tax; no EPS guidance) −8.6%. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 5.1%."
+   },
+   "per": "2026-H1"
+  }
+ },
+ "PAF": {
+  "scores": {
+   "A": 2,
+   "B": 0,
+   "C": 1,
+   "D": 1,
+   "E": 2
+  },
+  "moat": "yok",
+  "per": "2026-H2",
+  "one": "Güney Afrika ve Avustralya'da altın üreticisi. Kalite surlarını geçti ama kârı altın fiyatı belirliyor; hendek yok, 3. surda elendi.",
+  "business": "Pan African Resources altın çıkarır ve satar. Madenleri Güney Afrika'da (Barberton, Evander, atık yeniden işleme tesisleri Elikhulu ve MTR) ve Avustralya'da (Tennant Creek). Haziran 2026'da biten mali yılda 272.310 ons altın üretti; hasılat 1.156,5 milyon dolar, ana ortaklık kârı 357,2 milyon dolar. Şirket dolarla raporlar; mali yılı haziranda biter.",
+  "moat_text": "Hendek yok. Altın bir emtiadır; şirket fiyatı kendi belirlemez. Kârdaki sıçrama fiyattan geldi: ortalama satış fiyatı ons başına 2.735 dolardan 4.235 dolara çıktı (+%54,8), hasılat %114,2 arttı. Aynı yıl ons başına toplam maliyet de 1.600 dolardan 1.867 dolara yükseldi; şirket 2027 mali yılı için 2.075–2.175 dolar bekliyor. Reel özsermaye kârlılığı beş yılda %14'ten %40,2'ye çıktı (ortalama %26,3); bu, altın fiyatının izidir, kalıcı bir üstünlüğün değil. Güçlü yanı: üretimin bir bölümü düşük maliyetli atık yeniden işlemeden geliyor (Elikhulu'da ons başına 1.231 dolar). Barberton'da maliyet ise 2.430 dolar. Bu süzgeç emtia üreticisini hendekli saymıyor; şirket bu nedenle 3. surda eleniyor.",
+  "mgmt": "Kâr borca, temettüye ve yeni madenlere gitti. 150,5 milyon dolarlık net borç bir yılda 185,7 milyon dolarlık net nakde döndü. Yılın temettüsü hisse başına 77 Güney Afrika senti (3,53 peni; geçen yıl 37 sent). Şirket Ekim 2026'dan başlayarak 500 milyon randa kadar pay geri alımı açıkladı. Yatırım harcaması 224,0 milyon dolar; 2027 mali yılı için 330 milyon dolar planlanıyor. Küçük kusur: Avustralya'daki Emmerson Resources, 1 Temmuz 2026'da ihraç edilen 102,6 milyon yeni payla (148,2 milyon dolar) alındı; bu, dolaşımdaki payları yaklaşık %5 artırdı. Çıkarılmış payların 306,4 milyonu grup içindeki PAR Gold'un elinde. Allan Gray 20 Ağustos 2026'da oy haklarının %5,06'sını bildirdi. Ana kotasyon Johannesburg'dadır (JSE); pay Londra'da ve Haziran 2026'dan beri Avustralya'da da işlem görür.",
+  "latest": "16 Eylül 2026: Haziran 2026'da biten mali yılın denetlenmiş sonuçları açıklandı. Hasılat 1.156,5 milyon dolar (+%114,2), ana ortaklık kârı 357,2 milyon dolar (geçen yıl 141,6 milyon), hisse başına kâr 17,60 ABD senti (geçen yıl 7,16). Üretim 272.310 ons (+%38,6), ons başına toplam maliyet 1.867 dolar. Net nakit 185,7 milyon dolar. Son temettü hisse başına 65 Güney Afrika senti; 19 Kasım 2026'daki genel kurulda oylanacak. 2027 mali yılı beklentisi: 280.000–302.000 ons üretim, ons başına 2.075–2.175 dolar maliyet.",
+  "risks": [],
+  "watch": [],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/lon/PAF/financials/ratios/"
+   },
+   {
+    "t": "Pan African Resources: 30 Haziran 2026'da biten yılın özet denetlenmiş sonuçları (16 Eyl 2026)",
+    "te": "Pan African Resources: summarised audited results for the year ended 30 June 2026 (16 Sep 2026)",
+    "u": "https://mb.cision.com/Public/22370/4396561/a6237d36a7e52f11.pdf"
+   },
+   {
+    "t": "Investegate (RNS): Aralık 2025'te biten altı ayın ara dönem sonuçları (18 Şub 2026)",
+    "te": "Investegate (RNS): interim results for the six months ended December 2025 (18 Feb 2026)",
+    "u": "https://www.investegate.co.uk/announcement/prn/pan-african-resources--paf/unaudited-condensed-consolidated-interim-fina-/9435416"
+   },
+   {
+    "t": "Miningmx: Pan African rekor temettünün ardından 500 milyon randlık geri alım planlıyor (16 Eyl 2026)",
+    "te": "Miningmx: Pan African plans R500m buy-back after declaring record dividend (16 Sep 2026)",
+    "u": "https://www.miningmx.com/news/gold/67324-pan-african-plans-r500m-buy-back-after-declaring-record-dividend/"
+   },
+   {
+    "t": "Pan African Resources: Allan Gray pay bildirimi, TR-1 (24 Ağu 2026)",
+    "te": "Pan African Resources: Allan Gray holding notification, TR-1 (24 Aug 2026)",
+    "u": "https://www.panafricanresources.com/wp-content/uploads/2026/08/SENS_TR-1_Standard-form-for-notification-of-major-holdings_Allan-Gray_20260824.pdf"
+   }
+  ],
+  "en": {
+   "one": "A gold producer in South Africa and Australia. It passed the quality walls, but its profit follows the gold price; no moat, so it failed Wall 3.",
+   "business": "Pan African Resources mines and sells gold. Its mines are in South Africa (Barberton, Evander, and the tailings retreatment plants Elikhulu and MTR) and in Australia (Tennant Creek). In the fiscal year ended June 2026 it produced 272,310 ounces of gold; revenue was 1,156.5 million dollars and profit attributable to owners 357.2 million dollars. The company reports in US dollars; its fiscal year ends in June.",
+   "moat_text": "There is no moat. Gold is a commodity; the company does not set its price. The jump in profit came from the price: the average price received rose from 2,735 to 4,235 dollars an ounce (+54.8%), and revenue rose 114.2%. In the same year the all-in sustaining cost rose from 1,600 to 1,867 dollars an ounce; the company expects 2,075–2,175 dollars for fiscal 2027. Real return on equity rose from 14% to 40.2% over five years (average 26.3%); that is the trace of the gold price, not of a lasting advantage. The strong point: part of production comes from low-cost tailings retreatment (1,231 dollars an ounce at Elikhulu). At Barberton the cost is 2,430 dollars. This filter does not count a commodity producer as having a moat; the company fails Wall 3 for that reason.",
+   "mgmt": "Profit went to debt, dividends and new mines. Net debt of 150.5 million dollars turned into net cash of 185.7 million dollars in one year. The dividend for the year is 77 South African cents a share (3.53 pence; 37 cents a year earlier). The company announced a share buyback of up to 500 million rand starting in October 2026. Capital expenditure was 224.0 million dollars; 330 million dollars is planned for fiscal 2027. A small flaw: Emmerson Resources in Australia was bought with 102.6 million new shares issued on 1 July 2026 (148.2 million dollars); this raised the shares outstanding by about 5%. Of the issued shares, 306.4 million are held by PAR Gold, a group company. Allan Gray reported 5.06% of the voting rights on 20 August 2026. The primary listing is in Johannesburg (JSE); the share also trades in London and, since June 2026, in Australia.",
+   "latest": "16 September 2026: Audited results for the fiscal year ended June 2026 were published. Revenue was 1,156.5 million dollars (+114.2%), profit attributable to owners 357.2 million dollars (141.6 million a year earlier), earnings per share 17.60 US cents (7.16 a year earlier). Production was 272,310 ounces (+38.6%) at an all-in sustaining cost of 1,867 dollars an ounce. Net cash was 185.7 million dollars. The final dividend is 65 South African cents a share; it goes to a vote at the annual general meeting on 19 November 2026. Outlook for fiscal 2027: production of 280,000–302,000 ounces at a cost of 2,075–2,175 dollars an ounce.",
+   "risks": [],
+   "watch": []
+  }
+ },
+ "SNWS": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "2026-H2",
+  "one": "Birleşik Krallık'ın en büyük gazete ve dergi toptancısı. Kalite surlarını geçti; pazar her yıl küçülüyor ve ülke çapına yayılma giderleri 2027 kârını düşürecek.",
+  "business": "Smiths News, gazete ve dergileri yayıncılardan alır ve her sabah İngiltere ve Galler'de 21.000'den fazla satış noktasına dağıtır. Parayı dağıtım payından kazanır; her bölgede yayıncının tek toptancısıdır. 29 Ağustos 2026'da biten mali yılda hasılat 1.036,2 milyon sterlin, düzeltilmiş faaliyet kârı 38,7 milyon sterlin oldu. Koleksiyon kartları ve atık kâğıt geri dönüşümü gibi yan işler büyüyor, ama küçük.",
+  "moat_text": "Hendek dar. Üstünlük, yayıncılarla yapılan uzun süreli ve bölgede tek yetkili sözleşmelerden ve her sabah çalışan dağıtım ağının ölçeğinden geliyor. Şirket 2026'da News UK, Telegraph, Associated Newspapers, Frontline ve Seymour ile sözleşmelerini 2036-2037'ye uzattı ve yeni bölgeler aldı; yeni sözleşmeler başladığında ülke gazete ve dergi pazarının yaklaşık %61'i onda olacak. Düzeltilmiş faaliyet kârı iki yıldır aynı düzeyde (38,7 ve 39,1 milyon sterlin). Zayıf yanı: basılı gazete pazarı yapısal olarak küçülüyor; gazete geliri 2026'da %4,1, dergi geliri %3,2 düştü ve şirketin kendi uzun vadeli varsayımı yılda %3-5 düşüş. Kâr marjı ince (hasılatın yaklaşık %3,7'si) ve birkaç büyük yayıncıya bağlı. Özsermaye çok küçük (10,7 milyon sterlin) olduğu için grafikteki reel özsermaye kârlılığı rakamları (2025'te %880, 2026'da %230) işin kalitesini ölçmüyor; önceki yıllarda özsermaye eksiydi.",
+  "mgmt": "Hisseler halka yaygın; hâkim ortak yok. Aberforth Partners'ın payı 28 Ekim 2026'da %14,8'e indi. Kâr borç ödemeye ve temettüye gitti: şirket Ağustos 2025'te ilk kez net nakde geçti (banka net nakdi 2026 sonunda 3,9 milyon sterlin). 2026 için hisse başına 5,65 peni olağan temettü önerildi (2025: 5,55 peni artı 3,00 peni özel temettü); bu yıl özel temettü yok. Yıl içinde 20,9 milyon sterlin temettü ödendi; çalışan pay planları için 5,3 milyon sterlinlik hisse alındı. Hisse geri alım programı yok. Şimdi para ana işe gidiyor: ülke çapına yayılma programının maliyeti 21-27 milyon sterlin. Geçmişten kalan bir sorun var: Emeklilik Düzenleyicisi, satılmış olan Tuffnells'in emeklilik planı için şirkete mali destek talimatı vermeyi değerlendiriyor (tahmini yükümlülük 3,3 milyon sterlin; karşılık ayrılmadı). Mali yıl ağustos sonunda biter.",
+  "latest": "4 Kasım 2026: Şirket 29 Ağustos 2026'da biten 52 haftanın sonuçlarını açıkladı. Hasılat 1.036,2 milyon sterlin (−%2,6). Net kâr 24,4 milyon sterlin (geçen yıl 28,3 milyon); hisse başına kâr 10,1 peni (11,7). Düşüşün nedeni tek seferlik kalemler: bu yıl 4,1 milyon sterlin yeniden yapılanma ve teknoloji gideri, geçen yıl 2,1 milyon sterlin net kazanç. Düzeltilmiş hisse başına kâr 11,3 peni (11,1). Koleksiyon ürünleri geliri %31,9 arttı; Dünya Kupası düzeltilmiş faaliyet kârına 3,5 milyon sterlin katkı yaptı. Şirket yeni sözleşmelerin yılda yaklaşık 375 milyon sterlin ek hasılat getireceğini, 2027 mali yılında ise kârlılığın kısa süreli olarak düşeceğini söyledi: 7-9 milyon sterlin geçiş gideri bekliyor. Ek net kâr beklentisi 2028'de 0-2 milyon, 2029'dan sonra yılda 12-18 milyon sterlin.",
+  "risks": [
+   "Hesap büyüme varsaymıyor (yılda %0). Fiyat hesabı son 12 ayın kârına dayanıyor; şirket 2027 mali yılında kârın düşeceğini kendisi söylüyor (7-9 milyon sterlin geçiş gideri, ayrıca 21-27 milyon sterlinlik programın yarısı gider olarak yazılacak). Rakam vermediği için hesap kazancı indirmedi; marj bu yüzden olduğundan yüksek görünebilir.",
+   "Basılı gazete ve dergi satışı yapısal olarak düşüyor (şirketin varsayımı yılda %3-5). Düşüş hızlanırsa sabit maliyetli dağıtım ağının kârı hasılattan hızlı erir.",
+   "Ülke çapına yayılma büyük bir uygulama işi: yaklaşık 700 yeni rota ve 23 depo, ilk geçiş Temmuz 2027. Gecikme ya da maliyet aşımı beklenen kazancı siler.",
+   "Özsermaye yalnız 10,7 milyon sterlin, toplam yükümlülükler 166,0 milyon sterlin. Beklenmedik bir zarar ya da Tuffnells emeklilik planı için gelecek bir talimat bilançoda yer bulamaz.",
+   "Gelir birkaç yayıncıya ve büyük perakendeciye bağlı: en büyük müşteri 125,3 milyon sterlin hasılat getiriyor. 2026 kârında Dünya Kupası koleksiyon ürünlerinin katkısı da var; bu her yıl yinelenmez."
+  ],
+  "watch": [
+   "2027 mali yılı kârı ve geçiş giderleri şirketin verdiği aralıkta (7-9 milyon sterlin) kalıyor mu",
+   "Gazete ve dergi gelirindeki yıllık düşüş %3-5 aralığında mı",
+   "Yeni bölgelerin devri takvime uyuyor mu (ilk geçiş Temmuz 2027)",
+   "Olağan temettü ve banka net nakdi korunuyor mu"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/lon/SNWS/financials/ratios/"
+   },
+   {
+    "t": "RNS: Smiths News 2026 mali yılı ön sonuçları (4 Kas 2026)",
+    "te": "RNS: Smiths News preliminary results for FY2026 (4 Nov 2026)",
+    "u": "https://www.ticker.app/lse/SNWS/rns/2026-11-04/Preliminary-Results/6836B"
+   },
+   {
+    "t": "RNS: Smiths News ara dönem sonuçları, 28 Şubat 2026 (6 May 2026)",
+    "te": "RNS: Smiths News interim results as at 28 February 2026 (6 May 2026)",
+    "u": "https://www.ticker.app/lse/SNWS/rns/2026-05-06/Interim-Results-as-at-28-February-2026/1212D"
+   },
+   {
+    "t": "Smiths News: 2025 mali yılı sonuç açıklaması (4 Kas 2025)",
+    "te": "Smiths News: FY2025 results statement (4 Nov 2025)",
+    "u": "https://smithsnews.co.uk/wp-content/uploads/SNWS-FY-2025-results-statement.pdf"
+   },
+   {
+    "t": "RNS: Smiths News yıl sonu sonrası faaliyet güncellemesi (29 Eyl 2026)",
+    "te": "RNS: Smiths News post year-end trading update (29 Sep 2026)",
+    "u": "https://www.investegate.co.uk/announcement/rns/smiths-news--snws/post-year-end-trading-update/9795193"
+   },
+   {
+    "t": "RNS: Smiths News pay sahipliği bildirimi, Aberforth Partners (29 Eki 2026)",
+    "te": "RNS: Smiths News holding(s) in company, Aberforth Partners (29 Oct 2026)",
+    "u": "https://www.investegate.co.uk/announcement/rns/smiths-news--snws/holding-s-in-company/9848562"
+   },
+   {
+    "t": "AJ Bell: Smiths News'in kârı yeniden yapılanma giderleriyle düştü (4 Kas 2026)",
+    "te": "AJ Bell: Smiths News profit falls on restructuring costs; hails contract wins (4 Nov 2026)",
+    "u": "https://www.ajbell.co.uk/news/articles/smiths-news-profit-falls-restructuring-costs-hails-contract-wins"
+   }
+  ],
+  "en": {
+   "one": "The UK's largest newspaper and magazine wholesaler. It passed the quality walls; the market shrinks yearly and national expansion costs will lower 2027 profit.",
+   "business": "Smiths News takes newspapers and magazines from publishers and delivers them every morning to more than 21,000 outlets in England and Wales. It earns a distribution margin; in each territory it is the publisher's sole wholesaler. In the fiscal year ended 29 August 2026 revenue was 1,036.2 million pounds and adjusted operating profit 38.7 million pounds. Side businesses such as collectables and waste-paper recycling are growing, but small.",
+   "moat_text": "The moat is narrow. The advantage comes from long, exclusive territorial contracts with publishers and from the scale of a delivery network that runs every morning. In 2026 the company extended its contracts with News UK, Telegraph, Associated Newspapers, Frontline and Seymour to 2036-2037 and won new territories; when the new contracts start it will hold about 61% of the national newspaper and magazine market. Adjusted operating profit has been level for two years (38.7 and 39.1 million pounds). The weak point: the printed newspaper market is in structural decline; newspaper revenue fell 4.1% and magazine revenue 3.2% in 2026, and the company's own long-term assumption is a fall of 3-5% a year. The profit margin is thin (about 3.7% of revenue) and depends on a few large publishers. Because equity is very small (10.7 million pounds), the real return on equity figures in the chart (880% in 2025, 230% in 2026) do not measure the quality of the business; equity was negative in earlier years.",
+   "mgmt": "The shares are widely held; there is no controlling owner. Aberforth Partners' holding fell to 14.8% on 28 October 2026. Profit went to paying down debt and to dividends: the company reached net cash for the first time in August 2025 (bank net cash was 3.9 million pounds at the end of 2026). An ordinary dividend of 5.65 pence per share is proposed for 2026 (2025: 5.55 pence plus a 3.00 pence special dividend); there is no special dividend this year. 20.9 million pounds of dividends were paid in the year, and 5.3 million pounds of shares were bought for employee share plans. There is no buyback programme. Money now goes into the core business: the national expansion programme costs 21-27 million pounds. One problem remains from the past: the Pensions Regulator is considering a financial support direction against the company for the pension scheme of Tuffnells, which it has sold (estimated liability 3.3 million pounds; no provision made). The fiscal year ends at the end of August.",
+   "latest": "4 November 2026: The company announced results for the 52 weeks ended 29 August 2026. Revenue was 1,036.2 million pounds (−2.6%). Net profit was 24.4 million pounds (28.3 million a year earlier); earnings per share 10.1 pence (11.7). The fall comes from one-off items: 4.1 million pounds of reorganisation and technology costs this year, against a 2.1 million pound net credit last year. Adjusted earnings per share were 11.3 pence (11.1). Collectables revenue rose 31.9%; the World Cup added 3.5 million pounds to adjusted operating profit. The company said the new contracts will add about 375 million pounds of revenue a year, and that profitability will fall for a short time in fiscal 2027: it expects 7-9 million pounds of transition costs. It expects incremental net profit of 0-2 million pounds in 2028 and 12-18 million pounds a year from 2029.",
+   "risks": [
+    "The calculation assumes no growth (0% a year). The price calculation rests on the profit of the last 12 months; the company itself says profit will fall in fiscal 2027 (7-9 million pounds of transition costs, and half of the 21-27 million pound programme will be expensed). Because it gave no figure, the calculation did not lower earnings; the margin may therefore look higher than it is.",
+    "Sales of printed newspapers and magazines are in structural decline (the company assumes 3-5% a year). If the decline speeds up, the profit of a fixed-cost delivery network shrinks faster than revenue.",
+    "Going national is a large execution task: about 700 new routes and 23 depots, with the first go-live in July 2027. Delay or cost overrun would wipe out the expected gain.",
+    "Equity is only 10.7 million pounds against total liabilities of 166.0 million pounds. An unexpected loss, or a direction over the Tuffnells pension scheme, would find no room on the balance sheet.",
+    "Revenue depends on a few publishers and large retailers: the largest customer brings 125.3 million pounds of revenue. 2026 profit also includes the contribution of World Cup collectables, which does not recur every year."
+   ],
+   "watch": [
+    "Whether fiscal 2027 profit and transition costs stay within the range the company gave (7-9 million pounds)",
+    "Whether the yearly fall in newspaper and magazine revenue stays within 3-5%",
+    "Whether the handover of the new territories keeps to the timetable (first go-live July 2027)",
+    "Whether the ordinary dividend and bank net cash are maintained"
+   ]
+  },
+  "earn": {
+   "k": 1.0,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Bu kârın içindeki tek seferlik kazançlar: FIFA Dünya Kupası koleksiyon ürünlerinin düzeltilmiş faaliyet kârına katkısı: 3,5 milyon sterlin (vergi öncesi). Turnuva yıllarında yinelenir, her yıl olmaz: son 12 ay kârının %10,9 kadarı. Aynı dönemin tek seferlik giderleri: Düzeltme kalemleri (ağ yeniden yapılanması 2,3; teknoloji dönüşümü 1,1; program planlaması 0,7 milyon sterlin; vergi sonrası toplam 3,0 milyon sterlin): %12,3. Giderler kazançlardan büyük; kazanç indirilmedi (yargı kazancı yükseltmez).",
+    "en": "The calculation rests on the profit of the last 12 months. One-off gains inside that profit: Contribution of FIFA World Cup collectables to adjusted operating profit: 3.5 million pounds (pre-tax). It recurs in tournament years, not every year: 10.9% of last-12-month profit. One-off charges in the same period: Adjusting items (network reorganisation 2.3; technology transformation 1.1; programme planning 0.7 million pounds; 3.0 million pounds in total after tax): 12.3%. The charges exceed the gains; earnings were not lowered (the judgment never raises earnings)."
+   },
+   "per": "2026-H2"
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %0,0 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Eylül 2025-Ağustos 2026 mali yılı (52 hafta) %1,8 (şirketin düzeltilmiş rakamı; açıklanan %−13,7); Mart-Ağustos 2026 yarıyılı (şirket altı ayda bir raporlar; yıl eksi ilk yarı) %7,0 (şirketin düzeltilmiş rakamı; açıklanan %−16,4). Düzeltme: Şirket tek seferlik kalemleri ayırıyor: 2026'da vergi sonrası 3,0 milyon sterlin gider (ağ yeniden yapılanması, teknoloji dönüşümü, program planlaması), 2025'te 1,3 milyon sterlin net kazanç (McColl's alacak karşılığı iptali). Düzeltilmiş hisse başına kâr 11,3 peni (2025: 11,1). Formül zaten sıfır büyüme varsayıyor; indirilecek bir şey yok.",
+    "en": "The formula gave growth of 0.0% a year. Latest figures (earnings per share, year on year): fiscal year September 2025-August 2026 (52 weeks) 1.8% (the company's adjusted figure; reported −13.7%); March-August 2026 half (the company reports half-yearly; full year minus first half) 7.0% (the company's adjusted figure; reported −16.4%). Adjustment: The company separates one-off items: a 3.0 million pound after-tax cost in 2026 (network reorganisation, technology transformation, programme planning) and a 1.3 million pound net credit in 2025 (reversal of the McColl's receivables impairment). Adjusted earnings per share were 11.3 pence (2025: 11.1). The formula already assumes zero growth; there is nothing to lower."
+   },
+   "per": "2026-H2"
+  }
+ },
+ "TBCG": {
+  "scores": {
+   "A": 1,
+   "B": 2,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "2026-Q3",
+  "one": "Gürcistan'ın en büyük iki bankasından biri, Özbekistan'da dijital bankası var. Kalite surlarını geçti; marj yılda %11,2 reel büyüme varsayımına dayanıyor, Özbekistan kârı düşüyor.",
+  "business": "TBC Bank Group, Gürcistan'da bireylere ve şirketlere kredi veren, mevduat toplayan bir bankadır; kiralama, sigorta ve ödeme hizmetleri de sunar. Özbekistan'da yalnız telefondan çalışan bir bireysel banka işletir. Parayı kredi faizi ile fonlama maliyeti arasındaki farktan ve ücretlerden kazanır. 30 Eylül 2026'da 32,5 milyar lari kredisi ve 27,6 milyar lari müşteri mevduatı vardı; 2026'nın ilk dokuz ayında kârın yaklaşık %99'u Gürcistan'dan geldi. Şirket Londra'da işlem görür ama hesaplarını lari ile tutar.",
+  "moat_text": "Hendek dar. Gürcistan bankacılığı iki büyük bankanın elinde; TBC'nin kredi ve mevduat payı yaklaşık %37-40, kurumsal kredilerde %43,6 (31 Aralık 2025, merkez bankası verisi). Bu ölçek marjda görünüyor: net faiz marjı %7,4, gider/gelir oranı %38,7. Reel özsermaye kârlılığı beş yılın ortalamasında %19,2, en düşük yılında %15,0. Zayıf yanı: üstünlük tek bir küçük ülkeye ve o ülkenin banka kurallarına bağlı. Özbekistan'da pay küçük (bireysel kredilerde yaklaşık %4,2) ve yeni kurallar kârı düşürdü; geniş hendek için kanıt yok.",
+  "mgmt": "Şirketin temettü politikası kârın en az %25'ini dağıtmak. 2025 için hisse başına 8,87 lari temettü ödendi (kârın %35'i); 75 milyon larilik geri alımla birlikte dağıtım kârın %40'ı oldu. 2026'da her çeyrek 1,75 lari temettü açıklandı; 6 Kasım 2026'da 50 milyon larilik yeni geri alım duyuruldu. Kalan kâr kredi büyümesine ve Özbekistan'a gidiyor. Özbekistan işinin %79,7'si şirketin, kalanı EBRD ve IFC'nin (her biri %10,15). Özbekistan 2025'te 127 milyon lari kâr etti; şirketin kendi hedefi 200 milyon lariydi. Hâkim ortağı gösteren güncel bir pay tablosu bu çalıştırmada okunamadı; Allan Gray payının %2,98'e indiğini bildirdi (18 Eylül 2026).",
+  "latest": "6 Kasım 2026: Şirket üçüncü çeyrekte ana ortaklığa ait 400,7 milyon lari net kâr açıkladı (+%11,5); seyreltilmiş hisse başına kâr 7,19 lari (+%12,2). Dokuz aylık kâr 1.142,5 milyon lari (+%12,3). Özsermaye kârlılığı şirketin açıkladığı rakamla %23,2 (geçen yıl %24,4). Gürcistan kolunun kârı 406,2 milyon lari (+%17,4); Özbekistan'ın kârı 15,9 milyon lari (−%61,2), oradaki kredi riski maliyeti %10,8. Krediler sabit kurla %16 büyüdü. Sorunlu kredi oranı %3,3 (geçen yıl %2,7). Çeyreklik temettü 1,75 lari.",
+  "risks": [
+   "Hesap yılda %11,2 reel büyüme varsayıyor. Fiyat hesabı son 12 ayın kârının sürmesine ve büyümenin devamına dayanıyor. Özbekistan'ın kârı dokuz ayda %39,7 düştü; Gürcistan'da kredi zararı ya da marj bozulursa güvenlik marjı azalır. Son 12 ayın kârında tek seferlik kazanç bulunmadı.",
+   "Şirket Birleşik Krallık'ta değil, Gürcistan ve Özbekistan'da çalışır ve lari ile raporlar. Enflasyon düzeltmesi Birleşik Krallık enflasyonuyla yapıldı; lari sterline karşı değer kaybederse sterlin cinsinden kâr düşer.",
+   "Kârın neredeyse tamamı tek bir küçük ülkeden geliyor. Şirketin kendi risk listesinin başında Gürcistan ve Özbekistan'daki iç siyasi gerginlik ile bölgedeki savaşlar var.",
+   "Kredilerin %50,6'sı yabancı para cinsinden (31 Aralık 2025). Lari sert düşerse borçluların ödeme gücü ve sermaye oranları zayıflar.",
+   "Özbekistan'da merkez bankası mikro kredi, kredi kartı ve taşıt kredisine %25 tavan getirdi; otomatik tahsilat kuralları 2027 başında bekleniyor. Oradaki sorunlu kredi oranı %11,8."
+  ],
+  "watch": [
+   "Gürcistan kolunun kârı ve özsermaye kârlılığı (şirketin hedefi yılda %23 ve üzeri)",
+   "Özbekistan'ın kârı, kredi riski maliyeti ve sorunlu kredi oranı",
+   "Grup sorunlu kredi oranı (%3,3) ve net faiz marjı (%7,4)",
+   "Lari kuru ve Gürcistan'da çekirdek sermaye oranı (%17,0)"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/lon/TBCG/financials/ratios/"
+   },
+   {
+    "t": "TBC Bank Group: 3Ç ve 9A 2026 sonuç raporu, RNS duyurusu (6 Kas 2026)",
+    "te": "TBC Bank Group: 3Q and 9M 2026 results report, RNS announcement (6 Nov 2026)",
+    "u": "https://pdf.dfcfw.com/pdf/H22_AN202611060006874162_1.pdf"
+   },
+   {
+    "t": "TBC Bank Group: 4Ç ve 2025 yılı sonuç raporu, RNS duyurusu (20 Şub 2026)",
+    "te": "TBC Bank Group: 4Q and FY 2025 results report, RNS announcement (20 Feb 2026)",
+    "u": "https://www.ticker.app/lse/TBCG/rns/2026-02-20/4Q-and-FY-2025-Results-Report/7225T"
+   },
+   {
+    "t": "TBC Bank Group: 2025 Yıllık Raporu",
+    "te": "TBC Bank Group: Annual Report 2025",
+    "u": "https://cms.tbcbankgroup.com/media/4zsgxysp/tbc-group-plc-annual-report-2025.pdf"
+   },
+   {
+    "t": "Hargreaves Lansdown haber: TBC Bank'ta üçüncü çeyrek kârı arttı (6 Kas 2026)",
+    "te": "Hargreaves Lansdown news: Q3 profits jump at TBC Bank (6 Nov 2026)",
+    "u": "https://www.hl.co.uk/shares/stock-market-news/company--news/q3-profits-jump-at-tbc-bank,-shares-spark"
+   },
+   {
+    "t": "Quartr: TBC Bank Group Strateji Günü 2026 özeti",
+    "te": "Quartr: TBC Bank Group Strategy Day 2026 summary",
+    "u": "https://quartr.com/events/tbc-bank-group-plc-tbcg-strategy-day-2026_oSbwr7pt"
+   },
+   {
+    "t": "Investegate: TBC Bank Group, paylara ilişkin bildirim (Allan Gray)",
+    "te": "Investegate: TBC Bank Group, Holding(s) in Company (Allan Gray)",
+    "u": "https://www.investegate.co.uk/announcement/rns/tbc-bank-group--tbcg/holding-s-in-company/9787713"
+   }
+  ],
+  "en": {
+   "one": "One of Georgia's two largest banks, with a digital bank in Uzbekistan. Passed the quality walls; the margin rests on assumed real growth of 11.2% a year; Uzbek profit is falling.",
+   "business": "TBC Bank Group lends to individuals and companies and takes deposits in Georgia; it also offers leasing, insurance and payment services. In Uzbekistan it runs a retail bank that works only by phone. It earns the spread between loan interest and funding cost, plus fees. At 30 September 2026 it had 32.5 billion lari of loans and 27.6 billion lari of customer deposits; in the first nine months of 2026 about 99% of profit came from Georgia. The company is listed in London but keeps its accounts in lari.",
+   "moat_text": "The moat is narrow. Georgian banking is in the hands of two large banks; TBC's share of loans and deposits is about 37-40%, and 43.6% in corporate loans (31 December 2025, central bank data). This scale shows in the margins: net interest margin 7.4%, cost-to-income ratio 38.7%. Real return on equity averaged 19.2% over five years and was 15.0% in the lowest year. The weak side: the advantage depends on one small country and on that country's banking rules. In Uzbekistan the share is small (about 4.2% of retail loans) and new rules have cut profit; there is no evidence for a wide moat.",
+   "mgmt": "The company's dividend policy is to pay out at least 25% of profit. For 2025 it paid a dividend of 8.87 lari a share (35% of profit); with a 75 million lari buyback the payout was 40% of profit. In 2026 it declared 1.75 lari each quarter; on 6 November 2026 it announced a new 50 million lari buyback. The rest of the profit goes into loan growth and Uzbekistan. The company owns 79.7% of the Uzbek business; EBRD and IFC hold the rest (10.15% each). Uzbekistan earned 127 million lari in 2025; the company's own target was 200 million lari. No current shareholder table showing a controlling owner could be read in this run; Allan Gray reported that its holding fell to 2.98% (18 September 2026).",
+   "latest": "6 November 2026: The company reported third-quarter net profit attributable to shareholders of 400.7 million lari (+11.5%); diluted earnings per share were 7.19 lari (+12.2%). Nine-month profit was 1,142.5 million lari (+12.3%). Return on equity as reported by the company was 23.2% (24.4% a year earlier). The Georgian arm earned 406.2 million lari (+17.4%); Uzbekistan earned 15.9 million lari (−61.2%), with a cost of risk of 10.8% there. Loans grew 16% at constant currency. The non-performing loan ratio was 3.3% (2.7% a year earlier). The quarterly dividend is 1.75 lari.",
+   "risks": [
+    "The calculation assumes real growth of 11.2% a year. The price calculation rests on the last 12 months' profit holding up and on growth continuing. Uzbekistan's profit fell 39.7% in nine months; if credit losses or margins worsen in Georgia, the margin of safety shrinks. No one-off gain was found in the last 12 months' profit.",
+    "The company operates in Georgia and Uzbekistan, not in the United Kingdom, and reports in lari. The inflation adjustment was made with UK inflation; if the lari loses value against sterling, profit in sterling falls.",
+    "Almost all profit comes from one small country. The company's own risk list starts with internal political tension in Georgia and Uzbekistan and with the wars in the region.",
+    "50.6% of loans are in foreign currency (31 December 2025). A sharp fall in the lari would weaken borrowers' ability to pay and the capital ratios.",
+    "In Uzbekistan the central bank capped microloans, credit cards and car loans at 25% each; auto-collection rules are expected in early 2027. The non-performing loan ratio there is 11.8%."
+   ],
+   "watch": [
+    "Profit and return on equity of the Georgian arm (the company's target is 23% or more a year)",
+    "Uzbekistan's profit, cost of risk and non-performing loan ratio",
+    "Group non-performing loan ratio (3.3%) and net interest margin (7.4%)",
+    "The lari exchange rate and the core capital ratio in Georgia (17.0%)"
+   ]
+  },
+  "earn": {
+   "k": 1.0,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı.",
+    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are."
+   },
+   "per": "2026-Q3"
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %11,2 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 (seyreltilmiş hisse başına kâr, lari) %13,1; Temmuz-Eylül 2026 çeyreği (seyreltilmiş hisse başına kâr, lari) %12,2. En düşüğü, enflasyondan arındırılınca, %8,4. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 11.2% a year. Latest figures (earnings per share, year on year): January-September 2026 (diluted EPS, lari) 13.1%; July-September 2026 quarter (diluted EPS, lari) 12.2%. The lowest, after inflation, is 8.4%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q3"
+  }
+ }
+}

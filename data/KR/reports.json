@@ -1,0 +1,486 @@
+{
+ "138040": {
+  "scores": {
+   "A": 1,
+   "B": 2,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "2026-Q2",
+  "one": "Meritz Fire ve Meritz Securities'in sahibi holding. Kalite surlarını geçti; üçüncü çeyrek kârı %26,6 düştü, fiyat testi kârın toparlanmasına bağlı.",
+  "business": "Meritz Financial Group bir finans holdingidir. Sigorta şirketi Meritz Fire & Marine ile aracı kurum Meritz Securities'in tamamına sahiptir; Meritz Capital da grubun içindedir. Para uzun vadeli sağlık ve koruma sigortalarından, sigorta primlerinin yatırım gelirinden ve kurumsal finansman ile gayrimenkul kredilerinden gelir. 2026'nın ilk dokuz ayında konsolide net kâr 1,96 trilyon won; kârın %62'si sigortadan, %32'si aracı kurumdan, %6'sı Meritz Capital'den.",
+  "moat_text": "Hendek dar. Reel özsermaye kârlılığı beş yılın ortalamasında %18,6, en düşük yılında %15,8. Üstünlüğün rakamla görünen yanı sigortadaki sözleşme stoku: Haziran 2026 sonunda henüz kâra yazılmamış sözleşme marjı (CSM) 12,1 trilyon won; her çeyrek bunun yaklaşık 322 milyar wonu kâra geçiyor. Sigorta lisansı ve acente ağı yeni girene engel. Zayıf yanı: sigorta ve kurumsal finansman, rakiplerin de yapabildiği işlerdir; üstünlük markadan çok fiyatlama disiplinine ve yönetime dayanıyor. Kârın büyük bölümü yatırım gelirine bağlı; üçüncü çeyrekte hisse senedi değer kayıpları sigorta şirketinin kârını %29,2 düşürdü.",
+  "mgmt": "En büyük ortak Cho Jung-ho ve bağlı 10 kişi: %56,13 (2025 sonu). Ulusal Emeklilik Fonu %6,51. Kâr ortağa geri alımla dönüyor: Mart 2023 ile Mart 2026 arasında 3,09 trilyon wonluk hisse geri alınıp iptal edildi (36 milyon hisse, çıkarılmış payların yaklaşık %17,7'si). 2025'te ortaklara dönen pay kârın %61,7'si oldu. Şirket nakit temettü yerine bütün kaynağı geri alım ve iptale ayırıyor; Mart 2026'da 700 milyar wonluk yeni program başladı. Not: holdingin bağlı ortaklıklardaki yatırımının kendi özsermayesine oranı (çifte kaldıraç) Mart 2026'da %112,1 iken Haziran 2026'da %127,8'e çıktı.",
+  "latest": "11 Kasım 2026: Üçüncü çeyrekte konsolide net kâr 490,5 milyar won (geçen yıl 668,4 milyar; −%26,6). Dokuz aylık kâr 1,96 trilyon won (−%3,2). Neden: borsadaki dalgalanma yüzünden yatırım gelirinin düşmesi; Meritz Fire'ın çeyrek kârı 328,5 milyar won (−%29,2). Sigorta kârı ise dokuz ayda %7,6 arttı (1,10 trilyon won). Meritz Securities'in dokuz aylık kârı 720,5 milyar won (+%12,0). Şirketin açıkladığı özsermaye kârlılığı %23,5, sermaye yeterliliği (K-ICS) %225,7. Rakamlar basın haberlerinden; şirketin kendi belgesi henüz okunamadı.",
+  "risks": [
+   "Fiyat testi son 12 ayın kârına ve geçmiş büyümeye dayanıyor; üçüncü çeyrekte kâr %26,6 düştü ve dokuz aylık kâr geçen yılın %3,2 altında. Yatırım geliri toparlanmazsa hesaptaki kazanç ve büyüme fazla kalır.",
+   "Gayrimenkul kredileri büyük: Haziran 2026'da 29,5 trilyon won (25,9 trilyonu Kore'de), özsermayenin iki katından fazla. İkinci çeyrekte grup net 187,5 milyar won karşılık ayırdı.",
+   "Homeplus kredisi sürüyor: mevcut krediler için ayrılan karşılık yaklaşık 240 milyar won; şirket yeni bir kredi de verdi.",
+   "Düzenleme kârı doğrudan etkiliyor: eğitim vergisi artışı, acente komisyonu sınırı ve sigorta varsayımlarına ilişkin kurallar 2026'da yürürlüğe girdi.",
+   "Kontrol tek ailede (%56,13) ve holding geri alımları sürdürürken çifte kaldıraç oranı %127,8'e çıktı; bağlı ortaklıklardan gelen temettü azalırsa geri alım hızı düşer."
+  ],
+  "watch": [
+   "Dördüncü çeyrekte konsolide net kâr ve Meritz Fire'ın yatırım geliri",
+   "Gayrimenkul kredilerinde karşılık ve sorunlu kredi oranı",
+   "Sermaye yeterliliği (K-ICS) %180 hedefinin üzerinde kalıyor mu",
+   "Geri alım ve iptal tutarı; çifte kaldıraç oranı"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/krx/138040/financials/ratios/"
+   },
+   {
+    "t": "Meritz Financial Group: 2026 2. çeyrek sonuç toplantısı metni (Ağu 2026)",
+    "te": "Meritz Financial Group: 2Q26 earnings call transcript (Aug 2026)",
+    "u": "https://www.meritzgroup.com/commfiles/hld/attach/2026/20260814/202608140952118610015U.pdf"
+   },
+   {
+    "t": "Meritz Financial Group: 2026 1. çeyrek sonuç toplantısı metni (May 2026)",
+    "te": "Meritz Financial Group: 1Q26 earnings call transcript (May 2026)",
+    "u": "https://m.meritzgroup.com/commfiles/hld/attach/2026/20260515/202605151744460930037U.pdf"
+   },
+   {
+    "t": "Meritz Financial Group: 2025 yılı şirket durumu açıklaması (31 Mar 2026)",
+    "te": "Meritz Financial Group: 2025 company status disclosure (31 Mar 2026)",
+    "u": "https://m.meritzgroup.com/commfiles/hld/attach/2026/20260331/202603311717578640001U.pdf"
+   },
+   {
+    "t": "Meritz Financial Group: 2025 3. çeyrek sonuç toplantısı metni (14 Kas 2025)",
+    "te": "Meritz Financial Group: 3Q25 earnings call transcript (14 Nov 2025)",
+    "u": "https://m.meritzgroup.com/commfiles/hld/attach/2025/20251114/202511142152172570005U.pdf"
+   },
+   {
+    "t": "Shinailbo: Meritz Financial dokuz aylık net kârı 1,9 trilyon won (11 Kas 2026)",
+    "te": "Shinailbo: Meritz Financial nine-month net profit 1.9 trillion won (11 Nov 2026)",
+    "u": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5082401"
+   },
+   {
+    "t": "Segye Ilbo: Meritz Financial dokuz aylık kârı 1,9621 trilyon won, %3,2 düşüş (11 Kas 2026)",
+    "te": "Segye Ilbo: Meritz Financial nine-month profit 1.9621 trillion won, down 3.2% (11 Nov 2026)",
+    "u": "https://www.segye.com/newsView/20261111518536"
+   },
+   {
+    "t": "Toyo Economy: Meritz Financial 2025 net kârı 2,3501 trilyon won (11 Şub 2026)",
+    "te": "Toyo Economy: Meritz Financial 2025 net profit 2.3501 trillion won (11 Feb 2026)",
+    "u": "https://sateconomy.co.kr/news/view/1065602984653746"
+   }
+  ],
+  "en": {
+   "one": "Holding company owning Meritz Fire and Meritz Securities. It passed the quality walls; third-quarter profit fell 26.6%, so the price test depends on profit recovering.",
+   "business": "Meritz Financial Group is a financial holding company. It owns all of the insurer Meritz Fire & Marine and the broker Meritz Securities; Meritz Capital is also in the group. The money comes from long-term health and protection insurance, from investing the insurance premiums, and from corporate finance and real estate lending. In the first nine months of 2026 consolidated net profit was 1.96 trillion won; 62% of profit came from insurance, 32% from the securities firm and 6% from Meritz Capital.",
+   "moat_text": "The moat is narrow. Real return on equity averaged 18.6% over five years and was 15.8% in the weakest year. The part of the advantage that shows in numbers is the insurance book: at the end of June 2026 the contractual service margin (CSM) not yet booked as profit was 12.1 trillion won, and about 322 billion won of it moves into profit each quarter. The insurance licence and the agent network are a barrier to a newcomer. The weak side: insurance and corporate finance are businesses rivals can also do; the advantage rests on pricing discipline and management more than on a brand. A large part of profit depends on investment income; in the third quarter losses on shares cut the insurer's profit by 29.2%.",
+   "mgmt": "The largest shareholder is Cho Jung-ho with 10 related parties: 56.13% (end of 2025). The National Pension Service holds 6.51%. Profit returns to shareholders through buybacks: between March 2023 and March 2026 the company bought back and cancelled 3.09 trillion won of shares (36 million shares, about 17.7% of those issued). In 2025 the share returned to shareholders was 61.7% of profit. The company puts all of the money into buybacks and cancellation rather than a cash dividend; a new 700 billion won programme began in March 2026. Note: the holding company's investment in subsidiaries relative to its own equity (double leverage) rose from 112.1% in March 2026 to 127.8% in June 2026.",
+   "latest": "11 November 2026: Consolidated net profit in the third quarter was 490.5 billion won (668.4 billion a year earlier; −26.6%). Nine-month profit was 1.96 trillion won (−3.2%). The reason: lower investment income because of stock market volatility; Meritz Fire's quarterly profit was 328.5 billion won (−29.2%). Insurance profit, however, rose 7.6% in nine months (1.10 trillion won). Meritz Securities' nine-month profit was 720.5 billion won (+12.0%). The return on equity the company reports is 23.5% and the solvency ratio (K-ICS) 225.7%. The figures are from press reports; the company's own document could not be read yet.",
+   "risks": [
+    "The price test rests on the last 12 months' profit and on past growth; profit fell 26.6% in the third quarter and nine-month profit is 3.2% below last year. If investment income does not recover, the earnings and growth in the calculation are too high.",
+    "Real estate lending is large: 29.5 trillion won in June 2026 (25.9 trillion in Korea), more than twice equity. In the second quarter the group set aside a net 187.5 billion won of provisions.",
+    "The Homeplus loan is still open: provisions against the existing loans are about 240 billion won, and the company has made a new loan as well.",
+    "Regulation affects profit directly: a higher education tax, a cap on agent commissions and rules on insurance assumptions came into force in 2026.",
+    "Control sits with one family (56.13%), and the double leverage ratio rose to 127.8% while the holding company kept buying back shares; if dividends from subsidiaries fall, the pace of buybacks slows."
+   ],
+   "watch": [
+    "Fourth-quarter consolidated net profit and Meritz Fire's investment income",
+    "Provisions and the bad-loan ratio in real estate lending",
+    "Whether the solvency ratio (K-ICS) stays above the 180% target",
+    "The amount of buybacks and cancellations; the double leverage ratio"
+   ]
+  },
+  "earn": {
+   "k": 1.0,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Hisse senedi yatırımlarından kazançlar (kâr-zarara yansıyan: 2026'nın 1. çeyreğinde yaklaşık 86 milyar, 2. çeyreğinde yaklaşık 250 milyar won, vergi öncesi) sigorta ve aracı kurumun olağan yatırım işinin parçası; tek seferlik sayılmadı. Çeyrekten çeyreğe çok oynuyor: üçüncü çeyrekte değer kaybı yazıldı.",
+    "en": "The calculation rests on the profit of the last 12 months. Gains on equity investments (through profit and loss: about 86 billion won in Q1 2026 and about 250 billion in Q2 2026, pre-tax) are part of the ordinary investment business of the insurer and the securities firm; they were not treated as one-off. They swing widely from quarter to quarter: the third quarter brought valuation losses."
+   },
+   "per": "2026-Q2"
+  },
+  "growth": {
+   "g": 7.3,
+   "basis": {
+    "tr": "Formül yılda %14,7 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 (konsolide net kâr) %−3,2; Temmuz-Eylül 2026 çeyreği (konsolide net kâr) %−26,6. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %7,3.",
+    "en": "The formula gave growth of 14.7% a year. Latest figures (net profit, year on year): January-September 2026 (consolidated net profit) −3.2%; July-September 2026 quarter (consolidated net profit) −26.6%. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 7.3%."
+   },
+   "per": "2026-Q2"
+  }
+ },
+ "211050": {
+  "scores": {
+   "A": 1,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-Q2",
+  "one": "Kore'nin büyük bağımsız sigorta acentesi. Kalite surlarını geçti; üstünlük her yıl yeniden toplanan satış gücüne dayanıyor, komisyon kuralları da değişiyor. Hendek zayıf.",
+  "business": "INCAR Financial Service, Kore'de birçok sigorta şirketinin poliçesini satan bağımsız bir acentedir (GA). Parayı sigorta şirketlerinden aldığı satış komisyonundan kazanır; komisyonun çoğunu kendi satış temsilcilerine öder. 2026'nın ilk yarısında hasılat 640 milyar won (+%36,5), net kâr 44,5 milyar won (+%34,8) oldu. Temsilci sayısı 2025 sonundaki 20.651'den haziran sonunda 24.724'e çıktı.",
+  "moat_text": "Hendek zayıf. Üstünlük ölçekten geliyor: 24.724 temsilci, beş yılda reel özsermaye kârlılığı ortalaması %37,4, en düşük yıl %29,7. Ama bu ölçek her yıl yeniden kazanılıyor. Temsilciler şirketin çalışanı değil; yerleşme primiyle toplanıyor ve ayrılabiliyor. Temsilci kalıcılık oranı %83,1'den %79,3'e indi. Temmuz 2026'da ilk yıl komisyon tavanı (%1200 kuralı) acentelerin kendi temsilcilerine de uygulanmaya başladı; Ocak 2027'den itibaren komisyon dört yıla, 2029'dan itibaren yedi yıla yayılacak. Kurallar acentenin temsilci çekmek için kullandığı araçları sınırlıyor; sigorta şirketlerinin kendi satış kadroları da büyüyor (+%11,7). Kâr tahakkuk esasıyla yazılıyor: temsilcilere peşin ödenen komisyon (peşin ödenmiş gider) 781,5 milyar won, yıllık kârın dokuz katından fazla; ilk yarıda işletme nakit akışı eksi 27,6 milyar won. Her yıl yeniden savunulması gereken bir üstünlüğü bu süzgeç hendek saymıyor.",
+  "mgmt": "Kurucu ve başkan Choi Byung-chae ile yakınları 2025 sonunda payların %43,37'sine sahipti. Şirket 2025 için hisse başına 370 won temettü ödedi (2024: 100 won, 2023: 350 won). Aralık 2025'te 2.116.143 kendi payını iptal etti; Haziran 2026'da 7 milyar wonluk geri alım sözleşmesi yaptı. Kusurlar: başkan ve genel müdür paylarını rehin vererek borçlandı (genel müdürün 2.651.801 payı rehinli); şirket 2024 denetimi sonucunda düzenleyiciye idari para cezası ödedi. Kârın büyük kısmı şirkette kalıyor ve temsilci kadrosunu büyütmeye gidiyor.",
+  "latest": "14 Ağustos 2026: İlk yarıda hasılat 640 milyar won (+%36,5), esas faaliyet kârı 58,3 milyar won (+%30,1), net kâr 44,5 milyar won (+%34,8). İkinci çeyrek net kârı 22,0 milyar won; birinci çeyrekte 22,5 milyar wondu. Şirket düşüşü idari para cezası ve golf turnuvası giderinden oluşan yaklaşık 6 milyar wonluk tek seferlik giderle açıkladı. Üçüncü çeyrek raporu 13 Kasım 2026'da henüz yayımlanmamıştı.",
+  "risks": [
+   "Komisyon kuralları değişiyor: Ocak 2027'den itibaren satış komisyonu dört yıla, 2029'dan itibaren yedi yıla yayılacak. Bu, gelirin ve nakdin zamanlamasını değiştirir; kâra etkisi henüz bilinmiyor.",
+   "Temsilcilere peşin ödenen komisyon bilançoda 781,5 milyar won. Poliçeler erken iptal edilirse ya da yeni satış yavaşlarsa bu varlık gider yazılır.",
+   "Temsilciler ayrılabilir: kalıcılık oranı %83,1'den %79,3'e indi; sigorta şirketleri kendi kadrolarını hızla büyütüyor.",
+   "İlk yarıda işletme nakit akışı eksi 27,6 milyar won; kâr nakde dönmüyor.",
+   "Başkan ve genel müdür payları karşılığında borçlu; fiyat düşerse rehinli paylar satılabilir."
+  ],
+  "watch": [
+   "Dört yıllık komisyon düzeni başladıktan sonra hasılat ve net kâr",
+   "Peşin ödenmiş giderler ve işletme nakit akışı",
+   "Temsilci sayısı ve kalıcılık oranı; poliçelerin 13. ve 25. ay devam oranları",
+   "Özsermaye kârlılığı %15'in üzerinde kalıyor mu"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/kosdaq/211050/financials/ratios/"
+   },
+   {
+    "t": "Dazabi (Kore Sigorta Gazetesi haberinden): INCAR ilk yarı hasılatı 640 milyar won (14 Ağu 2026)",
+    "te": "Dazabi (from a Korea Insurance News report): INCAR first-half revenue 640 billion won (14 Aug 2026)",
+    "u": "https://dazabi.com/insurance_magazine/article.php?id=41703"
+   },
+   {
+    "t": "Dealsite: Büyüyen INCAR'da nakit akışı tersine döndü (18 Eyl 2026)",
+    "te": "Dealsite: INCAR grows, cash flow turns negative (18 Sep 2026)",
+    "u": "https://dealsite.co.kr/articles/169090"
+   },
+   {
+    "t": "IB Tomato: INCAR'ın peşin ödenmiş giderleri 782 milyar won (17 Eyl 2026)",
+    "te": "IB Tomato: INCAR's prepaid expenses at 782 billion won (17 Sep 2026)",
+    "u": "https://www.ibtomato.com/ExternalView.aspx?type=1&no=19536"
+   },
+   {
+    "t": "CEO Score Daily: Sigorta satış komisyonu düzenlemesi kesinleşti, yedi yıla kadar taksit (14 Oca 2026)",
+    "te": "CEO Score Daily: Insurance sales commission reform finalised, instalments over up to seven years (14 Jan 2026)",
+    "u": "https://ceoscoredaily.com/page/view/2026011414545022596"
+   },
+   {
+    "t": "NewsTomato: Komisyon taksit düzeni öncesinde acentelerde temsilci kaybı kaygısı (9 Kas 2026)",
+    "te": "NewsTomato: Agencies fear losing agents ahead of the commission instalment system (9 Nov 2026)",
+    "u": "https://www.newstomato.com/ReadNews.aspx?no=1319705"
+   },
+   {
+    "t": "TokenPost: Shim Doo-seop tarafının payı %7,27'ye çıktı (31 Ağu 2026)",
+    "te": "TokenPost: Shim Doo-seop's side raises its stake to 7.27% (31 Aug 2026)",
+    "u": "https://www.tokenpost.kr/news/market/401088"
+   },
+   {
+    "t": "Dealsite: INCAR 2,11 milyon kendi payını iptal ediyor (5 Ara 2025)",
+    "te": "Dealsite: INCAR to cancel 2.11 million treasury shares (5 Dec 2025)",
+    "u": "https://dealsite.co.kr/articles/152822"
+   }
+  ],
+  "en": {
+   "one": "One of Korea's large independent insurance agencies. It passed the quality walls; the advantage rests on a sales force that must be re-recruited every year, and commission rules are changing. The moat is weak.",
+   "business": "INCAR Financial Service is an independent agency (GA) in Korea that sells the policies of many insurers. It earns sales commissions from the insurers and pays most of them on to its own agents. In the first half of 2026 revenue was 640 billion won (+36.5%) and net profit 44.5 billion won (+34.8%). The number of agents rose from 20,651 at the end of 2025 to 24,724 at the end of June.",
+   "moat_text": "The moat is weak. The advantage comes from scale: 24,724 agents, a five-year average real return on equity of 37.4% and 29.7% in the lowest year. But this scale is won anew every year. The agents are not employees; they are recruited with settlement bonuses and can leave. Agent retention fell from 83.1% to 79.3%. In July 2026 the cap on first-year commissions (the 1200% rule) began to apply to what agencies pay their own agents; from January 2027 commissions will be spread over four years, and from 2029 over seven. The rules limit the tools an agency uses to attract agents, and the insurers' own sales forces are growing too (+11.7%). Profit is booked on an accrual basis: commissions paid in advance to agents (prepaid expenses) stand at 781.5 billion won, more than nine times annual profit; operating cash flow in the first half was minus 27.6 billion won. An advantage that has to be defended anew every year does not count as a moat in this filter.",
+   "mgmt": "Founder and chairman Choi Byung-chae and related parties held 43.37% of the shares at the end of 2025. The company paid a dividend of 370 won a share for 2025 (2024: 100 won, 2023: 350 won). It cancelled 2,116,143 treasury shares in December 2025 and signed a 7 billion won buyback contract in June 2026. Flaws: the chairman and the president have borrowed against their shares (2,651,801 of the president's shares are pledged), and the company paid an administrative fine to the regulator after its 2024 inspection. Most of the profit stays in the company and goes into enlarging the agent force.",
+   "latest": "14 August 2026: In the first half revenue was 640 billion won (+36.5%), operating profit 58.3 billion won (+30.1%) and net profit 44.5 billion won (+34.8%). Second-quarter net profit was 22.0 billion won, against 22.5 billion in the first quarter. The company put the fall down to about 6 billion won of one-off costs: an administrative fine and the cost of a golf tournament. The third-quarter report had not been published on 13 November 2026.",
+   "risks": [
+    "Commission rules are changing: from January 2027 sales commissions will be spread over four years, and from 2029 over seven. This changes the timing of revenue and cash; the effect on profit is not yet known.",
+    "Commissions paid in advance to agents stand at 781.5 billion won on the balance sheet. If policies lapse early or new sales slow, this asset is written off as expense.",
+    "Agents can leave: retention fell from 83.1% to 79.3%, and insurers are enlarging their own sales forces quickly.",
+    "Operating cash flow in the first half was minus 27.6 billion won; profit is not turning into cash.",
+    "The chairman and the president have borrowed against their shares; if the price falls, pledged shares could be sold."
+   ],
+   "watch": [
+    "Revenue and net profit once the four-year commission system starts",
+    "Prepaid expenses and operating cash flow",
+    "Number of agents and agent retention; 13th- and 25th-month policy persistency",
+    "Whether return on equity stays above 15%"
+   ]
+  }
+ },
+ "340570": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 1,
+   "E": 0
+  },
+  "moat": "dar",
+  "per": "2026-Q2",
+  "one": "Sivilce yaması ve yara örtüsü üreticisi. Kalite surlarını geçti; satışın yarıdan fazlası tek ABD'li müşteriye bağlı olduğu için 3. surda elendi.",
+  "business": "T&L (티앤엘), hidrokolloid yara örtüsü ve sivilce yaması üretir; ürünlerin çoğunu başka markalar adına yapar. 2026'nın ilk yarısında hasılat 101,1 milyar won; bunun 79,7 milyar wonu hidrokolloid ürünlerden, 78,1 milyar wonu ihracattan geldi. ABD'ye satış 57,4 milyar won. Fabrikalar Yongin ve Anseong'da.",
+  "moat_text": "Hendek dar. Üstünlük üretim bilgisinden ve ölçekten geliyor ve rakamda görünüyor: reel özsermaye kârlılığı beş yılın ortalamasında %20,4, en düşük yılında %15,7; 2026'nın ilk yarısında faaliyet kâr marjı %42,8. Zayıf yanı büyük: marka şirketin değil, müşterinin. Tek bir müşteri 2026'nın ilk yarısında hasılatın %56'sını verdi (56,7 milyar won; 2025'te %45, 2024'te %58). Aracı kurum raporlarına göre bu müşteri, Mighty Patch markasının sahibi Church & Dwight. Aynı raporlara göre müşteri 2025'in ikinci çeyreğinden beri düzenli sipariş yerine stok bittikçe sipariş veriyor. Müşteri stok azaltınca 2025'te ABD satışı %27, net kâr %18 düştü. Şirket bu yüzden E ölçütünden (tek müşteriye bağlılık) geçemedi.",
+  "mgmt": "En büyük ortak Choi Yun-so (%23,70); Choi Hyeon-jun'un payı %11,23. 2025 kârından hisse başına 1.500 won temettü ödendi (bir önceki yıl 750 won); toplam 12,0 milyar won. Eylül 2025 - Eylül 2026 arasında 7,2 milyar wonluk pay geri alındı (143.491 pay); payların iptal edileceği açıklanmadı, şirket bunları satın alma ve çalışan ödülü için tutabileceğini söylüyor. Ağustos 2026'da bedelsiz sermaye artırımı yapıldı (7.942.120 yeni pay; pay sayısı 16.070.120 oldu). Borç yok denecek kadar az: nakit ve kısa vadeli finansal varlıklar 104,2 milyar won, toplam yükümlülük 29,0 milyar won. İlişkili şirket Cosmeditech ile 2025'te 5,8 milyar wonluk varlık satışı, 7,8 milyar wonluk fason alım ve 2,0 milyar wonluk borç verme işlemi var.",
+  "latest": "14 Ağustos 2026: Şirket yarı yıl raporunu açıkladı (21 Ağustos'ta dipnot düzeltmesi yapıldı). İkinci çeyrekte hasılat 56,0 milyar won (geçen yıl 38,8 milyar), faaliyet kârı 25,0 milyar won (geçen yıl 10,0 milyar), net kâr 19,9 milyar won (geçen yıl 7,8 milyar). İlk yarıda hasılat 101,1 milyar won (+%12), net kâr 36,4 milyar won (+%54). Geçen yılın ikinci çeyreği müşterinin stok azaltması yüzünden zayıftı. Üçüncü çeyrek raporunun son günü 14 Kasım 2026; bu rapor yazılırken açıklanmamıştı.",
+  "risks": [
+   "Son 12 ayın kârı tek müşterinin siparişine dayanıyor: ilk yarıda hasılatın %56'sı ondan geldi. Müşteri 2025'te stok azaltınca net kâr %18 düştü; aynı şey yeniden olursa kâr ve hesaplanan marj birlikte düşer.",
+   "Marka müşterinin elinde. Müşteri ikinci bir üretici bulursa ya da üretimi kendine alırsa şirketin bunu engelleyecek bir sözleşmesi olduğu belgelerde görünmüyor.",
+   "Satışın %77'si ihracat. Won değerlenirse ya da ABD gümrük vergisi artarsa marj daralır; ilk yarının kârında 3,2 milyar won kur kazancı var.",
+   "İkinci çeyrekteki %44,6 faaliyet marjı şirketin kendi geçmişine göre de çok yüksek; aracı kurum tahmini üçüncü çeyrekte daha düşük satış ve marj bekliyor.",
+   "İlişkili şirket Cosmeditech ile varlık satışı, fason alım ve borç ilişkisi var; küçük ortak için izlenmesi gereken bir konu."
+  ],
+  "watch": [
+   "En büyük müşterinin hasılattaki payı ve ABD satışı",
+   "14 Kasım 2026'da beklenen üçüncü çeyrek raporunda net kâr",
+   "Yeni müşteri ve ülkelerden gelen satış (ABD dışı ihracat)",
+   "Faaliyet kâr marjı %40'ın üzerinde kalıyor mu"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/kosdaq/340570/financials/ratios/"
+   },
+   {
+    "t": "T&L: 2026 yarı yıl raporu, düzeltilmiş (DART bildirimi, 21 Ağu 2026; financialfilings.com kopyası)",
+    "te": "T&L: half-year report 2026, corrected (DART filing, 21 Aug 2026; copy on financialfilings.com)",
+    "u": "https://financialfilings.com/filings/tl-co-ltd/interim-quarterly-report/2026/57083025/"
+   },
+   {
+    "t": "T&L: 2025 faaliyet raporu (DART bildirimi, 18 Mar 2026; financialfilings.com kopyası)",
+    "te": "T&L: annual report 2025 (DART filing, 18 Mar 2026; copy on financialfilings.com)",
+    "u": "https://financialfilings.com/filings/tl-co-ltd/annual-report/2026/32972968/"
+   },
+   {
+    "t": "T&L: bedelsiz payların kotasyonu (25 Ağu 2026)",
+    "te": "T&L: additional listing of bonus shares (25 Aug 2026)",
+    "u": "https://financialfilings.com/filings/tl-co-ltd/share-issuecapital-change/2026/69083547/"
+   },
+   {
+    "t": "T&L: pay geri alım sözleşmesinin sona ermesi (23 Eyl 2026)",
+    "te": "T&L: termination of the share buyback trust (23 Sep 2026)",
+    "u": "https://financialfilings.com/filings/tl-co-ltd/transaction-in-own-shares/2026/61036584/"
+   },
+   {
+    "t": "Hana Securities: K-güzellik sektör raporu, T&L bölümü (1 Eki 2026)",
+    "te": "Hana Securities: K-beauty sector report, T&L section (1 Oct 2026)",
+    "u": "https://file.alphasquare.co.kr/media/pdfs/market-report/%ED%99%94%EC%9E%A5%ED%92%88K-%EB%B7%B0%ED%8B%B020261001%ED%95%98%EB%82%98%EC%A6%9D%EA%B6%8C.pdf"
+   }
+  ],
+  "en": {
+   "one": "Maker of acne patches and wound dressings. It passed the quality walls; it failed Wall 3 because more than half of sales depend on one US customer.",
+   "business": "T&L (티앤엘) makes hydrocolloid wound dressings and acne patches, mostly for other companies' brands. In the first half of 2026 revenue was 101.1 billion won; 79.7 billion of it came from hydrocolloid products and 78.1 billion from exports. Sales to the United States were 57.4 billion won. The plants are in Yongin and Anseong.",
+   "moat_text": "The moat is narrow. The advantage comes from manufacturing know-how and scale, and it shows in the numbers: real return on equity averaged 20.4% over five years and was 15.7% in the weakest year; the operating margin in the first half of 2026 was 42.8%. The weak side is large: the brand belongs to the customer, not to the company. A single customer gave 56% of revenue in the first half of 2026 (56.7 billion won; 45% in 2025, 58% in 2024). Broker reports identify this customer as Church & Dwight, owner of the Mighty Patch brand. The same reports say that since the second quarter of 2025 the customer orders when its stock runs down instead of on a regular schedule. When the customer cut inventory in 2025, US sales fell 27% and net profit fell 18%. The company therefore did not pass criterion E (dependence on a single customer).",
+   "mgmt": "The largest shareholder is Choi Yun-so (23.70%); Choi Hyeon-jun holds 11.23%. A dividend of 1,500 won a share was paid from 2025 profit (750 won the year before), 12.0 billion won in total. Between September 2025 and September 2026 the company bought back 7.2 billion won of shares (143,491 shares); no cancellation has been announced, and the company says it may keep them for acquisitions and employee awards. A bonus issue was made in August 2026 (7,942,120 new shares; the share count became 16,070,120). There is almost no debt: cash and short-term financial assets are 104.2 billion won against total liabilities of 29.0 billion. With the related company Cosmeditech there were, in 2025, an asset sale of 5.8 billion won, outsourcing purchases of 7.8 billion and a loan of 2.0 billion.",
+   "latest": "14 August 2026: The company published its half-year report (a correction to the notes followed on 21 August). Second-quarter revenue was 56.0 billion won (38.8 billion a year earlier), operating profit 25.0 billion won (10.0 billion a year earlier) and net profit 19.9 billion won (7.8 billion a year earlier). First-half revenue was 101.1 billion won (+12%) and net profit 36.4 billion won (+54%). The second quarter of last year was weak because the customer was cutting inventory. The third-quarter report is due by 14 November 2026; it had not been published when this report was written.",
+   "risks": [
+    "The profit of the last 12 months rests on one customer's orders: it gave 56% of first-half revenue. When the customer cut inventory in 2025 net profit fell 18%; if that happens again, profit and the calculated margin fall together.",
+    "The brand is in the customer's hands. If the customer finds a second manufacturer or takes production in-house, the filings show no contract that would prevent it.",
+    "77% of sales are exports. A stronger won or higher US tariffs would narrow the margin; first-half profit includes 3.2 billion won of currency gains.",
+    "The 44.6% operating margin of the second quarter is very high even by the company's own history; a broker estimate expects lower sales and margin in the third quarter.",
+    "There are asset sales, outsourcing purchases and loans with the related company Cosmeditech; this is something a minority shareholder should follow."
+   ],
+   "watch": [
+    "The largest customer's share of revenue and sales to the United States",
+    "Net profit in the third-quarter report due on 14 November 2026",
+    "Sales from new customers and countries (exports outside the US)",
+    "Whether the operating margin stays above 40%"
+   ]
+  }
+ },
+ "383220": {
+  "scores": {
+   "A": 1,
+   "B": 2,
+   "C": 1,
+   "D": 0,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "2026-Q3",
+  "one": "MLB ve Discovery markalı giyim satıcısı. Kalite surlarını geçti; kârın büyük bölümü ana iş dışındaki golf fonuna bağlandığı için yönetim ölçütünü geçemedi.",
+  "business": "F&F, MLB ve Discovery Expedition markalarıyla giyim, şapka ve ayakkabı tasarlar ve satar; üretimi dışarıya yaptırır. 2025'te hasılat 1,934 trilyon won, esas faaliyet kârı 468,5 milyar won oldu (marj %24,2). Hasılatın yaklaşık yarısı Çin'den gelir (2025'te 960 milyar won). MLB markası şirketin değildir; lisansla kullanılır. Discovery Expedition markasını şirket Ağustos 2026'da 80 milyon dolara satın aldı.",
+  "moat_text": "Hendek dar. Üstünlük rakamda görünüyor: esas faaliyet marjı 2024'te %23,8, 2025'te %24,2; reel özsermaye kârlılığı beş yılın ortalamasında %30,5, en düşük yılında %20,4. Bu marj bir giyim şirketi için yüksektir ve fiyatlama gücünü gösterir. Zayıf yanı: en büyük marka MLB kiralıktır, şirketin malı değildir; lisansın süresini ve bitiş tarihini bu çalıştırmada okuduğumuz belgelerde bulamadık. Kazanç Çin'e bağlı ve orada büyüme durdu: Çin iştirakinin hasılatı 2026'nın üçüncü çeyreğinde %4 geriledi. Reel özsermaye kârlılığı 2021'deki %51,8'den %20-25 aralığına indi.",
+  "mgmt": "Şirket bu ölçütü geçemedi (D = 0). Kontrol F&F Holdings ve birlikte hareket edenlerde: %62,8; halka açıklık oranı %35,0. Kârın küçük bölümü dağıtılıyor: 2025 temettüsü hisse başına 2.700 won, toplam 69,3 milyar won; kâr 401 milyar wondu. 2021'de 558 milyar won, golf malzemesi üreticisi TaylorMade'i satın alan Centroid özel sermaye fonuna yatırıldı. Bu payın defter değeri Haziran 2026 sonunda 718,9 milyar won: toplam varlıkların %27,6'sı. Bu, ana iş dışında büyük bir finansal yatırımdır ve açıklanan kârı da oynatıyor (2025'te özkaynak yöntemiyle 90 milyar won gelir). Şirket şimdi TaylorMade'in tamamını almayı inceliyor; konuşulan fiyat 2,5 milyar dolar dolayında, yani şirketin kendi piyasa değerinden büyük. Beş yılda kârın yaklaşık %85'i şirkette kaldı, reel hisse başına kâr ise büyümedi.",
+  "latest": "10 Kasım 2026: Üçüncü çeyrek ön sonuçları açıklandı. Hasılat 452,1 milyar won (−%4,7), esas faaliyet kârı 108,4 milyar won (−%15,3), ana ortaklık net kârı 65,9 milyar won (−%32,9). Çin iştirakinin hasılatı 272,4 milyar won (−%4): perakende satış yerinde saydı, stok ayarı sevkiyatı azalttı. Şirket TaylorMade için inceleme başlattı; kararın yıl sonuna, en geç 2027 başına kadar verilmesi bekleniyor. Ayrıntılı çeyrek raporu bu yazı yazılırken yayımlanmamıştı.",
+  "risks": [
+   "Son 12 ayın kârı ana işin kazancından yüksek görünüyor: ana ortaklık net kârı 492 milyar won, esas faaliyet kârı ise 481 milyar won. Aradaki fark büyük ölçüde TaylorMade fonundan yazılan gelirdir; fon satılır ya da şirket TaylorMade'i satın alırsa bu gelir kalmaz. Üçüncü çeyrekte net kâr %32,9 düştü.",
+   "MLB markası kiralıktır. Lisans yenilenmezse ya da koşulları ağırlaşırsa işin büyük bölümü etkilenir; süre ve bitiş tarihi okuduğumuz belgelerde yoktu.",
+   "TaylorMade satın alınırsa şirket kendi piyasa değerinden büyük bir işi borçla almış olur; giyimle ilgisi olmayan bir işte.",
+   "Hasılatın yaklaşık yarısı Çin'den gelir. Orada talep ya da kur bozulursa kâr düşer; 2026'da Çin'e sevkiyat iki çeyrektir zayıf.",
+   "Şirket Kore'de işlem görüyor ama kazancının yarısı Çin'de; enflasyon düzeltmesi Kore enflasyonuyla yapıldı."
+  ],
+  "watch": [
+   "TaylorMade kararı: satış mı, satın alma mı; fiyat ve borç tutarı",
+   "Çin iştirakinin hasılatı ve sevkiyatın dördüncü çeyrekte düzelip düzelmediği",
+   "Esas faaliyet marjı %24 dolayında kalıyor mu",
+   "MLB lisansının süresi ve yenilenme koşulları"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/krx/383220/financials/ratios/"
+   },
+   {
+    "t": "DART: F&F, konsolide ön sonuçlar, adil açıklama (10 Kas 2026; bildirimin adresi, içeriği özet sayfadan okundu)",
+    "te": "DART: F&F, consolidated preliminary results, fair disclosure (10 Nov 2026; address of the filing, content read through a summary page)",
+    "u": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800544"
+   },
+   {
+    "t": "Knowingasset: F&F 3Ç26 ön sonuç özeti (10 Kas 2026)",
+    "te": "Knowingasset: F&F 3Q26 preliminary results summary (10 Nov 2026)",
+    "u": "https://www.knowingasset.com/app/calendar/14871"
+   },
+   {
+    "t": "Business Post: Hanwha, F&F hedef fiyatını indirdi; 3. çeyrek ve TaylorMade (11 Kas 2026)",
+    "te": "Business Post: Hanwha cuts F&F target price; third quarter and TaylorMade (11 Nov 2026)",
+    "u": "https://www.businesspost.co.kr/BP?command=article_view&num=451700"
+   },
+   {
+    "t": "RTTNews: F&F 1Ç26 sonuçları (30 Nis 2026)",
+    "te": "RTTNews: F&F Q1 2026 results (30 Apr 2026)",
+    "u": "https://www.rttnews.com/3645356/f-f-q1-operating-income-rises.aspx"
+   },
+   {
+    "t": "Dailian: F&F 2Ç26 sonuçları (31 Tem 2026)",
+    "te": "Dailian: F&F Q2 2026 results (31 Jul 2026)",
+    "u": "https://www.dailian.co.kr/news/view/1673337"
+   },
+   {
+    "t": "finanzen.at / RTTNews: F&F 4Ç25 sonuçları (10 Şub 2026)",
+    "te": "finanzen.at / RTTNews: F&F Q4 2025 results (10 Feb 2026)",
+    "u": "https://www.finanzen.at/nachrichten/aktien/f&f-q4-net-income-rises-1035806673"
+   },
+   {
+    "t": "Bloter: TaylorMade fonu zarara döndü; F&F'in payının defter değeri (7 Eyl 2026)",
+    "te": "Bloter: TaylorMade fund turns to a loss; carrying amount of F&F's stake (7 Sep 2026)",
+    "u": "https://www.bloter.net/news/articleView.html?idxno=672902"
+   },
+   {
+    "t": "DealSite: TaylorMade satış fiyatı ve F&F'in bilançosu (14 Eki 2026)",
+    "te": "DealSite: TaylorMade sale price and F&F's balance sheet (14 Oct 2026)",
+    "u": "https://dealsite.co.kr/articles/170481"
+   },
+   {
+    "t": "IB Tomato: F&F'in nakdi, Discovery marka alımı, temettü politikası (22 Eyl 2026)",
+    "te": "IB Tomato: F&F's cash, Discovery trademark purchase, dividend policy (22 Sep 2026)",
+    "u": "https://www.ibtomato.com/ExternalView.aspx?type=1&no=19589"
+   },
+   {
+    "t": "Eugene Yatırım: F&F, TaylorMade senaryoları (5 Haz 2026)",
+    "te": "Eugene Investment & Securities: F&F, TaylorMade scenarios (5 Jun 2026)",
+    "u": "https://file.alphasquare.co.kr/media/pdfs/market-report/F&F%ED%85%8C%EC%9D%BC%EB%9F%AC%EB%A9%94%EC%9D%B4%EB%93%9C20260605%EC%9C%A0%EC%A7%84%ED%88%AC%EC%9E%90%EC%A6%9D%EA%B6%8C.pdf"
+   },
+   {
+    "t": "Samsung Securities: F&F raporu (13 Nis 2026)",
+    "te": "Samsung Securities: F&F report (13 Apr 2026)",
+    "u": "https://samsungpop.com/common.do?cmd=down&contentType=application%2Fpdf&fileName=2010%2F2026041315273375K_02_03.pdf&inlineYn=Y&saveKey=research.pdf"
+   }
+  ],
+  "en": {
+   "one": "Seller of MLB and Discovery branded apparel. Passed the quality walls; failed the management test: much profit is tied up in a non-core golf fund.",
+   "business": "F&F designs and sells clothing, caps and shoes under the MLB and Discovery Expedition brands; production is outsourced. In 2025 revenue was 1.934 trillion won and operating profit 468.5 billion won (a 24.2% margin). About half of revenue comes from China (960 billion won in 2025). The MLB brand does not belong to the company; it is used under licence. The company bought the Discovery Expedition trademark in August 2026 for 80 million dollars.",
+   "moat_text": "The moat is narrow. The advantage shows in the numbers: the operating margin was 23.8% in 2024 and 24.2% in 2025; real return on equity averaged 30.5% over five years and was 20.4% in its lowest year. That margin is high for an apparel company and shows pricing power. The weak side: the largest brand, MLB, is rented, not owned; we could not find the licence term or expiry date in the documents read in this run. Earnings depend on China, and growth there has stopped: the Chinese subsidiary's revenue fell 4% in the third quarter of 2026. Real return on equity has come down from 51.8% in 2021 to the 20-25% range.",
+   "mgmt": "The company did not pass this test (D = 0). Control lies with F&F Holdings and parties acting with it: 62.8%; the free float is 35.0%. Only a small part of profit is paid out: the 2025 dividend was 2,700 won a share, 69.3 billion won in total, against profit of 401 billion won. In 2021, 558 billion won went into the Centroid private equity fund that bought the golf equipment maker TaylorMade. The carrying amount of this stake was 718.9 billion won at the end of June 2026: 27.6% of total assets. This is a large financial investment outside the main business, and it also moves reported profit (90 billion won of equity-method income in 2025). The company is now examining a purchase of all of TaylorMade; the price being discussed is around 2.5 billion dollars, more than the company's own market value. Over five years about 85% of profit stayed in the company, while real earnings per share did not grow.",
+   "latest": "10 November 2026: Preliminary third-quarter results were announced. Revenue was 452.1 billion won (−4.7%), operating profit 108.4 billion won (−15.3%) and net profit attributable to owners 65.9 billion won (−32.9%). The Chinese subsidiary's revenue was 272.4 billion won (−4%): retail sales were flat and an inventory adjustment reduced shipments. The company has begun due diligence on TaylorMade; a decision is expected by the end of the year, or early 2027 at the latest. The detailed quarterly report had not been published when this was written.",
+   "risks": [
+    "Profit for the last 12 months looks higher than what the main business earns: net profit attributable to owners was 492 billion won, while operating profit was 481 billion won. Most of the gap is income booked from the TaylorMade fund; if the fund is sold, or the company buys TaylorMade, that income goes away. Net profit fell 32.9% in the third quarter.",
+    "The MLB brand is rented. If the licence is not renewed, or its terms get heavier, most of the business is affected; the term and expiry date were not in the documents we read.",
+    "If TaylorMade is bought, the company will have taken on, with debt, a business larger than its own market value, and one unrelated to apparel.",
+    "About half of revenue comes from China. If demand or the exchange rate turns there, profit falls; shipments to China have been weak for two quarters in 2026.",
+    "The company is listed in Korea but earns half its revenue in China; the inflation adjustment was made with Korean inflation."
+   ],
+   "watch": [
+    "The TaylorMade decision: sale or purchase; the price and the amount of debt",
+    "The Chinese subsidiary's revenue, and whether shipments recover in the fourth quarter",
+    "Whether the operating margin stays around 24%",
+    "The term of the MLB licence and its renewal conditions"
+   ]
+  }
+ },
+ "439260": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-Q2",
+  "one": "Orta boy ham petrol tankeri yapan tersane. Kalite surlarını geçti; iş teklifle alınıyor, yüksek marj iki yıllık. Hendek zayıf, 3. surda elendi.",
+  "business": "Daehan Shipbuilding (대한조선), Güney Kore'nin Haenam kentindeki tek tersanesinde orta boy tanker yapar. Ana ürünü 157.000 tonluk Suezmax ham petrol tankeridir; parayı gemiyi yaptıkça, armatörden aldığı taksitlerle kazanır. Eylül 2026 sonunda sipariş defterinde 3,3 milyar dolarlık 35 gemi vardı: 30 Suezmax tanker, 3 mekik tanker, 2 konteyner gemisi. 2025 hasılatı 1.228,1 milyar won, faaliyet kârı 294,1 milyar won.",
+  "moat_text": "Hendek zayıf. Üstünlük gerçek: tersane aynı gemi tipini art arda yapıyor ve faaliyet marjı sekiz çeyrektir %20'nin üzerinde (2026'nın üçüncü çeyreğinde %25,3). Ama gemi siparişi teklifle alınır ve fiyatı dünya yeni gemi piyasası belirler; bugünkü marj 2024'te yüksek fiyatla alınan siparişlerin teslimine dayanıyor. Kanıt da kısa: kaynakta yalnız üç mali yılın özsermaye kârlılığı var (reel %21,1, %52,4 ve %29,2; son 12 ayda %30,6). Bir aracı kurum raporundaki rakamlara göre faaliyet marjı 2023'te %4 dolayındaydı. Döngü tersine dönünce korunacağı kanıtlanmamış bir üstünlüğü bu süzgeç hendek saymıyor; şirket B puanı 1 olduğu için 3. surda elendi.",
+  "mgmt": "En büyük ortak KHI: şirketi 2022'de bir ortak girişimle aldı, 2026 ortasında payı %46,7 idi. Hisse 1 Ağustos 2025'te borsaya girdi; borsa geçmişi bir yılı biraz geçiyor. Kârın küçük bölümü dağıtılıyor: Mart 2026'da 40 milyar wonluk hisse geri alınıp iptal edildi, 9,6 milyar won temettü ödendi. 10 Kasım 2026'da şirket 2027-2029 için yıllık konsolide net kârın en az %30'unu dağıtma sözü verdi ve 10 milyar wonluk yeni geri alım kararı aldı. KHI'nin eski kardeş şirketi K Shipbuilding satışta; basına göre KHI oradaki payını da satmayı planlıyor.",
+  "latest": "11 Kasım 2026: Üçüncü çeyrek hasılatı 327,7 milyar won (+%19,6), faaliyet kârı 82,7 milyar won (+%24,4), net kâr 36,9 milyar won (−%43,9; geçen yıl 65,8 milyar). Basına göre net kârı kur zararı düşürdü (çeyrekte 44,7 milyar won). Dokuz ayda net kâr 193,0 milyar won (+%13,5), faaliyet kârı 260,6 milyar won (+%31,1). Rakamlar ön sonuçtur, denetimden geçmedi. Yıl içinde 1,5 milyar dolarlık 17 Suezmax siparişi alındı; yıllık hedef %62 aşıldı. 12 Kasım 2026'da 249,8 milyar wonluk iki tanker siparişi daha açıklandı (teslim Haziran 2030'a kadar).",
+  "risks": [
+   "Kâr döngüye bağlı: bugünkü marj 2024'te yüksek fiyatla alınan siparişlerden geliyor. Yeni gemi fiyatı ya da tanker talebi düşerse birkaç yıl sonraki teslimlerin marjı da düşer.",
+   "Tek tersane, tek ana ürün: sipariş defterindeki 35 geminin 30'u Suezmax tanker.",
+   "Gelir dolarla, maliyet wonla: kur düşünce kâr düşüyor. Üçüncü çeyrekte net kâr kur zararı yüzünden %43,9 geriledi.",
+   "Geçmiş kısa: hisse Ağustos 2025'te borsaya girdi, kaynakta yalnız üç mali yılın özsermaye kârlılığı var. Hâkim ortak KHI'nin öbür tersanesi el değiştirdi; grubun para ihtiyacı küçük ortağı etkileyebilir."
+  ],
+  "watch": [
+   "Faaliyet marjı %20'nin üzerinde kalıyor mu",
+   "Yeni Suezmax siparişlerinin gemi başına fiyatı ve sipariş defterinin kaç yıllık iş ettiği",
+   "Kur farkı kalemleri ve net kâr ile faaliyet kârı arasındaki fark",
+   "Dağıtım sözü tutuluyor mu: temettü, geri alım ve KHI ile ilişkili işlemler"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/krx/439260/financials/ratios/"
+   },
+   {
+    "t": "DigitalToday: Daehan Shipbuilding 3Ç26 ön sonuç bildirimi özeti (11 Kas 2026)",
+    "te": "DigitalToday: Daehan Shipbuilding 3Q26 preliminary results filing summary (11 Nov 2026)",
+    "u": "https://www.digitaltoday.co.kr/disclosure/articleView.html?idxno=714557"
+   },
+   {
+    "t": "The Elec: Daehan Shipbuilding üçüncü çeyrek sonuçları, kur zararı ve sipariş defteri (12 Kas 2026)",
+    "te": "The Elec: Daehan Shipbuilding third-quarter results, FX loss and backlog (12 Nov 2026)",
+    "u": "https://www.thelec.kr/news/articleView.html?idxno=65306"
+   },
+   {
+    "t": "ZDNet Korea: Daehan Shipbuilding dokuz aylık faaliyet kârı ve dağıtım politikası (11 Kas 2026)",
+    "te": "ZDNet Korea: Daehan Shipbuilding nine-month operating profit and shareholder return policy (11 Nov 2026)",
+    "u": "https://zdnet.co.kr/view/?no=20261111150117"
+   },
+   {
+    "t": "DigitalToday: Daehan Shipbuilding iki tanker siparişi bildirimi, 2025 yıl sonu özet rakamları (12 Kas 2026)",
+    "te": "DigitalToday: Daehan Shipbuilding order filing for two tankers, with year-end 2025 summary figures (12 Nov 2026)",
+    "u": "https://www.digitaltoday.co.kr/disclosure/articleView.html?idxno=714798"
+   },
+   {
+    "t": "Steel & Metal News: Daehan Shipbuilding 2027-2029 dağıtım politikası ve geri alım (10 Kas 2026)",
+    "te": "Steel & Metal News: Daehan Shipbuilding 2027-2029 shareholder return policy and buyback (10 Nov 2026)",
+    "u": "https://www.snmnews.com/news/articleView.html?idxno=577217"
+   },
+   {
+    "t": "Dealsite: KHI'nin K Shipbuilding satış planı ve Daehan Shipbuilding payı (16 Eki 2026)",
+    "te": "Dealsite: KHI's plan to sell K Shipbuilding and its Daehan Shipbuilding stake (16 Oct 2026)",
+    "u": "https://dealsite.co.kr/articles/170781"
+   },
+   {
+    "t": "DigitalToday: KHI pay bildirimi, %46,13 (7 Ağu 2025)",
+    "te": "DigitalToday: KHI shareholding report, 46.13% (7 Aug 2025)",
+    "u": "https://www.digitaltoday.co.kr/aigongsi/1260/khi-daehan-shipbuilding-stake-report"
+   },
+   {
+    "t": "IBK Yatırım: Daehan Shipbuilding şirket raporu (12 Kas 2025)",
+    "te": "IBK Securities: Daehan Shipbuilding company report (12 Nov 2025)",
+    "u": "https://file.alphasquare.co.kr/media/pdfs/company-report/IBK20251112%EB%8C%80%ED%95%9C%EC%A1%B0%EC%84%A0.pdf"
+   }
+  ],
+  "en": {
+   "one": "A shipyard building mid-size crude oil tankers. Passed the quality walls; work is won by bidding, the high margin is recent. Eliminated at Wall 3.",
+   "business": "Daehan Shipbuilding (대한조선) builds mid-size tankers at its single yard in Haenam, South Korea. Its main product is the 157,000-tonne Suezmax crude oil tanker; it earns its money as it builds the ship, from the instalments the shipowner pays. At the end of September 2026 the order book held 35 ships worth 3.3 billion dollars: 30 Suezmax tankers, 3 shuttle tankers and 2 container ships. Revenue in 2025 was 1,228.1 billion won and operating profit 294.1 billion won.",
+   "moat_text": "The moat is weak. The advantage is real: the yard builds the same ship type again and again, and the operating margin has been above 20% for eight quarters (25.3% in the third quarter of 2026). But ship orders are won by bidding and the price is set by the world newbuilding market; today's margin rests on deliveries of orders taken at high prices in 2024. The record is also short: the source has return on equity for only three fiscal years (21.1%, 52.4% and 29.2% in real terms; 30.6% in the last 12 months). According to the figures in a broker report, the operating margin was about 4% in 2023. This filter does not count as a moat an advantage that has not been proven through a downturn; the company was eliminated at Wall 3 because its B score is 1.",
+   "mgmt": "The largest shareholder is KHI: it bought the company in 2022 with a consortium and held 46.7% in mid-2026. The shares were listed on 1 August 2025; the listed history is a little over one year. A small part of profit is paid out: in March 2026 shares worth 40 billion won were bought back and cancelled, and 9.6 billion won of dividends were paid. On 10 November 2026 the company pledged to return at least 30% of annual consolidated net profit for 2027-2029 and approved a new 10 billion won buyback. KHI's former sister company K Shipbuilding is up for sale; according to the press, KHI plans to sell its stake there as well.",
+   "latest": "11 November 2026: Third-quarter revenue was 327.7 billion won (+19.6%), operating profit 82.7 billion won (+24.4%) and net profit 36.9 billion won (−43.9%; 65.8 billion a year earlier). According to the press, a foreign exchange loss pulled net profit down (44.7 billion won in the quarter). Nine-month net profit was 193.0 billion won (+13.5%) and operating profit 260.6 billion won (+31.1%). The figures are preliminary and unaudited. Orders for 17 Suezmax tankers worth 1.5 billion dollars were won during the year; the annual target was exceeded by 62%. On 12 November 2026 an order for two more tankers worth 249.8 billion won was announced (delivery by June 2030).",
+   "risks": [
+    "Profit depends on the cycle: today's margin comes from orders taken at high prices in 2024. If newbuilding prices or tanker demand fall, the margin on deliveries a few years out falls too.",
+    "One yard, one main product: 30 of the 35 ships in the order book are Suezmax tankers.",
+    "Revenue is in dollars and costs are in won: profit falls when the exchange rate falls. In the third quarter net profit dropped 43.9% because of a foreign exchange loss.",
+    "The record is short: the shares were listed in August 2025 and the source has return on equity for only three fiscal years. The other shipyard of the controlling shareholder KHI changed hands; the group's need for cash could affect minority shareholders."
+   ],
+   "watch": [
+    "Whether the operating margin stays above 20%",
+    "The price per ship of new Suezmax orders and how many years of work the order book covers",
+    "Foreign exchange items and the gap between net profit and operating profit",
+    "Whether the payout pledge is kept: dividends, buybacks and dealings with KHI"
+   ]
+  }
+ }
+}

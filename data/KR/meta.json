@@ -1,0 +1,58 @@
+{
+ "cc": "KR",
+ "iso": "410",
+ "name": "Güney Kore",
+ "market": "korea",
+ "exchange": "Kore Borsası (KOSPI ve KOSDAQ)",
+ "cur": "KRW",
+ "asof": "2026-11-12",
+ "fx": 1334.69,
+ "mcapMin": 80000,
+ "years": [
+  "2021",
+  "2022",
+  "2023",
+  "2024",
+  "2025"
+ ],
+ "cpi": {
+  "2021": 3.7,
+  "2022": 5.0,
+  "2023": 3.2,
+  "2024": 1.9,
+  "2025": 2.3,
+  "cur": 2.8
+ },
+ "deflate": "all",
+ "inflation_note": "Kore şirketleri enflasyon muhasebesi uygulamaz. Bu yüzden bütün şirketlerin özsermaye kârlılığı yıl sonu tüketici enflasyonuyla düzeltildi: 2021 için %3,7, 2022 için %5,0, 2023 için %3,2, 2024 için %1,9, 2025 için %2,3. Son 12 ay için en son açıklanan yıllık oran (Ekim 2026, %2,8) kullanıldı.",
+ "data_notes": [
+  "Fiyat, piyasa değeri, F/K ve PD/DD: TradingView tarayıcısı, 12 Kasım 2026. Piyasa değerleri milyon won olarak yazılır. Evren 2.623 paydır (KOSPI ve KOSDAQ). Karşılaştırma: Ekim 2026 sonunda KOSPI'de 829, KOSDAQ'ta 1.822 şirket vardı (Kore Borsası verisi, BizWatch, 5 Kasım 2026); toplam 2.651. Fiyatı ya da piyasa değeri olmayan 15 pay evrene alınmadı.",
+  "Kaynak, üçüncü çeyrek sonucunu yeni açıklayan şirketlerde PD/DD alanını boş veriyordu, çünkü yeni bilanço kaynağa henüz girmemişti. 388 şirkette PD/DD aynı kaynağın güncel PD/DD alanından alındı; bu alan bir önceki dönemin (30 Haziran 2026) bilançosuna dayanır ve şirketin sayfasında belirtilir. Kârı hızla büyüyen şirkette PD/DD bu yüzden olduğundan yüksek görünür. 65 şirkette son yıllık bilanço kullanıldı.",
+  "İki büyük şirkette bu fark üçüncü kaynakla düzeltildi (13 Kasım 2026). Samsung Electronics: kaynak 2,39 veriyordu (30 Haziran bilançosu). Şirketin üçüncü çeyrek sunumunda 30 Eylül 2026 toplam özsermayesi 614,1 trilyon won; ikinci kaynağın (stockanalysis.com) hisse başına defter değeriyle (93.603 won) PD/DD 2,22. SK hynix: kaynak 3,46 veriyordu; ikinci kaynağın 30 Eylül 2026 hisse başına defter değeriyle (428.100 won) 2,93. SK hynix'in eylül sonu özsermayesi şirketin kendi belgesinden doğrulanamadı: çeyrek raporunun yasal süresi 14 Kasım 2026'da doluyor; şirketin açıkladığı %5 borç/özsermaye oranı bu rakamla tutuyor. investing.com ve Yahoo'daki PD/DD'ler de haziran bilançosuna dayanıyordu.",
+  "Öbür büyük şirketlerde fiyat ve piyasa değeri, 12 Kasım 2026 kapanış haberleriyle ve ikinci kaynakla %3 içinde tutuyor; F/K, Samsung Electronics, SK hynix ve SK Square'de %2 içinde. Samsung Biologics'te kaynağın F/K'sı (37,5) üçüncü çeyrek kârını içerir; ikinci kaynağın sayfası daha eskiydi. Samsung Biologics 3 trilyon wonluk bedelli sermaye artırımı yürütüyor; pay sayısı ve PD/DD değişecek.",
+  "Kaynağın F/K alanı boş, ama son 12 ay kârı belli olan 261 şirkette (Samsung Electronics ve SK hynix dahil) F/K aynı kaynaktan hesaplandı (fiyat ÷ hisse başına kâr); bu, şirketin sayfasında belirtilir. 179 şirkette kaynak son 12 ayın kârını vermiyor; en büyükleri Samsung Epis Holdings, KB Balhae Infrastructure Fund ve Elice. Bu şirketler değerlendirilemedi; sayfalarında zarar değil, 'kâr verisi eksik' yazar.",
+  "Beş yıllık oranlar: stockanalysis.com oran sayfaları. 6 adayın sayfası bulunamadı; bu şirketler 2. surda 'veri eksik' olarak durur.",
+  "Yıl sonu enflasyonu: Kore istatistik kurumunun aralık ayı yıllık oranları (2021-2025), resmî bültenin haberlerinden. Son yıllık oran: Veri ve İstatistik Bakanlığı, Ekim 2026 tüketici fiyatları bülteni, 3 Kasım 2026 (%2,8).",
+  "Bu kadar büyük bir borsada 3. sur okuması sırayla yapılır: önce fiyatı kale olmaya yetenler. Okunmayan şirket 'sırada' görünür."
+ ],
+ "small_text": "Piyasa değeri 80 milyar wonun altında",
+ "small_rule": "Piyasa değeri 80 milyar wonun (yaklaşık 60 milyon ABD doları) altındaki şirketler dışarıda kalır.",
+ "en": {
+  "name": "South Korea",
+  "exchange": "Korea Exchange (KOSPI and KOSDAQ)",
+  "cur": "KRW",
+  "inflation_note": "Korean companies do not apply inflation accounting. The return on equity of every company was therefore adjusted by year-end consumer inflation: 3.7% for 2021, 5.0% for 2022, 3.2% for 2023, 1.9% for 2024 and 2.3% for 2025. For the last 12 months the most recently published annual rate (October 2026, 2.8%) was used.",
+  "data_notes": [
+   "Price, market value, P/E and P/B: TradingView screener, 12 November 2026. Market values are in millions of won. The universe is 2,623 stocks (KOSPI and KOSDAQ). For comparison: at the end of October 2026 there were 829 companies on KOSPI and 1,822 on KOSDAQ (Korea Exchange data, BizWatch, 5 November 2026), 2,651 in total. 15 stocks with no price or market value were left out.",
+   "For companies that had just reported third-quarter results the source left the P/B field empty, because the new balance sheet was not in the source yet. For 388 companies P/B was taken from the same source's current P/B field; that field rests on the previous period's balance sheet (30 June 2026), and the company's page says so. For a company whose profit is growing fast, P/B therefore looks higher than it is. For 65 companies the last annual balance sheet was used.",
+   "For the two largest companies this gap was corrected with a third source (13 November 2026). Samsung Electronics: the source gave 2.39 (30 June balance sheet). The company's third-quarter presentation shows total equity of 614.1 trillion won at 30 September 2026; with the second source's (stockanalysis.com) book value per share (93,603 won) P/B is 2.22. SK hynix: the source gave 3.46; with the second source's book value per share at 30 September 2026 (428,100 won) it is 2.93. SK hynix's equity at the end of September could not be confirmed from the company's own document: the legal deadline for the quarterly report is 14 November 2026; the 5% debt-to-equity ratio the company gave agrees with this figure. The P/B figures on investing.com and Yahoo also rested on the June balance sheet.",
+   "For the other large companies price and market value agree within 3% with closing-price reports of 12 November 2026 and with the second source; P/E agrees within 2% for Samsung Electronics, SK hynix and SK Square. For Samsung Biologics the source's P/E (37.5) includes third-quarter profit; the second source's page was older. Samsung Biologics is carrying out a rights offering of 3 trillion won; its share count and P/B will change.",
+   "For 261 companies where the source's P/E field is empty but last-12-month profit is known (including Samsung Electronics and SK hynix), the P/E was calculated from the same source (price ÷ earnings per share); the company's page says so. For 179 companies the source gives no profit figure for the last 12 months; the largest are Samsung Epis Holdings, KB Balhae Infrastructure Fund and Elice. These companies could not be assessed; their pages say 'profit data missing', not a loss.",
+   "Five-year ratios: stockanalysis.com ratio pages. The pages of 6 candidates could not be found; these companies stay at Wall 2 as 'data missing'.",
+   "Year-end inflation: December annual rates from Korea's statistics office (2021-2025), from news reports of the official release. Latest annual rate: Ministry of Data and Statistics, consumer prices release for October 2026, 3 November 2026 (2.8%).",
+   "In a market this large, the Wall 3 reading is done in order: companies priced low enough to be castles come first. A company that has not been read yet is shown as 'in the queue'."
+  ],
+  "small_text": "Market value below 80 billion won",
+  "small_rule": "Companies with a market value below 80 billion won (about 60 million US dollars) are left out."
+ }
+}

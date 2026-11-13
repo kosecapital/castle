@@ -1,0 +1,184 @@
+{
+ "BGEO": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": 20.5,
+   "cur_val": "43.38",
+   "prev_val": "35.99",
+   "unit": "lari / lari (GEL)",
+   "date": "2026-11-03",
+   "url": "https://www.directorstalkinterviews.com/wp-content/uploads/2026/11/43420100-2e2c-4f33-a56d-e06ca2bc6ebd.pdf",
+   "primary": true
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 22.6,
+   "cur_val": "15.42",
+   "prev_val": "12.58",
+   "unit": "lari / lari (GEL)",
+   "date": "2026-11-03",
+   "url": "https://www.directorstalkinterviews.com/wp-content/uploads/2026/11/43420100-2e2c-4f33-a56d-e06ca2bc6ebd.pdf",
+   "primary": true
+  },
+  "guidance": null,
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Diluted EPS in Georgian lari (GEL), from the company's 3Q26/9M26 results announcement (PDF copy of the release hosted on directorstalkinterviews.com; I read the document itself, but it is not on the company's site or an exchange site - lionfinancegroup.uk was blocked - so re-check 'primary' if strict). Basic EPS: 9M 43.81 vs 36.45 (+20.2%), Q3 15.57 vs 12.75 (+22.1%). Profit attributable: 9M 1,865.7 vs 1,571.6 (+18.7%), Q3 661.9 vs 547.2 (+21.0%). CAUTION: the changes are nominal in GEL; the company expects 2026 average inflation of 5.3% in Georgia and 4.5% in Armenia, and the GEL/GBP rate also moves - the script will deflate with UK inflation. No EPS or profit guidance exists: only medium-term targets (loan growth c.15% a year, ROAE 20%+, payout 30-50%), which are not earnings guidance, so 'guidance' is null. Note that both targets are below current run-rates (loan growth 24.6% c.c., ROAE 27.2%). No adjusted figures for 2026 (company reports no one-offs in 9M26 or 9M25). Nothing departed: no exited business or country found. Comparison-base remarks: renegotiated payment-system terms gave a high fee base in 4Q25; AFS 2025 opex included a retention bonus (ex-bonus AFS profit growth would be 28.0% in 9M26 instead of the reported 43%). Dividend yield exists in the source (2.71%), so 'dividend' is null; declared quarterly dividends: 4Q25 2.75, 1Q26 2.85, 2Q26 3.05, 3Q26 3.25 GEL."
+ },
+ "FOUR": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "28 Aralık 2025 - 27 Haziran 2026 (ilk yarı, 26 hafta)",
+   "en": "28 December 2025 - 27 June 2026 (first half, 26 weeks)",
+   "pct": -21.4,
+   "cur_val": "155.1",
+   "prev_val": "197.4",
+   "unit": "sent / US cents",
+   "date": "2026-08-05",
+   "url": "https://investors.4imprint.com/media/av0ltear/4imprint-2026-interim-announcement-final-clean.pdf",
+   "primary": true
+  },
+  "quarter": null,
+  "guidance": {
+   "tr": "2026 yılı için şirket beklentisi (düzeltilmiş vergi öncesi kâr)",
+   "en": "company guidance for 2026 (adjusted profit before tax)",
+   "pct": -13.8,
+   "detail_tr": "düzeltilmiş vergi öncesi kâr yaklaşık 130 milyon dolar; 2025'te 150,8 milyon dolar (2025'te düzeltme kalemi yok). Beklenti hisse başına kâr için değil, vergi öncesi kâr için verildi. 10 Kasım 2026 faaliyet güncellemesinde yinelendi.",
+   "detail_en": "adjusted profit before tax of approximately 130 million dollars; 150.8 million in 2025 (no adjusting items in 2025). The guidance is for profit before tax, not earnings per share. Reaffirmed in the trading update of 10 November 2026.",
+   "date": "2026-08-05",
+   "url": "https://investors.4imprint.com/media/av0ltear/4imprint-2026-interim-announcement-final-clean.pdf",
+   "primary": true
+  },
+  "adjusted": {
+   "what_tr": "Vergi uygulamalarındaki belirsizlik için ilk yarıda ayrılan tek seferlik gider (kâra etkisi 5,1 milyon dolar) hariç düzeltilmiş hisse başına kâr: 173,2 sent (geçen yıl 197,4).",
+   "what_en": "Adjusted basic EPS excluding the first-half one-off charge for uncertain tax treatments (5.1 million dollars effect on profit): 173.2 cents (197.4 a year earlier).",
+   "ytd_pct": -12.3,
+   "quarter_pct": null,
+   "url": "https://investors.4imprint.com/media/av0ltear/4imprint-2026-interim-announcement-final-clean.pdf",
+   "primary": true
+  },
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "All figures in US dollars/cents, as the company reports. H1 2026 basic EPS 155.1c vs 197.4c (-21.4%); diluted 154.7c vs 196.9c; profit for the period 43.5m vs 55.5m (-21.6%). Adjusted basic EPS 173.2c vs 197.4c (-12.3%). The company reports half-yearly only, so there is no standalone quarter. Guidance is for adjusted PBT (about 130m vs 150.8m in FY2025 = -13.8%, my arithmetic), not EPS; the main session should decide whether the script may use a PBT guidance. Guidance read in the company's own interim announcement (5 Aug 2026, primary). Its reaffirmation on 10 Nov 2026 was read only via RTTNews and AJ Bell (not primary); the RNS text itself was not opened. FY2025 EPS was 404.4c vs 416.3c (-3%). No departed business or lost customer found; no permanent cause found: the profit fall is attributed by the company to tariff-related supplier costs and lower interest income. Dividend yield is in the dataset (4.33), so dividend left null; company figures: 2025 regular dividend 240.0c, interim 2026 80.0c (59.4p)."
+ },
+ "MEGP": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Kasım 2025-Nisan 2026 (2026 mali yılının ilk yarısı)",
+   "en": "November 2025-April 2026 (first half of fiscal 2026)",
+   "pct": -3.9,
+   "cur_val": "6.48",
+   "prev_val": "6.74",
+   "unit": "peni / pence",
+   "date": "2026-07-13",
+   "url": "https://me-group.com/wp-content/uploads/2026/07/260713-ME-Group-2026-Interim-Results-RNS-FINAL.pdf",
+   "primary": true
+  },
+  "quarter": null,
+  "guidance": {
+   "tr": "2026 mali yılı için şirket beklentisi (vergi öncesi kâr; hisse başına kâr beklentisi yok)",
+   "en": "company guidance for fiscal 2026 (profit before tax; no EPS guidance)",
+   "pct": -8.6,
+   "detail_tr": "vergi öncesi kâr 69-74 milyon sterlin; 2025 mali yılında 78,2 milyon. Aralık −%11,8 ile −%5,4; ortası −%8,6.",
+   "detail_en": "profit before tax of 69-74 million pounds; 78.2 million in fiscal 2025. The range is −11.8% to −5.4%; −8.6% at the midpoint.",
+   "date": "2026-07-13",
+   "url": "https://me-group.com/wp-content/uploads/2026/07/260713-ME-Group-2026-Interim-Results-RNS-FINAL.pdf",
+   "primary": true
+  },
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Company reports half-yearly only, so there is no standalone quarter. ytd uses diluted EPS (6.48p vs 6.74p = -3.9%); basic is 6.50p vs 6.79p (-4.3%); profit attributable to owners 24,539k vs 25,591k (-4.1%). Guidance is profit before tax, not EPS: 69-74m, first given in the RNS trading update of 1 June 2026 and repeated in the interim results of 13 July 2026; pct is my arithmetic against FY2025 PBT of 78,211k. The company gave no adjusted growth figure; H1 2025 contained a 1,595k gain on sale of a Grenoble office building (pre-tax), which makes the H1 comparison slightly harder, not easier. Nothing found that qualifies as 'departed' or 'permanent': the photobooth decline (FY25 vending revenue -4.0%, H1 26 -6.2%, German ID-photo rule change) is real but the company calls April 'extraordinary and temporary' and laundry grows 16-17%. No FY2026 year-end trading update was found as of 13 Nov 2026 (last year's came on 7 Nov 2025)."
+ },
+ "SNWS": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Eylül 2025-Ağustos 2026 mali yılı (52 hafta)",
+   "en": "fiscal year September 2025-August 2026 (52 weeks)",
+   "pct": -13.7,
+   "cur_val": "10.1",
+   "prev_val": "11.7",
+   "unit": "peni / pence",
+   "date": "2026-11-04",
+   "url": "https://www.ticker.app/lse/SNWS/rns/2026-11-04/Preliminary-Results/6836B",
+   "primary": true
+  },
+  "quarter": {
+   "tr": "Mart-Ağustos 2026 yarıyılı (şirket altı ayda bir raporlar; yıl eksi ilk yarı)",
+   "en": "March-August 2026 half (the company reports half-yearly; full year minus first half)",
+   "pct": -16.4,
+   "cur_val": "5.1",
+   "prev_val": "6.1",
+   "unit": "peni / pence",
+   "date": "2026-11-04",
+   "url": "https://www.ticker.app/lse/SNWS/rns/2026-11-04/Preliminary-Results/6836B",
+   "primary": true
+  },
+  "guidance": null,
+  "adjusted": {
+   "what_tr": "Şirket tek seferlik kalemleri ayırıyor: 2026'da vergi sonrası 3,0 milyon sterlin gider (ağ yeniden yapılanması, teknoloji dönüşümü, program planlaması), 2025'te 1,3 milyon sterlin net kazanç (McColl's alacak karşılığı iptali). Düzeltilmiş hisse başına kâr 11,3 peni (2025: 11,1).",
+   "what_en": "The company separates one-off items: a 3.0 million pound after-tax cost in 2026 (network reorganisation, technology transformation, programme planning) and a 1.3 million pound net credit in 2025 (reversal of the McColl's receivables impairment). Adjusted earnings per share were 11.3 pence (2025: 11.1).",
+   "ytd_pct": 1.8,
+   "quarter_pct": 7.0,
+   "url": "https://www.ticker.app/lse/SNWS/rns/2026-11-04/Preliminary-Results/6836B",
+   "primary": true
+  },
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "All figures read in the 4 Nov 2026 preliminary results RNS (full text on ticker.app) and the 6 May 2026 interim RNS. Statutory basic EPS FY2026 10.1p vs 11.7p = -13.7%. Second half by subtraction (my arithmetic): 10.1-5.0 = 5.1p vs 11.7-5.6 = 6.1p = -16.4%. Adjusted basic EPS: year 11.3 vs 11.1 = +1.8% (company states +1.8%); second half by subtraction 11.3-5.2 = 6.1 vs 11.1-5.4 = 5.7 = +7.0% (my arithmetic, rounded inputs). GUIDANCE: none usable. The company says only that there 'will be a short-term impact on profitability for the business in FY2027', with 7-9m pounds of early-life transition costs in FY2027 and 21-27m of implementation cost split equally between adjusting items and capex; no EPS or profit figure. Broker forecast seen on Stockopedia (Canaccord FY27E adjusted EPS 7.3p, cut 27.7% from 10.1p) is an analyst estimate, not counted. PERMANENT: not applied. Print decline is structural (newspaper revenue -4.1%, magazines -3.2%; company's planning assumption -3% to -5% a year), but it is a revenue trend the company has offset: adjusted operating profit 38.7m vs 39.1m, contracts extended to 2036-2037 with new territories (+c.375m revenue a year). The statutory profit fall is explained by one-off items, not by a lasting cause. DEPARTED: nothing lost; no contract loss found. Source dividend yield exists (5.65p ordinary; no special this year vs 3.00p last year)."
+ },
+ "TBCG": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026 (seyreltilmiş hisse başına kâr, lari)",
+   "en": "January-September 2026 (diluted EPS, lari)",
+   "pct": 13.1,
+   "cur_val": "20.51",
+   "prev_val": "18.14",
+   "unit": "lari / GEL",
+   "date": "2026-11-06",
+   "url": "https://pdf.dfcfw.com/pdf/H22_AN202611060006874162_1.pdf",
+   "primary": true
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği (seyreltilmiş hisse başına kâr, lari)",
+   "en": "July-September 2026 quarter (diluted EPS, lari)",
+   "pct": 12.2,
+   "cur_val": "7.19",
+   "prev_val": "6.41",
+   "unit": "lari / GEL",
+   "date": "2026-11-06",
+   "url": "https://pdf.dfcfw.com/pdf/H22_AN202611060006874162_1.pdf",
+   "primary": true
+  },
+  "guidance": null,
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Read in the full text of the 6 Nov 2026 RNS results report (PDF copy hosted on pdf.dfcfw.com, not the company's own server; the main session may want to re-open it on tbcbankgroup.com). Figures are in GEL, not GBP: the pct values are lari growth, while the site deflates with UK CPI. Basic EPS: 9M 20.78 vs 18.33 (+13.4%), 3Q 7.28 vs 6.48 (+12.3%). Parent net profit: 9M 1,142.5m vs 1,016.9m (+12.3%), 3Q 400.7m vs 359.5m (+11.5%). No profit/EPS guidance: 2026-28 targets are loan growth 15%+, ROE 23%+, payout 25-45% (not usable as guidance); a Quartr summary of the Feb 2026 Strategy Day mentions an aim to double net profit to over 1 billion dollars by 2030 (secondary, long-dated, not used). No adjusted growth given by the company; the 9M 2025 base included a non-recurring pre-tax impairment charge of GEL 24.6m in Uzbekistan (which flatters 2026 growth slightly, about 2% of 9M 2025 profit). Nothing departed; Uzbekistan profit is falling (9M 57.3m vs 95.0m, -39.7%) after central-bank caps on microloans/cards/car loans, but it is about 5% of group profit and the group total still grows. Not judged permanent. Dividend yield exists at the source (4.71%), so dividend left null; declared 2026 quarterly dividends are GEL 1.75 each (5.25 for 9M)."
+ }
+}
