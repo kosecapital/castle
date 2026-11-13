@@ -405,10 +405,11 @@
   "one": "Mağazalar ve markalar adına kredi kartı çıkaran ABD bankası. Kârlı ve sermayesini hissedara döndürüyor; fiyat güvenlik marjı için yetmiyor.",
   "business": "Synchrony, perakendeciler, sağlık hizmeti sunanlar ve markalar adına kredi kartı ve taksitli kredi verir (örnekler: CareCredit, Venmo kartı). Parayı kart borcundan aldığı faizden kazanır; gelirin bir bölümünü iş ortaklarıyla paylaşır. 68,3 milyon aktif hesabı ve 103,3 milyar dolar alacağı var. Fonlamasının %83'ü mevduat.",
   "moat_text": "Hendek dar. Üstünlük ölçekten ve mağazalarla yapılan uzun süreli sözleşmelerden geliyor: net faiz marjı %15,5, maddi özsermaye kârlılığı %25,2. Kartlar mağazanın kasasına ve sadakat programına yerleşmiş durumda; bu yüzden ortağın banka değiştirmesi zahmetli. Zayıf yanı: büyük bir ortak sözleşmeyi yenilemezse hacim de gider; müşteri kitlesinin kredi riski yüksek (net kredi zararı oranı %4,79).",
-  "mgmt": "Kâr hissedara dönüyor: üçüncü çeyrekte 1,1 milyar dolar hisse geri alındı, 110 milyon dolar temettü ödendi; geri alım yetkisinde yaklaşık 4,6 milyar dolar kaldı. Çekirdek sermaye oranı %12,9 (geçen yıl %14,3).",
+  "mgmt": "Kâr hissedara dönüyor: üçüncü çeyrekte 1,1 milyar dolar hisse geri alındı, 110 milyon dolar temettü ödendi; geri alım yetkisinde yaklaşık 4,6 milyar dolar kaldı. Çekirdek sermaye oranı %12,9 (geçen yıl %14,3). Geri alımlar hızlandı: 2025'te 2,9 milyar dolarla 43,7 milyon hisse alındı; seyreltilmiş ortalama pay sayısı bir yılda %6,7 azaldı. 2024 kârının %22,9'u Pets Best satış kazancıydı.",
   "latest": "20 Ekim 2026: Üçüncü çeyrek net kârı 892 milyon dolar, hisse başına 2,68 dolar (geçen yıl 1,1 milyar dolar ve 2,86 dolar). Alışveriş hacmi 49,7 milyar dolar (+%8), alacaklar 103,3 milyar dolar (+%3). Net kredi zararı oranı %4,79 (geçen yıl %5,16); kredi zararı karşılığı 1,3 milyar dolar (+%10). Çeyrekte 10 iş ortağı eklendi ya da yenilendi.",
   "risks": [
    "Kredi döngüsü: işsizlik artarsa kart borçlarındaki zarar hızla büyür. Karşılık üçüncü çeyrekte %10 arttı.",
+   "Beş büyük ortak (Amazon, Lowe's, PayPal, Sam's Club, TJX) 2025'te faiz ve ücret gelirinin %54'ünü getirdi; üçü tek başına %10'un üstünde. Bunlardan birinin sözleşmeyi yenilememesi geliri belirgin düşürür.",
    "Kâr geriliyor: net kâr geçen yılın altında (892 milyon dolar; geçen yıl 1,1 milyar dolar), özsermaye kârlılığı 4,1 puan düşerek %21,0 oldu.",
    "İş birkaç büyük ortağın sözleşmesine dayanıyor; büyük bir ortağın ayrılması hacmi düşürür.",
    "Düzenleme: kart faizlerine ya da gecikme ücretlerine sınır getirilirse gelir doğrudan azalır."
@@ -439,16 +440,22 @@
     "t": "Kazanç yargısının kaynağı",
     "te": "Source for the earnings judgment",
     "u": "https://d1io3yog0oux5.cloudfront.net/_ed32584ad018cf7628a9ab6a24ce0154/synchrony/db/3606/34034/presentation/3Q%2726+Earnings+Presentation_Final.pdf"
+   },
+   {
+    "t": "İkinci okuma: Synchrony Financial Form 10-K for fiscal year 2025 (SEC)",
+    "te": "Second reading: Synchrony Financial Form 10-K for fiscal year 2025 (SEC)",
+    "u": "https://www.sec.gov/Archives/edgar/data/1601712/000160171226000006/syf-20251231.htm"
    }
   ],
   "en": {
    "one": "A US bank that issues credit cards on behalf of stores and brands. Profitable and returning capital to shareholders; the price does not leave a margin of safety.",
    "business": "Synchrony provides credit cards and instalment loans on behalf of retailers, healthcare providers and brands (examples: CareCredit, the Venmo card). It earns interest on card balances and shares part of the income with its partners. It has 68.3 million active accounts and 103.3 billion dollars of receivables. Deposits make up 83% of its funding.",
    "moat_text": "The moat is narrow. The advantage comes from scale and long-term contracts with retailers: net interest margin is 15.5% and return on tangible common equity 25.2%. The cards are built into the store's checkout and loyalty programme, so switching banks is a chore for the partner. The weak point: if a large partner does not renew, the volume goes with it; and the customer base carries high credit risk (net charge-off rate 4.79%).",
-   "mgmt": "Profit returns to shareholders: in the third quarter 1.1 billion dollars of shares were bought back and 110 million dollars of dividends paid; about 4.6 billion dollars remain under the buyback authorisation. The core capital ratio (CET1) is 12.9% (14.3% a year earlier).",
+   "mgmt": "Profit returns to shareholders: in the third quarter 1.1 billion dollars of shares were bought back and 110 million dollars of dividends paid; about 4.6 billion dollars remain under the buyback authorisation. The core capital ratio (CET1) is 12.9% (14.3% a year earlier). Buybacks accelerated: $2.9 billion bought 43.7 million shares in 2025; the average diluted share count fell 6.7% in a year. 22.9% of 2024 profit was the Pets Best sale gain.",
    "latest": "20 October 2026: Third-quarter net profit was 892 million dollars, or 2.68 dollars per share (1.1 billion dollars and 2.86 dollars a year earlier). Purchase volume was 49.7 billion dollars (+8%) and receivables 103.3 billion dollars (+3%). The net charge-off rate was 4.79% (5.16% a year earlier); the provision for credit losses was 1.3 billion dollars (+10%). Ten partners were added or renewed in the quarter.",
    "risks": [
     "The credit cycle: if unemployment rises, losses on card balances grow quickly. The provision rose 10% in the third quarter.",
+    "The five largest partners (Amazon, Lowe's, PayPal, Sam's Club, TJX) produced 54% of 2025 interest and fee income; three each exceeded 10%. If one of them does not renew, revenue falls markedly.",
     "Profit is slipping: net profit is below last year (892 million dollars against 1.1 billion), and return on equity fell 4.1 points to 21.0%.",
     "The business rests on contracts with a few large partners; the departure of a large partner reduces volume.",
     "Regulation: limits on card interest rates or late fees would cut income directly."
@@ -474,6 +481,10 @@
     "tr": "Hesap son 12 ayın kârına dayanır. Şirketin 2026 yılı (yaklaşık 9,50; önceki aralık 9,25-9,50) için hisse başına kâr beklentisi 9,50 USD; son 12 ayda 9,56 USD. Beklenti daha düşük olduğu için kazanç bu orana indirildi (%0,6). Son 12 ayın kârı 0,99 ile çarpılarak kullanıldı.",
     "en": "The calculation rests on the profit of the last 12 months. The company's earnings-per-share outlook for 2026 (about 9.50; previously 9.25-9.50) is 9.50 USD; the last 12 months were 9.56 USD. Because the outlook is lower, earnings were lowered to that ratio (0.6%). Last-12-month profit was used multiplied by 0.99."
    },
+   "per": "2026-Q3"
+  },
+  "chk": {
+   "date": "2026-11-13",
    "per": "2026-Q3"
   }
  },
@@ -568,14 +579,14 @@
   "one": "Hisse ve türev piyasalarında alım satım yapan piyasa yapıcı. Hareketli piyasada çok kazanıyor; kazancı piyasaya bağlı, fiyat yetmiyor.",
   "business": "Virtu, dünya borsalarında sürekli alış ve satış fiyatı vererek piyasa yapıcılık yapar; parayı alış ile satış arasındaki küçük farklardan, çok sayıda işlemle kazanır. Ayrıca kurumlara emir iletim hizmeti satar. 2026'nın üçüncü çeyreğinde düzeltilmiş net alım satım geliri 704,0 milyon dolar; bunun 578,8 milyon doları piyasa yapıcılıktan. Paranın nasıl kazanıldığı dışarıdan izlenemiyor: kâr, şirketin kendi alım satım modellerinden geliyor.",
   "moat_text": "Hendek dar. Üstünlük ölçek ve teknolojiden geliyor: düzeltilmiş FAVÖK marjı %62,2. Bu işe girmek pahalı bir altyapı ve büyük sermaye ister. Zayıf yanı: kazanç işlem hacmine ve oynaklığa bağlı; sakin dönemde kârlılık sert düşüyor (reel özsermaye kârlılığı 2023'te %13'e inmişti; son iki okuma %49 ve %51). Güçlü rakipler aynı işi yapıyor; üstünlüğün kalıcılığı belirsiz.",
-  "mgmt": "Şirketi tek bir kontrol eden ortak yönetiyor ve pay yapısı çok sınıflı; küçük ortağın söz hakkı sınırlı. Halka açık şirket, işi yürüten alt şirketin %58,3'üne sahip; kalan %41,7 diğer ortakların. Çeyreklik temettü hisse başına 0,24 dolar (ödeme oranı %14). Uzun vadeli borç 2,55 milyar dolar. Yönetim kurulu şirketin kuruluş yerini Delaware'den Teksas'a taşımayı onayladı; karar kontrol eden ortağın yazılı onayıyla alındı.",
+  "mgmt": "Şirketi tek bir kontrol eden ortak yönetiyor ve pay yapısı çok sınıflı; küçük ortağın söz hakkı sınırlı. Halka açık şirket, işi yürüten alt şirketin %58,3'üne sahip; kalan %41,7 diğer ortakların. Çeyreklik temettü hisse başına 0,24 dolar (ödeme oranı %14). Uzun vadeli borç 2,55 milyar dolar. Yönetim kurulu şirketin kuruluş yerini Delaware'den Teksas'a taşımayı onayladı; karar kontrol eden ortağın yazılı onayıyla alındı. Kurucu ortak, on oylu hisselerle oyların yaklaşık %87,1'ini tutuyor. Halka arz öncesi ortaklara vergi tasarrufunun %85'i ödeniyor; bu yükümlülük 2025 sonunda 181,9 milyon dolar.",
   "latest": "5 Kasım 2026: Üçüncü çeyrek geliri 1.153,9 milyon dolar (geçen yıl 824,8 milyon), net kâr 282,5 milyon dolar (geçen yıl 149,1 milyon), hisse başına kâr 1,65 dolar (geçen yıl 0,86). Düzeltilmiş net alım satım geliri 704,0 milyon dolar (+%50,7). Dokuz aylık net kâr 914,1 milyon dolar (geçen yıl 631,7 milyon).",
   "risks": [
    "Kazanç oynaklığa bağlı: piyasa sakinleşince gelir hızla düşer. Reel özsermaye kârlılığı 2023'te %13'e inmişti; bugünkü düzey olağan sayılmamalı.",
+   "Hisse bazlı ücret 2025'te 100,4 milyon dolar, net kârın %11,0'i (2023'te %24,2); şirketin 'normalleştirilmiş düzeltilmiş' kârı bu gideri dışarıda bırakıyor.",
+   "Açık davalar var: bir menkul kıymet toplu davası, ortak davaları ve birkaç piyasa manipülasyonu toplu davası sürüyor; şirket olası zarar tutarı vermiyor.",
    "İki veri kaynağı son 12 ayın özsermaye kârlılığını farklı veriyor (nominal %57 ve %30); süzgeç düşük olanı kullandı. Yine de dayandığı üç okumanın hepsi hareketli bir döneme ait.",
-   "Piyasa yapısına ilişkin kurallar değişirse (örneğin bireysel yatırımcı emirlerinin yönlendirilmesi) iş modeli etkilenir.",
-   "Şirketi tek bir ortak kontrol ediyor; küçük ortağın kararlara etkisi sınırlı.",
-   "Kaldıraç: 2,55 milyar dolar uzun vadeli borç ve büyük alım satım pozisyonları (13,8 milyar dolar alım satım varlığı)."
+   "Piyasa yapısına ilişkin kurallar değişirse (örneğin bireysel yatırımcı emirlerinin yönlendirilmesi) iş modeli etkilenir."
   ],
   "watch": [
    "Düzeltilmiş net alım satım geliri (çeyreklik)",
@@ -593,20 +604,25 @@
     "t": "SEC: Virtu Financial 3Ç26 sonuç açıklaması (5 Kas 2026)",
     "te": "SEC: Virtu Financial 3Q26 earnings release (5 Nov 2026)",
     "u": "https://www.sec.gov/Archives/edgar/data/0001592386/000110465926123022/tm2629046d1_ex99-1.htm"
+   },
+   {
+    "t": "İkinci okuma: Virtu Financial, Inc. Form 10-K for fiscal year 2025 (SEC)",
+    "te": "Second reading: Virtu Financial, Inc. Form 10-K for fiscal year 2025 (SEC)",
+    "u": "https://www.sec.gov/Archives/edgar/data/1592386/000159238626000009/virt-20251231.htm"
    }
   ],
   "en": {
    "one": "A market maker trading in equity and derivatives markets. It earns a lot when markets are busy; earnings depend on the market, and the price is not low enough.",
    "business": "Virtu makes markets on exchanges around the world by continuously quoting buy and sell prices; it earns the small difference between the two, across a very large number of trades. It also sells order execution services to institutions. In the third quarter of 2026 adjusted net trading income was 704.0 million dollars, 578.8 million of it from market making. How the money is made cannot be observed from outside: the profit comes from the company's own trading models.",
    "moat_text": "The moat is narrow. The advantage comes from scale and technology: adjusted EBITDA margin is 62.2%. Entering this business takes costly infrastructure and a lot of capital. The weak point: earnings depend on trading volume and volatility; in calm periods profitability drops sharply (real return on equity fell to 13% in 2023; the last two readings are 49% and 51%). Strong competitors do the same job; the durability of the advantage is uncertain.",
-   "mgmt": "One controlling shareholder runs the company and the share structure has several classes; the small shareholder has little say. The listed company owns 58.3% of the operating company; the remaining 41.7% belongs to other partners. The quarterly dividend is 0.24 dollars per share (payout ratio 14%). Long-term debt is 2.55 billion dollars. The board approved moving the company's place of incorporation from Delaware to Texas; the decision was taken by written consent of the controlling shareholder.",
+   "mgmt": "One controlling shareholder runs the company and the share structure has several classes; the small shareholder has little say. The listed company owns 58.3% of the operating company; the remaining 41.7% belongs to other partners. The quarterly dividend is 0.24 dollars per share (payout ratio 14%). Long-term debt is 2.55 billion dollars. The board approved moving the company's place of incorporation from Delaware to Texas; the decision was taken by written consent of the controlling shareholder. The founder holds about 87.1% of the votes through ten-vote shares. Pre-IPO holders receive 85% of certain tax savings; this liability was $181.9 million at end-2025.",
    "latest": "5 November 2026: Third-quarter revenue was 1,153.9 million dollars (824.8 million a year earlier), net profit 282.5 million dollars (149.1 million a year earlier) and earnings per share 1.65 dollars (0.86 a year earlier). Adjusted net trading income was 704.0 million dollars (+50.7%). Nine-month net profit was 914.1 million dollars (631.7 million a year earlier).",
    "risks": [
     "Earnings depend on volatility: when markets calm down, income falls fast. Real return on equity fell to 13% in 2023; today's level should not be taken as normal.",
+    "Share-based pay was $100.4 million in 2025, 11.0% of net income (24.2% in 2023); the company's 'normalized adjusted' profit excludes this cost.",
+    "Lawsuits are pending: a securities class action, shareholder derivative suits and several market-manipulation class actions; the company gives no estimate of possible losses.",
     "The two data sources give different returns on equity for the last 12 months (57% and 30%, nominal); the filter used the lower one. Even so, all three readings it relies on belong to a busy period.",
-    "If market-structure rules change (for example on how retail investors' orders are routed), the business model is affected.",
-    "A single shareholder controls the company; the small shareholder's influence on decisions is limited.",
-    "Leverage: 2.55 billion dollars of long-term debt and large trading positions (13.8 billion dollars of trading assets)."
+    "If market-structure rules change (for example on how retail investors' orders are routed), the business model is affected."
    ],
    "watch": [
     "Adjusted net trading income (quarterly)",
@@ -630,6 +646,10 @@
     "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are."
    },
    "per": "2026-Q3"
+  },
+  "chk": {
+   "date": "2026-11-13",
+   "per": "2026-Q3"
   }
  },
  "XP": {
@@ -637,7 +657,7 @@
    "A": 2,
    "B": 2,
    "C": 1,
-   "D": 2,
+   "D": 1,
    "E": 1
   },
   "moat": "dar",
@@ -645,13 +665,14 @@
   "one": "Brezilya'nın büyük yatırım platformu. Kârlı ve sermayesi güçlü; fiyat güvenlik marjı için yetmiyor.",
   "business": "XP, Brezilya'da bireylere ve kurumlara yatırım hizmeti verir: hisse, tahvil, fon, emeklilik planı, kart ve sigorta. Müşterilerine ağırlıklı olarak bağımsız danışmanlar aracılığıyla ulaşır (18,4 bin danışman). 4,8 milyon aktif müşterisi ve 1,5 trilyon real müşteri varlığı var. 2026'nın ikinci çeyreğinde brüt gelir 5.056 milyon real; bunun 3.881 milyon reali bireysel müşterilerden.",
   "moat_text": "Hendek dar. Üstünlük ölçek, marka ve danışman ağından geliyor: düzeltilmiş özsermaye kârlılığı %22,5, vergi öncesi kâr marjı %32,0. Müşterinin varlığını başka kuruma taşıması zahmetli olduğu için müşteri kolay ayrılmıyor. Zayıf yanı: büyük bankalar aynı müşteriye aynı ürünleri sunuyor; Brezilya'da faiz yükselince müşteri hisseden ve fondan mevduata kayıyor. Aktif müşteri sayısı bir yılda yalnız %1 arttı.",
-  "mgmt": "Sermaye ihtiyacın üzerinde: sermaye yeterlilik oranı %20,3, hedef aralık %16–19. Yönetim fazlayı hissedara dağıtarak hedefe inmeyi planlıyor. 2026'nın ilk yarısında yaklaşık 1 milyar reallik hisse geri alındı; 1 milyar reallik yeni bir program açık.",
+  "mgmt": "Sermaye ihtiyacın üzerinde: sermaye yeterlilik oranı %20,3, hedef aralık %16–19. Yönetim fazlayı hissedara dağıtarak hedefe inmeyi planlıyor. 2026'nın ilk yarısında yaklaşık 1 milyar reallik hisse geri alındı; 1 milyar reallik yeni bir program açık. Hisse bazlı ücret her yıl net kârın %7,6-9,4'ü kadar (2025'te 391,7 milyon real) ve geri alımların bir kısmı bu sulanmayı karşılıyor; Banco Modal da 2,1 milyar reallik yeni hisseyle alındı. Hisse bazlı ücret 2023-2025'te yılda 366-417 milyon real, net kârın %7,6-9,4'ü; şirketin 'düzeltilmiş' kârı bu gideri dışarıda bırakmıyor. Pay sayısı 2025'te %3,7 azaldı, ama 2023'te Banco Modal 18,7 milyon yeni hisseyle alınmıştı.",
   "latest": "17 Ağustos 2026: İkinci çeyrekte brüt gelir 5.056 milyon real (+%8), net kâr 1.384 milyon real (+%5), hisse başına kâr 2,67 real (+%9). Net para girişi 28 milyar real. Kurumsal müşteri gelirleri %117 arttı; sabit getirili ürün gelirleri %16 düştü.",
   "risks": [
    "Şirket Brezilya'da çalışıyor ve hesabını real ile tutuyor; hisse dolarla işlem görüyor. Real değer kaybederse dolar cinsinden kazanç düşer.",
+   "Karşılık ayrılmamış olası dava ve vergi kayıpları 2025 sonunda 3,7 milyar real (özsermayenin %15,7'si); bir yılda 2,5 milyar realden yükseldi.",
+   "Kontrol XP Control'de: çok sınıflı pay yapısıyla oyların %71,3'ü bir grup kişinin elinde; küçük ortağın kararlara etkisi sınırlı.",
    "Süzgeç bu şirketin kârlılığını ABD enflasyonuyla düzeltti. Brezilya'da enflasyon genellikle daha yüksek olduğu için gerçek reel kârlılık burada görünenden bir miktar düşüktür.",
-   "Brezilya'da faiz yüksek kaldıkça yatırımcı riskli ürünlerden uzak durur; komisyon gelirleri baskı altında kalır.",
-   "Rekabet: büyük bankalar ve dijital rakipler aynı müşteri için yarışıyor; aktif müşteri sayısı neredeyse yerinde sayıyor (+%1)."
+   "Brezilya'da faiz yüksek kaldıkça yatırımcı riskli ürünlerden uzak durur; komisyon gelirleri baskı altında kalır."
   ],
   "watch": [
    "Net para girişi ve aktif müşteri sayısı",
@@ -669,19 +690,30 @@
     "t": "SEC: XP Inc. 2Ç26 sonuç açıklaması (17 Ağu 2026)",
     "te": "SEC: XP Inc. 2Q26 earnings release (17 Aug 2026)",
     "u": "https://www.sec.gov/Archives/edgar/data/0001787425/000095010326012481/dp251884_6k-ex9901.htm"
+   },
+   {
+    "t": "İkinci okuma: XP Inc. Form 20-F for fiscal year 2025 (SEC)",
+    "te": "Second reading: XP Inc. Form 20-F for fiscal year 2025 (SEC)",
+    "u": "https://www.sec.gov/Archives/edgar/data/0001787425/000207097926000182/xp-20251231.htm"
+   },
+   {
+    "t": "İkinci okuma: XP Inc. unaudited interim condensed consolidated financial statements, 9M 2025 (company IR file host)",
+    "te": "Second reading: XP Inc. unaudited interim condensed consolidated financial statements, 9M 2025 (company IR file host)",
+    "u": "https://api.mziq.com/mzfilemanager/v2/d/d1820734-8b3f-4a23-8642-331a3a8561a6/2f66c2ee-ad7b-8753-6258-0610c945f73c?origin=1"
    }
   ],
   "en": {
    "one": "A large Brazilian investment platform. Profitable and well capitalised; the price does not leave a margin of safety.",
    "business": "XP provides investment services to individuals and institutions in Brazil: equities, bonds, funds, retirement plans, cards and insurance. It reaches its clients mainly through independent advisers (18.4 thousand advisers). It has 4.8 million active clients and 1.5 trillion reais of client assets. In the second quarter of 2026 gross revenue was 5,056 million reais, 3,881 million of it from retail clients.",
    "moat_text": "The moat is narrow. The advantage comes from scale, brand and the adviser network: adjusted return on equity is 22.5% and the pre-tax margin 32.0%. Moving assets to another firm is a chore, so clients do not leave easily. The weak point: the big banks offer the same products to the same clients; when interest rates rise in Brazil, clients shift from equities and funds to deposits. The number of active clients grew only 1% in a year.",
-   "mgmt": "Capital is above what is needed: the capital adequacy ratio is 20.3% against a target range of 16–19%. Management plans to come down to the target by distributing the excess to shareholders. About 1 billion reais of shares were bought back in the first half of 2026, and a new 1 billion reais programme is open.",
+   "mgmt": "Capital is above what is needed: the capital adequacy ratio is 20.3% against a target range of 16–19%. Management plans to come down to the target by distributing the excess to shareholders. About 1 billion reais of shares were bought back in the first half of 2026, and a new 1 billion reais programme is open. Share-based pay runs at 7.6-9.4% of net income each year (R$391.7 million in 2025) and part of the buybacks only offsets that dilution; Banco Modal was also bought with R$2.1 billion of new shares. Share-based pay was R$366-417 million a year in 2023-2025, 7.6-9.4% of net income; the company's 'adjusted' profit does not exclude it. The share count fell 3.7% in 2025, but Banco Modal was bought with 18.7 million new shares in 2023.",
    "latest": "17 August 2026: In the second quarter gross revenue was 5,056 million reais (+8%), net profit 1,384 million reais (+5%) and earnings per share 2.67 reais (+9%). Net inflow was 28 billion reais. Revenue from corporate clients rose 117%; revenue from fixed-income products fell 16%.",
    "risks": [
     "The company works in Brazil and keeps its accounts in reais; the share trades in dollars. If the real loses value, earnings in dollars fall.",
+    "Possible losses from lawsuits and tax claims not provided for were R$3.7 billion at end-2025 (15.7% of equity), up from R$2.5 billion a year earlier.",
+    "Control sits with XP Control: through a dual-class structure a group of individuals holds 71.3% of the votes; minority shareholders have limited say.",
     "The filter adjusted this company's profitability with US inflation. Inflation in Brazil is usually higher, so true real profitability is somewhat lower than shown here.",
-    "As long as interest rates stay high in Brazil, investors keep away from riskier products and fee income stays under pressure.",
-    "Competition: big banks and digital rivals compete for the same clients; the number of active clients is almost flat (+1%)."
+    "As long as interest rates stay high in Brazil, investors keep away from riskier products and fee income stays under pressure."
    ],
    "watch": [
     "Net inflow and number of active clients",
@@ -704,6 +736,10 @@
     "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı.",
     "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are."
    },
+   "per": "2026-Q2"
+  },
+  "chk": {
+   "date": "2026-11-13",
    "per": "2026-Q2"
   }
  },
@@ -857,8 +893,8 @@
   "growth": {
    "g": 12.1,
    "basis": {
-    "tr": "Formül yılda %24,5 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 %20,6; Temmuz-Eylül 2026 çeyreği %29,7. Önemli bir ortak (Chime) en geç Temmuz 2028'de ayrılıyor; geçmiş büyümenin içinde o da var. Chime'ın payı açıklanmadığı için geçmiş büyüme Chime hariç hesaplanamıyor. Kalan işin büyümesi şirketin ayrılığı da içeren kendi beklentisinden: hisse başına kâr 2026'da 5,95–6,05, 2028'de 8,00–8,20 dolar: yılda %16,2, enflasyondan arındırılınca %12,1. Geçmiş büyüme yerine bu hız kullanıldı: %12,1.",
-    "en": "The formula gave growth of 24.5% a year. Latest figures (earnings per share, year on year): January-September 2026 20.6%; July-September 2026 quarter 29.7%. An important partner (Chime) leaves by July 2028 at the latest; it is part of past growth. Chime's share is not disclosed, so past growth cannot be calculated without it. Growth of the remaining business, from the company's own outlook, which includes the departure: earnings per share of 5.95–6.05 dollars in 2026 and 8.00–8.20 in 2028: 16.2% a year, 12.1% after inflation. This rate was used instead of past growth: 12.1%."
+    "tr": "Formül yılda %20,5 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 %20,6; Temmuz-Eylül 2026 çeyreği %29,7. Önemli bir ortak (Chime) en geç Temmuz 2028'de ayrılıyor; geçmiş büyümenin içinde o da var. Chime'ın payı açıklanmadığı için geçmiş büyüme Chime hariç hesaplanamıyor. Kalan işin büyümesi şirketin ayrılığı da içeren kendi beklentisinden: hisse başına kâr 2026'da 5,95–6,05, 2028'de 8,00–8,20 dolar: yılda %16,2, enflasyondan arındırılınca %12,1. Geçmiş büyüme yerine bu hız kullanıldı: %12,1.",
+    "en": "The formula gave growth of 20.5% a year. Latest figures (earnings per share, year on year): January-September 2026 20.6%; July-September 2026 quarter 29.7%. An important partner (Chime) leaves by July 2028 at the latest; it is part of past growth. Chime's share is not disclosed, so past growth cannot be calculated without it. Growth of the remaining business, from the company's own outlook, which includes the departure: earnings per share of 5.95–6.05 dollars in 2026 and 8.00–8.20 in 2028: 16.2% a year, 12.1% after inflation. This rate was used instead of past growth: 12.1%."
    },
    "per": "2026-Q3"
   },
@@ -1114,7 +1150,7 @@
    "A": 2,
    "B": 3,
    "C": 1,
-   "D": 2,
+   "D": 1,
    "E": 1
   },
   "moat": "geniş",
@@ -1122,14 +1158,14 @@
   "one": "Yapay zekâ çiplerinin açık ara lideri. Hendek geniş, kârlılık olağanüstü; talep tek bir yatırım dalgasına bağlı, fiyat pahalı.",
   "business": "NVIDIA, yapay zekâ modellerini eğiten ve çalıştıran çipleri ve bu çiplerin çevresindeki sistemleri tasarlar; üretimi dışarıya yaptırır. 26 Temmuz 2026'da biten çeyrekte hasılat 96,2 milyar dolar; bunun 89,0 milyar doları veri merkezi kolundan. Net kâr 59,7 milyar dolar.",
   "moat_text": "Hendek geniş. Üstünlük çipin kendisinden çok, yıllardır biriken yazılım ve geliştirici ekosisteminden geliyor; başka çipe geçen müşteri yazılımını yeniden kurmak zorunda kalır. Fiyatlama gücü marjda görünüyor: brüt marj %75,0. Zayıf yanı: en büyük müşteriler kendi çiplerini de tasarlıyor; üstünlüğün her yeni ürün kuşağında yeniden kazanılması gerekiyor.",
-  "mgmt": "Net borç yok. Çeyrekte hissedara yaklaşık 26,0 milyar dolar döndü (geri alım ve temettü); serbest nakit akışı 21,3 milyar dolardı. Geri alım yetkisinde yaklaşık 99,0 milyar dolar duruyor. Çeyreklik temettü hisse başına 0,25 dolar.",
+  "mgmt": "Net borç yok. Çeyrekte hissedara yaklaşık 26,0 milyar dolar döndü (geri alım ve temettü); serbest nakit akışı 21,3 milyar dolardı. Geri alım yetkisinde yaklaşık 99,0 milyar dolar duruyor. Çeyreklik temettü hisse başına 0,25 dolar. Kârın büyük bir bölümü ana iş dışındaki şirket paylarına gidiyor: bu paylar Temmuz 2026'da 94,0 milyar dolara, özsermayenin %41'ine çıktı ve ilk yarıyıl kârının %20'si bu payların değer artışından geldi. Şirket başka şirketlerin paylarına hızla yatırım yapıyor: payların değeri Ocak 2026'da 35,2 milyar dolardan Temmuz 2026'da 94,0 milyar dolara çıktı. Groq lisansı ve çalışan transferi için yaklaşık 17 milyar dolar ödendi.",
   "latest": "26 Ağustos 2026: 26 Temmuz'da biten çeyrekte hasılat 96,2 milyar dolar (+%106), veri merkezi geliri 89,0 milyar dolar (+%117), net kâr 59,7 milyar dolar, hisse başına kâr 2,46 dolar. Gelecek çeyrek için hasılat beklentisi 108,0 milyar dolar; bu beklenti Çin'e veri merkezi çipi satışı içermiyor. Yeni çip kuşağı Vera Rubin seri üretime girdi.",
   "risks": [
    "Yoğunlaşma: hasılatın yaklaşık %93'ü veri merkezi kolundan geliyor ve bu talep az sayıda büyük şirketin yapay zekâ yatırımına bağlı. Yatırım yavaşlarsa satış hızla düşer.",
+   "Kârın bir bölümü işten değil, elde tutulan şirket paylarının değer artışından geliyor: 2027 mali yılının ilk yarısında 23,7 milyar dolar, net kârın %20'si. Bu kazanç tekrarlanmayabilir; şirketin kendi düzeltilmiş kârı ikinci çeyrekte 54,0 milyar dolar, raporlanan 59,7 milyar dolar.",
+   "Şirket 95,2 milyar dolarlık tedarik ve kapasite taahhüdü ile yeni kurulan şirketlere 3,5 milyar dolarlık arazi ve enerji garantisi verdi; talep düşerse bu yükümlülükler zarar yazdırabilir (2026 mali yılında 4,5 milyar dolarlık H20 stok zararı gibi).",
    "Döngü: çip sektörü döngüseldir. Reel özsermaye kârlılığı 2023 mali yılında %14'e inmişti; bugün %100 dolayında.",
-   "Çin: şirket, Çin'e veri merkezi çipi satışını beklentisine katmıyor; bu pazar ticaret kısıtları nedeniyle belirsiz.",
-   "Rekabet: büyük müşteriler kendi çiplerini tasarlıyor, rakip çip üreticileri fiyatla baskı yapıyor.",
-   "Fiyat: temkinli hesapla hisse adil değerin üzerinde; güvenlik marjı yok."
+   "Çin: şirket, Çin'e veri merkezi çipi satışını beklentisine katmıyor; bu pazar ticaret kısıtları nedeniyle belirsiz."
   ],
   "watch": [
    "Veri merkezi gelirinin çeyreklik büyümesi",
@@ -1157,20 +1193,30 @@
     "t": "Kazanç yargısının kaynağı",
     "te": "Source for the earnings judgment",
     "u": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/5f86707e-03f3-4e5e-b9bd-048e42123723.pdf"
+   },
+   {
+    "t": "İkinci okuma: NVIDIA Form 10-K for fiscal 2026 (year ended 25 January 2026), SEC EDGAR",
+    "te": "Second reading: NVIDIA Form 10-K for fiscal 2026 (year ended 25 January 2026), SEC EDGAR",
+    "u": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm"
+   },
+   {
+    "t": "İkinci okuma: NVIDIA press release: financial results for Q2 fiscal 2027 (26 August 2026)",
+    "te": "Second reading: NVIDIA press release: financial results for Q2 fiscal 2027 (26 August 2026)",
+    "u": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/"
    }
   ],
   "en": {
    "one": "The clear leader in AI chips. The moat is wide and profitability extraordinary; demand depends on a single investment wave, and the price is expensive.",
    "business": "NVIDIA designs the chips that train and run AI models and the systems around them; it outsources manufacturing. In the quarter ended 26 July 2026 revenue was 96.2 billion dollars, 89.0 billion dollars of it from the data centre segment. Net profit was 59.7 billion dollars.",
    "moat_text": "The moat is wide. The advantage comes less from the chip itself than from the software and developer ecosystem built up over years; a customer that moves to another chip has to rebuild its software. Pricing power shows in the margin: gross margin is 75.0%. The weak point: the largest customers also design their own chips; the advantage has to be won again with each new product generation.",
-   "mgmt": "No net debt. About 26.0 billion dollars went back to shareholders in the quarter (buybacks and dividends); free cash flow was 21.3 billion dollars. About 99.0 billion dollars remain under the buyback authorisation. The quarterly dividend is 0.25 dollars per share.",
+   "mgmt": "No net debt. About 26.0 billion dollars went back to shareholders in the quarter (buybacks and dividends); free cash flow was 21.3 billion dollars. About 99.0 billion dollars remain under the buyback authorisation. The quarterly dividend is 0.25 dollars per share. A large part of profit now goes into equity stakes in other companies: these reached 94.0 billion dollars in July 2026, 41% of equity, and 20% of first-half profit came from gains on them. The company is investing fast in stakes in other companies: their value rose from 35.2 billion dollars in January 2026 to 94.0 billion in July 2026. About 17 billion dollars was paid for the Groq licence and staff.",
    "latest": "26 August 2026: In the quarter ended 26 July revenue was 96.2 billion dollars (+106%), data centre revenue 89.0 billion dollars (+117%), net profit 59.7 billion dollars and earnings per share 2.46 dollars. The revenue outlook for the next quarter is 108.0 billion dollars; it includes no data centre chip sales to China. The new chip generation, Vera Rubin, entered full production.",
    "risks": [
     "Concentration: about 93% of revenue comes from the data centre segment, and that demand depends on the AI spending of a small number of large companies. If the spending slows, sales fall fast.",
+    "Part of profit comes not from operations but from gains on equity stakes: 23.7 billion dollars in the first half of fiscal 2027, 20% of net profit. These gains may not repeat; the company's own non-GAAP profit was 54.0 billion dollars in Q2 versus 59.7 billion reported.",
+    "The company has 95.2 billion dollars of supply and capacity commitments and 3.5 billion dollars of land and power guarantees for early-stage companies; if demand falls these can cause losses (like the 4.5 billion dollar H20 inventory charge in fiscal 2026).",
     "The cycle: the chip industry is cyclical. Real return on equity fell to 14% in fiscal 2023; today it is around 100%.",
-    "China: the company leaves data centre chip sales to China out of its outlook; this market is uncertain because of trade restrictions.",
-    "Competition: large customers design their own chips, and rival chip makers press on price.",
-    "Price: on the conservative calculation the share is above fair value; there is no margin of safety."
+    "China: the company leaves data centre chip sales to China out of its outlook; this market is uncertain because of trade restrictions."
    ],
    "watch": [
     "Quarterly growth in data centre revenue",
@@ -1193,6 +1239,10 @@
     "tr": "Hesap son 12 ayın kârına dayanır. Bu kârın içindeki tek seferlik kazançlar: Hisse senedi yatırımlarından net kazanç (halka açık ve halka açık olmayan şirket payları); şirket bunu düzeltilmiş (non-GAAP) kârının dışında tutuyor: son 12 ay kârının %0,6 kadarı; Hisse senedi yatırımlarından net kazanç (halka açık ve halka açık olmayan şirket payları); şirket bunu düzeltilmiş (non-GAAP) kârının dışında tutuyor: son 12 ay kârının %2,4 kadarı; Hisse senedi yatırımlarından net kazanç (halka açık ve halka açık olmayan şirket payları); şirket bunu düzeltilmiş (non-GAAP) kârının dışında tutuyor: son 12 ay kârının %7,0 kadarı; Hisse senedi yatırımlarından net kazanç (halka açık ve halka açık olmayan şirket payları); şirket bunu düzeltilmiş (non-GAAP) kârının dışında tutuyor: son 12 ay kârının %3,4 kadarı. Net etki %13,5; kazanç bu kadar indirildi. Son 12 ayın kârı 0,86 ile çarpılarak kullanıldı.",
     "en": "The calculation rests on the profit of the last 12 months. One-off gains inside that profit: Net gains from equity securities (non-marketable and publicly held); the company excludes them from its non-GAAP profit: 0.6% of last-12-month profit; Net gains from equity securities (non-marketable and publicly held); the company excludes them from its non-GAAP profit: 2.4% of last-12-month profit; Net gains from equity securities (non-marketable and publicly held); the company excludes them from its non-GAAP profit: 7.0% of last-12-month profit; Net gains from equity securities (non-marketable and publicly held); the company excludes them from its non-GAAP profit: 3.4% of last-12-month profit. The net effect is 13.5%; earnings were lowered by that much. Last-12-month profit was used multiplied by 0.86."
    },
+   "per": "2026-Q2"
+  },
+  "chk": {
+   "date": "2026-11-13",
    "per": "2026-Q2"
   }
  },

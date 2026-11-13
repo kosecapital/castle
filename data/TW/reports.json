@@ -12,7 +12,7 @@
   "one": "Fırın ve pastane makineleri üreten Tayvanlı şirket. Kalite surlarını geçti; kârı bu yıl geriledi, fiyat yüzünden kapıda bekliyor.",
   "business": "Sinmag (新麥) fırın, hamur karıştırıcı, mayalandırma dolabı gibi pastane ve fırın makineleri üretir; ana fabrikası Çin'in Wuxi kentindedir. Ürünlerini zincir pastanelere, tek dükkânlara ve süpermarketlere satar. 2025'te hasılat 4,88 milyar Tayvan doları, hisse başına kâr 12,54 Tayvan doları oldu. 2025'in ilk dokuz ayında hasılatın %38'i Çin'den, %31'i Amerika kıtasından, %22'si Asya'nın geri kalanından geldi.",
   "moat_text": "Hendek dar. Üstünlük ölçekten ve servis ağından geliyor: Tayvan basını şirketi Asya'nın en büyük fırın makinesi üreticisi diye anıyor, Çin'de 40 satış ve servis noktası var, müşteri sayısı 6.800'ü geçiyor. Kanıt marjda: 2026'nın ilk dokuz ayında brüt marj %42,7, reel özsermaye kârlılığı beş yılda %10,8 ile %20,6 arasında. Zayıf yanı da açık: şirket Çin'de pazar payını korumak için fiyat indirdi, ABD gümrük vergisinin bir bölümünü kendi üstlendi ve brüt marj 2025'te çeyrekten çeyreğe geriledi. Bu, fiyatlama gücünün sınırlı olduğunu gösteriyor; hendek geniş sayılamaz.",
-  "mgmt": "Yönetim kurulu başkanı ve genel müdür Hsieh Shun-ho (謝順和). Kâr hissedara dönüyor: 2025 kârından hisse başına 8,5 Tayvan doları nakit temettü ödendi (kârın %67,7'si), bir yıl önce 9,16 Tayvan doları. Şirket kendi hisselerini de geri aldı. Kısa vadeli banka borcu yok; net nakit var (net borç/FAVÖK −1,31). Kalan para ana işe gidiyor: Wuxi'deki yeni fabrikanın ilk bölümü Şubat 2026'da açıldı, ikincisi 2027'nin ikinci çeyreğinde bekleniyor. Çin'deki bağlı şirket Sinmag Machinery, Şanghay Borsası'na kote olmak için başvurdu; bu gerçekleşirse o şirketin kârındaki azınlık payı büyür.",
+  "mgmt": "Yönetim kurulu başkanı ve genel müdür Hsieh Shun-ho (謝順和). Kâr hissedara dönüyor: 2025 kârından hisse başına 8,5 Tayvan doları nakit temettü ödendi (kârın %67,7'si), bir yıl önce 9,16 Tayvan doları. Şirket kendi hisselerini de geri aldı. Kısa vadeli banka borcu yok; net nakit var (net borç/FAVÖK −1,31). Kalan para ana işe gidiyor: Wuxi'deki yeni fabrikanın ilk bölümü Şubat 2026'da açıldı, ikincisi 2027'nin ikinci çeyreğinde bekleniyor. Çin'deki bağlı şirket Sinmag Machinery, Şanghay Borsası'na kote olmak için başvurdu; bu gerçekleşirse o şirketin kârındaki azınlık payı büyür. 2025'te 891 bin hisse 128,5 milyon Tayvan dolarına geri alınıp iptal edildi; pay sayısı %1,8 azaldı. Yönetimle ilişkili dokuz fırıncılık şirketiyle alım satım var (2025'te alım 60,9 milyon, satış 24,9 milyon Tayvan doları); hasılata göre küçük.",
   "latest": "6 Kasım 2026: Yönetim kurulu 2026'nın ilk dokuz ayının sonuçlarını onayladı. Hasılat 3,53 milyar Tayvan doları (geçen yılın aynı dönemi 3,65 milyar), faaliyet kârı 610 milyon, ana ortaklığa düşen net kâr 381 milyon Tayvan doları. Hisse başına kâr 7,73 Tayvan doları; geçen yılın aynı döneminde 9,37 idi. Eylül sonunda ana ortaklığa ait özsermaye 3,29 milyar Tayvan doları. Eylül ayı hasılatı 448 milyon Tayvan doları ile geçen yılın %4,1 altında kaldı.",
   "risks": [
    "Kâr geriliyor: 2026'nın ilk dokuz ayında hisse başına kâr 9,37'den 7,73 Tayvan dolarına indi. Temkinli hesapta kullanılan özsermaye kârlılığı düşerse fiyat ölçütünden uzaklaşır.",
@@ -72,13 +72,23 @@
     "t": "Cnyes: Sinmag şirket bilgileri",
     "te": "Cnyes: Sinmag company profile",
     "u": "https://www.cnyes.com/twstock/profile/1580.htm"
+   },
+   {
+    "t": "İkinci okuma: Sinmag Equipment: 2025 consolidated financial statements, English (company investor page)",
+    "te": "Second reading: Sinmag Equipment: 2025 consolidated financial statements, English (company investor page)",
+    "u": "https://www.sinmag.com.tw/proimages/pdf/114%E5%B9%B4%E8%B2%A1%E5%A0%B1/2025Q4%E5%90%88%E4%BD%B5%E8%8B%B1%E6%96%87%E5%A0%B1.pdf"
+   },
+   {
+    "t": "İkinci okuma: Sinmag Equipment: H1 2026 consolidated financial statements, reviewed (company investor page)",
+    "te": "Second reading: Sinmag Equipment: H1 2026 consolidated financial statements, reviewed (company investor page)",
+    "u": "https://www.sinmag.com.tw/proimages/pdf/115年財報/2026Q2合併財務報告.pdf"
    }
   ],
   "en": {
    "one": "A Taiwanese maker of bakery ovens and machines. It passed the quality walls; profit fell this year, and it waits at the gate on price.",
    "business": "Sinmag (新麥) makes bakery machines such as ovens, dough mixers and proofing cabinets; its main plant is in Wuxi, China. It sells to bakery chains, single shops and supermarkets. In 2025 revenue was 4.88 billion Taiwan dollars and earnings per share 12.54 Taiwan dollars. In the first nine months of 2025, 38% of revenue came from China, 31% from the Americas and 22% from the rest of Asia.",
    "moat_text": "The moat is narrow. The advantage comes from scale and the service network: the Taiwanese press calls the company Asia's largest bakery equipment maker, it has 40 sales and service points in China, and it serves more than 6,800 customers. The evidence is in the margin: gross margin was 42.7% in the first nine months of 2026, and real return on equity ranged from 10.8% to 20.6% over five years. The weak side is also clear: the company cut prices in China to defend its share, absorbed part of the US tariff itself, and gross margin fell quarter after quarter in 2025. This shows pricing power is limited; the moat cannot be called wide.",
-   "mgmt": "The chairman and general manager is Hsieh Shun-ho (謝順和). Profit returns to shareholders: a cash dividend of 8.5 Taiwan dollars per share was paid from 2025 profit (67.7% of profit), after 9.16 Taiwan dollars a year earlier. The company also bought back its own shares. It has no short-term bank debt and holds net cash (net debt/EBITDA −1.31). The rest goes into the core business: the first part of the new Wuxi plant opened in February 2026 and the second is expected in the second quarter of 2027. The Chinese subsidiary, Sinmag Machinery, has applied to list on the Shanghai Stock Exchange; if that happens, the minority share in that company's profit grows.",
+   "mgmt": "The chairman and general manager is Hsieh Shun-ho (謝順和). Profit returns to shareholders: a cash dividend of 8.5 Taiwan dollars per share was paid from 2025 profit (67.7% of profit), after 9.16 Taiwan dollars a year earlier. The company also bought back its own shares. It has no short-term bank debt and holds net cash (net debt/EBITDA −1.31). The rest goes into the core business: the first part of the new Wuxi plant opened in February 2026 and the second is expected in the second quarter of 2027. The Chinese subsidiary, Sinmag Machinery, has applied to list on the Shanghai Stock Exchange; if that happens, the minority share in that company's profit grows. In 2025 the company bought back and cancelled 891 thousand shares for TWD 128.5 million, cutting the share count by 1.8%. It trades with nine related bakery-sector companies (2025 purchases TWD 60.9 million, sales 24.9 million), small against revenue.",
    "latest": "6 November 2026: The board approved the results for the first nine months of 2026. Revenue was 3.53 billion Taiwan dollars (3.65 billion in the same period last year), operating profit 610 million, and net profit attributable to the parent 381 million Taiwan dollars. Earnings per share were 7.73 Taiwan dollars, against 9.37 in the same period last year. Equity attributable to the parent was 3.29 billion Taiwan dollars at the end of September. September revenue was 448 million Taiwan dollars, 4.1% below last year.",
    "risks": [
     "Profit is falling: earnings per share for the first nine months of 2026 dropped from 9.37 to 7.73 Taiwan dollars. If the return on equity used in the conservative calculation falls, the share moves further from the price criterion.",
@@ -108,6 +118,10 @@
     "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı.",
     "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are."
    },
+   "per": "2026-Q3"
+  },
+  "chk": {
+   "date": "2026-11-13",
    "per": "2026-Q3"
   }
  },
@@ -260,8 +274,8 @@
   "growth": {
    "g": null,
    "basis": {
-    "tr": "Formül yılda %11,0 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 %61,8; Temmuz-Eylül 2026 çeyreği %26,3. En düşüğü, enflasyondan arındırılınca, %23,4. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
-    "en": "The formula gave growth of 11.0% a year. Latest figures (earnings per share, year on year): January-September 2026 61.8%; July-September 2026 quarter 26.3%. The lowest, after inflation, is 23.4%. That is not less than half the formula's rate; the rate was not lowered."
+    "tr": "Formül yılda %8,8 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 %61,8; Temmuz-Eylül 2026 çeyreği %26,3. En düşüğü, enflasyondan arındırılınca, %23,4. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 8.8% a year. Latest figures (earnings per share, year on year): January-September 2026 61.8%; July-September 2026 quarter 26.3%. The lowest, after inflation, is 23.4%. That is not less than half the formula's rate; the rate was not lowered."
    },
    "per": "2026-Q3"
   },
@@ -369,8 +383,8 @@
   "growth": {
    "g": null,
    "basis": {
-    "tr": "Formül yılda %22,6 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 %68,5; Temmuz-Eylül 2026 çeyreği %68,7. En düşüğü, enflasyondan arındırılınca, %64,6. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
-    "en": "The formula gave growth of 22.6% a year. Latest figures (earnings per share, year on year): January-September 2026 68.5%; July-September 2026 quarter 68.7%. The lowest, after inflation, is 64.6%. That is not less than half the formula's rate; the rate was not lowered."
+    "tr": "Formül yılda %21,1 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 %68,5; Temmuz-Eylül 2026 çeyreği %68,7. En düşüğü, enflasyondan arındırılınca, %64,6. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 21.1% a year. Latest figures (earnings per share, year on year): January-September 2026 68.5%; July-September 2026 quarter 68.7%. The lowest, after inflation, is 64.6%. That is not less than half the formula's rate; the rate was not lowered."
    },
    "per": "2026-Q3"
   },
@@ -461,8 +475,8 @@
   "growth": {
    "g": null,
    "basis": {
-    "tr": "Formül yılda %18,7 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 %165,5; Temmuz-Eylül 2026 çeyreği %261,7. En düşüğü, enflasyondan arındırılınca, %159,5. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
-    "en": "The formula gave growth of 18.7% a year. Latest figures (earnings per share, year on year): January-September 2026 165.5%; July-September 2026 quarter 261.7%. The lowest, after inflation, is 159.5%. That is not less than half the formula's rate; the rate was not lowered."
+    "tr": "Formül yılda %17,4 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 %165,5; Temmuz-Eylül 2026 çeyreği %261,7. En düşüğü, enflasyondan arındırılınca, %159,5. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 17.4% a year. Latest figures (earnings per share, year on year): January-September 2026 165.5%; July-September 2026 quarter 261.7%. The lowest, after inflation, is 159.5%. That is not less than half the formula's rate; the rate was not lowered."
    },
    "per": "2026-Q3"
   },
@@ -756,8 +770,8 @@
   "growth": {
    "g": null,
    "basis": {
-    "tr": "Formül yılda %25,0 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 %129,0; Temmuz-Eylül 2026 çeyreği %114,5. En düşüğü, enflasyondan arındırılınca, %109,6. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
-    "en": "The formula gave growth of 25.0% a year. Latest figures (earnings per share, year on year): January-September 2026 129.0%; July-September 2026 quarter 114.5%. The lowest, after inflation, is 109.6%. That is not less than half the formula's rate; the rate was not lowered."
+    "tr": "Formül yılda %23,2 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 %129,0; Temmuz-Eylül 2026 çeyreği %114,5. En düşüğü, enflasyondan arındırılınca, %109,6. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 23.2% a year. Latest figures (earnings per share, year on year): January-September 2026 129.0%; July-September 2026 quarter 114.5%. The lowest, after inflation, is 109.6%. That is not less than half the formula's rate; the rate was not lowered."
    },
    "per": "2026-Q3"
   },
@@ -1053,14 +1067,14 @@
   "one": "Dizüstü bilgisayar kameralarına küçük plastik mercek yapan şirket. Kalite surlarını geçti; satışlar yazdan beri geriliyor, fiyat yüzünden kapıda bekliyor.",
   "business": "Powertip Image (久禾光電) plastik optik mercek tasarlar ve üretir. Hasılatın yaklaşık %95'i dizüstü bilgisayar kamerası merceklerinden gelir; müşterileri arasında ASUS, Acer, HP ve Lenovo var. Üretim Çin'dedir. 2025'te hasılat 1,24 milyar Tayvan doları, hisse başına kâr 6,51 Tayvan doları oldu. Şirket Mayıs 2025'te Taipei Exchange'de işlem görmeye başladı.",
   "moat_text": "Hendek dar. Şirket dizüstü bilgisayar kamera merceğinde ilk iki üreticiden biri ve payının %30'un üzerinde olduğunu söylüyor. Üstünlüğü çok ince ve dar merceği seri üretebilmesi; 2025'te 52 patent başvurusu yaptı. Kanıt rakamlarda: 2026'nın ilk dokuz ayında brüt marj %43,1, faaliyet marjı %26,3; reel özsermaye kârlılığı beş yılda %21,0 ile %30,6 arasında. Ama her şey tek ürüne ve birkaç bilgisayar markasına bağlı. Brüt marj 2025'teki %47,8'den geriledi, Çinli rakipler seri üretimde güçlü. Bu yüzden hendek geniş sayılamaz.",
-  "mgmt": "Halka arz öncesinde en büyük ortaklar Powertip Technology (久正光電, %36,26) ve Brightek (佰鴻, %19,05) idi (Mayıs 2025). 2025 kârından hisse başına 4,5 Tayvan doları nakit temettü ödendi (hisse başına kâr 6,51). Net nakit var (net borç/FAVÖK −3,1). Yönetim kurulu 2026 ve 2027 için Dongguan'da toplam yaklaşık 1 milyar Tayvan doları yatırım onayladı; bunun beşte biri makine, kalanı arsa ve bina. Yatırım ana işe gidiyor, ama Eylül 2026 sonundaki 1,61 milyar Tayvan doları özsermayeye göre büyük.",
+  "mgmt": "Halka arz öncesinde en büyük ortaklar Powertip Technology (久正光電, %36,26) ve Brightek (佰鴻, %19,05) idi (Mayıs 2025). 2025 kârından hisse başına 4,5 Tayvan doları nakit temettü ödendi (hisse başına kâr 6,51). Net nakit var (net borç/FAVÖK −3,1). Yönetim kurulu 2026 ve 2027 için Dongguan'da toplam yaklaşık 1 milyar Tayvan doları yatırım onayladı; bunun beşte biri makine, kalanı arsa ve bina. Yatırım ana işe gidiyor, ama Eylül 2026 sonundaki 1,61 milyar Tayvan doları özsermayeye göre büyük. Şirket hisse geri almıyor; 2025'teki halka arzda pay sayısı yaklaşık %14,6 arttı ve 414 milyon Tayvan doları net para girdi. Kilit yöneticilere ödenen tutar 2026'nın ilk yarısında 18,1 milyondan 29,3 milyon Tayvan dolarına çıktı.",
   "latest": "4 Kasım 2026: Yönetim kurulu 2026'nın ilk dokuz ayının sonuçlarını onayladı. Hasılat 1,01 milyar Tayvan doları, faaliyet kârı 266 milyon, net kâr 228 milyon Tayvan doları. Hisse başına kâr 4,83 Tayvan doları; ana ortaklık özkaynağı 30 Eylül 2026'da 1,61 milyar Tayvan doları. İlk yarıda hisse başına kâr 3,60 olduğuna göre üçüncü çeyreğe 1,23 Tayvan doları düşüyor; geçen yılın üçüncü çeyreği 2,10 idi. Ekim 2026 hasılatı 81 milyon Tayvan doları ile geçen yılın %28,6 altında kaldı.",
   "risks": [
    "Fiyat güvenlik marjı için yetmiyor: formül yılda %10,8 büyüme veriyordu, okumada bulunanlar yüzünden %5,4 alındı. Kazanç zirveden dönüyor olabilir: hasılat 2026'nın ilk beş ayında geçen yıla göre %34 arttı, ağustosta %19,3, ekimde %28,6 geriledi. Üçüncü çeyrekte hisse başına kâr hesapla 1,23 Tayvan doları (bir yıl önce 2,10). Fiyat ölçütünü geçmesi son 12 ayın yüksek kârına dayanıyor.",
+   "Rakip Ability Opto-Electronics 2022'de patent ihlali gerekçesiyle 100 milyon Tayvan doları tazminat davası açtı (2025 özsermayesinin %6,4'ü). Dava Kasım 2024'te ilk derecede reddedildi, temyiz sürüyor; Kasım 2025'te ikinci bir patent davası açıldı. Şirket karşılık ayırdı ama tutarını açıklamıyor.",
+   "Müşteri yoğunluğu yüksek: 2025'te dört müşteri hasılatın %70'ini verdi (%23, %21, %14, %12).",
    "Tek ürün: hasılatın yaklaşık %95'i dizüstü bilgisayar kamerası merceği. Bilgisayar satışları yavaşlarsa ya da bir marka tedarikçi değiştirirse kâr hızla düşer.",
-   "Üretim Çin'de. Müşteriler üretimin Çin dışına taşınmasını isterse yeni tesis kurmak gerekir; hisse Tayvan'da işlem gördüğü için enflasyon düzeltmesi Tayvan enflasyonuyla yapıldı.",
-   "Yaklaşık 1 milyar Tayvan dolarlık Dongguan yatırımı, satışların gerilediği bir dönemde yapılıyor; amortisman marjı aşağı çeker.",
-   "Şirket küçük (piyasa değeri yaklaşık 2,5 milyar Tayvan doları) ve borsada bir buçuk yıldır işlem görüyor; halka açık geçmişi kısa."
+   "Üretim Çin'de. Müşteriler üretimin Çin dışına taşınmasını isterse yeni tesis kurmak gerekir; hisse Tayvan'da işlem gördüğü için enflasyon düzeltmesi Tayvan enflasyonuyla yapıldı."
   ],
   "watch": [
    "Aylık hasılatın yıllık değişimi",
@@ -1113,20 +1127,35 @@
     "t": "Yahoo Tayvan: 6498 çeyreklik hisse başına kâr tablosu",
     "te": "Yahoo Taiwan: 6498 quarterly earnings-per-share table",
     "u": "https://tw.stock.yahoo.com/quote/6498/eps"
+   },
+   {
+    "t": "İkinci okuma: Powertip Image: 2025 consolidated financial statements (company investor page)",
+    "te": "Second reading: Powertip Image: 2025 consolidated financial statements (company investor page)",
+    "u": "https://ptic.com.tw/-pub/user_files/investor/zh-tw/%E8%B2%A1%E5%8B%99%E5%AD%A3%E5%A0%B1/114%E5%B9%B4Q4%E5%90%88%E4%BD%B5%E8%B2%A1%E5%A0%B1.pdf"
+   },
+   {
+    "t": "İkinci okuma: Powertip Image: 2023 consolidated financial statements (company investor page)",
+    "te": "Second reading: Powertip Image: 2023 consolidated financial statements (company investor page)",
+    "u": "https://ptic.com.tw/-pub/user_files/investor/zh-tw/%E8%B2%A1%E5%8B%99%E5%AD%A3%E5%A0%B1/112%E5%B9%B4Q4%E5%90%88%E4%BD%B5%E8%B2%A1%E5%A0%B1.pdf"
+   },
+   {
+    "t": "İkinci okuma: Powertip Image: H1 2026 consolidated financial statements, reviewed (company investor page)",
+    "te": "Second reading: Powertip Image: H1 2026 consolidated financial statements, reviewed (company investor page)",
+    "u": "https://ptic.com.tw/-pub/user_files/investor/zh-tw/%E8%B2%A1%E5%8B%99%E5%AD%A3%E5%A0%B1/115%E5%B9%B4Q2%E5%90%88%E4%BD%B5%E8%B2%A1%E5%A0%B1.pdf"
    }
   ],
   "en": {
    "one": "A maker of small plastic lenses for laptop cameras. It passed the quality walls; sales have been falling since the summer and it waits at the gate on price.",
    "business": "Powertip Image (久禾光電) designs and makes plastic optical lenses. About 95% of revenue comes from laptop camera lenses; its customers include ASUS, Acer, HP and Lenovo. Production is in China. In 2025 revenue was 1.24 billion Taiwan dollars and earnings per share 6.51 Taiwan dollars. The company began trading on the Taipei Exchange in May 2025.",
    "moat_text": "The moat is narrow. The company is one of the top two makers of laptop camera lenses and says its share is above 30%. Its edge is the ability to mass-produce very thin, narrow lenses; it filed 52 patents in 2025. The evidence is in the figures: in the first nine months of 2026 gross margin was 43.1% and operating margin 26.3%; real return on equity ranged from 21.0% to 30.6% over five years. But everything depends on one product and a handful of computer brands. Gross margin has slipped from 47.8% in 2025, and Chinese rivals are strong in mass production. So the moat cannot be called wide.",
-   "mgmt": "Before the listing the largest shareholders were Powertip Technology (久正光電, 36.26%) and Brightek (佰鴻, 19.05%) (May 2025). A cash dividend of 4.5 Taiwan dollars per share was paid from 2025 profit (earnings per share 6.51). The company holds net cash (net debt/EBITDA −3.1). The board approved investment of about 1 billion Taiwan dollars in total in Dongguan for 2026 and 2027; a fifth of it is machinery, the rest land and buildings. The investment goes into the core business, but it is large next to equity of 1.61 billion Taiwan dollars at the end of September 2026.",
+   "mgmt": "Before the listing the largest shareholders were Powertip Technology (久正光電, 36.26%) and Brightek (佰鴻, 19.05%) (May 2025). A cash dividend of 4.5 Taiwan dollars per share was paid from 2025 profit (earnings per share 6.51). The company holds net cash (net debt/EBITDA −3.1). The board approved investment of about 1 billion Taiwan dollars in total in Dongguan for 2026 and 2027; a fifth of it is machinery, the rest land and buildings. The investment goes into the core business, but it is large next to equity of 1.61 billion Taiwan dollars at the end of September 2026. The company does not buy back shares; the 2025 listing raised the share count by about 14.6% and brought in TWD 414 million net. Pay to key management rose from TWD 18.1 million to 29.3 million in the first half of 2026.",
    "latest": "4 November 2026: The board approved the results for the first nine months of 2026. Revenue was 1.01 billion Taiwan dollars, operating profit 266 million and net profit 228 million Taiwan dollars. Earnings per share were 4.83 Taiwan dollars; equity attributable to the parent was 1.61 billion Taiwan dollars at 30 September 2026. Since first-half earnings per share were 3.60, the third quarter accounts for 1.23 Taiwan dollars; the third quarter of last year was 2.10. October 2026 revenue was 81 million Taiwan dollars, 28.6% below last year.",
    "risks": [
     "The price leaves too little margin of safety: the formula gave growth of 10.8% a year; because of what the reading found, 5.4% was used. Earnings may be turning down from a peak: revenue rose 34% year on year in the first five months of 2026, then fell 19.3% in August and 28.6% in October. Third-quarter earnings per share work out at 1.23 Taiwan dollars (2.10 a year earlier). Passing the price criterion rests on the high profit of the last 12 months.",
+    "Rival Ability Opto-Electronics sued in 2022 for patent infringement, claiming TWD 100 million (6.4% of 2025 equity). The claim was dismissed at first instance in November 2024 and is under appeal; a second patent suit was filed in November 2025. The company has accrued an amount but does not disclose it.",
+    "Customer concentration is high: four customers made up 70% of 2025 revenue (23%, 21%, 14%, 12%).",
     "One product: about 95% of revenue is laptop camera lenses. If computer sales slow or a brand changes supplier, profit falls quickly.",
-    "Production is in China. If customers ask for production outside China, a new plant is needed; because the share trades in Taiwan, the inflation adjustment uses Taiwan's inflation.",
-    "The Dongguan investment of about 1 billion Taiwan dollars is being made while sales are falling; depreciation will pull the margin down.",
-    "The company is small (market value about 2.5 billion Taiwan dollars) and has traded for a year and a half; its public record is short."
+    "Production is in China. If customers ask for production outside China, a new plant is needed; because the share trades in Taiwan, the inflation adjustment uses Taiwan's inflation."
    ],
    "watch": [
     "Year-on-year change in monthly revenue",
@@ -1150,6 +1179,10 @@
     "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are."
    },
    "per": "2026-Q3"
+  },
+  "chk": {
+   "date": "2026-11-13",
+   "per": "2026-Q3"
   }
  },
  "3218": {
@@ -1157,22 +1190,22 @@
    "A": 2,
    "B": 2,
    "C": 1,
-   "D": 1,
+   "D": 0,
    "E": 2
   },
   "moat": "dar",
   "per": "2026-Q2",
-  "one": "Tayvan'da göz kliniği zinciri ve gözlükçü işleten şirket. Kalite surlarını geçti; son çeyrekte hisse başına kâr geriledi, Çin'deki yeni hastane kârı baskılayabilir.",
+  "one": "Tayvan ve Çin'de göz kliniği zinciri. İşi kârlı; ama özsermayesinin üçte birinden fazlasını ana işiyle ilgisiz bir hisseye yatırdığı için yönetim ölçütünde elendi.",
   "business": "Universal Vision Biotechnology (大學光), anlaşmalı göz kliniklerine cihaz, sarf malzemesi ve yönetim hizmeti verir; kendi gözlük mağazalarını da işletir. Şubat 2026'da Tayvan'da 33 anlaşmalı kliniği ve 35 mağazası, Çin'de 5 anlaşmalı hastanesi ve 4 kliniği vardı. Para, lazerle göz çizdirme, katarakt ameliyatı ve çocuklarda miyop kontrolü ürünlerinden gelir. 2025'te hasılat 4,20 milyar Tayvan doları oldu; %88'i Tayvan'dan, %12'si Çin'den geldi. Hisse başına kâr 12,31 Tayvan doları.",
   "moat_text": "Hendek dar. Üstünlük ölçekten ve markadan geliyor. Şirketin aktardığına göre Tayvan'daki SMILE lazer cihazlarının yaklaşık %21'i (21 cihaz) onda, ama bu ameliyatların yarısından fazlası onun kliniklerinde yapılıyor. Kanıt marjda: 2026'nın ilk dokuz ayında brüt marj %57,5, faaliyet marjı %30,3; reel özsermaye kârlılığı beş yılda %24,7 ile %30,9 arasında kaldı. Hastalar pahalı seçeneğe kayıyor: katarakt ameliyatlarının %53'ü femtosaniye lazerle yapılıyor (2020'de %19). Zayıf yanı da açık: göz çizdirme isteğe bağlı bir harcama. 2025'te Tayvan pazarı %20-30 daraldı, şirketin bu işi yaklaşık %18 geriledi. Hisse başına kâr 2023'ten beri artmıyor (12,71, 12,57, 12,31). Aynı model Çin'de tutmadı: orada hasılat 2025'te %18 düştü ve iş zararda. Bu yüzden hendek geniş sayılamaz.",
-  "mgmt": "Şirketi 1994'te iki göz hekimi, Lin Pi-jung (林丕容) ve Ou Shu-fang (歐淑芳) kurdu; Ou yönetim kurulu başkanı, genel müdür Lu Cheng-hung. Borsa kayıtlarını aktaran veri sitesine göre Lin Pi-jung 19,3 milyon, Qun-Yi Development 7,5 milyon hisse tutuyor (sermaye 84,7 milyon hisse). Kârın çoğu ortağa dönüyor: 2025 kârından hisse başına 7,75 Tayvan doları nakit temettü ödendi (kârın yaklaşık %63'ü), bir yıl önce 7,5. Kusuru da var: şirket ana işle ilgisi olmayan ABD devlet tahvili yatırımı yaptı. Bu yatırım 2025'in ikinci çeyreğinde 205 milyon Tayvan doları değerleme zararı yazdırdı; 2026'nın ikinci çeyreğinde yaklaşık 52 milyon zararla tamamen satıldı. Şirket uzun vadeli yatırım olarak TSMC hissesi de tutuyor. 2026'da Çin'deki bağlı şirketin kalan %30'unu aldı ve Suzhou'da bir göz hastanesi kuruyor. Klinikler hekimlere ait ayrı kuruluşlardır; şirketin geliri onlarla yaptığı sözleşmelere dayanır.",
+  "mgmt": "Şirketi 1994'te iki göz hekimi, Lin Pi-jung (林丕容) ve Ou Shu-fang (歐淑芳) kurdu; Ou yönetim kurulu başkanı, genel müdür Lu Cheng-hung. Borsa kayıtlarını aktaran veri sitesine göre Lin Pi-jung 19,3 milyon, Qun-Yi Development 7,5 milyon hisse tutuyor (sermaye 84,7 milyon hisse). Kârın çoğu ortağa dönüyor: 2025 kârından hisse başına 7,75 Tayvan doları nakit temettü ödendi (kârın yaklaşık %63'ü), bir yıl önce 7,5. Kusuru da var: şirket ana işle ilgisi olmayan ABD devlet tahvili yatırımı yaptı. Bu yatırım 2025'in ikinci çeyreğinde 205 milyon Tayvan doları değerleme zararı yazdırdı; 2026'nın ikinci çeyreğinde yaklaşık 52 milyon zararla tamamen satıldı. Şirket uzun vadeli yatırım olarak TSMC hissesi de tutuyor. 2026'da Çin'deki bağlı şirketin kalan %30'unu aldı ve Suzhou'da bir göz hastanesi kuruyor. Klinikler hekimlere ait ayrı kuruluşlardır; şirketin geliri onlarla yaptığı sözleşmelere dayanır. Şirket 2026'nın ilk dokuz ayında 1,43 milyar Tayvan dolarlık TSMC hissesi aldı; 30 Eylül 2026'da bu pay 1,56 milyar Tayvan doları ile ana ortaklık özsermayesinin %37,2'si, bir yıl önce de özsermayenin %32,7'si fonlardaydı: ana iş dışında büyük finansal yatırım. Sermaye tahsisi ölçütü (D) sıfır: ana ortaklık özsermayesinin %37,2'si (1,56 milyar Tayvan doları) TSMC hissesinde duruyor; bu pay 2026'nın ilk dokuz ayında 1,43 milyar Tayvan doları ödenerek alındı. Bir yıl önce özsermayenin %32,7'si (1,22 milyar) fonlardaydı ve fonlar 2025'in ilk dokuz ayında 79 milyon, 2026'nın ilk dokuz ayında 39 milyon Tayvan doları değer kaybı yazdırdı. 30 Eylül 2026'da şirketin 1,56 milyar Tayvan dolarlık TSMC hissesi var (630 bin hisse); bunun 1,43 milyar Tayvan doları 2026'da alındı. Bir yıl önce aynı para fonlarda ve ABD devlet tahvilindeydi. Kurucu Lin Pi-jung %22,75 paya sahip; aile ve ilişkili yatırım şirketleriyle birlikte payı daha yüksek.",
   "latest": "12 Kasım 2026: Yönetim kurulu 2026'nın ilk dokuz ayının sonuçlarını onayladı. Hasılat 3,38 milyar Tayvan doları (geçen yılın aynı dönemi 3,17 milyar), faaliyet kârı 1,02 milyar (geçen yıl 1,04 milyar), ana ortaklığa düşen net kâr 779 milyon Tayvan doları (geçen yıl 748 milyon). Hisse başına kâr 9,20 Tayvan doları; geçen yıl 8,83 idi. Üçüncü çeyrekte hasılat %13,3 arttı, ama hisse başına kâr 4,05'ten 3,21 Tayvan dolarına indi: geçen yılın aynı çeyreğinde yaklaşık 98 milyon Tayvan doları faaliyet dışı gelir vardı, bu yıl yok. Eylül sonunda ana ortaklığa ait özsermaye 4,20 milyar Tayvan doları. Ekim hasılatı 377 milyon Tayvan doları ile geçen yılın %8,73 üstünde.",
   "risks": [
    "Fiyat ölçütündeki pay büyüme varsayımına ve kârın korunmasına dayanır, ama kâr üç yıldır artmıyor: hisse başına kâr 2023'te 12,71, 2025'te 12,31 Tayvan doları; 2026'nın üçüncü çeyreğinde 4,05'ten 3,21'e indi. Brüt marj da dokuz ayda %59,1'den %57,5'e geriledi.",
+   "Kira yükümlülüğü 1,18 milyar Tayvan doları, ana ortaklık özsermayesinin %28,1'i (30 Eylül 2026); net borç oranı bunu tam göstermiyor.",
+   "Şirket Haziran 2026'da Çin'deki zarardaki bağlı şirketin kalan %30'unu 210 milyon Tayvan dolarına aldı; defter değerinin 110 milyon Tayvan doları üstündeki tutar özsermayeden düşüldü.",
    "Göz çizdirme isteğe bağlı bir harcamadır: 2025'te Tayvan pazarı %20-30 daraldı. Tüketici güveni düşerse en kârlı iş ilk etkilenir.",
-   "Çin'de iş zararda ve şirket oraya yeni para koyuyor: Suzhou'daki hastanenin 2027'nin ilk çeyreğinde açılması bekleniyor; açılış öncesi giderler kârı düşürür, geri dönüşü belirsiz.",
-   "Klinikler şirkete ait değildir; gelir, hekimlerin sahibi olduğu kliniklerle yapılan sözleşmelere ve hekimlerin şirkette kalmasına bağlıdır. Sağlık kurallarındaki bir değişiklik bu düzeni etkileyebilir.",
-   "Şirket geçmişte ana iş dışı tahvil yatırımından zarar yazdı ve hâlâ TSMC hissesi tutuyor; benzer bir yatırım kârı yeniden oynatabilir."
+   "Çin'de iş zararda ve şirket oraya yeni para koyuyor: Suzhou'daki hastanenin 2027'nin ilk çeyreğinde açılması bekleniyor; açılış öncesi giderler kârı düşürür, geri dönüşü belirsiz."
   ],
   "watch": [
    "Aylık hasılatın yıllık değişimi (Ekim 2026: %8,73)",
@@ -1255,20 +1288,30 @@
     "t": "Poorstock: Universal Vision yönetici ve büyük ortak payları",
     "te": "Poorstock: Universal Vision insider and major shareholder holdings",
     "u": "https://poorstock.com/holders/3218"
+   },
+   {
+    "t": "İkinci okuma: Universal Vision Biotechnology: 9M 2026 consolidated financial statements (company investor page)",
+    "te": "Second reading: Universal Vision Biotechnology: 9M 2026 consolidated financial statements (company investor page)",
+    "u": "https://www.uvb.com.tw/file/quarterly/2026-3.pdf"
+   },
+   {
+    "t": "İkinci okuma: Universal Vision Biotechnology: 2025 annual report (company investor page)",
+    "te": "Second reading: Universal Vision Biotechnology: 2025 annual report (company investor page)",
+    "u": "https://www.uvb.com.tw/file/annual/2025-2.pdf"
    }
   ],
   "en": {
-   "one": "Eye clinic chain and optical shops in Taiwan. Passed quality walls; earnings per share fell last quarter, and a new China hospital may hurt profit.",
+   "one": "An eye-clinic chain in Taiwan and China. The business is profitable, but it put more than a third of its equity into a share unrelated to its core business, so it was eliminated on the management test.",
    "business": "Universal Vision Biotechnology (大學光) supplies partner eye clinics with equipment, consumables and management services, and runs its own optical shops. In February 2026 it had 33 partner clinics and 35 shops in Taiwan, and 5 partner hospitals and 4 clinics in China. The money comes from laser vision correction, cataract surgery and myopia-control products for children. Revenue in 2025 was 4.20 billion Taiwan dollars; 88% came from Taiwan and 12% from China. Earnings per share were 12.31 Taiwan dollars.",
    "moat_text": "The moat is narrow. The advantage comes from scale and brand. According to the company, it owns about 21% of the SMILE laser machines in Taiwan (21 machines), yet more than half of these operations are done in its clinics. The evidence is in the margin: in the first nine months of 2026 gross margin was 57.5% and operating margin 30.3%; real return on equity stayed between 24.7% and 30.9% over five years. Patients are moving to the costlier option: 53% of cataract operations use a femtosecond laser (19% in 2020). The weak side is also clear: laser vision correction is discretionary spending. In 2025 the Taiwan market shrank by 20-30% and the company's business in it fell about 18%. Earnings per share have not grown since 2023 (12.71, 12.57, 12.31). The same model did not work in China: revenue there fell 18% in 2025 and the business loses money. So the moat cannot be called wide.",
-   "mgmt": "The company was founded in 1994 by two eye doctors, Lin Pi-jung (林丕容) and Ou Shu-fang (歐淑芳); Ou is chairman and the general manager is Lu Cheng-hung. According to a data site that relays exchange records, Lin Pi-jung holds 19.3 million shares and Qun-Yi Development 7.5 million (share capital is 84.7 million shares). Most of the profit returns to shareholders: a cash dividend of 7.75 Taiwan dollars per share was paid from 2025 profit (about 63% of profit), after 7.5 a year earlier. There is a flaw: the company invested in US government bonds, which have nothing to do with the core business. That investment caused a valuation loss of 205 million Taiwan dollars in the second quarter of 2025; it was sold in full in the second quarter of 2026 at a loss of about 52 million. The company also holds TSMC shares as a long-term investment. In 2026 it bought the remaining 30% of its China subsidiary and is building an eye hospital in Suzhou. The clinics are separate entities owned by doctors; the company's income rests on its contracts with them.",
+   "mgmt": "The company was founded in 1994 by two eye doctors, Lin Pi-jung (林丕容) and Ou Shu-fang (歐淑芳); Ou is chairman and the general manager is Lu Cheng-hung. According to a data site that relays exchange records, Lin Pi-jung holds 19.3 million shares and Qun-Yi Development 7.5 million (share capital is 84.7 million shares). Most of the profit returns to shareholders: a cash dividend of 7.75 Taiwan dollars per share was paid from 2025 profit (about 63% of profit), after 7.5 a year earlier. There is a flaw: the company invested in US government bonds, which have nothing to do with the core business. That investment caused a valuation loss of 205 million Taiwan dollars in the second quarter of 2025; it was sold in full in the second quarter of 2026 at a loss of about 52 million. The company also holds TSMC shares as a long-term investment. In 2026 it bought the remaining 30% of its China subsidiary and is building an eye hospital in Suzhou. The clinics are separate entities owned by doctors; the company's income rests on its contracts with them. In the first nine months of 2026 the company bought TWD 1.43 billion of TSMC shares; at 30 September 2026 the stake was worth TWD 1.56 billion, 37.2% of owners' equity, and a year earlier 32.7% of equity sat in funds: a large financial investment outside the core business. The capital-allocation test (D) scores zero: 37.2% of owners' equity (TWD 1.56 billion) is held in TSMC shares, bought for TWD 1.43 billion in the first nine months of 2026. A year earlier 32.7% of equity (TWD 1.22 billion) sat in funds, which caused fair-value losses of TWD 79 million in the first nine months of 2025 and 39 million in the same period of 2026. At 30 September 2026 the company held TWD 1.56 billion of TSMC shares (630 thousand shares), TWD 1.43 billion of it bought in 2026. A year earlier the same money was in funds and US Treasury bonds. Co-founder Lin Pi-jung holds 22.75%; with family and related investment companies the stake is larger.",
    "latest": "12 November 2026: The board approved the results for the first nine months of 2026. Revenue was 3.38 billion Taiwan dollars (3.17 billion in the same period last year), operating profit 1.02 billion (1.04 billion last year), and net profit attributable to the parent 779 million Taiwan dollars (748 million last year). Earnings per share were 9.20 Taiwan dollars, against 8.83 last year. In the third quarter revenue rose 13.3%, but earnings per share fell from 4.05 to 3.21 Taiwan dollars: the same quarter last year had about 98 million Taiwan dollars of non-operating income, and this year has none. Equity attributable to the parent was 4.20 billion Taiwan dollars at the end of September. October revenue was 377 million Taiwan dollars, 8.73% above last year.",
    "risks": [
     "The room in the price criterion rests on the growth assumption and on profit holding up, but profit has not grown for three years: earnings per share were 12.71 Taiwan dollars in 2023 and 12.31 in 2025, and fell from 4.05 to 3.21 in the third quarter of 2026. Gross margin also slipped from 59.1% to 57.5% over nine months.",
+    "Lease liabilities are TWD 1.18 billion, 28.1% of owners' equity (30 September 2026); the net debt ratio does not fully show this.",
+    "In June 2026 the company bought the remaining 30% of its loss-making China subsidiary for TWD 210 million; TWD 110 million above book value was charged to equity.",
     "Laser vision correction is discretionary spending: the Taiwan market shrank by 20-30% in 2025. If consumer confidence falls, the most profitable business is hit first.",
-    "The China business loses money and the company is putting new money into it: the Suzhou hospital is expected to open in the first quarter of 2027; pre-opening costs reduce profit and the payback is uncertain.",
-    "The clinics do not belong to the company; income depends on contracts with clinics owned by doctors and on those doctors staying. A change in health rules could affect this arrangement.",
-    "The company has booked losses on a bond investment outside its core business and still holds TSMC shares; a similar investment could swing profit again."
+    "The China business loses money and the company is putting new money into it: the Suzhou hospital is expected to open in the first quarter of 2027; pre-opening costs reduce profit and the payback is uncertain."
    ],
    "watch": [
     "Year-on-year change in monthly revenue (October 2026: 8.73%)",
@@ -1292,6 +1335,10 @@
     "tr": "Formül yılda %10,7 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 %4,2; Temmuz-Eylül 2026 çeyreği %−20,7. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %5,3.",
     "en": "The formula gave growth of 10.7% a year. Latest figures (earnings per share, year on year): January-September 2026 4.2%; July-September 2026 quarter −20.7%. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 5.3%."
    },
+   "per": "2026-Q2"
+  },
+  "chk": {
+   "date": "2026-11-13",
    "per": "2026-Q2"
   }
  },

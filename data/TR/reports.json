@@ -122,21 +122,21 @@
    "A": 2,
    "B": 2,
    "C": 1,
-   "D": 2,
+   "D": 1,
    "E": 1
   },
   "moat": "dar",
   "one": "Türkiye'nin büyük aracı kurumu ve İş Bankası iştiraki. Reel kârı geriliyor ve alıkoyduğu kâr kazancı artırmadı; bu yüzden fiyatı düşük görünse de kapıda bekliyor.",
   "business": "İş Yatırım aracılık, portföy yönetimi, kurumsal finansman ve halka arz hizmetleri verir; hisse, borçlanma aracı ve türev işlemlerine aracılık eder. İş Bankası'nın iştirakidir. 608 kişi çalıştırıyor.",
   "moat_text": "Hendek dar. Üstünlük ölçekten, markadan ve İş Bankası'nın müşteri ağından geliyor. Ürünün kendisi (aracılık) kolay taklit edilir ve komisyonlar rekabete açıktır; bu yüzden hendeği geniş saymıyoruz.",
-  "mgmt": "Ana ortak İş Bankası; halka açıklık %29,2. Şirket 2023-2025'te ana ortaklık kârının %58'ini temettü olarak dağıttı. 2025'te ödenen temettü (10,1 milyar TL) o yılın kârını (7,4 milyar TL) aştı: şirket kullanamadığı sermayeyi ortaklara geri verdi. Öte yandan girişim sermayesi kolu (İş Girişim) ana işle ilgisi olmayan alanlara yatırım yapıyor; 2026'nın dokuz ayında bu kolun ana ortaklığa katkısı zarardı.",
+  "mgmt": "Ana ortak İş Bankası; halka açıklık %29,2. Şirket 2023-2025'te ana ortaklık kârının %58'ini temettü olarak dağıttı. 2025'te ödenen temettü (10,1 milyar TL) o yılın kârını (7,4 milyar TL) aştı: şirket kullanamadığı sermayeyi ortaklara geri verdi. Öte yandan girişim sermayesi kolu (İş Girişim) ana işle ilgisi olmayan alanlara yatırım yapıyor; 2026'nın dokuz ayında bu kolun ana ortaklığa katkısı zarardı. Girişim sermayesi kolu ana iş dışında büyük alımlar yaptı: Tatilbudur'dan 4,83 milyar TL şerefiye ve 8,46 milyar TL diğer maddi olmayan varlıkla bu kalemler ana ortaklık özsermayesinin %33,9'una ulaştı. İş Girişim üzerinden ana iş dışı alımlar büyüdü: Tatilbudur'daki pay 2023'te %40,09 iken 2025'te %99,98'e çıktı ve 4,83 milyar TL şerefiye doğdu; 2026'da Crescenta Biosciences'ın %50,10'u alındı. Eylül 2026'da şerefiye ve maddi olmayan varlıklar ana ortaklık özsermayesinin %33,9'u.",
   "latest": "9 Kasım 2026: Dokuz aylık ana ortaklık net kârı 4,81 milyar TL, ana ortaklık özkaynağı 39,2 milyar TL. Yılın ilk yarısında net kâr 2,62 milyar TL ile geçen yılın %35 altındaydı (14 Ağustos 2026). Üçüncü çeyrekte konsolide kâra 1,0 milyar TL pazarlıklı satın alım kazancı girdi (İş Girişim'in bağlı ortaklığı Enlila, Crescenta Biosciences'ın %50,10'unu aldı); İş Yatırım'ın payına düşen kısım yaklaşık 230 milyon TL'dir.",
   "risks": [
    "Alıkonan kârın sınavı geçilemedi: 2023-2025'te ana ortaklık kârının %42'si şirkette kaldı, aynı dönemde reel kâr yılda yaklaşık %8 geriledi. Hesap bu gerilemenin süreceğini varsayıyor; kâr toparlanırsa sonuç değişir.",
+   "New York'ta açılan bir davada grup, saklama ve aracılık hizmetleri nedeniyle davalılardan biri; dava konusu tutar 70 milyon dolar (ana ortaklık özsermayesinin yaklaşık %8,7'si). Şirket karşılık ayırmadı; dava tahkim sonucuna kadar bekliyor.",
+   "Şerefiye ve maddi olmayan varlıklar ana ortaklık özsermayesinin %33,9'u; çoğu seyahat şirketi Tatilbudur'dan ve biyoteknoloji alımından geliyor. Bu işler zayıflarsa değer düşüklüğü kârı vurur.",
    "Kazanç, işlem hacmine ve alım-satım gelirine bağlı. 2026'nın ilk yarısında kâr %35 düştü; kötü bir piyasa yılında daha da düşebilir.",
-   "Özsermaye kârlılığı geriliyor: 2023'te %45, 2025'te %24, son okumalar %16–20.",
-   "Bilanço ağırlıkla parasal varlıklardan oluşuyor; enflasyon muhasebesi bu yapıyı cezalandırıyor.",
-   "Aracılık kaldıraçlı ve döngüsel bir iştir; gelecek yılın kazancını öngörmek zordur. Rakamların ölçütleri geçmesi, bu kazancın kalıcı olduğunu göstermez."
+   "Özsermaye kârlılığı geriliyor: 2023'te %45, 2025'te %24, son okumalar %16–20."
   ],
   "watch": [
    "Özsermaye kârlılığı %15'in üzerinde kalıyor mu",
@@ -188,6 +188,11 @@
     "t": "Kazanç yargısının kaynağı",
     "te": "Source for the earnings judgment",
     "u": "https://www.isyatirim.com.tr/tr-tr/bizi-taniyin/yatirimci-iliskileri/Yatirimci_Iliskileri_Belgeler/finansal-raporlar/2024/ISMEN%20Finansal%20Tablolar_31%20Aral%C4%B1k%202024%20Final.pdf"
+   },
+   {
+    "t": "İkinci okuma: İş Yatırım 2025 Entegre Faaliyet Raporu",
+    "te": "Second reading: İş Yatırım 2025 Entegre Faaliyet Raporu",
+    "u": "https://www.isyatirim.com.tr/tr-tr/bizi-taniyin/yatirimci-iliskileri/Yatirimci_Iliskileri_Belgeler/faaliyet-raporlari/%C4%B0%C5%9F%20Yat%C4%B1r%C4%B1m%202025%20Entegre%20Faaliyet%20Rapor%20Final.pdf"
    }
   ],
   "per": "9/2026",
@@ -195,14 +200,14 @@
    "one": "A large Turkish brokerage and a subsidiary of İş Bankası. Real profit is falling and retained profit has not raised earnings, so it waits at the gate even though the price looks low.",
    "business": "İş Yatırım provides brokerage, asset management, corporate finance and IPO services; it brokers trades in equities, debt instruments and derivatives. It is a subsidiary of İş Bankası. It employs 608 people.",
    "moat_text": "The moat is narrow. The advantage comes from scale, brand and İş Bankası's customer network. The product itself (brokerage) is easy to copy and commissions are open to competition; that is why we do not count the moat as wide.",
-   "mgmt": "The main shareholder is İş Bankası; the free float is 29.2%. In 2023-2025 the company paid out 58% of parent profit as dividends. Dividends paid in 2025 (10.1 billion TRY) exceeded that year's profit (7.4 billion TRY): the company returned capital it could not use to its shareholders. On the other hand, the venture-capital arm (İş Girişim) invests in areas unrelated to the main business; in the first nine months of 2026 that arm's contribution to parent profit was a loss.",
+   "mgmt": "The main shareholder is İş Bankası; the free float is 29.2%. In 2023-2025 the company paid out 58% of parent profit as dividends. Dividends paid in 2025 (10.1 billion TRY) exceeded that year's profit (7.4 billion TRY): the company returned capital it could not use to its shareholders. On the other hand, the venture-capital arm (İş Girişim) invests in areas unrelated to the main business; in the first nine months of 2026 that arm's contribution to parent profit was a loss. The private-equity arm made large acquisitions outside the core business: with TL 4.83 billion of goodwill from Tatilbudur and TL 8.46 billion of other intangibles, these items reached 33.9% of parent equity. Non-core acquisitions through İş Girişim have grown: the stake in Tatilbudur went from 40.09% in 2023 to 99.98% in 2025, creating TL 4.83 billion of goodwill; in 2026, 50.10% of Crescenta Biosciences was bought. In September 2026 goodwill and intangibles were 33.9% of parent equity.",
    "latest": "9 November 2026: Nine-month net profit attributable to the parent was 4.81 billion TRY and parent equity 39.2 billion TRY. In the first half of the year net profit was 2.62 billion TRY, 35% below the previous year (14 August 2026). In the third quarter consolidated profit included a bargain-purchase gain of 1.0 billion TRY (Enlila, a subsidiary of İş Girişim, bought 50.10% of Crescenta Biosciences); about 230 million TRY of it falls to İş Yatırım's share.",
    "risks": [
     "The retained-earnings test was not passed: in 2023-2025, 42% of parent profit stayed in the company while real profit fell by about 8% a year. The calculation assumes this decline continues; if profit recovers, the result changes.",
+    "In a lawsuit in New York the group is one of the defendants over custody and brokerage services; the claim is USD 70 million (about 8.7% of parent equity). The company has booked no provision; the case is on hold pending arbitration.",
+    "Goodwill and intangibles equal 33.9% of parent equity, mostly from the travel company Tatilbudur and a biotech acquisition. If these businesses weaken, impairments will hit profit.",
     "Earnings depend on trading volume and trading income. Profit fell 35% in the first half of 2026; in a bad market year it could fall further.",
-    "Return on equity is declining: 45% in 2023, 24% in 2025, and 16–20% in the latest readings.",
-    "The balance sheet consists mostly of monetary assets; inflation accounting penalises this structure.",
-    "Brokerage is a leveraged and cyclical business; next year's earnings are hard to predict. The numbers passing the criteria does not show that these earnings are durable."
+    "Return on equity is declining: 45% in 2023, 24% in 2025, and 16–20% in the latest readings."
    ],
    "watch": [
     "Whether return on equity stays above 15%",
@@ -225,6 +230,10 @@
     "en": "The calculation rests on the profit of the last 12 months. One-off gains inside that profit: Bargain-purchase gain in the July-September 2026 quarter: Enlila, a subsidiary of İş Girişim, bought 50.10% of US-based Crescenta Biosciences on 22 July 2026 for less than the fair value of its share of net assets. The consolidated amount is 1,002 million TRY; it is not a cash inflow. İş Yatırım's share was calculated through the ownership chain (31.96% of İş Girişim × 71.77% of Enlila = 22.9%; about 230 million TRY), because the company does not disclose this share separately: 2.9% of last-12-month profit. The net effect is 2.9%; being under 3%, it was disregarded. Profit for January-September 2026 is after a net monetary position loss of 6.1 billion TRY (equal to 60% of pre-tax profit): inflation eroded the company's cash and receivables. That loss is already deducted from profit; earnings were not raised. The share distributed was read from the company's own statements (the three years 2023-2025): 58% of parent profit was paid to shareholders in dividends and buybacks, and 42% stayed in the company."
    },
    "b": 0.418,
+   "per": "9/2026"
+  },
+  "chk": {
+   "date": "2026-11-13",
    "per": "9/2026"
   }
  },
@@ -341,14 +350,14 @@
   "one": "Havalimanı yer hizmetlerinde yerleşik bir oyuncu. Kalite surlarını geçti; ama Hindistan'daki işi kapandı, kalan işin kârı enflasyonun gerisinde kalıyor ve fiyat güvenlik marjı için yetmiyor.",
   "business": "Çelebi Hava Servisi, havayollarına ve kargo şirketlerine havalimanlarında yer hizmeti ve kargo-antrepo hizmeti verir. 1958'de kuruldu; Çelebi Havacılık Holding'in bağlı ortaklığıdır. 8.141 kişi çalıştırıyor.",
   "moat_text": "Hendek dar. Bir havalimanında yer hizmeti verebilmek için lisans ve imtiyaz gerekir; bu, rakip sayısını sınırlar ve yüksek kârlılığı açıklar (özsermaye kârlılığı beş yıldır %40'ın üzerinde, faaliyet marjı %23). Ama aynı lisanslar hendeğin en zayıf yeri: veren makam geri alabilir.",
-  "mgmt": "Halka açıklık yalnızca %9,6; hisse sığ ve kontrol tümüyle ana ortakta. Kârın büyük bölümü temettü olarak dağıtılıyor (ödeme oranı %73).",
+  "mgmt": "Halka açıklık yalnızca %9,6; hisse sığ ve kontrol tümüyle ana ortakta. Kârın büyük bölümü temettü olarak dağıtılıyor (ödeme oranı %73). Kârın bir kısmı ana ortağa da gidiyor: holdingden alacak 1,24 milyar TL (30 milyon avroluk kredi dahil) ve dokuz ayda 706,6 milyon TL holding hizmet bedeli. Halka açıklık %9,6 olduğu için bu işlemlerin koşulları küçük ortak için önemlidir.",
   "latest": "9 Kasım 2026: Dokuz aylık ana ortaklık net kârı 2,21 milyar TL, hasılat 17,56 milyar TL, faaliyet kârı 4,10 milyar TL. Durdurulan faaliyetlerden 1,02 milyar TL zarar yazıldı. Hindistan'daki iştiraklerin güvenlik izinleri Mayıs 2025'te iptal edilmiş, faaliyetleri 15 Mayıs 2025'te durmuştu; hukuki süreç sürüyor (19 Ağustos 2026 tarihli ara dönem raporu).",
   "risks": [
    "Fiyat güvenlik marjı için yetmiyor: kalan işin kârı TL olarak yılda %3,4 arttı, enflasyon ise %30 dolayında; hesapta büyüme sıfır alındı.",
+   "Şirket, %89,91 paylı ana ortağı Çelebi Havacılık Holding'e para veriyor: 30 Eylül 2026'da holdingden alacak 1,24 milyar TL, ana ortaklık özkaynağının %13,6'sı; bunun içinde 30 milyon avroluk bir kredi var. Faiz ve vade incelediğimiz bölümde yazmıyor.",
+   "Holdinge ödenen hizmet bedeli büyük: 2026'nın ilk dokuz ayında 706,6 milyon TL, faaliyet kârının %17'si.",
    "İmtiyaz riski gerçekleşti: Hindistan'daki iş bir hükümet kararıyla bir günde durdu. Aynı şey başka bir ülkede de olabilir.",
-   "Müşteriler havayolları: pazarlık güçleri yüksek, sözleşmeler yenilenmeyebilir.",
-   "Rakamlar TL'ye çevrilmiş avro hesaplarıdır: şirket enflasyon muhasebesi uygulamıyor, kâr ve özkaynak kurla birlikte oynar. Veri kaynağının F/K'sı da şirketin tablolarından toplanan kârla tutmuyor; hesapta şirketin belgesi esas alındı.",
-   "Düşük halka açıklık: az ortak, sığ işlem."
+   "Müşteriler havayolları: pazarlık güçleri yüksek, sözleşmeler yenilenmeyebilir."
   ],
   "watch": [
    "Hindistan davasının sonucu ve olası tazminat",
@@ -396,6 +405,11 @@
     "t": "Büyüme yargısının kaynağı: Ocak-Eylül 2026",
     "te": "Source for the growth judgment: January-September 2026",
     "u": "https://kap.org.tr/tr/api/file/download/4028328da17e515f01a1c1018ea40e93"
+   },
+   {
+    "t": "İkinci okuma: Çelebi Hava Servisi: 2025 faaliyet raporu ve konsolide finansal tablolar (11 Mart 2026), şirketin sitesi",
+    "te": "Second reading: Çelebi Hava Servisi: 2025 faaliyet raporu ve konsolide finansal tablolar (11 Mart 2026), şirketin sitesi",
+    "u": "https://www.celebiaviation.com/celebi/cdn/uploads/000005224_2025-raporu-chs-yatirimci.pdf"
    }
   ],
   "per": "9/2026",
@@ -403,14 +417,14 @@
    "one": "An established airport ground-handling company. It passed the quality walls, but its business in India was shut, profit from what remains is not keeping up with inflation and the price leaves too little margin of safety.",
    "business": "Çelebi Hava Servisi provides ground handling and cargo and warehouse services at airports to airlines and cargo companies. It was founded in 1958 and is a subsidiary of Çelebi Havacılık Holding. It employs 8,141 people.",
    "moat_text": "The moat is narrow. Providing ground handling at an airport requires a licence and a concession; this limits the number of competitors and explains the high profitability (return on equity above 40% for five years, operating margin 23%). But those same licences are the weakest point of the moat: the authority that grants them can take them back.",
-   "mgmt": "The free float is only 9.6%; the stock is thinly traded and control rests entirely with the parent. Most of the profit is paid out as dividends (payout ratio 73%).",
+   "mgmt": "The free float is only 9.6%; the stock is thinly traded and control rests entirely with the parent. Most of the profit is paid out as dividends (payout ratio 73%). Part of the cash also goes to the parent: 1.24 billion TL of receivables from the holding (including a 30 million euro loan) and 706.6 million TL of holding service fees in nine months. With a 9.6% free float, the terms of these deals matter for minority holders.",
    "latest": "9 November 2026: Nine-month net profit attributable to the parent was 2.21 billion TRY, revenue 17.56 billion TRY and operating profit 4.10 billion TRY. A loss of 1.02 billion TRY was booked from discontinued operations. The security clearances of the subsidiaries in India were revoked in May 2025 and their operations stopped on 15 May 2025; the legal process continues (interim report dated 19 August 2026).",
    "risks": [
     "The price leaves too little margin of safety: profit from the remaining business rose 3.4% a year in lira while inflation was about 30%; the calculation assumes zero growth.",
+    "The company lends to its 89.91% parent Çelebi Havacılık Holding: receivables from the holding were 1.24 billion TL at 30 September 2026, 13.6% of parent equity, including a 30 million euro loan. The rate and maturity are not stated in the section read.",
+    "The service fee paid to the holding is large: 706.6 million TL in the first nine months of 2026, 17% of operating profit.",
     "Concession risk has materialised: the business in India stopped in a single day by a government decision. The same could happen in another country.",
-    "The customers are airlines: their bargaining power is high and contracts may not be renewed.",
-    "The figures are euro accounts translated into lira: the company does not apply inflation accounting, so profit and equity move with the exchange rate. The data source's P/E also does not match the profit added up from the company's statements; the calculation uses the company's document.",
-    "Low free float: few shareholders, thin trading."
+    "The customers are airlines: their bargaining power is high and contracts may not be renewed."
    ],
    "watch": [
     "Outcome of the India case and any compensation",
@@ -434,6 +448,10 @@
     "en": "The calculation rests on the profit of the last 12 months. The data source's P/E implies a last-12-month profit of 4.5 billion TRY; the last-12-month profit added up from the company's own statements is 3.6 billion TRY. The reason for the gap was not found; the company's document was taken as the basis and earnings were lowered to that ratio (20.0%). Last-12-month profit was used multiplied by 0.80."
    },
    "ks": 0.8,
+   "per": "9/2026"
+  },
+  "chk": {
+   "date": "2026-11-13",
    "per": "9/2026"
   }
  },

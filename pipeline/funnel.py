@@ -79,11 +79,16 @@ def fair_value(P, roe_n, g, dy, wide):
     return dict(dcf=dcf, peg=peg, dcf0=dcf0, fair=min(dcf, lim), by="dcf" if dcf <= lim else ("peg" if peg >= dcf0 else "dcf0"))
 
 
-def roe_cons(u, l):
-    """Temkinli özsermaye kârlılığı: son 12 ay ve son iki mali yıl okumasının en düşüğü (reel)."""
+def roe_cons(u, l, s=None):
+    """Temkinli özsermaye kârlılığı: son 12 ay ve son iki mali yıl okumasının en düşüğü (reel).
+    Olağan kazanç gücü: kazancı döngüye bağlı işte (C < 2; okunmamış şirkette de öyle varsayılır) dönem ortalaması son okumalardan düşükse
+    ortalama alınır. Döngünün iyi yıllarının kârı, işin olağan kazanç gücü sayılmaz."""
     ek = l.get("ek") or 1.0            # kazanç yargısı: son 12 ayın kârı tek seferlik kazanç ya da daha düşük şirket beklentisi için indirilir
     ttm = u["rr"] if u["nom"] else u["roe"]
-    return min(x for x in (None if ttm is None else ttm * ek, l["rroe"][-2], None if l["rroe"][-1] is None else l["rroe"][-1] * ek) if x is not None)
+    c = [x for x in (None if ttm is None else ttm * ek, l["rroe"][-2], None if l["rroe"][-1] is None else l["rroe"][-1] * ek) if x is not None]
+    if not (s and s.get("C", 0) >= 2) and l.get("avg") is not None:
+        c.append(l["avg"])
+    return min(c)
 
 
 def price_test(P, u, l, wide, s=None):
@@ -92,7 +97,7 @@ def price_test(P, u, l, wide, s=None):
            tahmin ne kadar güvenilirse o kadar az pay gerekir. Diğerlerinde eşiğin tamamı.
     ret  : alıkonan kârın sınavı geçilemedi mi (şirkette kalan pay retMin'den büyük ve getirisi getiri eşiğinin altında).
     kale : marj yetiyor ve alıkonan kârın sınavı geçilmiş."""
-    roe_n = roe_cons(u, l)
+    roe_n = roe_cons(u, l, s)
     pen = u["pb"] / (roe_n / 100.0)
     fv = fair_value(P, roe_n, l.get("g"), l.get("dy"), wide)
     mos = (1 - pen / fv["fair"]) * 100
@@ -301,16 +306,6 @@ def run(cc):
                     fails.append({"k": "data"})
                 elif not has_hist:
                     fails.append({"k": "history"})
-                # Özsermayesi eksi olan yıl: kaynak o yıl için eksi PD/DD verir. Özsermaye kârlılığı o yıl ölçülemez; yöntem (kâr ÷ özsermaye)
-                # böyle bir şirkette anlamını yitirir. Şirket 2. surda kalır.
-                negeq = [lab for lab, v in zip(labs[:5], (h.get("pbs") or [None] * 5)[:5]) if v is not None and v < 0]
-                if negeq:
-                    fails.append({"k": "negeq", "v": negeq})
-                # Finans şirketinde kaldıraç: yüksek özsermaye kârlılığı borçla da elde edilir. Aktif kârlılığı (kaynağın oran sayfası, en güncel
-                # okuma) roaMin'in altındaysa şirket 2. surda kalır. Veri yoksa sınanmaz.
-                roa = [x for x in (h.get("roa") or []) if x is not None]
-                if u.get("fin") and roa and roa[-1] < P.get("roaMin", 0.0):
-                    fails.append({"k": "lev", "v": round(roa[-1], 2)})
                 loss = [lab for lab, v in zip(labs[:5], roe6[:5]) if v is not None and v < 0]
                 if loss:
                     fails.append({"k": "loss", "v": loss})
@@ -348,6 +343,35 @@ def run(cc):
                             fails.append({"k": "cash", "v": [pos, len(f)]})
                         elif pos / len(f) < 0.6:
                             flags.append({"k": "cash", "v": [pos, len(f)]})
+                late = []                          # sonradan eklenen ölçütler: elenme nedeni olarak en sona yazılır
+                # Özsermayesi eksi olan yıl: kaynak o yıl için eksi PD/DD verir. Özsermaye kârlılığı o yıl ölçülemez; yöntem (kâr ÷ özsermaye)
+                # böyle bir şirkette anlamını yitirir. Şirket 2. surda kalır.
+                negeq = [lab for lab, v in zip(labs[:5], (h.get("pbs") or [None] * 5)[:5]) if v is not None and v < 0]
+                if negeq:
+                    late.append({"k": "negeq", "v": negeq})
+                # Finans şirketinde kaldıraç: yüksek özsermaye kârlılığı borçla da elde edilir. Aktif kârlılığı (kaynağın oran sayfası, en güncel
+                # okuma) roaMin'in altındaysa şirket 2. surda kalır. Veri yoksa sınanmaz.
+                roa = [x for x in (h.get("roa") or []) if x is not None]
+                rdoc = (reports.get(c) or {}).get("roa") or {}      # şirketin kendi belgesinden okunan aktif kârlılığı (kaynakta yoksa)
+                if not roa and isinstance(rdoc.get("v"), (int, float)):
+                    roa = [rdoc["v"]]
+                if u.get("fin") and roa and roa[-1] < P.get("roaMin", 0.0):
+                    late.append({"k": "lev", "v": round(roa[-1], 2)})
+                # Borçla şişen kârlılık: finans dışı şirkette yatırılan sermayenin getirisi (reel; son üç okumanın en düşüğü) özsermaye
+                # kârlılığının en düşük okuma eşiğinin altındaysa yüksek özsermaye kârlılığı borçtan geliyordur. Şirket 2. surda kalır.
+                # Finansman kolu olan şirkette kolun borcu getiriyi düşük gösterir; enflasyon muhasebesi uygulayan şirkette faaliyet kârı
+                # enflasyon düzeltmesiyle düşer, karşılığı olan parasal kazanç bu oranın dışında kalır: ikisinde de ölçülmez.
+                if not u.get("fin") and not finarm.get(c) and not ((not defl) and not fxc):
+                    rc = [(real(v, cf(lab)) if defl else v) for lab, v in zip(labs, (list(h.get("roic") or []) + [None] * 6)[:6]) if v is not None][-3:]
+                    if rc and min(rc) < P["eraMin"]:
+                        late.append({"k": "roic", "v": round(min(rc), 1)})
+                # Sulandırma: beş mali yılda pay sayısı %10'dan fazla arttıysa uyarı (D puanında tartılır).
+                sh = 1.0
+                for x in (h.get("bb") or [])[:5]:
+                    sh *= 1 - (x or 0.0) / 100.0
+                if sh > 1.10:
+                    flags.append({"k": "dil", "v": round((sh - 1) * 100, 1)})
+                fails.extend(late)
                 rnd = lambda x, d=1: None if x is None else round(x, d)
                 L2[c] = dict(asof=h.get("asof"), stale=h.get("stale", 0), roe=roe6, rroe=[rnd(v, 2) for v in rroe6],
                              roic=h.get("roic"), roa=h.get("roa"), fcf=h["fcf"], nd=nd, pe=h.get("pe"), pb=h.get("pb"), dy=h.get("dy"), po=h.get("po"),
@@ -357,6 +381,8 @@ def run(cc):
                 if ek < 1:
                     L2[c]["ek"] = round(ek, 3)     # kazanç yargısı (CLAUDE.md): son 12 ay okumaları bu çarpanla alınır
                 roe_c = [x for x in (None if rr is None else rr * ek, rroe6[-2], None if rroe6[-1] is None else rroe6[-1] * ek) if x is not None]
+                if not ((reports.get(c) or {}).get("scores") or {}).get("C", 0) >= 2 and avg is not None:
+                    roe_c.append(round(avg, 1))    # olağan kazanç gücü (roe_cons ile aynı): döngüsel işte dönem ortalaması
                 if roe_c and min(roe_c) > 0:       # 4. surun büyüme hızı (fiyat testi ve ön hesap için)
                     # İşlevsel para birimi yabancı olan şirket (meta.flags.fx) enflasyon muhasebesi uygulamaz: kâr dizisi nominaldir,
                     # her yıl o yılın tüketici enflasyonuyla düzeltilir (CLAUDE.md, "İşlevsel para birimi yabancı olan şirket").

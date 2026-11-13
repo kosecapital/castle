@@ -576,10 +576,10 @@
    ]
   },
   "growth": {
-   "g": 5.7,
+   "g": 4.9,
    "basis": {
-    "tr": "Formül yılda %11,5 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Mayıs 2026 yılı %143,2; Haziran-Ağustos 2026 çeyreği %0,6; Mayıs 2027 yılı için şirket tahmini %4,2. Mayıs 2026 yılındaki sıçrama bir kereye özgü: Nisan 2025'te enerji verimliliği uygunluğu bütün yeni binalarda zorunlu oldu. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %5,7.",
-    "en": "The formula gave growth of 11.5% a year. Latest figures (net profit, year on year): year to May 2026 143.2%; June-August 2026 quarter 0.6%; company forecast for the year to May 2027 4.2%. The jump in the year to May 2026 was a one-off: in April 2025 energy-efficiency conformity became mandatory for all new buildings. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 5.7%."
+    "tr": "Formül yılda %9,9 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Mayıs 2026 yılı %143,2; Haziran-Ağustos 2026 çeyreği %0,6; Mayıs 2027 yılı için şirket tahmini %4,2. Mayıs 2026 yılındaki sıçrama bir kereye özgü: Nisan 2025'te enerji verimliliği uygunluğu bütün yeni binalarda zorunlu oldu. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %4,9.",
+    "en": "The formula gave growth of 9.9% a year. Latest figures (net profit, year on year): year to May 2026 143.2%; June-August 2026 quarter 0.6%; company forecast for the year to May 2027 4.2%. The jump in the year to May 2026 was a one-off: in April 2025 energy-efficiency conformity became mandatory for all new buildings. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 4.9%."
    },
    "per": "2026-Q1"
   },
@@ -970,7 +970,7 @@
   "one": "Colantotte markalı mıknatıslı sağlık ürünleri satıyor. Kârlı ve borçsuz; fiyat testini kıl payı geçti, ama tek markaya bağlı ve şirket yavaşlama bekliyor.",
   "business": "Şirket, Japonya'da tıbbi cihaz onayı taşıyan mıknatıslı kolye, bileklik, destek ve dinlenme giysileri (RESNO) tasarlar ve satar. Eylül 2026'da biten yılda satış 9,0 milyar yen, faaliyet kârı 2,26 milyar yen oldu. Dokuz aylık satışın %50,1'i toptan, %36,9'u internet, %13,0'ü kendi mağazalarından geldi. Haziran 2026'da 22 mağazası vardı.",
   "moat_text": "Hendek dar. Kanıt marjlarda: brüt kâr marjı %70, faaliyet kâr marjı %25. Reel özsermaye kârlılığı beş yılda %18,0 ile %26,0 arasında kaldı, son yıl %23,8. Ürünlerin yarıdan fazlası (%54,6) 20.000 yen ve üstü fiyat bandında satılıyor; bu, markanın fiyat gücünü gösterir. Tıbbi cihaz onayı ve sporcu sponsorlukları markayı destekler. Zayıf yanı: tek marka, tek ürün ailesi. Mıknatıslı ürün taklit edilebilir ve talep modaya, reklama bağlıdır.",
-  "mgmt": "31 Mart 2026 itibarıyla en büyük ortak Ark Quest %39,57, Katsumi Komatsu %17,58 paya sahip; SMBC Trust Bank'taki emanet hesabı %8,79 tutuyor. Halka açık pay sınırlı. Şirket kârın yaklaşık %30'unu temettü olarak dağıtmayı hedefliyor: 2025 yılı için hisse başına 42 yen ödedi, 2026 yılı için 50 yen öngördü. Kalan kâr mağazalara, internet satışına ve yeni Ar-Ge merkezine gidiyor. Haziran 2026 sonunda özsermaye oranı %80,3 idi; şirket net nakitte.",
+  "mgmt": "31 Mart 2026 itibarıyla en büyük ortak Ark Quest %39,57, Katsumi Komatsu %17,58 paya sahip; SMBC Trust Bank'taki emanet hesabı %8,79 tutuyor. Halka açık pay sınırlı. Şirket kârın yaklaşık %30'unu temettü olarak dağıtmayı hedefliyor: 2025 yılı için hisse başına 42 yen ödedi, 2026 yılı için 50 yen öngördü. Kalan kâr mağazalara, internet satışına ve yeni Ar-Ge merkezine gidiyor. Haziran 2026 sonunda özsermaye oranı %80,3 idi; şirket net nakitte. Kurucu grubun toplam payı %71,17'dir: Ark Quest kurucu Katsumi Komatsu'nun varlık yönetim şirketidir; Komatsu, Momoko Wada ve Yumiko Komatsu ile birlikte ortak hissedar olarak bildirim yapar (18 Şubat 2025). Şirket hisse geri almıyor; pay sayısı opsiyonlarla üç yılda yaklaşık %1,2 arttı.",
   "latest": "6 Kasım 2026: Eylül 2026'da biten yılın sonuçları açıklandı. Satış 6,92 milyar yenden 9,00 milyar yene, faaliyet kârı 1,81 milyar yenden 2,26 milyar yene, net kâr 1,33 milyar yenden 1,51 milyar yene çıktı. Sonuç, şirketin kendi tahmininin (faaliyet kârı 2,1 milyar yen) üstünde kaldı. Eylül 2027 yılı için tahmin: satış 10,0 milyar yen, faaliyet kârı 2,4 milyar yen, net kâr 1,6 milyar yen. Tahmin, kâr marjının %25,1'den %24,0'e ineceğini ima ediyor.",
   "risks": [
    "Güvenlik marjı büyüme varsayımına dayanıyor: hesap, reel hisse başına kârın on yıl boyunca yılda %9,7 büyüyeceğini varsayar (formül %16,1 veriyordu; okumada bulunanlar yüzünden indirildi). Büyüme daha da yavaşlarsa marj erir. Şirket tek markaya ve mıknatıslı sağlık ürünlerine bağlıdır; ilgi azalırsa satış hızla düşebilir.",
@@ -1020,13 +1020,23 @@
     "t": "Kazanç yargısının kaynağı",
     "te": "Source for the earnings judgment",
     "u": "https://www2.jpx.co.jp/disc/77920/140120261105565997.pdf"
+   },
+   {
+    "t": "İkinci okuma: Colantotte: Tanshin, FY ended 30 Sep 2024 (TDnet, 5 Nov 2024)",
+    "te": "Second reading: Colantotte: Tanshin, FY ended 30 Sep 2024 (TDnet, 5 Nov 2024)",
+    "u": "https://www2.jpx.co.jp/disc/77920/140120241105511643.pdf"
+   },
+   {
+    "t": "İkinci okuma: Colantotte: Tanshin, Q1 FY Sep 2025 (TDnet, 7 Feb 2025)",
+    "te": "Second reading: Colantotte: Tanshin, Q1 FY Sep 2025 (TDnet, 7 Feb 2025)",
+    "u": "https://www2.jpx.co.jp/disc/77920/140120250207566221.pdf"
    }
   ],
   "en": {
    "one": "Sells Colantotte-brand magnetic health goods. Profitable and debt-free; it only just passed the price test, but it rests on one brand and the company expects a slowdown.",
    "business": "The company designs and sells magnetic necklaces, loops, supporters and recovery wear (RESNO) that carry medical device certification in Japan. In the year to September 2026 sales were 9.0 billion yen and operating profit 2.26 billion yen. In the first nine months 50.1% of sales came from wholesale, 36.9% from e-commerce and 13.0% from its own stores. It had 22 stores in June 2026.",
    "moat_text": "The moat is narrow. The proof is in the margins: gross margin 70%, operating margin 25%. Real return on equity stayed between 18.0% and 26.0% over five years, and was 23.8% in the latest year. More than half of sales (54.6%) come from products priced at 20,000 yen or more, which shows the brand's pricing power. Medical device certification and athlete sponsorships support the brand. The weak side: one brand, one product family. A magnetic product can be copied, and demand depends on fashion and advertising.",
-   "mgmt": "As of 31 March 2026 the largest shareholder, Ark Quest, held 39.57% and Katsumi Komatsu 17.58%; a trust account at SMBC Trust Bank held 8.79%. The free float is limited. The company aims to pay out about 30% of profit: it paid 42 yen per share for 2025 and planned 50 yen for 2026. The rest goes to stores, e-commerce and a new R&D centre. The equity ratio was 80.3% at the end of June 2026; the company has net cash.",
+   "mgmt": "As of 31 March 2026 the largest shareholder, Ark Quest, held 39.57% and Katsumi Komatsu 17.58%; a trust account at SMBC Trust Bank held 8.79%. The free float is limited. The company aims to pay out about 30% of profit: it paid 42 yen per share for 2025 and planned 50 yen for 2026. The rest goes to stores, e-commerce and a new R&D centre. The equity ratio was 80.3% at the end of June 2026; the company has net cash. The founder group holds 71.17% in total: Ark Quest is founder Katsumi Komatsu's asset-management company, and it reports jointly with Komatsu, Momoko Wada and Yumiko Komatsu (18 February 2025). The company does not buy back shares; options raised the share count by about 1.2% over three years.",
    "latest": "6 November 2026: results for the year to September 2026 were announced. Sales rose from 6.92 billion yen to 9.00 billion yen, operating profit from 1.81 billion yen to 2.26 billion yen, and net profit from 1.33 billion yen to 1.51 billion yen. The result beat the company's own forecast (operating profit 2.1 billion yen). Forecast for the year to September 2027: sales 10.0 billion yen, operating profit 2.4 billion yen, net profit 1.6 billion yen. The forecast implies the margin slipping from 25.1% to 24.0%.",
    "risks": [
     "The margin of safety rests on a growth assumption: the calculation assumes real earnings per share grow 9.7% a year for ten years (the formula gave 16.1%; it was lowered because of what the reading found). If growth slows further, the margin shrinks. The company depends on one brand and on magnetic health goods; if interest fades, sales can fall quickly.",
@@ -1057,6 +1067,10 @@
     "tr": "Hesap son 12 ayın kârına dayanır. Şirketin Eylül 2027'de biten yıl için hisse başına kâr beklentisi 175,33 JPY; son 12 ayda 165,62 JPY. Beklenti daha düşük değil.",
     "en": "The calculation rests on the profit of the last 12 months. The company's earnings-per-share outlook for year to September 2027 is 175.33 JPY; the last 12 months were 165.62 JPY. The outlook is not lower."
    },
+   "per": "2026-Q4"
+  },
+  "chk": {
+   "date": "2026-11-13",
    "per": "2026-Q4"
   }
  },
@@ -1427,8 +1441,8 @@
   "growth": {
    "g": null,
    "basis": {
-    "tr": "Formül yılda %22,2 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Nisan-Eylül 2026 %168,5; Temmuz-Eylül 2026 çeyreği %178,7; Mart 2027'de biten yıl için şirket beklentisi %107,4. En düşüğü, enflasyondan arındırılınca, %103,2. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
-    "en": "The formula gave growth of 22.2% a year. Latest figures (net profit, year on year): April-September 2026 168.5%; July-September 2026 quarter 178.7%; company forecast for the year to March 2027 107.4%. The lowest, after inflation, is 103.2%. That is not less than half the formula's rate; the rate was not lowered."
+    "tr": "Formül yılda %16,9 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Nisan-Eylül 2026 %168,5; Temmuz-Eylül 2026 çeyreği %178,7; Mart 2027'de biten yıl için şirket beklentisi %107,4. En düşüğü, enflasyondan arındırılınca, %103,2. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 16.9% a year. Latest figures (net profit, year on year): April-September 2026 168.5%; July-September 2026 quarter 178.7%; company forecast for the year to March 2027 107.4%. The lowest, after inflation, is 103.2%. That is not less than half the formula's rate; the rate was not lowered."
    },
    "per": "2026-Q2"
   },
@@ -2537,7 +2551,7 @@
   "one": "Kurumlara çalışan eğitimi satan şirket. Kalite surlarını geçti, hendek dar; ama kâr artışı %6'ya yavaşladı ve yıl içinde beklenti iki kez indirildi.",
   "business": "Insource şirketlere ve kamu kurumlarına çalışan eğitimi satar. Eğitmeni kuruma gönderir, herkese açık kurslar düzenler ve Leaf adlı eğitim yönetim yazılımını kiralar. Ekim 2025-Haziran 2026 döneminde satışın 5,58 milyar yeni kuruma gönderilen eğitimden, 2,81 milyar yeni açık kurslardan, 1,52 milyar yeni BT hizmetlerinden geldi. Eylül 2026'da biten yılda satış 15,56 milyar yen, faaliyet kârı 6,16 milyar yen oldu. Mali yıl eylülde biter.",
   "moat_text": "Hendek dar. Kanıt kârlılıkta: faaliyet kâr marjı Eylül 2026 yılında %39,6, bir önceki yıl %41,2 idi; brüt marj %76 dolayında. Reel özsermaye kârlılığı beş yılda %31,8 ile %36,8 arasında kaldı ve şirketin net borcu yok. Kendi hazırladığı içerik, geniş satış ağı ve Leaf yazılımı (919 ücretli kurum, yaklaşık 5,46 milyon etkin kullanıcı) ölçek üstünlüğü sağlıyor. Zayıf yanı: kurumsal eğitimde giriş engeli düşük, müşteri başka sağlayıcıya kolay geçer. 2026'da büyük şirketlerden sipariş zayıf kaldı, satış artışı %16,3'ten %7,2'ye indi ve marj 1,6 puan geriledi. Üretken yapay zekânın eğitim talebini nasıl değiştireceği de belli değil.",
-  "mgmt": "En büyük ortak %30,20 ile Ruplus şirketidir; Takayuki Funahashi'nin payı %6,35'tir (30 Eylül 2025). Şirket kârın %50'sini dağıtmayı ve özsermayenin %18'i kadar temettü ödemeyi hedefliyor. Eylül 2026 yılı için hisse başına 35 yen ödüyor: 29,5 yen olağan, 5,5 yen borsaya girişin 10. yılı için bir kerelik. Bu, hisse başına 52,36 yen kârın yaklaşık %67'sidir. Temmuz 2026'da 3 milyon hisseye ve 2 milyar yene kadar geri alım ile 4 milyon hisseye kadar iptal kararı alındı. Büyük bir satın alma yok; özkaynak oranı %78,7.",
+  "mgmt": "En büyük ortak %30,20 ile Ruplus şirketidir; Takayuki Funahashi'nin payı %6,35'tir (30 Eylül 2025). Şirket kârın %50'sini dağıtmayı ve özsermayenin %18'i kadar temettü ödemeyi hedefliyor. Eylül 2026 yılı için hisse başına 35 yen ödüyor: 29,5 yen olağan, 5,5 yen borsaya girişin 10. yılı için bir kerelik. Bu, hisse başına 52,36 yen kârın yaklaşık %67'sidir. Temmuz 2026'da 3 milyon hisseye ve 2 milyar yene kadar geri alım ile 4 milyon hisseye kadar iptal kararı alındı. Büyük bir satın alma yok; özkaynak oranı %78,7. Temmuz 2026'da başlayan geri alımda ay sonuna kadar 2.004.600 hisse 1,49 milyar yene alındı; şirket 30 Eylül 2026'da 4 milyona kadar hisseyi (çıkarılmış payların yaklaşık %4,7'si) iptal edeceğini açıkladı. Şirket küçük tutarlı menkul kıymet yatırımları da tutuyor; bunlar 2024 ve 2025'in ilk dokuz ayında 154 ve 109 milyon yen değer kaybı yazdırdı.",
   "latest": "2 Kasım 2026: Eylül 2026'da biten yılın sonuçları açıklandı. Satış %7,2 artışla 15,56 milyar yen, faaliyet kârı %3,1 artışla 6,16 milyar yen, net kâr %5,9 artışla 4,37 milyar yen oldu; hisse başına kâr 52,36 yen. Şirket yıla 4,63 milyar yen net kâr beklentisiyle başlamış, 7 Mayıs'ta bunu 4,40 milyar yene indirmiş, 24 Eylül'de olağan kâr beklentisini bir kez daha düşürmüştü. Eylül 2027 yılı için tahmin: satış 17,11 milyar yen (+%10,0), faaliyet kârı 6,85 milyar yen (+%11,2), net kâr 4,80 milyar yen (+%9,7), hisse başına kâr 59,01 yen, temettü 36 yen. Aynı gün 2029'a uzanan yeni orta vadeli plan da duyuruldu.",
   "risks": [
    "Fiyat hesabı geçmiş yılların hızlı büyümesine dayanır; oysa hisse başına kâr Eylül 2026 yılında yalnız %6,4 arttı ve şirket yıl içinde beklentisini iki kez indirdi. Büyüme bu düzeyde kalırsa güvenlik marjı daralır.",
@@ -2607,13 +2621,23 @@
     "t": "Kazanç yargısının kaynağı",
     "te": "Source for the earnings judgment",
     "u": "https://finance.matsui.co.jp/stock/6200/settlement/index"
+   },
+   {
+    "t": "İkinci okuma: Insource: Q3 FY Sep 2026 tanshin (company IR site, 3 Aug 2026)",
+    "te": "Second reading: Insource: Q3 FY Sep 2026 tanshin (company IR site, 3 Aug 2026)",
+    "u": "https://www.insource.co.jp/resource/pdf/ir/26080305.pdf"
+   },
+   {
+    "t": "İkinci okuma: Insource: Q3 FY Sep 2025 tanshin (TDnet, 4 Aug 2025)",
+    "te": "Second reading: Insource: Q3 FY Sep 2025 tanshin (TDnet, 4 Aug 2025)",
+    "u": "https://www2.jpx.co.jp/disc/62000/140120250804528701.pdf"
    }
   ],
   "en": {
    "one": "A company that sells employee training to organisations. It passed the quality walls and the moat is narrow; but profit growth slowed to 6% and guidance was cut twice during the year.",
    "business": "Insource sells employee training to companies and public bodies. It sends instructors to the client, runs open seminars and rents out its learning management software, Leaf. In October 2025-June 2026, 5.58 billion yen of sales came from on-site training, 2.81 billion yen from open seminars and 1.52 billion yen from IT services. In the year to September 2026 sales were 15.56 billion yen and operating profit 6.16 billion yen. The fiscal year ends in September.",
    "moat_text": "The moat is narrow. The evidence is in profitability: the operating margin was 39.6% in the year to September 2026, against 41.2% the year before; gross margin is about 76%. Real return on equity stayed between 31.8% and 36.8% over five years and the company has no net debt. Its own content, a wide sales network and the Leaf software (919 paying organisations, about 5.46 million active users) give it a scale advantage. The weak side: barriers to entry in corporate training are low and a client can easily move to another provider. In 2026 orders from large companies were weak, sales growth fell from 16.3% to 7.2% and the margin slipped 1.6 points. It is also unclear how generative AI will change training demand.",
-   "mgmt": "The largest shareholder is the company Ruplus with 30.20%; Takayuki Funahashi holds 6.35% (30 September 2025). The company aims to pay out 50% of profit and a dividend equal to 18% of equity. For the year to September 2026 it pays 35 yen per share: 29.5 yen ordinary and a one-time 5.5 yen for the 10th anniversary of its listing. That is about 67% of earnings per share of 52.36 yen. In July 2026 it decided to buy back up to 3 million shares and 2 billion yen, and to cancel up to 4 million shares. There is no large acquisition; the equity ratio is 78.7%.",
+   "mgmt": "The largest shareholder is the company Ruplus with 30.20%; Takayuki Funahashi holds 6.35% (30 September 2025). The company aims to pay out 50% of profit and a dividend equal to 18% of equity. For the year to September 2026 it pays 35 yen per share: 29.5 yen ordinary and a one-time 5.5 yen for the 10th anniversary of its listing. That is about 67% of earnings per share of 52.36 yen. In July 2026 it decided to buy back up to 3 million shares and 2 billion yen, and to cancel up to 4 million shares. There is no large acquisition; the equity ratio is 78.7%. Under the buyback that began in July 2026, 2,004,600 shares were bought for JPY 1.49 billion by month-end; the company said it would cancel up to 4 million shares (about 4.7% of issued shares) on 30 September 2026. It also holds small securities investments, which caused valuation losses of JPY 154 million and 109 million in the first nine months of 2024 and 2025.",
    "latest": "2 November 2026: results for the year to September 2026 were announced. Sales rose 7.2% to 15.56 billion yen, operating profit rose 3.1% to 6.16 billion yen and net profit rose 5.9% to 4.37 billion yen; earnings per share were 52.36 yen. The company had started the year expecting net profit of 4.63 billion yen, cut this to 4.40 billion yen on 7 May, and lowered its ordinary profit forecast once more on 24 September. The forecast for the year to September 2027: sales 17.11 billion yen (+10.0%), operating profit 6.85 billion yen (+11.2%), net profit 4.80 billion yen (+9.7%), earnings per share 59.01 yen, dividend 36 yen. A new medium-term plan running to 2029 was announced the same day.",
    "risks": [
     "The price calculation rests on the fast growth of past years; yet earnings per share rose only 6.4% in the year to September 2026 and the company cut its guidance twice during the year. If growth stays at this level, the margin of safety narrows.",
@@ -2643,6 +2667,10 @@
     "tr": "Formül yılda %15,9 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ekim 2025-Eylül 2026 mali yılı %6,4; Temmuz-Eylül 2026 çeyreği (yıllık eksi dokuz aylık, türetildi) %7,1; Eylül 2027 yılı için şirket tahmini %12,7. En düşüğü, enflasyondan arındırılınca, %4,2. Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %10,0.",
     "en": "The formula gave growth of 15.9% a year. Latest figures (earnings per share, year on year): fiscal year October 2025-September 2026 6.4%; July-September 2026 quarter (full year minus nine months, derived) 7.1%; company forecast for the year to September 2027 12.7%. The lowest, after inflation, is 4.2%. Because this is less than half the formula's rate, the midpoint of the two was used: 10.0%."
    },
+   "per": "2026-Q4"
+  },
+  "chk": {
+   "date": "2026-11-13",
    "per": "2026-Q4"
   }
  },

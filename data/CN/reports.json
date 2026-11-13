@@ -12,14 +12,14 @@
   "one": "Çin'in büyük klima üreticisi; hendek dar, ölçütü geçti. Ancak satış ve kâr geriliyor, üçüncü çeyrek kârı %43,3 düştü.",
   "business": "Gree, ev ve iş yeri kliması üretir ve kendi markasıyla satar. 2025'te 170,45 milyar yuan gelirin 133,06 milyar yuanı, yani yaklaşık %78'i, çoğu klima olan tüketici cihazlarından geldi. Para, markalı ürünün bayi ağı üzerinden satışından kazanılır.",
   "moat_text": "Hendek dar. Marka ve bayi ağı gerçek: dokuz aylık brüt kâr marjı %27,0, net kâr marjı %13,7 ve reel özsermaye kârlılığı beş yıldır %18'in üzerinde (2024'te %24,66). Ama üstünlük tek ürüne, klimaya bağlı ve şu an sınanıyor. Şirket fiyat indirmedi, ham madde pahalandı ve üçüncü çeyrek brüt marjı 5,6 puan düşerek %22,7'ye indi. Gelir 2024'teki 190,04 milyar yuandan 2025'te 170,45 milyar yuana geriledi. Reel özsermaye kârlılığı son 12 ayda %15,49'a düştü. Bu yüzden hendek geniş sayılmadı.",
-  "mgmt": "Şirketin hâkim ortağı yok. En büyük ortak, Hillhouse Capital bağlantılı Zhuhai Mingjun'dur (%16,11). Mingjun hisselerinin yaklaşık %87,6'sı rehinlidir ve Şubat 2026'da banka kredisi ödemek için 112 milyon hisseye kadar satış planı açıkladı. Yönetim kurulu başkanı Dong Mingzhu'nun payı %2,22'dir; halefi belli değil. Kârın büyük kısmı temettüye gidiyor: 2026 ara temettüsü 10 hisseye 10 yuan, toplam 5,55 milyar yuan. Genel kurul bir geri alım planını da onayladı. Net borç yok; şirket net nakittedir.",
+  "mgmt": "Şirketin hâkim ortağı yok. En büyük ortak, Hillhouse Capital bağlantılı Zhuhai Mingjun'dur (%16,11). Mingjun hisselerinin yaklaşık %87,6'sı rehinlidir ve Şubat 2026'da banka kredisi ödemek için 112 milyon hisseye kadar satış planı açıkladı. Yönetim kurulu başkanı Dong Mingzhu'nun payı %2,22'dir; halefi belli değil. Kârın büyük kısmı temettüye gidiyor: 2026 ara temettüsü 10 hisseye 10 yuan, toplam 5,55 milyar yuan. Genel kurul bir geri alım planını da onayladı. Net borç yok; şirket net nakittedir. 2020'den beri yaklaşık 30 milyar yuanlık pay geri alındı ve yaklaşık 414 milyon pay iptal edildi. Çalışan pay planının 2025 gideri 1,45 milyar yuan, net kârın %5'i. Üçüncü çeyrek raporuna göre en büyük ortak Zhuhai Mingjun, başkan Dong Mingzhu ile birlikte hareket ediyor.",
   "latest": "26 Ekim 2026: Şirket dokuz aylık sonuçlarını açıkladı. Gelir %8,1 düşüşle 126,08 milyar yuan, ana ortaklık net kârı %19,5 düşüşle 17,27 milyar yuan oldu. Üçüncü çeyrekte gelir %8,0 düşüşle 36,68 milyar yuan, net kâr %43,3 düşüşle 4,00 milyar yuan. Faaliyet nakit akışı %47,4 azalarak 24,06 milyar yuana indi. Şirket düşüşü klima satışlarındaki gerilemeye, sektördeki stok eritmeye, rekabete ve yüksek ham madde fiyatlarına bağladı.",
   "risks": [
    "Kâr düşüyor: üçüncü çeyrek net kârı %43,3 geriledi ve reel özsermaye kârlılığı son 12 ayda %15,49'a indi; düşüş sürerse fiyat ölçütü daha da uzaklaşır.",
+   "Şirketin finansal yatırımları büyüyor: alım satım amaçlı finansal varlıklar 2024 sonunda 16,55 milyar yuandan Eylül 2026'da 36,91 milyar yuana çıktı; içinde varlık yönetim planları ve başka şirketlerin hisseleri var.",
+   "Şirketin kendi sözüyle sektör daralıyor: Çin'de ev kliması satışları birinci çeyrekte %2,8, üçüncü çeyrekte %15,1 düştü; brüt marj ilk dokuz ayda %28,4'ten %27,0'a indi.",
    "Gelirin yaklaşık %78'i klimaya bağlıdır; Çin'de ev kliması satışları dokuz ayda %8,4, üçüncü çeyrekte %15,1 düştü.",
-   "Şirket fiyat indirmiyor; rakipler indirirse pazar payı, ham madde pahalı kalırsa marj kaybeder.",
-   "En büyük ortağın hisselerinin çoğu rehinlidir ve satış planı vardır; bu, hisse üzerinde arz baskısı yaratabilir.",
-   "Başkan Dong Mingzhu'nun halefi belli değildir; yönetim değişimi belirsizlik taşır."
+   "Şirket fiyat indirmiyor; rakipler indirirse pazar payı, ham madde pahalı kalırsa marj kaybeder."
   ],
   "watch": [
    "Brüt kâr marjı (üçüncü çeyrekte %22,7)",
@@ -57,20 +57,25 @@
     "t": "Kazanç yargısının kaynağı",
     "te": "Source for the earnings judgment",
     "u": "https://static.cninfo.com.cn/finalpage/2026-10-27/1225627217.PDF"
+   },
+   {
+    "t": "İkinci okuma: Gree Electric 2025 Annual Report (English version, 17 June 2026), cninfo",
+    "te": "Second reading: Gree Electric 2025 Annual Report (English version, 17 June 2026), cninfo",
+    "u": "https://static.cninfo.com.cn/finalpage/2026-06-17/1225374514.PDF"
    }
   ],
   "en": {
    "one": "A large Chinese air conditioner maker; the moat is narrow and it meets the criterion. But sales and profit are falling; third-quarter profit dropped 43.3%.",
    "business": "Gree makes home and commercial air conditioners and sells them under its own brand. In 2025, 133.06 billion yuan of its 170.45 billion yuan revenue, about 78%, came from consumer appliances, mostly air conditioners. It earns money by selling branded products through a dealer network.",
    "moat_text": "The moat is narrow. The brand and dealer network are real: nine-month gross margin is 27.0%, net margin 13.7%, and real return on equity has been above 18% for five years (24.66% in 2024). But the edge rests on one product, air conditioners, and is being tested now. The company did not cut prices, raw materials got dearer and third-quarter gross margin fell 5.6 points to 22.7%. Revenue fell from 190.04 billion yuan in 2024 to 170.45 billion yuan in 2025. Real return on equity dropped to 15.49% over the last twelve months. That is why the moat is not rated wide.",
-   "mgmt": "The company has no controlling shareholder. The largest shareholder is Zhuhai Mingjun, linked to Hillhouse Capital (16.11%). About 87.6% of Mingjun's shares are pledged, and in February 2026 it announced a plan to sell up to 112 million shares to repay bank loans. Chairwoman Dong Mingzhu holds 2.22%; her successor is not known. Most of the profit goes to dividends: the 2026 interim dividend is 10 yuan per 10 shares, 5.55 billion yuan in total. The shareholders' meeting also approved a buyback plan. There is no net debt; the company holds net cash.",
+   "mgmt": "The company has no controlling shareholder. The largest shareholder is Zhuhai Mingjun, linked to Hillhouse Capital (16.11%). About 87.6% of Mingjun's shares are pledged, and in February 2026 it announced a plan to sell up to 112 million shares to repay bank loans. Chairwoman Dong Mingzhu holds 2.22%; her successor is not known. Most of the profit goes to dividends: the 2026 interim dividend is 10 yuan per 10 shares, 5.55 billion yuan in total. The shareholders' meeting also approved a buyback plan. There is no net debt; the company holds net cash. Since 2020 the company has bought back about 30 billion yuan of shares and cancelled about 414 million. The employee share plan cost 1.45 billion yuan in 2025, 5% of net profit. Per the Q3 report, the largest holder Zhuhai Mingjun acts in concert with chair Dong Mingzhu.",
    "latest": "26 October 2026: The company reported nine-month results. Revenue fell 8.1% to 126.08 billion yuan and net profit attributable to shareholders fell 19.5% to 17.27 billion yuan. In the third quarter revenue fell 8.0% to 36.68 billion yuan and net profit fell 43.3% to 4.00 billion yuan. Operating cash flow fell 47.4% to 24.06 billion yuan. The company blamed lower air conditioner sales, industry destocking, competition and high raw material prices.",
    "risks": [
     "Profit is falling: third-quarter net profit dropped 43.3% and real return on equity fell to 15.49% over the last twelve months; if the decline continues, the price criterion moves further away.",
+    "Financial investments are growing: trading financial assets rose from 16.55 billion yuan at end-2024 to 36.91 billion yuan in September 2026, including asset-management plans and shares of other companies.",
+    "By the company's own account the industry is shrinking: China household AC sales fell 2.8% in Q1 and 15.1% in Q3; gross margin fell from 28.4% to 27.0% over nine months.",
     "About 78% of revenue depends on air conditioners; home air conditioner sales in China fell 8.4% in nine months and 15.1% in the third quarter.",
-    "The company does not cut prices; it loses market share if rivals do, and margin if raw materials stay expensive.",
-    "Most of the largest shareholder's shares are pledged and it has a selling plan; this can put supply pressure on the stock.",
-    "Chairwoman Dong Mingzhu's successor is not known; a change of management carries uncertainty."
+    "The company does not cut prices; it loses market share if rivals do, and margin if raw materials stay expensive."
    ],
    "watch": [
     "Gross margin (22.7% in the third quarter)",
@@ -93,6 +98,10 @@
     "tr": "Hesap son 12 ayın kârına dayanır. Bu kârın içindeki tek seferlik kazançlar: Şirketin 'olağan dışı' diye ayırdığı kalemlerin son 12 aydaki net tutarı (devlet destekleri ve finansal araçların değer artışı): son 12 ay kârının %5,2 kadarı. Net etki %5,2; kazanç bu kadar indirildi. Son 12 ayın kârı 0,95 ile çarpılarak kullanıldı.",
     "en": "The calculation rests on the profit of the last 12 months. One-off gains inside that profit: Net total over the last 12 months of the items the company itself classes as non-recurring (government grants and fair-value gains): 5.2% of last-12-month profit. The net effect is 5.2%; earnings were lowered by that much. Last-12-month profit was used multiplied by 0.95."
    },
+   "per": "2026-Q3"
+  },
+  "chk": {
+   "date": "2026-11-13",
    "per": "2026-Q3"
   }
  },
@@ -217,14 +226,14 @@
   "one": "Buzdolabı, derin dondurucu ve çamaşır makinesi üretir; çoğunu yurt dışına satar. Kalite surlarını geçti; 2026'da kâr geriledi ve fiyat güvenlik marjı için yetmiyor.",
   "business": "Şirketin iki ana işletmesi var. Homa (Aoma) başka markalar için buzdolabı tasarlar ve üretir (ODM). Hefei Home Appliances ise TCL markalı buzdolabı ve çamaşır makinesi yapar. 2025'te gelir 18,53 milyar yuan oldu; bunun 14,405 milyar yuanı yurt dışından geldi. Küresel kapasite yılda 20 milyon adedin üzerinde.",
   "moat_text": "Hendek dar. Kaynağı ölçek: şirketin açıklamasına göre Homa 17 yıldır Çin'in en büyük buzdolabı ihracatçısı, 18 yıldır da Avrupa'ya ihracatta birinci. Brüt kâr marjı 2025'te %25,2, 2026'nın ilk dokuz ayında %23,0; fason üretici için yüksek. Reel özsermaye kârlılığı 2025'te %49,64, son 12 ayda %32,61. Zayıf yanı: ODM işinde marka müşterinindir, sipariş müşterinin kararına bağlıdır. Yüksek özsermaye kârlılığı kısmen ince özsermayeden geliyor; borçların varlıklara oranı %68,95. Kendi markasıyla yurt dışı satış hızlı büyüyor (ilk dokuz ayda %62,01) ama kalıcılığı henüz belli değil.",
-  "mgmt": "Hâkim ortak TCL Home Appliances Group'tur; 30 Eylül 2026'da payı %50,19. Bu şirketin tamamı TCL Industries Holdings'e aittir, nihai kontrol Li Dongsheng'dedir. 2025 kârından 10 hisseye 2,0379 yuan, toplam 220,9 milyon yuan nakit temettü önerildi; ana ortaklık kârı 1,123 milyar yuandı. Dağıtılmamış kâr 2025 sonunda artıya döndü ve 2026-2028 için üç yıllık pay sahibi getiri planı açıklandı. Kârın önemli kısmı azınlık paylarına gidiyor: 2025'te azınlık payı kârı 1,011 milyar yuan. Kâr Tayland'daki yeni fabrikalara da yatırılıyor. Temettü oranı düşük ve grup içi ilişkiler olduğu için D puanı 1.",
+  "mgmt": "Hâkim ortak TCL Home Appliances Group'tur; 30 Eylül 2026'da payı %50,19. Bu şirketin tamamı TCL Industries Holdings'e aittir, nihai kontrol Li Dongsheng'dedir. 2025 kârından 10 hisseye 2,0379 yuan, toplam 220,9 milyon yuan nakit temettü önerildi; ana ortaklık kârı 1,123 milyar yuandı. Dağıtılmamış kâr 2025 sonunda artıya döndü ve 2026-2028 için üç yıllık pay sahibi getiri planı açıklandı. Kârın önemli kısmı azınlık paylarına gidiyor: 2025'te azınlık payı kârı 1,011 milyar yuan. Kâr Tayland'daki yeni fabrikalara da yatırılıyor. Temettü oranı düşük ve grup içi ilişkiler olduğu için D puanı 1. Asıl kârı üreten Homa'nın yalnız %51'i şirkete ait; 2025'te toplam kârın %47'si azınlık ortaklara gitti ve 2026'nın ilk dokuz ayında onlara 469 milyon yuan temettü ödendi. Şirket 2025'te pay geri almadı, yeni pay da çıkarmadı.",
   "latest": "23 Ekim 2026: İlk dokuz ayda gelir 15,306 milyar yuan oldu, %6,69 arttı. Ana ortaklık net kârı 775 milyon yuan oldu, %20,67 azaldı. Şirkete göre kur farkı hariç kâr 943 milyon yuan, %0,70 arttı. Üçüncü çeyrekte gelir 5,371 milyar yuan (%10,32 artış), net kâr 264 milyon yuan (%22,15 azalış). Yurt dışı gelir %19,12 arttı. Tayland'da yılda 1,4 milyon adetlik buzdolabı fabrikası Eylül 2026'da tamamlandı, deneme üretiminde.",
   "risks": [
    "Fiyat güvenlik marjı için yetmiyor: formül yılda %16,1 büyüme veriyordu, okumada bulunanlar yüzünden %8,1 alındı. Kâr 2026'nın ilk dokuz ayında %20,67 geriledi; yuan değer kazanmaya devam ederse ihracat kârı daha da düşer.",
+   "Satışların yaklaşık %13,6'sı (2025'te 2,52 milyar yuan) hâkim ortağın grubundaki şirketlere yapılıyor; bu satışların fiyatı ve sürekliliği grup kararına bağlı.",
+   "Kâr yuanın değerine çok duyarlı: 2026'nın ilk dokuz ayında yuanın değer kazanması 284 milyon yuan kur zararı yazdırdı.",
    "ODM işinde marka müşterinindir; büyük müşteriler siparişi başka üreticiye kaydırırsa satış ve marj birlikte düşer.",
-   "Hammadde fiyatları artarsa %23,0 olan brüt marj daralır.",
-   "Gelirin büyük kısmı yurt dışından geldiği için gümrük vergileri ve ticaret kısıtları siparişleri azaltabilir.",
-   "Borçların varlıklara oranı %68,95; kârın yarıya yakını azınlık paylarına gidiyor, bu yüzden yüksek özsermaye kârlılığı olduğundan güçlü görünüyor."
+   "Hammadde fiyatları artarsa %23,0 olan brüt marj daralır."
   ],
   "watch": [
    "Ana ortaklık net kârı ve kur farkı hariç kâr",
@@ -267,20 +276,25 @@
     "t": "Kazanç yargısının kaynağı",
     "te": "Source for the earnings judgment",
     "u": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225619269.PDF"
+   },
+   {
+    "t": "İkinci okuma: TCL智家 2025年年度报告 (11 March 2026), cninfo",
+    "te": "Second reading: TCL智家 2025年年度报告 (11 March 2026), cninfo",
+    "u": "https://static.cninfo.com.cn/finalpage/2026-03-11/1225004114.PDF"
    }
   ],
   "en": {
    "one": "It makes refrigerators, freezers and washing machines and sells most of them abroad. It passed the quality walls; profit fell in 2026 and the price leaves too little margin of safety.",
    "business": "The company has two main operating units. Homa (Aoma) designs and makes refrigerators for other brands (ODM). Hefei Home Appliances makes TCL-brand refrigerators and washing machines. In 2025 revenue was 18.53 billion yuan, of which 14.405 billion yuan came from abroad. Global capacity is above 20 million units a year.",
    "moat_text": "The moat is narrow. Its source is scale: according to the company, Homa has been China's largest refrigerator exporter for 17 years and first in exports to Europe for 18 years. Gross margin was 25.2% in 2025 and 23.0% in the first nine months of 2026; high for a contract maker. Real return on equity was 49.64% in 2025 and 32.61% over the last 12 months. The weak side: in ODM the brand belongs to the customer and orders depend on the customer's decision. The high return on equity comes partly from thin equity; liabilities are 68.95% of assets. Own-brand sales abroad are growing fast (62.01% in the first nine months) but their durability is not yet clear.",
-   "mgmt": "The controlling shareholder is TCL Home Appliances Group, with 50.19% on 30 September 2026. That company is wholly owned by TCL Industries Holdings, and ultimate control rests with Li Dongsheng. A cash dividend of 2.0379 yuan per 10 shares, 220.9 million yuan in total, was proposed from 2025 profit; profit attributable to the parent was 1.123 billion yuan. Retained earnings turned positive at the end of 2025 and a three-year shareholder return plan for 2026-2028 was announced. A large part of profit goes to minority interests: 1.011 billion yuan in 2025. Profit is also invested in new plants in Thailand. The payout is low and there are intra-group dealings, so the D score is 1.",
+   "mgmt": "The controlling shareholder is TCL Home Appliances Group, with 50.19% on 30 September 2026. That company is wholly owned by TCL Industries Holdings, and ultimate control rests with Li Dongsheng. A cash dividend of 2.0379 yuan per 10 shares, 220.9 million yuan in total, was proposed from 2025 profit; profit attributable to the parent was 1.123 billion yuan. Retained earnings turned positive at the end of 2025 and a three-year shareholder return plan for 2026-2028 was announced. A large part of profit goes to minority interests: 1.011 billion yuan in 2025. Profit is also invested in new plants in Thailand. The payout is low and there are intra-group dealings, so the D score is 1. The listed company owns only 51% of Homa, which earns most of the profit; 47% of 2025 total profit went to minority holders, who received 469 million yuan of dividends in the first nine months of 2026. No buybacks and no new shares in 2025.",
    "latest": "23 October 2026: In the first nine months revenue was 15.306 billion yuan, up 6.69%. Net profit attributable to the parent was 775 million yuan, down 20.67%. According to the company, profit excluding currency effects was 943 million yuan, up 0.70%. In the third quarter revenue was 5.371 billion yuan (up 10.32%) and net profit 264 million yuan (down 22.15%). Overseas revenue rose 19.12%. A refrigerator plant in Thailand with capacity of 1.4 million units a year was completed in September 2026 and is in trial production.",
    "risks": [
     "The price leaves too little margin of safety: the formula gave growth of 16.1% a year; because of what the reading found, 8.1% was used. Profit fell 20.67% in the first nine months of 2026; if the yuan keeps strengthening, export profit falls further.",
+    "About 13.6% of sales (2.52 billion yuan in 2025) go to companies in the controlling shareholder's group; their price and continuity depend on group decisions.",
+    "Profit is very sensitive to the yuan: its rise caused an FX loss of 284 million yuan in the first nine months of 2026.",
     "In ODM the brand belongs to the customer; if large customers move orders to another maker, sales and margin fall together.",
-    "If raw material prices rise, the 23.0% gross margin narrows.",
-    "Most revenue comes from abroad, so tariffs and trade restrictions can reduce orders.",
-    "Liabilities are 68.95% of assets and close to half of profit goes to minority interests, so the high return on equity looks stronger than it is."
+    "If raw material prices rise, the 23.0% gross margin narrows."
    ],
    "watch": [
     "Net profit attributable to the parent and profit excluding currency effects",
@@ -303,6 +317,10 @@
     "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı.",
     "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are."
    },
+   "per": "2026-Q3"
+  },
+  "chk": {
+   "date": "2026-11-13",
    "per": "2026-Q3"
   }
  },
@@ -365,17 +383,17 @@
   },
   "moat": "dar",
   "per": "2026-Q3",
-  "one": "Chengdu'nun şehir bankası; hendek dar, ölçütü geçti. Ancak kâr artışı yavaşladı, karşılık gideri hızla büyüdü ve reel özsermaye kârlılığı düşüyor.",
+  "one": "Chengdu'nun şehir bankası. Özsermaye kârlılığı yüksek görünüyor ama aktif kârlılığı %1'in altına indi: kazanç kaldıraçtan geliyor. Kalite surunda kaldı.",
   "business": "Bank of Chengdu, Çin'in Chengdu şehrinde kurulu bir ticari bankadır. Mevduat toplar, kredi verir; gelirinin çoğu faizden gelir. 2026'nın ilk dokuz ayında 19,51 milyar yuan gelirin 17,91 milyar yuanı net faiz geliriydi. Eylül 2026 sonunda varlıkları yaklaşık 1,50 trilyon yuan, mevduatı 1,07 trilyon yuan, kredileri 897,9 milyar yuandı.",
   "moat_text": "Hendek dar. Banka lisansı, 1,07 trilyon yuanlık mevduat tabanı ve şehrin yatırım şirketinin en büyük ortak olması gerçek bir üstünlük sağlıyor. Kanıt rakamlarda: takipteki kredi oranı %0,68, karşılık oranı %448,06. Reel özsermaye kârlılığı beş yıldır %13 ile %18 arasında. Zayıf yanı: iş tek bir şehre ve bölgeye bağlı. Reel özsermaye kârlılığı 2023'teki %17,87'den son 12 ayda %12,52'ye indi. Yakın izlemedeki krediler yıl başındaki 2,93 milyar yuandan 4,49 milyar yuana çıktı.",
-  "mgmt": "En büyük ortak Chengdu'nun finans holdingi Jiaozi Financial Holdings'tir (%19,999). İkinci ortak Hong Leong Bank'tır (%17,779). Hâkim tek ortak yok, ama belediye sermayesinin ağırlığı büyük. Banka 2026'da ilk kez ara temettü verdi: 10 hisseye 4,89 yuan, toplam 2,07 milyar yuan, ilk yarı kârının %30,02'si. Son üç yılda dağıtım oranı en az %30 oldu. Kalan kâr sermayede kalıyor, çünkü çekirdek sermaye oranı %8,85 ile yüksek değil.",
+  "mgmt": "En büyük ortak Chengdu'nun finans holdingi Jiaozi Financial Holdings'tir (%19,999). İkinci ortak Hong Leong Bank'tır (%17,779). Hâkim tek ortak yok, ama belediye sermayesinin ağırlığı büyük. Banka 2026'da ilk kez ara temettü verdi: 10 hisseye 4,89 yuan, toplam 2,07 milyar yuan, ilk yarı kârının %30,02'si. Son üç yılda dağıtım oranı en az %30 oldu. Kalan kâr sermayede kalıyor, çünkü çekirdek sermaye oranı %8,85 ile yüksek değil. Pay sayısı 2022'den bu yana %17,3 arttı: 8 milyar yuanlık dönüştürülebilir tahvil hisseye çevrildi (2024'te 356 milyon, 2025'te 68,5 milyon hisse). Banka hisse geri almıyor; sermayesini hisse ihracıyla ve sürekli tahvillerle güçlendiriyor. Chengdu belediyesine bağlı üç ortak birlikte payların %30,82'sini tutuyor.",
   "latest": "28 Ekim 2026: Banka dokuz aylık sonuçlarını açıkladı. Gelir %9,84 artışla 19,51 milyar yuan, ana ortaklık net kârı %4,48 artışla 9,92 milyar yuan oldu. Üçüncü çeyrekte gelir %22,59 arttı, ama faaliyet kârı %0,72 geriledi. Kredi değer düşüklüğü gideri %82,52 artarak 3,30 milyar yuana çıktı. Takipteki kredi oranı %0,68'de kaldı. Çekirdek sermaye oranı %8,85, toplam sermaye yeterliliği %13,57.",
   "risks": [
    "Güvenlik marjını zayıflatan gelişme şu: kâr artışı %4,48'e indi, üçüncü çeyrekte faaliyet kârı geriledi ve reel özsermaye kârlılığı son 12 ayda %12,52'ye düştü.",
+   "Kredi yoğunlaşması yüksek: kredilerin %72,7'si Chengdu'da; kurumsal kredilerin %48,08'i kiralama ve iş hizmetlerine, %14,64'ü su, çevre ve kamu tesislerine gidiyor (2025). Bu iki alan çoğunlukla yerel yönetimlerin yatırım şirketleridir; yerel kamu borcunda bir sorun bankayı doğrudan etkiler.",
+   "Varlık kârlılığı üç yıldır düşüyor: 2023'te %1,16, 2025'te %1,00, 2026'nın dokuz ayında yıllık %0,91. Vadesi geçmiş krediler 2025'te %38 arttı.",
    "Karşılık gideri dokuz ayda %82,52 arttı ve yakın izlemedeki krediler 4,49 milyar yuana çıktı; kredi kalitesi bozulursa kâr daha da düşer.",
-   "Banka tek bir şehre ve bölgeye bağlıdır; Chengdu ekonomisinde ya da yerel kamu borçlarında bir sorun doğrudan bilançoya yansır.",
-   "Çekirdek sermaye oranı %8,85'tir; büyüme sürerse sermaye artırımı gerekebilir ve mevcut ortakların payı sulanır.",
-   "Kredi büyümesi %5,83 ile son beş yılın aynı dönemlerinin en düşüğüdür; faiz marjı daralırsa gelir artışı sürmeyebilir."
+   "Banka tek bir şehre ve bölgeye bağlıdır; Chengdu ekonomisinde ya da yerel kamu borçlarında bir sorun doğrudan bilançoya yansır."
   ],
   "watch": [
    "Takipteki kredi oranı ve yakın izlemedeki kredilerin payı",
@@ -403,20 +421,30 @@
     "t": "Kazanç yargısının kaynağı",
     "te": "Source for the earnings judgment",
     "u": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225636378.PDF"
+   },
+   {
+    "t": "İkinci okuma: 成都银行股份有限公司2025年年度报告 (Bank of Chengdu 2025 annual report, 23 Apr 2026)",
+    "te": "Second reading: 成都银行股份有限公司2025年年度报告 (Bank of Chengdu 2025 annual report, 23 Apr 2026)",
+    "u": "https://static.cninfo.com.cn/finalpage/2026-04-23/1225153907.PDF"
+   },
+   {
+    "t": "İkinci okuma: 成都银行股份有限公司2023年年度报告摘要 (Bank of Chengdu 2023 annual report summary, 25 Apr 2024)",
+    "te": "Second reading: 成都银行股份有限公司2023年年度报告摘要 (Bank of Chengdu 2023 annual report summary, 25 Apr 2024)",
+    "u": "https://static.cninfo.com.cn/finalpage/2024-04-25/1219797259.PDF"
    }
   ],
   "en": {
-   "one": "Chengdu's city bank; the moat is narrow and it meets the criterion. But profit growth has slowed, provisions are rising fast and real return on equity is falling.",
+   "one": "Chengdu's city bank. Return on equity looks high, but return on assets has fallen below 1%: the earnings come from leverage. It stays at the quality wall.",
    "business": "Bank of Chengdu is a commercial bank based in the Chinese city of Chengdu. It takes deposits and makes loans; most of its income is interest. In the first nine months of 2026, 17.91 billion yuan of its 19.51 billion yuan revenue was net interest income. At the end of September 2026 it had about 1.50 trillion yuan of assets, 1.07 trillion yuan of deposits and 897.9 billion yuan of loans.",
    "moat_text": "The moat is narrow. The banking licence, a deposit base of 1.07 trillion yuan and the city's investment company as largest shareholder give a real edge. The numbers show it: the bad-loan ratio is 0.68% and provision coverage is 448.06%. Real return on equity has stayed between 13% and 18% for five years. The weak side: the business depends on one city and region. Real return on equity fell from 17.87% in 2023 to 12.52% over the last twelve months. Special-mention loans rose from 2.93 billion yuan at the start of the year to 4.49 billion yuan.",
-   "mgmt": "The largest shareholder is Jiaozi Financial Holdings, Chengdu's financial holding company (19.999%). The second is Hong Leong Bank (17.779%). No single shareholder has control, but municipal capital carries great weight. In 2026 the bank paid its first interim dividend: 4.89 yuan per 10 shares, 2.07 billion yuan in total, 30.02% of first-half profit. The payout ratio has been at least 30% for the last three years. The rest of the profit stays in capital, because the core capital ratio is not high at 8.85%.",
+   "mgmt": "The largest shareholder is Jiaozi Financial Holdings, Chengdu's financial holding company (19.999%). The second is Hong Leong Bank (17.779%). No single shareholder has control, but municipal capital carries great weight. In 2026 the bank paid its first interim dividend: 4.89 yuan per 10 shares, 2.07 billion yuan in total, 30.02% of first-half profit. The payout ratio has been at least 30% for the last three years. The rest of the profit stays in capital, because the core capital ratio is not high at 8.85%. The share count has risen 17.3% since 2022: an RMB 8 billion convertible bond turned into shares (356 million shares in 2024, 68.5 million in 2025). The bank does not buy back shares; it builds capital through share issuance and perpetual bonds. Three shareholders controlled by the Chengdu city government together hold 30.82%.",
    "latest": "28 October 2026: The bank reported nine-month results. Revenue rose 9.84% to 19.51 billion yuan and net profit attributable to shareholders rose 4.48% to 9.92 billion yuan. In the third quarter revenue rose 22.59%, but operating profit fell 0.72%. Credit impairment charges rose 82.52% to 3.30 billion yuan. The bad-loan ratio stayed at 0.68%. The core tier 1 ratio is 8.85% and the total capital ratio is 13.57%.",
    "risks": [
     "What weakens the margin of safety: profit growth slowed to 4.48%, operating profit fell in the third quarter and real return on equity dropped to 12.52% over the last twelve months.",
+    "Lending is concentrated: 72.7% of loans are in Chengdu; 48.08% of corporate loans go to leasing and business services and 14.64% to water, environment and public facilities (2025). These are mostly local-government investment companies; a problem in local public debt hits the bank directly.",
+    "Return on assets has fallen for three years: 1.16% in 2023, 1.00% in 2025 and 0.91% annualised in the first nine months of 2026. Overdue loans rose 38% in 2025.",
     "Impairment charges rose 82.52% in nine months and special-mention loans climbed to 4.49 billion yuan; if credit quality worsens, profit falls further.",
-    "The bank depends on one city and region; trouble in Chengdu's economy or in local public debt would show up directly on its balance sheet.",
-    "The core tier 1 ratio is 8.85%; if growth continues a capital raise may be needed, diluting existing shareholders.",
-    "Loan growth of 5.83% is the lowest for this period in five years; if the interest margin narrows, revenue growth may not last."
+    "The bank depends on one city and region; trouble in Chengdu's economy or in local public debt would show up directly on its balance sheet."
    ],
    "watch": [
     "Bad-loan ratio and the share of special-mention loans",
@@ -440,6 +468,16 @@
     "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are."
    },
    "per": "2026-Q3"
+  },
+  "chk": {
+   "date": "2026-11-13",
+   "per": "2026-Q3"
+  },
+  "roa": {
+   "v": 0.91,
+   "tr": "2026'nın ilk dokuz ayı, yıla çevrilmiş; 2025 yılında %1,00, 2023'te %1,16",
+   "en": "first nine months of 2026, annualised; 1.00% in 2025, 1.16% in 2023",
+   "u": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225636378.PDF"
   }
  },
  "000333": {

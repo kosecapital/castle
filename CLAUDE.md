@@ -98,7 +98,7 @@ python3 -m http.server 8765 --directory .preview   # yerel deneme: http://127.0.
 | Sur | Kural | Kaynak alan |
 |---|---|---|
 | 1. Kırmızı çizgiler | GYO ve yatırım ortaklığı değil; son 12 ayda net kâr var (F/K > 0); özsermaye pozitif; piyasa değeri ≥ `meta.mcapMin`. F/K yoksa neden ayrı yazılır: zarar (`noprofit`), kaynakta veri yok (`nodata`), bilinmiyor (`nope`). PD/DD yoksa da: özsermaye negatif (`equity`), kaynaklarda defter değeri yok (`nobook`) | universe.json |
-| 2. Kalite | Son 12 ay reel özsermaye kârlılığı ≥ %12 (kazanç düzeltmesinden sonra; bkz. "Kazanç yargısı" ve "Ortağın kazancı"). Beş mali yılın hiçbirinde özsermaye eksi değil (`negeq`: kaynak o yıl eksi PD/DD verir; özsermaye kârlılığı ölçülemez, yöntem uygulanamaz). Finans şirketinde aktif kârlılığı ≥ `roaMin` (%1; `lev`: özsermaye kârlılığı kaldıraçtan geliyorsa kalite sayılmaz; veri oran sayfasının "Return on Assets" satırıdır, yoksa sınanmaz). Beş yıllık geçmiş var, zarar yılı yok. Reel özsermaye kârlılığı ortalaması ≥ %15, hiçbir okuma < %10 değil. Net borç/FAVÖK ≤ 3 (şirketin içinde finansman şirketi varsa o kol hariç). Serbest nakit akışı son beş dönemin en az ikisinde pozitif (finans şirketlerinde borç ve nakit testi yok) | universe.json + history.json + finarm.json |
+| 2. Kalite | Son 12 ay reel özsermaye kârlılığı ≥ %12 (kazanç düzeltmesinden sonra; bkz. "Kazanç yargısı" ve "Ortağın kazancı"). Beş mali yılın hiçbirinde özsermaye eksi değil (`negeq`: kaynak o yıl eksi PD/DD verir; özsermaye kârlılığı ölçülemez, yöntem uygulanamaz). Finans şirketinde aktif kârlılığı ≥ `roaMin` (%1; `lev`: özsermaye kârlılığı kaldıraçtan geliyorsa kalite sayılmaz; veri oran sayfasının "Return on Assets" satırıdır; orada yoksa raporun `roa` kaydı, yani şirketin kendi belgesinden okunan oran kullanılır; ikisi de yoksa sınanmaz). Finans dışı şirkette yatırılan sermayenin reel getirisi (son üç okumanın en düşüğü) ≥ %10 (`roic`: özsermaye kârlılığı borçla yükselmişse kalite sayılmaz; finansman kolu olan ve enflasyon muhasebesi uygulayan şirkette ölçülmez). Beş yılda pay sayısı %10'dan fazla arttıysa uyarı yazılır (`dil`; D puanında tartılır). Beş yıllık geçmiş var, zarar yılı yok. Reel özsermaye kârlılığı ortalaması ≥ %15, hiçbir okuma < %10 değil. Net borç/FAVÖK ≤ 3 (şirketin içinde finansman şirketi varsa o kol hariç). Serbest nakit akışı son beş dönemin en az ikisinde pozitif (finans şirketlerinde borç ve nakit testi yok) | universe.json + history.json + finarm.json |
 | 3. Hendek ve yönetim | Claude'un yazdığı puanlar: B ≥ 2 ve A, C, D, E ≥ 1. Kârdaki kötüleşmenin kalıcı bir nedeni varsa şirket burada elenir (`decline`; bkz. "Büyüme yargısı") | reports.json + growth_facts.json |
 | 4. Fiyat | Temkinli F/K = PD/DD ÷ (son üç reel özsermaye kârlılığı okumasının en düşüğü). Adil çarpan = indirgenmiş nakit akışı (İNA) ile PEG'in düşüğü (aşağıda). Güvenlik marjı ≥ %25 ise "kale", değilse "kapıda bekliyor" | hesap + history.json |
 
@@ -111,6 +111,7 @@ python3 -m http.server 8765 --directory .preview   # yerel deneme: http://127.0.
 - **İNA:** iki aşama. İlk `gYears` (10) yıl şirketin büyüme hızı, sonra hendek sınıfının kalıcı büyümesi (`gNarrow` %1,5, `gWide` %3). Her yıl ortağa kalan nakit = kâr × (1 − büyüme ÷ özsermaye kârlılığı). İskonto: reel getiri eşiği `r` (%10).
 - **PEG:** adil F/K = büyüme hızı (%) + temettü verimi (%). PEG büyüme için ödenen fazlayı sınırlar; değeri, şirketin hiç büyümese edeceği tutarın (büyüme 0 ile İNA) altına indirmez.
 - Adil çarpan = min(İNA, max(PEG, büyümesiz İNA)).
+- **Olağan kazanç gücü** (13 Kasım 2026). Temkinli özsermaye kârlılığı son üç okumanın en düşüğüdür; kazancı döngüye bağlı işte (C < 2; okunmamış şirkette de öyle varsayılır) dönem ortalaması daha düşükse o alınır. Döngünün iyi yıllarının kârı işin olağan kazanç gücü sayılmaz.
 - **Küçülen kâr** (13 Kasım 2026; Alper'in "Warren ve Charlie ne yapardıysa ona göre ilerle" talimatıyla eklenen dört kuralın ilki). Geçmiş beş yılın reel kâr eğilimi eksiyse büyüme hızı sıfırda durmaz: hesap aynı hızda küçülme varsayar, en çok yılda `gFloor` (%10). Küçülen iş için ortağa kârdan fazlası yazılmaz. Kanıtlanmış ve istikrarlı kazanç gücü aranır (ilke 2); kârı gerileyen iş bunu göstermemiştir.
 - **Hüküm: kale olmak için** (`price_test()` ve sayfadaki `val()`; ikisi aynı sonucu verir):
   - Güvenlik marjı gereken eşiği geçmeli. Eşik `mos` (%25); geniş hendekli **ve** kazancı öngörülebilir işte (B = 3 ve C = 2) bunun `mosWonder` katı (yarısı, %12,5): tahmin ne kadar güvenilirse o kadar az pay gerekir (ilke 10 ve 11).
@@ -151,6 +152,31 @@ python3 -m http.server 8765 --directory .preview   # yerel deneme: http://127.0.
 
 "Reel": enflasyon muhasebesi (TMS/IAS 29) uygulayan şirketin rakamı zaten reeldir. Diğerlerinde nominal özsermaye kârlılığı o yılın tüketici enflasyonuyla düzeltilir: `(1+ROE)/(1+enflasyon) − 1`. `meta.deflate` değeri `all` ise bütün şirketler, `nominal_only` ise yalnız `nom=1` olanlar düzeltilir.
 2. surun beş yıllık rakamlarının tek kaynağı stockanalysis.com oran sayfasıdır (özsermaye kârlılığı, net borç/FAVÖK, serbest nakit akışı). Şirketin kendi tanımı farklı bir oran verse de süzgeç herkese aynı kaynağı uygular; fark önemliyse rapora `note` yazılır.
+
+## Kurallar nerede uygulanıyor (özet)
+
+Alper'in 13 Kasım 2026 talimatı: eleme kurallarının hepsi elemede, değerleme kurallarının hepsi değerlemede kullanılır; hepsi her ülkede her şirkete aynı uygulanır.
+
+| Kural | Nerede | Nasıl |
+|---|---|---|
+| İşletme olmalı, anlaşılır olmalı | 1. sur, 3. sur (A) | GYO ve yatırım ortaklığı dışarıda; A puanı |
+| Kanıtlanmış, istikrarlı kazanç; dönüşüm hikâyesi değil | 2. sur | beş yıl, zarar yılı yok, reel kârlılık eşikleri |
+| Borca dayanmayan yüksek kârlılık | 2. sur | net borç/FAVÖK, yatırılan sermayenin getirisi (`roic`), finans şirketinde aktif kârlılığı (`lev`) |
+| Ölçülemeyen dışarıda kalır | 1. ve 2. sur | veri yok, eksi özsermaye (`negeq`) |
+| Enflasyondan sonra kazanç | 2. ve 4. sur | reel kârlılık, reel büyüme, reel iskonto |
+| Kâr nakde dönmeli (ortağın kazancı) | 2. ve 4. sur | nakit ölçüsü (`kc`) |
+| Kalıcı hendek, fiyatlama gücü | 3. sur (B) | B puanı; emtia işi 0 |
+| Öngörülebilir kazanç | 3. sur (C), 4. sur | C puanı; döngüsel işte olağan kazanç gücü; harika işte yarım marj |
+| Dürüst ve yetenekli yönetim, sermaye tahsisi | 3. sur (D), 4. sur | D puanı, okuma listesi, sulandırma uyarısı, alıkonan kârın sınavı |
+| Kırılganlıktan kaçın | 3. sur (E) | E puanı; bilanço dışı yükümlülükler |
+| Kalıcı kâr kaybı olan işten uzak dur | 3. sur | `decline` |
+| Değer = ortağa kalacak nakdin bugünkü değeri | 4. sur | iki aşamalı İNA; büyümeyi finanse eden kâr nakit sayılmaz |
+| Büyüme ancak yeterli getiriyle değerlidir | 4. sur | ortağa kalan nakit = kâr × (1 − büyüme ÷ kârlılık); PEG sınırı (Alper'in kararı) |
+| Temkinli kazanç: tek seferlikler ve düşük beklenti düşülür | 4. sur | kazanç yargısı |
+| Geçmiş sürmeyecekse büyüme indirilir; küçülen kâr küçülür | 4. sur | büyüme yargısı, `gFloor` |
+| Güvenlik marjı, tahminin güvenilirliğine göre | 4. sur | %25; harika işte %12,5 |
+
+Veriyle ölçülemeyen ve bu yüzden yalnız okumayla uygulananlar: hisse bazlı ücret, yinelenen tek seferlikler, geri alımın fiyatı, şerefiye, bilanço dışı yükümlülükler, ilişkili taraf işlemleri, bölüm kârları, banka kredi kalitesi ("Okurken bakılacaklar"). Henüz uygulanamayanlar: on yıllık geçmiş (kaynak beş yıl veriyor), iştiraklerin dolaylı kazancı, net nakdin değere eklenmesi.
 
 ## Finansman kolu (2. surun borç testi)
 
@@ -275,6 +301,8 @@ Her şirket için önce oku: şirketin ne yaptığı, sahiplik yapısı, son bil
 - **Emtia ve döngü:** kârı bir emtia fiyatına bağlı şirkette beş yıl tam bir döngüyü göstermez; C puanı en çok 1 olur ve döngünün neresinde olunduğu `risks` içinde yazılır.
 - **Bölümler ve iştirakler:** çok kollu şirkette her kolun kârı ayrı yazılır; kârın önemli bölümü %20'nin altında pay tutulan iştiraklerden geliyorsa bu belirtilir.
 - **Finans şirketi:** aktif kârlılığı, özsermayenin aktife oranı, sorunlu kredi oranı ve karşılık düzeyi; başka ülkede çalışıyorsa o ülkenin riski.
+
+**İkinci okuma kaydı.** Bu listeyle okunan raporun içine `chk` (tarih ve bilanço dönemi) yazılır; finans şirketinde belgeden okunan aktif kârlılığı `roa` (`v`, dönem, adres) olarak eklenir. 13 Kasım 2026'da kaleler ve marjı sıfırın üstündeki 18 şirket okundu. Kalan 4. sur şirketleri sırayla okunur: her günlük ve haftalık çalıştırmada, yeni raporlardan artan hakla, `chk` kaydı olmayan ya da kaydı eski döneme ait 4. sur şirketlerinden en çok on tanesi (önce marjı en yüksek olanlar). Yeni bilanço gelince ikinci okuma yenilenir.
 
 Puanlar:
 

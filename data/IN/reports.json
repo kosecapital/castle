@@ -262,8 +262,8 @@
   "growth": {
    "g": null,
    "basis": {
-    "tr": "Formül yılda %9,4 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Nisan-Eylül 2026 %55,0; Temmuz-Eylül 2026 çeyreği %64,5. En düşüğü, enflasyondan arındırılınca, %46,1. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
-    "en": "The formula gave growth of 9.4% a year. Latest figures (earnings per share, year on year): April-September 2026 55.0%; July-September 2026 quarter 64.5%. The lowest, after inflation, is 46.1%. That is not less than half the formula's rate; the rate was not lowered."
+    "tr": "Formül yılda %9,0 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Nisan-Eylül 2026 %55,0; Temmuz-Eylül 2026 çeyreği %64,5. En düşüğü, enflasyondan arındırılınca, %46,1. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 9.0% a year. Latest figures (earnings per share, year on year): April-September 2026 55.0%; July-September 2026 quarter 64.5%. The lowest, after inflation, is 46.1%. That is not less than half the formula's rate; the rate was not lowered."
    },
    "per": "2026-Q2"
   },
@@ -381,14 +381,14 @@
   "one": "Hindistan'ın kömürünün yaklaşık dörtte üçünü çıkaran devlet şirketi. Kalite surlarını geçti; hendek dar sayıldığı için fiyat yetmiyor, kapıda bekliyor.",
   "business": "Coal India, Hindistan'ın yerli kömür üretiminin yaklaşık dörtte üçünü çıkarır ve çoğunu elektrik santrallerine satar (Eylül 2026'da sevkiyatın yaklaşık %80'i). Mart 2026'da biten mali yılda hasılat 1,68 trilyon rupi, net kâr 310,7 milyar rupi oldu. Kömürün büyük bölümü uzun süreli anlaşmalarla, bildirilmiş fiyattan satılır; küçük bölümü açık artırmayla ve primli gider.",
   "moat_text": "Hendek dar. Ölçek gerçek: ülkenin kömürünün yaklaşık dörtte üçü bu şirketten çıkıyor ve reel özsermaye kârlılığı beş yılda %21,1'in altına inmedi. Ama şirket fiyatını kendi çıkarına göre belirleyemiyor: açık artırmada aynı kömür Nisan-Ağustos 2026'da bildirilmiş fiyatın ortalama %46 üzerinde satıldı; ana ortak devlet olduğu için bu fark elektrik üreticisinde kalıyor. Üstünlük bir kamu düzenine dayanıyor ve kalıcılığı belirsiz: açık artırma primi 2024-25'teki %51'den 2025-26'nın ilk dokuz ayında %38'e geriledi. Reel özsermaye kârlılığı da %51,6'dan (2023) %21,6'ya indi. Bu yüzden geniş demiyoruz.",
-  "mgmt": "Devletin payı %61,13 (Eylül 2026); devlet 2026'da %2'lik pay sattı. Kârın yaklaşık yarısı temettü olarak dağıtılıyor (temettü verimi %6,52); 29 Ekim 2026'da hisse başına 10,25 rupi ikinci ara temettü açıklandı. Şirketin net borcu yok (net borç/FAVÖK −1,34). Kusur: kârın bir bölümü ana iş dışına yöneliyor. 2030'a kadar 9,5 GW yenilenebilir enerji hedefi var; kömür gazlaştırma, kritik mineraller ve bir demir cevheri sahası da gündemde. Bu kararlarda kamu politikası belirleyici.",
+  "mgmt": "Devletin payı %61,13 (Eylül 2026); devlet 2026'da %2'lik pay sattı. Kârın yaklaşık yarısı temettü olarak dağıtılıyor (temettü verimi %6,52); 29 Ekim 2026'da hisse başına 10,25 rupi ikinci ara temettü açıklandı. Şirketin net borcu yok (net borç/FAVÖK −1,34). Kusur: kârın bir bölümü ana iş dışına yöneliyor. 2030'a kadar 9,5 GW yenilenebilir enerji hedefi var; kömür gazlaştırma, kritik mineraller ve bir demir cevheri sahası da gündemde. Bu kararlarda kamu politikası belirleyici. Yönetim kurulunda yasal sayıda bağımsız üye yok; denetçi bunu Ekim 2026 raporunda da yazdı. Bu, devletin hâkim ortak olduğu yapıda küçük ortağın korunmasını zayıflatır.",
   "latest": "29 Ekim 2026: Temmuz-Eylül 2026 çeyreğinde hasılat 441,8 milyar rupi (yıllık +%21), toplam net kâr 65,5 milyar rupi (+%57), ana ortaklık payı 65,2 milyar rupi (+%53). Üretim 151,4 milyon ton (+%4), sevkiyat 186,3 milyon ton (+%13), ton başına ortalama gelir 2.346 rupi (+%7). Nisan-Eylül 2026'da hasılat 904,3 milyar rupi, net kâr 154,0 milyar rupi (+%19); üretim 321 milyon ton (−%2), sevkiyat 384,2 milyon ton (+%8). Hisse başına 10,25 rupi ikinci ara temettü açıklandı.",
   "risks": [
    "Fiyat: hisse ancak geniş hendek varsayımıyla güvenlik marjı eşiğini geçiyor. Biz hendeği dar saydık; bu durumda fiyat yetmiyor.",
+   "Kârın bir bölümü nakit dışı bir kayıttan geliyor: 2022 öncesinden kalan dekapaj karşılığı her yıl gelire yazılıyor (2025-26'da 1.965 crore rupi, vergi öncesi kârın yaklaşık %4,7'si); karşılık bitince bu katkı da biter.",
+   "Denetçi, yönetim kurulunda yeterli bağımsız üye olmadığını ve komitelerin yasal yapıya uymadığını yazıyor; şirket bu yüzden borsa cezası ödedi.",
    "Kamu kararına bağımlılık: ana ortak devlet, müşterilerin çoğu elektrik santrali. Bildirilmiş fiyatın artırılmaması, sektörün özel madencilere daha çok açılması ya da ana iş dışı yatırım talimatları kârı doğrudan etkiler.",
-   "Açık artırma primi oynak: Ağustos 2026'da %59, 2025-26'nın ilk dokuz ayında %38. Kârın en kârlı bölümü buradan geliyor; 2025-26'da ortalama gelir düşünce net kâr 354,5 milyar rupiden 310,7 milyar rupiye indi.",
-   "Uzun vadede kömür: Hindistan yenilenebilir enerjiye yatırım yapıyor. Kömür talebi büyümeyi bırakırsa ölçek üstünlüğü değer kaybeder.",
-   "Maliyet: 2025-26'da sözleşme ve yasal giderler ile amortisman arttı; yatırım harcaması Nisan-Eylül 2026'da %27 artarak 79,7 milyar rupi oldu ve amortismanı büyütmeye devam ediyor."
+   "Açık artırma primi oynak: Ağustos 2026'da %59, 2025-26'nın ilk dokuz ayında %38. Kârın en kârlı bölümü buradan geliyor; 2025-26'da ortalama gelir düşünce net kâr 354,5 milyar rupiden 310,7 milyar rupiye indi."
   ],
   "watch": [
    "Açık artırma primi ve açık artırmayla satılan miktar",
@@ -436,20 +436,30 @@
     "t": "Kazanç yargısının kaynağı",
     "te": "Source for the earnings judgment",
     "u": "https://nsearchives.nseindia.com/corporate/COALINDIA_27042026202823_result_final.pdf"
+   },
+   {
+    "t": "İkinci okuma: Coal India: Integrated Filing (Ind AS) FY2025-26, iXBRL, NSE",
+    "te": "Second reading: Coal India: Integrated Filing (Ind AS) FY2025-26, iXBRL, NSE",
+    "u": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_153328_27042026204724_iXBRL_WEB.html"
+   },
+   {
+    "t": "İkinci okuma: Coal India: unaudited results for quarter and half-year ended 30 September 2026 (29 October 2026), NSE filing",
+    "te": "Second reading: Coal India: unaudited results for quarter and half-year ended 30 September 2026 (29 October 2026), NSE filing",
+    "u": "https://nsearchives.nseindia.com/corporate/COALINDIA_29102026181236_Result.pdf"
    }
   ],
   "en": {
    "one": "State company mining about three quarters of India's coal. Passed the quality walls; with a narrow moat the price falls short, waiting at the gate.",
    "business": "Coal India mines about three quarters of India's domestic coal and sells most of it to power plants (about 80% of shipments in September 2026). In the fiscal year that ended in March 2026 revenue was 1.68 trillion rupees and net profit 310.7 billion rupees. Most of the coal is sold under long-term agreements at the notified price; a small part goes through auctions at a premium.",
    "moat_text": "The moat is narrow. The scale is real: about three quarters of the country's coal comes from this company, and real return on equity did not fall below 21.1% in five years. But the company cannot set its price in its own interest: in auctions the same coal sold at an average of 46% above the notified price in April-August 2026; because the main shareholder is the state, this difference stays with the power producers. The advantage rests on a public arrangement and its permanence is uncertain: the auction premium fell from 51% in 2024-25 to 38% in the first nine months of 2025-26. Real return on equity also came down from 51.6% (2023) to 21.6%. That is why we do not call it wide.",
-   "mgmt": "The state holds 61.13% (September 2026); it sold a 2% stake in 2026. About half of profit is paid out as dividends (dividend yield 6.52%); a second interim dividend of 10.25 rupees per share was declared on 29 October 2026. The company has no net debt (net debt/EBITDA −1.34). The flaw: part of the profit is heading outside the core business. There is a target of 9.5 GW of renewable energy by 2030; coal gasification, critical minerals and an iron ore block are also on the agenda. Public policy drives these decisions.",
+   "mgmt": "The state holds 61.13% (September 2026); it sold a 2% stake in 2026. About half of profit is paid out as dividends (dividend yield 6.52%); a second interim dividend of 10.25 rupees per share was declared on 29 October 2026. The company has no net debt (net debt/EBITDA −1.34). The flaw: part of the profit is heading outside the core business. There is a target of 9.5 GW of renewable energy by 2030; coal gasification, critical minerals and an iron ore block are also on the agenda. Public policy drives these decisions. The board does not have the legally required number of independent directors; the auditor repeated this in its October 2026 review. With the state as controlling owner, this weakens protection of minority shareholders.",
    "latest": "29 October 2026: In the July-September 2026 quarter revenue was 441.8 billion rupees (+21% year on year) total net profit 65.5 billion rupees (+57%) and the owners' share 65.2 billion rupees (+53%). Production was 151.4 million tonnes (+4%), shipments 186.3 million tonnes (+13%) and average revenue per tonne 2,346 rupees (+7%). In April-September 2026 revenue was 904.3 billion rupees and net profit 154.0 billion rupees (+19%); production was 321 million tonnes (−2%) and shipments 384.2 million tonnes (+8%). A second interim dividend of 10.25 rupees per share was declared.",
    "risks": [
     "Price: the share clears the margin-of-safety threshold only if a wide moat is assumed. We judged the moat to be narrow; on that basis the price is not enough.",
+    "Part of profit is a non-cash entry: the stripping provision left from before 2022 is released to income each year (1,965 crore rupees in 2025-26, about 4.7% of pre-tax profit); the contribution ends when the provision is used up.",
+    "The auditor notes that the board lacks enough independent directors and its committees do not meet the legal make-up; the company has paid exchange penalties for this.",
     "Dependence on public decisions: the main shareholder is the state and most customers are power plants. Not raising the notified price, opening the sector further to private miners, or instructions to invest outside the core business would affect profit directly.",
-    "The auction premium is volatile: 59% in August 2026, 38% in the first nine months of 2025-26. The most profitable part of earnings comes from here; when average revenue fell in 2025-26, net profit went from 354.5 billion rupees to 310.7 billion rupees.",
-    "Coal in the long run: India is investing in renewable energy. If coal demand stops growing, the scale advantage loses value.",
-    "Costs: contractual and statutory expenses and depreciation rose in 2025-26; capital spending rose 27% to 79.7 billion rupees in April-September 2026 and keeps adding to depreciation."
+    "The auction premium is volatile: 59% in August 2026, 38% in the first nine months of 2025-26. The most profitable part of earnings comes from here; when average revenue fell in 2025-26, net profit went from 354.5 billion rupees to 310.7 billion rupees."
    ],
    "watch": [
     "Auction premium and the volume sold by auction",
@@ -472,6 +482,10 @@
     "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı.",
     "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are."
    },
+   "per": "2026-Q2"
+  },
+  "chk": {
+   "date": "2026-11-13",
    "per": "2026-Q2"
   }
  },
