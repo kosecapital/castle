@@ -68,7 +68,10 @@ def judge(f, gm, cpi, real_already):
         low_tr = f" En düşüğü" + ("" if real_already else ", enflasyondan arındırılınca,") + f" %{tr(rec)}" + (" (sıfırın altı sıfır sayılır)" if rec == 0 else "") + "."
         low_en = f" The lowest" + ("" if real_already else ", after inflation,") + f" is {en(rec)}%" + (" (below zero counts as zero)" if rec == 0 else "") + "."
         if gm <= 0:
-            b_tr, b_en = head_tr + " Formül zaten sıfır büyüme varsayıyor; indirilecek bir şey yok.", head_en + " The formula already assumes zero growth; there is nothing to lower."
+            if gm < 0:
+                b_tr, b_en = head_tr + " Formül zaten kârın küçüleceğini varsayıyor; indirilecek bir şey yok.", head_en + " The formula already assumes shrinking profit; there is nothing to lower."
+            else:
+                b_tr, b_en = head_tr + " Formül zaten sıfır büyüme varsayıyor; indirilecek bir şey yok.", head_en + " The formula already assumes zero growth; there is nothing to lower."
         elif rec < gm / 2.0:
             out["g"] = round((gm + rec) / 2.0, 1)
             b_tr = head_tr + low_tr + f" Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %{tr(out['g'])}."

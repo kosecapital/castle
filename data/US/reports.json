@@ -62,8 +62,8 @@
   "growth": {
    "g": null,
    "basis": {
-    "tr": "Formül yılda %0,0 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 (ana ortaklık net kârı) %−35,3; Temmuz-Eylül 2026 çeyreği (zarar) %−100,0. Formül zaten sıfır büyüme varsayıyor; indirilecek bir şey yok.",
-    "en": "The formula gave growth of 0.0% a year. Latest figures (earnings per share, year on year): January-September 2026 (net income to common) −35.3%; July-September 2026 quarter (a loss) −100.0%. The formula already assumes zero growth; there is nothing to lower."
+    "tr": "Formül yılda %−0,3 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 (ana ortaklık net kârı) %−35,3; Temmuz-Eylül 2026 çeyreği (zarar) %−100,0. Formül zaten kârın küçüleceğini varsayıyor; indirilecek bir şey yok.",
+    "en": "The formula gave growth of −0.3% a year. Latest figures (earnings per share, year on year): January-September 2026 (net income to common) −35.3%; July-September 2026 quarter (a loss) −100.0%. The formula already assumes shrinking profit; there is nothing to lower."
    },
    "per": "2026-Q3"
   },
@@ -775,8 +775,8 @@
   "growth": {
    "g": null,
    "basis": {
-    "tr": "Formül yılda %0,0 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 %−5,9 (şirketin düzeltilmiş rakamı; açıklanan %0,2); Temmuz-Eylül 2026 çeyreği %−20,5 (şirketin düzeltilmiş rakamı; açıklanan %−4,2). Düzeltme: Şirketin düzeltilmiş (C&I) hisse başına kârı; borç geri alım zararı (3. çeyrek 2025'te 39 milyon dolar) ve yeniden yapılanma giderleri hariç: çeyrekte 1,51 (önceki yıl 1,90); dokuz ayda 4,77 (5,07; çeyreklerin toplamı). Formül zaten sıfır büyüme varsayıyor; indirilecek bir şey yok.",
-    "en": "The formula gave growth of 0.0% a year. Latest figures (earnings per share, year on year): January-September 2026 −5.9% (the company's adjusted figure; reported 0.2%); July-September 2026 quarter −20.5% (the company's adjusted figure; reported −4.2%). Adjustment: Company C&I adjusted EPS, excluding losses on debt repurchases (39 million dollars in Q3 2025) and restructuring charges: 1.51 for the quarter (1.90 a year earlier); 4.77 for nine months (5.07; sum of quarters). The formula already assumes zero growth; there is nothing to lower."
+    "tr": "Formül yılda %−10,0 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 %−5,9 (şirketin düzeltilmiş rakamı; açıklanan %0,2); Temmuz-Eylül 2026 çeyreği %−20,5 (şirketin düzeltilmiş rakamı; açıklanan %−4,2). Düzeltme: Şirketin düzeltilmiş (C&I) hisse başına kârı; borç geri alım zararı (3. çeyrek 2025'te 39 milyon dolar) ve yeniden yapılanma giderleri hariç: çeyrekte 1,51 (önceki yıl 1,90); dokuz ayda 4,77 (5,07; çeyreklerin toplamı). Formül zaten kârın küçüleceğini varsayıyor; indirilecek bir şey yok.",
+    "en": "The formula gave growth of −10.0% a year. Latest figures (earnings per share, year on year): January-September 2026 −5.9% (the company's adjusted figure; reported 0.2%); July-September 2026 quarter −20.5% (the company's adjusted figure; reported −4.2%). Adjustment: Company C&I adjusted EPS, excluding losses on debt repurchases (39 million dollars in Q3 2025) and restructuring charges: 1.51 for the quarter (1.90 a year earlier); 4.77 for nine months (5.07; sum of quarters). The formula already assumes shrinking profit; there is nothing to lower."
    },
    "per": "2026-Q3"
   },
@@ -971,8 +971,8 @@
   "growth": {
    "g": null,
    "basis": {
-    "tr": "Formül yılda %0,0 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 %31,6; Temmuz-Eylül 2026 çeyreği %17,9. Formül zaten sıfır büyüme varsayıyor; indirilecek bir şey yok.",
-    "en": "The formula gave growth of 0.0% a year. Latest figures (earnings per share, year on year): January-September 2026 31.6%; July-September 2026 quarter 17.9%. The formula already assumes zero growth; there is nothing to lower."
+    "tr": "Formül yılda %−10,0 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 %31,6; Temmuz-Eylül 2026 çeyreği %17,9. Formül zaten kârın küçüleceğini varsayıyor; indirilecek bir şey yok.",
+    "en": "The formula gave growth of −10.0% a year. Latest figures (earnings per share, year on year): January-September 2026 31.6%; July-September 2026 quarter 17.9%. The formula already assumes shrinking profit; there is nothing to lower."
    },
    "per": "2026-Q3"
   },
@@ -1898,8 +1898,8 @@
   "growth": {
    "g": null,
    "basis": {
-    "tr": "Formül yılda %0,0 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): 2026 mali yılı (Temmuz 2026'da biten yıl) %13,6 (şirketin düzeltilmiş rakamı; açıklanan %30,6); Mayıs-Temmuz 2026 çeyreği (mali 4. çeyrek) %23,2 (şirketin düzeltilmiş rakamı; açıklanan %51,6); 2027 mali yılı için şirket beklentisi %21,0. Düzeltme: Yatırım kazançları (4. çeyrekte 869 milyon, yılda 1.398 milyon dolar; vergi öncesi), vergi kalemleri ve yeniden yapılanma gideri (yılda 693 milyon dolar) hariç şirketin düzeltilmiş hisse başına kârı: yılda 4,33 (önceki yıl 3,81), çeyrekte 1,22 (0,99). Formül zaten sıfır büyüme varsayıyor; indirilecek bir şey yok.",
-    "en": "The formula gave growth of 0.0% a year. Latest figures (earnings per share, year on year): fiscal year 2026 (year ended July 2026) 13.6% (the company's adjusted figure; reported 30.6%); May-July 2026 quarter (fiscal Q4) 23.2% (the company's adjusted figure; reported 51.6%); company guidance for fiscal 2027 21.0%. Adjustment: Company non-GAAP EPS excluding investment gains (869 million dollars in Q4, 1,398 million in the year, pre-tax), tax matters and restructuring charges (693 million in the year): 4.33 for the year (3.81 a year earlier), 1.22 for the quarter (0.99). The formula already assumes zero growth; there is nothing to lower."
+    "tr": "Formül yılda %−1,6 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): 2026 mali yılı (Temmuz 2026'da biten yıl) %13,6 (şirketin düzeltilmiş rakamı; açıklanan %30,6); Mayıs-Temmuz 2026 çeyreği (mali 4. çeyrek) %23,2 (şirketin düzeltilmiş rakamı; açıklanan %51,6); 2027 mali yılı için şirket beklentisi %21,0. Düzeltme: Yatırım kazançları (4. çeyrekte 869 milyon, yılda 1.398 milyon dolar; vergi öncesi), vergi kalemleri ve yeniden yapılanma gideri (yılda 693 milyon dolar) hariç şirketin düzeltilmiş hisse başına kârı: yılda 4,33 (önceki yıl 3,81), çeyrekte 1,22 (0,99). Formül zaten kârın küçüleceğini varsayıyor; indirilecek bir şey yok.",
+    "en": "The formula gave growth of −1.6% a year. Latest figures (earnings per share, year on year): fiscal year 2026 (year ended July 2026) 13.6% (the company's adjusted figure; reported 30.6%); May-July 2026 quarter (fiscal Q4) 23.2% (the company's adjusted figure; reported 51.6%); company guidance for fiscal 2027 21.0%. Adjustment: Company non-GAAP EPS excluding investment gains (869 million dollars in Q4, 1,398 million in the year, pre-tax), tax matters and restructuring charges (693 million in the year): 4.33 for the year (3.81 a year earlier), 1.22 for the quarter (0.99). The formula already assumes shrinking profit; there is nothing to lower."
    },
    "per": "2026-Q4"
   },
@@ -1922,7 +1922,7 @@
   },
   "moat": "geniş",
   "per": "2026-Q2",
-  "one": "ABD'nin en büyük yapı market zinciri. Hendek geniş, kalite surlarını geçti; fiyat yetmediği için kapıda bekliyor. Borç yüksek, talep konut piyasasına bağlı.",
+  "one": "ABD'nin en büyük yapı market zinciri. Hisse geri alımları özsermayeyi bir yıl eksiye düşürdü; özsermaye kârlılığı ölçülemediği için kalite surunda kaldı.",
   "business": "Home Depot ev tadilatı ve yapı malzemesi satar: hem evini kendi onaran müşteriye hem de ustalara ve müteahhitlere. 2 Ağustos 2026'da 2.364 mağazası ve 1.340'tan fazla SRS toptan satış noktası vardı. 2025 mali yılında satış 164,7 milyar dolar, net kâr 14,2 milyar dolar oldu.",
   "moat_text": "Hendek geniş. Üstünlük ölçekten ve dağıtımdan geliyor: 2.364 mağaza, 164,7 milyar dolarlık satış ve bunun getirdiği alım gücü. Yeni bir rakibin aynı ağı kurması yıllar ve çok büyük sermaye ister. Kârlılık bunu gösteriyor: faaliyet kâr marjı son çeyrekte %14,3. Reel özsermaye kârlılığı son 12 ayda %97,0; ama bu oran dikkatle okunmalı, çünkü şirketin özsermayesi borcuna göre çok küçük (PD/DD 21,1). Zayıf yan: aynı mağaza satışları yavaş büyüyor (2025'te %0,3, son çeyrekte %1,7) ve büyük tadilat talebi konut piyasasına bağlı.",
   "mgmt": "Hisseler halka yaygın; hâkim ortak yok. Kârın büyük kısmı temettüye gidiyor: yılın ilk altı ayında 8,06 milyar dolar net kârın 4,64 milyar doları temettü olarak ödendi. Çeyreklik temettü Şubat 2026'da %1,3 artışla hisse başına 2,33 dolara çıktı. Şirket ustalara satışı büyütmek için borçla satın alma yaptı: SRS'in ardından 4 Eylül 2025'te GMS'i yaklaşık 5,5 milyar dolara aldı. Borç bu yüzden yüksek: net borç/FAVÖK 2,48, eşiğin (3) altında ama ona yakın. 2 Ağustos 2026'da toplam finansal borç yaklaşık 52,9 milyar dolar, nakit 2,1 milyar dolardı.",
@@ -1973,7 +1973,7 @@
    }
   ],
   "en": {
-   "one": "The largest US home improvement chain. Wide moat; it passed the quality walls and waits at the gate on price. Debt is high.",
+   "one": "The largest home-improvement chain in the US. Share buybacks pushed equity below zero in one year; because return on equity cannot be measured, it stays at the quality wall.",
    "business": "Home Depot sells home improvement and building materials, both to people who repair their own homes and to tradespeople and contractors. On 2 August 2026 it had 2,364 stores and more than 1,340 SRS wholesale locations. In fiscal 2025 sales were 164.7 billion dollars and net profit 14.2 billion dollars.",
    "moat_text": "The moat is wide. The advantage comes from scale and distribution: 2,364 stores, 164.7 billion dollars of sales and the buying power that brings. A new rival would need years and a very large amount of capital to build the same network. Profitability shows it: operating margin was 14.3% in the latest quarter. Real return on equity was 97.0% over the last twelve months; but this ratio must be read with care, because the company's equity is very small next to its debt (P/B 21.1). The weak side: comparable sales grow slowly (0.3% in 2025, 1.7% in the latest quarter) and demand for large renovations depends on the housing market.",
    "mgmt": "The shares are widely held; there is no controlling shareholder. Most of the profit goes to dividends: in the first six months of the year 4.64 billion dollars of the 8.06 billion dollars of net profit was paid as dividends. The quarterly dividend rose 1.3% to 2.33 dollars per share in February 2026. The company made debt-funded acquisitions to grow sales to tradespeople: after SRS it bought GMS on 4 September 2025 for about 5.5 billion dollars. That is why debt is high: net debt/EBITDA is 2.48, below the threshold (3) but close to it. On 2 August 2026 total financial debt was about 52.9 billion dollars and cash 2.1 billion dollars.",
@@ -1995,8 +1995,8 @@
   "growth": {
    "g": null,
    "basis": {
-    "tr": "Formül yılda %0,0 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): 2026 mali yılının ilk yarısı (Şubat-Temmuz 2026) %0,7; Mayıs-Temmuz 2026 çeyreği (mali 2. çeyrek) %4,6; 2026 mali yılı için şirket beklentisi %2,0. Formül zaten sıfır büyüme varsayıyor; indirilecek bir şey yok.",
-    "en": "The formula gave growth of 0.0% a year. Latest figures (earnings per share, year on year): first half of fiscal 2026 (February-July 2026) 0.7%; May-July 2026 quarter (fiscal Q2) 4.6%; company guidance for fiscal 2026 2.0%. The formula already assumes zero growth; there is nothing to lower."
+    "tr": "Formül yılda %−5,8 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): 2026 mali yılının ilk yarısı (Şubat-Temmuz 2026) %0,7; Mayıs-Temmuz 2026 çeyreği (mali 2. çeyrek) %4,6; 2026 mali yılı için şirket beklentisi %2,0. Formül zaten kârın küçüleceğini varsayıyor; indirilecek bir şey yok.",
+    "en": "The formula gave growth of −5.8% a year. Latest figures (earnings per share, year on year): first half of fiscal 2026 (February-July 2026) 0.7%; May-July 2026 quarter (fiscal Q2) 4.6%; company guidance for fiscal 2026 2.0%. The formula already assumes shrinking profit; there is nothing to lower."
    },
    "per": "2026-Q2"
   },

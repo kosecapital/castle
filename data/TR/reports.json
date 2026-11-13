@@ -102,8 +102,8 @@
   "growth": {
    "g": null,
    "basis": {
-    "tr": "Formül yılda %0,0 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %−33,6; Temmuz-Eylül 2026 çeyreği %−23,4. Rakamlar enflasyon muhasebesiyle hazırlandığı için zaten reeldir. Formül zaten sıfır büyüme varsayıyor; indirilecek bir şey yok.",
-    "en": "The formula gave growth of 0.0% a year. Latest figures (net profit, year on year): January-September 2026 −33.6%; July-September 2026 quarter −23.4%. The figures are prepared under inflation accounting, so they are already real. The formula already assumes zero growth; there is nothing to lower."
+    "tr": "Formül yılda %−10,0 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %−33,6; Temmuz-Eylül 2026 çeyreği %−23,4. Rakamlar enflasyon muhasebesiyle hazırlandığı için zaten reeldir. Formül zaten kârın küçüleceğini varsayıyor; indirilecek bir şey yok.",
+    "en": "The formula gave growth of −10.0% a year. Latest figures (net profit, year on year): January-September 2026 −33.6%; July-September 2026 quarter −23.4%. The figures are prepared under inflation accounting, so they are already real. The formula already assumes shrinking profit; there is nothing to lower."
    },
    "per": "9/2026"
   },
@@ -126,13 +126,13 @@
    "E": 1
   },
   "moat": "dar",
-  "one": "Türkiye'nin büyük aracı kurumu ve İş Bankası iştiraki. Fiyat ucuz; ama kazanç piyasaya bağlı, reel kâr geriliyor ve son üç yılda alıkonan kâr kazancı artırmadı.",
+  "one": "Türkiye'nin büyük aracı kurumu ve İş Bankası iştiraki. Reel kârı geriliyor ve alıkoyduğu kâr kazancı artırmadı; bu yüzden fiyatı düşük görünse de kapıda bekliyor.",
   "business": "İş Yatırım aracılık, portföy yönetimi, kurumsal finansman ve halka arz hizmetleri verir; hisse, borçlanma aracı ve türev işlemlerine aracılık eder. İş Bankası'nın iştirakidir. 608 kişi çalıştırıyor.",
   "moat_text": "Hendek dar. Üstünlük ölçekten, markadan ve İş Bankası'nın müşteri ağından geliyor. Ürünün kendisi (aracılık) kolay taklit edilir ve komisyonlar rekabete açıktır; bu yüzden hendeği geniş saymıyoruz.",
   "mgmt": "Ana ortak İş Bankası; halka açıklık %29,2. Şirket 2023-2025'te ana ortaklık kârının %58'ini temettü olarak dağıttı. 2025'te ödenen temettü (10,1 milyar TL) o yılın kârını (7,4 milyar TL) aştı: şirket kullanamadığı sermayeyi ortaklara geri verdi. Öte yandan girişim sermayesi kolu (İş Girişim) ana işle ilgisi olmayan alanlara yatırım yapıyor; 2026'nın dokuz ayında bu kolun ana ortaklığa katkısı zarardı.",
   "latest": "9 Kasım 2026: Dokuz aylık ana ortaklık net kârı 4,81 milyar TL, ana ortaklık özkaynağı 39,2 milyar TL. Yılın ilk yarısında net kâr 2,62 milyar TL ile geçen yılın %35 altındaydı (14 Ağustos 2026). Üçüncü çeyrekte konsolide kâra 1,0 milyar TL pazarlıklı satın alım kazancı girdi (İş Girişim'in bağlı ortaklığı Enlila, Crescenta Biosciences'ın %50,10'unu aldı); İş Yatırım'ın payına düşen kısım yaklaşık 230 milyon TL'dir.",
   "risks": [
-   "Alıkonan kârın sınavı geçilemedi: 2023-2025'te ana ortaklık kârının %42'si şirkette kaldı, aynı dönemde reel kâr yılda yaklaşık %8 geriledi. Hesap büyüme varsaymıyor; yine de kâr gerilemeyi sürdürürse bugünkü kazanç düzeyi de korunamaz.",
+   "Alıkonan kârın sınavı geçilemedi: 2023-2025'te ana ortaklık kârının %42'si şirkette kaldı, aynı dönemde reel kâr yılda yaklaşık %8 geriledi. Hesap bu gerilemenin süreceğini varsayıyor; kâr toparlanırsa sonuç değişir.",
    "Kazanç, işlem hacmine ve alım-satım gelirine bağlı. 2026'nın ilk yarısında kâr %35 düştü; kötü bir piyasa yılında daha da düşebilir.",
    "Özsermaye kârlılığı geriliyor: 2023'te %45, 2025'te %24, son okumalar %16–20.",
    "Bilanço ağırlıkla parasal varlıklardan oluşuyor; enflasyon muhasebesi bu yapıyı cezalandırıyor.",
@@ -192,13 +192,13 @@
   ],
   "per": "9/2026",
   "en": {
-   "one": "A large Turkish brokerage and a subsidiary of İş Bankası. The price is low, but earnings depend on the market, real profit is falling and profit retained over the last three years has not raised earnings.",
+   "one": "A large Turkish brokerage and a subsidiary of İş Bankası. Real profit is falling and retained profit has not raised earnings, so it waits at the gate even though the price looks low.",
    "business": "İş Yatırım provides brokerage, asset management, corporate finance and IPO services; it brokers trades in equities, debt instruments and derivatives. It is a subsidiary of İş Bankası. It employs 608 people.",
    "moat_text": "The moat is narrow. The advantage comes from scale, brand and İş Bankası's customer network. The product itself (brokerage) is easy to copy and commissions are open to competition; that is why we do not count the moat as wide.",
    "mgmt": "The main shareholder is İş Bankası; the free float is 29.2%. In 2023-2025 the company paid out 58% of parent profit as dividends. Dividends paid in 2025 (10.1 billion TRY) exceeded that year's profit (7.4 billion TRY): the company returned capital it could not use to its shareholders. On the other hand, the venture-capital arm (İş Girişim) invests in areas unrelated to the main business; in the first nine months of 2026 that arm's contribution to parent profit was a loss.",
    "latest": "9 November 2026: Nine-month net profit attributable to the parent was 4.81 billion TRY and parent equity 39.2 billion TRY. In the first half of the year net profit was 2.62 billion TRY, 35% below the previous year (14 August 2026). In the third quarter consolidated profit included a bargain-purchase gain of 1.0 billion TRY (Enlila, a subsidiary of İş Girişim, bought 50.10% of Crescenta Biosciences); about 230 million TRY of it falls to İş Yatırım's share.",
    "risks": [
-    "The retained-earnings test was not passed: in 2023-2025, 42% of parent profit stayed in the company while real profit fell by about 8% a year. The calculation assumes no growth; even so, if profit keeps falling, today's level of earnings will not hold either.",
+    "The retained-earnings test was not passed: in 2023-2025, 42% of parent profit stayed in the company while real profit fell by about 8% a year. The calculation assumes this decline continues; if profit recovers, the result changes.",
     "Earnings depend on trading volume and trading income. Profit fell 35% in the first half of 2026; in a bad market year it could fall further.",
     "Return on equity is declining: 45% in 2023, 24% in 2025, and 16–20% in the latest readings.",
     "The balance sheet consists mostly of monetary assets; inflation accounting penalises this structure.",
@@ -213,8 +213,8 @@
   "growth": {
    "g": null,
    "basis": {
-    "tr": "Formül yılda %0,0 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %−22,7; Temmuz-Eylül 2026 çeyreği %4,3. Rakamlar enflasyon muhasebesiyle hazırlandığı için zaten reeldir. Geçen yılın dokuz aylık kârında Tatilbudur'un kontrolünün alınmasından doğan bir kazanç, bu yılınkinde Crescenta'nın pazarlıklı satın alım kazancı var; ikisi de konsolide tutarın küçük bir bölümüyle İş Yatırım'ın payına düşer ve düşüşün yönünü değiştirmez. Formül zaten sıfır büyüme varsayıyor; indirilecek bir şey yok.",
-    "en": "The formula gave growth of 0.0% a year. Latest figures (net profit, year on year): January-September 2026 −22.7%; July-September 2026 quarter 4.3%. The figures are prepared under inflation accounting, so they are already real. Last year's nine-month profit includes a gain from taking control of Tatilbudur, and this year's includes the Crescenta bargain-purchase gain; only a small part of each consolidated amount falls to İş Yatırım's share, and neither changes the direction of the decline. The formula already assumes zero growth; there is nothing to lower."
+    "tr": "Formül yılda %−7,8 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %−22,7; Temmuz-Eylül 2026 çeyreği %4,3. Rakamlar enflasyon muhasebesiyle hazırlandığı için zaten reeldir. Geçen yılın dokuz aylık kârında Tatilbudur'un kontrolünün alınmasından doğan bir kazanç, bu yılınkinde Crescenta'nın pazarlıklı satın alım kazancı var; ikisi de konsolide tutarın küçük bir bölümüyle İş Yatırım'ın payına düşer ve düşüşün yönünü değiştirmez. Formül zaten kârın küçüleceğini varsayıyor; indirilecek bir şey yok.",
+    "en": "The formula gave growth of −7.8% a year. Latest figures (net profit, year on year): January-September 2026 −22.7%; July-September 2026 quarter 4.3%. The figures are prepared under inflation accounting, so they are already real. Last year's nine-month profit includes a gain from taking control of Tatilbudur, and this year's includes the Crescenta bargain-purchase gain; only a small part of each consolidated amount falls to İş Yatırım's share, and neither changes the direction of the decline. The formula already assumes shrinking profit; there is nothing to lower."
    },
    "per": "9/2026"
   },
@@ -314,8 +314,8 @@
   "growth": {
    "g": null,
    "basis": {
-    "tr": "Formül yılda %0,0 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %23,1; Temmuz-Eylül 2026 çeyreği %−16,4. Rakamlar enflasyon muhasebesiyle hazırlandığı için zaten reeldir. Formül zaten sıfır büyüme varsayıyor; indirilecek bir şey yok.",
-    "en": "The formula gave growth of 0.0% a year. Latest figures (net profit, year on year): January-September 2026 23.1%; July-September 2026 quarter −16.4%. The figures are prepared under inflation accounting, so they are already real. The formula already assumes zero growth; there is nothing to lower."
+    "tr": "Formül yılda %−10,0 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %23,1; Temmuz-Eylül 2026 çeyreği %−16,4. Rakamlar enflasyon muhasebesiyle hazırlandığı için zaten reeldir. Formül zaten kârın küçüleceğini varsayıyor; indirilecek bir şey yok.",
+    "en": "The formula gave growth of −10.0% a year. Latest figures (net profit, year on year): January-September 2026 23.1%; July-September 2026 quarter −16.4%. The figures are prepared under inflation accounting, so they are already real. The formula already assumes shrinking profit; there is nothing to lower."
    },
    "per": "9/2026"
   },
@@ -518,8 +518,8 @@
   "growth": {
    "g": null,
    "basis": {
-    "tr": "Formül yılda %0,0 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %5,0; Temmuz-Eylül 2026 çeyreği %5,9. Rakamlar enflasyon muhasebesiyle hazırlandığı için zaten reeldir. Formül zaten sıfır büyüme varsayıyor; indirilecek bir şey yok.",
-    "en": "The formula gave growth of 0.0% a year. Latest figures (net profit, year on year): January-September 2026 5.0%; July-September 2026 quarter 5.9%. The figures are prepared under inflation accounting, so they are already real. The formula already assumes zero growth; there is nothing to lower."
+    "tr": "Formül yılda %−10,0 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %5,0; Temmuz-Eylül 2026 çeyreği %5,9. Rakamlar enflasyon muhasebesiyle hazırlandığı için zaten reeldir. Formül zaten kârın küçüleceğini varsayıyor; indirilecek bir şey yok.",
+    "en": "The formula gave growth of −10.0% a year. Latest figures (net profit, year on year): January-September 2026 5.0%; July-September 2026 quarter 5.9%. The figures are prepared under inflation accounting, so they are already real. The formula already assumes shrinking profit; there is nothing to lower."
    },
    "per": "9/2026"
   },
@@ -629,8 +629,8 @@
   "growth": {
    "g": null,
    "basis": {
-    "tr": "Formül yılda %0,0 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %79,1; Temmuz-Eylül 2026 çeyreği %51,8. Rakamlar enflasyon muhasebesiyle hazırlandığı için zaten reeldir. Formül zaten sıfır büyüme varsayıyor; indirilecek bir şey yok.",
-    "en": "The formula gave growth of 0.0% a year. Latest figures (net profit, year on year): January-September 2026 79.1%; July-September 2026 quarter 51.8%. The figures are prepared under inflation accounting, so they are already real. The formula already assumes zero growth; there is nothing to lower."
+    "tr": "Formül yılda %−10,0 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %79,1; Temmuz-Eylül 2026 çeyreği %51,8. Rakamlar enflasyon muhasebesiyle hazırlandığı için zaten reeldir. Formül zaten kârın küçüleceğini varsayıyor; indirilecek bir şey yok.",
+    "en": "The formula gave growth of −10.0% a year. Latest figures (net profit, year on year): January-September 2026 79.1%; July-September 2026 quarter 51.8%. The figures are prepared under inflation accounting, so they are already real. The formula already assumes shrinking profit; there is nothing to lower."
    },
    "per": "9/2026"
   },
@@ -1172,8 +1172,8 @@
   "growth": {
    "g": null,
    "basis": {
-    "tr": "Formül yılda %0,0 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %188,6; Temmuz-Eylül 2026 çeyreği %176,3. Rakamlar enflasyon muhasebesiyle hazırlandığı için zaten reeldir. Formül zaten sıfır büyüme varsayıyor; indirilecek bir şey yok.",
-    "en": "The formula gave growth of 0.0% a year. Latest figures (net profit, year on year): January-September 2026 188.6%; July-September 2026 quarter 176.3%. The figures are prepared under inflation accounting, so they are already real. The formula already assumes zero growth; there is nothing to lower."
+    "tr": "Formül yılda %−10,0 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %188,6; Temmuz-Eylül 2026 çeyreği %176,3. Rakamlar enflasyon muhasebesiyle hazırlandığı için zaten reeldir. Formül zaten kârın küçüleceğini varsayıyor; indirilecek bir şey yok.",
+    "en": "The formula gave growth of −10.0% a year. Latest figures (net profit, year on year): January-September 2026 188.6%; July-September 2026 quarter 176.3%. The figures are prepared under inflation accounting, so they are already real. The formula already assumes shrinking profit; there is nothing to lower."
    },
    "per": "9/2026"
   },

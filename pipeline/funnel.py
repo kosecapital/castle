@@ -65,10 +65,12 @@ def fair_value(P, roe_n, g, dy, wide):
     PEG: adil F/K = reel büyüme hızı (%) + temettü verimi (%). PEG büyüme için ödenen fazlayı sınırlar; değeri, şirket hiç büyümese
          edeceği tutarın (g = 0 ile İNA) altına indirmez: büyümeyen şirkette PEG sıfıra yaklaşır, bu bir değerleme değildir."""
     r, gt, n = P["r"] / 100.0, (P["gWide"] if wide else P["gNarrow"]) / 100.0, int(P["gYears"])
-    g = max(0.0, min(g or 0.0, P["gCap"], roe_n)) / 100.0
+    # Büyüme eksi de olabilir (gFloor'a kadar): geçmiş beş yılın reel kâr eğilimi düşüyorsa hesap da küçülen bir kâr varsayar.
+    # Küçülen iş sermaye serbest bırakır diye ortağa kârdan fazlası yazılmaz: ortağa kalan pay en çok 1'dir.
+    g = max(P.get("gFloor", 0.0), min(g or 0.0, P["gCap"], roe_n)) / 100.0
     roe = roe_n / 100.0
     q = (1 + g) / (1 + r)
-    stage1 = (1 - g / roe) / (1 + r) * sum(q ** t for t in range(n))
+    stage1 = min(1.0, 1 - g / roe) / (1 + r) * sum(q ** t for t in range(n))
     stage2 = (1 + g) ** (n - 1) * (1 + gt) * (1 - gt / roe) / max(0.005, r - gt) / (1 + r) ** n
     dcf = max(0.01, stage1 + stage2)
     peg = max(0.0, g * 100.0 + max(0.0, dy or 0.0))
@@ -84,12 +86,20 @@ def roe_cons(u, l):
     return min(x for x in (None if ttm is None else ttm * ek, l["rroe"][-2], None if l["rroe"][-1] is None else l["rroe"][-1] * ek) if x is not None)
 
 
-def price_test(P, u, l, wide):
-    """Bir şirketin fiyat testi: temkinli F/K, adil F/K (İNA ve PEG), güvenlik marjı."""
+def price_test(P, u, l, wide, s=None):
+    """Bir şirketin fiyat testi: temkinli F/K, adil F/K (İNA ve PEG), güvenlik marjı ve hüküm. Sayfadaki val() ile aynı.
+    need : gereken güvenlik marjı. Geniş hendekli ve kazancı öngörülebilir iş (B = 3 ve C = 2) için eşiğin mosWonder katı (yarısı):
+           tahmin ne kadar güvenilirse o kadar az pay gerekir. Diğerlerinde eşiğin tamamı.
+    ret  : alıkonan kârın sınavı geçilemedi mi (şirkette kalan pay retMin'den büyük ve getirisi getiri eşiğinin altında).
+    kale : marj yetiyor ve alıkonan kârın sınavı geçilmiş."""
     roe_n = roe_cons(u, l)
     pen = u["pb"] / (roe_n / 100.0)
     fv = fair_value(P, roe_n, l.get("g"), l.get("dy"), wide)
-    return dict(fv, roe_n=roe_n, pen=pen, mos=(1 - pen / fv["fair"]) * 100)
+    mos = (1 - pen / fv["fair"]) * 100
+    need = P["mos"] * (P.get("mosWonder", 1.0) if (s and s["B"] >= 3 and s["C"] >= 2) else 1.0)
+    ow = l.get("ow") or {}
+    ret = bool(ow.get("rho") is not None and (ow.get("k") or 0) >= P.get("retMin", 1.0) and ow["rho"] < P["r"])
+    return dict(fv, roe_n=roe_n, pen=pen, mos=mos, need=need, ret=ret, kale=bool(mos >= need and not ret))
 
 
 def owner_share(h, labs, cpi_of, ias29, P, first=None, cash=True, over=None):
@@ -190,7 +200,7 @@ def growth(h, labs, cpi_of, roe_n, ias29, P, first=None):
         if len(pts) >= 4:
             mx, my = sum(x for x, _ in pts) / len(pts), sum(y for _, y in pts) / len(pts)
             gh = (math.exp(sum((x - mx) * (y - my) for x, y in pts) / sum((x - mx) ** 2 for x, _ in pts)) - 1) * 100
-    g = max(0.0, min(gs if gh is None else min(gh, gs), P["gCap"]))
+    g = max(P.get("gFloor", 0.0), min(gs if gh is None else min(gh, gs), P["gCap"]))
     return g, gh, gs, po
 
 
@@ -291,6 +301,16 @@ def run(cc):
                     fails.append({"k": "data"})
                 elif not has_hist:
                     fails.append({"k": "history"})
+                # Özsermayesi eksi olan yıl: kaynak o yıl için eksi PD/DD verir. Özsermaye kârlılığı o yıl ölçülemez; yöntem (kâr ÷ özsermaye)
+                # böyle bir şirkette anlamını yitirir. Şirket 2. surda kalır.
+                negeq = [lab for lab, v in zip(labs[:5], (h.get("pbs") or [None] * 5)[:5]) if v is not None and v < 0]
+                if negeq:
+                    fails.append({"k": "negeq", "v": negeq})
+                # Finans şirketinde kaldıraç: yüksek özsermaye kârlılığı borçla da elde edilir. Aktif kârlılığı (kaynağın oran sayfası, en güncel
+                # okuma) roaMin'in altındaysa şirket 2. surda kalır. Veri yoksa sınanmaz.
+                roa = [x for x in (h.get("roa") or []) if x is not None]
+                if u.get("fin") and roa and roa[-1] < P.get("roaMin", 0.0):
+                    fails.append({"k": "lev", "v": round(roa[-1], 2)})
                 loss = [lab for lab, v in zip(labs[:5], roe6[:5]) if v is not None and v < 0]
                 if loss:
                     fails.append({"k": "loss", "v": loss})
@@ -330,7 +350,7 @@ def run(cc):
                             flags.append({"k": "cash", "v": [pos, len(f)]})
                 rnd = lambda x, d=1: None if x is None else round(x, d)
                 L2[c] = dict(asof=h.get("asof"), stale=h.get("stale", 0), roe=roe6, rroe=[rnd(v, 2) for v in rroe6],
-                             roic=h.get("roic"), fcf=h["fcf"], nd=nd, pe=h.get("pe"), pb=h.get("pb"), dy=h.get("dy"), po=h.get("po"),
+                             roic=h.get("roic"), roa=h.get("roa"), fcf=h["fcf"], nd=nd, pe=h.get("pe"), pb=h.get("pb"), dy=h.get("dy"), po=h.get("po"),
                              avg=rnd(avg), mn=rnd(mn), fails=fails, flags=flags, ok=0 if fails else 1)
                 if ow:
                     L2[c]["ow"] = ow
@@ -412,11 +432,11 @@ def run(cc):
         if u["e"] != 4:
             continue
         l, s = L2[c], R[c]["scores"]
-        t = price_test(P, u, l, s["B"] >= 3)
+        t = price_test(P, u, l, s["B"] >= 3, s)
         roe_n, pen, fair, mos = t["roe_n"], t["pen"], t["fair"], t["mos"]
         print(f"   {c:8} temkinli ROE {roe_n:5.1f} | büyüme {l.get('g')} (geçmiş {l.get('gh')}, sürdürülebilir {l.get('gs')}) | temkinli F/K {pen:5.1f} | "
               f"adil İNA {t['dcf']:4.1f} PEG {t['peg']:4.1f} | marj {mos:6.1f}% | "
-              f"alım eşiği {u['p'] * fair * (1 - P['mos'] / 100) / pen:9.2f} | fiyat {u['p']} -> {'KALE' if mos >= P['mos'] else 'BEKLEME'}")
+              f"alım eşiği {u['p'] * fair * (1 - t['need'] / 100) / pen:9.2f} | fiyat {u['p']} -> {'KALE' if t['kale'] else 'BEKLEME' + (' (alıkonan kâr sınavı)' if t['ret'] and mos >= t['need'] else '')}")
     return out
 
 

@@ -647,8 +647,8 @@
   "growth": {
    "g": null,
    "basis": {
-    "tr": "Formül yılda %0,0 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %41,5 (şirketin düzeltilmiş rakamı; açıklanan %38,5); Temmuz-Eylül 2026 çeyreği %43,1 (şirketin düzeltilmiş rakamı; açıklanan %37,0). Düzeltme: Tek seferlik kalemler hariç net kâr: dokuz ayda 12,696 milyar yuan, üçüncü çeyrekte 4,984 milyar yuan; büyüme raporlanandan da yüksek, kârı şişiren tek seferlik kalem yok. Formül zaten sıfır büyüme varsayıyor; indirilecek bir şey yok.",
-    "en": "The formula gave growth of 0.0% a year. Latest figures (net profit, year on year): January-September 2026 41.5% (the company's adjusted figure; reported 38.5%); July-September 2026 quarter 43.1% (the company's adjusted figure; reported 37.0%). Adjustment: Net profit excluding non-recurring items: 12.696 billion yuan in nine months, 4.984 billion in the third quarter; growth is even higher than reported, no one-off inflates profit. The formula already assumes zero growth; there is nothing to lower."
+    "tr": "Formül yılda %−4,0 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %41,5 (şirketin düzeltilmiş rakamı; açıklanan %38,5); Temmuz-Eylül 2026 çeyreği %43,1 (şirketin düzeltilmiş rakamı; açıklanan %37,0). Düzeltme: Tek seferlik kalemler hariç net kâr: dokuz ayda 12,696 milyar yuan, üçüncü çeyrekte 4,984 milyar yuan; büyüme raporlanandan da yüksek, kârı şişiren tek seferlik kalem yok. Formül zaten kârın küçüleceğini varsayıyor; indirilecek bir şey yok.",
+    "en": "The formula gave growth of −4.0% a year. Latest figures (net profit, year on year): January-September 2026 41.5% (the company's adjusted figure; reported 38.5%); July-September 2026 quarter 43.1% (the company's adjusted figure; reported 37.0%). Adjustment: Net profit excluding non-recurring items: 12.696 billion yuan in nine months, 4.984 billion in the third quarter; growth is even higher than reported, no one-off inflates profit. The formula already assumes shrinking profit; there is nothing to lower."
    },
    "per": "2026-Q3"
   },

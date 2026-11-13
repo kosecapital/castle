@@ -1,13 +1,1 @@
-{
-  "roeMin": 12,
-  "eraAvg": 15,
-  "eraMin": 10,
-  "ndMax": 3.0,
-  "ndFlag": 2.0,
-  "r": 10.0,
-  "mos": 25.0,
-  "gWide": 3.0,
-  "gNarrow": 1.5,
-  "gCap": 25.0,
-  "gYears": 10
-}
+{"roeMin": 12, "eraAvg": 15, "eraMin": 10, "ndMax": 3.0, "ndFlag": 2.0, "r": 10.0, "mos": 25.0, "gWide": 3.0, "gNarrow": 1.5, "gCap": 25.0, "gYears": 10, "gFloor": -10.0, "mosWonder": 0.5, "retMin": 0.15, "roaMin": 1.0}

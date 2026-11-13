@@ -36,7 +36,7 @@ def kale_list(core):
         if u["e"] != 4:
             continue
         l, s = core["L2"][u["c"]], core["R"][u["c"]]["scores"]
-        if funnel.price_test(P, u, l, s["B"] >= 3)["mos"] >= P["mos"]:
+        if funnel.price_test(P, u, l, s["B"] >= 3, s)["kale"]:
             out.append(u["c"])
     return out
 

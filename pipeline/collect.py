@@ -44,7 +44,7 @@ PB_PATHS = [("cur", "ratio", "price_book_current"), ("bvc", "bvps", "book_value_
             ("eq", "eq", "total_equity_fq"), ("bvh", "bvps", "book_value_per_share_fh"),
             ("bvy", "bvps", "book_value_per_share_fy"), ("eqy", "eq", "total_equity_fy")]
 PB_ANNUAL = {"bvy", "eqy"}          # son yıllık bilançodan: en eski; yalnız başka hiçbir yol yoksa
-SA_V = 2                            # oran sayfası kaydının sürümü; eski sürümlü kayıt bayat sayılır ve yeniden indirilir
+SA_V = 3                            # oran sayfası kaydının sürümü; eski sürümlü kayıt bayat sayılır ve yeniden indirilir
 PB_SA_MAX = 2500                    # bir ülkede PD/DD için ikinci kaynaktan (stockanalysis) en çok bu kadar sayfa
 # probe komutu için: geçmiş dizileri dahil geniş liste
 PROBE = COLUMNS + ["country", "type", "typespecs", "return_on_equity", "return_on_equity_fy", "net_income_fy", "total_equity_fq", "net_debt", "ebitda",
@@ -508,7 +508,7 @@ def sa_parse(text):
     m = re.search(r'lastUpdated:"(\d{4}-\d{2}-\d{2})"', text)
     t = re.search(r'lastTrailingDate:"([A-Z][a-z]{2}) (\d{1,2}), (\d{4})"', text)
     out = dict(asof=m.group(1) if m else None, stale=0, fy=[None] * (5 - len(fy)) + fy[::-1],
-               roe=roe, roic=series("Return on Invested Capital", "Return on Capital (ROIC)"), fcf=series("FCF Yield"),
+               roe=roe, roic=series("Return on Invested Capital", "Return on Capital (ROIC)"), roa=series("Return on Assets"), fcf=series("FCF Yield"),
                nd=series("Net Debt / EBITDA")[-1], pe=series("PE Ratio")[-1], pb=series("PB Ratio")[-1], dy=series("Dividend Yield")[-1], po=series("Payout Ratio")[-1],
                # 4. surun büyüme hesabı için beş yıllık diziler (eskiden yeniye beş mali yıl, sonra güncel). Net kâr = piyasa değeri ÷ F/K.
                # "Last Close Price" temettüye göre düzeltilmiş olduğundan hisse başına kâr ondan türetilmez; pay sayısındaki değişim bb dizisinden gelir.

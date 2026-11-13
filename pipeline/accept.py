@@ -34,7 +34,8 @@ def kales(core, P):
         if u["e"] != 4:
             continue
         l, s = core["L2"][u["c"]], core["R"][u["c"]]["scores"]
-        out[u["c"]] = round(funnel.price_test(P, u, l, s["B"] >= 3)["mos"], 1)
+        t = funnel.price_test(P, u, l, s["B"] >= 3, s)
+        out[u["c"]] = (round(t["mos"], 1), t["kale"])
     return out
 
 
@@ -45,7 +46,7 @@ def state(core, P):
     mos, out = kales(core, P), {}
     for u in core["U"]:
         if u["e"] == 4:
-            out[u["c"]] = ("kale" if mos[u["c"]] >= P["mos"] else "kapıda") + f" (marj %{mos[u['c']]:.0f})"
+            out[u["c"]] = ("kale" if mos[u["c"]][1] else "kapıda") + f" (marj %{mos[u['c']][0]:.0f})"
         elif u["e"] == 3:
             out[u["c"]] = "sırada" if u["w"] == "pending" else "3. surda elendi: " + u["w"]
         else:
