@@ -22,6 +22,7 @@ let ready = false;
 
 const dayOf = (ms) => new Date(ms + 3 * 3600 * 1000).toISOString().slice(0, 10);          // gün, İstanbul saatiyle
 const clean = (s, n) => String(s || "").toLowerCase().replace(/[^a-z0-9._\-:/]/g, "").slice(0, n);
+const name = (s, n) => String(s || "").replace(/[^\p{L}\p{N} .'\-]/gu, "").trim().slice(0, n);        // yer adı: harf, rakam, boşluk
 
 async function sha(text) {
   const b = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(text));
@@ -50,7 +51,13 @@ async function hit(req, env, url) {
     const fresh = r.meta && r.meta.changes ? 1 : 0;                                       // bugün ilk kez görülen ziyaretçi
     st.push(env.DB.prepare("INSERT INTO daily (day, views, visitors) VALUES (?1, 1, ?2) ON CONFLICT (day) DO UPDATE SET views = views + 1, visitors = visitors + ?2").bind(day, fresh));
     st.push(up("site", site));
-    if (fresh) { st.push(up("country", country)); if (lang) st.push(up("lang", lang)); st.push(up("ref", refHost || "(doğrudan)")); }
+    if (fresh) {
+      st.push(up("country", country)); if (lang) st.push(up("lang", lang)); st.push(up("ref", refHost || "(doğrudan)"));
+      // Yer: Cloudflare'in IP adresinden tahmin ettiği il ve ilçe/şehir (çoğu zaman internet sağlayıcısının çıkış noktası).
+      // Yalnız sayım tutulur; IP, posta kodu ve koordinat saklanmaz.
+      const region = name(req.cf && req.cf.region, 40), city = name(req.cf && req.cf.city, 40);
+      st.push(up("place", [country, region || "?", city && city !== region ? city : ""].filter(Boolean).join(" / ")));
+    }
     if (Math.random() < 0.02) st.push(env.DB.prepare("DELETE FROM seen WHERE day < ?1").bind(dayOf(Date.now() - 2 * 86400 * 1000)));
   }
   await env.DB.batch(st);
@@ -81,7 +88,7 @@ table{border-collapse:collapse;width:100%}td{padding:4px 6px;border-bottom:1px s
 <h1>Kose Capital: ziyaretler</h1><p class=m>Son ${s.days} gün (${esc(s.since)} sonrası), gün İstanbul saatiyle. Ziyaret = sayfanın bir kez açılması. Ziyaretçi = o gün ilk kez görülen tarayıcı. Çerez yok; kişisel veri saklanmıyor.</p>
 <div class=k><div><span class=m>Bugün ziyaretçi</span><b>${n(today.visitors)}</b></div><div><span class=m>Bugün ziyaret</span><b>${n(today.views)}</b></div><div><span class=m>${s.days} günde ziyaretçi (günlüklerin toplamı)</span><b>${n(sum("visitors"))}</b></div><div><span class=m>${s.days} günde ziyaret</span><b>${n(sum("views"))}</b></div><div><span class=m>Baştan beri ziyaret${s.total.first ? " (" + esc(s.total.first) + "'den)" : ""}</span><b>${n(s.total.views)}</b></div></div>
 <section><h2>Günler</h2>${s.daily.length ? "<table><tr><td class=m>Gün</td><td class='n m'>Ziyaretçi</td><td class='n m'>Ziyaret</td><td></td></tr>" + s.daily.map((d) => "<tr><td>" + d.day + "</td><td class=n>" + n(d.visitors) + "</td><td class=n>" + n(d.views) + "</td><td style='width:45%'><span class=bar style='width:" + Math.round((100 * d.views) / mx) + "%'></span></td></tr>").join("") + "</table>" : "<p class=m>Henüz kayıt yok.</p>"}</section>
-<div class=g>${table("Site (ziyaret)", s.by.site)}${table("Ülke (ziyaretçi)", s.by.country)}${table("Nereden geldi (ziyaretçi)", s.by.ref)}${table("Dil (ziyaretçi)", s.by.lang)}</div>
+<div class=g>${table("Site (ziyaret)", s.by.site)}${table("Ülke (ziyaretçi)", s.by.country)}${table("İl ve ilçe, IP adresinden tahmin (ziyaretçi)", s.by.place, 30)}${table("Nereden geldi (ziyaretçi)", s.by.ref)}${table("Dil (ziyaretçi)", s.by.lang)}</div>
 ${table("Sayfalar ve Castle'da açılan ülke ve şirketler (açılış sayısı)", s.by.page, 40)}
 <p class=m>Başka aralık için adresin sonuna &amp;days=7 ya da &amp;days=90 ekle (en çok 365).</p></html>`;
 }

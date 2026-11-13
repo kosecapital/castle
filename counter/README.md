@@ -6,7 +6,7 @@ Site GitHub Pages'te durduğu için kendi başına sayamaz. Bu klasördeki küç
 
 - **Ziyaret:** sayfanın bir kez açılması.
 - **Ziyaretçi:** o gün ilk kez görülen tarayıcı. Çerez yoktur. IP adresi ve tarayıcı bilgisi saklanmaz: ikisi günlük değişen bir tuzla karıştırılıp kısa bir özete çevrilir, özet iki gün sonra silinir. Bu yüzden aynı kişi ertesi gün yeni ziyaretçi sayılır ve günler arasında izlenemez.
-- Ülke (Cloudflare'in verdiği ülke kodu), gelinen site, dil, ve Castle'da açılan ülke ve şirket sayfaları.
+- Ülke, il ve ilçe/şehir (Cloudflare'in IP adresinden tahmini; çoğu zaman internet sağlayıcısının çıkış noktasıdır, mobil hatlarda sık sık İstanbul ya da Ankara görünür), gelinen site, dil, ve Castle'da açılan ülke ve şirket sayfaları. Mahalle düzeyi IP'den bilinemez; ancak tarayıcıdan konum izni istenerek alınabilir, o da kişisel veridir ve açık rıza gerektirir. Bu yüzden toplanmaz.
 - Robotlar ve başka sitelerden gelen istekler sayılmaz.
 
 ## Kurulum (bir kez, yaklaşık 10 dakika)
