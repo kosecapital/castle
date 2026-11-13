@@ -1,0 +1,352 @@
+{
+ "cc": "FR",
+ "fetched": "2026-11-13T23:18:19Z",
+ "errors": [],
+ "pb_fix": {
+  "paths": {
+   "cur": {
+    "n": 406,
+    "med": 1.0,
+    "within10": 97.0,
+    "ok": true
+   },
+   "bvc": {
+    "n": 406,
+    "med": 1.0,
+    "within10": 100.0,
+    "ok": true
+   },
+   "bvq": {
+    "n": 406,
+    "med": 1.0,
+    "within10": 100.0,
+    "ok": true
+   },
+   "eq": {
+    "n": 406,
+    "med": 0.9954,
+    "within10": 83.3,
+    "ok": false
+   },
+   "bvh": {
+    "n": 342,
+    "med": 1.0,
+    "within10": 100.0,
+    "ok": true
+   },
+   "bvy": {
+    "n": 401,
+    "med": 1.0,
+    "within10": 77.1,
+    "ok": true
+   },
+   "eqy": {
+    "n": 403,
+    "med": 0.982,
+    "within10": 67.0,
+    "ok": true
+   }
+  },
+  "counts": {
+   "cur": 43,
+   "bvy": 33,
+   "eqy": 3
+  },
+  "neg": 48,
+  "nodata": 39,
+  "sa_asked": 0,
+  "sa_pages": 0,
+  "sa_reused": 0,
+  "sa_failed": 0,
+  "sa_blocked": false,
+  "missing_pct": 0.0,
+  "nodata_top": [
+   "ALN4",
+   "MLCHE",
+   "ALIEV",
+   "CO",
+   "ALDAT",
+   "ALCBI",
+   "MLOCT",
+   "MLSRP",
+   "ALLSF",
+   "ALTD",
+   "ALPET",
+   "MLODT",
+   "ALVIN",
+   "ALGRO",
+   "POXEL"
+  ],
+  "fixed_top": [
+   [
+    "EN",
+    1.354,
+    "cur"
+   ],
+   [
+    "ARTO",
+    1.029,
+    "cur"
+   ],
+   [
+    "OVH",
+    83.74,
+    "cur"
+   ],
+   [
+    "MLCFM",
+    1.953,
+    "bvy"
+   ],
+   [
+    "WAGA",
+    4.866,
+    "bvy"
+   ],
+   [
+    "LBIRD",
+    2.648,
+    "cur"
+   ],
+   [
+    "VLTSA",
+    0.53,
+    "cur"
+   ],
+   [
+    "BEN",
+    0.563,
+    "cur"
+   ],
+   [
+    "AL2SI",
+    10.588,
+    "cur"
+   ],
+   [
+    "ALSEM",
+    16.843,
+    "cur"
+   ],
+   [
+    "MALT",
+    1.059,
+    "bvy"
+   ],
+   [
+    "LNA",
+    0.817,
+    "cur"
+   ],
+   [
+    "ALVIO",
+    108.894,
+    "cur"
+   ],
+   [
+    "PARRO",
+    8.177,
+    "cur"
+   ],
+   [
+    "MLCMB",
+    1.124,
+    "bvy"
+   ]
+  ]
+ },
+ "source": "TradingView tarayıcısı",
+ "market": "france",
+ "total": 574,
+ "kept": 573,
+ "excluded": {
+  "fiyat ya da piyasa değeri yok": 1
+ },
+ "mcap_check": {
+  "tutarlı": 548,
+  "pay sayısıyla tutmuyor": 4,
+  "pay sayısı yok": 21
+ },
+ "cur": "EUR",
+ "pcur": "EUR",
+ "exchanges": {
+  "EURONEXT": 573
+ },
+ "periods": {
+  "2026-H1": 443,
+  "None": 52,
+  "2025-H2": 33,
+  "2026-H2": 22,
+  "2026-Q3": 18,
+  "2026-Q2": 5
+ },
+ "pe_fix": {
+  "eps_n": 274,
+  "eps_med": 1.0,
+  "eps_within5": 100.0,
+  "roe_n": 258,
+  "roe_med": 1.0341,
+  "roe_within25": 95.0,
+  "roe_scale": 1.0,
+  "eps_ok": true,
+  "counts": {
+   "loss": 186,
+   "nodata": 91,
+   "eps": 22
+  },
+  "nodata_top": [
+   "STLAP",
+   "TFI",
+   "MLCFM",
+   "WAGA",
+   "MALT",
+   "ALN4",
+   "MLCMB",
+   "ALUAV",
+   "ATLD",
+   "MLCHE",
+   "ALPM",
+   "ALRIS",
+   "SPEL",
+   "ALCRB",
+   "ALIEV"
+  ],
+  "fixed_top": [
+   [
+    "SCR",
+    7.88,
+    "eps"
+   ],
+   [
+    "ARTO",
+    580.76,
+    "eps"
+   ],
+   [
+    "OVH",
+    243.39,
+    "eps"
+   ],
+   [
+    "LBIRD",
+    38.67,
+    "eps"
+   ],
+   [
+    "AL2SI",
+    24.2,
+    "eps"
+   ],
+   [
+    "ALSEM",
+    32.85,
+    "eps"
+   ],
+   [
+    "ALBFR",
+    30.94,
+    "eps"
+   ],
+   [
+    "PARRO",
+    111.16,
+    "eps"
+   ],
+   [
+    "ALVU",
+    21.63,
+    "eps"
+   ],
+   [
+    "BLC",
+    2.52,
+    "eps"
+   ],
+   [
+    "ALHEX",
+    6.62,
+    "eps"
+   ],
+   [
+    "ALFPC",
+    6.74,
+    "eps"
+   ],
+   [
+    "ALUNI",
+    4.71,
+    "eps"
+   ],
+   [
+    "GEA",
+    24.64,
+    "eps"
+   ],
+   [
+    "POMRY",
+    2.56,
+    "eps"
+   ]
+  ]
+ },
+ "pe_filled_pct": 51.7,
+ "top5": [
+  {
+   "c": "OR",
+   "n": "L'Oreal S.A.",
+   "p": 451.2,
+   "m": 237705.6,
+   "pe": 38.28,
+   "pb": 7.098,
+   "per": "2026-H1"
+  },
+  {
+   "c": "MC",
+   "n": "LVMH Moet Hennessy Louis Vuitton SE",
+   "p": 403.45,
+   "m": 199261.0,
+   "pe": 18.38,
+   "pb": 2.922,
+   "per": "2026-H1"
+  },
+  {
+   "c": "TTE",
+   "n": "TotalEnergies SE",
+   "p": 82.17,
+   "m": 179981.3,
+   "pe": 9.45,
+   "pb": 1.552,
+   "per": "2026-Q3"
+  },
+  {
+   "c": "AIR",
+   "n": "Airbus SE",
+   "p": 206.65,
+   "m": 164825.8,
+   "pe": 26.48,
+   "pb": 6.098,
+   "per": "2026-Q3"
+  },
+  {
+   "c": "SU",
+   "n": "Schneider Electric SE",
+   "p": 243.45,
+   "m": 144360.9,
+   "pe": 29.38,
+   "pb": 5.596,
+   "per": "2026-H1"
+  }
+ ],
+ "history": {
+  "candidates": 57,
+  "have": 57,
+  "fetched": 57,
+  "kept": 0,
+  "no_mapping": 0,
+  "failed": [],
+  "failed_n": 0,
+  "blocked": false,
+  "budget_left": 5796
+ },
+ "ok": true
+}

@@ -1,0 +1,30 @@
+{
+ "fetched": "2026-11-13T23:16:13Z",
+ "cur": "CAD",
+ "pcur": "CAD",
+ "years": [
+  "2021",
+  "2022",
+  "2023",
+  "2024",
+  "2025"
+ ],
+ "fx": 1.4268,
+ "mcapMin": 80,
+ "cpi_cur": 3.1,
+ "cpi_cur_src": "TradingView ECONOMICS:CAIRYY (son açıklanan yıllık TÜFE)",
+ "cpi": {
+  "2021": 4.73,
+  "2022": 6.6,
+  "2023": 3.18,
+  "2024": 1.91,
+  "2025": 2.07
+ },
+ "cpi_src": {
+  "2021": "IMF WEO 2025-04 (dönem sonu)",
+  "2022": "IMF WEO 2025-04 (dönem sonu)",
+  "2023": "IMF WEO 2025-04 (dönem sonu)",
+  "2024": "IMF WEO 2025-04 (dönem sonu)",
+  "2025": "Dünya Bankası FP.CPI.TOTL.ZG (yıllık ortalama)"
+ }
+}

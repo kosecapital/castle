@@ -1,0 +1,30 @@
+{
+ "fetched": "2026-11-13T23:18:19Z",
+ "cur": "EUR",
+ "pcur": "EUR",
+ "years": [
+  "2021",
+  "2022",
+  "2023",
+  "2024",
+  "2025"
+ ],
+ "fx": 0.907,
+ "mcapMin": 50,
+ "cpi_cur": 3.4,
+ "cpi_cur_src": "TradingView ECONOMICS:FRIRYY (son açıklanan yıllık TÜFE)",
+ "cpi": {
+  "2021": 3.38,
+  "2022": 7.01,
+  "2023": 4.21,
+  "2024": 1.7,
+  "2025": 0.94
+ },
+ "cpi_src": {
+  "2021": "IMF WEO 2025-04 (dönem sonu)",
+  "2022": "IMF WEO 2025-04 (dönem sonu)",
+  "2023": "IMF WEO 2025-04 (dönem sonu)",
+  "2024": "IMF WEO 2025-04 (dönem sonu)",
+  "2025": "Dünya Bankası FP.CPI.TOTL.ZG (yıllık ortalama)"
+ }
+}

@@ -1,0 +1,290 @@
+{
+ "cc": "CA",
+ "fetched": "2026-11-13T23:16:13Z",
+ "errors": [],
+ "pb_fix": {
+  "paths": {
+   "cur": {
+    "n": 1830,
+    "med": 1.0,
+    "within10": 86.5,
+    "ok": true
+   },
+   "bvc": {
+    "n": 1821,
+    "med": 1.0,
+    "within10": 100.0,
+    "ok": true
+   },
+   "bvq": {
+    "n": 1821,
+    "med": 1.0,
+    "within10": 100.0,
+    "ok": true
+   },
+   "eq": {
+    "n": 1827,
+    "med": 1.0001,
+    "within10": 75.8,
+    "ok": false
+   },
+   "bvh": {
+    "n": 85,
+    "med": 1.0,
+    "within10": 100.0,
+    "ok": true
+   },
+   "bvy": {
+    "n": 1735,
+    "med": 1.0093,
+    "within10": 48.2,
+    "ok": true
+   },
+   "eqy": {
+    "n": 1743,
+    "med": 1.0545,
+    "within10": 37.5,
+    "ok": true
+   }
+  },
+  "counts": {
+   "cur": 34,
+   "bvy": 12
+  },
+  "neg": 427,
+  "nodata": 136,
+  "sa_asked": 0,
+  "sa_pages": 0,
+  "sa_reused": 0,
+  "sa_failed": 0,
+  "sa_blocked": false,
+  "missing_pct": 0.0,
+  "nodata_top": [
+   "PAIN",
+   "IS",
+   "FLY",
+   "FOG",
+   "RGC",
+   "SUNV",
+   "IRR",
+   "LEGY",
+   "HART",
+   "SHLF",
+   "NAHF",
+   "GEMG",
+   "CHER",
+   "BTCT",
+   "PMI"
+  ],
+  "fixed_top": [
+   [
+    "BBUC",
+    1.096,
+    "cur"
+   ],
+   [
+    "GMG",
+    41.17,
+    "cur"
+   ],
+   [
+    "SKP",
+    5.438,
+    "cur"
+   ],
+   [
+    "LIB",
+    22.689,
+    "cur"
+   ],
+   [
+    "PALS",
+    103.825,
+    "cur"
+   ],
+   [
+    "SAGA",
+    2.957,
+    "bvy"
+   ],
+   [
+    "MOO",
+    29.61,
+    "cur"
+   ],
+   [
+    "QZM",
+    5.788,
+    "bvy"
+   ],
+   [
+    "TELI",
+    7.865,
+    "cur"
+   ],
+   [
+    "CDA",
+    15.076,
+    "cur"
+   ],
+   [
+    "BVA",
+    34.702,
+    "bvy"
+   ],
+   [
+    "EMM",
+    2.101,
+    "cur"
+   ],
+   [
+    "BAY",
+    91.667,
+    "cur"
+   ],
+   [
+    "GPM",
+    15.528,
+    "bvy"
+   ],
+   [
+    "LIT",
+    0.363,
+    "bvy"
+   ]
+  ]
+ },
+ "source": "TradingView tarayıcısı",
+ "market": "canada",
+ "total": 2499,
+ "kept": 2440,
+ "excluded": {
+  "fiyat ya da piyasa değeri yok": 59
+ },
+ "mcap_check": {
+  "tutarlı": 2215,
+  "pay sayısıyla tutmuyor": 89,
+  "pay sayısı yok": 136
+ },
+ "cur": "CAD",
+ "pcur": "CAD",
+ "exchanges": {
+  "TSXV": 1249,
+  "TSX": 609,
+  "CSE": 565,
+  "NEO": 17
+ },
+ "periods": {
+  "2026-Q3": 878,
+  "2026-Q2": 866,
+  "2026-Q1": 219,
+  "2026-Q4": 147,
+  "None": 135,
+  "2026-H1": 129
+ },
+ "pe_fix": {
+  "eps_n": 557,
+  "eps_med": 1.0,
+  "eps_within5": 100.0,
+  "roe_n": 529,
+  "roe_med": 1.0778,
+  "roe_within25": 83.0,
+  "roe_scale": 1.0,
+  "eps_ok": true,
+  "counts": {
+   "roe": 1,
+   "loss": 1541,
+   "nodata": 333,
+   "eps": 1
+  },
+  "nodata_top": [
+   "TPX.A",
+   "APTX",
+   "BTE",
+   "VZLA",
+   "HMMC",
+   "CADY",
+   "LMCU",
+   "HSTR",
+   "BAMI",
+   "ASE",
+   "CLCH",
+   "AMAP",
+   "PAIN",
+   "DGX",
+   "TNGD"
+  ],
+  "fixed_top": [
+   [
+    "BNT",
+    30.91,
+    "roe"
+   ],
+   [
+    "NET.UN",
+    9.11,
+    "eps"
+   ]
+  ]
+ },
+ "pe_filled_pct": 23.2,
+ "top5": [
+  {
+   "c": "RY",
+   "n": "Royal Bank of Canada",
+   "p": 288.37,
+   "m": 401268.0,
+   "pe": 18.18,
+   "pb": 2.981,
+   "per": "2026-Q3"
+  },
+  {
+   "c": "TD",
+   "n": "Toronto-Dominion Bank",
+   "p": 176.42,
+   "m": 298517.0,
+   "pe": 18.92,
+   "pb": 2.532,
+   "per": "2026-Q3"
+  },
+  {
+   "c": "BMO",
+   "n": "Bank of Montreal",
+   "p": 247.02,
+   "m": 171416.2,
+   "pe": 20.13,
+   "pb": 2.185,
+   "per": "2026-Q3"
+  },
+  {
+   "c": "BNS",
+   "n": "Bank of Nova Scotia",
+   "p": 131.85,
+   "m": 162820.2,
+   "pe": 17.22,
+   "pb": 2.029,
+   "per": "2026-Q3"
+  },
+  {
+   "c": "ENB",
+   "n": "Enbridge Inc.",
+   "p": 67.96,
+   "m": 152834.8,
+   "pe": 23.62,
+   "pb": 2.493,
+   "per": "2026-Q3"
+  }
+ ],
+ "history": {
+  "candidates": 147,
+  "have": 147,
+  "fetched": 147,
+  "kept": 0,
+  "no_mapping": 0,
+  "failed": [],
+  "failed_n": 0,
+  "blocked": false,
+  "budget_left": 5853
+ },
+ "ok": true
+}
