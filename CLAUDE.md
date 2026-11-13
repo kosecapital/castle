@@ -49,13 +49,14 @@ docs/                    yayımlanan site (GitHub Pages kökü). Elle düzenleme
   data/summary.json      Kose Capital ana sayfasının okuduğu özet (ülke, şirket ve kale sayısı, son veri tarihi)
   data/search.json       bütün ülkelerin hisse dizini (kod, ad, ülke, durum); arama kutusu ilk aramada yükler
 .github/workflows/collect.yml   veri toplayıcı (GitHub'ın makinesinde çalışır)
+counter/                 ziyaret sayacı: worker.js (Cloudflare'de çalışır), snippet.html (ana sayfaya yapıştırılacak kod), README.md
 pipeline/
   countries.json         ülke sırası (borsa büyüklüğüne göre), İngilizce adlar, ülkeye özel ayarlar
   params.json            surların eşikleri
   charter.json           12 ilke ve dayandıkları Berkshire mektupları (Türkçe ve İngilizce)
   sources.json           beş yıllık oran sayfalarının adres kalıpları (borsa kodu -> stockanalysis yolu)
   sectors.json           sektör adlarının İngilizcesi
-  site.json              site ayarları (açılışta odaklanılan ülke, "sırada" metni, Claude sayfasının adresi)
+  site.json              site ayarları (açılışta odaklanılan ülke, "sırada" metni, Claude sayfasının adresi, ziyaret sayacının adresi)
   collect.py             veri toplayıcı (yalnız GitHub'da çalışır)
   accept.py              gelen veriyi denetler, yerine alır, süzgeci çalıştırır, öncekiyle karşılaştırır
   funnel.py              dört surun hesabı (internet kullanmaz)
@@ -285,6 +286,7 @@ Geçme koşulu: B ≥ 2 ve diğerleri ≥ 1. Elenen şirkette `risks` ve `watch`
 - Sayfa tek dosyadır (`pipeline/template.html`); veriyi `data/<CC>.json` dosyalarından yükler. Tasarımı, renkleri ve metinleri görev gerektirmedikçe değiştirme.
 - Site: `git push origin main` sonrası GitHub Pages `docs/` klasörünü birkaç dakikada yayımlar.
 - Başka bir siteye gömme: sayfa başka bir sitenin çerçevesinde açıldığını anlar (`html.embed`). Orada tekerlek üst sayfayı kaydırır (yaklaşmak için düğmeler ya da Ctrl + tekerlek), haritada dikey kaydırma serbesttir, üst şeritte "Tam ekran" bağlantısı çıkar; çerçeve çok küçükse harita yerine bu bağlantı görünür. `check_site.cjs` bunu da dener. Önerilen çerçeve: tam genişlik, masaüstünde yaklaşık 620 piksel, telefonda yaklaşık 640 piksel yükseklik. (Kasım 2026'dan beri Castle hiçbir yere gömülü değildir; kosecapital.com ana sayfası ona bağlantı verir.)
+- **Ziyaret sayacı** (Alper'in 13 Kasım 2026 kararı): alan adı Wix'ten GitHub'a geçtiği için Wix'in sayacı çalışmaz. Kendi sayacımız `counter/worker.js` (Cloudflare Worker + D1; kurulum ve ne saydığı `counter/README.md`). Sayfa, `pipeline/site.json` içindeki `counter` adresine ziyaret kaydı gönderir (`hit()`); adres boşsa, yerel denemede, Claude'daki sayfada ve otomatik tarayıcıda göndermez. Çerez yok, kişisel veri gönderilmez. Bu, kural 10'un Alper'in istediği tek istisnasıdır. Worker'ı yalnız Alper kurar ve günceller; Claude oturumu Cloudflare'e erişmez.
 - Claude'daki sayfa (isteğe bağlı): `dist/castle.html` dosyasını, `docs/data/` altındaki dosyalarla birlikte, `pipeline/site.json` içindeki `artifact` adresine yeniden yayımla. Yayın sorulursa ya da engellenirse atla; site asıl hedeftir.
 
 ## Neye dokunulur, neye dokunulmaz

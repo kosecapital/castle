@@ -88,7 +88,7 @@ def main():
     if focus:
         countries.sort(key=lambda c: 0 if c["cc"] == focus else 1)
     queue = [dict(cc=k["cc"], iso=k["iso"], name=k["name"], name_en=k.get("name_en") or k["name"]) for k in ORDER if k not in done and not k.get("hold")]
-    index = dict(built=datetime.date.today().isoformat(), P=P, CH=CH, countries=countries, queue=queue, cadence=SITE.get("cadence"))
+    index = dict(built=datetime.date.today().isoformat(), P=P, CH=CH, countries=countries, queue=queue, cadence=SITE.get("cadence"), counter=SITE.get("counter") or None)
     # Kose Capital sitesinin (kosecapital.com ana sayfası) okuduğu küçük özet: ülke, şirket ve kale sayısı
     summary = dict(built=index["built"], asof=max((c["asof"] for c in countries), default=None), countries=len(countries),
                    companies=sum(c["n"] for c in countries), castles=sum(c["kale"] for c in countries), queue=len(queue))

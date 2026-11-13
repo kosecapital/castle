@@ -823,7 +823,20 @@ function tipHtml(u) {
 }
 var toastT = 0;
 function toast(msg, keep) { var t = $("#toast"); t.textContent = msg; t.hidden = false; clearTimeout(toastT); if (!keep) toastT = setTimeout(function () { t.hidden = true; }, 3400); }
-function setHash(h) { try { var want = h ? "#" + h : ""; if (location.hash !== want) history.replaceState(null, "", want || (location.pathname + location.search)); } catch (e) {} }
+// Ziyaret sayacı (counter/worker.js; CLAUDE.md, "Ziyaret sayacı"): çerez yok, kişisel veri gönderilmez. Adres pipeline/site.json içindeki
+// "counter"; boşsa çalışmaz. Yalnız yayındaki sitede sayar: yerel denemede, Claude'daki sayfada ve otomatik tarayıcıda susar.
+function hit(t, p) {
+  try {
+    var u = IDX.counter;
+    if (!u || navigator.webdriver || !/(^|\.)kosecapital\.(com|github\.io)$/.test(location.hostname)) return;
+    var r = "";
+    try { r = document.referrer ? new URL(document.referrer).hostname : ""; } catch (e) {}
+    if (r === location.hostname) r = "";
+    var q = u.replace(/\/+$/, "") + "/hit?t=" + t + "&s=castle&p=" + encodeURIComponent(p || "") + "&r=" + encodeURIComponent(r) + "&l=" + LANG;
+    if (!(navigator.sendBeacon && navigator.sendBeacon(q))) fetch(q, { method: "POST", mode: "no-cors", keepalive: true }).catch(function () {});
+  } catch (e) {}
+}
+function setHash(h) { try { var want = h ? "#" + h : ""; if (location.hash !== want) { history.replaceState(null, "", want || (location.pathname + location.search)); if (h) hit("n", h); } } catch (e) {} }
 function select(c, flyTo) {
   var u = C && C.byC[c]; if (!u) return;
   S.sel = c;
@@ -1352,5 +1365,6 @@ applyStatic(); ui(); resize();
 $("#lang").addEventListener("click", function (ev) { var b = ev.target.closest("button"); if (b) setLang(b.dataset.lang); });
 if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { draw(); });
 window.addEventListener("hashchange", fromHash); fromHash();
+hit("v", (location.hash || "").replace("#", "").toLowerCase());
 })();
 </script>
