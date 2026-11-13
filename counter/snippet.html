@@ -1,9 +1,9 @@
 <!-- Kose Capital ziyaret sayacı: ana sayfanın </body> etiketinden hemen önce yapıştırılır.
-     SAYAC_ADRESI yerine Worker adresi yazılır (örnek: https://kose-sayac.<hesap>.workers.dev). Çerez yok, kişisel veri gönderilmez. -->
+     Çerez yok, kişisel veri gönderilmez. -->
 <script>
 (function () {
   try {
-    var u = "SAYAC_ADRESI";
+    var u = "https://kose-sayac.falling-flower-8099.workers.dev";
     if (navigator.webdriver || !/(^|\.)kosecapital\.(com|github\.io)$/.test(location.hostname)) return;
     var r = "";
     try { r = document.referrer ? new URL(document.referrer).hostname : ""; } catch (e) {}
