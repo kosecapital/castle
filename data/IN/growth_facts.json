@@ -271,7 +271,7 @@
    "prev_val": "45.65",
    "unit": "rupi / rupees",
    "date": "2026-11-12",
-   "url": "https://www.freepressjournal.in/business/hal-q2-earnings-soar-to-new-heights-net-profit-jumps-1548-as-revenue-crosses-13100-crore",
+   "url": "https://www.kotakneo.com/news/stocks/hal-share-price-in-focus-after-q2-fy27-results/",
    "primary": false
   },
   "quarter": {
@@ -282,7 +282,7 @@
    "prev_val": "24.96",
    "unit": "rupi / rupees",
    "date": "2026-11-12",
-   "url": "https://www.businesstoday.in/markets/stocks/story/hal-q2-earnings-net-profit-rises-to-rs-1839-crore-revenue-up-15-567041-2026-11-12",
+   "url": "https://www.kotakneo.com/news/stocks/hal-share-price-in-focus-after-q2-fy27-results/",
    "primary": false
   },
   "guidance": null,
@@ -293,7 +293,7 @@
   "skip": null,
   "note_tr": null,
   "note_en": null,
-  "notes": "Results published today (12 Nov 2026); only news summaries could be read, no company document. Consolidated half-year: net profit 3,525.30 vs 3,052.82 crore (+15.48%), basic EPS 52.71 vs 45.65 (Free Press Journal; the article labels these as Q2 but they are the half-year: they equal Screener Q1 1,590 + Q2 1,936 and EPS 23.77 + 28.94; half-year revenue 13,128 crore). Consolidated quarter: net profit 1,936 vs 1,669 crore (+16.0%, Sahi), EPS 28.94 vs 24.96 (Business Today). Business Today's headline net profit 1,839 vs 1,662 crore (+10.6%) is evidently standalone. EBITDA margin 22.8% vs 23.5%. No profit/EPS guidance: news reports (Sahi, 18 May and 4 Aug 2026, unnamed management) give FY27 revenue growth of 10-12% and EBITDA margin of 30-31%, and 20 LCA Mk1A deliveries in FY27; half-year revenue growth (+14.7%) is above that. No exceptional items, departed business or lasting deterioration reported. Screener still showed June 2026 as the last quarter. BSE PDFs could not be opened."
+  "notes": "Re-read 14 Nov 2026 for period 2026-Q2. Consolidated basic EPS: half-year 52.71 vs 45.65 (+15.47%), quarter 28.94 vs 24.96 (+15.95%); net profit half-year 3,525.30 vs 3,052.82 crore, quarter 1,935.64 vs 1,669.05 crore. Same figures in Kotak Neo (cites NSE archive), MarketScreener (S&P Capital IQ), Angel One and TradingView/BW. primary=false: the company filing itself (BSE, https://www.bseindia.com/xml-data/corpfiling/AttachLive/93bc4901-a0dd-4c78-894f-74203cfdc6ab.pdf) was blocked by the fetch tool's permission prompt and could not be opened; retry next refresh. Standalone quarter PAT 1,839.04 vs 1,662.52 crore (+10.6%), half-year 3,419.65. No profit/EPS guidance: May 2026 earnings call transcript (NSE filing, primary, https://nsearchives.nseindia.com/corporate/HAL_22052026111701_Transcript_May15-2026-signed.pdf) gives FY27 revenue growth of 10-12% minimum and EBITDA margin of about 30-31%, about 20 LCA Mk1A deliveries in FY27 - revenue and margin guidance are not used by the rule. No departed business, no evidence of lasting deterioration. Dividend left null because the source has a dividend yield (0.94%); FY26 dividend was 45 rupees a share (35 interim + 10 final, Business Today 29 Jun 2026)."
  },
  "HCLTECH": {
   "metric": "net profit",

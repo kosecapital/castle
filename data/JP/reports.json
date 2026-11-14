@@ -967,13 +967,13 @@
   },
   "moat": "dar",
   "per": "2026-Q4",
-  "one": "Colantotte markalı mıknatıslı sağlık ürünleri satıyor. Kârlı ve borçsuz; fiyat testini kıl payı geçti, ama tek markaya bağlı ve şirket yavaşlama bekliyor.",
+  "one": "Colantotte markalı mıknatıslı sağlık ürünleri satıyor. Kârlı ve borçsuz; fiyat testini kıl payı geçemiyor. Tek markaya bağlı ve şirket yavaşlama bekliyor.",
   "business": "Şirket, Japonya'da tıbbi cihaz onayı taşıyan mıknatıslı kolye, bileklik, destek ve dinlenme giysileri (RESNO) tasarlar ve satar. Eylül 2026'da biten yılda satış 9,0 milyar yen, faaliyet kârı 2,26 milyar yen oldu. Dokuz aylık satışın %50,1'i toptan, %36,9'u internet, %13,0'ü kendi mağazalarından geldi. Haziran 2026'da 22 mağazası vardı.",
   "moat_text": "Hendek dar. Kanıt marjlarda: brüt kâr marjı %70, faaliyet kâr marjı %25. Reel özsermaye kârlılığı beş yılda %18,0 ile %26,0 arasında kaldı, son yıl %23,8. Ürünlerin yarıdan fazlası (%54,6) 20.000 yen ve üstü fiyat bandında satılıyor; bu, markanın fiyat gücünü gösterir. Tıbbi cihaz onayı ve sporcu sponsorlukları markayı destekler. Zayıf yanı: tek marka, tek ürün ailesi. Mıknatıslı ürün taklit edilebilir ve talep modaya, reklama bağlıdır.",
   "mgmt": "31 Mart 2026 itibarıyla en büyük ortak Ark Quest %39,57, Katsumi Komatsu %17,58 paya sahip; SMBC Trust Bank'taki emanet hesabı %8,79 tutuyor. Halka açık pay sınırlı. Şirket kârın yaklaşık %30'unu temettü olarak dağıtmayı hedefliyor: 2025 yılı için hisse başına 42 yen ödedi, 2026 yılı için 50 yen öngördü. Kalan kâr mağazalara, internet satışına ve yeni Ar-Ge merkezine gidiyor. Haziran 2026 sonunda özsermaye oranı %80,3 idi; şirket net nakitte. Kurucu grubun toplam payı %71,17'dir: Ark Quest kurucu Katsumi Komatsu'nun varlık yönetim şirketidir; Komatsu, Momoko Wada ve Yumiko Komatsu ile birlikte ortak hissedar olarak bildirim yapar (18 Şubat 2025). Şirket hisse geri almıyor; pay sayısı opsiyonlarla üç yılda yaklaşık %1,2 arttı.",
   "latest": "6 Kasım 2026: Eylül 2026'da biten yılın sonuçları açıklandı. Satış 6,92 milyar yenden 9,00 milyar yene, faaliyet kârı 1,81 milyar yenden 2,26 milyar yene, net kâr 1,33 milyar yenden 1,51 milyar yene çıktı. Sonuç, şirketin kendi tahmininin (faaliyet kârı 2,1 milyar yen) üstünde kaldı. Eylül 2027 yılı için tahmin: satış 10,0 milyar yen, faaliyet kârı 2,4 milyar yen, net kâr 1,6 milyar yen. Tahmin, kâr marjının %25,1'den %24,0'e ineceğini ima ediyor.",
   "risks": [
-   "Güvenlik marjı büyüme varsayımına dayanıyor: hesap, reel hisse başına kârın on yıl boyunca yılda %9,7 büyüyeceğini varsayar (formül %16,1 veriyordu; okumada bulunanlar yüzünden indirildi). Büyüme daha da yavaşlarsa marj erir. Şirket tek markaya ve mıknatıslı sağlık ürünlerine bağlıdır; ilgi azalırsa satış hızla düşebilir.",
+   "Güvenlik marjı büyüme varsayımına dayanıyor: hesap, reel hisse başına kârın on yıl boyunca yılda %9,7 büyüyeceğini varsayar (formül %16,0 veriyordu; okumada bulunanlar yüzünden indirildi). Büyüme daha da yavaşlarsa marj erir. Şirket tek markaya ve mıknatıslı sağlık ürünlerine bağlıdır; ilgi azalırsa satış hızla düşebilir.",
    "Büyüme reklam ve sporcu sponsorluklarına dayanıyor; 2026'da satış %30 artarken net kâr daha yavaş arttı, bu harcamalar marjı aşağı çekebilir.",
    "Mıknatıslı ürünlerde teknik engel düşüktür; daha ucuz taklitler fiyat gücünü zayıflatabilir.",
    "Tıbbi cihaz onayı ya da sağlık iddialarıyla ilgili kural değişikliği satışı doğrudan etkiler.",
@@ -1033,13 +1033,13 @@
    }
   ],
   "en": {
-   "one": "Sells Colantotte-brand magnetic health goods. Profitable and debt-free; it only just passed the price test, but it rests on one brand and the company expects a slowdown.",
+   "one": "Sells Colantotte-brand magnetic health goods. Profitable and debt-free; it falls just short of the price test. It rests on one brand and the company expects a slowdown.",
    "business": "The company designs and sells magnetic necklaces, loops, supporters and recovery wear (RESNO) that carry medical device certification in Japan. In the year to September 2026 sales were 9.0 billion yen and operating profit 2.26 billion yen. In the first nine months 50.1% of sales came from wholesale, 36.9% from e-commerce and 13.0% from its own stores. It had 22 stores in June 2026.",
    "moat_text": "The moat is narrow. The proof is in the margins: gross margin 70%, operating margin 25%. Real return on equity stayed between 18.0% and 26.0% over five years, and was 23.8% in the latest year. More than half of sales (54.6%) come from products priced at 20,000 yen or more, which shows the brand's pricing power. Medical device certification and athlete sponsorships support the brand. The weak side: one brand, one product family. A magnetic product can be copied, and demand depends on fashion and advertising.",
    "mgmt": "As of 31 March 2026 the largest shareholder, Ark Quest, held 39.57% and Katsumi Komatsu 17.58%; a trust account at SMBC Trust Bank held 8.79%. The free float is limited. The company aims to pay out about 30% of profit: it paid 42 yen per share for 2025 and planned 50 yen for 2026. The rest goes to stores, e-commerce and a new R&D centre. The equity ratio was 80.3% at the end of June 2026; the company has net cash. The founder group holds 71.17% in total: Ark Quest is founder Katsumi Komatsu's asset-management company, and it reports jointly with Komatsu, Momoko Wada and Yumiko Komatsu (18 February 2025). The company does not buy back shares; options raised the share count by about 1.2% over three years.",
    "latest": "6 November 2026: results for the year to September 2026 were announced. Sales rose from 6.92 billion yen to 9.00 billion yen, operating profit from 1.81 billion yen to 2.26 billion yen, and net profit from 1.33 billion yen to 1.51 billion yen. The result beat the company's own forecast (operating profit 2.1 billion yen). Forecast for the year to September 2027: sales 10.0 billion yen, operating profit 2.4 billion yen, net profit 1.6 billion yen. The forecast implies the margin slipping from 25.1% to 24.0%.",
    "risks": [
-    "The margin of safety rests on a growth assumption: the calculation assumes real earnings per share grow 9.7% a year for ten years (the formula gave 16.1%; it was lowered because of what the reading found). If growth slows further, the margin shrinks. The company depends on one brand and on magnetic health goods; if interest fades, sales can fall quickly.",
+    "The margin of safety rests on a growth assumption: the calculation assumes real earnings per share grow 9.7% a year for ten years (the formula gave 16.0%; it was lowered because of what the reading found). If growth slows further, the margin shrinks. The company depends on one brand and on magnetic health goods; if interest fades, sales can fall quickly.",
     "Growth relies on advertising and athlete sponsorships; in 2026 sales grew 30% while net profit grew more slowly, and this spending can pull the margin down.",
     "Technical barriers in magnetic products are low; cheaper copies could weaken pricing power.",
     "A rule change on medical device certification or health claims would hit sales directly.",
@@ -1054,10 +1054,10 @@
   },
   "growth": {
    "g": 9.7,
-   "dy": 3.5,
+   "dy": 3.4,
    "basis": {
-    "tr": "Formül yılda %16,1 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Eylül 2026 yılı (net kâr) %13,8; Eylül 2027 yılı için şirket tahmini %5,6. En düşüğü, enflasyondan arındırılınca, %3,4. Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %9,7. Kaynakta temettü verimi yok; şirketin Eylül 2026 yılı için açıkladığı hisse başına 50 JPY temettüden %3,5 hesaplandı.",
-    "en": "The formula gave growth of 16.1% a year. Latest figures (earnings per share, year on year): year to September 2026 (net profit) 13.8%; company forecast for the year to September 2027 5.6%. The lowest, after inflation, is 3.4%. Because this is less than half the formula's rate, the midpoint of the two was used: 9.7%. The data source has no dividend yield; 3.5% was calculated from the dividend of 50 JPY per share the company declared for the year to September 2026."
+    "tr": "Formül yılda %16,0 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Eylül 2026 yılı (net kâr) %13,8; Eylül 2027 yılı için şirket tahmini %5,6. En düşüğü, enflasyondan arındırılınca, %3,4. Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %9,7. Kaynakta temettü verimi yok; şirketin Eylül 2026 yılı için açıkladığı hisse başına 50 JPY temettüden %3,4 hesaplandı.",
+    "en": "The formula gave growth of 16.0% a year. Latest figures (earnings per share, year on year): year to September 2026 (net profit) 13.8%; company forecast for the year to September 2027 5.6%. The lowest, after inflation, is 3.4%. Because this is less than half the formula's rate, the midpoint of the two was used: 9.7%. The data source has no dividend yield; 3.4% was calculated from the dividend of 50 JPY per share the company declared for the year to September 2026."
    },
    "per": "2026-Q4"
   },
@@ -1464,24 +1464,26 @@
    "E": 2
   },
   "moat": "dar",
-  "per": "2026-Q1",
+  "per": "2026-Q2",
   "one": "İş arama sitesi Indeed'in sahibi; ayrıca geçici personel ve ilan platformları işletiyor. Kalite surlarını geçiyor; fiyat çok yüksek olduğu için kapıda bekliyor.",
   "business": "Recruit'in üç işi var. İK teknolojisi kolu, iş arama sitesi Indeed'de işverenlerin verdiği iş ilanlarından gelir elde eder. Personel kolu şirketlere geçici çalışan sağlar. Üçüncü kol Japonya'da konut ve gündelik yaşam hizmetleri için ilan platformları işletir. Mart 2026'da biten yılda hasılat 3,70 trilyon yen oldu: İK teknolojisi 1,46 trilyon, personel 1,70 trilyon, ilan platformları 0,56 trilyon yen. Kârın büyük bölümü İK teknolojisinden gelir: 794,3 milyar yenlik düzeltilmiş FAVÖK'ün (şirketin EBITDA+S ölçütü) 549,9 milyarı.",
   "moat_text": "Hendek dar ama gerçek. Indeed'de iş arayan çok olduğu için işveren oraya ilan verir, ilan çok olduğu için de iş arayan oraya gelir; bu döngüyü yeni bir sitenin kurması zordur. Fiyat gücü rakamda görünüyor: ABD'de işe alım talebi durgunken ilan başına gelir Temmuz-Eylül 2026'da %39 arttı, kolun düzeltilmiş FAVÖK marjı ilk yarıda %47,5 oldu. Reel özsermaye kârlılığı 2023 mali yılındaki %14,7'den 2026 mali yılında %28,1'e çıktı. Geniş demiyoruz, çünkü üstünlük tek bir kaynağa, Indeed'e dayanıyor ve marjdaki sıçrama yeni; işe alım düştüğünde ne kadar kalıcı olduğu henüz sınanmadı. Hasılatın yarısına yakınını getiren personel işinde marj yalnız %6 dolayında ve hendek yok.",
-  "mgmt": "Kâr hissedara geri alımla dönüyor. Mart 2026'da biten yılda 678,7 milyar yenlik hisse geri alındı. Nisan 2026'da başlayan 350 milyar yenlik programın 177,6 milyar yeni 30 Eylül 2026'ya kadar kullanıldı; süre Mart 2027 sonuna uzatıldı. Temettü küçük: yıllık hisse başına 26 yen. Şirketin net borcu yok (net borç/FAVÖK −0,84); 30 Eylül 2026'da 988,2 milyar yen nakdi vardı.",
-  "latest": "11 Kasım 2026: Temmuz-Eylül 2026 çeyreğinde hasılat %19,7 artışla 1,09 trilyon yen, düzeltilmiş FAVÖK %43,6 artışla 297,9 milyar yen, net kâr %64,0 artışla 209,0 milyar yen oldu; üçü de rekor. Altı aylık hasılat 2,14 trilyon yen (+%19,3), net kâr 411,6 milyar yen (+%65,7). İK teknolojisinin dolar cinsinden hasılatı çeyrekte %27,5 arttı. Şirket yıllık tahminini değiştirmedi: hasılat 4,23 trilyon yen, net kâr 755 milyar yen. İK teknolojisi için yıllık beklentisini 11,92 milyar dolara çıkardı (Ağustos'ta 11,48 milyar).",
+  "mgmt": "Kâr hissedara geri alımla dönüyor. Mart 2026'da biten yılda 678,7 milyar yenlik hisse geri alındı (yaklaşık 84,5 milyon hisse; ortalama fiyat bizim bölmemizle 8.000 yen dolayında). Nisan 2026'da başlayan 350 milyar yenlik programın 177,6 milyar yeni 30 Eylül 2026'ya kadar kullanıldı (yaklaşık 16,35 milyon hisse; ortalama 10.900 yen dolayında); süre Mart 2027 sonuna uzatıldı. Temettü küçük: yıllık hisse başına 26 yen. Şirketin net borcu yok (net borç/FAVÖK −0,79); 30 Eylül 2026'da 988,2 milyar yen nakdi vardı. Hisse bazlı ücret yüksek: Mart 2026 yılında 63,8 milyar yen, net kârın %12,8'i; şirketin EBITDA+S ölçütü bu gideri dışarıda bırakır, biz o ölçütü kullanmıyoruz. Şerefiye 31 Mart 2026'da 553,3 milyar yen, özsermayenin %35'i. Son üç yılda büyük bir satın alma bulunmadı (bakıldı; okunan belgelerde tutar yok). Emeklilik yükümlülüğü 30 Haziran 2026'da net 60,0 milyar yen. İştirak tek: 51job (%39,9 pay); Mart 2026 yılında iştiraklerden 10,1 milyar yen zarar yazıldı. Diğer faaliyet giderleri iki yıldır 40 milyar yen dolayında (43,1 ve 39,8 milyar yen); içinde değer düşüklüğü ya da yeniden yapılanma olup olmadığı sonuç bildiriminde ayrı yazılmıyor. İlişkili taraf işlemlerine bakıldı; okunan belgelerde tutar yok.",
+  "latest": "11 Kasım 2026: Temmuz-Eylül 2026 çeyreğinde hasılat %19,7 artışla 1,09 trilyon yen, düzeltilmiş FAVÖK %43,6 artışla 297,9 milyar yen, net kâr %64,0 artışla 209,0 milyar yen oldu; üçü de rekor. Altı aylık hasılat 2,14 trilyon yen (+%19,3), faaliyet kârı 513,7 milyar yen (+%63,9), net kâr 411,6 milyar yen (+%65,7). Ana ortaklığa ait özsermaye 30 Eylül 2026'da 1,83 trilyon yen. İK teknolojisinin dolar cinsinden hasılatı çeyrekte %27,5 arttı. Şirket yıllık tahminini değiştirmedi: hasılat 4,23 trilyon yen, net kâr 755 milyar yen, hisse başına kâr 543 yen. İK teknolojisi için yıllık beklentisini 11,92 milyar dolara çıkardı (Ağustos'ta 11,48 milyar). İkinci yarı için daha yavaş bir tempo bekliyor: ABD'de ilan başına gelir artışı %29 dolayında (ilk yarı %37), kolun düzeltilmiş FAVÖK marjı %45,5 (ilk yarı %47,5); neden olarak yapay zekâ altyapı giderlerini gösteriyor.",
   "risks": [
-   "Fiyat: F/K 43,9, PD/DD 14,1. Temkinli hesapla hisse adil değerin çok üzerinde; güvenlik marjı yok.",
-   "Kâr artışı ilan sayısından değil, ilan başına fiyattan geliyor. İşverenler bu fiyatı ödemeyi bırakırsa ya da işe alım daha da düşerse kâr geriler.",
+   "Fiyat: F/K 37,5, PD/DD 13,3. Temkinli hesapla hisse adil değerin çok üzerinde; güvenlik marjı yok.",
+   "Kâr artışı ilan sayısından değil, ilan başına fiyattan geliyor: ABD'de ilan sayısı Temmuz-Eylül 2026'da yaklaşık %2 azaldı. İşverenler bu fiyatı ödemeyi bırakırsa ya da işe alım daha da düşerse kâr geriler.",
    "İşe alım döngüseldir: durgunlukta ilan ve geçici personel talebi birlikte düşer. Reel özsermaye kârlılığı 2023 mali yılında %14,7'ye inmişti.",
    "Yapay zekâ iş aramayı ve aday eşleştirmeyi değiştiriyor; iş arayanlar başka bir kanala kayarsa Indeed'in üstünlüğü zayıflar.",
-   "Kârın büyük bölümü dolar cinsinden kazanılıyor; yen değerlenirse yen cinsinden hasılat ve kâr düşer."
+   "Kârın büyük bölümü dolar cinsinden kazanılıyor; yen değerlenirse yen cinsinden hasılat ve kâr düşer.",
+   "Japonya Adil Ticaret Komisyonu Haziran 2026'da Japonya'daki iki personel şirketinde yerinde inceleme yaptı. Şirket etkisini tahmin edemediğini söylüyor; tahminlerine dahil değil. Hisse bazlı ücret de net kârın %12,8'i kadar."
   ],
   "watch": [
    "ABD'de ilan başına gelirin artışı",
    "İK teknolojisi kolunun düzeltilmiş FAVÖK marjı (yıllık beklenti %46,5)",
    "Hisse geri alımlarının tutarı",
-   "Fiyat: güvenlik marjı eşiği"
+   "Fiyat: güvenlik marjı eşiği",
+   "Japonya Adil Ticaret Komisyonu incelemesinin sonucu"
   ],
   "sources": [
    {
@@ -1520,6 +1522,21 @@
     "u": "https://recruit-holdings.com/en/newsroom/20261102_0001/"
    },
    {
+    "t": "Investing.com: Recruit Holdings 2. çeyrek sonuç görüşmesi dökümü (11 Kas 2026)",
+    "te": "Investing.com: Recruit Holdings Q2 earnings call transcript (11 Nov 2026)",
+    "u": "https://www.investing.com/news/transcripts/earnings-call-transcript-recruit-holdings-posts-strong-q2-2026-growth-shares-slip-93CH-5018043"
+   },
+   {
+    "t": "TipRanks: Recruit Holdings ilk yarıda hasılatını ve kârını artırdı, şirket bildirimi özeti (Kas 2026)",
+    "te": "TipRanks: Recruit Holdings reports higher first-half revenue and profit, summary of company filing (Nov 2026)",
+    "u": "https://www.tipranks.com/news/company-announcements/recruit-holdings-reports-higher-first-half-revenue-and-profit"
+   },
+   {
+    "t": "Recruit Holdings: 2026 mali yılı 1. çeyrek sonuç bildirimi, finansal tablolar (7 Ağu 2026)",
+    "te": "Recruit Holdings: FY2026 Q1 earnings release, financial statements (7 Aug 2026)",
+    "u": "https://recruit-holdings.com/en/ir/library/upload/recruit_202703Q1_earnings_en/"
+   },
+   {
     "t": "Kazanç yargısının kaynağı",
     "te": "Source for the earnings judgment",
     "u": "https://recruit-holdings.com/en/ir/library/upload/Recruit_202703Q2_summary_en.html"
@@ -1529,29 +1546,27 @@
    "one": "Owner of the job site Indeed; also runs staffing and listing platforms. It passes the quality walls but waits at the gate on price.",
    "business": "Recruit has three businesses. The HR technology arm earns income from the job postings employers place on the job site Indeed. The staffing arm supplies temporary workers to companies. The third arm runs listing platforms in Japan for housing and everyday lifestyle services. In the year to March 2026 revenue was 3.70 trillion yen: HR technology 1.46 trillion, staffing 1.70 trillion and listing platforms 0.56 trillion yen. Most of the profit comes from HR technology: 549.9 billion of the 794.3 billion yen of adjusted EBITDA (the company's EBITDA+S measure).",
    "moat_text": "The moat is narrow but real. Employers post on Indeed because many job seekers are there, and job seekers come because many postings are there; a new site finds this loop hard to build. Pricing power shows in the figures: while hiring demand in the US was stagnant, revenue per job posting rose 39% in July-September 2026, and the arm's adjusted EBITDA margin was 47.5% in the first half. Real return on equity rose from 14.7% in fiscal 2023 to 28.1% in fiscal 2026. We do not call it wide, because the advantage rests on a single source, Indeed, and the jump in margin is recent; how durable it is when hiring falls has not been tested yet. In staffing, which brings close to half of revenue, the margin is only about 6% and there is no moat.",
-   "mgmt": "Profit returns to shareholders through buybacks. Shares worth 678.7 billion yen were bought back in the year to March 2026. Of the 350 billion yen programme that began in April 2026, 177.6 billion yen had been used by 30 September 2026; its term was extended to the end of March 2027. The dividend is small: 26 yen per share for the year. The company has no net debt (net debt/EBITDA −0.84); it held 988.2 billion yen of cash on 30 September 2026.",
-   "latest": "11 November 2026: In the July-September 2026 quarter revenue rose 19.7% to 1.09 trillion yen, adjusted EBITDA rose 43.6% to 297.9 billion yen and net profit rose 64.0% to 209.0 billion yen; all three were records. Six-month revenue was 2.14 trillion yen (+19.3%) and net profit 411.6 billion yen (+65.7%). HR technology revenue in dollars rose 27.5% in the quarter. The company kept its full-year forecast: revenue 4.23 trillion yen and net profit 755 billion yen. It raised its full-year outlook for HR technology to 11.92 billion dollars (11.48 billion in August).",
+   "mgmt": "Profit returns to shareholders through buybacks. Shares worth 678.7 billion yen were bought back in the year to March 2026 (about 84.5 million shares; an average price of about 8,000 yen by our division). Of the 350 billion yen programme that began in April 2026, 177.6 billion yen had been used by 30 September 2026 (about 16.35 million shares; an average of about 10,900 yen); its term was extended to the end of March 2027. The dividend is small: 26 yen per share for the year. The company has no net debt (net debt/EBITDA −0.79); it held 988.2 billion yen of cash on 30 September 2026. Share-based pay is high: 63.8 billion yen in the year to March 2026, 12.8% of net profit; the company's EBITDA+S measure leaves this cost out, and we do not use that measure. Goodwill was 553.3 billion yen on 31 March 2026, 35% of equity. We found no large acquisition in the last three years (checked; no amount in the documents read). The net retirement benefit liability was 60.0 billion yen on 30 June 2026. There is one associate, 51job (39.9% stake); associates produced a loss of 10.1 billion yen in the year to March 2026. Other operating expenses have been about 40 billion yen for two years (43.1 and 39.8 billion yen); the earnings release does not say whether they include impairment or restructuring. We looked for related-party transactions; the documents read give no amount.",
+   "latest": "11 November 2026: In the July-September 2026 quarter revenue rose 19.7% to 1.09 trillion yen, adjusted EBITDA rose 43.6% to 297.9 billion yen and net profit rose 64.0% to 209.0 billion yen; all three were records. Six-month revenue was 2.14 trillion yen (+19.3%), operating income 513.7 billion yen (+63.9%) and net profit 411.6 billion yen (+65.7%). Equity attributable to owners of the parent was 1.83 trillion yen on 30 September 2026. HR technology revenue in dollars rose 27.5% in the quarter. The company kept its full-year forecast: revenue 4.23 trillion yen, net profit 755 billion yen and earnings per share 543 yen. It raised its full-year outlook for HR technology to 11.92 billion dollars (11.48 billion in August). It expects a slower second half: growth in US revenue per job posting of about 29% (37% in the first half) and an adjusted EBITDA margin of 45.5% for the arm (47.5% in the first half); it cites artificial intelligence infrastructure costs as the reason.",
    "risks": [
-    "Price: the P/E is 43.9 and the P/B 14.1. On the conservative calculation the share is far above fair value; there is no margin of safety.",
-    "Profit growth comes from the price per posting, not from the number of postings. If employers stop paying this price, or hiring falls further, profit declines.",
+    "Price: the P/E is 37.5 and the P/B 13.3. On the conservative calculation the share is far above fair value; there is no margin of safety.",
+    "Profit growth comes from the price per posting, not from the number of postings: US job postings fell about 2% in July-September 2026. If employers stop paying this price, or hiring falls further, profit declines.",
     "Hiring is cyclical: in a downturn, demand for postings and for temporary staff falls together. Real return on equity had dropped to 14.7% in fiscal 2023.",
     "Artificial intelligence is changing job search and candidate matching; if job seekers move to another channel, Indeed's advantage weakens.",
-    "Most of the profit is earned in dollars; if the yen strengthens, revenue and profit in yen fall."
+    "Most of the profit is earned in dollars; if the yen strengthens, revenue and profit in yen fall.",
+    "The Japan Fair Trade Commission made an on-site inspection at two Japanese staffing subsidiaries in June 2026. The company says it cannot estimate the impact; it is not in the forecasts. Share-based pay also equals 12.8% of net profit."
    ],
    "watch": [
     "Growth in revenue per job posting in the US",
     "Adjusted EBITDA margin of the HR technology arm (46.5% expected for the year)",
     "Amount of share buybacks",
-    "Price: the margin-of-safety threshold"
+    "Price: the margin-of-safety threshold",
+    "Outcome of the Japan Fair Trade Commission inspection"
    ]
   },
-  "growth": {
-   "g": null,
-   "basis": {
-    "tr": "Formül yılda %16,5 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Nisan-Eylül 2026 %71,0; Temmuz-Eylül 2026 çeyreği %68,8; Mart 2027 yılı için şirket tahmini %55,2. En düşüğü, enflasyondan arındırılınca, %52,0. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
-    "en": "The formula gave growth of 16.5% a year. Latest figures (earnings per share, year on year): April-September 2026 71.0%; July-September 2026 quarter 68.8%; company forecast for the year to March 2027 55.2%. The lowest, after inflation, is 52.0%. That is not less than half the formula's rate; the rate was not lowered."
-   },
-   "per": "2026-Q1"
+  "chk": {
+   "date": "2026-11-14",
+   "per": "2026-Q2"
   },
   "earn": {
    "k": 1.0,
@@ -1559,7 +1574,15 @@
     "tr": "Hesap son 12 ayın kârına dayanır. Şirketin Mart 2027 mali yılı için hisse başına kâr beklentisi 543,00 JPY; son 12 ayda 472,67 JPY. Beklenti daha düşük değil.",
     "en": "The calculation rests on the profit of the last 12 months. The company's earnings-per-share outlook for fiscal year to March 2027 is 543.00 JPY; the last 12 months were 472.67 JPY. The outlook is not lower."
    },
-   "per": "2026-Q1"
+   "per": "2026-Q2"
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %16,5 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Nisan-Eylül 2026 %71,0; Temmuz-Eylül 2026 çeyreği %68,8; Mart 2027 yılı için şirket tahmini %55,2. En düşüğü, enflasyondan arındırılınca, %52,0. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 16.5% a year. Latest figures (earnings per share, year on year): April-September 2026 71.0%; July-September 2026 quarter 68.8%; company forecast for the year to March 2027 55.2%. The lowest, after inflation, is 52.0%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q2"
   }
  },
  "6857": {
@@ -2073,18 +2096,18 @@
    "E": 1
   },
   "moat": "dar",
-  "per": "2026-Q4",
+  "per": "2027-Q1",
   "one": "Japonya'da 39 hayvan hastanesi işletiyor. Kalite surlarını geçti, hendek dar; son yılın kârının bir bölümü tek seferlik kazanç, yeni yıl beklentisi yalnız %7 artış.",
   "business": "WOLVES HAND, Japonya'da evcil hayvan hastaneleri işletir; parayı hayvan sahiplerinin ödediği muayene ve tedavi ücretlerinden kazanır. Haziran 2026 sonunda 39 yeri vardı: 12 merkez hastane ve 27 uydu hastane (Kansai 15, Kanto 14, Kyushu ve Okinawa 9, Hokkaido 1). Haziran 2026'da biten yılda satış 6,16 milyar yen, faaliyet kârı 1,13 milyar yen oldu; satışın yaklaşık %84'ü hastanelerden geldi. Kalanı veteriner kliniği yazılımı, veteriner eğitimi, tıbbi cihaz ve hijyen cihazlarıdır. Mali yıl haziranda biter.",
   "moat_text": "Hendek dar. Üstünlük, merkez hastanelerdeki ileri donanımdan (BT, MR, ışın tedavisi) ve ağdan geliyor: uydu hastaneler günlük bakımı yapar, zor vakayı grubun kendi merkezine gönderir. Tek bir kliniğin bu donanımı kurması pahalıdır. Rakamlar bunu destekliyor: faaliyet kâr marjı %18,3 (bir yıl önce %16,6), yıllık vaka sayısı 415.891 (bir yıl önce 395.059). Reel özsermaye kârlılığı son dört mali yılda %22,0 ile %36,0 arasında. Zayıf yanı: sektör çok parçalı ve klinik açmak kolay; üstünlük yereldir ve veteriner hekime bağlıdır (yılda ortalama 115 hekim). Geçmiş kısa: şirket 2024'te halka açıldı; 2020 mali yılında satın almalara bağlı 2,05 milyar yen değer düşüklüğü yazmıştı. Şerefiye 1,76 milyar yen, varlıkların %26,0'ı.",
   "mgmt": "Şirketi kurucusu ve genel müdürü Masashi Kitai yönetiyor. Haziran 2025'te payların %44,0'ı onda, yaklaşık %38'i J-STAR fonlarındaydı; 2 Eylül 2026'da ikincil pay satışı ve büyük ortak değişikliği duyuruldu, güncel oranlar okunamadı. Şirket bugüne kadar temettü ödemedi; Haziran 2027 yılı için ilk kez hisse başına 26 yen öngörüyor (kârın yaklaşık %20'si). Kâr hastane satın almaya ve borç ödemeye gitti. Küçük kusurlar var: son yılda ana işin dışına çıkan alımlar yapıldı (lazer cihazı üreticisi, fotokatalizör işi, kitin nanofiber işi); genel müdürün %100 sahibi olduğu şirketten bina ve otopark kiralanıyor (yılda 24,2 milyon yen); Aralık 2020'deki bir pay geri alımı sermaye koruma kurallarını aşmıştı. Finansal borç 1,97 milyar yen, nakit 0,81 milyar yen (net borç/FAVÖK 0,79).",
-  "latest": "13 Ağustos 2026: Haziran 2026'da biten yılın sonuçları açıklandı. Satış %12,7 artışla 6,16 milyar yen, faaliyet kârı %23,9 artışla 1,13 milyar yen, net kâr %58,4 artışla 939 milyon yen oldu. Net kârın içinde 251 milyon yen olağan dışı gelir var; 227 milyon yeni, Ocak 2026'da devralınan fotokatalizör işinden doğan negatif şerefiye kazancı. Aynı yıl 83 milyon yen değer düşüklüğü yazıldı. Haziran 2027 yılı tahmini: satış 7,54 milyar yen (+%22,4), faaliyet kârı 1,57 milyar yen (+%39,3), net kâr 1,01 milyar yen (+%7,0), hisse başına kâr 132,90 yen. Temmuz 2026'da iki satın alma daha duyuruldu (Meditrix, North One). Temmuz-Eylül 2026 çeyreği sonuçları 11 Kasım 2026'da açıklandı; belge bu okumada açılamadı.",
+  "latest": "11 Kasım 2026: Temmuz-Eylül 2026 çeyreği (yeni mali yılın ilk çeyreği) sonuçları açıklandı. Satış %24,2 artışla 1,70 milyar yen, faaliyet kârı %16,3 artışla 278 milyon yen, net kâr %15,8 artışla 191 milyon yen, hisse başına kâr 25,3 yen oldu (bir yıl önce 22,13 yen). Faaliyet kâr marjı %16,4'e indi (bir yıl önce %17,5). Bu rakamlar iki veri sitesinden (Kabutan, Matsui Securities) okundu; şirketin bildirimi bu okumada açılamadı, bu yüzden çeyreğin olağan dışı kalemlerine bakılamadı. Aynı sitelerde Haziran 2027 yılı tahmini 13 Ağustos 2026 tarihli hâliyle duruyor: satış 7,54 milyar yen (+%22,4), faaliyet kârı 1,57 milyar yen (+%39,3), net kâr 1,01 milyar yen (+%7,0), hisse başına kâr 132,90 yen, temettü 26 yen. Kabutan'a göre özsermaye 30 Eylül 2026'da 4,49 milyar yen (haziran sonunda 3,70 milyar yen); artış çeyreğin kârından büyük, nedeni okunamadı. Son 12 ayın kârında hâlâ Haziran 2026 yılının olağan dışı gelirleri var: 227 milyon yen negatif şerefiye kazancı (Ocak 2026'da devralınan fotokatalizör işi); aynı dönemde 83 milyon yen değer düşüklüğü yazıldı. 2 Eylül 2026'da ikincil pay satışı, pay geri alımı kararı ve kısıtlı pay ödülü duyuruldu.",
   "risks": [
-   "Son 12 ayın kârı tek seferlik kazançla büyüdü: 227 milyon yen negatif şerefiye kazancı net kârın yaklaşık dörtte biri. Şirket yeni yıl için net kârda yalnız %7,0 artış öngörüyor; fiyat hesabındaki büyüme varsayımı bundan yüksekse güvenlik marjı zayıflar.",
-   "Büyüme satın almaya dayanıyor ve şirket ana işinin dışına çıkıyor (lazer cihazı, fotokatalizör, kitin nanofiber, araştırma projeleri). Bu işler kâr getirmezse yeni değer düşüklükleri yazılabilir; şerefiye varlıkların %26,0'ı.",
+   "Son 12 ayın kârı tek seferlik kazançla büyüdü: 227 milyon yen negatif şerefiye kazancı, son 12 ayın net kârının (yaklaşık 965 milyon yen) dörtte birine yakın. Şirket yeni yıl için net kârda yalnız %7,0 artış öngörüyor; fiyat hesabındaki büyüme varsayımı bundan yüksekse güvenlik marjı zayıflar.",
+   "Büyüme satın almaya dayanıyor ve şirket ana işinin dışına çıkıyor (lazer cihazı, fotokatalizör, kitin nanofiber, araştırma projeleri). Temmuz-Eylül 2026 çeyreğinde satış %24,2 artarken faaliyet kârı %16,3 arttı; marj %17,5'ten %16,4'e indi. Bu işler kâr getirmezse yeni değer düşüklükleri yazılabilir; şerefiye Haziran 2026'da varlıkların %26,0'ıydı.",
    "Veteriner hekim bulmak zor; yeni mezunlar için rekabet yoğun. Hekim kaybı ya da ücret artışı hastanelerin kârını doğrudan düşürür.",
    "Geçmiş kısa: şirket 2024'te halka açıldı ve beş yıllık özsermaye kârlılığı geçmişinin yalnız dört yılı var. Yüksek kârlılık kısmen küçük özsermayeden geliyor.",
-   "Şirket kurucusuna bağlı; onunla ilişkili taraf kiralamaları var. Eylül 2026'daki pay satışından sonra ortaklık yapısı değişti."
+   "Şirket kurucusuna bağlı; onunla ilişkili taraf kiralamaları var. Eylül 2026'daki pay satışından sonra ortaklık yapısı değişti. Aynı gün duyurulan pay geri alımının fiyatı ve kısıtlı pay ödülünün tutarı okunamadı; hisse bazlı ücrete ve bilanço dışı yükümlülüklere bu okumada bakılamadı (belgeler açılamadı)."
   ],
   "watch": [
    "Olağan dışı kalemler hariç net kâr ve hisse başına kâr (yıllık tahmin 132,90 yen)",
@@ -2129,9 +2152,24 @@
     "u": "https://finance.yahoo.co.jp/quote/194A.T/disclosure"
    },
    {
-    "t": "Matsui Securities: WOLVES HAND çeyreklik sonuçlar",
-    "te": "Matsui Securities: WOLVES HAND quarterly results",
+    "t": "Kabutan: WOLVES HAND çeyreklik sonuçlar ve bilanço özeti (Temmuz-Eylül 2026, açıklama 11 Kas 2026)",
+    "te": "Kabutan: WOLVES HAND quarterly results and balance sheet summary (July-September 2026, announced 11 Nov 2026)",
+    "u": "https://s.kabutan.jp/stocks/194A/finance/"
+   },
+   {
+    "t": "Matsui Securities: WOLVES HAND çeyreklik sonuçlar (Temmuz-Eylül 2026)",
+    "te": "Matsui Securities: WOLVES HAND quarterly results (July-September 2026)",
     "u": "https://finance.matsui.co.jp/stock/194A/settlement/index"
+   },
+   {
+    "t": "WOLVES HAND Temmuz-Eylül 2025 sonuç bildirimi (13 Kas 2025; geçen yılın aynı çeyreği)",
+    "te": "WOLVES HAND results filing, July-September 2025 (13 Nov 2025; same quarter a year earlier)",
+    "u": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20251113/20251113599295.pdf"
+   },
+   {
+    "t": "J-LIC: WOLVES HAND borsa bildirimleri listesi (11 Kas 2026 ilk çeyrek sonuç bildirimi ve sunumu)",
+    "te": "J-LIC: WOLVES HAND list of exchange disclosures (11 Nov 2026 first-quarter results filing and presentation)",
+    "u": "https://j-lic.com/companies/194A"
    }
   ],
   "en": {
@@ -2139,13 +2177,13 @@
    "business": "WOLVES HAND runs hospitals for pets in Japan; it earns its money from the examination and treatment fees paid by pet owners. At the end of June 2026 it had 39 sites: 12 centre hospitals and 27 satellite hospitals (Kansai 15, Kanto 14, Kyushu and Okinawa 9, Hokkaido 1). In the year to June 2026 sales were 6.16 billion yen and operating profit 1.13 billion yen; about 84% of sales came from the hospitals. The rest is veterinary clinic software, veterinary education, medical devices and hygiene devices. The fiscal year ends in June.",
    "moat_text": "The moat is narrow. The advantage comes from advanced equipment at the centre hospitals (CT, MRI, radiotherapy) and from the network: satellite hospitals handle everyday care and send difficult cases to the group's own centre. That equipment is expensive for a single clinic to install. The figures support this: the operating margin is 18.3% (16.6% a year earlier) and the number of cases in the year was 415,891 (395,059 a year earlier). Real return on equity ranged from 22.0% to 36.0% over the last four fiscal years. The weak side: the sector is very fragmented and a clinic is easy to open; the advantage is local and depends on the veterinarians (115 on average in the year). The record is short: the company listed in 2024, and in fiscal 2020 it wrote off 2.05 billion yen of acquisition-related value. Goodwill is 1.76 billion yen, 26.0% of assets.",
    "mgmt": "The company is run by its founder and chief executive, Masashi Kitai. In June 2025 he owned 44.0% of the shares and J-STAR funds about 38%; on 2 September 2026 a secondary share offering and a change of major shareholder were announced, and the current stakes could not be read. The company has never paid a dividend; for the year to June 2027 it plans its first, 26 yen per share (about 20% of profit). Profit has gone to buying hospitals and repaying debt. There are small flaws: last year's purchases went outside the main business (a laser device maker, a photocatalyst business, a chitin nanofibre business); buildings and parking are leased from a company wholly owned by the chief executive (24.2 million yen a year); and a share buyback in December 2020 breached capital-maintenance rules. Financial debt is 1.97 billion yen and cash 0.81 billion yen (net debt/EBITDA 0.79).",
-   "latest": "13 August 2026: results for the year to June 2026 were announced. Sales rose 12.7% to 6.16 billion yen, operating profit rose 23.9% to 1.13 billion yen and net profit rose 58.4% to 939 million yen. Net profit includes 251 million yen of extraordinary income; 227 million yen of it is a negative goodwill gain from the photocatalyst business taken over in January 2026. An impairment of 83 million yen was booked in the same year. Forecast for the year to June 2027: sales 7.54 billion yen (+22.4%), operating profit 1.57 billion yen (+39.3%), net profit 1.01 billion yen (+7.0%), earnings per share 132.90 yen. Two more acquisitions were announced in July 2026 (Meditrix, North One). Results for the July-September 2026 quarter were announced on 11 November 2026; the document could not be opened in this reading.",
+   "latest": "11 November 2026: results for the July-September 2026 quarter (the first quarter of the new fiscal year) were announced. Sales rose 24.2% to 1.70 billion yen, operating profit rose 16.3% to 278 million yen, net profit rose 15.8% to 191 million yen and earnings per share were 25.3 yen (22.13 yen a year earlier). The operating margin fell to 16.4% (17.5% a year earlier). These figures were read from two data sites (Kabutan, Matsui Securities); the company's filing could not be opened in this reading, so the quarter's extraordinary items could not be checked. On the same sites the forecast for the year to June 2027 stands as issued on 13 August 2026: sales 7.54 billion yen (+22.4%), operating profit 1.57 billion yen (+39.3%), net profit 1.01 billion yen (+7.0%), earnings per share 132.90 yen, dividend 26 yen. According to Kabutan, equity was 4.49 billion yen on 30 September 2026 (3.70 billion yen at the end of June); the rise is larger than the quarter's profit and its cause could not be read. The profit of the last 12 months still contains the extraordinary income of the year to June 2026: a 227 million yen negative goodwill gain (the photocatalyst business taken over in January 2026); an impairment of 83 million yen was booked in the same period. On 2 September 2026 a secondary share offering, a share buyback decision and a restricted share award were announced.",
    "risks": [
-    "The profit of the last 12 months was enlarged by a one-off gain: the 227 million yen negative goodwill gain is about a quarter of net profit. The company expects net profit to rise only 7.0% in the new year; if the growth assumed in the price calculation is higher than that, the margin of safety weakens.",
-    "Growth rests on acquisitions, and the company is moving outside its main business (laser devices, photocatalyst, chitin nanofibre, research projects). If these do not earn a profit, new impairments may follow; goodwill is 26.0% of assets.",
+    "The profit of the last 12 months was enlarged by a one-off gain: the 227 million yen negative goodwill gain is close to a quarter of the net profit of the last 12 months (about 965 million yen). The company expects net profit to rise only 7.0% in the new year; if the growth assumed in the price calculation is higher than that, the margin of safety weakens.",
+    "Growth rests on acquisitions, and the company is moving outside its main business (laser devices, photocatalyst, chitin nanofibre, research projects). In the July-September 2026 quarter sales rose 24.2% while operating profit rose 16.3%; the margin fell from 17.5% to 16.4%. If these businesses do not earn a profit, new impairments may follow; goodwill was 26.0% of assets in June 2026.",
     "Veterinarians are hard to find; competition for new graduates is intense. Losing veterinarians or paying them more cuts hospital profit directly.",
     "The record is short: the company listed in 2024 and only four of the five years of return-on-equity history exist. The high return comes partly from a small equity base.",
-    "The company depends on its founder, and there are related-party leases with him. The shareholder structure changed after the share offering in September 2026."
+    "The company depends on its founder, and there are related-party leases with him. The shareholder structure changed after the share offering in September 2026. The price of the buyback announced the same day and the size of the restricted share award could not be read; share-based pay and off-balance-sheet obligations could not be checked in this reading (the documents could not be opened)."
    ],
    "watch": [
     "Net profit and earnings per share excluding extraordinary items (full-year forecast 132.90 yen)",
@@ -2155,21 +2193,21 @@
    ]
   },
   "earn": {
-   "k": 0.871,
+   "k": 0.876,
    "basis": {
-    "tr": "Hesap son 12 ayın kârına dayanır. Bu kârın içindeki tek seferlik kazançlar: Negatif şerefiye kazancı: Ocak 2026'da bağlı ortaklık Kaltech'in devraldığı fotokatalizör işinde ödenen bedel, alınan net varlıkların değerinden düşük kaldı (olağan dışı gelir, 227,5 milyon yen vergi öncesi): son 12 ay kârının %17,5 kadarı; Kademeli edinim kazancı: iştirak Asuka Medical'in tamamı alınırken eski payın yeniden değerlenmesi (olağan dışı gelir, 12,9 milyon yen vergi öncesi): son 12 ay kârının %1,0 kadarı; Duran varlık satış kazancı (olağan dışı gelir, 11,0 milyon yen vergi öncesi): son 12 ay kârının %0,8 kadarı. Aynı dönemin tek seferlik giderleri: Değer düşüklüğü zararı (olağan dışı gider, 83,4 milyon yen vergi öncesi): %6,4. Net etki %13,0; kazanç bu kadar indirildi. Şirketin Haziran 2027 mali yılı için hisse başına kâr beklentisi 132,90 JPY; son 12 ayda 124,88 JPY. Beklenti daha düşük değil. Son 12 ayın kârı 0,87 ile çarpılarak kullanıldı.",
-    "en": "The calculation rests on the profit of the last 12 months. One-off gains inside that profit: Negative goodwill gain: in the photocatalyst business taken over by the subsidiary Kaltech in January 2026 the price paid was below the value of the net assets acquired (extraordinary income, 227.5 million yen pre-tax): 17.5% of last-12-month profit; Gain on step acquisition: revaluation of the earlier stake when the affiliate Asuka Medical became wholly owned (extraordinary income, 12.9 million yen pre-tax): 1.0% of last-12-month profit; Gain on sale of fixed assets (extraordinary income, 11.0 million yen pre-tax): 0.8% of last-12-month profit. One-off charges in the same period: Impairment loss (extraordinary loss, 83.4 million yen pre-tax): 6.4%. The net effect is 13.0%; earnings were lowered by that much. The company's earnings-per-share outlook for fiscal year to June 2027 is 132.90 JPY; the last 12 months were 124.88 JPY. The outlook is not lower. Last-12-month profit was used multiplied by 0.87."
+    "tr": "Hesap son 12 ayın kârına dayanır. Bu kârın içindeki tek seferlik kazançlar: Negatif şerefiye kazancı: Ocak 2026'da bağlı ortaklık Kaltech'in devraldığı fotokatalizör işinde ödenen bedel, alınan net varlıkların değerinden düşük kaldı (olağan dışı gelir, 227,5 milyon yen vergi öncesi): son 12 ay kârının %17,1 kadarı; Kademeli edinim kazancı: iştirak Asuka Medical'in tamamı alınırken eski payın yeniden değerlenmesi (olağan dışı gelir, 12,9 milyon yen vergi öncesi): son 12 ay kârının %1,0 kadarı; Duran varlık satış kazancı (olağan dışı gelir, Ekim 2025-Haziran 2026 için 8,3 milyon yen vergi öncesi; yılın 11,0 milyon yeninden Temmuz-Eylül 2025'in 2,7 milyon yeni çıkarıldı): son 12 ay kârının %0,6 kadarı. Aynı dönemin tek seferlik giderleri: Değer düşüklüğü zararı (olağan dışı gider, 83,4 milyon yen vergi öncesi): %6,3. Net etki %12,4; kazanç bu kadar indirildi. Şirketin Haziran 2027 mali yılı için hisse başına kâr beklentisi 132,90 JPY; son 12 ayda 128,05 JPY. Beklenti daha düşük değil. Son 12 ayın kârı 0,88 ile çarpılarak kullanıldı.",
+    "en": "The calculation rests on the profit of the last 12 months. One-off gains inside that profit: Negative goodwill gain: in the photocatalyst business taken over by the subsidiary Kaltech in January 2026 the price paid was below the value of the net assets acquired (extraordinary income, 227.5 million yen pre-tax): 17.1% of last-12-month profit; Gain on step acquisition: revaluation of the earlier stake when the affiliate Asuka Medical became wholly owned (extraordinary income, 12.9 million yen pre-tax): 1.0% of last-12-month profit; Gain on sale of fixed assets (extraordinary income, 8.3 million yen pre-tax for October 2025-June 2026; the year's 11.0 million yen less 2.7 million yen of July-September 2025): 0.6% of last-12-month profit. One-off charges in the same period: Impairment loss (extraordinary loss, 83.4 million yen pre-tax): 6.3%. The net effect is 12.4%; earnings were lowered by that much. The company's earnings-per-share outlook for fiscal year to June 2027 is 132.90 JPY; the last 12 months were 128.05 JPY. The outlook is not lower. Last-12-month profit was used multiplied by 0.88."
    },
-   "per": "2026-Q4"
+   "per": "2027-Q1"
   },
   "growth": {
-   "g": 11.8,
+   "g": 10.5,
    "dy": 1.9,
    "basis": {
-    "tr": "Formül yılda %19,3 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Temmuz 2025-Haziran 2026 mali yılı %57,4; Nisan-Haziran 2026 çeyreği (yıllık eksi dokuz aylık, türetildi) %16,0; Haziran 2027 yılı için şirket tahmini %6,4. En düşüğü, enflasyondan arındırılınca, %4,2. Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %11,8. Kaynakta temettü verimi yok; şirketin Haziran 2027 yılı (ilk temettü, tahmin) için açıkladığı hisse başına 26 JPY temettüden %1,9 hesaplandı.",
-    "en": "The formula gave growth of 19.3% a year. Latest figures (earnings per share, year on year): fiscal year July 2025-June 2026 57.4%; April-June 2026 quarter (full year minus nine months, derived) 16.0%; company forecast for the year to June 2027 6.4%. The lowest, after inflation, is 4.2%. Because this is less than half the formula's rate, the midpoint of the two was used: 11.8%. The data source has no dividend yield; 1.9% was calculated from the dividend of 26 JPY per share the company declared for the year to June 2027 (first dividend, forecast)."
+    "tr": "Formül yılda %16,8 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Temmuz-Eylül 2026 çeyreği (yeni mali yılın ilk üç ayı) %14,3; Temmuz-Eylül 2026 çeyreği %14,3; Haziran 2027 yılı için şirket tahmini %6,4. En düşüğü, enflasyondan arındırılınca, %4,2. Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %10,5. Kaynakta temettü verimi yok; şirketin Haziran 2027 yılı (ilk temettü, tahmin) için açıkladığı hisse başına 26 JPY temettüden %1,9 hesaplandı.",
+    "en": "The formula gave growth of 16.8% a year. Latest figures (earnings per share, year on year): July-September 2026 quarter (first three months of the new fiscal year) 14.3%; July-September 2026 quarter 14.3%; company forecast for the year to June 2027 6.4%. The lowest, after inflation, is 4.2%. Because this is less than half the formula's rate, the midpoint of the two was used: 10.5%. The data source has no dividend yield; 1.9% was calculated from the dividend of 26 JPY per share the company declared for the year to June 2027 (first dividend, forecast)."
    },
-   "per": "2026-Q4"
+   "per": "2027-Q1"
   }
  },
  "3150": {
@@ -2783,10 +2821,10 @@
    "per": "2026-Q2"
   },
   "growth": {
-   "g": 5.9,
+   "g": 6.0,
    "basis": {
-    "tr": "Formül yılda %11,9 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Mart-Ağustos 2026 %2,8; Haziran-Ağustos 2026 çeyreği %219,7; Şubat 2027 yılı için şirket tahmini %−13,2. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %5,9.",
-    "en": "The formula gave growth of 11.9% a year. Latest figures (earnings per share, year on year): March-August 2026 2.8%; June-August 2026 quarter 219.7%; company forecast for the year to February 2027 −13.2%. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 5.9%."
+    "tr": "Formül yılda %11,9 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Mart-Ağustos 2026 %2,8; Haziran-Ağustos 2026 çeyreği %219,7; Şubat 2027 yılı için şirket tahmini %−13,2. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %6,0.",
+    "en": "The formula gave growth of 11.9% a year. Latest figures (earnings per share, year on year): March-August 2026 2.8%; June-August 2026 quarter 219.7%; company forecast for the year to February 2027 −13.2%. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 6.0%."
    },
    "per": "2026-Q2"
   }

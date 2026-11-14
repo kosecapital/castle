@@ -1,0 +1,242 @@
+{
+ "cc": "JP",
+ "code": "4482",
+ "report": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "2026-Q3",
+  "one": "Şirketlerin hissedar hediyelerini puanla yöneten platformu işletir. Kârlı ve borçsuz; ama kâr tek hizmete bağlı ve 2026 kârını düşük vergi yükseltti.",
+  "business": "WILLs, halka açık şirketlerin hissedar hediyelerini (kabunushi yutai) puan sistemiyle yöneten Premium Yutai Club platformunu işletir. Müşteri şirket sistem kullanım ücreti öder ve hissedarlarına puan dağıtır; hissedar puanı ürünle değiştirince WILLs gelir yazar. 2025'te satış 6,05 milyar yen, faaliyet kârı 1,30 milyar yen oldu; satışın %73,3'ü (4,44 milyar yen) bu hizmetten geldi. Kalanı entegre rapor hazırlama (0,97 milyar yen), kurumsal yatırımcı veri tabanı IR-navi (0,32 milyar yen) ve küçük bir reklam işidir.",
+  "moat_text": "Hendek dar. Kanıt: Haziran 2026'da Premium Yutai Club'ın 112 müşteri şirketi vardı (2025 sonunda 110; 2025'te net 14 şirket eklendi). Hissedarlar farklı şirketlerden aldıkları puanları tek hesapta birleştirebiliyor; bu, müşteri sayısı arttıkça platformu daha çekici kılar ve ayrılmayı zorlaştırır. Brüt kâr marjı enflasyonun yükseldiği yıllarda korundu: 2023'te %46,6, 2024'te %48,6, 2025'te %46,9. Faaliyet kâr marjı 2025'te %21,5. Reel özsermaye kârlılığı beş yılda %23,1 ile %32,7 arasında kaldı; son yıl %32,7. Zayıf yanı: Japonya'da hissedar hediyesi veren 1.688 şirketin yalnız 112'si müşteri; hediye kataloğu sunan rakipler var ve iş, şirketlerin hissedar hediyesi vermeyi sürdürmesine bağlı. Satışın yaklaşık dörtte üçü tek hizmetten geliyor. IR-navi müşteri sayısı 375'ten 367'ye indi.",
+  "mgmt": "30 Haziran 2026 itibarıyla kurucu ve genel müdür Mitsuo Sugimoto %30,11, varlık yönetim şirketi SUG Asset %6,52, mali işler yöneticisi Yasuyuki Hasumoto %14,00 paya sahip; ilk on ortak %63,11 tutuyor. Kârın yaklaşık üçte biri temettüye gidiyor: 2025 için hisse başına 13 yen ödendi, 2026 için 18 yen öngörülüyor (şirket hesabıyla dağıtım oranı %38,3). Şirket 2025'te 235.900 hisseyi 146,9 milyon yene geri aldı (ortalama yaklaşık 623 yen); daha önce 255.000 hisseyi 153,1 milyon yene almıştı. Kalan kâr yazılım geliştirmeye gidiyor. Kusurlar: bağlı ortaklık Netmile (puan ve reklam sitesi) zarar etti; 2025 sonunda özsermayesi eksi 453 milyon yendi, şirket ona verdiği 410 milyon yenlik borcun 294 milyon yeni için karşılık ayırdı ve 17 Ocak 2026'da Netmile'ı bünyesine kattı. Ağustos 2026'da kullanılmayacak yazılım için 152 milyon yen değer düşüklüğü yazıldı. Hisse bazlı ücret küçük: 2025'te 7,5 milyon yen (kârın %1'inden az). Şerefiye Haziran 2026'da 158 milyon yen, özsermayenin yaklaşık %5'i. Satın almaların hisseyle ödendiğine dair kayıt görülmedi. Emeklilik yükümlülüğüne bakıldı, okunan belgede yok.",
+  "latest": "12 Kasım 2026: Ocak-Eylül 2026 sonuçları açıklandı (şirket 2026'da konsolide olmayan tabloya geçti; geçen yılın rakamları konsolidedir). Satış 4,37 milyar yenden 5,28 milyar yene, faaliyet kârı 941 milyon yenden 1,15 milyar yene, net kâr 615 milyon yenden 912 milyon yene çıktı. Net kârdaki artışın bir bölümü vergiden geliyor: ilk altı ayda vergi öncesi 523 milyon yen kâra karşılık yalnız 19 milyon yen vergi yazıldı (yasal oran %30,6). Şirketin yıl tahmini değişmedi: satış 6,75 milyar yen, faaliyet kârı 1,5 milyar yen, net kâr 950 milyon yen. 2 Kasım 2026'da şirket, Netmile sistemine izinsiz erişildiğini ve en çok 5,49 milyon üyenin kişisel verisinin sızmış olabileceğini duyurdu; Netmile hizmeti durduruldu.",
+  "risks": [
+   "Güvenlik marjı büyüme varsayımına ve vergi yüzünden yüksek görünen bir kâra dayanıyor: formül reel hisse başına kâr için yılda %18,7 büyüme veriyor; büyüme yavaşlarsa marj erir. Son 12 ayın hisse başına kârı 56,17 yen, şirketin 2026 tahmini ise 47,00 yen; 2026'da Netmile'ın geçmiş zararları vergiyi düşürdü ve bu yinelenmez.",
+   "Satışın yaklaşık dörtte üçü tek hizmetten (Premium Yutai Club) geliyor. Şirketler hissedar hediyesinden vazgeçerse ya da bütçeyi kısarsa satış doğrudan düşer; şirket de ekonomik daralmada yatırımcı ilişkileri bütçelerinin kısılabileceğini risk olarak yazıyor.",
+   "Kasım 2026'daki Netmile veri sızıntısının maliyeti ve müşteri güvenine etkisi henüz bilinmiyor; şirket geçmişte de kişisel veri sızıntısı yaşadığını kendi raporunda yazıyor. Platform hissedarların kişisel verisini tutar.",
+   "Satış yılın ikinci yarısına yığılır (ilk çeyrek en zayıfıdır); puanların kullanım zamanı kayarsa çeyrek sonuçları oynar. Peşin alınan puan bedelleri (sözleşme yükümlülüğü) Haziran 2026'da 1,21 milyar yendi.",
+   "Kurucu ve mali işler yöneticisi birlikte hisselerin yarısından fazlasını elinde tutuyor; küçük ortağın söz hakkı sınırlıdır. Netmile satın alması değer yok etti."
+  ],
+  "watch": [
+   "Premium Yutai Club müşteri şirket sayısı (Haziran 2026: 112) ve şirket başına puan satışı",
+   "Brüt kâr marjı (%46-49 aralığında kalıyor mu)",
+   "Etkin vergi oranının olağan düzeye (%30 dolayı) dönmesinden sonraki net kâr",
+   "Netmile veri sızıntısının gideri ve hizmetin yeniden açılması"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tyo/4482/financials/ratios/"
+   },
+   {
+    "t": "JPX (TDnet): WILLs 2025 yılı bilanço özeti, kessan tanshin (16 Şubat 2026)",
+    "te": "JPX (TDnet): WILLs kessan tanshin for fiscal 2025 (16 February 2026)",
+    "u": "https://www2.jpx.co.jp/disc/44820/081220260216563127_tse-acedjpsm-44820-20260216344820-ixbrl.htm"
+   },
+   {
+    "t": "JPX (TDnet): WILLs 2026 ilk yarı bilanço özeti, konsolide olmayan (13 Ağustos 2026)",
+    "te": "JPX (TDnet): WILLs first-half 2026 tanshin, non-consolidated (13 August 2026)",
+    "u": "https://www2.jpx.co.jp/disc/44820/081220260813519343_tse-snedjpsy-44820-20260813344820-ixbrl.htm"
+   },
+   {
+    "t": "WILLs: yarı yıl raporu, Ocak-Haziran 2026 (13 Ağustos 2026)",
+    "te": "WILLs: semi-annual securities report, January-June 2026 (13 August 2026)",
+    "u": "https://global-assets.irdirect.jp/pdf/securities_report/batch/S100YW9U.pdf"
+   },
+   {
+    "t": "EDINET: WILLs 2025 yılı menkul kıymet raporu (26 Mart 2026)",
+    "te": "EDINET: WILLs annual securities report for fiscal 2025 (26 March 2026)",
+    "u": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100XUGF.pdf"
+   },
+   {
+    "t": "EDINET: WILLs olağanüstü durum raporu, yazılım değer düşüklüğü (13 Ağustos 2026)",
+    "te": "EDINET: WILLs extraordinary report, software impairment (13 August 2026)",
+    "u": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YW9N.pdf"
+   },
+   {
+    "t": "JPX (TDnet): WILLs, Netmile birleşmesinden doğan olağan dışı kalemler (14 Mayıs 2026)",
+    "te": "JPX (TDnet): WILLs, extraordinary items from the Netmile merger (14 May 2026)",
+    "u": "https://www2.jpx.co.jp/disc/44820/140120260514534416.pdf"
+   },
+   {
+    "t": "Matsui Securities: WILLs çeyrek sonuçları, Ocak-Eylül 2026",
+    "te": "Matsui Securities: WILLs quarterly results, January-September 2026",
+    "u": "https://finance.matsui.co.jp/stock/4482/settlement/index"
+   },
+   {
+    "t": "Kabutore: WILLs borsa bildirimleri listesi (12 Kasım 2026)",
+    "te": "Kabutore: list of WILLs exchange disclosures (12 November 2026)",
+    "u": "https://www.kabutore.biz/news/ir.html?code=4482"
+   },
+   {
+    "t": "IRBANK: WILLs bildirimleri ve hisse başına defter değeri",
+    "te": "IRBANK: WILLs disclosures and book value per share",
+    "u": "https://irbank.net/4482"
+   },
+   {
+    "t": "SmartScope: Netmile'a izinsiz erişim, en çok 5,49 milyon üye (2 Kasım 2026)",
+    "te": "SmartScope: unauthorised access to Netmile, up to 5.49 million members (2 November 2026)",
+    "u": "https://smartscope.blog/blog/netmile-up-approximately-5-49-million-users-personal-2026/"
+   },
+   {
+    "t": "logmi Finance: WILLs 2025 yılı sonuç toplantısı (24 Şubat 2026)",
+    "te": "logmi Finance: WILLs fiscal 2025 results briefing (24 February 2026)",
+    "u": "https://finance.logmi.jp/articles/383926"
+   },
+   {
+    "t": "logmi Finance: WILLs 2026 ilk yarı sonuç toplantısı (18 Ağustos 2026)",
+    "te": "logmi Finance: WILLs first-half 2026 results briefing (18 August 2026)",
+    "u": "https://finance.logmi.jp/articles/385672"
+   }
+  ],
+  "en": {
+   "one": "Runs a points platform for listed companies' shareholder gifts. Profitable and debt-free; but profit rests on one service and low tax lifted 2026 profit.",
+   "business": "WILLs runs Premium Yutai Club, a platform that manages listed companies' shareholder benefit programmes (kabunushi yutai) through points. The client company pays a system fee and grants points to its shareholders; WILLs books revenue when a shareholder exchanges points for goods. In 2025 sales were 6.05 billion yen and operating profit 1.30 billion yen; 73.3% of sales (4.44 billion yen) came from this service. The rest is integrated report production (0.97 billion yen), the institutional investor database IR-navi (0.32 billion yen) and a small advertising business.",
+   "moat_text": "The moat is narrow. The evidence: Premium Yutai Club had 112 client companies in June 2026 (110 at the end of 2025; a net 14 were added in 2025). Shareholders can pool points from different companies in one account; this makes the platform more attractive as clients are added and makes leaving harder. Gross margin held in the years inflation rose: 46.6% in 2023, 48.6% in 2024, 46.9% in 2025. Operating margin was 21.5% in 2025. Real return on equity stayed between 23.1% and 32.7% over five years, and was 32.7% in the latest year. The weak side: only 112 of the 1,688 Japanese companies that offer shareholder benefits are clients; rivals offer gift catalogues, and the business depends on companies continuing to give shareholder benefits. About three quarters of sales come from one service. IR-navi clients fell from 375 to 367.",
+   "mgmt": "As of 30 June 2026 founder and chief executive Mitsuo Sugimoto held 30.11%, his asset-management company SUG Asset 6.52%, and chief financial officer Yasuyuki Hasumoto 14.00%; the top ten shareholders held 63.11%. About a third of profit goes to dividends: 13 yen a share was paid for 2025 and 18 yen is planned for 2026 (a 38.3% payout on the company's calculation). The company bought back 235,900 shares for 146.9 million yen in 2025 (about 623 yen on average); earlier it had bought 255,000 shares for 153.1 million yen. The rest of the profit goes to software development. The flaws: the subsidiary Netmile (a points and advertising site) lost money; its equity was minus 453 million yen at the end of 2025, the company set aside 294 million yen against the 410 million yen it had lent to it, and absorbed Netmile on 17 January 2026. In August 2026 it wrote off 152 million yen of software that will not be used. Share-based pay is small: 7.5 million yen in 2025 (under 1% of profit). Goodwill was 158 million yen in June 2026, about 5% of equity. No record of acquisitions paid in shares was seen. Pension obligations were looked for; they are not in the document that was read.",
+   "latest": "12 November 2026: results for January-September 2026 were announced (the company moved to non-consolidated statements in 2026; last year's figures are consolidated). Sales rose from 4.37 billion yen to 5.28 billion yen, operating profit from 941 million yen to 1.15 billion yen, and net profit from 615 million yen to 912 million yen. Part of the rise in net profit comes from tax: in the first six months only 19 million yen of tax was charged on 523 million yen of pre-tax profit (statutory rate 30.6%). The company's full-year forecast is unchanged: sales 6.75 billion yen, operating profit 1.5 billion yen, net profit 950 million yen. On 2 November 2026 the company said the Netmile system had been accessed without authorisation and the personal data of up to 5.49 million members may have leaked; the Netmile service was suspended.",
+   "risks": [
+    "The margin of safety rests on a growth assumption and on a profit that tax makes look high: the formula gives real earnings-per-share growth of 18.7% a year; if growth slows, the margin shrinks. Earnings per share over the last 12 months were 56.17 yen, while the company's 2026 forecast is 47.00 yen; in 2026 Netmile's past losses lowered the tax charge, and that will not recur.",
+    "About three quarters of sales come from one service (Premium Yutai Club). If companies drop shareholder benefits or cut the budget, sales fall directly; the company itself lists cuts to investor relations budgets in a downturn as a risk.",
+    "The cost of the November 2026 Netmile data leak and its effect on client trust are not yet known; the company's own report says it has had a personal data leak before. The platform holds shareholders' personal data.",
+    "Sales are weighted to the second half (the first quarter is the weakest); if the timing of point use shifts, quarterly results move. Points paid for in advance (contract liabilities) stood at 1.21 billion yen in June 2026.",
+    "The founder and the chief financial officer together hold more than half of the shares; minority shareholders have limited say. The Netmile acquisition destroyed value."
+   ],
+   "watch": [
+    "Number of Premium Yutai Club client companies (June 2026: 112) and point sales per company",
+    "Gross margin (does it stay in the 46-49% range)",
+    "Net profit once the effective tax rate returns to a normal level (around 30%)",
+    "The cost of the Netmile data leak and the reopening of the service"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-14",
+   "per": "2026-Q3"
+  }
+ },
+ "growth_facts": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026 (konsolide olmayan; geçen yıl konsolide)",
+   "en": "January-September 2026 (non-consolidated; prior year consolidated)",
+   "pct": 48.6,
+   "cur_val": "45,13",
+   "prev_val": "30,37",
+   "unit": "yen (hisse başına kâr) / yen (EPS)",
+   "date": "2026-11-12",
+   "url": "https://finance.matsui.co.jp/stock/4482/settlement/index",
+   "primary": false
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği (konsolide olmayan; geçen yıl konsolide)",
+   "en": "July-September 2026 quarter (non-consolidated; prior year consolidated)",
+   "pct": 55.2,
+   "cur_val": "20,24",
+   "prev_val": "13,04",
+   "unit": "yen (hisse başına kâr) / yen (EPS)",
+   "date": "2026-11-12",
+   "url": "https://finance.matsui.co.jp/stock/4482/settlement/index",
+   "primary": false
+  },
+  "guidance": {
+   "tr": "2026 yılı için şirket tahmini (konsolide olmayan)",
+   "en": "company forecast for 2026 (non-consolidated)",
+   "pct": 13.5,
+   "detail_tr": "hisse başına kâr 47,00 yen; 2025'te konsolide 41,41 yen (konsolide olmayan 43,55 yen; ona göre +%7,9). Net kâr 950 milyon yen; 2025'te konsolide 839 milyon yen. Tahmin 16 Şubat 2026'da verildi, 13 Ağustos 2026'da değişmedi",
+   "detail_en": "EPS 47.00 yen; 41.41 consolidated in 2025 (43.55 non-consolidated; +7.9% against that). Net profit 950 million yen; 839 million consolidated in 2025. The forecast was given on 16 February 2026 and left unchanged on 13 August 2026",
+   "date": "2026-08-13",
+   "url": "https://www2.jpx.co.jp/disc/44820/081220260813519343_tse-snedjpsy-44820-20260813344820-ixbrl.htm",
+   "primary": true
+  },
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": "Şirket 2026'da konsolide olmayan tabloya geçti ve yıllık değişim açıklamıyor; karşılaştırmalar 2025'in konsolide rakamlarıyla yapıldı. 2026 net kârını düşük vergi yükseltiyor: ilk altı ayda 523 milyon yen vergi öncesi kâra 19 milyon yen vergi yazıldı. Olağan kâr (vergi öncesi, olağan dışı kalemler hariç) Ocak-Eylül'de 941 milyon yenden 1.160 milyon yene çıktı (+%23,3).",
+  "note_en": "The company moved to non-consolidated statements in 2026 and gives no year-on-year change; comparisons use the consolidated 2025 figures. A low tax charge lifts 2026 net profit: 19 million yen of tax on 523 million yen of pre-tax profit in the first six months. Ordinary profit (pre-tax, before extraordinary items) rose from 941 million yen to 1,160 million yen in January-September (+23.3%).",
+  "notes": "NOT VERIFIED AGAINST THE Q3 TANSHIN: the 12 Nov 2026 tanshin (TDnet 140120261112576013; copies at release.tdnet.info, f.irbank.net and www2.jpx.co.jp) could not be opened (permission not answered). Nine-month and Q3 figures are from Matsui Securities: 9M 2026 EPS 45.13, net 912m, ordinary 1,160m; 9M 2025 (consolidated) EPS 30.37, net 615m, ordinary 941m; Q3 alone EPS 20.24 vs 13.04, net 409m vs 264m, ordinary 484m vs 417m. Percentages are my division. The current year is non-consolidated (subsidiary Netmile absorbed 17 Jan 2026, so the entity now covers the former group), the prior year consolidated; the company itself shows no comparison. Primary and read: H1 2026 EPS 24.91, net 503m (tanshin 13 Aug 2026 and semi-annual report); FY2025 consolidated EPS 41.41, non-consolidated 43.55 (net 882m). Guidance pct uses consolidated 41.41 as the same-scope base (+13.5%); on the non-consolidated base 43.55 it is +7.9% - the main session should decide which base to use; with +7.9% the judgment would cut the formula rate, with +13.5% it would not. Whether the forecast was revised on 12 Nov 2026 could not be read from the tanshin; no revision notice appears in the 12 Nov disclosure list (Kabutore, IRBANK) and Traders/IRBANK still show forecast EPS 46.99/46.98 on 13 Nov. Nine-month net profit (912m) is already 96% of the full-year forecast (950m), so the forecast looks stale. No departed business: the advertising business (former Netmile) continues, about 3% of sales. Source has a dividend yield (2.43%), so dividend left empty."
+ },
+ "earn_facts": {
+  "unit": "million JPY",
+  "eps_cur": "JPY",
+  "ttm": {
+   "eps": 56.17,
+   "net_profit": 1136,
+   "tr": "Ekim 2025 - Eylül 2026 (2025 yılı konsolide + Ocak-Eylül 2026 konsolide olmayan − Ocak-Eylül 2025 konsolide)",
+   "en": "October 2025 - September 2026 (fiscal 2025 consolidated + January-September 2026 non-consolidated − January-September 2025 consolidated)",
+   "url": "https://finance.matsui.co.jp/stock/4482/settlement/index",
+   "primary": false
+  },
+  "tax_rate": 30.6,
+  "gains": [
+   {
+    "tr": "Olağanın altında vergi: Ocak-Haziran 2026'da 523 milyon yen vergi öncesi kâra 19 milyon yen vergi yazıldı (cari vergi 80, ertelenmiş vergi geliri 60 milyon yen). Yasal oranla (%30,6) vergi 160 milyon yen olurdu; fark 141 milyon yen. Bünyeye katılan Netmile'ın geçmiş zararlarından geliyor; yinelenmez",
+    "en": "Tax below the normal rate: in January-June 2026 19 million yen of tax was charged on 523 million yen of pre-tax profit (current tax 80, deferred tax gain 60 million yen). At the statutory rate (30.6%) tax would have been 160 million yen; the difference is 141 million yen. It comes from the past losses of the absorbed Netmile and will not recur",
+    "frac": 0.1241,
+    "how": "(523 x 0.306 - 19) / 1136 = 141 / 1136; after tax by nature; my arithmetic from the income statement in the semi-annual report and the statutory rate in the annual report. Only the 60m deferred tax gain is a figure the company states as such (60 / 1136 = 0.0528)",
+    "period_tr": "Ocak-Haziran 2026",
+    "period_en": "January-June 2026",
+    "url": "https://global-assets.irdirect.jp/pdf/securities_report/batch/S100YW9U.pdf",
+    "primary": true
+   }
+  ],
+  "offsets": [
+   {
+    "tr": "Kullanılmayacak yazılım için değer düşüklüğü: 152 milyon yen (vergi öncesi, olağan dışı zarar)",
+    "en": "Impairment of software that will not be used: 152 million yen (pre-tax, extraordinary loss)",
+    "frac": 0.0929,
+    "how": "152 x (1 - 0.306) / 1136; pre-tax amount from the company, converted at the 30.6% statutory rate",
+    "period_tr": "Nisan-Haziran 2026 çeyreği",
+    "period_en": "April-June 2026 quarter",
+    "url": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YW9N.pdf",
+    "primary": true
+   }
+  ],
+  "drop": null,
+  "guidance": [
+   {
+    "fy_tr": "2026 mali yılı (Ocak-Aralık)",
+    "fy_en": "fiscal year 2026 (January-December)",
+    "mid": 47.0,
+    "low": 47.0,
+    "high": 47.0,
+    "kind": "reported",
+    "url": "https://www2.jpx.co.jp/disc/44820/081220260813519343_tse-snedjpsy-44820-20260813344820-ixbrl.htm",
+    "date": "2026-08-13",
+    "primary": true
+   }
+  ],
+  "notes": "TTM is NOT fully primary: FY2025 consolidated EPS 41.41 / net 839m (tanshin 16 Feb 2026, read) + 9M 2026 non-consolidated 45.13 / 912m - 9M 2025 consolidated 30.37 / 615m (both from Matsui Securities; the Q3 tanshin of 12 Nov 2026, TDnet 140120261112576013, could not be opened). 41.41 + 45.13 - 30.37 = 56.17; 839 + 912 - 615 = 1,136. Mixed bases, but the 2026 entity covers the former group after the Netmile merger. Source-implied EPS: 742 / 13.46 = 55.13, slightly below the document figure, so the source is not higher. Guidance: non-consolidated forecast of 16 Feb 2026 (net 950m, EPS 47.00), unchanged in the H1 tanshin of 13 Aug 2026 (read); not confirmed in the Q3 tanshin, but no revision notice was filed on 12 Nov and data sites still show EPS 46.99 on 13 Nov. It is below the TTM (47.00 / 56.17 = 0.837). Nine-month net profit is already 912m of the 950m forecast, so the forecast looks stale. One-offs read in primary documents: Q1 2026 merger items net to zero (reversal of allowance for doubtful accounts +293m, loss on extinguishment of tie-in shares -293m; notice of 14 May 2026); Q2 2026 impairment 152m (extraordinary report S100YW9N); H1 income taxes 19m in total on pre-tax 523m (semi-annual report S100YW9U). The annual report shows tax-loss carryforwards of 237m (tax effect) fully reserved at end-2025, and Netmile's FY2025 net assets of -453m. The company's own notice of 13 Aug 2026 on the deferred tax gain (TDnet 20260813519328) could not be opened, so the gain amount is my arithmetic, not a company figure. Q3 alone: net 409m on ordinary profit 484m (Matsui) implies about 15.5% tax if there were no extraordinary items; at 30.6% net would be about 336m - a further benefit of roughly 73m NOT included in gains because the Q3 statement was not read. FY2025 Q4 (inside the TTM): consolidated extraordinary losses 32m for the year (disposal 19m, impairment 13m), small. Share-based pay 7.5m, not excluded by any adjusted measure (the company gives none)."
+ },
+ "verify": {
+  "net_profit": "Son dönem Ocak-Eylül 2026 (konsolide olmayan): net kâr 912 milyon yen, hisse başına 45,13 yen; çeyrek (Temmuz-Eylül) 409 milyon yen. Açıklama tarihi 12 Kasım 2026 (bildirim listesi: Kabutore, IRBANK). DİKKAT: bu rakamlar Matsui Securities'ten; 12 Kasım tarihli kessan tanshin'in kendisi AÇILAMADI. Birincil belgeden okunan son rakam: Ocak-Haziran 2026 net kâr 503 milyon yen, hisse başına 24,91 yen (tanshin ve yarı yıl raporu, 13 Ağustos 2026). 2025 yılı: konsolide 839 milyon yen (41,41 yen), konsolide olmayan 882 milyon yen (43,55 yen); açıklama 16 Şubat 2026.",
+  "equity": "30 Haziran 2026 (birincil): özsermaye (jiko shihon) 3.126 milyon yen, net varlıklar 3.147 milyon yen, toplam varlık 5.411 milyon yen, özsermaye oranı %57,8; pay 21.054.400, hazine payı 832.172. 30 Eylül 2026 belgeden okunamadı; IRBANK hisse başına defter değeri 165,81 yen ve özsermaye oranı %56,98 gösteriyor (benim çarpımım: yaklaşık 3.353 milyon yen). 742 / 165,81 = 4,48; evrendeki PD/DD 4,446 ile tutuyor. 31 Aralık 2025: konsolide net varlık 2.595 milyon yen (hisse başına 127,50), konsolide olmayan 2.771 milyon yen.",
+  "one_offs": "VAR. (1) Vergi: Ocak-Haziran 2026'da 523 milyon yen vergi öncesi kâra yalnız 19 milyon yen vergi (cari 80, ertelenmiş vergi geliri 60); yasal oranla (%30,6) fark yaklaşık 141 milyon yen. Kaynağı bünyeye katılan Netmile'ın geçmiş zararları (2025 sonunda 237 milyon yen vergi etkili, tamamına karşılık ayrılmış zarar). Üçüncü çeyrekte de vergi düşük görünüyor (olağan kâr 484, net 409; Matsui), ama çeyrek tablosu okunamadı. (2) Ters yönde: 152 milyon yen yazılım değer düşüklüğü (2. çeyrek). (3) Netmile birleşmesi: +293 karşılık iptali ve −293 birleşme zararı, net sıfır (1. çeyrek). Dokuz ayda olağan kâr 1.160, net kâr 912 milyon yen: net/olağan %78,6; 2025'te %64,5 idi. Şirketin yıl tahmini (47,00 yen) son 12 ayın (56,17 yen) altında; kazanç yargısı çarpanı yaklaşık 0,84 çıkar. Ayrıca 12 aylık rakam konsolide ve konsolide olmayan dönemleri karıştırıyor.",
+  "moat_numbers": "B = 2 dayanakları: Premium Yutai Club müşteri sayısı 110 (2025 sonu, menkul kıymet raporu) ve 112 (Haziran 2026, yarı yıl raporu); hizmet satışı 2025'te 4.437,9 milyon yen, toplam 6.051,8 milyon yenin %73,3'ü (menkul kıymet raporu); brüt kâr marjı 2023 %46,59, 2024 %48,61, 2025 %46,88 (Yahoo Finance Japan performans sayfası, birincil değil; 2026 ilk yarı 1.373 / 3.060 = %44,9 yarı yıl raporundan); faaliyet kâr marjı 2025 1.302 / 6.052 = %21,5 (tanshin); %10'u aşan müşteri yok (menkul kıymet raporu); hissedar hediyesi veren şirket sayısı 1.688 (yarı yıl raporu); IR-navi 375 → 367 müşteri.",
+  "doc_urls": [
+   "https://www2.jpx.co.jp/disc/44820/081220260216563127_tse-acedjpsm-44820-20260216344820-ixbrl.htm",
+   "https://www2.jpx.co.jp/disc/44820/081220260813519343_tse-snedjpsy-44820-20260813344820-ixbrl.htm",
+   "https://global-assets.irdirect.jp/pdf/securities_report/batch/S100YW9U.pdf",
+   "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100XUGF.pdf",
+   "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YW9N.pdf",
+   "https://www2.jpx.co.jp/disc/44820/140120260514534416.pdf"
+  ],
+  "not_opened": [
+   "https://www.release.tdnet.info/inbs/140120261112576013.pdf (3. çeyrek kessan tanshin, 12 Kasım 2026)",
+   "https://f.irbank.net/pdf/20261112/140120261112576013.pdf (aynı belge)",
+   "https://www2.jpx.co.jp/disc/44820/140120261112576013.pdf (aynı belge, adres tahmini)",
+   "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20260813/20260813519328.pdf (ertelenmiş vergi geliri bildirimi, 13 Ağustos 2026)",
+   "https://f.irbank.net/pr/20261102/140120261102562660.pdf (Netmile veri sızıntısı bildirimi, 2 Kasım 2026)",
+   "https://kabutan.jp/news/?b=k202611120113 (Kabutan 3. çeyrek haberi)"
+  ]
+ },
+ "summary": "Puanlar A2 B2 C1 D1 E1: 3. suru geçiyor (dar hendek). Öne çıkan bulgu: 2026 net kârını vergi yükseltiyor (ilk altı ayda 523 milyon yen vergi öncesi kâra 19 milyon yen vergi; bünyeye katılan Netmile'ın geçmiş zararları) ve şirketin yıl tahmini (hisse başına 47,00 yen) son 12 ayın (56,17 yen) altında; kazanç yargısı çarpanı yaklaşık 0,84 çıkar, bu marjı eşiğin altına çekebilir. 12 Kasım 2026 tarihli 3. çeyrek kessan tanshin'i AÇILAMADI (izin isteği yanıtlanmadı): dokuz aylık rakamlar (net kâr 912 milyon yen) Matsui Securities'ten, birincil değil; Eylül sonu özsermayesi de belgeden okunamadı. Kural gereği şirket bu çalıştırmada 'sırada' bırakılmalı ya da ana oturum tanshin'i kendisi açmalı. Büyüme yargısında tahmin karşılaştırmasının tabanı ana oturumun kararına bağlı: konsolide 41,41 yene göre +%13,5 (yazılan), konsolide olmayan 43,55 yene göre +%7,9. 2 Kasım 2026'da Netmile veri sızıntısı (en çok 5,49 milyon üye) duyuruldu; maliyeti bilinmiyor."
+}

@@ -436,18 +436,18 @@
   "growth": {
    "g": 0.0,
    "basis": {
-    "tr": "Formül yılda %9,4 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %−1,5. Çelebi enflasyon muhasebesi uygulamıyor: şirketin işlevsel para birimi avro, tabloları TL'ye çevrilerek sunuluyor ve geçen yılın rakamları yeniden değerlenmiyor (yalnız Çelebi Kargo uyguluyor). Bu yüzden hem geçmiş kâr dizisi hem buradaki değişimler nominaldir ve tüketici enflasyonuyla düzeltildi. Hindistan'daki iş 15 Mayıs 2025'te bir hükümet kararıyla durdu; 2024'te grup hasılatının yaklaşık üçte biriydi ve geçmiş büyümenin içinde. Kalan işin büyümesi sürdürülen faaliyetlerin kârından: 2026'nın ilk dokuz ayında 2,84 milyar TL, bir yıl önce 2,74 milyar TL (ikisi de kendi döneminin parasıyla): yılda %3,4, enflasyondan arındırılınca %0,0. Geçmiş büyüme yerine bu hız kullanıldı: %0,0.",
-    "en": "The formula gave growth of 9.4% a year. Latest figures (net profit, year on year): January-September 2026 −1.5%. Çelebi does not apply inflation accounting: its functional currency is the euro, its statements are presented translated into lira, and last year's figures are not restated (only Çelebi Kargo applies it). So both the past profit series and the changes here are nominal and were adjusted for consumer inflation. The business in India was stopped by a government decision on 15 May 2025; it was about a third of group revenue in 2024 and is part of past growth. Growth of the remaining business, from profit on continuing operations: 2.84 billion TRY in the first nine months of 2026, against 2.74 billion a year earlier (each in the money of its own period): 3.4% a year, 0.0% after inflation. This rate was used instead of past growth: 0.0%."
+    "tr": "Formül yılda %9,2 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %−1,5. Çelebi enflasyon muhasebesi uygulamıyor: şirketin işlevsel para birimi avro, tabloları TL'ye çevrilerek sunuluyor ve geçen yılın rakamları yeniden değerlenmiyor (yalnız Çelebi Kargo uyguluyor). Bu yüzden hem geçmiş kâr dizisi hem buradaki değişimler nominaldir ve tüketici enflasyonuyla düzeltildi. Hindistan'daki iş 15 Mayıs 2025'te bir hükümet kararıyla durdu; 2024'te grup hasılatının yaklaşık üçte biriydi ve geçmiş büyümenin içinde. Kalan işin büyümesi sürdürülen faaliyetlerin kârından: 2026'nın ilk dokuz ayında 2,84 milyar TL, bir yıl önce 2,74 milyar TL (ikisi de kendi döneminin parasıyla): yılda %3,4, enflasyondan arındırılınca %0,0. Geçmiş büyüme yerine bu hız kullanıldı: %0,0.",
+    "en": "The formula gave growth of 9.2% a year. Latest figures (net profit, year on year): January-September 2026 −1.5%. Çelebi does not apply inflation accounting: its functional currency is the euro, its statements are presented translated into lira, and last year's figures are not restated (only Çelebi Kargo applies it). So both the past profit series and the changes here are nominal and were adjusted for consumer inflation. The business in India was stopped by a government decision on 15 May 2025; it was about a third of group revenue in 2024 and is part of past growth. Growth of the remaining business, from profit on continuing operations: 2.84 billion TRY in the first nine months of 2026, against 2.74 billion a year earlier (each in the money of its own period): 3.4% a year, 0.0% after inflation. This rate was used instead of past growth: 0.0%."
    },
    "per": "9/2026"
   },
   "earn": {
-   "k": 0.8,
+   "k": 0.799,
    "basis": {
-    "tr": "Hesap son 12 ayın kârına dayanır. Kaynağın F/K'sı son 12 ay için 4,5 milyar TL kâr ima ediyor; şirketin kendi tablolarından toplanan son 12 ay kârı 3,6 milyar TL. Farkın nedeni bulunamadı; şirketin belgesi esas alındı ve kazanç bu orana indirildi (%20,0). Son 12 ayın kârı 0,80 ile çarpılarak kullanıldı.",
-    "en": "The calculation rests on the profit of the last 12 months. The data source's P/E implies a last-12-month profit of 4.5 billion TRY; the last-12-month profit added up from the company's own statements is 3.6 billion TRY. The reason for the gap was not found; the company's document was taken as the basis and earnings were lowered to that ratio (20.0%). Last-12-month profit was used multiplied by 0.80."
+    "tr": "Hesap son 12 ayın kârına dayanır. Kaynağın F/K'sı son 12 ay için 4,5 milyar TL kâr ima ediyor; şirketin kendi tablolarından toplanan son 12 ay kârı 3,6 milyar TL. Farkın nedeni bulunamadı; şirketin belgesi esas alındı ve kazanç bu orana indirildi (%20,1). Son 12 ayın kârı 0,80 ile çarpılarak kullanıldı.",
+    "en": "The calculation rests on the profit of the last 12 months. The data source's P/E implies a last-12-month profit of 4.5 billion TRY; the last-12-month profit added up from the company's own statements is 3.6 billion TRY. The reason for the gap was not found; the company's document was taken as the basis and earnings were lowered to that ratio (20.1%). Last-12-month profit was used multiplied by 0.80."
    },
-   "ks": 0.8,
+   "ks": 0.799,
    "per": "9/2026"
   },
   "chk": {
@@ -1202,6 +1202,260 @@
     "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are. 25% of pre-tax profit for January-September 2026 (3.0 billion TRY) is a net monetary position gain. This item comes from inflation accounting: inflation erodes the company's liabilities, while in the same statement inventories, depreciation and other costs are restated upwards and reduce operating profit. The two are two sides of one adjustment, so the item was not treated as a one-off and was not deducted. Its size depends on inflation and on the currency of the debt, and changes from year to year. The share distributed was read from the company's own statements (the three years 2023-2025): 73% of parent profit was paid to shareholders in dividends and buybacks, and 27% stayed in the company."
    },
    "b": 0.266,
+   "per": "9/2026"
+  }
+ },
+ "EGPRO": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 1,
+   "E": 2
+  },
+  "moat": "dar",
+  "per": "9/2026",
+  "one": "Türkiye'nin önde gelen PVC pencere profili üreticisi; markaları ve bayi ağı güçlü. Üç suru geçiyor, fiyatı kale olmaya yetmiyor; kapıda bekliyor.",
+  "business": "Ege Profil, PVC pencere ve kapı profili üretir ve bunları Egepen Deceuninck, Winsa ve Pimapen markalarıyla bayilerine satar; bayiler profili pencereye çevirir. Belçikalı Deceuninck grubunun Türkiye şirketidir. İki fabrikası var: İzmir Menemen ve Kocaeli Kartepe. 2026'nın ilk dokuz ayında hasılat 12,0 milyar TL, net kâr 1,76 milyar TL oldu. İlk yarıda satışların %14,9'u yurt dışına yapıldı (1,14 milyar TL). 30 Haziran 2026'da 1.275 kişi çalıştırıyordu.",
+  "moat_text": "Hendek dar: üç bilinen marka, yaygın bayi ağı ve ölçek. Dokuz aylık faaliyet raporuna göre Winsa'nın 196, Egepen'in 188, Pimapen'in 259 üretici bayisi var. Genel müdür, resmî veri olmadığını belirterek toplam pazardaki payı yaklaşık %25, üst segmentteki payı %50'nin üstünde tahmin ediyor; şirket 2024 faaliyet raporunda kendini ilk üç firma arasında sayıyor. Fiyatlama gücü brüt marjda görünüyor: 2023'te %37,9, 2024'te %33,7, 2025'te %36,1, 2026'nın ilk dokuz ayında %39,7 (bir yıl önce %34,6). Zayıf yanı: ham madde (PVC reçinesi) bir emtia ve büyük bölümü ithal, talep konut ve yenileme döngüsüne bağlı, marj yıldan yıla oynuyor. Reel özsermaye kârlılığı da buna göre dalgalı: 2021'de %31,9, 2022'de %10,4, 2023'te %13,8, 2024'te %15,7, 2025'te %13,2, son 12 ayda %20,1. Bu yüzden geniş değil.",
+  "mgmt": "Deceuninck NV şirketin %86,86'sına sahip; halka açıklık %13,14. Kârın neredeyse tamamı ortağa dağıtılıyor: 2024 ve 2025'te ödenen temettü, iki yılın kârının %99,9'u kadar. 2025 kârından brüt 700 milyon TL (hisse başına 1,2844 TL) dağıtıldı; iki taksit 14 Mayıs ve 16 Temmuz 2026'da ödendi. 9 Kasım 2026'da bir yıl süreli, en çok 8 milyon pay ve 280 milyon TL'lik geri alım programı başladı; fiyat sınırı açıklanmadı, alım henüz yok. Puanı düşüren, ana ortakla işlemler: 2026'nın ilk yarısında Deceuninck NV'ye 241,6 milyon TL gider yazıldı (124,2 milyon yönetim hizmeti, 106,7 milyon bilgi sistemleri hizmeti, 10,7 milyon isim hakkı). Bu, yarıyıl satışlarının %3,2'si ve esas faaliyet kârının %16,8'i. Grup şirketlerinden ticari alacak 30 Eylül 2026'da 590,7 milyon TL; 30 Haziran'da en büyüğü Deceuninck Kolombiya'ydı (364,4 milyon TL). Ana ortağa verilmiş borç yok. Hisse bazlı ücret: bakıldı, 30 Haziran 2026 dipnotlarında yok. Şerefiye yok. Son üç yılda ana iş dışı satın alma görülmedi. Yeniden yapılanma gideri: bakıldı, belgede yok.",
+  "latest": "9 Kasım 2026: Dokuz aylık hasılat 12,03 milyar TL ile reel olarak %6,4 arttı. Brüt kâr 4,77 milyar TL (marj %39,7; bir yıl önce %34,6), esas faaliyet kârı 2,51 milyar TL (+%80). Net kâr 1,76 milyar TL; bir yıl önce, aynı parayla, 0,98 milyar TL idi (+%80). Vergi öncesi kâr daha yavaş arttı (2,14 milyar TL, +%51): fark, 382,6 milyon TL'lik ertelenmiş vergi gelirinden geliyor (bir yıl önce 4,3 milyon TL gider). Net parasal pozisyon kaybı 575,1 milyon TL (bir yıl önce 91,0 milyon). Özsermaye 12,07 milyar TL. Nakit 1,34 milyar TL; banka kredileri ve kira borçları düşüldükten sonra net nakit yaklaşık 0,40 milyar TL. Aynı gün 280 milyon TL'lik pay geri alım programı açıklandı.",
+  "risks": [
+   "Net kârdaki %80 artışın bir bölümü vergiden geliyor: dokuz ayda 382,6 milyon TL ertelenmiş vergi geliri yazıldı. Vergi öncesi kâr %51 arttı. Ertelenmiş vergi geliri yinelenmezse kâr ve özsermaye kârlılığı geriler.",
+   "Talep konut yapımına ve yenilemeye bağlı; faiz yüksek kaldıkça satış adedi baskı altında kalır. Beş yıl tam bir döngüyü göstermez: reel özsermaye kârlılığı 2022'de %10,4'e inmişti, son 12 ayda %20,1. Bugün döngünün iyi tarafındayız.",
+   "Ham madde PVC reçinesi bir emtiadır ve büyük bölümü ithaldir: 2026'nın ilk yarısında ithalat 1,97 milyar TL, ihracat 0,68 milyar TL; net yabancı para açığı 594 milyon TL ve korunmuyor. Kur ya da reçine fiyatı sıçrarsa marj daralır.",
+   "Satış vadeli yapılıyor: ilişkili olmayan taraflardan ticari alacak 4,88 milyar TL, yani dokuz aylık satışların %41'i. Denetçi, bu alacakların tahsil edilebilirliğini 2025'te kilit denetim konusu saydı. Bayilerde ödeme güçlüğü doğrudan kâra yansır.",
+   "Ana ortak %86,86 ile tek başına karar verir. Ona ödenen hizmet ve isim hakkı bedelleri artarsa ya da grup şirketlerinden alacaklar büyürse küçük ortağın payı azalır. Kârın tamamı dağıtıldığı için büyüme şirketin içinden finanse edilmiyor; hesap büyümeyi sıfır alıyor."
+  ],
+  "watch": [
+   "Brüt kâr marjı (dokuz ayda %39,7; 2024'te %33,7)",
+   "Ertelenmiş vergi geliri hariç kâr: vergi öncesi kârın seyri",
+   "Deceuninck NV'ye ödenen hizmet ve isim hakkı bedellerinin satışlara oranı (ilk yarıda %3,2)",
+   "İlişkili olmayan ticari alacakların satışlara oranı ve şüpheli alacak karşılığı"
+  ],
+  "sources": [
+   {
+    "t": "Deceuninck yatırımcı sayfası: Ege Profil SPK finansalları, 30 Eylül 2026 (bilanço ve gelir tablosu)",
+    "te": "Deceuninck investor page: Ege Profil SPK financials, 30 September 2026 (balance sheet and income statement)",
+    "u": "https://www.deceuninck.com/content/dam/deceuninck/corporate/documenten/ege-profil---financial-results/Ege%20Profil%20-%20SPK%20Financials%20-%202026.09.pdf"
+   },
+   {
+    "t": "KAP: Ege Profil 1 Ocak-30 Haziran 2026 özet konsolide finansal tablolar ve dipnotlar, PwC sınırlı denetim raporu (19 Ağu 2026)",
+    "te": "KAP: Ege Profil condensed consolidated financial statements and notes for 1 January-30 June 2026, PwC limited review report (19 Aug 2026)",
+    "u": "https://kap.org.tr/tr/api/file/download/4028328c9f52dc4001a01b1668d218a6"
+   },
+   {
+    "t": "KAP: Ege Profil finansal rapor, 30 Haziran 2026 (19 Ağu 2026)",
+    "te": "KAP: Ege Profil financial report, 30 June 2026 (19 Aug 2026)",
+    "u": "https://kap.org.tr/en/api/BildirimPdf/1653151"
+   },
+   {
+    "t": "KAP: Ege Profil finansal rapor, 31 Aralık 2025 (24 Şub 2026)",
+    "te": "KAP: Ege Profil financial report, 31 December 2025 (24 Feb 2026)",
+    "u": "https://kap.org.tr/tr/api/BildirimPdf/1561128"
+   },
+   {
+    "t": "KAP: Ege Profil 2025 yılı olağan genel kurul bilgilendirme dokümanı (ortaklık yapısı, kâr dağıtım önerisi; genel kurul 6 May 2026)",
+    "te": "KAP: Ege Profil information document for the 2025 ordinary general meeting (shareholders, dividend proposal; meeting of 6 May 2026)",
+    "u": "https://kap.org.tr/en/api/file/download/4028328d9d7b24c9019e19c210497513"
+   },
+   {
+    "t": "KAP: MKK nakit temettü ödemesi bildirimi, EGPRO (20 Tem 2026)",
+    "te": "KAP: MKK cash dividend payment notice, EGPRO (20 Jul 2026)",
+    "u": "https://kap.org.tr/tr/api/BildirimPdf/1634995"
+   },
+   {
+    "t": "Borsatek: Ege Profil, 9 aylık dönemde 1,76 milyar TL net kâr açıkladı (KAP bildirimi 1695963; 9 Kas 2026)",
+    "te": "Borsatek: Ege Profil reports 1.76 billion TL net profit for nine months (KAP notice 1695963; 9 Nov 2026)",
+    "u": "https://www.borsatek.com/egpro-9-aylik-1-76-milyar-tl-kar/"
+   },
+   {
+    "t": "Borsatek: Ege Profil 2026 yılı 9 aylık faaliyet raporunu yayımladı (KAP bildirimi 1695972; 9 Kas 2026)",
+    "te": "Borsatek: Ege Profil publishes its nine-month 2026 activity report (KAP notice 1695972; 9 Nov 2026)",
+    "u": "https://www.borsatek.com/egpro-2026-9-aylik-faaliyet-raporu/"
+   },
+   {
+    "t": "Borsatek: Ege Profil 1 yıl süreli 8 milyon pay geri alım programı başlattı (KAP bildirimi 1695990; 9 Kas 2026)",
+    "te": "Borsatek: Ege Profil starts a one-year buyback programme for 8 million shares (KAP notice 1695990; 9 Nov 2026)",
+    "u": "https://www.borsatek.com/egpro-pay-geri-alim-programi/"
+   },
+   {
+    "t": "Ekonomim: Ege Profil, 45. yaş yatırımının penceresini Sidney'de açacak (genel müdür Alp Günvaran ile söyleşi; tarih sayfada yok)",
+    "te": "Ekonomim: Ege Profil to open the window of its 45th-year investment in Sydney (interview with CEO Alp Günvaran; no date on the page)",
+    "u": "https://www.ekonomim.com/kose-yazisi/ege-profil-45-yas-yatiriminin-penceresini-sidneyde-acacak/864279"
+   },
+   {
+    "t": "KAP: Ege Profil genel bilgiler (sermaye, fiili dolaşımdaki pay oranı)",
+    "te": "KAP: Ege Profil general information (capital, free float)",
+    "u": "https://kap.org.tr/en/sirket-bilgileri/genel/932-ege-profil-ticaret-ve-sanayi-a-s"
+   },
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/ist/EGPRO/financials/ratios/"
+   }
+  ],
+  "en": {
+   "one": "A leading Turkish PVC window profile maker with strong brands and dealers. Passes three walls; the price is too high, so it waits outside.",
+   "business": "Ege Profil makes PVC window and door profiles and sells them to its dealers under the Egepen Deceuninck, Winsa and Pimapen brands; the dealers turn the profile into windows. It is the Turkish company of the Belgian Deceuninck group. It has two plants: Menemen in İzmir and Kartepe in Kocaeli. In the first nine months of 2026 revenue was 12.0 billion TL and net profit 1.76 billion TL. In the first half, 14.9% of sales went abroad (1.14 billion TL). It employed 1,275 people on 30 June 2026.",
+   "moat_text": "The moat is narrow: three known brands, a wide dealer network and scale. According to the nine-month activity report, Winsa has 196 fabricator dealers, Egepen 188 and Pimapen 259. The CEO, noting that there is no official data, estimates the share of the total market at about 25% and of the premium segment at above 50%; in its 2024 annual report the company places itself among the top three. Pricing power shows in the gross margin: 37.9% in 2023, 33.7% in 2024, 36.1% in 2025 and 39.7% in the first nine months of 2026 (34.6% a year earlier). The weak side: the raw material (PVC resin) is a commodity and mostly imported, demand depends on the housing and renovation cycle, and the margin moves from year to year. Real return on equity swings with it: 31.9% in 2021, 10.4% in 2022, 13.8% in 2023, 15.7% in 2024, 13.2% in 2025 and 20.1% in the last 12 months. That is why it is not wide.",
+   "mgmt": "Deceuninck NV owns 86.86% of the company; the free float is 13.14%. Almost all of the profit goes to the owners: dividends paid in 2024 and 2025 equal 99.9% of the two years' profit. From 2025 profit a gross 700 million TL (1.2844 TL per share) was distributed; the two instalments were paid on 14 May and 16 July 2026. On 9 November 2026 a one-year buyback programme of up to 8 million shares and 280 million TL began; no price limit was disclosed and nothing has been bought yet. What lowers the score is dealings with the parent: in the first half of 2026, 241.6 million TL was expensed to Deceuninck NV (124.2 million for management services, 106.7 million for IT services, 10.7 million for name rights). That is 3.2% of half-year sales and 16.8% of operating profit. Trade receivables from group companies were 590.7 million TL on 30 September 2026; on 30 June the largest was Deceuninck Colombia (364.4 million TL). There is no loan to the parent. Share-based pay: checked, none in the notes of 30 June 2026. There is no goodwill. No acquisition outside the core business was seen in the last three years. Restructuring charges: checked, not in the documents.",
+   "latest": "9 November 2026: Nine-month revenue was 12.03 billion TL, up 6.4% in real terms. Gross profit was 4.77 billion TL (margin 39.7%; 34.6% a year earlier) and operating profit 2.51 billion TL (+80%). Net profit was 1.76 billion TL; a year earlier, in the same money, it was 0.98 billion TL (+80%). Profit before tax grew more slowly (2.14 billion TL, +51%): the gap comes from deferred tax income of 382.6 million TL (an expense of 4.3 million TL a year earlier). The loss on net monetary position was 575.1 million TL (91.0 million a year earlier). Equity is 12.07 billion TL. Cash is 1.34 billion TL; after bank loans and lease liabilities, net cash is about 0.40 billion TL. A 280 million TL share buyback programme was announced the same day.",
+   "risks": [
+    "Part of the 80% rise in net profit comes from tax: 382.6 million TL of deferred tax income was booked in nine months. Profit before tax rose 51%. If the deferred tax income does not recur, profit and return on equity fall back.",
+    "Demand depends on house building and renovation; while interest rates stay high, volumes stay under pressure. Five years do not show a full cycle: real return on equity fell to 10.4% in 2022 and is 20.1% in the last 12 months. Today is the good side of the cycle.",
+    "The raw material, PVC resin, is a commodity and mostly imported: in the first half of 2026 imports were 1.97 billion TL and exports 0.68 billion TL; the net foreign currency shortfall is 594 million TL and is not hedged. A jump in the exchange rate or in resin prices narrows the margin.",
+    "Sales are made on credit: trade receivables from unrelated parties are 4.88 billion TL, or 41% of nine-month sales. The auditor named the recoverability of these receivables a key audit matter in 2025. Payment trouble at dealers goes straight to profit.",
+    "The parent decides alone with 86.86%. If the service and name-rights fees paid to it rise, or receivables from group companies grow, the minority's share shrinks. Because all profit is paid out, growth is not financed from within; the calculation assumes zero growth."
+   ],
+   "watch": [
+    "Gross margin (39.7% in nine months; 33.7% in 2024)",
+    "Profit excluding deferred tax income: the course of profit before tax",
+    "Service and name-rights fees paid to Deceuninck NV as a share of sales (3.2% in the first half)",
+    "Unrelated trade receivables as a share of sales, and the provision for doubtful receivables"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-14",
+   "per": "9/2026"
+  },
+  "earn": {
+   "k": 1.0,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı. Ocak-Eylül 2026 kârı, 0,6 milyar TL net parasal pozisyon kaybından sonradır (vergi öncesi kârın %27 kadarı): şirketin elindeki nakit ve alacaklar enflasyonla eridi. Bu kayıp kârdan zaten düşülmüş durumda; kazanç yükseltilmedi. Dağıtılan pay şirketin kendi tablolarından okundu (2024 ve 2025 yılları (2023'ün nakit akış tablosu açılamadı)): ana ortaklık kârının %100 kadarı temettü ve geri alımla ortaklara ödendi, %0 kadarı şirkette kaldı.",
+    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are. Profit for January-September 2026 is after a net monetary position loss of 0.6 billion TRY (equal to 27% of pre-tax profit): inflation eroded the company's cash and receivables. That loss is already deducted from profit; earnings were not raised. The share distributed was read from the company's own statements (2024 and 2025 (the 2023 cash flow statement could not be opened)): 100% of parent profit was paid to shareholders in dividends and buybacks, and 0% stayed in the company."
+   },
+   "b": 0.001,
+   "per": "9/2026"
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %0,0 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %80,2. Rakamlar enflasyon muhasebesiyle hazırlandığı için zaten reeldir. Formül zaten sıfır büyüme varsayıyor; indirilecek bir şey yok.",
+    "en": "The formula gave growth of 0.0% a year. Latest figures (net profit, year on year): January-September 2026 80.2%. The figures are prepared under inflation accounting, so they are already real. The formula already assumes zero growth; there is nothing to lower."
+   },
+   "per": "9/2026"
+  }
+ },
+ "TBORG": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "9/2026",
+  "one": "Türkiye'nin iki bira üreticisinden biri. Üç suru geçiyor; kârlılığı beş yılda belirgin düştü ve fiyatı kale olmaya yetmiyor.",
+  "business": "Türk Tuborg, İzmir'deki tesisinde bira ve malt üretir ve Türkiye'de satar. Markaları Tuborg, Carlsberg, Frederik, 1664 Blanc, Troy ve Venüs; ayrıca Guinness gibi ithal biraları ve Campari, Aperol, Jim Beam gibi içkileri dağıtır. 2025'te net satışı 40,9 milyar TL oldu; bunun %97,6'sı yurt içinden geldi (ihracat 1,0 milyar TL). Ekim 2025'te rakı, votka ve cin üreten Antalya Alkollü İçecek'i 2,1 milyar TL'ye aldı. Ortalama 2.104 kişi çalıştırıyor (2026'nın ilk yarısı).",
+  "moat_text": "Hendek dar ama gerçek. Rekabet Kurulu 18 Eylül 2025 tarihli kararında bira pazarını iki oyunculu (duopol) diye tanımlıyor ve Tuborg ile Efes'in pazar paylarının ve bulunurluk oranlarının birbirine yakın olduğunu yazıyor; pay rakamları kararda gizlenmiş, şirketin faaliyet raporunda da yok. Alkol reklamı Türkiye'de yasak; bu, yeni bir markanın tanınmasını zorlaştırır (şirketin okunan belgelerinde bu konu geçmiyor). Fiyatlama gücünün kanıtı brüt marj: 2024'te %52,1, 2025'te %55,3, 2026'nın ilk dokuz ayında %55,7; yılda iki kez artan ÖTV'ye rağmen korunmuş. Zayıf yanları: reel özsermaye kârlılığı 2021'de %50,6 iken 2023'te %12,4'e, 2025'te %14,5'e ve son 12 ayda %13,5'e indi; esas faaliyet kârı 2025'te reel %8 geriledi. Ana markaların (Tuborg, Carlsberg) lisans koşullarına bakıldı, belgelerde yok. Bu yüzden sınıf geniş değil, dar; kazanç puanı da 1: talep istikrarlı, ama kâr vergiye ve finansman kalemlerine duyarlı.",
+  "mgmt": "Payların %94,99'u International Food and Beverage B.V.'de; halka açıklık yalnız %5,01. Rekabet Kurulu kararına göre şirketi nihai olarak International Beer Breweries Ltd. kontrol ediyor. Kâr temettüye ve ana işe gidiyor: 2025 kârından 3,07 milyar TL brüt temettü 2 Eylül 2026'dan itibaren ödendi (dağıtılabilir kârın tamamına yakını; yasal yedek 0,31 milyar TL). 2025'te 4,4 milyar TL maddi yatırım yapıldı. Tek satın alma ana işe komşu: Antalya Alkollü İçecek (bedel 2,1 milyar TL, şerefiye 0,2 milyar TL). Ana ortaktan hizmet alımı küçük (2026'nın ilk yarısında 70 milyon TL); 2025'te ilişkili taraf işlemi sayılacak başka kalem bildirilmedi. Pay geri alımı ve hisse bazlı ücret: bakıldı, belgede yok. 2024 ve 2025 tablolarında yeniden yapılanma gideri görülmedi; önceki yıllara bakılamadı. Şerefiye özsermayenin %1'inden az (30 Haziran 2026'da 255 milyon TL). Soru işareti: şirket 11,1 milyar TL nakit tutarken 8,7 milyar TL finansal borç taşıyor ve 2025'te 1,9 milyar TL banka komisyonu ve benzeri gider yazdı.",
+  "latest": "9 Kasım 2026: Dokuz aylık net kâr 4,60 milyar TL oldu; geçen yılın aynı döneminin (4,90 milyar TL) reel olarak %6 altında. Net satış 40,45 milyar TL (+%6), brüt kâr 22,55 milyar TL (+%4), esas faaliyet kârı 8,00 milyar TL (+%2). Üçüncü çeyrek net kârı 2,40 milyar TL (geçen yıl 1,82 milyar TL; +%32). 30 Eylül 2026'da özsermaye 30,85 milyar TL, nakit 11,13 milyar TL, toplam varlık 59,39 milyar TL. Rakamlar enflasyon muhasebesine göre, Eylül 2026 parasıyla. Dokuz aylık tabloların dipnotları açılamadı; nakit ve finansman kalemlerinin ayrıntısı altı aylık tablodan: ilk yarıda yatırım faaliyetlerinden gelir 1,21 milyar TL, finansman gideri 1,79 milyar TL, net parasal pozisyon kazancı 0,16 milyar TL, vergi öncesi kâr 3,10 milyar TL.",
+  "risks": [
+   "Kârlılık düşüyor: reel özsermaye kârlılığı 2021'de %50,6, 2024'te %27,4, 2025'te %14,5, son 12 ayda %13,5. 2025 net kârı reel olarak %35 geriledi (5,18 milyar TL'den 3,38 milyar TL'ye). Düşüş sürerse şirket 2. surun %12 eşiğinin altına iner.",
+   "Vergi ve düzenleme tek bir kamu kararına bağlı: ÖTV yılda iki kez artıyor (1 Temmuz 2025'te %5 alkollü biranın hektolitresi 5.782,75 TL'ye çıktı). Daha sert bir artış ya da satış kısıtı hacmi ve marjı birlikte düşürür. Satışın %97,6'sı tek ülkeden.",
+   "Nakit büyük, ama kârı taşımıyor: 2025'te faiz geliri 2,34 milyar TL, vergi öncesi kârın %38'i; buna karşılık finansman gideri 2,86 milyar TL (1,86 milyarı banka komisyonu ve benzeri) ve parasal kayıp 0,44 milyar TL. Faiz düşerse gelir azalır; giderin azalacağı belli değil.",
+   "Alacaklar büyük: 30 Haziran 2026'da ticari alacak 17,6 milyar TL, toplam varlığın %29'u; denetçi 2025 raporunda alacakların tahsil edilebilirliğini kilit denetim konusu saydı. 2025'te işletme nakit akışı 7,9 milyar TL'den 4,0 milyar TL'ye indi. Verilen teminat mektupları 14,7 milyar TL.",
+   "Etkin vergi oranı yüksek ve oynak: 2025'te %45, 2024'te %33 (enflasyon muhasebesi etkisi). Halka açıklık %5; küçük ortağın sözü ve hissenin işlem derinliği sınırlı. Ana markaların lisans koşulları belgelerde açıklanmıyor."
+  ],
+  "watch": [
+   "Reel özsermaye kârlılığı (son 12 ay %13,5; 2. sur eşiği %12)",
+   "ÖTV artışları ve brüt marj (2026'nın ilk dokuz ayında %55,7)",
+   "Ticari alacaklar ve işletme nakit akışı",
+   "Faiz geliri ile finansman giderinin dengesi; net nakit (30 Eylül 2026'da haberlere göre 2,6 milyar TL)"
+  ],
+  "sources": [
+   {
+    "t": "Türk Tuborg: 31 Aralık 2025 konsolide finansal tablolar ve bağımsız denetçi raporu (11 Mart 2026)",
+    "te": "Türk Tuborg: consolidated financial statements and auditor's report, 31 December 2025 (11 March 2026)",
+    "u": "https://www.turktuborg.com.tr/pdf/mali-tablolar/2025/31-12-2025-Mali-Tablolar.pdf"
+   },
+   {
+    "t": "Türk Tuborg: 30 Haziran 2026 ara dönem özet konsolide finansal tablolar (17 Ağustos 2026)",
+    "te": "Türk Tuborg: condensed consolidated interim financial statements, 30 June 2026 (17 August 2026)",
+    "u": "https://www.turktuborg.com.tr/pdf/mali-tablolar/2026/30-06-2026-Mali-Tablolar.pdf"
+   },
+   {
+    "t": "KAP: Türk Tuborg finansal rapor, 2026 altı aylık (bildirim 1651539, 17 Ağustos 2026)",
+    "te": "KAP: Türk Tuborg financial report, six months 2026 (notice 1651539, 17 August 2026)",
+    "u": "https://kap.org.tr/tr/api/BildirimPdf/1651539"
+   },
+   {
+    "t": "KAP: Türk Tuborg finansal bilgiler özeti, 2026/09 bilançosu",
+    "te": "KAP: Türk Tuborg financial information summary, 2026/09 balance sheet",
+    "u": "https://kap.org.tr/tr/sirket-finansal-bilgileri/1088-turk-tuborg-bira-ve-malt-sanayii-a-s"
+   },
+   {
+    "t": "Türk Tuborg: 2025 faaliyet raporu",
+    "te": "Türk Tuborg: 2025 annual report",
+    "u": "https://www.turktuborg.com.tr/pdf/faaliyet-raporlari/2025/31-12-2025-Faaliyet-Raporu.pdf"
+   },
+   {
+    "t": "KAP: 2025 olağan genel kurul sonuçları ve kâr payı kararı (bildirim 1654855, 25 Ağustos 2026)",
+    "te": "KAP: 2025 annual general meeting results and dividend resolution (notice 1654855, 25 August 2026)",
+    "u": "https://kap.org.tr/tr/api/BildirimPdf/1654855"
+   },
+   {
+    "t": "Rekabet Kurulu kararı 25-35/832-489: Antalya Alkollü İçecek'in devralınması (18 Eylül 2025)",
+    "te": "Competition Board decision 25-35/832-489: acquisition of Antalya Alkollü İçecek (18 September 2025)",
+    "u": "https://www.rekabet.gov.tr/Karar?kararId=a4efb2a6-83a7-449f-a467-b2d4c3fe901d"
+   },
+   {
+    "t": "Hibya Haber Ajansı: Türk Tuborg'un 9 aylık net kârı 4,59 milyar TL oldu (9 Kasım 2026)",
+    "te": "Hibya News Agency: Türk Tuborg's nine-month net profit was TL 4.59 billion (9 November 2026)",
+    "u": "https://hibya.com/turk-tuborgun-9-aylik-net-kari-459-milyar-tl-oldu-1086798"
+   },
+   {
+    "t": "Para Ajansı: TBORG'un 9 aylık net kârı yüzde 6 geriledi (10 Kasım 2026)",
+    "te": "Para Ajansı: TBORG's nine-month net profit fell 6 percent (10 November 2026)",
+    "u": "https://paraajansi.com.tr/sirket-haberleri/tborgun-9-aylik-net-kari-yuzde-6-gerileyerek-45-milyar-tl-oldu-22231551h"
+   },
+   {
+    "t": "Türk Tuborg: JCR Eurasia Rating kredi notu açıklaması (20 Şubat 2026)",
+    "te": "Türk Tuborg: disclosure of JCR Eurasia Rating credit rating (20 February 2026)",
+    "u": "https://www.turktuborg.com.tr/pdf/ozel-durum-aciklamalari/2026/2026-03-JCR-Eurasia-Rating-Kredi-Derecelendirme-Notu.pdf"
+   }
+  ],
+  "en": {
+   "one": "One of Turkey's two brewers. It passes three walls; profitability has fallen sharply in five years and the price is too high for a castle.",
+   "business": "Türk Tuborg brews beer and makes malt at its plant in İzmir and sells in Turkey. Its brands are Tuborg, Carlsberg, Frederik, 1664 Blanc, Troy and Venüs; it also distributes imported beers such as Guinness and spirits such as Campari, Aperol and Jim Beam. Net sales in 2025 were TL 40.9 billion, of which 97.6% came from Turkey (exports TL 1.0 billion). In October 2025 it bought Antalya Alkollü İçecek, a maker of rakı, vodka and gin, for TL 2.1 billion. It employs 2,104 people on average (first half of 2026).",
+   "moat_text": "The moat is narrow but real. In its decision of 18 September 2025 the Competition Board describes beer as a two-player market (a duopoly) and says the market shares and availability ratios of Tuborg and Efes are close; the share figures are redacted in the decision and are not in the company's annual report either. Alcohol advertising is banned in Turkey, which makes it hard for a new brand to become known (the company documents we read do not discuss this). The evidence of pricing power is gross margin: 52.1% in 2024, 55.3% in 2025 and 55.7% in the first nine months of 2026, held despite an excise tax that rises twice a year. Weak points: real return on equity was 50.6% in 2021 but fell to 12.4% in 2023, 14.5% in 2025 and 13.5% in the last 12 months; operating profit fell 8% in real terms in 2025. We looked for the licence terms of the main brands (Tuborg, Carlsberg); they are not in the documents. So the class is narrow, not wide, and the earnings score is 1: demand is steady, but profit is sensitive to tax and to financing items.",
+   "mgmt": "International Food and Beverage B.V. holds 94.99% of the shares; the free float is only 5.01%. According to the Competition Board decision the company is ultimately controlled by International Beer Breweries Ltd. Profit goes to dividends and to the core business: a gross dividend of TL 3.07 billion from 2025 profit was paid from 2 September 2026 (nearly all of distributable profit; legal reserve TL 0.31 billion). Capital spending on property and equipment was TL 4.4 billion in 2025. The one acquisition is next to the core business: Antalya Alkollü İçecek (price TL 2.1 billion, goodwill TL 0.2 billion). Service purchases from the parent are small (TL 70 million in the first half of 2026); no other related-party transaction was reported for 2025. Share buybacks and share-based pay: checked, not in the documents. No restructuring charge was seen in the 2024 and 2025 statements; earlier years could not be checked. Goodwill is less than 1% of equity (TL 255 million at 30 June 2026). A question mark: the company holds TL 11.1 billion of cash while carrying TL 8.7 billion of financial debt, and booked TL 1.9 billion of bank commissions and similar charges in 2025.",
+   "latest": "9 November 2026: Nine-month net profit was TL 4.60 billion, 6% below the same period a year earlier (TL 4.90 billion) in real terms. Net sales were TL 40.45 billion (+6%), gross profit TL 22.55 billion (+4%) and operating profit TL 8.00 billion (+2%). Third-quarter net profit was TL 2.40 billion (TL 1.82 billion a year earlier; +32%). At 30 September 2026 equity was TL 30.85 billion, cash TL 11.13 billion and total assets TL 59.39 billion. Figures are under inflation accounting, in September 2026 money. The notes to the nine-month statements could not be opened; the detail on cash and financing items is from the six-month statements: in the first half, income from investing activities was TL 1.21 billion, finance expense TL 1.79 billion, the net monetary position gain TL 0.16 billion and profit before tax TL 3.10 billion.",
+   "risks": [
+    "Profitability is falling: real return on equity was 50.6% in 2021, 27.4% in 2024, 14.5% in 2025 and 13.5% in the last 12 months. Net profit for 2025 fell 35% in real terms (from TL 5.18 billion to TL 3.38 billion). If the decline continues, the company drops below the 12% threshold of the second wall.",
+    "Tax and regulation depend on a single government decision: the excise tax rises twice a year (on 1 July 2025 it rose to TL 5,782.75 per hectolitre of 5% beer). A sharper increase or a sales restriction would cut volume and margin together. 97.6% of sales come from one country.",
+    "The cash pile is large but does not carry the profit: interest income in 2025 was TL 2.34 billion, 38% of profit before tax; against it stood finance expense of TL 2.86 billion (TL 1.86 billion of it bank commissions and similar charges) and a monetary loss of TL 0.44 billion. If interest rates fall the income shrinks; it is not clear the expense would.",
+    "Receivables are large: trade receivables were TL 17.6 billion at 30 June 2026, 29% of total assets; the auditor named their recoverability a key audit matter in the 2025 report. Operating cash flow fell from TL 7.9 billion to TL 4.0 billion in 2025. Letters of guarantee given total TL 14.7 billion.",
+    "The effective tax rate is high and volatile: 45% in 2025 and 33% in 2024 (an effect of inflation accounting). The free float is 5%; minority shareholders have little say and trading depth is limited. The licence terms of the main brands are not disclosed in the documents."
+   ],
+   "watch": [
+    "Real return on equity (13.5% in the last 12 months; the second-wall threshold is 12%)",
+    "Excise tax increases and gross margin (55.7% in the first nine months of 2026)",
+    "Trade receivables and operating cash flow",
+    "The balance of interest income and finance expense; net cash (TL 2.6 billion at 30 September 2026 according to news reports)"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-14",
+   "per": "9/2026"
+  },
+  "earn": {
+   "k": 1.0,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı. Ocak-Haziran 2026 vergi öncesi kârının %5 kadarı (0,2 milyar TL) net parasal pozisyon kazancıdır. Bu kalem enflasyon muhasebesinden gelir: şirketin borçları enflasyonla erir; aynı tabloda stoklar, amortisman ve öbür giderler enflasyonla yukarı düzeltilir ve faaliyet kârını düşürür. İkisi aynı düzeltmenin iki yüzüdür; bu yüzden kalem tek seferlik sayılmadı ve kazançtan düşülmedi. Büyüklüğü enflasyona ve borcun para birimine bağlıdır, yıldan yıla değişir. Dağıtılan pay şirketin kendi tablolarından okundu (2024-2025 arasındaki iki yıl): ana ortaklık kârının %51 kadarı temettü ve geri alımla ortaklara ödendi, %49 kadarı şirkette kaldı.",
+    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are. 5% of pre-tax profit for January-June 2026 (0.2 billion TRY) is a net monetary position gain. This item comes from inflation accounting: inflation erodes the company's liabilities, while in the same statement inventories, depreciation and other costs are restated upwards and reduce operating profit. The two are two sides of one adjustment, so the item was not treated as a one-off and was not deducted. Its size depends on inflation and on the currency of the debt, and changes from year to year. The share distributed was read from the company's own statements (the two years 2024-2025): 51% of parent profit was paid to shareholders in dividends and buybacks, and 49% stayed in the company."
+   },
+   "b": 0.491,
+   "per": "9/2026"
+  },
+  "growth": {
+   "g": 0.8,
+   "basis": {
+    "tr": "Formül yılda %1,6 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %−6,1; Temmuz-Eylül 2026 çeyreği %31,8. Rakamlar enflasyon muhasebesiyle hazırlandığı için zaten reeldir. En düşüğü %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %0,8.",
+    "en": "The formula gave growth of 1.6% a year. Latest figures (net profit, year on year): January-September 2026 −6.1%; July-September 2026 quarter 31.8%. The figures are prepared under inflation accounting, so they are already real. The lowest is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 0.8%."
+   },
    "per": "9/2026"
   }
  }

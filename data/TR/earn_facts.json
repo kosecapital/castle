@@ -319,5 +319,83 @@
    ],
    "how": "Ana ortaklığa ödenen temettü + pay geri alımı ÷ ana ortaklık net kârı; hepsi son yılın parasıyla (önceki yıl, şirketin kendi yeniden değerleme oranıyla çevrildi)."
   }
+ },
+ "EGPRO": {
+  "unit": "million TRY",
+  "eps_cur": "TRY",
+  "ttm": {
+   "eps": null,
+   "net_profit": 2182.7,
+   "tr": "Ocak-Eylül 2026 dokuz aylık kâr, bir yıl önceki aynı dönem ve 2025 yılı kârı; hepsi son bilançodan, Eylül 2026 parasıyla. Enflasyon muhasebesi nedeniyle çeyrekler toplanmadı; 12 aylık tutar = 2025 yılı + dokuz ay − geçen yılın dokuz ayı.",
+   "en": "Nine-month profit for January-September 2026, the same period a year earlier and full-year 2025 profit; all from the latest filing, in September 2026 money. Quarters were not added because of inflation accounting; the 12-month figure = full-year 2025 + nine months − prior-year nine months.",
+   "url": "https://www.deceuninck.com/content/dam/deceuninck/corporate/documenten/ege-profil---financial-results/Ege%20Profil%20-%20SPK%20Financials%20-%202026.09.pdf"
+  },
+  "tax_rate": 17.7,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Source: Ege Profil SPK financials 30.09.2026 on the parent Deceuninck's investor page (TRY, whole numbers); the KAP notice 1695963 (9 Nov 2026) could not be opened (WebFetch provenance block). Parent net profit 9M26 1,762,812,727 vs 9M25 978,222,575; FY2025 1,398,151,848 = 'net profit for the period' line of the 31.12.2025 equity column restated to September 2026 money (1,124,663,508 in December 2025 money per KAP 1561128). 12-month sum 2,182.7 is my arithmetic, not a company figure; / 545 mn shares = about 4.00 TL, against the site's implied market cap / P/E = 18,246.6 / 8.4 = 2,172 (within 1%). EPS null: no 12-month EPS reported. Loss on net monetary position 9M26 575,107,507 vs 90,965,694. Pre-tax 2,141,710,677; current tax 761,461,485; deferred tax INCOME 382,563,535 (9M25: expense 4,313,928); tax_rate 17.7 is my calculation (net tax 378.9 / pre-tax). NOT entered as a one-off gain because the company does not label it and the tax note of 30.09.2026 could not be read, but it explains why net profit rose 80% while pre-tax rose 51%; the main session should decide whether it belongs in gains (H1 2026 also had deferred tax income 244.5 mn, FY2025 117.7 mn in Dec 2025 money, so it recurs under inflation accounting). Investment activity income 239.6 vs 260.0 (not itemised). A 2025 fire halted 25% of extrusion lines (2025 sustainability report); no insurance gain figure found. No one-off gain or charge identified by the company in the documents read. No profit guidance.",
+  "monetary": {
+   "amount": -575.108,
+   "pretax": 2141.711,
+   "url": "https://www.deceuninck.com/content/dam/deceuninck/corporate/documenten/ege-profil---financial-results/Ege%20Profil%20-%20SPK%20Financials%20-%202026.09.pdf",
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026"
+  },
+  "retained": {
+   "b": 0.001,
+   "years": 2,
+   "dist": 2280.2,
+   "profit": 2283.2,
+   "tr": "2024 ve 2025 yılları (2023'ün nakit akış tablosu açılamadı)",
+   "en": "2024 and 2025 (the 2023 cash flow statement could not be opened)",
+   "urls": [
+    "https://kap.org.tr/tr/api/BildirimPdf/1561128"
+   ],
+   "titles": [
+    "KAP: Ege Profil finansal rapor, 1 Ocak-31 Aralık 2025, PwC denetiminden geçmiş (24 Şubat 2026)"
+   ],
+   "how": "Ödenen temettü (2025: 584,8; 2024: 1.736,9) eksi 2024'te geri alınmış payların satışından gelen 41,5 ÷ ana ortaklık net kârı (2025: 1.124,7; 2024: 1.158,6); hepsi Aralık 2025 parasıyla, milyon TL. Geri alım yok."
+  }
+ },
+ "TBORG": {
+  "unit": "million TRY",
+  "eps_cur": "TRY",
+  "ttm": {
+   "eps": null,
+   "net_profit": 3897.0,
+   "tr": "Son 12 ay = 2025 yılı kârı + Ocak-Eylül 2026 kârı − Ocak-Eylül 2025 kârı, hepsi Eylül 2026 parasıyla. 2025 yılı kârı (3.376 milyon TL, Aralık 2025 parası) şirketin kendi düzeltme katsayılarıyla Eylül 2026 parasına çevrildi (4.197 milyon TL). Enflasyon muhasebesi nedeniyle çeyrekler toplanmadı.",
+   "en": "Last 12 months = full-year 2025 profit + January-September 2026 profit − January-September 2025 profit, all in September 2026 money. Full-year 2025 profit (TL 3,376 million in December 2025 money) was carried to September 2026 money with the company's own restatement coefficients (TL 4,197 million). Quarters were not added because of inflation accounting.",
+   "url": "https://hibya.com/turk-tuborgun-9-aylik-net-kari-459-milyar-tl-oldu-1086798"
+  },
+  "tax_rate": 30.3,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "12-month net profit is my arithmetic, not a company figure: 4,596.870 (9M26) + 4,197.002 (FY2025 restated) - 4,896.885 (9M25) = 3,896.987. FY2025 3,376,019 thousand TL (primary, 2025 statements) x 1.1776 (Dec 2025 -> Jun 2026 coefficient, primary: note 2.1 of the 30 Jun 2026 statements; index 110.39 -> 129.99) x 1.05569 (Jun -> Sep 2026; NOT read from a document: implied by 6M26 profit 2,085,116 restated so that 9M - Q3 holds, and it reproduces the prior-year Q3 to within 15 thousand TL). 9M figures come from news reports of the KAP filing (notice 1695650), not from the filing itself, which could not be opened. Check against the source: market cap 39,636 / P/E 10.2 = 3,886; document-based 3,897 (0.3% apart). EPS null: no 12-month EPS is reported; shares are 32,250,825,300 of 1 kurus (322.5 million per TL 1 nominal), company reports EPS per 100 shares (6M26: 6.47). On a TL 1 nominal share the 12-month figure would be about 12.08 TL (my arithmetic). tax_rate = 9M26 (6,599,680 pre-tax - 4,596,870 net) / pre-tax, from Borsatek's table of the KAP filing. One-offs: none identified by the company. To check when the 9M notes open: Law 7582 cuts the corporate tax rate on production earnings to 12.5% from 1 Jan 2027 and the 6M26 statements say deferred tax measurement was affected; 6M26 deferred tax income was 220,952 thousand TL in total, the part due to the rate change is not disclosed, so nothing was deducted. No disposal gains seen; investment income is interest and FX gains (2025: interest 2,339,622, FX gains 603,674). No profit guidance.",
+  "monetary": {
+   "amount": 157.515,
+   "pretax": 3103.401,
+   "url": "https://www.turktuborg.com.tr/pdf/mali-tablolar/2026/30-06-2026-Mali-Tablolar.pdf",
+   "tr": "Ocak-Haziran 2026",
+   "en": "January-June 2026"
+  },
+  "retained": {
+   "b": 0.491,
+   "years": 2,
+   "dist": 4350.988,
+   "profit": 8552.815,
+   "tr": "2024-2025 arasındaki iki yıl",
+   "en": "the two years 2024-2025",
+   "urls": [
+    "https://www.turktuborg.com.tr/pdf/mali-tablolar/2025/31-12-2025-Mali-Tablolar.pdf"
+   ],
+   "titles": [
+    "Türk Tuborg: 31 Aralık 2025 konsolide finansal tablolar ve bağımsız denetçi raporu (DRT/Deloitte, 11 Mart 2026)"
+   ],
+   "how": "Ödenen temettü ÷ net kâr; ikisi de 2025 tablosundan, Aralık 2025 parasıyla (2025: 2.775,480 ÷ 3.376,019; 2024: 1.575,508 ÷ 5.176,796). Pay geri alımı yok. 2023 yılı eklenemedi: 2024 tabloları açılamadı; üçüncü yıl eklenince yeniden hesaplanmalı."
+  }
  }
 }

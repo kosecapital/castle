@@ -259,5 +259,63 @@
   "note_tr": "Geçen yılın dokuz aylık kârında Tatilbudur'un kontrolünün alınmasından doğan bir kazanç, bu yılınkinde Crescenta'nın pazarlıklı satın alım kazancı var; ikisi de konsolide tutarın küçük bir bölümüyle İş Yatırım'ın payına düşer ve düşüşün yönünü değiştirmez.",
   "note_en": "Last year's nine-month profit includes a gain from taking control of Tatilbudur, and this year's includes the Crescenta bargain-purchase gain; only a small part of each consolidated amount falls to İş Yatırım's share, and neither changes the direction of the decline.",
   "notes": null
+ },
+ "EGPRO": {
+  "metric": "net profit",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": 80.2,
+   "cur_val": "1762.8",
+   "prev_val": "978.2",
+   "unit": "milyon TL / million TL",
+   "date": "2026-11-09",
+   "url": "https://www.deceuninck.com/content/dam/deceuninck/corporate/documenten/ege-profil---financial-results/Ege%20Profil%20-%20SPK%20Financials%20-%202026.09.pdf",
+   "primary": true
+  },
+  "quarter": null,
+  "guidance": null,
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Parent net profit 9M26 1,762,812,727 TL vs 9M25 978,222,575 TL, both in September 2026 money (the document's footnote: comparatives restated for hyperinflation accounting), so the change is real. Source is the company's SPK financials PDF (balance sheet + income statement only) on the parent Deceuninck's investor page; marked primary as a company document, but the KAP notice itself (1695963, 9 Nov 2026) and its attachment could NOT be opened in this session (WebFetch provenance block), so the main session may want to re-check against KAP. Figures agree with Borsatek's copy of the KAP notice (net profit, equity, total assets identical) and with ekofin's restated comparison. Quarter is null: the PDF has no Q3 columns. My own arithmetic, NOT a company figure: Q3 26 about 902 mn vs Q3 25 about 474 mn (9M minus H1 from KAP 1653151, H1 carried to September money with 1.0557 = restated 31.12.2025 equity 11,045.1 / 10,462.5). No profit guidance found (activity report 'expectations' section could not be read). Note: profit before tax rose 50.8% (2,141.7 vs 1,419.9); the rest of the net profit rise is deferred tax income 382.6 mn vs expense 4.3 mn. Source has a dividend yield, so dividend is null (2025 dividend: gross 1.2844 TL/share, paid 14 May and 16 Jul 2026)."
+ },
+ "TBORG": {
+  "metric": "net profit",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": -6.1,
+   "cur_val": "4597",
+   "prev_val": "4897",
+   "unit": "milyon TL / million TL",
+   "date": "2026-11-09",
+   "url": "https://hibya.com/turk-tuborgun-9-aylik-net-kari-459-milyar-tl-oldu-1086798",
+   "primary": false
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 31.8,
+   "cur_val": "2396",
+   "prev_val": "1818",
+   "unit": "milyon TL / million TL",
+   "date": "2026-11-09",
+   "url": "https://paraajansi.com.tr/sirket-haberleri/tborgun-9-aylik-net-kari-yuzde-6-gerileyerek-45-milyar-tl-oldu-22231551h",
+   "primary": false
+  },
+  "guidance": null,
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Figures are net profit (no minority interest: KAP shows non-controlling interests empty) from TMS 29 statements in September 2026 money, so the changes are already real. 9M: 4,596,870 vs 4,896,885 thousand TL (Hibya, Para Ajansi, Borsatek, GCM Yatirim all agree). Q3: 2,395,644 vs 1,818,045 (Para Ajansi). NOT PRIMARY: the KAP financial report (notice 1695650, published 9 Nov 2026 18:47, attachment 'TBORG - 30.09.26 - SPK - TR.pdf') could not be opened in this session (kap.org.tr/tr/Bildirim/1695650 blocked; company PDF for 30-09-2026 not indexed). Cross-check that supports the news figures: 6M26 profit 2,085,116 (primary, June money) x 1.05569 + Q3 2,395,644 = 4,596,870, and the same coefficient reproduces the prior-year Q3 (4,896,885 - 2,916,439 x 1.05569 = 1,818,030 vs 1,818,045 reported). Equity 30,846,028 at 30 Sep 2026 confirmed on KAP's own financial-information page. No profit guidance: the 2025 annual report gives no 2026 expectation. Full-year 2025 net profit fell 34.8% real (3,376,019 vs 5,176,796, Dec 2025 money; primary, 2025 statements). No evidence of a permanent cause; excise tax (OTV) rises twice a year but gross margin held (52.1% 2024, 55.3% 2025, 55.7% 9M26)."
  }
 }

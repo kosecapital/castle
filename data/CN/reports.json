@@ -1272,5 +1272,125 @@
    },
    "per": "2026-Q3"
   }
+ },
+ "603271": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-Q3",
+  "one": "Alüminyum levha ve folyo işleyicisi; işleme ücretiyle çalışır, hendek zayıf, ölçütü geçemedi. Son 12 ay kârının yaklaşık üçte biri tek seferlik.",
+  "business": "Yong Jie, alüminyum külçeyi levha, şerit ve folyoya çevirip satar. Fiyat, külçe fiyatı artı işleme ücretidir; şirketin kazandığı para bu ücrettir. 2026'nın ilk dokuz ayında gelir 10,09 milyar yuan oldu; %85,4'ü levha ve şerit, %12,3'ü folyo. Halka arz izahnamesine göre 2024'ün ilk yarısında gelirin %42,1'i lityum pil, %27,1'i elektronik müşterilerinden geldi. Haziran 2026'da Arconic'in Çin'deki iki fabrikasını (Qinhuangdao ve Kunshan) aldı; kapasite 485 bin tondan 735 bin tona çıktı.",
+  "moat_text": "Hendek zayıf. Üstünlük var: Çin Demir Dışı Metal İşleme Derneği belgesine göre şirket, lityum pil gövdesinde kullanılan alüminyum şeritte 2021-2023'te Çin'de birinciydi ve reel özsermaye kârlılığı beş yılın hiçbirinde %17'nin altına inmedi (2025'te %17,12, 2024'te %21,03). Ama iş bir işleme işidir ve fiyatlama gücü marjda görünmüyor. Brüt kâr marjı 2021'de %9,46, 2022'de %9,77, 2023'te %8,94 idi; 2026'nın ilk dokuz ayında %8,53, üçüncü çeyrekte %7,66. Şirketin üretimi 2023'te sektörün %1,72'siydi; aynı ürünü yapan çok sayıda rakip var ve müşteriler büyük pil üreticileridir. Son 12 ayın %23,5 reel özsermaye kârlılığı tek seferlik bir kazançla şişmiştir: şirketin kendi olağan dışı kalemler hariç kârı son 12 ayda 513 milyon yuan, açıklanan kâr 757 milyon yuan. Bu yüzden hendek dar sayılmadı.",
+  "mgmt": "Şirketi Shen Jianguo ve eşi Wang Xushu kontrol eder: 2025 sonunda Zhejiang Yongjie Holding %35,89, Shen Jianguo %15,38 paya sahipti. Şirket 11 Mart 2025'te Şanghay borsasına girdi; 49,2 milyon yeni pay 20,60 yuandan satıldı, net 931,9 milyon yuan geldi. Ana ortaklık özsermayesi 2024 sonundaki 1,68 milyar yuandan 2025 sonunda 2,92 milyar yuana çıktı; bu yüzden özsermaye kârlılığı düştü. 2025 kârının %30,08'i temettü olarak dağıtıldı (10 paya 6,35 yuan); 2026 ara temettüsü 10 paya 5,19 yuan. En büyük sermaye kararı Haziran 2026'daki satın almadır: yaklaşık 1,22 milyar yuan nakit, 1,1 milyar yuan satın alma kredisi ve halka arz gelirinin 256 milyon yuanı ile ödendi; bunun için lityum pil şeridi yatırım projesi iptal edildi. Alım ana işin içindedir ve payla ödenmedi. Hedeflerin 2025 sonu net varlıkları (1,03 milyar ve 0,59 milyar yuan) bedelin üstündeydi. Haziran 2026'da 67 çalışana 1,415 milyon kısıtlı pay verildi (sermayenin %0,7'si); planın gideri okunan belgelerde yok. Halka arz öncesi ortak Qianhai fonları (%7,97) pay satıyor. Geri alım: bakıldı, belgede yok. Şerefiye, türev pozisyonları ve verilen garantiler: bakıldı, okunan belgelerde yok; 2026 ara ve üçüncü çeyrek raporlarının tam metni açılamadı.",
+  "latest": "28 Ekim 2026: Şirket üçüncü çeyrek raporunu açıkladı. Dokuz aylık gelir %43,69 artışla 10,09 milyar yuan, ana ortaklık net kârı %110,83 artışla 651 milyon yuan oldu. Olağan dışı kalemler hariç kâr %28,17 artışla 395 milyon yuan; aradaki 256 milyon yuan, haziranda tamamlanan satın almanın konsolidasyonuyla ikinci çeyrekte yazıldı. Üçüncü çeyrekte gelir %87,46 artışla 4,86 milyar yuan, net kâr %11,23 artışla 137 milyon yuan, olağan dışı kalemler hariç kâr %23,54 artışla 148 milyon yuan. Üçüncü çeyrek brüt marjı 1,93 puan düşüşle %7,66; finansman gideri kredi yüzünden arttı.",
+  "risks": [
+   "Son 12 ayın kârı olağan kazanç gücünü göstermiyor: 757 milyon yuan kârın yaklaşık 244 milyon yuanı (%32) şirketin kendi olağan dışı kalemlerinden geliyor; çoğu satın almanın konsolidasyonuyla yazıldı ve yinelenmez.",
+   "Şirket alüminyum fiyatını müşteriye aktarır ama işleme ücreti rekabetle belirlenir; brüt marj %9 dolayında ince bir marjdır ve üçüncü çeyrekte %7,66'ya indi.",
+   "Satın alma şirketi bir anda yarı yarıya büyüttü: alınan iki fabrikanın 2025 geliri 5,74 milyar yuan, şirketin gelirinin %59,5'i. Qinhuangdao 2024'te 97,9 milyon yuan zarar etmişti ve arazi, bina, makine kiraları sona yaklaşıyor.",
+   "Borç arttı: satın alma için 1,1 milyar yuan kredi alındı. Kaynağın net borç/FAVÖK oranı 0,44; kaynağın serbest nakit akışı verisi yalnız son iki dönemi kapsıyor.",
+   "Talep lityum pil, elektronik ve otomotiv döngüsüne bağlıdır; beş yıllık geçmiş pil talebinin hızla büyüdüğü bir dönemi kapsar, tam bir döngüyü göstermez. Alınan fabrikaların gelirinin %20-40'ı ihracattır; gümrük kararlarına açıktır."
+  ],
+  "watch": [
+   "Olağan dışı kalemler hariç net kâr (dokuz ayda 395 milyon yuan)",
+   "Brüt kâr marjı ve ton başına işleme ücreti",
+   "Qinhuangdao ve Kunshan fabrikalarının kârı, Qinhuangdao kira sözleşmeleri",
+   "Satın alma kredisi ve finansman gideri"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/sha/603271/financials/ratios/"
+   },
+   {
+    "t": "China Securities Journal: Yong Jie New Material 2025 yıllık rapor özeti (31 Mart 2026)",
+    "te": "China Securities Journal: Yong Jie New Material 2025 annual report summary (31 March 2026)",
+    "u": "https://epaper.cs.com.cn/zgzqb/images/2026-03/31/B163/zqB16331.pdf"
+   },
+   {
+    "t": "China Securities Journal: 2025 yıllık rapor özeti, ortaklar ve çeyrek rakamları (31 Mart 2026)",
+    "te": "China Securities Journal: 2025 annual report summary, shareholders and quarterly figures (31 March 2026)",
+    "u": "https://epaper.cs.com.cn/zgzqb/images/2026-03/31/B162/zqB16231.pdf"
+   },
+   {
+    "t": "Şirket bildirimi: 2026 ilk yarı kâr artışı ön duyurusu, no. 2026-058 (15 Temmuz 2026)",
+    "te": "Company filing: 2026 first-half profit increase pre-announcement, no. 2026-058 (15 July 2026)",
+    "u": "https://pdf.dfcfw.com/pdf/H2_AN202607141826955258_1.pdf"
+   },
+   {
+    "t": "cninfo: 2026 birinci olağanüstü genel kurul belgeleri, Arconic fabrikalarının alımı (30 Mayıs 2026)",
+    "te": "cninfo: materials for the first 2026 extraordinary general meeting, purchase of the Arconic plants (30 May 2026)",
+    "u": "https://static.cninfo.com.cn/finalpage/2026-05-30/1225337764.PDF"
+   },
+   {
+    "t": "Halka arz izahnamesi (5 Mart 2025)",
+    "te": "IPO prospectus (5 March 2025)",
+    "u": "https://stockn.xueqiu.com/SH603271/20250305424715.pdf"
+   },
+   {
+    "t": "Sina Finance: üçüncü çeyrek raporu özeti (28 Ekim 2026)",
+    "te": "Sina Finance: summary of the third-quarter report (28 October 2026)",
+    "u": "https://finance.sina.com.cn/stock/aiassist/yjbg/2026-10-28/doc-iniwuqvv9499592.shtml?froms=ggmp"
+   },
+   {
+    "t": "Sina haber akışı: üçüncü çeyrek net kârı 137 milyon yuan (28 Ekim 2026)",
+    "te": "Sina newswire: third-quarter net profit 137 million yuan (28 October 2026)",
+    "u": "https://shishixinwen.news/news/sina/live/5175891"
+   },
+   {
+    "t": "cfi.cn: dönemlere göre finansal göstergeler (30 Eylül 2026)",
+    "te": "cfi.cn: financial indicators by period (30 September 2026)",
+    "u": "https://quote.cfi.cn/cwfxzb/176062/603271.html"
+   },
+   {
+    "t": "Tencent News (Caiwen): satın alma sonrası ilk ara rapor (28 Ağustos 2026)",
+    "te": "Tencent News (Caiwen): first interim report after the acquisition (28 August 2026)",
+    "u": "https://news.qq.com/rain/a/20260828A07MOZ00"
+   },
+   {
+    "t": "National Business Daily: Arconic fabrikalarının alımı (21 Nisan 2026)",
+    "te": "National Business Daily: purchase of the Arconic plants (21 April 2026)",
+    "u": "https://www.nbd.com.cn/articles/2026-04-21/4349308.html"
+   },
+   {
+    "t": "Şirket bildirimi: ortakların pay satışı sonucu ve kısıtlı pay kaydı, no. 2026-059 (22 Temmuz 2026)",
+    "te": "Company filing: result of shareholders' share sale and restricted-share registration, no. 2026-059 (22 July 2026)",
+    "u": "https://pdf.dfcfw.com/pdf/H2_AN202607211827212455_1.pdf"
+   },
+   {
+    "t": "Şirket belgesi: 2026 kısıtlı pay planı değerlendirme esasları (29 Mart 2026)",
+    "te": "Company document: assessment rules for the 2026 restricted share plan (29 March 2026)",
+    "u": "https://pdf.dfcfw.com/pdf/H2_AN202603301820867888_1.pdf"
+   }
+  ],
+  "en": {
+   "one": "An aluminium sheet and foil processor paid a processing fee; weak moat, fails the criterion. About a third of trailing profit is one-off.",
+   "business": "Yong Jie turns aluminium ingot into sheet, strip and foil and sells it. The price is the ingot price plus a processing fee; the fee is what the company earns. In the first nine months of 2026 revenue was 10.09 billion yuan; 85.4% came from sheet and strip and 12.3% from foil. According to the IPO prospectus, 42.1% of revenue in the first half of 2024 came from lithium battery customers and 27.1% from electronics. In June 2026 it bought Arconic's two plants in China (Qinhuangdao and Kunshan); capacity rose from 485 thousand to 735 thousand tonnes.",
+   "moat_text": "The moat is weak. There is an edge: a certificate from the China Nonferrous Metals Processing Association says the company ranked first in China in aluminium strip for lithium battery casings in 2021-2023, and real return on equity did not fall below 17% in any of the five years (17.12% in 2025, 21.03% in 2024). But this is a processing business and pricing power does not show in the margin. Gross margin was 9.46% in 2021, 9.77% in 2022 and 8.94% in 2023; it was 8.53% in the first nine months of 2026 and 7.66% in the third quarter. The company's output was 1.72% of the industry in 2023; many rivals make the same product and the customers are large battery makers. The 23.5% real return on equity of the last twelve months is inflated by a one-off gain: the company's own profit excluding non-recurring items was 513 million yuan over the last twelve months, against reported profit of 757 million yuan. That is why the moat is not rated narrow.",
+   "mgmt": "The company is controlled by Shen Jianguo and his wife Wang Xushu: at the end of 2025 Zhejiang Yongjie Holding held 35.89% and Shen Jianguo 15.38%. It listed in Shanghai on 11 March 2025; 49.2 million new shares were sold at 20.60 yuan, bringing in a net 931.9 million yuan. Equity attributable to shareholders rose from 1.68 billion yuan at the end of 2024 to 2.92 billion yuan at the end of 2025; that is why return on equity fell. 30.08% of 2025 profit was paid as dividends (6.35 yuan per 10 shares); the 2026 interim dividend is 5.19 yuan per 10 shares. The biggest capital decision is the June 2026 acquisition: about 1.22 billion yuan in cash, paid with a 1.1 billion yuan acquisition loan and 256 million yuan of IPO proceeds; a lithium battery strip investment project was cancelled for it. The purchase is inside the core business and was not paid in shares. The targets' net assets at the end of 2025 (1.03 billion and 0.59 billion yuan) were above the price. In June 2026, 1.415 million restricted shares were granted to 67 employees (0.7% of the share capital); the plan's expense is not in the documents read. The pre-IPO Qianhai funds (7.97%) are selling shares. Buybacks: checked, not in the documents. Goodwill, derivative positions and guarantees given: checked, not in the documents read; the full text of the 2026 interim and third-quarter reports could not be opened.",
+   "latest": "28 October 2026: The company published its third-quarter report. Nine-month revenue rose 43.69% to 10.09 billion yuan and net profit attributable to shareholders rose 110.83% to 651 million yuan. Profit excluding non-recurring items rose 28.17% to 395 million yuan; the 256 million yuan gap was booked in the second quarter with the consolidation of the acquisition completed in June. In the third quarter revenue rose 87.46% to 4.86 billion yuan, net profit rose 11.23% to 137 million yuan and profit excluding non-recurring items rose 23.54% to 148 million yuan. Third-quarter gross margin fell 1.93 points to 7.66%; finance costs rose because of the loan.",
+   "risks": [
+    "The profit of the last twelve months does not show normal earning power: about 244 million yuan (32%) of the 757 million yuan profit comes from the company's own non-recurring items; most was booked with the consolidation of the acquisition and will not recur.",
+    "The company passes the aluminium price on to customers, but the processing fee is set by competition; gross margin is thin at around 9% and fell to 7.66% in the third quarter.",
+    "The acquisition enlarged the company by half at a stroke: the two plants had 2025 revenue of 5.74 billion yuan, 59.5% of the company's revenue. Qinhuangdao lost 97.9 million yuan in 2024 and its leases on land, buildings and machinery are close to expiry.",
+    "Debt has risen: a 1.1 billion yuan loan was taken for the acquisition. The source's net debt/EBITDA is 0.44; the source's free cash flow data covers only the last two periods.",
+    "Demand depends on the lithium battery, electronics and automotive cycle; the five-year record covers a period of fast-growing battery demand and does not show a full cycle. Exports are 20-40% of the acquired plants' revenue and are exposed to tariff decisions."
+   ],
+   "watch": [
+    "Net profit excluding non-recurring items (395 million yuan in nine months)",
+    "Gross margin and processing fee per tonne",
+    "Profit of the Qinhuangdao and Kunshan plants, and the Qinhuangdao leases",
+    "The acquisition loan and finance costs"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-14",
+   "per": "2026-Q3"
+  }
  }
 }

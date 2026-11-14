@@ -118,11 +118,11 @@
     "high": 543.0,
     "kind": "reported",
     "url": "https://recruit-holdings.com/en/ir/library/upload/Recruit_202703Q2_summary_en.html",
-    "date": "2026-08-07",
+    "date": "2026-11-11",
     "primary": true
    }
   ],
-  "notes": "Source: the company's own FY2026 Q2 summary (hosted on MarketScreener, 11 Nov 2026), Q1 summary (https://recruit-holdings.com/en/ir/library/upload/recruit_202703Q1_summary_en/) and FY2025 earnings release (https://recruit-holdings.com/en/ir/library/upload/Recruit_202603Q4_earnings_en.html). The site still shows period 2026-Q1 (implied EPS 408.88); the latest reported quarter is now July-September 2026, so the TTM here is one quarter newer. EPS is BASIC: 349.78 (FY to March 2026) + 296.01 (H1 FY2026) - 173.12 (H1 FY2025); diluted H1 figures are not in the summary (FY2025 diluted 347.59). Net profit in rounded billions: 496.9 + 411.6 - 248.3 = 660.2bn. On the site's Q1 basis: basic EPS 349.78 + 145.48 - 83.97 = 411.29; net profit 496.9 + 202.6 - 120.9 = 578.6bn. Guidance (IFRS, basic EPS) was raised on 7 Aug 2026 from 623.0bn / 447.00 yen and kept on 11 Nov 2026; it is above the last 12 months. No one-off gain named in the documents opened; the company attributes the jump to HR Technology monetisation and efficiency. FY2025 other operating income 13.1bn and finance income 34.7bn, no breakdown. The Q2 earnings release (full statements) could not be opened (https://recruit-holdings.com/en/ir/library/upload/Recruit_202703Q2_earnings_en.html: permission not answered), so H1 FY2026 other income and finance income were not checked. Tax rate is my division for FY2025: 147.9 / 644.6."
+  "notes": "Rewritten 14 Nov 2026; the universe period is now 2026-Q2, which matches this TTM (source P/E 37.45 at 17,560 yen implies EPS 468.9; document 472.67, within 1%). EPS is BASIC: 349.78 (FY to March 2026, earnings release opened this session) + 296.01 (H1, from the previous record; Q1 145.48 primary + Q2 150.54 secondary = 296.02) - 173.12 (prior H1, Quartr summary). Net profit in rounded billions: 496.9 + 411.6 - 248.3 = 660.2bn. The company's Q2 summary and earnings release could NOT be opened in this session (WebFetch permission not answered), so `primary: true` is carried over from the earlier reading of the company document, not re-verified; H1 other operating income and finance income were not checked. Guidance (IFRS, basic EPS 543.00, profit 755.0bn) was raised on 7 Aug 2026 and kept on 11 Nov 2026; it is above the last 12 months. No one-off gain named in any document or article read. Q1 (primary): other operating income 3,835m, other operating expenses 2,776m, finance income 9,667m against profit of 202,618m; finance income is interest on the cash pile and recurs. FY to March 2026: other operating income 13,117m, finance income 34,708m, no breakdown. Housing & Real Estate revenue carries an accounting change of about 1.9bn yen in Q2 (lowers revenue; not a gain). Carsensor.net security incident in Oct 2026: company calls the impact minor. JFTC inspection of Japan staffing (June 2026): no amount recorded. Tax rate is my division for FY to March 2026: 147,938 / 644,618."
  },
  "6857": {
   "unit": "million JPY",
@@ -307,18 +307,18 @@
   "unit": "million JPY",
   "eps_cur": "JPY",
   "ttm": {
-   "eps": 124.88,
-   "net_profit": 939,
-   "tr": "Temmuz 2025 - Haziran 2026 (mali yılın tamamı)",
-   "en": "July 2025 - June 2026 (full fiscal year)",
-   "url": "https://www2.jpx.co.jp/disc/194A0/081220260813518909_tse-acedjpsm-194A0-202608133194A0-ixbrl.htm"
+   "eps": 128.05,
+   "net_profit": 965,
+   "tr": "Ekim 2025 - Eylül 2026 (Haziran 2026 yılı eksi Temmuz-Eylül 2025 artı Temmuz-Eylül 2026; son çeyrek veri sitesinden)",
+   "en": "October 2025 - September 2026 (year to June 2026 minus July-September 2025 plus July-September 2026; latest quarter from a data site)",
+   "url": "https://s.kabutan.jp/stocks/194A/finance/"
   },
   "tax_rate": 27.6,
   "gains": [
    {
     "tr": "Negatif şerefiye kazancı: Ocak 2026'da bağlı ortaklık Kaltech'in devraldığı fotokatalizör işinde ödenen bedel, alınan net varlıkların değerinden düşük kaldı (olağan dışı gelir, 227,5 milyon yen vergi öncesi)",
     "en": "Negative goodwill gain: in the photocatalyst business taken over by the subsidiary Kaltech in January 2026 the price paid was below the value of the net assets acquired (extraordinary income, 227.5 million yen pre-tax)",
-    "frac": 0.1754,
+    "frac": 0.1708,
     "how": 27.6,
     "period_tr": "Haziran 2026 mali yılı (Ocak-Haziran 2026)",
     "period_en": "fiscal year to June 2026 (January-June 2026)",
@@ -327,19 +327,19 @@
    {
     "tr": "Kademeli edinim kazancı: iştirak Asuka Medical'in tamamı alınırken eski payın yeniden değerlenmesi (olağan dışı gelir, 12,9 milyon yen vergi öncesi)",
     "en": "Gain on step acquisition: revaluation of the earlier stake when the affiliate Asuka Medical became wholly owned (extraordinary income, 12.9 million yen pre-tax)",
-    "frac": 0.01,
+    "frac": 0.0097,
     "how": 27.6,
-    "period_tr": "Haziran 2026 mali yılı (Temmuz 2025-Mart 2026)",
-    "period_en": "fiscal year to June 2026 (July 2025-March 2026)",
+    "period_tr": "Ekim 2025-Mart 2026",
+    "period_en": "October 2025-March 2026",
     "url": "https://www2.jpx.co.jp/disc/194A0/140120260813518909.pdf"
    },
    {
-    "tr": "Duran varlık satış kazancı (olağan dışı gelir, 11,0 milyon yen vergi öncesi)",
-    "en": "Gain on sale of fixed assets (extraordinary income, 11.0 million yen pre-tax)",
-    "frac": 0.0084,
+    "tr": "Duran varlık satış kazancı (olağan dışı gelir, Ekim 2025-Haziran 2026 için 8,3 milyon yen vergi öncesi; yılın 11,0 milyon yeninden Temmuz-Eylül 2025'in 2,7 milyon yeni çıkarıldı)",
+    "en": "Gain on sale of fixed assets (extraordinary income, 8.3 million yen pre-tax for October 2025-June 2026; the year's 11.0 million yen less 2.7 million yen of July-September 2025)",
+    "frac": 0.0062,
     "how": 27.6,
-    "period_tr": "Haziran 2026 mali yılı",
-    "period_en": "fiscal year to June 2026",
+    "period_tr": "Ekim 2025-Haziran 2026",
+    "period_en": "October 2025-June 2026",
     "url": "https://www2.jpx.co.jp/disc/194A0/140120260813518909.pdf"
    }
   ],
@@ -347,7 +347,7 @@
    {
     "tr": "Değer düşüklüğü zararı (olağan dışı gider, 83,4 milyon yen vergi öncesi)",
     "en": "Impairment loss (extraordinary loss, 83.4 million yen pre-tax)",
-    "frac": 0.0643,
+    "frac": 0.0626,
     "how": 27.6,
     "period_tr": "Nisan-Haziran 2026 çeyreği",
     "period_en": "April-June 2026 quarter",
@@ -367,7 +367,7 @@
     "date": "2026-08-13"
    }
   ],
-  "notes": "All primary: full-year kessan tanshin of 13 Aug 2026 (Japanese GAAP, consolidated; amounts in thousand yen) and the nine-month tanshin of 13 May 2026. TTM = FY to June 2026 because the Q1 FY2027 tanshin (filed 11 Nov 2026) could NOT be opened (see growth_facts notes): profit attributable 939,402k; basic EPS 124.88, diluted 121.39 (the data source's P/E implies 1,351/11.13 = 121.4, i.e. the diluted figure; I used BASIC because the company's forecast EPS 132.90 is basic). Tax rate is my division: income taxes 357,483k / profit before tax 1,296,886k = 27.6%. One-offs, all from the extraordinary section: gains 251,315k = negative goodwill 227,452k + step-acquisition gain 12,913k + gain on sale of fixed assets 10,950k; losses 86,140k = impairment 83,376k + retirement of fixed assets 897k + other 1,866k (the last two left out as too small). frac = pre-tax amount x (1 - 0.2756) / 939,402k, following the rule that pre-tax amounts are converted at the effective rate. CAVEAT for the main session: the company does not disclose the tax effect of these items; a negative goodwill gain and a step-acquisition gain are usually not taxed, so the true after-tax share may be closer to the pre-tax share (227,452/939,402 = 24.2%; 12,913 = 1.4%). With the converted figures net one-offs = 0.1754+0.0100+0.0084-0.0643 = 12.95% of TTM profit; untaxed gains with the impairment at 27.6% would give about 20.3%. Nine-month figures: negative goodwill 154,454k, step gain 12,913k, fixed asset gain 7,700k, no impairment; so 72,998k of the negative goodwill gain and the whole impairment fall in April-June 2026 (subtraction). The cause of the impairment is not stated in the tanshin. Forecast EPS 132.90 (13 Aug 2026) is ABOVE the last 12 months; whether it was revised on 11 Nov 2026 was not read. Enterprise is not IAS 29; no `monetary`."
+  "notes": "Updated 14 Nov 2026 for period 2027-Q1. TTM = FY to June 2026 (primary, re-read today: profit 939,402k, basic EPS 124.88) minus Q1 FY2026 (primary, tanshin of 13 Nov 2025 read today: 165,523k, EPS 22.13) plus Q1 FY2027 (NOT primary: Kabutan and Matsui Securities both show net profit 191m and EPS 25.3; the tanshin of 11 Nov 2026 could not be opened, see growth_facts notes). Net profit 939.4 - 165.5 + 191 = 964.9m (191 is rounded to the million); EPS 124.88 - 22.13 + 25.30 = 128.05 (sum of quarterly EPS, ignores share-count changes). Source check: price 1,380 / P/E 11.11 = 124.2, below the document figure, so no source-above-document issue. Tax rate 27.6% unchanged (FY2026: 357,483k / 1,296,886k). One-offs recomputed on the new TTM profit of 964.9m, pre-tax amount x (1 - 0.2756): negative goodwill 227,452k -> 0.1708 (all booked January-June 2026, inside the window); step-acquisition gain 12,913k -> 0.0097 (booked in the nine months to March 2026; Q1 FY2026 extraordinary income was only a 2,700k fixed-asset gain per the primary filing, so it falls in October 2025-March 2026, inside the window); fixed-asset gain 10,950k - 2,700k (Q1 FY2026, now outside the window) = 8,250k -> 0.0062; impairment 83,376k -> 0.0626 (April-June 2026). Net 0.1241. UNKNOWN: extraordinary items of July-September 2026 (filing not opened); net/ordinary profit of 67.5% (67.9% a year earlier) does not suggest a large one, my inference. Same caveat as before: the company does not disclose the tax effect; negative goodwill and step gains are usually untaxed, so the true share may be nearer 227,452/964,900 = 23.6%. Forecast EPS 132.90 (13 Aug 2026, primary) is above the last 12 months; data sites show no revision. Not IAS 29; no monetary."
  },
  "3854": {
   "unit": "million JPY",

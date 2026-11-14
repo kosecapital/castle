@@ -1425,5 +1425,110 @@
    "risks": [],
    "watch": []
   }
+ },
+ "3231": {
+  "scores": {
+   "A": 1,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-Q3",
+  "one": "Sunucu ve bilgisayar üreten Tayvanlı sözleşmeli üretici. Kârı yapay zekâ sunucularıyla ikiye katlandı, ama marj ince, üç müşteri satışın %73'ü; hendek ölçütünü geçemedi.",
+  "business": "Wistron (緯創), başka markalar için sunucu, yapay zekâ sunucusu, dizüstü ve masaüstü bilgisayar, ekran ve ağ donanımı tasarlar ve üretir; kendi markasıyla satmaz. 2025'te hasılat 2,19 trilyon Tayvan doları oldu (2024: 1,05 trilyon); %70,7'si ABD'ye satıldı. Hasılatın %98,5'i tek bir bölümdür (araştırma, geliştirme ve üretim); şirket ürün kollarının kârını ayrı açıklamıyor. Grubun en kârlı parçası, %40,13'üne sahip olduğu ve tam konsolide ettiği sunucu şirketi Wiwynn'dir (緯穎): 2025'te 950,7 milyar Tayvan doları hasılat ve 51,1 milyar Tayvan doları kâr. Bu kârın %59,87'si azınlık ortaklarınındır.",
+  "moat_text": "Hendek zayıf. Şirket bu ölçütü geçemedi. Sözleşmeli üretimde iş, müşterinin her yeni ürününde teklifle yeniden kazanılır; müşteri aynı ürünü birkaç üreticiye böler. Fiyatlama gücünün olmadığı marjda görünüyor: brüt marj 2025'in ilk dokuz ayında %6,38 iken 2026'nın aynı döneminde %5,62'ye, üçüncü çeyrekte %7,39'dan %5,90'a indi. Hasılat iki katına çıkarken marj daraldı. Güçlü yan gerçek: ölçek (şirketin aktardığı MIC verisine göre Tayvanlı üreticilerin sunucu üretiminin yaklaşık %22'si), 5.600 kişiyi aşan mühendis kadrosu ve yedi ülkede fabrika. Reel özsermaye kârlılığı beş yılda %11,8 ile %24,6 arasında, son 12 ayda %26,7. Ama yükseliş birkaç müşterinin yapay zekâ yatırımına denk geliyor: 2025'te en büyük müşteri hasılatın %39'u, ilk üçü %73'ü; en büyük tedarikçi alımların %27'si. Müşteri de tedarikçi de şirketten güçlü. Aynı işi yapan başka büyük Tayvanlı üreticiler var; yatırım dalgası yavaşladığında kârlılığı koruyacak, rakamla kanıtlı bir üstünlük göremedik.",
+  "mgmt": "Hâkim ortak yok: en büyük ortak bir borsa yatırım fonu (%3,87), yönetim kurulu başkanı Lin Hsien-Ming'in payı %1,42 (31 Mart 2026). Kâr ortağa ulaşmadan iki kez küçülüyor: 2025'te vergi öncesi kâr 76,3 milyar Tayvan doları, vergi 18,5 milyar, azınlık payı 30,4 milyar, ana ortaklığa kalan 27,4 milyar. Kendi hesabımızla Wiwynn'deki %40,13 pay ana ortaklık kârının yaklaşık dörtte üçüdür. Büyüme nakit yiyor: 2025'te işletme faaliyetlerinden nakit akışı eksi 105,8 milyar Tayvan doları, yatırım harcaması 39,6 milyar; kısa vadeli banka borcu 81,7 milyardan 235,2 milyara çıktı. Açık, ortaklardan ve borçla kapatıldı: Haziran 2025'te 250 milyon yeni hisse (depo sertifikası, 914 milyon dolar), Ekim 2025'te 1,2 milyar dolarlık hisseye çevrilebilir tahvil (çevirme fiyatı 179,96 Tayvan doları), Ağustos 2025'te çalışanlara 36 milyon kısıtlı hisse, Eylül 2026'da yine 250 milyon yeni hisse (basına göre hisse başına yaklaşık 186 Tayvan doları, toplam yaklaşık 1,47 milyar dolar). Aynı dönemde 2025 kârından hisse başına 5,5 Tayvan doları nakit temettü ödendi (17,5 milyar; kârın yaklaşık %64'ü). Bir yandan temettü ödeyip bir yandan hisse satmak ortağı sulandırıyor; para ana işe gittiği için D puanı 1. Geri alım yok. Hisse bazlı ücret 2025'te 1,05 milyar Tayvan doları (ana ortaklık kârının %3,8'i); şirket düzeltilmiş kâr açıklamıyor. Şerefiye küçük (724 milyon; özsermayenin %0,4'ü); 2024 ve 2025'te şerefiye değer düşüklüğü yazıldı (287 ve 228 milyon). İlişkili taraf işlemleri küçük (2025'te iştiraklerden alım 1,9 milyar).",
+  "latest": "11 Kasım 2026: Yönetim kurulu dokuz aylık sonuçları onayladı. Ocak-Eylül 2026'da hasılat 2,89 trilyon Tayvan doları (yıllık %97 artış), faaliyet kârı 111,3 milyar, vergi öncesi kâr 97,1 milyar, ana ortaklığa düşen net kâr 42,9 milyar Tayvan doları; hisse başına kâr 13,54 (bir yıl önce 6,43). Üçüncü çeyrekte hasılat 1,15 trilyon, net kâr 18,4 milyar Tayvan doları, hisse başına kâr 5,74 (bir yıl önce 2,36); brüt marj %5,90. Faaliyet dışı kalemler dokuz ayda net 14,2 milyar Tayvan doları gider yazdı; kârı şişiren tek seferlik bir kazanç görmedik. Kurul ayrıca Tainan ve Hsinchu tesisleri için 12,8 milyar Tayvan doları, Meksika için 17,8 milyon dolar yatırım onayladı. Eylül sonu bilançosunu (özsermaye, borç) açamadık.",
+  "risks": [
+   "Müşteri yoğunlaşması: 2025'te bir müşteri hasılatın %39'u, ilk üç müşteri %73'ü. Birinin siparişi başka üreticiye kayarsa kâr hızla düşer.",
+   "Kâr, bulut şirketlerinin yapay zekâ yatırım dalgasına bağlı. Beş yıllık geçmiş tam bir döngüyü göstermiyor; şu an döngünün yüksek noktasına yakın görünüyor (hasılat bir yılda iki katı).",
+   "Marj ince ve daralıyor: dokuz aylık brüt marj %5,62. Parça fiyatındaki küçük bir oynama ya da stok değer kaybı kârın büyük bölümünü götürebilir; 2025 sonunda stok 355 milyar Tayvan doları.",
+   "Büyüme borç ve yeni hisseyle finanse ediliyor: on beş ayda iki kez 250 milyon hisse ihraç edildi, çevrilebilir tahvil tam çevrilirse yaklaşık %6 daha sulanma olur. Net borç/FAVÖK 2,08; eşik 3.",
+   "Konsolide kârın yarısından fazlası azınlık ortaklarının. Wiwynn'deki pay %40,13; kontrol, genel kurula katılan oyların yarıya yakınına dayanıyor. Bilanço dışında bağlı şirketlere verilen kefaletler var (en büyüğü 19,8 milyar Tayvan doları; özsermayenin %11'i)."
+  ],
+  "watch": [
+   "Brüt marj (2026'nın ilk dokuz ayında %5,62)",
+   "En büyük müşterinin hasılat payı (2025: %39)",
+   "İşletme faaliyetlerinden nakit akışı ve kısa vadeli borç",
+   "Pay sayısı: yeni ihraç ve tahvil çevirme"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tpe/3231/financials/ratios/"
+   },
+   {
+    "t": "Wistron: üçüncü çeyrek sonuçları ve yönetim kurulu kararları (11 Kasım 2026)",
+    "te": "Wistron: Q3 financial results and board resolutions (11 November 2026)",
+    "u": "https://www.wistron.com/en/Newsroom/2026-11-11"
+   },
+   {
+    "t": "Yahoo Finance Tayvan (MoneyDJ): Wistron 2026 üçüncü çeyrek gelir tablosu, borsa bildiriminden (11 Kasım 2026)",
+    "te": "Yahoo Finance Taiwan (MoneyDJ): Wistron Q3 2026 income statement, from the exchange filing (11 November 2026)",
+    "u": "https://tw.stock.yahoo.com/news/%E7%B7%AF%E5%89%B5-115%E5%B9%B4%E7%AC%AC3%E5%AD%A3%E7%B6%9C%E5%90%88%E6%90%8D%E7%9B%8A%E8%A1%A8-%E6%AF%8F%E8%82%A1%E7%9B%88%E9%A4%985-74%E5%85%83-100400626.html"
+   },
+   {
+    "t": "CNA: Wistron üçüncü çeyrekte hisse başına 5,74 Tayvan doları kazandı (11 Kasım 2026)",
+    "te": "CNA: Wistron Q3 EPS reaches 5.74 (11 November 2026)",
+    "u": "https://www.cna.com.tw/news/afe/202611110297.aspx"
+   },
+   {
+    "t": "Wistron: 2025 konsolide finansal tabloları ve dipnotları",
+    "te": "Wistron: 2025 consolidated financial statements and notes",
+    "u": "https://esg.wistron.com/uploads/files/shares/2025%20Wistron%20Consolidated%20FS.pdf"
+   },
+   {
+    "t": "Wistron: 2025 faaliyet raporu, faaliyet özeti (müşteri ve tedarikçi payları, satış bölgeleri) (31 Mart 2026)",
+    "te": "Wistron: 2025 annual report, operational highlights (customer and supplier shares, sales regions) (31 March 2026)",
+    "u": "https://www.wistron.com/file/0fcd25d9-5b6f-4991-a9bb-ca1512967f89/2025_WistronAnnualReport_EN_04.pdf"
+   },
+   {
+    "t": "Wistron: 2025 faaliyet raporu, paylar ve fon kullanımı (sermaye geçmişi, ortaklar, temettü, tahvil) (31 Mart 2026)",
+    "te": "Wistron: 2025 annual report, shares and fund raising (capital history, shareholders, dividend, bond) (31 March 2026)",
+    "u": "https://www.wistron.com/file/28a1ca94-a39b-4213-83b5-671f23924c76/2025_WistronAnnualReport_EN_03.pdf"
+   },
+   {
+    "t": "I-Connect007: Wistron 2026 ilk yarı sonuçları ve depo sertifikası ihracı kararı, şirket bülteninden (4 Ağustos 2026)",
+    "te": "I-Connect007: Wistron first-half 2026 results and resolution to issue depositary receipts, from the company release (4 August 2026)",
+    "u": "https://iconnect007.com/article/151055/wistron-reports-1h-2026-financial-results/151052/ein"
+   },
+   {
+    "t": "UAnalyze (cnyes): Wistron depo sertifikası fiyatlandı, hisse düştü (8 Eylül 2026)",
+    "te": "UAnalyze (cnyes): Wistron depositary receipts priced, shares fall (8 September 2026)",
+    "u": "https://uanalyze.com.tw/articles/2731854855"
+   },
+   {
+    "t": "Commercial Times: Wistron dokuz ayda bir sermayeden fazla kazandı; marjlar (12 Kasım 2026)",
+    "te": "Commercial Times: Wistron nine-month profit and margins (12 November 2026)",
+    "u": "https://www.ctee.com.tw/news/20261112700177-430502"
+   }
+  ],
+  "en": {
+   "one": "Taiwanese contract manufacturer of servers and PCs. AI servers doubled its profit, but margins are thin and three customers make up 73% of sales; it failed the moat test.",
+   "business": "Wistron (緯創) designs and builds servers, AI servers, notebook and desktop PCs, displays and networking gear for other brands; it does not sell under its own brand. Revenue was 2.19 trillion Taiwan dollars in 2025 (2024: 1.05 trillion); 70.7% was sold to the United States. 98.5% of revenue sits in one segment (research, development and manufacturing); the company does not report profit by product line. The most profitable part of the group is the server company Wiwynn (緯穎), which Wistron owns 40.13% of and fully consolidates: 950.7 billion Taiwan dollars of revenue and 51.1 billion of profit in 2025. 59.87% of that profit belongs to minority shareholders.",
+   "moat_text": "The moat is weak. The company failed this test. In contract manufacturing the work is won again by quotation for each new customer product, and the customer splits the same product among several makers. The lack of pricing power shows in the margin: gross margin fell from 6.38% in the first nine months of 2025 to 5.62% in the same period of 2026, and from 7.39% to 5.90% in the third quarter. Revenue doubled while the margin narrowed. The strengths are real: scale (about 22% of Taiwanese makers' server output, per the MIC data the company cites), more than 5,600 engineers, and plants in seven countries. Real return on equity ranged from 11.8% to 24.6% over five years and is 26.7% for the last 12 months. But the rise coincides with the AI spending of a few customers: in 2025 the largest customer was 39% of revenue and the top three 73%; the largest supplier was 27% of purchases. Both the customer and the supplier are stronger than the company. Other large Taiwanese makers do the same work; we found no advantage, proven in numbers, that would protect returns when the spending wave slows.",
+   "mgmt": "There is no controlling shareholder: the largest holder is an exchange-traded fund (3.87%), and chairman Lin Hsien-Ming holds 1.42% (31 March 2026). Profit shrinks twice before it reaches the owner: in 2025 profit before tax was 76.3 billion Taiwan dollars, tax 18.5 billion, the minority share 30.4 billion, and 27.4 billion was left for the parent. By our own calculation the 40.13% stake in Wiwynn is about three quarters of the parent's profit. Growth consumes cash: in 2025 cash flow from operations was minus 105.8 billion Taiwan dollars and capital spending 39.6 billion; short-term bank loans rose from 81.7 billion to 235.2 billion. The gap was filled by shareholders and debt: 250 million new shares in June 2025 (depositary receipts, 914 million US dollars), a 1.2 billion US dollar convertible bond in October 2025 (conversion price 179.96 Taiwan dollars), 36 million restricted shares to employees in August 2025, and another 250 million new shares in September 2026 (about 186 Taiwan dollars a share and about 1.47 billion US dollars in total, per press reports). Over the same period a cash dividend of 5.5 Taiwan dollars a share was paid from 2025 profit (17.5 billion; about 64% of profit). Paying a dividend while selling shares dilutes the owner; the money goes into the core business, so the D score is 1. There are no buybacks. Share-based pay was 1.05 billion Taiwan dollars in 2025 (3.8% of the parent's profit); the company does not report an adjusted profit. Goodwill is small (724 million; 0.4% of equity); goodwill impairments were booked in 2024 and 2025 (287 and 228 million). Related-party dealings are small (purchases from associates of 1.9 billion in 2025).",
+   "latest": "11 November 2026: The board approved the nine-month results. In January-September 2026 revenue was 2.89 trillion Taiwan dollars (up 97% on the year), operating income 111.3 billion, profit before tax 97.1 billion and net profit attributable to the parent 42.9 billion Taiwan dollars; earnings per share were 13.54 (6.43 a year earlier). In the third quarter revenue was 1.15 trillion, net profit 18.4 billion Taiwan dollars and earnings per share 5.74 (2.36 a year earlier); gross margin was 5.90%. Non-operating items were a net expense of 14.2 billion Taiwan dollars over the nine months; we saw no one-off gain inflating profit. The board also approved 12.8 billion Taiwan dollars of spending on the Tainan and Hsinchu sites and 17.8 million US dollars for Mexico. We could not open the end-September balance sheet (equity, debt).",
+   "risks": [
+    "Customer concentration: in 2025 one customer was 39% of revenue and the top three 73%. If one of them moves orders to another maker, profit falls quickly.",
+    "Profit depends on the cloud companies' AI spending wave. Five years of history do not show a full cycle; the business looks close to the high point of the cycle now (revenue doubled in a year).",
+    "The margin is thin and narrowing: nine-month gross margin is 5.62%. A small move in component prices or an inventory write-down can wipe out much of the profit; inventory was 355 billion Taiwan dollars at the end of 2025.",
+    "Growth is funded by debt and new shares: 250 million shares were issued twice in fifteen months, and full conversion of the bond would dilute by about 6% more. Net debt/EBITDA is 2.08; the threshold is 3.",
+    "More than half of consolidated profit belongs to minority shareholders. The Wiwynn stake is 40.13%; control rests on holding close to half of the votes present at shareholder meetings. Off the balance sheet there are guarantees to subsidiaries (the largest is 19.8 billion Taiwan dollars; 11% of equity)."
+   ],
+   "watch": [
+    "Gross margin (5.62% in the first nine months of 2026)",
+    "The largest customer's share of revenue (2025: 39%)",
+    "Cash flow from operations and short-term debt",
+    "Share count: new issues and bond conversion"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-14",
+   "per": "2026-Q3"
+  }
  }
 }

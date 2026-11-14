@@ -21,37 +21,68 @@
   "unit": "million USD",
   "eps_cur": "USD",
   "ttm": {
-   "eps": 11.6,
-   "net_profit": 9267,
-   "tr": "Kasım 2025 - Temmuz 2026 dokuz ayı artı Ağustos-Ekim 2025 çeyreği (dört çeyrek)",
-   "en": "nine months November 2025 - July 2026 plus the August-October 2025 quarter (four quarters)",
-   "url": "https://www.sec.gov/Archives/edgar/data/0000006951/000162828026056699/exhibit991q32026earningsre.htm"
+   "eps": 12.62,
+   "net_profit": 10088,
+   "tr": "2026 mali yılı: Kasım 2025 - Ekim 2026 (dört çeyrek; seyreltilmiş hisse başına kâr)",
+   "en": "fiscal 2026: November 2025 - October 2026 (four quarters; diluted EPS)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000006951/000162828026073360/exhibit991q42026earningsre.htm",
+   "primary": true
   },
-  "tax_rate": 12.9,
+  "tax_rate": 12.6,
   "gains": [
    {
-    "tr": "Stratejik yatırımlarda gerçekleşmemiş değer artışı (net)",
-    "en": "Unrealised gain on strategic investments, net",
-    "frac": 0.0371,
-    "how": null,
-    "period_tr": "Ağustos-Ekim 2025 çeyreği (2025 mali yılının 4. çeyreği)",
-    "period_en": "August-October 2025 quarter (fiscal Q4 2025)",
-    "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-fourth-quarter-and-fiscal-year-2025"
+    "tr": "Stratejik yatırımlarda gerçekleşmemiş değer artışı (net; 4. çeyrekteki 653 milyon dolarlık değer kaybı düşülmüş): yılda 296 milyon dolar, şirketin mutabakatında hisse başına 0,42 dolar",
+    "en": "Unrealised gain on strategic investments, net (after a 653 million dollar loss in Q4): 296 million dollars for the year, 0.42 dollars a share in the company's reconciliation",
+    "frac": 0.0333,
+    "how": "0.42 / 12.62; per-share figure as printed in the company's EPS reconciliation",
+    "period_tr": "Kasım 2025 - Ekim 2026 (2026 mali yılı)",
+    "period_en": "November 2025 - October 2026 (fiscal 2026)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000006951/000162828026073360/exhibit991q42026earningsre.htm",
+    "primary": true
    },
    {
-    "tr": "Stratejik yatırımlarda gerçekleşmemiş değer artışı (net; 3. çeyrekteki 220 milyonluk değer kaybı düşülmüş)",
-    "en": "Unrealised gain on strategic investments, net (after a 220 million loss in Q3)",
-    "frac": 0.0871,
-    "how": null,
-    "period_tr": "Kasım 2025 - Temmuz 2026 (2026 mali yılının ilk dokuz ayı)",
-    "period_en": "November 2025 - July 2026 (first nine months of fiscal 2026)",
-    "url": "https://www.sec.gov/Archives/edgar/data/0000006951/000162828026056699/exhibit991q32026earningsre.htm"
+    "tr": "Geçmiş yılların vergi beyanlarının kapanması ve öbür vergi kalemleri: 24 milyon dolar, hisse başına 0,03 dolar",
+    "en": "Resolution of prior years' income tax filings and other tax items: 24 million dollars, 0.03 dollars a share",
+    "frac": 0.0024,
+    "how": "0.03 / 12.62; as printed in the company's EPS reconciliation",
+    "period_tr": "Kasım 2025 - Ekim 2026 (2026 mali yılı)",
+    "period_en": "November 2025 - October 2026 (fiscal 2026)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000006951/000162828026073360/exhibit991q42026earningsre.htm",
+    "primary": true
    }
   ],
-  "offsets": [],
+  "offsets": [
+   {
+    "tr": "ABD Ticaret Bakanlığı (BIS) ile ihracat denetimi uzlaşması: 253 milyon dolar, hisse başına 0,32 dolar",
+    "en": "Export-control settlement with the US Commerce Department (BIS): 253 million dollars, 0.32 dollars a share",
+    "frac": 0.0254,
+    "how": "0.32 / 12.62; as printed in the company's EPS reconciliation",
+    "period_tr": "Kasım 2025 - Ekim 2026 (2026 mali yılı)",
+    "period_en": "November 2025 - October 2026 (fiscal 2026)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000006951/000162828026073360/exhibit991q42026earningsre.htm"
+   },
+   {
+    "tr": "Stratejik yatırımlarda gerçekleşen zarar, temettü ve değer düşüklüğü (net): şirketin mutabakatında hisse başına 0,13 dolar",
+    "en": "Realised loss, dividends and impairments on strategic investments, net: 0.13 dollars a share in the company's reconciliation",
+    "frac": 0.0103,
+    "how": "0.13 / 12.62; as printed in the company's EPS reconciliation (the net-income reconciliation shows 4 million; see notes)",
+    "period_tr": "Kasım 2025 - Ekim 2026 (2026 mali yılı)",
+    "period_en": "November 2025 - October 2026 (fiscal 2026)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000006951/000162828026073360/exhibit991q42026earningsre.htm"
+   },
+   {
+    "tr": "Yeniden yapılanma gideri: 8 milyon dolar, hisse başına 0,01 dolar",
+    "en": "Restructuring charges: 8 million dollars, 0.01 dollars a share",
+    "frac": 0.0008,
+    "how": "0.01 / 12.62; as printed in the company's EPS reconciliation",
+    "period_tr": "Kasım 2025 - Ekim 2026 (2026 mali yılı)",
+    "period_en": "November 2025 - October 2026 (fiscal 2026)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000006951/000162828026073360/exhibit991q42026earningsre.htm"
+   }
+  ],
   "drop": null,
   "guidance": [],
-  "notes": "The Q4 / fiscal 2026 release (due 12 Nov 2026 after the US close) was NOT out when checked: the IR home page still listed only the date announcement and searches returned previews only. TTM = Q4 fiscal 2025 (GAAP EPS 2.38, net income 1,897) + nine months fiscal 2026 (9.22; 7,370). Gains are the company's own non-GAAP reconciliation lines; the amounts in millions are from the net-income reconciliation (pre-tax; the tax effect is in a separate combined line), the per-share figures are from the EPS reconciliation as printed. Total unrealised gain in the 12 months: 1,416 million, 1.44 per share. Smaller items: realised gain/dividends on strategic investments 55 million (0.07) in Q4 fiscal 2025 and a 22 million net loss in nine months 2026; prior-year tax resolution items were a 7 million benefit in Q4 fiscal 2025 and a 3 million charge in nine months 2026 (the large tax charges of 738 and 320 million sit in fiscal 2025's first nine months, outside the 12 months). The 12 months also carry one-off charges (253 million export-control settlement in fiscal 2026; 181 million restructuring and 41 million impairment in Q4 fiscal 2025), ignored per brief. Non-GAAP EPS for the same 12 months: 2.17 + 8.73 = 10.90. Q4 guidance of 4.02 +/- 0.20 non-GAAP implies about 12.55-12.95 non-GAAP for fiscal 2026 (my arithmetic). Tax rate 12.9% is computed for nine months fiscal 2026 (1,090 / 8,460); fiscal 2025 was about 24.5% (2,273 / 9,271), inflated by a 410 million valuation allowance."
+  "notes": "TTM = fiscal 2026 as reported in the SEC 8-K exhibit of 12 Nov 2026: GAAP diluted EPS 12.62, net income 10,088 (799m diluted shares). Source check: 370.5 / 29.36 = 12.62 and 294,028 / 29.36 = 10,015; the document is not below the source. Gains/offsets are the company's own GAAP-to-non-GAAP reconciliation lines for fiscal 2026 (read through WebFetch twice; the EPS lines sum exactly from 12.62 to 12.89). Per-share lines as printed: unrealised gain on strategic investments (0.42) [net-income table: (296) million = 949 gain in nine months less 653 loss in Q4]; realised loss/dividends/impairments on strategic investments +0.13 [net-income table shows only 4 million; the two tables do not match on this line, the main session may wish to re-read it]; legal settlement +0.32 (253m); restructuring +0.01 (8m); acquisition items +0.06 and deal costs +0.02 (recurring, not treated); intra-entity intangible transfer tax effects +0.18 (145m; recurs every year, not treated as one-off); prior-year tax resolution (0.03) (24m benefit). Gains 0.45 against offsets 0.46: net one-offs are about zero, so on the rule no reduction follows; without offsets the gains are 3.6% of TTM profit. The previous record left offsets empty; they are filled here because CLAUDE.md asks for them. Q4 alone: unrealised LOSS 653m (0.68), so Q4 GAAP EPS 3.40 understates and non-GAAP is 4.16. Non-GAAP EPS fiscal 2026: 12.89. Tax rate 12.6% = 1,449 / 11,537 (fiscal 2026, my arithmetic). Guidance: only Q1 FY2027 (non-GAAP 4.35 +/- 0.20), a single quarter, so not used; no full-year EPS guidance. Share-based compensation 719m (7.1% of net income), not excluded from non-GAAP."
  },
  "AVGO": {
   "unit": "million USD",
@@ -155,22 +186,24 @@
   "unit": "million USD",
   "eps_cur": "USD",
   "ttm": {
-   "eps": 3.33,
-   "net_profit": 13267,
-   "tr": "Ağustos 2025 - Temmuz 2026 (2026 mali yılı)",
-   "en": "August 2025 - July 2026 (fiscal year 2026)",
-   "url": "https://investor.cisco.com/news/news-details/2026/CISCO-REPORTS-FOURTH-QUARTER-AND-FISCAL-YEAR-2026-EARNINGS/default.aspx"
+   "eps": 3.75,
+   "net_profit": 14959,
+   "tr": "Kasım 2025 - Ekim 2026: 2026 mali yılı (3,33 dolar; net kâr 13.267 milyon) eksi Ağustos-Ekim 2025 çeyreği (0,72; 2.860 milyon) artı Ağustos-Ekim 2026 çeyreği (1,14; 4.552 milyon)",
+   "en": "November 2025 - October 2026: fiscal 2026 (3.33 dollars; net income 13,267 million) minus the August-October 2025 quarter (0.72; 2,860 million) plus the August-October 2026 quarter (1.14; 4,552 million)",
+   "url": "https://investor.cisco.com/news/news-details/2026/CISCO-REPORTS-FIRST-QUARTER-EARNINGS/default.aspx",
+   "primary": true
   },
   "tax_rate": 17.1,
   "gains": [
    {
-    "tr": "Yatırım kazançları (şirket düzeltilmiş kârdan çıkarıyor; hangi yatırım olduğunu söylemiyor). Yılda 1.398 milyon doların 869 milyonu son çeyrekte (Mayıs-Temmuz 2026)",
-    "en": "Gains on investments (the company removes them from non-GAAP earnings and does not name the investments). Of 1,398 million dollars in the year, 869 million came in the last quarter (May-July 2026)",
-    "frac": 0.0874,
+    "tr": "Yatırım kazançları (şirket düzeltilmiş kârdan çıkarıyor; hangi yatırım olduğunu söylemiyor). Son 12 ayda vergi öncesi 1.276 milyon dolar: 2026 mali yılında 1.398 milyon, eksi Ağustos-Ekim 2025 çeyreğindeki 195 milyon, artı Ağustos-Ekim 2026 çeyreğindeki 73 milyon. 869 milyonu Mayıs-Temmuz 2026 çeyreğinde",
+    "en": "Gains on investments (the company removes them from non-GAAP earnings and does not name the investments). 1,276 million dollars pre-tax in the last 12 months: 1,398 million in fiscal 2026, minus 195 million in the August-October 2025 quarter, plus 73 million in the August-October 2026 quarter. 869 million of it came in the May-July 2026 quarter",
+    "frac": 0.0707,
     "how": 17.1,
-    "period_tr": "2026 mali yılı (Ağustos 2025 - Temmuz 2026)",
-    "period_en": "Fiscal year 2026 (August 2025 - July 2026)",
-    "url": "https://investor.cisco.com/news/news-details/2026/CISCO-REPORTS-FOURTH-QUARTER-AND-FISCAL-YEAR-2026-EARNINGS/default.aspx"
+    "period_tr": "Kasım 2025 - Ekim 2026",
+    "period_en": "November 2025 - October 2026",
+    "url": "https://s21.q4cdn.com/812015656/files/doc_earnings/2027/q1/earnings-result/Q1FY27-Press-Release.pdf",
+    "primary": true
    }
   ],
   "offsets": [],
@@ -179,25 +212,16 @@
    {
     "fy_tr": "2027 mali yılı (Temmuz 2027'de biter)",
     "fy_en": "Fiscal 2027 (ends July 2027)",
-    "mid": 4.03,
-    "low": 4.0,
-    "high": 4.06,
+    "mid": 4.41,
+    "low": 4.38,
+    "high": 4.44,
     "kind": "reported",
-    "url": "https://investor.cisco.com/news/news-details/2026/CISCO-REPORTS-FOURTH-QUARTER-AND-FISCAL-YEAR-2026-EARNINGS/default.aspx",
-    "date": "2026-08-12"
-   },
-   {
-    "fy_tr": "2027 mali yılı (Temmuz 2027'de biter)",
-    "fy_en": "Fiscal 2027 (ends July 2027)",
-    "mid": 5.08,
-    "low": 5.05,
-    "high": 5.11,
-    "kind": "adjusted",
-    "url": "https://investor.cisco.com/news/news-details/2026/CISCO-REPORTS-FOURTH-QUARTER-AND-FISCAL-YEAR-2026-EARNINGS/default.aspx",
-    "date": "2026-08-12"
+    "url": "https://investor.cisco.com/news/news-details/2026/CISCO-REPORTS-FIRST-QUARTER-EARNINGS/default.aspx",
+    "date": "2026-11-12",
+    "primary": true
    }
   ],
-  "notes": "Latest report is the full fiscal year ended 25 July 2026, so ttm = fiscal 2026 (GAAP net income 13,267, EPS 3.33; non-GAAP EPS 4.33). Q1 fiscal 2027 results were due on 12 November 2026 after the US close; two searches during this session found only the conference-call notice, no results, so nothing newer was used: RE-CHECK. Investment gains: 1,398 pre-tax for the year = about 1,159 after tax at the 17.1% GAAP rate, about 0.29 per share, 8.7% of profit (my arithmetic; the company gives no after-tax or per-share figure). Other income (loss), net was 1,245 for the year (822 in Q4) versus (68) in fiscal 2025. Going the other way inside GAAP profit: 'significant tax matters' were a net tax CHARGE of 198 for the year (330 in Q4), restructuring charges 693 (511 in Q4, plan announced 13 May 2026). Company guidance for Q1 fiscal 2027: GAAP EPS 1.08-1.10, non-GAAP 1.32-1.34. The GAAP full-year guidance (4.00-4.06) is ABOVE the 12-month EPS of 3.33."
+  "notes": "TTM built from two company releases: FY26 (SEC 8-K exhibit, 12 Aug 2026) and Q1 FY27 (12 Nov 2026; it prints the prior-year quarter). Net income 13,267 - 2,860 + 4,552 = 14,959. EPS 3.33 - 0.72 + 1.14 = 3.75 (summing quarterly EPS is approximate; share count almost flat, 3,993m -> 3,978m). Source check: price 95.64 / P/E 25.49 = 3.75; market cap 376,533 / 25.49 = 14,772: the document is not below the source. GAIN: (gains) on investments in the GAAP-to-non-GAAP reconciliation: FY26 1,398, Q1 FY26 195, Q1 FY27 73 -> TTM 1,276 pre-tax; x (1 - 0.171) = 1,058 after tax = 7.07% of 14,959 (my arithmetic; 17.1% is the FY26 GAAP effective rate, as in the previous record; Q1 FY27 rate was 17.2%, FY27 guide about 16%; the company gives no after-tax figure). OFFSETS left empty, as in the previous record, FOR THE MAIN SESSION TO CONFIRM: (a) restructuring and other charges TTM 574 pre-tax (693 - 147 + 28) are not counted because they recur every year (FY24 789, FY25 744, FY26 693), so they are ordinary costs under the reading-list rule; (b) 'significant tax matters' were a net tax CHARGE of 344 in the TTM (FY26 +198, Q1 FY26 was a 73 benefit, Q1 FY27 a 73 charge) = 2.3% of profit; if treated as a company-disclosed one-off charge, net one-offs would be 4.8% instead of 7.1%. Left out to stay on the conservative side; the release does not explain the item. Guidance: FY27 GAAP EPS 4.38-4.44 (raised from 4.00-4.06) is ABOVE TTM 3.75, so it does not lower earnings; it includes about 0.11 a share of impairment and restructuring costs. The non-GAAP guidance (5.47-5.53) is deliberately not recorded: it excludes share-based compensation (TTM 3,645m = 24% of net income). Q2 guidance (GAAP 1.07-1.09) is quarter-only, not used."
  },
  "GOOGL": {
   "unit": "million USD",

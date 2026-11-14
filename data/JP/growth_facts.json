@@ -40,7 +40,7 @@
   "skip": null,
   "note_tr": null,
   "note_en": null,
-  "notes": "Source is the company's own FY2026 Q2 summary document, hosted on MarketScreener (dated 11 Nov 2026; its disclaimer says published 10 Nov). Net profit: Q2 209.0bn vs 127.4bn yen (+64.0%); H1 411.6bn vs 248.3bn (+65.7%). Diluted and adjusted EPS not in the document. Full-year guidance unchanged from 7 Aug 2026. Note the guidance implies a slower second half: H2 net profit 755.0-411.6 = 343.4bn vs 496.9-248.3 = 248.6bn a year earlier, about +38% (my arithmetic). The company names no one-off; the Q1 summary attributes the jump to HR Technology monetisation and cost efficiency (segment EBITDA+S 215.7bn vs 119.4bn in Q1). No business sold or lost found."
+  "notes": "Rewritten 14 Nov 2026 for universe period 2026-Q2. The figures are unchanged from the previous record, which a prior session read from the company's own Q2 summary (copy hosted on MarketScreener). In THIS session the company's Q2 documents could not be opened (WebFetch permission not answered: Recruit_202703Q2_summary_en.html, Recruit_202703Q2_earnings_en.html and the two PDFs on file.recruit-holdings.com), so `primary: true` is carried over, not re-verified. Re-confirmed this session from secondary sources: Q2 basic EPS 150.54 (+68.8%) and FY guidance basic EPS 543.00 (+55.2%), unchanged (Investing.com slides article and call transcript, 11 Nov 2026); H1 profit attributable 411.6bn (+65.7%) (TipRanks filing summary; Yahoo/Investing.com); prior-year Q2 89.16 and H1 173.12 (Quartr summary of the Nov 2025 release). From primary documents opened this session: Q1 basic EPS 145.48 vs 83.97 (Q1 earnings release), FY to March 2026 basic EPS 349.78, profit 496,912m (earnings release 15 May 2026). H1 296.01 was not seen directly this session; 145.48 + 150.54 = 296.02, consistent within rounding. Guidance implies a slower second half: H2 net profit 755.0 - 411.6 = 343.4bn vs 248.6bn a year earlier, about +38% (my arithmetic); management guides HR Technology H2 EBITDA+S margin 45.5% vs 47.5% in H1 and US ARPJ growth ~29% vs 37%. Management said on the call that the raised HR Technology outlook would add about 5% to EPS versus the unchanged consolidated guidance. The company's adjusted measure (EBITDA+S) excludes share-based payment, so `adjusted` is left null. No business sold or lost found; no permanent cause of decline. Dividend yield is in the source (0.15%), so `dividend` is null."
  },
  "8035": {
   "metric": "net profit",
@@ -381,26 +381,26 @@
  "194A": {
   "metric": "EPS",
   "ytd": {
-   "tr": "Temmuz 2025-Haziran 2026 mali yılı",
-   "en": "fiscal year July 2025-June 2026",
-   "pct": 57.4,
-   "cur_val": "124,88",
-   "prev_val": "79,34",
+   "tr": "Temmuz-Eylül 2026 çeyreği (yeni mali yılın ilk üç ayı)",
+   "en": "July-September 2026 quarter (first three months of the new fiscal year)",
+   "pct": 14.3,
+   "cur_val": "25,30",
+   "prev_val": "22,13",
    "unit": "yen (temel hisse başına kâr) / yen (basic EPS)",
-   "date": "2026-08-13",
-   "url": "https://www2.jpx.co.jp/disc/194A0/081220260813518909_tse-acedjpsm-194A0-202608133194A0-ixbrl.htm",
-   "primary": true
+   "date": "2026-11-11",
+   "url": "https://s.kabutan.jp/stocks/194A/finance/",
+   "primary": false
   },
   "quarter": {
-   "tr": "Nisan-Haziran 2026 çeyreği (yıllık eksi dokuz aylık, türetildi)",
-   "en": "April-June 2026 quarter (full year minus nine months, derived)",
-   "pct": 16.0,
-   "cur_val": "45,30",
-   "prev_val": "39,06",
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 14.3,
+   "cur_val": "25,30",
+   "prev_val": "22,13",
    "unit": "yen (temel hisse başına kâr) / yen (basic EPS)",
-   "date": "2026-08-13",
-   "url": "https://www2.jpx.co.jp/disc/194A0/140120260513528921.pdf",
-   "primary": true
+   "date": "2026-11-11",
+   "url": "https://s.kabutan.jp/stocks/194A/finance/",
+   "primary": false
   },
   "guidance": {
    "tr": "Haziran 2027 yılı için şirket tahmini",
@@ -425,7 +425,7 @@
   "skip": null,
   "note_tr": null,
   "note_en": null,
-  "notes": "Primary: full-year tanshin of 13 Aug 2026 (summary page and PDF) and nine-month tanshin of 13 May 2026, both on www2.jpx.co.jp. FY June 2026: basic EPS 124.88 vs 79.34 (+57.4%); profit attributable 939,402k vs 593m (+58.4%). Nine months: EPS 79.58 vs 40.28; profit 597,775k vs 301,086k. Quarter is my subtraction: 124.88-79.58 = 45.30 vs 79.34-40.28 = 39.06 (+16.0%); quarterly EPS by subtraction ignores share-count changes (Matsui Securities shows Q4 EPS 45.48 vs 39.07, same result). Guidance: profit 1,005,368k (+7.0%), EPS 132.90; 132.90/124.88 = +6.42%. The company gives no adjusted growth figure, so `adjusted` is null. But FY2026 profit includes extraordinary gains of 251,315k (negative goodwill 227,452k) against extraordinary losses of 86,140k: the +57.4% and the Q4 +16.0% are flattered by them (Q4 alone holds 72,998k of the negative goodwill gain and the 83,376k impairment, both by subtraction from the nine-month figures). Ordinary profit rose 24.6% in the year; the forecast has operating profit +39.3% but net profit only +7.0% (the tanshin does not explain the gap; the absence of the one-off gain is the likely reason, my inference). Dividend: nothing paid for FY2026 or earlier; 26 yen is the company's FORECAST for FY June 2027 (payout 19.6%), not a declared dividend. NOT READ: the Q1 FY2027 tanshin (July-September 2026) was filed on 11 Nov 2026 15:30 (IRBANK listing, doc id 140120261111573837); the PDF could not be opened (https://www2.jpx.co.jp/disc/194A0/140120261111573837.pdf and https://f.irbank.net/pdf/20261111/140120261111573837.pdf: permission request not answered; kabutan.jp article k202611110220 failed). Only a Kabutan headline seen in search results says Q1 ordinary profit rose 16%; no figures were read, so ytd/quarter here are still the June 2026 year. The main session should re-read Q1 and update ytd/quarter and check whether the forecast was changed. No lost customer or exited business found; nothing indicating a lasting deterioration, so `departed` and `permanent` are null."
+  "notes": "Updated 14 Nov 2026 for period 2027-Q1. NOT PRIMARY: the Q1 FY2027 kessan tanshin (filed 11 Nov 2026 15:30, TDnet doc id 140120261111573837; presentation 140120261111573868) could NOT be opened: www2.jpx.co.jp/disc/194A0/140120261111573837.pdf and the Yahoo storage copy got no answer to the permission request; www.release.tdnet.info is robots-disallowed; kabutan.jp news k202611110220 failed. Q1 figures come from two data sites that agree: Kabutan (s.kabutan.jp/stocks/194A/finance/) and Matsui Securities: sales 1,695m (+24.2%), operating profit 278m (+16.3%), ordinary profit 283m (+16.5%), net profit 191m (+15.8%), EPS 25.3 (+14.3%). The prior-year quarter IS primary (Q1 FY2026 tanshin of 13 Nov 2025, read today): EPS 22.13, diluted 21.77, net profit 165,523k, sales 1,365,022k, operating profit 239,402k. ytd and quarter are the same three months (Q1 is both the cumulative period and the latest quarter). 25.3/22.13 = +14.3%. Guidance is primary and re-read today (FY tanshin summary of 13 Aug 2026): EPS 132.90 vs 124.88 = +6.42%; the data sites show the forecast still dated 13 Aug 2026, so no revision is visible, but this was not confirmed in the Q1 filing. Kabutan shows a forecast EPS of 127.6 (not the company's 132.90): this looks like the site's own recalculation on a different share count; not used. Kabutan also shows equity of 4,490m at 30 Sep 2026 against 3,704m at 30 June, a rise of 786m against quarterly profit of 191m; the cause (share issue, treasury share disposal, option exercise?) was not read. Whether Q1 holds extraordinary items is unknown; net/ordinary profit is 67.5% (67.9% a year earlier), which does not suggest a large one. Main session: when the tanshin opens, confirm EPS, set primary true and replace the url. Dividend: still the company's forecast of 26 yen for FY June 2027 (first dividend). No lost customer or exited business found; nothing indicating a lasting deterioration, so departed and permanent are null."
  },
  "3854": {
   "metric": "EPS",

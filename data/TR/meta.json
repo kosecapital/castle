@@ -5,8 +5,8 @@
  "market": "turkey",
  "exchange": "Borsa İstanbul",
  "cur": "TL",
- "asof": "2026-11-11",
- "fx": 50.2529,
+ "asof": "2026-11-13",
+ "fx": 50.3366,
  "mcapMin": 3000,
  "years": [
   "2021",
@@ -91,7 +91,8 @@
    "PCILT",
    "TBORG",
    "TEHOL",
-   "TOASO"
+   "TOASO",
+   "EGPRO"
   ]
  },
  "en": {
