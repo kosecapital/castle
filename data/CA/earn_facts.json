@@ -1,0 +1,116 @@
+{
+ "NWC": {
+  "unit": "million CAD",
+  "eps_cur": "CAD",
+  "ttm": {
+   "eps": 2.92,
+   "net_profit": 141.7,
+   "tr": "Ağustos 2025 - Temmuz 2026: 2025 mali yılı (seyreltilmiş 2,87 dolar; ana ortaklık kârı 139,5 milyon dolar) eksi 2025'in ilk yarısı (1,27; 61,9) artı 2026'nın ilk yarısı (0,56 + 0,76 = 1,32; 27,3 + 36,8 = 64,1)",
+   "en": "August 2025 - July 2026: fiscal 2025 (diluted 2.87 dollars; profit attributable to shareholders 139.5 million dollars) minus first half 2025 (1.27; 61.9) plus first half 2026 (0.56 + 0.76 = 1.32; 27.3 + 36.8 = 64.1)",
+   "url": "https://www.northwest.ca/uploads/documents/NWC Q1 2026 Report to Shareholders.pdf",
+   "primary": true
+  },
+  "tax_rate": 25.3,
+  "gains": [
+   {
+    "tr": "Guam'daki Chalan Pago mağazasının satış kazancı: 3,8 milyon dolar, vergi sonrası 3,0 milyon dolar",
+    "en": "Gain on disposal of the Chalan Pago store in Guam: 3.8 million dollars, 3.0 million after tax",
+    "frac": 0.0212,
+    "how": "3.0 / 141.7; after-tax amount as stated by the company",
+    "period_tr": "Şubat-Nisan 2026 çeyreği",
+    "period_en": "February-April 2026 quarter",
+    "url": "https://www.northwest.ca/uploads/documents/Press Release - Q1 2026.pdf",
+    "primary": true
+   },
+   {
+    "tr": "Kanada'da ana iş dışı, kullanılmayan bir varlığın satış kazancı: 2,4 milyon dolar, vergi sonrası 1,7 milyon dolar",
+    "en": "Gain on disposition of a non-core redundant asset in Canadian Operations: 2.4 million dollars, 1.7 million after tax",
+    "frac": 0.0122,
+    "how": "1.726 / 141.7; after-tax amount from the company's adjusted net earnings reconciliation",
+    "period_tr": "Mayıs-Temmuz 2026 çeyreği",
+    "period_en": "May-July 2026 quarter",
+    "url": "https://wwww.stockwatch.com/News/Item/Z-C!NWC-3861409/C/NWC",
+    "primary": false
+   }
+  ],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "TTM cross-check: the eight-quarter table in the Q1 2026 report gives diluted EPS Q3 2025 0.82, Q4 2025 0.78, Q1 2026 0.56; plus Q2 2026 0.76 = 2.92, same as FY - H1 + H1. Source check: 58.47 / 20.01 = 2.92 per share; 2,768.9 / 20.01 = 138.4m vs 141.7m document (source lower, 2.4%). Attributable net earnings: FY2025 139.485m (annual report), H1 2025 61.929m (Q2 2025 report), Q1 2026 27.3m (Q1 2026 report), Q2 2026 36.8m (Q2 release via stockwatch full text; not the company PDF). GAINS: two disposal gains inside the 12 months, both singled out by the company in its adjusted-earnings reconciliation; together 4.726m after tax = 3.3% of TTM attributable profit, just above the 3% threshold. The after-tax amounts are consolidated; whether any part belongs to non-controlling interests is not disclosed, so the full amounts are used (rule: no disclosed share -> full consolidated amount). OFFSETS left empty on purpose: the company's 'Next 100 one-time costs' (after tax: Q1 2026 1.4m, Q2 2026 0.986m; FY2025 6.4m pre-tax, of which H1 2025 3.769m pre-tax) appear in fiscal 2024 (1.0m), 2025 and 2026, i.e. three years running, so under the reading rule they are ordinary costs. If the main session prefers to count them, the TTM amount is about 2.386m (H1 2026, after tax) + 2.63m pre-tax for H2 2025 (about 1.97m at 25.3%) = about 4.35m, 3.1% of profit, which would almost cancel the gains. Also not counted: 1.1m 'non-comparable withholding tax' in Q2 2026 (a tax expense, not labelled one-time). Share-based compensation is recurring (12.7m pre-tax in FY2025). Tax rate 25.3% = Q1 2026 effective rate (Q1 report). No EPS guidance."
+ },
+ "ET": {
+  "unit": "million CAD",
+  "eps_cur": "CAD",
+  "ttm": {
+   "eps": 0.78,
+   "net_profit": 59.9,
+   "tr": "Ağustos 2025 - Temmuz 2026: 2026 mali yılı (seyreltilmiş 0,83 dolar; ortaklara düşen kâr 63,967 milyon) eksi 2026 mali yılının ilk çeyreği (0,15; 11,842) artı 2027 mali yılının ilk çeyreği (0,10; 7,758) = 0,78 dolar; 59,883 milyon dolar",
+   "en": "August 2025 - July 2026: fiscal 2026 (diluted 0.83 dollars; profit attributable to shareholders 63.967 million) minus first quarter of fiscal 2026 (0.15; 11.842) plus first quarter of fiscal 2027 (0.10; 7.758) = 0.78 dollars; 59.883 million dollars",
+   "url": "https://www.newsfilecorp.com/release/314281",
+   "primary": true
+  },
+  "tax_rate": 25.9,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "FY2026 figures from the year-end release of 24 Jun 2026 (newsfile 302735); Q1 FY2026 and Q1 FY2027 from the Q1 release of 14 Sep 2026. Basic TTM EPS: 0.85 - 0.16 + 0.10 = 0.79. Check against the source: 12.99 / 16.59 = 0.783; 999.5m / 16.59 = 60.2m vs 59.9m (within 1%). Tax rate 25.9% = Q1 FY2027 (2,780 / 10,740). NO ONE-OFF GAINS found in the 12 months: the FY2026 release reports none; 'other income and expenses' was 39k in Q1 FY2027 (500k in Q1 FY2026, outside the window). FX: FY2026 net loss of 421k; Q1 FY2027 loss of 531k (recurring item, not a one-off). The 1.00 special dividend (75.5m) affects cash and equity, not profit. No EPS guidance."
+ },
+ "CMG": {
+  "unit": "million CAD",
+  "eps_cur": "CAD",
+  "ttm": {
+   "eps": 0.17,
+   "net_profit": 13.43,
+   "tr": "Ekim 2025 - Eylül 2026: 2026 mali yılı (hisse başına 0,21 dolar; net kâr 17,416 milyon) eksi 2026 mali yılının ilk yarısı (0,07; 6,025) artı 2027 mali yılının ilk yarısı (0,03; 2,036) = 0,17 dolar; 13,427 milyon dolar",
+   "en": "October 2025 - September 2026: fiscal 2026 (0.21 dollars per share; net income 17.416 million) minus first half of fiscal 2026 (0.07; 6.025) plus first half of fiscal 2027 (0.03; 2.036) = 0.17 dollars; 13.427 million dollars",
+   "url": "https://www.globenewswire.com/news-release/2026/11/12/3402303/0/en/computer-modelling-group-announces-second-quarter-results-and-quarterly-dividend.html",
+   "primary": true
+  },
+  "tax_rate": 24.7,
+  "gains": [],
+  "offsets": [
+   {
+    "tr": "Dolandırıcılık zararı (şirketin 'yinelenmeyen diğer gider' dediği kalem; vergi öncesi 0,79 milyon dolar)",
+    "en": "Fraud loss (the company's 'other non-recurring expense'; 0.79 million dollars pre-tax)",
+    "frac": 0.0443,
+    "how": "0.790 x (1 - 0.247) / 13.427; pre-tax amount from the company, converted at the fiscal 2026 effective tax rate of 24.7%",
+    "period_tr": "Temmuz-Eylül 2026 çeyreği",
+    "period_en": "July-September 2026 quarter",
+    "url": "https://www.globenewswire.com/news-release/2026/11/12/3402303/0/en/computer-modelling-group-announces-second-quarter-results-and-quarterly-dividend.html"
+   }
+  ],
+  "drop": null,
+  "guidance": [],
+  "notes": "FY2026 net income 17,416k and EPS 0.21 from the Q4 release (21 May 2026) and the FY2026 financial report; 6M figures from the Q2 FY2027 release (12 Nov 2026). No non-controlling interest. Quarterly net income: Q3 FY26 5,964k, Q4 FY26 5,427k, Q1 FY27 1,325k (2,036 - 711), Q2 FY27 711k; sum 13,427k. EPS from cent-rounded figures; exact TTM EPS depends on share count (weighted basic shares fell from about 80.5m in Q4 FY26 to 75.6m in Q2 FY27). Check against the source: 4.32 / 25.84 = 0.167 vs 0.17 (ok). Market cap / P/E = 306.1 / 25.84 = 11.85m vs document 13.43m: the document is HIGHER, because the source's market cap uses the post-buyback share count (about 70.9m = 306.1 / 4.32, not confirmed in a document) while the profit was earned on more shares; no cut applies. ONE-OFF GAINS: none above threshold. 'Other income' of 211k in Q2 FY27 (0.3m insurance proceeds were received on the fraud) and a 126k contingent-consideration gain in Q2 FY26 (outside the window). Offset: fraud loss 790k pre-tax. Acquisition costs (171k in 6M FY27; 973k FY26) recur every year and are treated as ordinary. No EPS guidance."
+ },
+ "OLY": {
+  "unit": "million CAD",
+  "eps_cur": "CAD",
+  "ttm": {
+   "eps": 7.13,
+   "net_profit": 17.16,
+   "tr": "Ekim 2025 - Eylül 2026: 2025 yılı (hisse başına 8,25 dolar; net kâr 19,86 milyon) eksi 2025'in ilk dokuz ayı (6,70; 16,13) artı 2026'nın ilk dokuz ayı (5,58; 13,43) = 7,13 dolar; 17,16 milyon dolar",
+   "en": "October 2025 - September 2026: full year 2025 (8.25 dollars per share; net earnings 19.86 million) minus first nine months of 2025 (6.70; 16.13) plus first nine months of 2026 (5.58; 13.43) = 7.13 dollars; 17.16 million dollars",
+   "url": "https://www.newsfilecorp.com/release/323995/Olympia-Financial-Group-Inc.-Announces-Third-Quarter-2026-Results",
+   "primary": true
+  },
+  "tax_rate": 25.6,
+  "gains": [
+   {
+    "tr": "Diğer kazançlar (net): 3,99 milyon dolar vergi öncesi; şirkete göre büyük bölümü Raisr bölümünün varlıklarının satışından (24 Temmuz 2026)",
+    "en": "Other gains, net: 3.99 million dollars pre-tax; according to the company mainly from the sale of the assets of the Raisr division (24 July 2026)",
+    "frac": 0.173,
+    "how": "3.99 x (1 - 0.256) / 17.16; pre-tax amount from the company, converted at the nine-month effective tax rate (18.05 - 13.43) / 18.05 = 25.6%",
+    "period_tr": "Ocak-Eylül 2026 (satış Temmuz 2026'da)",
+    "period_en": "January-September 2026 (the sale was in July 2026)",
+    "url": "https://www.newsfilecorp.com/release/323995/Olympia-Financial-Group-Inc.-Announces-Third-Quarter-2026-Results",
+    "primary": true
+   }
+  ],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "CAUTION ON BASIS: FY2025 (19.86m; EPS 8.25; annual report) is total net earnings INCLUDING the later-discontinued CGP business (2025 net loss 1.08m), while both nine-month columns are continuing operations (2025 restated). So the implied Q4 2025 (3.73m) carries CGP's Q4 loss; the TTM is slightly understated versus a pure continuing basis. Results of discontinued operations in 2026 (including any gain or loss on the CGP sale) are NOT in the releases and were not found. Universe 'per' is 2026-Q2: TTM to June 2026 would be 19.86 - 11.25 + 7.06 = 15.67m, EPS 8.25 - 4.67 + 2.93 = 6.51; source implies 108.78 / 16.59 = 6.56 (within 1%), so the source and the documents agree on the June basis. I used the September TTM because the Q3 release (13 Nov 2026) is the latest document and it contains the Raisr gain; on the June basis there is no gain to deduct. After the gain, September TTM is about 14.2m, below the June TTM, so the deduction is not double counting. Shares: 2,406,336 (Stockwatch page, Aug 2026); 17.16 / 2.406 = 7.13 ok. Universe market cap 257.0 / 108.78 = 2.36m shares, about 2% below the company's count. Tax rate 25.6% from the 9M release. PENDING: the plan of arrangement (cash 44.9m + 433,493 shares to Tarman and executives, total value 49.747m) will, when it closes, likely produce a large charge and change the share count and compensation cost; nothing about its accounting is in the releases. No EPS guidance."
+ }
+}

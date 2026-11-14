@@ -10,7 +10,7 @@
 İnternet kullanmaz. Bir denetim tutmazsa hiçbir şeyi değiştirmez ve 1 koduyla çıkar (CLAUDE.md kural 6: emin değilsen yayımlama).
 Denetimler:
   0. data/<CC>/fixes.json içindeki belgeyle doğrulanmış düzeltmeler gelen veriye uygulanır (CLAUDE.md, "Belgeyle düzeltme").
-  1. Toplayıcı hatasız bitmiş mi; şirket sayısı öncekinin %15 içinde mi; F/K dolu olanların oranı %30-90 arasında mı;
+  1. Toplayıcı hatasız bitmiş mi; şirket sayısı öncekinin %15 içinde mi; F/K dolu olanların oranı asgari piyasa değerinin üstündeki şirketlerde en az %30, bütün evrende en çok %90 mı;
      kârlı ve yeterince büyük şirketlerin en çok %10'unda PD/DD eksik mi.
   2. Adayların en çok %30'unun beş yıllık verisi eksik mi (daha fazlası adres kalıbı hatasıdır: pipeline/sources.json).
   3. Süzgeçten sonra: 2. suru geçenlerin en az %70'i aynı mı (önceki sonuç varsa).
@@ -66,8 +66,8 @@ def queue(cc, core=None, limit=40):
         l = core["L2"][u["c"]]
         mn, mw = funnel.price_test(P, u, l, False)["mos"], funnel.price_test(P, u, l, True)["mos"]
         rows.append((0 if mn >= P["mos"] else 1 if mw >= P["mos"] else 2, -u["m"], u["c"], u["n"], u["s"], u["m"], mn, mw, u.get("per")))
-    rows.sort()
     sus = {c for c, _, _ in suspects(core)}
+    rows.sort(key=lambda r: (r[0], 0 if r[2] in sus else 1) + r[1:])   # sınıf içinde önce iki kaynağı tutmayanlar
     n0, n1 = sum(1 for r in rows if r[0] == 0), sum(1 for r in rows if r[0] == 1)
     print(f"okuma sırası: {len(rows)} şirket sırada | dar hendekle bile kale olabilecek {n0} | yalnız geniş hendekle kale olabilecek {n1}")
     for r in rows[:limit]:
@@ -208,9 +208,15 @@ def accept(cc, dry=False):
     n = len(uni)
     if old_uni and abs(n / len(old_uni) - 1) > 0.15:
         bad.append(f"şirket sayısı {len(old_uni)} -> {n}: %15'ten fazla değişti")
-    pef = 100 * sum(1 for u in uni if u.get("pe")) / max(1, n)
-    if not 30 <= pef <= 90:
-        bad.append(f"F/K dolu olanların oranı %{pef:.0f}: olağan aralığın (%30-90) dışında")
+    # F/K doluluk oranı asgari piyasa değerinin üstündeki şirketlerde ölçülür (Alper'in 14 Kasım 2026 kararı): küçük şirketlerin çoğunun
+    # zararda olduğu pazarlarda (Kanada: TSXV, CSE) bütün evrendeki oran veri hatasını değil pazarın yapısını gösterir.
+    bigs = [u for u in uni if (u.get("m") or 0) >= meta.get("mcapMin", 0)]
+    pef = 100 * sum(1 for u in bigs if u.get("pe")) / max(1, len(bigs))
+    pef_all = 100 * sum(1 for u in uni if u.get("pe")) / max(1, n)
+    if pef < 30:                                          # alt sınır: büyük şirketlerde (kaynağın F/K alanı boş geliyorsa burada görünür)
+        bad.append(f"F/K dolu olanların oranı %{pef:.0f} (piyasa değeri asgarinin üstündeki {len(bigs)} şirkette): %30'un altında")
+    if pef_all > 90:                                      # üst sınır: bütün evrende, eskisi gibi (zarar eden şirketler de F/K'lı görünüyorsa)
+        bad.append(f"F/K dolu olanların oranı %{pef_all:.0f} (bütün evrende): %90'ın üstünde")
     # PD/DD: kârlı ve yeterince büyük şirketlerde defter değeri bilinmeyenlerin oranı (özsermayesi negatif olduğu bilinenler sayılmaz)
     core1 = [u for u in uni if not u.get("veh") and u.get("pe") and u["pe"] > 0 and u["m"] >= meta.get("mcapMin", 0)]
     nob = [u for u in core1 if u.get("pb") is None and u.get("nb") != "neg"]

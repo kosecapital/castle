@@ -1,0 +1,128 @@
+{
+ "NWC": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Şubat-Temmuz 2026 (2026 mali yılının ilk yarısı)",
+   "en": "February-July 2026 (first half of fiscal 2026)",
+   "pct": 3.9,
+   "cur_val": "1.32",
+   "prev_val": "1.27",
+   "unit": "Kanada doları / Canadian dollars",
+   "date": "2026-09-08",
+   "url": "https://wwww.stockwatch.com/News/Item/Z-C!NWC-3861409/C/NWC",
+   "primary": false
+  },
+  "quarter": {
+   "tr": "Mayıs-Temmuz 2026 çeyreği",
+   "en": "May-July 2026 quarter",
+   "pct": 2.7,
+   "cur_val": "0.76",
+   "prev_val": "0.74",
+   "unit": "Kanada doları / Canadian dollars",
+   "date": "2026-09-08",
+   "url": "https://wwww.stockwatch.com/News/Item/Z-C!NWC-3861409/C/NWC",
+   "primary": false
+  },
+  "guidance": null,
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Diluted EPS. Quarter: 0.76 vs 0.74 as printed in the Q2 release (8 Sep 2026), read in the full-text copy on stockwatch.com (wire copy, hence primary=false; the company PDF for Q2 2026 was not found: the northwest.ca file 'NWC Q2 Report to Shareholders.pdf' is still the July 2025 report). YTD cur_val 1.32 is my sum of the two printed quarters (Q1 0.56 from the company's Q1 2026 press release, primary; Q2 0.76); the company's own six-month figure was not read and could differ by a cent from rounding. prev_val 1.27 is the printed YTD 2025 diluted EPS in the Q2 2025 report (company PDF). Attributable net earnings: H1 2026 27.3 + 36.8 = 64.1m vs 61.929m (+3.5%). IMPORTANT: H1 2026 includes two disposal gains (Guam store 3.0m after tax in Q1; non-core asset 1.726m after tax in Q2). Without them attributable earnings would be about 59.4m, i.e. -4.1% year on year (my arithmetic, not a company figure, so not entered as 'adjusted'). The company's own adjusted net earnings (Q1 30.3 vs 33.6 = -9.9%; Q2 40.6 vs 39.6 = +2.4%; H1 70.9 vs 73.2 = -3.2%) exclude share-based compensation and Next 100 costs, so by the reading rule they are not used. No EPS or profit guidance: outlook is qualitative. Nothing departed or permanent: the Inuit Child First food voucher programme ended in Q2 2025 (now lapped; Q2 2026 Canadian same-store sales +7.4%). Dividend yield exists in the source (2.87%), so 'dividend' is null. Formula growth is already negative (g = -3.22), so the judgement cannot lower it via the half-rule; reported for completeness."
+ },
+ "ET": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Mayıs-Temmuz 2026 (2027 mali yılının ilk çeyreği)",
+   "en": "May-July 2026 (first quarter of fiscal 2027)",
+   "pct": -33.3,
+   "cur_val": "0.10",
+   "prev_val": "0.15",
+   "unit": "Kanada doları / CAD",
+   "date": "2026-09-14",
+   "url": "https://www.newsfilecorp.com/release/314281",
+   "primary": true
+  },
+  "quarter": {
+   "tr": "Mayıs-Temmuz 2026 çeyreği",
+   "en": "May-July 2026 quarter",
+   "pct": -33.3,
+   "cur_val": "0.10",
+   "prev_val": "0.15",
+   "unit": "Kanada doları / CAD",
+   "date": "2026-09-14",
+   "url": "https://www.newsfilecorp.com/release/314281",
+   "primary": true
+  },
+  "guidance": null,
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "The latest reported period is Q1 fiscal 2027 (quarter ended 31 July 2026), so ytd and quarter are the same period. Diluted EPS 0.10 vs 0.15 (-33.3%); basic 0.10 vs 0.16; net earnings attributable to shareholders 7,758k vs 11,842k (-34.5%). EPS is rounded to cents by the company, so the percentage is coarse. Last fiscal year (ended 30 Apr 2026): diluted EPS 0.83 vs 0.77 (+7.8%), attributable net earnings 63,967k vs 59,393k. No company profit guidance exists (only backlog: >259m at 31 Aug 2026, and August shipments 30m). No adjusted figures from the company. Nothing departed, no permanent cause found: the company attributes nothing structural; drivers were gross margin 58.6% vs 61.4%, SBC 2,357k vs 1,068k, FX loss 531k vs gain 736k, deferred tax. Dividend yield is in the source (6.31%), so dividend is null; regular quarterly dividend 0.205. Q2 fiscal 2027 results are expected in early December 2026 (not yet published on 14 Nov 2026)."
+ },
+ "CMG": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Nisan-Eylül 2026 (2027 mali yılının ilk yarısı)",
+   "en": "April-September 2026 (first half of fiscal 2027)",
+   "pct": -57.1,
+   "cur_val": "0.03",
+   "prev_val": "0.07",
+   "unit": "Kanada doları / CAD",
+   "date": "2026-11-12",
+   "url": "https://www.globenewswire.com/news-release/2026/11/12/3402303/0/en/computer-modelling-group-announces-second-quarter-results-and-quarterly-dividend.html",
+   "primary": true
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": -66.7,
+   "cur_val": "0.01",
+   "prev_val": "0.03",
+   "unit": "Kanada doları / CAD",
+   "date": "2026-11-12",
+   "url": "https://www.globenewswire.com/news-release/2026/11/12/3402303/0/en/computer-modelling-group-announces-second-quarter-results-and-quarterly-dividend.html",
+   "primary": true
+  },
+  "guidance": null,
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "EPS (basic & diluted, one figure) is rounded to cents, so percentages are coarse: 6M 0.03 vs 0.07 (-57.1%), Q2 0.01 vs 0.03 (-66.7%). Net income is more precise: 6M 2,036k vs 6,025k (-66.2%), Q2 711k vs 2,716k (-73.8%); weighted basic shares Q2 75,641k vs 84,058k, so exact Q2 EPS is 0.0094 vs 0.0323 (-70.9%, my arithmetic). Either way the latest growth is far below zero. Q2 FY2027 includes a 790k pre-tax 'other non-recurring expense' (social-engineering fraud; about 1.0m unauthorised payments, 0.1m legal fees, 0.3m insurance proceeds received); the company gives no adjusted EPS, so 'adjusted' is null. Guidance is not for EPS: FY2027 professional services revenue down 6-7m vs FY2026, organic recurring revenue stable, Adjusted EBITDA 'not to decline', free cash flow to improve (all excluding future acquisitions); not usable as EPS guidance, so null. FY2026: net income 17,416k vs 22,434k (-22.4%), EPS 0.21 vs 0.27. departed: the FY2026 CEO letter mentions a single contract loss that stepped recurring revenue down in Q2 FY2026 (customer and amount not disclosed; remaining-business growth not given), so not filled. permanent: no sourced lasting cause; the fall comes from lower professional services, acquisition dilution, amortisation and interest. Dividend yield is in the source (0.93%); dividend is 0.01 a quarter."
+ },
+ "OLY": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026 (süren faaliyetler)",
+   "en": "January-September 2026 (continuing operations)",
+   "pct": -16.7,
+   "cur_val": "5.58",
+   "prev_val": "6.70",
+   "unit": "Kanada doları / CAD",
+   "date": "2026-11-13",
+   "url": "https://www.newsfilecorp.com/release/323995/Olympia-Financial-Group-Inc.-Announces-Third-Quarter-2026-Results",
+   "primary": true
+  },
+  "quarter": null,
+  "guidance": null,
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": "Dokuz aylık kârın içinde 3,99 milyon dolarlık (vergi öncesi) diğer kazanç var; büyük bölümü Raisr bölümünün satışından geliyor. Şirket düzeltilmiş rakam vermiyor.",
+  "note_en": "Nine-month profit includes other gains of 3.99 million dollars (pre-tax), most of it from the sale of the Raisr division. The company gives no adjusted figure.",
+  "notes": "9M 2026 basic and diluted EPS attributable to shareholders, continuing operations: 5.58 vs 6.70 (-16.7%); net earnings 13.43m vs 16.13m (-16.7%); release of 13 Nov 2026 (newsfile 323995, primary). The 2025 comparative is restated for discontinued operations (Olympia Currency and Global Payments, sold to Shift Connect, closed 15 Apr 2026). quarter is null: the company does not publish quarter-only figures in the Q3 release. Derived by subtraction from the company's own two releases (my arithmetic): Q3 2026 EPS 5.58 - 2.93 = 2.65 vs 6.70 - 4.67 = 2.03 (+30.5%), net earnings 6.37m vs 4.88m; RTTNews reports 6.37m / 2.65 vs 4.63m / 1.93 (the latter is the unrestated Q3 2025 figure). That quarter contains the Raisr sale gain (transaction completed 24 Jul 2026; other gains, net 3.99m pre-tax for nine months vs -0.01m), so it does not represent the business; if the main session wants to enter it, use 'exclude'. Excluding the gain at the 9M tax rate of 25.6% (my arithmetic, not a company figure): 9M net earnings about 10.46m vs 16.13m (-35%). H1 2026: 2.93 vs 4.67 (-37.3%). No profit guidance. departed: two small loss-making divisions were sold in 2026 (CGP: 2025 net loss 1.08m; Raisr: 2025 net loss 0.80m); they are not part of past profit growth, so not filled. permanent: none; the fall is from lower interest rates on funds held in trust (cyclical). Dividend yield is in the source (6.25%); the monthly dividend was cut from 0.60 to 0.50 (annualised 7.20 -> 6.00) on 26 May 2026, so the source's yield may be stale: at 108.78 the 6.00 annual rate is 5.5%."
+ }
+}
