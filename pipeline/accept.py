@@ -9,6 +9,7 @@
 
 İnternet kullanmaz. Bir denetim tutmazsa hiçbir şeyi değiştirmez ve 1 koduyla çıkar (CLAUDE.md kural 6: emin değilsen yayımlama).
 Denetimler:
+  0. data/<CC>/fixes.json içindeki belgeyle doğrulanmış düzeltmeler gelen veriye uygulanır (CLAUDE.md, "Belgeyle düzeltme").
   1. Toplayıcı hatasız bitmiş mi; şirket sayısı öncekinin %15 içinde mi; F/K dolu olanların oranı %30-90 arasında mı;
      kârlı ve yeterince büyük şirketlerin en çok %10'unda PD/DD eksik mi.
   2. Adayların en çok %30'unun beş yıllık verisi eksik mi (daha fazlası adres kalıbı hatasıdır: pipeline/sources.json).
@@ -66,10 +67,11 @@ def queue(cc, core=None, limit=40):
         mn, mw = funnel.price_test(P, u, l, False)["mos"], funnel.price_test(P, u, l, True)["mos"]
         rows.append((0 if mn >= P["mos"] else 1 if mw >= P["mos"] else 2, -u["m"], u["c"], u["n"], u["s"], u["m"], mn, mw, u.get("per")))
     rows.sort()
+    sus = {c for c, _, _ in suspects(core)}
     n0, n1 = sum(1 for r in rows if r[0] == 0), sum(1 for r in rows if r[0] == 1)
     print(f"okuma sırası: {len(rows)} şirket sırada | dar hendekle bile kale olabilecek {n0} | yalnız geniş hendekle kale olabilecek {n1}")
     for r in rows[:limit]:
-        print(f"  {'A' if r[0] == 0 else 'B' if r[0] == 1 else 'C'}  {r[2]:9} {r[3][:34]:34} {r[4][:22]:22} PD {r[5]:>12,.0f} mn | marj dar %{r[6]:5.0f} geniş %{r[7]:5.0f} | {r[8]}")
+        print(f"  {'A' if r[0] == 0 else 'B' if r[0] == 1 else 'C'}  {r[2]:9} {r[3][:34]:34} {r[4][:22]:22} PD {r[5]:>12,.0f} mn | marj dar %{r[6]:5.0f} geniş %{r[7]:5.0f} | {r[8]}" + ("  ! veri şüpheli" if r[2] in sus else ""))
     if len(rows) > limit:
         print(f"  ... ve {len(rows) - limit} şirket daha (tamamı: --queue --all)")
     return rows
@@ -105,6 +107,67 @@ def debt_review(cc, core=None, limit=40):
         print("borç testinde bakılacak yeni şirket yok.")
 
 
+def apply_fixes(cc, uni, quiet=False):
+    """Şirketin kendi belgesiyle doğrulanmış düzeltmeleri gelen evrene uygular (CLAUDE.md, "Belgeyle düzeltme").
+
+    data/<CC>/fixes.json: {"KOD": {"per": "2026-Q3", "set": {"pb": null, "nb": "neg", "pbs": "doc"}, "mul": {"m": 0.77}, "equity": 364.0,
+                                   "tr": "...", "en": "...", "date": "2026-11-14", "sources": [{"t", "te", "u"}]}}
+    `set` alanları olduğu gibi yazar ve yalnız kaydın `per` dönemi evrendeki bilanço dönemiyle aynıyken geçerlidir: yeni bilanço
+    gelince düzeltme kendiliğinden düşer ve "DÜZELTME ESKİDİ" diye listelenir. `equity` (ana ortaklığa ait özsermaye, milyon) verilirse PD/DD = piyasa değeri ÷ özsermaye olur; eksiyse şirket
+    "özsermaye negatif" işaretlenir. `mul` alanı çarpar (ör. piyasa değerinden özel oy
+    paylarını çıkarmak için adi pay ÷ toplam pay); `per` verilmemişse döneme bağlı değildir. Döner: (uygulananlar, eskiyenler)."""
+    fx = load(J("data", cc, "fixes.json"), {})
+    byc, on, off = {u["c"]: u for u in uni}, [], []
+    for c, f in sorted(fx.items()):
+        if c.startswith("_"):
+            continue
+        u = byc.get(c)
+        if not u:
+            continue
+        if f.get("per") and f["per"] != u.get("per"):
+            off.append((c, f["per"], u.get("per"))); continue
+        for k, v in (f.get("set") or {}).items():
+            if v is None:
+                u[k] = None
+            else:
+                u[k] = v
+        if isinstance(f.get("equity"), (int, float)):      # ana ortaklığa ait özsermaye (milyon, evrenin para birimi): PD/DD = piyasa değeri ÷ özsermaye
+            if f["equity"] > 0:
+                u["pb"], u["pbs"] = round(u["m"] / f["equity"], 3), "doc"; u.pop("nb", None)
+            else:
+                u["pb"], u["pbs"], u["nb"] = None, "doc", "neg"
+        for k, v in (f.get("mul") or {}).items():
+            if isinstance(u.get(k), (int, float)):
+                u[k] = round(u[k] * v, 3 if k != "m" else 1)
+        u["fix"] = 1
+        on.append(c)
+    if not quiet:
+        if on:
+            print("belgeyle düzeltilenler (fixes.json): " + ", ".join(on))
+        if off:
+            print("DÜZELTME ESKİDİ, uygulanmadı: " + ", ".join(f"{c} (kayıt {a}, evren {b})" for c, a, b in off))
+            print("  -> yeni bilançoyu şirketin belgesinden oku: sorun sürüyorsa data/" + cc + "/fixes.json kaydını yeni dönemle güncelle, sürmüyorsa kaydı sil; sonra yeniden çalıştır.")
+    return on, off
+
+
+def suspects(core, tol=0.20):
+    """İki kaynağı birbirini tutmayan şirketler: evrendeki F/K ve PD/DD (tarayıcı) ile oran sayfasındaki güncel F/K ve PD/DD.
+
+    Yalnız 2. suru geçenlere bakılır (okunacak ya da 4. surda olanlar). Hiçbir şeyi elemez; okumadan önce bakılacakları listeler."""
+    out = []
+    for u in core["U"]:
+        if u["e"] < 3:
+            continue
+        l, why = core["L2"].get(u["c"]) or {}, []
+        for k, lab in (("pe", "F/K"), ("pb", "PD/DD")):
+            a, b = u.get(k), l.get(k)
+            if a and b and a > 0 and b > 0 and abs(a / b - 1) > tol:
+                why.append(f"{lab} evren {a:g}, oran sayfası {b:g}")
+        if why:
+            out.append((u["c"], u["n"], "; ".join(why)))
+    return out
+
+
 def listing():
     rows = []
     for cc in sorted(os.listdir(J("data"))):
@@ -134,6 +197,7 @@ def accept(cc, dry=False):
         raise SystemExit(f"{cc}: gelen veri yok (data/{cc}/in/). Toplayıcı her gece GitHub'da çalışır.")
     if not st.get("ok"):
         bad.append("toplayıcı hatayla bitti: " + "; ".join(st.get("errors", [])))
+    apply_fixes(cc, uni)
     meta = load(os.path.join(d, "meta.json"))
     if not meta:
         print(f"{cc}: meta.json yok. Önce onu yaz (CLAUDE.md, İş A). Toplayıcının önerdiği değerler:")
@@ -236,6 +300,11 @@ def accept(cc, dry=False):
         print("BÜYÜME YARGISI EKSİK (4. surdaki her şirkette zorunlu; CLAUDE.md, \"Büyüme yargısı\"):", ", ".join(nog))
     if oldg:
         print("büyüme yargısı eski bilanço dönemine ait, güncel gerçeklerle yeniden yazılacaklar:", ", ".join(oldg))
+    sus = suspects(new_core)
+    if sus:
+        print(f"VERİ ŞÜPHELİ: {len(sus)} şirkette iki kaynak %20'den fazla ayrışıyor. Okurken önce bunu çöz (bölünme, özel oy payı, azınlık payı, eski bilanço); doğrusu belgeyle bulunursa fixes.json'a yaz:")
+        for c, nm, why in sus[:40]:
+            print(f"  {c:9} {nm[:30]:30} {why}")
     if pend:
         queue(cc, new_core, 30)
     else:

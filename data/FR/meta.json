@@ -1,0 +1,63 @@
+{
+ "cc": "FR",
+ "iso": "250",
+ "name": "Fransa",
+ "market": "france",
+ "exchange": "Euronext Paris (ana pazar, Euronext Growth ve Euronext Access)",
+ "cur": "EUR",
+ "asof": "2026-11-13",
+ "fx": 0.907,
+ "mcapMin": 50,
+ "years": [
+  "2021",
+  "2022",
+  "2023",
+  "2024",
+  "2025"
+ ],
+ "cpi": {
+  "2021": 2.8,
+  "2022": 5.9,
+  "2023": 3.7,
+  "2024": 1.3,
+  "2025": 0.8,
+  "cur": 3.4
+ },
+ "deflate": "all",
+ "inflation_note": "Fransız şirketleri enflasyon muhasebesi uygulamaz. Bu yüzden bütün şirketlerin özsermaye kârlılığı yıl sonu tüketici enflasyonuyla düzeltildi: 2021 için %2,8, 2022 için %5,9, 2023 için %3,7, 2024 için %1,3, 2025 için %0,8. Son 12 ay için en son açıklanan yıllık oran (Ekim 2026, %3,4) kullanıldı.",
+ "data_notes": [
+  "Fiyat, piyasa değeri, F/K ve PD/DD: TradingView tarayıcısı, 13 Kasım 2026. Evren 573 paydır: 284'ü Euronext Paris ana pazarında, 241'i Euronext Growth'ta, 48'i Euronext Access'te. Ana kotasyonu başka ülkede olan payların çoğu ve fiyatı oluşmayan paylar evrende yoktur; evrendeki 13 yatırım ortaklığı 1. surda dışarıda kalır.",
+  "Karşılaştırma: Euronext'e göre Aralık 2025'te Euronext Paris'te 722 şirket kotaydı (Euronext yatırımcı sunumu, 18 Şubat 2026; pazarlara bölünmemiş). Evren bu sayının %21 altında. Pazarlara bölünmüş resmî bir sayı bu çalıştırmada açılamadı; farkın büyük bölümünün Euronext Access'teki işlem görmeyen paylardan ve yabancı şirketlerin ikinci kotasyonlarından geldiği sanılıyor, ama bu doğrulanamadı. Fark %15'in üstünde olduğu için ülke, öbür bütün denetimler tuttuğundan, bu notla yayımlandı.",
+  "Denetim (14 Kasım 2026): L'Oréal, LVMH, TotalEnergies, Airbus ve Schneider Electric'te fiyat 13 Kasım kapanışıyla aynı, piyasa değeri ikinci kaynakla %4 içinde, PD/DD %1 içinde. Toplayıcının hesapladığı F/K, SCOR'da 7,88 (şirketin açıkladığı son dört çeyrek kârıyla 7,86), GEA'da 24,64 (24,7). PD/DD, Bouygues'te 1,354 (30 Haziran 2026 özsermayesiyle 1,354), LNA Santé'de 0,817 (0,822).",
+  "Şirketin belgesiyle düzeltilenler (14 Kasım 2026). Kaynak, Hollanda'da kayıtlı iki şirkette piyasa değerine özel oy paylarını da katıyordu. Stellantis: 2.906 milyon adi pay, 867 milyon özel oy payı (şirketin 1 Ekim 2026 sermaye bildirimi); piyasa değeri 13,4 milyar avrodan 10,3 milyar avroya düzeltildi. Pluxee: 141,3 milyon adi pay, 63,0 milyon özel oy payı; piyasa değeri 2,49 milyar avrodan 1,72 milyar avroya düzeltildi.",
+  "Viel & Cie'de oran sayfası PD/DD'yi azınlık payları dahil özsermayeyle hesaplıyor (1,59); evrendeki 2,04 ana ortaklığa ait özsermayeye dayanır ve şirketin 30 Haziran 2026 bilançosuyla tutuyor (613,7 milyon avro). Dekuple'de iki kaynak ayrışıyor: evrende PD/DD 2,74, oran sayfasında 1,49; şirketin özsermayesiyle hesap 1,44. Dekuple 3. surda elendiği için fiyat hesabına girmiyor.",
+  "Veri kaynağı 91 şirkette son 12 ayın kârını vermiyor. En büyükleri: Stellantis, TF1, CFM Indosuez Wealth, Waga Energy ve Malteries Franco-Belges. Bu şirketlerin hepsi zararda değil; kaynakta kâr verisi olmadığı için değerlendirilemediler ve sayfalarında 'kâr verisi eksik' yazar.",
+  "Kaynağın PD/DD alanı boş olan 79 şirkette PD/DD aynı kaynağın son bilanço alanlarından hesaplandı (43 şirkette son açıklanan, 36 şirkette son yıllık bilanço); hangisi olduğu şirketin sayfasında yazar.",
+  "Beş yıllık oranlar: stockanalysis.com oran sayfaları; 57 adayın hepsinin sayfası geldi. Fransız şirketlerinin çoğu yılda iki kez bilanço açıklar; mali yıl her şirkette takvim yılıyla bitmez. Grafikte şirketin kendi mali yılları yazar; enflasyon düzeltmesi aynı adı taşıyan takvim yılının oranıyla yapılır.",
+  "Yıl sonu enflasyonu: INSEE, tüketici fiyat endeksi (IPC), aralık ayı yıllık oranları, kesin sonuçlar (2021-2025). Son yıllık oran: INSEE, Ekim 2026 (%3,4).",
+  "2. suru geçen 16 şirketin hepsi okundu. Kazanç yargısından sonra WE.CONNECT 2. surda kaldı: son 12 ay kârının %72'si bir satın almadan doğan tek seferlik kazançtı."
+ ],
+ "small_text": "Piyasa değeri 50 milyon avronun altında",
+ "small_rule": "Piyasa değeri 50 milyon avronun (yaklaşık 55 milyon ABD doları) altındaki şirketler dışarıda kalır.",
+ "en": {
+  "name": "France",
+  "exchange": "Euronext Paris (main market, Euronext Growth and Euronext Access)",
+  "cur": "EUR",
+  "inflation_note": "French companies do not apply inflation accounting. The return on equity of every company was therefore adjusted by year-end consumer inflation: 2.8% for 2021, 5.9% for 2022, 3.7% for 2023, 1.3% for 2024 and 0.8% for 2025. For the last 12 months the most recently published annual rate (October 2026, 3.4%) was used.",
+  "data_notes": [
+   "Price, market value, P/E and P/B: TradingView screener, 13 November 2026. The universe is 573 stocks: 284 on the Euronext Paris main market, 241 on Euronext Growth and 48 on Euronext Access. Most stocks whose main listing is in another country and stocks with no price are not in the universe; the 13 investment companies that are in it stay outside at Wall 1.",
+   "For comparison: according to Euronext, 722 companies were listed on Euronext Paris in December 2025 (Euronext investor presentation, 18 February 2026; not split by market). The universe is 21% below that number. An official count split by market could not be opened in this run; most of the gap is thought to come from untraded stocks on Euronext Access and secondary listings of foreign companies, but this could not be confirmed. Because the gap is above 15%, and all other checks hold, the country is published with this note.",
+   "Checks (14 November 2026): for L'Oréal, LVMH, TotalEnergies, Airbus and Schneider Electric the price equals the close of 13 November, market value agrees with a second source within 4% and P/B within 1%. The P/E calculated by the collector is 7.88 for SCOR (7.86 with the company's reported profit for the last four quarters) and 24.64 for GEA (24.7). P/B is 1.354 for Bouygues (1.354 with equity at 30 June 2026) and 0.817 for LNA Santé (0.822).",
+   "Corrected with the company's own document (14 November 2026). For two companies registered in the Netherlands the source counted special voting shares in the market value. Stellantis: 2,906 million common shares and 867 million special voting shares (company notice on share capital, 1 October 2026); market value was corrected from 13.4 billion euros to 10.3 billion. Pluxee: 141.3 million ordinary shares and 63.0 million special voting shares; market value was corrected from 2.49 billion euros to 1.72 billion.",
+   "For Viel & Cie the ratio page calculates P/B on equity including minority interests (1.59); the 2.04 in the universe rests on equity attributable to the parent and agrees with the company's balance sheet of 30 June 2026 (613.7 million euros). For Dekuple the two sources disagree: P/B is 2.74 in the universe and 1.49 on the ratio page; with the company's equity the figure is 1.44. Dekuple was eliminated at Wall 3, so it does not enter the price calculation.",
+   "For 91 companies the data source gives no profit figure for the last 12 months. The largest are Stellantis, TF1, CFM Indosuez Wealth, Waga Energy and Malteries Franco-Belges. Not all of these companies are loss-making; they could not be assessed because the source has no profit data, and their pages say 'profit data missing'.",
+   "For 79 companies where the source's P/B field is empty, P/B was calculated from the same source's latest balance-sheet fields (the latest reported balance sheet for 43 companies, the last annual balance sheet for 36); the company's page says which.",
+   "Five-year ratios: stockanalysis.com ratio pages; the pages of all 57 candidates arrived. Most French companies publish a balance sheet twice a year, and the fiscal year does not end with the calendar year for every company. The chart shows each company's own fiscal years; the inflation adjustment uses the rate of the calendar year with the same name.",
+   "Year-end inflation: INSEE, consumer price index (IPC), December annual rates, final results (2021-2025). Latest annual rate: INSEE, October 2026 (3.4%).",
+   "All 16 companies that passed Wall 2 have been read. After the earnings judgment WE.CONNECT stayed at Wall 2: 72% of its profit for the last 12 months was a one-off gain from an acquisition."
+  ],
+  "small_text": "Market value below 50 million euros",
+  "small_rule": "Companies with a market value below 50 million euros (about 55 million US dollars) are left out."
+ },
+ "pcur": "EUR"
+}

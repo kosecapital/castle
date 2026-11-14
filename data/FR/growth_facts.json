@@ -1,16 +1,16 @@
 {
  "VIL": {
-  "metric": "NP",
+  "metric": "EPS",
   "ytd": {
    "tr": "Ocak-Haziran 2026",
    "en": "January-June 2026",
-   "pct": 11.7,
-   "cur_val": "77.3",
-   "prev_val": "69.2",
-   "unit": "milyon avro / million euros",
+   "pct": 12.7,
+   "cur_val": "1.24",
+   "prev_val": "1.10",
+   "unit": "avro / euros",
    "date": "2026-09-04",
-   "url": "https://www.abcbourse.com/marches/viel-cie-accelere-au-premier-semestre-2026-portee-par-tradition-et-bourse-dir_702063",
-   "primary": false
+   "url": "https://www.viel.com/download/resultat-du-1er-semestre-2026/",
+   "primary": true
   },
   "quarter": null,
   "guidance": null,
@@ -21,7 +21,7 @@
   "skip": null,
   "note_tr": null,
   "note_en": null,
-  "notes": "Metric is profit attributable to the parent (net profit), not EPS: the H1 2026 EPS was not found. H1 2026 77.3m read in ABC Bourse and BFM/Tradingsat reproductions of the 4 Sep 2026 release (company release itself not opened: optionfinance and 24matins copies failed) -> primary false, re-check. H1 2025 comparative 69,182k EUR read in the company's own H1 2025 half-year report (copy on forum.daubasses.com; basic EPS 1.11, diluted 1.10). 77.3/69.182 = +11.7% (press says +11.8%; +17.2% at constant FX). CAUTION low base: H1 2025 included a GBP 7.2m (about EUR 8.5m) UK Supreme Court litigation charge in other operating expenses and FX losses; company gives no adjusted figure, so 'adjusted' is null (not estimated). FY2025: group share 126.4 vs 120.7 (+4.7%; +7.8% constant FX). Company reports half-yearly results (quarterly revenue only) -> no quarter. No profit guidance (qualitative outlook only). Nothing departed, no permanent cause found. Dividend yield exists in source (2.67%; 0.54/20.2 = 2.67%), so dividend null. Tradition (CHF): H1 2026 net profit group share 79.1 vs 70.2 (+12.6%, +22.5% constant), basic EPS 10.43 vs 9.14."
+  "notes": "Main session, 14 Nov 2026: verified from the company's own H1 2026 release (4 Sep 2026) and half-year report on viel.com: diluted EPS 1.24 vs 1.10 (+12.7%); basic 1.25 vs 1.11; group share 77,316k vs 69,182k EUR (+11.8%). Metric is profit attributable to the parent (net profit), not EPS: the H1 2026 EPS was not found. H1 2026 77.3m read in ABC Bourse and BFM/Tradingsat reproductions of the 4 Sep 2026 release (company release itself not opened: optionfinance and 24matins copies failed) -> primary false, re-check. H1 2025 comparative 69,182k EUR read in the company's own H1 2025 half-year report (copy on forum.daubasses.com; basic EPS 1.11, diluted 1.10). 77.3/69.182 = +11.7% (press says +11.8%; +17.2% at constant FX). CAUTION low base: H1 2025 included a GBP 7.2m (about EUR 8.5m) UK Supreme Court litigation charge in other operating expenses and FX losses; company gives no adjusted figure, so 'adjusted' is null (not estimated). FY2025: group share 126.4 vs 120.7 (+4.7%; +7.8% constant FX). Company reports half-yearly results (quarterly revenue only) -> no quarter. No profit guidance (qualitative outlook only). Nothing departed, no permanent cause found. Dividend yield exists in source (2.67%; 0.54/20.2 = 2.67%), so dividend null. Tradition (CHF): H1 2026 net profit group share 79.1 vs 70.2 (+12.6%, +22.5% constant), basic EPS 10.43 vs 9.14."
  },
  "ALSTI": {
   "metric": "NP",

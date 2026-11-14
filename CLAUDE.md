@@ -26,6 +26,8 @@ Veriyi GitHub'daki `collect` iş akışı toplar (`.github/workflows/collect.yml
 | Her gece 01:40 | Sırada bekleyen ilk iki ülke (henüz taranmamış) |
 | Cumartesi 05:10 | Taranmış bütün ülkeler (haftalık yenileme) |
 
+Cumartesi toplaması yaklaşık iki saat sürer (14 Kasım 2026'da son dosya 07:12'de geldi). Günlük Claude görevi bu yüzden 07:45'te, haftalık yenileme görevi 09:37'de başlar (İstanbul saati).
+
 İş akışı hiçbir şeyi yayımlamaz; veriyi `data/<ÜLKE>/in/` klasörüne bırakır:
 
 - `universe.json`: bütün şirketler (fiyat, piyasa değeri, F/K, PD/DD, bilanço dönemi). Kaynak TradingView tarayıcısı; Türkiye için İş Yatırım'ın temel değerler tablosu.
@@ -74,6 +76,8 @@ data/<ÜLKE>/
   growth_facts.json      4. surdaki şirketlerin güncel büyüme gerçekleri, kaynaklarıyla (Claude yazar; bkz. "Büyüme yargısı")
   earn_facts.json        4. surdaki şirketlerin kazanç düzeyi gerçekleri: son 12 ay kârı, şirket beklentisi, tek seferlik kalemler (Claude yazar; bkz. "Kazanç yargısı")
   finarm.json            finansman kolu olan sanayi şirketleri: borç testinde kullanılan kaynaklı rakamlar (Claude yazar; bkz. "Finansman kolu")
+  fixes.json             şirketin belgesiyle doğrulanmış veri düzeltmeleri; accept.py her seferinde uygular (Claude yazar; bkz. "Belgeyle düzeltme")
+  draft/                 yayımlanamayan taslaklar ve NOTES.md (hiçbir betik okumaz)
   core.json, geo.json    funnel.py ve geo.mjs çıktıları (core.json: U, L2, R raporlar, RX elenen şirketlerin saklanan raporları, N notlar, F finansman kolu)
 ```
 
@@ -218,14 +222,39 @@ Sınırlar:
 - Kuralı genişletmek ya da eşiği değiştirmek kural 2'ye girer: yalnız Alper isterse.
 - `python3 pipeline/accept.py <ÜLKE> --debt` yalnız borç testinden elenen ve henüz bakılmamış şirketleri listeler. Bir çalıştırmada en çok beş şirkete bak: içinde böyle bir kol varsa kaydını yaz, yoksa kodu `_none` listesine ekle.
 
+## Belgeyle düzeltme (fixes.json)
+
+Alper'in 14 Kasım 2026 talimatıyla eklendi ("gördüğün eksiklikleri giderelim"). Kaynağın bir rakamı şirketin kendi belgesiyle tutmuyorsa düzeltme evren dosyasına elle yazılmaz: elle yazılan düzeltmeyi bir sonraki yenileme siler (14 Kasım 2026'da Softcat ve IG Design düzeltmeleri böyle kayboldu). Düzeltme `data/<ÜLKE>/fixes.json` içine yazılır; `accept.py` her seferinde gelen veriye uygular ve "belgeyle düzeltilenler" diye listeler.
+
+```json
+"HRB": {
+  "per": "2027-Q1",
+  "equity": -242.3,
+  "date": "2026-11-14",
+  "tr": "Ne tutmuyordu, belgede ne yazıyor (rakam ve tarihle).", "en": "...",
+  "sources": [{"t": "Şirket: belge (tarih)", "te": "Company: document (date)", "u": "https://..."}]
+}
+```
+
+- `equity`: ana ortaklığa ait özsermaye (milyon, evrenin para birimi). PD/DD = piyasa değeri ÷ özsermaye olur ve sayfada "şirketin belgesinden" diye görünür (`pbs: "doc"`); eksiyse şirket "özsermaye negatif" işaretlenir.
+- `set`: alanları olduğu gibi yazar (örnek: süren faaliyetler kârda ama ana ortaklık zararda ise `{"pe": null, "np": "loss"}`).
+- `mul`: alanı çarpar. Kaynak piyasa değerine özel oy paylarını katıyorsa (Hollanda'da kayıtlı şirketler: Stellantis, Pluxee) `{"m": adi pay ÷ toplam pay}`.
+- `per`: düzeltmenin dayandığı bilanço dönemi. `equity` ve `set` kayıtlarında zorunludur: evrendeki dönem değişince düzeltme uygulanmaz ve `accept.py` "DÜZELTME ESKİDİ" diye yazar. O zaman yeni bilançoyu şirketin belgesinden oku: sorun sürüyorsa kaydı yeni dönemle güncelle, sürmüyorsa sil. `mul` kayıtlarında `per` yazılmaz; pay sayıları yılda bir kez (ya da sermaye bildirimi gelince) yeniden okunur.
+- Her kaydın kaynağı birincil belgedir, adresiyle. Düzeltme ayrıca `meta.json` içindeki `data_notes` listesinde bir cümleyle anlatılır (iki dilde).
+- Düzeltme yalnız belgede yazan rakamı taşır; tahmin, yuvarlama ya da "daha makul" bir değer yazılmaz. Sonucu beğenmediğin için düzeltme yapma (kural 2).
+
+**Veri şüpheli listesi.** `accept.py`, 2. suru geçen şirketlerde evrendeki F/K ve PD/DD'yi oran sayfasındaki güncel F/K ve PD/DD ile karşılaştırır; %20'den fazla ayrışanları "VERİ ŞÜPHELİ" diye listeler ve okuma sırasında "! veri şüpheli" diye işaretler. Bu liste kimseyi elemez. Bu şirketleri okuyan oturum önce farkın nedenini bulur (pay bölünmesi, özel oy payları, azınlık payı dahil özsermaye, eski bilanço, tek seferlik kalem) ve raporun `verify` notuna yazar; doğrusu belgeyle bulunursa `fixes.json` kaydı açılır. 14 Kasım 2026'da okunan 12 kale adayının hiçbiri gerçek kale çıkmadı; çoğunda neden buydu.
+
+**Taslaklar.** Yazılmış ama yayımlanamayan iş (kale adayı olup birincil belgesi açılamayan şirketin raporu, denetimi geçemeyen ülkenin metinleri) `data/<ÜLKE>/draft/` altında, neyin eksik olduğunu söyleyen bir `NOTES.md` ile saklanır. Bu klasörü hiçbir betik okumaz. Sonraki çalıştırma önce buraya bakar; eksik giderilince kayıtlar yerine alınır ve taslak silinir.
+
 ## İş A: yeni ülke ekle (her gün)
 
 1. `python3 pipeline/accept.py --list` çalıştır. "YENİ ÜLKE" satırları, verisi gelmiş ama henüz eklenmemiş ülkelerdir. `pipeline/countries.json` sırasına göre ilkinden başla. Bir çalıştırmada en çok iki ülke. Hiç yeni ülke verisi yoksa özetine yaz ve dur (kural 9).
 2. **Gelen veriyi oku:** `data/<CC>/in/status.json` ve `macro.json`. Şunları denetle; biri tutmazsa o ülkeyi bugün ekleme:
    - `ok` doğru mu, `errors` boş mu?
-   - Şirket sayısı (`kept`), borsanın kendi açıkladığı şirket sayısına yakın mı (±%15)? Karşılaştırırken depo sertifikalarının (ADR) ve tezgâh üstü hisselerin evrende olmadığını hesaba kat. Kaynak: borsanın sitesi ya da WFE istatistikleri.
+   - Şirket sayısı (`kept`), borsanın kendi açıkladığı şirket sayısına yakın mı (±%15)? Karşılaştırırken depo sertifikalarının (ADR) ve tezgâh üstü hisselerin evrende olmadığını hesaba kat. Kaynak: borsanın sitesi ya da WFE istatistikleri. Fark %15 ile %25 arasındaysa ve bu listedeki öbür bütün denetimler tutuyorsa ülke yayımlanır; fark, karşılaştırılan sayı ve olası nedeni `data_notes` içinde açıkça yazılır (Alper'in 14 Kasım 2026 kararı; Fransa: evren 573, Euronext'in sayısı 722). Fark %25'in üstündeyse ya da hiçbir resmî sayı bulunamıyorsa ülke yayımlanmaz.
    - `top5` içindeki beş şirketin fiyatı ve piyasa değeri ikinci bir kaynakla (stockanalysis.com, WebFetch ile) %5 içinde tutuyor mu? Para birimi doğru mu? F/K ve PD/DD, iki kaynak aynı bilanço dönemindeyse %5 içinde tutmalı; dönem farklıysa farkı not et.
-   - `pe_filled_pct` %30-90 arasında mı?
+   - `pe_filled_pct` %30-90 arasında mı? (`accept.py` bunu kendisi de denetler.) Kanada 14 Kasım 2026'da bu denetimde kaldı (%23,2): TSXV ve CSE'deki küçük şirketlerin çoğu zararda. Kaynağın "zarar" dediği on şirket ikinci kaynakla denetlendi, onu da doğru çıktı; sorun veri değil, ölçünün kendisi. Ölçünün nasıl değişeceği Alper'in kararını bekliyor; karar gelene kadar Kanada eklenmez ve kural değiştirilmez.
    - `pe_fix`: `eps_med` ve `roe_med` 1'e yakın mı (kaynağın alanları birbiriyle tutuyor mu)? `nodata_top` içinde ülkenin bilinen büyük şirketleri varsa bunu `data_notes` içine yaz: bu şirketler zararda değil, kaynak son 12 ay kârını vermediği için değerlendirilemedi. `fixed_top` içinden iki şirketin F/K'sını ikinci kaynakla karşılaştır (%10 içinde).
    - `pb_fix`: `missing_pct` %10'un altında mı (kârlı ve yeterince büyük şirketlerde PD/DD'si bilinmeyenlerin oranı; `accept.py` bunu kendisi de denetler ve tutmazsa veriyi almaz)? `paths` içinde `ok: true` olan yolların ortancası (`med`) 1'e yakın mı? `fixed_top` içinden iki şirketin PD/DD'sini şirketin son bilançosundaki özsermayeyle karşılaştır (piyasa değeri ÷ ana ortaklığa ait özsermaye; kaynak bir önceki dönemin bilançosunu kullanıyor olabilir, hızlı büyüyen şirkette fark %10'u bulur: TSMC'de 12 Kasım 2026'da kaynak 9,66, eylül sonu bilançosuyla 8,67. Fark daha büyükse ya da yönü tersse yayımlama). `nodata_top` içinde bilinen büyük bir şirket varsa `data_notes` içine yaz.
    - `history.failed_n`, aday sayısının (`history.candidates`) %30'unu geçiyor mu? Geçiyorsa adres kalıbı yanlıştır: `status.json` içindeki `failed` listesinden birkaç kodu stockanalysis.com'da ara, doğru yolu `pipeline/sources.json` (ya da ülkeye özelse `countries.json` içindeki `sa`) içine yaz, gönder ve bu ülkeyi ertesi güne bırak. Toplayıcı gece yeniden dener.
@@ -240,7 +269,7 @@ Sınırlar:
 5. **3. sur: oku ve yaz** (aşağıdaki "Rapor yazımı"). Bir çalıştırmada toplam en çok **50 şirket** (Alper'in 12 Kasım 2026 kararı; önce 25 idi). Sırayı `python3 pipeline/accept.py <CC> --queue` verir: önce A (dar hendek varsayımıyla bile güvenlik marjı ≥ %25), sonra B (yalnız geniş hendekle ≥ %25), sonra C (fiyatı zaten yetmeyenler, en büyükten küçüğe). Kalanlar "sırada" kalır; sonraki çalıştırmalarda okunur.
 6. `python3 pipeline/funnel.py <CC> && node pipeline/geo.mjs <CC> && python3 pipeline/build_site.py`.
 7. **Sayfayı dene:** `node pipeline/check_site.cjs <CC>`. Betik ülkeyi açar, beş adımı gezer, bir şirket sayfasını ve yöntemi iki dilde açar, telefonda taşma ve konsol hatası arar. "sayfa denemesi tamam" demezse yayımlama.
-8. **Yayımla:** `git add -A && git commit -m "<Ülke> eklendi: N şirket, K kale" && git pull --rebase origin main && git push origin main`. `docs/` içinde çakışma çıkarsa `python3 pipeline/build_site.py` ile yeniden üret.
+8. **Yayımla:** `git add -A && git commit -m "<Ülke> eklendi: N şirket, K kale" && git pull --rebase origin main && git push origin main`. `docs/` içinde çakışma çıkarsa `python3 pipeline/build_site.py` ile yeniden üret. `data/<ÜLKE>/in/` içinde çakışma çıkarsa toplayıcının getirdiği dosya esas alınır (o klasöre elle yazılmaz; düzeltmeler `fixes.json` içindedir). Oturum `main` dalında değilse (`git status` "HEAD detached" diyorsa) `git push origin HEAD:main` kullan; zorla gönderme yok.
 9. **Özet yaz** (çalıştırmanın son mesajı): ülke, şirket sayıları (evren → 1 → 2 → 3 → kale), kaleler, sırada kalan sayısı, denetimde görülen sorunlar.
 
 Yeni ülke yoksa ya da iş erken bittiyse kalan hakla (50 şirket) mevcut ülkelerin "sırada" bekleyen şirketlerini oku: önce fiyatı kale olmaya yetenler.
@@ -279,7 +308,8 @@ Her şirket için önce oku: şirketin ne yaptığı, sahiplik yapısı, son bil
 }
 ```
 
-- **Kale adayını ana oturum kendisi doğrular.** Raporları yardımcı oturumlar yazabilir; ana oturum hepsinin biçimini denetler. Ama süzgeçten sonra kale çıkan ya da güvenlik marjı eşiğe beş puandan yakın olan (kale ya da kapıda) her şirkette ana oturum, yayımlamadan önce şunları şirketin kendi belgesinden (sonuç bülteni, finansal tablo, borsa bildirimi) kendisi okur ve raporla karşılaştırır: son dönemin net kârı ve tarihi, özsermaye, kârı şişiren tek seferlik kalem var mı, B puanının dayandığı rakamlar. Tutmayan rakam düzeltilir; belge açılamıyorsa rapor yazılır ama şirket o çalıştırmada "sırada" bırakılır (raporu `reports.json`'a eklenmez) ve özetine yazılır. Sitede en çok önem taşıyan sonuç "kale" olduğu için denetim oraya yoğunlaşır.
+- **Kale adayı çoğu zaman veri kusurudur; önce onu ara.** Sırada "A" ya da "B" görünen şirkette rapordan önce şunlara bak: pay bölünmesi ya da birleştirmesi (F/K yarıya iner), son bilançoda eksi özsermaye, kârın içinde büyük tek seferlik kazanç (negatif şerefiye, varlık ya da hisse satışı, türev kazancı), pay alım teklifi (fiyat teklif fiyatına yapışır), kaybedilen büyük müşteri. Bulduğunu `earn_facts.json` ya da `fixes.json` içine yaz.
+- **Kale adayını ana oturum kendisi doğrular.** Raporları yardımcı oturumlar yazabilir; ana oturum hepsinin biçimini denetler. Belge açılamadığı için sırada bırakılan şirketin taslağı `data/<ÜLKE>/draft/` altına konur (bkz. "Belgeyle düzeltme", Taslaklar). Ama süzgeçten sonra kale çıkan ya da güvenlik marjı eşiğe beş puandan yakın olan (kale ya da kapıda) her şirkette ana oturum, yayımlamadan önce şunları şirketin kendi belgesinden (sonuç bülteni, finansal tablo, borsa bildirimi) kendisi okur ve raporla karşılaştırır: son dönemin net kârı ve tarihi, özsermaye, kârı şişiren tek seferlik kalem var mı, B puanının dayandığı rakamlar. Tutmayan rakam düzeltilir; belge açılamıyorsa rapor yazılır ama şirket o çalıştırmada "sırada" bırakılır (raporu `reports.json`'a eklenmez) ve özetine yazılır. Sitede en çok önem taşıyan sonuç "kale" olduğu için denetim oraya yoğunlaşır.
 - `per`: raporu yazarken `universe.json` içindeki bilanço dönemi. Yenilemede hangi raporun eskidiği buradan anlaşılır.
 - `moat` her zaman Türkçe anahtardır: `yok`, `zayıf`, `dar`, `geniş` (sayfa İngilizcesini kendisi gösterir).
 - `en`: Türkçe metnin sade İngilizcesi. Rakamlar aynı kalır, biçimi İngilizce olur. Madde sayıları iki dilde eşit olmalı.
@@ -334,7 +364,7 @@ Geçme koşulu: B ≥ 2 ve diğerleri ≥ 1. Elenen şirkette `risks` ve `watch`
 
 ## Neye dokunulur, neye dokunulmaz
 
-- **Her çalıştırmada yazılır:** `data/<CC>/meta.json`, `data/<CC>/reports.json`, `data/<CC>/growth_facts.json`, `data/<CC>/earn_facts.json`, `data/<CC>/finarm.json` (yalnız "Finansman kolu" kuralına göre); `accept.py`, `funnel.py`, `geo.mjs` ve `build_site.py` çıktıları.
+- **Her çalıştırmada yazılır:** `data/<CC>/meta.json`, `data/<CC>/reports.json`, `data/<CC>/growth_facts.json`, `data/<CC>/earn_facts.json`, `data/<CC>/finarm.json` (yalnız "Finansman kolu" kuralına göre), `data/<CC>/fixes.json` (yalnız "Belgeyle düzeltme" kuralına göre), `data/<CC>/draft/`; `accept.py`, `funnel.py`, `geo.mjs` ve `build_site.py` çıktıları.
 - **Gerekirse düzeltilir:** `pipeline/sources.json` ve `countries.json` içindeki `sa` (oran sayfası adresleri), `geo` (harita kadrajı), `exclude_exchanges` (borsa sayılmayan pazarlar); `pipeline/sectors.json` (eksik sektör çevirisi).
 - **Yalnız bozuk bir şeyi onarmak için:** `collect.py`, `accept.py`, `build_site.py`, `geo.mjs`, `template.html`, `check_site.cjs`. Ne değiştirdiğini ve nedenini özetine yaz.
 - **Dokunulmaz (Alper açıkça istemedikçe):** `pipeline/params.json` (büyüme tavanı `gCap`, tabanı `gFloor`, `gYears`, `mosWonder`, `retMin`, `roaMin` dahil), `funnel.py` içindeki sur kuralları ve adil çarpan hesabı, `pipeline/charter.json`, `.github/workflows/collect.yml` içindeki saatler.

@@ -3,11 +3,11 @@
   "unit": "million EUR",
   "eps_cur": "EUR",
   "ttm": {
-   "eps": null,
+   "eps": 2.15,
    "net_profit": 134.5,
-   "tr": "Temmuz 2025 - Haziran 2026 (2025 yılı 126,4 − 2025 ilk yarı 69,2 + 2026 ilk yarı 77,3 = 134,5 milyon avro ana ortaklık kârı)",
-   "en": "July 2025 - June 2026 (full year 2025 126.4 − first half 2025 69.2 + first half 2026 77.3 = 134.5 million euros attributable to the parent)",
-   "url": "https://ml-eu.globenewswire.com/Resource/Download/614512bb-968e-487c-bff5-832338319455",
+   "tr": "Temmuz 2025 - Haziran 2026: seyreltilmiş hisse başına kâr 2,01 − 1,10 + 1,24 = 2,15 avro; ana ortaklık kârı 126,4 − 69,2 + 77,3 = 134,5 milyon avro (2025 yılı, 2025 ilk yarı, 2026 ilk yarı)",
+   "en": "July 2025 - June 2026: diluted EPS 2.01 − 1.10 + 1.24 = 2.15 euros; profit attributable to the parent 126.4 − 69.2 + 77.3 = 134.5 million euros (full year 2025, first half 2025, first half 2026)",
+   "url": "https://www.viel.com/download/resultat-du-1er-semestre-2026/",
    "primary": true
   },
   "tax_rate": 21.8,
@@ -15,7 +15,7 @@
   "offsets": [],
   "drop": null,
   "guidance": [],
-  "notes": "TTM = FY2025 126.4 (company release 27 Mar 2026, primary) - H1 2025 69.182 (company half-year report, forum-hosted copy) + H1 2026 77.3 (secondary reproductions of the 4 Sep 2026 release). EPS not available for FY2025/H1 2026 in documents read -> eps null; script can use net_profit with unit 'million EUR'. Cross-check: dataset implies 1,198.6 / 9.42 = 127.2m; document 134.5m is higher, so no source-vs-document cut. No one-off GAIN found in the 12 months in the releases read (none mentioned; full H1 2026 report not opened, so this is 'not found', not 'verified absent'). Outside TTM: the GBP 7.2m UK litigation charge sits in H1 2025. H2 2025 financial result was weak (FY2025 -8.5 vs +7.1, FX losses) - a charge, not listed as offset because the company does not label it one-off. Associates' share at Tradition rose to CHF 16.1m from 12.1m 'mainly from Money Partners Group, integrated by Gaitame': could contain a one-time element; not quantified by the company. Tax rate: FY2025 49.6 / 228.0 = 21.8%. No EPS guidance."
+  "notes": "Main session, 14 Nov 2026: FY2025 diluted EPS 2.01 (annual report 2025), H1 2025 1.10 and H1 2026 1.24 (half-year report 2026), all read on viel.com. Half-year report 2026 checked for one-offs: gains on sale of participations nil, fair-value gains 2.6m (3.5m a year earlier), no exceptional items. TTM = FY2025 126.4 (company release 27 Mar 2026, primary) - H1 2025 69.182 (company half-year report, forum-hosted copy) + H1 2026 77.3 (secondary reproductions of the 4 Sep 2026 release). EPS not available for FY2025/H1 2026 in documents read -> eps null; script can use net_profit with unit 'million EUR'. Cross-check: dataset implies 1,198.6 / 9.42 = 127.2m; document 134.5m is higher, so no source-vs-document cut. No one-off GAIN found in the 12 months in the releases read (none mentioned; full H1 2026 report not opened, so this is 'not found', not 'verified absent'). Outside TTM: the GBP 7.2m UK litigation charge sits in H1 2025. H2 2025 financial result was weak (FY2025 -8.5 vs +7.1, FX losses) - a charge, not listed as offset because the company does not label it one-off. Associates' share at Tradition rose to CHF 16.1m from 12.1m 'mainly from Money Partners Group, integrated by Gaitame': could contain a one-time element; not quantified by the company. Tax rate: FY2025 49.6 / 228.0 = 21.8%. No EPS guidance."
  },
  "ALSTI": {
   "unit": "million EUR",

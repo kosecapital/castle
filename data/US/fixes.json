@@ -1,0 +1,16 @@
+{
+ "HRB": {
+  "per": "2027-Q1",
+  "equity": -242.3,
+  "date": "2026-11-14",
+  "tr": "Kaynağın PD/DD'si 30 Haziran 2026 bilançosuna dayanıyor (özsermaye 117,5 milyon dolar). Şirketin 9 Kasım 2026'da açıkladığı 30 Eylül 2026 bilançosunda özsermaye eksi 242,3 milyon dolar.",
+  "en": "The source's P/B rests on the balance sheet of 30 June 2026 (equity of 117.5 million dollars). In the balance sheet of 30 September 2026, published by the company on 9 November 2026, equity is minus 242.3 million dollars.",
+  "sources": [
+   {
+    "t": "H&R Block: 2027 mali yılı 1. çeyrek sonuç açıklaması (9 Kas 2026)",
+    "te": "H&R Block: fiscal 2027 first-quarter results release (9 Nov 2026)",
+    "u": "https://www.sec.gov/Archives/edgar/data/0000012659/000001265926000035/q1fy27earningrelease.htm"
+   }
+  ]
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "SCT": {
+  "per": "2026-H2",
+  "equity": 364.0,
+  "date": "2026-11-13",
+  "tr": "Kaynağın PD/DD'si 31 Ocak 2026 bilançosuna dayanıyor. Şirketin 31 Temmuz 2026 bilançosunda özsermaye 364,0 milyon sterlin (196,9 milyon pay).",
+  "en": "The source's P/B rests on the balance sheet of 31 January 2026. In the company's balance sheet of 31 July 2026 equity is 364.0 million pounds (196.9 million shares).",
+  "sources": []
+ },
+ "IGR": {
+  "per": "2025-H2",
+  "set": {
+   "pe": null,
+   "np": "loss",
+   "pes": null
+  },
+  "date": "2026-11-13",
+  "tr": "Kaynağın F/K'sı yalnız süren faaliyetlerin kârına dayanıyor. Şirketin 31 Mart 2026'da biten yıl sonuçlarında ana ortaklığa düşen sonuç 112,3 milyon sterlin zarar (süren faaliyetler 5,4 milyon kâr, durdurulan faaliyetler 117,7 milyon zarar).",
+  "en": "The source's P/E rests on profit from continuing operations only. In the company's results for the year ended 31 March 2026 the result attributable to the parent is a loss of 112.3 million pounds (continuing operations a profit of 5.4 million, discontinued operations a loss of 117.7 million).",
+  "sources": []
+ },
+ "_note": "SCT ve IGR kayıtları 13 Kasım 2026'da elle yapılan düzeltmelerin (data_notes) aktarımıdır; belge adresleri o çalıştırmada kaydedilmemiş. İlk yenilemede belgeyi aç ve sources alanını doldur."
+}

@@ -1,0 +1,33 @@
+{
+ "STLAP": {
+  "mul": {
+   "m": 0.7703,
+   "pb": 0.7703
+  },
+  "date": "2026-11-14",
+  "tr": "Kaynak piyasa değerine özel oy paylarını da katıyor. Şirketin 1 Ekim 2026 sermaye bildiriminde 2.906.201.733 adi pay ve 866.522.224 özel oy payı var; piyasa değeri ve PD/DD yalnız adi paylarla hesaplandı.",
+  "en": "The source counts special voting shares in the market value. The company's share capital notice of 1 October 2026 lists 2,906,201,733 common shares and 866,522,224 special voting shares; market value and P/B were calculated on common shares only.",
+  "sources": [
+   {
+    "t": "Stellantis: sermaye bildirimi (1 Eki 2026)",
+    "te": "Stellantis: regulatory notice on share capital (1 Oct 2026)",
+    "u": "https://www.stellantis.com/content/dam/stellantis-corporate/investors/reporting/other-regulated-info/en/Stellantis-Regulatory-Notice-Share-Capital-1-Oct-2026.pdf"
+   }
+  ]
+ },
+ "PLX": {
+  "mul": {
+   "m": 0.6915
+  },
+  "date": "2026-11-14",
+  "tr": "Kaynak piyasa değerine özel oy paylarını da katıyor. Şirketin 141.331.634 adi payı ve 63.040.363 özel oy payı var; piyasa değeri yalnız adi paylarla hesaplandı. PD/DD kaynağın rakamıdır; bültende yalnız toplam özsermaye (531 milyon avro) açıklandığı için düzeltilmedi.",
+  "en": "The source counts special voting shares in the market value. The company has 141,331,634 ordinary shares and 63,040,363 special voting shares; market value was calculated on ordinary shares only. P/B is the source's figure; it was not corrected because the release discloses only total equity (531 million euros).",
+  "sources": [
+   {
+    "t": "Pluxee: ortaklık yapısı (31 Ağu 2026)",
+    "te": "Pluxee: share ownership (31 Aug 2026)",
+    "u": "https://pluxeegroup.com/share-ownership"
+   }
+  ]
+ }
+}
