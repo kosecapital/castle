@@ -1,0 +1,1324 @@
+{
+ "VIL": {
+  "scores": {
+   "A": 1,
+   "B": 2,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "2026-H1",
+  "one": "Dünyanın üçüncü büyük kurumlar arası aracısı Tradition'ın ve Bourse Direct'in sahibi holding. Kalite surlarını geçti; marj, yılda %13,3 reel büyümenin süreceği varsayımına dayanıyor.",
+  "business": "VIEL & Cie üç işin sahibi bir holdingdir. En büyüğü, İsviçre'de işlem gören Compagnie Financière Tradition: bankalar ve kurumlar arasında faiz, döviz, tahvil ve emtia işlemlerine aracılık eder, komisyon alır. İkincisi Fransa'nın çevrim içi aracı kurumu Bourse Direct. Üçüncüsü, %40'ı özkaynak yöntemiyle izlenen SwissLife Banque Privée. 2025'te gelirin 1.190,6 milyon avrosu kurumlar arası aracılıktan, 76,3 milyon avrosu Bourse Direct'ten geldi (toplam 1.266,9 milyon avro).",
+  "moat_text": "Hendek dar. Üstünlük ölçekten ve ağdan geliyor: aracıya en çok alıcı ve satıcı kimde toplanıyorsa işlem oraya gider. Şirket Tradition'ı sektörün dünyadaki üçüncü büyük oyuncusu olarak tanımlıyor: 30'dan fazla ülke, 2.700'den fazla çalışan. Bu rakamlarda görünüyor: faaliyet marjı 2024'te %13,0, 2025'te %15,2; reel özsermaye kârlılığı beş yılda %11,4'ten %23,0'e çıktı, son 12 ayda %21,2. Zayıf yanları: iş insana bağlı (gelirin büyük bölümü aracı ücretlerine gider), hacim piyasa oynaklığına ve faiz ortamına bağlı, elektronik platformlar sesli aracılığı zorluyor. Pazar payı rakamı belgelerde yok; sıralama şirketin kendi beyanı. Bu yüzden geniş değil, dar.",
+  "mgmt": "Şirketi Viel et Compagnie-Finance kontrol ediyor: 30 Haziran 2025'te sermayenin %64,99'u. Yapı üç katlı: VIEL & Cie'nin altındaki Tradition ve Bourse Direct de ayrıca borsada; 2025'te 178,4 milyon avroluk kârın 52,0 milyon avrosu azınlık paylarına gitti. Kâr dört yere gidiyor: iş içi büyüme, temettü (2025 için hisse başına 0,54 avro; önceki yıl 0,47), geri alınıp iptal edilen hisseler (2025'in ilk yarısında 941.868 hisse iptal edildi) ve özsermaye. 30 Haziran 2026'da şirketin elindeki kendi hisselerinin maliyeti 24,0 milyon avro, borsa değeri yaklaşık 72,0 milyon avro; geri alımlar bugünkü fiyatın çok altından yapılmış. Hisse bazlı ücret küçük: 2025'in ilk yarısında 1,0 milyon avro. Şerefiye 30 Haziran 2025'te 98,3 milyon avro, ana ortaklık özsermayesinin yaklaşık %18'i. İlişkili taraf işlemlerine ve holdingin kendi borcuna bakıldı, okunan belgelerde yok; 2026 yarıyıl raporunun tamamı açılamadı.",
+  "latest": "4 Eylül 2026: Şirket 2026'nın ilk yarısında 77,3 milyon avro ana ortaklık kârı açıkladı (geçen yıl 69,2 milyon; değişken kurla +%11,8, sabit kurla +%17,2). Gelir 696,0 milyon avro (+%6,5; sabit kurla +%11,5). İştirakler dahil faaliyet kârı 133,8 milyon avro (geçen yıl 124,8 milyon). Konsolide net kâr 106,8 milyon avro. Ana ortaklığa ait özsermaye 613,7 milyon avro (toplam 788,8 milyon). Tradition aynı dönemde 79,1 milyon frank kâr açıkladı (geçen yıl 70,2 milyon). Geçen yılın ilk yarısında İngiltere'de kaybedilen bir davanın 8,5 milyon avroluk gideri vardı; bu yılki artışın bir bölümü o düşük tabandan geliyor.",
+  "risks": [
+   "Hesap yılda %13,3 reel büyüme varsayıyor. Marj bu varsayıma ve bugünkü kârın sürmesine dayanıyor. Son beş yılın kârı yükselen faizlerin ve yüksek piyasa oynaklığının dönemine denk geldi; hacimler normale dönerse büyüme de kârlılık da geriler.",
+   "2026 ilk yarısındaki kâr artışı düşük bir tabana dayanıyor: 2025'in ilk yarısında 8,5 milyon avroluk dava gideri ve kur zararları vardı. İştiraklerin katkısı da Japonya'daki Money Partners'ın Gaitame'ye katılmasıyla sıçradı (Tradition'da 12,1 milyon franktan 16,1 milyona).",
+   "Gelirin büyük bölümü dolar, sterlin ve frankla kazanılıyor; avro güçlenince kâr düşüyor. 2026'nın ilk yarısında gelir sabit kurla %11,5, avroyla %6,5 arttı. Enflasyon düzeltmesi Fransa enflasyonuyla yapıldı.",
+   "Holding yapısı: kârın yaklaşık %29'u azınlık paylarına gidiyor ve kontrol tek bir aile şirketinde (%64,99). Küçük ortağın sözü sınırlı.",
+   "Bilanço dışı ve hukuki riskler: 30 Haziran 2025'te teslim edilecek ve alınacak menkul kıymet taahhütleri 407,5'er milyon avro; Tradition, yaptırımlar yüzünden takası aksayan ruble tahvil işlemleri için 9,6 milyon frank karşılık tutuyor."
+  ],
+  "watch": [
+   "Tradition'ın sabit kurla gelir büyümesi ve faaliyet marjı (%14,7; ortak girişimler dahil %16,8)",
+   "Piyasa oynaklığı ve faiz düzeyi; nakit faiz geliri",
+   "Azınlık paylarının kârdan aldığı pay",
+   "Geri alım ve iptal edilen hisse sayısı; temettü (0,54 avro)"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/epa/VIL/financials/ratios/"
+   },
+   {
+    "t": "VIEL & Cie: 2025 sonuç bülteni 'Croissance des résultats en 2025' (27 Mar 2026)",
+    "te": "VIEL & Cie: 2025 results release 'Croissance des résultats en 2025' (27 Mar 2026)",
+    "u": "https://ml-eu.globenewswire.com/Resource/Download/614512bb-968e-487c-bff5-832338319455"
+   },
+   {
+    "t": "VIEL & Cie: 2025 yarıyıl finansal raporu (22 Eyl 2025; forumda barındırılan kopya)",
+    "te": "VIEL & Cie: 2025 half-year financial report (22 Sep 2025; copy hosted on a forum)",
+    "u": "https://forum.daubasses.com/download/file.php?id=11655"
+   },
+   {
+    "t": "ABC Bourse: VIEL & Cie 2026 ilk yarı sonuçları, bültenin özeti (4 Eyl 2026)",
+    "te": "ABC Bourse: VIEL & Cie first-half 2026 results, summary of the release (4 Sep 2026)",
+    "u": "https://www.abcbourse.com/marches/viel-cie-accelere-au-premier-semestre-2026-portee-par-tradition-et-bourse-dir_702063"
+   },
+   {
+    "t": "Compagnie Financière Tradition: 2026 ilk yarı sonuç bülteni (28 Ağu 2026)",
+    "te": "Compagnie Financière Tradition: first-half 2026 results release (28 Aug 2026)",
+    "u": "https://www.tradition.com/media/368368/cft-adhoc_anno_pursuant_art.53lr-communique_resultatsh1_2026-en_vf.pdf"
+   },
+   {
+    "t": "Compagnie Financière Tradition: 2026 yarıyıl raporu",
+    "te": "Compagnie Financière Tradition: half-year report 2026",
+    "u": "https://www.tradition.com/media/368397/CFT_HY2026_EN.pdf"
+   }
+  ],
+  "en": {
+   "one": "Holding company that owns Tradition, the world's third-largest interdealer broker, and Bourse Direct. It passed the quality walls; the margin rests on real growth of 13.3% a year continuing.",
+   "business": "VIEL & Cie is a holding company with three businesses. The largest is Compagnie Financière Tradition, listed in Switzerland: it brokers interest-rate, currency, bond and commodity trades between banks and institutions and earns commission. The second is Bourse Direct, a French online broker. The third is SwissLife Banque Privée, 40% owned and equity-accounted. In 2025, 1,190.6 million euros of revenue came from interdealer broking and 76.3 million from Bourse Direct (1,266.9 million in total).",
+   "moat_text": "The moat is narrow. The advantage comes from scale and network: trades go to the broker where most buyers and sellers already meet. The company describes Tradition as the third-largest player in its industry worldwide: more than 30 countries and over 2,700 staff. It shows in the numbers: operating margin was 13.0% in 2024 and 15.2% in 2025; real return on equity rose from 11.4% to 23.0% over five years and is 21.2% for the last 12 months. Weak points: the business depends on people (much of revenue goes to broker pay), volumes depend on market volatility and interest rates, and electronic platforms pressure voice broking. No market-share figure is in the documents; the ranking is the company's own statement. So the moat is narrow, not wide.",
+   "mgmt": "The company is controlled by Viel et Compagnie-Finance: 64.99% of the capital at 30 June 2025. The structure has three tiers: Tradition and Bourse Direct, below VIEL & Cie, are also listed; in 2025, 52.0 million euros of the 178.4 million profit went to minority interests. Profit goes four ways: organic growth, dividends (0.54 euros per share for 2025; 0.47 the year before), shares bought back and cancelled (941,868 shares cancelled in the first half of 2025) and equity. At 30 June 2026 the company's own shares had cost 24.0 million euros and were worth about 72.0 million on the market; the buybacks were made far below today's price. Share-based pay is small: 1.0 million euros in the first half of 2025. Goodwill was 98.3 million euros at 30 June 2025, about 18% of parent equity. Related-party transactions and the holding company's own debt were looked for and are not in the documents read; the full 2026 half-year report could not be opened.",
+   "latest": "4 September 2026: The company reported profit attributable to the parent of 77.3 million euros for the first half of 2026 (69.2 million a year earlier; +11.8% at current exchange rates, +17.2% at constant rates). Revenue was 696.0 million euros (+6.5%; +11.5% at constant rates). Operating profit including associates was 133.8 million euros (124.8 million a year earlier). Consolidated net profit was 106.8 million euros. Equity attributable to the parent was 613.7 million euros (788.8 million in total). Tradition reported profit of 79.1 million francs for the same period (70.2 million a year earlier). The first half of last year carried an 8.5 million euro charge for a lawsuit lost in England; part of this year's rise comes from that low base.",
+   "risks": [
+    "The calculation assumes real growth of 13.3% a year. The margin rests on that assumption and on today's profit continuing. The profit of the last five years coincided with rising interest rates and high market volatility; if volumes normalise, both growth and profitability fall back.",
+    "The profit rise in the first half of 2026 rests on a low base: the first half of 2025 carried an 8.5 million euro lawsuit charge and currency losses. The contribution of associates also jumped when Money Partners in Japan was merged into Gaitame (from 12.1 million francs to 16.1 million at Tradition).",
+    "Most revenue is earned in dollars, sterling and francs; profit falls when the euro strengthens. In the first half of 2026 revenue grew 11.5% at constant rates and 6.5% in euros. The inflation adjustment uses French inflation.",
+    "Holding structure: about 29% of profit goes to minority interests and control sits with one family company (64.99%). Minority shareholders have limited say.",
+    "Off-balance-sheet and legal risks: at 30 June 2025 commitments to deliver and to receive securities were 407.5 million euros each; Tradition holds a 9.6 million franc provision for rouble bond trades whose settlement is disrupted by sanctions."
+   ],
+   "watch": [
+    "Tradition's revenue growth at constant rates and operating margin (14.7%; 16.8% including joint ventures)",
+    "Market volatility and the level of interest rates; interest income on cash",
+    "The share of profit taken by minority interests",
+    "Shares bought back and cancelled; the dividend (0.54 euros)"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-14",
+   "per": "2026-H1"
+  }
+ },
+ "ALSTI": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-H1",
+  "one": "Batarya depolama sistemleri için patlama panelleri üreten sanayi şirketi. En büyük müşterisi Tesla'yı kaybetti; hendek ölçütünü geçemedi.",
+  "business": "STIF, patlamaya karşı koruma ürünleri (batarya enerji depolama sistemleri ve sanayi tesisleri için tahliye panelleri) ve dökme malzeme taşıma parçaları üretir. 2025'te 90,5 milyon avro gelirin 41,4 milyonu (%45,8) batarya depolama panellerinden, 16,6 milyonu sanayi için pasif korumadan, 19,6 milyonu taşıma parçalarından geldi. 2025'te Stuvex (aktif patlama koruması) ve Boss Products (Kuzey Amerika dağıtımı) satın alındı.",
+  "moat_text": "Hendek zayıf; şirket bu ölçütü geçemedi (B = 1). Ürün sertifikalı ve niş, brüt marj yüksek (%64,3). Ama üstünlüğün kolay aşıldığı 1 Ekim 2026'da görüldü: Tesla yeni Megapack 3 modeli için STIF ürünlerini içermeyen başka güvenlik sistemleri seçti; şirket 2027'de bu müşteriden hiç gelir beklemiyor. Bir aracı kurum Tesla'nın payını gelirin yaklaşık %20'si olarak tahmin ediyor (şirket oran vermiyor). Şirket 2027 gelir hedefini 100 milyon avroya, FAVÖK marjını yaklaşık %15'e indirdi (2026 ilk yarı: %22,8); 2030 hedefi 200 milyondan 170 milyon avroya düştü. Grafikteki yüksek özsermaye kârlılığı (%18 ile %51 arası) birkaç büyük müşteriye bağlı bir büyüme döneminin sonucu; kalıcılığı kanıtlanmadı.",
+  "mgmt": "Şirket kendini aile şirketi olarak tanımlıyor; pay oranlarına bakıldı, okunan belgelerde yok. Aralık 2023'te halka açıldı; kaynak beş yılda pay sayısında büyük artış gösteriyor (halka arzın etkisi). Kâr büyümeye ve satın almalara gitti: 2025'te Stuvex ve Boss Products alındı, SAFEVENT'e ortak olundu; ödeme biçimi belgede yok. Net borç 30 Haziran 2026'da 26,3 milyon avro, özsermayenin 0,7 katı. 2025 için hisse başına 0,68 avro temettü önerildi (önceki yıl 0,59). Hisse bazlı ücret, şerefiye tutarı ve bilanço dışı yükümlülüklere bakıldı, okunan bültenlerde yok.",
+  "latest": "1 Ekim 2026: Şirket 2026'nın ilk yarısında 7,5 milyon avro ana ortaklık kârı açıkladı (geçen yıl 6,4 milyon; +%17,5). Gelir 55,3 milyon avro (+%50,8), FAVÖK 12,6 milyon avro (marj %22,8; geçen yıl %24,9). Toplam özsermaye 37,1 milyon avro. Aynı bültende Tesla'nın Megapack 3 için başka bir güvenlik sistemi seçtiği ve 2027'de bu müşteriden gelir beklenmediği duyuruldu. 2026 hedefi: yaklaşık 110 milyon avro gelir ve 18 milyon avro FAVÖK (2025: 20,6 milyon). Hisse 2 Ekim'de seans içinde yaklaşık %57 düştü.",
+  "risks": [
+   "En büyük müşteri gitti: 2027'de Tesla'dan gelir yok. Şirketin kendi hedefi 2026 FAVÖK'ünün 2025'in altında, 2027 gelirinin 2026'nın altında kalacağını gösteriyor. Son 12 ayın kârı bugünkü kazanç gücünü olduğundan yüksek gösteriyor.",
+   "Gelirin yaklaşık yarısı tek bir pazardan, batarya depolamadan geliyor; yeni siparişler (BYD, 5 milyon avro) kaybı henüz karşılamıyor.",
+   "Net borç 26,3 milyon avro; satın almalar borçla büyütüldü ve kâr düşerken borç oranı yükselir."
+  ],
+  "watch": [
+   "2027'de Tesla dışı batarya depolama siparişleri (BYD, CATL)",
+   "FAVÖK marjı (%22,8'den hedeflenen %15'e)",
+   "Net borç ve Stuvex ile Boss Products'ın katkısı"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/epa/ALSTI/financials/ratios/"
+   },
+   {
+    "t": "STIF: 2026 ilk yarı sonuç bülteni (1 Eki 2026)",
+    "te": "STIF: first-half 2026 results release (1 Oct 2026)",
+    "u": "https://www.webdisclosure.com/press-release/strong-growth-in-2026-half-year-results-2IMjAFQmcCX"
+   },
+   {
+    "t": "STIF: 2025 yıllık sonuç bülteni (26 Mar 2026)",
+    "te": "STIF: 2025 annual results release (26 Mar 2026)",
+    "u": "https://bourse.lavenir.net/news/stif/ALSTI/FR/1397491/2025-annual-results-solid-performance.html"
+   },
+   {
+    "t": "BFM Bourse: Tesla'yı kaybeden STIF borsada çöktü (2 Eki 2026)",
+    "te": "BFM Bourse: STIF collapses after losing Tesla (2 Oct 2026)",
+    "u": "https://www.tradingsat.com/stif-FR001400MDW2/actualites/stif-lache-par-le-constructeur-automobile-tesla-son-plus-gros-client-stif-perd-son-principal-moteur-boursier-et-s-effondre-de-pres-de-60-en-bourse-1171188.html"
+   }
+  ],
+  "en": {
+   "one": "Industrial company making explosion vent panels for battery storage systems. It lost its largest customer, Tesla; it did not pass the moat test.",
+   "business": "STIF makes explosion-protection products (vent panels for battery energy storage systems and industrial plants) and bulk-handling components. In 2025, of 90.5 million euros of revenue, 41.4 million (45.8%) came from battery-storage panels, 16.6 million from passive industrial protection and 19.6 million from handling components. In 2025 it bought Stuvex (active explosion protection) and Boss Products (North American distribution).",
+   "moat_text": "The moat is weak; the company did not pass this test (B = 1). The product is certified and niche, and gross margin is high (64.3%). But 1 October 2026 showed how easily the advantage is overcome: Tesla chose other safety systems, without STIF products, for its new Megapack 3; the company expects no revenue from this customer in 2027. One broker estimates Tesla at about 20% of revenue (the company gives no figure). The company cut its 2027 revenue target to 100 million euros and its EBITDA margin to about 15% (first half of 2026: 22.8%); the 2030 target fell from 200 million to 170 million euros. The high return on equity in the chart (between 18% and 51%) reflects a growth period tied to a few large customers; its durability is not proven.",
+   "mgmt": "The company describes itself as family-owned; shareholdings were looked for and are not in the documents read. It listed in December 2023; the data source shows a large rise in the share count over five years (the effect of the listing). Profit went to growth and acquisitions: Stuvex and Boss Products were bought in 2025 and a stake was taken in SAFEVENT; how they were paid for is not in the document. Net debt was 26.3 million euros at 30 June 2026, 0.7 times equity. A dividend of 0.68 euros per share was proposed for 2025 (0.59 the year before). Share-based pay, the goodwill amount and off-balance-sheet liabilities were looked for and are not in the releases read.",
+   "latest": "1 October 2026: The company reported profit attributable to the parent of 7.5 million euros for the first half of 2026 (6.4 million a year earlier; +17.5%). Revenue was 55.3 million euros (+50.8%) and EBITDA 12.6 million euros (margin 22.8%; 24.9% a year earlier). Total equity was 37.1 million euros. The same release announced that Tesla chose another safety system for Megapack 3 and that no revenue is expected from this customer in 2027. The 2026 target: about 110 million euros of revenue and 18 million euros of EBITDA (2025: 20.6 million). The share fell about 57% intraday on 2 October.",
+   "risks": [
+    "The largest customer has gone: no Tesla revenue in 2027. The company's own targets show 2026 EBITDA below 2025 and 2027 revenue below 2026. The profit of the last 12 months overstates today's earning power.",
+    "About half of revenue comes from a single market, battery storage; new orders (BYD, 5 million euros) do not yet replace the loss.",
+    "Net debt is 26.3 million euros; acquisitions were funded with debt, and the debt ratio rises as profit falls."
+   ],
+   "watch": [
+    "Non-Tesla battery-storage orders in 2027 (BYD, CATL)",
+    "EBITDA margin (from 22.8% to the targeted 15%)",
+    "Net debt and the contribution of Stuvex and Boss Products"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-14",
+   "per": "2026-H1"
+  }
+ },
+ "ALWEC": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-H1",
+  "one": "Bilgisayar donanımı ve aksesuar dağıtıcısı. Düşük marjlı bir iş; son 12 ay kârının büyük bölümü satın almadan doğan tek seferlik kazanç. Hendek ölçütünü geçemedi.",
+  "business": "WE.CONNECT iki iş yapar: kendi markalarıyla (WE, D2 Diffusion, Halterrego, Heden) bilgisayar aksesuarı ve elektronik satar; başkalarının bilgisayar donanımını market zincirlerine ve uzman mağazalara dağıtır (MCA Technology; Ağustos 2025'te alınan Exertis France, yeni adıyla Ezratis, ve Exertis Iberia). Kurumlar için özel bilgisayar da toplar. 2025'te gelir 453,9 milyon avro oldu (+%51,2); bunun 176,1 milyonu satın almalardan geldi.",
+  "moat_text": "Hendek zayıf; şirket bu ölçütü geçemedi (B = 1). İşin büyük bölümü başkasının ürününü dağıtmak ve marjlar çok ince: 2025'te brüt marj gelirin %9,6'sı (2024: %11,2), FAVÖK marjı %3,0 (2024: %4,4); 2026'nın ilk yarısında FAVÖK marjı %3,4. Bu, fiyatlama gücü olmadığını gösterir. Kendi markaları var ama payları belgede yok. Grafikteki son iki yüksek özsermaye kârlılığı okuması (%46,3 ve %39,7) işin kârlılığını göstermiyor: 2025 kârının 26,9 milyon avrosu, Exertis France ve Iberia'nın defter değerinin altında alınmasından doğan negatif şerefiyenin gelir yazılmasıdır. Önceki dört yılda reel özsermaye kârlılığı %12 ile %16 arasındaydı.",
+  "mgmt": "Sahiplik yapısına bakıldı, okunan belgelerde yok. Kâr büyük ölçüde şirkette kalıyor: 2025 için hisse başına 0,40 avro temettü önerildi (hisse başına kâr 12,7 avro). Sermaye satın almalara gidiyor: 2024'te MCA Technology, 2025'te zarardaki Exertis France ve Exertis Iberia. Şirket yeni alınan kolların 2026'da küçük zarar yazıp 2027'de kâra dönmesini bekliyor. 2025 sonunda net nakit 27,7 milyon avroydu; 30 Haziran 2026'da nakit 43,7 milyondan 14,5 milyon avroya indi, çünkü stoklar 31,4 milyon, alacaklar 42,9 milyon arttı, satıcı borçları 54,0 milyon azaldı. Hisse bazlı ücret, şerefiye ve bilanço dışı yükümlülüklere bakıldı, okunan bültenlerde yok.",
+  "latest": "16 Ekim 2026: Şirket 2026'nın ilk yarısında 6,0 milyon avro net kâr açıkladı (geçen yıl 6,3 milyon; −%4,5). Gelir 235,3 milyon avro (+%34,5; satın almalar hariç +%3,5). FAVÖK 7,9 milyon avro (gelirin %3,4'ü), faaliyet kârı 7,9 milyon avro (+%5,3), olağan dışı sonuç −0,6 milyon avro. Özsermaye 101,8 milyon avro. Şirket 2026 için 500 milyon avronun üzerinde gelir hedefini yineledi.",
+  "risks": [
+   "Son 12 ay kârının yaklaşık %72'si tek seferlik: 2025'te 26,9 milyon avro negatif şerefiye gelir yazıldı (son 12 ay kârı 37,2 milyon avro). Kaynağın 1,9'luk F/K'sı bu yüzden yanıltıcı; yarıyıl kârı yılda yaklaşık 12 milyon avroya işaret ediyor.",
+   "Marj ince (FAVÖK %3,4): fiyat, kur ya da stok değerindeki küçük bir oynama kârı siler.",
+   "İşletme sermayesi nakdi yuttu: altı ayda nakit 43,7 milyondan 14,5 milyon avroya indi.",
+   "Zarardaki Ezratis France'ın toparlanması henüz kanıtlanmadı."
+  ],
+  "watch": [
+   "Satın almalar hariç FAVÖK marjı (%4,9)",
+   "Ezratis France'ın kâra dönüşü",
+   "Nakit, stok ve alacak düzeyi",
+   "Olağan dışı kalemler"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/epa/ALWEC/financials/ratios/"
+   },
+   {
+    "t": "WE.CONNECT: 2025 yıllık sonuç bülteni (17 Nis 2026; AMF arşivi)",
+    "te": "WE.CONNECT: 2025 annual results release (17 Apr 2026; AMF archive)",
+    "u": "https://echanges.dila.gouv.fr/OPENDATA/AMF/BWR/2026/04/FCBWR167380_20260417.pdf"
+   },
+   {
+    "t": "ABC Bourse: WE.CONNECT 2026 ilk yarı sonuçları, bültenin metni (16 Eki 2026)",
+    "te": "ABC Bourse: WE.CONNECT first-half 2026 results, text of the release (16 Oct 2026)",
+    "u": "https://www.abcbourse.com/marches/weconnect-releve-son-chiffre-daffaires-semestriel-2026-a-235-3-m-et-confirme_704329"
+   },
+   {
+    "t": "WE.CONNECT: 2025 yıllık gelir bülteni (17 Şub 2026)",
+    "te": "WE.CONNECT: 2025 annual revenue release (17 Feb 2026)",
+    "u": "https://www.businesswire.com/news/home/20260217655909/fr"
+   },
+   {
+    "t": "BFM Bourse: We.Connect'in faaliyet marjı ilk yarıda geriledi (16 Eki 2026)",
+    "te": "BFM Bourse: We.Connect's operating margin slips in the first half (16 Oct 2026)",
+    "u": "https://www.tradingsat.com/weconnect-FR0013079092/actualites/weconnect-weconnect-voit-sa-marge-d-exploitation-se-tasser-au-1er-semestre-1171882.html"
+   }
+  ],
+  "en": {
+   "one": "Distributor of computer hardware and accessories. A thin-margin business; most of the last 12 months' profit is a one-off gain from an acquisition. It did not pass the moat test.",
+   "business": "WE.CONNECT does two things: it sells computer accessories and electronics under its own brands (WE, D2 Diffusion, Halterrego, Heden), and it distributes third-party computer hardware to retail chains and specialist stores (MCA Technology; Exertis France, renamed Ezratis, and Exertis Iberia, both bought in August 2025). It also assembles custom PCs for institutions. Revenue in 2025 was 453.9 million euros (+51.2%); 176.1 million of that came from acquisitions.",
+   "moat_text": "The moat is weak; the company did not pass this test (B = 1). Most of the business is distributing other companies' products and margins are very thin: in 2025 gross margin was 9.6% of revenue (2024: 11.2%) and EBITDA margin 3.0% (2024: 4.4%); in the first half of 2026 EBITDA margin was 3.4%. That shows no pricing power. It has its own brands, but their share is not in the documents. The last two high return-on-equity readings in the chart (46.3% and 39.7%) do not show the profitability of the business: 26.9 million euros of 2025 profit is negative goodwill released to income, because Exertis France and Iberia were bought below book value. In the four years before, real return on equity was between 12% and 16%.",
+   "mgmt": "Ownership was looked for and is not in the documents read. Profit mostly stays in the company: a dividend of 0.40 euros per share was proposed for 2025 (earnings per share 12.7 euros). Capital goes to acquisitions: MCA Technology in 2024, the loss-making Exertis France and Exertis Iberia in 2025. The company expects the new subsidiaries to post a small loss in 2026 and return to profit in 2027. Net cash was 27.7 million euros at the end of 2025; by 30 June 2026 cash had fallen from 43.7 million to 14.5 million euros, because inventories rose 31.4 million, receivables rose 42.9 million and trade payables fell 54.0 million. Share-based pay, goodwill and off-balance-sheet liabilities were looked for and are not in the releases read.",
+   "latest": "16 October 2026: The company reported net profit of 6.0 million euros for the first half of 2026 (6.3 million a year earlier; −4.5%). Revenue was 235.3 million euros (+34.5%; +3.5% excluding acquisitions). EBITDA was 7.9 million euros (3.4% of revenue), operating profit 7.9 million euros (+5.3%) and the exceptional result −0.6 million euros. Equity was 101.8 million euros. The company reaffirmed its 2026 target of revenue above 500 million euros.",
+   "risks": [
+    "About 72% of the last 12 months' profit is one-off: 26.9 million euros of negative goodwill was released to income in 2025 (last-12-month profit 37.2 million euros). The data source's P/E of 1.9 is therefore misleading; half-year profit points to about 12 million euros a year.",
+    "The margin is thin (EBITDA 3.4%): a small move in prices, currency or inventory value wipes out profit.",
+    "Working capital swallowed cash: in six months cash fell from 43.7 million to 14.5 million euros.",
+    "The recovery of loss-making Ezratis France is not yet proven."
+   ],
+   "watch": [
+    "EBITDA margin excluding acquisitions (4.9%)",
+    "Ezratis France's return to profit",
+    "Cash, inventory and receivables",
+    "Exceptional items"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-14",
+   "per": "2026-H1"
+  }
+ },
+ "ALLEX": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2025-H2",
+  "one": "Lisanslı çocuk elektroniği satıcısı. Kâr tek bir lisansa ve tek bir büyük müşteriye dayanıyor; hendek ölçütünü geçemedi. Hâkim ortak 8 avrodan pay alım teklifi yaptı.",
+  "business": "Lexibook, çocuklar için elektronik oyuncak, eğitici ürün ve ses cihazı tasarlar; üretimi Çin'de yaptırır ve çoğunu film ve çizgi film lisanslarıyla satar. 31 Mart 2026'da biten yılda gelir 80,0 milyon avro oldu (+%8,1); bunun %77,0'si lisanslı ürünlerden, yaklaşık %36'sı tek bir lisanstan (Stitch) geldi. Fransa'nın payı %29. Brüt marj %63,9; lisans sahiplerine 7,84 milyon avro telif, reklama 12,2 milyon avro gitti.",
+  "moat_text": "Hendek zayıf; şirket bu ölçütü geçemedi (B = 1). Ürünü çeken şey Lexibook'un kendi markası değil, kiralanan lisanslardır: sözleşmeler iki ile beş yıllıktır, telif oranı %5 ile %19,4 arasındadır ve asgari ödeme garantisi içerir. Şirket kendisi söylüyor: Stitch lisansının yaşam döngüsü yavaşlıyor, yerine benzer güçte bir lisans gelmiyor, ana lisansların yenileme koşulları kötüleşti ve özellikle ABD'de rekabet artıyor. En büyük müşteri gelirin %41,8'i. Grafikteki yüksek özsermaye kârlılığı (son 12 ayda %21,7; beş yılda %21,7 ile %44,4 arası) bir lisansın parladığı döneme ait. Nisan-Temmuz 2026'da gelir %18,3 düştü ve faaliyet zararı yazıldı.",
+  "mgmt": "Şirketi Le Cottier ailesinin Doodle SAS'ı kontrol ediyor; finansal ortağı Lawrence Rosen LLC. 3 Haziran 2026'da Doodle, Moneta Asset Management'ın payını aldı (payı %87,73'e çıktı) ve kalan hisseler için hisse başına 8 avrodan basitleştirilmiş pay alım teklifi açıkladı; koşullar oluşursa zorunlu çıkarma istenebilir. 12 Ağustos 2026'da Doodle'ın elinde 6.848.386 hisse vardı. Evrendeki fiyat (8 avro) teklif fiyatıdır. Şirket temettü dağıtmıyor (son iki yılda sıfır); kâr borç ödemeye ve nakde gitti: net nakit 7,1 milyondan 13,6 milyon avroya çıktı. Fikri mülkiyet davası için 500 bin avro karşılık var. Vergi yükü düşük (%13), çünkü geçmiş yıl zararları kullanılıyor. Hisse bazlı ücret, şerefiye ve ilişkili taraf işlemlerine bakıldı; belgenin okunan bölümünde yok.",
+  "latest": "6 Temmuz 2026: Şirket 31 Mart 2026'da biten yıl için 7,1 milyon avro net kâr açıkladı (önceki yıl 7,4 milyon; −%3,5), hisse başına 0,92 avro (önceki yıl 0,95). Gelir 80,0 milyon avro, faaliyet kârı 8,4 milyon avro. Özsermaye 30,7 milyon avro. Şirket 2026-2027 için gelirin gerileyeceğini söyledi. 14 Ekim 2026 güncellemesi: Nisan-Ağustos geliri 16,6 milyon avro (geçen yıl 20,0 milyon; −%17,2); Nisan-Temmuz'da 1 milyon avro faaliyet zararı (geçen yıl 1,2 milyon avro kâr).",
+  "risks": [
+   "Gelirin yaklaşık %36'sı tek bir lisanstan geliyordu ve o lisans geriliyor; yeni mali yılın ilk beş ayında gelir %17,2 düştü. Son 12 ayın kârı bugünkü kazanç gücünü olduğundan yüksek gösteriyor.",
+   "Tek müşteri gelirin %41,8'i; bütün üretim Çin'de ve ABD gümrük vergileri doğrudan maliyete yansıyor.",
+   "Hâkim ortak %88'e yakın paya sahip ve 8 avrodan teklif verdi; halka açık pay çok küçük, zorunlu çıkarma olabilir."
+  ],
+  "watch": [
+   "Pay alım teklifinin sonucu ve zorunlu çıkarma",
+   "Stitch dışı lisansların ve yapay zekâlı yeni ürünlerin satışı",
+   "30 Kasım 2026'da açıklanacak yarıyıl sonucu"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/epa/ALLEX/financials/ratios/"
+   },
+   {
+    "t": "Lexibook: 2025-2026 yıllık sonuç bülteni (6 Tem 2026)",
+    "te": "Lexibook: 2025-2026 annual results release (6 Jul 2026)",
+    "u": "https://www.globenewswire.com/news-release/2026/07/06/3322133/0/fr/lexibook-group-annual-results-2025-2026.html"
+   },
+   {
+    "t": "Lexibook: Evrensel Kayıt Belgesi, Mart 2026 (AMF'ye 6 Tem 2026'da sunuldu)",
+    "te": "Lexibook: Universal Registration Document, March 2026 (filed with the AMF on 6 Jul 2026)",
+    "u": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0514/78BE1E67A6F62F95577BC865F0F630273D13F32E653BD300BF49EA1E6F3D660A.pdf"
+   },
+   {
+    "t": "Boursier / Bourse Direct: Lexibook için 8 avrodan pay alım teklifi (3 Haz 2026)",
+    "te": "Boursier / Bourse Direct: tender offer for Lexibook at 8 euros (3 Jun 2026)",
+    "u": "https://www.boursedirect.fr/fr/actualites/categorie/divers/lexibook-projet-d-opas-a-8-euros-boursier-719c72631988ca7b9cfcb4c26bcd3d75740ee3a7"
+   },
+   {
+    "t": "AMF: Doodle SAS'ın teklif sırasındaki alım bildirimi (13 Ağu 2026)",
+    "te": "AMF: Doodle SAS declaration of purchases during the offer (13 Aug 2026)",
+    "u": "https://bdif.amf-france.org/back/api/v1/documents/2026/226C1290/9BB51C525D2A0450B697A0445A7ABB82BF055E3CDD3D383D1419FB79D45B5A77.pdf"
+   },
+   {
+    "t": "Boursier / Bourse Direct: Lexibook'un geliri 2026-2027'de gerileyecek (14 Eki 2026)",
+    "te": "Boursier / Bourse Direct: Lexibook's revenue to decline in 2026-2027 (14 Oct 2026)",
+    "u": "https://www.boursedirect.fr/fr/actualites/categorie/chiffre-d-affaires/lexibook-le-chiffre-d-affaires-va-se-tasser-sur-l-exercice-2026-2027-boursier-cd42791af80396bd401f03a7069eb3e3e57c86f0"
+   }
+  ],
+  "en": {
+   "one": "Seller of licensed children's electronics. Profit rests on one licence and one large customer; it did not pass the moat test. The controlling shareholder has bid 8 euros a share.",
+   "business": "Lexibook designs electronic toys, educational products and audio devices for children; it has them made in China and sells most of them under film and cartoon licences. In the year to 31 March 2026 revenue was 80.0 million euros (+8.1%); 77.0% came from licensed products and about 36% from a single licence (Stitch). France was 29% of revenue. Gross margin was 63.9%; 7.84 million euros went to licensors as royalties and 12.2 million euros to advertising.",
+   "moat_text": "The moat is weak; the company did not pass this test (B = 1). What sells the product is not Lexibook's own brand but rented licences: contracts run two to five years, royalty rates range from 5% to 19.4% and include minimum guarantees. The company says so itself: the Stitch licence's life cycle is slowing, no licence of similar strength is replacing it, renewal terms for the main licences have worsened and competition is rising, especially in the US. The largest customer is 41.8% of revenue. The high return on equity in the chart (21.7% for the last 12 months; between 21.7% and 44.4% over five years) belongs to a period when one licence shone. In April-July 2026 revenue fell 18.3% and there was an operating loss.",
+   "mgmt": "The company is controlled by Doodle SAS, owned by the Le Cottier family; its financial partner is Lawrence Rosen LLC. On 3 June 2026 Doodle bought Moneta Asset Management's stake (taking it to 87.73%) and announced a simplified tender offer at 8 euros per share for the rest; a squeeze-out may follow if the conditions are met. On 12 August 2026 Doodle held 6,848,386 shares. The price in the universe (8 euros) is the offer price. The company pays no dividend (zero in the last two years); profit went to debt repayment and cash: net cash rose from 7.1 million to 13.6 million euros. There is a 500 thousand euro provision for an intellectual-property dispute. The tax charge is low (13%) because past tax losses are being used. Share-based pay, goodwill and related-party transactions were looked for; they are not in the part of the document read.",
+   "latest": "6 July 2026: The company reported net profit of 7.1 million euros for the year to 31 March 2026 (7.4 million a year earlier; −3.5%), or 0.92 euros per share (0.95 a year earlier). Revenue was 80.0 million euros and operating profit 8.4 million euros. Equity was 30.7 million euros. The company said revenue would decline in 2026-2027. Update of 14 October 2026: April-August revenue was 16.6 million euros (20.0 million a year earlier; −17.2%); April-July showed an operating loss of 1 million euros (a profit of 1.2 million a year earlier).",
+   "risks": [
+    "About 36% of revenue came from a single licence and that licence is fading; revenue fell 17.2% in the first five months of the new fiscal year. The profit of the last 12 months overstates today's earning power.",
+    "One customer is 41.8% of revenue; all production is in China and US tariffs feed straight into costs.",
+    "The controlling shareholder holds close to 88% and has bid 8 euros; the free float is very small and a squeeze-out is possible."
+   ],
+   "watch": [
+    "Outcome of the tender offer and any squeeze-out",
+    "Sales of non-Stitch licences and new AI-equipped products",
+    "Half-year results due on 30 November 2026"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-14",
+   "per": "2025-H2"
+  }
+ },
+ "KOF": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-Q3",
+  "one": "Fransa'da konut ve ofis geliştiricisi. Kalite surlarını geçti; ama iş döngüsel ve arsa ile talebe bağlı, hendek zayıf kaldığı için 3. suru geçemedi.",
+  "business": "Kaufman & Broad Fransa'da daire, müstakil ev, öğrenci yurdu ve ofis geliştirir; inşaatı yüklenicilere yaptırır, konutu plandan satar. 30 Kasım 2025'te biten mali yılda hasılat 1.136,0 milyon avro: 870,9 milyonu konut, 248,9 milyonu ticari gayrimenkul. Brüt marj %19,5, cari faaliyet kârı 91,0 milyon avro (%8,0). Mali yıl aralıkta başlar, kasımda biter.",
+  "moat_text": "Hendek zayıf; şirket bu yüzden 3. suru geçemedi (B = 1). Üstünlükler gerçek ama kolay aşılır türden: tanınan bir marka, opsiyonla tutulan 32.091 konutluk arsa portföyü (altı yıldan uzun iş) ve alıcının inşaatı önceden ödediği, az sermaye isteyen bir model. Reel özsermaye kârlılığı beş yılda ortalama %23,4, en düşük yılında %19,4. Brüt marj piyasanın sert düştüğü yıllarda da korundu: 2024'te %19,3, 2025'te %19,5, 2026'nın ilk dokuz ayında %20,8. Zayıf yan: ürün konuttur, fiyatı piyasa ve faiz belirler. 2026'nın ilk yarısında konut siparişlerinin değerce %57'si toplu satıştı (kurumsal alıcıya, pazarlıkla). Yeni konut pazarı 2026'nın ilk altı ayında %18,3 daraldı. Yüksek özsermaye kârlılığının bir nedeni de özsermayenin küçük olması: 30 Kasım 2025'te 229,4 milyon avro, net nakit 319,1 milyon avro. Pazar payı rakamına bakıldı, okunan belgelerde yok.",
+  "mgmt": "Ortaklık yapısı (easybourse, tarihsiz tablo): halka açık %57,17, Rolloy ailesi %23,1, Predica %8,89, çalışanlar %6,07, Artimus Participations %3,06, şirketin elindeki paylar %1,71. Kârın çoğu temettüye gidiyor: 2025 için hisse başına 2,20 avro (hisse başına kâr 2,73 avro), 2026'nın ilk yarısında 43,2 milyon avro ödendi. 100 milyon avroluk tahvil 2025'te geri ödendi; finansal borç kalmadı, 200 milyon avroluk kredi limiti kullanılmıyor. Genel kurul 5 Mayıs 2026'da pay geri alım ve iptal yetkisi verdi; geri alımın tutarı ve fiyatı okunan belgelerde yok. Net kârın bir bölümü ortak girişimlerdeki azınlık paylarına gidiyor (dokuz ayda 40,3 milyonun 6,8 milyonu). Hisse bazlı ücret, şerefiye, emeklilik yükümlülüğü ve Neoresid satım opsiyonu borcunun tutarına bakıldı; okunan bültenlerde yok.",
+  "latest": "30 Eylül 2026: Şirket 31 Ağustos'ta biten dokuz ayın sonuçlarını açıkladı. Hasılat 730,8 milyon avro (geçen yıl 744,7); konut hasılatı %8,2 düştü, ticari gayrimenkul 133,8 milyondan 167,9 milyona çıktı. Brüt marj %20,8 (%20,0), cari faaliyet kârı 58,2 milyon avro (56,8), ana ortaklık net kârı 33,6 milyon avro (33,3). Konut siparişleri adet olarak %0,3 arttı (3.771), değer olarak 826,9 milyondan 745,8 milyon avroya indi. Net nakit 261,9 milyon avro (30 Kasım 2025: 319,1); bunun yaklaşık 200 milyonu 2027'de teslim edilecek Austerlitz projesine ayrılmış. 2026 beklentisi korundu: hasılat 2025 düzeyinde, cari faaliyet marjı %8'e yakın, net nakit artıda.",
+  "risks": [
+   "Fiyat hesabı yılda %2,4 reel büyüme varsayımına dayanır; oysa dokuz aylık ana ortaklık kârı yalnız %0,9 arttı ve konut siparişlerinin değeri %9,8 düştü. Kaynağa göre son 12 ayın serbest nakit akışı eksi.",
+   "Konut döngüseldir: yeni konut pazarı 2026'nın ilk altı ayında %18,3 daraldı. Yönetim cumhurbaşkanlığı seçimi öncesinde yavaşlama, toparlanmayı 2028'e doğru bekliyor.",
+   "Ticari gayrimenkulde dokuz ayda yeni sipariş yok; bu kolun sipariş defteri 384,4 milyondan 247,5 milyon avroya indi. Hasılatı Austerlitz projesi taşıyor.",
+   "Net nakdin yaklaşık 200 milyon avrosu Austerlitz projesine ayrılmış; işletme sermayesi fazlası 214,7 milyondan 162,7 milyon avroya geriledi.",
+   "Toplu satışın payı yüksek (%57); kurumsal alıcılar çekilirse hacim ve marj birlikte düşer."
+  ],
+  "watch": [
+   "Konut siparişlerinin adedi ve değeri",
+   "Brüt marj (dokuz ayda %20,8) ve cari faaliyet marjı (%8,0)",
+   "Net nakit ve Austerlitz projesinin teslimi (2027)",
+   "Ticari gayrimenkulde yeni sipariş"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/epa/KOF/financials/ratios/"
+   },
+   {
+    "t": "Kaufman & Broad: 2026'nın ilk dokuz ayının sonuçları (30 Eyl 2026; basın bülteninin Webdisclosure kopyası)",
+    "te": "Kaufman & Broad: results for the first nine months of 2026 (30 Sep 2026; Webdisclosure copy of the press release)",
+    "u": "https://www.webdisclosure.com/press-release/kaufman-broad-sa-results-for-the-first-nine-months-of-2026-nmWKjDUa6Er"
+   },
+   {
+    "t": "Kaufman & Broad: 2026 ilk yarı sonuçları (8 Tem 2026; basın bülteninin Webdisclosure kopyası)",
+    "te": "Kaufman & Broad: 2026 first-half results (8 Jul 2026; Webdisclosure copy of the press release)",
+    "u": "https://www.webdisclosure.com/press-release/kaufman-broad-sa-2026-first-half-results-w1yhad0y7bz"
+   },
+   {
+    "t": "Kaufman & Broad: 2025 yıllık sonuçları (28 Oca 2026; AMF düzenlenmiş bilgi arşivi)",
+    "te": "Kaufman & Broad: 2025 annual results (28 Jan 2026; AMF regulated information archive)",
+    "u": "https://echanges.dila.gouv.fr/OPENDATA/AMF/EQS/2026/01/FCEQS007974_20260128.pdf"
+   },
+   {
+    "t": "easybourse: Kaufman & Broad şirket profili ve ortaklık yapısı",
+    "te": "easybourse: Kaufman & Broad company profile and shareholders",
+    "u": "https://www.easybourse.com/action-societe/kaufman-broad/profil/FR0004007813-25"
+   },
+   {
+    "t": "ABC Bourse: Kaufman & Broad sonuçların ardından %8'e yakın düştü (1 Eki 2026)",
+    "te": "ABC Bourse: Kaufman & Broad falls nearly 8% after its results (1 Oct 2026)",
+    "u": "https://www.abcbourse.com/marches/newsContent/703520"
+   }
+  ],
+  "en": {
+   "one": "A developer of homes and offices in France. It passed the quality walls, but the business is cyclical and the moat weak, so it did not pass the 3rd wall.",
+   "business": "Kaufman & Broad develops apartments, houses, student residences and offices in France; contractors do the building and homes are sold off-plan. In the financial year ended 30 November 2025 revenue was 1,136.0 million euros: 870.9 million from housing and 248.9 million from commercial property. Gross margin was 19.5% and current operating income 91.0 million euros (8.0%). The financial year starts in December and ends in November.",
+   "moat_text": "The moat is weak, so the company did not pass the 3rd wall (B = 1). The advantages are real but easy to match: a known brand, a land portfolio of 32,091 housing units held under options (more than six years of activity) and a model that needs little capital because buyers pay as construction proceeds. Real return on equity averaged 23.4% over five years and was 19.4% in its lowest year. Gross margin held in the years when the market fell hard: 19.3% in 2024, 19.5% in 2025 and 20.8% in the first nine months of 2026. The weak point: the product is housing, and the market and interest rates set the price. In the first half of 2026, 57% of housing orders by value were block sales (to institutional buyers, by negotiation). The new housing market shrank 18.3% in the first six months of 2026. One reason for the high return on equity is that equity is small: 229.4 million euros at 30 November 2025, against net cash of 319.1 million euros. We looked for a market share figure; it is not in the documents read.",
+   "mgmt": "Shareholders (easybourse, undated table): free float 57.17%, the Rolloy family 23.1%, Predica 8.89%, employees 6.07%, Artimus Participations 3.06%, treasury shares 1.71%. Most of the profit goes to dividends: 2.20 euros per share for 2025 (earnings per share 2.73 euros); 43.2 million euros was paid in the first half of 2026. The 100 million euro bond was repaid in 2025; there is no financial debt left and the 200 million euro credit line is undrawn. On 5 May 2026 the general meeting authorised share buybacks and cancellation; the amount and price of buybacks are not in the documents read. Part of net profit goes to minority partners in joint ventures (6.8 million of 40.3 million in nine months). We looked for share-based pay, goodwill, pension obligations and the amount of the Neoresid put debt; they are not in the releases read.",
+   "latest": "30 September 2026: The company published results for the nine months ended 31 August. Revenue was 730.8 million euros (744.7 a year earlier); housing revenue fell 8.2% and commercial property rose from 133.8 million to 167.9 million. Gross margin was 20.8% (20.0%), current operating income 58.2 million euros (56.8) and attributable net profit 33.6 million euros (33.3). Housing orders rose 0.3% by number (3,771) and fell by value from 826.9 million to 745.8 million euros. Net cash was 261.9 million euros (30 November 2025: 319.1); about 200 million of it is earmarked for the Austerlitz project, due for delivery in 2027. The 2026 outlook was kept: revenue at the 2025 level, current operating margin close to 8% and net cash positive.",
+   "risks": [
+    "The price calculation rests on an assumed real growth of 2.4% a year; yet nine-month attributable profit rose only 0.9% and the value of housing orders fell 9.8%. According to the data source, free cash flow over the last 12 months was negative.",
+    "Housing is cyclical: the new housing market shrank 18.3% in the first six months of 2026. Management expects a slowdown before the presidential election and a recovery towards 2028.",
+    "Commercial property took no new orders in nine months; its backlog fell from 384.4 million to 247.5 million euros. The Austerlitz project carries the revenue.",
+    "About 200 million euros of net cash is earmarked for the Austerlitz project; the working capital surplus fell from 214.7 million to 162.7 million euros.",
+    "The share of block sales is high (57%); if institutional buyers pull back, volume and margin fall together."
+   ],
+   "watch": [
+    "Number and value of housing orders",
+    "Gross margin (20.8% in nine months) and current operating margin (8.0%)",
+    "Net cash and delivery of the Austerlitz project (2027)",
+    "New orders in commercial property"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-14",
+   "per": "2026-Q3"
+  }
+ },
+ "GTT": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "2026-H1",
+  "one": "LNG gemilerinin membran tank teknolojisinde rakipsiz lisans sahibi. Surları geçti; ama fiyat hesabı yılda %16,5 büyüme varsayar, şirket 2026'da daha düşük kâr bekliyor.",
+  "business": "GTT, sıvılaştırılmış doğal gaz (LNG) taşıyan gemilerin tanklarını tasarlar ve bu teknolojiyi tersanelere lisansla verir; gemi yapılırken lisans geliri alır. 2025'te hasılat 803,0 milyon avro, FAVÖK 541,8 milyon avro (%67,5). 2026'nın ilk yarısında hasılatın 320,2 milyon avrosu (%83) yeni LNG ve etan gemilerinden geldi. Yeni kol GTT Marine (gemi yazılımı ve Danelec) 31,8 milyon avro hasılat yaptı.",
+  "moat_text": "Hendek dar sınıfta; gerçek ve rakamla kanıtlı, ama tek ürüne ve tek gemi türüne bağlı. Şirketin 2025 kayıt belgesine göre 2015 sonundan beri 100.000 metreküpten büyük bütün LNG gemisi siparişleri GTT teknolojisini kullandı (2016-2025: 575 gemi); hizmetteki filonun yaklaşık %86'sı GTT tanklıdır. Şirketin 3.637 patenti var. Sistem, 174.000 metreküplük bir geminin fiyatının yaklaşık %3'üdür; tersane için değiştirmenin kazancı küçük, riski büyüktür. Fiyatlama gücü marjda görünür: FAVÖK marjı 2024'te %60,5, 2025'te %67,5, 2026'nın ilk yarısında %68,1. Reel özsermaye kârlılığı beş yılda ortalama %64,9, en düşük yılında %42,1. Neden geniş değil: hasılatın %83'ü tek üründen gelir ve gemi siparişi döngüsüne bağlıdır. Güney Kore'nin kendi membran sistemleri (KC-2) geliştiriliyor; şirket bunları \"önemli bir teknolojik risk\" sayıyor. LNG yakıtlı gemilerde rekabet arttı: bu kolun hasılatı 2025'te %36 düştü. Brüt marjın enflasyon yıllarındaki seyrine ve müşteri yoğunlaşması rakamına bakıldı; okunan bölümlerde yok.",
+  "mgmt": "Hâkim ortak yok: 31 Mart 2026'da payların %98,9'u halka açık, %1,0'ı yönetici ve çalışanlarda. Kârın çoğu temettüye gidiyor: 2025 için hisse başına 8,94 avro (konsolide net kârın %80'i); 2026 için 4,30 avro ara temettü 10 Aralık 2026'da ödenecek. Finansal borç 90 milyon avro (Danelec alımı için), nakit 384,7 milyon avro. Sermaye tahsisinde iki kusur var. Hidrojen kolu Elogen değer yok etti: 2025'in ilk yarısında 45 milyon avro yeniden yapılanma gideri yazıldı, fabrika yatırımı durduruldu, 110 kişi çıkarıldı. Ana işin yanına Danelec 31 Temmuz 2025'te yaklaşık 194 milyon avroya alındı; şerefiye 19,0 milyondan 104,8 milyon avroya çıktı (özsermayenin %18'i). Hisse bazlı ücret 2025'te 6,0 milyon avro (net kârın %1,5'i). 2026'nın ilk yarısında 4,9 milyon avroluk kendi payı alındı; fiyatı belgede yok. Faaliyet dışı kalemler iki yıl üst üste var (2024: +21,0 milyon, 2025: −48,7 milyon avro). Emeklilik ve bilanço dışı yükümlülüklere bakıldı; okunan bölümlerde yok.",
+  "latest": "23 Ekim 2026: Şirket ilk dokuz ayın hasılatını açıkladı: 570,1 milyon avro, geçen yılın %4,9 altında; yeni LNG ve etan gemilerinden gelen hasılat %11,4 düştü (467,9 milyon avro). Dokuz ayda 80 sipariş alındı (71'i LNG gemisi); sipariş defteri 299 birim, yaklaşık 1,8 milyar avro. 2026 beklentisi korundu: hasılat 740-780 milyon avro, FAVÖK 490-530 milyon avro (2025: 803,0 ve 541,8). 28 Temmuz 2026'da açıklanan ilk yarı sonuçları: hasılat 387,3 milyon avro (−%0,4), FAVÖK 263,6 milyon avro (−%0,3), net kâr 210,4 milyon avro (+%16,9), hisse başına kâr 5,68 avro (4,86). Net kârdaki artışın nedeni, geçen yılın ilk yarısındaki 48,2 milyon avroluk Elogen giderinin bu yıl olmaması. 30 Haziran 2026'da özsermaye 613,8 milyon avro.",
+  "risks": [
+   "Fiyat hesabı yılda %16,5 reel büyüme varsayımına dayanır; güncel veriler bunu desteklemiyor. Şirket 2026'da FAVÖK'ün 541,8 milyondan 490-530 milyon avroya ineceğini bekliyor. Sipariş defterinden gelecek hasılat 2027 için 655, 2028 için 603 milyon avro (30 Haziran 2026). İlk yarıdaki %16,9'luk kâr artışı geçen yılın tek seferlik giderinden geliyor; faaliyet kârı %3,4 düştü.",
+   "İş tek ürüne ve gemi siparişi döngüsüne bağlı. 2025'in ilk dokuz ayında siparişler zayıftı; yapımdaki gemi sayısı azaldığı için 2026 hasılatı düşüyor. Beş yıllık geçmiş tam bir döngüyü göstermez; şu an yüksek kâr yıllarındayız.",
+   "Kore'nin kendi membran teknolojisi (KC-2) tersanelerce benimsenirse lisans geliri ve fiyatlama gücü zayıflar. Müşteriler az sayıda Kore ve Çin tersanesidir.",
+   "Orta Doğu'daki çatışma teslim tarihlerini kaydırıyor (şirkete göre dokuz aylık hasılatın %2'sinden az); Katar'daki tesislerden biri hasar gördü. LNG projeleri ertelenirse siparişler de ertelenir.",
+   "Ana iş dışındaki yatırımlar sonuç vermedi (Elogen); Danelec alımı 104,8 milyon avroluk şerefiye getirdi. Yeni alımlar sürerse sermayenin getirisi düşer."
+  ],
+  "watch": [
+   "Yeni LNG gemisi siparişleri (dokuz ayda 71) ve sipariş defterinin yıllara dağılımı",
+   "2026 FAVÖK'ü beklenti aralığında mı (490-530 milyon avro)",
+   "Kore membran sistemlerinin (KC-2) büyük gemilerde sipariş alıp almadığı",
+   "GTT Marine kolunun hasılatı ve kârlılığı"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/epa/GTT/financials/ratios/"
+   },
+   {
+    "t": "GTT: 2026 ilk yarı sonuçları (28 Tem 2026; basın bülteni, MFN kopyası)",
+    "te": "GTT: first-half 2026 results (28 Jul 2026; press release, MFN copy)",
+    "u": "https://mfn.se/all/a/gaztransport-et-technigaz/gtt-resultats-du-1er-semestre-2026-carnet-de-commandes-a-un-niveau-historiquement-eleve-4d6eddd4"
+   },
+   {
+    "t": "GTT: 2026 üçüncü çeyrek faaliyet güncellemesi (23 Eki 2026; basın bülteni kopyası)",
+    "te": "GTT: Q3 2026 activity update (23 Oct 2026; copy of the press release)",
+    "u": "https://www.taiwannews.com.tw/news/6464584"
+   },
+   {
+    "t": "GTT: 2025 yıllık sonuçları (19 Şub 2026; basın bülteni, MFN kopyası)",
+    "te": "GTT: full-year 2025 results (19 Feb 2026; press release, MFN copy)",
+    "u": "https://mfn.se/all/a/gaztransport-et-technigaz/gtt-resultats-annuels-2025-chiffre-daffaires-25-et-ebitda-40-en-forte-croissance-pour-la-troisieme-annee-consecutive-87029311"
+   },
+   {
+    "t": "GTT: 2025 evrensel kayıt belgesi (rekabet, patentler, ortaklık yapısı)",
+    "te": "GTT: 2025 Universal Registration Document (competition, patents, shareholders)",
+    "u": "https://www.companiesmarketcap.com/universal-registration-documents/35020.urd.en.2025.pdf"
+   },
+   {
+    "t": "ABC Bourse: GTT'nin hasılatı dokuz ayda geriledi, hedefler korundu (23 Eki 2026)",
+    "te": "ABC Bourse: GTT revenue falls over nine months, targets confirmed (23 Oct 2026)",
+    "u": "https://www.abcbourse.com/marches/gtt-voit-ses-revenus-reculer-sur-neuf-mois-mais-confirme-ses-objectifs_704844"
+   }
+  ],
+  "en": {
+   "one": "The unrivalled licensor of membrane tank technology for LNG carriers. It passed the walls, but the price calculation assumes growth of 16.5% a year while the company expects lower profit in 2026.",
+   "business": "GTT designs the tanks of ships that carry liquefied natural gas (LNG) and licenses the technology to shipyards; it earns licence revenue while the ship is being built. In 2025 revenue was 803.0 million euros and EBITDA 541.8 million euros (67.5%). In the first half of 2026, 320.2 million euros of revenue (83%) came from new LNG and ethane carriers. The new GTT Marine arm (ship software and Danelec) had revenue of 31.8 million euros.",
+   "moat_text": "The moat is narrow: real and proven by numbers, but tied to one product and one type of ship. According to the company's 2025 registration document, every order for an LNG carrier larger than 100,000 cubic metres since the end of 2015 has used GTT technology (2016-2025: 575 ships); about 86% of the fleet in service has GTT tanks. The company holds 3,637 patents. The system is about 3% of the price of a 174,000 cubic metre ship; for a shipyard, switching saves little and risks a lot. Pricing power shows in the margin: EBITDA margin was 60.5% in 2024, 67.5% in 2025 and 68.1% in the first half of 2026. Real return on equity averaged 64.9% over five years and was 42.1% in its lowest year. Why not wide: 83% of revenue comes from one product and depends on the ship ordering cycle. South Korea is developing its own membrane systems (KC-2); the company calls them \"a significant technological risk\". Competition has grown in LNG-fuelled ships: that line's revenue fell 36% in 2025. We looked for gross margin through the inflation years and for a customer concentration figure; they are not in the sections read.",
+   "mgmt": "There is no controlling shareholder: at 31 March 2026, 98.9% of shares were held by the public and 1.0% by managers and employees. Most of the profit goes to dividends: 8.94 euros per share for 2025 (80% of consolidated net profit); an interim dividend of 4.30 euros for 2026 will be paid on 10 December 2026. Financial debt is 90 million euros (for the Danelec purchase) and cash is 384.7 million euros. Capital allocation has two flaws. The hydrogen arm Elogen destroyed value: 45 million euros of restructuring charges were booked in the first half of 2025, the factory project was stopped and 110 jobs were cut. Danelec was bought alongside the core business on 31 July 2025 for about 194 million euros; goodwill rose from 19.0 million to 104.8 million euros (18% of equity). Share-based pay was 6.0 million euros in 2025 (1.5% of net profit). In the first half of 2026 the company bought 4.9 million euros of its own shares; the price is not in the document. Non-current items appeared two years running (2024: +21.0 million, 2025: −48.7 million euros). We looked for pension and off-balance-sheet commitments; they are not in the sections read.",
+   "latest": "23 October 2026: The company published revenue for the first nine months: 570.1 million euros, 4.9% below last year; revenue from new LNG and ethane carriers fell 11.4% (467.9 million euros). It took 80 orders in nine months (71 of them LNG carriers); the order book stands at 299 units, about 1.8 billion euros. The 2026 outlook was kept: revenue of 740-780 million euros and EBITDA of 490-530 million euros (2025: 803.0 and 541.8). First-half results announced on 28 July 2026: revenue 387.3 million euros (−0.4%), EBITDA 263.6 million euros (−0.3%), net profit 210.4 million euros (+16.9%), earnings per share 5.68 euros (4.86). Net profit rose because last year's first-half Elogen charge of 48.2 million euros did not recur. Equity was 613.8 million euros at 30 June 2026.",
+   "risks": [
+    "The price calculation rests on an assumed real growth of 16.5% a year; current figures do not support it. The company expects 2026 EBITDA to fall from 541.8 million to 490-530 million euros. Revenue due from the order book is 655 million euros for 2027 and 603 million for 2028 (at 30 June 2026). The 16.9% rise in first-half profit comes from last year's one-off charge; operating profit fell 3.4%.",
+    "The business depends on one product and on the ship ordering cycle. Orders were weak in the first nine months of 2025; with fewer ships under construction, 2026 revenue is falling. Five years of history do not show a full cycle; these are high-profit years.",
+    "If shipyards adopt Korea's own membrane technology (KC-2), licence revenue and pricing power weaken. The customers are a small number of Korean and Chinese shipyards.",
+    "The conflict in the Middle East is shifting delivery dates (less than 2% of nine-month revenue, the company says); one facility in Qatar was damaged. If LNG projects are delayed, orders are delayed too.",
+    "Investments outside the core business did not pay off (Elogen); the Danelec purchase brought 104.8 million euros of goodwill. If more acquisitions follow, the return on capital falls."
+   ],
+   "watch": [
+    "New LNG carrier orders (71 in nine months) and how the order book spreads over the years",
+    "Whether 2026 EBITDA lands in the guided range (490-530 million euros)",
+    "Whether Korean membrane systems (KC-2) win orders on large ships",
+    "Revenue and profitability of the GTT Marine arm"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-14",
+   "per": "2026-H1"
+  }
+ },
+ "PLX": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "2026-H2",
+  "one": "Yemek kartı ve çalışan yan hakları şirketi. Hendek dar; ama Brezilya'daki yeni düzenleme kârı kalıcı biçimde düşürüyor, şirket 2027'de daha düşük kâr bekliyor.",
+  "business": "Pluxee işverenlere yemek, gıda ve hediye kartları ile başka çalışan yan hakları satar. Parayı iki yerden kazanır: işverenden ve üye işyerinden aldığı komisyon ile kartlara yüklenip henüz harcanmamış paranın faizi. 31 Ağustos 2026'da biten mali yılda toplam hasılat 1.302 milyon avro: 1.136 milyonu faaliyet hasılatı, 166 milyonu bekleyen paranın faiz geliri. Yinelenen FAVÖK 488 milyon avro (%37,5). Mali yıl eylülde başlar, ağustosta biter.",
+  "moat_text": "Hendek dar sınıfta. Üstünlük ölçekten ve iki taraflı ağdan gelir: işverenler kartın çok yerde geçmesini, işyerleri çok kart sahibini ister. Kartlarda bekleyen para 2.996 milyon avro; şirket bundan %6,2 getiri elde etti. Yinelenen FAVÖK marjı 2025'te %36,6, 2026'da %37,5. Reel özsermaye kârlılığı son iki tam mali yılda %67,2 ve %51,7; öncesinde %18,4 ve %17,7. Neden geniş değil: iş vergi avantajına ve devletin koyduğu kurallara dayanır, kural değişince fiyatlama gücü de değişir. Brezilya'da Kasım 2025'te çıkan kararname (PAT) işyeri komisyonuna tavan ve ödeme süresine sınır getirdi, büyük kart şirketlerinin ağlarını açmasını zorunlu kıldı. Brezilya hasılatın yaklaşık %30'u (Reuters). Mali yılın son çeyreğinde faaliyet hasılatı organik %6,2, Latin Amerika'da %12,1 düştü. Pazar payı rakamına bakıldı; okunan belgelerde yok.",
+  "mgmt": "Hâkim ortak Bellon ailesinin şirketi Bellon SA: 31 Ağustos 2026'da adi payların %48,07'si, oy haklarının %64,09'u. Net finansal nakit 1.341 milyon avro (2025: 1.163). Kâr ortaklara dönüyor: 100 milyon avroluk geri alım 8 Mayıs 2026'da tamamlandı (8.347.225 pay; 5.843.058'i iptal edildi), 2026 için hisse başına 0,65 avro temettü önerildi (2025: 0,38); dağıtım oranı düzeltilmiş net kârın %40'ına çıkarıldı. Geri alımın ortalama fiyatı tutardan hesaplanınca yaklaşık 12 avro (bizim hesabımız). \"Diğer faaliyet giderleri\" iki yıl üst üste var (2025: 26 milyon, 2026: 65 milyon avro: hukuk ve vergi karşılıkları 33, değer düşüklüğü 17, yeniden yapılanma 15); bu yüzden şirketin düzeltilmiş kârına dayanmadık. Hisse bazlı ücret, şerefiye tutarı, emeklilik ve bilanço dışı yükümlülüklere bakıldı; okunan bültende yok.",
+  "latest": "29 Ekim 2026: Şirket 31 Ağustos 2026'da biten mali yılın sonuçlarını açıkladı. Toplam hasılat 1.302 milyon avro (organik +%0,7), yinelenen FAVÖK 488 milyon avro (2025: 471), faaliyet kârı 295 milyon avro (335), ana ortaklık net kârı 170 milyon avro (197), hisse başına kâr 1,21 avro (1,35). Şirketin düzeltilmiş hisse başına kârı 1,58 avro (1,52). 2027 mali yılı için beklenti: yinelenen FAVÖK en az 440 milyon avro; şirket 2027'yi \"geçiş yılı\" diye anıyor ve Brezilya düzenlemesinin etkisinin ilk yarıda en yüksek olacağını söylüyor. Açıklama günü hisse %13 düştü (Reuters).",
+  "risks": [
+   "Brezilya'daki kararname yürürlükte ve kârı düşürüyor: şirket 2027 için en az 440 milyon avro yinelenen FAVÖK bekliyor (2026: 488). Şirketin itirazı mahkemede; tedbir kararı Şubat 2026'da kaldırıldı. Bu yüzden şirket fiyat testine alınmadı.",
+   "İş devletin tanıdığı vergi avantajına dayanır. Başka ülkeler de komisyona tavan getirir ya da ağları açmaya zorlarsa aynı etki yinelenir.",
+   "Kârın bir bölümü faizden gelir: bekleyen paranın geliri 166 milyon avro. Faizler düşerse bu gelir azalır.",
+   "Hukuk ve vergi karşılıkları 2026'da yaklaşık 33 milyon avro tuttu; etkin vergi oranı %33,8'e çıktı. Bu giderler yinelenirse düzeltilmiş kâr gerçeği göstermez.",
+   "Şirket birçok ülkede çalışır ve avroyla raporlar; buradaki enflasyon düzeltmesi Fransa enflasyonuyla yapıldı. Brezilya realindeki değişim kârı doğrudan etkiler."
+  ],
+  "watch": [
+   "2027 yinelenen FAVÖK'ü (alt sınır 440 milyon avro)",
+   "Brezilya'daki davanın sonucu ve Latin Amerika'da faaliyet hasılatı",
+   "Bekleyen paranın tutarı ve getirisi (2.996 milyon avro, %6,2)",
+   "Diğer faaliyet giderleri (2026: 65 milyon avro)"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/epa/PLX/financials/ratios/"
+   },
+   {
+    "t": "Pluxee: 2026 mali yılı sonuçları (29 Eki 2026; basın bülteni, MFN kopyası)",
+    "te": "Pluxee: fiscal 2026 results (29 Oct 2026; press release, MFN copy)",
+    "u": "https://mfn.se/all/a/pluxee/pluxee-delivered-above-all-fiscal-2026-financial-objectives-and-is-gearing-up-for-its-next-phase-of-profitable-growth-d6777d6e"
+   },
+   {
+    "t": "Reuters (Euronext üzerinden): Pluxee beklentiyi aştı, 2027'de kâr düşüşü görünüyor (29 Eki 2026)",
+    "te": "Reuters (via Euronext): Pluxee earnings beat expectations, fiscal 2027 profit decline looms (29 Oct 2026)",
+    "u": "https://live.euronext.com/en/financial-news/pluxee-earnings-beat-expectations-fiscal-2027-profit-decline-looms"
+   },
+   {
+    "t": "Pluxee: ortaklık yapısı (31 Ağu 2026)",
+    "te": "Pluxee: share ownership (31 Aug 2026)",
+    "u": "https://pluxeegroup.com/share-ownership"
+   }
+  ],
+  "en": {
+   "one": "A meal voucher and employee benefits company. The moat is narrow, but new regulation in Brazil lowers profit for good and the company expects lower profit in 2027.",
+   "business": "Pluxee sells employers meal, food and gift cards and other employee benefits. It earns money in two ways: commissions from employers and from merchants, and interest on money loaded onto cards and not yet spent. In the financial year ended 31 August 2026 total revenue was 1,302 million euros: 1,136 million of operating revenue and 166 million of interest on the float. Recurring EBITDA was 488 million euros (37.5%). The financial year starts in September and ends in August.",
+   "moat_text": "The moat is narrow. The advantage comes from scale and a two-sided network: employers want a card accepted in many places and merchants want many cardholders. The float is 2,996 million euros; the company earned 6.2% on it. The recurring EBITDA margin was 36.6% in 2025 and 37.5% in 2026. Real return on equity was 67.2% and 51.7% in the last two full financial years, and 18.4% and 17.7% before that. Why not wide: the business rests on a tax advantage and on rules set by the state, and when the rules change, pricing power changes too. In Brazil a decree of November 2025 (PAT) capped merchant commissions, limited settlement periods and made large card issuers open their networks. Brazil is about 30% of revenue (Reuters). In the last quarter of the financial year operating revenue fell 6.2% organically, and 12.1% in Latin America. We looked for a market share figure; it is not in the documents read.",
+   "mgmt": "The controlling shareholder is the Bellon family's company Bellon SA: 48.07% of ordinary shares and 64.09% of voting rights at 31 August 2026. Net financial cash is 1,341 million euros (2025: 1,163). Profit is returned to shareholders: a 100 million euro buyback was completed on 8 May 2026 (8,347,225 shares; 5,843,058 cancelled) and a dividend of 0.65 euros per share was proposed for 2026 (2025: 0.38); the payout was raised to 40% of adjusted net profit. The average buyback price works out at about 12 euros (our calculation from the amount). \"Other operating expenses\" appeared two years running (2025: 26 million, 2026: 65 million euros: legal and tax provisions 33, impairments 17, restructuring 15); for that reason we did not rely on the company's adjusted profit. We looked for share-based pay, the amount of goodwill, pension and off-balance-sheet commitments; they are not in the release read.",
+   "latest": "29 October 2026: The company published results for the financial year ended 31 August 2026. Total revenue was 1,302 million euros (+0.7% organic), recurring EBITDA 488 million euros (2025: 471), operating profit 295 million euros (335), attributable net profit 170 million euros (197) and earnings per share 1.21 euros (1.35). The company's adjusted earnings per share were 1.58 euros (1.52). Outlook for fiscal 2027: recurring EBITDA of at least 440 million euros; the company calls 2027 a \"transition year\" and says the effect of the Brazil reform will be strongest in the first half. The share fell 13% on the day (Reuters).",
+   "risks": [
+    "The decree in Brazil is in force and is lowering profit: the company expects recurring EBITDA of at least 440 million euros for 2027 (2026: 488). Its appeal is before the courts; the injunction was lifted in February 2026. For this reason the company was not taken to the price test.",
+    "The business rests on a tax advantage granted by the state. If other countries also cap commissions or force networks open, the same effect repeats.",
+    "Part of the profit comes from interest: income on the float was 166 million euros. If interest rates fall, this income shrinks.",
+    "Legal and tax provisions came to about 33 million euros in 2026; the effective tax rate rose to 33.8%. If such charges recur, adjusted profit does not show the real picture.",
+    "The company works in many countries and reports in euros; the inflation adjustment here was made with French inflation. Moves in the Brazilian real affect profit directly."
+   ],
+   "watch": [
+    "Fiscal 2027 recurring EBITDA (floor of 440 million euros)",
+    "The outcome of the court case in Brazil and operating revenue in Latin America",
+    "The size of the float and its yield (2,996 million euros, 6.2%)",
+    "Other operating expenses (2026: 65 million euros)"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-14",
+   "per": "2026-H2"
+  }
+ },
+ "DKUPL": {
+  "scores": {
+   "A": 1,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-H1",
+  "one": "Dijital pazarlama ajansları ile küçülen bir dergi aboneliği işinin birleşimi. Kalite surlarını geçti; hendek zayıf olduğu için 3. suru geçemedi.",
+  "business": "Dekuple (eski adıyla ADLPartner) üç iş yapar. Dijital pazarlama: danışmanlık (Converteo) ve ajanslar; markalara veri, reklam ve müşteri kazanımı hizmeti satar. Dergiler: ortak markalarla süresiz dergi aboneliği satar. Sigorta: küçük bir aracılık kolu. 2026'nın ilk yarısında net hasılat 90,3 milyon avro: dijital pazarlama 57,0, dergiler 29,5, sigorta 3,8 milyon avro. 2025'te net hasılat 180,5 milyon avro, ana ortaklık net kârı 9,6 milyon avro.",
+  "moat_text": "Hendek zayıf; şirket bu yüzden 3. suru geçemedi (B = 1). Dijital pazarlama bir hizmet işidir: müşteri sözleşmeleri teklifle kazanılır, üstünlük çalışanlara bağlıdır ve rakip aynı hizmeti verebilir. Dergi aboneliği eskiden kârın kaynağıydı ama küçülüyor: 30 Haziran 2026'da süresiz aktif abonelik 1,639 milyon (−%8,3), dergi net hasılatı ilk yarıda %7,2 düştü. Bu, rakamlarda görünüyor: reel özsermaye kârlılığı 2021'de %30,2 iken 2025'te %16,6'ya indi; son 12 ayda %16,7. Büyüme satın almalarla geliyor: dijital pazarlamanın ilk yarı büyümesi %8,4, aynı kapsamda %6,0. Yinelenen FAVÖK marjı net hasılatın %13,2'si. Pazar payı rakamına bakıldı; okunan belgelerde yok.",
+  "mgmt": "Kâr satın almalara gidiyor: 2025'te dış büyümeye 19,6 milyon avro harcandı (2024: 11,6); Almanya, Hollanda ve İspanya'da şirketler alındı, 1 Temmuz 2026'dan itibaren Polonya'daki Subko & Co konsolide ediliyor. Bunun sonucu olarak net nakit eksiye döndü: 30 Haziran 2026'da nakit 45,3 milyon avro, finansal borç 58,0 milyon avro (20,1 milyonu azınlık paylarını satın alma taahhüdü, 36,4 milyonu banka kredisi). 2025 için hisse başına 0,76 avro temettü önerildi. 2025'te çoğu şerefiye değer düşüklüğü olan 2,3 milyon avroluk olağan dışı gider yazıldı; 2025'in ilk yarısında da sigorta kolu için küçük bir şerefiye düşüşü vardı. Sigorta kolu için stratejik inceleme sürüyor. Ortaklık yapısına, hisse bazlı ücrete, şerefiye tutarına ve bilanço dışı yükümlülüklere bakıldı; okunan bültenlerde yok.",
+  "latest": "28 Eylül 2026: Şirket 2026'nın ilk yarı sonuçlarını açıkladı. Hasılat 121,9 milyon avro (+%3,9), net hasılat 90,3 milyon avro (+%2,2), düzeltilmiş FAVÖK 11,9 milyon avro (geçen yıl 10,6), faaliyet kârı 8,1 milyon avro (6,4), ana ortaklık net kârı 6,1 milyon avro (3,8). Kârdaki artışın bir bölümü vergiden geliyor: vergi gideri 2,8 milyondan 1,7 milyon avroya indi. Özsermaye 55,6 milyon avro, net borç 12,7 milyon avro (2025 sonu: 6,3). Şirket rakamlı bir beklenti vermedi; üçüncü çeyrek hasılatı 23 Kasım 2026'da açıklanacak.",
+  "risks": [
+   "Dergi aboneliği portföyü her yıl küçülüyor (−%8,3); bu kolun kârı azaldıkça grubun kârlılığı ajans işinin daha düşük marjına yaklaşır.",
+   "Büyüme borçla yapılan satın almalara dayanıyor; azınlık paylarını satın alma taahhütleri 20,1 milyon avro."
+  ],
+  "watch": [
+   "Süresiz aktif abonelik sayısı",
+   "Dijital pazarlamanın aynı kapsamdaki büyümesi ve net borç"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/epa/DKUPL/financials/ratios/"
+   },
+   {
+    "t": "Dekuple: 2026 ilk yarı sonuçları (28 Eyl 2026; basın bülteninin Trivano kopyası)",
+    "te": "Dekuple: first-half 2026 results (28 Sep 2026; Trivano copy of the press release)",
+    "u": "https://www.trivano.com/persbericht/763048-763048.html"
+   },
+   {
+    "t": "Dekuple: 2026 ilk yarı hasılatı (31 Ağu 2026)",
+    "te": "Dekuple: first-half 2026 revenue (31 Aug 2026)",
+    "u": "https://dekuple.com/en/dekuple-group-continues-to-roll-out-its-ambition-2030-strategic-roadmap-and-delivers-solid-growth-in-the-first-half-of-2026/"
+   },
+   {
+    "t": "Dekuple: 2025 yıllık sonuçları (30 Mar 2026)",
+    "te": "Dekuple: full-year 2025 results (30 Mar 2026)",
+    "u": "https://dekuple.com/en/full-year-2025-results-solid-growth-and-improved-second-half-profitability/"
+   },
+   {
+    "t": "Dekuple: 2025 ilk yarı sonuçları (29 Eyl 2025)",
+    "te": "Dekuple: first-half 2025 results (29 Sep 2025)",
+    "u": "https://dekuple.com/en/2025-first-half-earnings-strong-performance-in-a-context-of-strategic-investments/"
+   },
+   {
+    "t": "Boursier.com (Fortuneo üzerinden): Dekuple'de ilk yarıda net kâr hızlı arttı (28 Eyl 2026)",
+    "te": "Boursier.com (via Fortuneo): Dekuple net profit rises sharply in the first half (28 Sep 2026)",
+    "u": "https://bourse.fortuneo.fr/actualites/dekuple-vive-progression-du-resultat-net-au-1er-semestre-9992205"
+   }
+  ],
+  "en": {
+   "one": "A mix of digital marketing agencies and a shrinking magazine subscription business. It passed the quality walls; with a weak moat it did not pass the 3rd wall.",
+   "business": "Dekuple (formerly ADLPartner) has three businesses. Digital marketing: consulting (Converteo) and agencies that sell brands data, advertising and customer acquisition services. Magazines: it sells open-ended magazine subscriptions under partner brands. Insurance: a small brokerage arm. In the first half of 2026 net revenue was 90.3 million euros: digital marketing 57.0, magazines 29.5 and insurance 3.8 million euros. In 2025 net revenue was 180.5 million euros and attributable net profit 9.6 million euros.",
+   "moat_text": "The moat is weak, so the company did not pass the 3rd wall (B = 1). Digital marketing is a service business: client contracts are won by pitching, the advantage lies with the staff, and a competitor can offer the same service. Magazine subscriptions used to be the source of profit but are shrinking: open-ended active subscriptions stood at 1.639 million at 30 June 2026 (−8.3%) and magazine net revenue fell 7.2% in the first half. The numbers show it: real return on equity fell from 30.2% in 2021 to 16.6% in 2025; it is 16.7% for the last 12 months. Growth comes from acquisitions: digital marketing grew 8.4% in the first half, 6.0% like for like. The restated EBITDA margin is 13.2% of net revenue. We looked for a market share figure; it is not in the documents read.",
+   "mgmt": "Profit goes into acquisitions: 19.6 million euros was spent on external growth in 2025 (2024: 11.6); companies were bought in Germany, the Netherlands and Spain, and Subko & Co in Poland is consolidated from 1 July 2026. As a result net cash has turned negative: at 30 June 2026 cash was 45.3 million euros and financial debt 58.0 million euros (20.1 million of commitments to buy out minority holders and 36.4 million of bank loans). A dividend of 0.76 euros per share was proposed for 2025. In 2025 the company booked 2.3 million euros of non-recurring charges, mostly goodwill impairment; there was also a small goodwill write-down for the insurance arm in the first half of 2025. A strategic review of the insurance arm is under way. We looked for the shareholder structure, share-based pay, the amount of goodwill and off-balance-sheet commitments; they are not in the releases read.",
+   "latest": "28 September 2026: The company published first-half 2026 results. Revenue was 121.9 million euros (+3.9%), net revenue 90.3 million euros (+2.2%), restated EBITDA 11.9 million euros (10.6 a year earlier), operating profit 8.1 million euros (6.4) and attributable net profit 6.1 million euros (3.8). Part of the rise in profit comes from tax: the tax charge fell from 2.8 million to 1.7 million euros. Equity was 55.6 million euros and net debt 12.7 million euros (end of 2025: 6.3). The company gave no numerical outlook; third-quarter revenue is due on 23 November 2026.",
+   "risks": [
+    "The magazine subscription portfolio shrinks every year (−8.3%); as that arm's profit falls, group profitability moves towards the lower margin of the agency business.",
+    "Growth rests on acquisitions paid for with debt; commitments to buy out minority holders stand at 20.1 million euros."
+   ],
+   "watch": [
+    "Number of open-ended active subscriptions",
+    "Like-for-like growth in digital marketing, and net debt"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-14",
+   "per": "2026-H1"
+  }
+ },
+ "OR": {
+  "scores": {
+   "A": 2,
+   "B": 3,
+   "C": 2,
+   "D": 1,
+   "E": 2
+  },
+  "moat": "geniş",
+  "per": "2026-H1",
+  "one": "Dünyanın en büyük güzellik ürünleri şirketi. Geniş hendekli ve kazancı öngörülebilir; 3. suru geçti, ama fiyatı hesabımızdaki değerin çok üstünde.",
+  "business": "L'Oréal saç bakımı, cilt bakımı, makyaj ve parfüm satar. Dört kolu var: Tüketici Ürünleri, Lüks, Dermatolojik Güzellik ve Profesyonel Ürünler. 2025'te satışlar 44,05 milyar avro, faaliyet kârı 8,89 milyar avro (satışların %20,2'si). 2026'nın ilk yarısında satışlar 23,78 milyar avro; %34'ü Avrupa'dan, %26'sı Kuzey Amerika'dan, %23'ü Kuzey Asya'dan geldi.",
+  "moat_text": "Hendek geniş. Üstünlük markalardan, dağıtımdan ve reklam ölçeğinden geliyor. Brüt marj 2024'te %74,2, 2025'te %74,3, 2026'nın ilk yarısında %74,8; faaliyet marjı %20,0, %20,2 ve %21,3. Şirket 2025'te reklam ve tanıtıma 14,2 milyar avro (satışların %32,2'si), araştırmaya 1,4 milyar avro harcadı; bu ölçeğe yetişmek rakip için yıllar ve büyük sermaye ister. Şirket 2025'te pazardan hızlı büyüdüğünü açıkladı; pazar payı rakamı okunan belgelerde yok. Reel özsermaye kârlılığı beş yılın ortalamasında %16,5, en düşük yılında %14,3, son 12 ayda %15,5. Zayıf yanı: Kuzey Asya (Çin) ve lüks kol dalgalı; 2022 ve 2023 enflasyon yıllarının brüt marjı bu çalıştırmada belgeden okunamadı. Kolların ilk yarı faaliyet kârı: Tüketici Ürünleri 1.966 milyon avro, Lüks 1.764 milyon, Dermatolojik Güzellik 1.196 milyon, Profesyonel Ürünler 681 milyon.",
+  "mgmt": "En büyük ortak Bettencourt Meyers ailesi (%34,79); Nestlé %20,16, çalışanlar %2,06 (31 Aralık 2025). Kâr temettüye, geri alıma ve satın almalara gidiyor. 2025 için hisse başına 7,20 avro temettü ödendi (ilk yarıda toplam 3,9 milyar avro). İlk yarıda 1.398.734 pay 501,4 milyon avroya geri alındı; ortalama yaklaşık 358 avro (bizim hesabımız), temkinli değerimizin üstünde. Şirket nisan 2026'dan beri Kering Beauté markalarını (Creed, Bottega Veneta, Balenciaga) konsolide ediyor; alım bedeli 4,25 milyar avro, nakit ödendi. Şubat 2026'da Galderma'daki payını %20'ye çıkardı. Şerefiye 17,7 milyar avro, özsermayenin %52'si. Şirketin 'yinelenmeyen kalemler hariç' kârına güvenmiyoruz: yeniden yapılanma gideri okunan üç dönemin üçünde de var ve yinelenmeyen kalemler son 12 ayda kârın %11'i kadar. Hisse bazlı ücret 2025'te 248 milyon avro, kârın %4'ü. Bilanço dışı yükümlülüklere bakıldı; yarıyıl raporunun o bölümü okunamadı. Emeklilik karşılığı 668 milyon avro.",
+  "latest": "22 Ekim 2026: Şirket üçüncü çeyrek satışlarını açıkladı. Çeyrekte satışlar 11,56 milyar avro; açıklanan artış %11,9, karşılaştırılabilir artış %7,2. Dokuz ayda satışlar 35,34 milyar avro (+%7,7; karşılaştırılabilir +%6,9). Şirket 2026'da satışların ve kârın yine artacağını yineledi; rakam vermedi. 29 Temmuz 2026'da açıklanan ilk yarı sonuçları: satışlar 23,78 milyar avro (+%5,8), faaliyet kârı 5,06 milyar avro (+%6,8), ana ortaklık net kârı 3.547 milyon avro (geçen yıl 3.368 milyon), seyreltilmiş hisse başına kâr 6,63 avro (6,29). Net borç 30 Haziran 2026'da 12,7 milyar avro. Ekimde 2 milyar avroluk tahvil ihraç edildi.",
+  "risks": [
+   "Fiyat, hesabımızdaki değerin çok üstünde. Fiyat hesabı yılda yaklaşık %5 reel büyüme varsayıyor; ilk yarıda hisse başına kâr %5,4 arttı (enflasyondan önce).",
+   "Şirketin 'yinelenmeyen' dediği giderler her dönem yineleniyor: 2025'te 505 milyon avro, 2026'nın ilk yarısında 301 milyon avro (vergi öncesi). Düzeltilmiş kâr olağan kazancı olduğundan yüksek gösterir.",
+   "Borç satın almalarla arttı: net borç 12,7 milyar avro. Kering Beauté alımı şerefiyeyi altı ayda 3,2 milyar avro artırdı; markalar beklenen büyümeyi getirmezse değer düşüklüğü yazılır.",
+   "Kuzey Asya satışların %23'ü; Çin'de talep ve seyahat perakendesi zayıflarsa lüks kolun kârı düşer.",
+   "Kur etkisi büyük: ilk yarıda satışları 2,8 puan aşağı çekti. Şirket dünyanın her yerinde satar; buradaki enflasyon düzeltmesi Fransa enflasyonuyla yapıldı."
+  ],
+  "watch": [
+   "Karşılaştırılabilir satış büyümesi (dokuz ayda %6,9)",
+   "Faaliyet marjı (ilk yarıda %21,3) ve brüt marj (%74,8)",
+   "Yinelenmeyen kalemlerin tutarı",
+   "Net borç ve Kering Beauté markalarının satışları"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/epa/OR/financials/ratios/"
+   },
+   {
+    "t": "L'Oréal: 2026 yarıyıl sonuçları, basın açıklaması (29 Tem 2026)",
+    "te": "L'Oréal: 2026 half-year results, news release (29 Jul 2026)",
+    "u": "https://www.loreal-finance.com/eng/press-release/2026-half-year-results"
+   },
+   {
+    "t": "L'Oréal: 2026 yarıyıl finansal raporu",
+    "te": "L'Oréal: 2026 half-year financial report",
+    "u": "https://www.loreal-finance.com/system/files/2026-07/LOREAL_RFS_2026_UK.pdf"
+   },
+   {
+    "t": "L'Oréal: 30 Eylül 2026 itibarıyla satışlar (22 Eki 2026; MFN'deki şirket açıklaması)",
+    "te": "L'Oréal: sales at 30 September 2026 (22 Oct 2026; company release on MFN)",
+    "u": "https://mfn.se/all/a/loreal/sales-at-30-september-2026-69c59368"
+   },
+   {
+    "t": "L'Oréal: 2025 yıllık sonuçları (12 Şub 2026)",
+    "te": "L'Oréal: 2025 annual results (12 Feb 2026)",
+    "u": "https://www.loreal-finance.com/eng/press-release/2025-annual-results"
+   },
+   {
+    "t": "L'Oréal: 2025 kayıt belgesi, ortaklık yapısı",
+    "te": "L'Oréal: 2025 Universal Registration Document, shareholding structure",
+    "u": "https://www.loreal-finance.com/eng/2025-universal-registration-document/en/article/396/"
+   }
+  ],
+  "en": {
+   "one": "The world's largest beauty company. Its moat is wide and its earnings predictable; it passed the third wall, but the price is far above the value in our calculation.",
+   "business": "L'Oréal sells hair care, skin care, make-up and fragrance. It has four divisions: Consumer Products, Luxe, Dermatological Beauty and Professional Products. In 2025 sales were 44.05 billion euros and operating profit 8.89 billion euros (20.2% of sales). In the first half of 2026 sales were 23.78 billion euros; 34% came from Europe, 26% from North America and 23% from North Asia.",
+   "moat_text": "The moat is wide. The advantage comes from brands, distribution and advertising scale. Gross margin was 74.2% in 2024, 74.3% in 2025 and 74.8% in the first half of 2026; operating margin was 20.0%, 20.2% and 21.3%. In 2025 the company spent 14.2 billion euros on advertising and promotion (32.2% of sales) and 1.4 billion euros on research; matching that scale would take a rival years and a great deal of capital. The company said it grew faster than the market in 2025; the documents read give no market share figure. Real return on equity averaged 16.5% over five years, was 14.3% in its lowest year and 15.5% in the last 12 months. The weak points: North Asia (China) and the luxury division are volatile; the gross margin of the inflation years 2022 and 2023 could not be read from a document in this run. First-half operating profit by division: Consumer Products 1,966 million euros, Luxe 1,764 million, Dermatological Beauty 1,196 million, Professional Products 681 million.",
+   "mgmt": "The largest shareholder is the Bettencourt Meyers family (34.79%); Nestlé holds 20.16% and employees 2.06% (31 December 2025). Profit goes to dividends, buybacks and acquisitions. A dividend of 7.20 euros per share was paid for 2025 (3.9 billion euros in total in the first half). In the first half 1,398,734 shares were bought back for 501.4 million euros; the average is about 358 euros (our calculation), above our conservative value. Since April 2026 the company has consolidated the Kering Beauté brands (Creed, Bottega Veneta, Balenciaga); the purchase price was 4.25 billion euros, paid in cash. In February 2026 it raised its stake in Galderma to 20%. Goodwill is 17.7 billion euros, 52% of equity. We do not rely on the company's profit 'excluding non-recurring items': restructuring costs appear in all three periods read, and non-recurring items came to about 11% of profit in the last 12 months. Share-based pay was 248 million euros in 2025, 4% of profit. We looked for off-balance-sheet commitments; that section of the half-year report could not be read. The pension provision is 668 million euros.",
+   "latest": "22 October 2026: The company published third-quarter sales. Sales in the quarter were 11.56 billion euros; reported growth was 11.9% and like-for-like growth 7.2%. Nine-month sales were 35.34 billion euros (+7.7%; like-for-like +6.9%). The company repeated that sales and profit will grow again in 2026; it gave no figure. First-half results announced on 29 July 2026: sales 23.78 billion euros (+5.8%), operating profit 5.06 billion euros (+6.8%), net profit attributable to owners 3,547 million euros (3,368 million a year earlier), diluted earnings per share 6.63 euros (6.29). Net debt was 12.7 billion euros at 30 June 2026. A 2 billion euro bond was issued in October.",
+   "risks": [
+    "The price is far above the value in our calculation. The price calculation assumes real growth of about 5% a year; earnings per share rose 5.4% in the first half (before inflation).",
+    "The charges the company calls 'non-recurring' recur every period: 505 million euros in 2025 and 301 million euros in the first half of 2026 (before tax). Adjusted profit overstates ordinary earnings.",
+    "Debt has risen with acquisitions: net debt is 12.7 billion euros. The Kering Beauté purchase added 3.2 billion euros of goodwill in six months; if the brands do not deliver the expected growth, impairments will follow.",
+    "North Asia is 23% of sales; if demand in China and travel retail weakens, the luxury division's profit falls.",
+    "The currency effect is large: it took 2.8 points off sales in the first half. The company sells all over the world; the inflation adjustment here was made with French inflation."
+   ],
+   "watch": [
+    "Like-for-like sales growth (6.9% over nine months)",
+    "Operating margin (21.3% in the first half) and gross margin (74.8%)",
+    "The amount of non-recurring items",
+    "Net debt and sales of the Kering Beauté brands"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-14",
+   "per": "2026-H1"
+  }
+ },
+ "AIR": {
+  "scores": {
+   "A": 1,
+   "B": 2,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "2026-Q3",
+  "one": "Büyük yolcu uçağında dünyanın iki üreticisinden biri. 3. suru geçti; ama alıkonan kârın sınavını geçemedi ve fiyatı hesabımızdaki değerin çok üstünde.",
+  "business": "Airbus yolcu uçağı, helikopter, askeri uçak ve uydu üretir. 2025'te hasılat 73,4 milyar avro; 793 yolcu uçağı teslim edildi. 2026'nın ilk dokuz ayında hasılat 50,6 milyar avro: yolcu uçakları 36,7 milyar, savunma ve uzay 9,3 milyar, helikopter 5,6 milyar. Para teslimatta kazanılır; müşteri siparişte ve üretim sırasında avans öder.",
+  "moat_text": "Hendek dar. Büyük yolcu uçağını dünyada iki şirket üretir; yeni bir rakibin yetişmesi onlarca yıl ve çok büyük sermaye ister. Sipariş defterinde 9.310 yolcu uçağı var (30 Eylül 2026); bu yılın 870 uçaklık teslimat hedefiyle on yılı aşan iş demek (bizim hesabımız). İlk dokuz ayda 1.105 net sipariş alındı. Hendeği geniş saymadık, çünkü üstünlük marjlarda görünmüyor: düzeltilmiş faaliyet marjı 2025'te %9,7, 2026'nın ilk dokuz ayında %8,9 (bizim hesabımız). Uçak fiyatı yıllar önce sözleşmeyle belirlenir; maliyet artışı ve tedarik gecikmesi şirkette kalır. Reel özsermaye kârlılığı beş yılın ortalamasında %26,1, en düşük yılında %19,1, son 12 ayda %19,5; 2021'deki %48 küçük özsermayeden gelir. Kolların dokuz aylık düzeltilmiş faaliyet kârı: yolcu uçakları 3.362 milyon avro, savunma ve uzay 672 milyon, helikopter 445 milyon.",
+  "mgmt": "Alıkonan kârın sınavı geçilemedi: kârın yaklaşık %71'i şirkette kaldı, o paranın getirdiği reel kâr büyümesi yılda %2,2; eşik %10. Şirket 2025 için hisse başına 3,20 avro temettü ödedi (2024 için 2,00 avro olağan, 1,00 avro özel). 9 Kasım 2026'da 5 milyar avroya kadar geri alım programı başladı; 31 Temmuz 2029'a kadar sürecek, ilk dilim 800 milyon avro (23 Aralık 2026'ya kadar), alınan paylar iptal edilecek. Alım fiyatı temkinli değerimizin üstünde. Şirket Spirit AeroSystems'in iş paketlerini devraldı; bütünleştirme gideri son 12 ayda 335 milyon avro. Şerefiye 13,6 milyar avro, özsermayenin %52'si (31 Aralık 2025). Hisse bazlı ücret 2025'te 335 milyon avro, kârın %6'sı. Şirketin 'düzeltilmiş' faaliyet kârına güvenmiyoruz: düzeltme kalemleri her yıl yineleniyor (2025'te net 1.046 milyon avro gider). Ortaklık yapısına bakıldı; bu çalıştırmada belgeden okunamadı. Emeklilik açığının tutarına bakıldı, okunamadı; bilanço dışında MBDA yükümlülüklerindeki pay 577 milyon avro.",
+  "latest": "28 Ekim 2026: Şirket dokuz aylık sonuçlarını açıkladı. Hasılat 50,6 milyar avro (+%7), düzeltilmiş faaliyet kârı 4.495 milyon avro (+%8), net kâr 3.587 milyon avro (geçen yıl 2.641 milyon), hisse başına kâr 4,54 avro (3,34). Üçüncü çeyrekte hasılat %2 düştü, düzeltilmiş faaliyet kârı %9 geriledi; hisse başına kâr 1,70 avro (1,41). 547 yolcu uçağı teslim edildi (geçen yıl 507). Müşteri finansmanı öncesi serbest nakit akışı eksi 1.268 milyon avro; stok, yıl sonuna yığılan teslimatlar için arttı. 2026 beklentisi korundu: yaklaşık 870 teslimat, yaklaşık 7,5 milyar avro düzeltilmiş faaliyet kârı, yaklaşık 4,5 milyar avro serbest nakit akışı. 9 Kasım 2026'da geri alım programının ilk dilimi başladı.",
+  "risks": [
+   "Alıkonan kârın sınavı geçilemedi: şirkette kalan kâr yeterli getiri sağlamadı (yılda %2,2 reel; eşik %10). Fiyat da hesabımızdaki değerin çok üstünde; hesap yılda yaklaşık %1,3 reel büyüme varsayıyor.",
+   "Yılın kârı ve nakdi son çeyreğe bağlı: beklentiyi tutmak için dördüncü çeyrekte yaklaşık 320 uçak teslim edilmeli. Motor ve parça tedarikindeki gecikme teslimatı kaydırır.",
+   "Kâr dolar kuruna duyarlı: uçak dolarla satılır, maliyetin çoğu avrodur. Kur farkı kalemi 2025'te faaliyet kârını 624 milyon avro azalttı, 2026'nın ilk dokuz ayında 270 milyon avro artırdı.",
+   "Müşteri avansları 58,6 milyar avro (31 Aralık 2025). Havayolu talebi düşerse siparişler ertelenir ve avans akışı tersine döner.",
+   "Hisse bazlı ücret kârın %6'sı. Savunma ve uzay kolunda sabit fiyatlı programlar geçmişte büyük zarar yazdırdı (2024'te uzay programlarında 1,3 milyar avro).",
+   "Şirket birçok ülkede üretir ve dolarla satar; buradaki enflasyon düzeltmesi Fransa enflasyonuyla yapıldı."
+  ],
+  "watch": [
+   "Yıllık teslimat (hedef yaklaşık 870) ve A320 ailesinin aylık üretim hızı",
+   "Müşteri finansmanı öncesi serbest nakit akışı (hedef yaklaşık 4,5 milyar avro)",
+   "Düzeltme kalemleri ve Spirit AeroSystems bütünleştirme gideri",
+   "Geri alımın fiyatı ve tutarı"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/epa/AIR/financials/ratios/"
+   },
+   {
+    "t": "Airbus: 2026 dokuz aylık sonuçları (28 Eki 2026)",
+    "te": "Airbus: nine-month 2026 results (28 Oct 2026)",
+    "u": "https://www.airbus.com/en/newsroom/press-releases/2026-10-airbus-reports-nine-month-9m-2026-results"
+   },
+   {
+    "t": "Airbus: 2026 yarıyıl sonuçları (29 Tem 2026)",
+    "te": "Airbus: half-year 2026 results (29 Jul 2026)",
+    "u": "https://www.airbus.com/en/newsroom/press-releases/2026-07-airbus-reports-half-year-h1-2026-results"
+   },
+   {
+    "t": "Airbus: 2025 yıl sonu sonuçları (19 Şub 2026)",
+    "te": "Airbus: full-year 2025 results (19 Feb 2026)",
+    "u": "https://airbus.com/en/newsroom/press-releases/2026-02-airbus-reports-full-year-fy-2025-results"
+   },
+   {
+    "t": "Airbus: 2025 dokuz aylık sonuçları, basın açıklaması (29 Eki 2025; arşiv kopyası)",
+    "te": "Airbus: nine-month 2025 results, press release (29 Oct 2025; archived copy)",
+    "u": "https://www.bnains.org/archives/communiques/EADS/20251029_Communique_resultats_T3_2025_Airbus.pdf"
+   },
+   {
+    "t": "Airbus: çok yıllı geri alım programının ilk dilimi (9 Kas 2026)",
+    "te": "Airbus: multi-year share buyback programme, first tranche (9 Nov 2026)",
+    "u": "https://www.airbus.com/en/newsroom/press-releases/2026-11-airbus-commences-multi-year-share-buyback-programme-with-launch-of-the-first-tranche"
+   },
+   {
+    "t": "Airbus SE: 2025 finansal tabloları (genel kurul belgesi)",
+    "te": "Airbus SE: 2025 financial statements (AGM document)",
+    "u": "https://www.hauptversammlung.de/fileadmin/public/user_upload/airbus_AGM_2026_financial_statements.pdf"
+   },
+   {
+    "t": "Il Sole 24 Ore: Airbus 5 milyar avroluk geri alım ve 2029 hedeflerini açıkladı (22 Tem 2026)",
+    "te": "Il Sole 24 Ore: Airbus announces 5 billion euro buyback and 2029 targets (22 Jul 2026)",
+    "u": "https://en.ilsole24ore.com/art/in-paris-airbus-announces-a-massive-share-buyback-and-raises-its-guidance-AJqoM6R"
+   }
+  ],
+  "en": {
+   "one": "One of the world's two makers of large passenger aircraft. It passed the third wall, but it failed the test of retained earnings and the price is far above the value in our calculation.",
+   "business": "Airbus builds passenger aircraft, helicopters, military aircraft and satellites. In 2025 revenue was 73.4 billion euros and 793 passenger aircraft were delivered. In the first nine months of 2026 revenue was 50.6 billion euros: commercial aircraft 36.7 billion, defence and space 9.3 billion, helicopters 5.6 billion. The money is earned on delivery; customers pay advances at order and during production.",
+   "moat_text": "The moat is narrow. Two companies in the world build large passenger aircraft; a new rival would need decades and a very large amount of capital to catch up. The order book holds 9,310 passenger aircraft (30 September 2026); at this year's target of 870 deliveries that is more than ten years of work (our calculation). Net orders were 1,105 in the first nine months. We did not count the moat as wide because the advantage does not show in the margins: the adjusted operating margin was 9.7% in 2025 and 8.9% in the first nine months of 2026 (our calculation). Aircraft prices are set by contract years ahead; cost increases and supply delays stay with the company. Real return on equity averaged 26.1% over five years, was 19.1% in its lowest year and 19.5% in the last 12 months; the 48% of 2021 comes from a small equity base. Nine-month adjusted operating profit by division: commercial aircraft 3,362 million euros, defence and space 672 million, helicopters 445 million.",
+   "mgmt": "The test of retained earnings was not passed: about 71% of profit stayed in the company, and the real profit growth that money produced was 2.2% a year; the threshold is 10%. The company paid a dividend of 3.20 euros per share for 2025 (2.00 euros regular and 1.00 euro special for 2024). On 9 November 2026 a buyback programme of up to 5 billion euros began; it runs until 31 July 2029, the first tranche is 800 million euros (until 23 December 2026) and the shares bought will be cancelled. The purchase price is above our conservative value. The company took over work packages of Spirit AeroSystems; integration costs were 335 million euros over the last 12 months. Goodwill is 13.6 billion euros, 52% of equity (31 December 2025). Share-based pay was 335 million euros in 2025, 6% of profit. We do not rely on the company's 'adjusted' operating profit: the adjustment items recur every year (a net charge of 1,046 million euros in 2025). We looked for the shareholding structure; it could not be read from a document in this run. We looked for the size of the pension deficit and could not read it; off the balance sheet, the share of MBDA commitments is 577 million euros.",
+   "latest": "28 October 2026: The company published its nine-month results. Revenue was 50.6 billion euros (+7%), adjusted operating profit 4,495 million euros (+8%), net profit 3,587 million euros (2,641 million a year earlier) and earnings per share 4.54 euros (3.34). In the third quarter revenue fell 2% and adjusted operating profit fell 9%; earnings per share were 1.70 euros (1.41). 547 passenger aircraft were delivered (507 a year earlier). Free cash flow before customer financing was minus 1,268 million euros; inventory rose for deliveries bunched at the end of the year. The 2026 outlook was kept: about 870 deliveries, adjusted operating profit of about 7.5 billion euros and free cash flow of about 4.5 billion euros. On 9 November 2026 the first tranche of the buyback programme began.",
+   "risks": [
+    "The test of retained earnings was not passed: the profit kept in the company did not earn an adequate return (2.2% a year in real terms; the threshold is 10%). The price is also far above the value in our calculation, which assumes real growth of about 1.3% a year.",
+    "The year's profit and cash depend on the last quarter: about 320 aircraft must be delivered in the fourth quarter to meet the outlook. Delays in engine and parts supply push deliveries back.",
+    "Profit is sensitive to the dollar: aircraft are sold in dollars and most costs are in euros. The currency item cut operating profit by 624 million euros in 2025 and raised it by 270 million euros in the first nine months of 2026.",
+    "Customer advances are 58.6 billion euros (31 December 2025). If airline demand falls, orders are deferred and the flow of advances reverses.",
+    "Share-based pay is 6% of profit. In defence and space, fixed-price programmes have caused large losses in the past (1.3 billion euros on space programmes in 2024).",
+    "The company builds in several countries and sells in dollars; the inflation adjustment here was made with French inflation."
+   ],
+   "watch": [
+    "Annual deliveries (target about 870) and the monthly production rate of the A320 family",
+    "Free cash flow before customer financing (target about 4.5 billion euros)",
+    "Adjustment items and the Spirit AeroSystems integration cost",
+    "The price and amount of the buyback"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-14",
+   "per": "2026-Q3"
+  }
+ },
+ "RMS": {
+  "scores": {
+   "A": 2,
+   "B": 3,
+   "C": 2,
+   "D": 2,
+   "E": 2
+  },
+  "moat": "geniş",
+  "per": "2026-H1",
+  "one": "Deri çanta, ipek ve giyimde lüks marka; ürünü kendi atölyelerinde üretir, kendi mağazasında satar. 3. suru geçti, ama fiyatı hesabımızdaki değerin çok üstünde.",
+  "business": "Hermès deri çanta ve eyer, giyim ve aksesuar, ipek, mücevher, ev eşyası, parfüm ve saat satar. 2025'te hasılat 16,0 milyar avro, olağan faaliyet kârı 6,57 milyar avro (hasılatın %41,0'ı). 2026'nın ilk yarısında hasılat 8,16 milyar avro; %46'sı deri ürünlerden, %53'ü Asya'dan, %23'ü Avrupa'dan, %19'u Amerika'dan geldi. Deri ürünlerini Fransa'daki kendi atölyelerinde yapar.",
+  "moat_text": "Hendek geniş. Üstünlük markadan ve bilerek sınırlı tutulan üretimden geliyor. Olağan faaliyet marjı 2024'te %40,5, 2025'te %41,0, 2026'nın ilk yarısında %41,0; kur hasılatı 360 milyon avrodan fazla azalttığı halde marj korundu. Net kâr marjı %27,4. Deri ürünlerde satış sabit kurla ilk yarıda %9,8, dokuz ayda %10,2 arttı; büyümeyi talep değil, atölye kapasitesi sınırlıyor. Şirket 2025'te 24. deri atölyesini açtı; 2026, 2027 ve 2028 için üç atölye daha planlı. Basına göre 2025 brüt marjı %71,1 ve 2026 fiyat artışı %5-6. Reel özsermaye kârlılığı beş yılın ortalamasında %24,7, en düşük okuması son 12 ayda %21,3; düşüşün bir nedeni biriken nakit (12,9 milyar avro). Zayıf yanı: hasılatın yarısından fazlası Asya'dan; parfüm ve saat geriliyor (ilk yarıda sabit kurla −%4,5 ve +%0,2).",
+  "mgmt": "Şirketi kurucu aile yönetir. Basına göre aile sermayenin yaklaşık %66,7'sini tutuyor; %54,3'ü aile şirketi H51'de (31 Aralık 2025). Kâr atölyelere, mağazalara ve temettüye gidiyor. 2025 için hisse başına 18 avro temettü önerildi; 2026'nın ilk yarısında 1,9 milyar avro temettü ödendi. İlk yarıda 94.846 pay 160 milyon avroya geri alındı; ortalama yaklaşık 1.687 avro (bizim hesabımız), temkinli değerimizin üstünde, ama tutar kârın yanında küçük. Yatırım harcaması 2025'te 1,16 milyar avro. Borç yok: düzeltilmiş net nakit 12,9 milyar avro. Alıkonan kârın sınavı geçildi. Büyük satın alma yok; olağan dışı gelir ve gider iki dönemde de sıfır. Hisse bazlı ücrete, şerefiyeye ve bilanço dışı yükümlülüklere bakıldı; okunan basın açıklamalarında rakam yok.",
+  "latest": "22 Ekim 2026: Şirket üçüncü çeyrek hasılatını açıkladı. Basına göre çeyrek hasılatı 4,10 milyar avro, sabit kurla +%4,3; dokuz ayda 12,26 milyar avro, sabit kurla +%5,5. Deri ürünler çeyrekte %10,8 arttı; giyim ve aksesuar %2 geriledi. 29 Temmuz 2026'da açıklanan ilk yarı sonuçları: hasılat 8.163 milyon avro (+%1,6; sabit kurla +%6,1), olağan faaliyet kârı 3.351 milyon avro (geçen yıl 3.327 milyon), ana ortaklık net kârı 2.238 milyon avro (2.246 milyon), hisse başına kâr 21,36 avro (21,43). Kârda, büyük Fransız şirketlerinden alınan olağanüstü vergi katkısı var; o hariç net kâr yaklaşık 2,5 milyar avro. Şirket orta vade için rakamsız bir büyüme hedefini yineledi.",
+  "risks": [
+   "Fiyat, hesabımızdaki değerin çok üstünde. Kâr 2026'da büyümedi: ilk yarıda hisse başına kâr %0,3 geriledi; fiyat hesabı geçmişin hızlı büyümesine dayanırsa değer olduğundan yüksek çıkar.",
+   "Büyüme yavaşlıyor: sabit kurla hasılat artışı 2025'te %8,9, 2026'nın ilk yarısında %6,1, üçüncü çeyrekte %4,3.",
+   "Hasılatın %53'ü Asya'dan. Çin'de talep kırılgan; Japonya dışı Asya ilk yarıda sabit kurla yalnız %2,4 büyüdü.",
+   "Kur: avronun değerlenmesi ilk yarıda hasılatı 360 milyon avrodan fazla azalttı. Şirket dünyanın her yerinde satar; buradaki enflasyon düzeltmesi Fransa enflasyonuyla yapıldı.",
+   "Fransa'da büyük şirketlere uygulanan olağanüstü vergi katkısı 2025'te ve 2026'da kârı düşürdü; sürerse kalıcı gider olur."
+  ],
+  "watch": [
+   "Sabit kurla hasılat büyümesi, özellikle deri ürünler ve Asya",
+   "Olağan faaliyet marjı (ilk yarıda %41,0)",
+   "Yeni deri atölyelerinin açılış takvimi",
+   "Olağanüstü vergi katkısının sürüp sürmediği"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/epa/RMS/financials/ratios/"
+   },
+   {
+    "t": "Hermès International: 2026 yarıyıl sonuçları (29 Tem 2026; MFN'deki şirket açıklaması)",
+    "te": "Hermès International: 2026 half-year results (29 Jul 2026; company release on MFN)",
+    "u": "https://mfn.se/all/a/hermes/hermes-international-2026-half-year-results-be9f20c4"
+   },
+   {
+    "t": "Hermès International: 2025 yıl sonu sonuçları (12 Şub 2026; MFN'deki şirket açıklaması)",
+    "te": "Hermès International: 2025 full-year results (12 Feb 2026; company release on MFN)",
+    "u": "https://mfn.se/all/a/hermes/hermes-international-2025-full-year-results-a01f2a5e"
+   },
+   {
+    "t": "Luxury Tribune: Hermès üçüncü çeyrekte büyümesini sürdürdü (22 Eki 2026)",
+    "te": "Luxury Tribune: Hermès maintains its growth in the third quarter of 2026 (22 Oct 2026)",
+    "u": "https://www.luxurytribune.com/en/hermes-maintains-its-growth-in-the-third-quarter-of-2026"
+   },
+   {
+    "t": "Inside Retail: Hermès'in daha yavaş bir Çin'de kârlı büyüme stratejisi (20 Şub 2026)",
+    "te": "Inside Retail: Inside Hermès' strategy for profitable growth in a slower China (20 Feb 2026)",
+    "u": "https://insideretail.asia/2026/02/20/inside-hermes-strategy-for-profitable-growth-in-a-slower-china/"
+   },
+   {
+    "t": "L'Essentiel de l'Éco: Hermès mirasçıları gerçekte neye sahip (19 Eyl 2026)",
+    "te": "L'Essentiel de l'Éco: what the Hermès heirs really own (19 Sep 2026)",
+    "u": "https://lessentieldeleco.fr/8416-fortune-hermes-ce-que-les-heritiers-detiennent-vraiment/"
+   }
+  ],
+  "en": {
+   "one": "A luxury brand in leather bags, silk and clothing; it makes its products in its own workshops and sells them in its own stores. It passed the third wall, but the price is far above the value in our calculation.",
+   "business": "Hermès sells leather bags and saddlery, clothing and accessories, silk, jewellery, homeware, perfume and watches. In 2025 revenue was 16.0 billion euros and recurring operating income 6.57 billion euros (41.0% of revenue). In the first half of 2026 revenue was 8.16 billion euros; 46% came from leather goods, 53% from Asia, 23% from Europe and 19% from the Americas. It makes its leather goods in its own workshops in France.",
+   "moat_text": "The moat is wide. The advantage comes from the brand and from production that is deliberately kept limited. The recurring operating margin was 40.5% in 2024, 41.0% in 2025 and 41.0% in the first half of 2026; the margin held even though currencies cut revenue by more than 360 million euros. The net profit margin is 27.4%. Leather goods sales rose 9.8% at constant exchange rates in the first half and 10.2% over nine months; growth is limited by workshop capacity, not by demand. The company opened its 24th leather workshop in 2025; three more are planned for 2026, 2027 and 2028. According to the press, the 2025 gross margin was 71.1% and the 2026 price increase 5-6%. Real return on equity averaged 24.7% over five years; its lowest reading is the last 12 months at 21.3%, partly because of the cash pile (12.9 billion euros). The weak points: more than half of revenue comes from Asia; perfume and watches are shrinking (−4.5% and +0.2% at constant rates in the first half).",
+   "mgmt": "The founding family runs the company. According to the press the family holds about 66.7% of the capital; 54.3% sits in the family company H51 (31 December 2025). Profit goes to workshops, stores and dividends. A dividend of 18 euros per share was proposed for 2025; 1.9 billion euros of dividends were paid in the first half of 2026. In the first half 94,846 shares were bought back for 160 million euros; the average is about 1,687 euros (our calculation), above our conservative value, but the amount is small next to profit. Capital spending was 1.16 billion euros in 2025. There is no debt: restated net cash is 12.9 billion euros. The test of retained earnings was passed. There are no large acquisitions; non-recurring income and expenses were nil in both periods. We looked for share-based pay, goodwill and off-balance-sheet commitments; the press releases read give no figures.",
+   "latest": "22 October 2026: The company published third-quarter revenue. According to the press, revenue in the quarter was 4.10 billion euros, +4.3% at constant exchange rates; over nine months it was 12.26 billion euros, +5.5% at constant rates. Leather goods rose 10.8% in the quarter; clothing and accessories fell 2%. First-half results announced on 29 July 2026: revenue 8,163 million euros (+1.6%; +6.1% at constant rates), recurring operating income 3,351 million euros (3,327 million a year earlier), net profit attributable to the group 2,238 million euros (2,246 million), earnings per share 21.36 euros (21.43). Profit includes the exceptional tax contribution levied on large French companies; excluding it, net profit was about 2.5 billion euros. The company repeated a medium-term growth goal without a figure.",
+   "risks": [
+    "The price is far above the value in our calculation. Profit did not grow in 2026: earnings per share fell 0.3% in the first half; if the price calculation rests on the fast growth of the past, the value comes out higher than it is.",
+    "Growth is slowing: revenue growth at constant rates was 8.9% in 2025, 6.1% in the first half of 2026 and 4.3% in the third quarter.",
+    "53% of revenue comes from Asia. Demand in China is fragile; Asia excluding Japan grew only 2.4% at constant rates in the first half.",
+    "Currency: the stronger euro cut first-half revenue by more than 360 million euros. The company sells all over the world; the inflation adjustment here was made with French inflation.",
+    "The exceptional tax contribution on large companies in France lowered profit in 2025 and 2026; if it continues it becomes a lasting cost."
+   ],
+   "watch": [
+    "Revenue growth at constant rates, especially leather goods and Asia",
+    "Recurring operating margin (41.0% in the first half)",
+    "The opening schedule of the new leather workshops",
+    "Whether the exceptional tax contribution continues"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-14",
+   "per": "2026-H1"
+  }
+ },
+ "BVI": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "2026-H1",
+  "one": "Dünyanın büyük denetim, test ve belgelendirme şirketlerinden biri. 3. suru geçti; ama fiyatı hesabımızdaki değerin çok üstünde ve kârından fazlasını dağıtıyor.",
+  "business": "Bureau Veritas gemileri, binaları, sanayi tesislerini, tüketici ürünlerini ve tarım ile emtia sevkiyatlarını denetler, test eder ve belgelendirir. Müşteri bu hizmeti çoğu zaman yasa ya da sigorta gereği almak zorundadır. 2025'te hasılat 6,47 milyar avro, düzeltilmiş faaliyet kârı 1,05 milyar avro (%16,3). Şirket 1828'de kuruldu; yaklaşık 82.000 çalışanı var ve 140 ülkede müşteriye hizmet veriyor.",
+  "moat_text": "Hendek dar. Üstünlük akreditasyonlardan, 1828'den gelen itibardan ve dünya çapındaki ağdan geliyor; bunları kurmak yıllar ister. Kanıt marjda: şirketin düzeltilmiş faaliyet marjı 2024'te %16,0, 2025'te %16,3, 2026'nın ilk yarısında %15,5 (bir yıl öncesine göre +15 baz puan). Gemi sınıflandırmada marj %26,3, tüketici ürünlerinde %22,3. Organik büyüme 2025'te %6,5, 2026'nın ilk dokuz ayında %5,7. Reel özsermaye kârlılığı beş yılın ortalamasında %25,8, en düşük yılında %19,6, son 12 ayda %28,6; yüksek oranın bir nedeni geri alımlarla küçülen özsermaye. Hendeği geniş saymadık: pazar dağınık, işlerin bir bölümü ihaleyle alınır, sanayi ve belgelendirme kollarında organik büyüme ilk yarıda %1,0 ve %1,9'da kaldı. Kolların ilk yarı hasılatı: binalar ve altyapı 1.026 milyon avro, sanayi 675 milyon, tarım ve emtia 578 milyon, tüketici ürünleri 400 milyon, gemi ve açık deniz 294 milyon, belgelendirme 286 milyon.",
+  "mgmt": "Şirket kazandığından fazlasını dağıtıyor: kaynağa göre dağıtım oranı %165. 2026'nın ilk yarısında 428 milyon avro temettü ödendi (hisse başına 0,92 avro); aynı dönemin net kârı 238 milyon avro. 2025'te 200 milyon avroluk geri alım yapıldı (6,7 milyon pay). 2026 programı da 200 milyon avro; 19 Ekim 2026'ya kadar 2,5 milyon pay 68 milyon avroya alındı, ortalama yaklaşık 27 avro (bizim hesabımız), temkinli değerimizin üstünde. Özsermaye 2024 sonundaki 1.972 milyon avrodan 1.658 milyon avroya indi. Şerefiye 2.179 milyon avro, özsermayenin %131'i. Şirket portföyünü değiştiriyor: 2025'te gıda testi işini sattı; haziran 2026'da petrol, petrokimya ve kömür test işini 470 milyon avro işletme değeriyle satmak için anlaştı (2025 hasılatı yaklaşık 450 milyon avro); 2026'da beş şirket aldı. Şirketin düzeltilmiş kârına güvenmiyoruz: yeniden yapılanma gideri okunan üç dönemin üçünde de var. Wendel, Mart 2025'te payların yaklaşık %26,5'ini ve oyların %41,2'sini tutuyordu; %6,7'lik bölümü 2028'de teslim edilmek üzere sattı. Hisse bazlı ücrete, emeklilik açığına ve bilanço dışı yükümlülüklere bakıldı; okunan belgelerde rakam yok.",
+  "latest": "21 Ekim 2026: Şirket üçüncü çeyrek hasılatını açıkladı. Çeyrek hasılatı 1.569,7 milyon avro (+%10,1; organik +%6,2); dokuz ayda 4.513,8 milyon avro (+%4,9; organik +%5,7). 2026 beklentisi korundu: orta-yüksek tek haneli organik büyüme, sabit kurla marj artışı, güçlü nakit akışı. 700 milyon avroluk, 2034 vadeli tahvil ihraç edildi. 29 Temmuz 2026'da açıklanan ilk yarı sonuçları: hasılat 3.258,4 milyon avro (+%2,1), düzeltilmiş faaliyet kârı 506,5 milyon avro (+%3,1), ana ortaklık net kârı 237,9 milyon avro (geçen yıl 322,3 milyon), hisse başına kâr 0,54 avro (0,72). Düşüşün nedeni: geçen yılın kârında gıda testi satışının kazancı vardı (64,9 milyon avro); bu yıl kamu hizmetleri işinden çıkış için 32,0 milyon avro karşılık ayrıldı.",
+  "risks": [
+   "Fiyat, hesabımızdaki değerin çok üstünde. Şirket kârından fazlasını dağıttığı için fiyat hesabı büyüme varsaymıyor; açıklanan hisse başına kâr ilk yarıda %25 düştü (şirketin düzeltilmiş rakamı +%4,8).",
+   "Temettü ve geri alım kârı aşıyor, özsermaye küçülüyor; şerefiye özsermayenin %131'i. Bir satın alma değer yitirirse özsermaye hızla erir. Düzeltilmiş net borç/FAVÖK 30 Haziran 2026'da 1,45; şirket hedefi 1,5 ile 2,0 arasına çekti.",
+   "Portföy değişiyor: satılacak petrol, petrokimya ve kömür işi yaklaşık 450 milyon avro hasılat getiriyordu; yerine alınan şirketler aynı kârı getirmeyebilir.",
+   "İşin bir bölümü döngüye bağlı: inşaat, sanayi yatırımı, gemi siparişi ve emtia ticareti yavaşlarsa hasılat düşer.",
+   "Kur: ilk yarıda açıklanan büyüme %2,1, organik büyüme %5,0. Şirket 140 ülkede çalışır; buradaki enflasyon düzeltmesi Fransa enflasyonuyla yapıldı."
+  ],
+  "watch": [
+   "Organik hasılat büyümesi (dokuz ayda %5,7)",
+   "Düzeltilmiş faaliyet marjı (ilk yarıda %15,5)",
+   "Düzeltilmiş net borç/FAVÖK (1,45) ve özsermaye",
+   "Satışların ve satın almaların kâra etkisi; düzeltme kalemlerinin tutarı"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/epa/BVI/financials/ratios/"
+   },
+   {
+    "t": "Bureau Veritas: 2026 yarıyıl sonuçları, basın açıklaması (29 Tem 2026)",
+    "te": "Bureau Veritas: H1 2026 results, press release (29 Jul 2026)",
+    "u": "https://group.bureauveritas.com/newsroom/delivering-our-commitments-higher-sequential-organic-growth-q2"
+   },
+   {
+    "t": "Bureau Veritas: 2026 yarıyıl sonuçları, ekleriyle (Business Wire, 29 Tem 2026)",
+    "te": "Bureau Veritas: H1 2026 results with appendices (Business Wire, 29 Jul 2026)",
+    "u": "https://www.businesswire.com/news/home/20260728246725/en/"
+   },
+   {
+    "t": "Bureau Veritas: 2025 yıl sonu sonuçları (Business Wire, 24 Şub 2026)",
+    "te": "Bureau Veritas: FY 2025 results (Business Wire, 24 Feb 2026)",
+    "u": "https://www.businesswire.com/news/home/20260224846309/en/"
+   },
+   {
+    "t": "Bureau Veritas: 2026 üçüncü çeyrek hasılatı (21 Eki 2026; Business Wire açıklamasının kopyası)",
+    "te": "Bureau Veritas: third-quarter 2026 revenue (21 Oct 2026; copy of the Business Wire release)",
+    "u": "https://via.tt.se/pressmeddelande/4607671/bureau-veritas-double-digit-total-revenue-growth-in-the-third-quarter-of-2026?lang=en"
+   },
+   {
+    "t": "Cleary Gottlieb: Wendel 750 milyon avroluk Bureau Veritas payı sattı (18 Mar 2025)",
+    "te": "Cleary Gottlieb: Wendel sells Bureau Veritas shares for 750 million euros (18 Mar 2025)",
+    "u": "https://www.clearygottlieb.com/news-and-insights/news-listing/wendel-sells-bureau-veritas-shares-for-750-million"
+   }
+  ],
+  "en": {
+   "one": "One of the world's large inspection, testing and certification companies. It passed the third wall, but the price is far above the value in our calculation and it pays out more than it earns.",
+   "business": "Bureau Veritas inspects, tests and certifies ships, buildings, industrial plants, consumer products and shipments of farm goods and commodities. Customers often have to buy the service because the law or an insurer requires it. In 2025 revenue was 6.47 billion euros and adjusted operating profit 1.05 billion euros (16.3%). The company was founded in 1828; it has about 82,000 employees and serves clients in 140 countries.",
+   "moat_text": "The moat is narrow. The advantage comes from accreditations, a reputation dating from 1828 and a worldwide network; these take years to build. The evidence is in the margin: the company's adjusted operating margin was 16.0% in 2024, 16.3% in 2025 and 15.5% in the first half of 2026 (15 basis points higher than a year earlier). The margin is 26.3% in ship classification and 22.3% in consumer products. Organic growth was 6.5% in 2025 and 5.7% in the first nine months of 2026. Real return on equity averaged 25.8% over five years, was 19.6% in its lowest year and 28.6% in the last 12 months; one reason for the high figure is equity shrunk by buybacks. We did not count the moat as wide: the market is fragmented, part of the work is won by tender, and organic growth in the industry and certification businesses was only 1.0% and 1.9% in the first half. First-half revenue by business: buildings and infrastructure 1,026 million euros, industry 675 million, agri-food and commodities 578 million, consumer products 400 million, marine and offshore 294 million, certification 286 million.",
+   "mgmt": "The company pays out more than it earns: the payout ratio is 165% according to the data source. In the first half of 2026 it paid 428 million euros in dividends (0.92 euros per share); net profit for the same period was 238 million euros. A buyback of 200 million euros was carried out in 2025 (6.7 million shares). The 2026 programme is also 200 million euros; by 19 October 2026, 2.5 million shares had been bought for 68 million euros, about 27 euros on average (our calculation), above our conservative value. Equity fell from 1,972 million euros at the end of 2024 to 1,658 million euros. Goodwill is 2,179 million euros, 131% of equity. The company is reshaping its portfolio: it sold its food testing business in 2025; in June 2026 it agreed to sell its oil, petrochemicals and coal testing business at an enterprise value of 470 million euros (2025 revenue of about 450 million euros); it bought five companies in 2026. We do not rely on the company's adjusted profit: restructuring costs appear in all three periods read. In March 2025 Wendel held about 26.5% of the shares and 41.2% of the votes; it sold a 6.7% block for delivery in 2028. We looked for share-based pay, the pension deficit and off-balance-sheet commitments; the documents read give no figures.",
+   "latest": "21 October 2026: The company published third-quarter revenue. Revenue in the quarter was 1,569.7 million euros (+10.1%; organic +6.2%); over nine months it was 4,513.8 million euros (+4.9%; organic +5.7%). The 2026 outlook was kept: mid-to-high single-digit organic growth, a higher margin at constant exchange rates and strong cash flow. A 700 million euro bond due 2034 was issued. First-half results announced on 29 July 2026: revenue 3,258.4 million euros (+2.1%), adjusted operating profit 506.5 million euros (+3.1%), net profit attributable to owners 237.9 million euros (322.3 million a year earlier), earnings per share 0.54 euros (0.72). The reason for the fall: last year's profit included the gain on the sale of food testing (64.9 million euros); this year a provision of 32.0 million euros was made for the exit from government services.",
+   "risks": [
+    "The price is far above the value in our calculation. Because the company pays out more than it earns, the price calculation assumes no growth; reported earnings per share fell 25% in the first half (the company's adjusted figure is +4.8%).",
+    "Dividends and buybacks exceed profit and equity is shrinking; goodwill is 131% of equity. If an acquisition loses value, equity erodes quickly. Adjusted net debt to EBITDA was 1.45 at 30 June 2026; the company has moved its target to between 1.5 and 2.0.",
+    "The portfolio is changing: the oil, petrochemicals and coal business to be sold brought in about 450 million euros of revenue; the companies bought in its place may not bring the same profit.",
+    "Part of the business is cyclical: if construction, industrial investment, ship orders and commodity trade slow down, revenue falls.",
+    "Currency: reported growth in the first half was 2.1%, organic growth 5.0%. The company works in 140 countries; the inflation adjustment here was made with French inflation."
+   ],
+   "watch": [
+    "Organic revenue growth (5.7% over nine months)",
+    "Adjusted operating margin (15.5% in the first half)",
+    "Adjusted net debt to EBITDA (1.45) and equity",
+    "The effect of disposals and acquisitions on profit; the amount of adjustment items"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-14",
+   "per": "2026-H1"
+  }
+ },
+ "PLNW": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 2,
+   "D": 2,
+   "E": 2
+  },
+  "moat": "dar",
+  "per": "2026-H1",
+  "one": "Proje ve portföy yönetimi yazılımı satar; gelirinin %91'i yinelenir, borcu yoktur. Kalite ve hendek ölçütlerini geçti; fiyatı temkinli değerimizin üstünde.",
+  "business": "Planisware, büyük şirketlerin ve kamu kurumlarının projelerini, ürün geliştirme portföylerini ve bütçelerini planladığı yazılımı satar. Parayı yıllık abonelikten kazanır: 2025'te hasılat 198,0 milyon avro, bunun %91'i yinelenen gelirdi (2020'de %69). Yaklaşık 650 kurumsal müşterisi var. Hasılatın %49'u Avrupa'dan (Fransa %19), %43'ü Kuzey Amerika'dan gelir.",
+  "moat_text": "Hendek dar. Kanıt müşterinin kalmasında: şirketin açıkladığı müşteri kaybı 2025'te hasılatın %1,4'ü, net gelir koruma oranı %110; en büyük 20 müşteri ortalama 11 yıldır şirketle. Brüt marj 2024'te %72,7, 2025'te %73,8, 2026'nın ilk yarısında %73,1. Reel özsermaye kârlılığı beş yılda %19,8 ile %24,2 arasında kaldı; son 12 ayda %23,9. Zayıf yanı: pazar dağınık, şirket kendi payını toplam pazarın %2-4'ü olarak tahmin ediyor ve en yakın rakibi Planview için de aynı tahmini veriyor. Net gelir koruma oranı 2024'te %117'den 2025'te %110'a indi; şirket 2026'nın ilk yarısında mevcut müşterilerin katkısının geçmişe göre belirgin düşük olduğunu söyledi. Brüt marjın 2022-2023 enflasyon yıllarındaki seyrine bakıldı; okunan belgelerde yok (şirket 2024'te halka açıldı).",
+  "mgmt": "Hâkim ortak kurucuların şirketi Olhada: sermayenin %63,7'si, oy haklarının %76,0'sı (30 Haziran 2026). Halka açık pay %31,4. Banka borcu yok; 30 Haziran 2026'da net nakit 204,5 milyon avro. Kârın yarısı temettü olarak dağıtılıyor: 2025 için hisse başına 0,36 avro (toplam 24,9 milyon avro ödendi). 2026'nın ilk yarısında 10,0 milyon avroluk geri alım yapıldı ve 668.646 pay iptal edildi. Satın almalar küçük ve ana işle ilgili: Mart 2026'da kromit GmbH 0,8 milyon avroya alındı. Şerefiye 19,9 milyon avro, özsermayenin %9'u. Hisse bazlı ücret 2025'te 4,5 milyon avro, net kârın %9'u; şirketin düzeltilmiş FAVÖK'ü bunu dışarıda bırakır, bu yüzden o ölçüyü kullanmadık. Yeniden yapılanma gideri: 2025'te ve 2026'nın ilk yarısında yok; 2024'te 5,7 milyon avroluk halka arz gideri yazıldı. Emeklilik yükümlülüğü 3,2 milyon avro; ilk yarıda önemli yeni bilanço dışı yükümlülük yok. İlişkili taraf işlemlerine bakıldı; okunan bölümlerde yok.",
+  "latest": "23 Ekim 2026: Şirket üçüncü çeyrek hasılatını açıkladı: 57,4 milyon avro, sabit kurla %14,9 artış; dokuz ayda 163,5 milyon avro (+%14,9). 2026 hedefleri korundu: sabit kurla en az %13 hasılat büyümesi, düzeltilmiş FAVÖK marjı en az %37,4. 30 Temmuz 2026'da açıklanan ilk yarı sonuçları: hasılat 106,1 milyon avro (+%10,8; sabit kurla +%14,8), net kâr 28,6 milyon avro (geçen yıl 21,7 milyon), hisse başına kâr 0,41 avro (0,31). Kâr artışının bir bölümü finansman sonucundan geldi: geçen yıl 0,8 milyon avro gider, bu yıl 3,9 milyon avro gelir (kur farkı). Faaliyet kârı %13,4 arttı.",
+  "risks": [
+   "Hisse bazlı ücret net kârın yaklaşık %9'u kadar (2025'te 4,5 milyon avro); şirketin öne çıkardığı düzeltilmiş FAVÖK bu gideri saymaz.",
+   "İlk yarıdaki %32'lik kâr artışı kur farkı gelirinden destek aldı; faaliyet kârındaki artış %13,4. Hasılatın %43'ü Kuzey Amerika'dan geldiği için dolar zayıflarsa avro cinsinden hasılat ve kâr düşer (ilk yarıda hasılata etkisi −3,8 milyon avro).",
+   "Mevcut müşterilerden gelen ek satış yavaşladı: net gelir koruma oranı %117'den %110'a indi. Pazar dağınık ve şirketin payı küçük (%2-4).",
+   "Yapay zekâ araçları proje yönetimi yazılımında fiyatlamayı ve rekabeti değiştirebilir; şirketin kendi ürünü (Prisma) Ekim 2026'da henüz deneme aşamasındaydı.",
+   "Oy haklarının %76'sı kurucularda; küçük ortağın karar üzerinde etkisi sınırlı."
+  ],
+  "watch": [
+   "Net gelir koruma oranı ve müşteri kaybı (2025: %110 ve %1,4)",
+   "Sabit kurla hasılat büyümesi (2026 hedefi: en az %13)",
+   "Faaliyet kârı ve hisse bazlı ücretin kâra oranı",
+   "Net nakdin kullanımı: temettü, geri alım, satın alma"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/epa/PLNW/financials/ratios/"
+   },
+   {
+    "t": "Planisware: 2026 ilk yarı finansal raporu (30 Tem 2026)",
+    "te": "Planisware: H1 2026 financial report (30 Jul 2026)",
+    "u": "https://planisware.com/sites/default/files/2026-07/Planisware%20-%20H1%202026%20financial%20report.pdf"
+   },
+   {
+    "t": "Planisware: 2026 ilk yarı sonuç açıklaması (30 Tem 2026)",
+    "te": "Planisware: H1 2026 results press release (30 Jul 2026)",
+    "u": "https://planisware.com/resources/corporate-news/strong-h1-2026-driven-accelerating-revenue-growth-and-excellent"
+   },
+   {
+    "t": "Planisware: 2025 yılı sonuç açıklaması (26 Şub 2026)",
+    "te": "Planisware: FY 2025 results press release (26 Feb 2026)",
+    "u": "https://planisware.com/sites/default/files/2026-02/20260226%20-%20Planisware%20-%20FY%202025%20results%20-%20PR%201.pdf"
+   },
+   {
+    "t": "Planisware: 2025 evrensel kayıt belgesi (Nis 2026)",
+    "te": "Planisware: 2025 Universal Registration Document (Apr 2026)",
+    "u": "https://planisware.com/sites/default/files/2026-04/Planisware%20-%202025%20Universal%20Registration%20Document_0.pdf"
+   },
+   {
+    "t": "Planisware: ortaklık yapısı (30 Haz 2026)",
+    "te": "Planisware: shareholding structure (30 Jun 2026)",
+    "u": "https://planisware.com/sites/default/files/2026-07/20260630%20-%20Planisware%20-%20Shareholding%20structure.pdf"
+   },
+   {
+    "t": "Futurum: Planisware 3. çeyrek hasılatı (23 Eki 2026)",
+    "te": "Futurum: Planisware Q3 FY 2026 revenue (23 Oct 2026)",
+    "u": "https://futurumgroup.com/?p=97341"
+   }
+  ],
+  "en": {
+   "one": "Sells project and portfolio management software; 91% of revenue is recurring and it has no debt. It passed the quality and moat tests; its price is above our cautious value.",
+   "business": "Planisware sells the software large companies and public bodies use to plan their projects, product development portfolios and budgets. It earns its money from annual subscriptions: 2025 revenue was 198.0 million euros, 91% of it recurring (69% in 2020). It has about 650 organisational customers. Europe brings 49% of revenue (France 19%) and North America 43%.",
+   "moat_text": "The moat is narrow. The evidence is that customers stay: churn reported by the company was 1.4% of revenue in 2025 and net retention 110%; the 20 largest customers have been with it for 11 years on average. Gross margin was 72.7% in 2024, 73.8% in 2025 and 73.1% in the first half of 2026. Real return on equity stayed between 19.8% and 24.2% over five years; it is 23.9% for the last 12 months. The weak side: the market is fragmented, the company estimates its own share at 2-4% of the total market and gives the same estimate for its closest rival, Planview. Net retention fell from 117% in 2024 to 110% in 2025; the company said the contribution from existing customers in the first half of 2026 was significantly lower than in the past. We looked for gross margin in the inflation years 2022-2023; it is not in the documents read (the company listed in 2024).",
+   "mgmt": "The controlling shareholder is Olhada, the founders' holding company: 63.7% of the capital and 76.0% of the voting rights (30 June 2026). The public holds 31.4%. There is no bank debt; net cash was 204.5 million euros on 30 June 2026. Half of profit is paid out as dividends: 0.36 euros per share for 2025 (24.9 million euros paid in total). In the first half of 2026 it bought back 10.0 million euros of shares and cancelled 668,646 shares. Acquisitions are small and close to the core business: kromit GmbH was bought for 0.8 million euros in March 2026. Goodwill is 19.9 million euros, 9% of equity. Share-based pay was 4.5 million euros in 2025, 9% of net profit; the company's adjusted EBITDA leaves it out, so we did not use that measure. Restructuring charges: none in 2025 or the first half of 2026; 5.7 million euros of IPO costs were booked in 2024. The pension obligation is 3.2 million euros; no significant new off-balance-sheet commitment in the first half. We looked for related-party transactions; none in the sections read.",
+   "latest": "23 October 2026: The company reported third-quarter revenue of 57.4 million euros, up 14.9% at constant currency; 163.5 million euros for nine months (+14.9%). The 2026 objectives were kept: revenue growth of at least 13% at constant currency and an adjusted EBITDA margin of at least 37.4%. First-half results published on 30 July 2026: revenue 106.1 million euros (+10.8%; +14.8% at constant currency), net profit 28.6 million euros (21.7 million a year earlier), earnings per share 0.41 euros (0.31). Part of the profit rise came from the financial result: a 0.8 million euro expense last year, a 3.9 million euro gain this year (currency differences). Operating profit rose 13.4%.",
+   "risks": [
+    "Share-based pay is about 9% of net profit (4.5 million euros in 2025); the adjusted EBITDA the company highlights does not count this expense.",
+    "The 32% profit rise in the first half was helped by currency gains; operating profit rose 13.4%. With 43% of revenue from North America, a weaker dollar lowers revenue and profit in euros (the first-half effect on revenue was −3.8 million euros).",
+    "Add-on sales to existing customers have slowed: net retention fell from 117% to 110%. The market is fragmented and the company's share is small (2-4%).",
+    "Artificial intelligence tools may change pricing and competition in project management software; the company's own product (Prisma) was still in beta in October 2026.",
+    "The founders hold 76% of the voting rights; minority shareholders have limited influence on decisions."
+   ],
+   "watch": [
+    "Net retention and churn (2025: 110% and 1.4%)",
+    "Revenue growth at constant currency (2026 objective: at least 13%)",
+    "Operating profit and share-based pay as a share of profit",
+    "Use of net cash: dividend, buyback, acquisitions"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-14",
+   "per": "2026-H1"
+  }
+ },
+ "EQS": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 1,
+   "E": 2
+  },
+  "moat": "dar",
+  "per": "2026-H1",
+  "one": "Fransa'da eczane yazılımının lideri (pazar payı yaklaşık %40). Hendek ölçütünü geçti; ama kârlılığı geriliyor ve alıkonan kârın sınavını geçemedi.",
+  "business": "Equasens (eski adı Pharmagest), eczanelere, huzurevlerine, hastanelere ve hekimlere yönetim yazılımı, donanım ve bakım hizmeti satar. 2025'te hasılat 236,5 milyon avro; bunun 172,2 milyonu eczane kolundan (Pharmagest) geldi. Hasılatın %87,5'i Fransa'dan. Bakım ve abonelik geliri 105,1 milyon avro, hasılatın yaklaşık %44'ü (bizim hesabımız); kalanı donanım, kurulum ve yeni satış.",
+  "moat_text": "Hendek dar. Şirket Fransa'da eczane yazılımında lider: payı yaklaşık %40 ve bir yıl öncesine göre değişmedi; rakipleri Everys ve Smart-Rx (Cegedim). Huzurevi yazılımını Fransa'da yaklaşık 2.650, Belçika'da yaklaşık 950 kurum kullanıyor. Eczane yazılımını değiştirmek zahmetli olduğu için müşteri kolay gitmiyor. Faaliyet marjı 2025'te %20,4, 2026'nın ilk yarısında %19,0. Zayıf yanı: getiri düşüyor. Reel özsermaye kârlılığı 2021'de %22,8 iken 2024'te %14,6, 2025'te %15,4, son 12 ayda %13,3. Fransa dışında şirket küçük: İtalya'da pay yaklaşık %5, Almanya'da %2. Fransa'da eczane sayısı azalıyor (2024 sonunda 19.676; 2025'te yaklaşık 300 kapanış). Hasılatın bir bölümü devletin sağlıkta dijitalleşme programına (Ségur) bağlı; bu program 2022-2023'te kârı yükseltti, sonra kâr geriledi. Brüt marjın enflasyon yıllarındaki seyrine bakıldı; okunan belgelerde yok.",
+  "mgmt": "Hâkim ortak eczacı kooperatifi Welcoop grubu: Marque Verte Santé sermayenin yarısından fazlasını, La Coopérative Welcoop %5-10'unu tutuyor. Şirket net nakitte: 30 Haziran 2026'da 93,2 milyon avro. Temettü 2025 için hisse başına 1,40 avro (2024 ve 2023 için 1,25); kârın yaklaşık yarısı dağıtılıyor. Kalan yarı şirkette kalıyor ve satın almalara gidiyor (2025'te 24,1 milyon avro finansal yatırım, banka kredisiyle; Erevo'nun %80'i, Novaprove, DIS). Buna karşın reel kâr beş yılda geriledi: alıkonan kârın sınavı geçilemedi, bu yüzden D puanı 1. Şerefiye 128,0 milyon avro, ana ortaklık özsermayesinin %51'i. Geri alım yalnız likidite sözleşmesi kapsamında (2025'te ortalama 42,2 avrodan alım ve satım). Hisse bazlı ücret önemsiz (2020'de verilen 45.000 opsiyon). Tek seferlik gider: okunan belgelerde yok. 2021 yılına ait bir vergi incelemesi (IP Box) için 2,0 milyon avro karşılık ayrıldı; şirket itiraz ediyor. Haziran 2026'da yönetim kurulu başkanı değişti. Emeklilik yükümlülüğü ve bilanço dışı yükümlülüklere bakıldı; okunan belgelerde yok.",
+  "latest": "29 Ekim 2026: Şirket üçüncü çeyrek hasılatını açıkladı: 57,3 milyon avro, +%2,0; satın almalar hariç −%0,2. Dokuz ayda 181,8 milyon avro (+%5,6; satın almalar hariç +%0,9). Eczane kolu dokuz ayda %3,1 büyüdü; E-Connect %23,4 geriledi. 21 Eylül 2026'da genel merkez ve depoda bir olay yaşandı; şirket üçüncü çeyrek faaliyetine etkisi olmadığını bildirdi. 28 Eylül 2026'da açıklanan ilk yarı sonuçları: hasılat 124,5 milyon avro (+%7,3; satın almalar hariç +%1,4), ana ortaklık net kârı 19,0 milyon avro (geçen yıl 17,3 milyon), hisse başına kâr 1,26 avro (1,15).",
+  "risks": [
+   "Alıkonan kârın sınavı geçilemedi: kârın yaklaşık yarısı şirkette kalıyor ve satın almalara gidiyor, ama reel kâr beş yılda geriledi. Reel özsermaye kârlılığı %22,8'den %13,3'e indi; hesap bu yüzden kârın küçülmeyi sürdüreceğini varsayar.",
+   "Büyüme satın almalardan geliyor: 2026'nın ilk dokuz ayında satın almalar hariç büyüme %0,9, üçüncü çeyrekte −%0,2.",
+   "Hasılat bir kamu programının takvimine duyarlı: Ségur'un ikinci dalgası 2027'nin ilk yarısına kadar sürüyor; bitince donanım ve kurulum satışı yeniden düşebilir.",
+   "Fransa'da eczane sayısı her yıl azalıyor; müşteri tabanı küçülen bir pazarda pay korumak gerekiyor.",
+   "Şerefiye ana ortaklık özsermayesinin yarısı kadar (128,0 milyon avro); satın alınan işler beklenen kârı getirmezse değer düşüklüğü yazılır."
+  ],
+  "watch": [
+   "Satın almalar hariç hasılat büyümesi",
+   "Faaliyet marjı (2026 ilk yarı: %19,0)",
+   "Reel özsermaye kârlılığı ve satın almalara harcanan tutar",
+   "Ségur ikinci dalgasının hasılata katkısı"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/epa/EQS/financials/ratios/"
+   },
+   {
+    "t": "Equasens: 2026 ilk yarı sonuç açıklaması (28 Eyl 2026)",
+    "te": "Equasens: H1 2026 results press release (28 Sep 2026)",
+    "u": "https://equasens.com/wp-content/uploads/2026/09/CP_EQUASENS_Resultats-semestriels-2026_EN.pdf"
+   },
+   {
+    "t": "Equasens: 2026 üçüncü çeyrek hasılat açıklaması (29 Eki 2026)",
+    "te": "Equasens: Q3 2026 revenue press release (29 Oct 2026)",
+    "u": "https://equasens.com/wp-content/uploads/2026/10/PR_EQUASENS_CA-T3-2026_EN.pdf"
+   },
+   {
+    "t": "Equasens: 2025 yılı sonuç açıklaması (30 Mar 2026)",
+    "te": "Equasens: 2025 annual results press release (30 Mar 2026)",
+    "u": "https://ml-eu.globenewswire.com/Resource/Download/df12549a-069f-45e7-8945-23569ee93e92"
+   },
+   {
+    "t": "Equasens: 2025 yönetim raporu (genel kurul, 25 Haz 2026)",
+    "te": "Equasens: 2025 management report (AGM of 25 Jun 2026)",
+    "u": "https://equasens.com/wp-content/uploads/2026/06/2026_EQUASENS_rapport-de-gestion-exce-2025_ag-20260625-1.pdf"
+   },
+   {
+    "t": "Equasens: 2025 evrensel kayıt belgesi",
+    "te": "Equasens: 2025 Universal Registration Document",
+    "u": "https://equasens.com/wp-content/uploads/2026/07/URD_-_EQUASENS_2025_-_UK_202607101048.pdf"
+   },
+   {
+    "t": "Tradingsat: Equasens'in büyümesi üçüncü çeyrekte yavaşladı (29 Eki 2026)",
+    "te": "Tradingsat: Equasens growth slows in the third quarter (29 Oct 2026)",
+    "u": "https://www.tradingsat.com/equasens-ex-pharmagest-FR0012882389/actualites/equasens-ex-pharmagest-la-croissance-d-equasens-marque-le-pas-au-troisieme-trimestre-1172805.html"
+   }
+  ],
+  "en": {
+   "one": "The leader in pharmacy software in France (market share about 40%). It passed the moat test, but its returns are falling and it failed the test of retained earnings.",
+   "business": "Equasens (formerly Pharmagest) sells management software, hardware and maintenance to pharmacies, nursing homes, hospitals and doctors. 2025 revenue was 236.5 million euros, of which 172.2 million came from the pharmacy division (Pharmagest). France brings 87.5% of revenue. Maintenance and subscription revenue was 105.1 million euros, about 44% of revenue (our calculation); the rest is hardware, installation and new sales.",
+   "moat_text": "The moat is narrow. The company leads pharmacy software in France: its share is about 40%, unchanged from a year earlier; its rivals are Everys and Smart-Rx (Cegedim). Its nursing-home software is used by about 2,650 facilities in France and about 950 in Belgium. Changing pharmacy software is a burden, so customers do not leave easily. Operating margin was 20.4% in 2025 and 19.0% in the first half of 2026. The weak side: returns are falling. Real return on equity was 22.8% in 2021, 14.6% in 2024, 15.4% in 2025 and 13.3% for the last 12 months. Outside France the company is small: about 5% share in Italy, 2% in Germany. The number of pharmacies in France is shrinking (19,676 at the end of 2024; about 300 closures in 2025). Part of revenue depends on the state's digital health programme (Ségur); it lifted profit in 2022-2023, and profit then fell. We looked for gross margin in the inflation years; it is not in the documents read.",
+   "mgmt": "The controlling shareholder is the pharmacists' cooperative group Welcoop: Marque Verte Santé holds more than half of the capital and La Coopérative Welcoop 5-10%. The company has net cash: 93.2 million euros on 30 June 2026. The dividend for 2025 is 1.40 euros per share (1.25 for 2024 and 2023); about half of profit is paid out. The other half stays in the company and goes to acquisitions (24.1 million euros of financial investments in 2025, funded by bank loans; 80% of Erevo, Novaprove, DIS). Even so, real profit fell over five years: the test of retained earnings was failed, which is why D is 1. Goodwill is 128.0 million euros, 51% of parent equity. Buybacks are only under the liquidity contract (bought and sold at about 42.2 euros on average in 2025). Share-based pay is negligible (45,000 options granted in 2020). One-off charges: none in the documents read. A 2.0 million euro provision was booked for a tax reassessment on 2021 (IP Box); the company is contesting it. The chairman of the board changed in June 2026. We looked for pension and off-balance-sheet obligations; they are not in the documents read.",
+   "latest": "29 October 2026: The company reported third-quarter revenue of 57.3 million euros, +2.0%; −0.2% excluding acquisitions. Nine-month revenue was 181.8 million euros (+5.6%; +0.9% excluding acquisitions). The pharmacy division grew 3.1% over nine months; E-Connect fell 23.4%. On 21 September 2026 there was an incident at the head office and storage facility; the company said it had no impact on third-quarter business. First-half results published on 28 September 2026: revenue 124.5 million euros (+7.3%; +1.4% excluding acquisitions), net profit attributable to the group 19.0 million euros (17.3 million a year earlier), earnings per share 1.26 euros (1.15).",
+   "risks": [
+    "The test of retained earnings was failed: about half of profit stays in the company and goes to acquisitions, yet real profit fell over five years. Real return on equity dropped from 22.8% to 13.3%; the calculation therefore assumes profit keeps shrinking.",
+    "Growth comes from acquisitions: excluding them, growth was 0.9% in the first nine months of 2026 and −0.2% in the third quarter.",
+    "Revenue is sensitive to the timetable of a public programme: the second wave of Ségur runs until the first half of 2027; when it ends, hardware and installation sales may fall again.",
+    "The number of pharmacies in France falls every year; the company has to hold its share in a shrinking customer base.",
+    "Goodwill is about half of parent equity (128.0 million euros); if acquired businesses do not deliver the expected profit, impairments will follow."
+   ],
+   "watch": [
+    "Revenue growth excluding acquisitions",
+    "Operating margin (first half of 2026: 19.0%)",
+    "Real return on equity and the amount spent on acquisitions",
+    "Contribution of the second Ségur wave to revenue"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-14",
+   "per": "2026-H1"
+  }
+ },
+ "ALSEM": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "2026-H1",
+  "one": "Çip üretim makineleri için elektrostatik tutucu yapan küçük bir Fransız şirketi. Marjları yüksek, hendek ölçütünü geçti; ama borsa geçmişi kısa ve işi çip döngüsüne bağlı.",
+  "business": "SEMCO Technologies, çip üretiminde silikon plakayı makinenin içinde sabit tutan elektrostatik tutucuları (eChuck) tasarlar ve Montpellier'de üretir. Müşterileri çip üretim makinesi yapan uluslararası şirketlerdir; parça her müşteri için özel tasarlanır. 2025'te hasılat 34,2 milyon avro, net kâr 10,1 milyon avro. 2026 başında 17 müşteri seri üretimdeydi (2025'te 15); 6 müşteri prototip, 10 müşteri onay aşamasındaydı.",
+  "moat_text": "Hendek dar. Kanıt marjlarda: brüt marj 2024'te %65,3, 2025'te %66,3, 2026'nın ilk yarısında %67,6; faaliyet marjı %36,8, %40,7 ve %40,7. Parça müşterinin makinesi için özel tasarlanır ve seri üretime girmeden önce uzun bir onay sürecinden geçer; onaylanan parçayı değiştirmek müşteri için pahalıdır. Reel özsermaye kârlılığı 2024'te %39,8, 2025'te %54,9. Zayıf yanları: şirket pazar payını ve en büyük müşterilerinin hasılattaki payını açıklamıyor; rakipler arasında çok daha büyük, genel üreticiler var. Şirket küçük (hasılat 34 milyon avro) ve tek üretim yerine bağlı. Kaynaktaki beş yıllık veri eksik (2020-2022 yok), brüt marjın 2022-2023 enflasyon yıllarındaki seyri okunan belgelerde yok. Bu yüzden hendek geniş sayılmadı.",
+  "mgmt": "Hâkim ortak ECM Group: halka arzdan sonra ECM Technologies sermayenin %70,0'ını tutuyor; halka açık pay yaklaşık %30. ECM Group aile şirketidir. Şirket Temmuz 2025'te hisse başına 15 avrodan Euronext Growth'ta halka açıldı; 46,2 milyon avroluk arzın yaklaşık 42 milyonu ana ortağın sattığı paylardı, şirkete yalnız yaklaşık 4 milyon avro girdi. Halka arzdan önce ana ortağa 6,0 milyon avro temettü ödendi; 2024'te Çin'deki bağlı ortaklığın payları ECM Group'un başka bir şirketine satıldı. Bu ilişkili taraf işlemleri yüzünden D puanı 1. 2025 kârının %45'inin temettü olarak dağıtılması önerildi; 2028 hedefi en az %30. Kaynaktaki %927'lik pay artışı uyarısı halka arz öncesi pay yapısındaki değişimden kaynaklanıyor; halka arzda çıkarılan yeni pay 266.666 (yaklaşık %2,7). 30 Haziran 2026'da nakit 12,3 milyon avro, finansal borç 3,4 milyon avro. Kâr kapasite artışına gidiyor: 2028'e kadar üretim kapasitesinin üç katına çıkarılması planlanıyor. Hisse bazlı ücret, şerefiye, emeklilik ve bilanço dışı yükümlülüklere bakıldı; okunan belgelerde yok (yalnız sonuç açıklamaları okunabildi).",
+  "latest": "22 Eylül 2026: Yönetim kurulu ilk yarı sonuçlarını onayladı. Hasılat 19,9 milyon avro (+%19,6), brüt marj %67,6, faaliyet kârı 8,1 milyon avro (marj %40,7), net kâr 5,8 milyon avro (geçen yıl 4,1 milyon; +%39,3). Olağan dışı kalemler 0,2 milyon avro gider (geçen yıl 0,3 milyon avro gelir). Özsermaye 24,7 milyon avro. Şirket halka arzda verdiği 2028 hedeflerini yineledi: 55 milyon avronun üstünde hasılat, %40'ın üstünde faaliyet marjı. 13 Nisan 2026'da açıklanan 2025 sonuçları: hasılat 34,2 milyon avro, net kâr 10,1 milyon avro (+%46,2).",
+  "risks": [
+   "Çip üretim makinesi yatırımları döngüseldir; şirketin elimizdeki verisi yalnız yükseliş yıllarını gösteriyor. Döngü dönerse siparişler ve %40'lık marj birlikte düşebilir.",
+   "Müşteri yoğunlaşması bilinmiyor: şirket en büyük müşterilerinin payını açıklamıyor; seri üretimdeki müşteri sayısı yalnız 17.",
+   "Borsa geçmişi kısa (Temmuz 2025) ve kaynaktaki beş yıllık veri eksik; uzun dönemli kârlılık buradaki rakamlarla sınanamıyor.",
+   "Sermayenin %70'i ana ortak ECM Group'ta; geçmişte grup içi satış ve ana ortağa büyük temettü ödemesi yapıldı.",
+   "Üretim tek yerde (Montpellier) ve kapasite üç katına çıkarılıyor; yatırım gecikirse ya da talep gelmezse sermaye getirisi düşer."
+  ],
+  "watch": [
+   "Seri üretimdeki müşteri sayısı (2026 başı: 17)",
+   "Brüt marj ve faaliyet marjı (2026 ilk yarı: %67,6 ve %40,7)",
+   "Kapasite yatırımının takvimi ve tutarı",
+   "ECM Group ile ilişkili taraf işlemleri"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/epa/ALSEM/financials/ratios/"
+   },
+   {
+    "t": "SEMCO Technologies: 2026 ilk yarı sonuç açıklaması (Business Wire metni, 22 Eyl 2026)",
+    "te": "SEMCO Technologies: 2026 half-year results release (Business Wire text, 22 Sep 2026)",
+    "u": "https://www.ariva.de/aktien/semco-technologies-eo-1-aktie/news/semco-technologies-reports-2026-half-year-results-strong-12144856"
+   },
+   {
+    "t": "SEMCO Technologies: 2025 yılı sonuç açıklaması (13 Nis 2026)",
+    "te": "SEMCO Technologies: 2025 annual results release (13 Apr 2026)",
+    "u": "https://financialfilings.com/filings/semco-technologies/earnings-release/2026/34425946/"
+   },
+   {
+    "t": "SEMCO Technologies: halka arzın sonucu ve ortaklık yapısı (28 Tem 2025)",
+    "te": "SEMCO Technologies: IPO outcome and shareholding (28 Jul 2025)",
+    "u": "https://www.businesswire.com/news/home/20250728062245/en/SEMCO-Technologies-Confirms-the-Success-of-Its-IPO-With-the-Exercise-of-the-%E2%82%AC1.2-Million-Over-Allotment-Option-Bringing-the-Final-Amount-of-the-Offering-to-%E2%82%AC46.2-Million"
+   },
+   {
+    "t": "SEMCO Technologies: halka arz duyurusu (24 Haz 2025)",
+    "te": "SEMCO Technologies: IPO launch release (24 Jun 2025)",
+    "u": "https://www.businesswire.com/news/home/20250624068933/en"
+   },
+   {
+    "t": "SEMCO Technologies: pay ve oy hakkı sayısı (8 Eki 2026)",
+    "te": "SEMCO Technologies: number of shares and voting rights (8 Oct 2026)",
+    "u": "https://financialfilings.com/filings/semco-technologies/share-issuecapital-change/2026/68038499/"
+   },
+   {
+    "t": "Tradingsat: SEMCO ilk yarı sonuçları ve 2028 hedefleri (23 Eyl 2026)",
+    "te": "Tradingsat: SEMCO half-year results and 2028 targets (23 Sep 2026)",
+    "u": "https://www.tradingsat.com/semco-technologies-FR0014010H01/actualites/semco-technologies-la-forte-demande-en-composants-pour-les-semi-conducteurs-de-nouvelle-generation-propulse-semco-technologies-vers-ses-objectifs-2028-1170609.html"
+   }
+  ],
+  "en": {
+   "one": "A small French maker of electrostatic chucks for chip-making machines. Margins are high and it passed the moat test, but its listed history is short and the business follows the chip cycle.",
+   "business": "SEMCO Technologies designs electrostatic chucks (eChucks), the parts that hold the silicon wafer in place inside a chip-making machine, and makes them in Montpellier. Its customers are international makers of chip production equipment; each part is designed for the customer. In 2025 revenue was 34.2 million euros and net profit 10.1 million euros. At the start of 2026, 17 customers were in serial production (15 in 2025), 6 in prototyping and 10 in qualification.",
+   "moat_text": "The moat is narrow. The evidence is in the margins: gross margin was 65.3% in 2024, 66.3% in 2025 and 67.6% in the first half of 2026; operating margin 36.8%, 40.7% and 40.7%. The part is designed for the customer's machine and goes through a long qualification before serial production; replacing a qualified part is costly for the customer. Real return on equity was 39.8% in 2024 and 54.9% in 2025. The weak sides: the company does not disclose its market share or how much of revenue its largest customers bring; its rivals include much larger, generalist manufacturers. It is small (revenue of 34 million euros) and depends on one production site. The five-year data in the source is incomplete (2020-2022 are missing), and gross margin for the inflation years 2022-2023 is not in the documents read. So the moat was not classed as wide.",
+   "mgmt": "The controlling shareholder is ECM Group: after the IPO, ECM Technologies holds 70.0% of the capital; the free float is about 30%. ECM Group is family-owned. The company listed on Euronext Growth in July 2025 at 15 euros a share; about 42 million of the 46.2 million euro offering was shares sold by the parent, and only about 4 million euros went to the company. Before the IPO a 6.0 million euro dividend was paid to the parent; in 2024 the shares of the Chinese subsidiary were sold to another ECM Group company. Because of these related-party dealings, D is 1. A dividend of 45% of 2025 profit was proposed; the 2028 target is at least 30%. The 927% share-count warning in the source comes from the change in share structure before the IPO; the new shares issued in the IPO were 266,666 (about 2.7%). On 30 June 2026 cash was 12.3 million euros and financial debt 3.4 million euros. Profit goes into capacity: production capacity is to be tripled by 2028. We looked for share-based pay, goodwill, pension and off-balance-sheet obligations; they are not in the documents read (only the results releases could be read).",
+   "latest": "22 September 2026: The board approved the first-half results. Revenue was 19.9 million euros (+19.6%), gross margin 67.6%, operating profit 8.1 million euros (margin 40.7%), net profit 5.8 million euros (4.1 million a year earlier; +39.3%). Extraordinary items were a 0.2 million euro expense (a 0.3 million euro gain a year earlier). Equity was 24.7 million euros. The company repeated the 2028 targets given at its IPO: revenue above 55 million euros and an operating margin above 40%. 2025 results published on 13 April 2026: revenue 34.2 million euros, net profit 10.1 million euros (+46.2%).",
+   "risks": [
+    "Spending on chip-making equipment is cyclical; the data we have for the company shows only the upswing. If the cycle turns, orders and the 40% margin may fall together.",
+    "Customer concentration is unknown: the company does not disclose the share of its largest customers; only 17 customers are in serial production.",
+    "The listed history is short (July 2025) and the five-year data in the source is incomplete; long-run profitability cannot be tested with the figures here.",
+    "The parent, ECM Group, holds 70% of the capital; there was an intra-group sale and a large dividend to the parent in the past.",
+    "Production is at one site (Montpellier) and capacity is being tripled; if the investment is delayed or demand does not come, the return on capital falls."
+   ],
+   "watch": [
+    "Number of customers in serial production (start of 2026: 17)",
+    "Gross and operating margin (first half of 2026: 67.6% and 40.7%)",
+    "Timing and amount of the capacity investment",
+    "Related-party transactions with ECM Group"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-14",
+   "per": "2026-H1"
+  }
+ },
+ "SWP": {
+  "scores": {
+   "A": 1,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-H1",
+  "one": "Kamu kurumlarına ve enerji şirketlerine bilişim hizmeti ve yazılım satar. Hızlı büyüyor; ama hendek zayıf olduğu için 3. suru geçemedi.",
+  "business": "Sword Group, merkezi Lüksemburg'da olan bir bilişim hizmetleri şirketidir: yazılım geliştirme, veri ve yapay zekâ projeleri, kurumsal sistemlerin işletimi. 2026'nın ilk yarısında hasılat 187,7 milyon avro: İsviçre 73,1, Birleşik Krallık 59,5, Belçika-Lüksemburg 46,7, İspanya 8,4 milyon avro. Müşteri grupları: enerji şirketleri 49,2, Avrupa kurumları 45,4, hükümetler 44,1 milyon avro. 2025 sonunda 3.610 çalışanı vardı. FAVÖK marjı %12.",
+  "moat_text": "Hendek zayıf; şirket bu yüzden 3. suru geçemedi (B = 1). İş, insan gücüne dayalı bilişim hizmetidir ve büyük bölümü kamu kurumlarından alınan sözleşmelere dayanır; bu işler çoğunlukla ihale ve çerçeve sözleşmeyle kazanılır. Üstünlüğü var: 23,2 aylık sipariş birikimi (30 Haziran 2026), 1.000'den fazla müşteri, uzun süreli kamu ilişkileri. Ama fiyatlama gücünün kanıtı yok: FAVÖK marjı yıllardır %12 dolayında sabit ve şirketin hedefi de bu. Reel özsermaye kârlılığı son 12 ayda %27,2; bu yüksekliğin bir nedeni özsermayenin küçülmesi (30 Haziran 2026'da 68,5 milyon avro; 2024 sonunda toplam 97,1 milyon). 2022'deki %100,3 olağan bir yılı göstermez: kaynakta o yılın F/K'sı 3,4; nedeni bu çalıştırmada belgeden okunmadı.",
+  "mgmt": "En büyük ortaklar Eximium (%20,0) ve kurucu Jacques Mottard'ın şirketi Financière Sémaphore (%17,9); halka açık pay %59,7 (31 Aralık 2025). Şirket kârının neredeyse tamamını dağıtıyor: hisse başına 2,00 avro temettü (toplam 18,9 milyon avro; 2025 ana ortaklık kârı 19,0 milyon avro). Satın almalar ve bağlı ortaklık yöneticilerinin paylarının geri alınması borçla karşılanıyor: finansal borç 124,8 milyon avro, şirketin açıkladığı net borç 60,5 milyon avro (2025 sonunda 28,2 milyon). Yöneticilerin ortak yatırım fonuna karşı geri alım yükümlülüğü 28,7 milyon avro. Yinelenen 'tek seferlik' giderler var: 2024'te 5,6 milyon, 2025'te 8,9 milyon, 2026'nın ilk yarısında 4,3 milyon avro (satın alma, işten çıkarma, yeniden yapılanma); bunları olağan gider saydık. Şerefiye 96,3 milyon avro, özsermayenin 1,4 katı. Emeklilik karşılığı 0,3 milyon avro; bilanço dışı garantiler 0,25 milyon avro. Hisse opsiyonu planı yok.",
+  "latest": "22 Ekim 2026: Şirket üçüncü çeyrek sonuçlarını açıkladı: hasılat 100,2 milyon avro (organik büyüme %16,6), FAVÖK 12,0 milyon avro (marj %12,0). Dokuz ayda hasılat 287,9 milyon avro, FAVÖK 34,5 milyon avro. 2026 hedefleri korundu. İlk yarı (rapor 31 Temmuz 2026): hasılat 187,7 milyon avro (+%6,8; organik +%12,6), ana ortaklık net kârı 11,2 milyon avro (geçen yıl 8,8 milyon), hisse başına kâr 1,18 avro (0,94). Kârın içinde, azınlık paylarını geri alma yükümlülüğünün yeniden değerlemesinden gelen 2,2 milyon avro finansman geliri var.",
+  "risks": [
+   "Borç artıyor: şirketin açıkladığı net borç altı ayda 28,2 milyon avrodan 60,5 milyon avroya çıktı; kârın tamamına yakını temettü olarak dağıtılırken satın almalar borçla yapılıyor.",
+   "Hasılatın yaklaşık dörtte biri Avrupa kurumlarından geliyor (2026 ilk yarı: %24; bizim hesabımız); bu iş ihalelere bağlı ve ilk yarıda 51,9 milyon avrodan 45,4 milyon avroya geriledi.",
+   "Şirket Lüksemburg merkezli; işinin çoğu İsviçre ve Birleşik Krallık'ta. Buradaki enflasyon düzeltmesi Fransa enflasyonuyla yapıldı; frank ve sterlin kuru avro cinsinden kârı etkiler."
+  ],
+  "watch": [
+   "Net borç ve FAVÖK'e oranı",
+   "FAVÖK marjı (hedef %12)",
+   "Tek seferlik diye yazılan giderlerin tutarı"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/epa/SWP/financials/ratios/"
+   },
+   {
+    "t": "Sword Group: 2026 ilk yarı finansal raporu (31 Tem 2026)",
+    "te": "Sword Group: H1 2026 financial report (31 Jul 2026)",
+    "u": "https://www.sword-group.com/wp-content/uploads/2026/08/SWORD-GROUP-SE-Rapport-financier-H1-2026-VF-1.pdf"
+   },
+   {
+    "t": "Sword Group: 2025 yıllık finansal raporu (Mar 2026)",
+    "te": "Sword Group: 2025 annual financial report (Mar 2026)",
+    "u": "https://www.sword-group.com/wp-content/uploads/2026/03/Sword-Group-Rapport-31.12.2025-Sg-VCIUD.pdf"
+   },
+   {
+    "t": "Idéal Investisseur: Sword Group üçüncü çeyrek sonuçları (23 Eki 2026)",
+    "te": "Idéal Investisseur: Sword Group third-quarter results (23 Oct 2026)",
+    "u": "https://www.ideal-investisseur.fr/en/stock-news/sword-group-16-6-organic-growth-in-third-quarter-ebitda-margin-stable-at-12/27799.html"
+   }
+  ],
+  "en": {
+   "one": "Sells IT services and software to public bodies and energy companies. It is growing fast, but it did not pass the third wall because its moat is weak.",
+   "business": "Sword Group is an IT services company based in Luxembourg: software development, data and artificial intelligence projects, running enterprise systems. Revenue in the first half of 2026 was 187.7 million euros: Switzerland 73.1, the United Kingdom 59.5, Belgium-Luxembourg 46.7 and Spain 8.4 million euros. Customer groups: energy companies 49.2, European institutions 45.4, governments 44.1 million euros. It had 3,610 employees at the end of 2025. The EBITDA margin is 12%.",
+   "moat_text": "The moat is weak; this is why the company did not pass the third wall (B = 1). The business is people-based IT services, and much of it rests on contracts from public bodies, which are mostly won through tenders and framework contracts. It has advantages: a backlog of 23.2 months (30 June 2026), more than 1,000 customers and long public-sector relationships. But there is no evidence of pricing power: the EBITDA margin has been flat at around 12% for years, and that is also the company's target. Real return on equity is 27.2% for the last 12 months; one reason it is high is that equity has shrunk (68.5 million euros on 30 June 2026; total equity was 97.1 million at the end of 2024). The 100.3% of 2022 is not an ordinary year: the source shows a P/E of 3.4 for that year; the reason was not read from a document in this run.",
+   "mgmt": "The largest shareholders are Eximium (20.0%) and Financière Sémaphore, the company of founder Jacques Mottard (17.9%); the free float is 59.7% (31 December 2025). The company pays out nearly all of its profit: a dividend of 2.00 euros per share (18.9 million euros in total; 2025 profit attributable to the group was 19.0 million euros). Acquisitions and the buyback of subsidiary managers' stakes are funded with debt: financial debt is 124.8 million euros and net debt as reported by the company 60.5 million euros (28.2 million at the end of 2025). The buyback commitment to the managers' co-investment fund is 28.7 million euros. There are recurring 'non-recurring' charges: 5.6 million euros in 2024, 8.9 million in 2025 and 4.3 million in the first half of 2026 (acquisition, redundancy and restructuring costs); we treated them as ordinary costs. Goodwill is 96.3 million euros, 1.4 times equity. The pension provision is 0.3 million euros; off-balance-sheet guarantees are 0.25 million euros. There is no stock option plan.",
+   "latest": "22 October 2026: The company reported third-quarter results: revenue 100.2 million euros (organic growth 16.6%), EBITDA 12.0 million euros (margin 12.0%). Nine-month revenue was 287.9 million euros and EBITDA 34.5 million euros. The 2026 targets were kept. First half (report of 31 July 2026): revenue 187.7 million euros (+6.8%; organic +12.6%), net profit attributable to the group 11.2 million euros (8.8 million a year earlier), earnings per share 1.18 euros (0.94). That profit includes 2.2 million euros of financial income from remeasuring the commitment to buy out minority stakes.",
+   "risks": [
+    "Debt is rising: net debt as reported by the company went from 28.2 million euros to 60.5 million euros in six months; nearly all profit is paid out as dividends while acquisitions are made with debt.",
+    "About a quarter of revenue comes from European institutions (first half of 2026: 24%; our calculation); this work depends on tenders and fell from 51.9 million euros to 45.4 million euros in the first half.",
+    "The company is based in Luxembourg and does most of its business in Switzerland and the United Kingdom. The inflation adjustment here uses French inflation; the franc and sterling exchange rates affect profit in euros."
+   ],
+   "watch": [
+    "Net debt and its ratio to EBITDA",
+    "EBITDA margin (target 12%)",
+    "The amount of charges booked as non-recurring"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-14",
+   "per": "2026-H1"
+  }
+ }
+}

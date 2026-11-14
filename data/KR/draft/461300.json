@@ -1,0 +1,196 @@
+{
+ "461300": {
+  "report": {
+   "scores": {
+    "A": 2,
+    "B": 2,
+    "C": 1,
+    "D": 1,
+    "E": 1
+   },
+   "moat": "dar",
+   "per": "2026-Q2",
+   "one": "İlkokul öğretmenlerinin çoğunun kullandığı ders platformu ve ders kitabı yayıncısı. Hendek ölçütünü geçti; fiyat hesabı yılda %9,3 büyüme varsayımına dayanıyor, kârda menkul kıymet kazancı var.",
+   "business": "i-Scream Media, ilkokul öğretmenlerinin sınıfta kullandığı dijital ders platformu i-Scream S'i işletir ve 2022'den beri ilkokul ders kitabı yayımlar. Para ders kitabı satışından (kitabı okullar seçer), okullara ders araç gereci satan i-Scream Mall'dan ve öğretmen eğitimlerinden gelir. 2026'nın ilk yarısında gelir 92,5 milyar won: 59,8 milyarı eğitim yayıncılığı, 29,1 milyarı ticaret. 2025'te gelir 195,9 milyar won, faaliyet kârı 61,7 milyar won (marj %31,5). Kâr mevsimseldir: ders kitabı geliri ikinci ve dördüncü çeyrekte yazılır, birinci ve üçüncü çeyrek zararla kapanır.",
+   "moat_text": "Hendek dar. Kanıt: i-Scream S'i ülkedeki ilkokul öğretmenlerinin %90'ından fazlası kullanıyor (yaklaşık 200 bin öğretmen); şirket bu ilişkiyi ders kitabına taşıdı ve 2024'te onaylı ilkokul kitaplarında matematikte %40,1, sosyal bilgilerde %58,0, fen bilimlerinde %51,6, müzikte %34,8 payla birinci oldu. Faaliyet kâr marjı 2023'te %27,6, 2024'te %30,3, 2025'te %31,5. Reel özsermaye kârlılığı beş yılın ortalamasında %34,3, en düşük okumada %21,0. Zayıf yanı: ders kitabı işi yalnız 2022'de başladı ve devletin müfredat ve onay kararlarına bağlı. Yeni müfredatla fiyatların ortalama %30'dan fazla artması ve ders sayısının 3'ten 8'e çıkması kârı yükseltti; bu basamak etkisi 2026'dan sonra biter. Yapay zekâlı dijital ders kitabının statüsü 2025'te 'eğitim materyali'ne çevrildi; şirketin bu alana yaptığı yatırımın karşılığı belirsiz. Bu yüzden geniş değil, dar.",
+   "mgmt": "En büyük ortak Sigongtech'tir (basın haberi; oran bu çalıştırmada şirket belgesinden okunamadı). Şirket 2024'te halka açıldı. Kâr dağıtımı 2026'da güçlendi: net kârın %40'ı nakit temettü politikası, Ağustos 2026'da hisse başına 1.083 won ara temettü (toplam 13,8 milyar won), 5 milyar wonluk geri alım ve alınan payların %70'inin iptali. Ocak 2026'da %1,81 paya sahip bir yatırımcı, şirketin büyük nakdi kullanmadığını yazan bir mektup gönderdi; politika ondan sonra geldi. Kusurlar: Kasım 2025'te elindeki paylarla değiştirilebilir tahvil çıkarıldı (yaklaşık 12 milyar won); şirketin 52 milyar wonluk yatırım portföyü var ve 2026'nın ikinci çeyreğinde bundan yaklaşık 19 milyar wonluk değerleme ve satış kazancı yazıldı, yani ana iş dışı finansal yatırım kârı oynatıyor. Mart 2026'da yaklaşık 200 bin kayıtlık kişisel veri sızıntısı açıklandı. Beş yılda pay sayısı %10,4 arttı (halka arz). Hisse bazlı ücret (Temmuz 2026'da pay opsiyonu verildi; tutarı okunamadı), şerefiye ve bilanço dışı yükümlülükler: bakıldı, şirket belgesi açılamadı.",
+   "latest": "14 Ağustos 2026: 2026'nın ilk yarısında gelir 92,5 milyar won (+%18,5), faaliyet kârı 23,9 milyar won (+%64,5), net kâr 34,5 milyar won (+%197,4). Net kârın faaliyet kârını aşmasının nedeni finansal varlıkların değerleme ve satış kazançları (son 12 ayda yaklaşık 20 milyar won; veri sitesinden). 7 Ağustos 2026'da hisse başına 1.083 won ara temettü kararı alındı. Üçüncü çeyrek sonuçları bu çalıştırmada bulunamadı; üçüncü çeyrek her yıl zararla kapanır (2025'te net zarar 4,1 milyar won).",
+   "risks": [
+    "Fiyat hesabı yılda %9,3 reel büyüme varsayıyor; son 12 ay kârının yaklaşık beşte biri menkul kıymet değerleme ve satış kazancı, yinelenmeyebilir. Müfredat geçişinin fiyat ve ders sayısı etkisi 2026'dan sonra biter.",
+    "Ders kitabı geliri devletin müfredat ve onay kararlarına bağlı; 2025'te yapay zekâlı ders kitabının statüsü değişti. Veri sitesine göre 2024 ve 2025'in son çeyreklerinde 9,6 milyar ve 3,3 milyar wonluk varlık değer düşüklüğü yazıldı; nedeni okunamadı.",
+    "İlkokul öğrenci sayısı doğum oranıyla birlikte düşüyor; kitap adedi her yıl azalır.",
+    "Mart 2026'da açıklanan veri sızıntısı (yaklaşık 200 bin kayıt) için kurul kararı ve olası ceza bekleniyor; öğretmenlerin güveni platformun temeli.",
+    "Şirketin büyük bir menkul kıymet portföyü var; değeri kârı iki yönde de oynatır. Ana ortak Sigongtech ile ilişkili taraf işlemleri okunamadı."
+   ],
+   "watch": [
+    "Onaylı ders kitaplarındaki pay (5. ve 6. sınıf yeni müfredat kitapları)",
+    "Faaliyet kâr marjı ve faaliyet kârı ile net kâr arasındaki fark",
+    "Kişisel verileri koruma kurulunun kararı",
+    "Temettü ve iptal edilen pay tutarı; yatırım portföyünün büyüklüğü"
+   ],
+   "sources": [
+    {
+     "t": "stockanalysis.com: 5 yıllık oranlar",
+     "te": "stockanalysis.com: 5-year ratios",
+     "u": "https://stockanalysis.com/quote/kosdaq/461300/financials/ratios/"
+    },
+    {
+     "t": "Money Today: i-Scream Media ilk yarı faaliyet kârı 23,9 milyar won (19 Ağu 2026)",
+     "te": "Money Today: i-Scream Media first-half operating profit 23.9 billion won (19 Aug 2026)",
+     "u": "https://www.mt.co.kr/policy/2026/08/19/2026081914321886382"
+    },
+    {
+     "t": "Law Issue: i-Scream Media ilk yarı sonuçları ve ortaklara dönen pay (19 Ağu 2026)",
+     "te": "Law Issue: i-Scream Media first-half results and shareholder return (19 Aug 2026)",
+     "u": "https://www.lawissue.co.kr/view.php?ud=202608191505341087f4ab64559d_12"
+    },
+    {
+     "t": "Asia Economy: i-Scream Media ders kitabı payları (22 Eyl 2025)",
+     "te": "Asia Economy: i-Scream Media textbook shares (22 Sep 2025)",
+     "u": "https://core.asiae.co.kr/article/2025092215592361818"
+    },
+    {
+     "t": "Smart Today: yatırımcı Park Young-ok'un i-Scream Media'ya mektubu (27 Oca 2026)",
+     "te": "Smart Today: investor Park Young-ok's letter to i-Scream Media (27 Jan 2026)",
+     "u": "https://www.smarttoday.co.kr/ko-kr/articles/102183"
+    },
+    {
+     "t": "Money Today: i-Scream Media veri sızıntısı, yaklaşık 200 bin kayıt (10 Haz 2026)",
+     "te": "Money Today: i-Scream Media data breach, about 200,000 records (10 Jun 2026)",
+     "u": "https://www.mt.co.kr/policy/2026/06/10/2026061014364193062"
+    },
+    {
+     "t": "Yuanta Securities: i-Scream Media notu (7 Tem 2025)",
+     "te": "Yuanta Securities: i-Scream Media note (7 Jul 2025)",
+     "u": "https://www.myasset.com/myasset/research/rs_list/rs_view.cmd?cd006=&cd007=RE01&cd008=&SEQ=201757"
+    },
+    {
+     "t": "IRGO: i-Scream Media bildirim listesi",
+     "te": "IRGO: i-Scream Media disclosure list",
+     "u": "https://m.irgo.co.kr/IR-COMP/461300/"
+    },
+    {
+     "t": "valueline: i-Scream Media gelir tablosu (son 12 ay)",
+     "te": "valueline: i-Scream Media income statement (trailing 12 months)",
+     "u": "https://www.valueline.co.kr/finance/income/461300"
+    },
+    {
+     "t": "valueline: i-Scream Media bilançosu",
+     "te": "valueline: i-Scream Media balance sheet",
+     "u": "https://www.valueline.co.kr/finance/balancesheet/461300"
+    }
+   ],
+   "en": {
+    "one": "Classroom platform used by nine in ten elementary teachers, and a textbook publisher. It passed the moat test; the price calculation rests on assumed growth of 9.3% a year, and recent profit includes securities gains.",
+    "business": "i-Scream Media runs i-Scream S, the digital lesson platform elementary school teachers use in class, and has published elementary textbooks since 2022. The money comes from textbook sales (schools choose the books), from i-Scream Mall, which sells teaching supplies to schools, and from teacher training. In the first half of 2026 revenue was 92.5 billion won: 59.8 billion from education publishing and 29.1 billion from commerce. In 2025 revenue was 195.9 billion won and operating profit 61.7 billion won (margin 31.5%). Profit is seasonal: textbook revenue is booked in the second and fourth quarters, and the first and third quarters close with a loss.",
+    "moat_text": "The moat is narrow. Evidence: more than 90% of the country's elementary teachers use i-Scream S (about 200,000 teachers); the company carried that relationship into textbooks and in 2024 ranked first in approved elementary textbooks with 40.1% in mathematics, 58.0% in social studies, 51.6% in science and 34.8% in music. Operating margin was 27.6% in 2023, 30.3% in 2024 and 31.5% in 2025. Real return on equity averaged 34.3% over five years, with a lowest reading of 21.0%. The weak side: the textbook business started only in 2022 and depends on the state's curriculum and approval decisions. With the new curriculum, prices rose by more than 30% on average and the number of subjects went from 3 to 8, which lifted profit; this step effect ends after 2026. The AI digital textbook was reclassified as 'educational material' in 2025; the payback on the company's investment in it is uncertain. Hence narrow, not wide.",
+    "mgmt": "The largest shareholder is Sigongtech (press report; the percentage could not be read from a company document in this run). The company listed in 2024. Distribution became stronger in 2026: a policy of paying 40% of net profit as cash dividends, an interim dividend of 1,083 won per share in August 2026 (13.8 billion won in total), a 5 billion won buyback and cancellation of 70% of the shares bought. In January 2026 an investor holding 1.81% sent a letter saying the company was not using its large cash pile; the policy came after that. Flaws: in November 2025 it issued a bond exchangeable into its treasury shares (about 12 billion won); it holds an investment portfolio of 52 billion won and booked about 19 billion won of valuation and disposal gains on it in the second quarter of 2026, so financial investment outside the main business moves profit. In March 2026 it disclosed a personal data leak of about 200,000 records. The share count rose 10.4% in five years (the listing). Share-based pay (stock options were granted in July 2026; the amount could not be read), goodwill and off-balance-sheet obligations: looked for, but the company document could not be opened.",
+    "latest": "14 August 2026: In the first half of 2026 revenue was 92.5 billion won (+18.5%), operating profit 23.9 billion won (+64.5%) and net profit 34.5 billion won (+197.4%). Net profit exceeded operating profit because of valuation and disposal gains on financial assets (about 20 billion won over the last 12 months; from a data site). On 7 August 2026 an interim dividend of 1,083 won per share was declared. Third-quarter results could not be found in this run; the third quarter closes with a loss every year (a net loss of 4.1 billion won in 2025).",
+    "risks": [
+     "The price calculation assumes real growth of 9.3% a year; about a fifth of 12-month profit is securities valuation and disposal gains, which may not recur. The price and subject-count effect of the curriculum change ends after 2026.",
+     "Textbook revenue depends on the state's curriculum and approval decisions; in 2025 the status of the AI textbook changed. According to a data site, asset impairments of 9.6 billion won and 3.3 billion won were booked in the last quarters of 2024 and 2025; the reason could not be read.",
+     "The number of elementary pupils is falling with the birth rate; textbook volumes shrink each year.",
+     "The regulator's decision and a possible fine are pending for the data leak disclosed in March 2026 (about 200,000 records); teachers' trust is the foundation of the platform.",
+     "The company holds a large securities portfolio; its value moves profit in both directions. Related-party dealings with the main shareholder Sigongtech could not be read."
+    ],
+    "watch": [
+     "Share of approved textbooks (new-curriculum books for grades 5 and 6)",
+     "Operating margin and the gap between operating profit and net profit",
+     "Decision of the personal data protection commission",
+     "Dividends and shares cancelled; size of the investment portfolio"
+    ]
+   },
+   "chk": {
+    "date": "2026-11-14",
+    "per": "2026-Q2"
+   }
+  },
+  "growth": {
+   "metric": "net profit",
+   "ytd": {
+    "tr": "Ocak-Haziran 2026 (net kâr; menkul kıymet kazançları dahil)",
+    "en": "January-June 2026 (net profit; includes securities gains)",
+    "pct": 197.4,
+    "cur_val": "34.5",
+    "prev_val": "11.6",
+    "unit": "milyar won / billion won",
+    "date": "2026-08-14",
+    "url": "https://www.mt.co.kr/policy/2026/08/19/2026081914321886382",
+    "primary": false
+   },
+   "quarter": {
+    "tr": "Nisan-Haziran 2026 çeyreği (net kâr; menkul kıymet kazançları dahil)",
+    "en": "April-June 2026 quarter (net profit; includes securities gains)",
+    "pct": 120.0,
+    "cur_val": "41.8",
+    "prev_val": "19.0",
+    "unit": "milyar won / billion won",
+    "date": "2026-08-14",
+    "url": "https://etfshopping.com/stock/461300/earnings",
+    "primary": false
+   },
+   "guidance": null,
+   "adjusted": null,
+   "departed": null,
+   "permanent": null,
+   "dividend": {
+    "dps": 1083,
+    "tr": "2026 ara temettüsü: hisse başına 1.083 won (7 Ağustos 2026 kararı). Yıl sonu temettüsü ayrıca açıklanacak; politika net kârın %40'ı.",
+    "en": "2026 interim dividend: 1,083 won per share (declared 7 August 2026). A year-end dividend will be announced separately; the policy is 40% of net profit.",
+    "url": "https://www.mt.co.kr/policy/2026/08/19/2026081914321886382",
+    "primary": false
+   },
+   "skip": null,
+   "note_tr": null,
+   "note_en": null,
+   "notes": "Press and data sites only; DART not reachable. H1 2026 net profit 34.5 bn, +197.4% (Money Today and Law Issue, both citing the 14 Aug 2026 filing); prev = 34.5/2.974 = 11.6, matches etfshopping quarters (-7.4 + 19.0). Q2 standalone from etfshopping.com (41.8 vs 19.0 bn). Both growth figures are inflated by financial-asset gains (valueline: 12-month valuation gain 14.85 bn and disposal gain 5.1 bn vs about 2 bn a year earlier), so they do not lower the formula's 9.27%. Operating profit H1 +64.5% (23.9 vs 14.5 bn). Q3 2026 results (due by 14 Nov 2026) were NOT found. No company profit guidance. Dividend: only the interim 1,083 won is confirmed; FY2025 total DPS not read (cash-flow shows 28.9 bn paid in 2025, which included more than one payment). No permanent cause documented, though the main session may want to weigh the falling pupil count and the end of the curriculum step-up."
+  },
+  "earn": {
+   "unit": "million KRW",
+   "eps_cur": "KRW",
+   "ttm": {
+    "eps": 5412,
+    "net_profit": 72000,
+    "tr": "Temmuz 2025 - Haziran 2026: çeyrek net kârları -4,1 + 41,6 - 7,3 + 41,8 = 72,0 milyar won. Hisse başına 5.412 won (veri sitesi; 13,3 milyon pay).",
+    "en": "July 2025 - June 2026: quarterly net profit -4.1 + 41.6 - 7.3 + 41.8 = 72.0 billion won. 5,412 won per share (data site; 13.3 million shares).",
+    "url": "https://www.valueline.co.kr/finance/income/461300",
+    "primary": false
+   },
+   "tax_rate": 21.8,
+   "gains": [
+    {
+     "tr": "Finansal varlıkların değerleme ve satış kazançları, değerleme zararından sonra: 14,85 + 5,1 - 1,3 = 18,65 milyar won (vergi öncesi). Bir yıl önceki 12 ayda net tutar sıfıra yakındı",
+     "en": "Valuation and disposal gains on financial assets, net of valuation losses: 14.85 + 5.1 - 1.3 = 18.65 billion won (pre-tax). In the 12 months a year earlier the net amount was close to zero",
+     "frac": 0.203,
+     "how": "18.65 x (1 - 0.218) / 72.0; pre-tax amounts from valueline's trailing-12-month income statement, converted at the 21.8% effective rate (tax 20.1 / pre-tax 92.2)",
+     "period_tr": "Temmuz 2025 - Haziran 2026",
+     "period_en": "July 2025 - June 2026",
+     "url": "https://www.valueline.co.kr/finance/income/461300",
+     "primary": false
+    }
+   ],
+   "offsets": [
+    {
+     "tr": "Varlık değer düşüklüğü: 3,3 milyar won (vergi öncesi; 2025'in dördüncü çeyreği; neyin değer düşüklüğü olduğu okunamadı)",
+     "en": "Asset impairment: 3.3 billion won (pre-tax; fourth quarter of 2025; what was impaired could not be read)",
+     "frac": 0.036,
+     "how": "3.3 x (1 - 0.218) / 72.0",
+     "period_tr": "Temmuz 2025 - Haziran 2026",
+     "period_en": "July 2025 - June 2026",
+     "url": "https://www.valueline.co.kr/finance/income/461300",
+     "primary": false
+    }
+   ],
+   "drop": null,
+   "guidance": [],
+   "notes": "NOT primary: amounts are from valueline.co.kr trailing-12-month statements (period 2026/06), which the fetch tool flagged as partly garbled; verify against the half-year report (DART, filed 14 Aug 2026). The jump is in Q2 2026: valuation gain 2.5 bn TTM at March 2026 vs 14.85 bn TTM at June 2026; disposal gain 0.9 -> 5.1 bn. What the assets are was not found (balance sheet: investments 72.8 bn at end-2025, 52.3 bn at June 2026). The offset is weakly documented (a data-site line; the company did not label it one-off in anything I read); the main session may prefer to drop it, which would make the net fraction 0.203 instead of 0.167. Source check: price 16,700 / P/E 3.02 = 5,530 vs 5,412 (2.1% below, within 3%). No EPS guidance. Company does not use inflation accounting."
+  },
+  "verify": {
+   "net_profit": "H1 2026 net profit 34.5 bn won (+197.4%), filed 14 Aug 2026; read in press only: https://www.mt.co.kr/policy/2026/08/19/2026081914321886382 . Q2 standalone 41.8 bn (etfshopping). No non-controlling interest (valueline). Q3 2026 not found.",
+   "equity": "239.14 bn won at 30 June 2026 (valueline balance sheet, data site, not primary: https://www.valueline.co.kr/finance/balancesheet/461300). Mcap 210.8 bn / 239.1 = 0.88, matches dataset P/B 0.889.",
+   "one_offs": "YES: about 18.65 bn won pre-tax net financial-asset valuation/disposal gains in the 12 months, almost all in Q2 2026 (about 20% of TTM net profit after tax). Small impairment offset 3.3 bn.",
+   "moat_evidence": "2024 approved-textbook shares: math 40.1%, social studies 58.0%, science 51.6%, music 34.8% (Asia Economy, https://core.asiae.co.kr/article/2025092215592361818); platform used by over 90% of elementary teachers, about 200,000 users vs 193,000 teachers (Money Today, 10 Jun 2026); operating margin 27.6% (2023), 30.3% (2024), 31.5% (2025: 61.7/195.9, data site).",
+   "doubts": "No primary document opened (DART unreachable; broker PDFs came back as binary). Largest-shareholder stake not read. Nature of the financial assets and of the impairment unknown. The 2025 revenue (195.9 bn) is from data sites; an earlier preliminary figure quoted by Yuanta/Smart Today was 208.0 bn revenue and 66.0 bn operating profit for 2025: these DO NOT MATCH and need checking against the annual report. Exchangeable bond size (about 12 bn) is from valueline's cash-flow line, the terms were not read. The reclassification of the AI digital textbook to 'educational material' is known to me only from broker report titles (Yuanta 20 Aug 2025, Samsung 17 Dec 2025 on IRGO), not from a text I read. Impairment timing (9.6 bn in H2 2024, 3.3 bn in Q4 2025) is inferred from valueline's trailing-12-month columns. B=2 rather than 3 because the textbook franchise is four years old and policy-dependent. Whether C should be 2 (school demand is not cyclical) is arguable; I kept 1 because of policy dependence and the curriculum step effect."
+  }
+ }
+}

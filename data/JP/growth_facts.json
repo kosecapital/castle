@@ -561,5 +561,55 @@
   "note_tr": null,
   "note_en": null,
   "notes": "The H1 tanshin of 15 Oct 2026 could not be opened (tdnet/logmi/xj-storage copies blocked), so ytd and quarter are NOT primary: EPS from Matsui Securities' results table (H1 51.39 vs 49.97; Q2 alone 28.71 vs 8.98); net profit H1 665m, +5.6% from Yahoo Finance Japan's summary of the tanshin (prior H1 629m per Matsui). By my subtraction from the primary Q1 tanshin (Q1 EPS 22.70 vs 41.14) the quarter would be 28.69 vs 8.83 (+224.9%); net profit Q2 372m vs 113m. The quarter jump is against a very weak base (Q2 last year operating profit 206m), not a new level. Guidance is primary: FY tanshin of 14 Apr 2026 and Q1 tanshin of 15 Jul 2026 both give EPS 96.85, net profit 1,251m (-12.1%), operating profit 1,965m (+0.1%); Yahoo's summary of the 15 Oct tanshin says the forecast was not revised (not primary). pct = 96.85/111.64-1 = -13.2% (my arithmetic). The company's stated reason for the lower net profit was not found; arithmetic from the forecast shows net/ordinary profit of 65.4% (1,251/1,914) against 74.7% last year (1,423/1,904), i.e. a higher tax/extraordinary burden rather than lower operating profit. No lost customer or exited business found; the securities report says there is no dependence on specific customers. Consolidation changes in Q1: JRC Vietnam added; JRC C&M and Seiko Tech removed (merged within the group). Dividend left null because the source has a yield; company dividend is 34 yen forecast (15 interim + 19 year-end incl. 4 commemorative)."
+ },
+ "6036": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Temmuz 2025 - Haziran 2026 (mali yıl)",
+   "en": "July 2025 - June 2026 (fiscal year)",
+   "pct": 101.1,
+   "cur_val": "360.20",
+   "prev_val": "179.14",
+   "unit": "yen (bölünme öncesi) / yen (pre-split)",
+   "date": "2026-08-14",
+   "url": "https://www2.jpx.co.jp/disc/60360/140120260814521177.pdf",
+   "primary": true
+  },
+  "quarter": {
+   "tr": "Nisan-Haziran 2026 çeyreği (yıl eksi dokuz ay)",
+   "en": "April-June 2026 quarter (full year minus nine months)",
+   "pct": 78.9,
+   "cur_val": "80.56",
+   "prev_val": "45.03",
+   "unit": "yen (bölünme öncesi) / yen (pre-split)",
+   "date": "2026-08-14",
+   "url": "https://www2.jpx.co.jp/disc/60360/140120260814521177.pdf",
+   "primary": true
+  },
+  "guidance": {
+   "tr": "Haziran 2027'de biten yıl için şirket beklentisi (hisse başına kâr)",
+   "en": "company guidance for the year to June 2027 (EPS)",
+   "pct": -36.7,
+   "detail_tr": "hisse başına kâr 227,98 yen (bölünme öncesi); Haziran 2026 yılında 360,20. Net kâr 6.222 milyon yen (9.830). Düşüşün nedeni geçen yılın 6.792 milyon yenlik hisse satış kazancının yinelenmemesi; faaliyet kârı beklentisi +%30,3.",
+   "detail_en": "EPS of 227.98 yen (pre-split); 360.20 in the year to June 2026. Net profit 6,222 million yen (9,830). The fall is because last year's 6,792 million yen share sale gain does not repeat; the operating profit forecast is +30.3%.",
+   "date": "2026-08-14",
+   "url": "https://www2.jpx.co.jp/disc/60360/140120260814521177.pdf",
+   "primary": true
+  },
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": {
+   "dps": 50,
+   "cur": "JPY",
+   "for_tr": "Haziran 2027 yılı (beklenti; bölünme öncesi 100 yen, bire iki bölünme sonrası 50 yen)",
+   "for_en": "year to June 2027 (forecast; 100 yen pre-split, 50 yen after the two-for-one split)",
+   "url": "https://www2.jpx.co.jp/disc/60360/140120260814521177.pdf",
+   "primary": true
+  },
+  "skip": null,
+  "note_tr": "Geçen yılın kârı tek seferlik hisse satış kazancıyla iki katına çıkmıştı; hisse başına kârdaki artış işin büyümesini göstermez. Faaliyet kârı Haziran 2026 yılında %2,6 düştü.",
+  "note_en": "Last year's profit was doubled by a one-off gain on a share sale; the rise in earnings per share does not show the growth of the business. Operating profit fell 2.6% in the year to June 2026.",
+  "notes": "Primary: FY6/2026 kessan tanshin (non-consolidated, JGAAP) and Q3 tanshin on TDnet. ALL EPS VALUES HERE ARE PRE-SPLIT (the tanshin predates the 1:2 split; record date 31 Oct 2026, announced 15 Sep 2026 per Matsui Securities news and the Japan IR disclosure list; the company's own split notice PDF was NOT opened). FY EPS 360.20 vs 179.14 (+101.1%); net profit 9,830 vs 4,888. Q4 standalone is derived: EPS 360.20 - 279.64 = 80.56 vs 179.14 - 134.11 = 45.03 (+78.9%); net profit 2,199 vs 1,228; operating profit 2,635 vs 1,728 (+52%); Q4 tax charge was low (459 on pre-tax 2,657, 17%). The securities gain was booked in Q2-Q3 (6,763 by nine months, 6,792 full year). 9M operating profit was -20.3%. Guidance: net profit 6,222 (-36.7%), EPS 227.98 pre-split; H1 forecast net profit 3,485 (-51.8%). The guidance fall reflects the missing one-off gain; if the main session prefers to exclude it as unrepresentative, the alternative business measure is operating profit: FY26 -2.6% actual, FY27 guidance +30.3%. I did NOT enter the company's 'excluding growth investment costs' figures (OP 8,007 +12.8%, net profit 5,567 +13.9%) as 'adjusted': they strip out ordinary marketing and staff costs. Q1 FY6/2027 (Jul-Sep 2026) results: searched, not found as of 14 Nov 2026 (last year they came on 14 Nov). Dividend: source has no yield; FY6/2027 forecast is 100 yen pre-split in the tanshin; 50 yen post-split is my arithmetic (the 15 Sep notice 'stock split ... and revision of dividend forecast' was not opened, so confirm). At 1,775 yen that is 2.8%."
  }
 }

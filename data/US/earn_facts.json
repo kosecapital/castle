@@ -838,5 +838,56 @@
    }
   ],
   "notes": "TTM arithmetic: EPS 13.26 - 5.70 + 4.59 = 12.15; net income 1,579.2 - 685.477 + 524.271 = 1,418.0 mn dollars. Sources: 8-K Ex. 99.1 of 3 Sep 2026 (Q2 and first-half figures, both years) and of 17 Mar 2026 (FY2025: https://www.sec.gov/Archives/edgar/data/1397187/000139718726000019/lulu-20260201xex991.htm). Quarterly EPS: Q3 FY2025 not read separately (13.26 - 5.70 - 5.01 = 2.55 by subtraction; quarterly EPS need not add up exactly because of the falling share count), Q4 FY2025 5.01, Q1 FY2026 1.69, Q2 FY2026 2.92. The dataset's P/E 8.7 at 106.115 implies EPS 12.20, in line. GAIN: frac = 0.86 / 12.15 = 0.0708; the 0.86 is the company's own after-tax per-share figure (also +560 bp on Q2 gross and operating margin). The refunds return tariffs paid mostly in fiscal 2025 (216 mn remitted under IEEPA in FY2025, 230 mn cumulative, per sec-api.io summary of the 10-K/10-Q, secondary), so part of the tariff cost they reverse sits in the same 12 months; the company does not net it and I did not. Guidance 'does not reflect any further potential tariff refunds'. No other one-off items are named in the Q1, Q2 or FY2025 releases (no impairments, no gains). IMPORTANT for the rule: the fiscal 2026 guidance (9.48-9.73, mid 9.605 = 0.79 x ttm) INCLUDES the 0.86 one-off; excluding it the range is 8.62-8.87, mid 8.745 = 0.72 x ttm (my subtraction; the company does not publish an ex-refund range, so only the reported range is listed in 'guidance'). Tax rate 29.6% is the company's stated Q2 FY2026 rate (Q1 31.8%, FY2025 29.5%; guidance about 30%). No dividend. Fiscal year ends on the Sunday nearest 31 January (FY2025: 52 weeks to 1 Feb 2026; FY2024 had 53 weeks)."
+ },
+ "HRB": {
+  "unit": "million USD",
+  "eps_cur": "USD",
+  "ttm": {
+   "eps": 5.42,
+   "net_profit": 710.9,
+   "tr": "Ekim 2025 - Eylül 2026: 2026 mali yılı (seyreltilmiş, sürdürülen faaliyetler 5,69 dolar; net kâr 733,6 milyon) eksi Temmuz-Eylül 2025 (−1,26; −165,8 milyon) artı Temmuz-Eylül 2026 (−1,53; −188,5 milyon)",
+   "en": "October 2025 - September 2026: fiscal 2026 (diluted, continuing operations 5.69 dollars; net income 733.6 million) minus July-September 2025 (−1.26; −165.8 million) plus July-September 2026 (−1.53; −188.5 million)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000012659/000001265926000035/q1fy27earningrelease.htm",
+   "primary": true
+  },
+  "tax_rate": 23.0,
+  "gains": [
+   {
+    "tr": "Vergi incelemesinin (IRS) kapanmasından doğan tek seferlik, nakit dışı vergi kazancı: 84,1 milyon dolar, hisse başına 0,65 dolar",
+    "en": "One-time non-cash tax benefit from the resolution of an IRS examination: 84.1 million dollars, 0.65 dollars a share",
+    "frac": 0.1179,
+    "how": null,
+    "period_tr": "Ocak-Mart 2026 çeyreği (2026 mali yılının 3. çeyreği)",
+    "period_en": "January-March 2026 quarter (fiscal Q3 2026)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000012659/000001265926000019/q4fy26earningsrelease.htm",
+    "primary": true
+   }
+  ],
+  "offsets": [
+   {
+    "tr": "Mevsimlik ofis yönetimindeki değişikliğe bağlı kıdem gideri (vergi öncesi 8,0 milyon dolar)",
+    "en": "Severance for the seasonal office leadership transition (8.0 million dollars pre-tax)",
+    "frac": 0.0086,
+    "how": "7.951 x (1 - 0.23) / 713.6; pre-tax amount from the company, converted at the company's guided 23% tax rate",
+    "period_tr": "Temmuz-Eylül 2026 çeyreği",
+    "period_en": "July-September 2026 quarter",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000012659/000001265926000035/q1fy27earningrelease.htm"
+   }
+  ],
+  "drop": null,
+  "guidance": [
+   {
+    "fy_tr": "Haziran 2027'de biten mali yıl",
+    "fy_en": "fiscal year to June 2027",
+    "mid": 6.14,
+    "low": 6.04,
+    "high": 6.24,
+    "kind": "adjusted",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000012659/000001265926000035/q1fy27earningrelease.htm",
+    "date": "2026-11-09",
+    "primary": true
+   }
+  ],
+  "notes": "TTM built from two SEC 8-K exhibits: FY26 release (11 Aug 2026) and Q1 FY27 release (9 Nov 2026; it prints the prior-year quarter). EPS 5.42 = 5.69 + 1.26 - 1.53, diluted, continuing operations; summing quarterly EPS over a falling share count is approximate. Consolidated: EPS 5.66 + 1.26 - 1.53 = 5.39; net income 733.596 + 165.819 - 188.478 = 710.9. Continuing-ops net income TTM = 736.318 + 165.368 - 188.127 = 713.6 (denominator of frac). Source check: 50.76 / 9.31 = 5.45 and 6,197 / 9.13 = 679m; document is not below the source by more than 3%. GAIN: 84.113m one-time non-cash tax benefit in Q3 FY26, already after tax: 84.1 / 713.6 = 11.8%. OFFSET: 7.951m severance in Q1 FY27 (excluded by the company from adjusted results); after 23% tax 6.1m = 0.9%. Net one-offs about 10.9% of TTM profit. Not treated as one-off: amortisation of acquired intangibles (46.9m pre-tax a year; recurring, the company's adjustment). FY26 effective tax rate about 13.8% (117.6 / 853.9, my arithmetic); tax_rate 23 is the company's FY27 guidance. Guidance 6.04-6.24 is ADJUSTED EPS (excludes intangible amortisation, roughly 0.28 a share after tax by my arithmetic, and one-offs), so it is not like-for-like with GAAP TTM 5.42; either way it is above TTM, so it does not lower earnings. Stock-based compensation 30.5m in FY26 (4.1% of profit), not excluded from adjusted figures."
  }
 }

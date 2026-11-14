@@ -1143,5 +1143,55 @@
   "note_tr": null,
   "note_en": null,
   "notes": "All ytd/quarter/guidance figures read in the company's 8-K Exhibit 99.1 of 3 Sep 2026 (primary). Net income: Q2 329.2 vs 370.9 mn dollars (-11.2%); first half 524.3 vs 685.5 mn (-23.5%). Prior-year comparison for guidance: FY2025 diluted EPS 13.26 (8-K Ex. 99.1 of 17 Mar 2026). The company gives no non-GAAP EPS; it only states that IEEPA refunds added 0.86 dollars to Q2 diluted EPS, so the adjusted growth figures (2.06/3.10, 3.73/5.70) are derived, not company-stated. FY2026 guidance history: 12.10-12.30 (17 Mar 2026), 10.95-11.15 (4 Jun 2026), 9.48-9.73 (3 Sep 2026); the last 'does not reflect any further potential tariff refunds' and excludes future buybacks. Q3 guidance 0.93-0.98 (single quarter, not used). PERMANENT left null on purpose: the fall has several causes (Americas comparable sales -12%, markdowns, tariffs, China -2% in constant currency). One of them is a rule in force (de minimis exemption removed 29 Aug 2025, upheld by the Court of International Trade 13 Aug 2026, per sec-api.io summary of the 10-Q, secondary), but the filings do not separate its amount from tariffs, and the IEEPA tariffs themselves were invalidated (refunds received). I found no sourced evidence that the demand decline is structural; main session may want to weigh this. DEPARTED: none found (no exited business or lost licence). No dividend is paid. Q3 fiscal 2026 results (quarter ended about 1 Nov 2026) were not out; I could not find an announced date."
+ },
+ "HRB": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Temmuz 2025 - Haziran 2026 (2026 mali yılı)",
+   "en": "July 2025 - June 2026 (fiscal 2026)",
+   "pct": 28.7,
+   "cur_val": "5.69",
+   "prev_val": "4.42",
+   "unit": "dolar / dollars",
+   "date": "2026-08-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000012659/000001265926000019/q4fy26earningsrelease.htm",
+   "primary": true
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği (mevsim dışı; zarar)",
+   "en": "July-September 2026 quarter (off-season; a loss)",
+   "pct": null,
+   "cur_val": "-1.53",
+   "prev_val": "-1.26",
+   "unit": "dolar / dollars",
+   "date": "2026-11-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000012659/000001265926000035/q1fy27earningrelease.htm",
+   "primary": true
+  },
+  "guidance": {
+   "tr": "2027 mali yılı için şirket beklentisi (düzeltilmiş hisse başına kâr)",
+   "en": "company guidance for fiscal 2027 (adjusted EPS)",
+   "pct": 15.6,
+   "detail_tr": "düzeltilmiş hisse başına kâr 6,04-6,24 dolar; 2026 mali yılında 5,31. Yüzde, aralığın ortasına (6,14) göredir. 9 Kasım 2026'da yinelendi.",
+   "detail_en": "adjusted EPS of 6.04-6.24 dollars; 5.31 in fiscal 2026. The percent uses the midpoint (6.14). Reaffirmed on 9 November 2026.",
+   "date": "2026-11-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000012659/000001265926000035/q1fy27earningrelease.htm",
+   "primary": true
+  },
+  "adjusted": {
+   "what_tr": "Şirketin düzeltilmiş hisse başına kârı: tek seferlik 84,1 milyon dolarlık vergi kazancı (hisse başına 0,65 dolar) ve satın alınan maddi olmayan varlıkların itfası hariç. 2026: 5,31 dolar (2025: 4,66).",
+   "what_en": "The company's adjusted EPS: excludes the one-off 84.1 million dollar tax gain (0.65 dollars a share) and amortisation of acquired intangibles. 2026: 5.31 dollars (2025: 4.66).",
+   "ytd_pct": 13.9,
+   "quarter_pct": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/0000012659/000001265926000019/q4fy26earningsrelease.htm",
+   "primary": true
+  },
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": "Temmuz-Eylül 2026 mevsim dışı çeyrektir ve her yıl zararla kapanır; hisse başına zarar 1,26 dolardan 1,53 dolara büyüdü (düzeltilmiş 1,20'den 1,40'a). Zarar çeyreğinde yüzde değişim anlam taşımadığı için ölçü olarak alınmadı.",
+  "note_en": "July-September 2026 is the off-season quarter and ends in a loss every year; the loss per share widened from 1.26 to 1.53 dollars (adjusted: from 1.20 to 1.40). A percent change on a loss quarter is not meaningful, so it was not used as a measure.",
+  "notes": "All from SEC 8-K exhibits (primary). FY2026 (year to 30 Jun 2026): diluted EPS from continuing operations 5.69 vs 4.42 (+28.7%, my arithmetic); adjusted diluted EPS 5.31 vs 4.66 (+13.9%); net income cont. ops 736.3m vs 609.5m (+20.8%). The 84.1m one-time non-cash tax benefit (IRS examination) fell in Q3 FY26 (Jan-Mar 2026). ytd uses the last fiscal year because the only FY2027 period so far is the seasonal loss quarter. Q1 FY27: loss per share -1.53 vs -1.26, adjusted -1.40 vs -1.20, net loss cont. ops -188.1m vs -165.4m (loss 13.8% larger; per share 21% larger because of fewer shares); revenue +10.2%. quarter.pct left null (sign makes a percent meaningless); the main session may prefer to drop the quarter record entirely. Guidance: adjusted EPS 6.04-6.24 (midpoint 6.14) vs FY26 adjusted 5.31 = +15.6% (my arithmetic); the Motley Fool transcript shows one mention of '6.14 to 6.24' which is a transcription slip, the 8-K says 6.04-6.24. Guidance assumes about 23% tax rate (FY26 was about 14% because of the benefit). Nothing departed; no permanent cause found. Dividend yield is in the source (3.61), so dividend null; declared quarterly dividend 0.46. CAUTION for the formula: the historic EPS growth (11.11) is largely buyback-driven (share count -4.6% to -8.5% a year per the source), and 'sustainable growth' from ROE is meaningless here because equity is near zero."
  }
 }

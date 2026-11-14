@@ -459,5 +459,46 @@
    }
   ],
   "notes": "Japanese GAAP; fiscal year ends February. TTM EPS = 111.64 + 51.39 - 49.97 = 113.06 (basic); net profit = 1,423 + 665 - 629 = 1,459. FY figures are primary (JPX tanshin of 14 Apr 2026: EPS 111.64 basic, 104.69 diluted; net profit 1,423). H1 figures are NOT primary: the 15 Oct 2026 tanshin could not be opened; EPS 51.39 and 49.97 and prior H1 net profit 629 from Matsui Securities, H1 net profit 665 from Yahoo Finance Japan's summary of the tanshin (Matsui shows 664, truncated). Diluted H1 EPS not read. Check against the dataset: market cap 14,919 / P/E 10.74 = 1,389 implied, below the 1,459 from documents, so the source is not overstating profit. Guidance (EPS 96.85, net profit 1,251) is BELOW the 12-month level of 113.06 (ratio 0.857) and was unchanged on 15 Oct 2026 per Yahoo's summary. One-offs: extraordinary gains 64m and losses 13m for the full FY to February 2026 (EDINET DB extract of the securities report, not primary); net 51m pre-tax is about 2.6% of 1,955m pre-tax profit; the split falling inside the last 12 months and H1 FY2027 extraordinary items were not read. tax_rate = income taxes 532 / pre-tax profit 1,955 for FY to February 2026 (my division, from the same extract). The low tax burden last year (27.2%) versus the forecast's implied 34.6% (1 - 1,251/1,914, my arithmetic, assumes no extraordinary items) accounts for most of the forecast fall; no specific tax one-off was found or quantified, so none is entered in gains."
+ },
+ "6036": {
+  "unit": "million JPY",
+  "eps_cur": "JPY",
+  "ttm": {
+   "eps": 180.1,
+   "net_profit": 9830,
+   "tr": "Temmuz 2025 - Haziran 2026 (mali yıl; son rapor yıl sonu). Hisse başına kâr tabloda 360,20 yen; bire iki pay bölünmesinden (kayıt tarihi 31 Ekim 2026) sonra 180,10 yen",
+   "en": "July 2025 - June 2026 (fiscal year; the latest report is the full year). EPS is 360.20 yen in the accounts; 180.10 yen after the two-for-one stock split (record date 31 October 2026)",
+   "url": "https://www2.jpx.co.jp/disc/60360/140120260814521177.pdf",
+   "primary": true
+  },
+  "tax_rate": 28.3,
+  "gains": [
+   {
+    "tr": "Yatırım amaçlı hisselerin (SOFT99) satış kazancı: vergi öncesi 6.792 milyon yen (olağan dışı gelir)",
+    "en": "Gain on sale of investment securities (SOFT99 shares): 6,792 million yen pre-tax (extraordinary income)",
+    "frac": 0.4954,
+    "how": "6,792 x (1 - 0.283) / 9,830; pre-tax amount from the company, converted at the company's effective tax rate for the year (3,881 / 13,711 = 28.3%)",
+    "period_tr": "Ekim 2025 - Mart 2026 (mali yılın 2. ve 3. çeyreği)",
+    "period_en": "October 2025 - March 2026 (fiscal Q2 and Q3)",
+    "url": "https://www2.jpx.co.jp/disc/60360/140120260814521177.pdf",
+    "primary": true
+   }
+  ],
+  "offsets": [],
+  "drop": null,
+  "guidance": [
+   {
+    "fy_tr": "Haziran 2027'de biten yıl",
+    "fy_en": "year to June 2027",
+    "mid": 113.99,
+    "low": 113.99,
+    "high": 113.99,
+    "kind": "reported",
+    "url": "https://www2.jpx.co.jp/disc/60360/140120260814521177.pdf",
+    "date": "2026-08-14",
+    "primary": true
+   }
+  ],
+  "notes": "UNITS: price in the universe (1,775) is POST-split, so EPS is entered post-split: 360.20 / 2 = 180.10 (Matsui Securities' results page also shows FY6/2026 EPS 180.1); guidance 227.98 / 2 = 113.99 (my arithmetic; the company's revised post-split forecast notice of 15 Sep 2026 was not opened). CRITICAL SOURCE ERROR: stockanalysis P/E 4.93 = 1,775 / 360.2, i.e. post-split price over pre-split EPS; the universe P/E 9.86 = 1,775 / 180.1 is right. Market cap 101.6bn / net profit 9,830 = 10.3. If funnel.py takes pe 4.93 from history.json (L2.pe), the 'castle' result is an artefact. Historical 'pes' and 'mc' series in history.json may be distorted the same way for the latest point (pes 7.54 for FY2026 vs 19.82 the year before). GAIN: 投資有価証券売却益 6,792,057 thousand yen in the income statement (narrative says 6,762m; the Q3 tanshin shows 6,763m by nine months); none in the prior year. After tax at 28.3%: about 4,870m = 49.5% of net profit. At the statutory rate (about 30.6%) it would be 47.9%. Small items not listed: impairment 11.7m (one store), fixed asset gains/losses under 2m. NOT an offset: 'growth investment costs' of 1,093m that the company says were funded from the gain (brand marketing 435, people 477, store development 76, plus 105 TOB/M&A costs): ordinary operating costs. Guidance (reported basis, net profit 6,222m) is 36.7% below TTM: k by guidance = 0.633; by one-off gain = 0.505; the lower applies. ROE: tanshin says 45.6% (the presentation says 39.2%; the universe shows 39.2)."
  }
 }

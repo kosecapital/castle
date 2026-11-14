@@ -482,5 +482,244 @@
     "Whether the payout pledge is kept: dividends, buybacks and dealings with KHI"
    ]
   }
+ },
+ "336570": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-Q2",
+  "one": "Cilt sıkılaştırma cihazı Oligio'nun üreticisi. Hendek ölçütünü geçemedi: reklam gideri üçe katlandı, faaliyet kârı düştü, son 12 ay kârının üçte biri nakit dışı türev kazancı.",
+  "business": "Wontech, cilt kliniklerine radyofrekans ve lazer cihazları satar; en bilinen ürünü cilt sıkılaştırma cihazı Oligio'dur. Para cihaz satışından ve her işlemde tüketilen uçlardan gelir. 2025'te gelir 156,8 milyar won, faaliyet kârı 51,7 milyar won oldu; gelirin %37,6'sı radyofrekans ve ultrason cihazlarından, %31,5'i lazerlerden, %24,1'i sarf uçlarından geldi. 2026'nın ilk dokuz ayında gelirin %75,4'ü yurt dışından geldi; en büyük pazar Tayland.",
+  "moat_text": "Hendek zayıf; şirket bu yüzden 3. suru geçemedi. Üstünlük var: reel özsermaye kârlılığı son beş okumada %21,4 ile %45,0 arasında, sarf uçları gelirin dörtte biri. Ama bu üstünlük 2026'da pahalıya korunuyor. Yılın ilk yarısında gelir %13,6 arttı, satış ve yönetim giderleri %79 arttı (reklam 4,3 milyar wondan 13,2 milyar wona çıktı) ve faaliyet kârı %30 düştü (31,8 milyar wondan 22,3 milyar wona). Üçüncü çeyrekte faaliyet kâr marjı yaklaşık %15 (2025 yılında %33). Ürün, Thermage gibi yerleşik markaların ve Koreli rakiplerin bulunduğu kalabalık bir alanda satılıyor; ABD ve Çin şirketleri 2025'in üçüncü çeyreğinde sermayesini yitirmiş durumdaydı ve Oligio'nun Çin onayı dört yıldır çıkmadı. Pazar payı rakamı belgelerde bulunamadı. Marka, reklam harcaması artmadan fiyatını koruyabildiğini henüz göstermedi.",
+  "mgmt": "Kurucu Kim ailesi yönetimde (iki eş genel müdür: Kim Jong-won ve Kim Jung-hyun); ortaklık oranları bu çalıştırmada şirket belgesinden okunamadı. Sermaye tahsisi karışık. Olumlu yan: 2026'da üç kez hisse iptali (toplam 1.891.516 hisse) ve 11 milyar wonluk geri alım sözleşmesi. Olumsuz yan: Mayıs 2026'da 75 milyar wonluk faizsiz dönüştürülebilir tahvil çıkarıldı (dönüşüm fiyatı 8.270 won, payların yaklaşık %10,1'i; fiyat 5.789 wona kadar inebilir); hisse bugün 3.530 won. Şirket aynı yıl hem pay geri alıyor hem sulandırıcı tahvil çıkarıyor. Gwacheon'da 244,5 milyar wonluk genel merkez arazisi ve binası alımı kararlaştırıldı; bu, 2025 sonu toplam varlıkların %112,5'i. Japonya'daki bir pay alımı yaklaşık dört ay geç açıklandı; borsa, özensiz açıklama işlemi başlatabileceğini bildirdi. Eylül 2026'da zarar eden Won Medico'nun %39,03'ü 13,3 milyar wona alındı. Beş yılda pay sayısı %24 arttı. Hisse bazlı ücret, şerefiye ve emeklilik yükümlülüğü: bakıldı, şirket belgesi açılamadığı için okunamadı.",
+  "latest": "13 Kasım 2026: Üçüncü çeyrekte gelir yaklaşık 36,2 milyar won, faaliyet kârı yaklaşık 5,5 milyar won (marj yaklaşık %15), net zarar 2,85 milyar won. Şirket zararı kur farkından doğan nakit dışı değerleme kaybına bağladı. Dokuz aylık gelir yaklaşık 124,0 milyar won (+%12,2); yurt dışı gelir %31,6 arttı. İlk yarıda net kâr 25,9 milyar won (+%22,6) idi, ama bunun içinde dönüştürülebilir tahvile bağlı 21,2 milyar wonluk nakit dışı türev kazancı var; aynı dönemde işletme nakit akışı eksi 13,4 milyar won. Rakamlar basın haberlerinden; şirketin kendi belgesi açılamadı.",
+  "risks": [
+   "Son 12 ayın kârı işin kazanç gücünü olduğundan yüksek gösteriyor: ilk yarıdaki 25,9 milyar wonluk net kârın içinde 21,2 milyar wonluk (vergi öncesi) nakit dışı türev kazancı var; üçüncü çeyrek zararla kapandı.",
+   "Reklam ve satış gideri gelirden çok daha hızlı büyüyor; ilk yarıda işletme nakit akışı eksiye döndü (alacaklar 14,2 milyar, stoklar 7,9 milyar won arttı).",
+   "244,5 milyar wonluk genel merkez taahhüdü toplam varlıklardan büyük; ödemelerin %80'i 2032'de tamamlanınca yapılacak.",
+   "75 milyar wonluk dönüştürülebilir tahvil payları yaklaşık %10 sulandırabilir; yatırımcının Mayıs 2028'den itibaren geri ödeme isteme hakkı var.",
+   "Gelirin dörtte üçü yurt dışından geliyor ve Tayland'a yoğunlaşmış; kur farkı kârı çeyrekten çeyreğe oynatıyor."
+  ],
+  "watch": [
+   "Faaliyet kâr marjı ve reklam giderinin gelire oranı",
+   "İşletme nakit akışı ve alacakların seyri",
+   "ABD ve Çin şirketlerinin sonuçları, Oligio'nun Çin onayı",
+   "Genel merkez ödemeleri ve tahvilin dönüşüm fiyatı"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/kosdaq/336570/financials/ratios/"
+   },
+   {
+    "t": "Financial News: Wontech dokuz aylık gelir 124 milyar won (13 Kas 2026)",
+    "te": "Financial News: Wontech nine-month revenue 124 billion won (13 Nov 2026)",
+    "u": "https://www.fnnews.com/news/202611131403446183"
+   },
+   {
+    "t": "Rapportian: Wontech dokuz aylık sonuçlar ve hisse iptali (13 Kas 2026)",
+    "te": "Rapportian: Wontech nine-month results and share cancellation (13 Nov 2026)",
+    "u": "https://www.rapportian.com/news/articleView.html?idxno=242437"
+   },
+   {
+    "t": "IB Tomato: PACM'den Wontech'e 75 milyar won; işletme nakit akışı eksi 13,4 milyar (30 Eki 2026)",
+    "te": "IB Tomato: PACM puts 75 billion won into Wontech; operating cash outflow of 13.4 billion (30 Oct 2026)",
+    "u": "https://ibtomato.com/ExternalView.aspx?no=19955&type=1"
+   },
+   {
+    "t": "Medigate News: Wontech 2026 ilk yarı sonuçları (16 Ağu 2026)",
+    "te": "Medigate News: Wontech first-half 2026 results (16 Aug 2026)",
+    "u": "https://www.medigatenews.com/news/2086953586"
+   },
+   {
+    "t": "Dealsite: Wontech 75 milyar wonluk dönüştürülebilir tahvil kararı (14 May 2026)",
+    "te": "Dealsite: Wontech 75 billion won convertible bond decision (14 May 2026)",
+    "u": "https://dealsite.co.kr/articles/161854"
+   },
+   {
+    "t": "Medifo News: Wontech 2025 yılı sonuçları (20 Mar 2026)",
+    "te": "Medifo News: Wontech 2025 results (20 Mar 2026)",
+    "u": "https://medifonews.com/news/article.html?no=212170"
+   },
+   {
+    "t": "Dealsite: Wontech ihracatı ve yurt dışı şirketleri (20 Kas 2025)",
+    "te": "Dealsite: Wontech exports and overseas subsidiaries (20 Nov 2025)",
+    "u": "https://dealsite.co.kr/articles/151717"
+   },
+   {
+    "t": "Hankyung: Wontech 2025 dokuz aylık sonuçlar (12 Kas 2025)",
+    "te": "Hankyung: Wontech nine-month 2025 results (12 Nov 2025)",
+    "u": "https://www.hankyung.com/article/202511129772i"
+   }
+  ],
+  "en": {
+   "one": "Maker of the Oligio skin-tightening device. It did not pass the moat test: advertising tripled, operating profit fell, and a third of 12-month profit is a non-cash derivative gain.",
+   "business": "Wontech sells radio-frequency and laser devices to skin clinics; its best-known product is the Oligio skin-tightening device. The money comes from device sales and from the tips used up in each treatment. In 2025 revenue was 156.8 billion won and operating profit 51.7 billion won; 37.6% of revenue came from radio-frequency and ultrasound devices, 31.5% from lasers and 24.1% from consumable tips. In the first nine months of 2026, 75.4% of revenue came from abroad; the largest market is Thailand.",
+   "moat_text": "The moat is weak; this is why the company did not pass wall 3. There is an advantage: real return on equity was between 21.4% and 45.0% in the last five readings, and consumable tips are a quarter of revenue. But in 2026 that advantage is being defended at a high cost. In the first half revenue rose 13.6%, selling and administrative costs rose 79% (advertising went from 4.3 billion won to 13.2 billion won) and operating profit fell 30% (from 31.8 billion won to 22.3 billion won). The third-quarter operating margin was about 15% (33% in 2025). The product is sold in a crowded field with established brands such as Thermage and Korean rivals; the US and China subsidiaries had lost their capital as of the third quarter of 2025, and Oligio's approval in China has been pending for four years. No market share figure was found in the documents. The brand has not yet shown that it can hold its price without rising advertising spend.",
+   "mgmt": "The founding Kim family runs the company (two co-chief executives: Kim Jong-won and Kim Jung-hyun); ownership percentages could not be read from a company document in this run. Capital allocation is mixed. On the positive side: three share cancellations in 2026 (1,891,516 shares in total) and buyback contracts of 11 billion won. On the negative side: in May 2026 the company issued a 75 billion won zero-coupon convertible bond (conversion price 8,270 won, about 10.1% of shares; the price can reset down to 5,789 won); the share trades at 3,530 won today. In the same year the company is both buying back shares and issuing a dilutive bond. It agreed to buy land and a building for a head office in Gwacheon for 244.5 billion won; that is 112.5% of total assets at the end of 2025. A stake purchase in Japan was disclosed about four months late; the exchange signalled a possible unfaithful-disclosure designation. In September 2026 it bought 39.03% of loss-making Won Medico for 13.3 billion won. The share count rose 24% in five years. Share-based pay, goodwill and pension obligations: looked for, but could not be read because the company document could not be opened.",
+   "latest": "13 November 2026: Third-quarter revenue was about 36.2 billion won, operating profit about 5.5 billion won (margin about 15%) and the net result a loss of 2.85 billion won. The company attributed the loss to a non-cash valuation loss from exchange rates. Nine-month revenue was about 124.0 billion won (+12.2%); overseas revenue rose 31.6%. First-half net profit was 25.9 billion won (+22.6%), but it includes a non-cash derivative gain of 21.2 billion won linked to the convertible bond; operating cash flow in the same period was minus 13.4 billion won. Figures are from press reports; the company's own document could not be opened.",
+   "risks": [
+    "Profit for the last 12 months overstates the earning power of the business: first-half net profit of 25.9 billion won includes a non-cash derivative gain of 21.2 billion won (pre-tax); the third quarter closed with a loss.",
+    "Advertising and selling costs are growing much faster than revenue; operating cash flow turned negative in the first half (receivables rose 14.2 billion won, inventories 7.9 billion won).",
+    "The 244.5 billion won head office commitment is larger than total assets; 80% of the payment falls due at completion in 2032.",
+    "The 75 billion won convertible bond can dilute shares by about 10%; investors can demand repayment from May 2028.",
+    "Three quarters of revenue comes from abroad and is concentrated in Thailand; exchange differences move profit from quarter to quarter."
+   ],
+   "watch": [
+    "Operating margin and advertising cost as a share of revenue",
+    "Operating cash flow and the trend in receivables",
+    "Results of the US and China subsidiaries; Oligio's approval in China",
+    "Head office payments and the bond's conversion price"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-14",
+   "per": "2026-Q2"
+  }
+ },
+ "353810": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-Q2",
+  "one": "Yem katkısı ve domuz yavrusu yemi üreticisi; 2024'te ABD'li Devenish'i borçla aldı. Hendek ölçütünü geçemedi: marj %10 dolayında, pazar payı kanıtı yok.",
+  "business": "Easy Bio, hayvan yemi katkıları ve domuz yavrusu yemi üretir. Gelirin yaklaşık %74,8'i yem katkılarından, %25,2'si karma yemden gelir. Mart 2024'te kendisinden büyük olan ABD'li Devenish Nutrition'ı satın aldı; gelir yaklaşık 165 milyar wondan 2024'te 384 milyar wona çıktı ve yurt dışı payı %60'ı geçti. 2025'te gelir yaklaşık 477 milyar won, faaliyet kârı yaklaşık 45 milyar won (marj %9,4). 2026'nın ilk yarısında gelir 278,8 milyar won, faaliyet kârı 28,3 milyar won.",
+  "moat_text": "Hendek zayıf; şirket bu yüzden 3. suru geçemedi. Üstünlük var: özel yem katkılarında müşteri ürün değiştirmekte isteksizdir ve katkıların marjı sıradan yemin (%2-3) birkaç katıdır. Ama rakamlar dar bir hendeği kanıtlamıyor. Konsolide faaliyet kâr marjı 2022'de %10,4, 2023'te %12,5, 2024'te %8,4, 2025'te %9,4: yüksek değil ve satın almayla düştü. Pazar payı rakamı okunan hiçbir belgede yok. Karma yemde maliyetin yaklaşık %80'i tahıl; fiyat müşteriye yansıtılıyor ama bu bir emtia işidir. Yüksek özsermaye kârlılığının (son okuma reel %34,3) bir bölümü borçtan geliyor: 2024 sonunda yükümlülükler özsermayenin yaklaşık üç katıydı ve yatırılan sermayenin getirisi %14-17 aralığında kaldı. Büyüme satın almalarla geldi; Devenish'in marjı alımdan önce %4 dolayındaydı.",
+  "mgmt": "Ana ortak Easy Holdings ve üç ilişkili kişi: %51,53. Şirket 2020'de Easy Holdings'ten bölünerek kuruldu; grubun tavuk, ördek ve domuz çiftlikleri müşterisidir, yani ilişkili taraf satışı vardır (tutarı okunamadı). Kâr temettüye ve satın almaya gidiyor: hisse başına temettü 2022'de 75, 2023'te 100, 2024'te 200 won; dağıtım oranı %21-33. Mart 2024'te Devenish, Ocak 2026'da Biomatrix ve Nutribins alındı. Alımlar ana işle ilgili, ama borçla yapıldı: kaynağa göre net borç/FAVÖK 2,07. Şerefiyenin özsermayeye oranı, hisse bazlı ücret ve bilanço dışı yükümlülükler: bakıldı, şirket belgesi açılamadığı için okunamadı.",
+  "latest": "14 Ağustos 2026: İkinci çeyrekte gelir 148,1 milyar won, faaliyet kârı 15,1 milyar won, net kâr 10,9 milyar won (geçen yıl 113,8 milyar, 11,0 milyar ve 4,1 milyar won). İlk yarıda faaliyet kârı 28,3 milyar won (geçen yıl 20,1 milyar; +%41). Rakamlar bir veri sitesinden; üçüncü çeyrek sonuçları bu çalıştırmada bulunamadı.",
+  "risks": [
+   "Borç yüksek: 2025 sonu tahminiyle yükümlülükler özsermayenin yaklaşık 2,3 katı; faiz ve kur kârı doğrudan etkiler.",
+   "Kârın büyük bölümü artık ABD'den geliyor; enflasyon düzeltmesi Kore enflasyonuyla yapıldı, ABD'deki sürü büyüklüğü ve gümrük tarifeleri sonuçları oynatıyor (2025'in ikinci ve üçüncü çeyreğinde zayıflık görüldü).",
+   "Büyüme satın almaya dayanıyor; şerefiye tutarı okunamadı."
+  ],
+  "watch": [
+   "Yem katkılarında faaliyet kâr marjı",
+   "Net borç/FAVÖK",
+   "Devenish'in marjı ve Kuzey Amerika satışları"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/kosdaq/353810/financials/ratios/"
+   },
+   {
+    "t": "Growth Research: Easy Bio ziyaret raporu (12 Şub 2026)",
+    "te": "Growth Research: Easy Bio company visit report (12 Feb 2026)",
+    "u": "https://files-scs.pstatic.net/2026/02/13/Knux0nf2cF/%EC%9D%B4%EC%A7%80%EB%B0%94%EC%9D%B4%EC%98%A4%20%ED%83%90%EB%B0%A9%EB%B3%B4%EA%B3%A0%EC%84%9C%20Growth%20Research(26.02.12).pdf"
+   },
+   {
+    "t": "Asia Economy: Easy Bio dokuz aylık sonuçlar ve Devenish (27 Kas 2025)",
+    "te": "Asia Economy: Easy Bio nine-month results and Devenish (27 Nov 2025)",
+    "u": "https://core.asiae.co.kr/article/2025112716045725026"
+   },
+   {
+    "t": "Pinpoint News: Easy Bio dördüncü çeyrek ve 2026 satın almaları (4 Nis 2026)",
+    "te": "Pinpoint News: Easy Bio fourth quarter and 2026 acquisitions (4 Apr 2026)",
+    "u": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=442801"
+   },
+   {
+    "t": "etfshopping: Easy Bio çeyrek sonuçları",
+    "te": "etfshopping: Easy Bio quarterly results",
+    "u": "https://etfshopping.com/stock/353810/earnings"
+   }
+  ],
+  "en": {
+   "one": "Maker of feed additives and piglet feed; it bought US-based Devenish with debt in 2024. It did not pass the moat test: margin is around 10% and there is no market share evidence.",
+   "business": "Easy Bio makes animal feed additives and piglet feed. About 74.8% of revenue comes from feed additives and 25.2% from compound feed. In March 2024 it bought US-based Devenish Nutrition, which was larger than itself; revenue went from about 165 billion won to 384 billion won in 2024 and the overseas share passed 60%. In 2025 revenue was about 477 billion won and operating profit about 45 billion won (margin 9.4%). In the first half of 2026 revenue was 278.8 billion won and operating profit 28.3 billion won.",
+   "moat_text": "The moat is weak; this is why the company did not pass wall 3. There is an advantage: customers are reluctant to switch specialty feed additives, and additive margins are several times those of ordinary feed (2-3%). But the numbers do not prove a narrow moat. Consolidated operating margin was 10.4% in 2022, 12.5% in 2023, 8.4% in 2024 and 9.4% in 2025: not high, and it fell with the acquisition. No market share figure appears in any document read. In compound feed about 80% of cost is grain; the price is passed on to customers, but this is a commodity business. Part of the high return on equity (latest real reading 34.3%) comes from debt: at the end of 2024 liabilities were about three times equity, and return on invested capital stayed in the 14-17% range. Growth came through acquisitions; Devenish's margin was around 4% before the purchase.",
+   "mgmt": "The main shareholder is Easy Holdings with three related persons: 51.53%. The company was formed by a split from Easy Holdings in 2020; the group's chicken, duck and pig farms are its customers, so there are related-party sales (the amount could not be read). Profit goes to dividends and acquisitions: dividend per share was 75 won in 2022, 100 in 2023 and 200 in 2024; the payout ratio was 21-33%. It bought Devenish in March 2024 and Biomatrix and Nutribins in January 2026. The purchases are related to the main business but were made with debt: net debt/EBITDA is 2.07 according to the source. Goodwill relative to equity, share-based pay and off-balance-sheet obligations: looked for, but could not be read because the company document could not be opened.",
+   "latest": "14 August 2026: In the second quarter revenue was 148.1 billion won, operating profit 15.1 billion won and net profit 10.9 billion won (a year earlier 113.8 billion, 11.0 billion and 4.1 billion won). First-half operating profit was 28.3 billion won (20.1 billion a year earlier; +41%). Figures are from a data site; third-quarter results could not be found in this run.",
+   "risks": [
+    "Debt is high: on the end-2025 estimate, liabilities are about 2.3 times equity; interest and exchange rates affect profit directly.",
+    "Most of the profit now comes from the United States; the inflation adjustment uses Korean inflation, and US herd sizes and tariffs move the results (weakness was seen in the second and third quarters of 2025).",
+    "Growth relies on acquisitions; the amount of goodwill could not be read."
+   ],
+   "watch": [
+    "Operating margin in feed additives",
+    "Net debt/EBITDA",
+    "Devenish's margin and North American sales"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-14",
+   "per": "2026-Q2"
+  }
+ },
+ "173130": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-Q2",
+  "one": "Cisco ekipmanıyla kurumsal ağ kuran ve bakımını yapan şirket. Hendek ölçütünü geçemedi: iş teklifle alınıyor, faaliyet kâr marjı %6.",
+  "business": "OPASnet, şirketlere ve kamu kurumlarına bilgisayar ağı kurar, sonra bakımını yapar. Ekipmanın çoğu Cisco'dan gelir; şirket 2011'den beri Cisco'nun Gold iş ortağıdır. 2025'te gelir 233,3 milyar won, faaliyet kârı 14,0 milyar won, ana ortaklık net kârı 12,7 milyar won. Ağ kurulumu geliri 137,1 milyar won (+%21,5), bakım geliri 82,8 milyar won (+%24,9; gelirin %35,6'sı). Müşteriler arasında SK Telecom, Samsung SDS, finans kuruluşları ve kamu kurumları var.",
+  "moat_text": "Hendek zayıf; şirket bu yüzden 3. suru geçemedi. İş, başkasının ürettiği ekipmanı kurmak ve satmaktır; projeler teklif ve ihaleyle alınır. Rakamlar bunu gösteriyor: 2025'te brüt kâr marjı %17,2, faaliyet kâr marjı %6,0 (2024'te %5,5). Aynı işi yapan rakipler var (Insung Information, S-Net). Üstünlük sayılabilecek yanlar: Cisco Gold belgesi ve kurulan ağın bakımından gelen, gelirin üçte birini aşan yinelenen iş. Bunlar şirketi tam bir ihale işinden ayırıyor, ama fiyatlama gücü marjlarda görünmüyor ve tek bir tedarikçiye bağlılık var. Reel özsermaye kârlılığı beş yılın ortalamasında %17,5; bu, hendekten çok az sermayeyle çalışan bir hizmet işinin sonucu.",
+  "mgmt": "Genel müdür Jang Su-hyun %25,29 paya sahip; ilişkili kişilerle birlikte %41,30. Diğer büyük ortaklar Kim Yoon-jung %7,41 ve Park Geon-sang %7,17. Şirketin net nakdi var (kaynakta net borç/FAVÖK -2,73). Kâr ortağa dönmeye başladı: hisse başına temettü 2024'te 100 won, 2025'te 250 won. Ana iş dışı büyük yatırım ya da pay ihracı görülmedi. Hisse bazlı ücret, şerefiye ve bilanço dışı yükümlülükler: bakıldı, şirket belgesi açılamadığı için okunamadı.",
+  "latest": "14 Ağustos 2026: İkinci çeyrekte gelir 47,3 milyar won, faaliyet kârı 1,9 milyar won, net kâr 3,6 milyar won (geçen yıl 58,2 milyar, 5,6 milyar ve 4,6 milyar won). İlk yarıda faaliyet kârı 3,3 milyar won (geçen yıl 6,2 milyar). Bir veri sitesine göre üçüncü çeyrekte gelir 51,0 milyar won, faaliyet kârı 1,8 milyar won (geçen yıl 42,8 milyar ve 3,4 milyar won). Rakamlar veri sitelerinden; şirketin kendi belgesi açılamadı.",
+  "risks": [
+   "Faaliyet kârı 2026'da geriliyor: ilk yarıda 6,2 milyar wondan 3,3 milyar wona, üçüncü çeyrekte 3,4 milyar wondan 1,8 milyar wona indi.",
+   "Gelir müşterilerin bilgi teknolojisi yatırımına ve tek bir tedarikçiye (Cisco) bağlı."
+  ],
+  "watch": [
+   "Faaliyet kâr marjı",
+   "Bakım gelirinin payı"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/kosdaq/173130/financials/ratios/"
+   },
+   {
+    "t": "Kore IR Konseyi: OPASnet şirket raporu (17 Nis 2026)",
+    "te": "Korea IR Council: OPASnet company report (17 Apr 2026)",
+    "u": "https://file.alphasquare.co.kr/media/pdfs/market-report/%EC%98%A4%ED%8C%8C%EC%8A%A4%EB%84%B7_AI_20260417%ED%95%9C%EA%B5%ADIR%ED%98%91%EC%9D%98%ED%9A%8C."
+   },
+   {
+    "t": "etfshopping: OPASnet çeyrek sonuçları",
+    "te": "etfshopping: OPASnet quarterly results",
+    "u": "https://etfshopping.com/stock/173130/earnings"
+   },
+   {
+    "t": "butler.works: OPASnet şirket sayfası (2026 üçüncü çeyrek)",
+    "te": "butler.works: OPASnet company page (third quarter 2026)",
+    "u": "https://www.butler.works/ko/companies/00867849"
+   }
+  ],
+  "en": {
+   "one": "Builds and maintains corporate networks with Cisco equipment. It did not pass the moat test: work is won by bidding and the operating margin is 6%.",
+   "business": "OPASnet builds computer networks for companies and public bodies and then maintains them. Most of the equipment comes from Cisco; the company has been a Cisco Gold partner since 2011. In 2025 revenue was 233.3 billion won, operating profit 14.0 billion won and net profit attributable to owners 12.7 billion won. Network construction revenue was 137.1 billion won (+21.5%) and maintenance revenue 82.8 billion won (+24.9%; 35.6% of revenue). Customers include SK Telecom, Samsung SDS, financial institutions and public bodies.",
+   "moat_text": "The moat is weak; this is why the company did not pass wall 3. The business is installing and selling equipment made by someone else; projects are won by bids and tenders. The numbers show it: in 2025 gross margin was 17.2% and operating margin 6.0% (5.5% in 2024). There are rivals doing the same work (Insung Information, S-Net). What could count as an advantage: the Cisco Gold certification and recurring maintenance work on installed networks, which is more than a third of revenue. These set the company apart from a pure tender business, but pricing power does not show in the margins and there is dependence on a single supplier. Real return on equity averaged 17.5% over five years; that is the result of a service business that runs on little capital rather than of a moat.",
+   "mgmt": "Chief executive Jang Su-hyun owns 25.29%; with related persons 41.30%. Other large holders are Kim Yoon-jung with 7.41% and Park Geon-sang with 7.17%. The company has net cash (net debt/EBITDA of -2.73 in the source). Profit has started to return to owners: dividend per share was 100 won in 2024 and 250 won in 2025. No large investment outside the main business and no share issuance were seen. Share-based pay, goodwill and off-balance-sheet obligations: looked for, but could not be read because the company document could not be opened.",
+   "latest": "14 August 2026: In the second quarter revenue was 47.3 billion won, operating profit 1.9 billion won and net profit 3.6 billion won (a year earlier 58.2 billion, 5.6 billion and 4.6 billion won). First-half operating profit was 3.3 billion won (6.2 billion a year earlier). According to a data site, third-quarter revenue was 51.0 billion won and operating profit 1.8 billion won (42.8 billion and 3.4 billion won a year earlier). Figures are from data sites; the company's own document could not be opened.",
+   "risks": [
+    "Operating profit is falling in 2026: from 6.2 billion won to 3.3 billion won in the first half, and from 3.4 billion won to 1.8 billion won in the third quarter.",
+    "Revenue depends on customers' information technology spending and on a single supplier (Cisco)."
+   ],
+   "watch": [
+    "Operating margin",
+    "Share of maintenance revenue"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-14",
+   "per": "2026-Q2"
+  }
  }
 }

@@ -2966,5 +2966,110 @@
     "Sales at new stores and the pace of buybacks"
    ]
   }
+ },
+ "HRB": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 2,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "2027-Q1",
+  "one": "ABD'nin en büyük vergi beyannamesi hazırlama zinciri. 30 Eylül 2026 bilançosunda özsermaye eksi olduğu için 1. surda kaldı; yöntem bu şirketi ölçemiyor.",
+  "business": "H&R Block, bireylerin gelir vergisi beyannamesini hazırlar: ofislerinde vergi uzmanıyla (hasılatın yaklaşık üçte ikisi) ya da müşterinin kendi kullandığı yazılımla. Haziran 2026'da biten mali yılda hasılat 3.945 milyon dolar; bunun 2.561 milyonu ofiste hazırlanan beyannamelerden, 385 milyonu yazılımdan, 265 milyonu yurt dışından (Kanada, Avustralya), 123 milyonu küçük işletme yazılımı Wave'den geldi. İş mevsimliktir: kârın tamamı ocak-haziran döneminde kazanılır, temmuz-aralık çeyrekleri zararla kapanır.",
+  "moat_text": "Hendek dar. Üstünlük markadan ve ofis ağının ölçeğinden geliyor: vergi beyannamesi her yıl verilir ve müşteri güvendiği yere döner. Kanıt: 2026 mali yılında ofiste hazırlanan beyanname sayısı %2, beyanname başına ortalama ücret %4,1 arttı (yaklaşık üç puanı fiyat artışı); şirket ofis kanalındaki pazar payını korudu. Yatırılan sermayenin getirisi beş yılda %48 ile %65 arasında. Reel özsermaye kârlılığı grafikte %169 ile %945 arasında görünür; ama bu rakam anlam taşımaz, çünkü geri alımlar özsermayeyi sıfıra yakın bırakmıştır. Zayıf yanı: yazılım kanalında hasılat yerinde saydı (384,6 milyon dolar; geçen yıl 383,7) ve orada güçlü taraf Intuit'in TurboTax'idir. Yapay zekâ ve devletin ücretsiz beyanname araçları, basit beyannamelerde ofise gitme nedenini azaltabilir. Franchise gelirleri %4 düştü; şirket franchise ofislerini geri satın alıyor (2026'da 160 ofis, 58 milyon dolar). Pazar payının yüzdesi şirket belgelerinde yok; bakıldı.",
+  "mgmt": "Kârın tamamına yakını ortağa dönüyor. 2026 mali yılında serbest nakit akışı 756 milyon dolar; 500,3 milyon dolarla payların %7,9'u geri alındı (ortalama 47,48 dolar, yaklaşık 9 kat kazanç), 211 milyon dolar temettü ödendi. Çeyreklik temettü %10 artırılarak 0,46 dolara çıktı. Temmuz-Eylül 2026'da 100,3 milyon dolarlık pay daha alındı (ortalama 45,68 dolar). Geri alımlar yüzünden özsermaye çok küçük: 30 Haziran 2026'da 117,5 milyon dolar, 30 Eylül 2026'da eksi 242,3 milyon dolar (mevsimlik zarar ve geri alım). Uzun vadeli borç 1.492 milyon dolar. Şerefiye 817 milyon dolar; özsermayeden büyük. Hisse bazlı ücret 2026'da 30,5 milyon dolar, kârın %4'ü. Şirketin düzeltilmiş kârı yalnız satın almalardan gelen maddi olmayan varlık itfasını (yılda yaklaşık 47 milyon dolar) ve tek seferlikleri dışarıda bırakır; hisse bazlı ücreti dışarıda bırakmaz. Son iki yılın bültenlerinde yeniden yapılanma ya da değer düşüklüğü gideri yok; Temmuz-Eylül 2026'da 8,0 milyon dolar kıdem gideri var. Beş yıllık dökümüne, emeklilik yükümlülüğüne ve büyük ortakların listesine bakıldı, okunan belgelerde yok. Genel müdür Curtis Campbell.",
+  "latest": "9 Kasım 2026: Şirket Temmuz-Eylül 2026 çeyreğini (2027 mali yılının ilk çeyreği) açıkladı. Hasılat 224,3 milyon dolar (+%10,2). Mevsim dışı çeyrekte net zarar 188,1 milyon dolar (geçen yıl 165,4 milyon); hisse başına zarar 1,53 dolar (1,26). Zararın içinde 8,0 milyon dolar kıdem gideri var. 2027 mali yılı beklentisi korundu: hasılat 4,11-4,16 milyar dolar, düzeltilmiş hisse başına kâr 6,04-6,24 dolar, vergi oranı yaklaşık %23. 11 Ağustos 2026'da açıklanan 2026 mali yılı: net kâr 736,3 milyon dolar, hisse başına kâr 5,69 dolar (2025: 4,42). Bu kârın 84,1 milyon doları (hisse başına 0,65 dolar) bir vergi incelemesinin kapanmasından doğan tek seferlik, nakit dışı vergi kazancıdır; düzeltilmiş hisse başına kâr 5,31 dolar (2025: 4,66).",
+  "risks": [
+   "Hesap yılda %11,1 reel büyümeye dayanıyor. Bu büyümenin çoğu işten değil, pay sayısının yılda %5-8 azalmasından geldi; hasılat 2026'da %5 arttı. Son 12 ay kârının yaklaşık %12'si tek seferlik vergi kazancıdır (84,1 milyon dolar); 2026'nın vergi oranı %14 idi, 2027 beklentisi %23. Büyüme yavaşlarsa güvenlik marjı daralır.",
+   "Özsermaye sıfıra yakın ve 30 Eylül 2026'da eksi (−242,3 milyon dolar). Kaynağın PD/DD'si 30 Haziran bilançosuna dayanıyor. Özsermaye kârlılığına dayanan ölçüler bu şirkette güvenilir değil.",
+   "Yapay zekâ destekli yazılımlar ve devletin ücretsiz beyanname araçları basit beyannameleri ofisten uzaklaştırabilir. Yazılım kanalında hasılat 2026'da büyümedi.",
+   "Sektörün büyümesi istihdama bağlı; yönetim büyümenin tarihsel %1'in altına inmesini bekliyor. Kanada'da sezon beklenenden zayıf geçti.",
+   "Borç 1,49 milyar dolar ve geri alımlar sürüyor. Kira yükümlülükleri (Mart 2026'da 535 milyon dolar) ve iade avansı gibi finansal ürünlerde tek bir bankaya (Pathward) bağımlılık var. Eyalet savcılarının ücretsiz beyanname programı ve veri gizliliği soruşturmaları sürüyor (ikincil kaynak; tutar açıklanmamış)."
+  ],
+  "watch": [
+   "Ofis kanalında beyanname sayısı ve pazar payı (2026'da sayı +%2, pay korundu)",
+   "Beyanname başına ortalama ücretteki artış (2026'da %4,1)",
+   "2027 düzeltilmiş hisse başına kârı beklentiyi (6,04-6,24 dolar) tutuyor mu",
+   "Özsermaye, borç ve geri alımın hızı (2027 planı yaklaşık 400 milyon dolar)"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/stocks/hrb/financials/ratios/"
+   },
+   {
+    "t": "H&R Block: 2027 mali yılı 1. çeyrek sonuç bülteni, SEC 8-K eki (9 Kas 2026)",
+    "te": "H&R Block: fiscal 2027 first-quarter earnings release, SEC 8-K exhibit (9 Nov 2026)",
+    "u": "https://www.sec.gov/Archives/edgar/data/0000012659/000001265926000035/q1fy27earningrelease.htm"
+   },
+   {
+    "t": "H&R Block: 2026 mali yılı 4. çeyrek ve yıl sonu sonuç bülteni, SEC 8-K eki (11 Ağu 2026)",
+    "te": "H&R Block: fiscal 2026 fourth-quarter and full-year earnings release, SEC 8-K exhibit (11 Aug 2026)",
+    "u": "https://www.sec.gov/Archives/edgar/data/0000012659/000001265926000019/q4fy26earningsrelease.htm"
+   },
+   {
+    "t": "H&R Block: 2026 mali yılı 3. çeyrek sonuç bülteni, 8-K (6 May 2026)",
+    "te": "H&R Block: fiscal 2026 third-quarter earnings release, 8-K (6 May 2026)",
+    "u": "https://handrblockinc.gcs-web.com/node/33506/html"
+   },
+   {
+    "t": "Motley Fool: H&R Block 2026 mali yılı 4. çeyrek toplantı dökümü (11 Ağu 2026)",
+    "te": "Motley Fool: H&R Block Q4 fiscal 2026 earnings call transcript (11 Aug 2026)",
+    "u": "https://www.fool.com/earnings/call-transcripts/2026/08/11/hr-block-hrb-q4-2026-earnings-call-transcript/"
+   },
+   {
+    "t": "Panabee: H&R Block 2026 yıllık raporunun (10-K) özeti",
+    "te": "Panabee: summary of H&R Block's fiscal 2026 annual report (10-K)",
+    "u": "https://www.panabee.com/news/h-r-block-earnings-2026-annual"
+   }
+  ],
+  "en": {
+   "one": "The largest tax return preparation chain in the US. Equity is negative in the balance sheet of 30 September 2026, so it stays at Wall 1; the method cannot measure this company.",
+   "business": "H&R Block prepares individual income tax returns: in its offices with a tax professional (about two thirds of revenue) or through software the customer uses alone. In the fiscal year ended June 2026 revenue was 3,945 million dollars; 2,561 million came from returns prepared in offices, 385 million from software, 265 million from abroad (Canada, Australia) and 123 million from Wave, its small-business software. The business is seasonal: all of the profit is earned between January and June, and the July-December quarters end in a loss.",
+   "moat_text": "The moat is narrow. The advantage comes from the brand and the scale of the office network: a tax return is filed every year and the customer goes back to a place they trust. Evidence: in fiscal 2026 the number of returns prepared in offices rose 2% and the average charge per return rose 4.1% (about three points of it from price); the company held its market share in the office channel. Return on invested capital was between 48% and 65% over five years. Real return on equity shows as 169% to 945% in the chart; but that figure means little, because buybacks have left equity close to zero. The weak point: software revenue stood still (384.6 million dollars; 383.7 a year earlier), and the strong player there is Intuit's TurboTax. Artificial intelligence and the government's free filing tools may reduce the reason to visit an office for simple returns. Franchise income fell 4%; the company is buying back franchise offices (160 offices for 58 million dollars in 2026). The company's documents give no market share percentage; we looked.",
+   "mgmt": "Nearly all of the profit goes back to shareholders. In fiscal 2026 free cash flow was 756 million dollars; 7.9% of the shares were bought back for 500.3 million dollars (average 47.48 dollars, about 9 times earnings) and 211 million dollars was paid in dividends. The quarterly dividend was raised 10% to 0.46 dollars. A further 100.3 million dollars of shares were bought in July-September 2026 (average 45.68 dollars). Because of the buybacks equity is very small: 117.5 million dollars at 30 June 2026 and minus 242.3 million dollars at 30 September 2026 (seasonal loss and buybacks). Long-term debt is 1,492 million dollars. Goodwill is 817 million dollars, larger than equity. Share-based pay was 30.5 million dollars in 2026, 4% of profit. The company's adjusted profit leaves out only the amortisation of acquired intangibles (about 47 million dollars a year) and one-offs; it does not leave out share-based pay. The releases for the last two years show no restructuring or impairment charges; July-September 2026 has 8.0 million dollars of severance. We looked for a five-year breakdown of such charges, pension obligations and a list of large shareholders; they are not in the documents read. The chief executive is Curtis Campbell.",
+   "latest": "9 November 2026: The company reported the July-September 2026 quarter (first quarter of fiscal 2027). Revenue was 224.3 million dollars (+10.2%). In this off-season quarter the net loss was 188.1 million dollars (165.4 million a year earlier); the loss per share was 1.53 dollars (1.26). The loss includes 8.0 million dollars of severance. The fiscal 2027 outlook was kept: revenue of 4.11-4.16 billion dollars, adjusted earnings per share of 6.04-6.24 dollars, a tax rate of about 23%. Fiscal 2026, reported on 11 August 2026: net profit 736.3 million dollars, earnings per share 5.69 dollars (2025: 4.42). Of that profit, 84.1 million dollars (0.65 dollars a share) is a one-off, non-cash tax gain from the closing of a tax examination; adjusted earnings per share were 5.31 dollars (2025: 4.66).",
+   "risks": [
+    "The calculation rests on real growth of 11.1% a year. Most of that growth came not from the business but from the share count falling 5-8% a year; revenue rose 5% in 2026. About 12% of last-12-month profit is a one-off tax gain (84.1 million dollars); the 2026 tax rate was 14% and the 2027 outlook is 23%. If growth slows, the margin of safety narrows.",
+    "Equity is close to zero and was negative at 30 September 2026 (−242.3 million dollars). The source's price-to-book rests on the 30 June balance sheet. Measures based on return on equity are not reliable for this company.",
+    "AI-assisted software and the government's free filing tools may pull simple returns away from the office. Software revenue did not grow in 2026.",
+    "Industry growth depends on employment; management expects it to fall below the historical 1%. The season in Canada was weaker than hoped.",
+    "Debt is 1.49 billion dollars and buybacks continue. There are lease obligations (535 million dollars in March 2026) and dependence on a single bank (Pathward) for financial products such as refund advances. State attorneys general are investigating the free filing programme and data privacy (secondary source; no amount disclosed)."
+   ],
+   "watch": [
+    "Return count and market share in the office channel (count +2% in 2026, share held)",
+    "Growth in the average charge per return (4.1% in 2026)",
+    "Whether fiscal 2027 adjusted earnings per share meet the outlook (6.04-6.24 dollars)",
+    "Equity, debt and the pace of buybacks (the 2027 plan is about 400 million dollars)"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-14",
+   "per": "2027-Q1"
+  },
+  "earn": {
+   "k": 0.891,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Bu kârın içindeki tek seferlik kazançlar: Vergi incelemesinin (IRS) kapanmasından doğan tek seferlik, nakit dışı vergi kazancı: 84,1 milyon dolar, hisse başına 0,65 dolar: son 12 ay kârının %11,8 kadarı. Aynı dönemin tek seferlik giderleri: Mevsimlik ofis yönetimindeki değişikliğe bağlı kıdem gideri (vergi öncesi 8,0 milyon dolar): %0,9. Net etki %10,9; kazanç bu kadar indirildi. Şirketin Haziran 2027'de biten mali yıl için hisse başına kâr beklentisi 6,14 USD (şirketin düzeltilmiş ölçüsü); son 12 ayda 5,42 USD. Beklenti daha düşük değil. Son 12 ayın kârı 0,89 ile çarpılarak kullanıldı.",
+    "en": "The calculation rests on the profit of the last 12 months. One-off gains inside that profit: One-time non-cash tax benefit from the resolution of an IRS examination: 84.1 million dollars, 0.65 dollars a share: 11.8% of last-12-month profit. One-off charges in the same period: Severance for the seasonal office leadership transition (8.0 million dollars pre-tax): 0.9%. The net effect is 10.9%; earnings were lowered by that much. The company's earnings-per-share outlook for fiscal year to June 2027 is 6.14 USD (the company's adjusted measure); the last 12 months were 5.42 USD. The outlook is not lower. Last-12-month profit was used multiplied by 0.89."
+   },
+   "per": "2027-Q1"
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %11,1 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Temmuz 2025 - Haziran 2026 (2026 mali yılı) %13,9 (şirketin düzeltilmiş rakamı; açıklanan %28,7); 2027 mali yılı için şirket beklentisi (düzeltilmiş hisse başına kâr) %15,6. Düzeltme: Şirketin düzeltilmiş hisse başına kârı: tek seferlik 84,1 milyon dolarlık vergi kazancı (hisse başına 0,65 dolar) ve satın alınan maddi olmayan varlıkların itfası hariç. 2026: 5,31 dolar (2025: 4,66). Temmuz-Eylül 2026 mevsim dışı çeyrektir ve her yıl zararla kapanır; hisse başına zarar 1,26 dolardan 1,53 dolara büyüdü (düzeltilmiş 1,20'den 1,40'a). Zarar çeyreğinde yüzde değişim anlam taşımadığı için ölçü olarak alınmadı. En düşüğü, enflasyondan arındırılınca, %9,8. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 11.1% a year. Latest figures (earnings per share, year on year): July 2025 - June 2026 (fiscal 2026) 13.9% (the company's adjusted figure; reported 28.7%); company guidance for fiscal 2027 (adjusted EPS) 15.6%. Adjustment: The company's adjusted EPS: excludes the one-off 84.1 million dollar tax gain (0.65 dollars a share) and amortisation of acquired intangibles. 2026: 5.31 dollars (2025: 4.66). July-September 2026 is the off-season quarter and ends in a loss every year; the loss per share widened from 1.26 to 1.53 dollars (adjusted: from 1.20 to 1.40). A percent change on a loss quarter is not meaningful, so it was not used as a measure. The lowest, after inflation, is 9.8%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2027-Q1"
+  },
+  "note": {
+   "tr": "Kaynağın PD/DD'si 30 Haziran 2026 bilançosuna dayanıyordu (özsermaye 117,5 milyon dolar). Şirketin 9 Kasım 2026'da açıkladığı 30 Eylül 2026 bilançosunda özsermaye eksi 242,3 milyon dolar. Şirket paylarını geri aldıkça özsermayesi sıfıra yaklaşıyor; bu yüzden özsermaye kârlılığı rakamları (%169-945) işin kârlılığını göstermez.",
+   "en": "The source's P/B rested on the balance sheet of 30 June 2026 (equity of 117.5 million dollars). In the balance sheet of 30 September 2026, published by the company on 9 November 2026, equity is minus 242.3 million dollars. As the company buys back its shares its equity approaches zero, so the return on equity figures (169-945%) do not show how profitable the business is."
+  }
  }
 }

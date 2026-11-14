@@ -2980,5 +2980,111 @@
     "New acquisitions and debt"
    ]
   }
+ },
+ "6036": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 1,
+   "E": 2
+  },
+  "moat": "dar",
+  "per": "2026-Q4",
+  "one": "Japonya'nın araç kaplama markası. Son yılın kârının yarısı tek seferlik hisse satışı; hesap yılda %25 büyümeye dayanıyor, şirket ise 2027'de kârın %37 düşmesini bekliyor.",
+  "business": "KeePer Giken, otomobil boyasını koruyan cam kaplama kimyasallarını üretir ve iki yoldan satar. Birincisi: kimyasalı ve eğitimi, çoğu benzin istasyonu olan yaklaşık 6.663 yetkili uygulama noktasına ve yeni araç bayilerine satar (Haziran 2026 yılında 11,9 milyar yen hasılat). İkincisi: kendi KeePer LABO dükkânlarında kaplama ve yıkama yapar (184 dükkân, 150'si şirketin; 14,0 milyar yen). Toplam hasılat 25.959 milyon yen, faaliyet kârı 6.914 milyon yen. Mali yıl haziranda biter; tablolar konsolide değildir.",
+  "moat_text": "Hendek dar. Üstünlük markadan, eğitilmiş uygulayıcı ağından ve kimyasalın kendi üretiminden geliyor. Kanıt: ürün kolunun faaliyet marjı 2026'da %39,8 (2025: %42,1); şirketin toplam faaliyet marjı dört yıldır %27 ile %32 arasında; şirketin anketine göre kaplamayı yaptıranların %87'si yeniden geliyor; 22 eğitim merkezi var. Reel özsermaye kârlılığı son beş yılda %27 ile %43 arasında; son yılın %43'ü hisse satış kazancıyla şişmiştir. Zayıf yanı: fiyatlama gücü rakamda görünmüyor. LABO'da müşteri başına ortalama tutar 2026'da yerinde saydı (16.757 yen, +%0,1) ve LABO kolunun faaliyet kârı %20,2 düştü (marj %21,4'ten %15,5'e). Kaplama isteğe bağlı bir harcamadır; rakip ürünlere geçmek kolaydır. Pazar payı rakamı belgelerde yok; bakıldı.",
+  "mgmt": "Borç çok az (943 milyon yen), nakit 14.277 milyon yen; özsermaye oranı %74,8. Şirket 2026'da elindeki SOFT99 hisselerini satarak 6.792 milyon yen kazanç yazdı; parayı marka tanıtımına, personele ve yeni dükkânlara ayırdığını, kalanıyla hisse başına 40 yen özel temettü ödediğini söylüyor. Temettü 2026 yılı için 100 yen (60 olağan, 40 özel; kârın %27,8'i), 2027 beklentisi 100 yen (bölünme öncesi). Geri alım yok. Şerefiye yok. Haziran 2026'da küçük bir yazılım şirketi (AWS) satın alındı; bedeli açıklanmadı. Şirket sunumunda 'büyüme yatırımı giderleri hariç' kâr veriyor (faaliyet kârı 8.007 milyon yen); bu giderler reklam ve personel gibi olağan giderlerdir, o ölçüye güvenilmedi. Sunumda aynı rakamın farklı sayfalarda farklı verildiği yerler var (dükkân ziyaret sayısı, dükkân sayısı). 15 Eylül 2026'da bire iki pay bölünmesi açıklandı (kayıt tarihi 31 Ekim 2026). Hisse bazlı ücrete, garantilere ve hâkim ortağa bakıldı; okunan belgelerde yok. Kaynağa göre halka açıklık oranı %42,4.",
+  "latest": "14 Ağustos 2026: Şirket Haziran 2026'da biten yılı açıkladı. Hasılat 25.959 milyon yen (+%12,4), faaliyet kârı 6.914 milyon yen (−%2,6), net kâr 9.830 milyon yen (+%101,1). Net kârdaki artışın nedeni 6.792 milyon yenlik yatırım hissesi satış kazancıdır. Hisse başına kâr 360,20 yen (bölünme sonrası 180,10). Haziran 2027 yılı beklentisi: hasılat 29.380 milyon yen (+%13,2), faaliyet kârı 9.012 milyon yen (+%30,3), net kâr 6.222 milyon yen (−%36,7), hisse başına kâr 227,98 yen (bölünme sonrası yaklaşık 114). Temmuz-Eylül 2026 çeyreğinin sonuçları 14 Kasım 2026 itibarıyla bulunamadı.",
+  "risks": [
+   "Hesap yılda %25 reel büyümeye dayanıyor; bu, yöntemin tavanıdır. Oysa faaliyet kârı 2026'da %2,6 düştü ve şirket 2027'de net kârın %36,7 düşmesini bekliyor. Son yılın kârının yaklaşık yarısı tek seferlik hisse satış kazancıdır. Büyüme ve kazanç bu gerçeklere göre indirilmezse güvenlik marjı olduğundan çok yüksek görünür.",
+   "Kaynağın F/K'sı (4,93) yanlış: bire iki pay bölünmesinden sonraki fiyatı bölünme öncesi hisse başına kârla bölüyor. Belgedeki kârla F/K yaklaşık 9,9; tek seferlik kazanç çıkarılınca yaklaşık 20.",
+   "LABO dükkânlarında kâr düşüyor: 2026'da faaliyet kârı %20,2 geriledi, üçüncü çeyrekte kol zarar etti. Şirket 2031'e kadar dükkân sayısını 184'ten 500'e çıkarmayı hedefliyor; yeni dükkânların getirisi eskilerinki kadar olmayabilir.",
+   "Araç kaplama isteğe bağlı bir harcamadır; hane bütçesi daralınca ertelenir. Ortalama müşteri tutarı 2026'da artmadı.",
+   "Ürün satışlarının çoğu benzin istasyonlarına ve yeni araç bayilerine gider (yeni araç kanalı ürün hasılatının %34'ü); bu kanallardaki bir kayıp satışı doğrudan etkiler."
+  ],
+  "watch": [
+   "2027 faaliyet kârı beklentiyi (9.012 milyon yen) tutuyor mu",
+   "LABO kolunun faaliyet marjı (2026'da %15,5) ve mevcut dükkânların satışı",
+   "Ürün kolunun faaliyet marjı (2026'da %39,8)",
+   "Yeni dükkân sayısı ve dükkân başına yatırım"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tyo/6036/financials/ratios/"
+   },
+   {
+    "t": "KeePer Giken: Haziran 2026 yılı kessan tanshin, TDnet (14 Ağu 2026)",
+    "te": "KeePer Technical Laboratory: earnings summary (kessan tanshin) for the year to June 2026, TDnet (14 Aug 2026)",
+    "u": "https://www2.jpx.co.jp/disc/60360/140120260814521177.pdf"
+   },
+   {
+    "t": "KeePer Giken: Haziran 2026 yılı sonuç sunumu, TDnet (14 Ağu 2026)",
+    "te": "KeePer Technical Laboratory: results presentation for the year to June 2026, TDnet (14 Aug 2026)",
+    "u": "https://www2.jpx.co.jp/disc/60360/140120260814521215.pdf"
+   },
+   {
+    "t": "KeePer Giken: Haziran 2026 yılı 3. çeyrek tanshin, TDnet (15 May 2026)",
+    "te": "KeePer Technical Laboratory: third-quarter earnings summary, year to June 2026, TDnet (15 May 2026)",
+    "u": "https://www2.jpx.co.jp/disc/60360/140120260515538136.pdf"
+   },
+   {
+    "t": "Matsui Securities: 15 Eylül'de açıklanan pay bölünmeleri (16 Eyl 2026)",
+    "te": "Matsui Securities: stock splits announced on 15 September (16 Sep 2026)",
+    "u": "https://finance.matsui.co.jp/news/619273/index"
+   },
+   {
+    "t": "Japan IR: KeePer Technical Laboratory bildirim listesi ve fiyat (13 Kas 2026)",
+    "te": "Japan IR: KeePer Technical Laboratory disclosure list and price (13 Nov 2026)",
+    "u": "https://japanir.jp/en/?p=29743"
+   }
+  ],
+  "en": {
+   "one": "Japan's car coating brand. Half of last year's profit is a one-off share sale; the calculation rests on growth of 25% a year, while the company expects profit to fall 37% in 2027.",
+   "business": "KeePer Technical Laboratory makes glass coating chemicals that protect car paint and sells them in two ways. First, it sells the chemicals and training to about 6,663 certified application points, most of them petrol stations, and to new-car dealers (revenue of 11.9 billion yen in the year to June 2026). Second, it does coating and washing in its own KeePer LABO shops (184 shops, 150 of them company-run; 14.0 billion yen). Total revenue was 25,959 million yen and operating profit 6,914 million yen. The financial year ends in June; the accounts are non-consolidated.",
+   "moat_text": "The moat is narrow. The advantage comes from the brand, the network of trained applicators and making the chemicals itself. Evidence: the products segment's operating margin was 39.8% in 2026 (2025: 42.1%); the company's overall operating margin has been between 27% and 32% for four years; by the company's survey 87% of coating customers come back; it runs 22 training centres. Real return on equity was between 27% and 43% over the last five years; the 43% in the latest year is inflated by the share sale gain. The weak point: pricing power does not show in the numbers. The average ticket in LABO shops stood still in 2026 (16,757 yen, +0.1%) and the LABO segment's operating profit fell 20.2% (margin from 21.4% to 15.5%). Coating is a discretionary purchase; switching to rival products is easy. The documents give no market share figure; we looked.",
+   "mgmt": "Debt is very small (943 million yen) and cash is 14,277 million yen; the equity ratio is 74.8%. In 2026 the company sold its SOFT99 shares and booked a gain of 6,792 million yen; it says it put the money into brand marketing, staff and new shops and paid a special dividend of 40 yen a share with the rest. The dividend for 2026 is 100 yen (60 regular, 40 special; 27.8% of profit) and the 2027 forecast is 100 yen (pre-split). There are no buybacks. There is no goodwill. A small software company (AWS) was bought in June 2026; the price was not disclosed. In its presentation the company gives profit 'excluding growth investment costs' (operating profit of 8,007 million yen); these costs are ordinary costs such as advertising and staff, and we did not rely on that measure. In places the presentation gives the same figure differently on different pages (shop visits, shop count). A two-for-one stock split was announced on 15 September 2026 (record date 31 October 2026). We looked for share-based pay, guarantees and a controlling shareholder; they are not in the documents read. According to the source the free float is 42.4%.",
+   "latest": "14 August 2026: The company reported the year ended June 2026. Revenue was 25,959 million yen (+12.4%), operating profit 6,914 million yen (−2.6%) and net profit 9,830 million yen (+101.1%). The rise in net profit is due to a 6,792 million yen gain on the sale of investment shares. Earnings per share were 360.20 yen (180.10 after the split). Forecast for the year to June 2027: revenue 29,380 million yen (+13.2%), operating profit 9,012 million yen (+30.3%), net profit 6,222 million yen (−36.7%), earnings per share 227.98 yen (about 114 after the split). Results for the July-September 2026 quarter could not be found as of 14 November 2026.",
+   "risks": [
+    "The calculation rests on real growth of 25% a year; that is the method's ceiling. Yet operating profit fell 2.6% in 2026 and the company expects net profit to fall 36.7% in 2027. About half of last year's profit is a one-off gain on a share sale. Unless growth and earnings are lowered for these facts, the margin of safety looks far higher than it is.",
+    "The source's price-to-earnings ratio (4.93) is wrong: it divides the price after the two-for-one split by earnings per share from before the split. With the profit in the company's document the ratio is about 9.9; about 20 once the one-off gain is taken out.",
+    "Profit in the LABO shops is falling: operating profit dropped 20.2% in 2026 and the segment made a loss in the third quarter. The company aims to raise the shop count from 184 to 500 by 2031; new shops may not earn what the old ones do.",
+    "Car coating is a discretionary purchase; it is put off when household budgets tighten. The average ticket did not rise in 2026.",
+    "Most product sales go to petrol stations and new-car dealers (the new-car channel is 34% of product revenue); a loss in these channels hits sales directly."
+   ],
+   "watch": [
+    "Whether 2027 operating profit meets the forecast (9,012 million yen)",
+    "The LABO segment's operating margin (15.5% in 2026) and sales at existing shops",
+    "The products segment's operating margin (39.8% in 2026)",
+    "Number of new shops and investment per shop"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-14",
+   "per": "2026-Q4"
+  },
+  "note": {
+   "tr": "Kaynağın F/K'sı (4,93) bire iki pay bölünmesi (kayıt tarihi 31 Ekim 2026) nedeniyle yarı yarıya düşük görünüyor. Şirketin tablosundaki kârla F/K yaklaşık 9,9'dur.",
+   "en": "The source's price-to-earnings ratio (4.93) looks half of what it is because of the two-for-one stock split (record date 31 October 2026). With the profit in the company's accounts the ratio is about 9.9."
+  },
+  "earn": {
+   "k": 0.505,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Bu kârın içindeki tek seferlik kazançlar: Yatırım amaçlı hisselerin (SOFT99) satış kazancı: vergi öncesi 6.792 milyon yen (olağan dışı gelir): son 12 ay kârının %49,5 kadarı. Net etki %49,5; kazanç bu kadar indirildi. Şirketin Haziran 2027'de biten yıl için hisse başına kâr beklentisi 113,99 JPY; son 12 ayda 180,10 JPY. Beklenti daha düşük olduğu için kazanç bu orana indirildi (%36,7). Son 12 ayın kârı 0,51 ile çarpılarak kullanıldı.",
+    "en": "The calculation rests on the profit of the last 12 months. One-off gains inside that profit: Gain on sale of investment securities (SOFT99 shares): 6,792 million yen pre-tax (extraordinary income): 49.5% of last-12-month profit. The net effect is 49.5%; earnings were lowered by that much. The company's earnings-per-share outlook for year to June 2027 is 113.99 JPY; the last 12 months were 180.10 JPY. Because the outlook is lower, earnings were lowered to that ratio (36.7%). Last-12-month profit was used multiplied by 0.51."
+   },
+   "per": "2026-Q4"
+  },
+  "growth": {
+   "g": 6.6,
+   "dy": 2.8,
+   "basis": {
+    "tr": "Formül yılda %13,2 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Temmuz 2025 - Haziran 2026 (mali yıl) %101,1; Nisan-Haziran 2026 çeyreği (yıl eksi dokuz ay) %78,9; Haziran 2027'de biten yıl için şirket beklentisi (hisse başına kâr) %−36,7. Geçen yılın kârı tek seferlik hisse satış kazancıyla iki katına çıkmıştı; hisse başına kârdaki artış işin büyümesini göstermez. Faaliyet kârı Haziran 2026 yılında %2,6 düştü. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %6,6. Kaynakta temettü verimi yok; şirketin Haziran 2027 yılı (beklenti; bölünme öncesi 100 yen, bire iki bölünme sonrası 50 yen) için açıkladığı hisse başına 50 JPY temettüden %2,8 hesaplandı.",
+    "en": "The formula gave growth of 13.2% a year. Latest figures (earnings per share, year on year): July 2025 - June 2026 (fiscal year) 101.1%; April-June 2026 quarter (full year minus nine months) 78.9%; company guidance for the year to June 2027 (EPS) −36.7%. Last year's profit was doubled by a one-off gain on a share sale; the rise in earnings per share does not show the growth of the business. Operating profit fell 2.6% in the year to June 2026. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 6.6%. The data source has no dividend yield; 2.8% was calculated from the dividend of 50 JPY per share the company declared for the year to June 2027 (forecast; 100 yen pre-split, 50 yen after the two-for-one split)."
+   },
+   "per": "2026-Q4"
+  }
  }
 }

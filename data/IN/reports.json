@@ -1435,5 +1435,155 @@
     "New orders and the share of storage in revenue"
    ]
   }
+ },
+ "GARUDA": {
+  "scores": {
+   "A": 1,
+   "B": 0,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "yok",
+  "per": "2026-Q2",
+  "one": "Mumbai merkezli inşaat yüklenicisi. İşini ihale ve sözleşmeyle alır, siparişlerinin önemli bölümü kendi ortak grubundan gelir; hendek ölçütünü geçemedi.",
+  "business": "Garuda Construction, konut, ticari bina ve altyapı projelerinde inşaat yüklenicisidir; işletme-bakım ve tesisat işleri de yapar. Mart 2026'da biten yılda hasılat 530,7 crore rupi (5,3 milyar rupi), net kâr 122,5 crore; bir yıl önce 225,7 ve 49,8 crore idi. Sipariş defteri 31 Aralık 2025'te 4.337 crore rupi. Şirket Ekim 2024'te halka açıldı; hâkim ortak PKH Ventures grubudur (%67,6).",
+  "moat_text": "Hendek yok; şirket 3. suru geçemedi. İnşaat yüklenicisi işini ihale ve teklifle alır; kalıcı bir fiyatlama gücü yoktur. Faaliyet marjı %30 dolayında ve benzer yüklenicilerin (%10-17) çok üstünde; ama bu marj bir üstünlüğün kanıtı sayılamaz, çünkü siparişlerin önemli bölümü ortak grubunun şirketlerinden gelir: ortak grubu ihaleyi alır ya da geliştirici olur, inşaatı Garuda'ya verir. Yatırımcı forumundaki bir incelemeye göre sipariş defterinin yarıdan fazlası ilişkili taraflardandır (bu oran şirket belgesinden doğrulanamadı). Derecelendirme kuruluşu Infomerics, tahsilatın yavaşlığına dikkat çekti: işletme sermayesi döngüsü 248 günden 405 güne uzadı; 1.537 crore rupilik projeler resmî izin bekliyor. Reel özsermaye kârlılığı beş yılda %20 ile %57 arasında.",
+  "mgmt": "Hâkim ortak PKH Ventures grubu; başkan ve genel müdür Pravin Kumar Agarwal. Halka açılmada 163 crore rupi sermaye toplandı (2025 mali yılı). Temettü yok denecek kadar az; kâr şirkette kalıyor ve büyük bölümü alacaklara bağlanıyor: 31 Mart 2026'da ticari alacaklar konsolide tabloda 148,8 crore, solo tabloda 240,4 crore rupi; özsermaye 454,4 crore. Beş yılda pay sayısı %24,5 arttı. Şirket Aralık 2025'te 500 crore rupiye kadar yeni pay ihracı için ortaklardan yetki istedi (forum kaynağı). 2026 yıl sonu sonuçlarının dipnotu, ticari borç ve avans bakiyelerinin 'mutabakata tabi' olduğunu söylüyor. Borç az: 31 Mart 2026'da 12 crore rupi; kaynağa göre Eylül 2026'da 53 crore. Hisse bazlı ücrete, şerefiyeye ve bilanço dışı yükümlülüklere bakıldı; okunan belgelerde yok.",
+  "latest": "4 Kasım 2026: Şirket Temmuz-Eylül 2026 çeyreğini açıkladı (ikincil kaynaklardan okundu). Toplam gelir 172,6 crore rupi (+%45,7), net kâr 40,6 crore rupi (+%49,7). İlk yarıda toplam gelir 348,2 crore (+%42,1), net kâr 82,1 crore (+%49,0). 18 Mayıs 2026'da açıklanan yıl sonu: hasılat 530,7 crore, ana ortaklık net kârı 122,5 crore, hisse başına kâr 13,17 rupi; faaliyetlerden net nakit 78,4 crore rupi.",
+  "risks": [
+   "Siparişlerin önemli bölümü ortak grubunun şirketlerinden geliyor; fiyatın ve tahsilatın piyasa koşullarında olup olmadığı dışarıdan görülemiyor.",
+   "Kâr nakde yavaş dönüyor: 2025 mali yılında faaliyet nakit akışı eksiydi (kaynağa göre −111 crore rupi), alacak günü 165."
+  ],
+  "watch": [
+   "Faaliyet nakit akışı ve alacak günü",
+   "İlişkili taraflardan gelen hasılatın payı"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/nse/GARUDA/financials/ratios/"
+   },
+   {
+    "t": "Garuda Construction: 31 Mart 2026 yılı denetlenmiş sonuçlar, NSE bildirimi (18 May 2026)",
+    "te": "Garuda Construction: audited results for the year ended 31 March 2026, NSE filing (18 May 2026)",
+    "u": "https://nsearchives.nseindia.com/corporate/GARUDACONSTRUCTION2010_18052026101737_Outcome_of_Board_Meeting.pdf"
+   },
+   {
+    "t": "Garuda Construction: Haziran 2026 çeyreği inceleme raporu düzeltmesi, NSE bildirimi (9 Eyl 2026)",
+    "te": "Garuda Construction: clarification on the June 2026 quarter review report, NSE filing (9 Sep 2026)",
+    "u": "https://nsearchives.nseindia.com/corporate/GARUDACONSTRUCTION2010_09092026141712_Clarification_NSE_Final_Signed.pdf"
+   },
+   {
+    "t": "Angel One: Garuda Construction 2027 mali yılı 2. çeyrek sonuçları (4 Kas 2026)",
+    "te": "Angel One: Garuda Construction Q2 FY27 results (4 Nov 2026)",
+    "u": "https://www.angelone.in/news/market-updates/garuda-construction-share-price-gains-over-3-after-q2-fy27-earnings-results-total-income-up-45-7-yoy"
+   },
+   {
+    "t": "Screener: Garuda Construction and Engineering, çeyreklik ve yıllık tablolar",
+    "te": "Screener: Garuda Construction and Engineering, quarterly and annual tables",
+    "u": "https://www.screener.in/company/GARUDA/"
+   },
+   {
+    "t": "Whalesbook: Infomerics derecelendirmesi BBB+/Durağan, sipariş defteri 4.337 crore (1 Nis 2026)",
+    "te": "Whalesbook: Infomerics rating BBB+/Stable, order book 4,337 crore (1 Apr 2026)",
+    "u": "https://www.whalesbook.com/corporate-news/English/industrial-goodsservices/Garuda-Construction-Secures-BBBStable-Rating-as-Order-Book-Hits-indian-rupee4336-Cr/69cd25b33f30946a723fb8a9"
+   },
+   {
+    "t": "ValuePickr forumu: Garuda Construction and Engineering başlığı",
+    "te": "ValuePickr forum: Garuda Construction and Engineering thread",
+    "u": "https://forum.valuepickr.com/t/garuda-construction-and-engineering-ltd/202685"
+   }
+  ],
+  "en": {
+   "one": "A Mumbai-based construction contractor. It wins work by tender and contract, and a large part of its orders comes from its own promoter group; it did not pass the moat criterion.",
+   "business": "Garuda Construction is a building contractor for residential, commercial and infrastructure projects; it also does operation and maintenance and building services work. In the year ended March 2026 revenue was 530.7 crore rupees (5.3 billion rupees) and net profit 122.5 crore; a year earlier they were 225.7 and 49.8 crore. The order book was 4,337 crore rupees at 31 December 2025. The company listed in October 2024; the controlling shareholder is the PKH Ventures group (67.6%).",
+   "moat_text": "There is no moat; the company did not pass the third wall. A building contractor wins work by tender and bid and has no lasting pricing power. The operating margin is about 30%, far above similar contractors (10-17%); but that margin cannot be taken as proof of an advantage, because a large part of the orders comes from companies of the promoter group: the group wins the tender or acts as developer and gives the construction to Garuda. According to a review on an investor forum, more than half of the order book is from related parties (this share could not be confirmed from a company document). The rating agency Infomerics pointed to slow collections: the working capital cycle lengthened from 248 to 405 days, and projects worth 1,537 crore rupees are waiting for official approvals. Real return on equity was between 20% and 57% over five years.",
+   "mgmt": "The controlling shareholder is the PKH Ventures group; the chairman and managing director is Pravin Kumar Agarwal. The listing raised 163 crore rupees of capital (fiscal 2025). Dividends are negligible; profit stays in the company and much of it is tied up in receivables: at 31 March 2026 trade receivables were 148.8 crore in the consolidated accounts and 240.4 crore rupees in the standalone accounts, against equity of 454.4 crore. The share count rose 24.5% in five years. In December 2025 the company asked shareholders for authority to issue up to 500 crore rupees of new shares (forum source). A note to the 2026 year-end results says trade payable and advance balances are 'subject to confirmation and reconciliation'. Debt is low: 12 crore rupees at 31 March 2026; 53 crore in September 2026 according to the source. We looked for share-based pay, goodwill and off-balance-sheet obligations; they are not in the documents read.",
+   "latest": "4 November 2026: The company reported the July-September 2026 quarter (read from secondary sources). Total income was 172.6 crore rupees (+45.7%) and net profit 40.6 crore rupees (+49.7%). In the first half total income was 348.2 crore (+42.1%) and net profit 82.1 crore (+49.0%). Year-end results announced on 18 May 2026: revenue 530.7 crore, net profit attributable to owners 122.5 crore, earnings per share 13.17 rupees; net cash from operations 78.4 crore rupees.",
+   "risks": [
+    "A large part of the orders comes from companies of the promoter group; an outsider cannot see whether prices and collections are on market terms.",
+    "Profit turns into cash slowly: operating cash flow was negative in fiscal 2025 (−111 crore rupees according to the source) and debtor days are 165."
+   ],
+   "watch": [
+    "Operating cash flow and debtor days",
+    "Share of revenue from related parties"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-14",
+   "per": "2026-Q2"
+  }
+ },
+ "ONEGLOBAL": {
+  "scores": {
+   "A": 1,
+   "B": 0,
+   "C": 0,
+   "D": 1,
+   "E": 0
+  },
+  "moat": "yok",
+  "per": "2026-Q2",
+  "one": "Sağlık kurumlarına tıbbi cihaz ve tanı malzemesi satan küçük şirket. Hasılatın üçte biri tek müşteriden, kâr nakde dönmüyor, son çeyrekte satış yarılandı; hendek ölçütünü geçemedi.",
+  "business": "One Global Service Provider, hastanelere ve kamu sağlık programlarına tıbbi cihaz, laboratuvar analiz cihazı, reaktif ve yazılım satar; tanı laboratuvarları da işletir. Eskiden tekstil şirketiydi; yönetim değişikliğinden sonra sağlık alanına geçti. Hasılat 2022 mali yılında 6 crore rupi iken birleşme ve kurumsal sözleşmelerle Mart 2026 yılında 498,8 crore rupiye (5,0 milyar rupi) çıktı; net kâr 69,5 crore rupi.",
+  "moat_text": "Hendek yok; şirket 3. suru geçemedi. İş, başkalarının ürettiği cihaz ve malzemenin kurumlara satışıdır; sözleşmeyle alınır ve kalıcı bir üstünlüğü gösteren rakam yoktur. 2026 mali yılı hasılatının yaklaşık üçte biri tek bir tanı hizmeti müşterisinden geldi. Hasılat dört yılda 80 katına çıktı, sonra Temmuz-Eylül 2026 çeyreğinde yarıya indi (66,5 crore; bir yıl önce 135,0 crore): kazanç öngörülebilir değil (C puanı 0). Ticari alacaklar 31 Mart 2026'da 216,6 crore rupi; toplam varlıkların %85'i ve bir yıl önceki 57,7 crore'nin yaklaşık dört katı. Reel özsermaye kârlılığı beş yılda %13 ile %57 arasında gezdi. Serbest nakit akışı son iki dönemde eksi.",
+  "mgmt": "Ortaklık yapısı sık değişti: kurucu ortakların payı Mart 2025'te %15,05 iken Eylül 2025'te %66,24'e, bugün %68,40'a çıktı. Beş yılda pay sayısı %175 arttı. Kasım 2026'da ortaklara posta yoluyla oylama açıldı: borcun paya çevrilmesi, başkanın ücreti ve yeniden atanması oylanıyor; pay takasıyla çıkarılan yeni payların kota alınması bekleniyor. Temettü çok küçük (verim %0,26). Kâr alacaklarda birikiyor; faaliyet nakit akışı eksi (ikincil kaynağa göre −10,9 crore rupi). Mayıs 2026'da yıl sonu sonuç bildirimi yazım hatası nedeniyle yeniden gönderildi. Şirketin kendi belgesi (borsa bildirimi) açılamadı; hisse bazlı ücrete, şerefiyeye ve bilanço dışı yükümlülüklere bakılamadı.",
+  "latest": "4 Kasım 2026: Şirket Temmuz-Eylül 2026 çeyreğini açıkladı (ikincil kaynaktan okundu, solo tablo). Satışlar 66,45 crore rupi; bir yıl önceki 134,98 crore'nin %50,8 altında. Net kâr 8,29 crore rupi (19,79 crore; −%58,1). Faaliyet marjı %16,7 (bir yıl önce %19,3).",
+  "risks": [
+   "Hasılatın üçte biri tek müşteriden geliyor ve alacaklar varlıkların %85'i; tahsilat aksarsa kâr kâğıtta kalır.",
+   "Son çeyrekte satış yarıya, kâr %58 indi; önceki yılların büyümesinin sürdüğünü gösteren veri yok."
+  ],
+  "watch": [
+   "Ticari alacakların tahsili ve faaliyet nakit akışı",
+   "Çeyreklik satışların seyri"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/nse/ONEGLOBAL/financials/ratios/"
+   },
+   {
+    "t": "JM Financial Services (Capital Market): Eylül 2026 çeyreğinde solo net kâr %58,11 düştü (5 Kas 2026)",
+    "te": "JM Financial Services (Capital Market): standalone net profit declines 58.11% in the September 2026 quarter (5 Nov 2026)",
+    "u": "https://www.jmfinancialservices.in/market-news-and-insights/1744946"
+   },
+   {
+    "t": "Whalesbook: 2026 mali yılı hasılatı 498 crore, kâr 69 crore; ticari alacaklar arttı (3 Haz 2026)",
+    "te": "Whalesbook: FY26 revenue 498 crore, profit 69 crore; trade receivables rise (3 Jun 2026)",
+    "u": "https://www.whalesbook.com/corporate-news/English/industrial-goodsservices/One-Global-Service-Provider-FY26-Revenue-indian-rupee498cr-Profit-indian-rupee69cr-Trade-Receivables-Rise/6a2029837f2bd0fbfa56c633"
+   },
+   {
+    "t": "Screener: One Global Service Provider, şirket tanıtımı, ortaklık yapısı ve bildirimler",
+    "te": "Screener: One Global Service Provider, profile, shareholding pattern and announcements",
+    "u": "https://www.screener.in/company/ONEGLOBAL/consolidated"
+   },
+   {
+    "t": "Tijori Finance: One Global Service Provider şirket sayfası",
+    "te": "Tijori Finance: One Global Service Provider company page",
+    "u": "https://tijorifinance.com/company/one-global-service-provider-ltd/"
+   }
+  ],
+  "en": {
+   "one": "A small company selling medical equipment and diagnostic supplies to healthcare institutions. A third of revenue comes from one customer, profit is not turning into cash and sales halved in the latest quarter; it did not pass the moat criterion.",
+   "business": "One Global Service Provider sells medical equipment, laboratory analysers, reagents and software to hospitals and public health programmes; it also runs diagnostic laboratories. It used to be a textile company and moved into healthcare after a change of management. Revenue was 6 crore rupees in fiscal 2022; a merger and institutional contracts took it to 498.8 crore rupees (5.0 billion rupees) in the year to March 2026, with net profit of 69.5 crore rupees.",
+   "moat_text": "There is no moat; the company did not pass the third wall. The business is selling equipment and supplies made by others to institutions; it is won by contract and no figure shows a lasting advantage. About a third of fiscal 2026 revenue came from a single diagnostic services customer. Revenue grew 80-fold in four years and then halved in the July-September 2026 quarter (66.5 crore; 135.0 crore a year earlier): earnings are not predictable (C score 0). Trade receivables were 216.6 crore rupees at 31 March 2026; that is 85% of total assets and about four times the 57.7 crore of a year earlier. Real return on equity ranged from 13% to 57% over five years. Free cash flow was negative in the last two periods.",
+   "mgmt": "The ownership has changed often: the promoters' stake was 15.05% in March 2025, 66.24% in September 2025 and is 68.40% today. The share count rose 175% in five years. In November 2026 a postal ballot was opened: shareholders are voting on converting a loan into shares and on the chairman's pay and reappointment; new shares issued through a share swap are awaiting listing. The dividend is very small (yield 0.26%). Profit is piling up in receivables; operating cash flow is negative (−10.9 crore rupees according to a secondary source). In May 2026 the year-end results filing was resubmitted because of a clerical error. The company's own document (exchange filing) could not be opened; share-based pay, goodwill and off-balance-sheet obligations could not be checked.",
+   "latest": "4 November 2026: The company reported the July-September 2026 quarter (read from a secondary source, standalone accounts). Sales were 66.45 crore rupees, 50.8% below the 134.98 crore of a year earlier. Net profit was 8.29 crore rupees (19.79 crore; −58.1%). The operating margin was 16.7% (19.3% a year earlier).",
+   "risks": [
+    "A third of revenue comes from one customer and receivables are 85% of assets; if collections slip, the profit stays on paper.",
+    "In the latest quarter sales halved and profit fell 58%; nothing shows that the growth of earlier years is continuing."
+   ],
+   "watch": [
+    "Collection of trade receivables and operating cash flow",
+    "The path of quarterly sales"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-14",
+   "per": "2026-Q2"
+  }
  }
 }
