@@ -1,0 +1,223 @@
+{
+ "cc": "CH",
+ "fetched": "2026-11-14T23:14:30Z",
+ "errors": [],
+ "pb_fix": {
+  "paths": {
+   "cur": {
+    "n": 193,
+    "med": 1.0029,
+    "within10": 99.5,
+    "ok": true
+   },
+   "bvc": {
+    "n": 192,
+    "med": 1.0,
+    "within10": 100.0,
+    "ok": true
+   },
+   "bvq": {
+    "n": 192,
+    "med": 1.0,
+    "within10": 100.0,
+    "ok": true
+   },
+   "eq": {
+    "n": 193,
+    "med": 0.999,
+    "within10": 94.8,
+    "ok": true
+   },
+   "bvh": {
+    "n": 140,
+    "med": 1.0,
+    "within10": 100.0,
+    "ok": true
+   },
+   "bvy": {
+    "n": 191,
+    "med": 0.9999,
+    "within10": 80.1,
+    "ok": true
+   },
+   "eqy": {
+    "n": 192,
+    "med": 0.9921,
+    "within10": 74.5,
+    "ok": true
+   }
+  },
+  "counts": {
+   "cur": 3,
+   "eq": 1,
+   "bvy": 2
+  },
+  "neg": 5,
+  "nodata": 0,
+  "sa_asked": 0,
+  "sa_pages": 0,
+  "sa_reused": 0,
+  "sa_failed": 0,
+  "sa_blocked": false,
+  "missing_pct": 0.0,
+  "nodata_top": [],
+  "fixed_top": [
+   [
+    "TEMN",
+    16.009,
+    "cur"
+   ],
+   [
+    "GF",
+    177.233,
+    "eq"
+   ],
+   [
+    "AMS",
+    2.549,
+    "cur"
+   ],
+   [
+    "MOZN",
+    5.707,
+    "cur"
+   ],
+   [
+    "CNTL",
+    8.388,
+    "bvy"
+   ],
+   [
+    "SQL",
+    1.082,
+    "bvy"
+   ]
+  ]
+ },
+ "source": "TradingView tarayıcısı",
+ "market": "switzerland",
+ "total": 205,
+ "kept": 205,
+ "excluded": {},
+ "mcap_check": {
+  "pay sayısıyla tutmuyor": 9,
+  "tutarlı": 196
+ },
+ "cur": "CHF",
+ "pcur": "CHF",
+ "exchanges": {
+  "SIX": 200,
+  "BX": 5
+ },
+ "periods": {
+  "2026-H1": 178,
+  "2026-Q3": 18,
+  "2026-Q2": 4,
+  "2025-H2": 3,
+  "2026-H2": 2
+ },
+ "pe_fix": {
+  "eps_n": 155,
+  "eps_med": 1.0,
+  "eps_within5": 100.0,
+  "roe_n": 153,
+  "roe_med": 1.0294,
+  "roe_within25": 95.4,
+  "roe_scale": 1.0,
+  "eps_ok": true,
+  "counts": {
+   "loss": 41,
+   "eps": 2,
+   "nodata": 6
+  },
+  "nodata_top": [
+   "BMAG",
+   "DOCM",
+   "CNTL",
+   "SQL",
+   "XLS",
+   "MMTX"
+  ],
+  "fixed_top": [
+   [
+    "BEKN",
+    23.82,
+    "eps"
+   ],
+   [
+    "GLKBN",
+    14.5,
+    "eps"
+   ]
+  ]
+ },
+ "pe_filled_pct": 77.1,
+ "top5": [
+  {
+   "c": "RO",
+   "n": "Roche Holding Ltd",
+   "p": 412,
+   "m": 322765.3,
+   "pe": 26.88,
+   "pb": 10.041,
+   "per": "2026-H1"
+  },
+  {
+   "c": "NOVN",
+   "n": "Novartis AG",
+   "p": 134.06,
+   "m": 245403.4,
+   "pe": 32.31,
+   "pb": 8.145,
+   "per": "2026-Q3"
+  },
+  {
+   "c": "NESN",
+   "n": "Nestle S.A.",
+   "p": 87.72,
+   "m": 225635.6,
+   "pe": 30.38,
+   "pb": 7.719,
+   "per": "2026-H1"
+  },
+  {
+   "c": "ABBN",
+   "n": "ABB Ltd.",
+   "p": 69.96,
+   "m": 125728.9,
+   "pe": 31.92,
+   "pb": 9.133,
+   "per": "2026-Q3"
+  },
+  {
+   "c": "UBSG",
+   "n": "UBS Group AG",
+   "p": 40.45,
+   "m": 123847.5,
+   "pe": 16.78,
+   "pb": 1.657,
+   "per": "2026-Q3"
+  }
+ ],
+ "history": {
+  "candidates": 59,
+  "have": 56,
+  "fetched": 56,
+  "kept": 0,
+  "no_mapping": 1,
+  "failed": [
+   [
+    "RO",
+    404
+   ],
+   [
+    "BION",
+    404
+   ]
+  ],
+  "failed_n": 2,
+  "blocked": false,
+  "budget_left": 5874
+ },
+ "ok": true
+}

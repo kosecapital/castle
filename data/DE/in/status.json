@@ -1,0 +1,371 @@
+{
+ "cc": "DE",
+ "fetched": "2026-11-14T23:10:44Z",
+ "errors": [],
+ "pb_fix": {
+  "paths": {
+   "cur": {
+    "n": 348,
+    "med": 1.0038,
+    "within10": 98.9,
+    "ok": true
+   },
+   "bvc": {
+    "n": 348,
+    "med": 1.0,
+    "within10": 100.0,
+    "ok": true
+   },
+   "bvq": {
+    "n": 348,
+    "med": 1.0,
+    "within10": 100.0,
+    "ok": true
+   },
+   "eq": {
+    "n": 347,
+    "med": 0.9996,
+    "within10": 85.3,
+    "ok": true
+   },
+   "bvh": {
+    "n": 114,
+    "med": 1.0,
+    "within10": 100.0,
+    "ok": true
+   },
+   "bvy": {
+    "n": 343,
+    "med": 1.0056,
+    "within10": 68.5,
+    "ok": true
+   },
+   "eqy": {
+    "n": 343,
+    "med": 0.9957,
+    "within10": 60.6,
+    "ok": true
+   }
+  },
+  "counts": {
+   "cur": 25,
+   "sa": 1,
+   "bvy": 14
+  },
+  "neg": 9,
+  "nodata": 20,
+  "sa_asked": 1,
+  "sa_pages": 1,
+  "sa_reused": 0,
+  "sa_failed": 0,
+  "sa_blocked": false,
+  "missing_pct": 0.0,
+  "nodata_top": [
+   "BYW",
+   "D77",
+   "TIW",
+   "EVAC",
+   "HE8",
+   "HIGH",
+   "H9W",
+   "FXT",
+   "CCAP",
+   "ECF",
+   "5WV",
+   "WFA",
+   "CFC",
+   "ERW",
+   "AB9"
+  ],
+  "fixed_top": [
+   [
+    "SIE",
+    3.146,
+    "cur"
+   ],
+   [
+    "ALV",
+    3.123,
+    "cur"
+   ],
+   [
+    "ENR",
+    10.595,
+    "cur"
+   ],
+   [
+    "SHL",
+    2.566,
+    "cur"
+   ],
+   [
+    "HHFA",
+    3.102,
+    "cur"
+   ],
+   [
+    "DEQ",
+    0.646,
+    "cur"
+   ],
+   [
+    "RHK",
+    0.735,
+    "cur"
+   ],
+   [
+    "PAT",
+    0.599,
+    "cur"
+   ],
+   [
+    "MUM",
+    7.909,
+    "cur"
+   ],
+   [
+    "BVB",
+    1.16,
+    "cur"
+   ],
+   [
+    "ILM1",
+    0.522,
+    "cur"
+   ],
+   [
+    "2HRA",
+    0.605,
+    "cur"
+   ],
+   [
+    "ETG",
+    1.369,
+    "cur"
+   ],
+   [
+    "NF4",
+    8.412,
+    "bvy"
+   ],
+   [
+    "UBK",
+    0.522,
+    "cur"
+   ]
+  ]
+ },
+ "source": "TradingView tarayıcısı",
+ "market": "germany",
+ "total": 420,
+ "kept": 417,
+ "excluded": {
+  "fiyat ya da piyasa değeri yok": 3
+ },
+ "mcap_check": {
+  "tutarlı": 403,
+  "pay sayısıyla tutmuyor": 10,
+  "pay sayısı yok": 4
+ },
+ "cur": "EUR",
+ "pcur": "EUR",
+ "exchanges": {
+  "XETR": 413,
+  "FWB": 3,
+  "LS": 1
+ },
+ "periods": {
+  "2026-H1": 174,
+  "2026-Q3": 167,
+  "2026-Q2": 46,
+  "2026-Q1": 9,
+  "None": 9,
+  "2026-Q4": 5
+ },
+ "pe_fix": {
+  "eps_n": 222,
+  "eps_med": 1.0,
+  "eps_within5": 100.0,
+  "roe_n": 211,
+  "roe_med": 1.0364,
+  "roe_within25": 92.9,
+  "roe_scale": 1.0,
+  "eps_ok": true,
+  "counts": {
+   "eps": 17,
+   "loss": 118,
+   "nodata": 60
+  },
+  "nodata_top": [
+   "EUZ",
+   "BYW",
+   "CWC",
+   "V1NC",
+   "D77",
+   "ERAG",
+   "XK4",
+   "SRAG",
+   "NF4",
+   "UBK",
+   "TIW",
+   "EVAC",
+   "HE8",
+   "BKHT",
+   "1SMA"
+  ],
+  "fixed_top": [
+   [
+    "ALV",
+    15.48,
+    "eps"
+   ],
+   [
+    "MUV2",
+    11.34,
+    "eps"
+   ],
+   [
+    "OHB",
+    78.4,
+    "eps"
+   ],
+   [
+    "AG1",
+    33.14,
+    "eps"
+   ],
+   [
+    "VBK",
+    14.57,
+    "eps"
+   ],
+   [
+    "DEQ",
+    5.71,
+    "eps"
+   ],
+   [
+    "RHK",
+    22.9,
+    "eps"
+   ],
+   [
+    "GFT",
+    17.24,
+    "eps"
+   ],
+   [
+    "PAT",
+    23.05,
+    "eps"
+   ],
+   [
+    "MUM",
+    17.32,
+    "eps"
+   ],
+   [
+    "DR0",
+    2.47,
+    "eps"
+   ],
+   [
+    "ILM1",
+    32.53,
+    "eps"
+   ],
+   [
+    "2HRA",
+    10.92,
+    "eps"
+   ],
+   [
+    "ETG",
+    22.52,
+    "eps"
+   ],
+   [
+    "HMU",
+    2.23,
+    "eps"
+   ]
+  ]
+ },
+ "pe_filled_pct": 57.3,
+ "top5": [
+  {
+   "c": "SAP",
+   "n": "SAP SE",
+   "p": 213.45,
+   "m": 249215.5,
+   "pe": 30.31,
+   "pb": 5.245,
+   "per": "2026-Q3"
+  },
+  {
+   "c": "SIE",
+   "n": "Siemens AG",
+   "p": 279.4,
+   "m": 212976.6,
+   "pe": 25.77,
+   "pb": 3.146,
+   "per": "2026-Q4"
+  },
+  {
+   "c": "ALV",
+   "n": "Allianz SE",
+   "p": 477.2,
+   "m": 177731.3,
+   "pe": 15.48,
+   "pb": 3.123,
+   "per": "2026-Q3"
+  },
+  {
+   "c": "DTE",
+   "n": "Deutsche Telekom AG",
+   "p": 26.6,
+   "m": 127217.4,
+   "pe": 14.27,
+   "pb": 2.042,
+   "per": "2026-Q3"
+  },
+  {
+   "c": "ENR",
+   "n": "Siemens Energy AG",
+   "p": 131.28,
+   "m": 110382.5,
+   "pe": 29.9,
+   "pb": 10.595,
+   "per": "2026-Q4"
+  }
+ ],
+ "history": {
+  "candidates": 73,
+  "have": 69,
+  "fetched": 69,
+  "kept": 0,
+  "no_mapping": 0,
+  "failed": [
+   [
+    "FPE",
+    404
+   ],
+   [
+    "XTP",
+    404
+   ],
+   [
+    "93M1",
+    404
+   ],
+   [
+    "CEK",
+    404
+   ]
+  ],
+  "failed_n": 4,
+  "blocked": false,
+  "budget_left": 5930
+ },
+ "ok": true
+}
