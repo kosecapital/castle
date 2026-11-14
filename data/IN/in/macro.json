@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-12T16:13:14Z",
+ "fetched": "2026-11-14T03:33:22Z",
  "cur": "INR",
  "pcur": "INR",
  "years": [
@@ -9,7 +9,7 @@
   "2024",
   "2025"
  ],
- "fx": 94.033,
+ "fx": 94.23,
  "mcapMin": 6000,
  "cpi_cur": 6.09,
  "cpi_cur_src": "TradingView ECONOMICS:INIRYY (son açıklanan yıllık TÜFE)",

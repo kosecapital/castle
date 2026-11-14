@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-12T16:05:26Z",
+ "fetched": "2026-11-14T03:25:28Z",
  "cur": "TWD",
  "pcur": "TWD",
  "years": [
@@ -9,7 +9,7 @@
   "2024",
   "2025"
  ],
- "fx": 32.978,
+ "fx": 32.878,
  "mcapMin": 2000,
  "cpi_cur": 2.33,
  "cpi_cur_src": "TradingView ECONOMICS:TWIRYY (son açıklanan yıllık TÜFE)",

@@ -1,29 +1,94 @@
 {
- "when": "2026-11-13T23:19:25Z",
+ "when": "2026-11-14T04:14:06Z",
  "args": [
-  "--new",
-  "2"
+  "--refresh"
  ],
  "results": [
   {
-   "cc": "CA",
+   "cc": "US",
    "ok": true,
-   "fetched": "2026-11-13T23:16:13Z",
-   "n": 2440,
-   "candidates": 147,
-   "pages": 147,
-   "missing": 0,
+   "fetched": "2026-11-14T02:50:46Z",
+   "n": 4936,
+   "candidates": 837,
+   "pages": 834,
+   "missing": 2,
    "blocked": false,
    "errors": []
   },
   {
-   "cc": "FR",
+   "cc": "CN",
    "ok": true,
-   "fetched": "2026-11-13T23:18:19Z",
-   "n": 573,
-   "candidates": 57,
-   "pages": 57,
-   "missing": 0,
+   "fetched": "2026-11-14T03:04:49Z",
+   "n": 5233,
+   "candidates": 707,
+   "pages": 689,
+   "missing": 18,
+   "blocked": false,
+   "errors": []
+  },
+  {
+   "cc": "JP",
+   "ok": true,
+   "fetched": "2026-11-14T03:15:04Z",
+   "n": 3864,
+   "candidates": 689,
+   "pages": 682,
+   "missing": 7,
+   "blocked": false,
+   "errors": []
+  },
+  {
+   "cc": "TW",
+   "ok": true,
+   "fetched": "2026-11-14T03:25:27Z",
+   "n": 2305,
+   "candidates": 538,
+   "pages": 533,
+   "missing": 5,
+   "blocked": false,
+   "errors": []
+  },
+  {
+   "cc": "IN",
+   "ok": true,
+   "fetched": "2026-11-14T03:33:21Z",
+   "n": 4851,
+   "candidates": 481,
+   "pages": 437,
+   "missing": 44,
+   "blocked": false,
+   "errors": []
+  },
+  {
+   "cc": "GB",
+   "ok": true,
+   "fetched": "2026-11-14T03:43:23Z",
+   "n": 1065,
+   "candidates": 166,
+   "pages": 164,
+   "missing": 2,
+   "blocked": false,
+   "errors": []
+  },
+  {
+   "cc": "KR",
+   "ok": true,
+   "fetched": "2026-11-14T03:52:23Z",
+   "n": 2623,
+   "candidates": 254,
+   "pages": 249,
+   "missing": 5,
+   "blocked": false,
+   "errors": []
+  },
+  {
+   "cc": "TR",
+   "ok": true,
+   "fetched": "2026-11-14T04:12:26Z",
+   "n": 629,
+   "candidates": 66,
+   "pages": 65,
+   "missing": 1,
    "blocked": false,
    "errors": []
   }

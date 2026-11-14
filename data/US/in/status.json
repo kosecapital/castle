@@ -1,61 +1,62 @@
 {
  "cc": "US",
- "fetched": "2026-11-12T15:29:13Z",
+ "fetched": "2026-11-14T02:50:46Z",
  "errors": [],
  "pb_fix": {
   "paths": {
    "cur": {
-    "n": 4278,
-    "med": 1.001,
-    "within10": 92.8,
+    "n": 4307,
+    "med": 1.0006,
+    "within10": 94.7,
     "ok": true
    },
    "bvc": {
-    "n": 4277,
+    "n": 4307,
     "med": 1.0,
     "within10": 100.0,
     "ok": true
    },
    "bvq": {
-    "n": 4277,
+    "n": 4307,
     "med": 1.0,
     "within10": 100.0,
     "ok": true
    },
    "eq": {
-    "n": 4301,
+    "n": 4331,
     "med": 1.0,
-    "within10": 81.4,
+    "within10": 82.1,
     "ok": false
    },
    "bvh": {
-    "n": 195,
+    "n": 202,
     "med": 1.0,
     "within10": 100.0,
     "ok": true
    },
    "bvy": {
-    "n": 4016,
-    "med": 1.0094,
-    "within10": 57.2,
+    "n": 4026,
+    "med": 1.0103,
+    "within10": 56.5,
     "ok": true
    },
    "eqy": {
-    "n": 4099,
-    "med": 1.0099,
-    "within10": 47.8,
+    "n": 4115,
+    "med": 1.011,
+    "within10": 47.5,
     "ok": true
    }
   },
   "counts": {
-   "cur": 130,
-   "bvy": 63,
-   "eqy": 13
+   "cur": 113,
+   "sa": 1,
+   "eqy": 13,
+   "bvy": 62
   },
-  "neg": 380,
-  "nodata": 31,
-  "sa_asked": 0,
-  "sa_pages": 0,
+  "neg": 370,
+  "nodata": 30,
+  "sa_asked": 1,
+  "sa_pages": 1,
   "sa_reused": 0,
   "sa_failed": 0,
   "sa_blocked": false,
@@ -63,139 +64,139 @@
   "nodata_top": [
    "HUBG",
    "ASBH",
-   "IMC",
-   "XIII",
    "HYAC",
+   "XIII",
    "SCQC",
    "ETS",
    "SRL",
+   "RCT",
    "NAMM",
    "EDHL",
    "JBDI",
-   "CRMN",
+   "TGHL",
    "SNSC",
    "STAK",
-   "NCPL"
+   "CFND"
   ],
   "fixed_top": [
    [
-    "EQIX",
-    7.15,
+    "CSCO",
+    8.005,
     "cur"
    ],
    [
-    "JCI",
-    6.34,
+    "AMAT",
+    11.797,
+    "cur"
+   ],
+   [
+    "BN",
+    2.201,
     "cur"
    ],
    [
     "APD",
-    5.008,
+    5.072,
     "cur"
    ],
    [
     "COR",
-    21.811,
+    21.852,
     "cur"
    ],
    [
     "BDX",
-    2.372,
-    "cur"
-   ],
-   [
-    "WAT",
-    3.056,
-    "cur"
-   ],
-   [
-    "ROK",
-    12.629,
+    2.406,
     "cur"
    ],
    [
     "VIK",
-    36.376,
+    36.71,
     "cur"
    ],
    [
     "RBLX",
-    240.555,
-    "cur"
-   ],
-   [
-    "CRWV",
-    5.344,
+    241.635,
     "cur"
    ],
    [
     "PPL",
-    1.786,
+    1.761,
     "cur"
    ],
    [
     "BIP",
-    4.096,
+    4.061,
     "cur"
    ],
    [
     "LVS",
-    45.528,
-    "cur"
-   ],
-   [
-    "SWKS",
-    2.158,
+    43.866,
     "cur"
    ],
    [
     "PTC",
-    6.272,
+    6.262,
+    "cur"
+   ],
+   [
+    "CLX",
+    145.381,
+    "cur"
+   ],
+   [
+    "QXO",
+    0.997,
+    "cur"
+   ],
+   [
+    "HALO",
+    79.98,
     "cur"
    ]
   ]
  },
  "source": "TradingView tarayıcısı",
  "market": "america",
- "total": 7362,
- "kept": 4934,
+ "total": 7412,
+ "kept": 4936,
  "excluded": {
-  "OTC": 2424,
-  "fiyat ya da piyasa değeri yok": 4
+  "OTC": 2469,
+  "fiyat ya da piyasa değeri yok": 7
  },
  "mcap_check": {
-  "tutarlı": 4630,
-  "pay sayısıyla tutmuyor": 288,
-  "pay sayısı yok": 16
+  "tutarlı": 4639,
+  "pay sayısıyla tutmuyor": 282,
+  "pay sayısı yok": 15
  },
  "cur": "USD",
  "pcur": "USD",
  "exchanges": {
-  "NASDAQ": 3121,
+  "NASDAQ": 3122,
   "NYSE": 1606,
-  "AMEX": 206,
+  "AMEX": 207,
   "CBOE": 1
  },
  "periods": {
-  "2026-Q3": 2819,
-  "2026-Q2": 1394,
-  "2026-H1": 215,
-  "2026-Q4": 152,
-  "2026-Q1": 118,
-  "2027-Q1": 115
+  "2026-Q3": 3285,
+  "2026-Q2": 931,
+  "2026-H1": 217,
+  "2026-Q4": 144,
+  "2027-Q1": 137,
+  "2026-Q1": 104
  },
  "pe_fix": {
-  "eps_n": 2904,
+  "eps_n": 2925,
   "eps_med": 1.0,
   "eps_within5": 100.0,
-  "roe_n": 2620,
-  "roe_med": 1.0494,
-  "roe_within25": 86.5,
+  "roe_n": 2661,
+  "roe_med": 1.0493,
+  "roe_within25": 86.0,
   "roe_scale": 1.0,
   "eps_ok": true,
   "counts": {
-   "nodata": 390,
-   "loss": 2009,
+   "nodata": 385,
+   "loss": 2004,
    "roe": 4,
    "eps": 6
   },
@@ -208,43 +209,43 @@
    "FDXF",
    "MAIR",
    "JAN",
-   "QNT",
    "LLYVA",
+   "QNT",
    "MBGL",
    "JMKE",
-   "MANE",
    "OCTV",
+   "MANE",
    "MWH"
   ],
   "fixed_top": [
    [
     "WSE",
-    21.88,
+    22.28,
     "roe"
    ],
    [
     "GLNG",
-    26.64,
+    26.8,
     "eps"
    ],
    [
     "TK",
-    6.23,
+    5.63,
     "eps"
    ],
    [
     "CMTV",
-    14.24,
+    14.78,
     "eps"
    ],
    [
     "OVBC",
-    15.96,
+    15.7,
     "eps"
    ],
    [
     "FGBI",
-    11.34,
+    11.02,
     "eps"
    ],
    [
@@ -254,80 +255,76 @@
    ],
    [
     "BVC",
-    33.25,
+    30.64,
     "roe"
    ],
    [
     "SPCB",
-    44.95,
+    174.79,
     "eps"
    ],
    [
     "THH",
-    419.92,
+    403.09,
     "roe"
    ]
   ]
  },
- "pe_filled_pct": 51.3,
+ "pe_filled_pct": 51.5,
  "top5": [
   {
    "c": "AAPL",
    "n": "Apple Inc.",
-   "p": 357.755,
-   "m": 5198960.7,
-   "pe": 39.86,
-   "pb": 46.381,
+   "p": 356.27,
+   "m": 5177380.4,
+   "pe": 39.7,
+   "pb": 46.189,
    "per": "2026-Q4"
-  },
-  {
-   "c": "MSFT",
-   "n": "Microsoft Corporation",
-   "p": 525.4,
-   "m": 3901722.5,
-   "pe": 27.44,
-   "pb": 8.293,
-   "per": "2027-Q1"
   },
   {
    "c": "NVDA",
    "n": "NVIDIA Corporation",
-   "p": 161.485,
-   "m": 3891788.4,
-   "pe": 20.41,
-   "pb": 17.029,
+   "p": 162.85,
+   "m": 3924685.1,
+   "pe": 20.59,
+   "pb": 17.173,
    "per": "2026-Q2"
+  },
+  {
+   "c": "MSFT",
+   "n": "Microsoft Corporation",
+   "p": 523.88,
+   "m": 3890434.7,
+   "pe": 27.36,
+   "pb": 8.269,
+   "per": "2027-Q1"
   },
   {
    "c": "GOOGL",
    "n": "Alphabet Inc.",
-   "p": 295.24,
-   "m": 3593037.4,
-   "pe": 15.41,
-   "pb": 5.503,
+   "p": 295.77,
+   "m": 3596863.0,
+   "pe": 15.44,
+   "pb": 5.513,
    "per": "2026-Q3"
   },
   {
    "c": "AMZN",
    "n": "Amazon.com, Inc.",
-   "p": 271.6187,
-   "m": 2937050.6,
-   "pe": 21.95,
-   "pb": 4.786,
+   "p": 266.66,
+   "m": 2883431.3,
+   "pe": 21.55,
+   "pb": 4.698,
    "per": "2026-Q3"
   }
  ],
  "history": {
-  "candidates": 832,
-  "have": 829,
-  "fetched": 829,
-  "kept": 0,
+  "candidates": 837,
+  "have": 835,
+  "fetched": 834,
+  "kept": 1,
   "no_mapping": 0,
   "failed": [
-   [
-    "ARCL",
-    404
-   ],
    [
     "SIMA",
     404
@@ -337,9 +334,9 @@
     404
    ]
   ],
-  "failed_n": 3,
+  "failed_n": 2,
   "blocked": false,
-  "budget_left": 5171
+  "budget_left": 5165
  },
  "ok": true
 }

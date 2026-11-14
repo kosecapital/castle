@@ -1,31 +1,31 @@
 {
  "cc": "CN",
- "fetched": "2026-11-12T15:42:41Z",
+ "fetched": "2026-11-14T03:04:49Z",
  "errors": [],
  "pb_fix": {
   "paths": {
    "cur": {
-    "n": 5168,
-    "med": 1.0163,
-    "within10": 99.3,
+    "n": 5167,
+    "med": 1.02,
+    "within10": 97.9,
     "ok": true
    },
    "bvc": {
-    "n": 5163,
+    "n": 5162,
     "med": 1.0,
     "within10": 100.0,
     "ok": true
    },
    "bvq": {
-    "n": 5163,
+    "n": 5162,
     "med": 1.0,
     "within10": 100.0,
     "ok": true
    },
    "eq": {
-    "n": 5161,
-    "med": 0.994,
-    "within10": 75.9,
+    "n": 5160,
+    "med": 0.9977,
+    "within10": 75.2,
     "ok": false
    },
    "bvh": {
@@ -35,24 +35,24 @@
     "ok": false
    },
    "bvy": {
-    "n": 5154,
+    "n": 5153,
     "med": 1.0118,
     "within10": 81.3,
     "ok": true
    },
    "eqy": {
-    "n": 5156,
-    "med": 0.9963,
-    "within10": 63.0,
+    "n": 5155,
+    "med": 1.0008,
+    "within10": 62.3,
     "ok": true
    }
   },
   "counts": {
-   "cur": 12,
+   "cur": 11,
    "bvy": 4
   },
   "neg": 49,
-  "nodata": 2,
+  "nodata": 1,
   "sa_asked": 0,
   "sa_pages": 0,
   "sa_reused": 0,
@@ -60,123 +60,122 @@
   "sa_blocked": false,
   "missing_pct": 0.0,
   "nodata_top": [
-   "000803",
-   "002731"
+   "000803"
   ],
   "fixed_top": [
    [
     "601088",
-    2.378,
+    2.428,
     "bvy"
    ],
    [
     "600028",
-    0.817,
+    0.834,
     "bvy"
    ],
    [
     "601668",
-    0.38,
+    0.382,
     "cur"
    ],
    [
     "000002",
-    0.32,
+    0.312,
     "bvy"
    ],
    [
     "301109",
-    1.493,
+    1.473,
     "cur"
    ],
    [
     "688827",
-    9.774,
+    8.553,
     "bvy"
    ],
    [
     "600881",
-    49.496,
-    "cur"
-   ],
-   [
-    "300402",
-    2.16,
+    48.579,
     "cur"
    ],
    [
     "002356",
-    5.163,
+    5.119,
     "cur"
    ],
    [
     "300068",
-    8.758,
+    8.451,
     "cur"
    ],
    [
     "600831",
-    46.059,
-    "cur"
-   ],
-   [
-    "002513",
-    305.955,
+    44.363,
     "cur"
    ],
    [
     "000692",
-    53.603,
+    53.74,
+    "cur"
+   ],
+   [
+    "002513",
+    303.217,
     "cur"
    ],
    [
     "300477",
-    882.096,
+    855.895,
     "cur"
    ],
    [
     "300422",
-    2.867,
+    2.826,
+    "cur"
+   ],
+   [
+    "200468",
+    338.043,
     "cur"
    ]
   ]
  },
  "source": "TradingView tarayıcısı",
  "market": "china",
- "total": 5241,
- "kept": 5236,
+ "total": 5238,
+ "kept": 5233,
  "excluded": {
   "fiyat ya da piyasa değeri yok": 5
  },
  "mcap_check": {
-  "tutarlı": 4659,
-  "pay sayısıyla tutmuyor": 577
+  "tutarlı": 4650,
+  "pay sayısıyla tutmuyor": 583
  },
  "cur": "CNY",
  "pcur": "CNY",
  "exchanges": {
-  "SZSE": 2919,
+  "SZSE": 2916,
   "SSE": 2317
  },
  "periods": {
-  "2026-Q3": 5073,
-  "2026-Q2": 142,
+  "2026-Q3": 5117,
+  "2026-Q2": 95,
   "2026-H1": 15,
   "2026-Q1": 4,
   "None": 2
  },
  "pe_fix": {
-  "eps_n": 3509,
+  "eps_n": 3505,
   "eps_med": 1.0,
   "eps_within5": 100.0,
-  "roe_n": 3474,
-  "roe_med": 1.0199,
+  "roe_n": 3470,
+  "roe_med": 1.02,
   "roe_within25": 97.2,
   "roe_scale": 1.0,
   "eps_ok": true,
   "counts": {
-   "nodata": 81,
-   "loss": 1642,
+   "nodata": 80,
+   "loss": 1644,
    "eps": 1
   },
   "nodata_top": [
@@ -199,7 +198,7 @@
   "fixed_top": [
    [
     "000708",
-    10.79,
+    10.9,
     "eps"
    ]
   ]
@@ -209,53 +208,53 @@
   {
    "c": "601398",
    "n": "Industrial and Commercial Bank of China Limited Class A",
-   "p": 8.69,
-   "m": 2884618.4,
-   "pe": 8.06,
-   "pb": 0.773,
+   "p": 8.85,
+   "m": 2924088.7,
+   "pe": 8.21,
+   "pb": 0.787,
    "per": "2026-Q3"
   },
   {
    "c": "688825",
    "n": "CXMT Corporation Class A",
-   "p": 40.97,
-   "m": 2855884.0,
+   "p": 39.98,
+   "m": 2781211.6,
    "pe": null,
-   "pb": 10.827,
+   "pb": 10.565,
    "per": "2026-Q3"
   },
   {
    "c": "601288",
    "n": "Agricultural Bank of China Limited Class A",
-   "p": 7.26,
-   "m": 2498894.9,
+   "p": 7.37,
+   "m": 2497752.6,
    "pe": null,
-   "pb": 0.877,
+   "pb": 0.89,
    "per": "2026-Q3"
   },
   {
    "c": "601939",
    "n": "China Construction Bank Corporation Class A",
-   "p": 12.01,
-   "m": 2401316.4,
-   "pe": 8.96,
-   "pb": 0.878,
+   "p": 12.11,
+   "m": 2390668.4,
+   "pe": 9.03,
+   "pb": 0.885,
    "per": "2026-Q2"
   },
   {
    "c": "601857",
    "n": "PetroChina Co., Ltd. Class A",
-   "p": 12.03,
-   "m": 2113450.6,
+   "p": 12.39,
+   "m": 2130407.6,
    "pe": null,
-   "pb": 1.355,
+   "pb": 1.396,
    "per": "2026-Q1"
   }
  ],
  "history": {
-  "candidates": 705,
-  "have": 687,
-  "fetched": 687,
+  "candidates": 707,
+  "have": 689,
+  "fetched": 689,
   "kept": 0,
   "no_mapping": 0,
   "failed": [
@@ -334,7 +333,7 @@
   ],
   "failed_n": 18,
   "blocked": false,
-  "budget_left": 4484
+  "budget_left": 4476
  },
  "ok": true
 }

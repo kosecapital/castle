@@ -1,6 +1,6 @@
 {
  "cc": "TR",
- "fetched": "2026-11-12T16:22:06Z",
+ "fetched": "2026-11-14T04:12:26Z",
  "errors": [],
  "source": "İş Yatırım: temel değerler ve oranlar",
  "market": "turkey",
@@ -9,20 +9,20 @@
  "excluded": {},
  "cur": "TRY",
  "pcur": "TRY",
- "price_date": "2026-11-11",
+ "price_date": "2026-11-13",
  "periods": {
   "9/2026": 583,
   "6/2026": 35,
   "3/2026": 11
  },
- "implied_fx": 50.26,
- "pe_filled_pct": 45.5,
+ "implied_fx": 50.283,
+ "pe_filled_pct": 45.3,
  "top5": [
   {
    "c": "ASELS",
    "n": "Aselsan",
-   "p": 344.75,
-   "m": 1572060.0,
+   "p": 345.5,
+   "m": 1575480.0,
    "pe": 32.4,
    "pb": 4.7,
    "per": "9/2026"
@@ -30,17 +30,17 @@
   {
    "c": "QNBTR",
    "n": "QNB Bank",
-   "p": 141.5,
-   "m": 778250.0,
-   "pe": 13.5,
-   "pb": 3.6,
+   "p": 152.0,
+   "m": 836000.0,
+   "pe": 14.5,
+   "pb": 3.9,
    "per": "9/2026"
   },
   {
    "c": "TUPRS",
    "n": "Tüpraş",
-   "p": 357.0,
-   "m": 687866.0,
+   "p": 359.0,
+   "m": 691719.6,
    "pe": 5.3,
    "pb": 1.3,
    "per": "9/2026"
@@ -48,17 +48,17 @@
   {
    "c": "GARAN",
    "n": "Garanti Bankası",
-   "p": 152.6,
-   "m": 640920.0,
-   "pe": 5.2,
+   "p": 150.3,
+   "m": 631260.0,
+   "pe": 5.1,
    "pb": 1.2,
    "per": "9/2026"
   },
   {
    "c": "KCHOL",
    "n": "Koç Holding",
-   "p": 208.2,
-   "m": 527974.0,
+   "p": 207.5,
+   "m": 526198.8,
    "pe": 8.1,
    "pb": 0.6,
    "per": "9/2026"
@@ -78,9 +78,9 @@
   "fixed_top": []
  },
  "history": {
-  "candidates": 68,
-  "have": 68,
-  "fetched": 67,
+  "candidates": 66,
+  "have": 66,
+  "fetched": 65,
   "kept": 0,
   "no_mapping": 0,
   "failed": [
@@ -91,7 +91,7 @@
   ],
   "failed_n": 1,
   "blocked": false,
-  "budget_left": 2738
+  "budget_left": 2345
  },
  "ok": true
 }

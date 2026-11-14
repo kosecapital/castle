@@ -1,158 +1,158 @@
 {
  "cc": "IN",
- "fetched": "2026-11-12T16:13:13Z",
+ "fetched": "2026-11-14T03:33:21Z",
  "errors": [],
  "pb_fix": {
   "paths": {
    "cur": {
-    "n": 3001,
-    "med": 0.9987,
-    "within10": 99.1,
+    "n": 3391,
+    "med": 1.004,
+    "within10": 99.0,
     "ok": true
    },
    "bvc": {
-    "n": 3001,
+    "n": 3391,
     "med": 1.0,
     "within10": 100.0,
     "ok": true
    },
    "bvq": {
-    "n": 3001,
+    "n": 3391,
     "med": 1.0,
     "within10": 100.0,
     "ok": true
    },
    "eq": {
-    "n": 3002,
-    "med": 0.9967,
-    "within10": 91.2,
+    "n": 3392,
+    "med": 1.0,
+    "within10": 91.7,
     "ok": true
    },
    "bvh": {
-    "n": 712,
+    "n": 725,
     "med": 1.0,
-    "within10": 98.5,
+    "within10": 98.3,
     "ok": true
    },
    "bvy": {
-    "n": 2915,
-    "med": 1.0407,
-    "within10": 73.8,
+    "n": 3289,
+    "med": 1.0432,
+    "within10": 72.8,
     "ok": true
    },
    "eqy": {
-    "n": 2972,
-    "med": 1.0384,
-    "within10": 70.1,
+    "n": 3355,
+    "med": 1.0482,
+    "within10": 66.6,
     "ok": true
    }
   },
   "counts": {
-   "cur": 1398,
-   "eq": 12,
-   "sa": 8,
-   "bvy": 6,
-   "eqy": 43
+   "cur": 1019,
+   "eq": 11,
+   "sa": 9,
+   "eqy": 37,
+   "bvy": 4
   },
-  "neg": 217,
-  "nodata": 164,
-  "sa_asked": 8,
-  "sa_pages": 0,
+  "neg": 219,
+  "nodata": 159,
+  "sa_asked": 9,
+  "sa_pages": 1,
   "sa_reused": 8,
   "sa_failed": 0,
   "sa_blocked": false,
   "missing_pct": 0.0,
   "nodata_top": [
-   "AONESTEELS",
-   "LORDSMARK",
    "RUNWALENTR",
+   "LORDSMARK",
+   "AONESTEELS",
    "SPICEJET",
-   "SWARAJ",
    "MKJEWELS",
+   "SWARAJ",
    "JSIPL",
    "JAYTEX",
    "DCMSIL",
    "REGENCY",
-   "BCSSL",
    "ACSTECH",
-   "PSTITANIA",
+   "BCSSL",
    "SCAGRO",
-   "CSML"
+   "PSTITANIA",
+   "PHCAP"
   ],
   "fixed_top": [
    [
-    "HAL",
-    8.065,
-    "cur"
-   ],
-   [
     "GRASIM",
-    2.069,
+    2.042,
     "cur"
    ],
    [
     "EICHERMOT",
-    8.297,
+    8.25,
     "cur"
    ],
    [
     "VBL",
-    6.737,
-    "cur"
-   ],
-   [
-    "POWERINDIA",
-    25.059,
-    "cur"
-   ],
-   [
-    "TATAPOWER",
-    2.775,
+    6.758,
     "cur"
    ],
    [
     "TMPV",
-    0.983,
+    0.977,
     "cur"
    ],
    [
     "ENRIN",
-    21.924,
+    22.482,
     "cur"
    ],
    [
     "ASHOKLEY",
-    7.172,
+    7.174,
     "cur"
    ],
    [
     "MANIPALHOS",
-    9.833,
-    "cur"
-   ],
-   [
-    "OIL",
-    1.25,
-    "cur"
-   ],
-   [
-    "ALKEM",
-    4.713,
+    9.819,
     "cur"
    ],
    [
     "INDOMIM",
-    22.094,
-    "cur"
-   ],
-   [
-    "NMDC",
-    1.851,
+    21.938,
     "cur"
    ],
    [
     "SCHAEFFLER",
-    9.023,
+    9.024,
+    "cur"
+   ],
+   [
+    "FACT",
+    38.44,
+    "cur"
+   ],
+   [
+    "PATANJALI",
+    3.579,
+    "cur"
+   ],
+   [
+    "PTCIL",
+    23.974,
+    "cur"
+   ],
+   [
+    "GODREJIND",
+    3.267,
+    "cur"
+   ],
+   [
+    "CRISIL",
+    9.731,
+    "cur"
+   ],
+   [
+    "ITI",
+    12.683,
     "cur"
    ]
   ]
@@ -165,9 +165,9 @@
   "fiyat ya da piyasa değeri yok": 622
  },
  "mcap_check": {
-  "tutarlı": 4741,
+  "tutarlı": 4737,
   "pay sayısı yok": 94,
-  "pay sayısıyla tutmuyor": 16
+  "pay sayısıyla tutmuyor": 20
  },
  "cur": "INR",
  "pcur": "INR",
@@ -176,26 +176,26 @@
   "BSE": 1680
  },
  "periods": {
-  "2026-Q2": 2263,
-  "2026-Q1": 1595,
-  "2025-H2": 435,
-  "2026-H1": 352,
-  "None": 154,
-  "2025-Q4": 34
+  "2026-Q2": 2690,
+  "2026-Q1": 1170,
+  "2025-H2": 404,
+  "2026-H1": 394,
+  "None": 142,
+  "2025-Q4": 30
  },
  "pe_fix": {
-  "eps_n": 3588,
+  "eps_n": 3593,
   "eps_med": 1.0,
   "eps_within5": 100.0,
-  "roe_n": 2328,
-  "roe_med": 1.0648,
-  "roe_within25": 91.3,
+  "roe_n": 2634,
+  "roe_med": 1.0633,
+  "roe_within25": 92.1,
   "roe_scale": 1.0,
   "eps_ok": true,
   "counts": {
-   "nodata": 350,
-   "loss": 815,
-   "roe": 97,
+   "nodata": 360,
+   "loss": 811,
+   "roe": 86,
    "eps": 5
   },
   "nodata_top": [
@@ -212,94 +212,94 @@
    "LALITHAA",
    "SHADOWFAX",
    "MOLBIO",
-   "JNPR",
-   "ESDS"
+   "ESDS",
+   "JNPR"
   ],
   "fixed_top": [
    [
-    "EDELALTS",
-    42.18,
-    "roe"
-   ],
-   [
-    "HDFIRE",
-    50.36,
-    "roe"
-   ],
-   [
-    "ORIENTCABL",
-    63.05,
+    "SFCTECH",
+    29.32,
     "roe"
    ],
    [
     "AIMTRON",
-    66.66,
+    66.32,
     "eps"
    ],
    [
-    "SFCTECH",
-    28.14,
-    "roe"
-   ],
-   [
     "MILLWORKS",
-    29.47,
+    27.07,
     "roe"
    ],
    [
     "BLSPOLY",
-    33.58,
+    38.79,
     "roe"
    ],
    [
     "HYPERSOFT",
-    106.15,
+    101.65,
     "eps"
    ],
    [
     "MRTX",
-    31.5,
+    31.09,
     "roe"
    ],
    [
     "TIPCO",
-    16.39,
+    17.2,
     "roe"
    ],
    [
     "SJLOGISTIC",
-    6.38,
+    6.11,
     "roe"
    ],
    [
     "BRAHMINFRA",
-    7.5,
+    7.52,
     "eps"
    ],
    [
     "RAKSAN",
-    11.63,
-    "roe"
-   ],
-   [
-    "VPAL",
-    27.71,
+    10.48,
     "roe"
    ],
    [
     "SPEEDEX",
-    21.45,
+    21.78,
+    "roe"
+   ],
+   [
+    "RAVITA",
+    6.32,
+    "roe"
+   ],
+   [
+    "WISCON",
+    12.89,
+    "roe"
+   ],
+   [
+    "VPAL",
+    30.03,
+    "roe"
+   ],
+   [
+    "KWICK",
+    24.01,
     "roe"
    ]
   ]
  },
- "pe_filled_pct": 76.0,
+ "pe_filled_pct": 75.9,
  "top5": [
   {
    "c": "RELIANCE",
    "n": "Reliance Industries Limited",
    "p": 1339.7,
-   "m": 18044287.9,
+   "m": 18053760.0,
    "pe": 22.08,
    "pb": 1.92,
    "per": "2026-Q2"
@@ -307,44 +307,44 @@
   {
    "c": "BHARTIARTL",
    "n": "Bharti Airtel Limited",
-   "p": 2096,
-   "m": 13141680.0,
-   "pe": 41.72,
-   "pb": 8.275,
+   "p": 2106,
+   "m": 13048122.7,
+   "pe": 41.92,
+   "pb": 8.314,
    "per": "2026-Q2"
   },
   {
    "c": "JPL",
    "n": "Jio Platforms Limited",
-   "p": 1395.9,
-   "m": 12928098.3,
+   "p": 1400.7,
+   "m": 12859030.6,
    "pe": null,
-   "pb": 3.649,
+   "pb": 3.661,
    "per": "2026-Q2"
   },
   {
    "c": "HDFCBANK",
    "n": "HDFC Bank Limited",
-   "p": 812.3,
-   "m": 12480093.9,
-   "pe": 15.66,
-   "pb": 2.058,
+   "p": 804,
+   "m": 12528705.1,
+   "pe": 15.5,
+   "pb": 2.037,
    "per": "2026-Q2"
   },
   {
    "c": "ICICIBANK",
    "n": "ICICI Bank Limited",
-   "p": 1590,
-   "m": 11274465.1,
-   "pe": 19.53,
-   "pb": 2.923,
+   "p": 1583.6,
+   "m": 11405881.2,
+   "pe": 19.45,
+   "pb": 2.911,
    "per": "2026-Q2"
   }
  ],
  "history": {
-  "candidates": 502,
-  "have": 459,
-  "fetched": 459,
+  "candidates": 481,
+  "have": 437,
+  "fetched": 437,
   "kept": 0,
   "no_mapping": 0,
   "failed": [
@@ -377,19 +377,7 @@
     404
    ],
    [
-    "AMIC",
-    404
-   ],
-   [
-    "MODINSU",
-    404
-   ],
-   [
     "ZELIO",
-    404
-   ],
-   [
-    "AAYUSHBULL",
     404
    ],
    [
@@ -397,11 +385,11 @@
     404
    ],
    [
-    "TITANBIO",
+    "GHVINFRA",
     404
    ],
    [
-    "GHVINFRA",
+    "TITANBIO",
     404
    ],
    [
@@ -417,11 +405,11 @@
     404
    ],
    [
-    "KSSMART",
+    "SVRL",
     404
    ],
    [
-    "SVRL",
+    "KSSMART",
     404
    ],
    [
@@ -441,15 +429,15 @@
     404
    ],
    [
-    "VIKRAMTH",
-    404
-   ],
-   [
     "FOSECOC",
     404
    ],
    [
     "INDIAHOMES",
+    404
+   ],
+   [
+    "VIKRAMTH",
     404
    ],
    [
@@ -465,15 +453,7 @@
     404
    ],
    [
-    "NEETUYOSHI",
-    404
-   ],
-   [
     "APPL",
-    404
-   ],
-   [
-    "OCCLLTD",
     404
    ],
    [
@@ -481,23 +461,23 @@
     404
    ],
    [
+    "NEETUYOSHI",
+    404
+   ],
+   [
+    "OCCLLTD",
+    404
+   ],
+   [
     "KALYANI",
     404
    ],
    [
-    "UNIABEXAL",
-    404
-   ],
-   [
     "GOELCONS",
-    429
-   ],
-   [
-    "LTELEVATOR",
     404
    ],
    [
-    "MAXGROW",
+    "UNIABEXAL",
     404
    ],
    [
@@ -509,7 +489,15 @@
     404
    ],
    [
+    "MAXGROW",
+    404
+   ],
+   [
     "TOTEM",
+    404
+   ],
+   [
+    "LTELEVATOR",
     404
    ],
    [
@@ -519,11 +507,27 @@
    [
     "TIPCO",
     404
+   ],
+   [
+    "PURPLEWAVE",
+    404
+   ],
+   [
+    "UCIL",
+    404
+   ],
+   [
+    "BAIKAKAJI",
+    404
+   ],
+   [
+    "JAGAJITIND",
+    404
    ]
   ],
-  "failed_n": 43,
+  "failed_n": 44,
   "blocked": false,
-  "budget_left": 2805
+  "budget_left": 2823
  },
  "ok": true
 }
