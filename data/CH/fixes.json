@@ -1,0 +1,16 @@
+{
+ "GF": {
+  "per": "2026-H1",
+  "equity": -23,
+  "date": "2026-11-15",
+  "tr": "Kaynak PD/DD'yi azınlık payları dahil toplam özsermayeyle (27 milyon frank) hesaplayıp 177 buluyordu. Şirketin 30 Haziran 2026 bilançosunda ana ortaklığa ait özsermaye eksi 23 milyon frank (azınlık payları 50 milyon frank). Şirket Swiss GAAP FER uygular ve satın almalardan doğan şerefiyeyi özsermayeden düşer; düşülen birikimli şerefiye 2.180 milyon frank.",
+  "en": "The source calculated P/B on total equity including minority interests (27 million francs) and showed 177. In the company's balance sheet of 30 June 2026, equity attributable to shareholders is minus 23 million francs (minority interests 50 million francs). The company reports under Swiss GAAP FER and offsets goodwill from acquisitions against equity; cumulative goodwill offset is 2,180 million francs.",
+  "sources": [
+   {
+    "t": "Georg Fischer: 2026 yarıyıl raporu (30 Haz 2026)",
+    "te": "Georg Fischer: Mid-Year Report 2026 (30 Jun 2026)",
+    "u": "https://www.georgfischer.com/content/dam/commonassets/corp/documents/reports/mid-year-reports/mid-year-report-2026/en/mid-year-report-2026-en.pdf"
+   }
+  ]
+ }
+}

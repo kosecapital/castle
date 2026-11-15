@@ -1,0 +1,61 @@
+{
+ "cc": "DE",
+ "iso": "276",
+ "name": "Almanya",
+ "market": "germany",
+ "exchange": "Frankfurt Borsası (Xetra)",
+ "cur": "EUR",
+ "asof": "2026-11-14",
+ "fx": 0.907,
+ "mcapMin": 50,
+ "years": [
+  "2021",
+  "2022",
+  "2023",
+  "2024",
+  "2025"
+ ],
+ "cpi": {
+  "2021": 4.9,
+  "2022": 8.1,
+  "2023": 3.7,
+  "2024": 2.6,
+  "2025": 1.8,
+  "cur": 2.8
+ },
+ "deflate": "all",
+ "inflation_note": "Alman şirketleri enflasyon muhasebesi uygulamaz. Bu yüzden bütün şirketlerin özsermaye kârlılığı yıl sonu tüketici enflasyonuyla düzeltildi: 2021 için %4,9, 2022 için %8,1, 2023 için %3,7, 2024 için %2,6, 2025 için %1,8. Son 12 ay için en son açıklanan yıllık oran (Ekim 2026, %2,8) kullanıldı.",
+ "data_notes": [
+  "Fiyat, piyasa değeri, F/K ve PD/DD: TradingView tarayıcısı, 13 Kasım 2026 kapanışı. Evren 417 paydır: 413'ü Xetra'da, 3'ü Frankfurt Borsası salonunda, 1'i başka bir pazarda işlem görür. Ana kotasyonu başka ülkede olan paylar ve fiyatı oluşmayan paylar evrende yoktur; evrendeki 5 yatırım ortaklığı 1. surda dışarıda kalır.",
+  "Karşılaştırma: Deutsche Börse'nin kendi sitesindeki şirket dizini 15 Kasım 2026'da Prime Standard'da 211, General Standard'da 89, Scale'de 52, Basic Board'da 48, Quotation Board'da 19 şirket gösteriyor (toplam 419; sayfa tarih vermiyor). CEIC'in Deutsche Börse'ye dayandırdığı sayı Mart 2025 için 544 yerli şirkettir; tanımı açıklanmamış. Evren ilk sayıyla aynı düzeyde, ikincisinin %23 altında. Tarihli ve tanımı açık resmî bir toplam bu çalıştırmada bulunamadı; fark %15'in üstünde olabileceği için ülke, öbür bütün denetimler tuttuğundan, bu notla yayımlandı.",
+  "Denetim (15 Kasım 2026): SAP, Siemens, Allianz, Deutsche Telekom ve Siemens Energy'de fiyat 13 Kasım Xetra kapanışıyla aynı, piyasa değeri ikinci kaynakla %2 içinde. Toplayıcının hesapladığı F/K, Allianz'ta 15,48 (şirketin açıkladığı son dört çeyrek kârıyla 15,15), Munich Re'de 11,34 (11,09). PD/DD, Siemens'te 3,146 (30 Haziran 2026 özsermayesiyle 3,12), Allianz'ta 3,123 (30 Eylül 2026 özsermayesiyle 2,93; fark %6,5).",
+  "Deutsche Telekom'da iki kaynak ayrışıyor: evrende PD/DD 2,04, ikinci kaynakta yaklaşık 1,4. İkinci kaynağın sayfası bir önceki döneme aitti ve azınlık paylarını (T-Mobile US) özsermayeye katıyor olabilir; şirketin bilançosu bu çalıştırmada açılamadığı için doğrulanamadı. Deutsche Telekom 2. surda elendiği için fiyat hesabına girmiyor.",
+  "Veri kaynağı 60 şirkette son 12 ayın kârını vermiyor. En büyükleri: Eckert & Ziegler, BayWa, CEWE, VINCORION ve DN Group. Bu şirketlerin hepsi zararda değil; kaynakta kâr verisi olmadığı için değerlendirilemediler ve sayfalarında 'kâr verisi eksik' yazar. 17 şirkette F/K aynı kaynağın hisse başına kârından hesaplandı.",
+  "Kaynağın PD/DD alanı boş olan 40 şirkette PD/DD başka yoldan tamamlandı: 25 şirkette aynı kaynağın son açıklanan bilançosundan, 14 şirkette son yıllık bilançosundan, 1 şirkette ikinci kaynaktan; hangisi olduğu şirketin sayfasında yazar.",
+  "Beş yıllık oranlar: stockanalysis.com oran sayfaları; 73 adayın 69'unun sayfası geldi. Sayfası gelmeyen FUCHS, sino, MPH Health Care ve CeoTronics 2. surda 'veri eksik' diye durur; bu, kalitelerinin ölçüldüğü anlamına gelmez. Mali yıl her şirkette takvim yılıyla bitmez (Siemens: eylül). Grafikte şirketin kendi mali yılları yazar; enflasyon düzeltmesi aynı adı taşıyan takvim yılının oranıyla yapılır.",
+  "Yıl sonu enflasyonu: Destatis, tüketici fiyat endeksi (VPI, 2020=100), aralık ayı yıllık oranları (2021-2025). Son yıllık oran: Destatis, Ekim 2026 (%2,8, kesin sonuç, 11 Kasım 2026).",
+  "2. suru geçen 14 şirketin hepsi okundu (15 Kasım 2026): 9'u 3. suru geçti, 5'i hendek ölçütünde kaldı. Sırada dar hendekle bile ucuz görünen iki şirketin kârı kalıcı çıkmadı: Lang & Schwarz'ın en büyük emir kaynağı Trade Republic Temmuz 2026'da ayrıldı; innoscripta'nın gelirinin neredeyse tamamı tek bir kamu teşvikine bağlı ve şirkette Ekim 2026'da vergi soruşturması kapsamında arama yapıldı. İkisi de 3. surda elendi. Nagarro'da fiyat, Persistent'in hisse başına 81 avroluk pay alım teklifine yapışık."
+ ],
+ "small_text": "Piyasa değeri 50 milyon avronun altında",
+ "small_rule": "Piyasa değeri 50 milyon avronun (yaklaşık 55 milyon ABD doları) altındaki şirketler dışarıda kalır.",
+ "en": {
+  "name": "Germany",
+  "exchange": "Frankfurt Stock Exchange (Xetra)",
+  "cur": "EUR",
+  "inflation_note": "German companies do not apply inflation accounting. The return on equity of every company was therefore adjusted by year-end consumer inflation: 4.9% for 2021, 8.1% for 2022, 3.7% for 2023, 2.6% for 2024 and 1.8% for 2025. For the last 12 months the most recently published annual rate (October 2026, 2.8%) was used.",
+  "data_notes": [
+   "Price, market value, P/E and P/B: TradingView screener, close of 13 November 2026. The universe is 417 stocks: 413 trade on Xetra, 3 on the Frankfurt Stock Exchange floor and 1 on another venue. Stocks whose main listing is in another country and stocks with no price are not in the universe; the 5 investment companies that are in it stay outside at Wall 1.",
+   "For comparison: the company directory on Deutsche Börse's own website showed, on 15 November 2026, 211 companies in Prime Standard, 89 in General Standard, 52 in Scale, 48 on the Basic Board and 19 on the Quotation Board (419 in total; the page gives no date). The number CEIC attributes to Deutsche Börse is 544 domestic companies for March 2025; its definition is not stated. The universe is level with the first number and 23% below the second. A dated official total with a clear definition could not be found in this run; because the gap may be above 15%, and all other checks hold, the country is published with this note.",
+   "Checks (15 November 2026): for SAP, Siemens, Allianz, Deutsche Telekom and Siemens Energy the price equals the Xetra close of 13 November and market value agrees with a second source within 2%. The P/E calculated by the collector is 15.48 for Allianz (15.15 with the company's reported profit for the last four quarters) and 11.34 for Munich Re (11.09). P/B is 3.146 for Siemens (3.12 with equity at 30 June 2026) and 3.123 for Allianz (2.93 with equity at 30 September 2026; a gap of 6.5%).",
+   "For Deutsche Telekom the two sources disagree: P/B is 2.04 in the universe and about 1.4 in the second source. The second source's page was for the previous period and may count minority interests (T-Mobile US) in equity; this could not be confirmed because the company's balance sheet could not be opened in this run. Deutsche Telekom was eliminated at Wall 2, so it does not enter the price calculation.",
+   "For 60 companies the data source gives no profit figure for the last 12 months. The largest are Eckert & Ziegler, BayWa, CEWE, VINCORION and DN Group. Not all of these companies are loss-making; they could not be assessed because the source has no profit data, and their pages say 'profit data missing'. For 17 companies P/E was calculated from the same source's earnings per share.",
+   "For 40 companies where the source's P/B field is empty, P/B was completed another way: from the same source's latest reported balance sheet for 25 companies, from its last annual balance sheet for 14 and from the second source for 1; the company's page says which.",
+   "Five-year ratios: stockanalysis.com ratio pages; the pages of 69 of the 73 candidates arrived. FUCHS, sino, MPH Health Care and CeoTronics, whose pages did not arrive, stand at Wall 2 as 'data missing'; this does not mean their quality was measured. The fiscal year does not end with the calendar year for every company (Siemens: September). The chart shows each company's own fiscal years; the inflation adjustment uses the rate of the calendar year with the same name.",
+   "Year-end inflation: Destatis, consumer price index (VPI, 2020=100), December annual rates (2021-2025). Latest annual rate: Destatis, October 2026 (2.8%, final result, 11 November 2026).",
+   "All 14 companies that passed Wall 2 have been read (15 November 2026): 9 passed Wall 3 and 5 failed the moat test. The profit of the two companies that looked cheap even with a narrow moat proved not to be lasting: Lang & Schwarz's largest source of orders, Trade Republic, left in July 2026; nearly all of innoscripta's revenue depends on a single public incentive and the company was searched in a tax investigation in October 2026. Both were eliminated at Wall 3. For Nagarro the price is pinned to Persistent's takeover offer of 81 euros per share."
+  ],
+  "small_text": "Market value below 50 million euros",
+  "small_rule": "Companies with a market value below 50 million euros (about 55 million US dollars) are left out."
+ },
+ "pcur": "EUR"
+}

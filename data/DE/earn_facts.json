@@ -1,0 +1,210 @@
+{
+ "KBX": {
+  "unit": "million EUR",
+  "eps_cur": "EUR",
+  "ttm": {
+   "eps": 3.83,
+   "net_profit": null,
+   "tr": "Ekim 2025 - Eylül 2026: hisse başına kâr 3,31 − 2,59 + 3,11 = 3,83 avro (2025 yılı, 2025 ilk dokuz ay, 2026 ilk dokuz ay)",
+   "en": "October 2025 - September 2026: earnings per share 3.31 − 2.59 + 3.11 = 3.83 euros (full year 2025, first nine months of 2025, first nine months of 2026)",
+   "url": "https://www.webdisclosure.com/press-release/knorr-bremse-delivers-another-strong-quarter-sxAyGuPxhVA",
+   "primary": true
+  },
+  "tax_rate": 30.2,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Helper G1, 15 Nov 2026. FY2025 EPS 3.31 (2024: 2.76) read in the company's 2025 annual report (copy on hauptversammlung.de: https://www.hauptversammlung.de/fileadmin/public/user_upload/Knorr_GB25.pdf); net income attributable to shareholders 534m (2024: 445m), after-tax result incl. minorities 572m. 9M EPS 3.11 / 2.59 from the 28 Oct 2026 release (webdisclosure copy). Cross-check: price 98.9 / PE 25.8 = 3.83 -> source and document agree. Net profit for 9M not in the release (Quartr summary gives 528m vs 447m, apparently incl. minorities; not used). Tax rate 2025 = 247 / 819 = 30.2% (my arithmetic from the consolidated income statement figures read). One-off GAINS in the last 12 months: none found in the release or annual report sections read (deconsolidation result 2025: loss of 1m; 2024: loss of 65m - outside TTM). The gap between reported EBIT and 'operating EBIT' is a net CHARGE (9M 2026: 59m; 9M 2025: 99m; FY2025: 113m), not itemised by the company in the release -> not listed as offsets (and offsets cannot raise earnings anyway). Restructuring of up to 30m planned for 2026. No EPS guidance. Full Q3 quarterly statement and notes on disposals not opened: 'not found', not 'verified absent'."
+ },
+ "RAA": {
+  "unit": "million EUR",
+  "eps_cur": "EUR",
+  "ttm": {
+   "eps": 23.97,
+   "net_profit": 272.4,
+   "tr": "Ekim 2025 - Eylül 2026: hisse başına kâr 22,33 − 16,10 + 17,74 = 23,97 avro; vergi sonrası kâr 253,8 − 183,1 + 201,7 = 272,4 milyon avro (2025 yılı, 2025 ilk dokuz ay, 2026 ilk dokuz ay)",
+   "en": "October 2025 - September 2026: earnings per share 22.33 − 16.10 + 17.74 = 23.97 euros; profit after tax 253.8 − 183.1 + 201.7 = 272.4 million euros (full year 2025, first nine months of 2025, first nine months of 2026)",
+   "url": "https://www.finanzwire.com/press-release/rational-continues-on-growth-trajectory-and-confirms-profit-forecast-for-2026-draK1h2SWN0",
+   "primary": false
+  },
+  "tax_rate": 25.6,
+  "gains": [
+   {
+    "tr": "ABD gümrük vergisi (IEEPA) iadesi: yaklaşık 14 milyon avro, 2026'nın ikinci çeyreğinde satışların maliyetinden düşüldü (vergi öncesi; şirketin 2025 etkin vergi oranı %25,6 ile çevrildi)",
+    "en": "US (IEEPA) tariff refund: about 14 million euros, booked against cost of sales in the second quarter of 2026 (pre-tax; converted at the company's 2025 effective tax rate of 25.6%)",
+    "frac": 0.0382,
+    "how": "14.0 x (1 - 0.256) / 272.4; pre-tax amount from the company's half-year report ('around 14 million euros'), tax rate 87.2 / 341.1 from the 2025 annual report",
+    "period_tr": "Nisan-Haziran 2026 çeyreği",
+    "period_en": "April-June 2026 quarter",
+    "url": "https://www.rational-online.com/media/investor-relations/veroeffentlichungen-gj-2026/rational-ag---report-on-the-first-half-year-2026.pdf",
+    "primary": true
+   }
+  ],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Helper G2, 15 Nov 2026. FY2025 EPS 22.33 / PAT 253.8 read in the 2025 annual report on rational-online.com (primary) and in the EQS release of 19 Mar 2026; 9M 2025 16.10 / 183.1 and 9M 2026 17.74 / 201.7 read in the finanzwire copy of the 5 Nov 2026 release. Cross-check: price 624 / pe 26.04 = 23.96, matches 23.97. Second one-off element NOT quantified by the company and therefore not listed: release of US tariff provisions in Q3 2026 after tariffs were cut to 15% ('just over one percentage point' of the Q3 EBIT margin, i.e. somewhat above 3.3m on 332.2m sales by my arithmetic). Counter-argument the main session may weigh: the refund returns tariff cost paid earlier (2025 extra tariff cost about 13m), so some of it reverses a charge inside the same 12 months (Q4 2025 and Q1 2026); the company does not split it by period, so it is listed in full as a gain. No offsets labelled one-off by the company. No EPS guidance (EBIT 340-360m)."
+ },
+ "EVD": {
+  "unit": "million EUR",
+  "eps_cur": "EUR",
+  "ttm": {
+   "eps": 3.11,
+   "net_profit": null,
+   "tr": "Ekim 2025 - Eylül 2026: hisse başına kâr 2,89 − 1,56 + 1,78 = 3,11 avro (2025 yılı, 2025 ilk dokuz ay, 2026 ilk dokuz ay)",
+   "en": "October 2025 - September 2026: earnings per share 2.89 − 1.56 + 1.78 = 3.11 euros (full year 2025, first nine months of 2025, first nine months of 2026)",
+   "url": "https://in.investing.com/news/stock-market-news/earnings-call-transcript-cts-eventim-q3-2026-revenue-rises-shares-slip-93CH-5700725",
+   "primary": false
+  },
+  "tax_rate": 33.7,
+  "gains": [],
+  "offsets": [
+   {
+    "tr": "Bir etkinlik iptali nedeniyle bilet alıcılarına şirketin yaptığı iade (düzenleyici ödeyemedi): 7,2 milyon avro, şirketin 2026'daki tek FAVÖK düzeltmesi (vergi öncesi; 2025 etkin vergi oranı %33,7 ile çevrildi)",
+    "en": "Refunds the company made to ticket buyers after an event was cancelled (the promoter could not pay): 7.2 million euros, the company's only EBITDA adjustment in 2026 (pre-tax; converted at the 2025 effective tax rate of 33.7%)",
+    "frac": 0.016,
+    "how": "7.2 x (1 - 0.337) / (3.11 x 96.0 million shares = 298.6); amount as stated by management on the Q3 2026 call",
+    "period_tr": "Temmuz-Eylül 2026 çeyreği",
+    "period_en": "July-September 2026 quarter",
+    "url": "https://in.investing.com/news/stock-market-news/earnings-call-transcript-cts-eventim-q3-2026-revenue-rises-shares-slip-93CH-5700725",
+    "primary": false
+   }
+  ],
+  "drop": {
+   "tr": "Finansman sonucundaki kur farkı ve put opsiyonu değerlemeleri her yıl iki yönde de görülür (2025'te gider, 2026'nın ilk çeyreğinde gelir); şirket bunları tek seferlik diye ayırmıyor, bu yüzden kazanç sayılmadı.",
+   "en": "Currency differences and put-option valuations in the financial result occur every year in both directions (a charge in 2025, income in the first quarter of 2026); the company does not class them as one-off, so they were not counted as gains."
+  },
+  "guidance": [],
+  "notes": "Helper G2, 15 Nov 2026. FY2025 EPS 2.89 and profit attributable to shareholders 277.3m read in the company's 2025 annual report (ir-api.eqs.com, primary); 9M 2025 EPS 1.56 (149.5m) in the company's Q3 2025 statement (primary); 9M 2026 EPS 1.78 only in the investing.com call transcript (secondary) -> ttm primary false; net profit for 9M 2026 not read, so net_profit null. Cross-check: price 61 / pe 19.62 = 3.11, matches. Q1 2026 statement (primary): financial result +9.1m vs -4.4m, helped by positive currency translation on long-term receivables (the statement gives 13.8m as the year-on-year effect); EPS Q1 0.66 vs 0.48. FY2025 financial result -17.4m vs +83.1m (put options/earn-outs 18.2m worse, FX income 17.0m lower and FX expense 14.0m higher, prior-year France Billet remeasurement gain 15.9m absent). Q4 2025 (inside TTM) therefore carried financial CHARGES, not gains. Tax rate 154.7 / 459.2 = 33.7% (2025 annual report). Operational Excellence programme costs about 5m a quarter are NOT adjusted by the company and not listed. No EPS guidance."
+ },
+ "ACT0": {
+  "unit": "million EUR",
+  "eps_cur": "EUR",
+  "ttm": {
+   "eps": null,
+   "net_profit": 65.2,
+   "tr": "Ekim 2025 - Eylül 2026: konsolide dönem kârı 63,6 − 46,8 + 48,4 = 65,2 milyon avro (2025 yılı, 2025 ilk dokuz ay, 2026 ilk dokuz ay; azınlık payı dahil, 2025'te 0,2 milyon avro)",
+   "en": "October 2025 - September 2026: consolidated profit for the period 63.6 − 46.8 + 48.4 = 65.2 million euros (full year 2025, first nine months of 2025, first nine months of 2026; includes minorities, 0.2 million euros in 2025)",
+   "url": "https://www.webdisclosure.com/press-release/alzchem-increases-sales-and-profitability-in-the-first-nine-months-of-2026-yjXw9fkjEyd",
+   "primary": true
+  },
+  "tax_rate": 27.6,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Helper G2, 15 Nov 2026. FY2025 consolidated net income 63.630m (attributable 63.459m, EPS 6.28) and quarterly 2025 figures read in the company's KPI file (alzchem.com, primary); H1 2026 34.825m (attributable 34.740m, EPS 3.43) in the company's Q2 2026 statement (primary); 9M 2026 48.4m in the EQS release copy. EPS for Q3 2026 not read -> eps null. Cross-check: market cap 1,416.5 / pe 21.66 = 65.4m; document 65.2m: consistent. No one-off GAIN found in the releases read. Customer prepayments/grants for the nitroguanidine capacity are booked as contract liabilities and receivables with, per the Q2 statement, little income-statement effect before 2027 - main session may want to re-check when revenue recognition starts. One-off COSTS (not quantified by the company, so not listed as offsets): carbide furnace renovation H1 2026, start-up costs for new capacity. Tax rate 27.6% derived from the KPI file (2025). No EPS guidance (EBITDA about 126m)."
+ },
+ "AOF": {
+  "unit": "million EUR",
+  "eps_cur": "EUR",
+  "ttm": {
+   "eps": 3.35,
+   "net_profit": 53.3,
+   "tr": "Ekim 2025 - Eylül 2026: hisse başına kâr 3,04 − 2,14 + 2,45 = 3,35 avro; net kâr 48,4 − 34,1 + 39,0 = 53,3 milyon avro (2025 yılı, 2025 ilk dokuz ay, 2026 ilk dokuz ay)",
+   "en": "October 2025 - September 2026: earnings per share 3.04 − 2.14 + 2.45 = 3.35 euros; net profit 48.4 − 34.1 + 39.0 = 53.3 million euros (full year 2025, first nine months of 2025, first nine months of 2026)",
+   "url": "https://www.finanzwire.com/press-release/atoss-software-se-revenue-growth-and-high-profitability-in-the-third-quarter-put-atoss-on-track-for-another-record-year-MzoVBL5kmj4",
+   "primary": false
+  },
+  "tax_rate": 32.8,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Helper G2, 15 Nov 2026. FY2025 net profit 48,367k and EPS 3.04 read in the company's 2025 annual report (backend.atoss.com, primary) and the 30 Jan 2026 preliminary release; 9M 2025 2.14 / 34.1m and 9M 2026 2.45 / 39.0m in the finanzwire copy of the 23 Oct 2026 release. Cross-check: dataset (per H1) implies 1,395.0 / 27.24 = 51.2m; document TTM to September 53.3m is higher, so no source-vs-document cut. No one-off gain mentioned in the releases; EBT exceeds EBIT by 0.7m in 9M 2026 (2.3m in 9M 2025) - financial income on liquidity incl. gold/funds, small. Tax rate 1 - 48,367/71,941 = 32.8% (2025). No EPS guidance."
+ },
+ "YSN": {
+  "unit": "million EUR",
+  "eps_cur": "EUR",
+  "ttm": {
+   "eps": null,
+   "net_profit": 31.5,
+   "tr": "Ekim 2025 - Eylül 2026: net kâr 33,3 − 17,2 + 15,4 = 31,5 milyon avro (2025 yılı, 2025 ilk dokuz ay, 2026 ilk dokuz ay)",
+   "en": "October 2025 - September 2026: net profit 33.3 − 17.2 + 15.4 = 31.5 million euros (full year 2025, first nine months of 2025, first nine months of 2026)",
+   "url": "https://www.onvista.de/news/2026/11-12-eqs-news-secunet-setzt-wachstumskurs-fort-umsatz-und-auftragseingang-steigen-deutlich-0-37-26575410",
+   "primary": false
+  },
+  "tax_rate": 35.3,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Helper G2, 15 Nov 2026. FY2025 net income 33.3m / EPS 5.15 read on the company's press page (30 Mar 2026, primary) and in the annual report; 9M 2025 17.2 and 9M 2026 15.4 in the onvista copy of the 12 Nov 2026 EQS release (secondary) -> primary false. IMPORTANT for the source-vs-document test: the dataset (per 2026-H1) implies 1,284.8 / 37.56 = 34.2m, which equals TTM to June (33.3 - 5.0 + 5.9; H1 2026 net income 5.9m, +17.3%, from the Quartr summary). TTM to September is 31.5m, about 8% lower, because Q3 2026 profit fell to 9.6m from 12.2m. If the script compares 34.2 with 31.5 it will cut earnings by about 8%: that is a period difference (newer quarter), not a source error; main session decides. Group result may include small non-controlling interests (equity 167.0m is stated incl. NCI). No one-off gains mentioned. Tax rate about 35% derived from 2025 EBT 51.5m and net income 33.3m. No EPS guidance."
+ },
+ "MUM": {
+  "unit": "million EUR",
+  "eps_cur": "EUR",
+  "ttm": {
+   "eps": 1.88,
+   "net_profit": 30.92,
+   "tr": "Ekim 2025 - Eylül 2026: hisse başına kâr 1,91 − 1,45 + 1,42 = 1,88 avro; azınlık sonrası net kâr 31,81 − 24,27 + 23,38 = 30,92 milyon avro (2025 yılı, 2025 ilk dokuz ay, 2026 ilk dokuz ay)",
+   "en": "October 2025 - September 2026: earnings per share 1.91 − 1.45 + 1.42 = 1.88 euros; net profit after minorities 31.81 − 24.27 + 23.38 = 30.92 million euros (full year 2025, first nine months of 2025, first nine months of 2026)",
+   "url": "https://www.webdisclosure.com/press-release/mensch-und-maschine-software-se-presents-q3-report-2026-HgtmmqIakM8",
+   "primary": true
+  },
+  "tax_rate": 25.8,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [
+   {
+    "fy_tr": "2026 yılı",
+    "fy_en": "2026",
+    "mid": 2.185,
+    "low": 2.11,
+    "high": 2.26,
+    "kind": "reported",
+    "url": "https://www.webdisclosure.com/press-release/mensch-und-maschine-software-se-presents-q3-report-2026-HgtmmqIakM8",
+    "date": "2026-10-20"
+   }
+  ],
+  "notes": "Helper session G3, 15 Nov 2026. FY2025 EPS 1.91 / net 31.81m from the company's annual report 2025 (ir-api.eqs.com PDF, primary); 9M 2025 and 9M 2026 from the EQS Q3 release (webdisclosure copy). Dataset implies 32.8/17.32 = 1.894 EPS and 552.1/17.32 = 31.9m: EPS consistent with 1.88 (+0.7%); profit 3.1% above the document figure - at the edge of the 3% rule, probably share-count basis (552.1/32.8 = 16.83m shares vs 16.47m outstanding at end-2025; treasury shares inside the market cap). Main session: check. Guidance 2.11-2.26 is ABOVE the TTM 1.88, so it cuts nothing; management said on 20 Oct 2026 only the lower half is reachable. No one-off GAINS found in FY2025 report or 2026 releases (no disposals; goodwill schedule unchanged). H1 2026 release mentions a one-off Autodesk effect that REDUCED Q2 gross profit in Digitization (not quantified) -> not listed as offset because no amount. Tax rate 2025: 12,160 / 47,062 = 25.84%. Operating cash flow 2023/24 was inflated and 2025 depressed by Autodesk 3-year contract billing timing (company statement)."
+ },
+ "WSU": {
+  "unit": "million EUR",
+  "eps_cur": "EUR",
+  "ttm": {
+   "eps": 1.93,
+   "net_profit": 25.7,
+   "tr": "Ekim 2025 - Eylül 2026: hisse başına kâr 2,29 − 1,57 + 1,21 = 1,93 avro; net kâr 30,7 − 21,1 + 16,1 = 25,7 milyon avro (2025 yılı, 2025 ilk dokuz ay, 2026 ilk dokuz ay)",
+   "en": "October 2025 - September 2026: earnings per share 2.29 − 1.57 + 1.21 = 1.93 euros; net income 30.7 − 21.1 + 16.1 = 25.7 million euros (full year 2025, first nine months of 2025, first nine months of 2026)",
+   "url": "https://goldesel.de/aktien/news/washtec-aktie-umsatzplus-reicht-nicht-ebit-und-free-cashflow-brechen-ein",
+   "primary": false
+  },
+  "tax_rate": 33.9,
+  "gains": [],
+  "offsets": [
+   {
+    "tr": "Örgüt değişikliği için özel gider (Avrupa ve diğer bölgeler; 2,0 milyon avro vergi öncesi)",
+    "en": "Special expenses for organisational changes (Europe and Other; 2.0 million euros pre-tax)",
+    "frac": 0.0778,
+    "how": 33.9,
+    "period_tr": "Ocak-Eylül 2026",
+    "period_en": "January-September 2026",
+    "url": "https://goldesel.de/aktien/news/washtec-aktie-umsatzplus-reicht-nicht-ebit-und-free-cashflow-brechen-ein"
+   }
+  ],
+  "drop": null,
+  "guidance": [],
+  "notes": "Helper session G3, 15 Nov 2026. FY2025 EPS 2.29 / net 30.7m: company EQS release (L'Avenir copy) and annual report 2025 (primary). 9M 2025 EPS 1.57 / net 21.1m: company Q3 2025 statement (primary). 9M 2026 EPS 1.21 / net 16.1m: goldesel.de press report only -> ttm primary false; main session should open the company's Q3 2026 statement. Dataset implies 31/16.03 = 1.934 EPS and 414.9/16.03 = 25.9m: consistent with 1.93 / 25.7. Offset: frac = 2.0 pre-tax / 25.7 TTM net = 0.0778, 'how' = FY2025 effective tax rate 33.9% (format copied from JP/194A as I understood it; after tax it would be about 1.3m = 0.051) - main session please check the convention; it is an expense, so it cannot raise earnings anyway. No one-off GAINS found in the 12 months (FY2025 report and 2026 releases read). The 10.6m capital-gains-tax refund was a 2024 cash-flow item, outside the TTM. FY2025 tax rate 33.9% (26.7% in 2024). No EPS guidance (EBIT margin 8-9% only). Equity: 82.0m at 31 Dec 2025, 58.5m at 30 Jun 2026 after the 2.50 dividend; dataset P/B 6.47 implies 64.1m at 30 Sep 2026 (not read in a document)."
+ },
+ "FAA": {
+  "unit": "million EUR",
+  "eps_cur": "EUR",
+  "ttm": {
+   "eps": 1.17,
+   "net_profit": null,
+   "tr": "Temmuz 2025 - Haziran 2026: hisse başına kâr 0,97 − 0,15 + 0,35 = 1,17 avro (2025/26 mali yılı, 2025/26 ilk çeyrek, 2026/27 ilk çeyrek)",
+   "en": "July 2025 - June 2026: earnings per share 0.97 − 0.15 + 0.35 = 1.17 euros (fiscal 2025/26, first quarter of 2025/26, first quarter of 2026/27)",
+   "url": "https://quartr.com/events/fabasoft-ag-faa-q1-2027_FGXmuJgu",
+   "primary": false
+  },
+  "tax_rate": 24.0,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Helper session G3, 15 Nov 2026. FY2025/26 EPS 0.97 (EQS release 5 Jun 2026, boersengefluester copy; the company's own press-release page gives only revenue/EBIT). Q1 2025/26 EPS 0.15: company 3-month report 2025/26 (primary). Q1 2026/27 EPS 0.35: Quartr summary only -> ttm primary false. Net profit attributable to the parent not read for FY2025/26 or Q1 2026/27 (10.80m and 3.78m are totals including minorities; total TTM = 10.80 - 1.708 + 3.78 = 12.87m) -> net_profit null, use EPS. Dataset implies 16.5/14.21 = 1.161: consistent with 1.17. No one-off GAINS mentioned in the releases read (full annual report not opened, so 'not found', not 'verified absent'). Tax rate from Q1 2025/26: 539/2,247 = 24.0%. No EPS guidance. Fiscal year ends 31 March; dataset 'per' 2026-Q1 corresponds to the quarter ended 30 June 2026."
+ }
+}
