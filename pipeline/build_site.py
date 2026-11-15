@@ -29,6 +29,33 @@ SEC_EN = load(J("pipeline", "sectors.json"))["en"] if os.path.exists(J("pipeline
 NAME_EN = {k["cc"]: k.get("name_en") for k in ORDER}
 
 
+
+# Arama ve paylaşım (Alper'in 15 Kasım 2026 onayıyla). Yalnız sitenin sayfasına girer; Claude sayfası (dist/castle.html) etkilenmez.
+# - Başlık seçilen dile döner (sayfadaki applyStatic, window.CASTLE_HEAD'i okur). Önce yalnız "Castle" yazıyordu: Google'da ne olduğu görünmüyordu.
+# - Her dil adresi kendini asıl sayfa (canonical) gösterir; kosecapital.com'daki kuralla aynı. Etiket betikle yazılır, sabit HTML'de yoktur.
+# - Paylaşım önizlemesi (WhatsApp, LinkedIn) kosecapital.com'un paylaşım görselini kullanır. Sitemap kosecapital.com deposundadır.
+SITE_URL = "https://www.kosecapital.com/castle/"
+TITLE = {"tr": "Castle · Değer yatırımı atlası · Kose Capital", "en": "Castle · Value investing atlas · Kose Capital"}
+DESC = {"tr": "Castle: bir ülkedeki bütün hisseleri Buffett ve Munger ilkeleriyle dört surdan geçiren değer yatırımı atlası.",
+        "en": "Castle: a value investing atlas that runs every stock in a country through four walls."}
+
+
+def seo_head():
+    """Sitenin <head>'ine giren etiketler: dile göre başlık ve açıklama, asıl sayfa, dil bağlantıları, paylaşım önizlemesi."""
+    e = lambda t: t.replace("&", "&amp;").replace('"', "&quot;").replace("<", "&lt;")
+    canon = ('<script>(function(){var m=/[?&]lang=(tr|en)\\b/.exec(location.search),k=document.createElement("link");'
+             'k.rel="canonical";k.href="%s"+(m?"?lang="+m[1]:"");document.head.appendChild(k);})();</script>' % SITE_URL)
+    return ("<script>window.CASTLE_HEAD=" + json.dumps({"title": TITLE, "desc": DESC}, ensure_ascii=False).replace("<", "\\u003c") + ";</script>" + canon +
+            '<link rel="alternate" hreflang="tr" href="%s?lang=tr"><link rel="alternate" hreflang="en" href="%s?lang=en">'
+            '<link rel="alternate" hreflang="x-default" href="%s">' % (SITE_URL, SITE_URL, SITE_URL) +
+            '<meta property="og:type" content="website"><meta property="og:site_name" content="Kose Capital">'
+            '<meta property="og:title" content="%s"><meta property="og:description" content="%s">'
+            '<meta property="og:url" content="%s"><meta property="og:image" content="https://www.kosecapital.com/og.png">'
+            '<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">'
+            '<meta name="twitter:card" content="summary_large_image">'
+            % (e("Castle · Değer yatırımı atlası / Value investing atlas"), e(DESC["tr"] + " / " + DESC["en"]), SITE_URL))
+
+
 def kale_list(core):
     """İstemcideki val() ile aynı hesap: varsayılan eşiklerle kaleye girenler."""
     out = []
@@ -107,12 +134,14 @@ def main():
            '<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>')
     head = ('<!doctype html><html lang="tr"><head><meta charset="utf-8">'
             '<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">'
-            '<meta name="description" content="Castle: bir ülkedeki bütün hisseleri Buffett ve Munger ilkeleriyle dört surdan geçiren değer yatırımı atlası. A value investing atlas that runs every stock in a country through four walls.">'
+            '<meta name="description" content="' + DESC["tr"] + ' / ' + DESC["en"] + '">' + seo_head() +
             '<style>:root{color-scheme:light;padding:env(safe-area-inset-top,0px) 0 env(safe-area-inset-bottom,0px)}'
             'body{margin:0;font:14px system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}</style>'
             '</head><body>')
-    # 1) site: tam HTML belgesi (GitHub Pages ve Wix içine gömme için)
-    open(J("docs", "index.html"), "w", encoding="utf-8").write(head + body.replace("<!--__LIBS__-->", cdn).replace("<!--__INLINE__-->", "") + "</body></html>")
+    # 1) site: tam HTML belgesi (GitHub Pages ve Wix içine gömme için). Sabit başlık Türkçe olandır; betik seçilen dile çevirir.
+    site_body = body.replace("<title>Castle</title>", "<title>" + TITLE["tr"] + "</title>", 1)
+    assert site_body != body, "template.html içinde <title>Castle</title> bulunamadı"
+    open(J("docs", "index.html"), "w", encoding="utf-8").write(head + site_body.replace("<!--__LIBS__-->", cdn).replace("<!--__INLINE__-->", "") + "</body></html>")
     # 2) Claude sayfası: iskeletsiz gövde (yayın aracı iskeleti kendisi ekler)
     os.makedirs(J("dist"), exist_ok=True)
     #    odak ülke ve ayrıntılı harita sayfaya gömülür: Claude sayfası dosya yüklemeye bağlı kalmadan açılır; diğer ülkeler yanındaki dosyalardan okunur

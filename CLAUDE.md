@@ -355,6 +355,7 @@ Geçme koşulu: B ≥ 2 ve diğerleri ≥ 1. Elenen şirkette `risks` ve `watch`
 
 ## Sayfa ve yayın
 
+- **Arama ve paylaşım** (Alper'in 15 Kasım 2026 onayıyla). Sitenin `<head>`'ini `build_site.py` yazar (`SITE_URL`, `TITLE`, `DESC`, `seo_head()`): başlık seçilen dile döner ("Castle · Değer yatırımı atlası · Kose Capital" / "Castle · Value investing atlas · Kose Capital"; önce yalnız "Castle" yazıyordu), açıklama da öyle. Her dil adresi (`?lang=tr`, `?lang=en`, dilsiz) kendini asıl sayfa (canonical) gösterir; etiket betikle yazılır, sabit HTML'de yoktur (kosecapital.com'daki kuralla aynı). Paylaşım önizlemesi (WhatsApp, LinkedIn) kosecapital.com'un paylaşım görselini kullanır. Sitemap kosecapital.com deposundadır. Claude sayfası (`dist/castle.html`) bunlardan etkilenmez.
 - Arama kutusu dünya görünümünde de hisse bulur: bütün ülkelerin dizini `docs/data/search.json` içindedir ve ilk aramada yüklenir. Açık ülkenin hisseleri önce gelir.
 - Hiçbir şirket iz bırakmadan kaybolmaz: elenen şirketin sayfası neden elendiğini söyler, yazılmış raporu saklanır ve 4. sur görünümünde ayrı bir listede görünür.
 - Sayfa tek dosyadır (`pipeline/template.html`); veriyi `data/<CC>.json` dosyalarından yükler. Tasarımı, renkleri ve metinleri görev gerektirmedikçe değiştirme.

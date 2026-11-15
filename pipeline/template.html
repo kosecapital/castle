@@ -1080,6 +1080,7 @@ function panelCo(c) {
 function applyStatic() { // sayfanın sabit yazıları
   var set = function (sel, attr, v) { var el = $(sel); if (!el) return; if (attr === "text") el.textContent = v; else el.setAttribute(attr, v); };
   $("#app").lang = LANG; try { document.documentElement.lang = LANG; } catch (e) {}
+  if (window.CASTLE_HEAD) { try { document.title = L(CASTLE_HEAD.title.tr, CASTLE_HEAD.title.en); var md = document.querySelector('meta[name="description"]'); if (md) md.content = L(CASTLE_HEAD.desc.tr, CASTLE_HEAD.desc.en); } catch (e) {} }   // yalnız sitede (build_site.py yazar)
   var narrow = !!(window.matchMedia && window.matchMedia("(max-width:560px)").matches);
   set("#home", "aria-label", L("Castle, dünya haritasına dön", "Castle, back to the world map"));
   set("#q", "placeholder", narrow ? L("Ara", "Search") : L("Hisse, ülke ara", "Search stock or country"));
