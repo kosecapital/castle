@@ -1,0 +1,284 @@
+{
+ "cc": "AU",
+ "fetched": "2026-11-15T23:16:47Z",
+ "errors": [],
+ "pb_fix": {
+  "paths": {
+   "cur": {
+    "n": 1451,
+    "med": 1.0,
+    "within10": 92.1,
+    "ok": true
+   },
+   "bvc": {
+    "n": 1451,
+    "med": 1.0,
+    "within10": 100.0,
+    "ok": true
+   },
+   "bvq": {
+    "n": 1451,
+    "med": 1.0,
+    "within10": 100.0,
+    "ok": true
+   },
+   "eq": {
+    "n": 1450,
+    "med": 1.0022,
+    "within10": 76.3,
+    "ok": false
+   },
+   "bvh": {
+    "n": 1302,
+    "med": 1.0,
+    "within10": 99.9,
+    "ok": true
+   },
+   "bvy": {
+    "n": 1447,
+    "med": 1.0,
+    "within10": 93.0,
+    "ok": true
+   },
+   "eqy": {
+    "n": 1446,
+    "med": 1.0026,
+    "within10": 71.1,
+    "ok": true
+   }
+  },
+  "counts": {
+   "cur": 29,
+   "bvy": 4
+  },
+  "neg": 65,
+  "nodata": 13,
+  "sa_asked": 0,
+  "sa_pages": 0,
+  "sa_reused": 0,
+  "sa_failed": 0,
+  "sa_blocked": false,
+  "missing_pct": 0.0,
+  "nodata_top": [
+   "KIT",
+   "ALU",
+   "CX8",
+   "GRS",
+   "LUX",
+   "PRB",
+   "ELK",
+   "PMM",
+   "POW",
+   "JRL",
+   "TET",
+   "WRX",
+   "OWL"
+  ],
+  "fixed_top": [
+   [
+    "FDC",
+    12.161,
+    "cur"
+   ],
+   [
+    "CVV",
+    54.775,
+    "cur"
+   ],
+   [
+    "ACS",
+    22.209,
+    "cur"
+   ],
+   [
+    "INN",
+    27.397,
+    "cur"
+   ],
+   [
+    "NMR",
+    5.65,
+    "cur"
+   ],
+   [
+    "AV1",
+    21.03,
+    "cur"
+   ],
+   [
+    "SCX",
+    16.533,
+    "cur"
+   ],
+   [
+    "IOD",
+    636.364,
+    "cur"
+   ],
+   [
+    "VBX",
+    62.767,
+    "cur"
+   ],
+   [
+    "FGH",
+    8.85,
+    "cur"
+   ],
+   [
+    "SUH",
+    21.192,
+    "cur"
+   ],
+   [
+    "BDX",
+    8.984,
+    "cur"
+   ],
+   [
+    "CMD",
+    6.338,
+    "cur"
+   ],
+   [
+    "VRC",
+    0.744,
+    "cur"
+   ],
+   [
+    "WMG",
+    0.972,
+    "bvy"
+   ]
+  ]
+ },
+ "source": "TradingView tarayıcısı",
+ "market": "australia",
+ "total": 1568,
+ "kept": 1563,
+ "excluded": {
+  "fiyat ya da piyasa değeri yok": 5
+ },
+ "mcap_check": {
+  "tutarlı": 1542,
+  "pay sayısı yok": 13,
+  "pay sayısıyla tutmuyor": 8
+ },
+ "cur": "AUD",
+ "pcur": "AUD",
+ "exchanges": {
+  "ASX": 1563
+ },
+ "periods": {
+  "2026-H2": 1303,
+  "2026-H1": 214,
+  "None": 18,
+  "2025-H2": 17,
+  "2027-Q1": 3,
+  "2026-Q4": 3
+ },
+ "pe_fix": {
+  "eps_n": 513,
+  "eps_med": 1.0,
+  "eps_within5": 100.0,
+  "roe_n": 489,
+  "roe_med": 1.0459,
+  "roe_within25": 88.5,
+  "roe_scale": 1.0,
+  "eps_ok": true,
+  "counts": {
+   "loss": 1019,
+   "nodata": 29,
+   "roe": 2
+  },
+  "nodata_top": [
+   "LGF",
+   "BRE",
+   "SET",
+   "AIX",
+   "KIT",
+   "AEU",
+   "ALU",
+   "KAO",
+   "CX8",
+   "SCX",
+   "NMD",
+   "AMK",
+   "GRS",
+   "LUX",
+   "BSR"
+  ],
+  "fixed_top": [
+   [
+    "MGH",
+    18.64,
+    "roe"
+   ],
+   [
+    "P1E",
+    1.62,
+    "roe"
+   ]
+  ]
+ },
+ "pe_filled_pct": 32.9,
+ "top5": [
+  {
+   "c": "BHP",
+   "n": "BHP Group Ltd",
+   "p": 58.86,
+   "m": 299213.7,
+   "pe": 20.55,
+   "pb": 4.068,
+   "per": "2026-H2"
+  },
+  {
+   "c": "CBA",
+   "n": "Commonwealth Bank of Australia",
+   "p": 170.87,
+   "m": 285660.0,
+   "pe": 26.32,
+   "pb": 3.63,
+   "per": "2026-H2"
+  },
+  {
+   "c": "WBC",
+   "n": "Westpac Banking Corporation",
+   "p": 37.83,
+   "m": 129225.0,
+   "pe": 19.03,
+   "pb": 1.822,
+   "per": "2026-H2"
+  },
+  {
+   "c": "NAB",
+   "n": "National Australia Bank Limited",
+   "p": 38.86,
+   "m": 120813.7,
+   "pe": 19.52,
+   "pb": 1.93,
+   "per": "2026-H2"
+  },
+  {
+   "c": "ANZ",
+   "n": "ANZ Group Holdings Limited",
+   "p": 39.59,
+   "m": 119274.8,
+   "pe": 16.55,
+   "pb": 1.671,
+   "per": "2026-H2"
+  }
+ ],
+ "history": {
+  "candidates": 120,
+  "have": 120,
+  "fetched": 120,
+  "kept": 0,
+  "no_mapping": 0,
+  "failed": [],
+  "failed_n": 0,
+  "blocked": false,
+  "budget_left": 5771
+ },
+ "ok": true
+}
