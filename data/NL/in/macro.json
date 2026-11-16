@@ -1,0 +1,33 @@
+{
+ "fetched": "2026-11-16T23:19:26Z",
+ "cur": "EUR",
+ "pcur": "EUR",
+ "years": [
+  "2021",
+  "2022",
+  "2023",
+  "2024",
+  "2025"
+ ],
+ "fx": 0.9089,
+ "mcapMin": 50,
+ "cpi_cur": 3.7,
+ "cpi_cur_src": "TradingView ECONOMICS:NLIRYY (son açıklanan yıllık TÜFE)",
+ "cpi": {
+  "2021": 6.45,
+  "2022": 11.14,
+  "2023": 1.13,
+  "2024": 4.03,
+  "2025": 3.2
+ },
+ "cpi_src": {
+  "2021": "IMF WEO 2025-04 (dönem sonu)",
+  "2022": "IMF WEO 2025-04 (dönem sonu)",
+  "2023": "IMF WEO 2025-04 (dönem sonu)",
+  "2024": "IMF WEO 2025-04 (dönem sonu)",
+  "2025": "Dünya Bankası FP.CPI.TOTL.ZG (yıllık ortalama)"
+ },
+ "cpi_errors": [
+  "Dünya Bankası: JSONDecodeError Expecting value: line 1 column 1 (char 0)"
+ ]
+}

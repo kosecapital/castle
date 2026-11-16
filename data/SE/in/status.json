@@ -1,0 +1,310 @@
+{
+ "cc": "SE",
+ "fetched": "2026-11-16T23:19:54Z",
+ "errors": [],
+ "pb_fix": {
+  "paths": {
+   "cur": {
+    "n": 706,
+    "med": 1.0038,
+    "within10": 97.0,
+    "ok": true
+   },
+   "bvc": {
+    "n": 705,
+    "med": 1.0,
+    "within10": 100.0,
+    "ok": true
+   },
+   "bvq": {
+    "n": 705,
+    "med": 1.0,
+    "within10": 100.0,
+    "ok": true
+   },
+   "eq": {
+    "n": 705,
+    "med": 1.0022,
+    "within10": 86.1,
+    "ok": true
+   },
+   "bvh": {
+    "n": 17,
+    "med": 1.0,
+    "within10": 100.0,
+    "ok": false
+   },
+   "bvy": {
+    "n": 694,
+    "med": 1.0275,
+    "within10": 48.7,
+    "ok": true
+   },
+   "eqy": {
+    "n": 695,
+    "med": 1.0467,
+    "within10": 44.3,
+    "ok": true
+   }
+  },
+  "counts": {
+   "cur": 9,
+   "eq": 1,
+   "bvy": 2
+  },
+  "neg": 22,
+  "nodata": 9,
+  "sa_asked": 0,
+  "sa_pages": 0,
+  "sa_reused": 0,
+  "sa_failed": 0,
+  "sa_blocked": false,
+  "missing_pct": 0.0,
+  "nodata_top": [
+   "ARGO",
+   "BUY",
+   "BBROOM",
+   "BAWAT",
+   "FOMO",
+   "NRDAMP",
+   "NEWBRY",
+   "MTI",
+   "QBIM"
+  ],
+  "fixed_top": [
+   [
+    "SEHED.B",
+    1.667,
+    "cur"
+   ],
+   [
+    "ONCO",
+    27.064,
+    "cur"
+   ],
+   [
+    "OBDU.B",
+    7.767,
+    "cur"
+   ],
+   [
+    "LINKAB",
+    1.518,
+    "bvy"
+   ],
+   [
+    "FLEXM",
+    1.89,
+    "bvy"
+   ],
+   [
+    "ONCOZ",
+    152.634,
+    "cur"
+   ],
+   [
+    "QLIFE",
+    10.896,
+    "cur"
+   ],
+   [
+    "HYCO",
+    1.456,
+    "cur"
+   ],
+   [
+    "VALUNO",
+    0.793,
+    "cur"
+   ],
+   [
+    "ECOMB",
+    1.193,
+    "cur"
+   ],
+   [
+    "IMHO.B",
+    0.197,
+    "eq"
+   ],
+   [
+    "RENT",
+    2.294,
+    "cur"
+   ]
+  ]
+ },
+ "source": "TradingView tarayıcısı",
+ "market": "sweden",
+ "total": 755,
+ "kept": 749,
+ "excluded": {
+  "fiyat ya da piyasa değeri yok": 6
+ },
+ "mcap_check": {
+  "pay sayısıyla tutmuyor": 43,
+  "tutarlı": 697,
+  "pay sayısı yok": 9
+ },
+ "cur": "SEK",
+ "pcur": "SEK",
+ "exchanges": {
+  "OMXSTO": 656,
+  "NGM": 93
+ },
+ "periods": {
+  "2026-Q3": 544,
+  "2026-Q2": 137,
+  "2026-H1": 28,
+  "2026-Q1": 16,
+  "2026-Q4": 9,
+  "None": 9
+ },
+ "pe_fix": {
+  "eps_n": 379,
+  "eps_med": 1.0,
+  "eps_within5": 100.0,
+  "roe_n": 371,
+  "roe_med": 1.0502,
+  "roe_within25": 91.4,
+  "roe_scale": 1.0,
+  "eps_ok": true,
+  "counts": {
+   "nodata": 36,
+   "loss": 327,
+   "eps": 6,
+   "roe": 1
+  },
+  "nodata_top": [
+   "VSURE",
+   "SILEX",
+   "GOTL_A",
+   "SALIX",
+   "TANGEN_B",
+   "COFFEE_B",
+   "NTECH",
+   "LMGAB",
+   "H100",
+   "SEHED.B",
+   "AXVIK",
+   "DORMY",
+   "SVEVIK",
+   "PJ",
+   "CANDLE_B"
+  ],
+  "fixed_top": [
+   [
+    "NP3",
+    9.09,
+    "eps"
+   ],
+   [
+    "CTT",
+    46.25,
+    "eps"
+   ],
+   [
+    "BOTX",
+    5.59,
+    "eps"
+   ],
+   [
+    "TINGS_A",
+    8.89,
+    "eps"
+   ],
+   [
+    "PRFO",
+    5.91,
+    "roe"
+   ],
+   [
+    "MEGR",
+    7.69,
+    "eps"
+   ],
+   [
+    "PIXEL",
+    18.44,
+    "eps"
+   ]
+  ]
+ },
+ "pe_filled_pct": 51.5,
+ "top5": [
+  {
+   "c": "VSURE",
+   "n": "Verisure Plc",
+   "p": 10.84,
+   "m": 1383239.5,
+   "pe": null,
+   "pb": 1.259,
+   "per": "2026-Q3"
+  },
+  {
+   "c": "INVE_A",
+   "n": "Investor AB Class A",
+   "p": 426.9,
+   "m": 1325761.3,
+   "pe": 6.1,
+   "pb": 1.19,
+   "per": "2026-Q3"
+  },
+  {
+   "c": "ATCO_A",
+   "n": "Atlas Copco AB Class A",
+   "p": 191.9,
+   "m": 898015.5,
+   "pe": 33.85,
+   "pb": 7.89,
+   "per": "2026-Q3"
+  },
+  {
+   "c": "VOLV_A",
+   "n": "Volvo AB Class A",
+   "p": 323.2,
+   "m": 657970.5,
+   "pe": 16.82,
+   "pb": 3.435,
+   "per": "2026-Q3"
+  },
+  {
+   "c": "SWED_A",
+   "n": "Swedbank AB Class A",
+   "p": 421.5,
+   "m": 475376.0,
+   "pe": 15.39,
+   "pb": 2.193,
+   "per": "2026-Q3"
+  }
+ ],
+ "history": {
+  "candidates": 141,
+  "have": 134,
+  "fetched": 134,
+  "kept": 0,
+  "no_mapping": 3,
+  "failed": [
+   [
+    "VOLV_A",
+    404
+   ],
+   [
+    "ERIC_A",
+    404
+   ],
+   [
+    "TEL2_A",
+    404
+   ],
+   [
+    "SWEC_A",
+    404
+   ]
+  ],
+  "failed_n": 4,
+  "blocked": false,
+  "budget_left": 5844
+ },
+ "ok": true
+}

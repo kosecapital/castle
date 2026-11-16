@@ -1,29 +1,29 @@
 {
- "when": "2026-11-15T23:18:37Z",
+ "when": "2026-11-16T23:22:09Z",
  "args": [
   "--new",
   "2"
  ],
  "results": [
   {
-   "cc": "SA",
+   "cc": "NL",
    "ok": true,
-   "fetched": "2026-11-15T23:15:20Z",
-   "n": 384,
-   "candidates": 108,
-   "pages": 108,
+   "fetched": "2026-11-16T23:19:25Z",
+   "n": 93,
+   "candidates": 22,
+   "pages": 22,
    "missing": 0,
    "blocked": false,
    "errors": []
   },
   {
-   "cc": "AU",
+   "cc": "SE",
    "ok": true,
-   "fetched": "2026-11-15T23:16:47Z",
-   "n": 1563,
-   "candidates": 120,
-   "pages": 120,
-   "missing": 0,
+   "fetched": "2026-11-16T23:19:54Z",
+   "n": 749,
+   "candidates": 141,
+   "pages": 134,
+   "missing": 4,
    "blocked": false,
    "errors": []
   }
