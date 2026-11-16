@@ -1,0 +1,246 @@
+{
+ "1120": {
+  "unit": "million SAR",
+  "eps_cur": "SAR",
+  "ttm": {
+   "eps": 4.27,
+   "net_profit": 27245,
+   "tr": "Ekim 2025 - Eylül 2026: pay başına kâr 3,90 (2025; bedelsiz paya göre düzeltilmiş 5,85 × 4 ÷ 6) + 3,27 − 2,90 = 4,27 riyal. Net kâr (sukuk getirisi düşülmeden) 24.792 + 20.870 − 18.417 = 27.245 milyon riyal",
+   "en": "October 2025 - September 2026: earnings per share 3.90 (2025; 5.85 × 4 ÷ 6, adjusted for the bonus issue) + 3.27 − 2.90 = 4.27 riyals. Net profit (before the return paid on Tier 1 sukuk) 24,792 + 20,870 − 18,417 = 27,245 million riyals",
+   "url": "https://www.alrajhibank.com.sa/en/about-alrajhi-bank/media-center/2026/alrajhiq3",
+   "primary": false
+  },
+  "tax_rate": null,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Helper SA batch2, 16 Nov 2026. FY2025 net income 24,792m and EPS 5.85 (4bn shares) from the bank's FY2025 press release (primary); FAB note gives 2025 EPS 3.902 on the post-bonus count. 9M 2026 net 20,870m, EPS 3.27 from the bank's Q3 press release (primary); 9M 2025 net 18,417.25m from Argaam, prior-year EPS 2.90 from Mubasher/Decypha (secondary) -> ttm primary false. NOTE: net_profit 27,245 is BEFORE Tier 1 sukuk distributions; profit to ordinary shareholders is about 4.27 x 6,000 = 25,620m. Universe implies 383,700 / 14.83 = 25,873m: consistent with the EPS basis (1% gap), so no source-vs-document cut is warranted. If the script compares net_profit, the source is LOWER than 27,245, so no cut either. No one-off gain found in the last 12 months (Enterprise mentions higher recoveries on written-off financing inside the net ECL charge, not quantified). No EPS guidance. Zakat instead of income tax; rate not read."
+ },
+ "4013": {
+  "unit": "million SAR",
+  "eps_cur": "SAR",
+  "ttm": {
+   "eps": 7.14,
+   "net_profit": 2498.91,
+   "tr": "Ekim 2025 - Eylül 2026: dört çeyreğin ana ortaklık net kârı 651,16 + 503,29 + 662,66 + 681,8 = 2.498,91 milyon riyal; 350 milyon paya bölününce pay başına 7,14 riyal",
+   "en": "October 2025 - September 2026: attributable net profit of the four quarters 651.16 + 503.29 + 662.66 + 681.8 = 2,498.91 million riyals; divided by 350 million shares, 7.14 riyals per share",
+   "url": "https://decypha.com/en/news/details/Dr--Sulaiman-Al-Habib-posts-over-SAR-503m-profits-in-Q1-26--dividends-unveiled/21548413?L=EN",
+   "primary": false
+  },
+  "tax_rate": null,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Helper SA batch2, 16 Nov 2026. Q4 2025 651.16m and Q1 2026 503.29m from Decypha's Q1 article; Q2 2026 662.66m from Decypha's Q2 article; Q3 2026 681.8m only from a Maaal headline (article not openable). EPS is my division by 350m shares (Q1 EPS 1.44 = 503.29/350 confirms the share count). Universe implies 74,760 / 29.71 = 2,516m: 0.7% above my sum, so no source-vs-document cut. Argaam's dividend page shows 'P/E TTM 29.71, Recurring P/E TTM 30.41' -> Argaam itself sees a small non-recurring element in TTM profit (about 2.3% of profit: 29.71/30.41), below the 3% threshold; I could not identify the item, so gains is empty. No company statements opened (Saudi Exchange not reachable). No EPS guidance. Zakat instead of income tax."
+ },
+ "7203": {
+  "unit": "million SAR",
+  "eps_cur": "SAR",
+  "ttm": {
+   "eps": 30.57,
+   "net_profit": 2393.25,
+   "tr": "Ekim 2025 - Eylül 2026: ana ortaklık net kârı 2.090,35 + 1.947 − 1.644,10 = 2.393,25 milyon riyal (2025 yılı, 2026 dokuz ay, 2025 dokuz ay). Pay başına kâr 26,13 + 24,99 − 20,55 = 30,57 riyal; 2025 rakamları 80 milyon pay, 2026 rakamı yaklaşık 77,9 milyon pay üzerinden",
+   "en": "October 2025 - September 2026: attributable net profit 2,090.35 + 1,947 − 1,644.10 = 2,393.25 million riyals (full year 2025, nine months 2026, nine months 2025). Earnings per share 26.13 + 24.99 − 20.55 = 30.57 riyals; the 2025 figures are on 80 million shares, the 2026 figure on about 77.9 million",
+   "url": "https://www.argaam.com/en/financial-reports/company-report/11828/2025/1",
+   "primary": false
+  },
+  "tax_rate": null,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Helper SA batch2, 16 Nov 2026. FY2025 net 2,090.35m, EPS 26.13 and 9M 2025 net 1,644.10m, EPS 20.55 from Argaam (80.00m average shares); 9M 2026 net 1,947m, EPS 24.99 from Quartr (implies about 77.9m shares; Quartr gives 9M 2025 EPS as 21.13, i.e. the same reduced share basis). EPS bases are therefore MIXED: on a consistent 80m shares TTM EPS = 2,393.25/80 = 29.92; on 77.9m = 30.72. SOURCE-VS-DOCUMENT: universe m/pe = 50,240/20.0 = 2,512m vs document 2,393m -> source 5.0% higher, above the 3% line. The cause looks like share count, not profit: price/EPS = 614/30.57 = 20.1 agrees with the universe P/E, but universe market value 50,240m / 614 = 81.8m shares, more than the 80m issued (80m x 614 = 49,120m). So the market value in the universe looks 2.3% too high and the EPS is on treasury-reduced shares; main session should decide which comparison the script uses (per-share comparison shows no gap). One-offs: FY2025 EPS before unusual items 25.26 vs 26.13 (0.87/share = about 69.6m = the SAR 69m reversal of prior-year zakat provisions); 9M 2025 shows the same 0.87 gap (19.68 vs 20.55), so the reversal fell in Jan-Sep 2025, OUTSIDE the TTM window -> gains empty. Nothing identified for Q3 2026 (statements not opened). Guidance not EPS."
+ },
+ "8210": {
+  "unit": "million SAR",
+  "eps_cur": "SAR",
+  "ttm": {
+   "eps": 7.34,
+   "net_profit": 1079,
+   "tr": "Ekim 2025 - Eylül 2026: hisse başına kâr 7,23 − 6,90 + 7,01 = 7,34 riyal; net kâr yaklaşık 1.070 − 1.030 + 1.039 = 1.079 milyon riyal (2025 yılı, 2025 dokuz ay, 2026 dokuz ay; yıllık rakamlar kaynakta yuvarlanmış)",
+   "en": "October 2025 - September 2026: EPS 7.23 − 6.90 + 7.01 = 7.34 riyals; net profit about 1,070 − 1,030 + 1,039 = 1,079 million riyals (full year 2025, nine months 2025, nine months 2026; the annual figures are rounded in the source)",
+   "url": "https://jawlah.co/en/67537",
+   "primary": false
+  },
+  "tax_rate": null,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Helper batch3, 16 Nov 2026. FY2025 EPS 7.23 (company annual report 2025 and Zawya; net profit 'SAR 1.07 billion', 2024 1.16bn, EPS 7.79). 9M 2026 EPS ~7.01, 9M 2025 6.90, net profit 1.039bn vs ~1.030bn (jawlah.co, secondary). Check: price 143.3 / 7.34 = 19.52 vs universe pe 19.53 -> source and documents agree. No one-off gain found in the last 12 months. Note: comprehensive income fell 32.6% on sukuk fair-value losses (through OCI, not in net profit). Investment income (626.0m in 9M) is recurring business of an insurer, not treated as one-off. Company gives no EPS guidance."
+ },
+ "4190": {
+  "unit": "million SAR",
+  "eps_cur": "SAR",
+  "ttm": {
+   "eps": 0.98,
+   "net_profit": 1172.8,
+   "tr": "Ekim 2025 - Eylül 2026: net kâr 1.049,2 − 739,4 + 863 = 1.172,8 milyon riyal (2025 yılı = dokuz ay 739,4 + dördüncü çeyrek 309,8; 2025 dokuz ay; 2026 dokuz ay). Hisse başına kâr 1.172,8 ÷ 1.200 milyon pay = 0,98 riyal (kendi bölmemiz)",
+   "en": "October 2025 - September 2026: net profit 1,049.2 − 739.4 + 863 = 1,172.8 million riyals (full year 2025 = nine months 739.4 + fourth quarter 309.8; nine months 2025; nine months 2026). EPS 1,172.8 ÷ 1,200 million shares = 0.98 riyals (our own division)",
+   "url": "https://www.aleqt.com/الشركات/جرير-توزع-360-مليون-ريال-أرباحا-نقدية-عن-الربع-الثالث-16204",
+   "primary": false
+  },
+  "tax_rate": null,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Helper batch3, 16 Nov 2026. FY2025 net profit 1,049 (company annual report 2025; Argaam: Q4 2025 309.81, Q3 2025 324.91). Quarterly check from Argaam table: Q4-25 309.81 + Q1-26 253.48 + Q2-26 235.56 + Q3-26 374 = 1,172.85. Check vs universe: mcap 21,480 / 1,172.8 = 18.31 = universe pe 18.31 -> source and documents agree. EPS not read as a 12-month figure; computed with 1,200m shares (Zawya's 'EPS 0.90' for FY2025 is inconsistent with 1,049/1,200 = 0.87 and was not used). Q3 2026 profit was helped by 'higher other income' (amount not disclosed in what I read) -> could not test against the 3% rule; main session may want the Q3 interim statements. No one-off gain identified. No company guidance. Equity at 30 Sep 2026 not found; end-2025 equity SAR 1,762m (annual report; the extract warned the surrounding text was inconsistent)."
+ },
+ "4263": {
+  "unit": "million SAR",
+  "eps_cur": "SAR",
+  "ttm": {
+   "eps": 9.77,
+   "net_profit": 781.6,
+   "tr": "Ekim 2025 - Eylül 2026: hisse başına kâr 8,72 − 6,20 + 7,25 = 9,77 riyal; ana ortaklık net kârı 697,9 − 496,2 + 579,9 = 781,6 milyon riyal (2025 yılı, 2025 dokuz ay, 2026 dokuz ay)",
+   "en": "October 2025 - September 2026: EPS 8.72 − 6.20 + 7.25 = 9.77 riyals; net profit attributable to shareholders 697.9 − 496.2 + 579.9 = 781.6 million riyals (full year 2025, nine months 2025, nine months 2026)",
+   "url": "https://jawlah.co/en/67622",
+   "primary": false
+  },
+  "tax_rate": null,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Helper batch3, 16 Nov 2026. FY2025 profit 697,890k and EPS 8.72 from the company's annual report (CFO's review, primary); 9M figures from jawlah.co / Decypha (secondary). Check: 168.9 / 9.77 = 17.29 = universe pe 17.29 -> agree. No one-off gain found in the last 12 months (looked for bargain-purchase gain on Aviapartner Liege: not mentioned in what I read; the Q3 interim statements were not opened). Equity attributable SAR 1.79bn at 30 Sep 2026 -> P/B 7.58 (L2 7.58; universe 7.979)."
+ },
+ "4164": {
+  "unit": "million SAR",
+  "eps_cur": "SAR",
+  "ttm": {
+   "eps": 6.14,
+   "net_profit": 798.6,
+   "tr": "Ekim 2025 - Eylül 2026: net kâr 830,7 − 654,8 + 622,7 = 798,6 milyon riyal (2025 yılı, 2025 dokuz ay, 2026 dokuz ay). Hisse başına kâr 798,6 ÷ 130 milyon pay = 6,14 riyal (kendi bölmemiz)",
+   "en": "October 2025 - September 2026: net profit 830.7 − 654.8 + 622.7 = 798.6 million riyals (full year 2025, nine months 2025, nine months 2026). EPS 798.6 ÷ 130 million shares = 6.14 riyals (our own division)",
+   "url": "https://www.decypha.com/en/news/details/Nahdi-Medical-s-profits-near-SAR-623m-in-9M-26--revenues-jump-7-/21583197?L=EN",
+   "primary": false
+  },
+  "tax_rate": null,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Helper batch3, 16 Nov 2026. FY2025 net profit 830.70m, EPS 6.39 (Decypha 9 Mar 2026; company release on saudiexchange.sa says SAR 831m); 9M 2025 654.80m; 9M 2026 622.70m, EPS 4.79. Quarterly check: Q4-25 175.92 + Q1-26 235.68 + Q2-26 215.2 + Q3-26 171.8 = 798.6. Check: 94.2 / 6.14 = 15.34 = universe pe 15.34 -> agree. The one-off zakat reversal (SAR 17.8m) was in Q1 2025, OUTSIDE the last 12 months. No one-off gain found inside the window. No company guidance. Total equity SAR 2.70bn at 30 Sep 2026 (Decypha) -> P/B 4.59 (L2 4.59; universe 4.543)."
+ },
+ "4002": {
+  "unit": "million SAR",
+  "eps_cur": "SAR",
+  "ttm": {
+   "eps": 4.19,
+   "net_profit": 838,
+   "tr": "Ekim 2025 - Eylül 2026: 2025 dördüncü çeyrek net kârı 238,37 milyon riyal (hisse başına 1,19) + 2026 dokuz ay 600 milyon riyal (hisse başına 3,00) = yaklaşık 838 milyon riyal, hisse başına 4,19 riyal. Dokuz ay rakamı haberde yuvarlanmış.",
+   "en": "October 2025 - September 2026: Q4 2025 net profit of 238.37 million riyals (1.19 per share) + nine months 2026 of 600 million riyals (3.00 per share) = about 838 million riyals, 4.19 riyals per share. The nine-month figure is rounded in the news report.",
+   "url": "https://english.ajel.sa/business/o3x0al1qq",
+   "primary": false
+  },
+  "tax_rate": null,
+  "gains": [
+   {
+    "tr": "2026'nın ilk çeyreğinde geçmiş dönem zekât karşılıklarının iptali: 8,12 milyon riyal",
+    "en": "Reversal of prior-period zakat provisions in the first quarter of 2026: 8.12 million riyals",
+    "frac": 0.01,
+    "how": "8.12 / 838",
+    "period_tr": "Ocak-Mart 2026",
+    "period_en": "January-March 2026",
+    "url": "https://argaamplus.s3.amazonaws.com/eae93edb-0ba3-42bb-a933-e8f4fd7f7545.pdf"
+   }
+  ],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Helper batch4, 16 Nov 2026. Cross-check: FY2025 822 (EnterpriseAM) + 600 - 584 = 838. Q4-2025 238.37 and EPS 1.19 from Argaam's Q1-2026 page (sequential table). Dataset: price 57.9 / PE 13.81 = 4.19 per share -> matches. The non-recurring receivable collections the company mentions were in Q3 2025, OUTSIDE the last 12 months. Zakat reversal 8,121,529 SAR read in the company's Q1-2026 statements (1.0% of TTM, below the 3% line). Equity at 30 Sep 2026 NOT read; 31 Mar 2026: 3.97bn (Argaam). Dataset implies 11,870 / 2.788 = 4,258m."
+ },
+ "8313": {
+  "unit": "million SAR",
+  "eps_cur": "SAR",
+  "ttm": {
+   "eps": null,
+   "net_profit": 384,
+   "tr": "Ekim 2025 - Eylül 2026: 2025 net kârı 247 milyon riyal + 2026 dokuz ay 284 milyon riyal − 2025 dokuz ay 146,92 milyon riyal = yaklaşık 384 milyon riyal. Hisse başına kâr okunan belgelerde yok.",
+   "en": "October 2025 - September 2026: 2025 net profit of 247 million riyals + nine months 2026 of 284 million riyals − nine months 2025 of 146.92 million riyals = about 384 million riyals. Earnings per share are not in the documents read.",
+   "url": "https://www.aol.com/articles/rasan-extends-strong-momentum-9m-093100000.html",
+   "primary": false
+  },
+  "tax_rate": null,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Helper batch4, 16 Nov 2026. FY2025 247m from the company's FY2025 release (saudiexchange fsPdf). Dataset implies 11,029.2 / 29.36 = 376m -> document (384m) is higher, no cut. No one-off gain found; other income FY2025 19m (returns on Murabaha/call deposits - recurring). ESOP non-cash cost 46m in 9M-2026 is an expense already inside reported profit. Equity at 30 Sep 2026 NOT read (dataset implies 11,029.2 / 10.199 = 1,081m; 30 Sep 2025: 601.1m per Argaam)."
+ },
+ "1212": {
+  "unit": "million SAR",
+  "eps_cur": "SAR",
+  "ttm": {
+   "eps": 8.16,
+   "net_profit": 652.5,
+   "tr": "Ekim 2025 - Eylül 2026: 2025 hisse başına kârı 8,34 + 2026 dokuz ay 6,25 − 2025 dokuz ay 6,43 = 8,16 riyal; ana ortaklık net kârı 666,8 + 499,9 − 514,2 = 652,5 milyon riyal",
+   "en": "October 2025 - September 2026: 2025 EPS of 8.34 + nine months 2026 of 6.25 − nine months 2025 of 6.43 = 8.16 riyals; net profit attributable to the parent 666.8 + 499.9 − 514.2 = 652.5 million riyals",
+   "url": "https://www.aig.sa/aigwebsiteupdate/AIG%20-%20Financial%20Statements%20Q3%202026%20English.pdf",
+   "primary": true
+  },
+  "tax_rate": null,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Helper batch4, 16 Nov 2026. FY2025 (666,812,348; EPS 8.34) from the company's annual report 2025; 9M figures from the Q3-2026 statements. Dataset: 9,520 / 14.73 = 646m -> document 652.5m, no cut. Equity attributable 3,198,299,587 at 30 Sep 2026 -> 9,520 / 3,198.3 = 2.98 vs dataset PB 3.004: consistent. One-offs inside 9M-2026: reversal of impairment of financial assets 3.9m, gain on PPE sale 0.2m -> 0.6% of TTM, below 3%, not listed. FVOCI gain 17.0m is in OCI, not profit. Q4-2025 one-offs not checked in detail (annual report read only partly)."
+ },
+ "4015": {
+  "unit": "million SAR",
+  "eps_cur": "SAR",
+  "ttm": {
+   "eps": 6.92,
+   "net_profit": 484.1,
+   "tr": "Ekim 2025 - Eylül 2026: 2025 hisse başına kârı 6,63 + 2026 dokuz ay 5,94 − 2025 dokuz ay 5,65 = 6,92 riyal; net kâr 463,80 + 416,05 − 395,73 = 484,1 milyon riyal",
+   "en": "October 2025 - September 2026: 2025 EPS of 6.63 + nine months 2026 of 5.94 − nine months 2025 of 5.65 = 6.92 riyals; net profit 463.80 + 416.05 − 395.73 = 484.1 million riyals",
+   "url": "https://www.argaam.com/sa-en/financial-reports/company-report/15187/2026/72",
+   "primary": false
+  },
+  "tax_rate": null,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Helper batch4, 16 Nov 2026. Dataset: 8,190 / 16.9 = 484.6m -> matches the documents (484.1m). Equity 1.82bn at 30 Sep 2026 (Argaam) -> 8,190 / 1,820 = 4.50 vs dataset PB 4.478: consistent. Argaam shows no extraordinary items in 2025 or 9M-2026 (EPS before unusual items = EPS). FY2025 growth drivers cited: lower ECL provisions, positive net finance income, Algerian JV profit, absence of prior-year one-offs - none quantified, not listed as gains. 70.00m shares."
+ },
+ "2283": {
+  "unit": "million SAR",
+  "eps_cur": "SAR",
+  "ttm": {
+   "eps": 5.51,
+   "net_profit": 305.5,
+   "tr": "Ekim 2025 - Eylül 2026: hisse başına kâr 5,00 − 3,65 + 4,16 = 5,51 riyal; net kâr 277,44 − 202,73 + 230,83 = 305,5 milyon riyal (2025 yılı, 2025 dokuz ay, 2026 dokuz ay)",
+   "en": "October 2025 - September 2026: EPS 5.00 − 3.65 + 4.16 = 5.51 riyals; net profit 277.44 − 202.73 + 230.83 = 305.5 million riyals (full year 2025, nine months 2025, nine months 2026)",
+   "url": "https://www.argaam.com/en/market-daily-financial-report/3/62944",
+   "primary": false
+  },
+  "tax_rate": null,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Helper batch5, 16 Nov 2026. FY-25 net profit 277.44, EPS 5.00 (Argaam annual page, 9 Mar 2026; also millingmea). 9M-25 202.73, EPS 3.65 (Argaam; company announcement copy shows 202,727,791 and EPS 3.67). 9M-26 230.83, EPS 4.16 (Argaam weekly table). Source check: price 58.4 / PE 10.64 = 5.49 vs 5.51 -> consistent (0.4%); market value 3,313.4 / 10.64 = 311.4 vs 305.5 (1.9%). No one-off gain found: Argaam shows extraordinary items nil for FY-25 and Q4-25; the 28 Oct 2025 announcement shows none; for 2026 only news summaries were readable (reasons given: flour and feed volumes, acquired feed businesses, Qassim capacity) -> gains empty, but the 2026 statements themselves were NOT opened: main session should confirm there is no bargain-purchase gain on the Al-Manar / Al-Kenan acquisitions. Equity: 30 Sep 2026 not read; 31 Dec 2025 about SAR 1.06bn (Argaam), 30 Sep 2025 989.8m (announcement). Zakat payer -> tax_rate null. No EPS guidance."
+ },
+ "4016": {
+  "unit": "million SAR",
+  "eps_cur": "SAR",
+  "ttm": {
+   "eps": 3.3,
+   "net_profit": 115.65,
+   "tr": "Ekim 2025 - Eylül 2026: net kâr 97,01 − 52,49 + 71,13 = 115,65 milyon riyal (2025 yılı, 2025 dokuz ay, 2026 dokuz ay: 55,7 + 15,43); 35 milyon pay üzerinden hisse başına kâr 2,77 − 1,50 + 2,03 = 3,30 riyal",
+   "en": "October 2025 - September 2026: net profit 97.01 − 52.49 + 71.13 = 115.65 million riyals (full year 2025, nine months 2025, nine months 2026: 55.7 + 15.43); EPS on 35 million shares 2.77 − 1.50 + 2.03 = 3.30 riyals",
+   "url": "https://www.argaam.com/en/financial-reports/company-report/16437/2025/1",
+   "primary": false
+  },
+  "tax_rate": null,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Helper batch5, 16 Nov 2026. FY-25 net profit 97.01 (Argaam; company FY release 97.0, primary PDF on saudiexchange.sa), 9M-25 52.49 (Argaam), H1-26 55.7 (company H1 release, primary), Q3-26 15.43 (Argaam CEO interview 4 Nov 2026). 9M-26 71.13 and its EPS 2.03 (71.13/35) are my arithmetic, not reported figures. EPS basis: Argaam's 35m average shares (FY-25 EPS 2.77; company's own FY-25 EPS was 4.85 on ~20m shares; H1-26 company EPS 1.59 = 55.7/35) -> a bonus issue 20m->35m shares took place around Q2 2026, announcement NOT read. Source check: price 66.45 / PE 20.11 = 3.30 vs 3.30 -> consistent; market value 2,257.5 / 20.11 = 112.3 vs 115.65 (3.0% below the document, i.e. source not higher). No one-off gain: FY-25 other income net 0.04m; H1-26 release names none. Equity 30 Sep 2026 not read; 31 Dec 2025 416.2m (primary), 30 Sep 2025 371.3m. Zakat payer -> tax_rate null. No numeric guidance."
+ }
+}

@@ -1,0 +1,186 @@
+{
+ "reports": {
+  "2284": {
+   "scores": {
+    "A": 2,
+    "B": 2,
+    "C": 2,
+    "D": 1,
+    "E": 1
+   },
+   "moat": "dar",
+   "per": "2026-Q3",
+   "one": "Suudi Arabistan'ın dört lisanslı un değirmeninden biri. Hendek dar: lisansa ve devletin buğday desteğine dayanıyor. Özsermaye küçük, borç yüksek.",
+   "business": "Modern Mills buğdayı öğütür; un, yem ve kepek satar. Güney, batı ve kuzey bölgelerinde üç değirmeni var: günde 3.450 ton buğday öğütme ve 1.400 ton yem kapasitesi. Buğdayı devletin Genel Gıda Güvenliği Kurumu'ndan (GFSA) alır; destekli buğdayın fiyatı 2017'den beri ton başına 180 riyal. 2025'te gelir 1.046,6 milyon riyal, net kâr 223,8 milyon riyal oldu. 2022'de un pazarındaki payı miktarda %24, değerde %22 idi.",
+   "moat_text": "Hendek dar sınıfta. Kanıt: ülkede yalnız dört lisanslı değirmen şirketi var; öğütme lisansı 31 Aralık 2020'deki özelleştirmeden başlayarak 25 yıl geçerli. İthal unun payı 2022'de miktarda yalnız %1 idi. Brüt marj istikrarlı: 2023'te %36,8, 2024'te %38,2, 2025'te %37,4 (aracı kurum notundan; şirketin 2022 marjına bakıldı, okunan belgelerde yok). Reel özsermaye kârlılığı son 12 ayda %72,9, beş dönemin en düşüğü %72,8; ama bu oran küçük özsermayeden gelir (30 Eylül 2026'da 342,6 milyon riyal). Borcu da sayan ölçü daha düşük: yatırılan sermayenin getirisi son okumada %24,3. Neden geniş değil: üstünlük tek kaynağa, devletin kararına bağlı. Buğdayı GFSA verir, fiyatını devlet belirler. 45 kilo ve üstü çuvallarda un fiyatını da GFSA düzenler; 2022'de un satış değerinin yaklaşık %84'ü bu ambalajlardaydı. Şirketin fiyatlama gücü bu yüzden sınırlı. Dört değirmen aynı buğdayı aynı fiyata alır; aralarında pay için rekabet var.",
+   "mgmt": "Halka arz Mart 2024'te hisse başına 48 riyalden yapıldı; satanlar mevcut ortaklardı, şirkete para girmedi. Arzdan sonra Mada International Holding %34,5, Al Ghurair Foods %31,05, Masafi %3,45 paya sahipti; halka açık pay %30. Sermayenin %1'i (818.320 pay) çalışan pay programı için hazine payı olarak tutuluyor; hisse bazlı ücretin tutarına bakıldı, okunan belgelerde yok. Kârın çoğu temettüye gidiyor: 2025 için hisse başına 1,98 riyal (hisse başına kâr 2,73 riyal), 2026'nın ilk yarısı için 1 riyal (toplam 81,0 milyon riyal). Borç yüksek: 2020-2021'deki satın almanın %80'i 714,8 milyon riyallik banka kredisiyle ödendi; kaynağa göre net borç FAVÖK'ün 2,3 katı. Ağustos 2026'da SAB ile 235 milyon riyallik kredi anlaşması imzalandı. Yeni yatırım ana işe yakın: 87,7 milyon riyallik gıda bileşenleri fabrikası (Mayıs 2026). Şirket zekât öder. Şerefiye, emeklilik ve bilanço dışı yükümlülüklere bakıldı; okunan belgelerde yok. Geri alım yok.",
+   "latest": "25 Ekim 2026: Şirket dokuz aylık sonuçlarını açıkladı. Üçüncü çeyrekte net kâr 62,3 milyon riyal (bir yıl önce 56,1; +%11,0), gelir 328,5 milyon riyal (+%25,8), faaliyet kârı 72,2 milyon riyal (+%12,3). Dokuz ayda net kâr 181,6 milyon riyal (171,5; +%5,9), gelir 906,7 milyon riyal (+%17,2), hisse başına kâr 2,24 riyal (2,12). 30 Eylül 2026'da özsermaye 342,6 milyon riyal. Şirkete göre satış miktarı arttı; hammadde maliyeti, coğrafi genişlemenin satış ve dağıtım giderleri ve finansman gideri yükseldi. Gelir kârdan hızlı büyüdü: üçüncü çeyrekte faaliyet kârının gelire oranı %24,6'dan %22,0'ye indi.",
+   "risks": [
+    "Kazanç devletin iki kararına dayanır: destekli buğdayın fiyatı (ton başına 180 riyal) ve büyük ambalajlı unun fiyat tavanı. Bu kararlar değişirse kâr değişir; şirket Temmuz 2025'te politikada değişiklik bildirilmediğini açıkladı. Bir aracı kurum, desteğin tümüyle kalkması hâlinde hisse başına kârı 2,0 riyal olarak tahmin ediyor (2025: 2,73).",
+    "Özsermaye küçük (342,6 milyon riyal), borç yüksek (kaynağa göre net borç FAVÖK'ün 2,3 katı). Yüksek özsermaye kârlılığı bu yapıdan gelir; faiz yükselirse kâr azalır. 2026'da finansman gideri artıyor.",
+    "2026'da gelir kârdan hızlı büyüyor: dokuz ayda gelir %17,2, net kâr %5,9 arttı. Hammadde maliyeti ve dağıtım gideri marjı daraltıyor.",
+    "Borsadaki geçmişi kısa: hisse Mart 2024'ten beri işlem görüyor ve arz fiyatının (48 riyal) altında. İki büyük ortak sermayenin yaklaşık üçte ikisini elinde tutuyor.",
+    "Yem ve kepek fiyatları düzenlenmez; tahıl fiyatlarına ve hayvancılık talebine bağlıdır. Bölümlerin kârı ayrı okunamadı."
+   ],
+   "watch": [
+    "GFSA'nın destekli buğday fiyatı ve un fiyat tavanı kararları",
+    "Brüt marj ve faaliyet kârının gelire oranı",
+    "Net borç ve finansman gideri",
+    "Temettünün kâra oranı ve yeni fabrikanın maliyeti"
+   ],
+   "sources": [
+    {
+     "t": "Mubasher/Decypha: Modern Mills üçüncü çeyrek ve dokuz ay 2026 sonuçları (25 Ekim 2026)",
+     "te": "Mubasher/Decypha: Modern Mills Q3 and nine-month 2026 results (25 October 2026)",
+     "u": "https://www.decypha.com/en/news/details/Modern-Mills-sees-11--higher-profits-in-Q3-26-on-back-of-SAR-328-5m-revenue/21582461?L=EN"
+    },
+    {
+     "t": "Mubasher/Decypha: Modern Mills ilk yarı 2026 sonuçları (26 Temmuz 2026)",
+     "te": "Mubasher/Decypha: Modern Mills H1 2026 results (26 July 2026)",
+     "u": "https://www.decypha.com/en/news/details/Modern-Mills-generates-SAR-119-5m-net-profits-in-H1-26/21564213?L=EN"
+    },
+    {
+     "t": "Argaam: Modern Mills 2025 yıl sonu sonuçları (1 Mart 2026)",
+     "te": "Argaam: Modern Mills full-year 2025 results (1 March 2026)",
+     "u": "https://www.argaam.com/en/financial-reports/company-report/16485/2025/1"
+    },
+    {
+     "t": "Argaam: Modern Mills dokuz ay 2025 sonuçları (26 Ekim 2025)",
+     "te": "Argaam: Modern Mills nine-month 2025 results (26 October 2025)",
+     "u": "https://www.argaam.com/en/financial-reports/company-report/16485/2025/72"
+    },
+    {
+     "t": "Argaam: Modern Mills birinci çeyrek 2026 sonuçları (29 Nisan 2026)",
+     "te": "Argaam: Modern Mills Q1 2026 results (29 April 2026)",
+     "u": "https://www.argaam.com/en/financial-reports/company-report/16485/2026/70"
+    },
+    {
+     "t": "Argaam: Modern Mills şirket sayfası; temettü, SAB kredisi, fabrika haberleri (2026)",
+     "te": "Argaam: Modern Mills company page; dividend, SAB facility and factory news (2026)",
+     "u": "https://www.argaam.com/en/tadawul/tasi/modern-mills"
+    },
+    {
+     "t": "Argaam: Modern Mills, destek ve fiyat politikasının değişmediğini açıkladı (15 Temmuz 2025)",
+     "te": "Argaam: Modern Mills says subsidy, pricing policies unchanged (15 July 2025)",
+     "u": "https://www.argaam.com/en/article/articledetail/id/1828027"
+    },
+    {
+     "t": "Argaam: Modern Mills halka arzı; ortaklar, değirmenler, pazar payı (Mart 2024)",
+     "te": "Argaam: Modern Mills IPO; shareholders, mills, market share (March 2024)",
+     "u": "https://argaam.com/en/article/articledetail/id/1710114"
+    },
+    {
+     "t": "Saudi Exchange: Modern Mills izahnamesi (5 Mart 2024)",
+     "te": "Saudi Exchange: Modern Mills prospectus (5 March 2024)",
+     "u": "https://www.saudiexchange.sa/Resources/IPO/PDF/IPO_ENG_2024-03-05_09-07-09_1.pdf"
+    },
+    {
+     "t": "AlJazira Capital: Modern Mills birinci çeyrek 2026 notu; brüt marj ve temettü (Nisan 2026)",
+     "te": "AlJazira Capital: Modern Mills Q1 2026 flash note; gross margin and dividends (April 2026)",
+     "u": "https://www.aljaziracapital.com.sa/media/ncsick5k/modern-mills-flash-note-q1-26-en.pdf"
+    }
+   ],
+   "en": {
+    "one": "One of Saudi Arabia's four licensed flour millers. Narrow moat: it rests on the licence and the state wheat subsidy. Equity thin, debt high.",
+    "business": "Modern Mills mills wheat and sells flour, animal feed and bran. It has three mills in the southern, western and northern regions: 3,450 tons of wheat milling and 1,400 tons of feed capacity a day. It buys its wheat from the state's General Food Security Authority (GFSA); subsidised wheat has cost 180 riyals a ton since 2017. In 2025 revenue was 1,046.6 million riyals and net profit 223.8 million riyals. In 2022 its share of the flour market was 24% by volume and 22% by value.",
+    "moat_text": "The moat is narrow. Evidence: the country has only four licensed milling companies; the milling licence runs for 25 years from the privatisation on 31 December 2020. Imported flour had only 1% of the market by volume in 2022. Gross margin is steady: 36.8% in 2023, 38.2% in 2024, 37.4% in 2025 (from a broker note; we looked for the 2022 margin, not in the documents read). Real return on equity was 72.9% in the last 12 months and 72.8% at its lowest in five periods; but that ratio comes from thin equity (342.6 million riyals at 30 September 2026). The measure that also counts debt is lower: return on invested capital was 24.3% at the last reading. Why not wide: the advantage depends on one source, the state's decision. GFSA supplies the wheat and the state sets its price. GFSA also regulates the flour price in bags of 45 kg and above; in 2022 about 84% of flour sales value was in those formats. So the company's pricing power is limited. The four millers buy the same wheat at the same price and compete with each other for share.",
+    "mgmt": "The IPO was in March 2024 at 48 riyals a share; the sellers were the existing shareholders and no money went to the company. After the IPO Mada International Holding held 34.5%, Al Ghurair Foods 31.05% and Masafi 3.45%; the free float was 30%. 1% of the capital (818,320 shares) is held as treasury shares for an employee share programme; we looked for the amount of share-based pay, not in the documents read. Most of the profit goes to dividends: 1.98 riyals a share for 2025 (earnings per share 2.73 riyals) and 1 riyal for the first half of 2026 (81.0 million riyals in total). Debt is high: 80% of the 2020-2021 acquisition was paid with a 714.8 million riyal bank loan; per the source, net debt is 2.3 times EBITDA. In August 2026 a 235 million riyal credit facility was signed with SAB. The new investment is close to the core business: a food ingredients factory costing 87.7 million riyals (May 2026). The company pays zakat. We looked for goodwill, pension and off-balance-sheet obligations; not in the documents read. There are no buybacks.",
+    "latest": "25 October 2026: The company announced nine-month results. In the third quarter net profit was 62.3 million riyals (56.1 a year earlier; +11.0%), revenue 328.5 million riyals (+25.8%) and operating profit 72.2 million riyals (+12.3%). In nine months net profit was 181.6 million riyals (171.5; +5.9%), revenue 906.7 million riyals (+17.2%) and earnings per share 2.24 riyals (2.12). Equity was 342.6 million riyals at 30 September 2026. The company said sales volumes rose; raw material costs, selling and distribution expenses from geographic expansion, and financing costs went up. Revenue grew faster than profit: in the third quarter operating profit fell from 24.6% of revenue to 22.0%.",
+    "risks": [
+     "Earnings rest on two state decisions: the price of subsidised wheat (180 riyals a ton) and the price cap on flour in large bags. If these change, profit changes; in July 2025 the company said it had received no notice of a policy change. One broker estimates earnings per share of 2.0 riyals if the subsidy were removed entirely (2025: 2.73).",
+     "Equity is thin (342.6 million riyals) and debt is high (per the source, net debt is 2.3 times EBITDA). The high return on equity comes from this structure; if interest rates rise, profit falls. Financing costs are rising in 2026.",
+     "In 2026 revenue is growing faster than profit: in nine months revenue rose 17.2% and net profit 5.9%. Raw material and distribution costs are squeezing the margin.",
+     "The listed history is short: the share has traded since March 2024 and is below the IPO price (48 riyals). Two large shareholders hold about two thirds of the capital.",
+     "Feed and bran prices are not regulated; they depend on grain prices and livestock demand. We could not read segment profits separately."
+    ],
+    "watch": [
+     "GFSA decisions on the subsidised wheat price and the flour price cap",
+     "Gross margin and operating profit as a share of revenue",
+     "Net debt and financing costs",
+     "Dividend payout and the cost of the new factory"
+    ]
+   },
+   "verify": {
+    "tr": "Veri kusuru bulunamadı. Son 12 ayın net kârı 223,79 + 181,62 − 171,45 = 233,96 milyon riyal; piyasa değeri 2.191,5 milyon riyal ile F/K 9,37 (kaynak 9,25). 30 Eylül 2026 özsermayesi 342,56 milyon riyal ile PD/DD 6,40 (kaynak 6,32). Pay sayısı arzdan beri 81,83 milyon; bölünme ya da bedelsiz yok. Son 12 ayda tek seferlik kazanç görülmedi (Argaam'ın 'olağan dışı kalemler öncesi' hisse başına kârı açıklanan kârla aynı; üçüncü çeyrek için bu denetim yapılamadı). Ucuz görünmesinin olası nedenleri: kazanç devlet desteğine bağlı, özsermaye küçük ve borç yüksek, 2026'da marj daralıyor. Rakamlar şirketin tablosundan değil, borsa bildirimini aktaran haber sitelerinden okundu; ana oturum birincil belgeyle doğrulamalı.",
+    "en": "No data flaw found. Net profit of the last 12 months is 223.79 + 181.62 − 171.45 = 233.96 million riyals; with a market value of 2,191.5 million riyals the P/E is 9.37 (source 9.25). With equity of 342.56 million riyals at 30 September 2026 the P/B is 6.40 (source 6.32). The share count has been 81.83 million since the IPO; no split or bonus issue. No one-off gain was seen in the last 12 months (Argaam's EPS 'before unusual items' equals reported EPS; this check could not be made for the third quarter). Likely reasons it looks cheap: earnings depend on the state subsidy, equity is thin and debt high, and the margin is narrowing in 2026. The figures were read from news sites relaying the exchange filing, not from the company's statements; the main session should confirm with the primary document."
+   },
+   "chk": {
+    "date": "2026-11-16",
+    "per": "2026-Q3"
+   },
+   "earn": {
+    "k": 1.0,
+    "basis": {
+     "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı.",
+     "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are."
+    },
+    "per": "2026-Q3"
+   },
+   "growth": {
+    "g": 9.8,
+    "basis": {
+     "tr": "Formül yılda %15,6 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %5,9; Temmuz-Eylül 2026 çeyreği %11,0. En düşüğü, enflasyondan arındırılınca, %4,0. Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %9,8.",
+     "en": "The formula gave growth of 15.6% a year. Latest figures (net profit, year on year): January-September 2026 5.9%; July-September 2026 quarter 11.0%. The lowest, after inflation, is 4.0%. Because this is less than half the formula's rate, the midpoint of the two was used: 9.8%."
+    },
+    "per": "2026-Q3"
+   }
+  }
+ },
+ "growth_facts": {
+  "2284": {
+   "metric": "net profit",
+   "ytd": {
+    "tr": "Ocak-Eylül 2026",
+    "en": "January-September 2026",
+    "pct": 5.93,
+    "cur_val": "181.62",
+    "prev_val": "171.45",
+    "unit": "milyon riyal / million riyals",
+    "date": "2026-10-25",
+    "url": "https://www.decypha.com/en/news/details/Modern-Mills-sees-11--higher-profits-in-Q3-26-on-back-of-SAR-328-5m-revenue/21582461?L=EN",
+    "primary": false
+   },
+   "quarter": {
+    "tr": "Temmuz-Eylül 2026 çeyreği",
+    "en": "July-September 2026 quarter",
+    "pct": 10.98,
+    "cur_val": "62.30",
+    "prev_val": "56.14",
+    "unit": "milyon riyal / million riyals",
+    "date": "2026-10-25",
+    "url": "https://www.decypha.com/en/news/details/Modern-Mills-sees-11--higher-profits-in-Q3-26-on-back-of-SAR-328-5m-revenue/21582461?L=EN",
+    "primary": false
+   },
+   "guidance": null,
+   "adjusted": null,
+   "departed": null,
+   "permanent": null,
+   "dividend": null,
+   "skip": null,
+   "exclude": null,
+   "note_tr": null,
+   "note_en": null,
+   "notes": "Helper SA batch1, 16 Nov 2026. Net profit attributable (no minority interest). 9M 2026 181.62m vs 171.45m (+5.93%); Q3 2026 62.30m vs 56.14m (+10.98%): read on Decypha, which reproduces the Mubasher report of the exchange filing dated 25 Oct 2026 -> primary false; the company's own statements / saudiexchange announcement could not be located (web search budget ran out). EPS in the same article: 2.24 vs 2.12 (+5.7%; appears to be on shares net of treasury, about 81.0m). 9M 2025 cross-checked on Argaam (171.45m, EPS 2.10 on 81.83m shares). Share count unchanged at 81.83m, so net profit change = EPS change. No company EPS guidance found. No departed business. Nothing permanent: subsidy regime unchanged per company statement of July 2025. Source dividend yield exists (7.47%) -> dividend null (company: SAR 1/share for H1 2026 announced 26 Jul 2026; FY25 DPS 1.98 per AlJazira Capital note)."
+  }
+ },
+ "earn_facts": {
+  "2284": {
+   "unit": "million SAR",
+   "eps_cur": "SAR",
+   "ttm": {
+    "eps": 2.86,
+    "net_profit": 233.96,
+    "tr": "Ekim 2025 - Eylül 2026: net kâr 223,79 − 171,45 + 181,62 = 233,96 milyon riyal (2025 yılı, 2025 dokuz ay, 2026 dokuz ay); 81,83 milyon payla hisse başına 2,86 riyal",
+    "en": "October 2025 - September 2026: net profit 223.79 − 171.45 + 181.62 = 233.96 million riyals (full year 2025, nine months 2025, nine months 2026); 2.86 riyals a share on 81.83 million shares",
+    "url": "https://www.decypha.com/en/news/details/Modern-Mills-sees-11--higher-profits-in-Q3-26-on-back-of-SAR-328-5m-revenue/21582461?L=EN",
+    "primary": false
+   },
+   "tax_rate": null,
+   "gains": [],
+   "offsets": [],
+   "drop": null,
+   "guidance": [],
+   "notes": "Helper SA batch1, 16 Nov 2026. FY2025 net profit 223.79m and 9M 2025 171.45m from Argaam results pages (argaam.com/en/financial-reports/company-report/16485/2025/1 and .../2025/72); 9M 2026 181.62m from Decypha/Mubasher (25 Oct 2026). All secondary copies of the exchange filings -> primary false; re-check against the company's interim statements. EPS 2.86 = 233.96 / 81.83m shares (my arithmetic; Argaam shows TTM recurring EPS 2.86). Quarterly: Q4-25 52.34, Q1-26 65.90, Q2-26 53.43, Q3-26 62.30 = 233.97. Source vs document: price 26.72 / PE 9.25 = 2.89 per share vs 2.86 -> 1% apart, no cut. Equity 342.56m at 30 Sep 2026 (Decypha) -> PB 2,191.5 / 342.56 = 6.40 vs universe 6.319. One-offs: Argaam's 'EPS before unusual items' equals reported EPS for FY2025, Q4-25 and Q1-26 -> none; for Q2-26 and Q3-26 the news items mention none, but the statements were not read. Company pays zakat, no income-tax rate -> tax_rate null. No company EPS guidance. Not read: goodwill/intangibles, share-based payment expense, segment profit."
+  }
+ }
+}
