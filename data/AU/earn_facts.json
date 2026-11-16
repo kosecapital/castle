@@ -1,0 +1,227 @@
+{
+ "WES": {
+  "unit": "million AUD",
+  "eps_cur": "AUD",
+  "ttm": {
+   "eps": 2.534,
+   "net_profit": 2874,
+   "tr": "Temmuz 2025 - Haziran 2026 (mali yıl): hisse başına kâr 253,4 sent, net kâr 2.874 milyon dolar",
+   "en": "July 2025 - June 2026 (fiscal year): earnings per share of 253.4 cents and net profit of 2,874 million dollars",
+   "url": "https://announcements.asx.com.au/asxpdf/20260827/pdf/0738z7fxb48k84.pdf",
+   "primary": true
+  },
+  "tax_rate": null,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Helper AU batch1, 16 Nov 2026. FY26 = universe period 2026-H2. Basic EPS 253.4c, NPAT A$2,874m (results release 27 Aug 2026). Dataset: 80.82 / 31.91 = 2.533 -> matches. The company states NO significant items in FY26 (FY25 had +A$273m post-tax: Coregas gain 233m pre-tax, BPI wind-up 97m pre-tax, Catch costs -51m pre-tax). Note: the presentation says Coregas was sold on 1 July 2025 but the release books the gain as an FY25 significant item - I followed the release. Officeworks one-off transformation costs about A$40m pre-tax in FY26 are inside divisional EBT, not a group significant item -> not listed as offset. Total equity A$7,977m at 30 Jun 2026 (91,753.5 / 7,977 = 11.5 = universe P/B); attributable split not given in the release. No EPS guidance. Diluted EPS, tax rate, share-based pay: not in the documents read."
+ },
+ "ALL": {
+  "unit": "million AUD",
+  "eps_cur": "AUD",
+  "ttm": {
+   "eps": null,
+   "net_profit": 1370,
+   "tr": "Ekim 2025 - Eylül 2026 (mali yıl): habere göre açıklanan net kâr 1,37 milyar dolar; hisse başına kâr okunamadı",
+   "en": "October 2025 - September 2026 (fiscal year): reported net profit of 1.37 billion dollars according to a news report; earnings per share could not be read",
+   "url": "https://casinobeats.com/2026/11/12/aristocrat-names-ex-entain-coo-dafne-guisard-as-ceo-as-interactive-profit-falls-6-2/",
+   "primary": false
+  },
+  "tax_rate": 0.273,
+  "gains": [
+   {
+    "tr": "Light & Wonder dava anlaşması (Ekim 2025 - Mart 2026 yarıyılı): vergi sonrası 100,3 milyon dolar",
+    "en": "Light & Wonder litigation settlement (half-year October 2025 - March 2026): 100.3 million dollars after tax",
+    "frac": 0.0732,
+    "how": "100.3 / 1,370; after-tax amount from the company's half-year report",
+    "period_tr": "Ekim 2025 - Mart 2026",
+    "period_en": "October 2025 - March 2026",
+    "url": "https://announcements.asx.com.au/asxpdf/20260513/pdf/06zjksds820tmr.pdf",
+    "primary": true
+   },
+   {
+    "tr": "Big Fish oyun varlıklarının ve Plarium'un satışından net kazanç (Ekim 2025 - Mart 2026 yarıyılı): vergi sonrası 50,8 milyon dolar",
+    "en": "Net gain on the sale of Big Fish game assets and Plarium (half-year October 2025 - March 2026): 50.8 million dollars after tax",
+    "frac": 0.0371,
+    "how": "50.8 / 1,370; after-tax amount from the company's half-year report",
+    "period_tr": "Ekim 2025 - Mart 2026",
+    "period_en": "October 2025 - March 2026",
+    "url": "https://announcements.asx.com.au/asxpdf/20260513/pdf/06zjksds820tmr.pdf",
+    "primary": true
+   }
+  ],
+  "offsets": [
+   {
+    "tr": "Satın almalara bağlı işlem ve bütünleştirme giderleri (Ekim 2025 - Mart 2026 yarıyılı): vergi sonrası 39,2 milyon dolar",
+    "en": "Transaction and integration costs from acquisitions (half-year October 2025 - March 2026): 39.2 million dollars after tax",
+    "frac": 0.0286,
+    "how": "39.2 / 1,370; after-tax amount from the company's half-year report",
+    "period_tr": "Ekim 2025 - Mart 2026",
+    "period_en": "October 2025 - March 2026",
+    "url": "https://announcements.asx.com.au/asxpdf/20260513/pdf/06zjksds820tmr.pdf",
+    "primary": true
+   },
+   {
+    "tr": "White Label işinden çıkış giderleri (Ekim 2025 - Mart 2026 yarıyılı): vergi sonrası 26,1 milyon dolar",
+    "en": "Costs of exiting the White Label business (half-year October 2025 - March 2026): 26.1 million dollars after tax",
+    "frac": 0.0191,
+    "how": "26.1 / 1,370; after-tax amount from the company's half-year report",
+    "period_tr": "Ekim 2025 - Mart 2026",
+    "period_en": "October 2025 - March 2026",
+    "url": "https://announcements.asx.com.au/asxpdf/20260513/pdf/06zjksds820tmr.pdf",
+    "primary": true
+   },
+   {
+    "tr": "Grup yapısındaki geçmiş değişikliklerden doğan ertelenmiş vergi varlığındaki değişim (Ekim 2025 - Mart 2026 yarıyılı): 5,7 milyon dolar",
+    "en": "Change in the deferred tax asset from historical group structure changes (half-year October 2025 - March 2026): 5.7 million dollars",
+    "frac": 0.0042,
+    "how": "5.7 / 1,370; after-tax amount from the company's half-year report",
+    "period_tr": "Ekim 2025 - Mart 2026",
+    "period_en": "October 2025 - March 2026",
+    "url": "https://announcements.asx.com.au/asxpdf/20260513/pdf/06zjksds820tmr.pdf",
+    "primary": true
+   }
+  ],
+  "drop": null,
+  "guidance": [],
+  "notes": "Helper AU batch1, 16 Nov 2026. INCOMPLETE: the FY26 results document (year to 30 Sep 2026, published about 11-12 Nov 2026) could not be found/opened. ttm.net_profit 1,370 is the rounded 'A$1.37bn statutory net profit' from CasinoBeats (12 Nov 2026) -> primary false; EPS not read -> null. Dataset implies 39,175.5 / 29.45 = 1,330m (EPS 66.34 / 29.45 = 2.253), i.e. about 3% BELOW the rounded 1.37bn - possibly continuing vs total, or rounding; check against the primary document. Significant items listed are for the FIRST HALF only (company half-year report, after tax): +100.3 L&W settlement, +50.8 Big Fish/Plarium gain, -39.2 acquisition costs, -26.1 White Label exit, -5.7 deferred tax = net +80.1 (5.8% of 1,370). Second-half significant items are UNKNOWN (not read) - main session should open the FY26 release and complete gains/offsets and recompute fracs with the exact TTM profit. In addition H1 had +7.0m profit from discontinued operations (Plarium contingent consideration remeasurement); whether the 1.37bn includes discontinued operations is not known. Acquisition/integration costs recur every period (treated as ordinary in the report text) - main session may prefer not to count them as offsets. Effective tax rate 27.3% (H1). Total equity A$6,172.7m at 31 Mar 2026 (30 Sep 2025: 6,557.2); 30 Sep 2026 equity not read."
+ },
+ "BXB": {
+  "unit": "million USD",
+  "eps_cur": "USD",
+  "ttm": {
+   "eps": 0.703,
+   "net_profit": 954.0,
+   "tr": "Temmuz 2025 - Haziran 2026 (2026 mali yılı): hisse başına kâr 70,3 ABD senti, ortaklara ait net kâr 954,0 milyon ABD doları",
+   "en": "July 2025 - June 2026 (financial year 2026): basic EPS 70.3 US cents, profit attributable to members 954.0 million US dollars",
+   "url": "https://announcements.asx.com.au/asxpdf/20260820/pdf/072ysgzxmtcb38.pdf",
+   "primary": true
+  },
+  "tax_rate": 29.8,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Helper AU batch2, 16 Nov 2026. FY2026 = period 2026-H2. Units differ from the universe (AUD): dataset implies 22.3/21.57 = AUD 1.034 per share = USD 0.70 at 1.4755 -> consistent with 70.3 US cents, no source-vs-document cut visible. Profit includes US$5.5m from discontinued operations (provision releases) = 0.6% of profit, below 3%, not listed. No significant items in continuing operations in FY26 or FY25 (release). Tax rate 29.8% derived from tax 402.3 / PBT 1,350.8 (not stated by company). No EPS guidance (Underlying Profit +2-6% cc only) -> guidance empty. Equity US$3,232.2m at 30 Jun 2026 (Note 23F)."
+ },
+ "REA": {
+  "unit": "million AUD",
+  "eps_cur": "AUD",
+  "ttm": {
+   "eps": 4.184,
+   "net_profit": 551.6,
+   "tr": "Temmuz 2025 - Haziran 2026 (2026 mali yılı): hisse başına kâr 418,4 sent, ana ortaklığa ait net kâr 551,6 milyon dolar",
+   "en": "July 2025 - June 2026 (financial year 2026): EPS 418.4 cents, net profit attributable to owners 551.6 million dollars",
+   "url": "https://announcements.asx.com.au/asxpdf/20260806/pdf/072glsvnj5f9r3.pdf",
+   "primary": true
+  },
+  "tax_rate": null,
+  "gains": [],
+  "offsets": [
+   {
+    "tr": "Hindistan işinin (Housing.com) satış öncesi şerefiye değer düşüklüğü: 111,0 milyon dolar (konsolide; vergi düşülmedi)",
+    "en": "Goodwill impairment of the Indian business (Housing.com) ahead of its sale: 111.0 million dollars (consolidated; no tax deducted)",
+    "frac": 0.2012,
+    "how": "111.0 / 551.6; consolidated amount, REA owns 78.0% of REA India (the parent's share would be 86.6m = 0.157); goodwill impairment, no tax effect assumed",
+    "period_tr": "2026 mali yılı",
+    "period_en": "financial year 2026",
+    "url": "https://announcements.asx.com.au/asxpdf/20260806/pdf/072gll4f7pt49b.pdf",
+    "primary": true
+   }
+  ],
+  "drop": null,
+  "guidance": [],
+  "notes": "Helper AU batch2, 16 Nov 2026. FY2026 = period 2026-H2. Dataset: 172.8/41.33 = 4.18 -> matches statutory 418.4 cents; no cut. No one-off GAIN in FY26 (revaluation of financial asset +1.2m, trivial). The year carries a one-off CHARGE (India impairment); judgement only lowers, so it changes nothing. A 'small net gain' on the Housing.com sale was booked in Q1 FY27 (after the window; amount not given). Effective tax about 31.7% (297.9/939.5, derived, not stated) -> tax_rate null. Equity: total 1,908.6m at 30 Jun 2026 incl. NCI 11.0m -> attributable 1,897.6m (my subtraction). 130,859,812 shares."
+ },
+ "PME": {
+  "unit": "million AUD",
+  "eps_cur": "AUD",
+  "ttm": {
+   "eps": 2.536,
+   "net_profit": 265.3,
+   "tr": "Temmuz 2025 - Haziran 2026 (2026 mali yılı): seyreltilmiş hisse başına kâr 253,6 sent (temel 254,0), net kâr 265,3 milyon dolar",
+   "en": "July 2025 - June 2026 (financial year 2026): diluted EPS 253.6 cents (basic 254.0), net profit 265.3 million dollars",
+   "url": "https://announcements.asx.com.au/asxpdf/20260818/pdf/072w8h7mqc909z.pdf",
+   "primary": true
+  },
+  "tax_rate": 29.7,
+  "gains": [
+   {
+    "tr": "Finansal varlıkların gerçekleşmemiş değer artışı (en büyüğü 4DMedical yatırımı): vergi öncesi 174,2 milyon dolar, vergi sonrası 121,9 milyon dolar",
+    "en": "Unrealised fair value gain on financial assets (mostly the 4DMedical investment): 174.2 million dollars before tax, 121.9 million dollars after tax",
+    "frac": 0.4595,
+    "how": "121.9 / 265.3; after-tax amount as given by the company in its reported-to-underlying reconciliation",
+    "period_tr": "2026 mali yılı",
+    "period_en": "financial year 2026",
+    "url": "https://announcements.asx.com.au/asxpdf/20260818/pdf/072w6n72g1wvfj.pdf",
+    "primary": true
+   }
+  ],
+  "offsets": [
+   {
+    "tr": "Net kur zararı: vergi sonrası 1,3 milyon dolar",
+    "en": "Net currency losses: 1.3 million dollars after tax",
+    "frac": 0.0049,
+    "how": "1.3 / 265.3; after-tax amount from the same company reconciliation",
+    "period_tr": "2026 mali yılı",
+    "period_en": "financial year 2026",
+    "url": "https://announcements.asx.com.au/asxpdf/20260818/pdf/072w6n72g1wvfj.pdf",
+    "primary": true
+   }
+  ],
+  "drop": null,
+  "guidance": [],
+  "notes": "Helper AU batch2, 16 Nov 2026. FY2026 = period 2026-H2. Dataset: 202.57/79.89 = 2.536 -> equals diluted EPS 253.6 cents; the source P/E and trailing ROE therefore INCLUDE the fair value gain. Net one-off = 121.9 - 1.3 = 120.6m = 45.5% of profit (company's own total adjustments 120.6m). Tax rate 29.7% = 112.2/377.5 (derived from reported figures). The presentation labels the line 'fair value gain on financial assets & interest' (174.2 gross) and the annual report says profit excluding 'the 4DX and EchoIQ unrealised fair value gain' was 143.3m - slightly different from underlying 144.7m; I used the presentation's after-tax 121.9m. The currency-loss offset recurs every year in both directions: main session may drop it (it is 0.5%). 4DMedical carrying value 182.0m at 30 Jun 2026 fell to 149.1m by 17 Aug 2026 (annual report). Equity 450,915k at 30 Jun 2026 (dataset implies 451m: consistent)."
+ },
+ "MPL": {
+  "unit": "million AUD",
+  "eps_cur": "AUD",
+  "ttm": {
+   "eps": 0.232,
+   "net_profit": 638.7,
+   "tr": "Temmuz 2025 - Haziran 2026 (2026 mali yılı): hisse başına kâr 23,2 sent (temel ve seyreltilmiş), ortaklara ait net kâr 638,7 milyon dolar",
+   "en": "July 2025 - June 2026 (financial year 2026): EPS 23.2 cents (basic and diluted), net profit attributable to shareholders 638.7 million dollars",
+   "url": "https://www.medibank.com.au/content/dam/retail/about-assets/pdfs/investor-centre/fy26-results/FY26_Results_Media_Release.pdf",
+   "primary": true
+  },
+  "tax_rate": 30.4,
+  "gains": [],
+  "offsets": [],
+  "drop": {
+   "tr": "2022 siber saldırısına bağlı giderler (2026'da 34,9 milyon dolar, 2025'te 39,7 milyon) dört yıldır yazılıyor; şirket tek seferlik diye ayırsa da yinelendiği için gider düzeltmesi sayılmadı.",
+   "en": "Costs related to the 2022 cyber attack (34.9 million dollars in 2026, 39.7 million in 2025) have been booked for four years; although the company classes them as non-recurring, they recur, so they were not counted as an offsetting charge."
+  },
+  "guidance": [],
+  "notes": "Helper AU batch2, 16 Nov 2026. FY2026 = period 2026-H2. Dataset: 5.4/23.29 = 0.2319 -> equals 23.2 cents; no cut. No one-off gain in FY26: no COVID reserve movement in 2026; underlying NPAT (636.8) is within 0.3% of statutory (638.7). Tax 30.4% = 281.6 / PBT (derived by the reader from the financial report). Weighted average shares 2,754,003,240. Net assets 2,410.7m at 30 Jun 2026 (OFR; +74.6m); dataset implies 14,871.6/6.118 = 2,431m: consistent within 1%. Consolidated balance sheet page itself not reached (file truncated); parent-entity equity 2,304.5m is a different figure. ROA not stated by the company -> no `roa` record."
+ },
+ "TLC": {
+  "unit": "million AUD",
+  "eps_cur": "AUD",
+  "ttm": {
+   "eps": 0.128,
+   "net_profit": 284.6,
+   "tr": "Temmuz 2025 - Haziran 2026 (2026 mali yılı): hisse başına kâr 12,8 sent (temel ve seyreltilmiş), net kâr 284,6 milyon dolar",
+   "en": "July 2025 - June 2026 (financial year 2026): EPS 12.8 cents (basic and diluted), net profit 284.6 million dollars",
+   "url": "https://announcements.asx.com.au/asxpdf/20260819/pdf/072xg6xpltglc6.pdf",
+   "primary": true
+  },
+  "tax_rate": 30.0,
+  "gains": [],
+  "offsets": [
+   {
+    "tr": "Olağan dışı giderler: ACT Keno lisansının değer düşüklüğü 57,0 milyon, yeniden yapılanma 13,4 milyon, varlık silme 12,3 milyon dolar; toplam vergi öncesi 82,7 milyon, vergi sonrası 57,9 milyon dolar",
+    "en": "Significant items: ACT Keno licence impairment 57.0 million, restructuring 13.4 million, asset write-offs 12.3 million dollars; 82.7 million before tax in total, 57.9 million after tax",
+    "frac": 0.2034,
+    "how": "57.9 / 284.6; after-tax amount as given by the company",
+    "period_tr": "2026 mali yılı",
+    "period_en": "financial year 2026",
+    "url": "https://announcements.asx.com.au/asxpdf/20260819/pdf/072xjp9fcx71ql.pdf",
+    "primary": true
+   }
+  ],
+  "drop": null,
+  "guidance": [],
+  "notes": "Helper AU batch2, 16 Nov 2026. FY2026 = period 2026-H2. Dataset: 5.47/42.87 = 0.1276 -> equals 12.8 cents; no cut. No one-off gain in FY26; the year carries a one-off CHARGE (judgement only lowers, so no effect). Tax 30% is the statutory company rate named in the report. Equity 264.1m at 30 Jun 2026 (2025: 321.8m): dataset implies 12,175/46.08 = 264.2m, consistent; equity is tiny, so ROE (97%) and P/B (46) are not meaningful. 2,225.8m shares. Net debt 2,259.7m; a current payable of 1,145.0m for the Victorian licence sits outside net debt at 30 Jun 2026 (paid 250m on 3 Jul 2026, 895m due 1 Oct 2026). Company net debt/EBITDA 3.1x vs source 2.88."
+ }
+}

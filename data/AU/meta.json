@@ -1,0 +1,61 @@
+{
+ "cc": "AU",
+ "iso": "036",
+ "name": "Avustralya",
+ "market": "australia",
+ "exchange": "Avustralya Menkul Kıymetler Borsası (ASX)",
+ "cur": "AUD",
+ "asof": "2026-11-15",
+ "fx": 1.4755,
+ "mcapMin": 80,
+ "years": [
+  "2021",
+  "2022",
+  "2023",
+  "2024",
+  "2025"
+ ],
+ "cpi": {
+  "2021": 3.5,
+  "2022": 7.8,
+  "2023": 4.1,
+  "2024": 2.4,
+  "2025": 3.8,
+  "cur": 4.3
+ },
+ "deflate": "all",
+ "inflation_note": "Avustralya şirketleri enflasyon muhasebesi uygulamaz. Bu yüzden bütün şirketlerin özsermaye kârlılığı yıl sonu tüketici enflasyonuyla düzeltildi: 2021 için %3,5, 2022 için %7,8, 2023 için %4,1, 2024 için %2,4, 2025 için %3,8. Son 12 ay için en son açıklanan yıllık oran (Eylül 2026, %4,3) kullanıldı.",
+ "data_notes": [
+  "Fiyat, piyasa değeri, F/K ve PD/DD: TradingView tarayıcısı, 13 Kasım 2026 kapanışı; veri 15 Kasım'da toplandı. Evren ASX'teki 1.563 paydır. Borsa yatırım fonları evrende yoktur; evrendeki gayrimenkul yatırım ortaklıkları ve yatırım şirketleri (yaklaşık 60) 1. surda dışarıda kalır.",
+  "Karşılaştırma: ASX, Ekim 2026 için 1.893 kote şirket açıklıyor (yerli ve yabancı pay ihraççıları; birleşik pay gruplarının her kuruluşu ayrı sayılır). Evren bu sayının %17,4 altında. Olası nedenler: ana kotasyonu başka ülkede olan paylar evrende yok (Rio Tinto Ltd, ResMed, Newmont, James Hardie, Fisher & Paykel, Amcor, News Corp); büyük yatırım şirketlerinin bir bölümü yok (AFIC, Argo, WAM Capital, BKI); ASX birleşik grupların her kuruluşunu ayrı sayıyor; işlemi durdurulmuş şirketler evrende yok. Rio Tinto Ltd'nin evrende olmaması, değerlendirildiği anlamına gelmez.",
+  "Denetim (16 Kasım 2026): BHP, CBA, Westpac, NAB ve ANZ ikinci kaynakla karşılaştırıldı. ANZ'de fiyat, piyasa değeri ve F/K 13 Kasım tarihli sayfayla aynı; PD/DD 1,67'ye karşı 1,68. Öbür dördünde ikinci kaynağın sayfaları iki üç hafta eskiydi; fiyata ölçeklenince F/K ve PD/DD %3 içinde tuttu (BHP'nin PD/DD'si denetlenemedi). Westpac'in F/K'sı bankanın 2 Kasım'da açıkladığı 6,8 milyar dolarlık kârla 19,0; evrende 19,03. BHP'nin piyasa değeri şirketin tamamıdır (5.084 milyon pay).",
+  "Şirketin belgesiyle düzeltilenler (16 Kasım 2026). Kaynağın PD/DD alanı boş olan 33 şirkette PD/DD aynı kaynağın bilanço alanlarından tamamlandı; denetlenen iki şirkette sonuç şirketin bilançosuyla tutmadı: FDC Consolidated ve Accent Resources'ta kaynak artı PD/DD verirken 30 Haziran 2026 bilançolarında özsermaye eksi. İkisi de belgeden düzeltildi. Bu 33 şirketin hepsi zararda ya da kâr verisi yok; hiçbiri 1. suru geçmez, ama sayfalarındaki PD/DD'ye temkinli bakılmalı.",
+  "MAAS Group'un F/K'sı toplayıcının hesabında 18,64 idi; şirketin 2026 mali yılı belgesine göre 10,34 (hisse başına kâr 37,7 sent) ve belgeden düzeltildi. Kârın yaklaşık %45'i satılmakta olan yapı malzemeleri işinden. Pure One'ın F/K'sı (1,62) ikinci kaynaklarla 1,9-2,2 çıkıyor; şirketin belgesi açılamadığı için düzeltilmedi. Pure One'ın piyasa değeri 12,8 milyon dolar; 1. surda zaten dışarıda kalır.",
+  "Veri kaynağı 29 şirkette son 12 ayın kârını vermiyor; çoğu yeni listelenmiş arama şirketi ya da fon (en büyükleri L1 Gold Fund ve Brazilian Rare Earths). Aralarında bilinen büyük bir işletme yok.",
+  "BHP, Rio Tinto ve birçok maden ve enerji şirketi tablolarını ABD dolarıyla açıklar; payları Avustralya dolarıyla işlem görür. Oranlar para biriminden bağımsızdır; enflasyon düzeltmesi Avustralya enflasyonuyla yapıldı. Çoğu şirketin mali yılı 30 Haziran'da biter ve bilanço yılda iki kez açıklanır; bankaların mali yılı 30 Eylül'de biter.",
+  "Beş yıllık oranlar: stockanalysis.com oran sayfaları; 120 adayın hepsinin sayfası geldi. Yıl sonu enflasyonu: Avustralya İstatistik Bürosu (ABS), tüketici fiyat endeksi, aralık çeyreğinin yıllık değişimi (2021-2024) ve Aralık 2025'e kadarki 12 ay (2025; ABS o tarihten beri aylık endeksi açıklıyor). Son yıllık oran: ABS, Eylül 2026 (%4,3).",
+  "2. suru geçen 36 şirketin 10'u okundu (16 Kasım 2026): 7'si 3. suru geçti (Wesfarmers, Aristocrat, Brambles, REA Group, Pro Medicus, Medibank, The Lottery Corporation), 3'ü geçemedi (BHP ve West African Resources: emtia; Reef Casino Trust). Kale yok: 3. suru geçenlerin hepsinde fiyat temkinli değerin çok üstünde. 26 şirket sırada bekliyor. Reef Casino Trust'ta kaynağın oranları yanıltıcı: tröst payların yarısını borç sayıyor; ayrıca pay alım teklifi altında. Pro Medicus'un son 12 ay kârının yaklaşık %46'sı bir yatırımın değer artışıydı ve kazanç yargısında düşüldü."
+ ],
+ "small_text": "Piyasa değeri 80 milyon doların altında",
+ "small_rule": "Piyasa değeri 80 milyon Avustralya dolarının (yaklaşık 54 milyon ABD doları) altındaki şirketler dışarıda kalır.",
+ "en": {
+  "name": "Australia",
+  "exchange": "Australian Securities Exchange (ASX)",
+  "cur": "AUD",
+  "inflation_note": "Australian companies do not apply inflation accounting. The return on equity of every company was therefore adjusted by year-end consumer inflation: 3.5% for 2021, 7.8% for 2022, 4.1% for 2023, 2.4% for 2024 and 3.8% for 2025. For the last 12 months the most recently published annual rate (September 2026, 4.3%) was used.",
+  "data_notes": [
+   "Price, market value, P/E and P/B: TradingView screener, close of 13 November 2026; data collected on 15 November. The universe is 1,563 stocks on ASX. Exchange-traded funds are not in the universe; the real estate investment trusts and investment companies in it (about 60) stay outside at Wall 1.",
+   "For comparison: ASX reports 1,893 listed companies for October 2026 (domestic and foreign equity issuers; every entity of a stapled group is counted separately). The universe is 17.4% below that number. Likely reasons: stocks whose main listing is in another country are not in the universe (Rio Tinto Ltd, ResMed, Newmont, James Hardie, Fisher & Paykel, Amcor, News Corp); some large investment companies are missing (AFIC, Argo, WAM Capital, BKI); ASX counts every entity of a stapled group; suspended companies are not in the universe. Rio Tinto Ltd not being in the universe does not mean it was assessed.",
+   "Checks (16 November 2026): BHP, CBA, Westpac, NAB and ANZ were compared with a second source. For ANZ, price, market value and P/E equal the page dated 13 November; P/B is 1.67 against 1.68. For the other four the second source's pages were two to three weeks old; scaled to the price, P/E and P/B agreed within 3% (BHP's P/B could not be checked). Westpac's P/E is 19.0 on the 6.8 billion dollar profit the bank reported on 2 November; 19.03 in the universe. BHP's market value is the whole company (5,084 million shares).",
+   "Corrected with the companies' own documents (16 November 2026). For 33 companies where the source's P/B field is empty, P/B was completed from the same source's balance-sheet fields; for the two companies checked, the result did not agree with the company's balance sheet: for FDC Consolidated and Accent Resources the source gave a positive P/B while equity is negative in their balance sheets of 30 June 2026. Both were corrected from the document. All 33 of these companies are loss-making or have no profit data; none passes Wall 1, but the P/B on their pages should be read with caution.",
+   "MAAS Group's P/E was 18.64 in the collector's calculation; according to the company's FY2026 document it is 10.34 (earnings per share 37.7 cents), and it was corrected from the document. About 45% of the profit comes from the construction materials business that is being sold. Pure One's P/E (1.62) comes out at 1.9-2.2 with second sources; it was not corrected because the company's document could not be opened. Pure One's market value is 12.8 million dollars; it stays outside at Wall 1 anyway.",
+   "For 29 companies the data source gives no profit figure for the last 12 months; most are newly listed explorers or funds (the largest are L1 Gold Fund and Brazilian Rare Earths). There is no well-known large business among them.",
+   "BHP, Rio Tinto and many mining and energy companies report in US dollars while their shares trade in Australian dollars. Ratios do not depend on the currency; the inflation adjustment uses Australian inflation. Most companies' financial year ends on 30 June and they publish a balance sheet twice a year; the banks' financial year ends on 30 September.",
+   "Five-year ratios: stockanalysis.com ratio pages; the pages of all 120 candidates arrived. Year-end inflation: Australian Bureau of Statistics (ABS), consumer price index, annual change of the December quarter (2021-2024) and the 12 months to December 2025 (2025; ABS has published the monthly index as its headline since then). Latest annual rate: ABS, September 2026 (4.3%).",
+   "10 of the 36 companies that passed Wall 2 have been read (16 November 2026): 7 passed Wall 3 (Wesfarmers, Aristocrat, Brambles, REA Group, Pro Medicus, Medibank, The Lottery Corporation) and 3 did not (BHP and West African Resources: commodity; Reef Casino Trust). There is no castle: for every company that passed Wall 3 the price is far above the conservative value. 26 companies are waiting in the queue. For Reef Casino Trust the source's ratios are misleading: the trust books half of its units as debt; it is also under a takeover offer. About 46% of Pro Medicus's profit for the last 12 months was a fair value gain on an investment and was deducted in the earnings judgment."
+  ],
+  "small_text": "Market value below 80 million dollars",
+  "small_rule": "Companies with a market value below 80 million Australian dollars (about 54 million US dollars) are left out."
+ },
+ "pcur": "AUD"
+}

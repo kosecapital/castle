@@ -16,3 +16,12 @@ Birincil belgeden okunanlar (halka arz izahnamesi, 5 Mart 2024, https://www.saud
 - Halka arz sonrası ortaklar: Mada International %34,5, Al Ghurair Foods %31,05, Masafi %3,45, halka açık %30.
 
 Sonraki çalıştırma: şirketin 30 Eylül 2026 tablolarını bul (Saudi Exchange `Resources/fsPdf/...` adresleri arama sonucundan açılıyor), rakamları karşılaştır, raporu düzelt, kayıtları yerine al ve bu taslağı sil. Aynı düzenleme First Milling (2283) için de geçerli; onun raporu yayında, marjı %15,8.
+
+## İkinci deneme (16 Kasım 2026, aynı gün)
+
+Belgelerin adresleri şirketin yatırımcı sayfasında bulundu (https://ir.modernmills.com.sa/en/investor-relations/reports-key-figures/), ama PDF'ler açılamadı (izin isteği yanıtsız kaldı):
+- 2026 üçüncü çeyrek tabloları: https://ir.modernmills.com.sa/media/damhdhgw/modern-mills-q3-results-english.pdf
+- 2025 yılı tabloları: https://ir.modernmills.com.sa/media/ebklqwpr/modern-mills-company-fy-2025-en.pdf
+- 2025 yıllık raporu: https://ir.modernmills.com.sa/media/mx0nvqkq/annual-report-2025-en-modern-mills-exchange-version.pdf
+
+Birincil belgeden doğrulananlar (2025 üçüncü çeyrek tabloları, https://ir.modernmills.com.sa/media/cmypqblo/modern-mills-q3-2025-fs-en.pdf): 2025'in dokuz aylık kârı 171.449.230 riyal (ikincil kaynakla aynı); 30 Eylül 2025'te kredi 588,9 milyon, kira yükümlülüğü 226,2 milyon, nakit 33,5 milyon riyal; hazine payı 818.320; 2024 ve 2025'te pay başına ikişer riyal temettü. Buğday fiyatı 2017'den beri ton başına 180 riyal (dipnot 1). 2026 rakamları hâlâ doğrulanmadı; şirket sırada kalır.

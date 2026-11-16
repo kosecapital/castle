@@ -1,0 +1,46 @@
+{
+ "FDC": {
+  "per": "2026-H2",
+  "equity": -94.241,
+  "date": "2026-11-16",
+  "tr": "Kaynağın tamamladığı PD/DD artıydı (12,16). Şirketin 30 Haziran 2026 bilançosunda özsermaye eksi: toplam varlık 529,696 milyon dolar, toplam yükümlülük 623,937 milyon dolar, net yükümlülük 94,241 milyon dolar. Halka arz bilanço tarihinden sonra, 13 Temmuz 2026'da tamamlandı (350 milyon dolar); arz sonrası özsermayeyi gösteren bir bilanço henüz açıklanmadı. Şirket son 12 ayda zararda olduğu için 1. surda kalır.",
+  "en": "The P/B completed by the source was positive (12.16). In the company's balance sheet of 30 June 2026 equity is negative: total assets 529.696 million dollars, total liabilities 623.937 million dollars, net liabilities 94.241 million dollars. The IPO completed after the balance-sheet date, on 13 July 2026 (350 million dollars); no balance sheet showing equity after the offer has been published yet. The company is loss-making over the last 12 months, so it stays at Wall 1.",
+  "sources": [
+   {
+    "t": "FDC Consolidated Holdings: 2026 mali yılı finansal raporu, ASX bildirimi (27 Ağu 2026)",
+    "te": "FDC Consolidated Holdings: FY2026 financial report, ASX announcement (27 Aug 2026)",
+    "u": "https://bulletin.webull.com/qbd/announcement/20260827/499509578/0cc1c6594184cff5b84093927c0c0a05.pdf"
+   }
+  ]
+ },
+ "ACS": {
+  "per": "2026-H2",
+  "equity": -1.352,
+  "date": "2026-11-16",
+  "tr": "Kaynağın tamamladığı PD/DD artıydı (22,21). Şirketin 30 Haziran 2026 yıllık raporunda özsermaye eksi: toplam varlık 25,627 milyon dolar, toplam yükümlülük 26,979 milyon dolar, net yükümlülük 1,352 milyon dolar. Şirket zararda olduğu için 1. surda kalır.",
+  "en": "The P/B completed by the source was positive (22.21). In the company's annual report of 30 June 2026 equity is negative: total assets 25.627 million dollars, total liabilities 26.979 million dollars, net liabilities 1.352 million dollars. The company is loss-making, so it stays at Wall 1.",
+  "sources": [
+   {
+    "t": "Accent Resources: 2026 yıllık raporu (30 Eyl 2026)",
+    "te": "Accent Resources: Annual Report 2026 (30 Sep 2026)",
+    "u": "https://announcements.asx.com.au/asxpdf/20260930/pdf/074rx94nrg3j14.pdf"
+   }
+  ]
+ },
+ "MGH": {
+  "per": "2026-H2",
+  "set": {
+   "pe": 10.34
+  },
+  "date": "2026-11-16",
+  "tr": "Toplayıcının özsermaye kârlılığından hesapladığı F/K (18,64) şirketin belgesiyle tutmuyordu. 30 Haziran 2026'da biten mali yılın Appendix 4E'sinde ana ortaklığa ait kâr 136,112 milyon dolar, hisse başına temel kâr 37,7 sent. F/K = fiyat 3,90 ÷ 0,377 = 10,34. Kârın 61,231 milyon doları durdurulan faaliyetten (Heidelberg Materials'a satılan yapı malzemeleri işi); yalnız süren faaliyetlerle F/K yaklaşık 17 olur.",
+  "en": "The P/E the collector calculated from return on equity (18.64) did not agree with the company's document. In the Appendix 4E for the year ended 30 June 2026, profit attributable to owners is 136.112 million dollars and basic earnings per share 37.7 cents. P/E = price 3.90 ÷ 0.377 = 10.34. Of that profit, 61.231 million dollars is from discontinued operations (the construction materials business being sold to Heidelberg Materials); on continuing operations alone the P/E would be about 17.",
+  "sources": [
+   {
+    "t": "MAAS Group: Appendix 4E, 2026 mali yılı (20 Ağu 2026)",
+    "te": "MAAS Group: Appendix 4E, FY2026 (20 Aug 2026)",
+    "u": "https://announcements.asx.com.au/asxpdf/20260820/pdf/072ywf50h52qzc.pdf"
+   }
+  ]
+ }
+}
