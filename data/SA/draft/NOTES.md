@@ -25,3 +25,7 @@ Belgelerin adresleri şirketin yatırımcı sayfasında bulundu (https://ir.mode
 - 2025 yıllık raporu: https://ir.modernmills.com.sa/media/mx0nvqkq/annual-report-2025-en-modern-mills-exchange-version.pdf
 
 Birincil belgeden doğrulananlar (2025 üçüncü çeyrek tabloları, https://ir.modernmills.com.sa/media/cmypqblo/modern-mills-q3-2025-fs-en.pdf): 2025'in dokuz aylık kârı 171.449.230 riyal (ikincil kaynakla aynı); 30 Eylül 2025'te kredi 588,9 milyon, kira yükümlülüğü 226,2 milyon, nakit 33,5 milyon riyal; hazine payı 818.320; 2024 ve 2025'te pay başına ikişer riyal temettü. Buğday fiyatı 2017'den beri ton başına 180 riyal (dipnot 1). 2026 rakamları hâlâ doğrulanmadı; şirket sırada kalır.
+
+## Üçüncü deneme (17 Kasım 2026)
+
+2026 üçüncü çeyrek tabloları yine açılamadı (ir.modernmills.com.sa: izin isteği yanıtsız; Saudi Exchange'te kopyası bulunamadı). Argaam'ın borsa bildirimini aktaran sayfası taslaktaki rakamları doğruluyor (dokuz ay 181,62, çeyrek 62,30, özsermaye 342,557 milyon riyal; olağan dışı kalem yok): https://www.argaam.com/ar/financial-reports/company-report/16485/2026/72 . Hisse başına kâr 2,24 riyal hazine payları düşülerek hesaplanmış (81,01 milyon pay); taslaktaki son 12 ay rakamı 2,86 yerine 2,89 olmalı. Bildirime göre üçüncü çeyrekte hammadde maliyetindeki artış müşteriye tam yansıtılamadı; dokuz aylık brüt marj %37,8'den %36,2'ye indi. Bu, buğday fiyatı sorusuyla doğrudan ilgili; dipnotlar okunmadan yayımlanmamalı. Şirket sırada.

@@ -368,5 +368,39 @@
   "note_tr": null,
   "note_en": null,
   "notes": "Diluted EPS from the company's IFRS INR press release (23 Oct 2026). Net profit attributable to owners grew less than EPS: quarter 7,823 vs 7,364 crore (+6.2%), half-year 15,592 vs 14,285 crore (+9.1%); the gap is the lower share count (the existing report cites the buyback completed Dec 2025; not re-read this session). No EPS guidance: FY27 guidance is revenue growth of 1-2% in constant currency (cut from 1.5-3% per the existing report) and operating margin 20-22%. Release mentions no one-off items, no client loss or exit. Interim dividend 26 rupees per share (+13%). BSE PDF links (call transcript) could not be opened: permission request timed out."
+ },
+ "IGIL": {
+  "metric": "net profit",
+  "ytd": {
+   "tr": "Nisan-Eylül 2026",
+   "en": "April-September 2026",
+   "pct": 37,
+   "cur_val": "3,516",
+   "prev_val": null,
+   "unit": "milyon rupi / million rupees",
+   "date": "2026-10-21",
+   "url": "https://nsearchives.nseindia.com/corporate/IGIINDIA_28102026193119_SE_Transcript1.pdf",
+   "primary": true
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 43.15,
+   "cur_val": "1,858",
+   "prev_val": "1,297.93",
+   "unit": "milyon rupi / million rupees",
+   "date": "2026-10-21",
+   "url": "https://nsearchives.nseindia.com/corporate/IGIINDIA_28102026193119_SE_Transcript1.pdf",
+   "primary": true
+  },
+  "guidance": null,
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Consolidated PAT from the company's earnings call transcript (NSE filing, call of 21 Oct 2026): Q2 FY27 PAT 1,858 mn (+43%), H1 FY27 PAT 3,516 mn (+37%; the transcript gives the percentage, not the prior-year amount, so prev_val is left empty; Angel One reports 351.58 crore, +37.2%). Prior-year quarter 1,297.93 mn is from the company's 27 Jan 2026 filing (column 'quarter ended 30 Sep 2025'); 1,858/1,297.93 = +43.15% (my division; Angel One gives 185.84 vs 129.79 crore, +43.2%). No non-controlling interest in the profit line. EPS for the September 2026 quarter was not read from a company document (Screener shows 4.30 vs 3.00, +43.3%; H1 3.84+4.30=8.14 vs 2.93+3.00=5.93, +37.3%). Guidance: only revenue (+15%) and EBITDA (+20%) for FY27, said on the call to be exceeded; no profit or EPS guidance, so not used. AGL (acquired January 2026) added about 3 points to revenue growth; no one-off items mentioned on the call. Dividend yield exists in the source (1.14%), so dividend left empty; interim dividend 2.55 rupees per share declared August 2026 (transcript). The September 2026 results filing itself (BSE/NSE outcome PDF) was not found in search and not opened."
  }
 }

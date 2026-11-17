@@ -500,5 +500,87 @@
    }
   ],
   "notes": "UNITS: price in the universe (1,775) is POST-split, so EPS is entered post-split: 360.20 / 2 = 180.10 (Matsui Securities' results page also shows FY6/2026 EPS 180.1); guidance 227.98 / 2 = 113.99 (my arithmetic; the company's revised post-split forecast notice of 15 Sep 2026 was not opened). CRITICAL SOURCE ERROR: stockanalysis P/E 4.93 = 1,775 / 360.2, i.e. post-split price over pre-split EPS; the universe P/E 9.86 = 1,775 / 180.1 is right. Market cap 101.6bn / net profit 9,830 = 10.3. If funnel.py takes pe 4.93 from history.json (L2.pe), the 'castle' result is an artefact. Historical 'pes' and 'mc' series in history.json may be distorted the same way for the latest point (pes 7.54 for FY2026 vs 19.82 the year before). GAIN: 投資有価証券売却益 6,792,057 thousand yen in the income statement (narrative says 6,762m; the Q3 tanshin shows 6,763m by nine months); none in the prior year. After tax at 28.3%: about 4,870m = 49.5% of net profit. At the statutory rate (about 30.6%) it would be 47.9%. Small items not listed: impairment 11.7m (one store), fixed asset gains/losses under 2m. NOT an offset: 'growth investment costs' of 1,093m that the company says were funded from the gain (brand marketing 435, people 477, store development 76, plus 105 TOB/M&A costs): ordinary operating costs. Guidance (reported basis, net profit 6,222m) is 36.7% below TTM: k by guidance = 0.633; by one-off gain = 0.505; the lower applies. ROE: tanshin says 45.6% (the presentation says 39.2%; the universe shows 39.2)."
+ },
+ "4377": {
+  "unit": "million JPY",
+  "eps_cur": "JPY",
+  "ttm": {
+   "eps": 125.2,
+   "net_profit": 2303,
+   "tr": "Ekim 2025 - Eylül 2026 (2025 yılı 83,31 yen eksi 2025'in dokuz ayı 66,3 artı 2026'nın dokuz ayı 108,2; net kâr 1.500 − 1.188 + 1.991 milyon yen)",
+   "en": "October 2025 - September 2026 (FY2025 83.31 yen minus nine months of 2025 66.3 plus nine months of 2026 108.2; net profit 1,500 − 1,188 + 1,991 million yen)",
+   "url": "https://s.kabutan.jp/stocks/4377/news/k202611120215/",
+   "primary": false
+  },
+  "tax_rate": 30.7,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [
+   {
+    "fy_tr": "Aralık 2026'da biten yıl",
+    "fy_en": "year to December 2026",
+    "mid": 116.98,
+    "low": 116.98,
+    "high": 116.98,
+    "kind": "reported",
+    "url": "https://www2.jpx.co.jp/disc/43770/140120260812518295.pdf",
+    "date": "2026-08-13",
+    "primary": true
+   }
+  ],
+  "notes": "TTM built from FY2025 tanshin (primary: EPS 83.31, net profit 1,500) and Kabutan's 9M figures (not primary; prior-year 9M is non-consolidated: 66.3 / 1,188). Sum of Kabutan's four quarterly EPS gives 125.7 (17.3+25.3+64.9+18.2); quarterly net profit 312+463+1,193+335 = 2,303. Universe: price 2,665 / P/E 21.49 = EPS 124.0, within 1% of the document figure, so the universe P/E is right. Guidance 116.98 (H1 tanshin, forecast raised 31 Jul 2026, unchanged on 12 Nov 2026 per Kabutan) is 6.6% below TTM: k by guidance about 0.934. The forecast looks conservative (9M net profit is 92.6% of it; implied Q4 net profit about 160m vs 312m a year earlier) but the rule applies as written. No extraordinary gains or losses in H1 2026 (pre-tax profit equals ordinary profit, 2,390m); FY2025 had a 21.7m step-acquisition loss (Light Rose). Tax rate 30.7% = 733 / 2,390 in H1 2026 (my arithmetic from tanshin figures). Kids Corporation consolidated from Q3 2026; acquisition costs 11m; goodwill not final. Whether Q3 contains any extraordinary item could not be checked (tanshin not opened)."
+ },
+ "4482": {
+  "unit": "million JPY",
+  "eps_cur": "JPY",
+  "ttm": {
+   "eps": 56.17,
+   "net_profit": 1136,
+   "tr": "Ekim 2025 - Eylül 2026 (2025 yılı konsolide + Ocak-Eylül 2026 konsolide olmayan − Ocak-Eylül 2025 konsolide)",
+   "en": "October 2025 - September 2026 (fiscal 2025 consolidated + January-September 2026 non-consolidated − January-September 2025 consolidated)",
+   "url": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261112/20261112576013.pdf",
+   "primary": true
+  },
+  "tax_rate": 30.6,
+  "gains": [
+   {
+    "tr": "Olağanın altında vergi: Ocak-Eylül 2026'da 1.007 milyon yen vergi öncesi kâra 95 milyon yen vergi yazıldı (cari vergi 155, ertelenmiş vergi geliri 59 milyon yen). Yasal oranla (%30,6) vergi 308 milyon yen olurdu; fark 213 milyon yen. Şirket net kârın, geçmiş yıl zararlarının kullanılması ve ertelenmiş vergi varlığı yazılması nedeniyle geçici olarak yüksek olduğunu söylüyor; yinelenmez",
+    "en": "Tax below the normal rate: in January-September 2026 95 million yen of tax was charged on 1,007 million yen of pre-tax profit (current tax 155, deferred tax gain 59 million yen). At the statutory rate (30.6%) tax would have been 308 million yen; the difference is 213 million yen. The company says net profit is temporarily high because of the use of tax-loss carryforwards and the recognition of deferred tax assets; it will not recur",
+    "frac": 0.1875,
+    "how": "(1007 x 0.306 - 95) / 1136 = 213 / 1136; after tax by nature; arithmetic from the nine-month income statement in the Q3 tanshin and the statutory rate in the annual report",
+    "period_tr": "Ocak-Eylül 2026",
+    "period_en": "January-September 2026",
+    "url": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261112/20261112576013.pdf",
+    "primary": true
+   }
+  ],
+  "offsets": [
+   {
+    "tr": "Kullanılmayacak yazılım için değer düşüklüğü: 152 milyon yen (vergi öncesi, olağan dışı zarar)",
+    "en": "Impairment of software that will not be used: 152 million yen (pre-tax, extraordinary loss)",
+    "frac": 0.0929,
+    "how": "152 x (1 - 0.306) / 1136; pre-tax amount from the company, converted at the 30.6% statutory rate",
+    "period_tr": "Nisan-Haziran 2026 çeyreği",
+    "period_en": "April-June 2026 quarter",
+    "url": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YW9N.pdf",
+    "primary": true
+   }
+  ],
+  "drop": null,
+  "guidance": [
+   {
+    "fy_tr": "2026 mali yılı (Ocak-Aralık)",
+    "fy_en": "fiscal year 2026 (January-December)",
+    "mid": 47.0,
+    "low": 47.0,
+    "high": 47.0,
+    "kind": "reported",
+    "url": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261112/20261112576013.pdf",
+    "date": "2026-11-12",
+    "primary": true
+   }
+  ],
+  "notes": "TTM = FY2025 consolidated 839m / EPS 41.41 (tanshin 16 Feb 2026) + 9M 2026 non-consolidated 912m / 45.13 (Q3 tanshin, opened 17 Nov 2026) - 9M 2025 consolidated 615m (company presentation) / EPS 30.37 (Matsui Securities; 615 / 20,277,914 average shares = 30.33). Mixes consolidated and non-consolidated periods; Netmile was absorbed on 17 Jan 2026."
  }
 }

@@ -3114,5 +3114,105 @@
    "tr": "Kaynağın PD/DD'si 30 Haziran 2026 bilançosuna dayanıyordu (özsermaye 117,5 milyon dolar). Şirketin 9 Kasım 2026'da açıkladığı 30 Eylül 2026 bilançosunda özsermaye eksi 242,3 milyon dolar. Şirket paylarını geri aldıkça özsermayesi sıfıra yaklaşıyor; bu yüzden özsermaye kârlılığı rakamları (%169-945) işin kârlılığını göstermez.",
    "en": "The source's P/B rested on the balance sheet of 30 June 2026 (equity of 117.5 million dollars). In the balance sheet of 30 September 2026, published by the company on 9 November 2026, equity is minus 242.3 million dollars. As the company buys back its shares its equity approaches zero, so the return on equity figures (169-945%) do not show how profitable the business is."
   }
+ },
+ "MLI": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 1,
+   "E": 2
+  },
+  "moat": "dar",
+  "per": "2026-Q3",
+  "one": "ABD'nin önde gelen bakır boru ve bağlantı parçası üreticisi; borçsuz ve yüksek kârlı, ama kazancı inşaat döngüsüne bağlı ve fiyatı ölçütü geçemiyor.",
+  "business": "Mueller bakır, pirinç ve alüminyumdan boru, bağlantı parçası, çubuk, vana ve esnek hava kanalı üretir. Ürünler tesisat, klima ve soğutma işlerinde kullanılır; talebi konut ve ticari inşaat belirler. 2025'te satışlar 4,2 milyar dolardı: yaklaşık %64'ü Boru Sistemleri, %24'ü Endüstriyel Metaller, %12'si İklimlendirme. Metal maliyetindeki değişim genelde satış fiyatına yansıtılır.",
+  "moat_text": "Hendek dar. Şirket yıllık raporunda tesisat, klima ve soğutma borularında pazar lideri olduğunu söyler; ABD'de az sayıda yerli rakibi var (Cerro Flow, Cambridge-Lee, NIBCO, Wieland Chase). Kanıt rakamlarda: reel özsermaye kârlılığı beş yılda %20,4'ün altına inmedi, brüt marj 2024'te %27,7, 2025'te %29,0 oldu ve bakır fiyatı yükselirken maliyet müşteriye yansıtıldı. Zayıf yanı: ürün standarttır, ithal ürün ile plastik ve alüminyum ikameleri rakiptir. Beş yıl, konut ve bakır döngüsünün yalnız iyi bölümünü gösteriyor olabilir.",
+  "mgmt": "Genel müdür ve yönetim kurulu başkanı Gregory L. Christopher. Büyük ortaklar yıllık raporda yazmıyor (vekâlet bildirimine atıf var; bakıldı, okunan belgelerde yok). Şirketin borcu yok denecek kadar az; nakit ve kısa vadeli yatırımlar 1,48 milyar dolar. 2026'nın dokuz ayında 278,3 milyon dolarlık pay geri alındı, 113,9 milyon dolar temettü ödendi, 135,8 milyon dolar satın almaya gitti (Bison Metals, bakır boru; ana iş). Üçüncü çeyrekte 3,2 milyon pay 201,9 milyon dolara geri alındı; bu, bugünkü fiyatın ve bizim temkinli değerimizin üstünde bir ortalamadır. Kârın büyük bölümü şirkette kalıyor ve nakit olarak birikiyor; alıkonan kârın sınavı geçilemedi. Hisse bazlı ücret 2025'te 26,8 milyon dolardı (kârın yaklaşık %3,5'i). Son üç yılda yinelenen yeniden yapılanma gideri yok; 2025'te 3,7 milyon dolar değer düşüklüğü yazıldı. Şerefiye 27 Haziran 2026'da 413,2 milyon dolardı.",
+  "latest": "20 Ekim 2026: Üçüncü çeyrekte satışlar 1,42 milyar dolar (geçen yıl 1,08 milyar), ana ortaklık net kârı 221,2 milyon dolar (geçen yıl 208,1 milyon), hisse başına kâr 1,00 dolar (geçen yıl 0,94) oldu. Dokuz ayda net kâr 709,9 milyon dolar, hisse başına kâr 3,21 dolar (geçen yıl 2,74). Dokuz aylık kârın içinde Sherwood Valve satışından 41,4 milyon dolarlık vergi öncesi kazanç var. Bakır çeyrekte ortalama 6,48 dolar/libre idi (%34,2 artış). Şirket büyümeyi veri merkezi ve ticari inşaat talebine bağladı; konut inşaatı zayıf. 30 Haziran 2026'da paylar ikiye bölündü.",
+  "risks": [
+   "Alıkonan kârın sınavı geçilemedi: kârın yaklaşık beşte dördü şirkette kalıyor, o paranın reel getirisi eşiğin altında; 1,48 milyar dolar nakit bekliyor.",
+   "Kazanç konut ve ticari inşaat döngüsüne ve bakır fiyatına bağlıdır. Bakır 2026'da rekor düzeyde; beş yıllık geçmiş döngünün iyi yıllarını gösteriyor olabilir.",
+   "Son 12 ayın kârında tek seferlik kazançlar var: Sherwood Valve satışı (41,4 milyon dolar), sigorta kazancı (4,4 milyon dolar) ve kısa vadeli yatırımların değer artışı.",
+   "Gümrük vergisi kuralları değişiyor; ithal ürün ile plastik ve alüminyum ikameleri fiyat baskısı yaratabilir. ABD gümrük idaresi bir bağlı şirketten yaklaşık 5,1 milyon dolar anti-damping vergisi istedi.",
+   "Eski maden ve izabe sahaları için çevre karşılığı 18,9 milyon dolar; bazı sahalarda olası yük tahmin edilemiyor."
+  ],
+  "watch": [
+   "ABD konut başlangıçları ve ticari inşaat harcaması",
+   "Bakır fiyatı ve brüt marj",
+   "Nakdin kullanımı: geri alım fiyatı ve satın almalar",
+   "Boru Sistemleri kolunun faaliyet kârı"
+  ],
+  "sources": [
+   {
+    "t": "Mueller Industries: 2026 üçüncü çeyrek sonuç bülteni, 8-K eki (20 Ekim 2026)",
+    "te": "Mueller Industries: third quarter 2026 earnings release, 8-K exhibit (20 October 2026)",
+    "u": "https://www.sec.gov/Archives/edgar/data/0000089439/000008943926000038/exhibit991q32026earningsre.htm"
+   },
+   {
+    "t": "Mueller Industries: 2025 dördüncü çeyrek ve yıl sonu sonuç bülteni, 8-K eki (3 Şubat 2026)",
+    "te": "Mueller Industries: fiscal 2025 fourth quarter and full year results, 8-K exhibit (3 February 2026)",
+    "u": "https://www.sec.gov/Archives/edgar/data/89439/000008943926000002/exhibit991q42025earningsre.htm"
+   },
+   {
+    "t": "Mueller Industries: 27 Haziran 2026 çeyreği 10-Q raporu",
+    "te": "Mueller Industries: Form 10-Q for the quarter ended 27 June 2026",
+    "u": "https://ir.muellerindustries.com/sec-filings/all-sec-filings/content/0000089439-26-000032/0000089439-26-000032.pdf"
+   },
+   {
+    "t": "Mueller Industries: 2025 yıllık raporu (10-K)",
+    "te": "Mueller Industries: 2025 annual report (Form 10-K)",
+    "u": "https://ir.muellerindustries.com/sec-filings/all-sec-filings/content/0000089439-26-000008/0000089439-26-000008.pdf"
+   },
+   {
+    "t": "Finviz / Business Wire: Mueller Industries üçüncü çeyrek 2026 sonuçları (20 Ekim 2026)",
+    "te": "Finviz / Business Wire: Mueller Industries reports third quarter 2026 earnings (20 October 2026)",
+    "u": "https://finviz.com/news/404408/mueller-industries-inc-reports-third-quarter-2026-earnings"
+   }
+  ],
+  "en": {
+   "one": "A leading US maker of copper tube and fittings; debt-free and highly profitable, but earnings follow the building cycle and the price does not pass the test.",
+   "business": "Mueller makes tube, fittings, rod, valves and flexible duct from copper, brass and aluminium. The products go into plumbing, air conditioning and refrigeration; housing and commercial construction drive demand. Sales were 4.2 billion dollars in 2025: about 64% Piping Systems, 24% Industrial Metals, 12% Climate. Changes in metal cost are generally passed on in selling prices.",
+   "moat_text": "The moat is narrow. In its annual report the company says it is a market leader in plumbing, air-conditioning and refrigeration tube; it has few domestic rivals in the US (Cerro Flow, Cambridge-Lee, NIBCO, Wieland Chase). The evidence is in the numbers: real return on equity did not fall below 20.4% in five years, gross margin was 27.7% in 2024 and 29.0% in 2025, and costs were passed on to customers as copper rose. The weak side: the product is standard, and imports, plastic and aluminium substitutes compete. Five years may show only the good part of the housing and copper cycle.",
+   "mgmt": "Gregory L. Christopher is chief executive and chairman. Major shareholders are not listed in the annual report (it refers to the proxy statement; looked for, not in the documents read). The company has almost no debt; cash and short-term investments are 1.48 billion dollars. In the first nine months of 2026 it bought back 278.3 million dollars of shares, paid 113.9 million dollars in dividends and spent 135.8 million dollars on acquisitions (Bison Metals, copper tube; core business). In the third quarter it bought 3.2 million shares for 201.9 million dollars; that average is above today's price and above our cautious value. Most of the profit stays in the company and piles up as cash; the retained-earnings test was not passed. Share-based pay was 26.8 million dollars in 2025 (about 3.5% of profit). There is no recurring restructuring charge in the last three years; a 3.7 million dollar impairment was booked in 2025. Goodwill was 413.2 million dollars on 27 June 2026.",
+   "latest": "20 October 2026: Third-quarter sales were 1.42 billion dollars (1.08 billion a year ago), net income attributable to the company 221.2 million dollars (208.1 million a year ago) and earnings per share 1.00 dollar (0.94 a year ago). Nine-month net income was 709.9 million dollars and earnings per share 3.21 dollars (2.74 a year ago). Nine-month profit includes a pre-tax gain of 41.4 million dollars on the sale of Sherwood Valve. Copper averaged 6.48 dollars a pound in the quarter (up 34.2%). The company tied growth to data-centre and commercial building demand; residential construction is weak. The shares were split two-for-one on 30 June 2026.",
+   "risks": [
+    "The retained-earnings test was not passed: about four fifths of profit stays in the company and the real return on that money is below the hurdle; 1.48 billion dollars sits in cash.",
+    "Earnings depend on the housing and commercial building cycle and on the copper price. Copper is at record levels in 2026; the five-year history may show the good years of the cycle.",
+    "The last 12 months' profit includes one-off gains: the sale of Sherwood Valve (41.4 million dollars), an insurance gain (4.4 million dollars) and gains on short-term investments.",
+    "Tariff rules keep changing; imports and plastic and aluminium substitutes can put pressure on prices. US customs demanded about 5.1 million dollars in antidumping duties from a subsidiary.",
+    "The environmental reserve for old mine and smelter sites is 18.9 million dollars; at some sites the possible cost cannot be estimated."
+   ],
+   "watch": [
+    "US housing starts and commercial construction spending",
+    "Copper price and gross margin",
+    "Use of cash: buyback price and acquisitions",
+    "Operating income of the Piping Systems segment"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-17",
+   "per": "2026-Q3"
+  },
+  "verify": {
+   "tr": "Evrendeki PD/DD (3,408) doğru; hatalı olan oran sayfasındaki 0,34. Şirketin 20 Ekim 2026 tarihli bülteninde 26 Eylül 2026 itibarıyla ana ortaklığa ait özsermaye 3.511,5 milyon dolar. Piyasa değeri 11.964,6 milyon dolar ÷ 3.511,5 = 3,41. Oran sayfasının önceki yılları da 2,27-4,05 arasında; 0,34 yaklaşık on kat düşük. Paylar 30 Haziran 2026'da ikiye bölündü (kayıt tarihi 25 Haziran); bölünme iki katlık fark yaratır, on katlık farkı açıklamaz. Oran sayfasındaki hatanın nedeni şirket belgelerinden bulunamadı. F/K iki kaynakta aynı (14,06 ve 14,08) ve belgeyle tutuyor: 54,89 ÷ 3,90 dolar. Düzeltme gerekmiyor.",
+   "en": "The universe P/B (3.408) is right; the ratio page's 0.34 is wrong. The company's release of 20 October 2026 shows equity attributable to the company of 3,511.5 million dollars at 26 September 2026. Market value 11,964.6 million dollars ÷ 3,511.5 = 3.41. The ratio page's own earlier years are between 2.27 and 4.05; 0.34 is about ten times too low. The shares were split two-for-one on 30 June 2026 (record date 25 June); a split would cause a twofold gap, not a tenfold one. The cause of the ratio-page error could not be found in the company's documents. P/E is the same in both sources (14.06 and 14.08) and agrees with the document: 54.89 ÷ 3.90 dollars. No fix is needed."
+  },
+  "earn": {
+   "k": 0.955,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Bu kârın içindeki tek seferlik kazançlar: Sherwood Valve işinin satışından kazanç (7 Ocak 2026'da kapandı): vergi öncesi 41,4 milyon dolar: son 12 ay kârının %3,6 kadarı; Sigorta tazminatı kazancı (Covington fabrikası, 2023 hortumu): vergi öncesi 4,4 milyon dolar: son 12 ay kârının %0,4 kadarı; Kısa vadeli yatırımlarda gerçekleşmemiş değer artışı, Ocak-Eylül 2026: vergi öncesi 10,4 milyon dolar: son 12 ay kârının %0,9 kadarı; Kısa vadeli yatırımlarda gerçekleşen ve gerçekleşmemiş kazanç, 2025'in 4. çeyreği: vergi öncesi 12,6 milyon dolar: son 12 ay kârının %1,1 kadarı. Aynı dönemin tek seferlik giderleri: Varlık elden çıkarma zararı ve değer düşüklüğü: 2026'nın dokuz ayında 1,7 + 2,7 milyon dolar, 2025'in 4. çeyreğinde 0,8 + 1,7 milyon dolar (vergi öncesi): %0,6; Son satın almaların muhasebesine bağlı giderler: vergi öncesi 9,4 milyon dolar: %0,8. Net etki %4,5; kazanç bu kadar indirildi. Son 12 ayın kârı 0,95 ile çarpılarak kullanıldı.",
+    "en": "The calculation rests on the profit of the last 12 months. One-off gains inside that profit: Gain on the sale of the Sherwood Valve business (closed 7 January 2026): 41.4 million dollars before tax: 3.6% of last-12-month profit; Gain on insurance proceeds (Covington plant, 2023 tornado): 4.4 million dollars before tax: 0.4% of last-12-month profit; Unrealised gains on short-term investments, January-September 2026: 10.4 million dollars before tax: 0.9% of last-12-month profit; Realised and unrealised gains on short-term investments, Q4 2025: 12.6 million dollars before tax: 1.1% of last-12-month profit. One-off charges in the same period: Loss on disposal of assets and asset impairments: 1.7 + 2.7 million dollars in the nine months of 2026, 0.8 + 1.7 million dollars in Q4 2025 (before tax): 0.6%; Charges related to purchase accounting for recent acquisitions: 9.4 million dollars before tax: 0.8%. The net effect is 4.5%; earnings were lowered by that much. Last-12-month profit was used multiplied by 0.95."
+   },
+   "per": "2026-Q3"
+  },
+  "growth": {
+   "g": 4.2,
+   "basis": {
+    "tr": "Formül yılda %5,8 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 (26 Eylül 2026'da biten dokuz ay) %17,2; Temmuz-Eylül 2026 çeyreği %6,4. En düşüğü, enflasyondan arındırılınca, %2,6. Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %4,2.",
+    "en": "The formula gave growth of 5.8% a year. Latest figures (earnings per share, year on year): January-September 2026 (nine months ended 26 September 2026) 17.2%; July-September 2026 quarter 6.4%. The lowest, after inflation, is 2.6%. Because this is less than half the formula's rate, the midpoint of the two was used: 4.2%."
+   },
+   "per": "2026-Q3"
+  }
  }
 }

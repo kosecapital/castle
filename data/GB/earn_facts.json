@@ -127,5 +127,23 @@
   "drop": null,
   "guidance": [],
   "notes": "TTM = Q4 2025 (diluted EPS 6.83, attributable profit 380.407m; FY2025 results RNS of 20 Feb 2026 via ticker.app full text) + 9M 2026 (20.51; 1,142.5m; 3Q/9M 2026 results RNS of 6 Nov 2026). Basic EPS TTM = 6.91 + 20.78 = 27.69. Units are GEL, the source's P/E is on a GBP price, so the script's source-vs-document check cannot run on same units; rough cross-check by me: market cap 3,040m GBP / 7.12 = 427m GBP; 1,522.9m GEL / 427m = 3.57 GEL per GBP, a plausible rate (GEL/GBP not given in the document, so unverified). Tax rate 15.1% = FY2025 income tax 252.9 / pre-tax 1,673.2; 9M 2026 was 12.4% (164.1 / 1,319.2), and Uzbekistan booked a GEL 2.0m tax credit in 3Q 2026. One-off items: the 3Q 2026 report identifies none for 2026; the only labelled non-recurring items are charges in earlier periods (GEL 24.6m pre-tax Uzbekistan impairment in 9M 2025, outside the TTM window as far as the documents show; GEL 9.8m asset write-down in 4Q 2024). Net FX/derivative gains (GEL 93.4m in 3Q 2026) are ordinary recurring bank income, not labelled unusual. No absolute EPS guidance (targets are ROE 23%+, loan growth 15%+, payout 25-45%)."
+ },
+ "ULVR": {
+  "unit": "million EUR",
+  "eps_cur": "EUR",
+  "ttm": {
+   "eps": 2.55,
+   "net_profit": 5581,
+   "tr": "Temmuz 2025 - Haziran 2026, süren faaliyetler: ana ortaklık kârı 5.682 + 3.024 − 3.125 = 5.581 milyon avro; seyreltilmiş hisse başına kâr 2,59 + 1,38 − 1,42 = 2,55 avro (2025 yılı artı 2026'nın ilk yarısı eksi 2025'in ilk yarısı)",
+   "en": "July 2025 - June 2026, continuing operations: profit attributable to shareholders 5,682 + 3,024 − 3,125 = 5,581 million euros; diluted EPS 2.59 + 1.38 − 1.42 = 2.55 euros (full year 2025 plus first half 2026 minus first half 2025)",
+   "url": "https://www.unilever.com/files/unilever-q2-2026-results-full-announcement.pdf",
+   "primary": true
+  },
+  "tax_rate": 30.3,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "TTM is on CONTINUING operations because that is what the universe P/E (22.36) reflects: 4,987.5p / 22.36 = 223p, which is 2.55 euros at about 0.875 GBP/EUR (implied, not from a document); market cap 106,176 / 22.36 = 4,748M GBP vs 5,581M EUR. Figures: FY2025 announcement (12 Feb 2026) and H1 2026 announcement (28 Jul 2026), both opened on unilever.com. TOTAL TTM (incl. discontinued): attributable 9,469 + 3,316 - 3,512 = 9,273M EUR; diluted EPS 4.32 + 1.52 - 1.60 = 4.24 euros - this is what the ratio page's P/E 13.69 reflects (107,380 / 13.69 = 7,844M GBP). The difference is discontinued operations: a 3,373M EUR after-tax gain on the demerger of Ice Cream (6 Dec 2025, in H2 2025) and a 299M EUR gain on disposal of discontinued operations in H1 2026 (Kwality Wall's stake and Portugal ice cream JV sold to TMICC). These gains are NOT listed in 'gains' because they are outside the continuing-operations profit used as ttm; if the funnel ever uses the ratio-page P/E (13.69 TTM, 12.8 for FY2025) they must be removed. Within continuing operations no net one-off gain: gain/(loss) on disposal of group companies FY2025 (36), H1 2026 70, H1 2025 47, so TTM net -13; other income from non-current investments H1 2026 21 vs (31). Restructuring (TTM 599 + 131 - 265 = 465 pre-tax) recurs every year and is not an offset. Unit is euros while the dataset is in pounds, so the script's source-vs-document check cannot run on like units. Tax rate is the H1 2026 effective rate printed by the company (FY not read). No EPS guidance. RETAINED-EARNINGS WARNING for main session: the ratio page payout (45.85% TTM, 47.03% FY2025) is computed on total profit including the demerger gain; from the FY2025 document dividends paid 4,453 + buybacks 1,510 = 5,963 vs continuing attributable profit 5,682, i.e. more than 100% distributed, so the funnel's b = 0.553 and the 'retained-earnings test' result for ULVR look like artefacts of the one-off gain. Likewise the FY2025 point in the profit series used for the growth trend (mc / pes = 105,734 / 12.8) is inflated by the gain."
  }
 }

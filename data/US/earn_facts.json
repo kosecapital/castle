@@ -913,5 +913,83 @@
    }
   ],
   "notes": "TTM built from two SEC 8-K exhibits: FY26 release (11 Aug 2026) and Q1 FY27 release (9 Nov 2026; it prints the prior-year quarter). EPS 5.42 = 5.69 + 1.26 - 1.53, diluted, continuing operations; summing quarterly EPS over a falling share count is approximate. Consolidated: EPS 5.66 + 1.26 - 1.53 = 5.39; net income 733.596 + 165.819 - 188.478 = 710.9. Continuing-ops net income TTM = 736.318 + 165.368 - 188.127 = 713.6 (denominator of frac). Source check: 50.76 / 9.31 = 5.45 and 6,197 / 9.13 = 679m; document is not below the source by more than 3%. GAIN: 84.113m one-time non-cash tax benefit in Q3 FY26, already after tax: 84.1 / 713.6 = 11.8%. OFFSET: 7.951m severance in Q1 FY27 (excluded by the company from adjusted results); after 23% tax 6.1m = 0.9%. Net one-offs about 10.9% of TTM profit. Not treated as one-off: amortisation of acquired intangibles (46.9m pre-tax a year; recurring, the company's adjustment). FY26 effective tax rate about 13.8% (117.6 / 853.9, my arithmetic); tax_rate 23 is the company's FY27 guidance. Guidance 6.04-6.24 is ADJUSTED EPS (excludes intangible amortisation, roughly 0.28 a share after tax by my arithmetic, and one-offs), so it is not like-for-like with GAAP TTM 5.42; either way it is above TTM, so it does not lower earnings. Stock-based compensation 30.5m in FY26 (4.1% of profit), not excluded from adjusted figures."
+ },
+ "MLI": {
+  "unit": "million USD",
+  "eps_cur": "USD",
+  "ttm": {
+   "eps": 3.9,
+   "net_profit": 863.6,
+   "tr": "Ekim 2025 - Eylül 2026 (2025'in 4. çeyreği artı 2026'nın dokuz ayı): ana ortaklık net kârı 153,7 + 709,9 = 863,6 milyon dolar; seyreltilmiş hisse başına kâr 0,69 + 3,21 = 3,90 dolar (4. çeyreğin açıklanan 1,38 doları 30 Haziran 2026'daki ikiye bölünmeye göre yarıya indirildi)",
+   "en": "October 2025 - September 2026 (Q4 2025 plus nine months 2026): net income attributable 153.7 + 709.9 = 863.6 million dollars; diluted EPS 0.69 + 3.21 = 3.90 dollars (the 1.38 dollars reported for Q4 halved for the two-for-one split of 30 June 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000089439/000008943926000038/exhibit991q32026earningsre.htm",
+   "primary": true
+  },
+  "tax_rate": 25.3,
+  "gains": [
+   {
+    "tr": "Sherwood Valve işinin satışından kazanç (7 Ocak 2026'da kapandı): vergi öncesi 41,4 milyon dolar",
+    "en": "Gain on the sale of the Sherwood Valve business (closed 7 January 2026): 41.4 million dollars before tax",
+    "frac": 0.0358,
+    "how": "41.407M pre-tax x (1 - 0.2526) / 863.585M TTM net income; tax rate = 9M 2026 income tax 239,031 / income before taxes 946,301 (my arithmetic from printed figures)",
+    "period_tr": "Ocak-Mart 2026 çeyreği",
+    "period_en": "January-March 2026 quarter",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000089439/000008943926000038/exhibit991q32026earningsre.htm",
+    "primary": true
+   },
+   {
+    "tr": "Sigorta tazminatı kazancı (Covington fabrikası, 2023 hortumu): vergi öncesi 4,4 milyon dolar",
+    "en": "Gain on insurance proceeds (Covington plant, 2023 tornado): 4.4 million dollars before tax",
+    "frac": 0.0038,
+    "how": "4.352M pre-tax x (1 - 0.2526) / 863.585M TTM net income; tax rate = 9M 2026 income tax 239,031 / income before taxes 946,301 (my arithmetic from printed figures)",
+    "period_tr": "Temmuz-Eylül 2026 çeyreği",
+    "period_en": "July-September 2026 quarter",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000089439/000008943926000038/exhibit991q32026earningsre.htm",
+    "primary": true
+   },
+   {
+    "tr": "Kısa vadeli yatırımlarda gerçekleşmemiş değer artışı, Ocak-Eylül 2026: vergi öncesi 10,4 milyon dolar",
+    "en": "Unrealised gains on short-term investments, January-September 2026: 10.4 million dollars before tax",
+    "frac": 0.009,
+    "how": "10.367M pre-tax x (1 - 0.2526) / 863.585M TTM net income; tax rate = 9M 2026 income tax 239,031 / income before taxes 946,301 (my arithmetic from printed figures)",
+    "period_tr": "Ocak-Eylül 2026",
+    "period_en": "January-September 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000089439/000008943926000038/exhibit991q32026earningsre.htm",
+    "primary": true
+   },
+   {
+    "tr": "Kısa vadeli yatırımlarda gerçekleşen ve gerçekleşmemiş kazanç, 2025'in 4. çeyreği: vergi öncesi 12,6 milyon dolar",
+    "en": "Realised and unrealised gains on short-term investments, Q4 2025: 12.6 million dollars before tax",
+    "frac": 0.0109,
+    "how": "12.622M pre-tax x (1 - 0.2526) / 863.585M TTM net income; tax rate = 9M 2026 income tax 239,031 / income before taxes 946,301 (my arithmetic from printed figures)",
+    "period_tr": "Ekim-Aralık 2025 çeyreği",
+    "period_en": "October-December 2025 quarter",
+    "url": "https://www.sec.gov/Archives/edgar/data/89439/000008943926000002/exhibit991q42025earningsre.htm",
+    "primary": true
+   }
+  ],
+  "offsets": [
+   {
+    "tr": "Varlık elden çıkarma zararı ve değer düşüklüğü: 2026'nın dokuz ayında 1,7 + 2,7 milyon dolar, 2025'in 4. çeyreğinde 0,8 + 1,7 milyon dolar (vergi öncesi)",
+    "en": "Loss on disposal of assets and asset impairments: 1.7 + 2.7 million dollars in the nine months of 2026, 0.8 + 1.7 million dollars in Q4 2025 (before tax)",
+    "frac": 0.0059,
+    "how": "6.866M pre-tax x (1 - 0.2526) / 863.585M TTM net income; tax rate = 9M 2026 income tax 239,031 / income before taxes 946,301 (my arithmetic from printed figures)",
+    "period_tr": "Ekim 2025 - Eylül 2026",
+    "period_en": "October 2025 - September 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000089439/000008943926000038/exhibit991q32026earningsre.htm"
+   },
+   {
+    "tr": "Son satın almaların muhasebesine bağlı giderler: vergi öncesi 9,4 milyon dolar",
+    "en": "Charges related to purchase accounting for recent acquisitions: 9.4 million dollars before tax",
+    "frac": 0.0081,
+    "how": "9.400M pre-tax x (1 - 0.2526) / 863.585M TTM net income; tax rate = 9M 2026 income tax 239,031 / income before taxes 946,301 (my arithmetic from printed figures)",
+    "period_tr": "Temmuz-Eylül 2026 çeyreği",
+    "period_en": "July-September 2026 quarter",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000089439/000008943926000038/exhibit991q32026earningsre.htm"
+   }
+  ],
+  "drop": null,
+  "guidance": [],
+  "notes": "TTM net income = Q4 2025 153,712 (FY2025 release, sec.gov 8-K Ex. 99.1 of 3 Feb 2026) + 9M 2026 709,873 (Q3 release, 8-K Ex. 99.1 of 20 Oct 2026) = 863,585 thousand; same result as FY2025 765,191 + 709,873 - 611,479. EPS: Q4 2025 was printed pre-split (1.38 on 111.0M diluted shares); 0.69 is my halving, not a printed figure. Check: universe price 54.89 / P/E 14.06 = 3.90. All gains and offsets are pre-tax amounts from the income statement; the company does not give per-share or after-tax amounts, so they are converted with the 9M 2026 effective rate (25.3%; the 10-Q says 25% for H1). Gains sum to about 5.9% of TTM profit, offsets about 1.4%. NOT LISTED as offset: an 18.2M unrealised loss on open hedge contracts in Q4 2025 named in the FY2025 release - it is a timing item in an ordinary hedging programme and reverses (the Q2 10-Q shows 22.1M undesignated commodity gains in cost of goods sold in H1 2026), so I left it out; including it would only raise earnings. Investment gains: the Q3 release prints only 'unrealized gains (losses) on short-term investments' (9M 2026: 10,367); the FY2025 release prints 'realized and unrealized gains' (FY 18,547; 9M 2025 5,925; so Q4 2025 12,622). Whether these recur is a judgment: the company holds only 33M of short-term investments, so I listed them as one-offs. Interest income (34.9M in 9M 2026 on 1.45bn cash) is recurring and not listed. No EPS or profit guidance is given."
  }
 }

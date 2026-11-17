@@ -200,5 +200,22 @@
   "drop": null,
   "guidance": [],
   "notes": "From the company's Ind AS consolidated statements: FY26 EPS 136.01 and profit attributable to shareholders 49,210 (Q4 FY26 PDF: https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2025-26/q4/IND%20AS/Consolidated.pdf); H1 FY26 EPS 68.64 / 24,835; H1 FY27 EPS 75.27 / 27,233 (Q2 FY27 PDF). TTM = FY26 - H1 FY26 + H1 FY27. Basic = diluted. Screener's quarterly EPS (29.45 + 37.92 + 36.90 + 38.37) gives the same 142.64. No one-off GAINS found. The 12 months contain only one-off CHARGES (ignored per brief): Oct-Dec 2025 labour codes 2,128, legal provision 1,010, restructuring 253 (news); Apr-Jun 2026 legal claim settlement 668 (company PDF). FY26 exceptional charges total 4,526. Routine investment gains (net gain on disposal/fair valuation of investments 701 in FY26, 318 in H1 FY27, cash-flow statement) are recurring treasury income, not listed. Tax rate 24.5% = 16,033 / 65,487 (FY26, my calculation). TCS gives no EPS or profit guidance. The notes sections of both PDFs were beyond the part read (text truncated at 100,000 characters)."
+ },
+ "IGIL": {
+  "unit": "million INR",
+  "eps_cur": "INR",
+  "ttm": {
+   "eps": 15.41,
+   "net_profit": 6657.46,
+   "tr": "Ekim 2025 - Eylül 2026 (dört çeyrek)",
+   "en": "October 2025 - September 2026 (four quarters)",
+   "url": "https://nsearchives.nseindia.com/corporate/IGIINDIA_28102026193119_SE_Transcript1.pdf"
+  },
+  "tax_rate": 27.2,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Net profit: Oct-Dec 2025 quarter 1,345.50 (company filing 27 Jan 2026: https://nsearchives.nseindia.com/corporate/IGIINDIA_27012026171708_SE_Outcome_27012026.pdf) + Jan-Mar 2026 quarter 1,795.96 (company newspaper publication, NSE filing 22 May 2026: https://nsearchives.nseindia.com/corporate/IGIINDIA_22052026120218_SE.pdf; the extracted table was garbled and its company name missing, but the figures match Screener's 180 crore and EPS 4.16) + Apr-Sep 2026 half-year 3,516 (earnings call transcript) = 6,657.46. Basic EPS: 3.11 (27 Jan 2026 filing) + 4.16 (newspaper publication) + 3.84 + 4.30 (Screener; not read from a company document) = 15.41. Diluted EPS is about 3% lower (15-month period: basic 16.46, diluted 15.92); the universe P/E of 29.48 implies EPS 14.89, i.e. the diluted figure. Source-implied profit (185,245 / 29.48 = 6,284) is below the document figure, so no source-vs-document reduction arises. Tax rate 27.2% = 1,985.62 / 7,301.63 for the twelve months to December 2025 (my division from the 27 Jan 2026 filing). No exceptional items in the results table; no one-off gains mentioned in the call or the filings read. No profit or EPS guidance (FY27 guidance is revenue +15% and EBITDA +20%, to be exceeded). The company's fiscal year changed from December to March (15-month transition period to 31 March 2026). The September 2026 results PDF was not opened; the notes of the filings were not fully legible (share-based payment expense not read)."
  }
 }

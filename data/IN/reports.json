@@ -1606,5 +1606,387 @@
    "date": "2026-11-14",
    "per": "2026-Q2"
   }
+ },
+ "BFUTILITIE": {
+  "scores": {
+   "A": 1,
+   "B": 2,
+   "C": 1,
+   "D": 0,
+   "E": 0
+  },
+  "moat": "dar",
+  "per": "2026-Q1",
+  "one": "Bağlı ortaklıklarıyla Bengaluru çevresinde paralı yol işleten holding. Denetçi konsolide tablolara olumsuz görüş verdi, kârın %60'ı azınlığa ait; yönetim ve dayanıklılık ölçütlerini geçemedi.",
+  "business": "BF Utilities'in kendi işi küçük bir rüzgâr santralidir; elektriği tek bir müşteriye satar (Eylül 2026 çeyreğinde solo satış 6,50 crore rupi, net zarar 2,52 crore rupi). Konsolide kârın neredeyse tamamı bağlı ortaklıklardan gelir: Nandi Infrastructure Corridor Enterprise (NICE) ve onun bağlı ortaklığı NECE, Bengaluru çevresindeki paralı yol ve koridor projesini yürütür. Mart 2026'da biten yılda konsolide hasılat 94.798 lakh rupi (9,5 milyar rupi), net kâr 34.012 lakh rupi; bunun 13.740 lakh rupisi ana ortaklığa, 20.273 lakh rupisi azınlık paylarına ait.",
+  "moat_text": "Paralı yol bir imtiyaza dayanır ve hendek bu yüzden dar sayıldı: Mart 2026 yılında vergi öncesi kâr hasılatın yarısından fazlası (49.725 ÷ 94.798 lakh rupi). Ama üstünlük tek bir projeye ve Karnataka eyaletinin kararlarına bağlı: Karnataka Yüksek Mahkemesi 9 Ocak 2026'da eyaletten projeye yeniden bakmasını istedi; NECE kararı Yüksek Mahkeme'ye taşıdı. Öbür bağlı ortaklık NHDL'nin geçiş ücreti toplama hakkı 7 Eylül 2024'te bitti. Reel özsermaye kârlılığı beş mali yılda %358'den %22,6'ya indi; ilk yıllardaki rakam özsermayenin sıfıra yakın olmasından gelir. Şirket 3. suru hendekten değil, yönetim (D) ve dayanıklılık (E) puanlarından geçemedi.",
+  "mgmt": "Kalyani grubu şirketidir; kurucu ortakların payı %56,73 (Eylül 2026, ikincil kaynak). Temettü ödenmiyor. Denetçi (G. D. Apte & Co.) Mart 2026 konsolide tablolarına olumsuz görüş verdi: tablolar gerçeğe uygun bir görünüm sunmuyor. Nedenleri: NECE'de bir yatırımcıya verilen geri alım yükümlülüğü borç yerine özsermaye gösteriliyor (31.130 lakh rupi; etkisi hesaplanmadı); Singapur'daki tahkim için karşılık gerekip gerekmediği belirlenemiyor; NECE'ye arazi için verilen 3.700 lakh rupilik faizsiz avans 15 yıldan uzun süredir açık; NHDL'de işletmenin sürekliliği belirsiz; üç bağlı ortaklığın denetçileri grup denetçisine yanıt vermedi. Konsolide yıl sonu sonuçları 30 Eylül 2026'da, altı ay geç açıklandı; Haziran ve Eylül 2026 çeyreklerinin konsolide sonuçları hâlâ açıklanmadı, çünkü bağlı ortaklıklar rakam göndermedi. Borsalar gecikme için ceza kesti. Hisse bazlı ücret, şerefiye ve emeklilik açığı: bakıldı, açılan belgelerde yok. NICE'ın %7 imtiyazlı paylarının vadesi mahkeme kararıyla 2040'a uzatıldı.",
+  "latest": "6 Kasım 2026: Şirket Temmuz-Eylül 2026 çeyreğinin yalnız solo sonuçlarını açıkladı: satış 6,50 crore rupi (bir yıl önce 7,97), net zarar 2,52 crore rupi (bir yıl önce 1,79 crore kâr). Denetçi üç konuda şartlı sonuç bildirdi. Konsolide sonuçlar bağlı ortaklıklar rakam gönderince açıklanacak. Son konsolide tablo 30 Eylül 2026'da açıklanan Mart 2026 yılıdır: ana ortaklığa ait net kâr 13.740 lakh rupi (bir yıl önce 14.650), hisse başına kâr 36,48 rupi (38,89).",
+  "risks": [
+   "Denetçi konsolide tablolara olumsuz görüş verdi; sitedeki oranlar bu tablolara dayanıyor ve olduğundan iyi görünüyor olabilir.",
+   "Singapur'daki tahkimde yatırımcılar 500 crore rupi artı yıllık %18 getiri ve 70,90 crore rupi istiyor; ana ortaklığa ait özsermaye 351,65 crore rupi. Karşılık ayrılmadı.",
+   "Kâr tek bir paralı yol projesine ve Karnataka eyaletinin kararlarına bağlı; proje yargıda.",
+   "Konsolide kârın %60'ı azınlık paylarına ait; ana ortaklığın kendi işi zarar ediyor.",
+   "Haziran ve Eylül 2026 çeyreklerinin konsolide sonuçları açıklanmadı; güncel kâr bilinmiyor."
+  ],
+  "watch": [
+   "Konsolide çeyrek sonuçlarının açıklanması",
+   "Singapur tahkiminin sonucu",
+   "Karnataka eyaletinin proje hakkındaki kararı ve Yüksek Mahkeme süreci",
+   "Denetçi görüşü"
+  ],
+  "sources": [
+   {
+    "t": "BF Utilities: Mart 2026 yılı denetlenmiş konsolide sonuçları ve denetçi raporu (NSE bildirimi, 30 Eyl 2026)",
+    "te": "BF Utilities: audited consolidated results for the year to March 2026 and auditor's report (NSE filing, 30 Sep 2026)",
+    "u": "https://nsearchives.nseindia.com/corporate/BFUTILITIE_30092026163439_BFUL_Consolidated_audited_Results_March_2026_30092026.PDF"
+   },
+   {
+    "t": "Multibagg: BF Utilities, denetçi üç konuda şartlı sonucunu korudu; konsolide sonuçlar bekliyor (6 Kas 2026)",
+    "te": "Multibagg: BF Utilities, auditor retains qualified conclusion over three matters; consolidated results pending (6 Nov 2026)",
+    "u": "https://www.multibagg.ai/market-pulse/articles/bf-utilities-auditor-qualification-matters-announcement-cmw4vt6ak0064u02rurhf7nwp"
+   },
+   {
+    "t": "JM Financial Services (Capital Market): BF Utilities Eylül 2026 çeyreğinde solo 2,52 crore rupi zarar açıkladı (7 Kas 2026)",
+    "te": "JM Financial Services (Capital Market): BF Utilities reports standalone net loss of 2.52 crore rupees in the September 2026 quarter (7 Nov 2026)",
+    "u": "https://www.jmfinancialservices.in/market-news-and-insights/1746429"
+   },
+   {
+    "t": "Multibagg: BF Utilities 2026 mali yılı sonuçları, olumsuz denetçi görüşü ve gecikme cezaları",
+    "te": "Multibagg: BF Utilities FY26 results, adverse audit opinion and late-filing penalties",
+    "u": "https://www.multibagg.ai/market-pulse/articles/bf-utilities-fy26-results-audit-cmupdr19m00022urw6i0iox0d"
+   },
+   {
+    "t": "IIFL: BF Utilities yönetim kurulu raporu, 2024-25",
+    "te": "IIFL: BF Utilities directors' report, 2024-25",
+    "u": "https://www.indiainfoline.com/company/bf-utilities-ltd/reports/directors-report"
+   },
+   {
+    "t": "Screener: BF Utilities, konsolide sonuçlar ve ortaklık yapısı",
+    "te": "Screener: BF Utilities, consolidated results and shareholding",
+    "u": "https://www.screener.in/company/BFUTILITIE/consolidated/"
+   },
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/nse/BFUTILITIE/financials/ratios/"
+   }
+  ],
+  "en": {
+   "one": "A holding company that runs a toll road around Bengaluru through subsidiaries. The auditor gave an adverse opinion on the consolidated accounts and 60% of profit belongs to minorities; it did not pass the management and resilience criteria.",
+   "business": "BF Utilities' own business is a small wind farm that sells electricity to a single customer (standalone sales of 6.50 crore rupees and a net loss of 2.52 crore rupees in the September 2026 quarter). Nearly all consolidated profit comes from subsidiaries: Nandi Infrastructure Corridor Enterprise (NICE) and its subsidiary NECE run the toll road and corridor project around Bengaluru. In the year to March 2026 consolidated revenue was 94,798 lakh rupees (9.5 billion rupees) and net profit 34,012 lakh rupees, of which 13,740 lakh rupees belongs to the parent's shareholders and 20,273 lakh rupees to minority interests.",
+   "moat_text": "The toll road rests on a concession, which is why the moat is rated narrow: in the year to March 2026 pre-tax profit was more than half of revenue (49,725 / 94,798 lakh rupees). But the advantage depends on a single project and on decisions of the state of Karnataka: on 9 January 2026 the Karnataka High Court asked the state to re-look at the project; NECE has taken the ruling to the Supreme Court. The toll rights of the other subsidiary, NHDL, ended on 7 September 2024. Real return on equity fell from 358% to 22.6% over five fiscal years; the early figures come from equity being close to zero. The company failed the third wall not on the moat but on the management (D) and resilience (E) scores.",
+   "mgmt": "It is a Kalyani group company; promoters hold 56.73% (September 2026, secondary source). No dividend is paid. The auditor (G. D. Apte & Co.) gave an adverse opinion on the March 2026 consolidated accounts: they do not give a true and fair view. The reasons: a buyback obligation to an investor in NECE is shown as equity instead of debt (31,130 lakh rupees; the effect is not quantified); it cannot be determined whether a provision is needed for the arbitration in Singapore; an interest-free advance of 3,700 lakh rupees to NECE for land has been outstanding for more than 15 years; there is a going-concern uncertainty at NHDL; the auditors of three subsidiaries did not respond to the group auditor. The consolidated full-year results were published on 30 September 2026, six months late; consolidated results for the June and September 2026 quarters are still unpublished because the subsidiaries have not submitted figures. The exchanges fined the company for the delay. Share-based pay, goodwill and pension deficit: looked for, not in the documents opened. The maturity of NICE's 7% preference shares was extended to 2040 by a tribunal order.",
+   "latest": "6 November 2026: The company reported only standalone results for the July-September 2026 quarter: sales of 6.50 crore rupees (7.97 a year earlier) and a net loss of 2.52 crore rupees (a profit of 1.79 crore a year earlier). The auditor gave a qualified conclusion on three matters. Consolidated results will follow once the subsidiaries submit figures. The latest consolidated accounts are for the year to March 2026, published on 30 September 2026: net profit attributable to the parent's shareholders was 13,740 lakh rupees (14,650 a year earlier) and earnings per share 36.48 rupees (38.89).",
+   "risks": [
+    "The auditor gave an adverse opinion on the consolidated accounts; the ratios on this site rest on those accounts and may look better than they are.",
+    "In the Singapore arbitration investors claim 500 crore rupees plus an 18% annual return and 70.90 crore rupees; equity attributable to the parent's shareholders is 351.65 crore rupees. No provision has been made.",
+    "Profit depends on a single toll road project and on decisions of the state of Karnataka; the project is before the courts.",
+    "60% of consolidated profit belongs to minority interests; the parent's own business makes a loss.",
+    "Consolidated results for the June and September 2026 quarters have not been published; current profit is unknown."
+   ],
+   "watch": [
+    "Publication of consolidated quarterly results",
+    "Outcome of the Singapore arbitration",
+    "The state of Karnataka's decision on the project and the Supreme Court case",
+    "The audit opinion"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-17",
+   "per": "2026-Q1"
+  },
+  "verify": {
+   "tr": "Şirket Haziran 2026 ve Eylül 2026 çeyreklerinin konsolide sonuçlarını açıklamadı (bağlı ortaklıklar rakam göndermedi); yalnız solo sonuçlar var. Evrendeki F/K (19,98) hisse başına 24,95 rupi kâr ima ediyor. Bu, Mart 2026 yılının konsolide hisse başına kârından (36,48 rupi; şirketin belgesi) Haziran 2025 çeyreğinin konsolide rakamı çıkarılıp yerine Haziran 2026 çeyreğinin solo zararı (−1,34 rupi; ikincil kaynak) konunca çıkan rakamla tutuyor: 11,27 + 11,05 + 3,95 − 1,34 = 24,93. Yani kaynak, eksik konsolide çeyreğin yerine solo zararı koymuş. Oran sayfası (14,78) son yıllık konsolide kâra yakın. Belgedeki son rakamla F/K: 498,55 ÷ 36,48 = 13,7 (Mart 2026 yılı). Ayrıca konsolide kârın %60'ı azınlık paylarına aittir ve denetçi bu tablolara olumsuz görüş vermiştir. Düzeltme önerilmedi: Haziran 2026'da biten 12 ayın konsolide kârı hiçbir belgede yok.",
+   "en": "The company has not published consolidated results for the June 2026 and September 2026 quarters (the subsidiaries have not submitted figures); only standalone results exist. The universe P/E (19.98) implies earnings of 24.95 rupees per share. That matches the consolidated EPS for the year to March 2026 (36.48 rupees; company document) with the June 2025 consolidated quarter taken out and the standalone loss of the June 2026 quarter (-1.34 rupees; secondary source) put in: 11.27 + 11.05 + 3.95 - 1.34 = 24.93. So the source substituted the standalone loss for the missing consolidated quarter. The ratio page (14.78) is close to the last annual consolidated profit. P/E on the latest documented figure: 498.55 / 36.48 = 13.7 (year to March 2026). In addition, 60% of consolidated profit belongs to minority interests and the auditor gave an adverse opinion on these accounts. No fix is proposed: consolidated profit for the twelve months to June 2026 is in no document."
+  }
+ },
+ "IGIL": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "2026-Q2",
+  "one": "Pırlanta, değerli taş ve mücevhere bağımsız sertifika veren laboratuvar şirketi. Marjı çok yüksek, borcu yok; hendek ölçütünü geçti, ama işin yarıdan fazlası laboratuvar pırlantasına bağlı.",
+  "business": "IGI, pırlantayı, değerli taşı ve mücevheri inceler ve kalitesini gösteren rapor (sertifika) verir; parasını rapor başına alır. Temmuz-Eylül 2026 çeyreğinde 4,35 milyon rapor verdi; rapor başına ortalama gelir 891 rupi. Aynı çeyrekte hasılat 3,98 milyar rupi, FAVÖK marjı %61,4 oldu. Hasılatın %54'ü laboratuvarda üretilen pırlantanın sertifikasından geliyor. Şirket Aralık 2024'te halka açıldı.",
+  "moat_text": "Hendek dar. Sertifikanın değeri laboratuvarın adına duyulan güvenden gelir: yönetimin anlatımıyla sertifika ücreti taşın perakende fiyatının %2-3'üdür, alıcı için küçük ama satışın koşulu olan bir giderdir. Kanıt marjdadır: FAVÖK marjı Nisan-Eylül 2026'da %60,9 (bir yıl önce %57,8). Yönetim, doğal tek taş sertifikasında payının sektörde en yüksek olduğunu ve laboratuvar pırlantasını ilk sertifikalandıran uluslararası laboratuvar olduğunu söylüyor; bağımsız bir pazar payı rakamı bu okumada açılan belgelerde yok. Zayıf yan: büyüme laboratuvar pırlantasından geliyor (çeyrekte tek taşta +%37, doğal tek taşta +%8); bu ürünün toptan fiyatı düşerse ya da alıcı sertifikadan vazgeçerse hacim geriler. Rapor başına gelirdeki %4 artışın 2 puanı satın alınan AGL'den, 2 puanı ürün karmasından geldi; fiyat artışından değil. Son ölçülen mali yılda (2024) reel özsermaye kârlılığı %41,1.",
+  "mgmt": "Kurucu ortak (Blackstone'a bağlı) payların %76,55'ini tutuyor; yabancı kurumlar %8,79, yerli kurumlar %5,47, halk %9,17 (Eylül 2026, ikincil kaynak). Halka arz gelirinin bir bölümü IGI Belçika ve IGI Hollanda gruplarını kurucu ortaktan satın almaya gitti (şirketin Ocak 2026 bildirimi): ilişkili taraf alımıdır, D puanında tartıldı. Şirket mali yılını aralıktan marta çevirdi; geçiş dönemi 15 aydır (Ocak 2025 - Mart 2026). Ağustos 2026'da pay başına 2,55 rupi ara temettü açıklandı. Yönetimin sıralaması: önce büyüme, sonra satın alma, sonra temettü. Ocak 2026'da değerli taş laboratuvarı AGL alındı; bedeli açılan belgelerde yok. Hisse bazlı ücret: sulandırılmış hisse başına kâr temel rakamın yaklaşık %3 altında (15 aylık dönemde 15,92 ve 16,46 rupi); gider tutarı bildirimde okunamadı. Şerefiye, emeklilik açığı ve türev pozisyonu: bakıldı, açılan belgelerde yok. Nakit ve banka 10,75 milyar rupi; borç çok küçük (ikincil kaynağa göre 150 crore rupi, çoğu kira yükümlülüğü olabilir; doğrulanamadı).",
+  "latest": "21 Ekim 2026: Şirket Temmuz-Eylül 2026 çeyreğini açıkladı. Hasılat 3,98 milyar rupi (+%31), FAVÖK 2,45 milyar rupi (+%39), net kâr 1,86 milyar rupi (+%43). Nisan-Eylül 2026 altı ayında hasılat 7,69 milyar rupi (+%27), net kâr 3,52 milyar rupi (+%37). Yönetim mayısta verdiği yıllık beklentinin (hasılatta %15, FAVÖK'te %20 büyüme) aşılacağını söyledi; yeni rakam vermedi.",
+  "risks": [
+   "Hasılatın %54'ü laboratuvar pırlantası sertifikasından geliyor; bu ürünün fiyatı ve talebi gerilerse rapor sayısı ve kâr düşer.",
+   "Sertifika talebi mücevher satışına bağlıdır; mücevher isteğe bağlı bir harcamadır ve ekonomi yavaşlayınca azalır.",
+   "Hindistan'daki ana şirketin FAVÖK marjı altı ayda %72,9'dan %69,2'ye indi; yönetim bunu personel, pazarlama ve komisyon giderine bağlıyor.",
+   "Kurucu ortak payların dörtte üçünden fazlasını tutuyor; halka arz gelirinin bir bölümü ona ait şirketlerin alımına gitti. Beş yılda pay sayısı %12,4 arttı.",
+   "On bir bağlı ortaklığın ara dönem rakamları denetçi incelemesinden geçmedi; yönetim onayıyla konsolide edildi (ikincil kaynak)."
+  ],
+  "watch": [
+   "Verilen rapor sayısı ve rapor başına ortalama gelir",
+   "Laboratuvar pırlantasının hasılattaki payı ve toptan fiyatı",
+   "Hindistan'daki ana şirketin FAVÖK marjı",
+   "Satın almalara giden para ve temettü"
+  ],
+  "sources": [
+   {
+    "t": "IGI: Temmuz-Eylül 2026 sonuç toplantısı dökümü (NSE bildirimi, 28 Eki 2026)",
+    "te": "IGI: earnings call transcript for the July-September 2026 quarter (NSE filing, 28 Oct 2026)",
+    "u": "https://nsearchives.nseindia.com/corporate/IGIINDIA_28102026193119_SE_Transcript1.pdf"
+   },
+   {
+    "t": "IGI: Ekim-Aralık 2025 çeyreği sonuçları ve mali yıl değişikliği (NSE bildirimi, 27 Oca 2026)",
+    "te": "IGI: October-December 2025 quarter results and change of financial year (NSE filing, 27 Jan 2026)",
+    "u": "https://nsearchives.nseindia.com/corporate/IGIINDIA_27012026171708_SE_Outcome_27012026.pdf"
+   },
+   {
+    "t": "IGI: 31 Mart 2026'da biten çeyrek ve 15 aylık dönem sonuçlarının gazete ilanı (NSE bildirimi, 22 May 2026)",
+    "te": "IGI: newspaper publication of results for the quarter and fifteen months ended 31 March 2026 (NSE filing, 22 May 2026)",
+    "u": "https://nsearchives.nseindia.com/corporate/IGIINDIA_22052026120218_SE.pdf"
+   },
+   {
+    "t": "Screener: IGI, çeyreklik sonuçlar, bilanço ve ortaklık yapısı",
+    "te": "Screener: IGI, quarterly results, balance sheet and shareholding",
+    "u": "https://www.screener.in/company/IGIL/consolidated/"
+   },
+   {
+    "t": "Angel One: IGI payı sonuçların ardından tavan yaptı (22 Eki 2026)",
+    "te": "Angel One: IGI shares hit upper circuit after results (22 Oct 2026)",
+    "u": "https://www.angelone.in/news/stocks/international-gemological-institute-share-price-hits-10-upper-circuit-post-q2-fy27-earnings-results"
+   },
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/nse/IGIL/financials/ratios/"
+   }
+  ],
+  "en": {
+   "one": "A laboratory company that issues independent certificates for diamonds, gemstones and jewellery. Margins are very high and there is no debt; it passed the moat criterion, but more than half the business depends on lab-grown diamonds.",
+   "business": "IGI examines diamonds, gemstones and jewellery and issues a report (certificate) stating their quality; it is paid per report. In the July-September 2026 quarter it issued 4.35 million reports at an average of 891 rupees each. Revenue in the quarter was 3.98 billion rupees and the EBITDA margin was 61.4%. 54% of revenue comes from certifying lab-grown diamonds. The company listed in December 2024.",
+   "moat_text": "The moat is narrow. A certificate is worth what the laboratory's name is trusted for: management says the fee is 2-3% of the stone's retail price, a small cost for the buyer but a condition of the sale. The evidence is in the margin: the EBITDA margin was 60.9% in April-September 2026 (57.8% a year earlier). Management says its share in natural loose-stone certification is the highest in the industry and that it was the first international laboratory to certify lab-grown diamonds; the documents opened in this reading contain no independent market-share figure. The weak side: growth comes from lab-grown diamonds (loose stones +37% in the quarter, natural loose stones +8%); if the wholesale price of that product falls or buyers skip certification, volumes drop. Of the 4% rise in revenue per report, 2 points came from the acquired AGL and 2 points from product mix, not from price increases. Real return on equity in the last measured fiscal year (2024) was 41.1%.",
+   "mgmt": "The promoter (a Blackstone entity) holds 76.55% of the shares; foreign institutions 8.79%, domestic institutions 5.47%, the public 9.17% (September 2026, secondary source). Part of the IPO proceeds went to buying the IGI Belgium and IGI Netherlands groups from the promoter (company filing, January 2026): this is a related-party purchase and was weighed in the D score. The company moved its financial year from December to March; the transition period is 15 months (January 2025 - March 2026). An interim dividend of 2.55 rupees per share was declared in August 2026. Management's order of priority: growth first, then acquisitions, then dividends. The gemstone laboratory AGL was acquired in January 2026; the price is not in the documents opened. Share-based pay: diluted earnings per share are about 3% below the basic figure (15.92 against 16.46 rupees for the 15-month period); the expense amount could not be read in the filing. Goodwill, pension deficit and derivative positions: looked for, not in the documents opened. Cash and bank balances are 10.75 billion rupees; debt is very small (150 crore rupees per a secondary source, possibly mostly lease liabilities; not verified).",
+   "latest": "21 October 2026: The company reported the July-September 2026 quarter. Revenue was 3.98 billion rupees (+31%), EBITDA 2.45 billion rupees (+39%) and net profit 1.86 billion rupees (+43%). For the six months April-September 2026 revenue was 7.69 billion rupees (+27%) and net profit 3.52 billion rupees (+37%). Management said the full-year outlook given in May (15% revenue growth, 20% EBITDA growth) will be exceeded; it gave no new figure.",
+   "risks": [
+    "54% of revenue comes from certifying lab-grown diamonds; if the price of and demand for that product fall, report volumes and profit fall.",
+    "Demand for certificates depends on jewellery sales; jewellery is discretionary spending and declines when the economy slows.",
+    "The EBITDA margin of the Indian parent company fell from 72.9% to 69.2% in the half-year; management attributes this to staff, marketing and commission costs.",
+    "The promoter holds more than three quarters of the shares; part of the IPO proceeds went to buying companies it owned. The share count rose 12.4% in five years.",
+    "The interim figures of eleven subsidiaries were not reviewed by auditors; they were consolidated on management's certification (secondary source)."
+   ],
+   "watch": [
+    "Number of reports issued and average revenue per report",
+    "Share of lab-grown diamonds in revenue and their wholesale price",
+    "EBITDA margin of the Indian parent company",
+    "Money spent on acquisitions and dividends"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-17",
+   "per": "2026-Q2"
+  },
+  "verify": {
+   "tr": "Evrendeki F/K (29,48) sulandırılmış son 12 ay hisse başına kârına dayanıyor: 438,9 ÷ 29,48 = 14,89 rupi. Şirketin belgelerinden toplanan son dört çeyreğin (Ekim 2025 - Eylül 2026) temel hisse başına kârı 15,41 rupi, net kârı 6,66 milyar rupi; sulandırılmış rakam yaklaşık %3 düşüktür. Evren belgeyle tutuyor. Oran sayfasının F/K'sı (40,04) yaklaşık 4,73 milyar rupi kâr ima ediyor; bu, belgelerdeki hiçbir dört çeyrekle tutmuyor. Olası neden: şirket mali yılını aralıktan marta çevirdi ve 15 aylık bir geçiş dönemi (Ocak 2025 - Mart 2026) raporladı; oran sayfası son 12 ayı yanlış hizalamış görünüyor (bu bir çıkarımdır, sayfanın hesabı görülmedi). Düzeltme gerekmiyor.",
+   "en": "The universe P/E (29.48) rests on diluted trailing earnings per share: 438.9 / 29.48 = 14.89 rupees. The last four quarters (October 2025 - September 2026) added up from the company's documents give basic EPS of 15.41 rupees and net profit of 6.66 billion rupees; the diluted figure is about 3% lower. The universe agrees with the documents. The ratio page's P/E (40.04) implies a profit of about 4.73 billion rupees, which matches no four-quarter period in the documents. Likely cause: the company moved its financial year from December to March and reported a 15-month transition period (January 2025 - March 2026); the ratio page appears to have misaligned the trailing twelve months (an inference; the page's calculation was not seen). No fix is needed."
+  },
+  "earn": {
+   "k": 1.0,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı.",
+    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are."
+   },
+   "per": "2026-Q2"
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %15,9 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Nisan-Eylül 2026 %37,0; Temmuz-Eylül 2026 çeyreği %43,1. En düşüğü, enflasyondan arındırılınca, %29,1. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 15.9% a year. Latest figures (net profit, year on year): April-September 2026 37.0%; July-September 2026 quarter 43.1%. The lowest, after inflation, is 29.1%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q2"
+  }
+ },
+ "TIMEX": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-Q2",
+  "one": "Timex ve lisanslı markalarla Hindistan'da saat üretip satan şirket. Satış hızla büyüyor, ama markalar ana ortağa ait ve özsermaye çok ince; hendek ölçütünü geçemedi.",
+  "business": "Timex Group India, Himachal Pradesh'teki Baddi fabrikasında saat üretir ve Hindistan'da satar; Timex, Helix ve TMX kendi grubunun, Guess, Gc, Versace, Aston Martin ve öbürleri lisanslı markalardır. Mart 2026'da biten yılda hasılat 79.859 lakh rupi (8,0 milyar rupi), net kâr 7.544 lakh rupi (754 milyon rupi) oldu. Satışın %98'i Hindistan'da. En büyük kanal bayi ve distribütörler; e-ticaret en hızlı büyüyen kanal. Şirket grup şirketlerine bilişim desteği de verir.",
+  "moat_text": "Hendek zayıf; şirket 3. suru geçemedi. Sattığı markalar kendisinin değil: Timex markası için ana gruba isim hakkı öder (2026 mali yılında 2.685 lakh rupi; hasılatın %3,4'ü), lisanslı saatleri de grup şirketlerinden alır (13.819 lakh rupi alım). Üstünlük markaların sahibinde kalır, Hindistan şirketi dağıtıcı ve üreticidir. Kârlılığın geçmişi kısa: şirket 2015-2021 arasındaki yedi mali yılın beşinde zarar yazdı (ikincil kaynak). Reel özsermaye kârlılığı beş yılda %16 ile %110 arasında gezdi; son 12 ayda %61,2. Bu rakam yüksek görünür çünkü özsermaye incedir: 31 Mart 2026'da toplam özsermaye 11.128 lakh rupi, bunun 3.589 lakh rupisi ana ortağın imtiyazlı paylarının özsermaye bileşeni. Brüt marjın enflasyon yıllarındaki seyrine bakılamadı (belgede marj tablosu okunmadı).",
+  "mgmt": "Ana ortak Timex Group Luxury Watches B.V.'nin payı bir yılda %74,93'ten %51,00'e indi (31 Mart 2026, yıllık rapor). Adi paya temettü ödenmiyor; para ana ortağa imtiyazlı pay yoluyla gidiyor: 2026 mali yılında 2.533 lakh rupi imtiyazlı pay temettüsü ödendi, 2.290 lakh rupilik imtiyazlı pay Mart 2026'da itfa edildi. Geriye 6.482 lakh rupi imtiyazlı pay kaldı; birikmiş ödenmemiş temettü 1.400 lakh rupi. Ana gruba ayrıca isim hakkı (2.685) ve hizmet bedeli (1.385 lakh rupi) ödeniyor. Hisse bazlı ücret: bakıldı, okunan bölümlerde yok. Şerefiye yok denecek kadar az (duran varlıklar 1.168 lakh rupi). Kıdem tazminatı yükümlülüğü 1.470 lakh rupi. Koşullu yükümlülükler 280 lakh rupi. Türev pozisyonu: bakıldı, okunan bölümlerde yok. Denetçi görüşü olumlu; bir muhasebe yazılımında denetim izi kaydı eksikliği not edildi.",
+  "latest": "3 Kasım 2026: Şirket Temmuz-Eylül 2026 çeyreğini açıkladı (rakamlar ikincil kaynaktan okundu). Hasılat 358,01 crore rupi (bir yıl önce 243,67; +%47), net kâr 47,11 crore rupi (30,23; +%56), hisse başına kâr 4,62 rupi (2,87). Altı ayda net kâr 72,13 crore rupi (44,90). Stoklar altı ayda 196,93 crore rupiden 368,02 crore rupiye çıktı; faaliyet nakit akışı 38,96 crore rupiye indi (bir yıl önce 63,96).",
+  "risks": [
+   "Markalar ana gruba ve lisans verenlere ait; isim hakkı oranı ya da lisans koşulları değişirse kâr doğrudan etkilenir.",
+   "Stoklar altı ayda neredeyse iki katına çıktı (368 crore rupi); satış beklendiği gibi gelmezse indirim ve değer düşüklüğü gerekir.",
+   "Tek bir müşteri hasılatın %10'undan fazlasını oluşturuyor (yıllık rapor; tutar açıklanmıyor).",
+   "Saat isteğe bağlı bir harcamadır; şirket 2021'e kadar sık sık zarar etti.",
+   "Özsermaye çok ince olduğu için PD/DD ve özsermaye kârlılığı rakamları küçük değişikliklerle büyük oynar."
+  ],
+  "watch": [
+   "Stok düzeyi ve faaliyet nakit akışı",
+   "Ana gruba ödenen isim hakkı ve hizmet bedelleri",
+   "Kalan imtiyazlı payların itfası ve temettüsü",
+   "Faaliyet marjı"
+  ],
+  "sources": [
+   {
+    "t": "Timex Group India: 2025-26 yıllık raporu",
+    "te": "Timex Group India: annual report 2025-26",
+    "u": "https://www.timexindia.com/pdf/TIMEX_Annual_Report_2026.pdf"
+   },
+   {
+    "t": "Timex Group India: Ekim-Aralık 2025 çeyreği sonuçları (yönetim kurulu bildirimi, 3 Şub 2026)",
+    "te": "Timex Group India: October-December 2025 quarter results (board meeting outcome, 3 Feb 2026)",
+    "u": "https://www.timexindia.com/wp-content/uploads/2026/02/BM-outcome_One-Pager-Dec-2025.pdf"
+   },
+   {
+    "t": "Timex Group India: imtiyazlı payların itfası ve ara temettü (yönetim kurulu bildirimi, 20 Mar 2026)",
+    "te": "Timex Group India: redemption of preference shares and interim dividend (board meeting outcome, 20 Mar 2026)",
+    "u": "https://www.timexindia.com/wp-content/uploads/2026/03/Board-Meeting-Outcome.pdf"
+   },
+   {
+    "t": "Multibagg: Timex Group India, Eylül 2026 çeyreği sonuç bildirimi özeti (5 Kas 2026)",
+    "te": "Multibagg: Timex Group India, summary of the September 2026 quarter results filing (5 Nov 2026)",
+    "u": "https://www.multibagg.ai/market-pulse/articles/timex-group-india-q2-profit-announcement-cmw2xgkgy00m82mtkgq8wmbqn"
+   },
+   {
+    "t": "Multibagg: Timex Group India, altı aylık nakit akışı ve bilanço kalemleri (5 Kas 2026)",
+    "te": "Multibagg: Timex Group India, half-year cash flow and balance sheet items (5 Nov 2026)",
+    "u": "https://www.multibagg.ai/market-pulse/articles/timex-group-india-cash-flow-announcement-cmw2xir8w00m92mtkj1rrydik"
+   },
+   {
+    "t": "UNI (Business Wire India): Timex Group India basın açıklaması, rekor çeyrek (4 Kas 2026)",
+    "te": "UNI (Business Wire India): Timex Group India press release, record quarter (4 Nov 2026)",
+    "u": "https://www.uniindia.com/business-wire-india/timex-group-india-delivers-its-record-breaking-quarter-with-inr-359-crore-revenue-and-highest-ever-p/235688"
+   },
+   {
+    "t": "Screener: Timex Group India, on yıllık sonuçlar ve ortaklık yapısı",
+    "te": "Screener: Timex Group India, ten-year results and shareholding",
+    "u": "https://www.screener.in/company/500414/"
+   },
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/nse/TIMEX/financials/ratios/"
+   }
+  ],
+  "en": {
+   "one": "A company that makes and sells watches in India under Timex and licensed brands. Sales are growing fast, but the brands belong to the parent and equity is very thin; it did not pass the moat criterion.",
+   "business": "Timex Group India makes watches at its Baddi plant in Himachal Pradesh and sells them in India; Timex, Helix and TMX belong to its own group, while Guess, Gc, Versace, Aston Martin and others are licensed brands. In the year to March 2026 revenue was 79,859 lakh rupees (8.0 billion rupees) and net profit 7,544 lakh rupees (754 million rupees). 98% of sales are in India. The largest channel is dealers and distributors; e-commerce is the fastest growing. The company also provides IT support to group companies.",
+   "moat_text": "The moat is weak; the company did not pass the third wall. The brands it sells are not its own: it pays the parent group a royalty for the Timex name (2,685 lakh rupees in fiscal 2026; 3.4% of revenue) and buys the licensed watches from group companies (purchases of 13,819 lakh rupees). The advantage stays with the brand owners; the Indian company is a distributor and manufacturer. The record of profitability is short: the company made a loss in five of the seven fiscal years from 2015 to 2021 (secondary source). Real return on equity ranged from 16% to 110% over five years; it is 61.2% for the last twelve months. The figure looks high because equity is thin: total equity at 31 March 2026 was 11,128 lakh rupees, of which 3,589 lakh rupees is the equity component of the parent's preference shares. The course of gross margin in the inflation years could not be examined (no margin table was read in the document).",
+   "mgmt": "The stake of the parent, Timex Group Luxury Watches B.V., fell from 74.93% to 51.00% in a year (31 March 2026, annual report). No dividend is paid on ordinary shares; money reaches the parent through preference shares: 2,533 lakh rupees of preference dividends were paid in fiscal 2026 and preference shares of 2,290 lakh rupees were redeemed in March 2026. Preference shares of 6,482 lakh rupees remain; accumulated unpaid dividends are 1,400 lakh rupees. The parent group is also paid a royalty (2,685) and service charges (1,385 lakh rupees). Share-based pay: looked for, not in the sections read. Goodwill is negligible (non-current assets of 1,168 lakh rupees). The gratuity obligation is 1,470 lakh rupees. Contingent liabilities are 280 lakh rupees. Derivative positions: looked for, not in the sections read. The audit opinion is unmodified; a missing audit-trail feature in one accounting software was noted.",
+   "latest": "3 November 2026: The company reported the July-September 2026 quarter (figures read from a secondary source). Revenue was 358.01 crore rupees (243.67 a year earlier; +47%), net profit 47.11 crore rupees (30.23; +56%) and earnings per share 4.62 rupees (2.87). Half-year net profit was 72.13 crore rupees (44.90). Inventories rose from 196.93 crore rupees to 368.02 crore rupees in six months; operating cash flow fell to 38.96 crore rupees (63.96 a year earlier).",
+   "risks": [
+    "The brands belong to the parent group and to licensors; a change in the royalty rate or licence terms would hit profit directly.",
+    "Inventories nearly doubled in six months (368 crore rupees); if sales fall short, discounts and write-downs follow.",
+    "A single customer accounts for more than 10% of revenue (annual report; the amount is not disclosed).",
+    "Watches are discretionary spending; the company often made losses until 2021.",
+    "Because equity is very thin, the P/B and return-on-equity figures swing widely on small changes."
+   ],
+   "watch": [
+    "Inventory level and operating cash flow",
+    "Royalty and service charges paid to the parent group",
+    "Redemption of and dividends on the remaining preference shares",
+    "Operating margin"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-17",
+   "per": "2026-Q2"
+  },
+  "verify": {
+   "tr": "Fark özsermayenin tanımından geliyor. Oran sayfasının PD/DD'si (43,18) toplam özsermayeyi kullanıyor: 73.330 ÷ 43,18 = 1.698 milyon rupi; bu, 30 Eylül 2026 toplam özsermayesiyle (169,81 crore rupi; ikincil kaynak) aynı. Toplam özsermayenin içinde ana ortağın imtiyazlı paylarının özsermaye bileşeni var: 31 Mart 2026'da 3.589 lakh rupi (yıllık rapor). Evrendeki PD/DD (54,711) yaklaşık 1.387 milyon rupi özsermaye ima ediyor; bu, imtiyazlı pay bileşeni çıkarılmış özsermayeye yakın (16.981 − 3.589 = 13.392 lakh rupi; bileşen marttan beri değişmediyse). Adi pay sahibine ait özsermaye bakımından evrendeki rakam daha doğru. Eylül 2026 bilançosu şirketin belgesinden açılamadığı için düzeltme önerilmedi.",
+   "en": "The gap comes from the definition of equity. The ratio page's P/B (43.18) uses total equity: 73,330 / 43.18 = 1,698 million rupees, the same as total equity at 30 September 2026 (169.81 crore rupees; secondary source). Total equity includes the equity component of the parent's preference shares: 3,589 lakh rupees at 31 March 2026 (annual report). The universe P/B (54.711) implies equity of about 1,387 million rupees, close to equity without the preference component (16,981 - 3,589 = 13,392 lakh rupees, if the component is unchanged since March). For ordinary shareholders the universe figure is the more accurate one. No fix is proposed because the September 2026 balance sheet could not be opened from the company's own document."
+  }
+ },
+ "VIESL": {
+  "scores": {
+   "A": 1,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-Q2",
+  "one": "Yol yapım makinesi kiralayan ve ikinci el makine yenileyip satan küçük şirket. Kârdaki sıçramanın büyük bölümü amortisman yöntemindeki değişiklikten geliyor; hendek ölçütünü geçemedi.",
+  "business": "Vision Infra, yol ve inşaat şirketlerine asfalt serici, kazıyıcı, kırıcı ve benzeri makineleri kiralar; ikinci el makineleri yenileyip satar. Mart 2026'da biten yılda hasılat 60.700 lakh rupi (6,1 milyar rupi): 293,9 crore rupisi kiralamadan, 313,1 crore rupisi yenileme ve ticaretten. Ticaret satışının %80'inden fazlası yurt dışına. Net kâr 6.601 lakh rupi. Filo 30 Eylül 2026'da 571 makine. Şirket 2024-25'te NSE'nin KOBİ pazarında halka açıldı; sonuçlarını altı ayda bir açıklar.",
+  "moat_text": "Hendek zayıf; şirket 3. suru geçemedi. Makine kiralama sermayeyle kurulur: makineyi alan herkes aynı işi yapabilir, iş sözleşmeyle ve fiyatla alınır. İkinci el makine ticareti alım satım işidir. Üstünlüğü gösteren kalıcı bir rakam yok: FAVÖK marjı 2026 mali yılında %27,6 (bir yıl önce %28,7), Nisan-Eylül 2026'da hesapla yaklaşık %25,6. Reel özsermaye kârlılığı beş yılda %15,6 ile %37,4 arasında; son 12 ayda %27,1. Ama son okumalar amortisman yöntemindeki değişiklikle yükseldi (aşağıda) ve iş borçla büyüyor: 31 Mart 2026'da finansal borç 37.740 lakh rupi, özsermaye (varant avansı hariç) 22.915 lakh rupi. Serbest nakit akışı eksi: 2026 mali yılında faaliyet nakdi 17.744, makine yatırımı 26.606 lakh rupi.",
+  "mgmt": "Kurucu Gandhi ailesi payların %69,70'ini tutuyor (Eylül 2026, ikincil kaynak). Şirket 1 Ekim 2025'te amortisman yöntemini azalan bakiyeden doğrusal yönteme çevirdi. Yıllık rapora göre bu, 2026 mali yılında amortismanı 2.766 lakh rupi azalttı ve net kârı yaklaşık 2.078 lakh rupi artırdı; yani 6.601 lakh rupilik kârın yaklaşık üçte biri bu değişiklikten geldi. Yöntem ileriye dönük uygulandı; önceki dönemler yeniden düzenlenmedi. İlişkili taraf satışları büyük: Equipment HUB FZC'ye 2026 mali yılında 7.280 lakh rupi satış (hasılatın %12'si), yıl sonu alacağı 3.003 lakh rupi. Şirket 2026 mali yılında tahsisli olarak, tanesi 250 rupiden 5.363.336 varant çıkardı (bedelin %25'i alındı; 15 Temmuz 2027'ye kadar paya çevrilebilir): pay sayısı 24.642.400'den beşte bir kadar artabilir. Temettü: yönetim kurulu raporu temettü önermiyor, genel kurul çağrısı pay başına 0,50 rupiden söz ediyor; belgede çelişki var. Denetçi görüşü olumlu; bankaya bildirilen stok ile defter arasında Mart 2026 çeyreğinde 4.764 lakh rupi fark not edildi. Hisse bazlı ücret, şerefiye, emeklilik açığı: bakıldı, okunan bölümlerde yok. Koşullu yükümlülük çok küçük (0,94 lakh rupi).",
+  "latest": "5 Kasım 2026: Yönetim kurulu Nisan-Eylül 2026 sonuçlarını onayladı (rakamlar şirketin basın açıklamasını aktaran ikincil kaynaklardan). Toplam gelir 398,92 crore rupi (bir yıl önce 287,83; +%38,6), FAVÖK 101,99 crore rupi (+%30,4), net kâr 43,45 crore rupi (21,61; +%101). Bir yıl önceki dönem eski amortisman yöntemiyledir; iki dönem aynı yöntemle karşılaştırılamaz. Yönetim 2027 mali yılında hasılatta %30 ve üstü büyüme hedefliyor; marjda dış maliyet baskısından söz ediyor.",
+  "risks": [
+   "Kârdaki artışın büyük bölümü amortisman yöntemindeki değişiklikten geliyor; FAVÖK %30 büyürken net kâr iki katına çıktı.",
+   "İş borçla büyüyor ve serbest nakit akışı eksi; yol yapım yatırımları yavaşlarsa makineler boşta kalır, borç kalır.",
+   "Hasılatın %12'si ilişkili bir şirkete satıştan geliyor; ticaret satışının çoğu yurt dışına.",
+   "Çıkarılan varantlar paya çevrilirse pay sayısı beşte bir kadar artar.",
+   "Şirket küçük ve KOBİ pazarında; altı ayda bir sonuç açıklıyor, bilgi seyrek."
+  ],
+  "watch": [
+   "Amortisman öncesi kâr (FAVÖK) marjı",
+   "Borç ve makine yatırımı",
+   "Equipment HUB FZC'ye satışlar ve alacak",
+   "Varantların paya çevrilmesi"
+  ],
+  "sources": [
+   {
+    "t": "Vision Infra Equipment Solutions: 2025-26 yıllık raporu (NSE arşivi, 27 Ağu 2026)",
+    "te": "Vision Infra Equipment Solutions: annual report 2025-26 (NSE archive, 27 Aug 2026)",
+    "u": "https://archives.nseindia.com/annual_reports/SME_AR_30698_VIESL_2025_2026_A_19170957_27082026130423.pdf"
+   },
+   {
+    "t": "Equity Bulls: Vision Infra 2027 mali yılı ilk yarı sonuçlarını açıkladı (Kas 2026)",
+    "te": "Equity Bulls: Vision Infra announces H1 FY27 results (Nov 2026)",
+    "u": "https://www.equitybulls.com/news/378702/vision-infra-equipment-solutions-ltd-announces-h1fy27-results"
+   },
+   {
+    "t": "Multibagg: VIESL ilk yarı kârı amortisman değişikliğinden sonra %101 arttı (7 Kas 2026)",
+    "te": "Multibagg: VIESL H1 FY27 profit rises 101% after depreciation change (7 Nov 2026)",
+    "u": "https://www.multibagg.ai/market-pulse/articles/viesl-h1-fy27-profit-growth-ppt-cmw5k3yof003r2bnx4n4zjtb7"
+   },
+   {
+    "t": "Screener: Vision Infra Equipment Solutions, bilanço ve ortaklık yapısı",
+    "te": "Screener: Vision Infra Equipment Solutions, balance sheet and shareholding",
+    "u": "https://www.screener.in/company/VIESL/consolidated/"
+   },
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/nse/VIESL/financials/ratios/"
+   }
+  ],
+  "en": {
+   "one": "A small company that rents out road-building machines and refurbishes and sells used ones. Much of the jump in profit comes from a change in depreciation method; it did not pass the moat criterion.",
+   "business": "Vision Infra rents pavers, milling machines, crushers and similar equipment to road and construction companies, and refurbishes and sells used machines. In the year to March 2026 revenue was 60,700 lakh rupees (6.1 billion rupees): 293.9 crore rupees from rental and 313.1 crore rupees from refurbishment and trading. More than 80% of trading sales go abroad. Net profit was 6,601 lakh rupees. The fleet was 571 machines at 30 September 2026. The company listed on the NSE's SME platform in 2024-25 and reports results every six months.",
+   "moat_text": "The moat is weak; the company did not pass the third wall. Equipment rental is built with capital: anyone who buys the machines can do the same work, and jobs are won by contract and on price. Trading used machines is a buy-and-sell business. No lasting figure shows an advantage: the EBITDA margin was 27.6% in fiscal 2026 (28.7% a year earlier) and, by calculation, about 25.6% in April-September 2026. Real return on equity ranged from 15.6% to 37.4% over five years; it is 27.1% for the last twelve months. But the latest readings were lifted by the change in depreciation method (below), and the business grows on debt: at 31 March 2026 financial debt was 37,740 lakh rupees against equity (excluding warrant money) of 22,915 lakh rupees. Free cash flow is negative: in fiscal 2026 operating cash was 17,744 and spending on machines 26,606 lakh rupees.",
+   "mgmt": "The founding Gandhi family holds 69.70% of the shares (September 2026, secondary source). On 1 October 2025 the company changed its depreciation method from written-down value to straight line. According to the annual report this cut depreciation by 2,766 lakh rupees in fiscal 2026 and raised net profit by about 2,078 lakh rupees; about a third of the 6,601 lakh rupee profit came from this change. The method was applied prospectively; earlier periods were not restated. Related-party sales are large: sales to Equipment HUB FZC were 7,280 lakh rupees in fiscal 2026 (12% of revenue), with a year-end receivable of 3,003 lakh rupees. In fiscal 2026 the company issued 5,363,336 warrants on a preferential basis at 250 rupees each (25% of the price received; convertible into shares until 15 July 2027): the share count could rise by about a fifth from 24,642,400. Dividend: the directors' report recommends none, while the AGM notice mentions 0.50 rupees per share; the document contradicts itself. The audit opinion is unmodified; a difference of 4,764 lakh rupees between stock reported to banks and the books was noted for the March 2026 quarter. Share-based pay, goodwill, pension deficit: looked for, not in the sections read. Contingent liabilities are tiny (0.94 lakh rupees).",
+   "latest": "5 November 2026: The board approved the April-September 2026 results (figures from secondary sources relaying the company's release). Total income was 398.92 crore rupees (287.83 a year earlier; +38.6%), EBITDA 101.99 crore rupees (+30.4%) and net profit 43.45 crore rupees (21.61; +101%). The year-earlier period used the old depreciation method; the two periods are not comparable on the same basis. Management targets revenue growth of 30% or more in fiscal 2027 and mentions outside cost pressure on margins.",
+   "risks": [
+    "Much of the rise in profit comes from the change in depreciation method; EBITDA grew 30% while net profit doubled.",
+    "The business grows on debt and free cash flow is negative; if road-building investment slows, machines sit idle and the debt remains.",
+    "12% of revenue comes from sales to a related company; most trading sales go abroad.",
+    "If the issued warrants are converted, the share count rises by about a fifth.",
+    "The company is small and listed on the SME platform; it reports every six months, so information is sparse."
+   ],
+   "watch": [
+    "Margin before depreciation (EBITDA margin)",
+    "Debt and spending on machines",
+    "Sales to and receivables from Equipment HUB FZC",
+    "Conversion of warrants into shares"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-17",
+   "per": "2026-Q2"
+  },
+  "verify": {
+   "tr": "Evrendeki F/K (12,19) fiyatın Mart 2026 yılının hisse başına kârına bölümüdür: 326,5 ÷ 26,79 = 12,19 (26,79 rupi: yıllık rapor). Şirket KOBİ pazarında olduğu için altı ayda bir sonuç açıklar; kaynak Nisan-Eylül 2026 yarıyılını henüz işlememiş. Oran sayfası (9,21) Eylül 2026'da biten 12 ayı kullanıyor: 6.601 − 2.161 + 4.345 = 8.785 lakh rupi net kâr (yarıyıl rakamları ikincil kaynaktan); 8.046 ÷ 9,21 = 874 milyon rupi ile tutuyor. Yani oran sayfası günceldir, evrendeki F/K bir yarıyıl geridedir ve kârı düşük gösterir. İki not: (1) son 12 ay kârı 1 Ekim 2025'teki amortisman yöntemi değişikliğiyle yükselmiştir (2026 mali yılında net kâra etkisi yaklaşık 2.078 lakh rupi; yıllık rapor); (2) evrendeki piyasa değeri 26,25 milyon pay ima ediyor (8.570,6 ÷ 326,5), yıllık raporda 31 Mart 2026'da 24.642.400 pay var; aradaki fark varantların bir bölümünün paya çevrilmesi olabilir, belgeyle doğrulanamadı. Düzeltme önerilmedi: Eylül 2026 sonuç bildirimi açılamadı.",
+   "en": "The universe P/E (12.19) is the price divided by earnings per share for the year to March 2026: 326.5 / 26.79 = 12.19 (26.79 rupees: annual report). Being on the SME platform, the company reports every six months; the source has not yet processed the April-September 2026 half-year. The ratio page (9.21) uses the twelve months to September 2026: 6,601 - 2,161 + 4,345 = 8,785 lakh rupees of net profit (half-year figures from a secondary source), which matches 8,046 / 9.21 = 874 million rupees. So the ratio page is current, and the universe P/E is one half-year behind and understates profit. Two notes: (1) trailing profit is lifted by the change in depreciation method on 1 October 2025 (effect on fiscal 2026 net profit about 2,078 lakh rupees; annual report); (2) the universe market value implies 26.25 million shares (8,570.6 / 326.5), while the annual report shows 24,642,400 shares at 31 March 2026; the gap may be partial conversion of warrants, which could not be verified from a document. No fix is proposed: the September 2026 results filing could not be opened."
+  }
  }
 }

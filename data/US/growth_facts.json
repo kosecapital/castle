@@ -1188,5 +1188,39 @@
   "note_tr": "Temmuz-Eylül 2026 mevsim dışı çeyrektir ve her yıl zararla kapanır; hisse başına zarar 1,26 dolardan 1,53 dolara büyüdü (düzeltilmiş 1,20'den 1,40'a). Zarar çeyreğinde yüzde değişim anlam taşımadığı için ölçü olarak alınmadı.",
   "note_en": "July-September 2026 is the off-season quarter and ends in a loss every year; the loss per share widened from 1.26 to 1.53 dollars (adjusted: from 1.20 to 1.40). A percent change on a loss quarter is not meaningful, so it was not used as a measure.",
   "notes": "All from SEC 8-K exhibits (primary). FY2026 (year to 30 Jun 2026): diluted EPS from continuing operations 5.69 vs 4.42 (+28.7%, my arithmetic); adjusted diluted EPS 5.31 vs 4.66 (+13.9%); net income cont. ops 736.3m vs 609.5m (+20.8%). The 84.1m one-time non-cash tax benefit (IRS examination) fell in Q3 FY26 (Jan-Mar 2026). ytd uses the last fiscal year because the only FY2027 period so far is the seasonal loss quarter. Q1 FY27: loss per share -1.53 vs -1.26, adjusted -1.40 vs -1.20, net loss cont. ops -188.1m vs -165.4m (loss 13.8% larger; per share 21% larger because of fewer shares); revenue +10.2%. quarter.pct left null (sign makes a percent meaningless); the main session may prefer to drop the quarter record entirely. Guidance: adjusted EPS 6.04-6.24 (midpoint 6.14) vs FY26 adjusted 5.31 = +15.6% (my arithmetic); the Motley Fool transcript shows one mention of '6.14 to 6.24' which is a transcription slip, the 8-K says 6.04-6.24. Guidance assumes about 23% tax rate (FY26 was about 14% because of the benefit). Nothing departed; no permanent cause found. Dividend yield is in the source (3.61), so dividend null; declared quarterly dividend 0.46. CAUTION for the formula: the historic EPS growth (11.11) is largely buyback-driven (share count -4.6% to -8.5% a year per the source), and 'sustainable growth' from ROE is meaningless here because equity is near zero."
+ },
+ "MLI": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026 (26 Eylül 2026'da biten dokuz ay)",
+   "en": "January-September 2026 (nine months ended 26 September 2026)",
+   "pct": 17.2,
+   "cur_val": "3.21",
+   "prev_val": "2.74",
+   "unit": "dolar / dollars",
+   "date": "2026-10-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000089439/000008943926000038/exhibit991q32026earningsre.htm",
+   "primary": true
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 6.4,
+   "cur_val": "1.00",
+   "prev_val": "0.94",
+   "unit": "dolar / dollars",
+   "date": "2026-10-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000089439/000008943926000038/exhibit991q32026earningsre.htm",
+   "primary": true
+  },
+  "guidance": null,
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Diluted EPS, split-adjusted, as printed in the Q3 2026 release (8-K Exhibit 99.1 on sec.gov, opened). Percentages are my arithmetic from the printed EPS. Net income attributable: 9M 709,873 vs 611,479 thousand (+16.1%); Q3 221,200 vs 208,123 (+6.3%). Both periods carry one-offs, the company gives no adjusted EPS: 9M 2026 has a 41.4M pre-tax gain on sale of business (Sherwood Valve, Q1) and a 4.4M insurance gain; 9M 2025 had a 41.1M insurance gain and 26.7M gains on asset disposals. No earnings guidance is given. Sherwood Valve (Industrial Metals) was sold on 7 Jan 2026 for about 57.0M; its profit contribution is not disclosed, so 'departed' is left null. Q3 operating income rose only 2.0% (281.6M vs 276.1M) on 31.6% higher sales: copper pass-through inflates sales."
  }
 }

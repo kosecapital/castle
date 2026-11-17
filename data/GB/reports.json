@@ -879,5 +879,115 @@
    "date": "2026-11-14",
    "per": "2026-H1"
   }
+ },
+ "ULVR": {
+  "scores": {
+   "A": 2,
+   "B": 3,
+   "C": 2,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "geniş",
+  "per": "2026-H1",
+  "one": "Dove, Vaseline, Knorr gibi markalarla dünya çapında bir tüketim ürünleri şirketi; hendeği geniş, kazancı istikrarlı, ama fiyatı ölçütü geçemiyor.",
+  "business": "Unilever kişisel bakım, güzellik, ev bakımı ve gıda ürünleri satar; cironun %60'ı gelişen ülkelerden gelir. 2025'te ciro 50,5 milyar avro, faaliyet kârı 9,0 milyar avroydu. Dört kol birbirine yakın büyüklüktedir: Güzellik ve Sağlık 12,8, Kişisel Bakım 13,2, Ev Bakımı 11,6, Gıda 12,9 milyar avro. Dondurma işi 6 Aralık 2025'te ayrıldı; Gıda kolunun McCormick ile birleştirilmesi Mart 2026'da açıklandı.",
+  "moat_text": "Hendek geniş: dünya çapında markalar ve dağıtım ağı. Kanıt marjlarda: brüt marj 2023'te 200 baz puan artarak %42,2'ye çıktı (o yıl fiyat artışı %6,8 idi), 2025'te %46,9 oldu; marka ve pazarlama harcaması cironun %16,1'i. Reel özsermaye kârlılığı beş yılda %24,8 ile %28,5 arasında kaldı. Zayıf yanı: gelişmiş ülkelerde satış 2026'nın üçüncü çeyreğinde %0,9 geriledi, market markaları rakiptir; brüt marj 2026'nın ilk yarısında emtia maliyetiyle 70 baz puan düştü.",
+  "mgmt": "Şirkette hâkim ortak yok; payları geniş tabana yayılmıştır (büyük ortak listesine bakıldı, okunan belgelerde yok). Genel müdür Fernando Fernandez, mali işler yöneticisi Srinivas Phatak. 2025'te 4,5 milyar avro temettü ödendi, 1,5 milyar avroluk pay geri alındı; süren faaliyetlerin ana ortaklık kârı 5,7 milyar avroydu, yani dağıtılan tutar kârı aştı. 2026-2029 için 6 milyar avroluk geri alım öngörülüyor. Geri alımlar bizim temkinli değerimizin üstündeki fiyatlardan yapılıyor. Yeniden yapılanma gideri her yıl yazılıyor (2022: 777, 2023: 499, 2024: 710, 2025: 599 milyon avro); bu yüzden olağan gider sayılır ve şirketin \"temel\" kârına güvenilmez. Hisse bazlı ücret 2025'te 255 milyon avroydu (kârın yaklaşık %4,5'i). Şerefiye 18,5 milyar avro ile ana ortaklık özsermayesinin (16,2 milyar avro) üstünde. 2025'te Dr. Squatch 1,2 milyar avroya alındı (kişisel bakım; ana iş). Net borç 26,0 milyar avro.",
+  "latest": "28 Ekim 2026: Üçüncü çeyrekte ciro %6,7 artışla 13,3 milyar avro oldu; temel satış büyümesi %5,2 (hacim %2,9, fiyat %2,3). Gelişen ülkeler %9,5 büyüdü, gelişmiş ülkeler %0,9 geriledi. Şirket 2026 hacim büyümesi beklentisini en az %3'e çıkardı. Çeyrek temettüsü hisse başına 0,4664 avro. İlk yarıda (28 Temmuz 2026) süren faaliyetlerin net kârı 3.291 milyon avro (geçen yıl 3.411), hisse başına kârı 1,38 avro (geçen yıl 1,42) idi; etkin vergi oranı dondurma ayrılığının etkisiyle %30,3'e çıktı.",
+  "risks": [
+   "Gıda kolu (2025 cirosu 10,7 milyar avro, faaliyet kârı 2,4 milyar avro) en geç 2027 ortasında McCormick ile birleşerek ayrılacak; kalan şirketin kârı bugünkünden düşük olacak ve geçmiş rakamlarla karşılaştırılamayacak.",
+   "Kaynağın 2025 kârında dondurma ayrılığından doğan 3,4 milyar avroluk tek seferlik kazanç var; beş yıllık oran sayfasının F/K'sı ve dağıtım oranı bu yüzden olduğundan düşük görünüyor.",
+   "Net borç 26,0 milyar avro, net borç/FAVÖK 2,3; şerefiye ve maddi olmayan varlıklar özsermayenin iki katını aşıyor.",
+   "Emtia maliyetleri yükseliyor; brüt marj 2026'nın ilk yarısında 70 baz puan düştü, gelişmiş ülkelerde hacim geriliyor.",
+   "Cironun %60'ı gelişen ülkelerden gelir; kur ve yüksek enflasyon kârı etkiler (ilk yarıda 85 milyon avro net parasal kayıp). Enflasyon düzeltmesi İngiltere enflasyonuyla yapılmıştır."
+  ],
+  "watch": [
+   "Hacim büyümesi ve brüt marj",
+   "McCormick işleminin onayları ve kapanış tarihi",
+   "Gıda ayrıldıktan sonraki kâr ve temettü",
+   "Net borç/FAVÖK ve yeniden yapılanma giderleri"
+  ],
+  "sources": [
+   {
+    "t": "Unilever: 2026 ilk yarı sonuçları, tam duyuru (28 Temmuz 2026)",
+    "te": "Unilever: 2026 first half results, full announcement (28 July 2026)",
+    "u": "https://www.unilever.com/files/unilever-q2-2026-results-full-announcement.pdf"
+   },
+   {
+    "t": "Unilever: 2025 yıl sonu sonuçları, tam duyuru (12 Şubat 2026)",
+    "te": "Unilever: 2025 full year results, full announcement (12 February 2026)",
+    "u": "https://www.unilever.com/files/ir-q4-2025-full-announcement.pdf"
+   },
+   {
+    "t": "Unilever: 2026 üçüncü çeyrek ticari açıklaması (28 Ekim 2026)",
+    "te": "Unilever: third quarter 2026 trading statement (28 October 2026)",
+    "u": "https://www.unilever.com/news/press-and-media/press-releases/2026/continued-strong-performance-in-the-third-quarter/"
+   },
+   {
+    "t": "Unilever RNS: Unilever Foods ve McCormick anlaşması (31 Mart 2026)",
+    "te": "Unilever RNS: Unilever Foods and McCormick agreement (31 March 2026)",
+    "u": "https://www.ticker.app/lse/ULVR/rns/2026-03-31/Unilever-Foods-and-McCormick-Agreement/8876Y"
+   },
+   {
+    "t": "Unilever: 2023 yıl sonu sonuçları, SEC 6-K (8 Şubat 2024)",
+    "te": "Unilever: 2023 full year results, SEC Form 6-K (8 February 2024)",
+    "u": "https://sec.gov/Archives/edgar/data/217410/000165495424001469/a4104c.htm"
+   },
+   {
+    "t": "AJ Bell: Unilever hacim beklentisini yükseltti (28 Ekim 2026)",
+    "te": "AJ Bell: Unilever upgrades expected volume growth on strong third quarter (28 October 2026)",
+    "u": "https://www.ajbell.co.uk/news/articles/unilever-upgrades-expected-volume-growth-strong-third-quarter"
+   },
+   {
+    "t": "interactive investor: Unilever'in üçüncü çeyrek büyümesini taşıyan bölge (28 Ekim 2026)",
+    "te": "interactive investor: The region powering Unilever's Q3 growth (28 October 2026)",
+    "u": "https://www.ii.co.uk/analysis-commentary/region-powering-unilevers-q3-growth-ii540701"
+   }
+  ],
+  "en": {
+   "one": "A global consumer goods company with brands such as Dove, Vaseline and Knorr; the moat is wide and earnings are steady, but the price does not pass the test.",
+   "business": "Unilever sells personal care, beauty, home care and food products; 60% of turnover comes from emerging markets. In 2025 turnover was 50.5 billion euros and operating profit 9.0 billion euros. The four groups are close in size: Beauty & Wellbeing 12.8, Personal Care 13.2, Home Care 11.6, Foods 12.9 billion euros. The ice cream business was demerged on 6 December 2025; the combination of Foods with McCormick was announced in March 2026.",
+   "moat_text": "The moat is wide: global brands and a distribution network. The evidence is in the margins: gross margin rose 200 basis points to 42.2% in 2023 (price growth was 6.8% that year) and reached 46.9% in 2025; brand and marketing spending is 16.1% of turnover. Real return on equity stayed between 24.8% and 28.5% over five years. The weak side: sales in developed markets fell 0.9% in the third quarter of 2026 and private labels compete; gross margin fell 70 basis points in the first half of 2026 on commodity costs.",
+   "mgmt": "There is no controlling shareholder; the shares are widely held (a list of major holders was looked for, not in the documents read). Fernando Fernandez is chief executive and Srinivas Phatak chief financial officer. In 2025 the company paid 4.5 billion euros in dividends and bought back 1.5 billion euros of shares; profit from continuing operations attributable to shareholders was 5.7 billion euros, so the payout exceeded profit. Buybacks of 6 billion euros are planned for 2026-2029. The buybacks are made at prices above our cautious value. Restructuring costs are booked every year (2022: 777, 2023: 499, 2024: 710, 2025: 599 million euros); they therefore count as ordinary costs and the company's \"underlying\" profit is not relied on. Share-based pay was 255 million euros in 2025 (about 4.5% of profit). Goodwill of 18.5 billion euros exceeds shareholders' equity (16.2 billion euros). Dr. Squatch was bought for 1.2 billion euros in 2025 (personal care; core business). Net debt is 26.0 billion euros.",
+   "latest": "28 October 2026: Third-quarter turnover rose 6.7% to 13.3 billion euros; underlying sales growth was 5.2% (volume 2.9%, price 2.3%). Emerging markets grew 9.5%, developed markets fell 0.9%. The company raised its 2026 volume growth outlook to at least 3%. The quarterly dividend is 0.4664 euros a share. In the first half (28 July 2026) net profit from continuing operations was 3,291 million euros (3,411 a year ago) and earnings per share 1.38 euros (1.42 a year ago); the effective tax rate rose to 30.3% because of the ice cream separation.",
+   "risks": [
+    "The Foods group (2025 turnover 10.7 billion euros, operating profit 2.4 billion euros) will leave through the combination with McCormick by mid-2027 at the latest; the remaining company's profit will be lower than today's and not comparable with past figures.",
+    "The source's 2025 profit includes a one-off gain of 3.4 billion euros from the ice cream demerger; that makes the P/E and payout ratio on the five-year ratio page look lower than they are.",
+    "Net debt is 26.0 billion euros, net debt to EBITDA 2.3; goodwill and intangible assets are more than twice shareholders' equity.",
+    "Commodity costs are rising; gross margin fell 70 basis points in the first half of 2026 and volumes are falling in developed markets.",
+    "60% of turnover comes from emerging markets; currencies and high inflation affect profit (a net monetary loss of 85 million euros in the first half). The inflation adjustment uses UK inflation."
+   ],
+   "watch": [
+    "Volume growth and gross margin",
+    "Approvals and closing date of the McCormick transaction",
+    "Profit and dividend after Foods leaves",
+    "Net debt to EBITDA and restructuring costs"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-17",
+   "per": "2026-H1"
+  },
+  "verify": {
+   "tr": "Evrendeki F/K (22,36) süren faaliyetlerin kârına göredir ve belgeyle tutuyor; oran sayfasındaki 13,69 toplam kâra göredir ve tek seferlik kazanç içerir. Unilever dondurma işini 6 Aralık 2025'te ayırdı ve 2025 kârına durdurulan faaliyetlerden 3.373 milyon avroluk ayrılma kazancı yazdı; 2026'nın ilk yarısında durdurulan faaliyetlerde 299 milyon avroluk satış kazancı daha var. Son 12 ayda (Temmuz 2025 - Haziran 2026) seyreltilmiş hisse başına kâr süren faaliyetlerde 2,59 + 1,38 − 1,42 = 2,55 avro, toplamda 4,32 + 1,52 − 1,60 = 4,24 avro. İkisinin oranı (1,66) iki F/K arasındaki orana (22,36 ÷ 13,69 = 1,63) yakın. Aralık 2025'teki pay birleştirmesi (her 9 paya 8 pay) farkın nedeni değil: şirket 2025 rakamlarını buna göre yeniden düzenledi. Evrendeki rakam doğru; düzeltme gerekmiyor. Ama oran sayfasının 2025 F/K'sı (12,8) ve dağıtım oranı (%47) bu kazancı içerir; büyüme ve alıkonan kâr hesapları bundan etkilenir.",
+   "en": "The universe P/E (22.36) is based on profit from continuing operations and agrees with the documents; the ratio page's 13.69 is based on total profit and includes a one-off gain. Unilever demerged its ice cream business on 6 December 2025 and booked a demerger gain of 3,373 million euros in discontinued operations in 2025; there is a further 299 million euro disposal gain in discontinued operations in the first half of 2026. For the last 12 months (July 2025 - June 2026) diluted earnings per share are 2.59 + 1.38 − 1.42 = 2.55 euros from continuing operations and 4.32 + 1.52 − 1.60 = 4.24 euros in total. Their ratio (1.66) is close to the ratio of the two P/Es (22.36 ÷ 13.69 = 1.63). The share consolidation of December 2025 (8 new shares for every 9) is not the cause: the company restated its 2025 figures for it. The universe figure is right; no fix is needed. But the ratio page's 2025 P/E (12.8) and payout ratio (47%) include this gain; the growth and retained-earnings calculations are affected by it."
+  },
+  "earn": {
+   "k": 1.0,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı.",
+    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are."
+   },
+   "per": "2026-H1"
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %−0,6 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Haziran 2026 (süren faaliyetler, seyreltilmiş) %−2,5. Formül zaten kârın küçüleceğini varsayıyor; indirilecek bir şey yok.",
+    "en": "The formula gave growth of −0.6% a year. Latest figures (earnings per share, year on year): January-June 2026 (continuing operations, diluted) −2.5%. The formula already assumes shrinking profit; there is nothing to lower."
+   },
+   "per": "2026-H1"
+  }
  }
 }

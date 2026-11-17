@@ -180,5 +180,36 @@
   "note_tr": null,
   "note_en": null,
   "notes": "Read in the full text of the 6 Nov 2026 RNS results report (PDF copy hosted on pdf.dfcfw.com, not the company's own server; the main session may want to re-open it on tbcbankgroup.com). Figures are in GEL, not GBP: the pct values are lari growth, while the site deflates with UK CPI. Basic EPS: 9M 20.78 vs 18.33 (+13.4%), 3Q 7.28 vs 6.48 (+12.3%). Parent net profit: 9M 1,142.5m vs 1,016.9m (+12.3%), 3Q 400.7m vs 359.5m (+11.5%). No profit/EPS guidance: 2026-28 targets are loan growth 15%+, ROE 23%+, payout 25-45% (not usable as guidance); a Quartr summary of the Feb 2026 Strategy Day mentions an aim to double net profit to over 1 billion dollars by 2030 (secondary, long-dated, not used). No adjusted growth given by the company; the 9M 2025 base included a non-recurring pre-tax impairment charge of GEL 24.6m in Uzbekistan (which flatters 2026 growth slightly, about 2% of 9M 2025 profit). Nothing departed; Uzbekistan profit is falling (9M 57.3m vs 95.0m, -39.7%) after central-bank caps on microloans/cards/car loans, but it is about 5% of group profit and the group total still grows. Not judged permanent. Dividend yield exists at the source (4.71%), so dividend left null; declared 2026 quarterly dividends are GEL 1.75 each (5.25 for 9M)."
+ },
+ "ULVR": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Ocak-Haziran 2026 (süren faaliyetler, seyreltilmiş)",
+   "en": "January-June 2026 (continuing operations, diluted)",
+   "pct": -2.5,
+   "cur_val": "1.38",
+   "prev_val": "1.42",
+   "unit": "avro / euros",
+   "date": "2026-07-28",
+   "url": "https://www.unilever.com/files/unilever-q2-2026-results-full-announcement.pdf",
+   "primary": true
+  },
+  "quarter": null,
+  "guidance": null,
+  "adjusted": null,
+  "departed": {
+   "tr": "Dondurma işi 6 Aralık 2025'te ayrıldı (The Magnum Ice Cream Company); geçmiş yılların kârında o da var. Gıda kolunun büyük bölümü McCormick ile birleşerek en geç 2027 ortasında ayrılacak (2025 cirosu 10,7 milyar avro, faaliyet kârı 2,4 milyar avro). Şirket, kalan işin kâr büyümesini açıklamıyor.",
+   "en": "The ice cream business was demerged on 6 December 2025 (The Magnum Ice Cream Company); it is part of past years' profit. Most of the Foods group will leave by mid-2027 at the latest through the combination with McCormick (2025 turnover 10.7 billion euros, operating profit 2.4 billion euros). The company does not disclose profit growth for the remaining business.",
+   "remaining_pct": null,
+   "basis_tr": "kalan işin kâr büyümesi belgede yok",
+   "basis_en": "profit growth of the remaining business is not in the documents",
+   "url": "https://www.ticker.app/lse/ULVR/rns/2026-03-31/Unilever-Foods-and-McCormick-Agreement/8876Y"
+  },
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "H1 2026 diluted EPS from continuing operations 1.38 vs 1.42 euros; the -2.5% is printed by the company (2025 restated for the ice cream demerger and for the 8-for-9 share consolidation of December 2025). Total diluted EPS 1.52 vs 1.60 (-4.9%); net profit from continuing operations attributable to shareholders 3,024 vs 3,125. The fall is driven by tax (effective rate 30.3% vs 26.3%, 'adverse impacts from the 2025 Ice Cream separation'); profit before tax rose 1.8%. Changes are in euros; the dataset is in pounds. Q3 2026 is a trading statement with no profit figure, so 'quarter' is null. No EPS or profit guidance (outlook is sales growth 4-6%, volume at least 3%, 'modest improvement' in underlying operating margin vs 20.0%). ADJUSTED deliberately left null: the company's underlying EPS is 1.61 vs 1.57 (+2.4%), but it excludes restructuring costs that recur every year (777 / 499 / 710 / 599 million euros in 2022-2025; 131 in H1 2026), which CLAUDE.md says not to rely on; main session may decide otherwise. 'departed' has remaining_pct null - check the script accepts that (if not, set departed to null and keep the text in notes). FY2025 continuing diluted EPS was 2.59 vs 2.44 (+6.1%)."
  }
 }
