@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-16T23:19:26Z",
+ "fetched": "2026-11-17T23:25:44Z",
  "cur": "EUR",
  "pcur": "EUR",
  "years": [
@@ -9,7 +9,7 @@
   "2024",
   "2025"
  ],
- "fx": 0.9089,
+ "fx": 0.9093,
  "mcapMin": 50,
  "cpi_cur": 3.7,
  "cpi_cur_src": "TradingView ECONOMICS:NLIRYY (son açıklanan yıllık TÜFE)",
@@ -28,6 +28,6 @@
   "2025": "Dünya Bankası FP.CPI.TOTL.ZG (yıllık ortalama)"
  },
  "cpi_errors": [
-  "Dünya Bankası: JSONDecodeError Expecting value: line 1 column 1 (char 0)"
+  "Dünya Bankası: ReadTimeout HTTPSConnectionPool(host='api.worldbank.org', port=443): Read timed out. (read t"
  ]
 }

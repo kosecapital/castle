@@ -1,31 +1,31 @@
 {
  "cc": "SE",
- "fetched": "2026-11-16T23:19:54Z",
+ "fetched": "2026-11-17T23:27:20Z",
  "errors": [],
  "pb_fix": {
   "paths": {
    "cur": {
-    "n": 706,
-    "med": 1.0038,
-    "within10": 97.0,
+    "n": 705,
+    "med": 1.01,
+    "within10": 96.2,
     "ok": true
    },
    "bvc": {
-    "n": 705,
+    "n": 704,
     "med": 1.0,
     "within10": 100.0,
     "ok": true
    },
    "bvq": {
-    "n": 705,
+    "n": 704,
     "med": 1.0,
     "within10": 100.0,
     "ok": true
    },
    "eq": {
-    "n": 705,
-    "med": 1.0022,
-    "within10": 86.1,
+    "n": 704,
+    "med": 1.008,
+    "within10": 86.2,
     "ok": true
    },
    "bvh": {
@@ -35,20 +35,20 @@
     "ok": false
    },
    "bvy": {
-    "n": 694,
-    "med": 1.0275,
-    "within10": 48.7,
+    "n": 693,
+    "med": 1.0268,
+    "within10": 48.6,
     "ok": true
    },
    "eqy": {
-    "n": 695,
-    "med": 1.0467,
-    "within10": 44.3,
+    "n": 694,
+    "med": 1.0476,
+    "within10": 42.4,
     "ok": true
    }
   },
   "counts": {
-   "cur": 9,
+   "cur": 10,
    "eq": 1,
    "bvy": 2
   },
@@ -74,22 +74,27 @@
   "fixed_top": [
    [
     "SEHED.B",
-    1.667,
+    1.604,
     "cur"
    ],
    [
     "ONCO",
-    27.064,
+    27.08,
+    "cur"
+   ],
+   [
+    "CNCJO_B",
+    0.646,
     "cur"
    ],
    [
     "OBDU.B",
-    7.767,
+    6.618,
     "cur"
    ],
    [
     "LINKAB",
-    1.518,
+    1.543,
     "bvy"
    ],
    [
@@ -99,38 +104,38 @@
    ],
    [
     "ONCOZ",
-    152.634,
+    150.517,
     "cur"
    ],
    [
     "QLIFE",
-    10.896,
+    9.566,
     "cur"
    ],
    [
     "HYCO",
-    1.456,
+    1.466,
     "cur"
    ],
    [
     "VALUNO",
-    0.793,
+    0.682,
     "cur"
    ],
    [
     "ECOMB",
-    1.193,
+    1.292,
+    "cur"
+   ],
+   [
+    "RENT",
+    2.629,
     "cur"
    ],
    [
     "IMHO.B",
-    0.197,
+    0.181,
     "eq"
-   ],
-   [
-    "RENT",
-    2.294,
-    "cur"
    ]
   ]
  },
@@ -142,8 +147,8 @@
   "fiyat ya da piyasa değeri yok": 6
  },
  "mcap_check": {
-  "pay sayısıyla tutmuyor": 43,
-  "tutarlı": 697,
+  "pay sayısıyla tutmuyor": 42,
+  "tutarlı": 698,
   "pay sayısı yok": 9
  },
  "cur": "SEK",
@@ -153,26 +158,26 @@
   "NGM": 93
  },
  "periods": {
-  "2026-Q3": 544,
-  "2026-Q2": 137,
+  "2026-Q3": 552,
+  "2026-Q2": 130,
   "2026-H1": 28,
-  "2026-Q1": 16,
+  "2026-Q1": 15,
   "2026-Q4": 9,
   "None": 9
  },
  "pe_fix": {
-  "eps_n": 379,
+  "eps_n": 378,
   "eps_med": 1.0,
   "eps_within5": 100.0,
-  "roe_n": 371,
-  "roe_med": 1.0502,
-  "roe_within25": 91.4,
+  "roe_n": 369,
+  "roe_med": 1.0505,
+  "roe_within25": 91.3,
   "roe_scale": 1.0,
   "eps_ok": true,
   "counts": {
    "nodata": 36,
    "loss": 327,
-   "eps": 6,
+   "eps": 7,
    "roe": 1
   },
   "nodata_top": [
@@ -185,37 +190,42 @@
    "NTECH",
    "LMGAB",
    "H100",
-   "SEHED.B",
    "AXVIK",
+   "SEHED.B",
    "DORMY",
-   "SVEVIK",
    "PJ",
+   "SVEVIK",
    "CANDLE_B"
   ],
   "fixed_top": [
    [
     "NP3",
-    9.09,
+    9.03,
     "eps"
    ],
    [
     "CTT",
-    46.25,
+    48.47,
+    "eps"
+   ],
+   [
+    "CNCJO_B",
+    2.54,
     "eps"
    ],
    [
     "BOTX",
-    5.59,
+    5.55,
     "eps"
    ],
    [
     "TINGS_A",
-    8.89,
+    8.81,
     "eps"
    ],
    [
     "PRFO",
-    5.91,
+    5.79,
     "roe"
    ],
    [
@@ -225,7 +235,7 @@
    ],
    [
     "PIXEL",
-    18.44,
+    17.94,
     "eps"
    ]
   ]
@@ -235,54 +245,54 @@
   {
    "c": "VSURE",
    "n": "Verisure Plc",
-   "p": 10.84,
-   "m": 1383239.5,
+   "p": 10.51,
+   "m": 1394321.9,
    "pe": null,
-   "pb": 1.259,
+   "pb": 1.221,
    "per": "2026-Q3"
   },
   {
    "c": "INVE_A",
    "n": "Investor AB Class A",
-   "p": 426.9,
-   "m": 1325761.3,
-   "pe": 6.1,
-   "pb": 1.19,
+   "p": 417.1,
+   "m": 1324434.3,
+   "pe": 5.96,
+   "pb": 1.163,
    "per": "2026-Q3"
   },
   {
    "c": "ATCO_A",
    "n": "Atlas Copco AB Class A",
-   "p": 191.9,
-   "m": 898015.5,
-   "pe": 33.85,
-   "pb": 7.89,
+   "p": 189.2,
+   "m": 895843.4,
+   "pe": 33.38,
+   "pb": 7.779,
    "per": "2026-Q3"
   },
   {
    "c": "VOLV_A",
    "n": "Volvo AB Class A",
-   "p": 323.2,
-   "m": 657970.5,
-   "pe": 16.82,
-   "pb": 3.435,
+   "p": 319.8,
+   "m": 656415.0,
+   "pe": 16.65,
+   "pb": 3.399,
    "per": "2026-Q3"
   },
   {
    "c": "SWED_A",
    "n": "Swedbank AB Class A",
-   "p": 421.5,
-   "m": 475376.0,
-   "pe": 15.39,
-   "pb": 2.193,
+   "p": 418.1,
+   "m": 472684.6,
+   "pe": 15.27,
+   "pb": 2.175,
    "per": "2026-Q3"
   }
  ],
  "history": {
-  "candidates": 141,
-  "have": 134,
-  "fetched": 134,
-  "kept": 0,
+  "candidates": 140,
+  "have": 133,
+  "fetched": 0,
+  "kept": 133,
   "no_mapping": 3,
   "failed": [
    [
@@ -304,7 +314,7 @@
   ],
   "failed_n": 4,
   "blocked": false,
-  "budget_left": 5844
+  "budget_left": 6000
  },
  "ok": true
 }
