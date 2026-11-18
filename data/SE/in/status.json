@@ -1,31 +1,31 @@
 {
  "cc": "SE",
- "fetched": "2026-11-17T23:27:20Z",
+ "fetched": "2026-11-18T23:25:00Z",
  "errors": [],
  "pb_fix": {
   "paths": {
    "cur": {
-    "n": 705,
-    "med": 1.01,
-    "within10": 96.2,
+    "n": 706,
+    "med": 1.0024,
+    "within10": 96.3,
     "ok": true
    },
    "bvc": {
-    "n": 704,
+    "n": 705,
     "med": 1.0,
     "within10": 100.0,
     "ok": true
    },
    "bvq": {
-    "n": 704,
+    "n": 705,
     "med": 1.0,
     "within10": 100.0,
     "ok": true
    },
    "eq": {
-    "n": 704,
-    "med": 1.008,
-    "within10": 86.2,
+    "n": 705,
+    "med": 1.0005,
+    "within10": 86.1,
     "ok": true
    },
    "bvh": {
@@ -35,20 +35,20 @@
     "ok": false
    },
    "bvy": {
-    "n": 693,
-    "med": 1.0268,
-    "within10": 48.6,
+    "n": 694,
+    "med": 1.0277,
+    "within10": 48.1,
     "ok": true
    },
    "eqy": {
-    "n": 694,
-    "med": 1.0476,
-    "within10": 42.4,
+    "n": 695,
+    "med": 1.0419,
+    "within10": 44.6,
     "ok": true
    }
   },
   "counts": {
-   "cur": 10,
+   "cur": 9,
    "eq": 1,
    "bvy": 2
   },
@@ -62,11 +62,11 @@
   "missing_pct": 0.0,
   "nodata_top": [
    "ARGO",
-   "BUY",
    "BBROOM",
+   "BUY",
    "BAWAT",
-   "FOMO",
    "NRDAMP",
+   "FOMO",
    "NEWBRY",
    "MTI",
    "QBIM"
@@ -74,22 +74,17 @@
   "fixed_top": [
    [
     "SEHED.B",
-    1.604,
+    1.611,
     "cur"
    ],
    [
     "ONCO",
-    27.08,
-    "cur"
-   ],
-   [
-    "CNCJO_B",
-    0.646,
+    26.483,
     "cur"
    ],
    [
     "OBDU.B",
-    6.618,
+    6.142,
     "cur"
    ],
    [
@@ -104,38 +99,38 @@
    ],
    [
     "ONCOZ",
-    150.517,
+    143.462,
     "cur"
    ],
    [
     "QLIFE",
-    9.566,
+    10.394,
     "cur"
    ],
    [
     "HYCO",
-    1.466,
+    1.476,
     "cur"
    ],
    [
     "VALUNO",
-    0.682,
+    0.582,
     "cur"
    ],
    [
     "ECOMB",
-    1.292,
-    "cur"
-   ],
-   [
-    "RENT",
-    2.629,
+    1.118,
     "cur"
    ],
    [
     "IMHO.B",
-    0.181,
+    0.189,
     "eq"
+   ],
+   [
+    "RENT",
+    2.318,
+    "cur"
    ]
   ]
  },
@@ -158,32 +153,31 @@
   "NGM": 93
  },
  "periods": {
-  "2026-Q3": 552,
-  "2026-Q2": 130,
+  "2026-Q3": 560,
+  "2026-Q2": 122,
   "2026-H1": 28,
   "2026-Q1": 15,
   "2026-Q4": 9,
   "None": 9
  },
  "pe_fix": {
-  "eps_n": 378,
+  "eps_n": 379,
   "eps_med": 1.0,
   "eps_within5": 100.0,
-  "roe_n": 369,
+  "roe_n": 371,
   "roe_med": 1.0505,
-  "roe_within25": 91.3,
+  "roe_within25": 91.4,
   "roe_scale": 1.0,
   "eps_ok": true,
   "counts": {
-   "nodata": 36,
-   "loss": 327,
-   "eps": 7,
+   "nodata": 35,
+   "loss": 328,
+   "eps": 6,
    "roe": 1
   },
   "nodata_top": [
    "VSURE",
    "SILEX",
-   "GOTL_A",
    "SALIX",
    "TANGEN_B",
    "COFFEE_B",
@@ -195,27 +189,23 @@
    "DORMY",
    "PJ",
    "SVEVIK",
-   "CANDLE_B"
+   "CANDLE_B",
+   "ARGO"
   ],
   "fixed_top": [
    [
     "NP3",
-    9.03,
+    9.05,
     "eps"
    ],
    [
     "CTT",
-    48.47,
-    "eps"
-   ],
-   [
-    "CNCJO_B",
-    2.54,
+    47.07,
     "eps"
    ],
    [
     "BOTX",
-    5.55,
+    5.41,
     "eps"
    ],
    [
@@ -225,7 +215,7 @@
    ],
    [
     "PRFO",
-    5.79,
+    5.82,
     "roe"
    ],
    [
@@ -235,7 +225,7 @@
    ],
    [
     "PIXEL",
-    17.94,
+    20.95,
     "eps"
    ]
   ]
@@ -245,54 +235,54 @@
   {
    "c": "VSURE",
    "n": "Verisure Plc",
-   "p": 10.51,
-   "m": 1394321.9,
+   "p": 10.22,
+   "m": 1357555.0,
    "pe": null,
-   "pb": 1.221,
+   "pb": 1.187,
    "per": "2026-Q3"
   },
   {
    "c": "INVE_A",
    "n": "Investor AB Class A",
-   "p": 417.1,
-   "m": 1324434.3,
-   "pe": 5.96,
-   "pb": 1.163,
+   "p": 414.2,
+   "m": 1293138.0,
+   "pe": 5.91,
+   "pb": 1.155,
    "per": "2026-Q3"
   },
   {
    "c": "ATCO_A",
    "n": "Atlas Copco AB Class A",
-   "p": 189.2,
-   "m": 895843.4,
-   "pe": 33.38,
-   "pb": 7.779,
+   "p": 188.75,
+   "m": 883480.3,
+   "pe": 33.3,
+   "pb": 7.76,
    "per": "2026-Q3"
   },
   {
    "c": "VOLV_A",
    "n": "Volvo AB Class A",
-   "p": 319.8,
-   "m": 656415.0,
-   "pe": 16.65,
-   "pb": 3.399,
+   "p": 318.6,
+   "m": 650138.6,
+   "pe": 16.58,
+   "pb": 3.386,
    "per": "2026-Q3"
   },
   {
    "c": "SWED_A",
    "n": "Swedbank AB Class A",
-   "p": 418.1,
-   "m": 472684.6,
-   "pe": 15.27,
-   "pb": 2.175,
+   "p": 410.5,
+   "m": 468871.7,
+   "pe": 14.99,
+   "pb": 2.136,
    "per": "2026-Q3"
   }
  ],
  "history": {
-  "candidates": 140,
-  "have": 133,
-  "fetched": 0,
-  "kept": 133,
+  "candidates": 139,
+  "have": 132,
+  "fetched": 1,
+  "kept": 131,
   "no_mapping": 3,
   "failed": [
    [
@@ -314,7 +304,7 @@
   ],
   "failed_n": 4,
   "blocked": false,
-  "budget_left": 6000
+  "budget_left": 5999
  },
  "ok": true
 }
