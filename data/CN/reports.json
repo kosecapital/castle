@@ -1392,5 +1392,189 @@
    "date": "2026-11-14",
    "per": "2026-Q3"
   }
+ },
+ "600301": {
+  "scores": {
+   "A": 2,
+   "B": 0,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "yok",
+  "per": "2026-Q3",
+  "one": "Guangxi'de kalay, çinko ve antimon çıkaran ve işleyen madenci. Kârı metal fiyatına bağlı; emtia işi olduğu için hendek ölçütünde elendi.",
+  "business": "Guangxi Huaxi Nonferrous Metal (华锡有色), Guangxi'deki madenlerinden kalay, çinko, kurşun-antimon konsantresi ve indiyum çıkarır; kalay ve çinko külçesi üretir. 2025'te hasılat 5,80 milyar yuan oldu: %45,5'i kalay külçesi, %17,9'u kurşun-antimon konsantresi, %11,6'sı çinko külçesi, %6,4'ü çinko konsantresi. Ana ortaklık net kârı 801 milyon yuan, hisse başına kâr 1,27 yuan. 2026'nın ilk dokuz ayında 5.110 ton kalay konsantresi ve 37.400 ton çinko konsantresi üretti.",
+  "moat_text": "Hendek yok. Şirket hendek ölçütünde elendi (B = 0): sattığı şey emtia, fiyatı dünya piyasası belirler. Kâr fiyatla birlikte oynuyor. 2026'nın ilk dokuz ayında net kâr %76,7 arttı; şirket nedeni 'ürün fiyatlarının yükselmesi' diye açıkladı. Üçüncü çeyrekte kalay külçesinin brüt marjı %30,0 (bir yıl önce %16,8), çinko konsantresinin %49,7 (bir yıl önce %14,2) oldu; üretim ise azaldı (kalay konsantresi bir önceki çeyreğe göre %25,8, çinko konsantresi %26,1 düşük). Reel özsermaye kârlılığı beş yılda %12,8 ile %22,7 arasında oynadı; son 12 ayda %29,1 ile döngünün yüksek noktasında. Madenlerin kendisi değerli bir varlık (kurşun-antimon konsantresinin brüt marjı 2025'te %80,0), ama bu, fiyat belirleme gücü değil.",
+  "mgmt": "Şirket devlet kontrolünde: ana ortak Guangxi Kritik Metaller Grubu (广西关键金属集团) tarafı %56,47 paya sahip. Eylül 2026'da China Minmetals bu gruba sermaye koyarak %51'ini almayı önerdi; işlem tamamlanırsa gerçek kontrol China Minmetals'a geçer ve zorunlu pay alım teklifi doğar. Toplam 633 milyon hissenin 275 milyonu dolaşımda. Kârın önemli bölümü azınlık paylarına gidiyor: 2025'te toplam 1,29 milyar yuan net kârın 490 milyon yuanı (%38). Kaynağa göre pay sayısı beş yılda %171,9 arttı (varlıklar hisse karşılığı şirkete kondu). Kâr madenlerin genişletilmesine gidiyor (Gaofeng madeninde cevher kapasitesi yılda 330 bin tondan 450 bin tona çıkarılıyor). Temettü tutarı, hisse bazlı ücret, şerefiye, grup şirketleriyle ilişkili taraf işlemleri: bakıldı, okunan belgelerde yok.",
+  "latest": "30 Ekim 2026: Şirket 2026'nın ilk dokuz ayının sonuçlarını açıkladı. Hasılat 4,96 milyar yuan (%19,87 artış), ana ortaklık net kârı 873 milyon yuan (%76,69 artış), faaliyetlerden nakit akışı 1,09 milyar yuan. Üçüncü çeyrekte hasılat 1,92 milyar yuan (%42,2 artış), net kâr 339 milyon yuan (%202,1 artış); tek seferlik kalemler hariç net kâr 337 milyon yuan. Aynı duyuruda China Minmetals'ın ana ortak gruba %51 payla girme planı yer aldı.",
+  "risks": [
+   "Kâr metal fiyatına bağlı ve döngünün yüksek noktasında: son 12 ay reel özsermaye kârlılığı %29,1, beş yılın en düşük okuması %12,8. Kalay, çinko ya da antimon fiyatı düşerse kâr hızla geriler.",
+   "Üretim azalıyor: 2026'nın üçüncü çeyreğinde kalay konsantresi bir önceki çeyreğe göre %25,8, çinko konsantresi %26,1 düştü; dokuz ayda çinko konsantresi %5,6, kurşun-antimon konsantresi %8 geriledi.",
+   "Kontrol değişiyor: China Minmetals işlemi tamamlanırsa zorunlu pay alım teklifi doğar; fiyat bir süre teklif fiyatına bağlanabilir.",
+   "Kârın %38'i azınlık paylarına gidiyor (2025); oran sayfasındaki PD/DD azınlık payını da içeren özsermayeyle hesaplandığı için düşük görünüyor.",
+   "Yeni maden haklarının şirkete konması yeni pay ihracıyla yapılırsa mevcut ortağın payı yine sulanır (beş yılda pay sayısı %171,9 arttı)."
+  ],
+  "watch": [
+   "Kalay ve çinko fiyatı (2026 üçüncü çeyrek ortalaması: kalay 416 bin, çinko 26 bin yuan/ton)",
+   "Konsantre üretimi (dokuz ayda kalay 5.110 ton, çinko 37.400 ton)",
+   "China Minmetals işleminin tamamlanması ve pay alım teklifinin fiyatı",
+   "Azınlık paylarına giden kâr (2025'te 490 milyon yuan)"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/sha/600301/financials/ratios/"
+   },
+   {
+    "t": "Weekly on Stock: Huaxi Nonferrous 2026 üçüncü çeyrek raporu özeti (30 Ekim 2026)",
+    "te": "Weekly on Stock: Huaxi Nonferrous Q3 2026 report digest (30 October 2026)",
+    "u": "https://static.weeklyonstock.com/26/1030/AKX26103017001448534.html"
+   },
+   {
+    "t": "Soochow Securities: Huaxi Nonferrous 2026 üçüncü çeyrek değerlendirmesi (3 Kasım 2026)",
+    "te": "Soochow Securities: Huaxi Nonferrous Q3 2026 review (3 November 2026)",
+    "u": "https://pdf.dfcfw.com/pdf/H3_AP202611031831351004_1.pdf"
+   },
+   {
+    "t": "Southwest Securities: Huaxi Nonferrous 2026 üçüncü çeyrek değerlendirmesi (2 Kasım 2026)",
+    "te": "Southwest Securities: Huaxi Nonferrous Q3 2026 review (2 November 2026)",
+    "u": "https://pdf.dfcfw.com/pdf/H3_AP202611091831541351_1.pdf"
+   }
+  ],
+  "en": {
+   "one": "A miner that extracts and processes tin, zinc and antimony in Guangxi. Its profit follows metal prices; as a commodity business it was eliminated on the moat test.",
+   "business": "Guangxi Huaxi Nonferrous Metal (华锡有色) mines tin, zinc, lead-antimony concentrate and indium in Guangxi, and produces tin and zinc ingots. In 2025 revenue was 5.80 billion yuan: 45.5% tin ingot, 17.9% lead-antimony concentrate, 11.6% zinc ingot, 6.4% zinc concentrate. Net profit attributable to the parent was 801 million yuan and earnings per share 1.27 yuan. In the first nine months of 2026 it produced 5,110 tonnes of tin concentrate and 37,400 tonnes of zinc concentrate.",
+   "moat_text": "There is no moat. The company was eliminated on the moat test (B = 0): what it sells is a commodity, and the world market sets the price. Profit moves with the price. In the first nine months of 2026 net profit rose 76.7%; the company gave the reason as 'higher product prices'. In the third quarter the gross margin on tin ingot was 30.0% (16.8% a year earlier) and on zinc concentrate 49.7% (14.2% a year earlier); output, meanwhile, fell (tin concentrate 25.8% below the previous quarter, zinc concentrate 26.1%). Real return on equity swung between 12.8% and 22.7% over five years; at 29.1% in the last 12 months it is at the high point of the cycle. The mines themselves are a valuable asset (gross margin on lead-antimony concentrate was 80.0% in 2025), but that is not the power to set prices.",
+   "mgmt": "The company is state-controlled: the parent side, Guangxi Critical Metals Group (广西关键金属集团), holds 56.47%. In September 2026 China Minmetals proposed taking 51% of that group through a capital injection; if the deal closes, actual control passes to China Minmetals and a mandatory tender offer is triggered. Of 633 million shares in total, 275 million are in free float. A large part of profit goes to minority interests: 490 million yuan of the 1.29 billion yuan total net profit in 2025 (38%). According to the data source the share count rose 171.9% in five years (assets were injected in exchange for shares). Profit goes into expanding the mines (ore capacity at the Gaofeng mine is being raised from 330 thousand to 450 thousand tonnes a year). The dividend amount, share-based pay, goodwill, related-party dealings with group companies: checked, not in the documents read.",
+   "latest": "30 October 2026: The company published results for the first nine months of 2026. Revenue was 4.96 billion yuan (up 19.87%), net profit attributable to the parent 873 million yuan (up 76.69%), and operating cash flow 1.09 billion yuan. In the third quarter revenue was 1.92 billion yuan (up 42.2%) and net profit 339 million yuan (up 202.1%); net profit excluding non-recurring items was 337 million yuan. The same announcement included China Minmetals' plan to take 51% of the parent group.",
+   "risks": [
+    "Profit follows metal prices and is at the high point of the cycle: real return on equity is 29.1% for the last 12 months, against a five-year low reading of 12.8%. If tin, zinc or antimony prices fall, profit falls quickly.",
+    "Output is falling: in the third quarter of 2026 tin concentrate was 25.8% and zinc concentrate 26.1% below the previous quarter; over nine months zinc concentrate fell 5.6% and lead-antimony concentrate 8%.",
+    "Control is changing: if the China Minmetals deal closes, a mandatory tender offer is triggered; the price may be tied to the offer price for a time.",
+    "38% of profit goes to minority interests (2025); the P/B on the ratio page looks low because it is calculated on equity that includes minorities.",
+    "If new mining rights are injected through new share issues, existing shareholders are diluted again (the share count rose 171.9% in five years)."
+   ],
+   "watch": [
+    "Tin and zinc prices (third-quarter 2026 average: tin 416 thousand, zinc 26 thousand yuan per tonne)",
+    "Concentrate output (nine months: tin 5,110 tonnes, zinc 37,400 tonnes)",
+    "Completion of the China Minmetals deal and the tender offer price",
+    "Profit going to minority interests (490 million yuan in 2025)"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-18",
+   "per": "2026-Q3"
+  },
+  "verify": {
+   "tr": "Evren doğru. Oran sayfası toplam özsermayeyi kullanıyor; 2025 sonunda azınlık payı 1.095 milyon yuan. Evrendeki oran ana ortaklık özsermayesine göre (yaklaşık 5.463 milyon yuan).",
+   "en": "The universe is right. The ratio page uses total equity; minority interests were 1,095 million yuan at the end of 2025. The ratio in the universe is on parent equity (about 5,463 million yuan)."
+  }
+ },
+ "600885": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 1,
+   "E": 2
+  },
+  "moat": "dar",
+  "per": "2026-Q3",
+  "one": "Dünyanın en büyük röle üreticisi. Ölçeği gerçek, kârlılığı istikrarlı; ama bakır ve gümüş pahalanınca marjı geriliyor ve fiyatı ölçütümüze göre yüksek.",
+  "business": "Hongfa Technology (宏发股份), elektrik devrelerini açıp kapatan röleler üretir: güç, otomotiv, sinyal, sanayi, sayaç ve yeni enerji (yüksek gerilim doğru akım) röleleri. Yıllık raporuna göre yılda 3,3 milyardan fazla röle satar, 160'tan çok seri ve 40 binden çok çeşit üretir, 120'den fazla ülkeye satış yapar. Alçak gerilim şalt ürünleri de üretir. 2025'te hasılat 17,20 milyar yuan, ana ortaklık net kârı 1,76 milyar yuan, hisse başına kâr 1,20 yuan oldu.",
+  "moat_text": "Hendek dar. Üstünlük ölçekten geliyor: şirketin yıllık raporuna göre pazar payıyla dünyada birinci (ikinci Tyco, üçüncü Omron; rapor yüzde vermiyor). Aynı rapora göre 2025'te dünya röle talebi yaklaşık 12,11 milyar adet; şirketin satışı 3,3 milyar adedin üstünde. Reel özsermaye kârlılığı beş yılda %15,5 ile %18,5 arasında kaldı; bu istikrar ölçeğin kanıtı. Geniş saymıyoruz, çünkü fiyatlama gücü sınırlı: bakır ve gümüş pahalanınca brüt marj geriledi (2025'te %34,3; 2026'nın ilk dokuz ayında %32,9, bir yıl öncesine göre 1,7 puan düşük). Röle, müşterinin ürününde küçük ama kritik bir parça; müşteri kolay değiştirmez, ama fiyat artışını da kolay kabul etmez.",
+  "mgmt": "En büyük ortak 有格创业投资 %25,80 paya sahip (payının bir bölümü rehinli: 69,2 milyon hisse); gerçek kontrol sahibi Guo Manjin (郭满金). Hong Kong üzerinden gelen yabancı yatırımcıların payı %22,04. Kârın yaklaşık üçte biri dağıtılıyor: 2025 kârından her 10 hisseye 3,47 yuan nakit temettü (toplam 537 milyon yuan, kârın %30,56'sı); kalanı kapasiteye gidiyor (yatırım harcaması 2025'te yaklaşık 1,18 milyar yuan; aracı kurum tablosu). Şirket 2021'de 2 milyar yuanlık dönüştürülebilir tahvil çıkardı; tahvil 2025'te hisseye döndü ve Aralık 2025'te kottan çıktı. Pay sayısı bu yüzden arttı (2025 sonunda 1.547,6 milyon). Küçük ortak için bir kusur: kârın önemli bölümü azınlık paylarına gidiyor (2025'te 581 milyon yuan; ana ortaklık kârının üçte biri kadar), çünkü işin yapıldığı bağlı şirketlerde başka ortaklar var. Hisse bazlı ücret, şerefiye, geri alım: bakıldı, okunan belgelerde yok.",
+  "latest": "29 Ekim 2026: Şirket 2026'nın ilk dokuz ayının sonuçlarını açıkladı. Hasılat 17,34 milyar yuan (%34,3 artış), ana ortaklık net kârı 1,81 milyar yuan (%23,1 artış), tek seferlik kalemler hariç net kâr 1,73 milyar yuan (%22,9 artış). Üçüncü çeyrekte hasılat 6,32 milyar yuan (%38,3 artış), net kâr 654 milyon yuan (%29,4 artış). Brüt marj dokuz ayda %32,9 (1,7 puan düşük). Faaliyetlerden nakit akışı 807 milyon yuan ile %48,7 geriledi; aracı kurum notuna göre nedeni malzeme alımlarına ödenen nakdin artması.",
+  "risks": [
+   "Fiyat ölçütümüze göre yüksek; hesap kârın yılda yaklaşık %10 reel büyüyeceğini varsaysa da güvenlik marjı eksi.",
+   "Bakır ve gümüş pahalanınca marj geriliyor: brüt marj 2026'nın ilk dokuz ayında 1,7 puan düştü. Hasılat %34,3 artarken kâr %23,1 arttı.",
+   "Kâr nakde geç dönüyor: dokuz ayda faaliyetlerden nakit akışı %48,7 düştü; 2025 sonunda alacaklar ana ortaklık kârının 2,4 katıydı.",
+   "Talep döngüseldir: röleler beyaz eşya, otomobil, sanayi ve enerji yatırımlarına satılır; veri merkezi ve enerji depolama talebi yavaşlarsa büyüme de yavaşlar.",
+   "Kârın önemli bölümü azınlık paylarına gidiyor (2025'te 581 milyon yuan); oran sayfasındaki PD/DD azınlık payını da içeren özsermayeyle hesaplanıyor ve bu yüzden düşük görünüyor."
+  ],
+  "watch": [
+   "Brüt marj (2026'nın ilk dokuz ayında %32,9)",
+   "Tek seferlik kalemler hariç net kâr (dokuz ayda 1,73 milyar yuan)",
+   "Faaliyetlerden nakit akışı (dokuz ayda 807 milyon yuan)",
+   "Azınlık paylarına giden kâr (2025'te 581 milyon yuan)"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/sha/600885/financials/ratios/"
+   },
+   {
+    "t": "Hongfa Technology: 2025 yıllık rapor özeti, China Securities Journal'daki bildirim (2 Nisan 2026)",
+    "te": "Hongfa Technology: 2025 annual report summary, disclosure in China Securities Journal (2 April 2026)",
+    "u": "https://epaper.cs.com.cn/zgzqb/images/2026-04/02/B049/zqB04902.pdf"
+   },
+   {
+    "t": "Soochow Securities: Hongfa 2026 üçüncü çeyrek değerlendirmesi (1 Kasım 2026)",
+    "te": "Soochow Securities: Hongfa Q3 2026 review (1 November 2026)",
+    "u": "https://pdf.dfcfw.com/pdf/H3_AP202611011831293420_1.pdf"
+   },
+   {
+    "t": "Guojin Securities: Hongfa 2026 üçüncü çeyrek değerlendirmesi (30 Ekim 2026)",
+    "te": "Guojin Securities: Hongfa Q3 2026 review (30 October 2026)",
+    "u": "https://pdf.dfcfw.com/pdf/H3_AP202610301831201100_1.pdf"
+   },
+   {
+    "t": "10jqka: Hongfa 2026 ilk dokuz ay sonuçları (30 Ekim 2026)",
+    "te": "10jqka: Hongfa nine-month 2026 results (30 October 2026)",
+    "u": "https://stock.10jqka.com.cn/20261030/c681288978.shtml"
+   },
+   {
+    "t": "Stockstar: Hongfa 2025 yıllık rapor özeti (3 Nisan 2026)",
+    "te": "Stockstar: Hongfa 2025 annual report digest (3 April 2026)",
+    "u": "https://stock.stockstar.com/RB2026040300005902.shtml"
+   }
+  ],
+  "en": {
+   "one": "The world's largest relay maker. Its scale is real and returns are steady; but margin slips when copper and silver get dearer, and the price is high on our test.",
+   "business": "Hongfa Technology (宏发股份) makes relays, which switch electrical circuits on and off: power, automotive, signal, industrial, meter and new-energy (high-voltage direct current) relays. According to its annual report it sells more than 3.3 billion relays a year, makes over 160 series and over 40 thousand varieties, and sells to more than 120 countries. It also makes low-voltage switchgear. In 2025 revenue was 17.20 billion yuan, net profit attributable to the parent 1.76 billion yuan and earnings per share 1.20 yuan.",
+   "moat_text": "The moat is narrow. The advantage comes from scale: according to the company's annual report it ranks first in the world by market share (Tyco second, Omron third; the report gives no percentages). The same report puts world relay demand in 2025 at about 12.11 billion units; the company sells more than 3.3 billion. Real return on equity stayed between 15.5% and 18.5% over five years; that steadiness is the evidence of scale. We do not call it wide, because pricing power is limited: gross margin fell as copper and silver got dearer (34.3% in 2025; 32.9% in the first nine months of 2026, 1.7 points lower than a year earlier). A relay is a small but critical part in the customer's product; the customer does not switch easily, but does not accept a price rise easily either.",
+   "mgmt": "The largest shareholder, 有格创业投资, holds 25.80% (part of its stake is pledged: 69.2 million shares); the actual controller is Guo Manjin (郭满金). Foreign investors through Hong Kong hold 22.04%. About a third of profit is paid out: a cash dividend of 3.47 yuan per 10 shares from 2025 profit (537 million yuan in total, 30.56% of profit); the rest goes into capacity (capital spending was about 1.18 billion yuan in 2025; broker table). The company issued a 2 billion yuan convertible bond in 2021; it converted into shares in 2025 and was delisted in December 2025. The share count rose as a result (1,547.6 million at the end of 2025). One flaw for the small shareholder: a large part of profit goes to minority interests (581 million yuan in 2025; about a third of parent profit), because the operating subsidiaries have other owners. Share-based pay, goodwill, buybacks: checked, not in the documents read.",
+   "latest": "29 October 2026: The company published results for the first nine months of 2026. Revenue was 17.34 billion yuan (up 34.3%), net profit attributable to the parent 1.81 billion yuan (up 23.1%), and net profit excluding non-recurring items 1.73 billion yuan (up 22.9%). In the third quarter revenue was 6.32 billion yuan (up 38.3%) and net profit 654 million yuan (up 29.4%). Gross margin was 32.9% over nine months (1.7 points lower). Operating cash flow fell 48.7% to 807 million yuan; according to the broker note the reason was more cash paid for materials.",
+   "risks": [
+    "The price is high on our test; the safety margin is negative even though the calculation assumes profit grows about 10% a year in real terms.",
+    "Margin slips when copper and silver get dearer: gross margin fell 1.7 points in the first nine months of 2026. Revenue rose 34.3% while profit rose 23.1%.",
+    "Profit turns into cash slowly: operating cash flow fell 48.7% over nine months; at the end of 2025 receivables were 2.4 times parent profit.",
+    "Demand is cyclical: relays are sold into appliances, cars, industry and energy investment; if data-centre and energy-storage demand slows, growth slows too.",
+    "A large part of profit goes to minority interests (581 million yuan in 2025); the P/B on the ratio page is calculated on equity that includes minorities and so looks low."
+   ],
+   "watch": [
+    "Gross margin (32.9% in the first nine months of 2026)",
+    "Net profit excluding non-recurring items (1.73 billion yuan over nine months)",
+    "Operating cash flow (807 million yuan over nine months)",
+    "Profit going to minority interests (581 million yuan in 2025)"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-18",
+   "per": "2026-Q3"
+  },
+  "verify": {
+   "tr": "Evren doğru. Oran sayfası PD/DD'yi azınlık payı dahil özsermayeyle hesaplıyor (2025 sonu: ana ortaklık 12.630,5, azınlık 3.380 milyon yuan); evrendeki 3,66 ana ortaklığa göre.",
+   "en": "The universe is right. The ratio page calculates P/B on equity including minority interests (end of 2025: parent 12,630.5, minorities 3,380 million yuan); the 3.66 in the universe is on parent equity."
+  },
+  "earn": {
+   "k": 0.937,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Bu kârın içindeki tek seferlik kazançlar: Şirketin 'olağan dışı' diye ayırdığı kalemlerin son 12 aydaki net tutarı: 132,6 milyon yuan (2025 dördüncü çeyrek 55,6 + 2026 ilk dokuz ay 77 milyon yuan; vergi ve azınlık payı sonrası): son 12 ay kârının %6,3 kadarı. Net etki %6,3; kazanç bu kadar indirildi. Son 12 ayın kârı 0,94 ile çarpılarak kullanıldı.",
+    "en": "The calculation rests on the profit of the last 12 months. One-off gains inside that profit: Net total over the last 12 months of the items the company itself classes as non-recurring: 132.6 million yuan (Q4 2025 55.6 + first nine months of 2026 77 million yuan; after tax and minorities): 6.3% of last-12-month profit. The net effect is 6.3%; earnings were lowered by that much. Last-12-month profit was used multiplied by 0.94."
+   },
+   "per": "2026-Q3"
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %9,7 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 %22,9 (şirketin düzeltilmiş rakamı; açıklanan %23,1); Temmuz-Eylül 2026 çeyreği %30,4 (şirketin düzeltilmiş rakamı; açıklanan %29,4). Düzeltme: Tek seferlik kalemler hariç net kâr (şirketin kendi 'koufei' rakamı): dokuz ayda 1,733 milyar yuan, üçüncü çeyrekte 631 milyon yuan. En düşüğü, enflasyondan arındırılınca, %22,0. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 9.7% a year. Latest figures (net profit, year on year): January-September 2026 22.9% (the company's adjusted figure; reported 23.1%); July-September 2026 quarter 30.4% (the company's adjusted figure; reported 29.4%). Adjustment: Net profit excluding non-recurring items (the company's own figure): 1.733 billion yuan in nine months, 631 million yuan in the third quarter. The lowest, after inflation, is 22.0%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q3"
+  }
  }
 }

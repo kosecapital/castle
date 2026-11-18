@@ -32,7 +32,8 @@
   "TSMC ve MediaTek'te kaynağın piyasa değeri, fiyat çarpı pay sayısının yaklaşık %4-5 altında; öbür büyük şirketlerde fark %2'nin altında.",
   "Beş yıllık oranlar: stockanalysis.com oran sayfaları. 4 adayın sayfası bulunamadı; bu şirketler 2. surda 'veri eksik' olarak durur.",
   "Yıl sonu enflasyonu: Tayvan istatistik kurumu DGBAS'ın aralık ayı yıllık oranları (2021-2025). Son yıllık oran: DGBAS, Ekim 2026 (%2,33).",
-  "Bu kadar büyük bir borsada 3. sur okuması sırayla yapılır: önce fiyatı kale olmaya yetenler. Okunmayan şirket 'sırada' görünür."
+  "Bu kadar büyük bir borsada 3. sur okuması sırayla yapılır: önce fiyatı kale olmaya yetenler. Okunmayan şirket 'sırada' görünür.",
+  "Şirketin belgesiyle düzeltilenler (18 Kasım 2026). Dört şirkette kaynağın PD/DD'si eski bilançoya dayanıyordu; 30 Eylül 2026 ana ortaklık özsermayesi borsa bildirimlerinden okundu ve PD/DD buna göre hesaplandı: Innodisk 4,02'den 2,81'e (özsermaye 33.335 milyon Tayvan doları), Ruentex Engineering 7,06'dan 5,90'a (8.902 milyon), Anpec 4,10'dan 3,81'e (4.076 milyon), Trusval 4,91'den 3,60'a (3.627 milyon)."
  ],
  "small_text": "Piyasa değeri 2 milyar Tayvan dolarının altında",
  "small_rule": "Piyasa değeri 2 milyar Tayvan dolarının (yaklaşık 60 milyon ABD doları) altındaki şirketler dışarıda kalır.",
@@ -48,7 +49,8 @@
    "For TSMC and MediaTek the source's market value is about 4-5% below price times shares outstanding; for the other large companies the gap is under 2%.",
    "Five-year ratios: stockanalysis.com ratio pages. The pages of 4 candidates could not be found; these companies stay at Wall 2 as 'data missing'.",
    "Year-end inflation: December annual rates from DGBAS, Taiwan's statistics office (2021-2025). Latest annual rate: DGBAS, October 2026 (2.33%).",
-   "In a market this large, the Wall 3 reading is done in order: companies priced low enough to be castles come first. A company that has not been read yet is shown as 'in the queue'."
+   "In a market this large, the Wall 3 reading is done in order: companies priced low enough to be castles come first. A company that has not been read yet is shown as 'in the queue'.",
+   "Corrected with the company's own document (18 November 2026). For four companies the source's P/B rested on an older balance sheet; parent equity at 30 September 2026 was read from exchange filings and P/B was calculated on it: Innodisk from 4.02 to 2.81 (equity 33,335 million Taiwan dollars), Ruentex Engineering from 7.06 to 5.90 (8,902 million), Anpec from 4.10 to 3.81 (4,076 million), Trusval from 4.91 to 3.60 (3,627 million)."
   ],
   "small_text": "Market value below 2 billion New Taiwan dollars",
   "small_rule": "Companies with a market value below 2 billion New Taiwan dollars (about 60 million US dollars) are left out."

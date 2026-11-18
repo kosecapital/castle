@@ -188,5 +188,56 @@
   "drop": null,
   "guidance": [],
   "notes": "TTM here runs to 30 Sep 2026 (the dataset row is still 2026-Q2). EPS 12.68 = 12.31 - 8.83 + 9.20. Nine-month legs are exchange filings (2026: Yahoo/MoneyDJ; 2025: gbimonthly). The FY2025 leg is NOT primary: EPS 12.31 and Q4 2025 parent profit NT$294m from Fugle/Vocus conference notes (AI-assisted summaries); FY2025 parent profit 1.042bn (Vocus) / 1.043bn (Fugle). Net profit = 294 + 779.28 = about 1,073m (1,042 - 748.361 + 779.280 = 1,072.9); approximate. Check: 12.68 x 84.7m shares = 1,074m. SOURCE VS DOCUMENT: the dataset P/E 9.32 at 125.5 implies EPS 13.47, i.e. the four quarters to June 2026 (4.05 + 3.48 + 3.31 + 2.67 = 13.51); my TTM to September is 12.68, about 6% lower, because Q3 2025 (4.05, with about 97.6m non-operating income) dropped out and Q3 2026 (3.21) came in. The script will see the source more than 3% above the document. One-off check for Oct 2025 - Sep 2026: non-operating result by quarter = Q4 2025 +15.8m and Q1 2026 +21.0m (histock, pre-tax minus operating profit; nature not found, together about 2.7% of TTM profit after tax, not identified as one-off, so not listed), Q2 2026 -53.0m (filing arithmetic; Fugle notes say about 52m final loss on full disposal of US Treasuries), Q3 2026 -2.0m (filing arithmetic). So the last 12 months are NOT inflated by a one-off gain; net non-operating items were a loss. If TTM to June 2026 were used instead, Q3 2025's +97.6m non-operating income (about 78m after tax, nature unconfirmed) would be inside it. Offset frac = 52 x (1 - 0.2036) / 1,073 = 0.0386; the 52m figure is from an AI-generated call summary, not primary. tax_rate = (988.076 - 786.889) / 988.076 = 20.36% for nine months 2026 (my division). No EPS guidance. Diluted EPS not found. The company still holds TSMC shares as a long-term investment which, per Fugle notes, moves only the balance sheet (other comprehensive income), not profit."
+ },
+ "3293": {
+  "unit": "million TWD",
+  "eps_cur": "TWD",
+  "ttm": {
+   "eps": 45.85,
+   "net_profit": 12920,
+   "tr": "Ekim 2025 - Eylül 2026 (2025 yılı 38,51 − 2025'in ilk dokuz ayı 27,9 + 2026'nın ilk dokuz ayı 35,24)",
+   "en": "October 2025 - September 2026 (full year 2025 38.51 − first nine months of 2025 27.9 + first nine months of 2026 35.24)",
+   "url": "https://tw.stock.yahoo.com/news/%E9%88%8A%E8%B1%A1-%E5%85%AC%E5%91%8A%E6%9C%AC%E5%85%AC%E5%8F%B8%E8%91%A3%E4%BA%8B%E6%9C%83%E9%80%9A%E9%81%8E115%E5%B9%B4%E7%AC%AC3%E5%AD%A3%E8%B2%A1%E5%8B%99%E5%A0%B1%E5%91%8A-100900283.html"
+  },
+  "tax_rate": 17.8,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "TTM runs to 30 Sep 2026 (dataset row is 2026-Q2). FY2025 EPS 38.51 is from nStock (data site, NOT primary); 9M 2025 EPS 27.9 from a Yahoo news article (6 Nov 2025). net_profit 12,920 is DERIVED (45.85 x 281.8m shares; share capital NT$2.818bn from nStock) - FY2025 net profit in absolute terms was not read. Source P/E 18.75 at 799 implies EPS 42.61 (TTM to June 2026); document TTM to September is 45.85, i.e. the source is BELOW the document, no reduction. One-off check: 9M 2026 pre-tax 12,081.610m vs operating profit 11,645.168m -> non-operating +436.4m (3.6% of pre-tax); its nature (interest, FX) was not read, so nothing listed. tax_rate = (12,081.610-9,929.276)/12,081.610 = 17.8% (my division). No EPS guidance."
+ },
+ "5289": {
+  "unit": "million TWD",
+  "eps_cur": "TWD",
+  "ttm": {
+   "eps": 265.49,
+   "net_profit": 25757,
+   "tr": "Ekim 2025 - Eylül 2026 (2025 yılı 21,72 − 2025'in ilk dokuz ayı 12,46 + 2026'nın ilk dokuz ayı 256,23)",
+   "en": "October 2025 - September 2026 (full year 2025 21.72 − first nine months of 2025 12.46 + first nine months of 2026 256.23)",
+   "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=df7f437d-f54e-4974-8820-ea24221d84c3"
+  },
+  "tax_rate": 21.0,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "TTM to 30 Sep 2026 = dataset period (2026-Q3). FY2025 EPS 21.72 and parent net profit NT$2.04bn are from Fugle call-summary pages (AI-assisted, NOT primary). net_profit 25,757 = 2,040 - 1,165 + 24,881.6, where 9M 2025 parent profit 1,165m is DERIVED from China Times' +2,035.90% (24,881.593/21.359); approximate. Source P/E 3.65 at 960 implies EPS 263.0 and profit 93,572/3.65 = 25,636m: within 1% of the document, so the source P/E is CORRECT, not a data error. One-off check: 9M 2026 pre-tax 31,587.032m vs operating profit 31,350.835m -> non-operating only +236.2m (0.7%); no asset sale, valuation gain or tax item found. The profit jump is operating (memory price/shortage: gross margin 65.0% in Q2, 49.47% in Q3 vs 31.1% in FY2025). Under the written rule this is NOT a one-off gain, so gains is empty and k stays 1; the main session should know the castle arithmetic then rests on a windfall year (C=1 makes the funnel use the period-average ROE instead). The Vocus review suggests higher-cost inventory entering cost of sales as a possible reason for the Q3 margin drop; unconfirmed. tax_rate = (31,587.032-24,948.186)/31,587.032 = 21.0% (my division). No EPS guidance."
+ },
+ "6138": {
+  "unit": "million TWD",
+  "eps_cur": "TWD",
+  "ttm": {
+   "eps": 15.07,
+   "net_profit": 1104,
+   "tr": "Ekim 2025 - Eylül 2026 (2026'nın ilk dokuz ayı 829,5 milyon + 2025 dördüncü çeyreği yaklaşık 275 milyon; dördüncü çeyrek, 2026 ilk çeyrek kârı 269 milyon ve 'çeyreklik %2,19 düşüş' bilgisinden hesaplandı)",
+   "en": "October 2025 - September 2026 (first nine months of 2026 829.5 million + fourth quarter of 2025 about 275 million; the fourth quarter is derived from Q1 2026 profit of 269 million and the stated 2.19% quarter-on-quarter fall)",
+   "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=9ee5f2a5-47ad-4c3a-a8b5-5b22babb1257"
+  },
+  "tax_rate": 17.1,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Nine-month leg is the filing (829.488m, EPS 11.32). Q4 2025 leg is DERIVED, not read: Uanalyze (24 Apr 2026) says Q1 2026 net profit 269m, down 2.19% QoQ, so Q4 2025 = 269/0.9781 = 275.0m; shares = 829.488/11.32 = 73.28m, so Q4 EPS about 3.75; TTM EPS about 15.07, net profit about 1,104m. FY2025 EPS was not found directly. Source vs document: 215 / 14.25 = 15.09; matches within 0.2%. One-off check: nine-month pre-tax 1,281.712m minus operating profit 1,159.935m = 121.8m non-operating income (9.5% of pre-tax); nature not found (interest income and FX likely; not identified as one-off, not listed). tax_rate = (1,281.712 - 1,062.785)/1,281.712 = 17.1% (my division). No EPS guidance."
  }
 }

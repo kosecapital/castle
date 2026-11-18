@@ -179,5 +179,32 @@
   "drop": null,
   "guidance": [],
   "notes": "All primary. Q3 2026 report: 9M net profit 1,256.100m, excl. non-recurring 743.276m, basic EPS 3.20, diluted 3.19; non-recurring table 9M (yuan): asset disposal 1,481,955.73; government grants 56,154,055.27; fair value/disposal of financial assets 27,577,628.04; gain on business combination achieved in stages 445,360,152.15; other non-operating 9,649,024.63; less tax 19,916,117.61 and minorities 7,483,465.99; total 512,823,232.22 (after tax and minorities; Q3 alone 9,161,104.15). 2025 annual report summary: FY2025 net profit 1,497.751m, excl. 1,472.510m (non-recurring 25.242m), basic EPS 3.81, diluted 3.80; Q4 2025 net profit 472.051m, excl. 474.804m. Q3 2025 report: 9M 2025 net profit 1,025.700m, excl. 997.706m, non-recurring 27.994m, basic = diluted EPS 2.59. TTM net profit = 1,256.100 + 1,497.751 - 1,025.700 = 1,728.151m (= Q4 2025 472.051 + 9M 2026 1,256.100). TTM basic EPS 4.42 (diluted 3.19 + 3.80 - 2.59 = 4.40). TTM non-recurring = 512.823 + 25.242 - 27.994 = 510.071m = 29.5% of TTM net profit (frac is already after tax and minorities, from the company's table). The dataset implies 19,400 / 11.23 = 1,727.5m, matching the filing. Tax rate is my division: 9M 2026 income tax 174.771m / total profit 1,485.393m = 11.8% (low because the step-acquisition gain carries almost no tax; the table's tax effect on all non-recurring items is only 19.9m). No company EPS or profit guidance found. Note: Flower Knows is consolidated from Q2/Q3 2026 at 51%, so future recurring profit includes its share; the script is not asked to add that back."
+ },
+ "600885": {
+  "unit": "million CNY",
+  "eps_cur": "CNY",
+  "ttm": {
+   "eps": 1.36,
+   "net_profit": 2097.7,
+   "tr": "Ekim 2025 - Eylül 2026 (2025 dördüncü çeyrek 287,7 + 2026 ilk dokuz ay 1.810 milyon yuan; hisse başına kâr 1.547,6 milyon paya bölünerek bulundu)",
+   "en": "October 2025 - September 2026 (Q4 2025 287.7 + first nine months of 2026 1,810 million yuan; earnings per share found by dividing by 1,547.6 million shares)",
+   "url": "https://pdf.dfcfw.com/pdf/H3_AP202611011831293420_1.pdf"
+  },
+  "tax_rate": null,
+  "gains": [
+   {
+    "tr": "Şirketin 'olağan dışı' diye ayırdığı kalemlerin son 12 aydaki net tutarı: 132,6 milyon yuan (2025 dördüncü çeyrek 55,6 + 2026 ilk dokuz ay 77 milyon yuan; vergi ve azınlık payı sonrası)",
+    "en": "Net total over the last 12 months of the items the company itself classes as non-recurring: 132.6 million yuan (Q4 2025 55.6 + first nine months of 2026 77 million yuan; after tax and minorities)",
+    "frac": 0.0632,
+    "how": "(287.749 - 232.139) + (1,810 - 1,733) = 132.6; 132.6 / 2,097.7 = 0.0632",
+    "period_tr": "Ekim 2025 - Eylül 2026",
+    "period_en": "October 2025 - September 2026",
+    "url": "https://epaper.cs.com.cn/zgzqb/images/2026-04/02/B049/zqB04902.pdf"
+   }
+  ],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "TTM net profit = Q4 2025 287.749m (PRIMARY: 2025 annual report summary quarterly table, https://epaper.cs.com.cn/zgzqb/images/2026-04/02/B049/zqB04902.pdf) + 9M 2026 1,810m (NOT primary: Soochow note, rounded to 0.01bn yuan). Ex-non-recurring: Q4 2025 232.139m (primary) + 9M 2026 1,733m (broker note) = 1,965.1m. Non-recurring TTM = 132.6m = 6.3% of TTM profit; rounding of the 2026 figures could move this by about +-1m. Composition of the non-recurring items not read (the Q3 report table was not opened). EPS 1.36 is DERIVED: 2,097.7 / 1,547.594m shares (share count at end-2025 per annual report; all convertible bonds converted/redeemed by Dec 2025). Reported nine-month 2026 EPS not found; FY2025 basic EPS 1.20 (average shares lower because conversion happened during 2025). Source check: universe P/E 24.07 at 32.8 implies EPS 1.363; market cap 51,565.8 / 24.07 = 2,142m versus document 2,097.7m (source 2.1% higher, inside 3%). Universe market cap implies 1,572m shares versus 1,547.6m at end-2025 (+1.6%, reason not read). Tax rate not read; the company's non-recurring total is already after tax. No profit guidance."
  }
 }

@@ -1,0 +1,63 @@
+{
+ "2597": {
+  "equity": 8901.979,
+  "per": "2026-Q3",
+  "date": "2026-11-18",
+  "tr": "Kaynağın PD/DD'si (7,06) eski bilançoya dayanıyor; oran sayfasınınki (5,0) azınlık payını da içeren toplam özsermayeyle hesaplanmış. Şirketin 12 Kasım 2026 tarihli borsa bildirimine göre 30 Eylül 2026'da ana ortaklığa ait özsermaye 8.901,979 milyon Tayvan doları.",
+  "en": "The source's price-to-book (7.06) rests on an older balance sheet; the ratio page's (5.0) uses total equity including minority interests. According to the company's exchange filing of 12 November 2026, equity attributable to the parent was 8,901.979 million Taiwan dollars at 30 September 2026.",
+  "sources": [
+   {
+    "t": "MoneyDJ: Ruentex Engineering dokuz aylık sonuçlar, borsa bildirimi (12 Kasım 2026)",
+    "te": "MoneyDJ: Ruentex Engineering nine-month results, exchange filing (12 November 2026)",
+    "u": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=21fa932a-b661-411b-a5e9-9e9ae996a606"
+   },
+   {
+    "t": "Yahoo Finance Tayvan: Ruentex Engineering yönetim kurulu 2026 üçüncü çeyrek tablolarını onayladı, borsa bildirimi (12 Kasım 2026)",
+    "te": "Yahoo Finance Taiwan: Ruentex Engineering board approves Q3 2026 statements, exchange filing (12 November 2026)",
+    "u": "https://tw.stock.yahoo.com/news/%E5%85%AC%E5%91%8A-%E6%BD%A4%E5%BC%98%E8%91%A3%E4%BA%8B%E6%9C%83%E9%80%9A%E9%81%8E115%E5%B9%B4%E7%AC%AC3%E5%AD%A3%E5%90%88%E4%BD%B5%E8%B2%A1%E5%8B%99%E5%A0%B1%E5%91%8A-095159252.html"
+   }
+  ]
+ },
+ "5289": {
+  "equity": 33334.957,
+  "per": "2026-Q3",
+  "date": "2026-11-18",
+  "tr": "Kaynak PD/DD'yi 4,02 veriyordu; bu oran bir önceki çeyreğin özsermayesine dayanıyor. Şirketin 6 Kasım 2026 borsa bildirimine göre 30 Eylül 2026'da ana ortaklığa ait özsermaye 33.334.957 bin Tayvan doları (33,33 milyar); PD/DD yaklaşık 2,8.",
+  "en": "The source gave a price-to-book of 4.02; that ratio rests on the previous quarter's equity. According to the company's exchange filing of 6 November 2026, equity attributable to the parent was 33,334,957 thousand Taiwan dollars (33.33 billion) at 30 September 2026; price-to-book is about 2.8.",
+  "sources": [
+   {
+    "t": "MoneyDJ: Innodisk 2026 üçüncü çeyrek konsolide finansal raporu, borsa bildirimi (6 Kasım 2026)",
+    "te": "MoneyDJ: Innodisk Q3 2026 consolidated financial report, exchange filing (6 November 2026)",
+    "u": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=df7f437d-f54e-4974-8820-ea24221d84c3"
+   }
+  ]
+ },
+ "6138": {
+  "equity": 4075.884,
+  "per": "2026-Q3",
+  "date": "2026-11-18",
+  "tr": "Oran sayfasının PD/DD'si (3,09) azınlık payını da içeren toplam özsermayeyle hesaplanmış; kaynağınki (4,1) eski bilançoya dayanıyor. Şirketin 11 Kasım 2026 tarihli borsa bildirimine göre 30 Eylül 2026'da ana ortaklığa ait özsermaye 4.075,884 milyon Tayvan doları (toplam özsermaye 5.178,8 milyon).",
+  "en": "The ratio page's price-to-book (3.09) uses total equity including minority interests; the source's (4.1) rests on an older balance sheet. According to the company's exchange filing of 11 November 2026, equity attributable to the parent was 4,075.884 million Taiwan dollars at 30 September 2026 (total equity 5,178.8 million).",
+  "sources": [
+   {
+    "t": "MoneyDJ: Anpec yönetim kurulu 2026 üçüncü çeyrek tablolarını onayladı, borsa bildirimi (11 Kasım 2026)",
+    "te": "MoneyDJ: Anpec board approves Q3 2026 statements, exchange filing (11 November 2026)",
+    "u": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=9ee5f2a5-47ad-4c3a-a8b5-5b22babb1257"
+   }
+  ]
+ },
+ "6667": {
+  "equity": 3626.864,
+  "per": "2026-Q3",
+  "date": "2026-11-18",
+  "tr": "Kaynağın PD/DD'si (4,909) haziran sonu bilançosuna dayanıyor. Şirketin 9 Kasım 2026 tarihli borsa bildirimine göre 30 Eylül 2026'da ana ortaklığa ait özsermaye 3.626,864 milyon Tayvan doları; üçüncü çeyrekte kâr ve pay ihracıyla arttı.",
+  "en": "The source's price-to-book (4.909) rests on the end-June balance sheet. According to the company's exchange filing of 9 November 2026, equity attributable to the parent was 3,626.864 million Taiwan dollars at 30 September 2026; it rose in the third quarter through profit and a share issue.",
+  "sources": [
+   {
+    "t": "MoneyDJ: Trusval yönetim kurulu 2026 üçüncü çeyrek tablolarını onayladı, borsa bildirimi (9 Kasım 2026)",
+    "te": "MoneyDJ: Trusval board approves Q3 2026 statements, exchange filing (9 November 2026)",
+    "u": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=7d869b29-8609-4bc3-b1d2-695a54f6c2d9"
+   }
+  ]
+ }
+}

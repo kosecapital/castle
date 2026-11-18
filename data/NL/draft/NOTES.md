@@ -19,3 +19,7 @@ Veri 16 Kasım 2026 kapanışıyla geldi (`in/`: 93 pay, hepsi Euronext Amsterda
 ## Sonraki çalıştırma
 
 Tarihli bir Amsterdam sayısı bul (Fact Book, Euronext aylık istatistikleri, AFM). Fark %25 içindeyse denetimlerin kalanını tamamla (ING ve Heineken belgeden), `meta.json` yaz, yerine al. Bulunamazsa Alper'in kararı gerekir.
+
+## 18 Kasım 2026: ikinci deneme
+
+Güncel resmî sayı yine bulunamadı. Euronext'in 22 Aralık 2025 bülteni yalnız bütün pazarların toplamını veriyor (1.700'ün üstünde ihraççı): https://www.vfb.be/Media/Default/pdf/2025-12-22-enx-pr-listings-on-euronext-in-2025.pdf . Fact Book dizini ve dosyası yine açılamadı (izin isteği yanıtsız). financialfilings.com 121 şirket sayıyor (tarihsiz, resmî değil, tasfiye hâlindeki şirketler dahil): https://financialfilings.com/companies/exchanges/euronext-amsterdam/ . Veri 17 Kasım kapanışıyla yenilendi (93 pay, 22 aday). Alper'e bildirim gönderildi: güncel sayı ya da notlu yayın kararı gerekiyor.

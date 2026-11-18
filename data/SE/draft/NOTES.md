@@ -18,3 +18,10 @@ Veri 16 Kasım 2026 kapanışıyla geldi (`in/`: 749 pay; 656 Nasdaq Stockholm v
 - Toplayıcının hesapladığı F/K: NP3 9,09 (belgelerle 9,08), CTT Systems 46,25 (46,29).
 - Kaynağın kâr vermediği büyükler: Silex ve Salix kârda (dokuz ayda 337 ve 183 milyon kron); Gotland ve Coffee Stain belirlenemedi.
 - Oran sayfası gelmeyen dört aday: Volvo, Ericsson, Tele2, Sweco (A sınıfı kodla 404). `sources.json` eşlemesi B sınıfına bakacak şekilde düzeltilebilir.
+
+## 18 Kasım 2026: ikinci deneme
+
+- Oncopeptides raporu yine açılamadı (mfn.se PDF'i ve cdn.financialreports.eu'daki tam metin: izin isteği yanıtsız). Açılan sayfalarda (https://www.inderes.se/en/releases/oncopeptides-publishes-q3-report-2026 , https://financialfilings.com/filings/oncopeptides/interim-quarterly-report/2026/75648860/) bilanço yok: rapor 5 Kasım 2026 tarihli, dokuz aylık vergi sonrası sonuç −130.868 bin kron, dönem sonu nakit 116.837 bin kron. 31 Aralık 2025 özsermayesi −58,89 milyon kron (ikincil: https://financialfilings.com/companies/oncopeptides/). Denenmemiş adres: https://storage.mfn.se/d5ad6828-e824-4d19-8c65-8521aa242dca/oncopeptides-delarsrapport-q3-2026.pdf
+- Verisure: 17 Kasım kapanışlı veride fiyat 10,51 avro, evrendeki piyasa değeri 1.394.321,9 milyon kron. Belgedeki pay sayısıyla 10,51 × 1.036.031.534 = 10.889 milyon avro; depodaki kurlarla (10,1217 ÷ 0,9093 = 11,13 kron/avro) yaklaşık 121.200 milyon kron. Evren bunun 11,5 katı; dün 11,1 katıydı. Çarpan sabit olmadığı için hata tek bir çift çevrimle açıklanmıyor; `collect.py` değiştirilmedi, `mul` düzeltmesi yazılmadı. `set` ile dönemli bir düzeltme (`m`, per 2026-Q3) mümkün, ama rakam kur içerir.
+- SEHED.B bugünkü veride: 23 kron, 1.221,1 milyon kron (53,1 milyon pay demek; belgede 28.061.069 pay).
+- Alper'e bildirim gönderildi: Oncopeptides özsermayesi ya da üç şirketin notla yayımlanması için karar gerekiyor.

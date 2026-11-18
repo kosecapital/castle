@@ -278,5 +278,98 @@
   "note_tr": null,
   "note_en": null,
   "notes": "All figures are MOPS exchange filings as reproduced by MoneyDJ/Yahoo Taiwan and gbimonthly (marked primary on that basis, same as existing TW records; MOPS itself not opened). Nine months 2026: parent net profit NT$779.280m, EPS 9.20 (Yahoo/MoneyDJ, 12 Nov 2026); nine months 2025: parent 748.361m, EPS 8.83 (https://news.gbimonthly.com/tw/invest/show.php?num=81721); pct = 9.20/8.83-1 = +4.19% (parent profit +4.13%). Quarter: Q3 2026 EPS 3.21 is in the filing headline and = 9.20 - 5.99 (H1 2026, MoneyDJ filing); Q3 2025 EPS 4.05 = 8.83 - 4.78 (H1 2025, China Times) - my subtraction, also shown by histock. JUDGMENT CALL FOR MAIN SESSION (exclude.quarter not set by me): the Q3 drop is a base effect outside operations. From the filings: Q3 2025 operating profit 316.1m (1,042.069 - 726) but pre-tax 413.6m (991.625 - 578), i.e. about +97.6m non-operating income; Q3 2026 operating profit 340.254m (1,022.021 - 681.767), pre-tax 338.222m (988.076 - 649.854), non-operating -2.0m. Operating profit rose about 7.6% in the quarter, revenue +13.3%. I could NOT find a document stating what the Q3 2025 non-operating gain was; the company held a US Treasury bond ETF that produced a NT$205m valuation loss in Q2 2025 (SinoPac note) and was sold in Q2 2026 (Fugle call notes), so a valuation rebound is likely but unconfirmed - hence no exclude. Nine-month operating profit fell 1.9% (1,022.0 vs 1,042.1) while EPS rose because the 2025 base carried net non-operating losses of 50.4m. No EPS/profit guidance: management only gives a 2026 revenue growth target of high single digit to double digit (Fugle, 26 Mar 2026; revenue guidance is not counted). No departed business; China is 12% of revenue (2025, -18%), two China clinics were closed in 2024. No permanent cause found. Dividend yield is in the source (6.17%), so dividend left null; company paid NT$7.75 cash per share from 2025 profit."
+ },
+ "3293": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": 26.31,
+   "cur_val": "35.24",
+   "prev_val": "27.9",
+   "unit": "Tayvan doları / Taiwan dollars",
+   "date": "2026-11-09",
+   "url": "https://tw.stock.yahoo.com/news/%E9%88%8A%E8%B1%A1-%E5%85%AC%E5%91%8A%E6%9C%AC%E5%85%AC%E5%8F%B8%E8%91%A3%E4%BA%8B%E6%9C%83%E9%80%9A%E9%81%8E115%E5%B9%B4%E7%AC%AC3%E5%AD%A3%E8%B2%A1%E5%8B%99%E5%A0%B1%E5%91%8A-100900283.html",
+   "primary": true
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 25.86,
+   "cur_val": "12.46",
+   "prev_val": "9.9",
+   "date": "2026-11-09",
+   "url": "https://udn.com/news/story/7252/9867563",
+   "primary": true
+  },
+  "guidance": null,
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "exclude": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "9M 2026 EPS 35.24 and parent net profit 9,929.637m are in the exchange filing (Yahoo relay, board date 9 Nov 2026). 9M 2025 EPS 27.9 and Q3 2025 EPS 9.9 are from a Yahoo news article of 6 Nov 2025 (not the filing itself); pct = 35.24/27.9-1 = 26.31%, consistent with UDN's net profit +26.3%. Quarter: 12.46/9.9-1 = 25.86% (UDN: net profit +25.7%; nStock: +25.86%). No EPS guidance: chairman only says Q4 momentum stays strong and 2027 will be better than 2026 (qualitative). No departed business, no permanent cause found. Dividend yield is in the source (4.51%)."
+ },
+ "5289": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": 1956.42,
+   "cur_val": "256.23",
+   "prev_val": "12.46",
+   "unit": "Tayvan doları / Taiwan dollars",
+   "date": "2026-11-06",
+   "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=df7f437d-f54e-4974-8820-ea24221d84c3",
+   "primary": true
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 1283.21,
+   "cur_val": "93.09",
+   "prev_val": "6.73",
+   "date": "2026-11-06",
+   "url": "https://wantrich.chinatimes.com/news/20261109900102-420101",
+   "primary": false
+  },
+  "guidance": null,
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "exclude": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "9M 2026 EPS 256.23 and parent net profit 24,881.593m are in the exchange filing (MoneyDJ relay, board date 6 Nov 2026). 9M 2025 EPS 12.46 and the +1,956.42% change are from China Times (9 Nov 2026) relaying the results. Quarter: Q3 2026 EPS 93.09 (China Times; filing headline on Yahoo), Q3 2025 EPS 6.73 from a Vocus review (not primary) -> 93.09/6.73-1 = 1,283.21% (my division; China Times gives net profit +1,310.7%). The judgment only lowers, so these increases will not raise the formula's rate. IMPORTANT FOR MAIN SESSION: the increase is a memory-shortage windfall (gross margin 31.1% in FY2025 -> 65.0% in Q2 2026 -> 49.47% in Q3 2026); Q3 EPS already fell 14.5% from Q2 (108.93 -> 93.09) and October revenue fell 11.04% from September. No EPS guidance (company gives no numerical forecasts; chairman expects memory prices to rise to end-2027). No departed business; no sourced permanent cause. Dividend yield is in the source (1.72%)."
+ },
+ "6138": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": 22.11,
+   "cur_val": "11.32",
+   "prev_val": "9.27",
+   "unit": "Tayvan doları / Taiwan dollars",
+   "date": "2026-11-11",
+   "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=9ee5f2a5-47ad-4c3a-a8b5-5b22babb1257",
+   "primary": false
+  },
+  "quarter": null,
+  "guidance": null,
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "exclude": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "ytd: cur 11.32 is the MOPS filing of 11 Nov 2026 as reproduced by MoneyDJ (parent net profit NT$829.488m, total 1,062.785m). prev 9.27 (9M 2025) is from the Economic Daily News article of 5 Dec 2025 and a Yahoo Taiwan filing headline, not opened as a filing; hence primary false. Quarter: Q3 2026 standalone EPS not found (Q1 2026 EPS 3.68, net 269m, +41.58% YoY per Uanalyze 24 Apr 2026; H1 2026 not read, so Q3 = 11.32 - H1 cannot be computed). No EPS guidance found for 2026 (in Dec 2025 management targeted double-digit revenue growth for 2026; revenue guidance is not counted). Warning sign for the main session: October 2026 revenue -1.6% YoY, 10M +7.2% (TechNews headline, 6 Nov 2026). The formula's rate is negative (gh -4.76), so the judgment cannot change it. Yageo tender offer (229.8 per share, up to 28.5%) closed 1 Oct 2025; price 215 is below the offer price, so the price is not pinned to an offer. Dividend yield in source (5.12%), so dividend null."
  }
 }
