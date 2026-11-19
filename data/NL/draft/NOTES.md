@@ -23,3 +23,7 @@ Tarihli bir Amsterdam sayısı bul (Fact Book, Euronext aylık istatistikleri, A
 ## 18 Kasım 2026: ikinci deneme
 
 Güncel resmî sayı yine bulunamadı. Euronext'in 22 Aralık 2025 bülteni yalnız bütün pazarların toplamını veriyor (1.700'ün üstünde ihraççı): https://www.vfb.be/Media/Default/pdf/2025-12-22-enx-pr-listings-on-euronext-in-2025.pdf . Fact Book dizini ve dosyası yine açılamadı (izin isteği yanıtsız). financialfilings.com 121 şirket sayıyor (tarihsiz, resmî değil, tasfiye hâlindeki şirketler dahil): https://financialfilings.com/companies/exchanges/euronext-amsterdam/ . Veri 17 Kasım kapanışıyla yenilendi (93 pay, 22 aday). Alper'e bildirim gönderildi: güncel sayı ya da notlu yayın kararı gerekiyor.
+
+## 19 Kasım 2026: üçüncü deneme
+
+Veri 18 Kasım kapanışıyla yenilendi (92 pay, 22 aday). Okunan ve Amsterdam'a özel sayı vermeyen sayfalar: https://euronext.com/en/markets/amsterdam , https://www.euronext.com/en/investor-relations/financial-information/news/euronext-publishes-q1-2026-results (bütün pazarlar: "Number of Issuers on Equities" 1.856, 2026 ilk çeyrek), AFM 2025 yıllık raporu (https://www.afm.nl/~/profmedia/files/publicaties/2026/jaarverslag-2025/annual-report-2025.pdf), Baker McKenzie rehberi (bütün pazarlar: 1.700'e yakın, Aralık 2025 sonu). SSE sayfasındaki 164 tarihsiz ve kaynaksız. Karar yine Alper'de: farkı notla yayımlamak ya da beklemek.

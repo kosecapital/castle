@@ -32,5 +32,39 @@
   "note_tr": null,
   "note_en": null,
   "notes": "Re-written 14 Nov 2026 for per 2026-Q3. PRIMARY DOCUMENT NOT OPENED: meritzgroup.com returned robots_disallowed for the transcript PDFs and the site root was blocked; no KIND/DART URL of the 11 Nov filing surfaced in search. So primary:false on both. Quarter figures come from Digital Today's automated reproduction of the exchange filing '연결재무제표기준영업(잠정)실적(공정공시)' of 11 Nov 2026 (million won): net income Q3 490,468 vs 668,390; owners' 470,717 vs 654,695 (-28.1%); 9M net income 1,962,069 vs 2,026,791; owners' 1,912,750 vs 1,989,645 (-3.9%). 9M EPS 11,491 (+3.5%) from The Value News and Korea Financial Times (both 11 Nov); prev_val 11,102 = 11,491/1.035 and matches the 3Q25 figure in the previous record. Metric mix: ytd is EPS, quarter is owners' net profit because Q3 standalone EPS was not published (derived 11,491 - 8,589 = 2,902 vs about 3,710 derived = about -21.8%, my arithmetic on a derived base, NOT used). Either way the lowest is negative, so real growth floors at zero. Cause of the Q3 fall: Meritz Fire investment profit 39.4 billion vs 325.0 billion (-87.9%), from valuation losses on domestic equities (company CRO: about 70 billion short-term loss on equity assets per CEOScore/BizWatch; a Shinhan analyst cited about 140 billion valuation and disposal losses, analyst figure, not used) and real estate provisions; group provisions and reserves 410.6 billion in Q3 (Bloter, S-Journal; includes reserve appropriations that do not pass through profit). Not excluded: investment results are part of the ordinary business and the company gave no after-tax amount. No profit guidance from the company (management said subsidiaries set rolling three-year plans; no figure). No permanent cause: insurance profit +34.9% in Q3, +7.6% in 9M; Securities +12.0%, Capital +23.6% in 9M. Dividend null: no cash dividend; FY2025 dividend cell is '-' in the company's 2025 status disclosure (read this session, primary), return is via buyback and cancellation."
+ },
+ "214150": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026 (hisse başına kâr)",
+   "en": "January-September 2026 (earnings per share)",
+   "pct": -23.2,
+   "cur_val": "1047",
+   "prev_val": "1364",
+   "unit": "won",
+   "date": "2026-11-12",
+   "url": "https://quartr.com/events/classys-inc-214150-q3-2026_F1tSxfa9",
+   "primary": false
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği (ana ortaklık net kârı; çeyreğin hisse başına kârı açıklanmadı)",
+   "en": "July-September 2026 quarter (owners' net profit; quarterly earnings per share not disclosed)",
+   "pct": -81.0,
+   "cur_val": "6.28",
+   "prev_val": "33.1",
+   "unit": "milyar won / billion won",
+   "date": "2026-11-12",
+   "url": "https://www.cbci.co.kr/news/articleView.html?idxno=626195",
+   "primary": false
+  },
+  "guidance": null,
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Written 19 Nov 2026. Universe per is 2026-Q2 but the Q3 2026 preliminary filing came out on 12 Nov 2026; facts use Q3. PRIMARY NOT OPENED for Q3 numbers: DART/KIND filing URL did not surface; company press release (PR Newswire copy, opened) gives only revenue and operating profit, no net profit. ytd EPS 1,047 vs 1,364 from Quartr's AI summary of the quarterly report (not primary); cross-check: 9M owners' profit 68,264 million, -23.6% (CBC News reproduction of the exchange filing), consistent. Quarter: owners' net profit 6,282 million, -81.0% (CBC News, stockhub); prev_val 33.1 billion is the Q3 2025 TOTAL net income shown by stockhub, the owners' prior-year figure itself was not read (6.28/0.19 = about 33.1, my arithmetic). Guidance null: company guides revenue only (2026 revenue cut on 12 Aug 2026 from 470-510 to 430-460 billion won; Smart Today; original range confirmed in the 1Q26 IR book on KIND, primary). No 'permanent' written: decline is attributed by the company to a product generation change in Korea and integration costs in Brazil/Japan, which it calls temporary; Korean device revenue has however fallen three quarters in a row (-35.9% in Q3: equipment -45.0%, consumables -29.1%; Seoul Economic Daily / Securities Economy News citing brokers) - no sourced evidence of a permanent cause (no law, lost licence), so not treated as permanent. Kiwoom (16 Jul 2026) mentions lost 'Rifit' laser sales not fully offset; no figures read, departed left null. Dividend null: source has yield (4.2%); DPS 1,000 won for FY2025 (Quartr, Kiwoom)."
  }
 }

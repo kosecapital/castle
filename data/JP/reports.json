@@ -3531,5 +3531,311 @@
    },
    "per": "2026-Q3"
   }
+ },
+ "1878": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "2026-Q2",
+  "one": "Toprak sahiplerine kiralık konut yapar, sonra binayı toptan kiralayıp işletir. Ölçeği büyük; ama son kârda hisse satışı kazancı var, borç ve stok hızla arttı.",
+  "business": "Daito Trust toprak sahiplerine kiralık apartman yapar, bittikten sonra binayı sahibinden toptan kiralar ve kiracılara kiraya verir. Mart 2026'da biten yılda satış 1,98 trilyon yen, faaliyet kârı 135,3 milyar yen oldu. Satışın 1,20 trilyon yeni kiralama kolundan (kol kârı 85,6 milyar yen), 544,3 milyar yeni inşaattan (45,1 milyar yen) geldi. Üçüncü kol gayrimenkul geliştirmedir: şirket kendi hesabına bina alır ya da yapar ve satar; bu kolun satışı bir yılda 51,3 milyar yenden 147,1 milyar yene çıktı (kol kârı 18,5 milyar yen). Kalanı finans (satış 12,8 milyar yen) ve gaz, bakım gibi diğer işlerdir. Eylül 2026'da 200.388 binada 1.363.395 birim yönetiyordu.",
+  "moat_text": "Hendek dar. Kanıt ölçek ve doluluk: Eylül 2026'da yönetilen birim sayısı 1.363.395 (bir yılda %2,0 artış), konutlarda kira bazlı doluluk %97,7 (bir yıl önce %97,3). Şirketin kendi tanıtım sayfası, sektör gazetesi Zenkoku Chintai Jutaku Shimbun'a dayanarak yönetilen birim sayısında 29 yıldır birinci olduğunu yazıyor; gazetenin sıralamasını kendimiz açamadık, rakiplerin birim sayısını doğrulayamadık. Fiyatlama gücüne dair kanıt sınırlı: toplam brüt kâr marjı Mart 2025 yılında %17,1, Mart 2026 yılında %17,5; Nisan-Eylül 2026'da tamamlanan inşaatlarda brüt marj %24,8'den %27,6'ya çıktı ve şirket bunu fiyat artışına bağlıyor. Kira artışları da kiralama kolunun satışını beklentinin üstüne taşıdı. Reel özsermaye kârlılığı beş yılda %14,8 ile %19,0 arasında kaldı; son 12 ayda %19,6. Zayıf yanı: yeni iş, toprak sahibini tek tek ikna eden satış ekibine, miras vergisi kurallarına ve kredi faizine bağlı; Nisan-Eylül 2026'da inşaat siparişleri %13,2 düştü. Faaliyet kâr marjı yaklaşık %6,8; daha küçük rakip Starts'ınki %14,4. Büyüyen geliştirme kolu sıradan bir al-sat işidir, hendeği yoktur. B puanı bu yüzden 2.",
+  "mgmt": "Hâkim ortak yok. Bir veri sitesinin yıllık rapordan aktardığına göre en büyük ortaklar saklama bankalarının emanet hesapları (Master Trust %14,42, Custody Bank %5,65) ve Hikari Tsushin (%5,69); ilk on ortak %47,3 tutuyor (yıllık raporun kendisini açamadık). Şirket kârın yarısını dağıtıyor: Mart 2026 yılında dağıtım oranı %50,3; Mart 2027 yılı için hisse başına 165 yen öngörülüyor (ara dönem 81 yen ödendi). 10 Şubat 2026'da 7.256.800 hisse, hisse başına 3.445 yenden toplam 25,0 milyar yene geri alındı; Nisan-Eylül 2026'da 13,4 milyar yenlik hisse daha alındı. 1 Ekim 2025'te her hisse beşe bölündü. Kusurlar ana iş dışına ve yeni alanlara giden paradadır. Singapurlu ortak ofis şirketi JustCo'daki pay için Nisan-Eylül 2026'da 4,38 milyar yen değer kaybı yazıldı. Sağlık hizmetleri şirketi Solasto'daki payın tamamı 27 Ağustos 2026'da satıldı (kazanç 9,87 milyar yen). Konut geliştiricisi The Global, hisse başına 1.280 yenlik pay alım teklifiyle ve toplam 30,6 milyar yen nakitle alındı; 17,5 milyar yen şerefiye doğdu. Satılık gayrimenkul stoku altı ayda 273,2 milyar yenden 388,6 milyar yene çıktı ve banka borcuyla finanse edildi. Şerefiye Eylül 2026'da 29,4 milyar yen, özsermayenin yaklaşık %5'i. Yöneticilerin hisse bazlı ücreti Mart 2026 yılında yaklaşık 309 milyon yen (kârın %1'inden az; veri sitesinden). Değer düşüklüğü ya da menkul kıymet değer kaybı son üç dönemin üçünde de yazıldı (Mart 2025 yılı: 3,18 ve 0,56 milyar yen; Mart 2026 yılı: 0,50 ve 0,53 milyar yen; Nisan-Eylül 2026: 4,38 milyar yen); bunlar olağan gider sayılmalı. Şirket düzeltilmiş kâr açıklamıyor. Emeklilik yükümlülüğü Eylül 2026'da 13,1 milyar yen. Toprak sahiplerine verilen kira taahhütlerinin toplam tutarına bakıldı, okunan belgelerde yok.",
+  "latest": "30 Ekim 2026: Nisan-Eylül 2026 sonuçları açıklandı. Satış 959,6 milyar yenden 988,7 milyar yene (+%3,0), faaliyet kârı 69,4 milyar yenden 79,3 milyar yene (+%14,3), ana ortaklık net kârı 49,9 milyar yenden 64,2 milyar yene (+%28,6) çıktı; hisse başına kâr 196,79 yen. Net kârdaki artışın bir bölümü tek seferlik: Solasto hisselerinin satışından 9,87 milyar yen kazanç yazıldı, JustCo için 4,38 milyar yen değer kaybı düşüldü. Olağan kâr %10,1 arttı. İnşaat siparişleri %13,2 azalarak 237,8 milyar yene indi; şirket bunu yükselen faizin toprak sahiplerini temkinli kılmasına bağlıyor. Şirket yıl tahminini yükseltti: satış 2,08 trilyon yen, faaliyet kârı 150 milyar yen, net kâr 109 milyar yen, hisse başına kâr 329 yen (önceki tahmin 326 yen). Finansal borç (kredi ve tahvil) altı ayda 233,4 milyar yenden 421,6 milyar yene çıktı; nakit 356,6 milyar yen. İşletme nakit akışı altı ayda eksi 31,8 milyar yen oldu.",
+  "risks": [
+   "Son 12 ayın kârı olağan kazanç gücünü olduğundan yüksek gösteriyor: hisse başına 345,39 yenlik kârın içinde Solasto hisse satışından 9,87 milyar yen (vergi öncesi) kazanç var; şirketin Mart 2027 yılı için kendi tahmini 329 yen. Güvenlik marjı ayrıca reel hisse başına kârın yılda yaklaşık %8,8 büyüyeceği varsayımına dayanıyor; inşaat siparişleri ise %13,2 düştü.",
+   "Şirket binaları sahiplerinden toptan kiralıyor ve kiracı bulamasa da sahibine kira öder; bu taahhütler bilançoda borç olarak görünmez ve toplam tutarı okunan belgelerde yok. Doluluk (%97,7) düşerse ya da piyasa kiraları gerilerse kiralama kolunun kârı hızla erir.",
+   "İş faize ve vergi kuralına duyarlı: toprak sahipleri binayı krediyle yaptırır, çoğu miras vergisini azaltmak için yatırım yapar. Faiz yükseldikçe sipariş düşüyor; siparişler inşaat kârına bir iki yıl gecikmeyle yansır. Kazanç bu yüzden döngüseldir.",
+   "Bilanço altı ayda ağırlaştı: finansal borç 233,4 milyar yenden 421,6 milyar yene, satılık gayrimenkul stoku 273,2 milyar yenden 388,6 milyar yene çıktı; Mart 2026'da 41,7 milyar yen net nakit varken Eylül 2026'da 65,0 milyar yen net borç oluştu. Geliştirme kolu konut fiyatlarına bağlıdır ve işletme nakit akışını eksiye çevirdi.",
+   "Ana iş dışı yatırımların sicili karışık: JustCo'da 4,38 milyar yen değer kaybı yazıldı; The Global alımında ödenen 30,6 milyar yenin 17,5 milyar yeni şerefiye. Japonya'da nüfus azalıyor; kiralık konut talebi uzun vadede bölgeden bölgeye zayıflayabilir."
+  ],
+  "watch": [
+   "İnşaat siparişleri ve sipariş bakiyesi (Eylül 2026: 755,0 milyar yen, %4,7 düşüş)",
+   "Konut doluluk oranı (Eylül 2026: kira bazlı %97,7) ve yönetilen birim sayısı",
+   "Tamamlanan inşaatlarda brüt kâr marjı (Nisan-Eylül 2026: %27,6)",
+   "Satılık gayrimenkul stoku ve net borç (Eylül 2026: 388,6 ve 65,0 milyar yen)"
+  ],
+  "sources": [
+   {
+    "t": "Daito Trust: Nisan-Eylül 2026 konsolide sonuç bülteni, kessan tanshin (30 Ekim 2026)",
+    "te": "Daito Trust: consolidated financial results for April-September 2026, kessan tanshin (30 October 2026)",
+    "u": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261030/20261029560212.pdf"
+   },
+   {
+    "t": "Daito Trust: Mart 2026'da biten yılın konsolide sonuç bülteni (30 Nisan 2026)",
+    "te": "Daito Trust: consolidated financial results for the year to March 2026 (30 April 2026)",
+    "u": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20260430/20260428512780.pdf"
+   },
+   {
+    "t": "Daito Trust: Nisan-Haziran 2026 çeyreği sonuç bülteni, TDnet (31 Temmuz 2026)",
+    "te": "Daito Trust: results for the April-June 2026 quarter, TDnet (31 July 2026)",
+    "u": "https://www2.jpx.co.jp/disc/18780/081220260730503593_tse-qcedjpsm-18780-20260731318780-ixbrl.htm"
+   },
+   {
+    "t": "Gyokai Digest: Japonya'nın kiralık konut devleri, Mart 2026 yılı karşılaştırması (25 Eylül 2026)",
+    "te": "Gyokai Digest: Japan's Rental Housing Giants FY2026 Full Year (25 September 2026)",
+    "u": "https://www.gyokaidigest.com/en/industry/rental-housing/2026-FY"
+   },
+   {
+    "t": "EDINET DB: Daito Trust büyük ortaklar (yıllık rapordan; güncelleme 18 Ekim 2026)",
+    "te": "EDINET DB: Daito Trust major shareholders (from the annual securities report; updated 18 October 2026)",
+    "u": "https://edinetdb.jp/company/E00218/shareholders"
+   },
+   {
+    "t": "EDINET DB: Daito Trust yönetici ücretleri, Mart 2026 yılı",
+    "te": "EDINET DB: Daito Trust executive compensation, year to March 2026",
+    "u": "https://edinetdb.jp/company/E00218/compensation-text?fy=2026"
+   },
+   {
+    "t": "Mynavi 2027: Daito Trust Grubu şirket tanıtım sayfası (yönetilen birim sıralaması)",
+    "te": "Mynavi 2027: Daito Trust Group company profile (ranking by units under management)",
+    "u": "https://job.mynavi.jp/27/pc/search/corp214558/outline.html"
+   }
+  ],
+  "en": {
+   "one": "Builds rental housing for landowners, then leases and runs the buildings. Large scale, but recent profit includes a share-sale gain; debt and inventory rose fast.",
+   "business": "Daito Trust builds rental apartment blocks for landowners, then leases the whole building from the owner and lets it to tenants. In the year to March 2026 sales were 1.98 trillion yen and operating profit 135.3 billion yen. Leasing brought 1.20 trillion yen of sales (segment profit 85.6 billion yen) and construction 544.3 billion yen (45.1 billion yen). The third segment is real estate development: the company buys or builds property on its own account and sells it; its sales rose from 51.3 billion yen to 147.1 billion yen in a year (segment profit 18.5 billion yen). The rest is finance (sales 12.8 billion yen) and other businesses such as gas and care. In September 2026 it managed 1,363,395 units in 200,388 buildings.",
+   "moat_text": "The moat is narrow. The evidence is scale and occupancy: 1,363,395 units under management in September 2026 (up 2.0% in a year) and rent-based residential occupancy of 97.7% (97.3% a year earlier). The company's own profile page, citing the trade paper Zenkoku Chintai Jutaku Shimbun, says it has ranked first by units under management for 29 years; we could not open the paper's ranking or verify competitors' unit counts. Evidence of pricing power is limited: total gross margin was 17.1% in the year to March 2025 and 17.5% in the year to March 2026; in April-September 2026 the gross margin on completed construction rose from 24.8% to 27.6%, which the company attributes to price increases. Rent increases also lifted leasing sales above plan. Real return on equity stayed between 14.8% and 19.0% over five years; 19.6% in the last 12 months. The weak side: new business depends on a sales force that persuades landowners one by one, on inheritance tax rules and on loan rates; construction orders fell 13.2% in April-September 2026. The operating margin is about 6.8%; smaller rival Starts earns 14.4%. The growing development segment is an ordinary buy-and-sell business with no moat. Hence a B score of 2.",
+   "mgmt": "There is no controlling shareholder. According to a data site quoting the annual report, the largest holders are custody banks' trust accounts (Master Trust 14.42%, Custody Bank 5.65%) and Hikari Tsushin (5.69%); the top ten hold 47.3% (we could not open the annual report itself). The company pays out half of profit: the payout ratio was 50.3% in the year to March 2026; 165 yen per share is forecast for the year to March 2027 (81 yen interim paid). On 10 February 2026 it bought back 7,256,800 shares at 3,445 yen each, 25.0 billion yen in total; another 13.4 billion yen of shares was bought in April-September 2026. Each share was split into five on 1 October 2025. The flaws lie in money sent outside the core business and into new areas. A 4.38 billion yen write-down was booked in April-September 2026 on the stake in JustCo, a Singapore co-working company. The whole stake in Solasto, a healthcare services company, was sold on 27 August 2026 (gain 9.87 billion yen). The condominium developer The Global was acquired through a tender offer at 1,280 yen per share and 30.6 billion yen of cash in total; goodwill of 17.5 billion yen arose. Real estate held for sale rose from 273.2 billion yen to 388.6 billion yen in six months, funded by bank debt. Goodwill was 29.4 billion yen in September 2026, about 5% of equity. Directors' share-based pay was about 309 million yen in the year to March 2026 (under 1% of profit; from a data site). Impairments or securities write-downs were booked in each of the last three periods (year to March 2025: 3.18 and 0.56 billion yen; year to March 2026: 0.50 and 0.53 billion yen; April-September 2026: 4.38 billion yen); they should be treated as ordinary costs. The company does not report an adjusted profit. The retirement benefit liability was 13.1 billion yen in September 2026. We looked for the total of the rent commitments to landowners; it is not in the documents read.",
+   "latest": "30 October 2026: results for April-September 2026 were announced. Sales rose from 959.6 billion yen to 988.7 billion yen (+3.0%), operating profit from 69.4 billion yen to 79.3 billion yen (+14.3%) and profit attributable to owners of the parent from 49.9 billion yen to 64.2 billion yen (+28.6%); earnings per share were 196.79 yen. Part of the rise in net profit is one-off: a gain of 9.87 billion yen was booked on the sale of Solasto shares, less a 4.38 billion yen write-down on JustCo. Ordinary profit rose 10.1%. Construction orders fell 13.2% to 237.8 billion yen; the company says rising interest rates made landowners cautious. The company raised its full-year forecast: sales 2.08 trillion yen, operating profit 150 billion yen, net profit 109 billion yen, earnings per share 329 yen (previously 326 yen). Financial debt (loans and bonds) rose from 233.4 billion yen to 421.6 billion yen in six months; cash was 356.6 billion yen. Operating cash flow was minus 31.8 billion yen for the six months.",
+   "risks": [
+    "The last 12 months' profit overstates normal earning power: earnings of 345.39 yen per share include a 9.87 billion yen (pre-tax) gain on the sale of Solasto shares; the company's own forecast for the year to March 2027 is 329 yen. The margin of safety also rests on the assumption that real earnings per share grow about 8.8% a year, while construction orders fell 13.2%.",
+    "The company leases whole buildings from their owners and pays the owner rent even when it finds no tenant; these commitments do not appear as debt on the balance sheet and their total is not in the documents read. If occupancy (97.7%) falls or market rents decline, leasing profit erodes quickly.",
+    "The business is sensitive to interest rates and tax rules: landowners build with loans, and many invest to reduce inheritance tax. Orders fall as rates rise; orders reach construction profit with a lag of a year or two. Earnings are therefore cyclical.",
+    "The balance sheet grew heavier in six months: financial debt rose from 233.4 billion yen to 421.6 billion yen and real estate held for sale from 273.2 billion yen to 388.6 billion yen; net cash of 41.7 billion yen in March 2026 became net debt of 65.0 billion yen in September 2026. The development segment depends on housing prices and turned operating cash flow negative.",
+    "The record of investments outside the core business is mixed: a 4.38 billion yen write-down on JustCo; 17.5 billion yen of the 30.6 billion yen paid for The Global is goodwill. Japan's population is shrinking; demand for rental housing may weaken region by region over the long run."
+   ],
+   "watch": [
+    "Construction orders and the order backlog (September 2026: 755.0 billion yen, down 4.7%)",
+    "Residential occupancy (September 2026: 97.7% rent-based) and units under management",
+    "Gross margin on completed construction (April-September 2026: 27.6%)",
+    "Real estate held for sale and net debt (September 2026: 388.6 and 65.0 billion yen)"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-19",
+   "per": "2026-Q2"
+  },
+  "earn": {
+   "k": 0.953,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Bu kârın içindeki tek seferlik kazançlar: Solasto Corporation hisselerinin tamamının satışından kazanç: 9.870 milyon yen (vergi öncesi, olağan dışı gelir; devir 27 Ağustos 2026). Solasto sağlık hizmetleri şirketidir, özkaynak yöntemiyle izlenen iştirakti; satış yinelenmez: son 12 ay kârının %6,6 kadarı. Aynı dönemin tek seferlik giderleri: JustCo Holdings hisseleri için yatırım menkul kıymeti değer kaybı: 4.380 milyon yen (vergi öncesi, olağan dışı zarar): %2,9. Net etki %3,7; kazanç bu kadar indirildi. Şirketin Mart 2027'de biten mali yıl (Nisan 2026 - Mart 2027) için hisse başına kâr beklentisi 329,00 JPY; son 12 ayda 345,39 JPY. Beklenti daha düşük olduğu için kazanç bu orana indirildi (%4,7). Son 12 ayın kârı 0,95 ile çarpılarak kullanıldı.",
+    "en": "The calculation rests on the profit of the last 12 months. One-off gains inside that profit: Gain on the sale of the whole stake in Solasto Corporation: 9,870 million yen (pre-tax, extraordinary income; transfer on 27 August 2026). Solasto is a healthcare services company and was an equity-method affiliate; the sale will not recur: 6.6% of last-12-month profit. One-off charges in the same period: Write-down of investment securities on JustCo Holdings shares: 4,380 million yen (pre-tax, extraordinary loss): 2.9%. The net effect is 3.7%; earnings were lowered by that much. The company's earnings-per-share outlook for fiscal year to March 2027 (April 2026 - March 2027) is 329.00 JPY; the last 12 months were 345.39 JPY. Because the outlook is lower, earnings were lowered to that ratio (4.7%). Last-12-month profit was used multiplied by 0.95."
+   },
+   "per": "2026-Q2"
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %8,8 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Nisan-Eylül 2026 (altı ay) %30,8; Temmuz-Eylül 2026 çeyreği (altı ay eksi ilk çeyrek) %59,8; Mart 2027'de biten yıl için şirket tahmini (hisse başına kâr) %10,0. Altı aylık ve çeyreklik artışı Solasto hisse satışı kazancı (9.870 milyon yen, vergi öncesi) büyütüyor; JustCo değer kaybı (4.380 milyon yen) bir bölümünü götürüyor. Şirket düzeltilmiş kâr açıklamıyor. Tek seferlik kalemlerden önceki olağan kâr altı ayda 71.380 milyon yenden 78.567 milyon yene çıktı (+%10,1). İnşaat siparişleri aynı dönemde %13,2 düştü. En düşüğü, enflasyondan arındırılınca, %7,7. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 8.8% a year. Latest figures (earnings per share, year on year): April-September 2026 (six months) 30.8%; July-September 2026 quarter (six months minus first quarter) 59.8%; company forecast for the year to March 2027 (EPS) 10.0%. The six-month and quarterly growth is inflated by the gain on the Solasto share sale (9,870 million yen pre-tax), partly offset by the JustCo write-down (4,380 million yen). The company reports no adjusted profit. Ordinary profit, before these one-offs, rose from 71,380 million yen to 78,567 million yen in the six months (+10.1%). Construction orders fell 13.2% in the same period. The lowest, after inflation, is 7.7%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q2"
+  }
+ },
+ "6196": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 2,
+   "E": 2
+  },
+  "moat": "zayıf",
+  "per": "2026-Q4",
+  "one": "Küçük ve orta ölçekli şirketlerin satışına aracılık eder. Kârlı ve borçsuz; ama her iş yeniden kazanılır, kâr birkaç büyük işe bağlı. Hendek ölçütünü geçemedi.",
+  "business": "Strike Group, sahibi yaşlanan ya da devretmek isteyen küçük ve orta ölçekli Japon şirketlerine alıcı bulur; işlem kapanınca iki taraftan başarı ücreti alır. Eylül 2026'da biten yılda hasılat 27.077 milyon yen, faaliyet kârı 10.401 milyon yen (marj %38,4), net kâr 7.139 milyon yen oldu. Bir yıl önce (konsolide olmayan) hasılat 20.314 milyon yen, net kâr 4.719 milyon yendi; o yıl 275 işlem kapandı ve işlem başına ücret yaklaşık 74 milyon yendi. Yeni işlerin %49,7'si 1.700'den fazla iş ortağından (banka, muhasebe bürosu) yönlendirmeyle, kalanı doğrudan satışla geldi. Şirket 1 Nisan 2026'da holding yapısına geçti; aracılık işi bağlı ortaklık Strike'ta.",
+  "moat_text": "Hendek zayıf. Üstünlük var: yönlendiren iş ortakları ağı, tanınan ad ve yüksek kârlılık. Faaliyet kâr marjı 2015'ten 2025'e %31,2 ile %43,1 arasında kaldı; reel özsermaye kârlılığı son beş yılda %21,1 ile %27,9 arasında. Ama bu üstünlük kolay aşılır. Müşteri bir kez gelir: şirketini satan sahip ikinci kez müşteri olmaz, her iş yeniden kazanılır. Şirketin kendi tahminiyle pazar payı yaklaşık %2 (2024'te Japonya'da yaklaşık 11.000 işlem, şirketin aracılığı 252). İş için lisans gerekmez; şirket rekabetin sertleşmesini kendi risk listesinde sayıyor. Değer danışmanlarda durur: Eylül 2025'te 452 çalışanın ortalama kıdemi 2,5 yıl, ortalama yıllık ücreti 15,21 milyon yendi; maliyetin en büyük kalemi personeldir (2025'te satış maliyetinin 5.907 milyon yeni). Brüt kâr marjı 2025'te %58,7; Ekim 2025-Mart 2026'da %57,3 (bir yıl önce %58,6). Fiyatlama gücünü gösteren bir rakam (ücret oranının yıllara göre seyri) okunan belgelerde yok; bakıldı. B puanı bu yüzden 1.",
+  "mgmt": "Kurucu Kunihiko Arai'nin payı %12,84, K&Company'nin payı %27,34 (31 Mart 2026). Borç yok: Eylül 2026'da nakit 27.658 milyon yen, toplam varlık 33.829 milyon yen, özsermaye oranı %74,4. Kâr temettüye gidiyor: şirket dağıtım oranı hedefini %35'ten %50'ye çıkardı; 2026 için hisse başına 65 yen ödeniyor (dağıtım oranı %52,4), 2027 beklentisi 80 yen (%58,6). 1 Nisan 2026'da paylar üçe bölündü; geçen yılın 180 yenlik temettüsü bugünkü payla 60 yendir. 2026'da pay geri alımı yok: finansman nakit çıkışı (3.457 milyon yen) temettü kadardır. Hisse bazlı ücret yok: yarı yıl raporu, pay opsiyonu bulunmadığını yazıyor. Nisan 2026'da finansal danışmanlık ve strateji danışmanlığı için iki yeni şirket kuruldu; dördüncü bağlı ortaklık Nihon Kigyo Toshi Kiban'ın ne kadar sermaye kullandığı okunan belgelerde yok. Şerefiyeye, emeklilik yükümlülüğüne ve garantilere bakıldı; yarı yıl raporunda garanti yok, öbürleri belgede geçmiyor. 2026 yıl sonu bilançosunun ve gelir tablosunun ayrıntısı (olağan dışı kalemler dahil) okunamadı.",
+  "latest": "30 Ekim 2026: Şirket Eylül 2026'da biten yılı açıkladı (ilk konsolide yıl; geçen yılla karşılaştırma verilmedi). Hasılat 27.077 milyon yen, faaliyet kârı 10.401 milyon yen, net kâr 7.139 milyon yen, hisse başına kâr 123,93 yen. Geçen yılın konsolide olmayan net kârı 4.719 milyon yendi (hisse başına, bölünmeye göre düzeltilmiş, 81,93 yen). Kârın yarısından fazlası son çeyrekte geldi: ilk dokuz ayda net kâr 3.406 milyon yen, Temmuz-Eylül çeyreğinde 3.733 milyon yen (bizim hesabımız; bir yıl önce 1.866 milyon yen). Şirketin 28 Ağustos 2026'da yükselttiği yıl beklentisi 5.700 milyon yendi. Yeni yıl beklentisi: hasılat 30.050 milyon yen (+%11,0), net kâr 7.863 milyon yen (+%10,1), hisse başına kâr 136,49 yen, temettü 80 yen.",
+  "risks": [
+   "Kâr birkaç büyük işlemin hangi çeyrekte kapandığına bağlı: 2026 net kârının %52'si son çeyrekte geldi. Son 12 ayın kârı olağan bir yılı olduğundan yüksek gösteriyor olabilir.",
+   "Birleşme ve satın alma piyasası ekonomiye ve kredi koşullarına bağlıdır; 2025'te işlem sayısı planın altında kaldı (275; plan 310) ve net kâr %4,7 geriledi.",
+   "Danışmanlar ayrılırsa iş de gider: ortalama kıdem 2,5 yıl ve rakipler de danışman topluyor.",
+   "Sektör için ayrı bir yasa yok; devletin küçük şirket devirleri için kuralları sıkılaşırsa ya da şirket bu kurallardaki kaydını yitirirse iş etkilenir.",
+   "2026 konsolide tablolarının ayrıntısı okunamadı; olağan dışı kalem olup olmadığı yalnız olağan kâr ile net kâr arasındaki orandan (%68,5) çıkarıldı."
+  ],
+  "watch": [
+   "Yılda kapanan işlem sayısı ve büyük işlemlerin (ücreti 100 milyon yen ve üstü) sayısı",
+   "Danışman sayısı ve ayrılma oranı",
+   "Yeni alınan iş sayısı (Ekim 2025-Mart 2026'da 636; bir yıl önce 535)",
+   "Faaliyet kâr marjı (2025'te %31,2; 2026'da %38,4)"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tyo/6196/financials/ratios/"
+   },
+   {
+    "t": "JPX (TDnet): Strike Group Eylül 2026 yılı kessan tanshin, konsolide (30 Ekim 2026)",
+    "te": "JPX (TDnet): Strike Group kessan tanshin for the year to September 2026, consolidated (30 October 2026)",
+    "u": "https://www2.jpx.co.jp/disc/61960/081220261030560411_tse-acedjpsm-61960-20261030361960-ixbrl.htm"
+   },
+   {
+    "t": "JPX (TDnet): Strike Group 3. çeyrek kessan tanshin, Ekim 2025-Haziran 2026 (30 Temmuz 2026)",
+    "te": "JPX (TDnet): Strike Group third-quarter kessan tanshin, October 2025-June 2026 (30 July 2026)",
+    "u": "https://www2.jpx.co.jp/disc/61960/081220260730502731_tse-qcedjpsm-61960-20260730361960-ixbrl.htm"
+   },
+   {
+    "t": "JPX (TDnet): Strike Eylül 2025 yılı kessan tanshin, konsolide olmayan (30 Ekim 2025)",
+    "te": "JPX (TDnet): Strike kessan tanshin for the year to September 2025, non-consolidated (30 October 2025)",
+    "u": "https://www2.jpx.co.jp/disc/61960/081220251030582324_tse-anedjpsm-61960-20251030361960-ixbrl.htm"
+   },
+   {
+    "t": "Strike: Eylül 2025 yılı sonuç sunumu, TDnet kopyası (30 Ekim 2025)",
+    "te": "Strike: results presentation for the year to September 2025, TDnet copy (30 October 2025)",
+    "u": "https://assets.minkabu.jp/news/article_media_content/urn:newsml:tdnet.info:20251030582403/140120251030582403.pdf"
+   },
+   {
+    "t": "EDINET: Strike Group yarı yıl raporu, Ekim 2025-Mart 2026 (14 Mayıs 2026)",
+    "te": "EDINET: Strike Group semi-annual report, October 2025-March 2026 (14 May 2026)",
+    "u": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100Y3Q5.pdf"
+   },
+   {
+    "t": "Kabutan: Strike Group yıl beklentisini yükseltti (28 Ağustos 2026)",
+    "te": "Kabutan: Strike Group raises its full-year forecast (28 August 2026)",
+    "u": "https://s.kabutan.jp/news/k202608280006/"
+   },
+   {
+    "t": "Kabutan: Strike Eylül 2025 yılı ve Temmuz-Eylül 2025 çeyreği (30 Ekim 2025)",
+    "te": "Kabutan: Strike year to September 2025 and July-September 2025 quarter (30 October 2025)",
+    "u": "https://s.kabutan.jp/stocks/6196/news/k202510300110/"
+   },
+   {
+    "t": "M&A Online (Excite): üç büyük aracının yarı yıl sonuçları (21 Mayıs 2026)",
+    "te": "M&A Online (Excite): half-year results of three large M&A brokers (21 May 2026)",
+    "u": "https://www.excite.co.jp/news/article/maonline_ma_kessa20260521/"
+   }
+  ],
+  "en": {
+   "one": "Brokers sales of small and mid-sized companies. Profitable and debt-free, but every deal is won anew; profit hangs on a few. Failed the moat test.",
+   "business": "Strike Group finds buyers for small and mid-sized Japanese companies whose owners are ageing or want to hand over; when a deal closes it takes a success fee from both sides. In the year to September 2026 revenue was 27,077 million yen, operating profit 10,401 million yen (a 38.4% margin) and net profit 7,139 million yen. A year earlier (non-consolidated) revenue was 20,314 million yen and net profit 4,719 million yen; 275 deals closed that year at about 74 million yen each. Of new mandates, 49.7% came by referral from more than 1,700 partners (banks, accounting firms) and the rest from direct sales. The company became a holding company on 1 April 2026; the brokerage business sits in the subsidiary Strike.",
+   "moat_text": "The moat is weak. There is an edge: the referral network, a known name and high profitability. The operating margin stayed between 31.2% and 43.1% from 2015 to 2025; real return on equity was between 21.1% and 27.9% over the last five years. But the edge is easy to overcome. A client comes once: an owner who sells the company does not return, so every deal has to be won anew. By the company's own estimate its market share is about 2% (about 11,000 deals in Japan in 2024, 252 of them brokered by the company). The business needs no licence, and the company lists tougher competition among its own risks. The value sits with the consultants: in September 2025 the 452 employees had an average tenure of 2.5 years and average annual pay of 15.21 million yen; staff is the largest cost (5,907 million yen of cost of sales in 2025). The gross margin was 58.7% in 2025 and 57.3% in October 2025-March 2026 (58.6% a year earlier). No figure showing pricing power (the fee rate over the years) appears in the documents read; we looked. That is why B is 1.",
+   "mgmt": "Founder Kunihiko Arai holds 12.84% and K&Company 27.34% (31 March 2026). There is no debt: in September 2026 cash was 27,658 million yen against total assets of 33,829 million yen, and the equity ratio was 74.4%. Profit goes to dividends: the company raised its payout target from 35% to 50%; it pays 65 yen per share for 2026 (a 52.4% payout) and forecasts 80 yen for 2027 (58.6%). The shares were split three for one on 1 April 2026; last year's 180 yen dividend equals 60 yen on today's share count. There was no buyback in 2026: the financing cash outflow (3,457 million yen) matches the dividend. There is no share-based pay: the semi-annual report says no stock options exist. Two new companies, for financial advisory and strategy consulting, were set up in April 2026; how much capital the fourth subsidiary, Nihon Kigyo Toshi Kiban, uses is not in the documents read. We looked for goodwill, pension obligations and guarantees; the semi-annual report shows no guarantees and the others are not mentioned. The detail of the 2026 year-end balance sheet and income statement (including extraordinary items) could not be read.",
+   "latest": "30 October 2026: The company reported the year to September 2026 (its first consolidated year; no prior-year comparison was given). Revenue was 27,077 million yen, operating profit 10,401 million yen, net profit 7,139 million yen and earnings per share 123.93 yen. Last year's non-consolidated net profit was 4,719 million yen (81.93 yen per share, adjusted for the split). More than half of the profit came in the last quarter: net profit was 3,406 million yen in the first nine months and 3,733 million yen in the July-September quarter (our arithmetic; 1,866 million yen a year earlier). The full-year forecast the company had raised on 28 August 2026 was 5,700 million yen. Forecast for the new year: revenue 30,050 million yen (+11.0%), net profit 7,863 million yen (+10.1%), earnings per share 136.49 yen, dividend 80 yen.",
+   "risks": [
+    "Profit depends on which quarter a few large deals close in: 52% of 2026 net profit came in the last quarter. The last 12 months may overstate a normal year.",
+    "The M&A market depends on the economy and on credit conditions; in 2025 the number of deals fell short of plan (275 against 310) and net profit fell 4.7%.",
+    "If consultants leave, the business leaves with them: average tenure is 2.5 years and rivals are hiring consultants too.",
+    "No specific law governs the industry; if the government's rules for small-company transfers tighten, or the company loses its registration under them, the business is affected.",
+    "The detail of the 2026 consolidated statements could not be read; whether there was an extraordinary item is inferred only from the ratio of net profit to ordinary profit (68.5%)."
+   ],
+   "watch": [
+    "Deals closed per year and the number of large deals (fee of 100 million yen or more)",
+    "Number of consultants and their attrition",
+    "New mandates (636 in October 2025-March 2026; 535 a year earlier)",
+    "Operating margin (31.2% in 2025; 38.4% in 2026)"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-19",
+   "per": "2026-Q4"
+  }
+ },
+ "7685": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-Q2",
+  "one": "Evlere giderek ve mağazalarda ikinci el değerli eşya alır, toptan satar. Kâr hızla büyüyor; ama üstünlük kalıcı görünmedi, hendek ölçütünü geçemedi.",
+  "business": "BuySell Technologies, evlere giderek (Bui-Seru, Fukuchan markaları) ve mağazalarda kimono, mücevher, kıymetli maden, saat, marka çanta ve antika satın alır; aldığını çoğunlukla ikinci el tüccarlarına, müzayedelerde ve internet üzerinden satar. 2025'te satış 100.614 milyon yen, faaliyet kârı 9.044 milyon yen, ana ortaklık net kârı 5.270 milyon yen oldu. 2025'te 445.199 ev ziyareti yapıldı; ziyaret başına brüt kâr 74.787 yen, ziyaret başına reklam gideri 23.518 yendi. 2026'nın ilk yarısında ev ziyareti kolunun satışı 33.626 milyon yen, mağaza kolunun satışı 35.350 milyon yen oldu; Haziran 2026 sonunda 547 mağaza vardı (302'si bayi). 2025 satışının %25,0'i tek alıcıya (Sigma), %13,5'i bir kıymetli maden tüccarına (Nihon Material) yapıldı.",
+  "moat_text": "Hendek zayıf. Üstünlük ölçekten ve işleyişten geliyor: şirket yılda 445.199 ev ziyareti yapıyor ve ziyaret başına brüt kâr 2019'daki 46.687 yenden 2025'te 74.787 yene çıktı; 2026'nın ilk yarısında 93.169 yen. Reel özsermaye kârlılığı beş yılda %13,9 ile %32,9 arasında, son 12 ayda %33,9. Ama bu üstünlüğün kalıcı olduğunu gösteren kanıt yetersiz. Birincisi, iş müşteriyi reklamla bulur: ziyaret başına reklam gideri 2019'daki 14.509 yenden 2025'te 23.518 yene, 2026'nın ilk yarısında 29.943 yene çıktı. 2023'te reklam gideri arttığında ziyaret başına reklam sonrası kâr 45.560 yenden 44.214 yene indi ve net kâr 2.268 milyon yenden 1.453 milyon yene düştü. İkincisi, alınan mal fiyatı piyasada belirlenen maldır: kıymetli maden tüccarı Nihon Material'ın satıştaki payı 2024'te %5,4 iken 2025'te %13,5 oldu; şirket yıllık raporunda külçe fiyatlarındaki değişimi risk sayıyor. Üçüncüsü, büyümenin önemli bölümü satın almalardan geliyor (2024'te Fukuchan'ın sahibi Rext, 2026'da DelightZ ve HKS Victory Japan); mağazayla alım kolay kopyalanan bir iştir. Brüt kâr marjı 2026'nın ilk yarısında %53,6'dan %52,2'ye indi. Pazar payı rakamı okunan belgelerde yok; yıllara göre brüt marj dizisi okunamadı. B puanı bu yüzden 1.",
+  "mgmt": "Hâkim ortak Midas fonlarıdır: Aralık 2025'te Hideki Yoshimura ve Midas A fonu oy haklarının %35,5'ini, Midas 2 numaralı fon %11,7'sini tutuyordu. Bu payların 14.376.134 adedi (çıkarılmış payların %46,56'sı) rehinlidir; bu, küçük ortak için bir risktir. Kârın büyük bölümü şirkette kalıyor ve satın almalara gidiyor: 2025 temettüsü hisse başına 25 yen (bugünkü pay sayısıyla 12,5 yen; dağıtım oranı %14,3), 2026 beklentisi 27 yen (dağıtım oranı %17,0). Geri alım görülmedi. Satın almalar ana işle ilgili ama borçla yapıldı: 2024'te yatırım nakit çıkışı 14.437 milyon yen, finansman girişi 17.824 milyon yen. Haziran 2026'da şerefiye 16.832 milyon yen, ana ortaklık özsermayesinin (26.518 milyon yen) yaklaşık %63'ü. DelightZ alımının 392 milyon yeni hisseyle ödendi. Hisse bazlı ücret 2025'te 263 milyon yen, 2026'nın ilk yarısında 294 milyon yen; iki dönemde de net kârın yaklaşık %5'i. Pay sayısı artıyor: sulandırılmış hisse başına kâr 94,81 yen, sulandırılmamış 96,80 yen. Şirket 1 Ocak 2025'te ve 1 Nisan 2026'da payını ikiye böldü. Son iki dönemde olağan dışı zarar yazılmadı. Emeklilik yükümlülüğüne ve garantilere bakıldı; okunan belgelerde yok. Midas grubuyla ticari işlemler şirkete göre çok küçük.",
+  "latest": "13 Kasım 2026: Şirket Ocak-Eylül 2026 sonuçlarını açıkladı (rakamlar şirketin basın duyurusunu aktaran haberlerden; sonuç bülteni açılamadı). Dokuz aylık satış 108,5 milyar yen (+%47,4), faaliyet kârı 13,2 milyar yen (+%75,8), ana ortaklık net kârı 8,4 milyar yen (+%95,1). Temmuz-Eylül çeyreğinde 135.944 ev ziyareti yapıldı (+%25,5); mağaza sayısı 570'e çıktı. Yıl beklentisi değişmedi: satış 140 milyar yen, faaliyet kârı 15,6 milyar yen, net kâr 9,8 milyar yen, hisse başına kâr 158,50 yen; dokuz ayda net kâr beklentisinin %86,0'ına ulaşıldı. Şirket 30 Ekim 2026'da Kyushu'da 20 mağazası olan HKS Victory Japan'ı satın aldı (haber kaynağına göre bedel 5,25 milyar yen) ve 1 Ocak 2027'de bünyesine katacak. 14 Ağustos 2026'da şirket, altın fiyatının mayıs-haziranda zirvesinden yaklaşık %20 gerilediğini ve müşterilerin altın satışını ertelediğini söylemişti.",
+  "risks": [
+   "Kârın bir bölümü altın ve kıymetli maden fiyatına bağlıdır; fiyat 2025'te yükseldi ve beş yıllık geçmiş tam bir döngüyü göstermez. Şirket bu etkinin tutarını açıklamıyor.",
+   "Müşteri reklamla bulunur; ziyaret başına reklam gideri 2019'dan 2026'nın ilk yarısına iki katına çıktı. Reklam verimi düşerse kâr hızla geriler; 2023'te net kâr %36 düştü.",
+   "Büyüme borçla yapılan satın almalara dayanıyor: şerefiye özsermayenin yaklaşık %63'ü, finansal borç Haziran 2026'da yaklaşık 25,8 milyar yen (nakit 28,6 milyar yen). Alınan bir iş beklentiyi tutmazsa değer düşüklüğü yazılır.",
+   "Hâkim ortağın elindeki payların çıkarılmış payların %46,56'sına denk gelen bölümü rehinlidir; ayrıca hisse bazlı ücret net kârın yaklaşık %5'idir ve pay sayısı artmaktadır.",
+   "Satışın %25,0'i tek alıcıya yapılıyor; evde alım işi tüketici koruma kurallarına (ziyaretle alım düzenlemesi) tabidir ve kural sıkılaşırsa iş modeli zorlanır."
+  ],
+  "watch": [
+   "Ziyaret başına brüt kâr ve ziyaret başına reklam gideri",
+   "Altın fiyatı ve Nihon Material'a yapılan satışın payı",
+   "Şerefiye, finansal borç ve yeni satın almalar",
+   "Brüt kâr marjı ve stok devir süresi (Haziran 2026: 57,9 gün)"
+  ],
+  "sources": [
+   {
+    "t": "BuySell Technologies: 2026 ikinci çeyrek (ara dönem) sonuç bülteni (14 Ağustos 2026)",
+    "te": "BuySell Technologies: second-quarter (interim) 2026 earnings report (14 August 2026)",
+    "u": "https://www2.jpx.co.jp/disc/76850/140120260814520524.pdf"
+   },
+   {
+    "t": "BuySell Technologies: 2026 ikinci çeyrek sonuç sunumu (14 Ağustos 2026)",
+    "te": "BuySell Technologies: second-quarter 2026 results presentation (14 August 2026)",
+    "u": "https://www2.jpx.co.jp/disc/76850/140120260814520582.pdf"
+   },
+   {
+    "t": "BuySell Technologies: 2025 yılı sonuç bülteni (13 Şubat 2026)",
+    "te": "BuySell Technologies: fiscal 2025 earnings report (13 February 2026)",
+    "u": "https://www2.jpx.co.jp/disc/76850/081220260213560878_tse-acedjpsm-76850-20260213376850-ixbrl.htm"
+   },
+   {
+    "t": "EDINET DB: BuySell Technologies 2025 yıllık raporunun metni (büyük müşteriler, ortaklar, riskler)",
+    "te": "EDINET DB: text of BuySell Technologies' 2025 annual securities report (major customers, shareholders, risks)",
+    "u": "https://edinetdb.jp/company/E35116/text"
+   },
+   {
+    "t": "Impress Netshop (PR TIMES): BuySell'in üçüncü çeyrek duyurusu (13 Kasım 2026)",
+    "te": "Impress Netshop (PR TIMES): BuySell third-quarter announcement (13 November 2026)",
+    "u": "https://netshop.impress.co.jp/r/prtimes/items/000000255.000018121"
+   },
+   {
+    "t": "EDINET DB: BuySell Technologies 2026 üçüncü çeyrek özeti (13 Kasım 2026)",
+    "te": "EDINET DB: BuySell Technologies third-quarter 2026 summary (13 November 2026)",
+    "u": "https://edinetdb.jp/company/E35116/earnings/FY2026-Q3"
+   },
+   {
+    "t": "logmi Finance: BuySell 2026 ikinci çeyrek sonuç toplantısı dökümü (17 Ağustos 2026)",
+    "te": "logmi Finance: transcript of BuySell's second-quarter 2026 results meeting (17 August 2026)",
+    "u": "https://finance.logmi.jp/articles/385730"
+   },
+   {
+    "t": "M&A Online: BuySell, HKS Victory Japan'ı satın alıyor (17 Eylül 2026)",
+    "te": "M&A Online: BuySell to acquire HKS Victory Japan (17 September 2026)",
+    "u": "https://maonline.jp/news/20260917f"
+   },
+   {
+    "t": "Nihon M&A Center: BuySell, HKS Victory Japan'ı bünyesine katıyor (13 Kasım 2026)",
+    "te": "Nihon M&A Center: BuySell to absorb HKS Victory Japan (13 November 2026)",
+    "u": "https://www.nihon-ma.co.jp/news/20261113_7685-36/"
+   }
+  ],
+  "en": {
+   "one": "Buys second-hand valuables on home visits and in shops, then resells them. Profit is growing fast, but the edge looked fragile; it failed the moat test.",
+   "business": "BuySell Technologies buys kimonos, jewellery, precious metals, watches, branded bags and antiques on home visits (the BuySell and Fukuchan brands) and in shops; it resells mostly to second-hand dealers, at auctions and online. In 2025 sales were 100,614 million yen, operating profit 9,044 million yen and net profit attributable to owners 5,270 million yen. It made 445,199 home visits in 2025; gross profit per visit was 74,787 yen and advertising cost per visit 23,518 yen. In the first half of 2026 the home-visit segment had sales of 33,626 million yen and the shop segment 35,350 million yen; there were 547 shops at the end of June 2026 (302 of them franchised). In 2025, 25.0% of sales went to a single buyer (Sigma) and 13.5% to a precious-metals dealer (Nihon Material).",
+   "moat_text": "The moat is weak. The edge comes from scale and execution: the company makes 445,199 home visits a year, and gross profit per visit rose from 46,687 yen in 2019 to 74,787 yen in 2025; it was 93,169 yen in the first half of 2026. Real return on equity ranged from 13.9% to 32.9% over five years and is 33.9% for the last 12 months. But the evidence that this edge is durable is thin. First, the business finds its customers through advertising: advertising cost per visit rose from 14,509 yen in 2019 to 23,518 yen in 2025 and 29,943 yen in the first half of 2026. When advertising cost rose in 2023, profit per visit after advertising slipped from 45,560 yen to 44,214 yen and net profit fell from 2,268 million yen to 1,453 million yen. Second, the goods bought are priced by the market: the share of sales going to the precious-metals dealer Nihon Material was 5.4% in 2024 and 13.5% in 2025; the annual report lists bullion price changes as a risk. Third, much of the growth comes from acquisitions (Rext, the owner of Fukuchan, in 2024; DelightZ and HKS Victory Japan in 2026); buying through shops is easy to copy. The gross margin slipped from 53.6% to 52.2% in the first half of 2026. No market-share figure appears in the documents read; the gross-margin series by year could not be read. The B score is therefore 1.",
+   "mgmt": "The controlling shareholders are the Midas funds: in December 2025 Hideki Yoshimura and the Midas A fund held 35.5% of voting rights and Midas Fund No. 2 held 11.7%. Of these shares, 14,376,134 (46.56% of shares issued) are pledged; this is a risk for minority shareholders. Most profit stays in the company and goes to acquisitions: the 2025 dividend was 25 yen per share (12.5 yen on today's share count; payout ratio 14.3%) and the 2026 forecast is 27 yen (payout ratio 17.0%). No buyback was seen. The acquisitions are in the core business but were funded with debt: in 2024 investing cash outflow was 14,437 million yen and financing inflow 17,824 million yen. Goodwill was 16,832 million yen in June 2026, about 63% of equity attributable to owners (26,518 million yen). Of the DelightZ purchase, 392 million yen was paid in shares. Share-based pay was 263 million yen in 2025 and 294 million yen in the first half of 2026; about 5% of net profit in both periods. The share count is rising: diluted earnings per share were 94.81 yen against 96.80 yen undiluted. The company split its shares two-for-one on 1 January 2025 and again on 1 April 2026. No extraordinary loss was booked in the last two periods. Pension obligations and guarantees were checked; none appear in the documents read. The company says its dealings with the Midas group are very small.",
+   "latest": "13 November 2026: The company reported January-September 2026 results (figures from news reports carrying the company's press release; the earnings report could not be opened). Nine-month sales were 108.5 billion yen (+47.4%), operating profit 13.2 billion yen (+75.8%) and net profit attributable to owners 8.4 billion yen (+95.1%). It made 135,944 home visits in the July-September quarter (+25.5%); the shop count rose to 570. The full-year forecast is unchanged: sales 140 billion yen, operating profit 15.6 billion yen, net profit 9.8 billion yen, earnings per share 158.50 yen; nine-month net profit is 86.0% of the forecast. On 30 October 2026 the company bought HKS Victory Japan, which has 20 shops in Kyushu (5.25 billion yen according to a news source), and will absorb it on 1 January 2027. On 14 August 2026 the company had said the gold price fell about 20% from its peak in May-June and that customers were holding back gold sales.",
+   "risks": [
+    "Part of the profit depends on gold and precious-metal prices; prices rose in 2025, and five years of history do not show a full cycle. The company does not disclose the size of this effect.",
+    "Customers are found through advertising; advertising cost per visit doubled between 2019 and the first half of 2026. If advertising becomes less effective, profit falls quickly; net profit fell 36% in 2023.",
+    "Growth rests on debt-funded acquisitions: goodwill is about 63% of equity and financial debt was about 25.8 billion yen in June 2026 (cash 28.6 billion yen). If an acquired business falls short, an impairment follows.",
+    "Shares held by the controlling shareholder and equal to 46.56% of shares issued are pledged; in addition, share-based pay is about 5% of net profit and the share count is rising.",
+    "25.0% of sales go to a single buyer; buying at people's homes is subject to consumer-protection rules (door-to-door purchase regulation), and tighter rules would strain the business model."
+   ],
+   "watch": [
+    "Gross profit per visit and advertising cost per visit",
+    "The gold price and the share of sales going to Nihon Material",
+    "Goodwill, financial debt and new acquisitions",
+    "Gross margin and inventory turnover days (June 2026: 57.9 days)"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-19",
+   "per": "2026-Q2"
+  }
  }
 }

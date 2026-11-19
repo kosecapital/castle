@@ -704,5 +704,48 @@
   "note_tr": "Şirket 2026'da konsolide olmayan tabloya geçti ve yıllık değişim açıklamıyor; karşılaştırmalar 2025'in konsolide rakamlarıyla yapıldı. 2026 net kârını düşük vergi yükseltiyor: Ocak-Eylül'de 1.007 milyon yen vergi öncesi kâra 95 milyon yen vergi yazıldı. Olağan kâr (vergi öncesi, olağan dışı kalemler hariç) Ocak-Eylül'de 941 milyon yenden 1.160 milyon yene çıktı (+%23,3).",
   "note_en": "The company moved to non-consolidated statements in 2026 and gives no year-on-year change; comparisons use the consolidated 2025 figures. A low tax charge lifts 2026 net profit: 95 million yen of tax on 1,007 million yen of pre-tax profit in January-September. Ordinary profit (pre-tax, before extraordinary items) rose from 941 million yen to 1,160 million yen in January-September (+23.3%).",
   "notes": "Q3 tanshin (12 Nov 2026) and the company's Q3 presentation were opened on 17 Nov 2026 (Yahoo Finance mirror of TDnet 140120261112576013 and 20261112576043): 9M 2026 net 912m, EPS 45.13, ordinary profit 1,160m, pre-tax 1,007m, tax 95m; 9M 2025 consolidated net 615m (presentation: 148.2% of prior year). Forecast unchanged (net 950m, EPS 47.00). Q3-alone figures are derived (912 - 503) and the prior-year quarter is from Matsui Securities, so `quarter` stays non-primary."
+ },
+ "1878": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Nisan-Eylül 2026 (altı ay)",
+   "en": "April-September 2026 (six months)",
+   "pct": 30.8,
+   "cur_val": "196.79",
+   "prev_val": "150.41",
+   "unit": "yen",
+   "date": "2026-10-30",
+   "url": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261030/20261029560212.pdf",
+   "primary": true
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği (altı ay eksi ilk çeyrek)",
+   "en": "July-September 2026 quarter (six months minus first quarter)",
+   "pct": 59.8,
+   "cur_val": "124.11",
+   "prev_val": "77.69",
+   "unit": "yen",
+   "date": "2026-10-30",
+   "url": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261030/20261029560212.pdf",
+   "primary": true
+  },
+  "guidance": {
+   "tr": "Mart 2027'de biten yıl için şirket tahmini (hisse başına kâr)",
+   "en": "company forecast for the year to March 2027 (EPS)",
+   "pct": 10.0,
+   "detail_tr": "hisse başına kâr 329,00 yen; Mart 2026 yılında 299,01 yen. Net kâr 109.000 milyon yen (önceki yıl 99.030). Tahmin 30 Ekim 2026'da 326 yenden yükseltildi; Solasto hisse satışı kazancını (9.870 milyon yen, vergi öncesi) içerir",
+   "detail_en": "EPS 329.00 yen; 299.01 yen in the year to March 2026. Net profit 109,000 million yen (previous year 99,030). The forecast was raised from 326 yen on 30 October 2026; it includes the gain on the Solasto share sale (9,870 million yen pre-tax)",
+   "date": "2026-10-30",
+   "url": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261030/20261029560212.pdf",
+   "primary": true
+  },
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": "Altı aylık ve çeyreklik artışı Solasto hisse satışı kazancı (9.870 milyon yen, vergi öncesi) büyütüyor; JustCo değer kaybı (4.380 milyon yen) bir bölümünü götürüyor. Şirket düzeltilmiş kâr açıklamıyor. Tek seferlik kalemlerden önceki olağan kâr altı ayda 71.380 milyon yenden 78.567 milyon yene çıktı (+%10,1). İnşaat siparişleri aynı dönemde %13,2 düştü.",
+  "note_en": "The six-month and quarterly growth is inflated by the gain on the Solasto share sale (9,870 million yen pre-tax), partly offset by the JustCo write-down (4,380 million yen). The company reports no adjusted profit. Ordinary profit, before these one-offs, rose from 71,380 million yen to 78,567 million yen in the six months (+10.1%). Construction orders fell 13.2% in the same period.",
+  "notes": "H1 tanshin (30 Oct 2026, Yahoo Finance mirror of the TDnet English translation) opened 19 Nov 2026: H1 EPS 196.79 vs 150.41 (prior year restated for the 1-for-5 split of 1 Oct 2025); net profit 64,175 vs 49,886 (+28.6%). Q1 tanshin (31 Jul 2026, www2.jpx.co.jp) opened: Q1 EPS 72.68 vs 72.72; net 23,678 vs 24,103. Q2 alone is my subtraction: EPS 196.79-72.68=124.11 vs 150.41-72.72=77.69 (+59.8%); net 40,497 vs 25,783 (+57.1%). Both inputs are primary documents but the quarter figure itself is derived, not printed. Guidance 329.00/299.01 = +10.0%. No adjusted figure given by the company, so `adjusted` is null; no exclude/skip written (main session may consider whether ytd/quarter should be excluded because of the Solasto gain; the lowest of the three, guidance +10.0%, already governs)."
  }
 }

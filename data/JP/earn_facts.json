@@ -582,5 +582,57 @@
    }
   ],
   "notes": "TTM = FY2025 consolidated 839m / EPS 41.41 (tanshin 16 Feb 2026) + 9M 2026 non-consolidated 912m / 45.13 (Q3 tanshin, opened 17 Nov 2026) - 9M 2025 consolidated 615m (company presentation) / EPS 30.37 (Matsui Securities; 615 / 20,277,914 average shares = 30.33). Mixes consolidated and non-consolidated periods; Netmile was absorbed on 17 Jan 2026."
+ },
+ "1878": {
+  "unit": "million JPY",
+  "eps_cur": "JPY",
+  "ttm": {
+   "eps": 345.39,
+   "net_profit": 113319,
+   "tr": "Ekim 2025 - Eylül 2026 (Mart 2026 yılı 299,01 yen eksi Nisan-Eylül 2025 150,41 artı Nisan-Eylül 2026 196,79; net kâr 99.030 − 49.886 + 64.175 milyon yen)",
+   "en": "October 2025 - September 2026 (year to March 2026 299.01 yen minus April-September 2025 150.41 plus April-September 2026 196.79; net profit 99,030 − 49,886 + 64,175 million yen)",
+   "url": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261030/20261029560212.pdf",
+   "primary": true
+  },
+  "tax_rate": 23.8,
+  "gains": [
+   {
+    "tr": "Solasto Corporation hisselerinin tamamının satışından kazanç: 9.870 milyon yen (vergi öncesi, olağan dışı gelir; devir 27 Ağustos 2026). Solasto sağlık hizmetleri şirketidir, özkaynak yöntemiyle izlenen iştirakti; satış yinelenmez",
+    "en": "Gain on the sale of the whole stake in Solasto Corporation: 9,870 million yen (pre-tax, extraordinary income; transfer on 27 August 2026). Solasto is a healthcare services company and was an equity-method affiliate; the sale will not recur",
+    "frac": 0.0663,
+    "how": "9870 x (1 - 0.238) / 113319; pre-tax amount from the H1 tanshin, converted at the H1 effective tax rate (19,996 / 83,926 = 23.8%)",
+    "period_tr": "Temmuz-Eylül 2026 çeyreği",
+    "period_en": "July-September 2026 quarter",
+    "url": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261030/20261029560212.pdf",
+    "primary": true
+   }
+  ],
+  "offsets": [
+   {
+    "tr": "JustCo Holdings hisseleri için yatırım menkul kıymeti değer kaybı: 4.380 milyon yen (vergi öncesi, olağan dışı zarar)",
+    "en": "Write-down of investment securities on JustCo Holdings shares: 4,380 million yen (pre-tax, extraordinary loss)",
+    "frac": 0.0294,
+    "how": "4380 x (1 - 0.238) / 113319; pre-tax amount from the H1 tanshin, converted at the H1 effective tax rate",
+    "period_tr": "Nisan-Eylül 2026",
+    "period_en": "April-September 2026",
+    "url": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261030/20261029560212.pdf",
+    "primary": true
+   }
+  ],
+  "drop": null,
+  "guidance": [
+   {
+    "fy_tr": "Mart 2027'de biten mali yıl (Nisan 2026 - Mart 2027)",
+    "fy_en": "fiscal year to March 2027 (April 2026 - March 2027)",
+    "mid": 329.0,
+    "low": 329.0,
+    "high": 329.0,
+    "kind": "reported",
+    "url": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261030/20261029560212.pdf",
+    "date": "2026-10-30",
+    "primary": true
+   }
+  ],
+  "notes": "TTM from two primary documents opened 19 Nov 2026: FY to March 2026 tanshin (30 Apr 2026: net 99,030, EPS 299.01) and H1 tanshin (30 Oct 2026: net 64,175 / EPS 196.79; prior H1 49,886 / 150.41, restated for the 1-for-5 split effective 1 Oct 2025). Universe: price 3,310 / P/E 9.59 = EPS 345.2, within 0.1% of the document figure, so the universe P/E is right and split-consistent. Gains minus offsets = 0.0663 - 0.0294 = 0.0369 of TTM profit (> 3%). Guidance 329.00 is 4.7% below TTM (329 / 345.39 = 0.9525) and itself includes the Solasto gain. Tax rate 23.8% is the H1 effective rate (total income taxes 19,996 / profit before income taxes 83,926); the statutory rate was not read. Other extraordinary items inside the TTM window are small: H2 of the year to March 2026 (full year minus H1) extraordinary income 611 - 439 = 172 and losses 1,239 - 126 = 1,113 (impairment and securities write-downs); H1 FY2027 also has 27 of fixed-asset sale gains and 158 of disposal losses. These were left out of gains/offsets (each under 1% of profit). The April 2026 tanshin had announced that about 10 billion yen of extraordinary income from Solasto was expected around August 2026. The company is not on IAS 29; no `monetary` or `retained` entry."
  }
 }

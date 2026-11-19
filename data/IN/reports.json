@@ -1988,5 +1988,85 @@
    "tr": "Evrendeki F/K (12,19) fiyatın Mart 2026 yılının hisse başına kârına bölümüdür: 326,5 ÷ 26,79 = 12,19 (26,79 rupi: yıllık rapor). Şirket KOBİ pazarında olduğu için altı ayda bir sonuç açıklar; kaynak Nisan-Eylül 2026 yarıyılını henüz işlememiş. Oran sayfası (9,21) Eylül 2026'da biten 12 ayı kullanıyor: 6.601 − 2.161 + 4.345 = 8.785 lakh rupi net kâr (yarıyıl rakamları ikincil kaynaktan); 8.046 ÷ 9,21 = 874 milyon rupi ile tutuyor. Yani oran sayfası günceldir, evrendeki F/K bir yarıyıl geridedir ve kârı düşük gösterir. İki not: (1) son 12 ay kârı 1 Ekim 2025'teki amortisman yöntemi değişikliğiyle yükselmiştir (2026 mali yılında net kâra etkisi yaklaşık 2.078 lakh rupi; yıllık rapor); (2) evrendeki piyasa değeri 26,25 milyon pay ima ediyor (8.570,6 ÷ 326,5), yıllık raporda 31 Mart 2026'da 24.642.400 pay var; aradaki fark varantların bir bölümünün paya çevrilmesi olabilir, belgeyle doğrulanamadı. Düzeltme önerilmedi: Eylül 2026 sonuç bildirimi açılamadı.",
    "en": "The universe P/E (12.19) is the price divided by earnings per share for the year to March 2026: 326.5 / 26.79 = 12.19 (26.79 rupees: annual report). Being on the SME platform, the company reports every six months; the source has not yet processed the April-September 2026 half-year. The ratio page (9.21) uses the twelve months to September 2026: 6,601 - 2,161 + 4,345 = 8,785 lakh rupees of net profit (half-year figures from a secondary source), which matches 8,046 / 9.21 = 874 million rupees. So the ratio page is current, and the universe P/E is one half-year behind and understates profit. Two notes: (1) trailing profit is lifted by the change in depreciation method on 1 October 2025 (effect on fiscal 2026 net profit about 2,078 lakh rupees; annual report); (2) the universe market value implies 26.25 million shares (8,570.6 / 326.5), while the annual report shows 24,642,400 shares at 31 March 2026; the gap may be partial conversion of warrants, which could not be verified from a document. No fix is proposed: the September 2026 results filing could not be opened."
   }
+ },
+ "WAAREERTL": {
+  "scores": {
+   "A": 1,
+   "B": 0,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "yok",
+  "per": "2026-Q2",
+  "one": "Güneş santrali kuran anahtar teslim yüklenici; Waaree Energies'in bağlı ortaklığı. İş ihale ve teklifle alınıyor, marj geriliyor; hendek ölçütünü geçemedi.",
+  "business": "Waaree Renewable Technologies, başkaları için güneş santrali ve batarya depolama tesisi kurar (anahtar teslim, EPC), kurduğu santrallerin bakımını yapar ve küçük bir kendi santral portföyü işletir. Mart 2026'da biten yılda hasılat 3.331,42 crore rupi (33,3 milyar rupi), net kâr 478,65 crore rupi; yıl içinde 2.727 MWp proje tamamlandı. 18 Haziran 2026'da iletim hattı direği üreten ve iletim-dağıtım yüklenicisi olan Associated Power Structures'ın (APSPL) %55'ini 1.225 crore rupiye aldı. Temmuz-Eylül 2026 çeyreğinde hasılatın 606,13 crore rupisi bu yeni koldan, 444,98 crore rupisi güneş EPC işinden geldi (ikincil kaynak).",
+  "moat_text": "Hendek yok; şirket 3. suru geçemedi. Anahtar teslim santral yapımı ihale ve teklifle alınan iştir: şirketin kendi sunumu işi \"kamu ve özel ihale süreçlerine katılarak\" aldığını söylüyor, ilişkili taraf fiyatının dayanağı da \"teklif / benzer iş emri\". Her proje yeniden kazanılır; sipariş defteri yaklaşık bir yıllık iştir (şirket 12-15 ay yapım süresi veriyor). Fiyatlama gücünün kanıtı yok, tersi var: FAVÖK marjı 2024 mali yılında %23,64, 2025'te %19,46, 2026'da %19,24, Temmuz-Eylül 2026 çeyreğinde %15,12. Reel özsermaye kârlılığı çok yüksek (beş mali yılda %14,6 ile %85,8 arasında, son 12 ayda %31,6), ama bu az sermayeyle çalışan yüklenici modelinden ve güneş yatırımlarındaki patlamadan geliyor, kalıcı bir üstünlükten değil. Tek ayırt edici yan ana ortak Waaree Energies'in panel üretimi; 2026 mali yılında ondan 731,57 crore rupilik alım yapıldı (hasılatın yaklaşık %22'si). Bu bir bağımlılıktır, şirketin kendi hendeği değil. Pazar payı birincil belgede yok.",
+  "mgmt": "Waaree Energies payların %74,30'unu tutuyor (2025-26 yıllık raporu). 2026 mali yılı için temettü önerilmedi; kâr şirkette kalıyor. En büyük sermaye kararı APSPL alımı: 1.225 crore rupi, 31 Mart 2026'daki 933,83 crore rupilik net değerin üstünde ve ana işin dışında bir kol (iletim hattı direği ve iletim-dağıtım yüklenimi; marjı daha düşük). Alımdan sonra finansal borç 31 Mart 2026'daki 81,67 crore rupiden 30 Eylül 2026'da 1.412,99 crore rupiye çıktı (ikincil kaynak); çeyreklik finansman gideri 3,62'den 36,83 crore rupiye yükseldi. İlişkili taraf işlemleri büyük: 2026 mali yılında Waaree Energies'ten 731,57 crore rupi alım, ona 179,40 crore rupi satış, 88 crore rupi borç alındı (28'i geri ödendi). Genel kurula sunulan yeni sınır 746,80 crore rupi; içinde ana ortaktan %10 faizli, teminatsız, istenince geri ödenecek 250 crore rupiye kadar borç ve teminat var. Hisse bazlı ücret: çalışan pay opsiyon planı var (2026 mali yılında 66.809 opsiyon verildi, 99.223 pay çıkarıldı); gider tutarı okunamadı. Şerefiye, koşullu yükümlülükler ve teminat mektupları: bakıldı, okunan bölümlerde rakam yok.",
+  "latest": "19 Ekim 2026: Temmuz-Eylül 2026 çeyreği sonuçları açıklandı. Hasılat 1.057,84 crore rupi (bir yıl önce 774,78; +%36,53), ama artış yeni alınan APSPL'den geliyor: güneş EPC hasılatı 769,19'dan 444,98 crore rupiye indi (ikincil kaynak). FAVÖK 159,98 crore rupi (+%1,29), marj %15,12 (bir yıl önce %20,39). Net kâr 81,48 crore rupi (116,36; -%29,98); ana ortaklık payı 73,89 crore rupi, hisse başına kâr 7,07 rupi (11,16). Nisan-Eylül 2026: hasılat 1.982,09 crore rupi (+%43,84), net kâr 200,44 crore rupi (-%1,14), hisse başına kâr 18,18 rupi (19,45). Sipariş defteri 5.500 crore rupinin üstünde (güneş ve batarya 3.300, iletim-dağıtım 2.200). Şirket, iletim payı büyüdükçe marj yüzdesinin gerileyebileceğini söylüyor; kâr beklentisi vermedi.",
+  "risks": [
+   "İş ihale ve teklifle alınıyor; her proje yeniden kazanılmak zorunda ve FAVÖK marjı üç yılda %23,64'ten %15,12'ye geriledi.",
+   "Beş yıllık çok yüksek özsermaye kârlılığı Hindistan'daki güneş yatırımı patlamasının yıllarıdır; beş yıl tam bir döngüyü göstermez ve güneş EPC hasılatı son çeyrekte %42 düştü.",
+   "APSPL alımı net değerden büyük ve borçla yapıldı; finansal borç altı ayda 81,67 crore rupiden 1.412,99 crore rupiye çıktı (ikincil kaynak).",
+   "Şirket ana ortağı Waaree Energies'e bağlı: panel alımı, borç ve teminat ondan geliyor; işlem koşullarını %74,30 paylı ortak belirler.",
+   "Kaynağın beş yıllık özsermaye kârlılığı alımdan önceki küçük sermayeyle ölçüldü; yeni kolun azınlık payı ve borcu bu oranı aşağı çekiyor."
+  ],
+  "watch": [
+   "Güneş EPC kolunun hasılatı ve bölüm marjı",
+   "FAVÖK marjı ve finansman gideri",
+   "Sipariş defteri (crore rupi ve MWp) ile yeni sipariş alımı",
+   "Waaree Energies ile ilişkili taraf işlemleri ve ana ortaktan alınan borç"
+  ],
+  "sources": [
+   {
+    "t": "Waaree Renewable Technologies: yatırımcı sunumu, Temmuz-Eylül 2026 çeyreği (NSE bildirimi, 19 Ekim 2026)",
+    "te": "Waaree Renewable Technologies: investor presentation, July-September 2026 quarter (NSE filing, 19 October 2026)",
+    "u": "https://nsearchives.nseindia.com/corporate/WAAREERTL_19102026182512_Presentation-s.pdf"
+   },
+   {
+    "t": "Waaree Renewable Technologies: 2025-26 yıllık raporu (NSE, 31 Ağustos 2026)",
+    "te": "Waaree Renewable Technologies: annual report 2025-26 (NSE, 31 August 2026)",
+    "u": "https://nsearchives.nseindia.com/annual_reports/AR_30942_WAAREERTL_2025_2026_A_8829723_31082026212354.pdf"
+   },
+   {
+    "t": "EquityBulls: Temmuz-Eylül 2026 çeyreği sonuç tablosu (19 Ekim 2026)",
+    "te": "EquityBulls: results table for the July-September 2026 quarter (19 October 2026)",
+    "u": "https://www.equitybulls.com/news/377250/waaree-renewable-technologies-reports-q2-fy27-consolidated-revenue-of-1-057-84-c"
+   },
+   {
+    "t": "Saur Energy: hasılat %37 arttı, güneş EPC hasılatı %42 düştü (Ekim 2026)",
+    "te": "Saur Energy: revenue up 37%, solar EPC revenue down 42% (October 2026)",
+    "u": "https://www.saurenergy.com/solar-energy-news/waaree-renewables-q2-revenue-rises-37-but-solar-epc-revenue-falls-42-12690517"
+   },
+   {
+    "t": "Mercom India: çeyrek hasılatı %36 arttı, kâr düştü (21 Ekim 2026)",
+    "te": "Mercom India: Q2 revenue up 36% but profit drops (21 October 2026)",
+    "u": "https://mercomindia.com/waaree-renewable-technologies-q2-revenue-up-36-but-profit-drops"
+   }
+  ],
+  "en": {
+   "one": "Turnkey solar plant contractor, subsidiary of Waaree Energies. Work is won by tender and bid, margins are falling; it failed the moat test.",
+   "business": "Waaree Renewable Technologies builds solar plants and battery storage facilities for others (turnkey, EPC), maintains the plants it builds and runs a small portfolio of its own plants. In the year to March 2026 revenue was 3,331.42 crore rupees (33.3 billion rupees) and net profit 478.65 crore rupees; 2,727 MWp of projects were completed in the year. On 18 June 2026 it bought 55% of Associated Power Structures (APSPL), a maker of transmission towers and a transmission and distribution contractor, for 1,225 crore rupees. In the July-September 2026 quarter 606.13 crore rupees of revenue came from this new arm and 444.98 crore rupees from solar EPC (secondary source).",
+   "moat_text": "No moat; the company did not pass wall 3. Turnkey plant construction is work won by tender and bid: the company's own presentation says it wins work by \"participating in government and private bidding process\", and the basis of related-party pricing is \"quotation / comparable work order\". Every project has to be won again; the order book is about one year of work (the company cites a 12-15 month execution time). There is no evidence of pricing power, rather the opposite: the EBITDA margin was 23.64% in fiscal 2024, 19.46% in 2025, 19.24% in 2026 and 15.12% in the July-September 2026 quarter. Real return on equity is very high (between 14.6% and 85.8% over five fiscal years, 31.6% in the last 12 months), but this comes from an asset-light contractor model and the boom in solar investment, not from a lasting advantage. The one distinguishing feature is the panel manufacturing of the parent, Waaree Energies; purchases from it were 731.57 crore rupees in fiscal 2026 (about 22% of revenue). That is a dependence, not a moat of the company's own. No market share figure is given in a primary document.",
+   "mgmt": "Waaree Energies holds 74.30% of the shares (annual report 2025-26). No dividend was recommended for fiscal 2026; profit stays in the company. The largest capital decision is the APSPL purchase: 1,225 crore rupees, more than the net worth of 933.83 crore rupees at 31 March 2026, and an arm outside the core business (transmission towers and transmission and distribution contracting; lower margin). After the purchase, borrowings rose from 81.67 crore rupees at 31 March 2026 to 1,412.99 crore rupees at 30 September 2026 (secondary source); quarterly finance cost rose from 3.62 to 36.83 crore rupees. Related-party dealings are large: in fiscal 2026 purchases from Waaree Energies were 731.57 crore rupees, sales to it 179.40 crore rupees, and loans taken 88 crore rupees (28 repaid). The new limit put to the shareholders' meeting is 746.80 crore rupees; it includes up to 250 crore rupees of loans and guarantees from the parent, unsecured, at 10% interest and repayable on demand. Share-based pay: there is an employee stock option plan (66,809 options granted and 99,223 shares issued in fiscal 2026); the expense amount could not be read. Goodwill, contingent liabilities and bank guarantees: checked, no figures in the sections read.",
+   "latest": "19 October 2026: Results for the July-September 2026 quarter were announced. Revenue was 1,057.84 crore rupees (774.78 a year earlier; +36.53%), but the increase comes from the newly bought APSPL: solar EPC revenue fell from 769.19 to 444.98 crore rupees (secondary source). EBITDA was 159.98 crore rupees (+1.29%), margin 15.12% (20.39% a year earlier). Net profit was 81.48 crore rupees (116.36; -29.98%); the share of the owners of the parent was 73.89 crore rupees and earnings per share 7.07 rupees (11.16). April-September 2026: revenue 1,982.09 crore rupees (+43.84%), net profit 200.44 crore rupees (-1.14%), earnings per share 18.18 rupees (19.45). The order book is above 5,500 crore rupees (solar and battery 3,300, transmission and distribution 2,200). The company says percentage margins may moderate as the transmission share grows; it gave no profit guidance.",
+   "risks": [
+    "Work is won by tender and bid; every project has to be won again, and the EBITDA margin fell from 23.64% to 15.12% in three years.",
+    "The very high five-year return on equity covers the years of India's solar investment boom; five years do not show a full cycle, and solar EPC revenue fell 42% in the latest quarter.",
+    "The APSPL purchase is larger than net worth and was made with debt; borrowings rose from 81.67 crore rupees to 1,412.99 crore rupees in six months (secondary source).",
+    "The company depends on its parent, Waaree Energies: panel purchases, loans and guarantees come from it, and the 74.30% shareholder sets the terms of these dealings.",
+    "The source's five-year return on equity was measured on the small capital base before the purchase; the new arm's minority interest and debt pull this ratio down."
+   ],
+   "watch": [
+    "Revenue and segment margin of the solar EPC arm",
+    "EBITDA margin and finance cost",
+    "Order book (crore rupees and MWp) and new order intake",
+    "Related-party dealings with Waaree Energies and loans from the parent"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-19",
+   "per": "2026-Q2"
+  }
  }
 }

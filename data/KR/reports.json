@@ -765,5 +765,240 @@
    "date": "2026-11-14",
    "per": "2026-Q2"
   }
+ },
+ "214150": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "2026-Q2",
+  "one": "Cilt sıkılaştırma cihazı ve sarf malzemesi satan şirket. Hendek dar; 2026'da kâr geriliyor, üçüncü çeyrek net kârı %81 düştü. Fiyat düşüşü gerçek, pay bölünmesi yok.",
+  "business": "Classys, kliniklere ameliyatsız cilt sıkılaştırma cihazları satar: odaklı ultrason (Shurink, yurt dışında Ultraformer) ve radyo frekansı (Volnewmer). Cihaz satıldıktan sonra her işlemde tükenen başlıkları da satar. 2025'te gelir 336,8 milyar won, faaliyet kârı 170,6 milyar won, net kâr 131,9 milyar won. 2026'nın ilk çeyreğinde gelirin %48'i cihaz, %47'si sarf malzemesiydi. Gelirin dörtte üçe yakını yurt dışından gelir; şirket Brezilya ve Japonya'da distribütörden kendi satış örgütüne geçti.",
+  "moat_text": "Hendek dar. Kanıt: brüt kâr marjı 2023'te %78,0, 2024'te %78,7, 2025'te %77,5; faaliyet kâr marjı 2025'te %50,7. Kurulu cihazlar yinelenen başlık satışı getirir. Reel özsermaye kârlılığı beş yılda %23 ile %32 arasında kaldı. Zayıf yanlar 2026'da görünür oldu: brüt marj üçüncü çeyrekte %73,7'ye indi; Kore'de tıbbi cihaz geliri üç çeyrektir düşüyor (üçüncü çeyrekte cihaz %45, sarf malzemesi %29 geriledi). Basına göre şirket Kore odaklı ultrason pazarındaki payını yaklaşık %55 diye tahmin ediyor; bu rakam şirket belgesinden doğrulanamadı. Çin'de üç yerli ve bir ithal rakip cihaz onay aldı. Kalıcılık belirsiz olduğu için sınıf geniş değil.",
+  "mgmt": "En büyük ortak Bain Capital: 2022'de %60,84 payı yaklaşık 670 milyar wona aldı, Mayıs 2025 ve Şubat 2026'da blok satış yaptı, payı %45,91'e indi (30.072.418 pay). Bain şirketi satmak istiyor; payları karşılığında borç kullandığı basında yer aldı. Ağustos 2026'da genel müdür değişti (Yoon Jun-oh). Kâr dağıtımı: 2025 için hisse başına 1.000 won, toplam 65,2 milyar won, kârın %49,4'ü. Brezilya distribütörü Medsystems Mart 2026'da satın alındı; Brezilya kolunda 62,5 milyar won borç var. Şirket 2025 gelir hedefini tutturamadı, 2026 gelir beklentisini de ağustosta indirdi. Maddi olmayan varlıklar Mart 2026'da 146,3 milyar won (özsermayenin yaklaşık %28'i); şerefiye ayrı gösterilmemiş. Kaynağa göre pay sayısı 2024'te %0,4, 2025'te %1,8 arttı. Hisse bazlı ücret (Temmuz 2026'da opsiyon verildi), geri alım fiyatı ve bilanço dışı yükümlülükler: bakıldı, açılan belgelerde yok.",
+  "latest": "12 Kasım 2026: Üçüncü çeyrekte gelir 83,0 milyar won (geçen yılla aynı), faaliyet kârı 27,0 milyar won (-%28,2), vergi öncesi kâr 7,7 milyar won, ana ortaklık net kârı 6,3 milyar won (-%81,0). Dokuz ayda gelir 275,7 milyar won (+%13,3), faaliyet kârı 108,1 milyar won (-%9,4), ana ortaklık net kârı 68,3 milyar won (-%23,6); hisse başına kâr 1.047 won (geçen yıl 1.364). Şirket nedenleri şöyle açıkladı: Kore'de ürün kuşağı değişimi, Brezilya ve Japonya'da doğrudan satışa geçişin maliyeti. Faaliyet kârı ile vergi öncesi kâr arasındaki yaklaşık 19 milyar wonluk farkın nedeni okunamadı. 12 Ağustos 2026'da 2026 gelir beklentisi 470-510 milyar wondan 430-460 milyar wona indirildi.",
+  "risks": [
+   "Kâr geriliyor ve evrendeki F/K haziran sonuna göre: eylül sonuna kadarki 12 ayda hisse başına kâr yaklaşık 1.697 won, kaynağın ima ettiği yaklaşık 2.099 won. Üçüncü çeyrekteki faaliyet dışı kaybın nedeni okunamadı.",
+   "Kore'de tıbbi cihaz geliri üç çeyrektir düşüyor (üçüncü çeyrekte -%35,9); rekabet artıyor ve ana ürün yenileniyor.",
+   "Bain Capital şirketi satmak istiyor ve payları karşılığında borçlu; yeni bir blok satış ya da el değiştirme yönetimi ve temettü politikasını değiştirebilir.",
+   "Brezilya ve Japonya'da doğrudan satışa geçiş marjı düşürdü: faaliyet kâr marjı 2025'te %50,7 iken üçüncü çeyrekte %32,5.",
+   "Çin onayı gecikiyor (Volnewmer eylülden aralığa kaydı) ve Çin'de radyo frekansı cihazları artık klinik deneme gerektiren sınıfta."
+  ],
+  "watch": [
+   "Kore'de sarf malzemesi geliri",
+   "Brüt kâr marjı ve faaliyet kâr marjı",
+   "Çin'de Volnewmer onayı",
+   "Bain Capital'in payı ve satış süreci"
+  ],
+  "sources": [
+   {
+    "t": "Classys: 2026 üçüncü çeyrek basın açıklaması, PR Newswire kopyası (13 Kas 2026)",
+    "te": "Classys: third-quarter 2026 press release, PR Newswire copy (13 Nov 2026)",
+    "u": "https://www.thailand-business-news.com/?p=340237"
+   },
+   {
+    "t": "Classys: IR kitabı, 2026 birinci çeyrek, KIND (13 May 2026)",
+    "te": "Classys: IR book, first quarter 2026, KIND (13 May 2026)",
+    "u": "https://kind.krx.co.kr/external/dst/irReference/18518/Classys%20IR%20Book_1Q26_Eng_vF_260513.pdf"
+   },
+   {
+    "t": "CBC News: Classys üçüncü çeyrek geçici sonuç bildirimi (12 Kas 2026)",
+    "te": "CBC News: Classys third-quarter preliminary results filing (12 Nov 2026)",
+    "u": "https://www.cbci.co.kr/news/articleView.html?idxno=626195"
+   },
+   {
+    "t": "Quartr: Classys 2026 üçüncü çeyrek özeti (16 Kas 2026)",
+    "te": "Quartr: Classys third-quarter 2026 summary (16 Nov 2026)",
+    "u": "https://quartr.com/events/classys-inc-214150-q3-2026_F1tSxfa9"
+   },
+   {
+    "t": "IB Tomato: Classys hissesi ve Bain'in satış hesabı (Kas 2026)",
+    "te": "IB Tomato: Classys shares and Bain's exit (Nov 2026)",
+    "u": "https://www.ibtomato.com/ExternalView.aspx?type=1&no=20145"
+   },
+   {
+    "t": "Smart Today: Classys yıllık gelir beklentisini indirdi (12 Ağu 2026)",
+    "te": "Smart Today: Classys cuts annual revenue outlook (12 Aug 2026)",
+    "u": "https://www.smarttoday.co.kr/ko-kr/articles/110393"
+   },
+   {
+    "t": "Securities Economy News: Classys üçüncü çeyrek, bölgelere göre gelir (16 Kas 2026)",
+    "te": "Securities Economy News: Classys third quarter, revenue by region (16 Nov 2026)",
+    "u": "https://www.koreastocknews.com/news/articleView.html?idxno=122291"
+   },
+   {
+    "t": "Seoul Economic Daily: Classys üçüncü çeyrek (Kas 2026)",
+    "te": "Seoul Economic Daily: Classys third quarter (Nov 2026)",
+    "u": "https://m.sedaily.com/article/20113813"
+   },
+   {
+    "t": "Kiwoom Securities: Classys raporu, 2025 gerçekleşen rakamlar (16 Tem 2026)",
+    "te": "Kiwoom Securities: Classys report, 2025 actuals (16 Jul 2026)",
+    "u": "https://bbn.kiwoom.com/rfCR12197"
+   },
+   {
+    "t": "Money Today: özel sermaye fonlarının halka açık şirketleri (9 Kas 2026)",
+    "te": "Money Today: listed companies owned by private equity funds (9 Nov 2026)",
+    "u": "https://www.mt.co.kr/stock/2026/11/10/2026110913020369063"
+   },
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/kosdaq/214150/financials/ratios/"
+   }
+  ],
+  "en": {
+   "one": "Sells skin-tightening devices and consumables. The moat is narrow; profit is falling in 2026 and third-quarter net profit fell 81%. The price fall is real, with no share split.",
+   "business": "Classys sells non-surgical skin-tightening devices to clinics: focused ultrasound (Shurink, sold abroad as Ultraformer) and radio frequency (Volnewmer). After a device is sold it also sells the cartridges and tips used up in each treatment. In 2025 revenue was 336.8 billion won, operating profit 170.6 billion won and net profit 131.9 billion won. In the first quarter of 2026, 48% of revenue was devices and 47% consumables. Close to three quarters of revenue comes from abroad; the company has moved from distributors to its own sales organisation in Brazil and Japan.",
+   "moat_text": "The moat is narrow. Evidence: gross margin was 78.0% in 2023, 78.7% in 2024 and 77.5% in 2025; operating margin was 50.7% in 2025. Installed devices bring recurring consumable sales. Real return on equity stayed between 23% and 32% over five years. The weak points became visible in 2026: gross margin fell to 73.7% in the third quarter; medical device revenue in Korea has fallen for three quarters (in the third quarter devices fell 45% and consumables 29%). According to the press the company estimates its share of the Korean focused ultrasound market at about 55%; this figure could not be confirmed in a company document. In China three local rival devices and one imported one have been approved. Because durability is uncertain, the class is not wide.",
+   "mgmt": "The largest shareholder is Bain Capital: it bought 60.84% in 2022 for about 670 billion won, sold blocks in May 2025 and February 2026, and now holds 45.91% (30,072,418 shares). Bain wants to sell the company; the press reports that it has borrowed against its shares. The chief executive changed in August 2026 (Yoon Jun-oh). Profit distribution: 1,000 won per share for 2025, 65.2 billion won in total, 49.4% of profit. The Brazilian distributor Medsystems was acquired in March 2026; the Brazilian unit carries 62.5 billion won of borrowings. The company missed its 2025 revenue target and cut its 2026 revenue outlook in August. Intangible assets were 146.3 billion won in March 2026 (about 28% of equity); goodwill is not shown separately. According to the source the share count rose 0.4% in 2024 and 1.8% in 2025. Share-based pay (options were granted in July 2026), buyback prices and off-balance-sheet obligations: checked, not in the documents that could be opened.",
+   "latest": "12 November 2026: In the third quarter revenue was 83.0 billion won (flat on a year earlier), operating profit 27.0 billion won (-28.2%), pre-tax profit 7.7 billion won and net profit attributable to owners 6.3 billion won (-81.0%). For nine months revenue was 275.7 billion won (+13.3%), operating profit 108.1 billion won (-9.4%) and net profit attributable to owners 68.3 billion won (-23.6%); earnings per share were 1,047 won (1,364 a year earlier). The company gave these reasons: a product generation change in Korea and the cost of moving to direct sales in Brazil and Japan. The reason for the gap of about 19 billion won between operating profit and pre-tax profit could not be read. On 12 August 2026 the 2026 revenue outlook was cut from 470-510 billion won to 430-460 billion won.",
+   "risks": [
+    "Profit is falling and the P/E in the dataset is as of end-June: earnings per share for the 12 months to end-September are about 1,697 won, against about 2,099 won implied by the source. The reason for the non-operating loss in the third quarter could not be read.",
+    "Medical device revenue in Korea has fallen for three quarters (-35.9% in the third quarter); competition is rising and the main product is being renewed.",
+    "Bain Capital wants to sell the company and has borrowed against its shares; another block sale or a change of control could change management and dividend policy.",
+    "The move to direct sales in Brazil and Japan has lowered margins: operating margin was 50.7% in 2025 and 32.5% in the third quarter.",
+    "Chinese approval is slipping (Volnewmer moved from September to December) and radio frequency devices in China are now in the class that requires clinical trials."
+   ],
+   "watch": [
+    "Consumables revenue in Korea",
+    "Gross margin and operating margin",
+    "Volnewmer approval in China",
+    "Bain Capital's stake and the sale process"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-19",
+   "per": "2026-Q2"
+  },
+  "earn": {
+   "k": 0.809,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Kaynağın F/K'sı son 12 ay için hisse başına 2098,77 KRW kâr ima ediyor; şirketin kendi tablolarından toplanan son 12 ay kârı hisse başına 1697,00 KRW. Farkın nedeni bulunamadı; şirketin belgesi esas alındı ve kazanç bu orana indirildi (%19,1). Son 12 ayda şirketçe tek seferlik diye açıklanan bir kazanç okunmadı. 2025'in dördüncü çeyreğinde bir şüpheli alacak karşılığı iptali var (tutarı açıklanmamış); 2026'nın ilk çeyreğinde vergi öncesi kâr faaliyet kârından 7,6 milyar won yüksek (kalemi okunamadı). Üçüncü çeyrekte ise vergi öncesi kâr faaliyet kârının yaklaşık 19 milyar won altında; bu bir giderdir ve kazancı yükseltmez. Son 12 ayın kârı 0,81 ile çarpılarak kullanıldı.",
+    "en": "The calculation rests on the profit of the last 12 months. The data source's P/E implies a last-12-month profit of 2098.77 KRW per share; the last-12-month profit added up from the company's own statements is 1697.00 KRW per share. The reason for the gap was not found; the company's document was taken as the basis and earnings were lowered to that ratio (19.1%). No gain labelled one-off by the company was read for the last 12 months. There was a bad debt reversal in the fourth quarter of 2025 (amount not disclosed); in the first quarter of 2026 pre-tax profit was 7.6 billion won above operating profit (the item could not be read). In the third quarter pre-tax profit was about 19 billion won below operating profit; that is a charge and does not raise earnings. Last-12-month profit was used multiplied by 0.81."
+   },
+   "ks": 0.809,
+   "per": "2026-Q2"
+  },
+  "growth": {
+   "g": 4.6,
+   "basis": {
+    "tr": "Formül yılda %9,2 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 (hisse başına kâr) %−23,2; Temmuz-Eylül 2026 çeyreği (ana ortaklık net kârı; çeyreğin hisse başına kârı açıklanmadı) %−81,0. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %4,6.",
+    "en": "The formula gave growth of 9.2% a year. Latest figures (earnings per share, year on year): January-September 2026 (earnings per share) −23.2%; July-September 2026 quarter (owners' net profit; quarterly earnings per share not disclosed) −81.0%. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 4.6%."
+   },
+   "per": "2026-Q2"
+  }
+ },
+ "445180": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-Q2",
+  "one": "Yarı iletken tinerinin ham maddelerini saflaştıran ve sentezleyen şirket. Hendek ölçütünü geçemedi: faaliyet kâr marjı %11-13, satışların çoğu ana ortağın grubuna.",
+  "business": "Purit, yarı iletken üretiminde ışığa duyarlı kaplamayı temizleyen tinerin ham maddelerini üretir: PGMEA ve PGME'yi saflaştırır, etil laktat (EL) ve EEP'yi sentezler, kullanılmış çözücüleri geri kazanır. Ürünler tiner üreticilerine (ENF Technology, Dongjin Semichem) satılır; son kullanıcı Samsung Electronics ve SK hynix'tir. 2025'in ilk dokuz ayında gelirin yaklaşık %75'i yarı iletkenden geldi. 2025'te gelir 142,5 milyar won, faaliyet kârı 17,2 milyar won; 2024'te gelir 122,5 milyar won, net kâr 11,8 milyar won. Tablolar tek şirketindir; bağlı ortaklık yok.",
+  "moat_text": "Hendek zayıf; şirket bu yüzden 3. suru geçemedi. Üstünlük var: yarı iletken sınıfı EL'yi 2021'de Kore'de ilk üreten şirket ve müşteri onayı uzun sürer. Basına göre Samsung'a giden EL'de payı 2026'da yaklaşık %40'a çıktı; bu rakam şirketin kendi belgesinde doğrulanamadı. Marjlar dar bir hendeği kanıtlamıyor. Şirketin sunumuna göre brüt kâr marjı 2022'de %15,9, 2023'te %18,0, 2024'te %20,0; faaliyet kâr marjı %10,4, %10,7 ve %11,4. 2025'te faaliyet kâr marjı yaklaşık %12, 2026'nın üçüncü çeyreğinde %12,7. Marj yükseliyor ama düzeyi bir saflaştırma ve fason işleme işininkidir; aracı kuruma göre saflaştırmada marj %10-12, geri kazanımda %5-7. Satışlar bağımsız müşteriyle sınanmış değil: 2022'de satışların %65,9'u ilişkili taraflara yapıldı (ENF Technology 51,8 milyar won, KCNA 37,9 milyar won); ikisi de ana ortak Hankook Alcohol Industrial'ın grubundandır. Reel özsermaye kârlılığı 2021'de %28,2 iken 2024'te %11,3'e indi; son okuma %13,9.",
+  "mgmt": "Ana ortak Hankook Alcohol Industrial: %48,71; ilişkili yöneticilerle birlikte %50,39 (7 Ekim 2026). Şirket Hankook Alcohol'ün konsolide bağlı ortaklığıdır; aynı grup hem ham madde satar hem de en büyük müşterilerin sahibidir. Bu, küçük ortak açısından izlenecek bir ilişkili taraf yapısıdır; güncel tutarlar okunamadı. Kârın büyük bölümü şirkette kalıyor: hisse başına temettü 2023'te 50, 2024 ve 2025'te 120 won; dağıtım oranı %14-17. Para Yesan'daki yeni fabrikaya gidiyor: arsa için yaklaşık 9,6 milyar won ödendi, donanım için yaklaşık 35 milyar won planlanıyor; ikinci fabrikanın genişlemesi 17,5 milyar won. Yatırım ana işle ilgili. Net nakit var (kaynakta net borç/FAVÖK -1,02). Pay sayısı: Ekim 2023'teki halka arzda 2.887.000 yeni pay çıkarıldı; ödenmiş sermaye 2022 sonunda 6,9 milyar wondan 2023 sonunda 8,4 milyar wona çıktı. Kaynağın beş yıllık sulandırma rakamının büyük bölümü 2021'deki bir pay sayısı değişiminden geliyor; nedeni belgede okunamadı. Yöneticilere 2.000 wondan kullanılan pay opsiyonları var; Ekim 2026'da 50.000 pay çıkarıldı (toplam 17.239.188). Şerefiye: tek şirket tablosu, satın alma görülmedi. Hisse bazlı ücretin tutarı ve bilanço dışı yükümlülükler: bakıldı, yıllık rapor açılamadığı için okunamadı.",
+  "latest": "19 Kasım 2026: Basının aktardığı sonuç duyurusuna göre üçüncü çeyrekte faaliyet kârı 6,03 milyar won (geçen yıla göre +%14,9), gelir %28,4 arttı, faaliyet kâr marjı %12,7. Faaliyet kârı önceki çeyreğin (6,5 milyar won) altında kaldı; şirket bunu kurdaki düşüşe ve sanayi ürünlerindeki zayıf talebe bağladı. Çeyreğin net kârı okunamadı. İkinci çeyrekte (13 Ağustos 2026) gelir 44,9 milyar won, faaliyet kârı 6,5 milyar won, net kâr 5,3 milyar wondu; bu rakamlar bir veri sitesinden.",
+  "risks": [
+   "Satışların çoğu ana ortağın grubundaki şirketlere yapılıyor (2022'de %65,9); fiyatın piyasa koşullarında oluştuğu şirket belgesinden doğrulanamadı.",
+   "Son kullanıcı iki şirket: Samsung Electronics ve SK hynix. Talep bu fabrikaların doluluk oranına bağlı; bellek döngüsü şu an yükselişte, beş yıl tam bir döngüyü göstermez.",
+   "Yeni fabrika yatırımı (yaklaşık 35 milyar won donanım, ileride toplam 100 milyar wona kadar) özsermayeye göre büyük; kârın %85'i şirkette kalıyor ve bu paranın getirisi henüz görülmedi.",
+   "PGMEA ve PGME'de kapasite dolmak üzere; büyüme EL ve EEP'deki payın artmasına bağlı."
+  ],
+  "watch": [
+   "Faaliyet kâr marjı ve brüt kâr marjı",
+   "İlişkili taraflara satışın payı",
+   "EL'de Samsung'daki pay",
+   "Yesan fabrikasının maliyeti ve devreye girişi"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/kosdaq/445180/financials/ratios/"
+   },
+   {
+    "t": "Purit: 2025 ikinci çeyrek sonuç sunumu (18 Ağu 2025)",
+    "te": "Purit: second-quarter 2025 results presentation (18 Aug 2025)",
+    "u": "https://file.alphasquare.co.kr/media/pdfs/company-ir/20250818%ED%93%A8%EB%A6%BF_2025%EB%85%84_2%EB%B6%84%EA%B8%B0_%EA%B2%BD%EC%98%81%EC%8B%A4%EC%A0%81_%EB%B0%9C%ED%91%9C.pdf"
+   },
+   {
+    "t": "Lead Economy: Purit üçüncü çeyrek faaliyet kârı %14,9 arttı (19 Kas 2026)",
+    "te": "Lead Economy: Purit third-quarter operating profit up 14.9% (19 Nov 2026)",
+    "u": "https://www.leadeconomy.co.kr/news/articleView.html?idxno=11373"
+   },
+   {
+    "t": "etfshopping: Purit çeyrek sonuçları",
+    "te": "etfshopping: Purit quarterly results",
+    "u": "https://etfshopping.com/stock/445180/earnings"
+   },
+   {
+    "t": "IB Tomato: Hankook Alcohol, Purit'i aldıktan sonra değerini beş katına çıkardı (6 Eyl 2023)",
+    "te": "IB Tomato: Hankook Alcohol grew Purit's value fivefold after buying it (6 Sep 2023)",
+    "u": "https://www.newstomato.com/ReadNews.aspx?no=1199890"
+   },
+   {
+    "t": "Datatooza: Hankook Alcohol Industrial ve ilişkili kişilerin Purit payı %50,39 (7 Eki 2026)",
+    "te": "Datatooza: Hankook Alcohol Industrial and related persons hold 50.39% of Purit (7 Oct 2026)",
+    "u": "https://www.datatooza.com/article/20261007155016667552ef3e61bc_80"
+   },
+   {
+    "t": "eToday: Purit etil laktatta yaklaşık %40 pay aldı (22 Nis 2026)",
+    "te": "eToday: Purit takes about 40% share in ethyl lactate (22 Apr 2026)",
+    "u": "https://www.etoday.co.kr/news/view/2577745"
+   },
+   {
+    "t": "iM Securities: Purit şirket notu (3 Ara 2025)",
+    "te": "iM Securities: Purit company brief (3 Dec 2025)",
+    "u": "https://file.alphasquare.co.kr/media/pdfs/company-report/_02172610-445180.pdf"
+   },
+   {
+    "t": "Kore IR Konseyi: Purit şirket raporu (3 Haz 2024)",
+    "te": "Korea IR Council: Purit company report (3 Jun 2024)",
+    "u": "https://file.alphasquare.co.kr/media/pdfs/company-report/240529_퓨릿.pdf"
+   },
+   {
+    "t": "The Elec: ENF Technology, Purit ve Hankook Alcohol ile Yesan'da malzeme yerleşkesi kuruyor (19 Ağu 2026)",
+    "te": "The Elec: ENF Technology builds a materials campus in Yesan with Purit and Hankook Alcohol (19 Aug 2026)",
+    "u": "https://www.thelec.kr/news/articleView.html?idxno=61021"
+   },
+   {
+    "t": "etfshopping: Purit temettü geçmişi",
+    "te": "etfshopping: Purit dividend history",
+    "u": "https://etfshopping.com/stock/445180/dividend"
+   }
+  ],
+  "en": {
+   "one": "Purifies and synthesises raw materials for semiconductor thinner. It did not pass the moat test: operating margin of 11-13%, most sales to the parent's group.",
+   "business": "Purit makes the raw materials of the thinner that cleans photoresist in chip making: it purifies PGMEA and PGME, synthesises ethyl lactate (EL) and EEP, and recycles used solvents. Products are sold to thinner makers (ENF Technology, Dongjin Semichem); the end users are Samsung Electronics and SK hynix. In the first nine months of 2025 about 75% of revenue came from semiconductors. In 2025 revenue was 142.5 billion won and operating profit 17.2 billion won; in 2024 revenue was 122.5 billion won and net profit 11.8 billion won. The statements are for a single company; there are no subsidiaries.",
+   "moat_text": "The moat is weak; this is why the company did not pass the third wall. There is an advantage: it was the first company in Korea to make semiconductor-grade EL, in 2021, and customer qualification takes a long time. According to the press its share of the EL going to Samsung rose to about 40% in 2026; this figure could not be confirmed in the company's own documents. The margins do not prove a narrow moat. According to the company's presentation the gross margin was 15.9% in 2022, 18.0% in 2023 and 20.0% in 2024; the operating margin was 10.4%, 10.7% and 11.4%. The operating margin was about 12% in 2025 and 12.7% in the third quarter of 2026. The margin is rising, but its level is that of a purification and toll-processing business; a broker puts the margin at 10-12% in purification and 5-7% in recycling. Sales have not been tested with independent customers: in 2022, 65.9% of sales went to related parties (ENF Technology 51.8 billion won, KCNA 37.9 billion won); both belong to the group of the parent, Hankook Alcohol Industrial. Real return on equity fell from 28.2% in 2021 to 11.3% in 2024; the latest reading is 13.9%.",
+   "mgmt": "The parent is Hankook Alcohol Industrial: 48.71%; 50.39% together with related executives (7 October 2026). The company is a consolidated subsidiary of Hankook Alcohol; the same group both sells it raw materials and owns its largest customers. This is a related-party structure for a minority shareholder to watch; current amounts could not be read. Most of the profit stays in the company: the dividend per share was 50 won for 2023 and 120 won for 2024 and 2025; the payout ratio is 14-17%. The money goes to the new plant in Yesan: about 9.6 billion won was paid for land and about 35 billion won is planned for equipment; the expansion of the second plant is 17.5 billion won. The investment is in the core business. There is net cash (net debt/EBITDA of -1.02 in the source). Share count: 2,887,000 new shares were issued in the October 2023 listing; paid-in capital rose from 6.9 billion won at the end of 2022 to 8.4 billion won at the end of 2023. Most of the source's five-year dilution figure comes from a change in the share count in 2021; its cause could not be read in a document. Executives hold stock options exercisable at 2,000 won; 50,000 shares were issued in October 2026 (total 17,239,188). Goodwill: single-company statements, no acquisition seen. The amount of share-based pay and off-balance-sheet liabilities: checked, could not be read because the annual report could not be opened.",
+   "latest": "19 November 2026: According to the results release as reported by the press, third-quarter operating profit was 6.03 billion won (+14.9% on a year earlier), revenue rose 28.4% and the operating margin was 12.7%. Operating profit was below the previous quarter (6.5 billion won); the company put this down to the fall in the exchange rate and weak demand for industrial products. The quarter's net profit could not be read. In the second quarter (13 August 2026) revenue was 44.9 billion won, operating profit 6.5 billion won and net profit 5.3 billion won; these figures are from a data site.",
+   "risks": [
+    "Most sales go to companies in the parent's group (65.9% in 2022); that prices are set on market terms could not be confirmed from a company document.",
+    "There are two end users: Samsung Electronics and SK hynix. Demand depends on the utilisation of their plants; the memory cycle is now rising, and five years do not show a full cycle.",
+    "The new plant investment (about 35 billion won of equipment, up to 100 billion won in total later) is large relative to equity; 85% of profit stays in the company and the return on that money has not yet been seen.",
+    "Capacity in PGMEA and PGME is nearly full; growth depends on a rising share in EL and EEP."
+   ],
+   "watch": [
+    "Operating margin and gross margin",
+    "Share of sales to related parties",
+    "Share of EL at Samsung",
+    "Cost and start-up of the Yesan plant"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-19",
+   "per": "2026-Q2"
+  }
  }
 }

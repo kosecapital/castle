@@ -2552,5 +2552,315 @@
    "tr": "Evren doğru; oran sayfası eski (14 Ağustos 2026, ilk yarı). Üçüncü çeyrekte hisse başına kâr %52,5 düştü; son dört çeyrek 6,85 Tayvan doları ve 90,5 ÷ 6,85 = 13,21, evrenle aynı.",
    "en": "The universe is right; the ratio page is old (14 August 2026, first half). Earnings per share fell 52.5% in the third quarter; the last four quarters total 6.85 Taiwan dollars and 90.5 ÷ 6.85 = 13.21, the same as the universe."
   }
+ },
+ "2404": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-Q3",
+  "one": "Çip fabrikalarına temiz oda ve tesisat kuran yüklenici. Kâr ve marj rekor düzeyde, ama iş proje proje teklifle alındığı için hendek ölçütünü geçemedi.",
+  "business": "United Integrated Services (漢唐) 1982'de kuruldu; yarı iletken ve ekran fabrikalarının temiz odasını, mekanik ve elektrik tesisatını, gaz, kimyasal ve atık su sistemlerini anahtar teslim kurar, işin büyük bölümünü taşeronlarla yapar. Müşterileri arasında TSMC, Micron, Winbond, Macronix ve AUO var. 2025 hasılatı 66,09 milyar Tayvan doları, hisse başına kâr 48,08 idi. 2026'nın ilk çeyreğinde hasılatın %56'sı ABD'den, %40'ı Tayvan'dan geldi; ABD payı ilk kez Tayvan'ı geçti. Yaklaşık 1.700 çalışanı var.",
+  "moat_text": "Hendek zayıf. Şirketin gerçek bir üstünlüğü var: ABD'de ileri teknoloji fabrikası kurabilen az sayıda yükleniciden biri ve hasılat %62 artarken brüt marj da yükseldi (2025'te %20,0, 2026'nın ilk dokuz ayında %24,5, üçüncü çeyrekte %26,2). Ama bu bir yüklenicilik işi: her proje ayrı sözleşmeyle alınır, iş bitince gelir de biter. Yönetim haziran 2026 toplantısında fiyatın müşteriyle pazarlıkla belirlendiğini, müşterilerin fiyat indirimi isteyeceğini ve kâr artışının fiyattan değil verimlilikten geleceğini söyledi; bu fiyatlama gücü değildir. İlk çeyrekteki marj sıçramasının bir bölümü ABD projelerinde geçmiş dönemlere ait maliyet tahmininin düzeltilmesinden geldi. Basında geçen 'Tayvan'daki 12 inç fabrika temiz odalarında %70'in üstünde pay' rakamı şirketin belgesinden doğrulanamadı; şirket pazar payı ve müşteri payı açıklamıyor. Reel özsermaye kârlılığı çok yüksek (beş yılda %25,0 ile %52,2 arası, son 12 ayda %68,8), ama bunu müşteri avanslarıyla dönen, az sermaye isteyen bir işte çip fabrikası yatırımlarının en yoğun dönemi sağlıyor. Depodaki öbür Tayvan fabrika yüklenicileriyle aynı ölçü uygulandı; şirket hendek ölçütünü geçemedi (B = 1).",
+  "mgmt": "Yönetim kurulu başkanı Li Hui-wen (李惠文), genel müdür Lai Chih-ming (賴志明). Sermaye 1,905 milyar Tayvan doları (yaklaşık 191 milyon pay); yabancı yatırımcıların payı %36,3, yaklaşık 65 bin ortak var. Kârın çoğu dağıtılıyor: 2025 kârından hisse başına 40 Tayvan doları nakit temettü (dağıtım oranı %83,2); son beş yılda oran %70 ile %89 arasında kaldı. Pay sayısı beş yılda neredeyse değişmedi. 30 Eylül 2026'da toplam yükümlülükler 78,35 milyar, ana ortaklığa ait özsermaye 22,54 milyar Tayvan doları; yükümlülüklerin büyük bölümü müşteri avansı (sözleşme yükümlülükleri mart 2026 sonunda 48,3 milyar Tayvan doları). Kaynağa göre şirket net nakitte. İlk dokuz ayda vergi öncesi kâr faaliyet kârının 1,38 milyar Tayvan doları üstünde; bu faaliyet dışı gelirin dökümü okunamadı. Bakıldı, okunan kaynaklarda yok: hisse bazlı ücret, şerefiye, teminat ve garantiler, ilişkili taraf işlemleri, yeniden yapılanma gideri.",
+  "latest": "12 Kasım 2026: Yönetim kurulu 2026'nın ilk dokuz ayının sonuçlarını onayladı. Hasılat 73,91 milyar Tayvan doları (yıllık %62,3 artış), faaliyet kârı 15,26 milyar (%87,6 artış), ana ortaklığa düşen net kâr 11,41 milyar Tayvan doları (%77,6 artış). Hisse başına kâr 60,42 Tayvan doları; geçen yıl 34,07 idi ve 2025'in tamamı 48,08 idi. Üçüncü çeyrekte hasılat 27,54 milyar (%43,2 artış), net kâr 4,57 milyar (%50,4 artış), hisse başına kâr 24,19 Tayvan doları; brüt marj %26,2. Ekim hasılatı 9,78 milyar Tayvan doları ile geçen yılın %56,0 üstünde. Mayıs 2026 sonunda elde bekleyen işler 193,9 milyar Tayvan doları idi.",
+  "risks": [
+   "Kâr, çip fabrikası yatırımlarına bağlı; bu yatırım dalgası yavaşlarsa yeni iş azalır ve kâr hızla düşer. Beş yıllık geçmiş bu döngünün yalnız yükselen yanını gösteriyor; bugünkü kâr döngünün tepesine yakın bir dönemin kârı.",
+   "Gelir birkaç büyük müşteriye ve projeye bağlı: 2026'nın ilk çeyreğinde hasılatın %56'sı ABD'den geldi ve oradaki ana proje yıl sonunda %80-90 tamamlanmış olacak; sonraki aşamanın sözleşmelerinin çoğu haziranda henüz verilmemişti. Şirket müşteri paylarını açıklamıyor.",
+   "Marj kalıcı olmayabilir: ilk çeyrekteki artışın bir bölümü geçmiş dönemlere ait maliyet düzeltmesiydi ve yönetim müşterilerin fiyat indirimi isteyeceğini söylüyor. Brüt marj 2025'teki %20,0 düzeyine dönerse kâr belirgin biçimde düşer.",
+   "İşçi bulmak zorlaşıyor; yönetim bunu en büyük sorun sayıyor. Geciken projede genel gider artar, sabit fiyatlı işte maliyet aşımı kârı doğrudan düşürür.",
+   "Toplam yükümlülükler özsermayenin 3,5 katı (78,35 milyara karşı 22,54 milyar Tayvan doları). Çoğu müşteri avansı; yeni sipariş yavaşlarsa bu nakit de azalır."
+  ],
+  "watch": [
+   "Elde bekleyen işler (Mayıs 2026 sonu: 193,9 milyar Tayvan doları)",
+   "Brüt marj (2026 üçüncü çeyrek: %26,2; 2025 yılı: %20,0)",
+   "Aylık hasılat (Ekim 2026: 9,78 milyar Tayvan doları)",
+   "ABD'deki sonraki aşamanın sözleşmeleri ve ABD'nin hasılattaki payı"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tpe/2404/financials/ratios/"
+   },
+   {
+    "t": "MoneyDJ: United Integrated Services 2026 üçüncü çeyrek konsolide finansal raporu, borsa bildirimi (12 Kasım 2026)",
+    "te": "MoneyDJ: United Integrated Services Q3 2026 consolidated financial report, exchange filing (12 November 2026)",
+    "u": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=cc4e1594-d6dc-4175-acfa-d3fbaa0c8cbf"
+   },
+   {
+    "t": "SETN: üçüncü çeyrek ve dokuz aylık sonuçlar, marjlar (14 Kasım 2026)",
+    "te": "SETN: third-quarter and nine-month results, margins (14 November 2026)",
+    "u": "https://inews.setn.com/news/1938409"
+   },
+   {
+    "t": "FTNN: üçüncü çeyrek net kârı 4,57 milyar, hisse başına kâr 24,19 (13 Kasım 2026)",
+    "te": "FTNN: third-quarter net profit 4.57 billion, EPS 24.19 (13 November 2026)",
+    "u": "https://www.ftnn.com.tw/news/595519"
+   },
+   {
+    "t": "TechNews: Ekim 2026 hasılatı (10 Kasım 2026)",
+    "te": "TechNews: October 2026 revenue (10 November 2026)",
+    "u": "https://finance.technews.tw/2026/11/10/uis-2404-202610-financial-report/"
+   },
+   {
+    "t": "Economic Daily News (CNA): 2025 hisse başına kâr 48,08, nakit temettü 40 (12 Mart 2026)",
+    "te": "Economic Daily News (CNA): 2025 EPS 48.08, cash dividend 40 (12 March 2026)",
+    "u": "https://money.udn.com/money/amp/story/5607/9376831"
+   },
+   {
+    "t": "Commercial Times: yatırımcı toplantısı, elde bekleyen işler 193,9 milyar (12 Haziran 2026)",
+    "te": "Commercial Times: investor conference, backlog 193.9 billion (12 June 2026)",
+    "u": "https://www.ctee.com.tw/news/20260612700676-430201"
+   },
+   {
+    "t": "Fugle: 11 Haziran 2026 yatırımcı toplantısı özeti",
+    "te": "Fugle: summary of the 11 June 2026 investor conference",
+    "u": "https://blog.fugle.tw/post/earnings-call-2404-2026-06-11"
+   },
+   {
+    "t": "Economic Daily News (UDN): 2025 üçüncü çeyrek, dokuz aylık hisse başına kâr 34,07 (Kasım 2025)",
+    "te": "Economic Daily News (UDN): Q3 2025, nine-month EPS 34.07 (November 2025)",
+    "u": "https://udn.com/news/story/7253/9137458"
+   },
+   {
+    "t": "Cnyes: şirket bilgileri (yönetim, sermaye, ortak sayısı)",
+    "te": "Cnyes: company profile (management, capital, shareholder count)",
+    "u": "https://www.cnyes.com/twstock/2404/company/profile"
+   }
+  ],
+  "en": {
+   "one": "A contractor that builds cleanrooms and utilities for chip fabs. Profit and margins are at records, but work is won contract by contract, so it failed the moat test.",
+   "business": "United Integrated Services (漢唐) was founded in 1982. It builds cleanrooms, mechanical and electrical systems, and gas, chemical and wastewater systems for semiconductor and display fabs on a turnkey basis, using subcontractors for much of the work. Customers include TSMC, Micron, Winbond, Macronix and AUO. Revenue in 2025 was 66.09 billion Taiwan dollars and earnings per share were 48.08. In the first quarter of 2026, 56% of revenue came from the United States and 40% from Taiwan; the US share passed Taiwan's for the first time. It has about 1,700 employees.",
+   "moat_text": "The moat is weak. The company has a real edge: it is one of the few contractors able to build advanced fabs in the United States, and its gross margin rose while revenue grew 62% (20.0% in 2025, 24.5% in the first nine months of 2026, 26.2% in the third quarter). But this is contracting: each project is won under a separate contract, and revenue ends when the job ends. At its June 2026 meeting management said prices are negotiated with the customer, that customers will ask for price cuts, and that profit gains will come from efficiency, not price; that is not pricing power. Part of the first-quarter margin jump came from revising prior-period cost estimates on US projects. The figure quoted in the press, a share above 70% of 12-inch fab cleanrooms in Taiwan, could not be confirmed from a company document; the company discloses neither market share nor customer shares. Real return on equity is very high (25.0% to 52.2% over five years, 68.8% in the last 12 months), but that comes from the busiest period of fab investment in a business that needs little capital and runs on customer advances. The same yardstick was used as for the other Taiwanese fab contractors in this dataset; the company failed the moat test (B = 1).",
+   "mgmt": "The chairman is Li Hui-wen (李惠文) and the general manager is Lai Chih-ming (賴志明). Share capital is 1.905 billion Taiwan dollars (about 191 million shares); foreign investors hold 36.3% and there are about 65 thousand shareholders. Most of the profit is paid out: a cash dividend of 40 Taiwan dollars per share from 2025 profit (payout ratio 83.2%); over the past five years the ratio stayed between 70% and 89%. The share count has barely changed in five years. At 30 September 2026 total liabilities were 78.35 billion and equity attributable to the parent 22.54 billion Taiwan dollars; most of the liabilities are customer advances (contract liabilities were 48.3 billion Taiwan dollars at the end of March 2026). According to the source the company has net cash. In the first nine months pre-tax profit was 1.38 billion Taiwan dollars above operating profit; the breakdown of this non-operating income could not be read. Checked, not in the sources read: share-based pay, goodwill, guarantees, related-party transactions, restructuring charges.",
+   "latest": "12 November 2026: The board approved results for the first nine months of 2026. Revenue was 73.91 billion Taiwan dollars (up 62.3% year on year), operating profit 15.26 billion (up 87.6%), and net profit attributable to the parent 11.41 billion Taiwan dollars (up 77.6%). Earnings per share were 60.42 Taiwan dollars; a year earlier they were 34.07, and the whole of 2025 was 48.08. In the third quarter revenue was 27.54 billion (up 43.2%), net profit 4.57 billion (up 50.4%) and earnings per share 24.19 Taiwan dollars; gross margin was 26.2%. October revenue was 9.78 billion Taiwan dollars, 56.0% above a year earlier. At the end of May 2026 the backlog was 193.9 billion Taiwan dollars.",
+   "risks": [
+    "Profit depends on chip fab investment; if that investment wave slows, new work shrinks and profit falls fast. The five-year record shows only the rising side of this cycle; today's profit comes from a period near the top of it.",
+    "Revenue depends on a few large customers and projects: in the first quarter of 2026, 56% of revenue came from the United States, and the main project there will be 80-90% complete by year-end; most contracts for the next phase had not been awarded as of June. The company does not disclose customer shares.",
+    "The margin may not last: part of the first-quarter rise was a prior-period cost adjustment, and management says customers will ask for price cuts. If gross margin returns to the 2025 level of 20.0%, profit falls markedly.",
+    "Labour is getting harder to find; management calls this its biggest problem. A delayed project raises overhead, and on fixed-price work a cost overrun cuts profit directly.",
+    "Total liabilities are 3.5 times equity (78.35 billion against 22.54 billion Taiwan dollars). Most are customer advances; if new orders slow, that cash shrinks too."
+   ],
+   "watch": [
+    "Backlog (end of May 2026: 193.9 billion Taiwan dollars)",
+    "Gross margin (third quarter of 2026: 26.2%; full year 2025: 20.0%)",
+    "Monthly revenue (October 2026: 9.78 billion Taiwan dollars)",
+    "Contracts for the next US phase and the US share of revenue"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-19",
+   "per": "2026-Q3"
+  }
+ },
+ "4763": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-Q2",
+  "one": "Çin'de sigara filtresi için asetat elyafı üretir. Kıtlık yıllarının kârı eridi; fiyatlama gücü kalıcı çıkmadı, hendek ölçütünde elendi.",
+  "business": "Jinan Acetate Chemical (材料*-KY), Cayman Adaları'nda kurulu bir holdingdir; üretimi Çin'in Shandong eyaletindedir ve hisseleri 2015'ten beri Tayvan borsasında işlem görür. Sigara filtresinde kullanılan asetat elyafını (tow) ve onun ham maddesi olan asetat pulunu üretir; tekstil için asetat ipliği de satar. Satışların önemli bölümü Orta Doğu ve Güneydoğu Asya'ya gider. 2025'te hasılat 13,231 milyar Tayvan doları, net kâr 6,031 milyar Tayvan doları, hisse başına kâr 6,10 Tayvan doları oldu.",
+  "moat_text": "Hendek zayıf. Şirket hendek ölçütünde elendi (B = 1; geçmek için en az 2 gerekir). Asetat elyafında dünyada az sayıda üretici var (Eastman, Celanese, Cerdia, Daicel ve bu şirket) ve sigara üreticisinin tedarikçi değiştirmesi zaman alır; üstünlük buradan gelir. Ama fiyatlama gücü kalıcı çıkmadı. Brüt marj 2017 öncesinde yaklaşık %27,5, 2020'de %33,5 idi; kıtlık döneminde 2024'ün son çeyreğinde %62,5'e çıktı, 2026'nın ikinci çeyreğinde %40,9'a, üçüncü çeyreğinde %48,0'a indi. Şirket ikinci çeyrekteki düşüşün nedenleri arasında satış fiyatlarının arz-talep değişimiyle gerilemesini saydı. Reel özsermaye kârlılığı 2021'de %19,1, 2023'te %70,2, 2025'te %31,5; son 12 ayda %20,3. Net kâr 2026'nın ilk dokuz ayında %62,6 düştü. Pazar payı şirketin kendi belgesinden doğrulanamadı.",
+  "mgmt": "Yönetim kurulu başkanı 王克璋. Pay başına nominal değer 2025'te 10 Tayvan dolarından 1 Tayvan dolarına indirildi (bire on bölünme; pay sayısı 98,9 milyondan 989,1 milyona çıktı). 2025 kârından hisse başına 3,05 Tayvan doları nakit temettü ödendi (kârın %50'si; temettü hak tarihi 16 Eylül 2026). 21 Eylül 2026'da şirket, İsviçreli rakibi Cerdia Holding'in tamamını Blackstone'un yönettiği fonlardan 368 milyon ABD dolarına almak için anlaştı: 214 milyon ABD doları nakit (şirketin kendi kaynağından), kalanı payların yaklaşık %9,95'i kadar yeni payla. Alım ana işin içinde, ama döngünün dip yılında yapılıyor ve hisseyle ödeniyor; Cerdia'nın borcu okunan belgelerde yok. Kaynağa göre pay sayısı beş yılda %21,3 arttı. Büyük ortakların payı, hisse bazlı ücret, şerefiye, bilanço dışı yükümlülükler: bakıldı, okunan belgelerde yok.",
+  "latest": "13 Kasım 2026: 2026'nın üçüncü çeyreğinde hasılat 3,123 milyar Tayvan doları (yıllık %27,6 artış), brüt marj %48,0, faaliyet kârı 1,241 milyar Tayvan doları. Ama Çin'deki bağlı şirketten aktarılan kâr için yaklaşık 963 milyon Tayvan doları (30,35 milyon ABD doları) stopaj vergisi yazıldı; ana ortaklık çeyreği 2,04 milyon Tayvan doları zararla kapattı. İlk dokuz ayda ana ortaklık net kârı 1,829 milyar Tayvan doları (%62,6 düşüş), hisse başına kâr 1,85 Tayvan doları (geçen yıl 4,94). Ekim 2026 hasılatı 1,052 milyar Tayvan doları (%33,1 artış); Ocak-Ekim hasılatı 9,729 milyar Tayvan doları (%13,5 düşüş).",
+  "risks": [
+   "Evrendeki F/K (10,21) haziran sonuna kadarki 12 ayın kârına dayanıyor ve eskidi: eylül sonuna kadarki 12 ayda hisse başına kâr 3,01 Tayvan doları (6,10 − 4,94 + 1,85), bu fiyatla F/K yaklaşık 14,1. Düşüşün bir bölümü 963 milyon Tayvan dolarlık stopaj vergisinden; şirket bunu tek seferlik sayıyor, ama Çin'den kâr aktarıldıkça yinelenebilir.",
+   "Kâr bir kıtlık döneminin fiyatlarına dayanıyordu ve döngü aşağı dönük: brüt marj %62,5'ten (2024 son çeyrek) %48,0'a indi. Habere göre Çin'deki yeni kapasite fiyat rekabetini artırıyor; beş yıllık geçmiş tam bir döngüyü göstermiyor.",
+   "Cerdia alımı (368 milyon ABD doları) nakdi azaltır ve payları yaklaşık %9,95 sulandırır. Cerdia'nın hasılatı 2025'te %19,3, 2026'nın ilk çeyreğinde %21,8 düştü; borcu okunan belgelerde yok. İşlem resmî onay bekliyor.",
+   "Ürün sigara filtresine gider; talep tütün tüketimine ve birkaç büyük sigara üreticisinin siparişine bağlıdır. Müşteriler 2025 ve 2026'da teslimatları erteledi ve stok eritti.",
+   "Şirket Çin'de çalışır, Tayvan'da işlem görür: enflasyon düzeltmesi Tayvan enflasyonuyla yapılmıştır. Kârın Çin'den çıkarılması stopaj vergisine ve sermaye kurallarına tabidir."
+  ],
+  "watch": [
+   "Çeyreklik brüt marj (2026 üçüncü çeyrek: %48,0)",
+   "Aylık hasılatın yıllık değişimi (Ekim 2026: %33,1 artış; Ocak-Ekim: %13,5 düşüş)",
+   "Cerdia alımının kapanışı, Cerdia'nın borcu ve çıkarılacak pay sayısı",
+   "Çin'den kâr aktarımında yeni stopaj vergisi yazılıp yazılmadığı"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tpe/4763/financials/ratios/"
+   },
+   {
+    "t": "Economic Daily News (UDN): 材料 ilk dokuz ay net kârı 1,829 milyar Tayvan doları, %62,6 düşüş (13 Kasım 2026)",
+    "te": "Economic Daily News (UDN): 材料 nine-month net profit NT$1.829 billion, down 62.6% (13 November 2026)",
+    "u": "https://udn.com/news/story/7252/9877439"
+   },
+   {
+    "t": "Yahoo Tayvan / 財訊快報: tek seferlik vergi etkisi, üçüncü çeyrekte 2,04 milyon Tayvan doları zarar (15 Kasım 2026)",
+    "te": "Yahoo Taiwan / Investor Flash News: one-off tax effect, Q3 loss of NT$2.04 million (15 November 2026)",
+    "u": "https://tw.stock.yahoo.com/news/%E6%AC%A1%E6%80%A7%E7%A8%85%E5%8B%99%E5%BD%B1%E9%9F%BF-%E6%9D%90%E6%96%99-ky-q3%E8%99%A7%E6%90%8D204%E8%90%AC%E5%85%83-%E5%89%8D%E4%B8%89%E5%AD%A3eps-002248743.html"
+   },
+   {
+    "t": "MoneyDJ: 材料*-KY üçüncü çeyrek brüt marjı ve dördüncü çeyrek beklentisi (16 Kasım 2026)",
+    "te": "MoneyDJ: 材料*-KY Q3 gross margin and Q4 outlook (16 November 2026)",
+    "u": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=4def25e1-e654-4da3-a465-506c8b46fa45"
+   },
+   {
+    "t": "UAnalyze / 鉅亨網: Ekim 2026 hasılatı ve Cerdia alımı (Kasım 2026)",
+    "te": "UAnalyze / Anue: October 2026 revenue and the Cerdia acquisition (November 2026)",
+    "u": "https://uanalyze.com.tw/articles/6335458575"
+   },
+   {
+    "t": "UAnalyze / 鉅亨網: 2026 ilk yarı sonuçları, hisse başına kâr 1,85 Tayvan doları (21 Ağustos 2026)",
+    "te": "UAnalyze / Anue: first-half 2026 results, EPS NT$1.85 (21 August 2026)",
+    "u": "https://uanalyze.com.tw/articles/4105553863"
+   },
+   {
+    "t": "UAnalyze / 鉅亨網: 2025 sonuçları, hisse başına kâr 6,1 ve temettü 3,05 Tayvan doları (13 Mart 2026)",
+    "te": "UAnalyze / Anue: 2025 results, EPS 6.1 and dividend NT$3.05 (13 March 2026)",
+    "u": "https://uanalyze.com.tw/articles/2669748994"
+   },
+   {
+    "t": "鉅亨網: 2025 üçüncü çeyrek ve ilk dokuz ay sonuçları, hisse başına kâr 4,94 Tayvan doları (13 Kasım 2025)",
+    "te": "Anue: Q3 and nine-month 2025 results, EPS NT$4.94 (13 November 2025)",
+    "u": "https://m.cnyes.com/news/id/6236569"
+   },
+   {
+    "t": "Economic Daily News (UDN): 材料, Cerdia Holding'i 368 milyon ABD dolarına alıyor (22 Eylül 2026)",
+    "te": "Economic Daily News (UDN): 材料 to buy Cerdia Holding for US$368 million (22 September 2026)",
+    "u": "https://udn.com/news/story/6811/9769219"
+   },
+   {
+    "t": "UAnalyze: Cerdia alımının değerlendirmesi, Cerdia'nın rakamları (24 Eylül 2026)",
+    "te": "UAnalyze: review of the Cerdia acquisition, Cerdia's figures (24 September 2026)",
+    "u": "https://uanalyze.com.tw/articles/9436455922"
+   },
+   {
+    "t": "Business Today (今周刊): pay bölünmesi kararı, marj geçmişi, kapasite (6 Mart 2025)",
+    "te": "Business Today: share split decision, margin history, capacity (6 March 2025)",
+    "u": "https://www.businesstoday.com.tw/article/category/183008/post/202503060004/"
+   }
+  ],
+  "en": {
+   "one": "Makes acetate tow for cigarette filters in China. The shortage-year profits have faded; pricing power did not last, so it failed the moat test.",
+   "business": "Jinan Acetate Chemical (材料*-KY) is a Cayman Islands holding company; its plants are in Shandong province, China, and its shares have traded on the Taiwan Stock Exchange since 2015. It makes acetate tow for cigarette filters and acetate flake, the raw material for tow; it also sells acetate filament for textiles. A large part of sales goes to the Middle East and Southeast Asia. In 2025 revenue was 13.231 billion Taiwan dollars, net profit 6.031 billion Taiwan dollars and earnings per share 6.10 Taiwan dollars.",
+   "moat_text": "The moat is weak. The company failed the moat test (B = 1; at least 2 is needed to pass). Acetate tow has few producers worldwide (Eastman, Celanese, Cerdia, Daicel and this company), and a cigarette maker needs time to switch supplier; that is the advantage. But pricing power did not last. Gross margin was about 27.5% before 2017 and 33.5% in 2020; in the shortage it reached 62.5% in the fourth quarter of 2024, then fell to 40.9% in the second quarter of 2026 and 48.0% in the third. The company named lower selling prices from a shift in supply and demand among the reasons for the second-quarter fall. Real return on equity was 19.1% in 2021, 70.2% in 2023 and 31.5% in 2025; 20.3% over the last 12 months. Net profit fell 62.6% in the first nine months of 2026. Market share could not be confirmed from the company's own documents.",
+   "mgmt": "The chairman is Wang Ke-chang (王克璋). Par value per share was cut from 10 Taiwan dollars to 1 Taiwan dollar in 2025 (a ten-for-one split; the share count rose from 98.9 million to 989.1 million). A cash dividend of 3.05 Taiwan dollars per share was paid from 2025 profit (50% of profit; ex-dividend date 16 September 2026). On 21 September 2026 the company agreed to buy all of its Swiss rival Cerdia Holding from funds managed by Blackstone for 368 million US dollars: 214 million US dollars in cash (from the company's own funds) and the rest in new shares equal to about 9.95% of the share count. The purchase is inside the core business, but it is made in the trough year of the cycle and partly paid in shares; Cerdia's debt is not in the documents read. According to the source the share count rose 21.3% in five years. Major shareholders' stakes, share-based pay, goodwill, off-balance-sheet liabilities: checked, not in the documents read.",
+   "latest": "13 November 2026: In the third quarter of 2026 revenue was 3.123 billion Taiwan dollars (up 27.6% year on year), gross margin 48.0% and operating profit 1.241 billion Taiwan dollars. But about 963 million Taiwan dollars (30.35 million US dollars) of withholding tax was booked on profit remitted from the Chinese subsidiary; the parent closed the quarter with a loss of 2.04 million Taiwan dollars. In the first nine months net profit attributable to the parent was 1.829 billion Taiwan dollars (down 62.6%) and earnings per share 1.85 Taiwan dollars (4.94 a year earlier). October 2026 revenue was 1.052 billion Taiwan dollars (up 33.1%); January-October revenue was 9.729 billion Taiwan dollars (down 13.5%).",
+   "risks": [
+    "The P/E in the dataset (10.21) rests on the 12 months to the end of June and is out of date: over the 12 months to the end of September earnings per share were 3.01 Taiwan dollars (6.10 − 4.94 + 1.85), which gives a P/E of about 14.1 at this price. Part of the fall is the 963 million Taiwan dollar withholding tax; the company calls it one-off, but it can recur whenever profit is remitted from China.",
+    "Profit rested on the prices of a shortage period and the cycle has turned down: gross margin fell from 62.5% (fourth quarter of 2024) to 48.0%. According to press reports new capacity in China is increasing price competition; five years of history do not show a full cycle.",
+    "The Cerdia purchase (368 million US dollars) reduces cash and dilutes shares by about 9.95%. Cerdia's revenue fell 19.3% in 2025 and 21.8% in the first quarter of 2026; its debt is not in the documents read. The deal awaits regulatory approval.",
+    "The product goes into cigarette filters; demand depends on tobacco consumption and on orders from a few large cigarette makers. Customers delayed deliveries and ran down stocks in 2025 and 2026.",
+    "The company operates in China and is listed in Taiwan: the inflation adjustment uses Taiwan's inflation. Taking profit out of China is subject to withholding tax and capital rules."
+   ],
+   "watch": [
+    "Quarterly gross margin (third quarter of 2026: 48.0%)",
+    "Year-on-year change in monthly revenue (October 2026: up 33.1%; January-October: down 13.5%)",
+    "Closing of the Cerdia purchase, Cerdia's debt and the number of shares to be issued",
+    "Whether new withholding tax is booked on profit remitted from China"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-19",
+   "per": "2026-Q2"
+  }
+ },
+ "6669": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-Q3",
+  "one": "Bulut devlerine sunucu tasarlayıp üretir. Kârlılık yüksek ama satışın %96'sı üç müşteri grubundan gelir, brüt marj %9'un altındadır; hendek zayıf, ölçütü geçemedi.",
+  "business": "Wiwynn (緯穎), büyük bulut şirketlerinin veri merkezleri için sunucu ve raf sistemleri tasarlar, üretir ve doğrudan müşteriye satar (ODM-direct). Ana ortağı Wistron'dur. 2025'te hasılat 950,7 milyar Tayvan doları, net kâr 51,1 milyar Tayvan doları oldu; şirketin yıllık raporuna göre yapay zekâ ürünleri hasılatın yarısından fazlasıdır. 2026'nın ilk dokuz ayında hasılat 989,3 milyar Tayvan doları, brüt marj %8,61, faaliyet marjı %7,09 oldu. Üretim Tayvan, ABD, Meksika, Malezya ve Çekya'dadır.",
+  "moat_text": "Hendek zayıf. Üstünlük var: şirketin kendi tahminine göre 2025'te dünya sunucu sevkiyatının %10'undan fazlası ve ODM-direct sevkiyatının yaklaşık %30'u Wiwynn'den çıktı; reel özsermaye kârlılığı beş yılın hepsinde %26'nın üstünde (2025'te %46,1, son 12 ayda %41,5). Ama bu üstünlük fiyatlama gücüne dönmüyor. 2025'te hasılat 2,6 katına çıkarken brüt marj %10,37'den %8,25'e indi. Yıllık rapora göre 2025 satışlarının %48,58'i, %29,46'sı ve %18,27'si üç müşteri grubuna yapıldı: toplam %96,3. Tek bir tedarikçi alımların %33,34'ünü oluşturdu. Fiyatı ve tasarımı belirleyen müşteridir; aynı müşteriler başka üreticilerle de çalışır. Şirket de rekabetin sertleşmesini ve müşteri yoğunlaşmasını kendi zayıf yanları arasında sayıyor. Bu yüzden hendek dar sayılmadı ve şirket 3. suru geçemedi.",
+  "mgmt": "Wistron, 26 Mart 2026'da şirketin %35,46'sını elinde tutuyordu. 2025 kârından hisse başına 145 Tayvan doları nakit temettü (26,9 milyar) ve 20 Tayvan doları bedelsiz pay (her paya iki yeni pay) dağıtıldı; toplam 30,7 milyar Tayvan doları. Büyüme nakit yutuyor: 2025'te faaliyet nakit akışı eksi 0,6 milyar, 2026'nın ilk dokuz ayında eksi 56,8 milyar Tayvan doları; açık borçla ve pay ihracıyla kapatılıyor. Temmuz 2024'te 11 milyon paylık depo sertifikası ve 600 milyon dolarlık paya çevrilebilir tahvil, Nisan 2026'da 2 milyar dolarlık paya çevrilebilir tahvil çıkarıldı; 6 Kasım 2026'da 18 milyon paya kadar yeni depo sertifikası ihracı için hazırlık kararı alındı. Bir yandan nakit temettü dağıtıp öbür yandan pay ve borç çıkarmak küçük bir kusurdur. Çalışan kâr payı 2025'te kârın %5,18'i oldu ve nakit ödendi. 2025 araştırma geliştirme gideri 9,4 milyar Tayvan doları (hasılatın %0,99'u). Dava: yıllık raporda yok. Dışarıya verilen kefalet 2025 sonunda 1,7 milyar Tayvan doları. Şerefiye, emeklilik açığı, geri alım ve yeniden yapılanma gideri: bakıldı, okunan bölümlerde yok. Ana iş dışı tek yatırım olan LiquidStack payının satışına 10 Şubat 2026'da karar verildi.",
+  "latest": "6 Kasım 2026: Yönetim kurulu 2026'nın üçüncü çeyrek tablolarını onayladı. Çeyrek hasılatı 434,6 milyar Tayvan doları (yıllık %62,9 artış), net kâr 23,4 milyar Tayvan doları (%51,6 artış), hisse başına kâr 41,46 Tayvan doları oldu; geçen yılın aynı çeyreği bedelsiz paya göre düzeltilmiş hâliyle 27,80 idi. İlk dokuz ayda hasılat 989,3 milyar, net kâr 52,4 milyar Tayvan doları, hisse başına kâr 94,04 (geçen yıl 67,34). Brüt marj çeyrekte %8,87, faaliyet marjı %7,47. Aynı gün ABD'deki bağlı ortaklığa 250 milyon, Malezya'dakine 200 milyon dolar sermaye konmasına karar verildi. Şirket, hammadde arzının sıkışık olduğunu ve aylık hasılatın kısa vadede dalgalanacağını söyledi. Ekim 2026 hasılatı 165,1 milyar Tayvan doları (Eylül: 172,6 milyar).",
+  "risks": [
+   "Satışların %96,3'ü üç müşteri grubuna yapılıyor (2025: %48,58, %29,46, %18,27). Bunlardan birinin yatırımını kısması ya da işi başka üreticiye vermesi kârı doğrudan düşürür.",
+   "Kâr nakde dönmüyor: 2026'nın ilk dokuz ayında faaliyet nakit akışı eksi 56,8 milyar Tayvan doları. Stoklar ve alacaklar büyüyor; kısa vadeli borç eylül sonunda 124,3 milyar Tayvan dolarına çıktı, çeyreğin finansman gideri 3,0 milyar oldu (bir yıl önce 0,7 milyar).",
+   "Beş yıl tam bir döngüyü göstermiyor. Hasılat 2025'te 2,6 katına çıktı; bu, bulut şirketlerinin yapay zekâ yatırım dalgasının tepeye yakın bir dönemi olabilir. Yatırımlar yavaşlarsa bugünkü kâr olağan kazanç gücü sayılamaz.",
+   "Brüt marj %9'un altında ve tek bir tedarikçi alımların üçte biri. Parça fiyatındaki ya da müşteriyle paylaşımdaki küçük bir değişiklik kârı çok oynatır. Nisan 2026'dan beri bazı müşterilerin bellek alımı hasılata yazılmıyor; marjlar önceki dönemlerle tam karşılaştırılamaz.",
+   "Sulanma: 2,6 milyar dolarlık paya çevrilebilir tahvil duruyor ve 18 milyon paya kadar yeni ihraç gündemde. Satışlar dolarla yapıldığı için kur da kârı etkiler (2025 kur kazancı 3,9 milyar Tayvan doları)."
+  ],
+  "watch": [
+   "En büyük üç müşteri grubunun satışlardaki payı (2025: %96,3)",
+   "Faaliyet nakit akışı ve kısa vadeli borç (Eylül 2026: 124,3 milyar Tayvan doları)",
+   "Brüt marj (2026'nın ilk dokuz ayında %8,61)",
+   "Aylık hasılat (Ekim 2026: 165,1 milyar Tayvan doları) ve pay sayısı"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tpe/6669/financials/ratios/"
+   },
+   {
+    "t": "Wiwynn: 2025 yıllık raporu, İngilizce (30 Nisan 2026)",
+    "te": "Wiwynn: 2025 annual report, English (30 April 2026)",
+    "u": "https://www.wiwynn.com/hubfs/Investors/Shareholders_Services/2026_Annual_Report_EN.pdf"
+   },
+   {
+    "t": "TWSE: Wiwynn şirket özeti; hisse başına kâr, temettü, aylık hasılat (19 Kasım 2026)",
+    "te": "TWSE: Wiwynn company summary; EPS, dividends, monthly revenue (19 November 2026)",
+    "u": "https://www.twse.com.tw/pdf/en/6669_en.pdf"
+   },
+   {
+    "t": "Uanalyze (cnyes): Wiwynn ilk dokuz ay kârı 52,4 milyar Tayvan doları (6 Kasım 2026)",
+    "te": "Uanalyze (cnyes): Wiwynn nine-month profit 52.4 billion Taiwan dollars (6 November 2026)",
+    "u": "https://uanalyze.com.tw/articles/2502258599"
+   },
+   {
+    "t": "Futurum Group: Wiwynn üçüncü çeyrek 2026 sonuçları (11 Kasım 2026)",
+    "te": "Futurum Group: Wiwynn Q3 2026 results (11 November 2026)",
+    "u": "https://futurumgroup.com/?p=97797"
+   },
+   {
+    "t": "Uanalyze (cnyes): Wiwynn 2025 sonuçları, 145 Tayvan doları nakit ve 20 Tayvan doları bedelsiz temettü (26 Şubat 2026)",
+    "te": "Uanalyze (cnyes): Wiwynn 2025 results, cash dividend 145 and stock dividend 20 Taiwan dollars (26 February 2026)",
+    "u": "https://uanalyze.com.tw/articles/6382548177"
+   },
+   {
+    "t": "Pocket School: Wiwynn 2026 üçüncü çeyrek tablolarının incelemesi; nakit akışı, borç, finansman gideri",
+    "te": "Pocket School: review of Wiwynn Q3 2026 statements; cash flow, borrowings, finance cost",
+    "u": "https://www.pocket.tw/school/articles/article-mwa651z9/"
+   },
+   {
+    "t": "WantGoo: Wiwynn bilanço özeti, 2026 üçüncü çeyrek",
+    "te": "WantGoo: Wiwynn balance sheet summary, Q3 2026",
+    "u": "https://www.wantgoo.com/stock/6669/financial-statements/balance-sheet"
+   }
+  ],
+  "en": {
+   "one": "Designs and builds servers for cloud giants. Returns are high, but three customer groups make 96% of sales and gross margin is under 9%; the moat is weak and it did not pass.",
+   "business": "Wiwynn (緯穎) designs and builds servers and rack systems for the data centres of large cloud companies and sells them directly to the customer (ODM-direct). Its main shareholder is Wistron. In 2025 revenue was 950.7 billion Taiwan dollars and net profit 51.1 billion Taiwan dollars; the annual report says AI products are more than half of revenue. In the first nine months of 2026 revenue was 989.3 billion Taiwan dollars, gross margin 8.61% and operating margin 7.09%. It manufactures in Taiwan, the US, Mexico, Malaysia and Czechia.",
+   "moat_text": "The moat is weak. There is an advantage: by the company's own estimate, more than 10% of global server shipments and nearly 30% of ODM-direct shipments came from Wiwynn in 2025; real return on equity was above 26% in each of the five years (46.1% in 2025, 41.5% in the last 12 months). But the advantage does not turn into pricing power. In 2025 revenue grew 2.6 times while gross margin fell from 10.37% to 8.25%. The annual report says three customer groups took 48.58%, 29.46% and 18.27% of 2025 sales: 96.3% in total. One supplier was 33.34% of purchases. The customer sets the price and the design, and the same customers also work with other makers. The company itself lists tougher competition and customer concentration among its weaknesses. So the moat was not rated narrow and the company did not pass the third wall.",
+   "mgmt": "Wistron held 35.46% of the company on 26 March 2026. From 2025 profit it paid a cash dividend of 145 Taiwan dollars per share (26.9 billion) and a stock dividend of 20 Taiwan dollars (two new shares per share); 30.7 billion Taiwan dollars in total. Growth consumes cash: operating cash flow was minus 0.6 billion in 2025 and minus 56.8 billion Taiwan dollars in the first nine months of 2026; the gap is covered with debt and new shares. In July 2024 it issued depositary receipts for 11 million shares and a 600 million dollar convertible bond, and in April 2026 a 2 billion dollar convertible bond; on 6 November 2026 the board resolved to prepare a new depositary receipt issue of up to 18 million shares. Paying cash dividends while issuing shares and debt is a small flaw. Employee profit sharing was 5.18% of profit in 2025 and was paid in cash. R&D expense in 2025 was 9.4 billion Taiwan dollars (0.99% of revenue). Litigation: none in the annual report. Guarantees given to outside parties were 1.7 billion Taiwan dollars at the end of 2025. Goodwill, pension deficit, buybacks and restructuring charges: checked, not in the sections read. The sale of the only non-core investment, the LiquidStack stake, was approved on 10 February 2026.",
+   "latest": "6 November 2026: The board approved the third-quarter 2026 statements. Quarterly revenue was 434.6 billion Taiwan dollars (up 62.9% year on year), net profit 23.4 billion Taiwan dollars (up 51.6%) and earnings per share 41.46 Taiwan dollars; the same quarter last year, restated for the stock dividend, was 27.80. In the first nine months revenue was 989.3 billion, net profit 52.4 billion Taiwan dollars and earnings per share 94.04 (67.34 last year). Gross margin in the quarter was 8.87% and operating margin 7.47%. On the same day the board approved capital injections of 250 million dollars into the US subsidiary and 200 million dollars into the Malaysian one. The company said raw material supply is tight and monthly revenue will fluctuate in the short term. October 2026 revenue was 165.1 billion Taiwan dollars (September: 172.6 billion).",
+   "risks": [
+    "Three customer groups take 96.3% of sales (2025: 48.58%, 29.46%, 18.27%). If one of them cuts investment or moves work to another maker, profit falls directly.",
+    "Profit is not turning into cash: operating cash flow was minus 56.8 billion Taiwan dollars in the first nine months of 2026. Inventories and receivables are growing; short-term borrowings reached 124.3 billion Taiwan dollars at the end of September and the quarter's finance cost was 3.0 billion (0.7 billion a year earlier).",
+    "Five years do not show a full cycle. Revenue grew 2.6 times in 2025; this may be a period close to the peak of the cloud companies' AI investment wave. If investment slows, today's profit cannot be treated as normal earning power.",
+    "Gross margin is under 9% and one supplier is a third of purchases. A small change in component prices or in the split with the customer moves profit a lot. Since April 2026 memory bought on behalf of some customers is not booked as revenue; margins are not fully comparable with earlier periods.",
+    "Dilution: 2.6 billion dollars of convertible bonds are outstanding and a new issue of up to 18 million shares is planned. Sales are in US dollars, so the exchange rate also moves profit (2025 exchange gain: 3.9 billion Taiwan dollars)."
+   ],
+   "watch": [
+    "Share of sales to the three largest customer groups (2025: 96.3%)",
+    "Operating cash flow and short-term borrowings (September 2026: 124.3 billion Taiwan dollars)",
+    "Gross margin (8.61% in the first nine months of 2026)",
+    "Monthly revenue (October 2026: 165.1 billion Taiwan dollars) and share count"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-19",
+   "per": "2026-Q3"
+  }
  }
 }

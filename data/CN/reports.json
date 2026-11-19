@@ -1576,5 +1576,290 @@
    },
    "per": "2026-Q3"
   }
+ },
+ "002001": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 2
+  },
+  "moat": "zayıf",
+  "per": "2026-Q3",
+  "one": "Yem vitaminleri, metiyonin ve aroma kimyasalları üreticisi. Kârlılığı yüksek, bilançosu sağlam; ama ürün fiyatlarını piyasa belirliyor, hendek ölçütünü geçemedi.",
+  "business": "Zhejiang NHU (新和成), hayvan yemine katılan vitaminleri (A, E) ve metiyonini, aroma kimyasallarını ve mühendislik plastiklerini (PPS) kimyasal sentezle üretir. 2025'te hasılat 22,25 milyar yuan oldu: %66,5'i besin ürünleri (vitaminler ve metiyonin), %17,4'ü aroma kimyasalları, %9,5'i yeni malzemeler. Satışın %58,1'i yurt dışına. Ana ortaklık net kârı 6,76 milyar yuan, hisse başına kâr 2,21 yuan. Katı metiyonin kapasitesi yılda 370 bin ton; Sinopec ile ortak sıvı metiyonin tesisi (180 bin ton) 2025'te üretime başladı.",
+  "moat_text": "Hendek zayıf; şirket hendek ölçütünde elendi (B = 1). Üstünlük var: az sayıda üreticinin yapabildiği çok adımlı sentez ve düşük maliyet. Kanıtı, döngünün dibinde bile kâr etmesi: reel özsermaye kârlılığı beş yılın en kötü yılında (2023) %11,5, son 12 ayda %20,4; brüt marj 2025'te yaklaşık %44,7 (bizim hesabımız; besin ürünlerinde %47,8). Ama fiyatı şirket değil piyasa belirliyor ve fiyat çok sert oynuyor: aracı kurum verisine göre katı metiyonin 2026 başında kilosu 17,6 yuan iken nisanda 52 yuana çıktı, eylül başında 22 yuana indi. 2026'nın ilk yarısında vitamin üreten bağlı şirketin net kârı %48,8 düşerken metiyonin üreten şirketinki %39,9 arttı. Yıllık rapor pazar payı için rakam vermiyor (\"dünyada ön sıralarda\" diyor); doğrulanmayan payla puan yükseltmedik. Yarıyıl raporu yeni kapasiteler yüzünden rekabetin sertleştiğini söylüyor.",
+  "mgmt": "Ana ortak NHU Holding Group %50,08 paya sahip; gerçek kontrol sahibi Hu Baifan. Kârın yarıya yakını dağıtılıyor: 2025 için her 10 hisseye toplam 10 yuan (3,07 milyar yuan; ana ortaklık kârının yaklaşık %45'i, bizim hesabımız), 2026 ara dönemi için 10 hisseye 2 yuan. 2025'te 24,6 milyon hisse 21,25 ile 25,18 yuan arasından geri alındı (556 milyon yuan); hisseler iptal edilmedi, 21,5 milyonu çalışan pay planına 24,19 yuandan devredildi (planın parasının yarısı ana ortağın verdiği borç). Haziran 2026'da 300-600 milyon yuanlık yeni geri alım onaylandı (tavan fiyat 45,50 yuan). Kalan kâr yeni tesislere gidiyor; en büyüğü, şirketin bugünkü ana işinin dışındaki Tianjin naylon 66 zinciri (aracı kurum notuna göre 10 milyar yuan; ilk aşama 2027'de bitecek). D puanını bu yüzden 1 verdik: getirisi henüz kanıtlanmamış büyük bir emtia yatırımı. Şerefiye 3,6 milyon yuan (önemsiz). Hisse bazlı ücret gideri: rapor \"uygulanmaz\" diyor. İlişkili taraf işlemi: rapora göre yok. Kefaletler yalnız bağlı şirketlere (30 Haziran 2026'da 2,71 milyar yuan; net varlıkların %7,77'si). Emeklilik açığı, yinelenen yeniden yapılanma gideri: bakıldı, okunan belgelerde yok.",
+  "latest": "27 Ekim 2026: Şirket 2026'nın ilk dokuz ayının sonuçlarını açıkladı. Hasılat 19,23 milyar yuan (%15,56 artış), ana ortaklık net kârı 5,87 milyar yuan (%10,28 artış), tek seferlik kalemler hariç net kâr 5,72 milyar yuan (%7,17 artış), hisse başına kâr 1,90 yuan (%9,83 artış). Üçüncü çeyrekte hasılat 6,10 milyar yuan (%10,12 artış), net kâr 1,86 milyar yuan: bir yıl öncesine göre %8,13 yüksek, bir önceki çeyreğe göre yaklaşık %15 düşük. Aracı kurum notlarına göre nedeni fiyatlar: üçüncü çeyrekte ortalama metiyonin fiyatı bir önceki çeyreğe göre %42, E vitamini %23, A vitamini %38 geriledi. Dokuz ayda brüt marj %44,3 (1,25 puan düşük), finansman gideri kur zararı yüzünden arttı. Bu rakamlar haber ve aracı kurum notlarından; şirketin üçüncü çeyrek raporunun kendisi açılamadı.",
+  "risks": [
+   "Kâr ürün fiyatlarına bağlı ve fiyatlar düşüyor: metiyonin Nisan 2026'daki 52 yuandan 27 Ekim'de 25 yuana indi; E vitamini 27 Ekim'de yıl başının %15,3 altındaydı. Son 12 ayın kârı ikinci çeyrekteki fiyat zirvesini içeriyor.",
+   "Beş yıl tam bir döngüyü göstermez: reel özsermaye kârlılığı 2023'te %11,5'e inmişti, son 12 ayda %20,4. Vitamin ve metiyoninde yeni kapasiteler devreye giriyor; yarıyıl raporu rekabetin sertleştiğini söylüyor.",
+   "Satışın %58'i yurt dışına: kur ve ticaret politikası kârı doğrudan etkiler. 2026'nın ilk yarısında finansman gideri kur zararı yüzünden 258 milyon yuana çıktı; vadeli döviz sözleşmeleri net varlıkların %11,9'u kadar.",
+   "Tianjin naylon 66 zinciri şirketin kanıtlanmış işinin dışında, büyük bir yatırım (10 milyar yuan; özsermayenin yaklaşık dörtte biri). Getirisi belli değil.",
+   "Stok birikti: 2025 sonunda ana ürün stoku ton olarak %88,9 arttı (şirket: amino asit ve sitral ürünlerinde stok yapıldı). Fiyat düşerken stok değer kaybedebilir."
+  ],
+  "watch": [
+   "Metiyonin, A ve E vitamini fiyatları ve çeyreklik net kâr",
+   "Brüt marj (2025: yaklaşık %44,7; 2026 dokuz ay: %44,3)",
+   "Tianjin naylon projesinin maliyeti, takvimi ve borçlanma",
+   "Dağıtım oranı ve geri alınan hisselerin iptal edilip edilmediği"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/she/002001/financials/ratios/"
+   },
+   {
+    "t": "Zhejiang NHU: 2025 yıllık raporu, cninfo (16 Nisan 2026)",
+    "te": "Zhejiang NHU: 2025 annual report, cninfo (16 April 2026)",
+    "u": "https://static.cninfo.com.cn/finalpage/2026-04-16/1225106221.PDF"
+   },
+   {
+    "t": "Zhejiang NHU: 2026 yarıyıl raporu, cninfo (20 Ağustos 2026)",
+    "te": "Zhejiang NHU: 2026 half-year report, cninfo (20 August 2026)",
+    "u": "https://static.cninfo.com.cn/finalpage/2026-08-20/1225482495.PDF"
+   },
+   {
+    "t": "Sing Tao Global: NHU 2026 ilk dokuz ay sonuçları haberi (27 Ekim 2026)",
+    "te": "Sing Tao Global: news on NHU's nine-month 2026 results (27 October 2026)",
+    "u": "https://m.stnn.cc/detail/6ae0bd608f9d2b19ddf18e83.html"
+   },
+   {
+    "t": "Guosen Securities: üçüncü çeyrek notu (28 Ekim 2026)",
+    "te": "Guosen Securities: third-quarter note (28 October 2026)",
+    "u": "https://pdf.dfcfw.com/pdf/H3_AP202610281831129417_1.pdf"
+   },
+   {
+    "t": "Eastmoney Securities: üçüncü çeyrek notu, Gelonghui (9 Kasım 2026)",
+    "te": "Eastmoney Securities: third-quarter note, via Gelonghui (9 November 2026)",
+    "u": "https://m.gelonghui.com/news/5348223"
+   },
+   {
+    "t": "Great Wall Securities: üçüncü çeyrek notu, Gelonghui (10 Kasım 2026)",
+    "te": "Great Wall Securities: third-quarter note, via Gelonghui (10 November 2026)",
+    "u": "https://m.gelonghui.com/news/5349541"
+   }
+  ],
+  "en": {
+   "one": "Maker of feed vitamins, methionine and aroma chemicals. High returns, strong balance sheet, but the market sets its prices; it failed the moat test.",
+   "business": "Zhejiang NHU (新和成) makes vitamins (A, E) and methionine for animal feed, aroma chemicals and engineering plastics (PPS) by chemical synthesis. Revenue in 2025 was 22.25 billion yuan: 66.5% nutrition products (vitamins and methionine), 17.4% aroma chemicals, 9.5% new materials. 58.1% of sales went abroad. Net profit attributable to shareholders was 6.76 billion yuan and earnings per share 2.21 yuan. Solid methionine capacity is 370 thousand tonnes a year; the liquid methionine joint venture with Sinopec (180 thousand tonnes) started production in 2025.",
+   "moat_text": "The moat is weak; the company failed the moat test (B = 1). There is an advantage: multi-step synthesis that only a few producers can do, at low cost. The evidence is that it stays profitable at the bottom of the cycle: real return on equity was 11.5% in the worst of the five years (2023) and 20.4% over the last 12 months; gross margin was about 44.7% in 2025 (our calculation; 47.8% in nutrition). But the market sets the price, not the company, and the price swings hard: according to broker data, solid methionine was 17.6 yuan a kilo at the start of 2026, rose to 52 yuan in April and fell to 22 yuan in early September. In the first half of 2026 the net profit of the vitamin subsidiary fell 48.8% while that of the methionine subsidiary rose 39.9%. The annual report gives no market share figure (it says \"among the world's leaders\"); we did not raise the score on an unconfirmed share. The half-year report says competition is getting tougher because of new capacity.",
+   "mgmt": "The parent, NHU Holding Group, owns 50.08%; the actual controller is Hu Baifan. Close to half of profit is paid out: a total of 10 yuan per 10 shares for 2025 (3.07 billion yuan; about 45% of attributable profit, our calculation) and 2 yuan per 10 shares as the 2026 interim. In 2025 the company bought back 24.6 million shares at between 21.25 and 25.18 yuan (556 million yuan); the shares were not cancelled, and 21.5 million were transferred to an employee share plan at 24.19 yuan (half of the plan's money is a loan from the parent). A new buyback of 300-600 million yuan was approved in June 2026 (price cap 45.50 yuan). The rest of the profit goes into new plants; the largest is the Tianjin nylon 66 chain, outside today's main business (10 billion yuan according to a broker note; phase one due in 2027). This is why we scored D at 1: a large commodity investment whose return is not yet proven. Goodwill is 3.6 million yuan (negligible). Share-based pay expense: the report says \"not applicable\". Related-party transactions: none, according to the report. Guarantees are only for subsidiaries (2.71 billion yuan at 30 June 2026; 7.77% of net assets). Pension deficit, recurring restructuring charges: checked, not in the documents read.",
+   "latest": "27 October 2026: The company reported results for the first nine months of 2026. Revenue was 19.23 billion yuan (up 15.56%), net profit attributable to shareholders 5.87 billion yuan (up 10.28%), net profit excluding non-recurring items 5.72 billion yuan (up 7.17%) and earnings per share 1.90 yuan (up 9.83%). In the third quarter revenue was 6.10 billion yuan (up 10.12%) and net profit 1.86 billion yuan: 8.13% higher than a year earlier, about 15% lower than the previous quarter. According to broker notes the reason is prices: in the third quarter the average methionine price fell 42% from the previous quarter, vitamin E 23% and vitamin A 38%. Gross margin for the nine months was 44.3% (down 1.25 points), and finance costs rose because of exchange losses. These figures come from news and broker notes; the company's third-quarter report itself could not be opened.",
+   "risks": [
+    "Profit depends on product prices, and prices are falling: methionine went from 52 yuan in April 2026 to 25 yuan on 27 October; vitamin E on 27 October was 15.3% below the start of the year. The last 12 months of profit include the second-quarter price peak.",
+    "Five years do not show a full cycle: real return on equity fell to 11.5% in 2023 and was 20.4% over the last 12 months. New vitamin and methionine capacity is coming on stream; the half-year report says competition is getting tougher.",
+    "58% of sales go abroad: exchange rates and trade policy hit profit directly. In the first half of 2026 finance costs rose to 258 million yuan because of exchange losses; forward currency contracts equal 11.9% of net assets.",
+    "The Tianjin nylon 66 chain is a large investment outside the company's proven business (10 billion yuan; about a quarter of equity). Its return is unknown.",
+    "Inventory has built up: at the end of 2025 stock of the main products was up 88.9% in tonnes (the company: stockpiling of amino acid and citral products). Stock can lose value while prices fall."
+   ],
+   "watch": [
+    "Methionine, vitamin A and vitamin E prices and quarterly net profit",
+    "Gross margin (2025: about 44.7%; nine months of 2026: 44.3%)",
+    "Cost, timetable and borrowing for the Tianjin nylon project",
+    "Payout ratio and whether repurchased shares are cancelled"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-19",
+   "per": "2026-Q3"
+  }
+ },
+ "002517": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-Q3",
+  "one": "Çoğu 'Legend' (传奇) türü oyunlar geliştirip yayımlayan Çinli oyun şirketi. Kârlılığı yüksek; ama iş tek oyuna ve başkasının markasına bağlı, hendek ölçütünde elendi.",
+  "business": "Kingnet Network (恺英网络) cep telefonu oyunları geliştirir ve yayımlar; çoğu 'Legend' (传奇) ve 'MU' (奇迹) gibi lisansla kullandığı eski oyun markalarına dayanır. Ayrıca Legend oyuncularına yönelik '996 oyun kutusu' adlı bir kullanıcı platformu işletir. 2025'te hasılat 5,32 milyar yuan, ana ortaklık net kârı 1,90 milyar yuan, hisse başına kâr 0,89 yuan oldu. Aracı kurum notuna göre 2025 hasılatının 4,04 milyar yuanı cep oyunlarından, 1,22 milyar yuanı kullanıcı platformundan geldi; yurt dışı hasılat 442 milyon yuan.",
+  "moat_text": "Hendek zayıf; şirket hendek ölçütünde elendi (B = 1). Üstünlük var: Legend türünde uzun deneyim, bu oyuncu kitlesine hizmet eden bir platform (2025'te hasılatı %30,0 arttı, brüt marjı %88,9; aracı kurum notu) ve beş yıldır yüksek kârlılık (reel özsermaye kârlılığı %22,2 ile %32,6 arasında; son 12 ayda %23,0). Ama bu üstünlük kolay aşılır. Birincisi, kazanç tek oyuna bağlı: haberlere göre 2026'nın ilk dokuz ayında 7,26 milyar yuan hasılatın yaklaşık 3,2 milyar yuanı tek bir oyundan ('烈焰觉醒') geldi; bir yıl önce, 2025'te cep oyunu hasılatı %0,3 gerilemişti. İkincisi, büyüme pahalı alındı: dokuz ayda hasılat %78,1 artarken brüt marj 6,3 puan düşüp %76,7'ye indi, satış giderleri hasılatın %39,2'sine çıktı (7,9 puan artış), net kâr marjı 10,3 puan geriledi (aracı kurum notu). Bu, fiyatlama gücünün değil, reklamla oyuncu satın almanın tablosu. Üçüncüsü, ana marka şirketin değil: Legend markasının sahibi Koreli Wemade tarafı; şirket bu markayla ilgili on yıl süren davaları ancak Şubat 2026'da sulhle kapattı. Pazar payı birincil belgeden doğrulanamadı.",
+  "mgmt": "Şirketin denetim sahibi bir ortağı yok (haber). En büyük ortak Jin Feng (金锋) %15,40 paya sahip; birlikte hareket ettiği ortaklıkla (绍兴市安嵊, %5,26) toplam %20,66 (31 Mart 2026). Geçmiş kusurlu: kurucu Wang Yue (王悦) piyasa dolandırıcılığından beş yıl altı ay hapis cezası aldı; payı %21,44'ten %2,68'e indi (haber). Kârın çoğu şirkette kalıyor: 2025 kârından her 10 hisseye 1 yuan temettü verildi (aracı kurum tablosuna göre yaklaşık 214 milyon yuan; 1,90 milyar yuanlık kârın onda biri kadar); 2026'nın ilk dokuz ayı için de her 10 hisseye 1 yuan önerildi (yaklaşık 212 milyon yuan, dokuz aylık kârın %10,25'i). Şirketin geri aldığı 15,45 milyon hisse var (sermayenin %0,72'si); alım fiyatı okunamadı. Biriken nakdin büyük bölümü tek bir işleme gidiyor: 12 Eylül 2026'da şirket, zarar etmiş Wemade'in denetim payını alan yapıya 298 milyon ABD doları (yaklaşık 2,03 milyar yuan) koyacağını açıkladı; kendisi azınlık ortağı olacak. Habere göre Wemade'in %40,25'i için ödenen toplam bedel yaklaşık 4,15 milyar yuan, Wemade'in ana ortaklık özsermayesi ise 1,74 milyar yuan. Şerefiye 852 milyon yuan (31 Mart 2026; özsermayenin %8,2'si). Hisse bazlı ücret, bilanço dışı yükümlülükler, ilişkili taraf işlemleri: bakıldı, okunan belgelerde yok.",
+  "latest": "28 Ekim 2026: Şirket 2026'nın ilk dokuz ayının sonuçlarını açıkladı. Hasılat 7,26 milyar yuan (%78,11 artış), ana ortaklık net kârı 2,07 milyar yuan (%30,69 artış), tek seferlik kalemler hariç net kâr 1,79 milyar yuan (%17,79 artış), hisse başına kâr 0,98 yuan. Üçüncü çeyrekte hasılat 2,46 milyar yuan (%64,42 artış), net kâr 641 milyon yuan (%1,22 artış), tek seferlik kalemler hariç 624 milyon yuan (%7,27 artış). Dokuz aylık kârın içinde Legend markasının sahibiyle varılan sulhten doğan tek seferlik kazanç var: yalnız ilk çeyrekte tek seferlik kalemler 235 milyon yuan tuttu. Ana ortaklık özsermayesi 30 Eylül 2026'da 11,11 milyar yuan (haber; şirketin üçüncü çeyrek raporu açılamadı).",
+  "risks": [
+   "Kazanç tek oyuna bağlı: 2026'nın ilk dokuz ayında hasılatın yaklaşık 3,2 milyar yuanı tek bir oyundan geldi. Oyunların ömrü kısadır; bu oyunun geliri düşerse kâr da düşer.",
+   "Büyüme reklamla alınıyor: satış giderleri hasılatın %39,2'sine çıktı, brüt marj 6,3 puan düştü; üçüncü çeyrekte hasılat %64,4 artarken net kâr yalnız %1,2 arttı.",
+   "Ana marka başkasının: Legend markasının sahibi Wemade tarafı. Lisans koşulları değişirse ya da anlaşmazlık yeniden çıkarsa işin temeli sarsılır.",
+   "Wemade işlemi büyük ve riskli: yaklaşık 2,03 milyar yuan (30 Eylül 2026 özsermayesinin %18'i) zarar etmiş bir şirkete, defter değerinin çok üstünde bir bedelle ve azınlık ortağı olarak gidiyor.",
+   "Son 12 ayın kârında yaklaşık 276 milyon yuan tek seferlik kazanç var (kârın %11,5'i); kaynağın F/K'sı bunu da içeriyor. Oyun onayları ve sektör kuralları da devletin kararına bağlı."
+  ],
+  "watch": [
+   "Tek seferlik kalemler hariç net kâr (dokuz ayda 1,79 milyar yuan)",
+   "Satış giderlerinin hasılata oranı (dokuz ayda %39,2)",
+   "Brüt marj (dokuz ayda %76,7)",
+   "Wemade işleminin tamamlanması ve Legend lisans koşulları"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/she/002517/financials/ratios/"
+   },
+   {
+    "t": "Kingnet Network: 2026 birinci çeyrek raporu (29 Nisan 2026)",
+    "te": "Kingnet Network: Q1 2026 report (29 April 2026)",
+    "u": "https://pdf.dfcfw.com/pdf/H2_AN202604281821684782_1.pdf"
+   },
+   {
+    "t": "Kingnet Network: 2025 yıllık rapor özeti, bildirim 2026-016 (Nisan 2026)",
+    "te": "Kingnet Network: 2025 annual report summary, announcement 2026-016 (April 2026)",
+    "u": "https://pdf.dfcfw.com/pdf/H2_AN202604281821684766_1.pdf"
+   },
+   {
+    "t": "Soochow Securities: Kingnet 2026 üçüncü çeyrek değerlendirmesi (Kasım 2026)",
+    "te": "Soochow Securities: Kingnet Q3 2026 review (November 2026)",
+    "u": "https://data.eastmoney.com/report/info/AP202611031831382654.html"
+   },
+   {
+    "t": "Guoyuan Securities: Kingnet 2026 üçüncü çeyrek değerlendirmesi (29 Ekim 2026)",
+    "te": "Guoyuan Securities: Kingnet Q3 2026 review (29 October 2026)",
+    "u": "https://m.gelonghui.com/news/5338662"
+   },
+   {
+    "t": "Sina Finance: Kingnet 2026 ilk dokuz ay sonuçları (30 Ekim 2026)",
+    "te": "Sina Finance: Kingnet nine-month 2026 results (30 October 2026)",
+    "u": "https://k.sina.cn/article_5952915720_162d2490806705358e.html"
+   },
+   {
+    "t": "STNN: Kingnet 2026 ilk dokuz ay net kârı (28 Ekim 2026)",
+    "te": "STNN: Kingnet nine-month 2026 net profit (28 October 2026)",
+    "u": "https://m.stnn.cc/detail/6ae1cd408f9d2b19ddf91799.html"
+   },
+   {
+    "t": "Gelonghui: Kingnet'in Wemade'e 2,03 milyar yuanlık ortaklığı ve dava geçmişi (Eylül 2026)",
+    "te": "Gelonghui: Kingnet's 2.03 billion yuan Wemade stake and litigation history (September 2026)",
+    "u": "https://m.gelonghui.com/p/6662624"
+   },
+   {
+    "t": "Guosen Securities: Kingnet 2025 yıl sonu ve 2026 birinci çeyrek değerlendirmesi (29 Nisan 2026)",
+    "te": "Guosen Securities: Kingnet 2025 annual and Q1 2026 review (29 April 2026)",
+    "u": "https://pdf.dfcfw.com/pdf/H3_AP202604291821781302_1.pdf"
+   },
+   {
+    "t": "Tencent News: Kingnet 2025 yıllık raporu üzerine haber (6 Mayıs 2026)",
+    "te": "Tencent News: article on Kingnet's 2025 annual report (6 May 2026)",
+    "u": "https://news.qq.com/rain/a/20260506A04V9F00"
+   }
+  ],
+  "en": {
+   "one": "Chinese publisher of mostly 'Legend' (传奇) style games. Returns are high, but it leans on one game and another's brand; failed the moat test.",
+   "business": "Kingnet Network (恺英网络) develops and publishes mobile games; most rest on old game brands it uses under licence, such as 'Legend' (传奇) and 'MU' (奇迹). It also runs a user platform for Legend players called the '996 game box'. In 2025 revenue was 5.32 billion yuan, net profit attributable to shareholders 1.90 billion yuan and earnings per share 0.89 yuan. According to a broker note, 4.04 billion yuan of 2025 revenue came from mobile games and 1.22 billion yuan from the user platform; overseas revenue was 442 million yuan.",
+   "moat_text": "The moat is weak; the company failed the moat test (B = 1). There is an edge: long experience in the Legend genre, a platform serving that player base (its revenue grew 30.0% in 2025 with an 88.9% gross margin; broker note) and five years of high returns (real return on equity between 22.2% and 32.6%; 23.0% over the last 12 months). But the edge is easy to overcome. First, earnings lean on one game: according to press reports, about 3.2 billion yuan of the 7.26 billion yuan revenue in the first nine months of 2026 came from a single title ('烈焰觉醒'); a year earlier, in 2025, mobile game revenue had slipped 0.3%. Second, the growth was bought dearly: in nine months revenue rose 78.1% while gross margin fell 6.3 points to 76.7%, selling expenses rose to 39.2% of revenue (up 7.9 points) and the net profit margin fell 10.3 points (broker note). That is the picture of buying players with advertising, not of pricing power. Third, the core brand is not the company's: the Legend brand belongs to the Korean Wemade side; the company only settled ten years of lawsuits over it in February 2026. Market share could not be confirmed from a primary document.",
+   "mgmt": "The company has no controlling shareholder (press report). The largest holder, Jin Feng (金锋), owns 15.40%; with the partnership acting in concert with him (绍兴市安嵊, 5.26%) the total is 20.66% (31 March 2026). The past is flawed: founder Wang Yue (王悦) was sentenced to five years and six months in prison for market manipulation; his stake fell from 21.44% to 2.68% (press report). Most profit stays in the company: 1 yuan per 10 shares was paid from 2025 profit (about 214 million yuan per a broker table; about a tenth of the 1.90 billion yuan profit); another 1 yuan per 10 shares is proposed for the first nine months of 2026 (about 212 million yuan, 10.25% of nine-month profit). The company holds 15.45 million repurchased shares (0.72% of capital); the purchase price could not be read. Much of the accumulated cash is going into one deal: on 12 September 2026 the company said it would put 298 million US dollars (about 2.03 billion yuan) into the structure buying the controlling stake in loss-making Wemade; it will be a minority partner. According to the press report, the total price for 40.25% of Wemade is about 4.15 billion yuan, while Wemade's equity attributable to shareholders is 1.74 billion yuan. Goodwill is 852 million yuan (31 March 2026; 8.2% of equity). Share-based pay, off-balance-sheet liabilities, related-party transactions: checked, not in the documents read.",
+   "latest": "28 October 2026: The company reported results for the first nine months of 2026. Revenue was 7.26 billion yuan (up 78.11%), net profit attributable to shareholders 2.07 billion yuan (up 30.69%), net profit excluding non-recurring items 1.79 billion yuan (up 17.79%) and earnings per share 0.98 yuan. In the third quarter revenue was 2.46 billion yuan (up 64.42%), net profit 641 million yuan (up 1.22%) and 624 million yuan excluding non-recurring items (up 7.27%). Nine-month profit includes a one-off gain from the settlement with the owner of the Legend brand: non-recurring items were 235 million yuan in the first quarter alone. Equity attributable to shareholders was 11.11 billion yuan at 30 September 2026 (press report; the company's third-quarter report could not be opened).",
+   "risks": [
+    "Earnings lean on one game: about 3.2 billion yuan of revenue in the first nine months of 2026 came from a single title. Games have short lives; if this one's income falls, profit falls too.",
+    "Growth is bought with advertising: selling expenses rose to 39.2% of revenue and gross margin fell 6.3 points; in the third quarter revenue rose 64.4% while net profit rose only 1.2%.",
+    "The core brand belongs to someone else: the Legend brand is owned by the Wemade side. If licence terms change or the dispute returns, the base of the business is shaken.",
+    "The Wemade deal is large and risky: about 2.03 billion yuan (18% of equity at 30 September 2026) is going into a loss-making company, at a price far above book value and as a minority partner.",
+    "The last 12 months' profit includes about 276 million yuan of one-off gains (11.5% of profit); the source's P/E includes it. Game approvals and industry rules also depend on government decisions."
+   ],
+   "watch": [
+    "Net profit excluding non-recurring items (1.79 billion yuan in nine months)",
+    "Selling expenses as a share of revenue (39.2% in nine months)",
+    "Gross margin (76.7% in nine months)",
+    "Completion of the Wemade deal and Legend licence terms"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-19",
+   "per": "2026-Q3"
+  }
+ },
+ "600961": {
+  "scores": {
+   "A": 2,
+   "B": 0,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "yok",
+  "per": "2026-Q2",
+  "one": "Çinko ve kurşun izabecisi, Shuikoushan madenlerinin sahibi. Kârı altın, gümüş ve sülfürik asit fiyatıyla yükseldi; emtia işi olduğu için hendek ölçütünde elendi.",
+  "business": "Zhuzhou Smelter Group (株冶集团), çinko ve kurşun üretir; yan ürün olarak altın, gümüş ve sülfürik asit satar. 2025 yıllık raporuna göre yılda 300 bin ton çinko izabe ve 380 bin ton çinko alaşımı kapasitesi (toplam 680 bin ton çinko ürünü), 100 bin ton kurşun, 4.500 kilogram altın ve 470 ton gümüş kapasitesi var. Shuikoushan kurşun-çinko madeni ile Baifang bakır madeninin haklarına sahip: üç maden, bir zenginleştirme tesisi, yılda 860 bin ton cevher. Hammaddenin çoğunu dışarıdan alır; kendi oranını açıklamıyor. 2025'te hasılat 22,25 milyar yuan, ana ortaklık net kârı 1,13 milyar yuan, hisse başına kâr 0,99 yuan oldu.",
+  "moat_text": "Hendek yok. Şirket hendek ölçütünde elendi (B = 0): sattığı şey emtia. Çinko, kurşun, altın ve gümüşün fiyatını borsa belirler; izabecinin payı olan işleme ücretini de konsantre piyasası belirler. Kâr fiyatla oynuyor: 2026'nın ilk dokuz ayında net kâr %170,99 arttı ve şirket nedeni 'değerli ve nadir metaller ile sülfürik asit fiyatlarının yükselmesi' diye açıkladı. Aracı kurum notuna göre 2025'te altın, gümüş ve asit fiyatı brüt kâra yaklaşık 770 milyon yuan ekledi, düşen çinko ve kurşun işleme ücretleri yaklaşık 200 milyon yuan götürdü. Reel özsermaye kârlılığı beş mali yılda %19,4 ile %29,3 arasında kaldı; son 12 ayda %46,3 ile döngünün yüksek noktasında. Şirket 'Torch' (火炬) çinko alaşımı markasının pazar payında ilk sıralarda olduğunu söylüyor ama yüzde vermiyor; bu, fiyat belirleme gücünün kanıtı değil. Madenler değerli bir varlık, ama onların kârı da metal fiyatına bağlı.",
+  "mgmt": "Şirket devlet kontrolünde: Hunan Nonferrous Metals Holding %31,26, Zhuzhou Smelter Group Ltd. %19,78 paya sahip; ikisi birlikte hareket ediyor ve gerçek kontrol China Minmetals'ta. Toplam 1.072,9 milyon hisse var; kaynağa göre pay sayısı beş yılda %115,5 arttı (Shuikoushan'ın kurşun-çinko varlıkları şirkete kondu). Kâr yıllarca dağıtılmadı: 2025 için temettü yok, çünkü geçmiş yıl zararları yüzünden dağıtılabilir kâr eksiydi (konsolide −353 milyon yuan). Kâr borca gitti: Mayıs 2026'da ana ortağa olan 800 milyon yuanlık süresiz borç kapatıldı, kısa vadeli krediler 2025 sonundaki 1,56 milyar yuandan Eylül 2026'da 543 milyon yuana indi. Kasım 2026'da ilk ara temettü önerildi: hisse başına 0,10 yuan, toplam 107,3 milyon yuan, dokuz aylık kârın %4,61'i. İlişkili taraf işlemleri var: nakdin büyük bölümü grubun finans şirketinde duruyor (Haziran 2026'da 514 milyon yuan), Temmuz 2026'da bir bağlı şirketin ilişkili taraftan varlık alımı onaylandı (tutarı okunamadı). Şerefiye yok. Geri alım yok. Hisse bazlı ücret ve emeklilik açığı: bakıldı, okunan belgelerde yok.",
+  "latest": "30 Ekim 2026: Şirket 2026'nın ilk dokuz ayının sonuçlarını açıkladı. Hasılat 20,62 milyar yuan (%28,52 artış), ana ortaklık net kârı 2,33 milyar yuan (%170,99 artış), hisse başına kâr 2,15 yuan, faaliyetlerden nakit akışı 2,11 milyar yuan. Kâr çeyrekten çeyreğe geriledi: birinci çeyrekte 1.144 milyon, ikinci çeyrekte 804 milyon, üçüncü çeyrekte 377 milyon yuan (bir yıl öncesine göre %38,37 artış; tek seferlik kalemler hariç 410 milyon yuan, %16,58 artış). Üçüncü çeyrekte faaliyetlerden nakit akışı eksi 162 milyon yuan oldu; şirkete göre nedeni hammadde alımlarının artması. Ana ortaklık özsermayesi 6,24 milyar yuan.",
+  "risks": [
+   "Kâr metal fiyatına bağlı ve döngünün yüksek noktasında: son 12 ay reel özsermaye kârlılığı %46,3, beş mali yılın en düşük okuması %19,4. Altın, gümüş ya da sülfürik asit fiyatı düşerse kâr hızla geriler.",
+   "Kâr 2026 içinde çeyrekten çeyreğe düştü: 1.144 milyon, 804 milyon, 377 milyon yuan. Son 12 ayın kârı (2,59 milyar yuan) üçüncü çeyreğin yıllık hızının (yaklaşık 1,5 milyar yuan) çok üstünde; şirket düşüşün nedenini açıklamadı.",
+   "İzabecinin geliri işleme ücretine bağlı; aracı kurum notuna göre 2025'te çinko işleme ücreti ton başına 649 yuan, kurşununki 172 yuan düştü. Şirket hammaddede kendine ne kadar yettiğini açıklamıyor.",
+   "Türev pozisyonları büyük ve her yıl kâra dokunuyor: 2026'nın ilk dokuz ayında yatırım geliri kalemi eksi 384 milyon yuan, gerçeğe uygun değer kazancı 323 milyon yuan. Onaylı sözleşme tavanı 3,27 milyar yuan, teminat tavanı 545 milyon yuan.",
+   "Devlet kontrolündeki grup içinde ilişkili taraf işlemleri sürüyor; grubun başka varlıkları pay ihracıyla şirkete konursa mevcut ortağın payı yine sulanır (beş yılda pay sayısı %115,5 arttı)."
+  ],
+  "watch": [
+   "Çeyreklik ana ortaklık net kârı (üçüncü çeyrek: 377 milyon yuan)",
+   "Altın, gümüş ve sülfürik asit fiyatları; çinko ve kurşun işleme ücretleri",
+   "Faaliyetlerden nakit akışı ve kısa vadeli krediler (Eylül 2026: 543 milyon yuan)",
+   "Temettü: önerilen hisse başına 0,10 yuanın genel kurulda onaylanması ve dağıtım oranının seyri"
+  ],
+  "sources": [
+   {
+    "t": "Zhuzhou Smelter Group: 2026 üçüncü çeyrek raporu, Sina Finance'teki borsa bildirimi kopyası (30 Ekim 2026)",
+    "te": "Zhuzhou Smelter Group: Q3 2026 report, exchange filing copy on Sina Finance (30 October 2026)",
+    "u": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=600961&id=12676146"
+   },
+   {
+    "t": "Zhuzhou Smelter Group: 2026 yarıyıl raporu (19 Ağustos 2026)",
+    "te": "Zhuzhou Smelter Group: 2026 interim report (19 August 2026)",
+    "u": "https://stockmc.xueqiu.com/202608/600961_20260819_BP76.pdf"
+   },
+   {
+    "t": "Zhuzhou Smelter Group: 2026 birinci çeyrek raporu, cninfo (17 Nisan 2026)",
+    "te": "Zhuzhou Smelter Group: Q1 2026 report, cninfo (17 April 2026)",
+    "u": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225112144.PDF"
+   },
+   {
+    "t": "Zhuzhou Smelter Group: 2025 yıllık rapor özeti, China Securities Journal ilan sayfası (17 Nisan 2026)",
+    "te": "Zhuzhou Smelter Group: 2025 annual report summary, China Securities Journal disclosure page (17 April 2026)",
+    "u": "https://epaper.cs.com.cn/zgzqb/images/2026-04/17/B061/zqB06117.pdf"
+   },
+   {
+    "t": "Zhuzhou Smelter Group: 2026 üçüncü olağanüstü genel kurul belgeleri, ara temettü önerisi, cninfo (10 Kasım 2026)",
+    "te": "Zhuzhou Smelter Group: materials for the third extraordinary general meeting of 2026, interim dividend proposal, cninfo (10 November 2026)",
+    "u": "https://static.cninfo.com.cn/finalpage/2026-11-10/1225663275.PDF"
+   },
+   {
+    "t": "Guosen Securities: Zhuzhou Smelter Group 2025 yıl sonu notu (20 Nisan 2026)",
+    "te": "Guosen Securities: Zhuzhou Smelter Group note on 2025 results (20 April 2026)",
+    "u": "https://pdf.dfcfw.com/pdf/H3_AP202604211821362630_1.pdf"
+   },
+   {
+    "t": "Caiwen: Zhuzhou Smelter ilk üç çeyrekte hasılat 20,625 milyar yuan, net kâr %170,99 arttı (29 Ekim 2026)",
+    "te": "Caiwen: Zhuzhou Smelter nine-month revenue 20.625 billion yuan, net profit up 170.99% (29 October 2026)",
+    "u": "https://www.caiwennews.com/article/1675365.shtml"
+   }
+  ],
+  "en": {
+   "one": "A zinc and lead smelter that owns the Shuikoushan mines. Profit rose with gold, silver and sulphuric acid prices; it failed the moat test as a commodity business.",
+   "business": "Zhuzhou Smelter Group (株冶集团) produces zinc and lead, and sells gold, silver and sulphuric acid as by-products. Its 2025 annual report gives capacity of 300 thousand tonnes of zinc smelting and 380 thousand tonnes of zinc alloy a year (680 thousand tonnes of zinc products in total), 100 thousand tonnes of lead, 4,500 kilograms of gold and 470 tonnes of silver. It holds the rights to the Shuikoushan lead-zinc mine and the Baifang copper mine: three mines, one concentrator, 860 thousand tonnes of ore a year. It buys most of its raw material from outside and does not disclose its own share. In 2025 revenue was 22.25 billion yuan, net profit attributable to shareholders 1.13 billion yuan and earnings per share 0.99 yuan.",
+   "moat_text": "No moat. The company failed the moat test (B = 0): what it sells is a commodity. Exchanges set the price of zinc, lead, gold and silver, and the concentrate market sets the treatment charge that is the smelter's cut. Profit moves with prices: net profit rose 170.99% in the first nine months of 2026, and the company gave the reason as 'higher prices of precious and rare metals and sulphuric acid'. According to a broker note, gold, silver and acid prices added about 770 million yuan to gross profit in 2025, while lower zinc and lead treatment charges took away about 200 million yuan. Real return on equity stayed between 19.4% and 29.3% over five fiscal years; at 46.3% over the last 12 months it is at the high point of the cycle. The company says its 'Torch' (火炬) zinc alloy brand ranks among the leaders by market share but gives no percentage; that is not evidence of pricing power. The mines are a valuable asset, but their profit also depends on metal prices.",
+   "mgmt": "The company is state-controlled: Hunan Nonferrous Metals Holding owns 31.26% and Zhuzhou Smelter Group Ltd. 19.78%; the two act together and ultimate control lies with China Minmetals. There are 1,072.9 million shares; according to the data source the share count rose 115.5% in five years (Shuikoushan's lead-zinc assets were put into the company). Profit went undistributed for years: there is no dividend for 2025, because distributable profit was negative after past losses (consolidated −353 million yuan). Profit went to debt: in May 2026 the 800 million yuan perpetual loan from the parent was repaid, and short-term borrowings fell from 1.56 billion yuan at the end of 2025 to 543 million yuan in September 2026. In November 2026 a first interim dividend was proposed: 0.10 yuan per share, 107.3 million yuan in total, 4.61% of nine-month profit. There are related-party dealings: most of the cash sits with the group's finance company (514 million yuan in June 2026), and in July 2026 a subsidiary's purchase of assets from a related party was approved (amount not read). No goodwill. No buybacks. Share-based pay and pension deficit: checked, not in the documents read.",
+   "latest": "30 October 2026: The company reported results for the first nine months of 2026. Revenue was 20.62 billion yuan (up 28.52%), net profit attributable to shareholders 2.33 billion yuan (up 170.99%), earnings per share 2.15 yuan and operating cash flow 2.11 billion yuan. Profit fell from quarter to quarter: 1,144 million yuan in the first quarter, 804 million in the second and 377 million in the third (up 38.37% on a year earlier; 410 million yuan excluding non-recurring items, up 16.58%). Operating cash flow in the third quarter was minus 162 million yuan; the company put this down to higher raw material purchases. Equity attributable to shareholders was 6.24 billion yuan.",
+   "risks": [
+    "Profit depends on metal prices and is at the high point of the cycle: real return on equity over the last 12 months is 46.3%, against a five-fiscal-year low of 19.4%. If gold, silver or sulphuric acid prices fall, profit drops quickly.",
+    "Profit fell quarter by quarter in 2026: 1,144 million, 804 million, 377 million yuan. Profit for the last 12 months (2.59 billion yuan) is well above the annual rate of the third quarter (about 1.5 billion yuan); the company did not explain the decline.",
+    "A smelter's income depends on treatment charges; according to a broker note, in 2025 the zinc treatment charge fell by 649 yuan a tonne and the lead charge by 172 yuan. The company does not disclose how much of its raw material it supplies itself.",
+    "Derivative positions are large and touch profit every year: in the first nine months of 2026 the investment income line was minus 384 million yuan and fair value gains were 323 million yuan. The approved contract ceiling is 3.27 billion yuan and the margin ceiling 545 million yuan.",
+    "Related-party dealings continue inside the state-controlled group; if more group assets are put into the company through a share issue, existing shareholders are diluted again (the share count rose 115.5% in five years)."
+   ],
+   "watch": [
+    "Quarterly net profit attributable to shareholders (third quarter: 377 million yuan)",
+    "Gold, silver and sulphuric acid prices; zinc and lead treatment charges",
+    "Operating cash flow and short-term borrowings (September 2026: 543 million yuan)",
+    "Dividend: approval of the proposed 0.10 yuan per share at the general meeting, and the payout ratio from here"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-19",
+   "per": "2026-Q2"
+  }
  }
 }
