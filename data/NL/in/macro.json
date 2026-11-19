@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-18T23:24:56Z",
+ "fetched": "2026-11-19T23:19:52Z",
  "cur": "EUR",
  "pcur": "EUR",
  "years": [
@@ -9,7 +9,7 @@
   "2024",
   "2025"
  ],
- "fx": 0.9111,
+ "fx": 0.9114,
  "mcapMin": 50,
  "cpi_cur": 3.7,
  "cpi_cur_src": "TradingView ECONOMICS:NLIRYY (son açıklanan yıllık TÜFE)",

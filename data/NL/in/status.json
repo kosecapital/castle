@@ -1,31 +1,31 @@
 {
  "cc": "NL",
- "fetched": "2026-11-18T23:24:56Z",
+ "fetched": "2026-11-19T23:19:52Z",
  "errors": [],
  "pb_fix": {
   "paths": {
    "cur": {
-    "n": 85,
-    "med": 1.0016,
+    "n": 86,
+    "med": 1.0057,
     "within10": 100.0,
     "ok": true
    },
    "bvc": {
-    "n": 83,
+    "n": 84,
     "med": 1.0,
     "within10": 100.0,
     "ok": true
    },
    "bvq": {
-    "n": 83,
+    "n": 84,
     "med": 1.0,
     "within10": 100.0,
     "ok": true
    },
    "eq": {
-    "n": 85,
-    "med": 0.9924,
-    "within10": 77.6,
+    "n": 86,
+    "med": 0.9915,
+    "within10": 76.7,
     "ok": false
    },
    "bvh": {
@@ -35,15 +35,15 @@
     "ok": true
    },
    "bvy": {
-    "n": 81,
-    "med": 1.0179,
-    "within10": 66.7,
+    "n": 82,
+    "med": 1.0178,
+    "within10": 67.1,
     "ok": true
    },
    "eqy": {
-    "n": 83,
-    "med": 1.0072,
-    "within10": 55.4,
+    "n": 84,
+    "med": 1.0158,
+    "within10": 57.1,
     "ok": true
    }
   },
@@ -63,44 +63,44 @@
   "fixed_top": [
    [
     "APAM",
-    0.74,
+    0.72,
     "cur"
    ],
    [
     "PNL",
-    2.279,
+    2.257,
     "bvy"
    ],
    [
     "AJAX",
-    0.691,
+    0.685,
     "cur"
    ],
    [
     "EBUS",
-    7.095,
+    6.86,
     "cur"
    ]
   ]
  },
  "source": "TradingView tarayıcısı",
  "market": "netherlands",
- "total": 92,
- "kept": 92,
+ "total": 93,
+ "kept": 93,
  "excluded": {},
  "mcap_check": {
-  "tutarlı": 87,
+  "tutarlı": 88,
   "pay sayısıyla tutmuyor": 5
  },
  "cur": "EUR",
  "pcur": "EUR",
  "exchanges": {
-  "EURONEXT": 92
+  "EURONEXT": 93
  },
  "periods": {
-  "2026-H1": 66,
-  "2026-Q3": 20,
-  "2026-Q2": 3,
+  "2026-H1": 67,
+  "2026-Q3": 21,
+  "2026-Q2": 2,
   "2026-H2": 2,
   "2025-H2": 1
  },
@@ -114,7 +114,7 @@
   "roe_scale": 1.0,
   "eps_ok": true,
   "counts": {
-   "loss": 21,
+   "loss": 22,
    "nodata": 4
   },
   "nodata_top": [
@@ -125,59 +125,59 @@
   ],
   "fixed_top": []
  },
- "pe_filled_pct": 72.8,
+ "pe_filled_pct": 72.0,
  "top5": [
   {
    "c": "ASML",
    "n": "ASML Holding NV",
-   "p": 1260.8,
-   "m": 472438.9,
-   "pe": 36.02,
-   "pb": 22.024,
+   "p": 1288.2,
+   "m": 481606.6,
+   "pe": 36.81,
+   "pb": 22.503,
    "per": "2026-Q3"
   },
   {
    "c": "INGA",
    "n": "ING Groep N.V.",
-   "p": 28.37,
-   "m": 81707.7,
-   "pe": 12.07,
-   "pb": 1.614,
+   "p": 28.2,
+   "m": 79087.3,
+   "pe": 12,
+   "pb": 1.604,
    "per": "2026-Q3"
   },
   {
    "c": "PRX",
    "n": "Prosus N.V. Class N",
-   "p": 32.525,
-   "m": 68230.4,
-   "pe": 7.09,
-   "pb": 1.496,
+   "p": 32.095,
+   "m": 64784.6,
+   "pe": 7.0,
+   "pb": 1.476,
    "per": "2025-H2"
   },
   {
    "c": "HEIA",
    "n": "Heineken NV",
-   "p": 84.16,
-   "m": 46554.5,
-   "pe": 20.6,
-   "pb": 2.444,
+   "p": 82.9,
+   "m": 46488.2,
+   "pe": 20.29,
+   "pb": 2.408,
    "per": "2026-H1"
   },
   {
    "c": "MT",
    "n": "ArcelorMittal SA",
-   "p": 55.02,
-   "m": 40939.5,
-   "pe": 27.03,
-   "pb": 0.865,
+   "p": 54.84,
+   "m": 40924.6,
+   "pe": 26.94,
+   "pb": 0.862,
    "per": "2026-H1"
   }
  ],
  "history": {
-  "candidates": 22,
-  "have": 22,
+  "candidates": 21,
+  "have": 21,
   "fetched": 0,
-  "kept": 22,
+  "kept": 21,
   "no_mapping": 0,
   "failed": [],
   "failed_n": 0,

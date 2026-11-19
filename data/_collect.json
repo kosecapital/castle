@@ -1,5 +1,5 @@
 {
- "when": "2026-11-18T23:25:11Z",
+ "when": "2026-11-19T23:20:24Z",
  "args": [
   "--new",
   "2"
@@ -8,9 +8,9 @@
   {
    "cc": "NL",
    "ok": true,
-   "fetched": "2026-11-18T23:24:56Z",
-   "n": 92,
-   "candidates": 22,
+   "fetched": "2026-11-19T23:19:52Z",
+   "n": 93,
+   "candidates": 21,
    "pages": 0,
    "missing": 0,
    "blocked": false,
@@ -19,10 +19,10 @@
   {
    "cc": "SE",
    "ok": true,
-   "fetched": "2026-11-18T23:25:00Z",
+   "fetched": "2026-11-19T23:20:02Z",
    "n": 749,
-   "candidates": 139,
-   "pages": 1,
+   "candidates": 142,
+   "pages": 5,
    "missing": 4,
    "blocked": false,
    "errors": []
