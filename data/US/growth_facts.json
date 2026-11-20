@@ -57,12 +57,13 @@
   "guidance": null,
   "adjusted": null,
   "departed": {
-   "tr": "Önemli bir ortak (Chime) en geç Temmuz 2028'de ayrılıyor; geçmiş büyümenin içinde o da var. Chime'ın payı açıklanmadığı için geçmiş büyüme Chime hariç hesaplanamıyor.",
-   "en": "An important partner (Chime) leaves by July 2028 at the latest; it is part of past growth. Chime's share is not disclosed, so past growth cannot be calculated without it.",
+   "tr": "Önemli bir ortak (Chime) en geç Temmuz 2028'de ayrılıyor; geçmiş büyümenin içinde o da var. Ayrılık şirketin sonuç açıklamasında yazmıyor; telekonferanstan, haber kaynağıyla biliniyor. Chime'ın payı açıklanmadığı için geçmiş büyüme Chime hariç hesaplanamıyor.",
+   "en": "An important partner (Chime) leaves by July 2028 at the latest; it is part of past growth. The departure is not in the company's earnings release; it is known from the earnings call, through a news source. Chime's share is not disclosed, so past growth cannot be calculated without it.",
    "remaining_pct": 16.2,
    "basis_tr": "şirketin ayrılığı da içeren kendi beklentisinden: hisse başına kâr 2026'da 5,95–6,05, 2028'de 8,00–8,20 dolar",
    "basis_en": "from the company's own outlook, which includes the departure: earnings per share of 5.95–6.05 dollars in 2026 and 8.00–8.20 in 2028",
-   "url": "https://investors.thebancorp.com/press-releases/news-details/2026/The-Bancorp-Reports-3Q-2026-EPS-of-1-53-ROA-of-2-51-and-ROE-of-36-0-Powered-by-Continuous-and-Sustained-Growth-in-Fintech-Fees/default.aspx"
+   "url": "https://www.sec.gov/Archives/edgar/data/0001295401/000162828026068227/a20261029-exx991.htm",
+   "news_url": "https://finviz.com/news/412637/the-bancorp-narrowly-misses-as-chime-exit-forces-steep-2027-guidance-reset"
   },
   "permanent": null,
   "dividend": null,
@@ -805,10 +806,15 @@
  "SLM": {
   "metric": "EPS",
   "ytd": {
-   "tr": "Ocak-Eylül 2026 (ana ortaklık net kârı)",
-   "en": "January-September 2026 (net income to common)",
-   "pct": -35.3,
-   "url": "https://www.sec.gov/Archives/edgar/data/0001032033/000103203326000051/slm102226ex991.htm"
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": -28.5,
+   "cur_val": "1,68",
+   "prev_val": "2,35",
+   "unit": "dolar / dollars",
+   "date": "2026-10-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001032033/000103203326000051/slm102226ex991.htm",
+   "primary": true
   },
   "quarter": {
    "tr": "Temmuz-Eylül 2026 çeyreği (zarar)",
@@ -873,7 +879,7 @@
   "skip": null,
   "note_tr": null,
   "note_en": null,
-  "notes": "Q3 fiscal 2026 results not yet out (the company usually reports in early December). Guidance is in pre-tax income, lowered on 27 Aug 2026; pct is midpoint vs fiscal 2025 actual 67.2 million dollars (fiscal 2025 release of 12 Mar 2026, https://ir.buildabear.com/news-releases/news-release-details/build-bear-workshop-reports-fourth-and-record-fiscal-2025; fiscal 2025 diluted EPS 3.99, up from 3.80). The original March guidance was pre-tax income from a mid-single-digit decline to low-single-digit growth, with revenue up mid-single digits; revenue is now guided DOWN (500-525 vs 529.8). The release does not say in which quarter the 7 million refund was booked, so no adjusted Q2 figure; the remaining ~6 million of the ~13 million full-year refund is expected in the second half. Ongoing tariff cost guided at 10-11 million dollars for fiscal 2026 (about 11 million in fiscal 2025). Q2: revenue -7.2%, e-commerce demand -15.6%, commercial and franchise revenue -9.0%; CEO: results 'fell short of our expectations', wholesale opportunities 'may take longer to realize'. No source names a lasting cause, so 'permanent' is null."
+  "notes": "Q3 fiscal 2026 results not yet out (the company usually reports in early December). Guidance is in pre-tax income, lowered on 27 Aug 2026; pct is midpoint vs fiscal 2025 actual 67.2 million dollars (fiscal 2025 release of 12 Mar 2026, https://ir.buildabear.com/news-releases/news-release-details/build-bear-workshop-reports-fourth-and-record-fiscal-2025; fiscal 2025 diluted EPS 3.99, up from 3.80). The original March guidance was pre-tax income from a mid-single-digit decline to low-single-digit growth, with revenue up mid-single digits; revenue is now guided DOWN (500-525 vs 529.8). The release does not say in which quarter the 7 million refund was booked, so no adjusted Q2 figure; the remaining ~6 million of the ~13 million full-year refund is expected in the second half. Ongoing tariff cost guided at 10-11 million dollars for fiscal 2026 (about 11 million in fiscal 2025). Q2: revenue -7.2%, e-commerce demand -15.6%, commercial and franchise revenue -9.0%; CEO: results 'fell short of our expectations', wholesale opportunities 'may take longer to realize'. No source names a lasting cause, so 'permanent' is null. CORRECTION 20 Nov 2026 (10-Q for the quarter to 1 Aug 2026, https://www.sec.gov/Archives/edgar/data/0001113809/000143774926030081/bbw20260801c_10q.htm): the whole refund receivable of about 13.2 million dollars was recorded in Q1: 10.4 million went through cost of sales in Q1 (7.0 million of it relating to prior-year costs) and 2.8 million reduced inventory and reached profit as that stock was sold in Q2; the refund was collected in Q2. Nothing is left to book in the second half; the sentence above saying about 6 million is still expected is wrong."
  },
  "CSCO": {
   "metric": "EPS",

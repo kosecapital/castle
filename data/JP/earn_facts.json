@@ -308,18 +308,18 @@
   "eps_cur": "JPY",
   "ttm": {
    "eps": 128.05,
-   "net_profit": 965,
-   "tr": "Ekim 2025 - Eylül 2026 (Haziran 2026 yılı eksi Temmuz-Eylül 2025 artı Temmuz-Eylül 2026; son çeyrek veri sitesinden)",
-   "en": "October 2025 - September 2026 (year to June 2026 minus July-September 2025 plus July-September 2026; latest quarter from a data site)",
-   "url": "https://s.kabutan.jp/stocks/194A/finance/"
+   "net_profit": 965.5,
+   "tr": "Ekim 2025 - Eylül 2026 (Haziran 2026 yılı eksi Temmuz-Eylül 2025 artı Temmuz-Eylül 2026; üçü de şirketin bildirimlerinden)",
+   "en": "October 2025 - September 2026 (year to June 2026 minus July-September 2025 plus July-September 2026; all three from the company's filings)",
+   "url": "https://www2.jpx.co.jp/disc/194A0/140120261111573837.pdf"
   },
   "tax_rate": 27.6,
   "gains": [
    {
-    "tr": "Negatif şerefiye kazancı: Ocak 2026'da bağlı ortaklık Kaltech'in devraldığı fotokatalizör işinde ödenen bedel, alınan net varlıkların değerinden düşük kaldı (olağan dışı gelir, 227,5 milyon yen vergi öncesi)",
-    "en": "Negative goodwill gain: in the photocatalyst business taken over by the subsidiary Kaltech in January 2026 the price paid was below the value of the net assets acquired (extraordinary income, 227.5 million yen pre-tax)",
-    "frac": 0.1708,
-    "how": 27.6,
+    "tr": "Negatif şerefiye kazancı: Ocak 2026'da bağlı ortaklık Kaltech'in devraldığı fotokatalizör işinde ödenen bedel, alınan net varlıkların değerinden düşük kaldı (olağan dışı gelir, 227,5 milyon yen vergi öncesi; menkul kıymet raporunun vergi mutabakatına göre bu kazanç vergilenmedi, tutarın tamamı alındı)",
+    "en": "Negative goodwill gain: in the photocatalyst business taken over by the subsidiary Kaltech in January 2026 the price paid was below the value of the net assets acquired (extraordinary income, 227.5 million yen pre-tax; the tax reconciliation in the securities report shows this gain was not taxed, so the full amount is counted)",
+    "frac": 0.2356,
+    "how": null,
     "period_tr": "Haziran 2026 mali yılı (Ocak-Haziran 2026)",
     "period_en": "fiscal year to June 2026 (January-June 2026)",
     "url": "https://www2.jpx.co.jp/disc/194A0/140120260813518909.pdf"
@@ -367,7 +367,7 @@
     "date": "2026-08-13"
    }
   ],
-  "notes": "Updated 14 Nov 2026 for period 2027-Q1. TTM = FY to June 2026 (primary, re-read today: profit 939,402k, basic EPS 124.88) minus Q1 FY2026 (primary, tanshin of 13 Nov 2025 read today: 165,523k, EPS 22.13) plus Q1 FY2027 (NOT primary: Kabutan and Matsui Securities both show net profit 191m and EPS 25.3; the tanshin of 11 Nov 2026 could not be opened, see growth_facts notes). Net profit 939.4 - 165.5 + 191 = 964.9m (191 is rounded to the million); EPS 124.88 - 22.13 + 25.30 = 128.05 (sum of quarterly EPS, ignores share-count changes). Source check: price 1,380 / P/E 11.11 = 124.2, below the document figure, so no source-above-document issue. Tax rate 27.6% unchanged (FY2026: 357,483k / 1,296,886k). One-offs recomputed on the new TTM profit of 964.9m, pre-tax amount x (1 - 0.2756): negative goodwill 227,452k -> 0.1708 (all booked January-June 2026, inside the window); step-acquisition gain 12,913k -> 0.0097 (booked in the nine months to March 2026; Q1 FY2026 extraordinary income was only a 2,700k fixed-asset gain per the primary filing, so it falls in October 2025-March 2026, inside the window); fixed-asset gain 10,950k - 2,700k (Q1 FY2026, now outside the window) = 8,250k -> 0.0062; impairment 83,376k -> 0.0626 (April-June 2026). Net 0.1241. UNKNOWN: extraordinary items of July-September 2026 (filing not opened); net/ordinary profit of 67.5% (67.9% a year earlier) does not suggest a large one, my inference. Same caveat as before: the company does not disclose the tax effect; negative goodwill and step gains are usually untaxed, so the true share may be nearer 227,452/964,900 = 23.6%. Forecast EPS 132.90 (13 Aug 2026, primary) is above the last 12 months; data sites show no revision. Not IAS 29; no monetary."
+  "notes": "Updated 14 Nov 2026 for period 2027-Q1. TTM = FY to June 2026 (primary, re-read today: profit 939,402k, basic EPS 124.88) minus Q1 FY2026 (primary, tanshin of 13 Nov 2025 read today: 165,523k, EPS 22.13) plus Q1 FY2027 (NOT primary: Kabutan and Matsui Securities both show net profit 191m and EPS 25.3; the tanshin of 11 Nov 2026 could not be opened, see growth_facts notes). Net profit 939.4 - 165.5 + 191 = 964.9m (191 is rounded to the million); EPS 124.88 - 22.13 + 25.30 = 128.05 (sum of quarterly EPS, ignores share-count changes). Source check: price 1,380 / P/E 11.11 = 124.2, below the document figure, so no source-above-document issue. Tax rate 27.6% unchanged (FY2026: 357,483k / 1,296,886k). One-offs recomputed on the new TTM profit of 964.9m, pre-tax amount x (1 - 0.2756): negative goodwill 227,452k -> 0.1708 (all booked January-June 2026, inside the window); step-acquisition gain 12,913k -> 0.0097 (booked in the nine months to March 2026; Q1 FY2026 extraordinary income was only a 2,700k fixed-asset gain per the primary filing, so it falls in October 2025-March 2026, inside the window); fixed-asset gain 10,950k - 2,700k (Q1 FY2026, now outside the window) = 8,250k -> 0.0062; impairment 83,376k -> 0.0626 (April-June 2026). Net 0.1241. UNKNOWN: extraordinary items of July-September 2026 (filing not opened); net/ordinary profit of 67.5% (67.9% a year earlier) does not suggest a large one, my inference. Same caveat as before: the company does not disclose the tax effect; negative goodwill and step gains are usually untaxed, so the true share may be nearer 227,452/964,900 = 23.6%. Forecast EPS 132.90 (13 Aug 2026, primary) is above the last 12 months; data sites show no revision. Not IAS 29; no monetary. UPDATE 20 Nov 2026: Q1 FY2027 tanshin read (https://www2.jpx.co.jp/disc/194A0/140120261111573837.pdf): net profit 191,623k, so TTM = 939,402 - 165,523 + 191,623 = 965,502k; no extraordinary items in July-September 2026. Negative goodwill: the tax reconciliation in the securities report (https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100Z4XU.pdf) shows the gain lowered the effective rate by 5.5 points (statutory 31.5%, effective 27.6%), i.e. it was untaxed; frac is now 227,452/965,502 = 0.2356 with no tax deducted. Other items unchanged."
  },
  "3854": {
   "unit": "million JPY",

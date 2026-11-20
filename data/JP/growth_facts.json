@@ -388,8 +388,8 @@
    "prev_val": "22,13",
    "unit": "yen (temel hisse başına kâr) / yen (basic EPS)",
    "date": "2026-11-11",
-   "url": "https://s.kabutan.jp/stocks/194A/finance/",
-   "primary": false
+   "url": "https://www2.jpx.co.jp/disc/194A0/140120261111573837.pdf",
+   "primary": true
   },
   "quarter": {
    "tr": "Temmuz-Eylül 2026 çeyreği",
@@ -399,8 +399,8 @@
    "prev_val": "22,13",
    "unit": "yen (temel hisse başına kâr) / yen (basic EPS)",
    "date": "2026-11-11",
-   "url": "https://s.kabutan.jp/stocks/194A/finance/",
-   "primary": false
+   "url": "https://www2.jpx.co.jp/disc/194A0/140120261111573837.pdf",
+   "primary": true
   },
   "guidance": {
    "tr": "Haziran 2027 yılı için şirket tahmini",
@@ -425,7 +425,7 @@
   "skip": null,
   "note_tr": null,
   "note_en": null,
-  "notes": "Updated 14 Nov 2026 for period 2027-Q1. NOT PRIMARY: the Q1 FY2027 kessan tanshin (filed 11 Nov 2026 15:30, TDnet doc id 140120261111573837; presentation 140120261111573868) could NOT be opened: www2.jpx.co.jp/disc/194A0/140120261111573837.pdf and the Yahoo storage copy got no answer to the permission request; www.release.tdnet.info is robots-disallowed; kabutan.jp news k202611110220 failed. Q1 figures come from two data sites that agree: Kabutan (s.kabutan.jp/stocks/194A/finance/) and Matsui Securities: sales 1,695m (+24.2%), operating profit 278m (+16.3%), ordinary profit 283m (+16.5%), net profit 191m (+15.8%), EPS 25.3 (+14.3%). The prior-year quarter IS primary (Q1 FY2026 tanshin of 13 Nov 2025, read today): EPS 22.13, diluted 21.77, net profit 165,523k, sales 1,365,022k, operating profit 239,402k. ytd and quarter are the same three months (Q1 is both the cumulative period and the latest quarter). 25.3/22.13 = +14.3%. Guidance is primary and re-read today (FY tanshin summary of 13 Aug 2026): EPS 132.90 vs 124.88 = +6.42%; the data sites show the forecast still dated 13 Aug 2026, so no revision is visible, but this was not confirmed in the Q1 filing. Kabutan shows a forecast EPS of 127.6 (not the company's 132.90): this looks like the site's own recalculation on a different share count; not used. Kabutan also shows equity of 4,490m at 30 Sep 2026 against 3,704m at 30 June, a rise of 786m against quarterly profit of 191m; the cause (share issue, treasury share disposal, option exercise?) was not read. Whether Q1 holds extraordinary items is unknown; net/ordinary profit is 67.5% (67.9% a year earlier), which does not suggest a large one. Main session: when the tanshin opens, confirm EPS, set primary true and replace the url. Dividend: still the company's forecast of 26 yen for FY June 2027 (first dividend). No lost customer or exited business found; nothing indicating a lasting deterioration, so departed and permanent are null."
+  "notes": "Updated 14 Nov 2026 for period 2027-Q1. NOT PRIMARY: the Q1 FY2027 kessan tanshin (filed 11 Nov 2026 15:30, TDnet doc id 140120261111573837; presentation 140120261111573868) could NOT be opened: www2.jpx.co.jp/disc/194A0/140120261111573837.pdf and the Yahoo storage copy got no answer to the permission request; www.release.tdnet.info is robots-disallowed; kabutan.jp news k202611110220 failed. Q1 figures come from two data sites that agree: Kabutan (s.kabutan.jp/stocks/194A/finance/) and Matsui Securities: sales 1,695m (+24.2%), operating profit 278m (+16.3%), ordinary profit 283m (+16.5%), net profit 191m (+15.8%), EPS 25.3 (+14.3%). The prior-year quarter IS primary (Q1 FY2026 tanshin of 13 Nov 2025, read today): EPS 22.13, diluted 21.77, net profit 165,523k, sales 1,365,022k, operating profit 239,402k. ytd and quarter are the same three months (Q1 is both the cumulative period and the latest quarter). 25.3/22.13 = +14.3%. Guidance is primary and re-read today (FY tanshin summary of 13 Aug 2026): EPS 132.90 vs 124.88 = +6.42%; the data sites show the forecast still dated 13 Aug 2026, so no revision is visible, but this was not confirmed in the Q1 filing. Kabutan shows a forecast EPS of 127.6 (not the company's 132.90): this looks like the site's own recalculation on a different share count; not used. Kabutan also shows equity of 4,490m at 30 Sep 2026 against 3,704m at 30 June, a rise of 786m against quarterly profit of 191m; the cause (share issue, treasury share disposal, option exercise?) was not read. Whether Q1 holds extraordinary items is unknown; net/ordinary profit is 67.5% (67.9% a year earlier), which does not suggest a large one. Main session: when the tanshin opens, confirm EPS, set primary true and replace the url. Dividend: still the company's forecast of 26 yen for FY June 2027 (first dividend). No lost customer or exited business found; nothing indicating a lasting deterioration, so departed and permanent are null. UPDATE 20 Nov 2026: the Q1 FY2027 tanshin of 11 Nov 2026 was opened and read (https://www2.jpx.co.jp/disc/194A0/140120261111573837.pdf): net profit 191,623k yen, EPS 25.30 (22.13), no extraordinary items, forecast unchanged; ytd and quarter are now primary."
  },
  "3854": {
   "metric": "EPS",

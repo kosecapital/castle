@@ -29,3 +29,7 @@ Birincil belgeden doğrulananlar (2025 üçüncü çeyrek tabloları, https://ir
 ## Üçüncü deneme (17 Kasım 2026)
 
 2026 üçüncü çeyrek tabloları yine açılamadı (ir.modernmills.com.sa: izin isteği yanıtsız; Saudi Exchange'te kopyası bulunamadı). Argaam'ın borsa bildirimini aktaran sayfası taslaktaki rakamları doğruluyor (dokuz ay 181,62, çeyrek 62,30, özsermaye 342,557 milyon riyal; olağan dışı kalem yok): https://www.argaam.com/ar/financial-reports/company-report/16485/2026/72 . Hisse başına kâr 2,24 riyal hazine payları düşülerek hesaplanmış (81,01 milyon pay); taslaktaki son 12 ay rakamı 2,86 yerine 2,89 olmalı. Bildirime göre üçüncü çeyrekte hammadde maliyetindeki artış müşteriye tam yansıtılamadı; dokuz aylık brüt marj %37,8'den %36,2'ye indi. Bu, buğday fiyatı sorusuyla doğrudan ilgili; dipnotlar okunmadan yayımlanmamalı. Şirket sırada.
+
+## Dördüncü deneme (20 Kasım 2026)
+
+2026 üçüncü çeyrek tabloları yine açılamadı (ir.modernmills.com.sa: izin isteği yanıtsız; Decypha ve Maaal haber sayfaları açılmadı). Aramada çıkan Saudi Exchange dosyası (30193_6326_2026-04-26) Arabian Mills'in (2285) 2025 yıllık tablolarıymış; Modern Mills değil. Şirket sırada.
