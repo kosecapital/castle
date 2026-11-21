@@ -1,31 +1,31 @@
 {
  "cc": "SE",
- "fetched": "2026-11-20T23:22:39Z",
+ "fetched": "2026-11-21T23:15:13Z",
  "errors": [],
  "pb_fix": {
   "paths": {
    "cur": {
-    "n": 706,
+    "n": 704,
     "med": 1.0173,
-    "within10": 95.8,
+    "within10": 95.7,
     "ok": true
    },
    "bvc": {
-    "n": 705,
+    "n": 703,
     "med": 1.0,
     "within10": 100.0,
     "ok": true
    },
    "bvq": {
-    "n": 705,
+    "n": 703,
     "med": 1.0,
     "within10": 100.0,
     "ok": true
    },
    "eq": {
-    "n": 705,
-    "med": 1.0148,
-    "within10": 85.0,
+    "n": 703,
+    "med": 1.0,
+    "within10": 89.3,
     "ok": true
    },
    "bvh": {
@@ -35,20 +35,20 @@
     "ok": false
    },
    "bvy": {
-    "n": 694,
-    "med": 1.0277,
-    "within10": 48.4,
+    "n": 693,
+    "med": 1.0288,
+    "within10": 48.2,
     "ok": true
    },
    "eqy": {
-    "n": 695,
-    "med": 1.0601,
-    "within10": 40.3,
+    "n": 694,
+    "med": 1.0404,
+    "within10": 45.8,
     "ok": true
    }
   },
   "counts": {
-   "cur": 9,
+   "cur": 10,
    "eq": 1,
    "bvy": 2
   },
@@ -65,8 +65,8 @@
    "BBROOM",
    "BUY",
    "BAWAT",
-   "NRDAMP",
    "FOMO",
+   "NRDAMP",
    "NEWBRY",
    "MTI",
    "QBIM"
@@ -113,6 +113,11 @@
     "cur"
    ],
    [
+    "NXAR",
+    16,
+    "cur"
+   ],
+   [
     "VALUNO",
     0.545,
     "cur"
@@ -129,7 +134,7 @@
    ],
    [
     "IMHO.B",
-    0.131,
+    0.156,
     "eq"
    ]
   ]
@@ -142,8 +147,8 @@
   "fiyat ya da piyasa değeri yok": 6
  },
  "mcap_check": {
-  "pay sayısıyla tutmuyor": 47,
-  "tutarlı": 693,
+  "pay sayısıyla tutmuyor": 39,
+  "tutarlı": 701,
   "pay sayısı yok": 9
  },
  "cur": "SEK",
@@ -153,33 +158,33 @@
   "NGM": 93
  },
  "periods": {
-  "2026-Q3": 584,
-  "2026-Q2": 98,
+  "2026-Q3": 601,
+  "2026-Q2": 81,
   "2026-H1": 28,
   "2026-Q1": 15,
   "None": 9,
   "2026-Q4": 7
  },
  "pe_fix": {
-  "eps_n": 381,
+  "eps_n": 384,
   "eps_med": 1.0,
   "eps_within5": 100.0,
-  "roe_n": 374,
-  "roe_med": 1.0509,
-  "roe_within25": 91.2,
+  "roe_n": 376,
+  "roe_med": 1.0512,
+  "roe_within25": 90.7,
   "roe_scale": 1.0,
   "eps_ok": true,
   "counts": {
    "nodata": 34,
-   "loss": 327,
+   "loss": 324,
    "eps": 6,
    "roe": 1
   },
   "nodata_top": [
    "VSURE",
    "SILEX",
-   "TANGEN_B",
    "SALIX",
+   "TANGEN_B",
    "COFFEE_B",
    "NTECH",
    "LMGAB",
@@ -210,7 +215,7 @@
    ],
    [
     "TINGS_A",
-    8.89,
+    8.19,
     "eps"
    ],
    [
@@ -230,13 +235,13 @@
    ]
   ]
  },
- "pe_filled_pct": 51.8,
+ "pe_filled_pct": 52.2,
  "top5": [
   {
    "c": "VSURE",
    "n": "Verisure Plc",
    "p": 10.015,
-   "m": 1323599.9,
+   "m": 1305995.4,
    "pe": null,
    "pb": 1.163,
    "per": "2026-Q3"
@@ -245,7 +250,7 @@
    "c": "INVE_A",
    "n": "Investor AB Class A",
    "p": 401.4,
-   "m": 1277172.9,
+   "m": 1242221.4,
    "pe": 5.73,
    "pb": 1.119,
    "per": "2026-Q3"
@@ -254,7 +259,7 @@
    "c": "ATCO_A",
    "n": "Atlas Copco AB Class A",
    "p": 181.95,
-   "m": 887733.2,
+   "m": 849826.5,
    "pe": 32.1,
    "pb": 7.481,
    "per": "2026-Q3"
@@ -263,7 +268,7 @@
    "c": "VOLV_A",
    "n": "Volvo AB Class A",
    "p": 314,
-   "m": 651375.4,
+   "m": 638025.9,
    "pe": 16.34,
    "pb": 3.338,
    "per": "2026-Q3"
@@ -272,7 +277,7 @@
    "c": "SWED_A",
    "n": "Swedbank AB Class A",
    "p": 403.5,
-   "m": 462479.5,
+   "m": 452498.8,
    "pe": 14.74,
    "pb": 2.099,
    "per": "2026-Q3"
@@ -281,8 +286,8 @@
  "history": {
   "candidates": 141,
   "have": 134,
-  "fetched": 1,
-  "kept": 133,
+  "fetched": 0,
+  "kept": 134,
   "no_mapping": 3,
   "failed": [
    [
@@ -304,7 +309,7 @@
   ],
   "failed_n": 4,
   "blocked": false,
-  "budget_left": 5999
+  "budget_left": 6000
  },
  "ok": true
 }

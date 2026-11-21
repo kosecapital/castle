@@ -1,160 +1,29 @@
 {
- "when": "2026-11-21T03:20:37Z",
+ "when": "2026-11-21T23:15:25Z",
  "args": [
-  "--refresh"
+  "--new",
+  "2"
  ],
  "results": [
   {
-   "cc": "US",
+   "cc": "NL",
    "ok": true,
-   "fetched": "2026-11-21T02:50:40Z",
-   "n": 4932,
-   "candidates": 844,
-   "pages": 49,
-   "missing": 3,
-   "blocked": false,
-   "errors": []
-  },
-  {
-   "cc": "CN",
-   "ok": true,
-   "fetched": "2026-11-21T02:51:25Z",
-   "n": 5235,
-   "candidates": 707,
-   "pages": 3,
-   "missing": 18,
-   "blocked": false,
-   "errors": []
-  },
-  {
-   "cc": "JP",
-   "ok": true,
-   "fetched": "2026-11-21T02:51:49Z",
-   "n": 3860,
-   "candidates": 683,
-   "pages": 84,
-   "missing": 9,
-   "blocked": false,
-   "errors": []
-  },
-  {
-   "cc": "TW",
-   "ok": true,
-   "fetched": "2026-11-21T02:53:06Z",
-   "n": 2298,
-   "candidates": 523,
-   "pages": 63,
-   "missing": 4,
-   "blocked": false,
-   "errors": []
-  },
-  {
-   "cc": "IN",
-   "ok": true,
-   "fetched": "2026-11-21T02:55:46Z",
-   "n": 4859,
-   "candidates": 469,
-   "pages": 47,
-   "missing": 43,
-   "blocked": false,
-   "errors": []
-  },
-  {
-   "cc": "GB",
-   "ok": true,
-   "fetched": "2026-11-21T03:05:07Z",
-   "n": 1060,
-   "candidates": 165,
-   "pages": 13,
-   "missing": 2,
-   "blocked": false,
-   "errors": []
-  },
-  {
-   "cc": "KR",
-   "ok": true,
-   "fetched": "2026-11-21T03:06:07Z",
-   "n": 2616,
-   "candidates": 225,
-   "pages": 89,
-   "missing": 4,
-   "blocked": false,
-   "errors": []
-  },
-  {
-   "cc": "CA",
-   "ok": true,
-   "fetched": "2026-11-21T03:14:51Z",
-   "n": 2443,
-   "candidates": 147,
-   "pages": 16,
-   "missing": 0,
-   "blocked": false,
-   "errors": []
-  },
-  {
-   "cc": "FR",
-   "ok": true,
-   "fetched": "2026-11-21T03:16:35Z",
-   "n": 576,
-   "candidates": 56,
+   "fetched": "2026-11-21T23:15:08Z",
+   "n": 93,
+   "candidates": 21,
    "pages": 0,
    "missing": 0,
    "blocked": false,
    "errors": []
   },
   {
-   "cc": "DE",
+   "cc": "SE",
    "ok": true,
-   "fetched": "2026-11-21T03:17:52Z",
-   "n": 419,
-   "candidates": 74,
-   "pages": 6,
-   "missing": 4,
-   "blocked": false,
-   "errors": []
-  },
-  {
-   "cc": "CH",
-   "ok": true,
-   "fetched": "2026-11-21T03:18:05Z",
-   "n": 204,
-   "candidates": 59,
+   "fetched": "2026-11-21T23:15:13Z",
+   "n": 749,
+   "candidates": 141,
    "pages": 0,
-   "missing": 2,
-   "blocked": false,
-   "errors": []
-  },
-  {
-   "cc": "SA",
-   "ok": true,
-   "fetched": "2026-11-21T03:18:14Z",
-   "n": 388,
-   "candidates": 108,
-   "pages": 1,
-   "missing": 0,
-   "blocked": false,
-   "errors": []
-  },
-  {
-   "cc": "AU",
-   "ok": true,
-   "fetched": "2026-11-21T03:19:31Z",
-   "n": 1562,
-   "candidates": 118,
-   "pages": 1,
-   "missing": 0,
-   "blocked": false,
-   "errors": []
-  },
-  {
-   "cc": "TR",
-   "ok": true,
-   "fetched": "2026-11-21T03:20:17Z",
-   "n": 629,
-   "candidates": 69,
-   "pages": 4,
-   "missing": 1,
+   "missing": 4,
    "blocked": false,
    "errors": []
   }
