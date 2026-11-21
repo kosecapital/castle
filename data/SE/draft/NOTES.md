@@ -33,3 +33,7 @@ Veri 18 Kasım kapanışıyla yenilendi (749 pay, 139 aday; oran sayfası gelmey
 ## 20 Kasım 2026: dördüncü deneme
 
 Veri 19 Kasım kapanışıyla yenilendi (749 pay, 142 aday; oran sayfası gelmeyen dört aday aynı). Oncopeptides: raporun kendisi (storage.mfn.se, iki adres), şirketin basın bülteni sayfası ve financialfilings.com'daki kopya yine açılamadı (izin isteği yanıtsız ya da reddedildi). Açılanlar yeni bir şey vermiyor: bülten metninde bilanço yok; ikinci kaynakta 30 Eylül 2026 özsermayesi −16,5 milyon kron, pay sayısı 395,29 milyon (https://stockanalysis.com/quote/sto/ONCO/financials/balance-sheet/). Evrendeki PD/DD 25,7 (artı). Karar yine Alper'de.
+
+## 21 Kasım 2026: beşinci deneme
+
+Veri 20 Kasım kapanışıyla yenilendi (749 pay, 141 aday; oran sayfası gelmeyen dört aday aynı). Oncopeptides'in üçüncü çeyrek raporu (storage.mfn.se) yine izin isteğinde kaldı; yeni bilgi yok. Evrendeki PD/DD 25,9 (artı). Karar Alper'de.

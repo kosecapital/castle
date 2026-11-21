@@ -31,3 +31,7 @@ Veri 18 Kasım kapanışıyla yenilendi (92 pay, 22 aday). Okunan ve Amsterdam'a
 ## 20 Kasım 2026: dördüncü deneme
 
 Veri 19 Kasım kapanışıyla yenilendi (93 pay, 21 aday). Amsterdam'a özel, tarihli bir sayı yine yok. Okunanlar: Euronext'in 2025 kayıt belgesi (yalnız bütün pazarlar: 31 Aralık 2025'te 1.700'ün üstünde ihraççı; https://www.marketscreener.com/news/euronext-n-2025-urd-pdf-ce7e51d8d889f727), Euronext 2026 ikinci çeyrek sonuçları (bütün pazarlar: Haziran 2026'da 1.800'ün üstünde; https://www.euronext.com/en/about/media/euronext-press-releases/euronext-publishes-q2-2026-results-0), ANP'nin 20 Ocak 2026 haberi (yalnız 2025'te dört halka arz; https://nieuws.nl/economie/damrak-verwacht-meer-beursgangen-ondanks-geopolitieke-spanningen), live.euronext.com hisse listesi (tablo boş geliyor). Tarihsiz iki sayı aynı: 164 (SSE) ve 121 (financialfilings.com; evren 93 buna göre −%23, ama sayı resmî ve tarihli değil). Karar Alper'de: farkı notla yayımlamak ya da Fact Book'taki sayıyı vermek.
+
+## 21 Kasım 2026: beşinci deneme
+
+Veri 20 Kasım kapanışıyla yenilendi (93 pay, 21 aday). Amsterdam'a özel, tarihli bir sayı yine yok. Okunanlar: Euronext'in Eylül 2026 sunumu (yalnız bütün pazarlar: Haziran 2026 sonunda 1.800'ün üstünde şirket; https://www.newmoney.gr/wp-content/uploads/2026/11/2026-11-Euronext-Why-European-companies-are-better-off-listing-on-Euronext-than-in-the-US.pdf), WFE'nin 27 Şubat 2026 bülteni (borsa bazında sayı yok). Fact Book dizini açılıyor, dosyanın kendisi (.xlsx) açılamıyor. Karar Alper'de.
