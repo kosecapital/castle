@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-14T23:10:44Z",
+ "fetched": "2026-11-21T03:17:53Z",
  "cur": "EUR",
  "pcur": "EUR",
  "years": [
@@ -9,7 +9,7 @@
   "2024",
   "2025"
  ],
- "fx": 0.907,
+ "fx": 0.9116,
  "mcapMin": 50,
  "cpi_cur": 2.8,
  "cpi_cur_src": "TradingView ECONOMICS:DEIRYY (son açıklanan yıllık TÜFE)",
@@ -26,8 +26,5 @@
   "2023": "IMF WEO 2025-04 (dönem sonu)",
   "2024": "IMF WEO 2025-04 (dönem sonu)",
   "2025": "Dünya Bankası FP.CPI.TOTL.ZG (yıllık ortalama)"
- },
- "cpi_errors": [
-  "Dünya Bankası: ReadTimeout HTTPSConnectionPool(host='api.worldbank.org', port=443): Read timed out. (read t"
- ]
+ }
 }

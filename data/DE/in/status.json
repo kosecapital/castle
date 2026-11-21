@@ -1,68 +1,67 @@
 {
  "cc": "DE",
- "fetched": "2026-11-14T23:10:44Z",
+ "fetched": "2026-11-21T03:17:52Z",
  "errors": [],
  "pb_fix": {
   "paths": {
    "cur": {
-    "n": 348,
-    "med": 1.0038,
-    "within10": 98.9,
+    "n": 353,
+    "med": 1.0165,
+    "within10": 96.9,
     "ok": true
    },
    "bvc": {
-    "n": 348,
+    "n": 353,
     "med": 1.0,
     "within10": 100.0,
     "ok": true
    },
    "bvq": {
-    "n": 348,
+    "n": 353,
     "med": 1.0,
     "within10": 100.0,
     "ok": true
    },
    "eq": {
-    "n": 347,
-    "med": 0.9996,
-    "within10": 85.3,
-    "ok": true
+    "n": 352,
+    "med": 1.0099,
+    "within10": 81.8,
+    "ok": false
    },
    "bvh": {
-    "n": 114,
+    "n": 115,
     "med": 1.0,
     "within10": 100.0,
     "ok": true
    },
    "bvy": {
-    "n": 343,
-    "med": 1.0056,
-    "within10": 68.5,
+    "n": 348,
+    "med": 1.0071,
+    "within10": 68.4,
     "ok": true
    },
    "eqy": {
-    "n": 343,
-    "med": 0.9957,
-    "within10": 60.6,
+    "n": 348,
+    "med": 1.0081,
+    "within10": 58.3,
     "ok": true
    }
   },
   "counts": {
-   "cur": 25,
+   "cur": 22,
    "sa": 1,
-   "bvy": 14
+   "bvy": 15
   },
   "neg": 9,
-  "nodata": 20,
+  "nodata": 19,
   "sa_asked": 1,
-  "sa_pages": 1,
-  "sa_reused": 0,
+  "sa_pages": 0,
+  "sa_reused": 1,
   "sa_failed": 0,
   "sa_blocked": false,
   "missing_pct": 0.0,
   "nodata_top": [
    "BYW",
-   "D77",
    "TIW",
    "EVAC",
    "HE8",
@@ -75,72 +74,58 @@
    "WFA",
    "CFC",
    "ERW",
-   "AB9"
+   "AB9",
+   "WDL"
   ],
   "fixed_top": [
    [
     "SIE",
-    3.146,
+    2.98,
     "cur"
    ],
    [
     "ALV",
-    3.123,
+    3.024,
     "cur"
    ],
    [
     "ENR",
-    10.595,
+    10.13,
     "cur"
    ],
    [
     "SHL",
-    2.566,
+    2.567,
     "cur"
    ],
    [
     "HHFA",
-    3.102,
-    "cur"
-   ],
-   [
-    "DEQ",
-    0.646,
+    3.116,
     "cur"
    ],
    [
     "RHK",
-    0.735,
+    0.73,
     "cur"
    ],
    [
     "PAT",
-    0.599,
+    0.626,
     "cur"
    ],
    [
     "MUM",
-    7.909,
+    7.66,
     "cur"
    ],
    [
-    "BVB",
-    1.16,
-    "cur"
-   ],
-   [
-    "ILM1",
-    0.522,
-    "cur"
-   ],
-   [
-    "2HRA",
-    0.605,
-    "cur"
+    "D77",
+    0.748,
+    "bvy"
    ],
    [
     "ETG",
-    1.369,
+    1.373,
     "cur"
    ],
    [
@@ -150,59 +135,73 @@
    ],
    [
     "UBK",
-    0.522,
+    0.488,
     "cur"
+   ],
+   [
+    "KWG",
+    0.903,
+    "cur"
+   ],
+   [
+    "FC9",
+    0.562,
+    "bvy"
+   ],
+   [
+    "MBK",
+    0.2,
+    "sa"
    ]
   ]
  },
  "source": "TradingView tarayıcısı",
  "market": "germany",
- "total": 420,
- "kept": 417,
+ "total": 422,
+ "kept": 419,
  "excluded": {
   "fiyat ya da piyasa değeri yok": 3
  },
  "mcap_check": {
-  "tutarlı": 403,
-  "pay sayısıyla tutmuyor": 10,
+  "tutarlı": 404,
+  "pay sayısıyla tutmuyor": 11,
   "pay sayısı yok": 4
  },
  "cur": "EUR",
  "pcur": "EUR",
  "exchanges": {
   "XETR": 413,
-  "FWB": 3,
-  "LS": 1
+  "FWB": 4,
+  "LS": 2
  },
  "periods": {
+  "2026-Q3": 184,
   "2026-H1": 174,
-  "2026-Q3": 167,
-  "2026-Q2": 46,
-  "2026-Q1": 9,
+  "2026-Q2": 32,
   "None": 9,
+  "2026-Q1": 7,
   "2026-Q4": 5
  },
  "pe_fix": {
-  "eps_n": 222,
+  "eps_n": 231,
   "eps_med": 1.0,
   "eps_within5": 100.0,
-  "roe_n": 211,
-  "roe_med": 1.0364,
-  "roe_within25": 92.9,
+  "roe_n": 222,
+  "roe_med": 1.0379,
+  "roe_within25": 92.3,
   "roe_scale": 1.0,
   "eps_ok": true,
   "counts": {
-   "eps": 17,
+   "eps": 11,
    "loss": 118,
-   "nodata": 60
+   "nodata": 59
   },
   "nodata_top": [
-   "EUZ",
    "BYW",
-   "CWC",
    "V1NC",
-   "D77",
+   "CWC",
    "ERAG",
+   "D77",
    "XK4",
    "SRAG",
    "NF4",
@@ -211,139 +210,120 @@
    "EVAC",
    "HE8",
    "BKHT",
+   "MXHN",
    "1SMA"
   ],
   "fixed_top": [
    [
     "ALV",
-    15.48,
+    14.66,
     "eps"
    ],
    [
     "MUV2",
-    11.34,
-    "eps"
-   ],
-   [
-    "OHB",
-    78.4,
+    11.12,
     "eps"
    ],
    [
     "AG1",
-    33.14,
-    "eps"
-   ],
-   [
-    "VBK",
-    14.57,
-    "eps"
-   ],
-   [
-    "DEQ",
-    5.71,
+    30.18,
     "eps"
    ],
    [
     "RHK",
-    22.9,
-    "eps"
-   ],
-   [
-    "GFT",
-    17.24,
+    22.43,
     "eps"
    ],
    [
     "PAT",
-    23.05,
+    23.77,
     "eps"
    ],
    [
     "MUM",
-    17.32,
+    17.16,
     "eps"
    ],
    [
     "DR0",
-    2.47,
-    "eps"
-   ],
-   [
-    "ILM1",
-    32.53,
-    "eps"
-   ],
-   [
-    "2HRA",
-    10.92,
+    1.43,
     "eps"
    ],
    [
     "ETG",
-    22.52,
+    22.72,
     "eps"
    ],
    [
     "HMU",
-    2.23,
+    2.13,
+    "eps"
+   ],
+   [
+    "LUS1",
+    1.37,
+    "eps"
+   ],
+   [
+    "G6P0",
+    74.95,
     "eps"
    ]
   ]
  },
- "pe_filled_pct": 57.3,
+ "pe_filled_pct": 57.8,
  "top5": [
   {
    "c": "SAP",
    "n": "SAP SE",
-   "p": 213.45,
-   "m": 249215.5,
-   "pe": 30.31,
-   "pb": 5.245,
+   "p": 183.68,
+   "m": 218356.9,
+   "pe": 26.08,
+   "pb": 4.513,
    "per": "2026-Q3"
   },
   {
    "c": "SIE",
    "n": "Siemens AG",
-   "p": 279.4,
-   "m": 212976.6,
-   "pe": 25.77,
-   "pb": 3.146,
+   "p": 254.65,
+   "m": 203448.3,
+   "pe": 23.49,
+   "pb": 2.98,
    "per": "2026-Q4"
   },
   {
    "c": "ALV",
    "n": "Allianz SE",
-   "p": 477.2,
-   "m": 177731.3,
-   "pe": 15.48,
-   "pb": 3.123,
+   "p": 451.8,
+   "m": 170394.1,
+   "pe": 14.66,
+   "pb": 3.024,
    "per": "2026-Q3"
   },
   {
    "c": "DTE",
    "n": "Deutsche Telekom AG",
-   "p": 26.6,
-   "m": 127217.4,
-   "pe": 14.27,
-   "pb": 2.042,
+   "p": 26.34,
+   "m": 124539.2,
+   "pe": 14.13,
+   "pb": 2.022,
    "per": "2026-Q3"
   },
   {
    "c": "ENR",
    "n": "Siemens Energy AG",
-   "p": 131.28,
-   "m": 110382.5,
-   "pe": 29.9,
-   "pb": 10.595,
+   "p": 118.32,
+   "m": 106531.5,
+   "pe": 26.95,
+   "pb": 10.13,
    "per": "2026-Q4"
   }
  ],
  "history": {
-  "candidates": 73,
-  "have": 69,
-  "fetched": 69,
-  "kept": 0,
+  "candidates": 74,
+  "have": 70,
+  "fetched": 6,
+  "kept": 64,
   "no_mapping": 0,
   "failed": [
    [
@@ -365,7 +345,7 @@
   ],
   "failed_n": 4,
   "blocked": false,
-  "budget_left": 5930
+  "budget_left": 5503
  },
  "ok": true
 }

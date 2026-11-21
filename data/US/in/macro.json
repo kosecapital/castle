@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-14T02:50:48Z",
+ "fetched": "2026-11-21T02:50:42Z",
  "cur": "USD",
  "pcur": "USD",
  "years": [
@@ -27,9 +27,5 @@
  },
  "cpi_missing": [
   "2025"
- ],
- "cpi_errors": [
-  "Dünya Bankası: ReadTimeout HTTPSConnectionPool(host='api.worldbank.org', port=443): Read timed out. (read t",
-  "Dünya Bankası: ReadTimeout HTTPSConnectionPool(host='api.worldbank.org', port=443): Read timed out. (read t"
  ]
 }

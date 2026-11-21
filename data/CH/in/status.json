@@ -1,31 +1,31 @@
 {
  "cc": "CH",
- "fetched": "2026-11-14T23:14:30Z",
+ "fetched": "2026-11-21T03:18:05Z",
  "errors": [],
  "pb_fix": {
   "paths": {
    "cur": {
-    "n": 193,
-    "med": 1.0029,
-    "within10": 99.5,
+    "n": 194,
+    "med": 1.0139,
+    "within10": 99.0,
     "ok": true
    },
    "bvc": {
-    "n": 192,
+    "n": 193,
     "med": 1.0,
     "within10": 100.0,
     "ok": true
    },
    "bvq": {
-    "n": 192,
+    "n": 193,
     "med": 1.0,
     "within10": 100.0,
     "ok": true
    },
    "eq": {
-    "n": 193,
-    "med": 0.999,
-    "within10": 94.8,
+    "n": 194,
+    "med": 1.006,
+    "within10": 92.3,
     "ok": true
    },
    "bvh": {
@@ -35,24 +35,24 @@
     "ok": true
    },
    "bvy": {
-    "n": 191,
+    "n": 192,
     "med": 0.9999,
-    "within10": 80.1,
+    "within10": 79.7,
     "ok": true
    },
    "eqy": {
-    "n": 192,
-    "med": 0.9921,
-    "within10": 74.5,
+    "n": 193,
+    "med": 1.0059,
+    "within10": 75.1,
     "ok": true
    }
   },
   "counts": {
-   "cur": 3,
+   "cur": 2,
    "eq": 1,
    "bvy": 2
   },
-  "neg": 5,
+  "neg": 4,
   "nodata": 0,
   "sa_asked": 0,
   "sa_pages": 0,
@@ -64,76 +64,72 @@
   "fixed_top": [
    [
     "TEMN",
-    16.009,
+    15.554,
     "cur"
    ],
    [
     "GF",
-    177.233,
+    176.018,
     "eq"
    ],
    [
-    "AMS",
-    2.549,
-    "cur"
-   ],
-   [
     "MOZN",
-    5.707,
+    5.542,
     "cur"
    ],
    [
     "CNTL",
-    8.388,
+    7.375,
     "bvy"
    ],
    [
     "SQL",
-    1.082,
+    1.087,
     "bvy"
    ]
   ]
  },
  "source": "TradingView tarayıcısı",
  "market": "switzerland",
- "total": 205,
- "kept": 205,
+ "total": 204,
+ "kept": 204,
  "excluded": {},
  "mcap_check": {
   "pay sayısıyla tutmuyor": 9,
-  "tutarlı": 196
+  "tutarlı": 195
  },
  "cur": "CHF",
  "pcur": "CHF",
  "exchanges": {
-  "SIX": 200,
-  "BX": 5
+  "SIX": 198,
+  "BX": 6
  },
  "periods": {
-  "2026-H1": 178,
+  "2026-H1": 179,
   "2026-Q3": 18,
   "2026-Q2": 4,
-  "2025-H2": 3,
-  "2026-H2": 2
+  "2026-H2": 2,
+  "2025-H2": 1
  },
  "pe_fix": {
   "eps_n": 155,
   "eps_med": 1.0,
   "eps_within5": 100.0,
-  "roe_n": 153,
-  "roe_med": 1.0294,
-  "roe_within25": 95.4,
+  "roe_n": 155,
+  "roe_med": 1.0312,
+  "roe_within25": 95.5,
   "roe_scale": 1.0,
   "eps_ok": true,
   "counts": {
-   "loss": 41,
+   "loss": 39,
    "eps": 2,
-   "nodata": 6
+   "nodata": 7
   },
   "nodata_top": [
-   "BMAG",
    "DOCM",
+   "BMAG",
    "CNTL",
+   "INFO",
    "SQL",
    "XLS",
    "MMTX"
@@ -141,69 +137,69 @@
   "fixed_top": [
    [
     "BEKN",
-    23.82,
+    23.0,
     "eps"
    ],
    [
     "GLKBN",
-    14.5,
+    14.02,
     "eps"
    ]
   ]
  },
- "pe_filled_pct": 77.1,
+ "pe_filled_pct": 77.5,
  "top5": [
   {
    "c": "RO",
    "n": "Roche Holding Ltd",
-   "p": 412,
-   "m": 322765.3,
-   "pe": 26.88,
-   "pb": 10.041,
+   "p": 402.6,
+   "m": 318229.4,
+   "pe": 26.27,
+   "pb": 9.812,
    "per": "2026-H1"
   },
   {
    "c": "NOVN",
    "n": "Novartis AG",
-   "p": 134.06,
-   "m": 245403.4,
-   "pe": 32.31,
-   "pb": 8.145,
+   "p": 127.76,
+   "m": 232919.1,
+   "pe": 30.79,
+   "pb": 7.763,
    "per": "2026-Q3"
   },
   {
    "c": "NESN",
    "n": "Nestle S.A.",
-   "p": 87.72,
-   "m": 225635.6,
-   "pe": 30.38,
-   "pb": 7.719,
+   "p": 85.55,
+   "m": 217224.4,
+   "pe": 29.63,
+   "pb": 7.528,
    "per": "2026-H1"
   },
   {
    "c": "ABBN",
    "n": "ABB Ltd.",
-   "p": 69.96,
-   "m": 125728.9,
-   "pe": 31.92,
-   "pb": 9.133,
+   "p": 65.34,
+   "m": 122601.9,
+   "pe": 29.81,
+   "pb": 8.529,
    "per": "2026-Q3"
   },
   {
    "c": "UBSG",
    "n": "UBS Group AG",
-   "p": 40.45,
-   "m": 123847.5,
-   "pe": 16.78,
-   "pb": 1.657,
+   "p": 36.97,
+   "m": 117601.5,
+   "pe": 15.34,
+   "pb": 1.514,
    "per": "2026-Q3"
   }
  ],
  "history": {
   "candidates": 59,
   "have": 56,
-  "fetched": 56,
-  "kept": 0,
+  "fetched": 0,
+  "kept": 56,
   "no_mapping": 1,
   "failed": [
    [
@@ -217,7 +213,7 @@
   ],
   "failed_n": 2,
   "blocked": false,
-  "budget_left": 5874
+  "budget_left": 5503
  },
  "ok": true
 }

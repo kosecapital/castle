@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-14T03:43:23Z",
+ "fetched": "2026-11-21T03:05:07Z",
  "cur": "GBP",
  "pcur": "GBX",
  "years": [
@@ -9,9 +9,9 @@
   "2024",
   "2025"
  ],
- "fx": 0.7568,
+ "fx": 0.764,
  "mcapMin": 50,
- "cpi_cur": 3.5,
+ "cpi_cur": 3.6,
  "cpi_cur_src": "TradingView ECONOMICS:GBIRYY (son açıklanan yıllık TÜFE)",
  "cpi": {
   "2021": 5.39,

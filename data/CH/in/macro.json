@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-14T23:14:30Z",
+ "fetched": "2026-11-21T03:18:05Z",
  "cur": "CHF",
  "pcur": "CHF",
  "years": [
@@ -9,7 +9,7 @@
   "2024",
   "2025"
  ],
- "fx": 0.8387,
+ "fx": 0.8399,
  "mcapMin": 50,
  "cpi_cur": 1.5,
  "cpi_cur_src": "TradingView ECONOMICS:CHIRYY (son açıklanan yıllık TÜFE)",

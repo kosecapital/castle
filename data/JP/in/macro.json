@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-14T03:15:04Z",
+ "fetched": "2026-11-21T02:51:49Z",
  "cur": "JPY",
  "pcur": "JPY",
  "years": [
@@ -9,9 +9,9 @@
   "2024",
   "2025"
  ],
- "fx": 159.676,
+ "fx": 158.531,
  "mcapMin": 10000,
- "cpi_cur": 2.1,
+ "cpi_cur": 2.3,
  "cpi_cur_src": "TradingView ECONOMICS:JPIRYY (son açıklanan yıllık TÜFE)",
  "cpi": {
   "2021": 0.5,

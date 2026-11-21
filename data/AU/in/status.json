@@ -1,54 +1,54 @@
 {
  "cc": "AU",
- "fetched": "2026-11-15T23:16:47Z",
+ "fetched": "2026-11-21T03:19:31Z",
  "errors": [],
  "pb_fix": {
   "paths": {
    "cur": {
-    "n": 1451,
-    "med": 1.0,
-    "within10": 92.1,
+    "n": 1449,
+    "med": 1.0114,
+    "within10": 88.3,
     "ok": true
    },
    "bvc": {
-    "n": 1451,
+    "n": 1449,
     "med": 1.0,
     "within10": 100.0,
     "ok": true
    },
    "bvq": {
-    "n": 1451,
+    "n": 1449,
     "med": 1.0,
     "within10": 100.0,
     "ok": true
    },
    "eq": {
-    "n": 1450,
-    "med": 1.0022,
-    "within10": 76.3,
+    "n": 1448,
+    "med": 1.0287,
+    "within10": 68.9,
     "ok": false
    },
    "bvh": {
-    "n": 1302,
+    "n": 1299,
     "med": 1.0,
     "within10": 99.9,
     "ok": true
    },
    "bvy": {
-    "n": 1447,
+    "n": 1445,
     "med": 1.0,
-    "within10": 93.0,
+    "within10": 92.9,
     "ok": true
    },
    "eqy": {
-    "n": 1446,
-    "med": 1.0026,
-    "within10": 71.1,
+    "n": 1444,
+    "med": 1.029,
+    "within10": 65.2,
     "ok": true
    }
   },
   "counts": {
-   "cur": 29,
+   "cur": 30,
    "bvy": 4
   },
   "neg": 65,
@@ -67,8 +67,8 @@
    "LUX",
    "PRB",
    "ELK",
-   "PMM",
    "POW",
+   "PMM",
    "JRL",
    "TET",
    "WRX",
@@ -77,52 +77,52 @@
   "fixed_top": [
    [
     "FDC",
-    12.161,
-    "cur"
-   ],
-   [
-    "CVV",
-    54.775,
+    11.582,
     "cur"
    ],
    [
     "ACS",
-    22.209,
+    24.01,
+    "cur"
+   ],
+   [
+    "CVV",
+    47.753,
     "cur"
    ],
    [
     "INN",
-    27.397,
+    20.548,
     "cur"
    ],
    [
     "NMR",
-    5.65,
-    "cur"
-   ],
-   [
-    "AV1",
-    21.03,
+    6.102,
     "cur"
    ],
    [
     "SCX",
-    16.533,
+    15.192,
+    "cur"
+   ],
+   [
+    "AV1",
+    18.884,
     "cur"
    ],
    [
     "IOD",
-    636.364,
-    "cur"
-   ],
-   [
-    "VBX",
-    62.767,
+    545.455,
     "cur"
    ],
    [
     "FGH",
-    8.85,
+    11.504,
+    "cur"
+   ],
+   [
+    "VBX",
+    57.061,
     "cur"
    ],
    [
@@ -132,12 +132,7 @@
    ],
    [
     "BDX",
-    8.984,
-    "cur"
-   ],
-   [
-    "CMD",
-    6.338,
+    8.837,
     "cur"
    ],
    [
@@ -147,138 +142,143 @@
    ],
    [
     "WMG",
-    0.972,
+    1.013,
     "bvy"
+   ],
+   [
+    "CMD",
+    5.986,
+    "cur"
    ]
   ]
  },
  "source": "TradingView tarayıcısı",
  "market": "australia",
- "total": 1568,
- "kept": 1563,
+ "total": 1567,
+ "kept": 1562,
  "excluded": {
   "fiyat ya da piyasa değeri yok": 5
  },
  "mcap_check": {
-  "tutarlı": 1542,
+  "tutarlı": 1534,
   "pay sayısı yok": 13,
-  "pay sayısıyla tutmuyor": 8
+  "pay sayısıyla tutmuyor": 15
  },
  "cur": "AUD",
  "pcur": "AUD",
  "exchanges": {
-  "ASX": 1563
+  "ASX": 1562
  },
  "periods": {
-  "2026-H2": 1303,
+  "2026-H2": 1305,
   "2026-H1": 214,
   "None": 18,
-  "2025-H2": 17,
+  "2025-H2": 14,
   "2027-Q1": 3,
   "2026-Q4": 3
  },
  "pe_fix": {
-  "eps_n": 513,
+  "eps_n": 510,
   "eps_med": 1.0,
   "eps_within5": 100.0,
-  "roe_n": 489,
-  "roe_med": 1.0459,
+  "roe_n": 486,
+  "roe_med": 1.046,
   "roe_within25": 88.5,
   "roe_scale": 1.0,
   "eps_ok": true,
   "counts": {
-   "loss": 1019,
+   "loss": 1021,
    "nodata": 29,
    "roe": 2
   },
   "nodata_top": [
    "LGF",
    "BRE",
-   "SET",
    "AIX",
+   "SET",
    "KIT",
    "AEU",
    "ALU",
    "KAO",
    "CX8",
    "SCX",
-   "NMD",
    "AMK",
    "GRS",
+   "NMD",
    "LUX",
-   "BSR"
+   "PRB"
   ],
   "fixed_top": [
    [
     "MGH",
-    18.64,
+    15.63,
     "roe"
    ],
    [
     "P1E",
-    1.62,
+    1.68,
     "roe"
    ]
   ]
  },
- "pe_filled_pct": 32.9,
+ "pe_filled_pct": 32.8,
  "top5": [
-  {
-   "c": "BHP",
-   "n": "BHP Group Ltd",
-   "p": 58.86,
-   "m": 299213.7,
-   "pe": 20.55,
-   "pb": 4.068,
-   "per": "2026-H2"
-  },
   {
    "c": "CBA",
    "n": "Commonwealth Bank of Australia",
-   "p": 170.87,
-   "m": 285660.0,
-   "pe": 26.32,
-   "pb": 3.63,
+   "p": 169.92,
+   "m": 286930.6,
+   "pe": 26.18,
+   "pb": 3.609,
+   "per": "2026-H2"
+  },
+  {
+   "c": "BHP",
+   "n": "BHP Group Ltd",
+   "p": 51.4,
+   "m": 266069.4,
+   "pe": 17.95,
+   "pb": 3.553,
    "per": "2026-H2"
   },
   {
    "c": "WBC",
    "n": "Westpac Banking Corporation",
-   "p": 37.83,
-   "m": 129225.0,
-   "pe": 19.03,
-   "pb": 1.822,
-   "per": "2026-H2"
-  },
-  {
-   "c": "NAB",
-   "n": "National Australia Bank Limited",
-   "p": 38.86,
-   "m": 120813.7,
-   "pe": 19.52,
-   "pb": 1.93,
+   "p": 35.94,
+   "m": 125569.9,
+   "pe": 18.06,
+   "pb": 1.728,
    "per": "2026-H2"
   },
   {
    "c": "ANZ",
    "n": "ANZ Group Holdings Limited",
-   "p": 39.59,
-   "m": 119274.8,
-   "pe": 16.55,
-   "pb": 1.671,
+   "p": 38.58,
+   "m": 117497.3,
+   "pe": 16.12,
+   "pb": 1.628,
+   "per": "2026-H2"
+  },
+  {
+   "c": "NAB",
+   "n": "National Australia Bank Limited",
+   "p": 36.24,
+   "m": 114171.7,
+   "pe": 18.21,
+   "pb": 1.8,
    "per": "2026-H2"
   }
  ],
  "history": {
-  "candidates": 120,
-  "have": 120,
-  "fetched": 120,
-  "kept": 0,
+  "candidates": 118,
+  "have": 118,
+  "fetched": 1,
+  "kept": 117,
   "no_mapping": 0,
   "failed": [],
   "failed_n": 0,
   "blocked": false,
-  "budget_left": 5771
+  "budget_left": 5501
  },
  "ok": true
 }

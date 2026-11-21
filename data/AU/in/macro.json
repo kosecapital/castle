@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-15T23:16:47Z",
+ "fetched": "2026-11-21T03:19:31Z",
  "cur": "AUD",
  "pcur": "AUD",
  "years": [
@@ -9,8 +9,8 @@
   "2024",
   "2025"
  ],
- "fx": 1.4755,
- "mcapMin": 80,
+ "fx": 1.5103,
+ "mcapMin": 100,
  "cpi_cur": 4.3,
  "cpi_cur_src": "TradingView ECONOMICS:AUIRYY (son açıklanan yıllık TÜFE)",
  "cpi": {

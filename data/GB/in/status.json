@@ -1,59 +1,59 @@
 {
  "cc": "GB",
- "fetched": "2026-11-14T03:43:23Z",
+ "fetched": "2026-11-21T03:05:07Z",
  "errors": [],
  "pb_fix": {
   "paths": {
    "cur": {
-    "n": 873,
-    "med": 1.0,
-    "within10": 97.5,
+    "n": 880,
+    "med": 1.013,
+    "within10": 95.3,
     "ok": true
    },
    "bvc": {
-    "n": 862,
+    "n": 869,
     "med": 1.0,
     "within10": 100.0,
     "ok": true
    },
    "bvq": {
-    "n": 862,
+    "n": 869,
     "med": 1.0,
     "within10": 100.0,
     "ok": true
    },
    "eq": {
-    "n": 869,
-    "med": 1.0,
-    "within10": 80.4,
+    "n": 876,
+    "med": 1.0141,
+    "within10": 76.9,
     "ok": false
    },
    "bvh": {
-    "n": 703,
+    "n": 711,
     "med": 1.0,
     "within10": 100.0,
     "ok": true
    },
    "bvy": {
-    "n": 849,
+    "n": 855,
     "med": 1.0,
-    "within10": 72.1,
+    "within10": 71.7,
     "ok": true
    },
    "eqy": {
-    "n": 860,
-    "med": 1.001,
-    "within10": 61.0,
+    "n": 866,
+    "med": 1.0172,
+    "within10": 58.4,
     "ok": true
    }
   },
   "counts": {
    "cur": 27,
-   "bvy": 52,
+   "bvy": 44,
    "eqy": 2
   },
-  "neg": 76,
-  "nodata": 35,
+  "neg": 73,
+  "nodata": 34,
   "sa_asked": 0,
   "sa_pages": 0,
   "sa_reused": 0,
@@ -61,139 +61,139 @@
   "sa_blocked": false,
   "missing_pct": 0.0,
   "nodata_top": [
-   "ABT",
    "ICFG",
    "1947",
-   "KOD",
    "AIC",
+   "KOD",
    "IFRX",
    "PCA",
    "KLSO",
    "RHAI",
    "B90",
-   "GSCU",
    "MTR",
+   "GSCU",
    "EPP",
    "MYX",
-   "MDH"
+   "MDH",
+   "FMET"
   ],
   "fixed_top": [
    [
+    "DPLM",
+    8.762,
+    "cur"
+   ],
+   [
     "SDLF",
-    38.769,
+    36.696,
     "cur"
    ],
    [
     "ZEG",
-    19.124,
+    18.622,
     "cur"
    ],
    [
     "SCT",
-    11.797,
+    11.115,
     "cur"
    ],
    [
     "CAN",
-    0.756,
-    "bvy"
-   ],
-   [
-    "APN",
-    14.526,
+    0.697,
     "bvy"
    ],
    [
     "AVON",
-    5.068,
+    5.035,
     "cur"
    ],
    [
     "SMWH",
-    5.847,
-    "cur"
-   ],
-   [
-    "ASC",
-    6.482,
+    5.393,
     "cur"
    ],
    [
     "GKP",
-    1.159,
+    1.139,
     "bvy"
    ],
    [
-    "CGL",
-    0.812,
-    "bvy"
-   ],
-   [
-    "TFW",
-    1.631,
+    "MTVW",
+    0.823,
     "cur"
    ],
    [
+    "CGL",
+    0.81,
+    "bvy"
+   ],
+   [
     "MCG",
-    1.464,
+    1.469,
     "cur"
    ],
    [
     "NET",
-    4.985,
+    5.038,
     "cur"
    ],
    [
-    "SRT",
-    5.489,
+    "DOTD",
+    1.599,
     "cur"
    ],
    [
-    "CCP",
-    1.186,
-    "cur"
+    "IDHC",
+    2.439,
+    "eqy"
+   ],
+   [
+    "AOTI",
+    10.405,
+    "bvy"
    ]
   ]
  },
  "source": "TradingView tarayıcısı",
  "market": "uk",
- "total": 1069,
- "kept": 1065,
+ "total": 1065,
+ "kept": 1060,
  "excluded": {
-  "fiyat ya da piyasa değeri yok": 4
+  "fiyat ya da piyasa değeri yok": 5
  },
  "mcap_check": {
-  "tutarlı": 1024,
-  "pay sayısıyla tutmuyor": 18,
-  "pay sayısı yok": 23
+  "tutarlı": 1021,
+  "pay sayısıyla tutmuyor": 17,
+  "pay sayısı yok": 22
  },
  "cur": "GBP",
  "pcur": "GBX",
  "exchanges": {
-  "LSE": 1031,
-  "AQUIS": 34
+  "LSE": 1029,
+  "AQUIS": 31
  },
  "periods": {
-  "2026-H1": 708,
-  "2025-H2": 179,
-  "2026-H2": 129,
-  "None": 26,
-  "2026-Q3": 16,
-  "2026-Q2": 6
+  "2026-H1": 739,
+  "2025-H2": 140,
+  "2026-H2": 134,
+  "None": 24,
+  "2026-Q3": 17,
+  "2026-Q2": 5
  },
  "pe_fix": {
-  "eps_n": 488,
+  "eps_n": 489,
   "eps_med": 1.0,
   "eps_within5": 100.0,
-  "roe_n": 476,
-  "roe_med": 1.051,
-  "roe_within25": 92.0,
+  "roe_n": 478,
+  "roe_med": 1.0505,
+  "roe_within25": 91.8,
   "roe_scale": 1.0,
   "eps_ok": true,
   "counts": {
-   "loss": 439,
-   "nodata": 121,
-   "roe": 6,
+   "loss": 445,
+   "nodata": 110,
+   "roe": 5,
    "eps": 2
   },
   "nodata_top": [
@@ -202,41 +202,36 @@
    "IGG",
    "CAN",
    "PRN",
-   "APN",
-   "ABT",
    "GKP",
    "CGL",
    "MCG",
    "TIN",
    "IDHC",
-   "PRE",
+   "AOTI",
    "SOM",
-   "AOTI"
+   "SEE",
+   "PSDL",
+   "ROAD"
   ],
   "fixed_top": [
    [
     "SSIC",
-    0.66,
+    0.64,
     "roe"
    ],
    [
     "GDWN",
-    175.13,
-    "roe"
-   ],
-   [
-    "TBTG",
-    14.38,
+    169.36,
     "roe"
    ],
    [
     "IGR",
-    26.55,
+    26.68,
     "roe"
    ],
    [
     "TEK4",
-    15.52,
+    14.95,
     "roe"
    ],
    [
@@ -246,7 +241,7 @@
    ],
    [
     "CHA",
-    30.65,
+    30.32,
     "roe"
    ],
    [
@@ -256,59 +251,59 @@
    ]
   ]
  },
- "pe_filled_pct": 47.4,
+ "pe_filled_pct": 47.6,
  "top5": [
   {
    "c": "HSBA",
    "n": "HSBC Holdings Plc",
-   "p": 1354.4,
-   "m": 231908.3,
-   "pe": 11.91,
-   "pb": 1.572,
+   "p": 1234,
+   "m": 219204.4,
+   "pe": 10.85,
+   "pb": 1.432,
    "per": "2026-Q3"
   },
   {
    "c": "AZN",
    "n": "AstraZeneca PLC",
-   "p": 13982,
-   "m": 216042.8,
-   "pe": 26.54,
-   "pb": 5.568,
+   "p": 13412,
+   "m": 206334.1,
+   "pe": 25.46,
+   "pb": 5.341,
    "per": "2026-Q3"
   },
   {
    "c": "SHEL",
    "n": "Shell Plc",
-   "p": 3719.5,
-   "m": 207536.4,
-   "pe": 8.66,
-   "pb": 1.421,
+   "p": 3574.5,
+   "m": 202049.0,
+   "pe": 8.32,
+   "pb": 1.366,
    "per": "2026-Q3"
   },
   {
    "c": "RR.",
    "n": "Rolls-Royce Holdings plc",
-   "p": 1350.6,
-   "m": 113169.6,
-   "pe": 37.36,
-   "pb": 39.548,
+   "p": 1272.6,
+   "m": 109422.6,
+   "pe": 35.2,
+   "pb": 37.264,
    "per": "2026-H1"
   },
   {
-   "c": "RIO",
-   "n": "Rio Tinto plc",
-   "p": 6296,
-   "m": 108160.7,
-   "pe": 11.45,
-   "pb": 2.076,
+   "c": "ULVR",
+   "n": "Unilever PLC",
+   "p": 4887.5,
+   "m": 103063.1,
+   "pe": 21.92,
+   "pb": 7.544,
    "per": "2026-H1"
   }
  ],
  "history": {
-  "candidates": 166,
-  "have": 164,
-  "fetched": 164,
-  "kept": 0,
+  "candidates": 165,
+  "have": 163,
+  "fetched": 13,
+  "kept": 150,
   "no_mapping": 0,
   "failed": [
    [
@@ -322,7 +317,7 @@
   ],
   "failed_n": 2,
   "blocked": false,
-  "budget_left": 2659
+  "budget_left": 5621
  },
  "ok": true
 }

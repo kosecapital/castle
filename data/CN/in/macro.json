@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-14T03:04:50Z",
+ "fetched": "2026-11-21T02:51:25Z",
  "cur": "CNY",
  "pcur": "CNY",
  "years": [
@@ -9,7 +9,7 @@
   "2024",
   "2025"
  ],
- "fx": 6.6705,
+ "fx": 6.6765,
  "mcapMin": 400,
  "cpi_cur": 0.7,
  "cpi_cur_src": "TradingView ECONOMICS:CNIRYY (son açıklanan yıllık TÜFE)",

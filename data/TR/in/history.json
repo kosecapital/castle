@@ -201,107 +201,6 @@ null
 "got": "2026-11-14",
 "url": "https://stockanalysis.com/quote/ist/TUPRS/financials/ratios/"
 },
-"BIMAS": {
-"asof": "2026-11-09",
-"stale": 0,
-"fy": [
-"2021",
-"2022",
-"2023",
-"2024",
-"2025"
-],
-"roe": [
-39.38,
-50.21,
-28.05,
-19.05,
-11.63,
-16.11
-],
-"roic": [
-32.1,
-11.84,
-3.98,
-3.31,
-4.9,
-6.96
-],
-"roa": [
-11.09,
-4.61,
-2.03,
-1.74,
-3.18,
-3.84
-],
-"fcf": [
-9.84,
-10.27,
-8.89,
-5.53,
-6.46,
-7.78
-],
-"nd": 0.74,
-"pe": 15.59,
-"pb": 2.11,
-"dy": 1.64,
-"po": 25.38,
-"v": 3,
-"mc": [
-36874.0,
-81845.0,
-179548.0,
-315515.0,
-320169.0,
-467987.0
-],
-"pes": [
-12.57,
-4.93,
-8.05,
-12.97,
-17.18,
-15.59
-],
-"pbs": [
-4.72,
-1.4,
-1.78,
-2.03,
-1.92,
-2.11
-],
-"dys": [
-4.87,
-3.65,
-3.33,
-2.45,
-null,
-1.64
-],
-"pos": [
-123.08,
-21.07,
-22.24,
-38.22,
-43.6,
-25.38
-],
-"bb": [
-0.59,
-0.58,
-0.14,
-0.06,
--0.31,
-0.46
-],
-"ttm": "2026-09-30",
-"per": "9/2026",
-"got": "2026-11-14",
-"url": "https://stockanalysis.com/quote/ist/BIMAS/financials/ratios/"
-},
 "THYAO": {
 "asof": "2026-11-04",
 "stale": 0,
@@ -402,6 +301,107 @@ null,
 "per": "9/2026",
 "got": "2026-11-14",
 "url": "https://stockanalysis.com/quote/ist/THYAO/financials/ratios/"
+},
+"BIMAS": {
+"asof": "2026-11-09",
+"stale": 0,
+"fy": [
+"2021",
+"2022",
+"2023",
+"2024",
+"2025"
+],
+"roe": [
+39.38,
+50.21,
+28.05,
+19.05,
+11.63,
+16.11
+],
+"roic": [
+32.1,
+11.84,
+3.98,
+3.31,
+4.9,
+6.96
+],
+"roa": [
+11.09,
+4.61,
+2.03,
+1.74,
+3.18,
+3.84
+],
+"fcf": [
+9.84,
+10.27,
+8.89,
+5.53,
+6.46,
+7.78
+],
+"nd": 0.74,
+"pe": 15.59,
+"pb": 2.11,
+"dy": 1.64,
+"po": 25.38,
+"v": 3,
+"mc": [
+36874.0,
+81845.0,
+179548.0,
+315515.0,
+320169.0,
+467987.0
+],
+"pes": [
+12.57,
+4.93,
+8.05,
+12.97,
+17.18,
+15.59
+],
+"pbs": [
+4.72,
+1.4,
+1.78,
+2.03,
+1.92,
+2.11
+],
+"dys": [
+4.87,
+3.65,
+3.33,
+2.45,
+null,
+1.64
+],
+"pos": [
+123.08,
+21.07,
+22.24,
+38.22,
+43.6,
+25.38
+],
+"bb": [
+0.59,
+0.58,
+0.14,
+0.06,
+-0.31,
+0.46
+],
+"ttm": "2026-09-30",
+"per": "9/2026",
+"got": "2026-11-14",
+"url": "https://stockanalysis.com/quote/ist/BIMAS/financials/ratios/"
 },
 "FROTO": {
 "asof": "2026-11-05",
@@ -1345,6 +1345,208 @@ null,
 "got": "2026-11-14",
 "url": "https://stockanalysis.com/quote/ist/RYSAS/financials/ratios/"
 },
+"VEYAS": {
+"asof": "2026-06-30",
+"stale": 0,
+"fy": [
+null,
+null,
+"2023",
+"2024",
+"2025"
+],
+"roe": [
+null,
+null,
+null,
+36.08,
+21.04,
+null
+],
+"roic": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"roa": [
+null,
+null,
+null,
+25.15,
+19.33,
+null
+],
+"fcf": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"nd": 0.95,
+"pe": null,
+"pb": null,
+"dy": null,
+"po": null,
+"v": 3,
+"mc": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"pes": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"pbs": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"dys": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"pos": [
+null,
+null,
+40.19,
+64.4,
+null,
+null
+],
+"bb": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"ttm": "2026-06-30",
+"per": "9/2026",
+"got": "2026-11-14",
+"url": "https://stockanalysis.com/quote/ist/VEYAS/financials/ratios/"
+},
+"AKSA": {
+"asof": "2026-11-04",
+"stale": 0,
+"fy": [
+"2021",
+"2022",
+"2023",
+"2024",
+"2025"
+],
+"roe": [
+49.66,
+48.41,
+11.87,
+5.37,
+12.09,
+13.03
+],
+"roic": [
+52.79,
+44.52,
+14.25,
+7.05,
+5.45,
+4.99
+],
+"roa": [
+16.25,
+26.22,
+7.76,
+3.6,
+6.98,
+6.47
+],
+"fcf": [
+20.81,
+-16.29,
+7.84,
+-3.46,
+5.11,
+20.93
+],
+"nd": 2.82,
+"pe": 8.76,
+"pb": 1.07,
+"dy": 4.51,
+"po": 42.84,
+"v": 3,
+"mc": [
+11098.0,
+29769.0,
+33346.0,
+50272.0,
+38151.0,
+41375.0
+],
+"pes": [
+9.51,
+6.52,
+13.98,
+33.79,
+9.5,
+8.76
+],
+"pbs": [
+3.92,
+1.86,
+1.38,
+1.61,
+1.13,
+1.07
+],
+"dys": [
+5.25,
+2.62,
+4.86,
+3.71,
+null,
+4.51
+],
+"pos": [
+24.13,
+26.97,
+67.55,
+178.7,
+52.8,
+42.84
+],
+"bb": [
+-0.36,
+null,
+null,
+null,
+null,
+-0.18
+],
+"ttm": "2026-09-30",
+"per": "9/2026",
+"got": "2026-11-21",
+"url": "https://stockanalysis.com/quote/ist/AKSA/financials/ratios/"
+},
 "ISMEN": {
 "asof": "2026-11-09",
 "stale": 0,
@@ -1546,107 +1748,6 @@ null
 "per": "9/2026",
 "got": "2026-11-14",
 "url": "https://stockanalysis.com/quote/ist/ANHYT/financials/ratios/"
-},
-"CIMSA": {
-"asof": "2026-10-26",
-"stale": 0,
-"fy": [
-"2021",
-"2022",
-"2023",
-"2024",
-"2025"
-],
-"roe": [
-32.99,
-35.26,
-16.14,
-10.55,
-8.91,
-10.47
-],
-"roic": [
-18.23,
-8.45,
-11.84,
-6.68,
-6.05,
-4.92
-],
-"roa": [
-6.92,
-3.27,
-4.76,
-3.6,
-3.07,
-2.93
-],
-"fcf": [
--7.42,
-18.88,
--4.35,
-7.8,
-3.04,
--0.6
-],
-"nd": 2.88,
-"pe": 10.12,
-"pb": 0.98,
-"dy": 1.5,
-"po": 15.61,
-"v": 3,
-"mc": [
-4161.0,
-13562.0,
-27744.0,
-44065.0,
-43970.0,
-40017.0
-],
-"pes": [
-4.09,
-3.33,
-7.71,
-12.53,
-14.17,
-10.12
-],
-"pbs": [
-1.5,
-0.64,
-0.82,
-1.05,
-1.01,
-0.98
-],
-"dys": [
-4.81,
-2.95,
-3.6,
-1.36,
-null,
-1.5
-],
-"pos": [
-null,
-10.08,
-22.97,
-45.25,
-23.0,
-15.61
-],
-"bb": [
-null,
-null,
-null,
-null,
-null,
-null
-],
-"ttm": "2026-09-30",
-"per": "9/2026",
-"got": "2026-11-14",
-"url": "https://stockanalysis.com/quote/ist/CIMSA/financials/ratios/"
 },
 "TBORG": {
 "asof": "2026-11-09",
@@ -1850,93 +1951,93 @@ null
 "got": "2026-11-14",
 "url": "https://stockanalysis.com/quote/ist/AGESA/financials/ratios/"
 },
-"VEYAS": {
-"asof": "2026-06-30",
+"CIMSA": {
+"asof": "2026-10-26",
 "stale": 0,
 "fy": [
-null,
-null,
+"2021",
+"2022",
 "2023",
 "2024",
 "2025"
 ],
 "roe": [
-null,
-null,
-null,
-36.08,
-21.04,
-null
+32.99,
+35.26,
+16.14,
+10.55,
+8.91,
+10.47
 ],
 "roic": [
-null,
-null,
-null,
-null,
-null,
-null
+18.23,
+8.45,
+11.84,
+6.68,
+6.05,
+4.92
 ],
 "roa": [
-null,
-null,
-null,
-25.15,
-19.33,
-null
+6.92,
+3.27,
+4.76,
+3.6,
+3.07,
+2.93
 ],
 "fcf": [
-null,
-null,
-null,
-null,
-null,
-null
+-7.42,
+18.88,
+-4.35,
+7.8,
+3.04,
+-0.6
 ],
-"nd": 0.95,
-"pe": null,
-"pb": null,
-"dy": null,
-"po": null,
+"nd": 2.88,
+"pe": 10.12,
+"pb": 0.98,
+"dy": 1.5,
+"po": 15.61,
 "v": 3,
 "mc": [
-null,
-null,
-null,
-null,
-null,
-null
+4161.0,
+13562.0,
+27744.0,
+44065.0,
+43970.0,
+40017.0
 ],
 "pes": [
-null,
-null,
-null,
-null,
-null,
-null
+4.09,
+3.33,
+7.71,
+12.53,
+14.17,
+10.12
 ],
 "pbs": [
-null,
-null,
-null,
-null,
-null,
-null
+1.5,
+0.64,
+0.82,
+1.05,
+1.01,
+0.98
 ],
 "dys": [
+4.81,
+2.95,
+3.6,
+1.36,
 null,
-null,
-null,
-null,
-null,
-null
+1.5
 ],
 "pos": [
 null,
-null,
-40.19,
-64.4,
-null,
-null
+10.08,
+22.97,
+45.25,
+23.0,
+15.61
 ],
 "bb": [
 null,
@@ -1946,10 +2047,10 @@ null,
 null,
 null
 ],
-"ttm": "2026-06-30",
+"ttm": "2026-09-30",
 "per": "9/2026",
 "got": "2026-11-14",
-"url": "https://stockanalysis.com/quote/ist/VEYAS/financials/ratios/"
+"url": "https://stockanalysis.com/quote/ist/CIMSA/financials/ratios/"
 },
 "BRYAT": {
 "asof": "2026-11-06",
@@ -2456,107 +2557,6 @@ null
 "got": "2026-11-14",
 "url": "https://stockanalysis.com/quote/ist/MAVI/financials/ratios/"
 },
-"PASEU": {
-"asof": "2026-07-27",
-"stale": 0,
-"fy": [
-"2021",
-"2022",
-"2023",
-"2024",
-"2025"
-],
-"roe": [
-137.1,
-115.02,
-38.91,
-13.55,
-36.77,
-31.57
-],
-"roic": [
-74.18,
-104.47,
-5.06,
-11.86,
-2.05,
-1.56
-],
-"roa": [
-22.65,
-24.92,
-2.31,
-5.49,
-0.94,
-1.1
-],
-"fcf": [
-null,
-null,
--8.6,
--1.13,
--0.69,
--4.48
-],
-"nd": 14.24,
-"pe": 26.07,
-"pb": 6.42,
-"dy": null,
-"po": null,
-"v": 3,
-"mc": [
-null,
-null,
-8845.0,
-19864.0,
-91056.0,
-26786.0
-],
-"pes": [
-null,
-null,
-25.99,
-73.57,
-82.82,
-26.07
-],
-"pbs": [
-null,
-null,
-5.57,
-8.35,
-26.0,
-6.42
-],
-"dys": [
-null,
-null,
-null,
-null,
-null,
-null
-],
-"pos": [
-null,
-null,
-null,
-null,
-null,
-null
-],
-"bb": [
-null,
-22.66,
--934.45,
-null,
-null,
-null
-],
-"ttm": "2026-06-30",
-"per": "9/2026",
-"got": "2026-11-14",
-"url": "https://stockanalysis.com/quote/ist/PASEU/financials/ratios/"
-},
 "GRSEL": {
 "asof": "2026-11-09",
 "stale": 0,
@@ -2658,8 +2658,8 @@ null
 "got": "2026-11-14",
 "url": "https://stockanalysis.com/quote/ist/GRSEL/financials/ratios/"
 },
-"YEOTK": {
-"asof": "2026-11-07",
+"PASEU": {
+"asof": "2026-07-27",
 "stale": 0,
 "fy": [
 "2021",
@@ -2669,66 +2669,66 @@ null
 "2025"
 ],
 "roe": [
-40.92,
-44.0,
-45.05,
-50.46,
-41.27,
-50.08
+137.1,
+115.02,
+38.91,
+13.55,
+36.77,
+31.57
 ],
 "roic": [
-48.77,
-60.09,
-50.04,
-53.73,
-36.0,
-31.96
+74.18,
+104.47,
+5.06,
+11.86,
+2.05,
+1.56
 ],
 "roa": [
-11.87,
-22.71,
-18.81,
-16.36,
-10.09,
-11.37
+22.65,
+24.92,
+2.31,
+5.49,
+0.94,
+1.1
 ],
 "fcf": [
--2.42,
--2.66,
--3.65,
--1.46,
--18.51,
-0.12
+null,
+null,
+-8.6,
+-1.13,
+-0.69,
+-4.48
 ],
-"nd": 0.99,
-"pe": 9.78,
-"pb": 3.07,
+"nd": 14.24,
+"pe": 26.07,
+"pb": 6.42,
 "dy": null,
 "po": null,
 "v": 3,
 "mc": [
-1279.0,
-6701.0,
-15792.0,
-18353.0,
-12972.0,
-23124.0
+null,
+null,
+8845.0,
+19864.0,
+91056.0,
+26786.0
 ],
 "pes": [
-24.66,
-32.67,
-25.75,
-15.65,
-8.78,
-9.78
+null,
+null,
+25.99,
+73.57,
+82.82,
+26.07
 ],
 "pbs": [
-6.57,
-9.01,
-8.65,
-6.16,
-2.93,
-3.07
+null,
+null,
+5.57,
+8.35,
+26.0,
+6.42
 ],
 "dys": [
 null,
@@ -2740,24 +2740,24 @@ null
 ],
 "pos": [
 null,
-15.03,
+null,
 null,
 null,
 null,
 null
 ],
 "bb": [
--157.72,
--12.62,
--0.03,
-0.0,
+null,
+22.66,
+-934.45,
+null,
 null,
 null
 ],
-"ttm": "2026-09-30",
+"ttm": "2026-06-30",
 "per": "9/2026",
 "got": "2026-11-14",
-"url": "https://stockanalysis.com/quote/ist/YEOTK/financials/ratios/"
+"url": "https://stockanalysis.com/quote/ist/PASEU/financials/ratios/"
 },
 "ORZAX": {
 "asof": "2026-11-09",
@@ -2860,6 +2860,208 @@ null
 "got": "2026-11-14",
 "url": "https://stockanalysis.com/quote/ist/ORZAX/financials/ratios/"
 },
+"YEOTK": {
+"asof": "2026-11-07",
+"stale": 0,
+"fy": [
+"2021",
+"2022",
+"2023",
+"2024",
+"2025"
+],
+"roe": [
+40.92,
+44.0,
+45.05,
+50.46,
+41.27,
+50.08
+],
+"roic": [
+48.77,
+60.09,
+50.04,
+53.73,
+36.0,
+31.96
+],
+"roa": [
+11.87,
+22.71,
+18.81,
+16.36,
+10.09,
+11.37
+],
+"fcf": [
+-2.42,
+-2.66,
+-3.65,
+-1.46,
+-18.51,
+0.12
+],
+"nd": 0.99,
+"pe": 9.78,
+"pb": 3.07,
+"dy": null,
+"po": null,
+"v": 3,
+"mc": [
+1279.0,
+6701.0,
+15792.0,
+18353.0,
+12972.0,
+23124.0
+],
+"pes": [
+24.66,
+32.67,
+25.75,
+15.65,
+8.78,
+9.78
+],
+"pbs": [
+6.57,
+9.01,
+8.65,
+6.16,
+2.93,
+3.07
+],
+"dys": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"pos": [
+null,
+15.03,
+null,
+null,
+null,
+null
+],
+"bb": [
+-157.72,
+-12.62,
+-0.03,
+0.0,
+null,
+null
+],
+"ttm": "2026-09-30",
+"per": "9/2026",
+"got": "2026-11-14",
+"url": "https://stockanalysis.com/quote/ist/YEOTK/financials/ratios/"
+},
+"CITAS": {
+"asof": "2026-10-26",
+"stale": 0,
+"fy": [
+null,
+null,
+"2023",
+"2024",
+"2025"
+],
+"roe": [
+null,
+null,
+null,
+7.51,
+23.87,
+null
+],
+"roic": [
+null,
+null,
+12.61,
+8.62,
+23.91,
+14.71
+],
+"roa": [
+null,
+null,
+null,
+8.53,
+16.54,
+null
+],
+"fcf": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"nd": null,
+"pe": null,
+"pb": null,
+"dy": null,
+"po": null,
+"v": 3,
+"mc": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"pes": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"pbs": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"dys": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"pos": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"bb": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"ttm": "2026-09-30",
+"per": "9/2026",
+"got": "2026-11-14",
+"url": "https://stockanalysis.com/quote/ist/CITAS/financials/ratios/"
+},
 "TCKRC": {
 "asof": "2026-10-27",
 "stale": 0,
@@ -2961,107 +3163,6 @@ null
 "got": "2026-11-14",
 "url": "https://stockanalysis.com/quote/ist/TCKRC/financials/ratios/"
 },
-"MASFN": {
-"asof": "2026-08-17",
-"stale": 0,
-"fy": [
-null,
-null,
-"2023",
-"2024",
-"2025"
-],
-"roe": [
-null,
-null,
-null,
-55.86,
-25.38,
-null
-],
-"roic": [
-null,
-null,
-35.06,
-61.76,
-30.82,
-29.9
-],
-"roa": [
-null,
-null,
-null,
-22.19,
-10.9,
-null
-],
-"fcf": [
-null,
-null,
-null,
-null,
-null,
-null
-],
-"nd": -2.51,
-"pe": null,
-"pb": null,
-"dy": null,
-"po": null,
-"v": 3,
-"mc": [
-null,
-null,
-null,
-null,
-null,
-null
-],
-"pes": [
-null,
-null,
-null,
-null,
-null,
-null
-],
-"pbs": [
-null,
-null,
-null,
-null,
-null,
-null
-],
-"dys": [
-null,
-null,
-null,
-null,
-null,
-null
-],
-"pos": [
-null,
-null,
-null,
-null,
-null,
-null
-],
-"bb": [
-null,
-null,
-null,
-null,
-null,
-null
-],
-"ttm": "2026-06-30",
-"per": "9/2026",
-"got": "2026-11-14",
-"url": "https://stockanalysis.com/quote/ist/MASFN/financials/ratios/"
-},
 "EGPRO": {
 "asof": "2026-11-09",
 "stale": 0,
@@ -3162,6 +3263,107 @@ null
 "per": "9/2026",
 "got": "2026-11-14",
 "url": "https://stockanalysis.com/quote/ist/EGPRO/financials/ratios/"
+},
+"MASFN": {
+"asof": "2026-08-17",
+"stale": 0,
+"fy": [
+null,
+null,
+"2023",
+"2024",
+"2025"
+],
+"roe": [
+null,
+null,
+null,
+55.86,
+25.38,
+null
+],
+"roic": [
+null,
+null,
+35.06,
+61.76,
+30.82,
+29.9
+],
+"roa": [
+null,
+null,
+null,
+22.19,
+10.9,
+null
+],
+"fcf": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"nd": -2.51,
+"pe": null,
+"pb": null,
+"dy": null,
+"po": null,
+"v": 3,
+"mc": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"pes": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"pbs": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"dys": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"pos": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"bb": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"ttm": "2026-06-30",
+"per": "9/2026",
+"got": "2026-11-14",
+"url": "https://stockanalysis.com/quote/ist/MASFN/financials/ratios/"
 },
 "ATATP": {
 "asof": "2026-11-10",
@@ -3364,107 +3566,6 @@ null,
 "per": "9/2026",
 "got": "2026-11-14",
 "url": "https://stockanalysis.com/quote/ist/SARAE/financials/ratios/"
-},
-"CITAS": {
-"asof": "2026-10-26",
-"stale": 0,
-"fy": [
-null,
-null,
-"2023",
-"2024",
-"2025"
-],
-"roe": [
-null,
-null,
-null,
-7.51,
-23.87,
-null
-],
-"roic": [
-null,
-null,
-12.61,
-8.62,
-23.91,
-14.71
-],
-"roa": [
-null,
-null,
-null,
-8.53,
-16.54,
-null
-],
-"fcf": [
-null,
-null,
-null,
-null,
-null,
-null
-],
-"nd": null,
-"pe": null,
-"pb": null,
-"dy": null,
-"po": null,
-"v": 3,
-"mc": [
-null,
-null,
-null,
-null,
-null,
-null
-],
-"pes": [
-null,
-null,
-null,
-null,
-null,
-null
-],
-"pbs": [
-null,
-null,
-null,
-null,
-null,
-null
-],
-"dys": [
-null,
-null,
-null,
-null,
-null,
-null
-],
-"pos": [
-null,
-null,
-null,
-null,
-null,
-null
-],
-"bb": [
-null,
-null,
-null,
-null,
-null,
-null
-],
-"ttm": "2026-09-30",
-"per": "9/2026",
-"got": "2026-11-14",
-"url": "https://stockanalysis.com/quote/ist/CITAS/financials/ratios/"
 },
 "ARDYZ": {
 "asof": "2026-11-09",
@@ -3870,107 +3971,6 @@ null
 "got": "2026-11-14",
 "url": "https://stockanalysis.com/quote/ist/EBEBK/financials/ratios/"
 },
-"ULUSE": {
-"asof": "2026-08-18",
-"stale": 0,
-"fy": [
-"2021",
-"2022",
-"2023",
-"2024",
-"2025"
-],
-"roe": [
--20.75,
--13.36,
--70.05,
--159.46,
--92.87,
-152.37
-],
-"roic": [
-0.93,
--0.3,
-4.24,
--45.59,
--8.77,
-6.06
-],
-"roa": [
-0.27,
--0.09,
-1.19,
--10.07,
--1.47,
-1.5
-],
-"fcf": [
--3.89,
--0.85,
--1.69,
--2.91,
-1.65,
-4.2
-],
-"nd": 4.52,
-"pe": null,
-"pb": 11.96,
-"dy": null,
-"po": null,
-"v": 3,
-"mc": [
-4800.0,
-18800.0,
-10504.0,
-13296.0,
-12968.0,
-11760.0
-],
-"pes": [
-null,
-null,
-null,
-null,
-null,
-null
-],
-"pbs": [
-15.15,
-17.54,
-12.99,
-35.15,
-92.09,
-11.96
-],
-"dys": [
-null,
-null,
-null,
-null,
-null,
-null
-],
-"pos": [
-null,
-null,
-null,
-null,
-null,
-null
-],
-"bb": [
-null,
-null,
-null,
-null,
-null,
-null
-],
-"ttm": "2026-06-30",
-"per": "9/2026",
-"got": "2026-11-14",
-"url": "https://stockanalysis.com/quote/ist/ULUSE/financials/ratios/"
-},
 "LOGO": {
 "asof": "2026-11-09",
 "stale": 0,
@@ -4071,107 +4071,6 @@ null
 "per": "9/2026",
 "got": "2026-11-14",
 "url": "https://stockanalysis.com/quote/ist/LOGO/financials/ratios/"
-},
-"LMKDC": {
-"asof": "2026-10-30",
-"stale": 0,
-"fy": [
-null,
-"2022",
-"2023",
-"2024",
-"2025"
-],
-"roe": [
-null,
-null,
-94.52,
-60.18,
-29.55,
-14.78
-],
-"roic": [
-null,
-35.51,
-96.41,
-86.26,
-44.54,
-16.03
-],
-"roa": [
-null,
-null,
-38.1,
-33.86,
-22.71,
-12.62
-],
-"fcf": [
-null,
-null,
-null,
-19.77,
-10.14,
-1.69
-],
-"nd": null,
-"pe": 9.62,
-"pb": 1.23,
-"dy": 8.95,
-"po": 79.94,
-"v": 3,
-"mc": [
-null,
-null,
-null,
-16053.0,
-14608.0,
-11531.0
-],
-"pes": [
-null,
-null,
-null,
-5.68,
-7.22,
-9.62
-],
-"pbs": [
-null,
-null,
-null,
-2.62,
-1.93,
-1.23
-],
-"dys": [
-null,
-null,
-null,
-3.21,
-7.07,
-8.95
-],
-"pos": [
-null,
-null,
-0.06,
-null,
-29.01,
-79.94
-],
-"bb": [
-null,
-null,
-null,
--26.4,
--5.75,
-0.01
-],
-"ttm": "2026-09-30",
-"per": "9/2026",
-"got": "2026-11-14",
-"url": "https://stockanalysis.com/quote/ist/LMKDC/financials/ratios/"
 },
 "TRCAS": {
 "asof": "2026-06-30",
@@ -4274,12 +4173,12 @@ null
 "got": "2026-11-14",
 "url": "https://stockanalysis.com/quote/ist/TRCAS/financials/ratios/"
 },
-"MCARD": {
-"asof": "2026-08-19",
+"LMKDC": {
+"asof": "2026-10-30",
 "stale": 0,
 "fy": [
 null,
-null,
+"2022",
 "2023",
 "2024",
 "2025"
@@ -4287,48 +4186,149 @@ null,
 "roe": [
 null,
 null,
-null,
-56.43,
-45.96,
-null
+94.52,
+60.18,
+29.55,
+14.78
 ],
 "roic": [
 null,
-null,
-null,
-null,
-null,
-null
+35.51,
+96.41,
+86.26,
+44.54,
+16.03
 ],
 "roa": [
 null,
 null,
-null,
-4.47,
-2.78,
-null
+38.1,
+33.86,
+22.71,
+12.62
 ],
 "fcf": [
 null,
 null,
 null,
-null,
-null,
-null
+19.77,
+10.14,
+1.69
 ],
-"nd": -4.73,
-"pe": null,
-"pb": null,
-"dy": null,
-"po": 63.97,
+"nd": null,
+"pe": 9.62,
+"pb": 1.23,
+"dy": 8.95,
+"po": 79.94,
 "v": 3,
 "mc": [
 null,
 null,
 null,
+16053.0,
+14608.0,
+11531.0
+],
+"pes": [
 null,
 null,
-null
+null,
+5.68,
+7.22,
+9.62
+],
+"pbs": [
+null,
+null,
+null,
+2.62,
+1.93,
+1.23
+],
+"dys": [
+null,
+null,
+null,
+3.21,
+7.07,
+8.95
+],
+"pos": [
+null,
+null,
+0.06,
+null,
+29.01,
+79.94
+],
+"bb": [
+null,
+null,
+null,
+-26.4,
+-5.75,
+0.01
+],
+"ttm": "2026-09-30",
+"per": "9/2026",
+"got": "2026-11-14",
+"url": "https://stockanalysis.com/quote/ist/LMKDC/financials/ratios/"
+},
+"ULUSE": {
+"asof": "2026-08-18",
+"stale": 0,
+"fy": [
+"2021",
+"2022",
+"2023",
+"2024",
+"2025"
+],
+"roe": [
+-20.75,
+-13.36,
+-70.05,
+-159.46,
+-92.87,
+152.37
+],
+"roic": [
+0.93,
+-0.3,
+4.24,
+-45.59,
+-8.77,
+6.06
+],
+"roa": [
+0.27,
+-0.09,
+1.19,
+-10.07,
+-1.47,
+1.5
+],
+"fcf": [
+-3.89,
+-0.85,
+-1.69,
+-2.91,
+1.65,
+4.2
+],
+"nd": 4.52,
+"pe": null,
+"pb": 11.96,
+"dy": null,
+"po": null,
+"v": 3,
+"mc": [
+4800.0,
+18800.0,
+10504.0,
+13296.0,
+12968.0,
+11760.0
 ],
 "pes": [
 null,
@@ -4339,12 +4339,12 @@ null,
 null
 ],
 "pbs": [
-null,
-null,
-null,
-null,
-null,
-null
+15.15,
+17.54,
+12.99,
+35.15,
+92.09,
+11.96
 ],
 "dys": [
 null,
@@ -4358,22 +4358,22 @@ null
 null,
 null,
 null,
-46.11,
-93.27,
-63.97
+null,
+null,
+null
 ],
 "bb": [
 null,
 null,
 null,
--300.0,
 null,
--7.88
+null,
+null
 ],
 "ttm": "2026-06-30",
 "per": "9/2026",
 "got": "2026-11-14",
-"url": "https://stockanalysis.com/quote/ist/MCARD/financials/ratios/"
+"url": "https://stockanalysis.com/quote/ist/ULUSE/financials/ratios/"
 },
 "ICBCT": {
 "asof": "2026-09-30",
@@ -4476,6 +4476,208 @@ null
 "got": "2026-11-14",
 "url": "https://stockanalysis.com/quote/ist/ICBCT/financials/ratios/"
 },
+"GWIND": {
+"asof": "2026-09-30",
+"stale": 0,
+"fy": [
+"2021",
+"2022",
+"2023",
+"2024",
+"2025"
+],
+"roe": [
+17.76,
+36.9,
+10.53,
+9.16,
+6.08,
+12.71
+],
+"roic": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"roa": [
+13.2,
+18.86,
+8.4,
+5.01,
+3.28,
+1.18
+],
+"fcf": [
+7.5,
+4.69,
+8.32,
+-3.59,
+8.39,
+-0.38
+],
+"nd": 2.28,
+"pe": 4.79,
+"pb": 0.52,
+"dy": 3.47,
+"po": 19.2,
+"v": 3,
+"mc": [
+3123.0,
+12172.0,
+11626.0,
+18263.0,
+12064.0,
+9968.0
+],
+"pes": [
+18.27,
+8.31,
+12.91,
+16.72,
+14.27,
+4.79
+],
+"pbs": [
+3.13,
+1.75,
+1.15,
+1.33,
+0.85,
+0.52
+],
+"dys": [
+4.8,
+2.26,
+2.15,
+1.89,
+null,
+3.47
+],
+"pos": [
+58.51,
+22.57,
+84.63,
+63.69,
+47.26,
+19.2
+],
+"bb": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"ttm": "2026-09-30",
+"per": "9/2026",
+"got": "2026-11-21",
+"url": "https://stockanalysis.com/quote/ist/GWIND/financials/ratios/"
+},
+"MCARD": {
+"asof": "2026-08-19",
+"stale": 0,
+"fy": [
+null,
+null,
+"2023",
+"2024",
+"2025"
+],
+"roe": [
+null,
+null,
+null,
+56.43,
+45.96,
+null
+],
+"roic": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"roa": [
+null,
+null,
+null,
+4.47,
+2.78,
+null
+],
+"fcf": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"nd": -4.73,
+"pe": null,
+"pb": null,
+"dy": null,
+"po": 63.97,
+"v": 3,
+"mc": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"pes": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"pbs": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"dys": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"pos": [
+null,
+null,
+null,
+46.11,
+93.27,
+63.97
+],
+"bb": [
+null,
+null,
+null,
+-300.0,
+null,
+-7.88
+],
+"ttm": "2026-06-30",
+"per": "9/2026",
+"got": "2026-11-14",
+"url": "https://stockanalysis.com/quote/ist/MCARD/financials/ratios/"
+},
 "GEDIK": {
 "asof": "2026-08-17",
 "stale": 0,
@@ -4576,6 +4778,107 @@ null,
 "per": "9/2026",
 "got": "2026-11-14",
 "url": "https://stockanalysis.com/quote/ist/GEDIK/financials/ratios/"
+},
+"HTTBT": {
+"asof": "2026-11-06",
+"stale": 0,
+"fy": [
+"2021",
+"2022",
+"2023",
+"2024",
+"2025"
+],
+"roe": [
+11.87,
+10.32,
+11.18,
+15.42,
+15.36,
+13.0
+],
+"roic": [
+14.74,
+17.23,
+13.99,
+18.22,
+15.57,
+11.18
+],
+"roa": [
+7.57,
+8.17,
+6.72,
+7.79,
+7.16,
+5.93
+],
+"fcf": [
+null,
+0.55,
+-2.3,
+1.99,
+5.48,
+9.56
+],
+"nd": -0.34,
+"pe": 20.99,
+"pb": 2.38,
+"dy": null,
+"po": null,
+"v": 3,
+"mc": [
+null,
+3547.0,
+7261.0,
+15465.0,
+12588.0,
+8886.0
+],
+"pes": [
+null,
+60.59,
+54.94,
+55.85,
+32.37,
+20.99
+],
+"pbs": [
+null,
+4.09,
+4.85,
+7.38,
+4.24,
+2.38
+],
+"dys": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"pos": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"bb": [
+-27.5,
+null,
+null,
+null,
+null,
+null
+],
+"ttm": "2026-09-30",
+"per": "9/2026",
+"got": "2026-11-14",
+"url": "https://stockanalysis.com/quote/ist/HTTBT/financials/ratios/"
 },
 "MEGMT": {
 "asof": "2026-11-06",
@@ -4779,107 +5082,6 @@ null
 "got": "2026-11-14",
 "url": "https://stockanalysis.com/quote/ist/DOFRB/financials/ratios/"
 },
-"HTTBT": {
-"asof": "2026-11-06",
-"stale": 0,
-"fy": [
-"2021",
-"2022",
-"2023",
-"2024",
-"2025"
-],
-"roe": [
-11.87,
-10.32,
-11.18,
-15.42,
-15.36,
-13.0
-],
-"roic": [
-14.74,
-17.23,
-13.99,
-18.22,
-15.57,
-11.18
-],
-"roa": [
-7.57,
-8.17,
-6.72,
-7.79,
-7.16,
-5.93
-],
-"fcf": [
-null,
-0.55,
--2.3,
-1.99,
-5.48,
-9.56
-],
-"nd": -0.34,
-"pe": 20.99,
-"pb": 2.38,
-"dy": null,
-"po": null,
-"v": 3,
-"mc": [
-null,
-3547.0,
-7261.0,
-15465.0,
-12588.0,
-8886.0
-],
-"pes": [
-null,
-60.59,
-54.94,
-55.85,
-32.37,
-20.99
-],
-"pbs": [
-null,
-4.09,
-4.85,
-7.38,
-4.24,
-2.38
-],
-"dys": [
-null,
-null,
-null,
-null,
-null,
-null
-],
-"pos": [
-null,
-null,
-null,
-null,
-null,
-null
-],
-"bb": [
--27.5,
-null,
-null,
-null,
-null,
-null
-],
-"ttm": "2026-09-30",
-"per": "9/2026",
-"got": "2026-11-14",
-"url": "https://stockanalysis.com/quote/ist/HTTBT/financials/ratios/"
-},
 "ORGE": {
 "asof": "2026-11-09",
 "stale": 0,
@@ -4980,107 +5182,6 @@ null
 "per": "9/2026",
 "got": "2026-11-14",
 "url": "https://stockanalysis.com/quote/ist/ORGE/financials/ratios/"
-},
-"INDES": {
-"asof": "2026-11-09",
-"stale": 0,
-"fy": [
-"2021",
-"2022",
-"2023",
-"2024",
-"2025"
-],
-"roe": [
-49.66,
-2.88,
-14.5,
-6.99,
-7.09,
-12.0
-],
-"roic": [
-166.85,
-58.99,
-108.6,
-43.41,
-26.25,
-25.75
-],
-"roa": [
-4.63,
-10.63,
-9.15,
-6.26,
-5.15,
-7.47
-],
-"fcf": [
-49.81,
-2.64,
-40.36,
-76.25,
-20.8,
-37.82
-],
-"nd": -0.04,
-"pe": 7.67,
-"pb": 0.84,
-"dy": 2.15,
-"po": 17.41,
-"v": 3,
-"mc": [
-1487.0,
-4686.0,
-4470.0,
-5737.0,
-5895.0,
-7597.0
-],
-"pes": [
-3.69,
-29.76,
-6.09,
-13.36,
-11.35,
-7.67
-],
-"pbs": [
-1.36,
-1.43,
-0.91,
-0.86,
-0.83,
-0.84
-],
-"dys": [
-null,
-4.04,
-5.82,
-null,
-2.77,
-2.15
-],
-"pos": [
-12.06,
-163.08,
-56.83,
-86.06,
-null,
-17.41
-],
-"bb": [
-null,
-null,
-0.0,
-null,
-null,
-null
-],
-"ttm": "2026-09-30",
-"per": "9/2026",
-"got": "2026-11-14",
-"url": "https://stockanalysis.com/quote/ist/INDES/financials/ratios/"
 },
 "OYYAT": {
 "asof": "2026-10-27",
@@ -5283,6 +5384,208 @@ null
 "per": "9/2026",
 "got": "2026-11-14",
 "url": "https://stockanalysis.com/quote/ist/YYLGD/financials/ratios/"
+},
+"INDES": {
+"asof": "2026-11-09",
+"stale": 0,
+"fy": [
+"2021",
+"2022",
+"2023",
+"2024",
+"2025"
+],
+"roe": [
+49.66,
+2.88,
+14.5,
+6.99,
+7.09,
+12.0
+],
+"roic": [
+166.85,
+58.99,
+108.6,
+43.41,
+26.25,
+25.75
+],
+"roa": [
+4.63,
+10.63,
+9.15,
+6.26,
+5.15,
+7.47
+],
+"fcf": [
+49.81,
+2.64,
+40.36,
+76.25,
+20.8,
+37.82
+],
+"nd": -0.04,
+"pe": 7.67,
+"pb": 0.84,
+"dy": 2.15,
+"po": 17.41,
+"v": 3,
+"mc": [
+1487.0,
+4686.0,
+4470.0,
+5737.0,
+5895.0,
+7597.0
+],
+"pes": [
+3.69,
+29.76,
+6.09,
+13.36,
+11.35,
+7.67
+],
+"pbs": [
+1.36,
+1.43,
+0.91,
+0.86,
+0.83,
+0.84
+],
+"dys": [
+null,
+4.04,
+5.82,
+null,
+2.77,
+2.15
+],
+"pos": [
+12.06,
+163.08,
+56.83,
+86.06,
+null,
+17.41
+],
+"bb": [
+null,
+null,
+0.0,
+null,
+null,
+null
+],
+"ttm": "2026-09-30",
+"per": "9/2026",
+"got": "2026-11-14",
+"url": "https://stockanalysis.com/quote/ist/INDES/financials/ratios/"
+},
+"TEHOL": {
+"asof": "2026-08-14",
+"stale": 0,
+"fy": [
+"2021",
+"2022",
+"2023",
+"2024",
+"2025"
+],
+"roe": [
+13.92,
+58.71,
+40.51,
+30.06,
+46.76,
+37.71
+],
+"roic": [
+-3.83,
+-0.51,
+-0.66,
+-0.83,
+-4.07,
+0.01
+],
+"roa": [
+-2.33,
+-0.32,
+-0.41,
+-0.67,
+-1.9,
+0.01
+],
+"fcf": [
+-2.93,
+-0.42,
+-9.27,
+-4.73,
+-3.73,
+42.74
+],
+"nd": -2.13,
+"pe": 1.55,
+"pb": 0.34,
+"dy": null,
+"po": null,
+"v": 3,
+"mc": [
+170.0,
+784.0,
+2358.0,
+3992.0,
+31434.0,
+3632.0
+],
+"pes": [
+11.2,
+1.85,
+3.57,
+4.91,
+11.27,
+1.55
+],
+"pbs": [
+1.18,
+0.6,
+1.2,
+1.16,
+3.64,
+0.34
+],
+"dys": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"pos": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"bb": [
+-47.7,
+-8.32,
+null,
+null,
+-100.0,
+-150.0
+],
+"ttm": "2026-06-30",
+"per": "6/2026",
+"got": "2026-11-14",
+"url": "https://stockanalysis.com/quote/ist/TEHOL/financials/ratios/"
 },
 "FORTE": {
 "asof": "2026-11-07",
@@ -5587,6 +5890,107 @@ null
 "got": "2026-11-14",
 "url": "https://stockanalysis.com/quote/ist/NTGAZ/financials/ratios/"
 },
+"CATES": {
+"asof": "2026-09-30",
+"stale": 0,
+"fy": [
+"2021",
+"2022",
+"2023",
+"2024",
+"2025"
+],
+"roe": [
+null,
+74.25,
+24.94,
+-39.63,
+15.06,
+9.26
+],
+"roic": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"roa": [
+-1.38,
+9.35,
+3.95,
+0.4,
+-0.45,
+-8.68
+],
+"fcf": [
+null,
+null,
+30.06,
+4.52,
+12.02,
+2.09
+],
+"nd": 1.18,
+"pe": 4.53,
+"pb": 0.35,
+"dy": null,
+"po": null,
+"v": 3,
+"mc": [
+null,
+null,
+6691.0,
+6297.0,
+5445.0,
+5386.0
+],
+"pes": [
+null,
+null,
+3.05,
+null,
+3.05,
+4.53
+],
+"pbs": [
+null,
+null,
+0.57,
+0.57,
+0.43,
+0.35
+],
+"dys": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"pos": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"bb": [
+null,
+-65.61,
+-74.37,
+-19.11,
+0.03,
+-0.17
+],
+"ttm": "2026-09-30",
+"per": "9/2026",
+"got": "2026-11-21",
+"url": "https://stockanalysis.com/quote/ist/CATES/financials/ratios/"
+},
 "METRO": {
 "asof": "2026-10-22",
 "stale": 0,
@@ -5789,8 +6193,8 @@ null
 "got": "2026-11-14",
 "url": "https://stockanalysis.com/quote/ist/ATATR/financials/ratios/"
 },
-"OZSUB": {
-"asof": "2026-11-06",
+"KERVN": {
+"asof": "2026-11-08",
 "stale": 0,
 "fy": [
 "2021",
@@ -5801,73 +6205,73 @@ null
 ],
 "roe": [
 null,
-16.56,
--1.53,
--19.02,
-32.88,
-30.46
+null,
+-215.67,
+24.24,
+-2.14,
+88.37
 ],
 "roic": [
-24.49,
-30.42,
-33.55,
-6.74,
-15.99,
-11.11
+null,
+null,
+136.03,
+-2.91,
+1.57,
+35.62
 ],
 "roa": [
-null,
-10.46,
-8.46,
-2.23,
-7.79,
-7.36
+1.94,
+-5.83,
+-1.33,
+-3.63,
+0.79,
+13.19
 ],
 "fcf": [
-null,
-9.41,
--10.25,
--26.64,
-27.15,
--27.76
+17.42,
+42.32,
+37.32,
+134.39,
+58.05,
+42.68
 ],
-"nd": 2.44,
-"pe": 10.5,
-"pb": 2.52,
-"dy": 1.92,
+"nd": 0.07,
+"pe": 1.49,
+"pb": 0.76,
+"dy": null,
 "po": null,
 "v": 3,
 "mc": [
-null,
-1062.0,
-1462.0,
-1758.0,
-2149.0,
-3847.0
+353.0,
+665.0,
+583.0,
+1295.0,
+1318.0,
+3766.0
 ],
 "pes": [
 null,
-20.06,
 null,
 null,
-7.31,
-10.5
+2.63,
+null,
+1.49
 ],
 "pbs": [
-null,
-1.91,
-1.95,
-2.23,
-2.08,
-2.52
+-0.95,
+-20.32,
+1.06,
+0.61,
+0.63,
+0.76
 ],
 "dys": [
 null,
 null,
 null,
 null,
-3.44,
-1.92
+null,
+null
 ],
 "pos": [
 null,
@@ -5879,8 +6283,8 @@ null
 ],
 "bb": [
 null,
--124.72,
--33.5,
+null,
+null,
 null,
 null,
 null
@@ -5888,7 +6292,7 @@ null
 "ttm": "2026-09-30",
 "per": "9/2026",
 "got": "2026-11-14",
-"url": "https://stockanalysis.com/quote/ist/OZSUB/financials/ratios/"
+"url": "https://stockanalysis.com/quote/ist/KERVN/financials/ratios/"
 },
 "FONET": {
 "asof": "2026-11-05",
@@ -5991,8 +6395,8 @@ null
 "got": "2026-11-14",
 "url": "https://stockanalysis.com/quote/ist/FONET/financials/ratios/"
 },
-"KERVN": {
-"asof": "2026-11-08",
+"OZSUB": {
+"asof": "2026-11-06",
 "stale": 0,
 "fy": [
 "2021",
@@ -6003,73 +6407,73 @@ null
 ],
 "roe": [
 null,
-null,
--215.67,
-24.24,
--2.14,
-88.37
+16.56,
+-1.53,
+-19.02,
+32.88,
+30.46
 ],
 "roic": [
-null,
-null,
-136.03,
--2.91,
-1.57,
-35.62
+24.49,
+30.42,
+33.55,
+6.74,
+15.99,
+11.11
 ],
 "roa": [
-1.94,
--5.83,
--1.33,
--3.63,
-0.79,
-13.19
+null,
+10.46,
+8.46,
+2.23,
+7.79,
+7.36
 ],
 "fcf": [
-17.42,
-42.32,
-37.32,
-134.39,
-58.05,
-42.68
+null,
+9.41,
+-10.25,
+-26.64,
+27.15,
+-27.76
 ],
-"nd": 0.07,
-"pe": 1.49,
-"pb": 0.76,
-"dy": null,
+"nd": 2.44,
+"pe": 10.5,
+"pb": 2.52,
+"dy": 1.92,
 "po": null,
 "v": 3,
 "mc": [
-353.0,
-665.0,
-583.0,
-1295.0,
-1318.0,
-3766.0
+null,
+1062.0,
+1462.0,
+1758.0,
+2149.0,
+3847.0
 ],
 "pes": [
 null,
+20.06,
 null,
 null,
-2.63,
-null,
-1.49
+7.31,
+10.5
 ],
 "pbs": [
--0.95,
--20.32,
-1.06,
-0.61,
-0.63,
-0.76
+null,
+1.91,
+1.95,
+2.23,
+2.08,
+2.52
 ],
 "dys": [
 null,
 null,
 null,
 null,
-null,
-null
+3.44,
+1.92
 ],
 "pos": [
 null,
@@ -6081,8 +6485,8 @@ null
 ],
 "bb": [
 null,
-null,
-null,
+-124.72,
+-33.5,
 null,
 null,
 null
@@ -6090,10 +6494,10 @@ null
 "ttm": "2026-09-30",
 "per": "9/2026",
 "got": "2026-11-14",
-"url": "https://stockanalysis.com/quote/ist/KERVN/financials/ratios/"
+"url": "https://stockanalysis.com/quote/ist/OZSUB/financials/ratios/"
 },
-"TEHOL": {
-"asof": "2026-08-14",
+"TRHOL": {
+"asof": "2026-08-07",
 "stale": 0,
 "fy": [
 "2021",
@@ -6103,196 +6507,95 @@ null
 "2025"
 ],
 "roe": [
-13.92,
-58.71,
-40.51,
-30.06,
-46.76,
-37.71
+30.93,
+-0.7,
+-106.25,
+-132.89,
+52.81,
+195.68
 ],
 "roic": [
--3.83,
--0.51,
--0.66,
--0.83,
--4.07,
-0.01
+3.1,
+-11.64,
+-5.15,
+-10.65,
+-9.72,
+-1.14
 ],
 "roa": [
--2.33,
--0.32,
--0.41,
--0.67,
--1.9,
-0.01
+16.7,
+-0.23,
+-28.51,
+-52.99,
+24.4,
+88.19
 ],
 "fcf": [
--2.93,
--0.42,
--9.27,
--4.73,
--3.73,
-42.74
+-12.84,
+5.27,
+-5.96,
+7.65,
+2.06,
+7.51
 ],
-"nd": -2.13,
-"pe": 1.55,
-"pb": 0.34,
+"nd": 161.57,
+"pe": 0.81,
+"pb": 0.66,
 "dy": null,
 "po": null,
 "v": 3,
 "mc": [
-170.0,
-784.0,
-2358.0,
-3992.0,
-31434.0,
-3632.0
+117.0,
+351.0,
+384.0,
+472.0,
+17505.0,
+3414.0
 ],
 "pes": [
-11.2,
-1.85,
-3.57,
-4.91,
-11.27,
-1.55
+9.05,
+null,
+null,
+null,
+265.43,
+0.81
 ],
 "pbs": [
-1.18,
-0.6,
-1.2,
-1.16,
-3.64,
-0.34
-],
-"dys": [
-null,
-null,
-null,
-null,
-null,
-null
-],
-"pos": [
-null,
-null,
-null,
-null,
-null,
-null
-],
-"bb": [
--47.7,
--8.32,
-null,
-null,
--100.0,
--150.0
-],
-"ttm": "2026-06-30",
-"per": "6/2026",
-"got": "2026-11-14",
-"url": "https://stockanalysis.com/quote/ist/TEHOL/financials/ratios/"
-},
-"AYES": {
-"asof": "2026-08-10",
-"stale": 0,
-"fy": [
-"2021",
-"2022",
-"2023",
-"2024",
-"2025"
-],
-"roe": [
-50.45,
-32.56,
-20.04,
-5.31,
-40.73,
-63.27
-],
-"roic": [
-41.62,
-64.69,
-26.52,
--2.31,
-5.75,
-3.35
-],
-"roa": [
-23.34,
-28.27,
-13.86,
--0.88,
-2.21,
-2.06
-],
-"fcf": [
--15.83,
-10.04,
--134.5,
-94.46,
--35.45,
--7.47
-],
-"nd": 2.88,
-"pe": 1.91,
-"pb": 0.85,
-"dy": 0.25,
-"po": 2.85,
-"v": 3,
-"mc": [
-391.0,
-880.0,
-902.0,
-1297.0,
-2632.0,
-3560.0
-],
-"pes": [
-10.9,
-10.44,
-7.7,
-17.73,
-2.54,
-1.91
-],
-"pbs": [
+2.28,
 4.47,
-2.05,
-1.22,
-0.64,
-0.87,
-0.85
+8.81,
+5.13,
+111.02,
+0.66
 ],
 "dys": [
 null,
-0.83,
-1.0,
-0.68,
 null,
-0.25
+null,
+null,
+null,
+null
 ],
 "pos": [
-6.84,
-8.15,
 null,
 null,
 null,
-2.85
+null,
+null,
+null
 ],
 "bb": [
-null,
-null,
 0.0,
 null,
 null,
-0.03
+null,
+null,
+-22.16
 ],
 "ttm": "2026-06-30",
 "per": "6/2026",
-"got": "2026-11-14",
-"url": "https://stockanalysis.com/quote/ist/AYES/financials/ratios/"
+"got": "2026-11-21",
+"url": "https://stockanalysis.com/quote/ist/TRHOL/financials/ratios/"
 },
 "SAYAS": {
 "asof": "2026-11-06",
@@ -6395,6 +6698,107 @@ null
 "got": "2026-11-14",
 "url": "https://stockanalysis.com/quote/ist/SAYAS/financials/ratios/"
 },
+"AYES": {
+"asof": "2026-08-10",
+"stale": 0,
+"fy": [
+"2021",
+"2022",
+"2023",
+"2024",
+"2025"
+],
+"roe": [
+50.45,
+32.56,
+20.04,
+5.31,
+40.73,
+63.27
+],
+"roic": [
+41.62,
+64.69,
+26.52,
+-2.31,
+5.75,
+3.35
+],
+"roa": [
+23.34,
+28.27,
+13.86,
+-0.88,
+2.21,
+2.06
+],
+"fcf": [
+-15.83,
+10.04,
+-134.5,
+94.46,
+-35.45,
+-7.47
+],
+"nd": 2.88,
+"pe": 1.91,
+"pb": 0.85,
+"dy": 0.25,
+"po": 2.85,
+"v": 3,
+"mc": [
+391.0,
+880.0,
+902.0,
+1297.0,
+2632.0,
+3560.0
+],
+"pes": [
+10.9,
+10.44,
+7.7,
+17.73,
+2.54,
+1.91
+],
+"pbs": [
+4.47,
+2.05,
+1.22,
+0.64,
+0.87,
+0.85
+],
+"dys": [
+null,
+0.83,
+1.0,
+0.68,
+null,
+0.25
+],
+"pos": [
+6.84,
+8.15,
+null,
+null,
+null,
+2.85
+],
+"bb": [
+null,
+null,
+0.0,
+null,
+null,
+0.03
+],
+"ttm": "2026-06-30",
+"per": "6/2026",
+"got": "2026-11-14",
+"url": "https://stockanalysis.com/quote/ist/AYES/financials/ratios/"
+},
 "PCILT": {
 "asof": "2026-08-19",
 "stale": 0,
@@ -6495,106 +6899,5 @@ null,
 "per": "9/2026",
 "got": "2026-11-14",
 "url": "https://stockanalysis.com/quote/ist/PCILT/financials/ratios/"
-},
-"FMIZP": {
-"asof": "2026-10-27",
-"stale": 0,
-"fy": [
-"2021",
-"2022",
-"2023",
-"2024",
-"2025"
-],
-"roe": [
-88.63,
-42.94,
-9.04,
-29.83,
-13.15,
-23.33
-],
-"roic": [
-110.12,
-60.86,
-21.3,
-37.01,
-16.11,
-39.73
-],
-"roa": [
-34.06,
-29.88,
-13.01,
-15.91,
-6.24,
-10.54
-],
-"fcf": [
-2.12,
-1.81,
-0.29,
-2.66,
-2.08,
-5.69
-],
-"nd": -2.85,
-"pe": 18.95,
-"pb": 4.03,
-"dy": 0.32,
-"po": 41.16,
-"v": 3,
-"mc": [
-1630.0,
-2827.0,
-3923.0,
-4654.0,
-4540.0,
-3125.0
-],
-"pes": [
-24.45,
-40.38,
-165.32,
-42.7,
-62.46,
-18.95
-],
-"pbs": [
-17.5,
-12.14,
-13.43,
-10.61,
-6.81,
-4.03
-],
-"dys": [
-3.91,
-0.74,
-null,
-0.22,
-null,
-0.32
-],
-"pos": [
-45.15,
-190.07,
-87.87,
-null,
-13.85,
-41.16
-],
-"bb": [
-null,
-null,
-null,
-null,
-null,
-null
-],
-"ttm": "2026-09-30",
-"per": "9/2026",
-"got": "2026-11-14",
-"url": "https://stockanalysis.com/quote/ist/FMIZP/financials/ratios/"
 }
 }

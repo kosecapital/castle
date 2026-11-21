@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-13T23:16:13Z",
+ "fetched": "2026-11-21T03:14:52Z",
  "cur": "CAD",
  "pcur": "CAD",
  "years": [
@@ -9,7 +9,7 @@
   "2024",
   "2025"
  ],
- "fx": 1.4268,
+ "fx": 1.434,
  "mcapMin": 80,
  "cpi_cur": 3.1,
  "cpi_cur_src": "TradingView ECONOMICS:CAIRYY (son açıklanan yıllık TÜFE)",
