@@ -142,10 +142,10 @@
    "per": "2026-Q3"
   },
   "growth": {
-   "g": 7.1,
+   "g": 7.3,
    "basis": {
-    "tr": "Formül yılda %14,3 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 (hisse başına kâr) %3,5; Temmuz-Eylül 2026 çeyreği (ana ortaklık net kârı; çeyreğin hisse başına kârı açıklanmadı) %−28,1. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %7,1.",
-    "en": "The formula gave growth of 14.3% a year. Latest figures (earnings per share, year on year): January-September 2026 (earnings per share) 3.5%; July-September 2026 quarter (owners' net profit; quarterly earnings per share not disclosed) −28.1%. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 7.1%."
+    "tr": "Formül yılda %14,7 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 (hisse başına kâr) %3,5; Temmuz-Eylül 2026 çeyreği (ana ortaklık net kârı; çeyreğin hisse başına kârı açıklanmadı) %−28,1. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %7,3.",
+    "en": "The formula gave growth of 14.7% a year. Latest figures (earnings per share, year on year): January-September 2026 (earnings per share) 3.5%; July-September 2026 quarter (owners' net profit; quarterly earnings per share not disclosed) −28.1%. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 7.3%."
    },
    "per": "2026-Q3"
   }
@@ -775,14 +775,14 @@
    "E": 1
   },
   "moat": "dar",
-  "per": "2026-Q2",
+  "per": "2026-Q3",
   "one": "Cilt sıkılaştırma cihazı ve sarf malzemesi satan şirket. Hendek dar; 2026'da kâr geriliyor, üçüncü çeyrek net kârı %81 düştü. Fiyat düşüşü gerçek, pay bölünmesi yok.",
   "business": "Classys, kliniklere ameliyatsız cilt sıkılaştırma cihazları satar: odaklı ultrason (Shurink, yurt dışında Ultraformer) ve radyo frekansı (Volnewmer). Cihaz satıldıktan sonra her işlemde tükenen başlıkları da satar. 2025'te gelir 336,8 milyar won, faaliyet kârı 170,6 milyar won, net kâr 131,9 milyar won. 2026'nın ilk çeyreğinde gelirin %48'i cihaz, %47'si sarf malzemesiydi. Gelirin dörtte üçe yakını yurt dışından gelir; şirket Brezilya ve Japonya'da distribütörden kendi satış örgütüne geçti.",
   "moat_text": "Hendek dar. Kanıt: brüt kâr marjı 2023'te %78,0, 2024'te %78,7, 2025'te %77,5; faaliyet kâr marjı 2025'te %50,7. Kurulu cihazlar yinelenen başlık satışı getirir. Reel özsermaye kârlılığı beş yılda %23 ile %32 arasında kaldı. Zayıf yanlar 2026'da görünür oldu: brüt marj üçüncü çeyrekte %73,7'ye indi; Kore'de tıbbi cihaz geliri üç çeyrektir düşüyor (üçüncü çeyrekte cihaz %45, sarf malzemesi %29 geriledi). Basına göre şirket Kore odaklı ultrason pazarındaki payını yaklaşık %55 diye tahmin ediyor; bu rakam şirket belgesinden doğrulanamadı. Çin'de üç yerli ve bir ithal rakip cihaz onay aldı. Kalıcılık belirsiz olduğu için sınıf geniş değil.",
   "mgmt": "En büyük ortak Bain Capital: 2022'de %60,84 payı yaklaşık 670 milyar wona aldı, Mayıs 2025 ve Şubat 2026'da blok satış yaptı, payı %45,91'e indi (30.072.418 pay). Bain şirketi satmak istiyor; payları karşılığında borç kullandığı basında yer aldı. Ağustos 2026'da genel müdür değişti (Yoon Jun-oh). Kâr dağıtımı: 2025 için hisse başına 1.000 won, toplam 65,2 milyar won, kârın %49,4'ü. Brezilya distribütörü Medsystems Mart 2026'da satın alındı; Brezilya kolunda 62,5 milyar won borç var. Şirket 2025 gelir hedefini tutturamadı, 2026 gelir beklentisini de ağustosta indirdi. Maddi olmayan varlıklar Mart 2026'da 146,3 milyar won (özsermayenin yaklaşık %28'i); şerefiye ayrı gösterilmemiş. Kaynağa göre pay sayısı 2024'te %0,4, 2025'te %1,8 arttı. Hisse bazlı ücret (Temmuz 2026'da opsiyon verildi), geri alım fiyatı ve bilanço dışı yükümlülükler: bakıldı, açılan belgelerde yok.",
-  "latest": "12 Kasım 2026: Üçüncü çeyrekte gelir 83,0 milyar won (geçen yılla aynı), faaliyet kârı 27,0 milyar won (-%28,2), vergi öncesi kâr 7,7 milyar won, ana ortaklık net kârı 6,3 milyar won (-%81,0). Dokuz ayda gelir 275,7 milyar won (+%13,3), faaliyet kârı 108,1 milyar won (-%9,4), ana ortaklık net kârı 68,3 milyar won (-%23,6); hisse başına kâr 1.047 won (geçen yıl 1.364). Şirket nedenleri şöyle açıkladı: Kore'de ürün kuşağı değişimi, Brezilya ve Japonya'da doğrudan satışa geçişin maliyeti. Faaliyet kârı ile vergi öncesi kâr arasındaki yaklaşık 19 milyar wonluk farkın nedeni okunamadı. 12 Ağustos 2026'da 2026 gelir beklentisi 470-510 milyar wondan 430-460 milyar wona indirildi.",
+  "latest": "12 Kasım 2026: Üçüncü çeyrekte gelir 83,0 milyar won (geçen yılla aynı), faaliyet kârı 27,0 milyar won (-%28,2), vergi öncesi kâr 7,7 milyar won, ana ortaklık net kârı 6,3 milyar won (-%81,0). Rakamlar geçici ve bağımsız denetçi incelemesinden geçmedi. Dokuz ayda gelir 275,7 milyar won (+%13,3), faaliyet kârı 108,1 milyar won (-%9,4), ana ortaklık net kârı 68,3 milyar won (-%23,6); hisse başına kâr 1.047 won (geçen yıl 1.364). Şirket nedenleri şöyle açıkladı: Kore'de ürün kuşağı değişimi, Brezilya ve Japonya'da doğrudan satışa geçişin maliyeti. Faaliyet kârı ile vergi öncesi kâr arasındaki yaklaşık 19 milyar wonluk farkın nedeni okunamadı. 12 Ağustos 2026'da 2026 gelir beklentisi 470-510 milyar wondan 430-460 milyar wona indirildi.",
   "risks": [
-   "Kâr geriliyor ve evrendeki F/K haziran sonuna göre: eylül sonuna kadarki 12 ayda hisse başına kâr yaklaşık 1.697 won, kaynağın ima ettiği yaklaşık 2.099 won. Üçüncü çeyrekteki faaliyet dışı kaybın nedeni okunamadı.",
+   "Kâr geriliyor: eylül sonuna kadarki 12 ayda hisse başına kâr yaklaşık 1.697 won (2025'te 2.014). Evrendeki F/K artık bu döneme göre. Üçüncü çeyrekteki yaklaşık 19 milyar wonluk faaliyet dışı kaybın nedeni okunamadı; yinelenirse kazanç daha da düşer.",
    "Kore'de tıbbi cihaz geliri üç çeyrektir düşüyor (üçüncü çeyrekte -%35,9); rekabet artıyor ve ana ürün yenileniyor.",
    "Bain Capital şirketi satmak istiyor ve payları karşılığında borçlu; yeni bir blok satış ya da el değiştirme yönetimi ve temettü politikasını değiştirebilir.",
    "Brezilya ve Japonya'da doğrudan satışa geçiş marjı düşürdü: faaliyet kâr marjı 2025'te %50,7 iken üçüncü çeyrekte %32,5.",
@@ -809,6 +809,11 @@
     "t": "CBC News: Classys üçüncü çeyrek geçici sonuç bildirimi (12 Kas 2026)",
     "te": "CBC News: Classys third-quarter preliminary results filing (12 Nov 2026)",
     "u": "https://www.cbci.co.kr/news/articleView.html?idxno=626195"
+   },
+   {
+    "t": "Stockhub: Classys üçüncü çeyrek geçici sonuç bildirimi özeti, DART 20261112900535 (12 Kas 2026)",
+    "te": "Stockhub: summary of Classys third-quarter preliminary results filing, DART 20261112900535 (12 Nov 2026)",
+    "u": "https://stockhub.kr/en/insights/view_1794463632413_kgu5i9l5z"
    },
    {
     "t": "Quartr: Classys 2026 üçüncü çeyrek özeti (16 Kas 2026)",
@@ -856,9 +861,9 @@
    "business": "Classys sells non-surgical skin-tightening devices to clinics: focused ultrasound (Shurink, sold abroad as Ultraformer) and radio frequency (Volnewmer). After a device is sold it also sells the cartridges and tips used up in each treatment. In 2025 revenue was 336.8 billion won, operating profit 170.6 billion won and net profit 131.9 billion won. In the first quarter of 2026, 48% of revenue was devices and 47% consumables. Close to three quarters of revenue comes from abroad; the company has moved from distributors to its own sales organisation in Brazil and Japan.",
    "moat_text": "The moat is narrow. Evidence: gross margin was 78.0% in 2023, 78.7% in 2024 and 77.5% in 2025; operating margin was 50.7% in 2025. Installed devices bring recurring consumable sales. Real return on equity stayed between 23% and 32% over five years. The weak points became visible in 2026: gross margin fell to 73.7% in the third quarter; medical device revenue in Korea has fallen for three quarters (in the third quarter devices fell 45% and consumables 29%). According to the press the company estimates its share of the Korean focused ultrasound market at about 55%; this figure could not be confirmed in a company document. In China three local rival devices and one imported one have been approved. Because durability is uncertain, the class is not wide.",
    "mgmt": "The largest shareholder is Bain Capital: it bought 60.84% in 2022 for about 670 billion won, sold blocks in May 2025 and February 2026, and now holds 45.91% (30,072,418 shares). Bain wants to sell the company; the press reports that it has borrowed against its shares. The chief executive changed in August 2026 (Yoon Jun-oh). Profit distribution: 1,000 won per share for 2025, 65.2 billion won in total, 49.4% of profit. The Brazilian distributor Medsystems was acquired in March 2026; the Brazilian unit carries 62.5 billion won of borrowings. The company missed its 2025 revenue target and cut its 2026 revenue outlook in August. Intangible assets were 146.3 billion won in March 2026 (about 28% of equity); goodwill is not shown separately. According to the source the share count rose 0.4% in 2024 and 1.8% in 2025. Share-based pay (options were granted in July 2026), buyback prices and off-balance-sheet obligations: checked, not in the documents that could be opened.",
-   "latest": "12 November 2026: In the third quarter revenue was 83.0 billion won (flat on a year earlier), operating profit 27.0 billion won (-28.2%), pre-tax profit 7.7 billion won and net profit attributable to owners 6.3 billion won (-81.0%). For nine months revenue was 275.7 billion won (+13.3%), operating profit 108.1 billion won (-9.4%) and net profit attributable to owners 68.3 billion won (-23.6%); earnings per share were 1,047 won (1,364 a year earlier). The company gave these reasons: a product generation change in Korea and the cost of moving to direct sales in Brazil and Japan. The reason for the gap of about 19 billion won between operating profit and pre-tax profit could not be read. On 12 August 2026 the 2026 revenue outlook was cut from 470-510 billion won to 430-460 billion won.",
+   "latest": "12 November 2026: In the third quarter revenue was 83.0 billion won (flat on a year earlier), operating profit 27.0 billion won (-28.2%), pre-tax profit 7.7 billion won and net profit attributable to owners 6.3 billion won (-81.0%). The figures are preliminary and not yet reviewed by the auditor. For nine months revenue was 275.7 billion won (+13.3%), operating profit 108.1 billion won (-9.4%) and net profit attributable to owners 68.3 billion won (-23.6%); earnings per share were 1,047 won (1,364 a year earlier). The company gave these reasons: a product generation change in Korea and the cost of moving to direct sales in Brazil and Japan. The reason for the gap of about 19 billion won between operating profit and pre-tax profit could not be read. On 12 August 2026 the 2026 revenue outlook was cut from 470-510 billion won to 430-460 billion won.",
    "risks": [
-    "Profit is falling and the P/E in the dataset is as of end-June: earnings per share for the 12 months to end-September are about 1,697 won, against about 2,099 won implied by the source. The reason for the non-operating loss in the third quarter could not be read.",
+    "Profit is falling: earnings per share for the 12 months to end-September are about 1,697 won (2,014 in 2025). The P/E in the dataset is now on this period. The reason for the non-operating loss of about 19 billion won in the third quarter could not be read; if it recurs, earnings fall further.",
     "Medical device revenue in Korea has fallen for three quarters (-35.9% in the third quarter); competition is rising and the main product is being renewed.",
     "Bain Capital wants to sell the company and has borrowed against its shares; another block sale or a change of control could change management and dividend policy.",
     "The move to direct sales in Brazil and Japan has lowered margins: operating margin was 50.7% in 2025 and 32.5% in the third quarter.",
@@ -872,25 +877,24 @@
    ]
   },
   "chk": {
-   "date": "2026-11-19",
-   "per": "2026-Q2"
+   "date": "2026-11-21",
+   "per": "2026-Q3"
   },
   "earn": {
-   "k": 0.809,
+   "k": 1.0,
    "basis": {
-    "tr": "Hesap son 12 ayın kârına dayanır. Kaynağın F/K'sı son 12 ay için hisse başına 2098,77 KRW kâr ima ediyor; şirketin kendi tablolarından toplanan son 12 ay kârı hisse başına 1697,00 KRW. Farkın nedeni bulunamadı; şirketin belgesi esas alındı ve kazanç bu orana indirildi (%19,1). Son 12 ayda şirketçe tek seferlik diye açıklanan bir kazanç okunmadı. 2025'in dördüncü çeyreğinde bir şüpheli alacak karşılığı iptali var (tutarı açıklanmamış); 2026'nın ilk çeyreğinde vergi öncesi kâr faaliyet kârından 7,6 milyar won yüksek (kalemi okunamadı). Üçüncü çeyrekte ise vergi öncesi kâr faaliyet kârının yaklaşık 19 milyar won altında; bu bir giderdir ve kazancı yükseltmez. Son 12 ayın kârı 0,81 ile çarpılarak kullanıldı.",
-    "en": "The calculation rests on the profit of the last 12 months. The data source's P/E implies a last-12-month profit of 2098.77 KRW per share; the last-12-month profit added up from the company's own statements is 1697.00 KRW per share. The reason for the gap was not found; the company's document was taken as the basis and earnings were lowered to that ratio (19.1%). No gain labelled one-off by the company was read for the last 12 months. There was a bad debt reversal in the fourth quarter of 2025 (amount not disclosed); in the first quarter of 2026 pre-tax profit was 7.6 billion won above operating profit (the item could not be read). In the third quarter pre-tax profit was about 19 billion won below operating profit; that is a charge and does not raise earnings. Last-12-month profit was used multiplied by 0.81."
+    "tr": "Hesap son 12 ayın kârına dayanır. Son 12 ayda şirketçe tek seferlik diye açıklanan bir kazanç okunmadı. 2025'in dördüncü çeyreğinde bir şüpheli alacak karşılığı iptali var (tutarı açıklanmamış); 2026'nın ilk çeyreğinde vergi öncesi kâr faaliyet kârından 7,6 milyar won yüksek (kalemi okunamadı). Üçüncü çeyrekte ise vergi öncesi kâr faaliyet kârının yaklaşık 19 milyar won altında; bu bir giderdir ve kazancı yükseltmez.",
+    "en": "The calculation rests on the profit of the last 12 months. No gain labelled one-off by the company was read for the last 12 months. There was a bad debt reversal in the fourth quarter of 2025 (amount not disclosed); in the first quarter of 2026 pre-tax profit was 7.6 billion won above operating profit (the item could not be read). In the third quarter pre-tax profit was about 19 billion won below operating profit; that is a charge and does not raise earnings."
    },
-   "ks": 0.809,
-   "per": "2026-Q2"
+   "per": "2026-Q3"
   },
   "growth": {
-   "g": 4.6,
+   "g": 3.4,
    "basis": {
-    "tr": "Formül yılda %9,2 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 (hisse başına kâr) %−23,2; Temmuz-Eylül 2026 çeyreği (ana ortaklık net kârı; çeyreğin hisse başına kârı açıklanmadı) %−81,0. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %4,6.",
-    "en": "The formula gave growth of 9.2% a year. Latest figures (earnings per share, year on year): January-September 2026 (earnings per share) −23.2%; July-September 2026 quarter (owners' net profit; quarterly earnings per share not disclosed) −81.0%. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 4.6%."
+    "tr": "Formül yılda %6,9 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 (hisse başına kâr) %−23,2; Temmuz-Eylül 2026 çeyreği (ana ortaklık net kârı; çeyreğin hisse başına kârı açıklanmadı) %−81,0. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %3,4.",
+    "en": "The formula gave growth of 6.9% a year. Latest figures (earnings per share, year on year): January-September 2026 (earnings per share) −23.2%; July-September 2026 quarter (owners' net profit; quarterly earnings per share not disclosed) −81.0%. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 3.4%."
    },
-   "per": "2026-Q2"
+   "per": "2026-Q3"
   }
  },
  "445180": {
@@ -999,6 +1003,125 @@
   "chk": {
    "date": "2026-11-19",
    "per": "2026-Q2"
+  }
+ },
+ "272110": {
+  "scores": {
+   "A": 1,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-Q3",
+  "one": "Çip üretiminde tükenen silisyum karbür halkalar yapan şirket. Hendek zayıf: pazar payı ve müşteriler açıklanmıyor, marj düşüyor, net kâr geriliyor; 3. suru geçemedi.",
+  "business": "KnJ, çip üretiminin aşındırma adımında kullanılan ve zamanla tükenen silisyum karbür (CVD-SiC) odak halkalarını üretir. Üretim Asan ve Dangjin'dedir. 2026'nın ilk dokuz ayında gelir 108,1 milyar won (+%81,2), faaliyet kârı 23,9 milyar won (+%43,9). Yarı iletken parçaları 80,5 milyar won gelir ve 20,6 milyar won faaliyet kârı getirdi. Kalan gelirin büyük bölümü, 2025 sonunda konsolide edilen esnek devre kartı üreticisi Circuit Flex'ten geliyor (25,8 milyar won; faaliyet kâr marjı yaklaşık %12). Şirket ekran ekipmanı işinden 2024'te çıktı.",
+  "moat_text": "Hendek zayıf. Üstünlük var: halka, müşterinin üretim hattında onaydan geçmeden satılamaz; tükenen parça olduğu için satış yinelenir. Yarı iletken parçalarında faaliyet kâr marjı ilk dokuz ayda %25,6. Ama kanıt dar hendek için yetmiyor. Şirket pazar payını açıklamıyor; hedefi 2030'da Kore pazarında %20'nin üstü, yani bugün daha küçük bir tedarikçi. Müşteri adları ve payları açılan belgelerde yok; basın, hacmin çoğunun bellek üreticilerine gittiğini yazıyor. Fiyatlama gücü görünmüyor: faaliyet kâr marjı 2024'te %29 iken 2026'nın ilk yarısında %20,2'ye indi; gelir %81 büyürken faaliyet kârı %44 büyüdü. Kaynağa göre yatırılan sermayenin getirisi beş yılda %7 ile %15 arasında; serbest nakit akışı son iki dönemde eksi. Ölçek büyük sermaye istiyor ve üstünlük bir iki büyük alıcının kararına bağlı.",
+  "mgmt": "En büyük ortak genel müdür Shim Ho-seop: %14,11; yakınlarıyla birlikte %24,3 (2025 sonu). Focus One Investment Purpose Company %10,4 bildirdi (Şubat 2026). Kâr ana işin dışına da gidiyor: şirket otomotiv esnek devre kartı üreticisi Circuit Flex'i bir yatırım şirketi üzerinden aldı ve 2025 sonunda konsolide etti; bağlı kuruluşları arasında girişim sermayesi fonları ve bir girişim sermayesi şirketi var. Ocak 2026'da 20 milyar wonluk faizsiz, yedi yıl vadeli tahvil ihraç edildi: paya çevrilirse 931.315 yeni pay doğar (yaklaşık %11,6); dönüştürme fiyatı 21.475 won, fiyat düşerse 15.032 wona kadar iner. Mayıs 2026'da Pyeongtaek'te 43,6 milyar wona arsa alındı (2025 sonu toplam aktifin %18,91'i). Eylül 2026'da 3 milyar wonluk geri alım kararı alındı (126.315 pay, iptal edilecek); alım fiyatı açılan belgelerde yok. Kaynakta temettü yok. Eylül 2025 sonunda net borç 55,6 milyar won idi. Hisse bazlı ücret, şerefiye (Circuit Flex alımından doğan) ve bilanço dışı yükümlülükler: bakıldı, açılan belgelerde yok; şirketin DART'taki raporu açılamadı.",
+  "latest": "12 Kasım 2026: Şirket üçüncü çeyrek raporunu açıkladı. Çeyrekte gelir 39,1 milyar won (+%82,9), faaliyet kârı 10,0 milyar won (+%75,3), net kâr 5,6 milyar won (-%24,7). Dokuz ayda gelir 108,1 milyar won (+%81,2), faaliyet kârı 23,9 milyar won (+%43,9), net kâr 12,3 milyar won (-%21,1). Basına göre şirket net kârdaki düşüşü vergi giderinin artmasına bağlıyor; ilk yarıda ayrıca tahvilin nakit dışı değerleme zararı ve 1 Ağustos 2026'da devredilen yurt dışı bağlı şirketin zararı vardı. Asan'daki yeni tesis temmuzda devreye girdi; çeyreklik kapasite yaklaşık 25 milyar wondan 35 milyar wona çıktı. Rakamlar DART raporunu aktaran basından; raporun kendisi açılamadı.",
+  "risks": [
+   "Son 12 ayın kârı işin olağan kazancını olduğundan yüksek gösteriyor: 2025'te net kâr (25,6 milyar won) faaliyet kârını (22,2 milyar won) aştı; farkın kaynağı (faaliyet dışı gelir ve düşük vergi) şirket belgesinden okunamadı. 2026'nın ilk dokuz ayında net kâr %21,1 geriledi.",
+   "Kazanç çip yatırım döngüsüne bağlı: talep bellek üreticilerinin kapasite kullanımıyla yükselir ve düşer. Beş yıl tam bir döngüyü göstermez; bugün döngünün güçlü yanındayız.",
+   "Müşteriler az sayıda büyük çip üreticisi; adları ve payları açıklanmıyor. Bir müşterinin başka tedarikçiye dönmesi geliri hemen düşürür.",
+   "Şirket borçla ve tahville büyüyor: net borç/FAVÖK kaynakta 2,2; 43,6 milyar wonluk arsa ve yeni tesisler sırada. Tahvil paya çevrilirse pay sayısı yaklaşık %11,6 artar.",
+   "Sermayenin bir bölümü ana işle ilgisi az alanlara gidiyor: esnek devre kartı (Circuit Flex) ve girişim sermayesi fonları."
+  ],
+  "watch": [
+   "Yarı iletken parçalarında faaliyet kâr marjı",
+   "Net kâr ile faaliyet kârı arasındaki fark",
+   "Net borç ve tahvilin paya çevrilmesi",
+   "Bellek üreticilerinin kapasite kullanımı"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/kosdaq/272110/financials/ratios/"
+   },
+   {
+    "t": "The Bell (Supple kopyası): KnJ dokuz aylık sonuçlar, bölümler, kapasite (19 Kas 2026)",
+    "te": "The Bell (Supple copy): KnJ nine-month results, segments, capacity (19 Nov 2026)",
+    "u": "https://supple.kr/news/cmwo6nh48xognkwp8xw0e0r12"
+   },
+   {
+    "t": "Vegan News: KnJ üçüncü çeyrek, DART raporundan (15 Kas 2026)",
+    "te": "Vegan News: KnJ third quarter, from the DART report (15 Nov 2026)",
+    "u": "https://www.vegannews.co.kr/news/article.html?no=405485"
+   },
+   {
+    "t": "Money Today / The Bell: KnJ ilk yarı sonuçları ve net kârdaki düşüşün nedenleri (2 Eyl 2026)",
+    "te": "Money Today / The Bell: KnJ first-half results and reasons for lower net profit (2 Sep 2026)",
+    "u": "https://www.mt.co.kr/article/2026090216149688264"
+   },
+   {
+    "t": "ETF Shopping: KnJ çeyreklik sonuçlar (gelir, faaliyet kârı, net kâr)",
+    "te": "ETF Shopping: KnJ quarterly results (revenue, operating profit, net profit)",
+    "u": "https://etfshopping.com/stock/272110/earnings"
+   },
+   {
+    "t": "Money Today / The Bell: KnJ 2025 sonuçları (27 Mar 2026)",
+    "te": "Money Today / The Bell: KnJ 2025 results (27 Mar 2026)",
+    "u": "https://www.mt.co.kr/article/2026032707569655707"
+   },
+   {
+    "t": "Money Today / The Bell: KnJ yatırımcı toplantısı, kapasite ve 2026 beklentisi (27 Eki 2026)",
+    "te": "Money Today / The Bell: KnJ investor meeting, capacity and 2026 outlook (27 Oct 2026)",
+    "u": "https://www.mt.co.kr/article/2026102715269669301"
+   },
+   {
+    "t": "Money Today / The Bell: KnJ pazar payı hedefi ve yatırımlar (9 Ara 2025)",
+    "te": "Money Today / The Bell: KnJ market share target and investments (9 Dec 2025)",
+    "u": "https://www.mt.co.kr/article/2025120916059670759"
+   },
+   {
+    "t": "Dealsite: KnJ 20 milyar wonluk tahvil ihracı (16 Oca 2026)",
+    "te": "Dealsite: KnJ 20 billion won convertible bond issue (16 Jan 2026)",
+    "u": "https://dealsite.co.kr/articles/154933"
+   },
+   {
+    "t": "Dealsite: KnJ Pyeongtaek arsası ve kapasite kullanımı (2026)",
+    "te": "Dealsite: KnJ Pyeongtaek site and capacity utilisation (2026)",
+    "u": "https://dealsite.co.kr/articles/163026"
+   },
+   {
+    "t": "ETF Shopping: KnJ ortaklık yapısı, 2025 faaliyet raporundan",
+    "te": "ETF Shopping: KnJ shareholders, from the 2025 annual report",
+    "u": "https://etfshopping.com/stock/272110/company"
+   },
+   {
+    "t": "Valueline: KnJ gelir tablosu, son 12 ay toplamları",
+    "te": "Valueline: KnJ income statement, trailing-12-month totals",
+    "u": "https://www.valueline.co.kr/finance/income/272110"
+   }
+  ],
+  "en": {
+   "one": "Makes silicon carbide rings that wear out in chip production. The moat is weak: market share and customers are not disclosed, margins are falling and net profit is down; it did not pass the third wall.",
+   "business": "KnJ makes silicon carbide (CVD-SiC) focus rings, which are used in the etching step of chip production and wear out over time. Production is in Asan and Dangjin. In the first nine months of 2026 revenue was 108.1 billion won (+81.2%) and operating profit 23.9 billion won (+43.9%). Semiconductor parts brought 80.5 billion won of revenue and 20.6 billion won of operating profit. Most of the rest comes from Circuit Flex, a flexible circuit board maker consolidated at the end of 2025 (25.8 billion won; operating margin about 12%). The company left the display equipment business in 2024.",
+   "moat_text": "The moat is weak. There is an advantage: a ring cannot be sold until it is qualified on the customer's production line, and because it is a consumable the sale repeats. Operating margin in semiconductor parts was 25.6% in the first nine months. But the evidence falls short of a narrow moat. The company does not disclose its market share; its target is more than 20% of the Korean market by 2030, so today it is a smaller supplier. Customer names and shares are not in the documents that could be opened; the press says most volume goes to memory makers. Pricing power does not show: operating margin was 29% in 2024 and fell to 20.2% in the first half of 2026; revenue grew 81% while operating profit grew 44%. According to the source, return on invested capital was between 7% and 15% over five years; free cash flow was negative in the last two periods. Scale needs heavy capital and the advantage depends on the decisions of one or two large buyers.",
+   "mgmt": "The largest shareholder is chief executive Shim Ho-seop: 14.11%; 24.3% with related parties (end of 2025). Focus One Investment Purpose Company reported 10.4% (February 2026). Profit also goes outside the core business: the company bought automotive flexible circuit board maker Circuit Flex through an investment vehicle and consolidated it at the end of 2025; its subsidiaries include venture capital funds and a venture capital firm. In January 2026 it issued a 20 billion won zero-coupon seven-year convertible bond: conversion would create 931,315 new shares (about 11.6%); the conversion price is 21,475 won and can reset down to 15,032 won if the share price falls. In May 2026 it bought land in Pyeongtaek for 43.6 billion won (18.91% of total assets at the end of 2025). In September 2026 it decided on a 3 billion won buyback (126,315 shares, to be cancelled); the purchase price is not in the documents that could be opened. The source shows no dividend. Net debt was 55.6 billion won at the end of September 2025. Share-based pay, goodwill (from the Circuit Flex acquisition) and off-balance-sheet obligations: checked, not in the documents that could be opened; the company's report on DART could not be opened.",
+   "latest": "12 November 2026: The company filed its third-quarter report. In the quarter revenue was 39.1 billion won (+82.9%), operating profit 10.0 billion won (+75.3%) and net profit 5.6 billion won (-24.7%). For nine months revenue was 108.1 billion won (+81.2%), operating profit 23.9 billion won (+43.9%) and net profit 12.3 billion won (-21.1%). According to the press the company attributes the fall in net profit to higher tax expense; in the first half there were also a non-cash valuation loss on the convertible bond and the loss of a foreign subsidiary transferred on 1 August 2026. The new Asan plant started in July; quarterly capacity rose from about 25 billion won to 35 billion won. The figures are from press reports of the DART filing; the filing itself could not be opened.",
+   "risks": [
+    "Last-12-month profit overstates the normal earnings of the business: in 2025 net profit (25.6 billion won) exceeded operating profit (22.2 billion won); the source of the gap (non-operating income and low tax) could not be read in a company document. In the first nine months of 2026 net profit fell 21.1%.",
+    "Earnings depend on the chip investment cycle: demand rises and falls with memory makers' capacity utilisation. Five years do not show a full cycle; today we are on the strong side of the cycle.",
+    "Customers are a small number of large chipmakers; their names and shares are not disclosed. One customer switching to another supplier would lower revenue at once.",
+    "The company is growing with debt and a convertible bond: net debt/EBITDA is 2.2 in the source; the 43.6 billion won site and new plants are ahead. If the bond converts, the share count rises by about 11.6%.",
+    "Part of the capital goes to areas with little link to the core business: flexible circuit boards (Circuit Flex) and venture capital funds."
+   ],
+   "watch": [
+    "Operating margin in semiconductor parts",
+    "Gap between net profit and operating profit",
+    "Net debt and conversion of the bond",
+    "Memory makers' capacity utilisation"
+   ]
+  },
+  "verify": {
+   "tr": "Kale adayı görünmesinin nedeni kârın bileşimi. Kaynağın F/K'sı (7,46) yaklaşık 23,8 milyar won kâr ima ediyor; basından toplanan son 12 ay net kârı yaklaşık 22,3 milyar won (2025 yılı 25,6 − 2025'in ilk dokuz ayı yaklaşık 15,6 + 2026'nın ilk dokuz ayı 12,3). Bunun yaklaşık 9,9 milyar wonu 2025'in dördüncü çeyreğinden; o çeyrekte faaliyet kârı 5,9 milyar wondu. Aradaki fark faaliyet dışı gelir ve düşük vergiden geliyor; kalemler şirket belgesinden okunamadı. 2026'nın ikinci çeyreğinde net kâr 0,4 milyar wona inmişti. Pay bölünmesi, eksi özsermaye ya da pay alım teklifi görülmedi. Düzeltme kaydı açılmadı: birincil belge açılamadı.",
+   "en": "It looks like a castle candidate because of what is inside profit. The source's P/E (7.46) implies profit of about 23.8 billion won; last-12-month net profit added up from press reports is about 22.3 billion won (full year 2025 at 25.6 − first nine months of 2025 at about 15.6 + first nine months of 2026 at 12.3). About 9.9 billion won of that is from the fourth quarter of 2025, when operating profit was 5.9 billion won. The gap comes from non-operating income and low tax; the items could not be read in a company document. In the second quarter of 2026 net profit had fallen to 0.4 billion won. No share split, negative equity or tender offer was seen. No correction record was opened: the primary document could not be opened."
+  },
+  "chk": {
+   "date": "2026-11-21",
+   "per": "2026-Q3"
   }
  }
 }

@@ -884,12 +884,12 @@
    "per": "2026-H1"
   },
   "earn": {
-   "k": 0.921,
+   "k": 0.862,
    "basis": {
-    "tr": "Hesap son 12 ayın kârına dayanır. Kaynağın F/K'sı son 12 ay için 0,0 milyar EUR kâr ima ediyor; şirketin kendi tablolarından toplanan son 12 ay kârı 0,0 milyar EUR. Farkın nedeni bulunamadı; şirketin belgesi esas alındı ve kazanç bu orana indirildi (%7,9). Son 12 ayın kârı 0,92 ile çarpılarak kullanıldı.",
-    "en": "The calculation rests on the profit of the last 12 months. The data source's P/E implies a last-12-month profit of 0.0 billion EUR; the last-12-month profit added up from the company's own statements is 0.0 billion EUR. The reason for the gap was not found; the company's document was taken as the basis and earnings were lowered to that ratio (7.9%). Last-12-month profit was used multiplied by 0.92."
+    "tr": "Hesap son 12 ayın kârına dayanır. Kaynağın F/K'sı son 12 ay için 0,0 milyar EUR kâr ima ediyor; şirketin kendi tablolarından toplanan son 12 ay kârı 0,0 milyar EUR. Farkın nedeni bulunamadı; şirketin belgesi esas alındı ve kazanç bu orana indirildi (%13,8). Son 12 ayın kârı 0,86 ile çarpılarak kullanıldı.",
+    "en": "The calculation rests on the profit of the last 12 months. The data source's P/E implies a last-12-month profit of 0.0 billion EUR; the last-12-month profit added up from the company's own statements is 0.0 billion EUR. The reason for the gap was not found; the company's document was taken as the basis and earnings were lowered to that ratio (13.8%). Last-12-month profit was used multiplied by 0.86."
    },
-   "ks": 0.921,
+   "ks": 0.862,
    "per": "2026-H1"
   },
   "growth": {
@@ -1205,14 +1205,14 @@
    "E": 1
   },
   "moat": "dar",
-  "per": "2026-Q1",
-  "one": "Kamu kurumlarına elektronik belge ve dosya yönetimi yazılımı satan Avusturyalı şirket. Surları geçti; gelirin %61'i yineleniyor, ama son çeyrekteki kâr sıçraması kalıcı olmayabilir.",
+  "per": "2026-Q2",
+  "one": "Kamu kurumlarına elektronik belge ve dosya yönetimi yazılımı satan Avusturyalı şirket. Surları geçti; gelirin %61'i yineleniyor, ama şirket ilk yarıdaki kâr gücünü geçici sayıyor.",
   "business": "Fabasoft, kamu kurumlarının ve şirketlerin elektronik dosya, belge ve süreç yönetimi için kullandığı yazılımı geliştirir; bulut hizmeti, lisans ve proje hizmeti satar. Mart 2026'da biten mali yılda hasılat 90,0 milyon avro, faaliyet kârı 15,7 milyon avro (%17,4), net kâr 10,8 milyon avro oldu. Hasılatın 54,9 milyon avrosu (%61,0) yinelenen gelirdir. Araştırma ve geliştirmeye hasılatın %29,4'ü harcanır. 505 çalışanı var. Nisan-Haziran 2025 çeyreğinde hasılatın yaklaşık %44'ü Almanya'dan, %39'u Avusturya'dan, %10'u İsviçre'den geldi (oranlar bizim hesabımız).",
   "moat_text": "Hendek dar sınıfta. Şirket kendini Almanca konuşulan ülkelerde elektronik dosyada pazar lideri olarak tanımlar. Bir kamu kurumunun dosya ve iş akışı sistemini değiştirmesi yıllar süren bir geçiş demektir; bu, müşteriyi bağlar. Kanıt: yinelenen gelir 2025/26'da %12,5 arttı ve hasılattaki payı %56,2'den %61,0'a çıktı; faaliyet kâr marjı %15,3'ten %17,4'e yükseldi. Reel özsermaye kârlılığı beş mali yılda ortalama %24,0, en düşük yılında %14,4; şirketin net nakdi olduğu için bu kârlılık borca dayanmaz. Neden geniş değil: şirket küçük (hasılat 90 milyon avro) ve aynı alanda çok daha büyük yazılım şirketleri var; hasılatın %39'u hâlâ proje ve lisans gibi yinelenmeyen işten gelir ve kamu ihaleleriyle alınır. Müşteri yoğunlaşması ve kamunun hasılattaki payı: bakıldı, okunan belgelerde rakam yok. Fiyat artışlarının kanıtı da okunan belgelerde yok.",
-  "mgmt": "Ana ortak, kurucuların vakfı Fallmann & Bauernfeind Privatstiftung'dur; pay oranı okunan belgelerde yok. Kurucu Helmut Fallmann yönetim kurulu başkanıdır. Temettü dalgalı: 2024/25 için hisse başına 0,10 avro, 2025/26 için 0,50 avro (8 Temmuz 2026 genel kurulu; hisse başına kâr 0,97 avro). Şirketin elinde 223.627 kendi payı var (yaklaşık %2,0); son dönemde geri alım yok. Nakit 40,3 milyon avro (30 Haziran 2026); tek önemli borç, Ekim 2024'te ofis binası için alınan 12 milyon avroluk 15 yıl vadeli kredi. Kâr ağırlıkla ürüne yatırılıyor. Bağlı ortaklıklarda azınlık payları var: Mindbreeze'in %85,5'i şirketin. Haziran 2025'te Oblivation'ın kalan %49'u eski yönetimden alındı; satıcılar arasında ilişkili bir taraf vardı, bedel okunan belgede yok. Bu yüzden D puanı 1. Hisse bazlı ücret programı yok (eski opsiyon programlarından 0,3 milyon avro yedek duruyor). Şerefiye, emeklilik açığı ve koşullu yükümlülük: bakıldı, okunan belgelerde yok; kira borcu 5,9 milyon avro (30 Haziran 2025).",
-  "latest": "13 Ağustos 2026: Şirket Nisan-Haziran 2026 çeyreğini açıkladı. Hasılat 25,4 milyon avro (+%19,7), yinelenen gelir 15,2 milyon avro (12,7), FAVÖK 7,3 milyon avro (4,3), faaliyet kârı 5,3 milyon avro (2,4). Basın haberlerine göre net kâr 3,8 milyon avro (1,7), hisse başına kâr 0,35 avro (0,15). Personel gideri hasılattan yavaş arttı; çalışan sayısı 499'da kaldı. Şirket rakamlı beklenti vermiyor; yılın kalanında satış, pazarlama ve yapay zekâ yatırımlarının kârlılığı baskılayacağını söylüyor. 5 Haziran 2026'da açıklanan yıllık sonuçlar: hasılat 90,0 milyon avro (86,8), faaliyet kârı 15,7 milyon avro (13,3), hisse başına kâr 0,97 avro (0,80).",
+  "mgmt": "Ana ortak, kurucuların vakfı Fallmann & Bauernfeind Privatstiftung'dur; pay oranı okunan belgelerde yok. Kurucu Helmut Fallmann yönetim kurulu başkanıdır. Temettü dalgalı: 2024/25 için hisse başına 0,10 avro, 2025/26 için 0,50 avro (8 Temmuz 2026 genel kurulu; hisse başına kâr 0,97 avro). Şirketin elinde 223.627 kendi payı var (yaklaşık %2,0); son dönemde geri alım yok. Nakit 35,8 milyon avro (30 Eylül 2026; 31 Mart 2026'da 41,8 milyon); tek önemli borç, Ekim 2024'te ofis binası için alınan 12 milyon avroluk 15 yıl vadeli kredi. Kâr ağırlıkla ürüne yatırılıyor. Bağlı ortaklıklarda azınlık payları var: Mindbreeze'in %85,5'i şirketin. Haziran 2025'te Oblivation'ın kalan %49'u eski yönetimden alındı; satıcılar arasında ilişkili bir taraf vardı, bedel okunan belgede yok. Bu yüzden D puanı 1. Hisse bazlı ücret programı yok (eski opsiyon programlarından 0,3 milyon avro yedek duruyor). Şerefiye, emeklilik açığı ve koşullu yükümlülük: bakıldı, okunan belgelerde yok; kira borcu 5,9 milyon avro (30 Haziran 2025).",
+  "latest": "13 Kasım 2026: Şirket Nisan-Eylül 2026 yarıyılını açıkladı. Hasılat 51,5 milyon avro (geçen yıl 43,6; +%18), yinelenen gelir 31,2 milyon avro (26,1; hasılatın %60,6'sı), FAVÖK 15,0 milyon avro (11,1), faaliyet kârı 10,9 milyon avro (7,3), faaliyet kâr marjı %21,3 (%16,8). Faaliyetlerden nakit akışı 7,0 milyon avro (0,8). Basın haberlerine göre dönem kârı 7,8 milyon avro (5,1), hisse başına kâr 0,72 avro (0,44); yarıyıl raporunun kendisi açılamadı. Temmuz-Eylül çeyreğinde faaliyet kârı 5,6 milyon avro (4,9). Personel gideri %6,9 arttı, hasılattan yavaş; çalışan sayısı 493 (497). Şirket faaliyet kârındaki gücü geçici sayıyor: pazarlama harcamaları, işe alımlar ve yatırımlar gecikti. Rakamlı beklenti yok.",
   "risks": [
-   "Son 12 ayın kârı, tek bir çok güçlü çeyreği içerir: Nisan-Haziran 2026'da hisse başına kâr 0,15 avrodan 0,35 avroya çıktı. Şirket yılın kalanında yatırımların kârlılığı baskılayacağını söylüyor; bu çeyrek olağan kazanç gücü sayılırsa değer olduğundan yüksek görünür.",
+   "Son 12 ayın kârı çok güçlü bir ilk yarıyı içerir: Nisan-Eylül 2026'da hisse başına kâr 0,44 avrodan 0,72 avroya çıktı (basın haberi). Şirket bu gücü geçici sayıyor; geciken pazarlama, işe alım ve yatırım harcamaları yapılınca kârlılık düşer. Bu yarıyıl olağan kazanç gücü sayılırsa değer olduğundan yüksek görünür.",
    "Müşterilerin çoğu Avusturya, Almanya ve İsviçre'deki kamu kurumlarıdır; bütçe kesintisi ya da büyük bir çerçeve sözleşmenin kaybı hasılatı doğrudan etkiler. Müşteri yoğunlaşması rakamı okunan belgelerde yok.",
    "Hasılatın %39'u proje ve lisans işidir ve çeyrekten çeyreğe oynar; kâr bu yüzden dalgalıdır (reel özsermaye kârlılığı 2021/22'de %14,4, 2023/24'te %30,2).",
    "Çok daha büyük yazılım şirketleri aynı kamu müşterilerine bulut ve yapay zekâ ürünleri sunuyor; hasılatın %29,4'ü araştırma ve geliştirmeye gidiyor ve bu harcamanın karşılığı kesin değil.",
@@ -1220,7 +1220,7 @@
   ],
   "watch": [
    "Yinelenen gelirin büyümesi ve hasılattaki payı (2025/26: %61,0)",
-   "İlk yarı sonuçları: faaliyet kâr marjı ilk çeyrekteki düzeyde kalıyor mu",
+   "Yılın ikinci yarısı: geciken harcamalar yapılınca faaliyet kâr marjı (ilk yarı: %21,3) nereye iniyor",
    "Büyük kamu sözleşmelerinin yenilenmesi (Avusturya ve Almanya)",
    "Temettü ve azınlık payı alımlarına giden nakit"
   ],
@@ -1259,16 +1259,31 @@
     "t": "Quartr: Fabasoft 2026/27 ilk çeyrek özeti",
     "te": "Quartr: Fabasoft Q1 2026/27 summary",
     "u": "https://quartr.com/events/fabasoft-ag-faa-q1-2027_FGXmuJgu"
+   },
+   {
+    "t": "Fabasoft: 2026/27 ilk yarı sonuçları, EQS duyurusu (13 Kas 2026; Deutsche Börse)",
+    "te": "Fabasoft: first-half 2026/27 results, EQS announcement (13 Nov 2026; Deutsche Börse)",
+    "u": "https://live.deutsche-boerse.com/news/EQS-News-Fabasoft-Reports-Revenue-and-Earnings-Growth-in-the-First-Half-of-Fiscal-Year-2026-2027-bc1c9ce8-7726-4335-866b-f978be159f36"
+   },
+   {
+    "t": "trend.at (APA): Fabasoft ilk yarıda hasılat ve kârı artırdı (13 Kas 2026)",
+    "te": "trend.at (APA): Fabasoft raises revenue and profit in the first half (13 Nov 2026)",
+    "u": "https://www.trend.at/news/fabasoft-steigerte-im-ersten-halbjahr-umsatz-und-gewinn"
+   },
+   {
+    "t": "Quartr: Fabasoft 2026/27 ikinci çeyrek özeti",
+    "te": "Quartr: Fabasoft Q2 2026/27 summary",
+    "u": "https://quartr.com/events/fabasoft-ag-faa-q2-2027_FGXmuf10"
    }
   ],
   "en": {
-   "one": "An Austrian company selling electronic records and document management software to public bodies. It passed the walls; 61% of revenue recurs, but the latest quarter's profit jump may not last.",
+   "one": "An Austrian company selling electronic records and document management software to public bodies. It passed the walls; 61% of revenue recurs, but the company itself calls the first half's profit strength temporary.",
    "business": "Fabasoft develops the software that public bodies and companies use for electronic files, documents and process management; it sells cloud services, licences and project services. In the fiscal year to March 2026 revenue was 90.0 million euros, operating profit 15.7 million euros (17.4%) and net profit 10.8 million euros. Recurring revenue was 54.9 million euros (61.0%). It spends 29.4% of revenue on research and development and has 505 employees. In the April-June 2025 quarter about 44% of revenue came from Germany, 39% from Austria and 10% from Switzerland (our arithmetic).",
    "moat_text": "The moat is narrow. The company describes itself as the market leader in electronic records in the German-speaking countries. For a public body, replacing its records and workflow system means a migration that takes years; this ties the customer in. Evidence: recurring revenue grew 12.5% in 2025/26 and its share of revenue rose from 56.2% to 61.0%; the operating margin rose from 15.3% to 17.4%. Real return on equity averaged 24.0% over five fiscal years and was 14.4% in its lowest year; as the company has net cash, this return does not rest on debt. Why not wide: the company is small (revenue of 90 million euros) and far larger software companies work in the same field; 39% of revenue still comes from non-recurring project and licence work won through public tenders. Customer concentration and the public sector's share of revenue: checked, no figure in the documents read. Evidence of price increases is also not in the documents read.",
-   "mgmt": "The main shareholder is the founders' foundation, Fallmann & Bauernfeind Privatstiftung; its percentage is not in the documents read. Founder Helmut Fallmann chairs the managing board. The dividend is uneven: 0.10 euros per share for 2024/25 and 0.50 euros for 2025/26 (annual meeting of 8 July 2026; earnings per share 0.97 euros). The company holds 223,627 treasury shares (about 2.0%); there were no recent buybacks. Cash is 40.3 million euros (30 June 2026); the only significant debt is a 12 million euro, 15-year loan taken in October 2024 for an office building. Profit goes mostly into the product. There are minorities in subsidiaries: the company owns 85.5% of Mindbreeze. In June 2025 the remaining 49% of Oblivation was bought from its former management; the sellers included a related party, and the price is not in the document read. This is why the D score is 1. There is no share-based pay programme (0.3 million euros remains in reserves from former option plans). Goodwill, pension deficit and contingent liabilities: checked, not in the documents read; lease liabilities were 5.9 million euros (30 June 2025).",
-   "latest": "13 August 2026: The company reported the April-June 2026 quarter. Revenue was 25.4 million euros (+19.7%), recurring revenue 15.2 million euros (12.7), EBITDA 7.3 million euros (4.3) and operating profit 5.3 million euros (2.4). According to press reports net profit was 3.8 million euros (1.7) and earnings per share 0.35 euros (0.15). Personnel expenses grew more slowly than revenue; headcount stayed at 499. The company gives no numerical guidance; it says investment in sales, marketing and AI will weigh on profitability for the rest of the year. Annual results published on 5 June 2026: revenue 90.0 million euros (86.8), operating profit 15.7 million euros (13.3), earnings per share 0.97 euros (0.80).",
+   "mgmt": "The main shareholder is the founders' foundation, Fallmann & Bauernfeind Privatstiftung; its percentage is not in the documents read. Founder Helmut Fallmann chairs the managing board. The dividend is uneven: 0.10 euros per share for 2024/25 and 0.50 euros for 2025/26 (annual meeting of 8 July 2026; earnings per share 0.97 euros). The company holds 223,627 treasury shares (about 2.0%); there were no recent buybacks. Cash is 35.8 million euros (30 September 2026; 41.8 million on 31 March 2026); the only significant debt is a 12 million euro, 15-year loan taken in October 2024 for an office building. Profit goes mostly into the product. There are minorities in subsidiaries: the company owns 85.5% of Mindbreeze. In June 2025 the remaining 49% of Oblivation was bought from its former management; the sellers included a related party, and the price is not in the document read. This is why the D score is 1. There is no share-based pay programme (0.3 million euros remains in reserves from former option plans). Goodwill, pension deficit and contingent liabilities: checked, not in the documents read; lease liabilities were 5.9 million euros (30 June 2025).",
+   "latest": "13 November 2026: The company reported the April-September 2026 half-year. Revenue was 51.5 million euros (43.6 a year earlier; +18%), recurring revenue 31.2 million euros (26.1; 60.6% of revenue), EBITDA 15.0 million euros (11.1), operating profit 10.9 million euros (7.3) and the operating margin 21.3% (16.8%). Cash flow from operations was 7.0 million euros (0.8). According to press reports the result for the period was 7.8 million euros (5.1) and earnings per share 0.72 euros (0.44); the half-year report itself could not be opened. In the July-September quarter operating profit was 5.6 million euros (4.9). Personnel expenses rose 6.9%, more slowly than revenue; headcount was 493 (497). The company calls the strength in operating profit temporary: marketing spending, hiring and investment were delayed. There is no numerical guidance.",
    "risks": [
-    "The profit of the last 12 months includes one very strong quarter: in April-June 2026 earnings per share rose from 0.15 to 0.35 euros. The company says investment will weigh on profitability for the rest of the year; if that quarter is taken as normal earning power, value looks higher than it is.",
+    "The profit of the last 12 months includes a very strong first half: in April-September 2026 earnings per share rose from 0.44 to 0.72 euros (press report). The company calls this strength temporary; profitability will fall once the delayed marketing, hiring and investment spending is made. If this half-year is taken as normal earning power, value looks higher than it is.",
     "Most customers are public bodies in Austria, Germany and Switzerland; a budget cut or the loss of a large framework contract hits revenue directly. A figure for customer concentration is not in the documents read.",
     "39% of revenue is project and licence work that moves from quarter to quarter; profit is uneven as a result (real return on equity was 14.4% in 2021/22 and 30.2% in 2023/24).",
     "Far larger software companies offer cloud and AI products to the same public customers; 29.4% of revenue goes to research and development, and the return on that spending is not certain.",
@@ -1276,14 +1291,14 @@
    ],
    "watch": [
     "Growth of recurring revenue and its share of revenue (2025/26: 61.0%)",
-    "Half-year results: does the operating margin stay at the first-quarter level",
+    "Second half of the year: where the operating margin (first half: 21.3%) settles once the delayed spending is made",
     "Renewal of large public contracts (Austria and Germany)",
     "Cash going to dividends and purchases of minority stakes"
    ]
   },
   "chk": {
-   "date": "2026-11-15",
-   "per": "2026-Q1"
+   "date": "2026-11-21",
+   "per": "2026-Q2"
   },
   "earn": {
    "k": 1.0,
@@ -1291,15 +1306,15 @@
     "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı.",
     "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are."
    },
-   "per": "2026-Q1"
+   "per": "2026-Q2"
   },
   "growth": {
    "g": null,
    "basis": {
-    "tr": "Formül yılda %8,3 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Nisan-Haziran 2026 (2026/27 mali yılının ilk çeyreği) %133,3. En düşüğü, enflasyondan arındırılınca, %126,9. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
-    "en": "The formula gave growth of 8.3% a year. Latest figures (earnings per share, year on year): April-June 2026 (first quarter of fiscal 2026/27) 133.3%. The lowest, after inflation, is 126.9%. That is not less than half the formula's rate; the rate was not lowered."
+    "tr": "Formül yılda %8,3 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Nisan-Eylül 2026 (2026/27 mali yılının ilk yarısı) %63,6; Temmuz-Eylül 2026 (ikinci çeyrek, tek başına) %27,6. En düşüğü, enflasyondan arındırılınca, %24,1. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 8.3% a year. Latest figures (earnings per share, year on year): April-September 2026 (first half of fiscal 2026/27) 63.6%; July-September 2026 (second quarter, standalone) 27.6%. The lowest, after inflation, is 24.1%. That is not less than half the formula's rate; the rate was not lowered."
    },
-   "per": "2026-Q1"
+   "per": "2026-Q2"
   }
  },
  "LIK": {

@@ -1,0 +1,214 @@
+{
+ "cc": "TW",
+ "code": "6498",
+ "report": {
+  "scores": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 2,
+   "E": 1
+  },
+  "moat": "dar",
+  "per": "2026-Q3",
+  "one": "Dizüstü bilgisayar kameralarına plastik mercek yapan şirket. Fiyat düşünce kale oldu; ama kâr zirveden dönüyor ve hesap yılda %2,8 büyüme varsayıyor.",
+  "business": "Powertip Image (久禾光電) plastik optik mercek tasarlar ve üretir. Hasılatın yaklaşık %95'i dizüstü bilgisayar kamerası merceklerinden gelir; müşterileri arasında ASUS, Acer, HP ve Lenovo var. Üretim Çin'dedir. 2025'te hasılat 1,24 milyar Tayvan doları, hisse başına kâr 6,51 Tayvan doları oldu. Şirket Mayıs 2025'te Taipei Exchange'de işlem görmeye başladı.",
+  "moat_text": "Hendek dar. Şirket dizüstü bilgisayar kamera merceğinde ilk iki üreticiden biri ve payının %30'un üzerinde olduğunu söylüyor. Üstünlüğü çok ince ve dar merceği seri üretebilmesi; 2025'te 52 patent başvurusu yaptı. Kanıt rakamlarda: 2026'nın ilk dokuz ayında brüt marj %43,1, faaliyet marjı %26,3; reel özsermaye kârlılığı beş yılda %21,0 ile %30,6 arasında. Ama her şey tek ürüne ve birkaç bilgisayar markasına bağlı. Brüt marj 2025'teki %47,8'den geriledi, Çinli rakipler seri üretimde güçlü. Bu yüzden hendek geniş sayılamaz.",
+  "mgmt": "Halka arz öncesinde en büyük ortaklar Powertip Technology (久正光電, %36,26) ve Brightek (佰鴻, %19,05) idi (Mayıs 2025). 2025 kârından hisse başına 4,5 Tayvan doları nakit temettü ödendi (hisse başına kâr 6,51). Net nakit var (net borç/FAVÖK −3,1). Yönetim kurulu 2026 ve 2027 için Dongguan'da toplam yaklaşık 1 milyar Tayvan doları yatırım onayladı; bunun beşte biri makine, kalanı arsa ve bina. Yatırım ana işe gidiyor, ama Eylül 2026 sonundaki 1,61 milyar Tayvan doları özsermayeye göre büyük. Şirket hisse geri almıyor; 2025'teki halka arzda pay sayısı yaklaşık %14,6 arttı ve 414 milyon Tayvan doları net para girdi. Kilit yöneticilere ödenen tutar 2026'nın ilk yarısında 18,1 milyondan 29,3 milyon Tayvan dolarına çıktı.",
+  "latest": "16 Kasım 2026: Hisse bir günde %9,5 düştü (55,80'den 50,50 Tayvan dolarına); aynı gün Tayvan borsası %6,0 geriledi ve optik hisselerinin çoğu sert düştü. Şirkete özgü bir haber bulunmadı; 21 Kasım'da fiyat 45,15 Tayvan doları. 4 Kasım 2026: Yönetim kurulu 2026'nın ilk dokuz ayının sonuçlarını onayladı. Hasılat 1,01 milyar Tayvan doları, faaliyet kârı 266 milyon, net kâr 228 milyon Tayvan doları. Hisse başına kâr 4,83 Tayvan doları; ana ortaklık özkaynağı 30 Eylül 2026'da 1,61 milyar Tayvan doları. İlk yarıda hisse başına kâr 3,60 olduğuna göre üçüncü çeyreğe 1,23 Tayvan doları düşüyor; geçen yılın üçüncü çeyreği 2,10 idi. Ekim 2026 hasılatı 81 milyon Tayvan doları ile geçen yılın %28,6 altında kaldı.",
+  "risks": [
+   "Kale sonucu büyüme varsayımına ve son 12 ayın yüksek kârına dayanıyor; güvenlik marjı eşiğe yakın. Formül yılda %5,6 büyüme veriyordu, okumada bulunanlar yüzünden %2,8 alındı. Kâr zirveden dönüyor: üçüncü çeyrekte hisse başına kâr 1,23 Tayvan doları ile geçen yılın %41 altında, ekim hasılatı geçen yılın %28,6 altında. Bu gidiş sürerse son 12 ayın kârı (hisse başına 6,73 Tayvan doları) düşer ve marj kapanır. 2026 rakamları veri sitelerinden okundu; şirketin üçüncü çeyrek raporu açılamadı.",
+   "Rakip Ability Opto-Electronics 2022'de patent ihlali gerekçesiyle 100 milyon Tayvan doları tazminat davası açtı (2025 özsermayesinin %6,4'ü). Dava Kasım 2024'te ilk derecede reddedildi, temyiz sürüyor. Kasım 2025'te, Largan'dan devraldığı iki patentle ikinci bir dava açtı; basına göre istenen tutar 53,3 milyon Tayvan doları. Şirket karşılık ayırdı ama tutarını açıklamıyor.",
+   "Müşteri yoğunluğu yüksek: 2025'te dört müşteri hasılatın %70'ini verdi (%23, %21, %14, %12).",
+   "Tek ürün: hasılatın yaklaşık %95'i dizüstü bilgisayar kamerası merceği. Bilgisayar satışları yavaşlarsa ya da bir marka tedarikçi değiştirirse kâr hızla düşer.",
+   "Üretim Çin'de. Müşteriler üretimin Çin dışına taşınmasını isterse yeni tesis kurmak gerekir; hisse Tayvan'da işlem gördüğü için enflasyon düzeltmesi Tayvan enflasyonuyla yapıldı."
+  ],
+  "watch": [
+   "Aylık hasılatın yıllık değişimi",
+   "Brüt marj (2026'nın ilk dokuz ayında %43,1)",
+   "Dizüstü bilgisayar dışı merceklerin hasılattaki payı (şimdi yaklaşık %5)",
+   "Dongguan yatırımının tutarı ve takvimi"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tpex/6498/financials/ratios/"
+   },
+   {
+    "t": "Yahoo Finance Tayvan (MoneyDJ): Powertip Image ilk dokuz ayda 228 milyon Tayvan doları kâr, hisse başına 4,83; borsa bildirimi (4 Kasım 2026)",
+    "te": "Yahoo Finance Taiwan (MoneyDJ): Powertip Image nine-month profit NT$228 million, NT$4.83 per share; exchange filing (4 November 2026)",
+    "u": "https://tw.stock.yahoo.com/news/%E4%B9%85%E7%A6%BE%E5%85%89%E5%89%8D%E4%B8%89%E5%AD%A3%E5%90%88%E4%BD%B5%E7%8D%B2%E5%88%A92-28%E5%84%84%E5%85%83-%E6%AF%8F%E8%82%A1%E7%A8%85%E5%BE%8C4-83%E5%85%83-090500376.html"
+   },
+   {
+    "t": "Fugle: Powertip Image yatırımcı toplantısı notları (20 Mayıs 2026)",
+    "te": "Fugle: Powertip Image investor conference notes (20 May 2026)",
+    "u": "https://blog.fugle.tw/post/earnings-call-6498-2026-05-20"
+   },
+   {
+    "t": "Economic Daily News (udn): Powertip Image 2025 üçüncü çeyrek hisse başına kâr 2,15 (6 Kasım 2025)",
+    "te": "Economic Daily News (udn): Powertip Image Q3 2025 earnings per share 2.15 (6 November 2025)",
+    "u": "https://money.udn.com/money/story/5607/9120194"
+   },
+   {
+    "t": "Cnyes: Powertip Image 20 Mayıs'ta Taipei Exchange'e kote oluyor (5 Mayıs 2025)",
+    "te": "Cnyes: Powertip Image to list on the Taipei Exchange on 20 May (5 May 2025)",
+    "u": "https://news.cnyes.com/news/id/5959962"
+   },
+   {
+    "t": "Nstock: Powertip Image şirket özeti, Ekim 2026 hasılatı ve temettü",
+    "te": "Nstock: Powertip Image company summary, October 2026 revenue and dividend",
+    "u": "https://www.nstock.tw/久禾光做什麼.html"
+   },
+   {
+    "t": "HiStock: Powertip Image aylık hasılat (2026)",
+    "te": "HiStock: Powertip Image monthly revenue (2026)",
+    "u": "https://histock.tw/stock/financial.aspx?no=6498"
+   },
+   {
+    "t": "StockFeel: Powertip Image marjlar ve temettü",
+    "te": "StockFeel: Powertip Image margins and dividends",
+    "u": "https://www.stockfeel.com.tw/financial/?stock=6498"
+   },
+   {
+    "t": "Yahoo Tayvan: 6498 çeyreklik hisse başına kâr tablosu",
+    "te": "Yahoo Taiwan: 6498 quarterly earnings-per-share table",
+    "u": "https://tw.stock.yahoo.com/quote/6498/eps"
+   },
+   {
+    "t": "İkinci okuma: Powertip Image: 2025 consolidated financial statements (company investor page)",
+    "te": "Second reading: Powertip Image: 2025 consolidated financial statements (company investor page)",
+    "u": "https://ptic.com.tw/-pub/user_files/investor/zh-tw/%E8%B2%A1%E5%8B%99%E5%AD%A3%E5%A0%B1/114%E5%B9%B4Q4%E5%90%88%E4%BD%B5%E8%B2%A1%E5%A0%B1.pdf"
+   },
+   {
+    "t": "İkinci okuma: Powertip Image: 2023 consolidated financial statements (company investor page)",
+    "te": "Second reading: Powertip Image: 2023 consolidated financial statements (company investor page)",
+    "u": "https://ptic.com.tw/-pub/user_files/investor/zh-tw/%E8%B2%A1%E5%8B%99%E5%AD%A3%E5%A0%B1/112%E5%B9%B4Q4%E5%90%88%E4%BD%B5%E8%B2%A1%E5%A0%B1.pdf"
+   },
+   {
+    "t": "İkinci okuma: Powertip Image: H1 2026 consolidated financial statements, reviewed (company investor page)",
+    "te": "Second reading: Powertip Image: H1 2026 consolidated financial statements, reviewed (company investor page)",
+    "u": "https://ptic.com.tw/-pub/user_files/investor/zh-tw/%E8%B2%A1%E5%8B%99%E5%AD%A3%E5%A0%B1/115%E5%B9%B4Q2%E5%90%88%E4%BD%B5%E8%B2%A1%E5%A0%B1.pdf"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: Ocak-Eylül 2026",
+    "te": "Source for the growth judgment: January-September 2026",
+    "u": "https://ww2.money-link.com.tw/TWStock/StockBasic.aspx?SymId=6498"
+   },
+   {
+    "t": "Büyüme yargısının kaynağı: Temmuz-Eylül 2026 çeyreği",
+    "te": "Source for the growth judgment: July-September 2026 quarter",
+    "u": "https://www.nstock.tw/%E4%B9%85%E7%A6%BE%E5%85%89%E5%81%9A%E4%BB%80%E9%BA%BC.html"
+   },
+   {
+    "t": "Win Invest: Powertip Image Ekim 2026 hasılatı (14 Kasım 2026)",
+    "te": "Win Invest: Powertip Image October 2026 revenue (14 November 2026)",
+    "u": "https://winvest.tw/News/Detail/98914"
+   },
+   {
+    "t": "FTNN: optik hisselerinde sert düşüş (16 Kasım 2026)",
+    "te": "FTNN: sharp fall in optical stocks (16 November 2026)",
+    "u": "https://www.ftnn.com.tw/news/596208"
+   },
+   {
+    "t": "TechNews: Ability Opto-Electronics'in Powertip Image'a açtığı ikinci patent davası (10 Mayıs 2026)",
+    "te": "TechNews: Ability Opto-Electronics' second patent suit against Powertip Image (10 May 2026)",
+    "u": "https://finance.technews.tw/2026/05/10/aoet-initiates-patent-lawsuit-against-ptic/"
+   },
+   {
+    "t": "Economic Daily News (udn): Powertip Image haber dizini (dava tutarı 53,3 milyon Tayvan doları)",
+    "te": "Economic Daily News (udn): Powertip Image news index (claim of TWD 53.3 million)",
+    "u": "https://money.udn.com/industry/company/6498"
+   }
+  ],
+  "en": {
+   "one": "A maker of plastic lenses for laptop cameras. It became a castle after the price fell; but profit is turning down from a peak and the calculation assumes 2.8% growth a year.",
+   "business": "Powertip Image (久禾光電) designs and makes plastic optical lenses. About 95% of revenue comes from laptop camera lenses; its customers include ASUS, Acer, HP and Lenovo. Production is in China. In 2025 revenue was 1.24 billion Taiwan dollars and earnings per share 6.51 Taiwan dollars. The company began trading on the Taipei Exchange in May 2025.",
+   "moat_text": "The moat is narrow. The company is one of the top two makers of laptop camera lenses and says its share is above 30%. Its edge is the ability to mass-produce very thin, narrow lenses; it filed 52 patents in 2025. The evidence is in the figures: in the first nine months of 2026 gross margin was 43.1% and operating margin 26.3%; real return on equity ranged from 21.0% to 30.6% over five years. But everything depends on one product and a handful of computer brands. Gross margin has slipped from 47.8% in 2025, and Chinese rivals are strong in mass production. So the moat cannot be called wide.",
+   "mgmt": "Before the listing the largest shareholders were Powertip Technology (久正光電, 36.26%) and Brightek (佰鴻, 19.05%) (May 2025). A cash dividend of 4.5 Taiwan dollars per share was paid from 2025 profit (earnings per share 6.51). The company holds net cash (net debt/EBITDA −3.1). The board approved investment of about 1 billion Taiwan dollars in total in Dongguan for 2026 and 2027; a fifth of it is machinery, the rest land and buildings. The investment goes into the core business, but it is large next to equity of 1.61 billion Taiwan dollars at the end of September 2026. The company does not buy back shares; the 2025 listing raised the share count by about 14.6% and brought in TWD 414 million net. Pay to key management rose from TWD 18.1 million to 29.3 million in the first half of 2026.",
+   "latest": "16 November 2026: The share fell 9.5% in one day (from 55.80 to 50.50 Taiwan dollars); the Taiwan market fell 6.0% the same day and most optical stocks dropped sharply. No company-specific news was found; on 21 November the price was 45.15 Taiwan dollars. 4 November 2026: The board approved the results for the first nine months of 2026. Revenue was 1.01 billion Taiwan dollars, operating profit 266 million and net profit 228 million Taiwan dollars. Earnings per share were 4.83 Taiwan dollars; equity attributable to the parent was 1.61 billion Taiwan dollars at 30 September 2026. Since first-half earnings per share were 3.60, the third quarter accounts for 1.23 Taiwan dollars; the third quarter of last year was 2.10. October 2026 revenue was 81 million Taiwan dollars, 28.6% below last year.",
+   "risks": [
+    "The castle result rests on the growth assumption and on the high profit of the last 12 months; the margin of safety is close to the threshold. The formula gave growth of 5.6% a year; because of what the reading found, 2.8% was used. Profit is turning down from a peak: third-quarter earnings per share were 1.23 Taiwan dollars, 41% below last year, and October revenue was 28.6% below last year. If this continues, last-12-month profit (6.73 Taiwan dollars per share) falls and the margin closes. The 2026 figures were read on data pages; the company's third-quarter report could not be opened.",
+    "Rival Ability Opto-Electronics sued in 2022 for patent infringement, claiming TWD 100 million (6.4% of 2025 equity). The claim was dismissed at first instance in November 2024 and is under appeal. In November 2025 it filed a second suit on two patents taken over from Largan; according to the press it claims TWD 53.3 million. The company has accrued an amount but does not disclose it.",
+    "Customer concentration is high: four customers made up 70% of 2025 revenue (23%, 21%, 14%, 12%).",
+    "One product: about 95% of revenue is laptop camera lenses. If computer sales slow or a brand changes supplier, profit falls quickly.",
+    "Production is in China. If customers ask for production outside China, a new plant is needed; because the share trades in Taiwan, the inflation adjustment uses Taiwan's inflation."
+   ],
+   "watch": [
+    "Year-on-year change in monthly revenue",
+    "Gross margin (43.1% in the first nine months of 2026)",
+    "Share of non-laptop lenses in revenue (about 5% now)",
+    "Amount and timetable of the Dongguan investment"
+   ]
+  },
+  "growth": {
+   "g": 2.8,
+   "basis": {
+    "tr": "Formül yılda %5,6 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 %4,8; Temmuz-Eylül 2026 çeyreği %−41,4. Ekim 2026 hasılatı 81,0 milyon Tayvan doları ile geçen yılın %28,6 altında; ilk on ayın hasılatı 1,09 milyar Tayvan doları (yıllık %6,9 artış). En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %2,8.",
+    "en": "The formula gave growth of 5.6% a year. Latest figures (earnings per share, year on year): January-September 2026 4.8%; July-September 2026 quarter −41.4%. October 2026 revenue was 81.0 million Taiwan dollars, 28.6% below last year; revenue for the first ten months was 1.09 billion Taiwan dollars (up 6.9% year on year). The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 2.8%."
+   },
+   "per": "2026-Q3"
+  },
+  "earn": {
+   "k": 1.0,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı.",
+    "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are."
+   },
+   "per": "2026-Q3"
+  },
+  "chk": {
+   "date": "2026-11-21",
+   "per": "2026-Q3"
+  }
+ },
+ "growth": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": 4.8,
+   "url": "https://ww2.money-link.com.tw/TWStock/StockBasic.aspx?SymId=6498",
+   "cur_val": "4.83",
+   "prev_val": "4.61",
+   "unit": "Tayvan doları / Taiwan dollars",
+   "date": "2026-11-04"
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": -41.4,
+   "url": "https://www.nstock.tw/%E4%B9%85%E7%A6%BE%E5%85%89%E5%81%9A%E4%BB%80%E9%BA%BC.html",
+   "cur_val": "1.23",
+   "prev_val": "2.10",
+   "unit": "Tayvan doları / Taiwan dollars",
+   "date": "2026-11-04"
+  },
+  "guidance": null,
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": "Ekim 2026 hasılatı 81,0 milyon Tayvan doları ile geçen yılın %28,6 altında; ilk on ayın hasılatı 1,09 milyar Tayvan doları (yıllık %6,9 artış).",
+  "note_en": "October 2026 revenue was 81.0 million Taiwan dollars, 28.6% below last year; revenue for the first ten months was 1.09 billion Taiwan dollars (up 6.9% year on year).",
+  "notes": " UPDATE 12 Nov 2026: prior-year nine-month basic EPS is 4.61 in the company's own Q3 2025 report (https://ptic.com.tw/-pub/user_files/investor/zh-tw/%E8%B2%A1%E5%8B%99%E5%AD%A3%E5%A0%B1/114%E5%B9%B4Q3%E5%90%88%E4%BD%B5%E8%B2%A1%E5%A0%B1.pdf), not Yahoo's 4.57; pct recomputed 4.83/4.61 = +4.8%. The 2026 leg (4.83) is still from Yahoo: the Q3 2026 report was not on the company site and MOPS refused. UPDATE 21 Nov 2026: still NOT primary. The company's Q3 2026 report (ptic.com.tw) and the Yahoo relay of the filing were refused by the fetch tool. Figures re-read on data pages this session: Money-Link (9M basic EPS 4.83 vs 4.61), nStock (Q3 EPS 1.23, -41.43% YoY; October revenue 81.02m, -28.59% YoY; Jan-Oct 1.092bn, +6.92%), winvest.tw (October revenue 81,023 thousand, published 14 Nov 2026). No November revenue yet (due in early December). Share price: 55.80 -> 50.50 on 16 Nov 2026 (-9.5%, Money-Link), the day the TAIEX fell 2,635 points (6.03%) in a market-wide sell-off of AI and optical stocks (FTNN, Vocus); no company-specific news found."
+ },
+ "earn": {
+  "unit": "million TWD",
+  "eps_cur": "TWD",
+  "ttm": {
+   "eps": 6.73,
+   "net_profit": 317.0,
+   "tr": "Ekim 2025 - Eylül 2026 (2025 yılı − 2025'in ilk dokuz ayı + 2026'nın ilk dokuz ayı)",
+   "en": "October 2025 - September 2026 (fiscal 2025 − first nine months of 2025 + first nine months of 2026)",
+   "url": "https://tw.stock.yahoo.com/news/%E4%B9%85%E7%A6%BE%E5%85%89%E5%89%8D%E4%B8%89%E5%AD%A3%E5%90%88%E4%BD%B5%E7%8D%B2%E5%88%A92-28%E5%84%84%E5%85%83-%E6%AF%8F%E8%82%A1%E7%A8%85%E5%BE%8C4-83%E5%85%83-090500376.html"
+  },
+  "tax_rate": 26.5,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "EPS 6.73 = FY2025 6.51 (nstock.tw, stockfeel, winvest.tw) - 9M 2025 4.61 (udn, 6 Nov 2025) + 9M 2026 4.83 (exchange announcement of 4 Nov 2026 reproduced on Yahoo Taiwan: net profit 228.005m, pre-tax 310.017m, operating profit 265.828m). Only the 9M 2026 figures are from the company's filing; the 2025 pieces are news/data-page figures. Net profit 317 is approximate: about 292 (FY2025, winvest.tw, rounded) - 203 (9M 2025, udn, rounded) + 228.0. CONFLICT: Yahoo's single-quarter EPS table gives 2025 Q4 1.97, 2026 Q1 1.75, Q2 1.85 (Q3 2026 not yet in the table; 4.83 - 3.60 = 1.23), which sums to 6.80; Yahoo shows Q3 2025 as 2.10 where udn reported 2.15, and its 2025 quarters sum to 6.54 against the reported annual 6.51 (share count changed with the May 2025 listing). The site's implied EPS is 6.704. Tax rate 26.5% is my calculation from the 9M 2026 announcement (1 - 228.005/310.017). No company EPS/profit guidance: at the 20 May 2026 investor conference management only said the second half of 2026 should be roughly flat with the first half (Fugle notes). No one-off gain identified by the company. Non-operating income is material but not broken down: 9M 2026 pre-tax profit exceeds operating profit by 44.2m TWD (14% of pre-tax); the announcement says nothing on its composition. For Q3 2025 udn reported an FX gain of about 9m TWD (that quarter is outside the last 12 months). Could not open: wantgoo income statement (empty page); MOPS not tried. UPDATE 21 Nov 2026 (weekly refresh, same period 2026-Q3): the company's Q3 2026 consolidated report could NOT be opened (ptic.com.tw PDF and the Yahoo relay of the 4 Nov filing were both refused by the fetch tool; MOPS not reachable), so the 2026 leg is still NOT primary. Cross-checks opened this session, all data pages: Money-Link shows nine-month basic EPS 4.83 against 4.61 a year earlier and book value per share 34.01 (30.38 a year earlier) (https://ww2.money-link.com.tw/TWStock/StockBasic.aspx?SymId=6498); nStock shows Q3 2026 EPS 1.23, -41.43% year on year, Q3 gross margin 38.93%, operating margin 19.25%; StockFeel shows nine-month gross margin 43.14%, operating margin 26.3%. No one-off gain found in these pages."
+ }
+}

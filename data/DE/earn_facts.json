@@ -193,11 +193,11 @@
   "unit": "million EUR",
   "eps_cur": "EUR",
   "ttm": {
-   "eps": 1.17,
+   "eps": 1.25,
    "net_profit": null,
-   "tr": "Temmuz 2025 - Haziran 2026: hisse başına kâr 0,97 − 0,15 + 0,35 = 1,17 avro (2025/26 mali yılı, 2025/26 ilk çeyrek, 2026/27 ilk çeyrek)",
-   "en": "July 2025 - June 2026: earnings per share 0.97 − 0.15 + 0.35 = 1.17 euros (fiscal 2025/26, first quarter of 2025/26, first quarter of 2026/27)",
-   "url": "https://quartr.com/events/fabasoft-ag-faa-q1-2027_FGXmuJgu",
+   "tr": "Ekim 2025 - Eylül 2026: hisse başına kâr 0,97 − 0,44 + 0,72 = 1,25 avro (2025/26 mali yılı, 2025/26 ilk yarı, 2026/27 ilk yarı)",
+   "en": "October 2025 - September 2026: earnings per share 0.97 − 0.44 + 0.72 = 1.25 euros (fiscal 2025/26, first half of 2025/26, first half of 2026/27)",
+   "url": "https://quartr.com/events/fabasoft-ag-faa-q2-2027_FGXmuf10",
    "primary": false
   },
   "tax_rate": 24.0,
@@ -205,6 +205,6 @@
   "offsets": [],
   "drop": null,
   "guidance": [],
-  "notes": "Helper session G3, 15 Nov 2026. FY2025/26 EPS 0.97 (EQS release 5 Jun 2026, boersengefluester copy; the company's own press-release page gives only revenue/EBIT). Q1 2025/26 EPS 0.15: company 3-month report 2025/26 (primary). Q1 2026/27 EPS 0.35: Quartr summary only -> ttm primary false. Net profit attributable to the parent not read for FY2025/26 or Q1 2026/27 (10.80m and 3.78m are totals including minorities; total TTM = 10.80 - 1.708 + 3.78 = 12.87m) -> net_profit null, use EPS. Dataset implies 16.5/14.21 = 1.161: consistent with 1.17. No one-off GAINS mentioned in the releases read (full annual report not opened, so 'not found', not 'verified absent'). Tax rate from Q1 2025/26: 539/2,247 = 24.0%. No EPS guidance. Fiscal year ends 31 March; dataset 'per' 2026-Q1 corresponds to the quarter ended 30 June 2026."
+  "notes": "Helper session, 21 Nov 2026. NOT PRIMARY. The half-year report PDF (fabasoft.com/group/Fabasoft_AG_6_Monthsreport_2026_2027.pdf and the German 6_Monatsbericht) could not be opened (WebFetch permission not granted). H1 2026/27 EPS 0.72 vs 0.44 read only in the Quartr summary; result for the period 7.8m vs 5.1m in trend.at/APA (13 Nov 2026) and 7.822m vs 5.085m in Quartr - these are totals; the parent's share was not read -> net_profit null, use EPS. The company's own EQS release of 13 Nov 2026 (Deutsche Boerse copy, opened) gives revenue 51,480k (43,641k), EBITDA 14,979k (11,119k), EBIT 10,947k (7,319k), operating cash flow 7.0m (0.8m), cash 35.8m - but no net profit or EPS. FY2025/26 EPS 0.97 as in the previous record (EQS release 5 Jun 2026). Source check: 17.85 / 14.43 = 1.237, consistent with 1.25 (source not higher). No one-off gains mentioned in the release or summaries (full report not opened: 'not found', not 'verified absent'). Tax rate 24.0% carried from the Q1 2025/26 report (539/2,247); not re-read. No EPS guidance. The company calls the H1 EBIT strength temporary (delayed marketing, hiring, investment) - a qualitative statement, no figure, so the rule cannot use it; it is stated in the report's risks. Fiscal year ends 31 March; dataset 'per' 2026-Q2 = half-year ended 30 Sep 2026."
  }
 }

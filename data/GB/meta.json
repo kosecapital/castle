@@ -5,8 +5,8 @@
  "market": "uk",
  "exchange": "Londra Borsası (ana pazar ve AIM) ve Aquis Borsası",
  "cur": "GBP",
- "asof": "2026-11-14",
- "fx": 0.7568,
+ "asof": "2026-11-21",
+ "fx": 0.764,
  "mcapMin": 50,
  "years": [
   "2021",
@@ -21,7 +21,7 @@
   "2023": 4.0,
   "2024": 2.5,
   "2025": 3.4,
-  "cur": 3.5
+  "cur": 3.6
  },
  "deflate": "all",
  "inflation_note": "Birleşik Krallık şirketleri enflasyon muhasebesi uygulamaz. Bu yüzden bütün şirketlerin özsermaye kârlılığı yıl sonu tüketici enflasyonuyla düzeltildi: 2021 için %5,4, 2022 için %10,5, 2023 için %4,0, 2024 için %2,5, 2025 için %3,4. Son 12 ay için en son açıklanan yıllık oran (Eylül 2026, %3,5) kullanıldı.",

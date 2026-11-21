@@ -627,25 +627,25 @@
  "XP": {
   "metric": "EPS",
   "ytd": {
-   "tr": "Ocak-Haziran 2026 (iki çeyreğin toplamı)",
-   "en": "January-June 2026 (sum of two quarters)",
-   "pct": 8.6,
-   "cur_val": "5.16",
-   "prev_val": "4.75",
+   "tr": "Ocak-Eylül 2026 (dokuz ay)",
+   "en": "January-September 2026 (nine months)",
+   "pct": 8.8,
+   "cur_val": "7.8532",
+   "prev_val": "7.2159",
    "unit": "Brezilya reali / Brazilian reais",
-   "date": "2026-08-17",
-   "url": "https://www.sec.gov/Archives/edgar/data/0001787425/000095010326012481/dp251884_6k-ex9901.htm",
+   "date": "2026-11-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001787425/000095010326017562/dp256944_ex9901.htm",
    "primary": true
   },
   "quarter": {
-   "tr": "Nisan-Haziran 2026 çeyreği",
-   "en": "April-June 2026 quarter",
-   "pct": 8.5,
-   "cur_val": "2.67",
-   "prev_val": "2.46",
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 9.0,
+   "cur_val": "2.6884",
+   "prev_val": "2.4669",
    "unit": "Brezilya reali / Brazilian reais",
-   "date": "2026-08-17",
-   "url": "https://www.sec.gov/Archives/edgar/data/0001787425/000095010326012481/dp251884_6k-ex9901.htm",
+   "date": "2026-11-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001787425/000095010326017562/dp256944_ex9901.htm",
    "primary": true
   },
   "guidance": null,
@@ -656,7 +656,7 @@
   "skip": null,
   "note_tr": null,
   "note_en": null,
-  "notes": "3Q26 results are due 16 Nov 2026 (marketscreener calendar); not out. The releases give no half-year figures: ytd is my sum of Q1 (2.49 vs 2.29 reais, release of 18 May 2026, https://www.businesswire.com/news/home/20260518553415/en/xp-inc.-reports-first-quarter-2026-results/) and Q2 (2.67 vs 2.46) diluted EPS; sums of quarterly EPS are approximate. Net income: Q1 1,318 vs 1,236 million reais (+7%), Q2 1,384 vs 1,321 (+5%), first half 2,702 vs 2,557 (+5.7%, my sum). Reported and adjusted net income are identical. No numeric guidance; management targets a BIS ratio of 16-19% by year-end via distributions (20.3% in Q2). Q2: fixed-income revenue fell 16%, corporate revenue rose 117% (existing report). No tax or regulatory change mentioned in either release."
+  "notes": "Read 21 Nov 2026 from the reviewed interim financial statements for 30 Sep 2026 (6-K, 16 Nov 2026): diluted EPS as presented. Net income attributable to owners: quarter 1,381.4 vs 1,319.6 million reais (+4.7%); nine months 4,082.9 vs 3,874.1 (+5.4%). EPS grows faster than profit because the share count fell (diluted weighted average 519.9 vs 536.9 million). Pre-tax income rose 18% in the quarter (1,571.7 vs 1,330.6) but income tax went from 0.5 to 190.0. No numeric profit guidance. Reported and adjusted net income are identical in the quarter. Net inflow 22 bn reais (29 bn a year earlier). Brazil: presidential runoff on 25 Oct 2026; the share fell about 49% in the month to 6 Nov (TIKR, secondary) - a price event, no permanent profit loss shown in the documents."
  },
  "LLY": {
   "metric": "EPS",
@@ -961,49 +961,49 @@
  "NVDA": {
   "metric": "EPS",
   "ytd": {
-   "tr": "Şubat-Temmuz 2026 (2027 mali yılının ilk yarısı)",
-   "en": "February-July 2026 (first half of fiscal 2027)",
-   "pct": 163.6,
-   "cur_val": "4.85",
-   "prev_val": "1.84",
+   "tr": "Şubat-Ekim 2026 (2027 mali yılının ilk dokuz ayı)",
+   "en": "February-October 2026 (first nine months of fiscal 2027)",
+   "pct": 140.4,
+   "cur_val": "7.55",
+   "prev_val": "3.14",
    "unit": "dolar / dollars",
-   "date": "2026-08-26",
-   "url": "https://nvidianews.nvidia.com/_gallery/download_pdf/6a8f4ad73d6332b41f76ab70",
+   "date": "2026-11-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27pr.htm",
    "primary": true
   },
   "quarter": {
-   "tr": "Mayıs-Temmuz 2026 çeyreği",
-   "en": "May-July 2026 quarter",
-   "pct": 127.8,
-   "cur_val": "2.46",
-   "prev_val": "1.08",
+   "tr": "Ağustos-Ekim 2026 çeyreği",
+   "en": "August-October 2026 quarter",
+   "pct": 107.7,
+   "cur_val": "2.70",
+   "prev_val": "1.30",
    "unit": "dolar / dollars",
-   "date": "2026-08-26",
-   "url": "https://nvidianews.nvidia.com/_gallery/download_pdf/6a8f4ad73d6332b41f76ab70",
+   "date": "2026-11-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27pr.htm",
    "primary": true
   },
   "guidance": null,
   "adjusted": {
-   "what_tr": "Şirketin düzeltilmiş (non-GAAP) kârı hisse senedi yatırımlarından gelen kazancı (çeyrekte vergi öncesi 7,77 milyar dolar; geçen yıl 2,25 milyar) ve satın alma giderlerini dışarıda bırakır: çeyrekte 2,22 dolar (geçen yıl 1,01), altı ayda 4,09 dolar (geçen yıl 1,78).",
-   "what_en": "The company's non-GAAP EPS excludes gains on equity securities (7.77 billion dollars pre-tax in the quarter; 2.25 billion a year ago) and acquisition-related costs: 2.22 dollars in the quarter (1.01 a year ago), 4.09 dollars in six months (1.78 a year ago).",
-   "ytd_pct": 129.8,
-   "quarter_pct": 119.8,
-   "url": "https://nvidianews.nvidia.com/_gallery/download_pdf/6a8f4ad73d6332b41f76ab70"
+   "what_tr": "Şirketin düzeltilmiş (non-GAAP) kârı hisse senedi yatırımlarından gelen kazancı (çeyrekte vergi öncesi 1,77 milyar dolar; geçen yıl 1,35 milyar) ve satın alma giderlerini dışarıda bırakır: çeyrekte 2,68 dolar (geçen yıl 1,27), dokuz ayda 6,77 dolar (geçen yıl 3,05).",
+   "what_en": "The company's non-GAAP EPS excludes gains on equity securities (1.77 billion dollars pre-tax in the quarter; 1.35 billion a year ago) and acquisition-related costs: 2.68 dollars in the quarter (1.27 a year ago), 6.77 dollars in nine months (3.05 a year ago).",
+   "ytd_pct": 122.0,
+   "quarter_pct": 111.0,
+   "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27pr.htm"
   },
   "departed": {
-   "tr": "Çin'e veri merkezi çipi satışı: şirketin gelecek çeyrek beklentisi (108,0 milyar dolar hasılat, ±%2) Çin'den veri merkezi geliri içermiyor.",
-   "en": "Data center chip sales to China: the company's outlook for the next quarter (revenue of 108.0 billion dollars, plus or minus 2%) assumes no data center compute revenue from China.",
+   "tr": "Çin'e veri merkezi çipi satışı: şirketin gelecek çeyrek beklentisi (130,0 milyar dolar hasılat, ±%3) Çin'den veri merkezi geliri içermiyor.",
+   "en": "Data center chip sales to China: the company's outlook for the next quarter (revenue of 130.0 billion dollars, plus or minus 3%) assumes no data center compute revenue from China.",
    "remaining_pct": null,
-   "basis_tr": "Şirket Çin hariç büyümeyi ayrı açıklamıyor; beklenti bu kaybı içeriyor ve bir önceki çeyreğin 96,2 milyar dolarlık hasılatının %12 üstünde.",
-   "basis_en": "The company does not disclose growth excluding China; the outlook already includes the loss and is 12% above the previous quarter's revenue of 96.2 billion dollars.",
-   "url": "https://nvidianews.nvidia.com/_gallery/download_pdf/6a8f4ad73d6332b41f76ab70"
+   "basis_tr": "Şirket Çin hariç büyümeyi ayrı açıklamıyor; beklenti bu kaybı içeriyor ve bir önceki çeyreğin 115,8 milyar dolarlık hasılatının %12 üstünde (gelecek çeyrek 14 hafta).",
+   "basis_en": "The company does not disclose growth excluding China; the outlook already includes the loss and is 12% above the previous quarter's revenue of 115.8 billion dollars (the next quarter has 14 weeks).",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27pr.htm"
   },
   "permanent": null,
   "dividend": null,
   "skip": null,
   "note_tr": null,
   "note_en": null,
-  "notes": "Primary: NVIDIA's press release PDF for the quarter ended 26 July 2026 (the PDF shows no issue date; 26 Aug 2026 is from the existing report). Third-quarter results are due 17 November 2026, so this is still the latest. Company states GAAP EPS +128% and non-GAAP +120% for the quarter; six-month percents are my arithmetic from reported values. GAAP net income: quarter 59,688 vs 26,422 mn dollars (+126%); six months 118,010 vs 45,197. No EPS guidance: outlook covers revenue (108.0 bn, +/-2%), gross margin 74.0% and operating expenses for the next quarter only. The revenue jump from 96.2 to 108.0 bn is +12.3% quarter on quarter. The China item is listed under departed because the company itself excludes it; how much China contributed historically was not in the release."
+  "notes": "Read 21 Nov 2026 from the Q3 FY27 press release as filed with the SEC (8-K exhibit, 17 Nov 2026). Percentages are my arithmetic from reported EPS (2.70 vs 1.30; 7.55 vs 3.14; non-GAAP 2.68 vs 1.27; 6.77 vs 3.05). The non-GAAP quarter figure (+111.0%) is higher than the reported one (+107.7%) because last year's gains were proportionally larger; non-GAAP figures now include stock-based compensation (prior periods restated). Nine-month fiscal 2026 included 4.3 bn of H20 charges, which flatters the nine-month comparison. GAAP net income: quarter 65,287 vs 31,910 mn dollars (+104.6%); nine months 183,297 vs 77,107. No EPS guidance. Q4 outlook: revenue 130.0 bn +/-3% (14 weeks), gross margin 71.0-72.0% (74.8% in Q3). CEO Jen-Hsun Huang resigned as president, CEO and director effective 11 Nov 2026 (8-K, Item 5.02); CFO Colette Kress is interim CEO; an independent board committee's investigation is ongoing. This is not entered as 'permanent': no document shows a lasting loss of profit."
  },
  "META": {
   "metric": "EPS",

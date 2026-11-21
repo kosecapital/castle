@@ -341,5 +341,43 @@
   "note_tr": null,
   "note_en": null,
   "notes": "NOT primary: the company's Q3 2026 report (SSE/cninfo) was not found/opened. 2026 figures from Soochow Securities note (1 Nov 2026) and Guojin note (30 Oct 2026), which agree; 10jqka gives 23.15% for nine months. Cross-check against the PRIMARY 2025 annual report summary (China Securities Journal disclosure, https://epaper.cs.com.cn/zgzqb/images/2026-04/02/B049/zqB04902.pdf): 2025 quarterly parent net profit Q1 411.10m, Q2 553.06m, Q3 505.62m (9M 1,469.78m), Q4 287.75m; ex-non-recurring Q1 380.52, Q2 546.18, Q3 483.77 (9M 1,410.47), Q4 232.14. 1,469.78 x 1.2315 = 1,810.0 (note: 18.10); 505.62 x 1.294 = 654.3 (note: 6.54); 1,410.47 x 1.229 = 1,733.5 (note: 17.33); 483.77 x 1.304 = 630.8 (note: 6.31). All consistent. METRIC CAVEAT: this is net profit, not EPS. The convertible bond converted during 2025 (delisted 12 Dec 2025), so the average share count in 2026 is higher than in 2025: FY2025 basic EPS 1.20 on 1,757.5m profit implies about 1,465m average shares versus 1,547.6m at end-2025 (about +5.6%). EPS growth for nine months is therefore several points below 23%; nine-month 2026 EPS was not found. Either way far above half the formula rate (10.3%), so no cut expected. No company profit guidance found. Dividend yield is in the source (1.06%); company paid 3.47 yuan per 10 shares for 2025."
+ },
+ "603259": {
+  "metric": "net profit",
+  "ytd": {
+   "tr": "Ocak-Eylül 2026",
+   "en": "January-September 2026",
+   "pct": 60.64,
+   "cur_val": "19,398",
+   "prev_val": "12,076",
+   "unit": "milyar yuan / billion yuan",
+   "date": "2026-10-26",
+   "url": "https://finance.eastmoney.com/a/202610263908232397.html"
+  },
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 çeyreği",
+   "en": "July-September 2026 quarter",
+   "pct": 136.67,
+   "cur_val": "8,318",
+   "prev_val": "3,515",
+   "unit": "milyar yuan / billion yuan",
+   "date": "2026-10-26",
+   "url": "https://finance.eastmoney.com/a/202610263908232397.html"
+  },
+  "guidance": null,
+  "adjusted": {
+   "what_tr": "Olağan dışı kalemler hariç net kâr (şirketin kendi 'koufei' rakamı): dokuz ayda 16,477 milyar yuan, üçüncü çeyrekte 5,905 milyar yuan. Fark pay ve iş satışı kazançlarından geliyor; dokuz ayda olağan dışı kalemler net 2,922 milyar yuan, çoğu iştirak WuXi XDC'deki payların satışından",
+   "what_en": "Net profit excluding non-recurring items (the company's own figure): 16.477 billion yuan in nine months, 5.905 billion in the third quarter. The gap comes from gains on selling shares and businesses; non-recurring items were a net 2.922 billion yuan in nine months, mostly from selling shares in the associate WuXi XDC",
+   "ytd_pct": 73.03,
+   "quarter_pct": 49.85,
+   "url": "https://finance.eastmoney.com/a/202610263908232397.html"
+  },
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Written 21 Nov 2026. Not primary: the Q3 2026 report itself was not found; figures from Eastmoney (26 Oct 2026), cnfin, Quartr and the company press release copied on Webull (https://www.webull.com/news/15813817204002816); they agree. Prior-year legs are primary (Q3 2025 report, China Securities Journal e-paper: 9M 2025 net profit 12,075.5m, excl. 9,522.4m; Q3 2025 3,514.6m, excl. 3,940.3m): 16,477/9,522.4 = +73.03%, 5,905/3,940.3 = +49.86%. No profit guidance (revenue guidance only: 61.0-61.9bn for 2026, raised twice). Divested businesses (ATU US/UK, US medical device testing, clinical research sold to Hillhouse in Dec 2025) are in discontinued operations; continuing-operations revenue +46.3% in 9M 2026; no remaining-profit growth is disclosed, so 'departed' was left empty. No permanent cause: the US BIOSECURE provisions (NDAA FY2026, signed 18 Dec 2025) have not produced a designation; DoD put the company on the 1260H list on 8 Jun 2026, the company sued on 11 Jun and won a preliminary injunction on 7 Aug 2026; OMB's first list is due by 18 Dec 2026 (DLA Piper, 24 Aug 2026; Yicai, 27 Oct 2026). Dividend yield is in the source (1.37%)."
  }
 }

@@ -206,5 +206,32 @@
   "drop": null,
   "guidance": [],
   "notes": "TTM net profit = Q4 2025 287.749m (PRIMARY: 2025 annual report summary quarterly table, https://epaper.cs.com.cn/zgzqb/images/2026-04/02/B049/zqB04902.pdf) + 9M 2026 1,810m (NOT primary: Soochow note, rounded to 0.01bn yuan). Ex-non-recurring: Q4 2025 232.139m (primary) + 9M 2026 1,733m (broker note) = 1,965.1m. Non-recurring TTM = 132.6m = 6.3% of TTM profit; rounding of the 2026 figures could move this by about +-1m. Composition of the non-recurring items not read (the Q3 report table was not opened). EPS 1.36 is DERIVED: 2,097.7 / 1,547.594m shares (share count at end-2025 per annual report; all convertible bonds converted/redeemed by Dec 2025). Reported nine-month 2026 EPS not found; FY2025 basic EPS 1.20 (average shares lower because conversion happened during 2025). Source check: universe P/E 24.07 at 32.8 implies EPS 1.363; market cap 51,565.8 / 24.07 = 2,142m versus document 2,097.7m (source 2.1% higher, inside 3%). Universe market cap implies 1,572m shares versus 1,547.6m at end-2025 (+1.6%, reason not read). Tax rate not read; the company's non-recurring total is already after tax. No profit guidance."
+ },
+ "603259": {
+  "unit": "million CNY",
+  "eps_cur": "CNY",
+  "ttm": {
+   "eps": 8.97,
+   "net_profit": 26472.0,
+   "tr": "Ekim 2025 - Eylül 2026 (2026 dokuz ay + 2025 yılı − 2025 dokuz ay; sulandırılmış hisse başına kâr 6,55 + 6,63 − 4,21)",
+   "en": "October 2025 - September 2026 (nine months 2026 + full year 2025 − nine months 2025; diluted earnings per share 6.55 + 6.63 − 4.21)",
+   "url": "https://finance.eastmoney.com/a/202610263908232397.html"
+  },
+  "tax_rate": null,
+  "gains": [
+   {
+    "tr": "Şirketin 'olağan dışı' diye ayırdığı kalemlerin son 12 aydaki net tutarı, yaklaşık 6,28 milyar yuan: çoğu iştirak WuXi XDC'deki payların satışından ve Aralık 2025'te tamamlanan klinik araştırma işinin satışından",
+    "en": "Net total over the last 12 months of the items the company itself classes as non-recurring, about 6.28 billion yuan: mostly from selling shares in its associate WuXi XDC and from the sale of the clinical research business completed in December 2025",
+    "frac": 0.237,
+    "how": null,
+    "period_tr": "Ekim 2025 - Eylül 2026",
+    "period_en": "October 2025 - September 2026",
+    "url": "https://finance.eastmoney.com/a/202610263908232397.html"
+   }
+  ],
+  "offsets": [],
+  "drop": null,
+  "guidance": [],
+  "notes": "Written 21 Nov 2026. NOT fully primary: the Q3 2026 report itself (SSE/HKEX) was not found; the company's IR page (wuxiapptec.com/news/wuxi-news/8916) returned only a contact page. 9M 2026 (Eastmoney 26 Oct 2026, cnfin, Quartr, and the company press release copied on Webull; they agree): net profit attributable 19,398m (+60.64%), excl. non-recurring 16,477m (+73.03%), non-recurring net 2,922m of which non-current asset disposal 3,108m (mainly partial sale of WuXi XDC Cayman shares); Q3 2026 net profit 8,318m (+136.67%), excl. 5,905m (+49.85%); diluted EPS (CAS) 6.55, +55.6% (press release); basic EPS not read. PRIMARY, opened: Q3 2025 report as printed in China Securities Journal (https://epaper.cs.com.cn/zgzqb/images/2025-10/27/B046/zqB04627.pdf): 9M 2025 net profit 12,075.513m, excl. 9,522.413m, non-recurring total 2,553.100m (asset disposal 3,223.3m), basic EPS 4.25, diluted 4.21; Q3 2025 net profit 3,514.630m, excl. 3,940.287m; equity 70,948.1m. PRIMARY, opened (first 100k characters only): 2025 annual report on HKEX (https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0401/2026040101920.pdf): IFRS net profit attributable 19,194.9m, basic EPS 6.72, diluted 6.63, equity attributable 79,712.3m, cash 29,455.8m, borrowings 7,805.8m, share-based compensation 645.4m, US customers 31.25bn of continuing revenue 43.42bn. FY2025 under CAS (Eastmoney, 23 Mar 2026, rounded by the article): net profit 19,150m, excl. non-recurring 13,240m; Q4 2025 net profit 7,080m, excl. 3,720m. TTM net profit (CAS) = 19,150 - 12,075.5 + 19,398 = 26,472m; TTM diluted EPS = 6.63 (IFRS annual) - 4.21 + 6.55 = 8.97 (standards mixed: IFRS for the year, CAS for the nine months; difference 45m on the year). TTM non-recurring = (19,150 - 13,240) - 2,553.1 + 2,922 = 6,279m (my arithmetic), 23.7% of TTM net profit; TTM profit excl. non-recurring = 3,720 + 16,477 = 20,197m. Source check: price 140.8 / P/E 15.81 = 8.91 per share, below the document's 8.97: fine. Market value / P/E = 27,652m against 26,472m: the source's market value (437.2bn) looks about 4% above shares x A price; H shares trade higher (A-share value 443.1bn, H-share value HKD 567.7bn on 26 Oct per Yicai). Equity at 30 Sep 2026 NOT read. No profit guidance: 2026 guidance is revenue 61.0-61.9bn, capex 8.0-8.5bn, adjusted free cash flow 14.5-15.5bn, and a 'stable' adjusted non-IFRS margin. The company's adjusted non-IFRS profit excludes share-based pay, so it was not used."
  }
 }

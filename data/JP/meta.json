@@ -5,8 +5,8 @@
  "market": "japan",
  "exchange": "Tokyo Borsası (Nagoya, Fukuoka ve Sapporo ile)",
  "cur": "JPY",
- "asof": "2026-11-14",
- "fx": 159.676,
+ "asof": "2026-11-21",
+ "fx": 158.531,
  "mcapMin": 10000,
  "years": [
   "2021",
@@ -21,7 +21,7 @@
   "2023": 2.91,
   "2024": 2.92,
   "2025": 2.1,
-  "cur": 2.1
+  "cur": 2.3
  },
  "deflate": "all",
  "inflation_note": "Japon şirketleri enflasyon muhasebesi uygulamaz. Bu yüzden bütün şirketlerin özsermaye kârlılığı yıl sonu tüketici enflasyonuyla düzeltildi: 2021 için %0,5, 2022 için %3,86, 2023 için %2,91, 2024 için %2,92, 2025 için %2,1. Son 12 ay için en son açıklanan yıllık oran (%2,1) kullanıldı.",

@@ -161,13 +161,21 @@
    "tr": "Ocak-Eylül 2026",
    "en": "January-September 2026",
    "pct": 4.8,
-   "url": "https://tw.stock.yahoo.com/quote/6498/eps"
+   "url": "https://ww2.money-link.com.tw/TWStock/StockBasic.aspx?SymId=6498",
+   "cur_val": "4.83",
+   "prev_val": "4.61",
+   "unit": "Tayvan doları / Taiwan dollars",
+   "date": "2026-11-04"
   },
   "quarter": {
    "tr": "Temmuz-Eylül 2026 çeyreği",
    "en": "July-September 2026 quarter",
    "pct": -41.4,
-   "url": "https://tw.stock.yahoo.com/quote/6498/eps"
+   "url": "https://www.nstock.tw/%E4%B9%85%E7%A6%BE%E5%85%89%E5%81%9A%E4%BB%80%E9%BA%BC.html",
+   "cur_val": "1.23",
+   "prev_val": "2.10",
+   "unit": "Tayvan doları / Taiwan dollars",
+   "date": "2026-11-04"
   },
   "guidance": null,
   "adjusted": null,
@@ -175,9 +183,9 @@
   "permanent": null,
   "dividend": null,
   "skip": null,
-  "note_tr": "Ekim 2026 hasılatı geçen yılın %28,6 altında.",
-  "note_en": "October 2026 revenue was 28.6% below last year.",
-  "notes": " UPDATE 12 Nov 2026: prior-year nine-month basic EPS is 4.61 in the company's own Q3 2025 report (https://ptic.com.tw/-pub/user_files/investor/zh-tw/%E8%B2%A1%E5%8B%99%E5%AD%A3%E5%A0%B1/114%E5%B9%B4Q3%E5%90%88%E4%BD%B5%E8%B2%A1%E5%A0%B1.pdf), not Yahoo's 4.57; pct recomputed 4.83/4.61 = +4.8%. The 2026 leg (4.83) is still from Yahoo: the Q3 2026 report was not on the company site and MOPS refused."
+  "note_tr": "Ekim 2026 hasılatı 81,0 milyon Tayvan doları ile geçen yılın %28,6 altında; ilk on ayın hasılatı 1,09 milyar Tayvan doları (yıllık %6,9 artış).",
+  "note_en": "October 2026 revenue was 81.0 million Taiwan dollars, 28.6% below last year; revenue for the first ten months was 1.09 billion Taiwan dollars (up 6.9% year on year).",
+  "notes": " UPDATE 12 Nov 2026: prior-year nine-month basic EPS is 4.61 in the company's own Q3 2025 report (https://ptic.com.tw/-pub/user_files/investor/zh-tw/%E8%B2%A1%E5%8B%99%E5%AD%A3%E5%A0%B1/114%E5%B9%B4Q3%E5%90%88%E4%BD%B5%E8%B2%A1%E5%A0%B1.pdf), not Yahoo's 4.57; pct recomputed 4.83/4.61 = +4.8%. The 2026 leg (4.83) is still from Yahoo: the Q3 2026 report was not on the company site and MOPS refused. UPDATE 21 Nov 2026: still NOT primary. The company's Q3 2026 report (ptic.com.tw) and the Yahoo relay of the filing were refused by the fetch tool. Figures re-read on data pages this session: Money-Link (9M basic EPS 4.83 vs 4.61), nStock (Q3 EPS 1.23, -41.43% YoY; October revenue 81.02m, -28.59% YoY; Jan-Oct 1.092bn, +6.92%), winvest.tw (October revenue 81,023 thousand, published 14 Nov 2026). No November revenue yet (due in early December). Share price: 55.80 -> 50.50 on 16 Nov 2026 (-9.5%, Money-Link), the day the TAIEX fell 2,635 points (6.03%) in a market-wide sell-off of AI and optical stocks (FTNN, Vocus); no company-specific news found."
  },
  "2330": {
   "metric": "EPS",
@@ -311,7 +319,7 @@
   "skip": null,
   "note_tr": null,
   "note_en": null,
-  "notes": "9M 2026 EPS 35.24 and parent net profit 9,929.637m are in the exchange filing (Yahoo relay, board date 9 Nov 2026). 9M 2025 EPS 27.9 and Q3 2025 EPS 9.9 are from a Yahoo news article of 6 Nov 2025 (not the filing itself); pct = 35.24/27.9-1 = 26.31%, consistent with UDN's net profit +26.3%. Quarter: 12.46/9.9-1 = 25.86% (UDN: net profit +25.7%; nStock: +25.86%). No EPS guidance: chairman only says Q4 momentum stays strong and 2027 will be better than 2026 (qualitative). No departed business, no permanent cause found. Dividend yield is in the source (4.51%)."
+  "notes": "9M 2026 EPS 35.24 and parent net profit 9,929.637m are in the exchange filing (Yahoo relay, board date 9 Nov 2026). 9M 2025 EPS 27.9 and Q3 2025 EPS 9.9 are from a Yahoo news article of 6 Nov 2025 (not the filing itself); pct = 35.24/27.9-1 = 26.31%, consistent with UDN's net profit +26.3%. Quarter: 12.46/9.9-1 = 25.86% (UDN: net profit +25.7%; nStock: +25.86%). No EPS guidance: chairman only says Q4 momentum stays strong and 2027 will be better than 2026 (qualitative). No departed business, no permanent cause found. Dividend yield is in the source (4.51%). UPDATE 21 Nov 2026: period now 2026-Q3 in the universe; figures unchanged and re-read (nStock relay of the filing: Q3 EPS 12.46; Yahoo 6 Nov 2025: 9M 2025 EPS 27.9, Q3 2025 EPS 9.9)."
  },
  "5289": {
   "metric": "EPS",

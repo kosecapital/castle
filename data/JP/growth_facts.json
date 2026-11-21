@@ -565,33 +565,23 @@
  "6036": {
   "metric": "EPS",
   "ytd": {
-   "tr": "Temmuz 2025 - Haziran 2026 (mali yıl)",
-   "en": "July 2025 - June 2026 (fiscal year)",
-   "pct": 101.1,
-   "cur_val": "360.20",
-   "prev_val": "179.14",
-   "unit": "yen (bölünme öncesi) / yen (pre-split)",
-   "date": "2026-08-14",
-   "url": "https://www2.jpx.co.jp/disc/60360/140120260814521177.pdf",
-   "primary": true
+   "tr": "Temmuz-Eylül 2026 çeyreği (mali yılın ilk çeyreği; net kâr)",
+   "en": "July-September 2026 quarter (first quarter of the fiscal year; net profit)",
+   "pct": 35.5,
+   "cur_val": "1,233",
+   "prev_val": "910",
+   "unit": "milyon yen / million yen",
+   "date": "2026-11-16",
+   "url": "https://s.kabutan.jp/stocks/6036/news/k202611160029/",
+   "primary": false
   },
-  "quarter": {
-   "tr": "Nisan-Haziran 2026 çeyreği (yıl eksi dokuz ay)",
-   "en": "April-June 2026 quarter (full year minus nine months)",
-   "pct": 78.9,
-   "cur_val": "80.56",
-   "prev_val": "45.03",
-   "unit": "yen (bölünme öncesi) / yen (pre-split)",
-   "date": "2026-08-14",
-   "url": "https://www2.jpx.co.jp/disc/60360/140120260814521177.pdf",
-   "primary": true
-  },
+  "quarter": null,
   "guidance": {
    "tr": "Haziran 2027'de biten yıl için şirket beklentisi (hisse başına kâr)",
    "en": "company guidance for the year to June 2027 (EPS)",
    "pct": -36.7,
-   "detail_tr": "hisse başına kâr 227,98 yen (bölünme öncesi); Haziran 2026 yılında 360,20. Net kâr 6.222 milyon yen (9.830). Düşüşün nedeni geçen yılın 6.792 milyon yenlik hisse satış kazancının yinelenmemesi; faaliyet kârı beklentisi +%30,3.",
-   "detail_en": "EPS of 227.98 yen (pre-split); 360.20 in the year to June 2026. Net profit 6,222 million yen (9,830). The fall is because last year's 6,792 million yen share sale gain does not repeat; the operating profit forecast is +30.3%.",
+   "detail_tr": "hisse başına kâr 227,98 yen (bölünme öncesi; bölünme sonrası 113,99); Haziran 2026 yılında 360,20. Net kâr 6.222 milyon yen (9.830). Düşüşün nedeni geçen yılın 6.792 milyon yenlik hisse satış kazancının yinelenmemesi; faaliyet kârı beklentisi +%30,3. Beklenti 16 Kasım 2026'da değiştirilmedi.",
+   "detail_en": "EPS of 227.98 yen (pre-split; 113.99 after the split); 360.20 in the year to June 2026. Net profit 6,222 million yen (9,830). The fall is because last year's 6,792 million yen share sale gain does not repeat; the operating profit forecast is +30.3%. The forecast was left unchanged on 16 November 2026.",
    "date": "2026-08-14",
    "url": "https://www2.jpx.co.jp/disc/60360/140120260814521177.pdf",
    "primary": true
@@ -608,9 +598,9 @@
    "primary": true
   },
   "skip": null,
-  "note_tr": "Geçen yılın kârı tek seferlik hisse satış kazancıyla iki katına çıkmıştı; hisse başına kârdaki artış işin büyümesini göstermez. Faaliyet kârı Haziran 2026 yılında %2,6 düştü.",
-  "note_en": "Last year's profit was doubled by a one-off gain on a share sale; the rise in earnings per share does not show the growth of the business. Operating profit fell 2.6% in the year to June 2026.",
-  "notes": "Primary: FY6/2026 kessan tanshin (non-consolidated, JGAAP) and Q3 tanshin on TDnet. ALL EPS VALUES HERE ARE PRE-SPLIT (the tanshin predates the 1:2 split; record date 31 Oct 2026, announced 15 Sep 2026 per Matsui Securities news and the Japan IR disclosure list; the company's own split notice PDF was NOT opened). FY EPS 360.20 vs 179.14 (+101.1%); net profit 9,830 vs 4,888. Q4 standalone is derived: EPS 360.20 - 279.64 = 80.56 vs 179.14 - 134.11 = 45.03 (+78.9%); net profit 2,199 vs 1,228; operating profit 2,635 vs 1,728 (+52%); Q4 tax charge was low (459 on pre-tax 2,657, 17%). The securities gain was booked in Q2-Q3 (6,763 by nine months, 6,792 full year). 9M operating profit was -20.3%. Guidance: net profit 6,222 (-36.7%), EPS 227.98 pre-split; H1 forecast net profit 3,485 (-51.8%). The guidance fall reflects the missing one-off gain; if the main session prefers to exclude it as unrepresentative, the alternative business measure is operating profit: FY26 -2.6% actual, FY27 guidance +30.3%. I did NOT enter the company's 'excluding growth investment costs' figures (OP 8,007 +12.8%, net profit 5,567 +13.9%) as 'adjusted': they strip out ordinary marketing and staff costs. Q1 FY6/2027 (Jul-Sep 2026) results: searched, not found as of 14 Nov 2026 (last year they came on 14 Nov). Dividend: source has no yield; FY6/2027 forecast is 100 yen pre-split in the tanshin; 50 yen post-split is my arithmetic (the 15 Sep notice 'stock split ... and revision of dividend forecast' was not opened, so confirm). At 1,775 yen that is 2.8%."
+  "note_tr": "Şirketin yıllık beklentisindeki düşüş, geçen yılın tek seferlik hisse satış kazancının yinelenmemesinden gelir. İlk çeyrekte faaliyet kârı %29,6 arttı.",
+  "note_en": "The fall in the company's full-year forecast comes from last year's one-off share sale gain not repeating. Operating profit rose 29.6% in the first quarter.",
+  "notes": "Updated 21 Nov 2026 for 2027-Q1. Q1 figures from Kabutan's flash (not primary; the company's tanshin could not be opened): net profit 1,233 vs 910 (+35.5%), operating profit 1,789 vs 1,380 (+29.6%), sales 6,639 vs 5,774 (+15.0%). ytd and quarter are the same period (Q1), so quarter is left empty. EPS change equals net profit change (share count unchanged apart from the split); Kabutan's -32.3% EPS change is a double split adjustment. Guidance and dividend: FY6/2026 tanshin (primary); Kabutan shows post-split forecast EPS 114.0 and dividend 50 dated 15 Sep 2026."
  },
  "4377": {
   "metric": "EPS",
@@ -747,5 +737,38 @@
   "note_tr": "Altı aylık ve çeyreklik artışı Solasto hisse satışı kazancı (9.870 milyon yen, vergi öncesi) büyütüyor; JustCo değer kaybı (4.380 milyon yen) bir bölümünü götürüyor. Şirket düzeltilmiş kâr açıklamıyor. Tek seferlik kalemlerden önceki olağan kâr altı ayda 71.380 milyon yenden 78.567 milyon yene çıktı (+%10,1). İnşaat siparişleri aynı dönemde %13,2 düştü.",
   "note_en": "The six-month and quarterly growth is inflated by the gain on the Solasto share sale (9,870 million yen pre-tax), partly offset by the JustCo write-down (4,380 million yen). The company reports no adjusted profit. Ordinary profit, before these one-offs, rose from 71,380 million yen to 78,567 million yen in the six months (+10.1%). Construction orders fell 13.2% in the same period.",
   "notes": "H1 tanshin (30 Oct 2026, Yahoo Finance mirror of the TDnet English translation) opened 19 Nov 2026: H1 EPS 196.79 vs 150.41 (prior year restated for the 1-for-5 split of 1 Oct 2025); net profit 64,175 vs 49,886 (+28.6%). Q1 tanshin (31 Jul 2026, www2.jpx.co.jp) opened: Q1 EPS 72.68 vs 72.72; net 23,678 vs 24,103. Q2 alone is my subtraction: EPS 196.79-72.68=124.11 vs 150.41-72.72=77.69 (+59.8%); net 40,497 vs 25,783 (+57.1%). Both inputs are primary documents but the quarter figure itself is derived, not printed. Guidance 329.00/299.01 = +10.0%. No adjusted figure given by the company, so `adjusted` is null; no exclude/skip written (main session may consider whether ytd/quarter should be excluded because of the Solasto gain; the lowest of the three, guidance +10.0%, already governs)."
+ },
+ "3093": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Mart-Ağustos 2026 (mali yılın ilk yarısı)",
+   "en": "March-August 2026 (first half of the fiscal year)",
+   "pct": 20.9,
+   "cur_val": "63.89",
+   "prev_val": "52.85",
+   "unit": "yen",
+   "date": "2026-10-14",
+   "url": "https://edinetdb.jp/company/E03520/earnings/FY2027-Q2",
+   "primary": false
+  },
+  "quarter": null,
+  "guidance": {
+   "tr": "Şubat 2027'de biten yıl için şirket beklentisi (hisse başına kâr)",
+   "en": "company guidance for the year to February 2027 (EPS)",
+   "pct": 12.0,
+   "detail_tr": "hisse başına kâr 151,49 yen; Şubat 2026 yılında 135,29 yen. Net kâr 3.551 milyon yen (3.171). Beklenti 9 Temmuz 2026'da yükseltildi, 14 Ekim 2026'da değiştirilmedi.",
+   "detail_en": "EPS of 151.49 yen; 135.29 yen in the year to February 2026. Net profit 3,551 million yen (3,171). The forecast was raised on 9 July 2026 and left unchanged on 14 October 2026.",
+   "date": "2026-07-09",
+   "url": "https://www2.jpx.co.jp/disc/30930/081220260708589526_tse-qcedjpsm-30930-20260709330930-ixbrl.htm",
+   "primary": true
+  },
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Written 21 Nov 2026. ytd: H1 EPS 63.89 (edinetdb.jp, citing the 14 Oct 2026 tanshin; not primary) vs 52.85 derived from the company's July forecast (59.21 yen = +12.1%); +20.9% (my arithmetic; minkabu's highlights say net profit +21%). Standalone Q2 (Jun-Aug) not entered: only ordinary profit is known (about 0.46bn, +9.6%, minkabu). Guidance from the Q1 tanshin summary (primary). Source has a dividend yield, so no dividend entry."
  }
 }

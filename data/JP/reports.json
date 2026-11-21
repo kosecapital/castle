@@ -607,8 +607,8 @@
   "growth": {
    "g": 4.9,
    "basis": {
-    "tr": "Formül yılda %9,9 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Mayıs 2026 yılı %143,2; Haziran-Ağustos 2026 çeyreği %0,6; Mayıs 2027 yılı için şirket tahmini %4,2. Mayıs 2026 yılındaki sıçrama bir kereye özgü: Nisan 2025'te enerji verimliliği uygunluğu bütün yeni binalarda zorunlu oldu. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %4,9.",
-    "en": "The formula gave growth of 9.9% a year. Latest figures (net profit, year on year): year to May 2026 143.2%; June-August 2026 quarter 0.6%; company forecast for the year to May 2027 4.2%. The jump in the year to May 2026 was a one-off: in April 2025 energy-efficiency conformity became mandatory for all new buildings. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 4.9%."
+    "tr": "Formül yılda %9,8 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Mayıs 2026 yılı %143,2; Haziran-Ağustos 2026 çeyreği %0,6; Mayıs 2027 yılı için şirket tahmini %4,2. Mayıs 2026 yılındaki sıçrama bir kereye özgü: Nisan 2025'te enerji verimliliği uygunluğu bütün yeni binalarda zorunlu oldu. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %4,9.",
+    "en": "The formula gave growth of 9.8% a year. Latest figures (net profit, year on year): year to May 2026 143.2%; June-August 2026 quarter 0.6%; company forecast for the year to May 2027 4.2%. The jump in the year to May 2026 was a one-off: in April 2025 energy-efficiency conformity became mandatory for all new buildings. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 4.9%."
    },
    "per": "2026-Q1"
   },
@@ -1000,13 +1000,13 @@
   },
   "moat": "dar",
   "per": "2026-Q4",
-  "one": "Colantotte markalı mıknatıslı sağlık ürünleri satıyor. Kârlı ve borçsuz; fiyat testini kıl payı geçemiyor. Tek markaya bağlı ve şirket yavaşlama bekliyor.",
+  "one": "Colantotte markalı mıknatıslı sağlık ürünleri satıyor; kârlı ve borçsuz. Fiyat testini geçiyor, ama marj yılda %9,5 büyüme varsayımına dayanıyor, eşiğe yakın; şirket yavaşlama bekliyor.",
   "business": "Şirket, Japonya'da tıbbi cihaz onayı taşıyan mıknatıslı kolye, bileklik, destek ve dinlenme giysileri (RESNO) tasarlar ve satar. Eylül 2026'da biten yılda satış 9,0 milyar yen, faaliyet kârı 2,26 milyar yen oldu. Dokuz aylık satışın %50,1'i toptan, %36,9'u internet, %13,0'ü kendi mağazalarından geldi. Haziran 2026'da 22 mağazası vardı.",
   "moat_text": "Hendek dar. Kanıt marjlarda: brüt kâr marjı %70, faaliyet kâr marjı %25. Reel özsermaye kârlılığı beş yılda %18,0 ile %26,0 arasında kaldı, son yıl %23,8. Ürünlerin yarıdan fazlası (%54,6) 20.000 yen ve üstü fiyat bandında satılıyor; bu, markanın fiyat gücünü gösterir. Tıbbi cihaz onayı ve sporcu sponsorlukları markayı destekler. Zayıf yanı: tek marka, tek ürün ailesi. Mıknatıslı ürün taklit edilebilir ve talep modaya, reklama bağlıdır.",
-  "mgmt": "31 Mart 2026 itibarıyla en büyük ortak Ark Quest %39,57, Katsumi Komatsu %17,58 paya sahip; SMBC Trust Bank'taki emanet hesabı %8,79 tutuyor. Halka açık pay sınırlı. Şirket kârın yaklaşık %30'unu temettü olarak dağıtmayı hedefliyor: 2025 yılı için hisse başına 42 yen ödedi, 2026 yılı için 50 yen öngördü. Kalan kâr mağazalara, internet satışına ve yeni Ar-Ge merkezine gidiyor. Haziran 2026 sonunda özsermaye oranı %80,3 idi; şirket net nakitte. Kurucu grubun toplam payı %71,17'dir: Ark Quest kurucu Katsumi Komatsu'nun varlık yönetim şirketidir; Komatsu, Momoko Wada ve Yumiko Komatsu ile birlikte ortak hissedar olarak bildirim yapar (18 Şubat 2025). Şirket hisse geri almıyor; pay sayısı opsiyonlarla üç yılda yaklaşık %1,2 arttı.",
-  "latest": "6 Kasım 2026: Eylül 2026'da biten yılın sonuçları açıklandı. Satış 6,92 milyar yenden 9,00 milyar yene, faaliyet kârı 1,81 milyar yenden 2,26 milyar yene, net kâr 1,33 milyar yenden 1,51 milyar yene çıktı. Sonuç, şirketin kendi tahmininin (faaliyet kârı 2,1 milyar yen) üstünde kaldı. Eylül 2027 yılı için tahmin: satış 10,0 milyar yen, faaliyet kârı 2,4 milyar yen, net kâr 1,6 milyar yen. Tahmin, kâr marjının %25,1'den %24,0'e ineceğini ima ediyor.",
+  "mgmt": "31 Mart 2026 itibarıyla en büyük ortak Ark Quest %39,57, Katsumi Komatsu %17,58 paya sahip; SMBC Trust Bank'taki emanet hesabı %8,79 tutuyor. Halka açık pay sınırlı. Şirket kârın yaklaşık %30'unu temettü olarak dağıtmayı hedefliyor: 2025 yılı için hisse başına 42 yen, 2026 yılı için 50 yen ödedi; 2027 yılı için 54 yen öngörüyor. Kalan kâr mağazalara, internet satışına ve yeni Ar-Ge merkezine gidiyor. Haziran 2026 sonunda özsermaye oranı %80,3 idi; şirket net nakitte. Kurucu grubun toplam payı %71,17'dir: Ark Quest kurucu Katsumi Komatsu'nun varlık yönetim şirketidir; Komatsu, Momoko Wada ve Yumiko Komatsu ile birlikte ortak hissedar olarak bildirim yapar (18 Şubat 2025). Şirket hisse geri almıyor; pay sayısı opsiyonlarla üç yılda yaklaşık %1,2 arttı.",
+  "latest": "6 Kasım 2026: Eylül 2026'da biten yılın sonuçları açıklandı. Satış 6,92 milyar yenden 9,00 milyar yene, faaliyet kârı 1,81 milyar yenden 2,26 milyar yene, net kâr 1,33 milyar yenden 1,51 milyar yene çıktı. Sonuç, şirketin kendi tahmininin (faaliyet kârı 2,1 milyar yen) üstünde kaldı. Eylül 2027 yılı için tahmin: satış 10,0 milyar yen, faaliyet kârı 2,4 milyar yen, net kâr 1,6 milyar yen. Tahmin, kâr marjının %25,1'den %24,0'e ineceğini ima ediyor. Eylül 2026 sonunda özsermaye 6.298 milyon yen, özsermaye oranı %79,5 idi. Temettü 2026 yılı için hisse başına 50 yen; 2027 tahmini 54 yen. 20 Kasım 2026'da hisse 1.350 yene indi; bu düşüşü açıklayan bir şirket bildirimi ya da haber bulunamadı (21 Kasım 2026'da bakıldı).",
   "risks": [
-   "Güvenlik marjı büyüme varsayımına dayanıyor: hesap, reel hisse başına kârın on yıl boyunca yılda %9,7 büyüyeceğini varsayar (formül %16,0 veriyordu; okumada bulunanlar yüzünden indirildi). Büyüme daha da yavaşlarsa marj erir. Şirket tek markaya ve mıknatıslı sağlık ürünlerine bağlıdır; ilgi azalırsa satış hızla düşebilir.",
+   "Güvenlik marjı büyüme varsayımına dayanıyor ve eşiğe yakın: hesap, reel hisse başına kârın on yıl boyunca yılda %9,5 büyüyeceğini varsayar (formül %15,9 veriyordu; şirketin kendi tahmini yüzünden indirildi). Şirket Eylül 2027 yılı için hisse başına kârda yalnız %5,6 artış bekliyor; enflasyondan sonra bu %3,2 eder. Büyüme varsayılandan yavaş kalırsa ya da fiyat biraz yükselirse şirket kale olmaktan çıkar. Şirket tek markaya ve mıknatıslı sağlık ürünlerine bağlıdır; ilgi azalırsa satış hızla düşebilir.",
    "Büyüme reklam ve sporcu sponsorluklarına dayanıyor; 2026'da satış %30 artarken net kâr daha yavaş arttı, bu harcamalar marjı aşağı çekebilir.",
    "Mıknatıslı ürünlerde teknik engel düşüktür; daha ucuz taklitler fiyat gücünü zayıflatabilir.",
    "Tıbbi cihaz onayı ya da sağlık iddialarıyla ilgili kural değişikliği satışı doğrudan etkiler.",
@@ -1063,16 +1063,21 @@
     "t": "İkinci okuma: Colantotte: Tanshin, Q1 FY Sep 2025 (TDnet, 7 Feb 2025)",
     "te": "Second reading: Colantotte: Tanshin, Q1 FY Sep 2025 (TDnet, 7 Feb 2025)",
     "u": "https://www2.jpx.co.jp/disc/77920/140120250207566221.pdf"
+   },
+   {
+    "t": "JPX: Colan Totte yıl sonu bilanço özeti (kessan tanshin), Eylül 2026 yılı (6 Kasım 2026)",
+    "te": "JPX: Colan Totte full-year earnings summary (kessan tanshin), year to September 2026 (6 November 2026)",
+    "u": "https://www2.jpx.co.jp/disc/77920/081220261105565997_tse-anedjpsm-77920-20261106377920-ixbrl.htm"
    }
   ],
   "en": {
-   "one": "Sells Colantotte-brand magnetic health goods. Profitable and debt-free; it falls just short of the price test. It rests on one brand and the company expects a slowdown.",
+   "one": "Sells Colantotte-brand magnetic health goods; profitable and debt-free. It passes the price test, but the margin rests on assumed growth of 9.5% a year and is close to the threshold; the company expects a slowdown.",
    "business": "The company designs and sells magnetic necklaces, loops, supporters and recovery wear (RESNO) that carry medical device certification in Japan. In the year to September 2026 sales were 9.0 billion yen and operating profit 2.26 billion yen. In the first nine months 50.1% of sales came from wholesale, 36.9% from e-commerce and 13.0% from its own stores. It had 22 stores in June 2026.",
    "moat_text": "The moat is narrow. The proof is in the margins: gross margin 70%, operating margin 25%. Real return on equity stayed between 18.0% and 26.0% over five years, and was 23.8% in the latest year. More than half of sales (54.6%) come from products priced at 20,000 yen or more, which shows the brand's pricing power. Medical device certification and athlete sponsorships support the brand. The weak side: one brand, one product family. A magnetic product can be copied, and demand depends on fashion and advertising.",
-   "mgmt": "As of 31 March 2026 the largest shareholder, Ark Quest, held 39.57% and Katsumi Komatsu 17.58%; a trust account at SMBC Trust Bank held 8.79%. The free float is limited. The company aims to pay out about 30% of profit: it paid 42 yen per share for 2025 and planned 50 yen for 2026. The rest goes to stores, e-commerce and a new R&D centre. The equity ratio was 80.3% at the end of June 2026; the company has net cash. The founder group holds 71.17% in total: Ark Quest is founder Katsumi Komatsu's asset-management company, and it reports jointly with Komatsu, Momoko Wada and Yumiko Komatsu (18 February 2025). The company does not buy back shares; options raised the share count by about 1.2% over three years.",
-   "latest": "6 November 2026: results for the year to September 2026 were announced. Sales rose from 6.92 billion yen to 9.00 billion yen, operating profit from 1.81 billion yen to 2.26 billion yen, and net profit from 1.33 billion yen to 1.51 billion yen. The result beat the company's own forecast (operating profit 2.1 billion yen). Forecast for the year to September 2027: sales 10.0 billion yen, operating profit 2.4 billion yen, net profit 1.6 billion yen. The forecast implies the margin slipping from 25.1% to 24.0%.",
+   "mgmt": "As of 31 March 2026 the largest shareholder, Ark Quest, held 39.57% and Katsumi Komatsu 17.58%; a trust account at SMBC Trust Bank held 8.79%. The free float is limited. The company aims to pay out about 30% of profit: it paid 42 yen per share for 2025 and 50 yen for 2026, and forecasts 54 yen for 2027. The rest goes to stores, e-commerce and a new R&D centre. The equity ratio was 80.3% at the end of June 2026; the company has net cash. The founder group holds 71.17% in total: Ark Quest is founder Katsumi Komatsu's asset-management company, and it reports jointly with Komatsu, Momoko Wada and Yumiko Komatsu (18 February 2025). The company does not buy back shares; options raised the share count by about 1.2% over three years.",
+   "latest": "6 November 2026: results for the year to September 2026 were announced. Sales rose from 6.92 billion yen to 9.00 billion yen, operating profit from 1.81 billion yen to 2.26 billion yen, and net profit from 1.33 billion yen to 1.51 billion yen. The result beat the company's own forecast (operating profit 2.1 billion yen). Forecast for the year to September 2027: sales 10.0 billion yen, operating profit 2.4 billion yen, net profit 1.6 billion yen. The forecast implies the margin slipping from 25.1% to 24.0%. At the end of September 2026 equity was 6,298 million yen and the equity ratio 79.5%. The dividend for 2026 is 50 yen a share; the forecast for 2027 is 54 yen. On 20 November 2026 the share price was down to 1,350 yen; no company notice or news item explaining the fall was found (checked on 21 November 2026).",
    "risks": [
-    "The margin of safety rests on a growth assumption: the calculation assumes real earnings per share grow 9.7% a year for ten years (the formula gave 16.0%; it was lowered because of what the reading found). If growth slows further, the margin shrinks. The company depends on one brand and on magnetic health goods; if interest fades, sales can fall quickly.",
+    "The margin of safety rests on a growth assumption and is close to the threshold: the calculation assumes real earnings per share grow 9.5% a year for ten years (the formula gave 15.9%; it was lowered because of the company's own forecast). For the year to September 2027 the company expects earnings per share to rise only 5.6%; after inflation that is 3.2%. If growth stays below the assumption, or the price rises a little, the company stops being a castle. The company depends on one brand and on magnetic health goods; if interest fades, sales can fall quickly.",
     "Growth relies on advertising and athlete sponsorships; in 2026 sales grew 30% while net profit grew more slowly, and this spending can pull the margin down.",
     "Technical barriers in magnetic products are low; cheaper copies could weaken pricing power.",
     "A rule change on medical device certification or health claims would hit sales directly.",
@@ -1086,11 +1091,11 @@
    ]
   },
   "growth": {
-   "g": 9.7,
-   "dy": 3.4,
+   "g": 9.5,
+   "dy": 3.7,
    "basis": {
-    "tr": "Formül yılda %16,0 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Eylül 2026 yılı (net kâr) %13,8; Eylül 2027 yılı için şirket tahmini %5,6. En düşüğü, enflasyondan arındırılınca, %3,4. Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %9,7. Kaynakta temettü verimi yok; şirketin Eylül 2026 yılı için açıkladığı hisse başına 50 JPY temettüden %3,4 hesaplandı.",
-    "en": "The formula gave growth of 16.0% a year. Latest figures (earnings per share, year on year): year to September 2026 (net profit) 13.8%; company forecast for the year to September 2027 5.6%. The lowest, after inflation, is 3.4%. Because this is less than half the formula's rate, the midpoint of the two was used: 9.7%. The data source has no dividend yield; 3.4% was calculated from the dividend of 50 JPY per share the company declared for the year to September 2026."
+    "tr": "Formül yılda %15,9 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Eylül 2026 yılı (net kâr) %13,8; Eylül 2027 yılı için şirket tahmini %5,6. En düşüğü, enflasyondan arındırılınca, %3,2. Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %9,5. Kaynakta temettü verimi yok; şirketin Eylül 2026 yılı için açıkladığı hisse başına 50 JPY temettüden %3,7 hesaplandı.",
+    "en": "The formula gave growth of 15.9% a year. Latest figures (earnings per share, year on year): year to September 2026 (net profit) 13.8%; company forecast for the year to September 2027 5.6%. The lowest, after inflation, is 3.2%. Because this is less than half the formula's rate, the midpoint of the two was used: 9.5%. The data source has no dividend yield; 3.7% was calculated from the dividend of 50 JPY per share the company declared for the year to September 2026."
    },
    "per": "2026-Q4"
   },
@@ -1103,7 +1108,7 @@
    "per": "2026-Q4"
   },
   "chk": {
-   "date": "2026-11-13",
+   "date": "2026-11-21",
    "per": "2026-Q4"
   }
  },
@@ -1372,8 +1377,8 @@
   "growth": {
    "g": null,
    "basis": {
-    "tr": "Formül yılda %4,7 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 %20,2 (şirketin düzeltilmiş rakamı; açıklanan %22,8); Temmuz-Eylül 2026 çeyreği (dokuz aylık eksi altı aylık, türetildi; net kâr) %15,6 (şirketin düzeltilmiş rakamı; açıklanan %29,1); 2026 yılı için şirket tahmini (Core, değişmedi) %7,7. Düzeltme: Şirketin kendi Core ölçüsü (maddi olmayan varlık itfası 1,9 milyar yen ve yeniden yapılanma gideri 11,6 milyar yen hariç): dokuz ayda Core net kâr 384,7 milyar yen. Ayrıca üçüncü çeyrekte yurt içi satışlar, sistem değişikliği öncesi öne çekilen toptancı sevkiyatlarıyla geçici olarak yükseldi; tek seferlik gelir de var (tutarı açıklanmadı). En düşüğü, enflasyondan arındırılınca, %5,5. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
-    "en": "The formula gave growth of 4.7% a year. Latest figures (earnings per share, year on year): January-September 2026 20.2% (the company's adjusted figure; reported 22.8%); July-September 2026 quarter (nine months minus six months, derived; net profit) 15.6% (the company's adjusted figure; reported 29.1%); company forecast for 2026 (Core basis, unchanged) 7.7%. Adjustment: The company's own Core measure (excluding 1.9 billion yen of intangible amortisation and 11.6 billion yen of restructuring costs): Core net income 384.7 billion yen in nine months. Also, third-quarter domestic sales were lifted temporarily by wholesaler shipments brought forward before a system change, and there was one-time income (amount not disclosed). The lowest, after inflation, is 5.5%. That is not less than half the formula's rate; the rate was not lowered."
+    "tr": "Formül yılda %4,7 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 %20,2 (şirketin düzeltilmiş rakamı; açıklanan %22,8); Temmuz-Eylül 2026 çeyreği (dokuz aylık eksi altı aylık, türetildi; net kâr) %15,6 (şirketin düzeltilmiş rakamı; açıklanan %29,1); 2026 yılı için şirket tahmini (Core, değişmedi) %7,7. Düzeltme: Şirketin kendi Core ölçüsü (maddi olmayan varlık itfası 1,9 milyar yen ve yeniden yapılanma gideri 11,6 milyar yen hariç): dokuz ayda Core net kâr 384,7 milyar yen. Ayrıca üçüncü çeyrekte yurt içi satışlar, sistem değişikliği öncesi öne çekilen toptancı sevkiyatlarıyla geçici olarak yükseldi; tek seferlik gelir de var (tutarı açıklanmadı). En düşüğü, enflasyondan arındırılınca, %5,3. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 4.7% a year. Latest figures (earnings per share, year on year): January-September 2026 20.2% (the company's adjusted figure; reported 22.8%); July-September 2026 quarter (nine months minus six months, derived; net profit) 15.6% (the company's adjusted figure; reported 29.1%); company forecast for 2026 (Core basis, unchanged) 7.7%. Adjustment: The company's own Core measure (excluding 1.9 billion yen of intangible amortisation and 11.6 billion yen of restructuring costs): Core net income 384.7 billion yen in nine months. Also, third-quarter domestic sales were lifted temporarily by wholesaler shipments brought forward before a system change, and there was one-time income (amount not disclosed). The lowest, after inflation, is 5.3%. That is not less than half the formula's rate; the rate was not lowered."
    },
    "per": "2026-Q3"
   },
@@ -1495,8 +1500,8 @@
   "growth": {
    "g": null,
    "basis": {
-    "tr": "Formül yılda %16,9 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Nisan-Eylül 2026 %168,5; Temmuz-Eylül 2026 çeyreği %178,7; Mart 2027'de biten yıl için şirket beklentisi %107,4. En düşüğü, enflasyondan arındırılınca, %103,2. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
-    "en": "The formula gave growth of 16.9% a year. Latest figures (net profit, year on year): April-September 2026 168.5%; July-September 2026 quarter 178.7%; company forecast for the year to March 2027 107.4%. The lowest, after inflation, is 103.2%. That is not less than half the formula's rate; the rate was not lowered."
+    "tr": "Formül yılda %16,8 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Nisan-Eylül 2026 %168,5; Temmuz-Eylül 2026 çeyreği %178,7; Mart 2027'de biten yıl için şirket beklentisi %107,4. En düşüğü, enflasyondan arındırılınca, %102,8. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 16.8% a year. Latest figures (net profit, year on year): April-September 2026 168.5%; July-September 2026 quarter 178.7%; company forecast for the year to March 2027 107.4%. The lowest, after inflation, is 102.8%. That is not less than half the formula's rate; the rate was not lowered."
    },
    "per": "2026-Q2"
   },
@@ -1637,8 +1642,8 @@
   "growth": {
    "g": null,
    "basis": {
-    "tr": "Formül yılda %16,5 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Nisan-Eylül 2026 %71,0; Temmuz-Eylül 2026 çeyreği %68,8; Mart 2027 yılı için şirket tahmini %55,2. En düşüğü, enflasyondan arındırılınca, %52,0. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
-    "en": "The formula gave growth of 16.5% a year. Latest figures (earnings per share, year on year): April-September 2026 71.0%; July-September 2026 quarter 68.8%; company forecast for the year to March 2027 55.2%. The lowest, after inflation, is 52.0%. That is not less than half the formula's rate; the rate was not lowered."
+    "tr": "Formül yılda %16,5 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Nisan-Eylül 2026 %71,0; Temmuz-Eylül 2026 çeyreği %68,8; Mart 2027 yılı için şirket tahmini %55,2. En düşüğü, enflasyondan arındırılınca, %51,7. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 16.5% a year. Latest figures (earnings per share, year on year): April-September 2026 71.0%; July-September 2026 quarter 68.8%; company forecast for the year to March 2027 55.2%. The lowest, after inflation, is 51.7%. That is not less than half the formula's rate; the rate was not lowered."
    },
    "per": "2026-Q2"
   }
@@ -1736,8 +1741,8 @@
   "growth": {
    "g": null,
    "basis": {
-    "tr": "Formül yılda %25,0 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Nisan-Eylül 2026 %118,6; Temmuz-Eylül 2026 çeyreği (altı aylık eksi ilk çeyrek, türetildi; net kâr) %142,7; Mart 2027 yılı için şirket tahmini (28 Ekim'de yükseltildi) %99,4. En düşüğü, enflasyondan arındırılınca, %95,3. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
-    "en": "The formula gave growth of 25.0% a year. Latest figures (earnings per share, year on year): April-September 2026 118.6%; July-September 2026 quarter (six months minus first quarter, derived; net profit) 142.7%; company forecast for the year to March 2027 (raised on 28 October) 99.4%. The lowest, after inflation, is 95.3%. That is not less than half the formula's rate; the rate was not lowered."
+    "tr": "Formül yılda %25,0 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Nisan-Eylül 2026 %118,6; Temmuz-Eylül 2026 çeyreği (altı aylık eksi ilk çeyrek, türetildi; net kâr) %142,7; Mart 2027 yılı için şirket tahmini (28 Ekim'de yükseltildi) %99,4. En düşüğü, enflasyondan arındırılınca, %94,9. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 25.0% a year. Latest figures (earnings per share, year on year): April-September 2026 118.6%; July-September 2026 quarter (six months minus first quarter, derived; net profit) 142.7%; company forecast for the year to March 2027 (raised on 28 October) 99.4%. The lowest, after inflation, is 94.9%. That is not less than half the formula's rate; the rate was not lowered."
    },
    "per": "2026-Q2"
   },
@@ -1858,8 +1863,8 @@
   "growth": {
    "g": null,
    "basis": {
-    "tr": "Formül yılda %10,4 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Nisan-Eylül 2026 %30,4; Temmuz-Eylül 2026 çeyreği (altı aylık eksi ilk çeyrek, türetildi) %30,8. En düşüğü, enflasyondan arındırılınca, %27,7. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
-    "en": "The formula gave growth of 10.4% a year. Latest figures (earnings per share, year on year): April-September 2026 30.4%; July-September 2026 quarter (six months minus first quarter, derived) 30.8%. The lowest, after inflation, is 27.7%. That is not less than half the formula's rate; the rate was not lowered."
+    "tr": "Formül yılda %10,3 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Nisan-Eylül 2026 %30,4; Temmuz-Eylül 2026 çeyreği (altı aylık eksi ilk çeyrek, türetildi) %30,8. En düşüğü, enflasyondan arındırılınca, %27,5. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 10.3% a year. Latest figures (earnings per share, year on year): April-September 2026 30.4%; July-September 2026 quarter (six months minus first quarter, derived) 30.8%. The lowest, after inflation, is 27.5%. That is not less than half the formula's rate; the rate was not lowered."
    },
    "per": "2026-Q2"
   },
@@ -1965,8 +1970,8 @@
   "growth": {
    "g": null,
    "basis": {
-    "tr": "Formül yılda %5,2 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Nisan-Eylül 2026 %56,0; Temmuz-Eylül 2026 çeyreği (altı aylık eksi ilk çeyrek, türetildi) %71,7; Mart 2027 yılı için şirket tahmini %50,6. En düşüğü, enflasyondan arındırılınca, %47,5. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
-    "en": "The formula gave growth of 5.2% a year. Latest figures (net profit, year on year): April-September 2026 56.0%; July-September 2026 quarter (six months minus first quarter, derived) 71.7%; company forecast for the year to March 2027 50.6%. The lowest, after inflation, is 47.5%. That is not less than half the formula's rate; the rate was not lowered."
+    "tr": "Formül yılda %5,1 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Nisan-Eylül 2026 %56,0; Temmuz-Eylül 2026 çeyreği (altı aylık eksi ilk çeyrek, türetildi) %71,7; Mart 2027 yılı için şirket tahmini %50,6. En düşüğü, enflasyondan arındırılınca, %47,2. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 5.1% a year. Latest figures (net profit, year on year): April-September 2026 56.0%; July-September 2026 quarter (six months minus first quarter, derived) 71.7%; company forecast for the year to March 2027 50.6%. The lowest, after inflation, is 47.2%. That is not less than half the formula's rate; the rate was not lowered."
    },
    "per": "2026-Q2"
   },
@@ -2129,10 +2134,10 @@
    ]
   },
   "growth": {
-   "g": 6.1,
+   "g": 5.9,
    "basis": {
-    "tr": "Formül yılda %11,2 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Eylül 2025-Ağustos 2026 mali yılı %25,3; Haziran-Ağustos 2026 çeyreği (yıllık eksi dokuz aylık, türetildi) %24,0; Ağustos 2027 yılı için şirket tahmini %3,2. En düşüğü, enflasyondan arındırılınca, %1,1. Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %6,1.",
-    "en": "The formula gave growth of 11.2% a year. Latest figures (net profit, year on year): fiscal year September 2025-August 2026 25.3%; June-August 2026 quarter (full year minus nine months, derived) 24.0%; company forecast for the year to August 2027 3.2%. The lowest, after inflation, is 1.1%. Because this is less than half the formula's rate, the midpoint of the two was used: 6.1%."
+    "tr": "Formül yılda %11,0 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Eylül 2025-Ağustos 2026 mali yılı %25,3; Haziran-Ağustos 2026 çeyreği (yıllık eksi dokuz aylık, türetildi) %24,0; Ağustos 2027 yılı için şirket tahmini %3,2. En düşüğü, enflasyondan arındırılınca, %0,9. Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %5,9.",
+    "en": "The formula gave growth of 11.0% a year. Latest figures (net profit, year on year): fiscal year September 2025-August 2026 25.3%; June-August 2026 quarter (full year minus nine months, derived) 24.0%; company forecast for the year to August 2027 3.2%. The lowest, after inflation, is 0.9%. Because this is less than half the formula's rate, the midpoint of the two was used: 5.9%."
    },
    "per": "2026-Q4"
   },
@@ -2686,10 +2691,10 @@
    "per": "2026-Q4"
   },
   "growth": {
-   "g": 7.3,
+   "g": 7.2,
    "basis": {
-    "tr": "Formül yılda %14,6 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Temmuz 2026 yılı %18,2; Mayıs-Temmuz 2026 çeyreği (yıllık eksi dokuz aylık, türetildi) %9,4; Temmuz 2027 yılı için şirket tahmini %−15,2. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %7,3.",
-    "en": "The formula gave growth of 14.6% a year. Latest figures (earnings per share, year on year): year to July 2026 18.2%; May-July 2026 quarter (full year minus nine months, derived) 9.4%; company forecast for the year to July 2027 −15.2%. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 7.3%."
+    "tr": "Formül yılda %14,5 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Temmuz 2026 yılı %18,2; Mayıs-Temmuz 2026 çeyreği (yıllık eksi dokuz aylık, türetildi) %9,4; Temmuz 2027 yılı için şirket tahmini %−15,2. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %7,2.",
+    "en": "The formula gave growth of 14.5% a year. Latest figures (earnings per share, year on year): year to July 2026 18.2%; May-July 2026 quarter (full year minus nine months, derived) 9.4%; company forecast for the year to July 2027 −15.2%. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 7.2%."
    },
    "per": "2026-Q4"
   },
@@ -2822,10 +2827,10 @@
    "per": "2026-Q4"
   },
   "growth": {
-   "g": 10.0,
+   "g": 9.9,
    "basis": {
-    "tr": "Formül yılda %15,9 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ekim 2025-Eylül 2026 mali yılı %6,4; Temmuz-Eylül 2026 çeyreği (yıllık eksi dokuz aylık, türetildi) %7,1; Eylül 2027 yılı için şirket tahmini %12,7. En düşüğü, enflasyondan arındırılınca, %4,2. Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %10,0.",
-    "en": "The formula gave growth of 15.9% a year. Latest figures (earnings per share, year on year): fiscal year October 2025-September 2026 6.4%; July-September 2026 quarter (full year minus nine months, derived) 7.1%; company forecast for the year to September 2027 12.7%. The lowest, after inflation, is 4.2%. Because this is less than half the formula's rate, the midpoint of the two was used: 10.0%."
+    "tr": "Formül yılda %15,7 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ekim 2025-Eylül 2026 mali yılı %6,4; Temmuz-Eylül 2026 çeyreği (yıllık eksi dokuz aylık, türetildi) %7,1; Eylül 2027 yılı için şirket tahmini %12,7. En düşüğü, enflasyondan arındırılınca, %4,0. Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %9,9.",
+    "en": "The formula gave growth of 15.7% a year. Latest figures (earnings per share, year on year): fiscal year October 2025-September 2026 6.4%; July-September 2026 quarter (full year minus nine months, derived) 7.1%; company forecast for the year to September 2027 12.7%. The lowest, after inflation, is 4.0%. Because this is less than half the formula's rate, the midpoint of the two was used: 9.9%."
    },
    "per": "2026-Q4"
   },
@@ -2952,10 +2957,10 @@
    "per": "2026-Q2"
   },
   "growth": {
-   "g": 6.0,
+   "g": 5.9,
    "basis": {
-    "tr": "Formül yılda %11,9 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Mart-Ağustos 2026 %2,8; Haziran-Ağustos 2026 çeyreği %219,7; Şubat 2027 yılı için şirket tahmini %−13,2. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %6,0.",
-    "en": "The formula gave growth of 11.9% a year. Latest figures (earnings per share, year on year): March-August 2026 2.8%; June-August 2026 quarter 219.7%; company forecast for the year to February 2027 −13.2%. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 6.0%."
+    "tr": "Formül yılda %11,8 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Mart-Ağustos 2026 %2,8; Haziran-Ağustos 2026 çeyreği %219,7; Şubat 2027 yılı için şirket tahmini %−13,2. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %5,9.",
+    "en": "The formula gave growth of 11.8% a year. Latest figures (earnings per share, year on year): March-August 2026 2.8%; June-August 2026 quarter 219.7%; company forecast for the year to February 2027 −13.2%. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 5.9%."
    },
    "per": "2026-Q2"
   },
@@ -3163,21 +3168,21 @@
    "E": 2
   },
   "moat": "dar",
-  "per": "2026-Q4",
-  "one": "Japonya'nın araç kaplama markası. Son yılın kârının yarısı tek seferlik hisse satışı; hesap yılda %25 büyümeye dayanıyor, şirket ise 2027'de kârın %37 düşmesini bekliyor.",
+  "per": "2027-Q1",
+  "one": "Japonya'nın araç kaplama markası. Son 12 ayın kârının yarısı tek seferlik hisse satışı; o çıkarılınca fiyat ölçütü geçmiyor. İlk çeyrekte faaliyet kârı %29,6 arttı.",
   "business": "KeePer Giken, otomobil boyasını koruyan cam kaplama kimyasallarını üretir ve iki yoldan satar. Birincisi: kimyasalı ve eğitimi, çoğu benzin istasyonu olan yaklaşık 6.663 yetkili uygulama noktasına ve yeni araç bayilerine satar (Haziran 2026 yılında 11,9 milyar yen hasılat). İkincisi: kendi KeePer LABO dükkânlarında kaplama ve yıkama yapar (184 dükkân, 150'si şirketin; 14,0 milyar yen). Toplam hasılat 25.959 milyon yen, faaliyet kârı 6.914 milyon yen. Mali yıl haziranda biter; tablolar konsolide değildir.",
   "moat_text": "Hendek dar. Üstünlük markadan, eğitilmiş uygulayıcı ağından ve kimyasalın kendi üretiminden geliyor. Kanıt: ürün kolunun faaliyet marjı 2026'da %39,8 (2025: %42,1); şirketin toplam faaliyet marjı dört yıldır %27 ile %32 arasında; şirketin anketine göre kaplamayı yaptıranların %87'si yeniden geliyor; 22 eğitim merkezi var. Reel özsermaye kârlılığı son beş yılda %27 ile %43 arasında; son yılın %43'ü hisse satış kazancıyla şişmiştir. Zayıf yanı: fiyatlama gücü rakamda görünmüyor. LABO'da müşteri başına ortalama tutar 2026'da yerinde saydı (16.757 yen, +%0,1) ve LABO kolunun faaliyet kârı %20,2 düştü (marj %21,4'ten %15,5'e). Kaplama isteğe bağlı bir harcamadır; rakip ürünlere geçmek kolaydır. Pazar payı rakamı belgelerde yok; bakıldı.",
-  "mgmt": "Borç çok az (943 milyon yen), nakit 14.277 milyon yen; özsermaye oranı %74,8. Şirket 2026'da elindeki SOFT99 hisselerini satarak 6.792 milyon yen kazanç yazdı; parayı marka tanıtımına, personele ve yeni dükkânlara ayırdığını, kalanıyla hisse başına 40 yen özel temettü ödediğini söylüyor. Temettü 2026 yılı için 100 yen (60 olağan, 40 özel; kârın %27,8'i), 2027 beklentisi 100 yen (bölünme öncesi). Geri alım yok. Şerefiye yok. Haziran 2026'da küçük bir yazılım şirketi (AWS) satın alındı; bedeli açıklanmadı. Şirket sunumunda 'büyüme yatırımı giderleri hariç' kâr veriyor (faaliyet kârı 8.007 milyon yen); bu giderler reklam ve personel gibi olağan giderlerdir, o ölçüye güvenilmedi. Sunumda aynı rakamın farklı sayfalarda farklı verildiği yerler var (dükkân ziyaret sayısı, dükkân sayısı). 15 Eylül 2026'da bire iki pay bölünmesi açıklandı (kayıt tarihi 31 Ekim 2026). Hisse bazlı ücrete, garantilere ve hâkim ortağa bakıldı; okunan belgelerde yok. Kaynağa göre halka açıklık oranı %42,4.",
-  "latest": "14 Ağustos 2026: Şirket Haziran 2026'da biten yılı açıkladı. Hasılat 25.959 milyon yen (+%12,4), faaliyet kârı 6.914 milyon yen (−%2,6), net kâr 9.830 milyon yen (+%101,1). Net kârdaki artışın nedeni 6.792 milyon yenlik yatırım hissesi satış kazancıdır. Hisse başına kâr 360,20 yen (bölünme sonrası 180,10). Haziran 2027 yılı beklentisi: hasılat 29.380 milyon yen (+%13,2), faaliyet kârı 9.012 milyon yen (+%30,3), net kâr 6.222 milyon yen (−%36,7), hisse başına kâr 227,98 yen (bölünme sonrası yaklaşık 114). Temmuz-Eylül 2026 çeyreğinin sonuçları 14 Kasım 2026 itibarıyla bulunamadı.",
+  "mgmt": "Borç çok az (943 milyon yen), nakit 14.277 milyon yen; özsermaye oranı %74,8. Şirket 2026'da elindeki SOFT99 hisselerini satarak 6.792 milyon yen kazanç yazdı; parayı marka tanıtımına, personele ve yeni dükkânlara ayırdığını, kalanıyla hisse başına 40 yen özel temettü ödediğini söylüyor. Temettü 2026 yılı için 100 yen (60 olağan, 40 özel; kârın %27,8'i), 2027 beklentisi 100 yen (bölünme öncesi). Geri alım yok. Şerefiye yok. Haziran 2026'da küçük bir yazılım şirketi (AWS) satın alındı; bedeli açıklanmadı. Şirket sunumunda 'büyüme yatırımı giderleri hariç' kâr veriyor (faaliyet kârı 8.007 milyon yen); bu giderler reklam ve personel gibi olağan giderlerdir, o ölçüye güvenilmedi. Sunumda aynı rakamın farklı sayfalarda farklı verildiği yerler var (dükkân ziyaret sayısı, dükkân sayısı). 15 Eylül 2026'da bire iki pay bölünmesi açıklandı (kayıt tarihi 31 Ekim 2026). Hisse bazlı ücrete, garantilere ve hâkim ortağa bakıldı; okunan belgelerde yok. 16 Kasım 2026'da VT Holdings payını (%13,39) Idemitsu Kosan'a satacağını, iş ortaklığının süreceğini açıkladı; aynı gün 'pay satışı ve büyük ortak değişikliği' başlıklı bir bildirim de yayımlandı; içeriği okunamadı. Kaynağa göre halka açıklık oranı %42,4.",
+  "latest": "16 Kasım 2026: Şirket Temmuz-Eylül 2026 çeyreğini açıkladı. Hasılat 6.639 milyon yen (+%15,0), faaliyet kârı 1.789 milyon yen (+%29,6), net kâr 1.233 milyon yen (+%35,5); faaliyet marjı %23,9'dan %26,9'a çıktı. Haziran 2027 yılı beklentisi değişmedi: hasılat 29.380 milyon yen, faaliyet kârı 9.012 milyon yen (+%30,3), net kâr 6.222 milyon yen (−%36,7; geçen yılın hisse satış kazancı yinelenmiyor), hisse başına kâr bölünme sonrası yaklaşık 114 yen. Bu çeyrek rakamları veri sitesinden alındı; şirketin tanshin'i açılamadı. Aynı gün Idemitsu Kosan ile sermaye ve iş ortaklığı açıklandı: Idemitsu, VT Holdings'in elindeki 7.309.096 payı (%13,39) borsa dışında alıp ikinci büyük ortak olacak; bedel açıklanmadı. İki şirket, Idemitsu istasyonlarının yanında KeePer LABO'lu yeni dükkânlar açmayı hedefliyor: 2030'a kadar 150, 2035'e kadar 500.",
   "risks": [
-   "Hesap yılda %25 reel büyümeye dayanıyor; bu, yöntemin tavanıdır. Oysa faaliyet kârı 2026'da %2,6 düştü ve şirket 2027'de net kârın %36,7 düşmesini bekliyor. Son yılın kârının yaklaşık yarısı tek seferlik hisse satış kazancıdır. Büyüme ve kazanç bu gerçeklere göre indirilmezse güvenlik marjı olduğundan çok yüksek görünür.",
-   "Kaynağın F/K'sı (4,93) yanlış: bire iki pay bölünmesinden sonraki fiyatı bölünme öncesi hisse başına kârla bölüyor. Belgedeki kârla F/K yaklaşık 9,9; tek seferlik kazanç çıkarılınca yaklaşık 20.",
-   "LABO dükkânlarında kâr düşüyor: 2026'da faaliyet kârı %20,2 geriledi, üçüncü çeyrekte kol zarar etti. Şirket 2031'e kadar dükkân sayısını 184'ten 500'e çıkarmayı hedefliyor; yeni dükkânların getirisi eskilerinki kadar olmayabilir.",
+   "Son 12 ayın kârının yaklaşık yarısı (%48) tek seferlik hisse satış kazancıdır; hesap bu yüzden kârı 0,52 ile çarparak kullanır. Kaynağın F/K'sı (8,63) bu kazancı içerir; kazanç çıkarılınca F/K yaklaşık 17'dir. Şirket Haziran 2027 yılında net kârın %36,7 düşmesini bekliyor. Kazanç Ocak-Mart 2027 çeyreği açıklanınca son 12 ayın dışına çıkar.",
+   "Idemitsu Kosan %13,39 payla ikinci büyük ortak oluyor ve yönetim kurulundaki strateji kuruluna bir gözlemci gönderecek. Ürün satışlarının çoğu zaten benzin istasyonlarına gidiyor; tek bir istasyon zincirine bağımlılık artabilir. Idemitsu'nun KeePer satışlarındaki payı okunan kaynaklarda yok; bakıldı.",
+   "LABO dükkânlarında kâr 2026'da düştü: faaliyet kârı %20,2 geriledi, üçüncü çeyrekte kol zarar etti. Şirket 2031'e kadar dükkân sayısını 184'ten 500'e çıkarmayı hedefliyor; Idemitsu ile açılacak yeni dükkânların getirisi eskilerinki kadar olmayabilir. İlk çeyreğin kol rakamları okunamadı.",
    "Araç kaplama isteğe bağlı bir harcamadır; hane bütçesi daralınca ertelenir. Ortalama müşteri tutarı 2026'da artmadı.",
    "Ürün satışlarının çoğu benzin istasyonlarına ve yeni araç bayilerine gider (yeni araç kanalı ürün hasılatının %34'ü); bu kanallardaki bir kayıp satışı doğrudan etkiler."
   ],
   "watch": [
-   "2027 faaliyet kârı beklentiyi (9.012 milyon yen) tutuyor mu",
+   "2027 faaliyet kârı beklentiyi (9.012 milyon yen) tutuyor mu; ilk çeyrekte 1.789 milyon yen",
    "LABO kolunun faaliyet marjı (2026'da %15,5) ve mevcut dükkânların satışı",
    "Ürün kolunun faaliyet marjı (2026'da %39,8)",
    "Yeni dükkân sayısı ve dükkân başına yatırım"
@@ -3212,52 +3217,67 @@
     "t": "Japan IR: KeePer Technical Laboratory bildirim listesi ve fiyat (13 Kas 2026)",
     "te": "Japan IR: KeePer Technical Laboratory disclosure list and price (13 Nov 2026)",
     "u": "https://japanir.jp/en/?p=29743"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı",
+    "te": "Source for the earnings judgment",
+    "u": "https://s.kabutan.jp/stocks/6036/news/k202611160029/"
+   },
+   {
+    "t": "Car Watch: Idemitsu Kosan, KeePer Giken'in %13,39'unu alıyor (16 Kas 2026)",
+    "te": "Car Watch: Idemitsu Kosan to acquire 13.39% of KeePer Technical Laboratory (16 Nov 2026)",
+    "u": "https://car.watch.impress.co.jp/docs/news/2156784.html"
+   },
+   {
+    "t": "Kabutan: KeePer Giken bildirim listesi (16-20 Kas 2026)",
+    "te": "Kabutan: KeePer Technical Laboratory disclosure list (16-20 Nov 2026)",
+    "u": "https://s.kabutan.jp/stocks/6036/news/"
    }
   ],
   "en": {
-   "one": "Japan's car coating brand. Half of last year's profit is a one-off share sale; the calculation rests on growth of 25% a year, while the company expects profit to fall 37% in 2027.",
+   "one": "Japan's car coating brand. Half of the last 12 months' profit is a one-off share sale; without it the price does not pass the test. Operating profit rose 29.6% in the first quarter.",
    "business": "KeePer Technical Laboratory makes glass coating chemicals that protect car paint and sells them in two ways. First, it sells the chemicals and training to about 6,663 certified application points, most of them petrol stations, and to new-car dealers (revenue of 11.9 billion yen in the year to June 2026). Second, it does coating and washing in its own KeePer LABO shops (184 shops, 150 of them company-run; 14.0 billion yen). Total revenue was 25,959 million yen and operating profit 6,914 million yen. The financial year ends in June; the accounts are non-consolidated.",
    "moat_text": "The moat is narrow. The advantage comes from the brand, the network of trained applicators and making the chemicals itself. Evidence: the products segment's operating margin was 39.8% in 2026 (2025: 42.1%); the company's overall operating margin has been between 27% and 32% for four years; by the company's survey 87% of coating customers come back; it runs 22 training centres. Real return on equity was between 27% and 43% over the last five years; the 43% in the latest year is inflated by the share sale gain. The weak point: pricing power does not show in the numbers. The average ticket in LABO shops stood still in 2026 (16,757 yen, +0.1%) and the LABO segment's operating profit fell 20.2% (margin from 21.4% to 15.5%). Coating is a discretionary purchase; switching to rival products is easy. The documents give no market share figure; we looked.",
-   "mgmt": "Debt is very small (943 million yen) and cash is 14,277 million yen; the equity ratio is 74.8%. In 2026 the company sold its SOFT99 shares and booked a gain of 6,792 million yen; it says it put the money into brand marketing, staff and new shops and paid a special dividend of 40 yen a share with the rest. The dividend for 2026 is 100 yen (60 regular, 40 special; 27.8% of profit) and the 2027 forecast is 100 yen (pre-split). There are no buybacks. There is no goodwill. A small software company (AWS) was bought in June 2026; the price was not disclosed. In its presentation the company gives profit 'excluding growth investment costs' (operating profit of 8,007 million yen); these costs are ordinary costs such as advertising and staff, and we did not rely on that measure. In places the presentation gives the same figure differently on different pages (shop visits, shop count). A two-for-one stock split was announced on 15 September 2026 (record date 31 October 2026). We looked for share-based pay, guarantees and a controlling shareholder; they are not in the documents read. According to the source the free float is 42.4%.",
-   "latest": "14 August 2026: The company reported the year ended June 2026. Revenue was 25,959 million yen (+12.4%), operating profit 6,914 million yen (−2.6%) and net profit 9,830 million yen (+101.1%). The rise in net profit is due to a 6,792 million yen gain on the sale of investment shares. Earnings per share were 360.20 yen (180.10 after the split). Forecast for the year to June 2027: revenue 29,380 million yen (+13.2%), operating profit 9,012 million yen (+30.3%), net profit 6,222 million yen (−36.7%), earnings per share 227.98 yen (about 114 after the split). Results for the July-September 2026 quarter could not be found as of 14 November 2026.",
+   "mgmt": "Debt is very small (943 million yen) and cash is 14,277 million yen; the equity ratio is 74.8%. In 2026 the company sold its SOFT99 shares and booked a gain of 6,792 million yen; it says it put the money into brand marketing, staff and new shops and paid a special dividend of 40 yen a share with the rest. The dividend for 2026 is 100 yen (60 regular, 40 special; 27.8% of profit) and the 2027 forecast is 100 yen (pre-split). There are no buybacks. There is no goodwill. A small software company (AWS) was bought in June 2026; the price was not disclosed. In its presentation the company gives profit 'excluding growth investment costs' (operating profit of 8,007 million yen); these costs are ordinary costs such as advertising and staff, and we did not rely on that measure. In places the presentation gives the same figure differently on different pages (shop visits, shop count). A two-for-one stock split was announced on 15 September 2026 (record date 31 October 2026). We looked for share-based pay, guarantees and a controlling shareholder; they are not in the documents read. On 16 November 2026 VT Holdings said it would sell its stake (13.39%) to Idemitsu Kosan and keep the business alliance; a notice titled 'secondary offering of shares and change in major shareholders' was published the same day; its content could not be read. According to the source the free float is 42.4%.",
+   "latest": "16 November 2026: The company reported the July-September 2026 quarter. Revenue was 6,639 million yen (+15.0%), operating profit 1,789 million yen (+29.6%) and net profit 1,233 million yen (+35.5%); the operating margin rose from 23.9% to 26.9%. The forecast for the year to June 2027 is unchanged: revenue 29,380 million yen, operating profit 9,012 million yen (+30.3%), net profit 6,222 million yen (−36.7%; last year's share sale gain does not repeat), earnings per share about 114 yen after the split. These quarterly figures come from a data site; the company's tanshin could not be opened. On the same day a capital and business alliance with Idemitsu Kosan was announced: Idemitsu will buy the 7,309,096 shares (13.39%) held by VT Holdings off-market and become the second-largest shareholder; the price was not disclosed. The two companies aim to open new shops with KeePer LABO next to Idemitsu stations: 150 by 2030 and 500 by 2035.",
    "risks": [
-    "The calculation rests on real growth of 25% a year; that is the method's ceiling. Yet operating profit fell 2.6% in 2026 and the company expects net profit to fall 36.7% in 2027. About half of last year's profit is a one-off gain on a share sale. Unless growth and earnings are lowered for these facts, the margin of safety looks far higher than it is.",
-    "The source's price-to-earnings ratio (4.93) is wrong: it divides the price after the two-for-one split by earnings per share from before the split. With the profit in the company's document the ratio is about 9.9; about 20 once the one-off gain is taken out.",
-    "Profit in the LABO shops is falling: operating profit dropped 20.2% in 2026 and the segment made a loss in the third quarter. The company aims to raise the shop count from 184 to 500 by 2031; new shops may not earn what the old ones do.",
+    "About half (48%) of the last 12 months' profit is a one-off gain on a share sale; the calculation therefore uses profit multiplied by 0.52. The source's price-to-earnings ratio (8.63) includes this gain; without it the ratio is about 17. The company expects net profit to fall 36.7% in the year to June 2027. The gain leaves the trailing 12 months once the January-March 2027 quarter is reported.",
+    "Idemitsu Kosan becomes the second-largest shareholder with 13.39% and will send an observer to the strategy council inside the board. Most product sales already go to petrol stations; dependence on a single station chain may grow. Idemitsu's share of KeePer's sales is not in the sources read; we looked.",
+    "Profit in the LABO shops fell in 2026: operating profit dropped 20.2% and the segment made a loss in the third quarter. The company aims to raise the shop count from 184 to 500 by 2031; the new shops to be opened with Idemitsu may not earn what the old ones do. The first-quarter segment figures could not be read.",
     "Car coating is a discretionary purchase; it is put off when household budgets tighten. The average ticket did not rise in 2026.",
     "Most product sales go to petrol stations and new-car dealers (the new-car channel is 34% of product revenue); a loss in these channels hits sales directly."
    ],
    "watch": [
-    "Whether 2027 operating profit meets the forecast (9,012 million yen)",
+    "Whether 2027 operating profit meets the forecast (9,012 million yen); 1,789 million yen in the first quarter",
     "The LABO segment's operating margin (15.5% in 2026) and sales at existing shops",
     "The products segment's operating margin (39.8% in 2026)",
     "Number of new shops and investment per shop"
    ]
   },
   "chk": {
-   "date": "2026-11-14",
-   "per": "2026-Q4"
+   "date": "2026-11-21",
+   "per": "2027-Q1"
   },
   "note": {
-   "tr": "Kaynağın F/K'sı (4,93) bire iki pay bölünmesi (kayıt tarihi 31 Ekim 2026) nedeniyle yarı yarıya düşük görünüyor. Şirketin tablosundaki kârla F/K yaklaşık 9,9'dur.",
-   "en": "The source's price-to-earnings ratio (4.93) looks half of what it is because of the two-for-one stock split (record date 31 October 2026). With the profit in the company's accounts the ratio is about 9.9."
+   "tr": "Kaynağın F/K'sı (8,63) son 12 ayın içindeki tek seferlik hisse satış kazancını (vergi öncesi 6.792 milyon yen) içerir. Kazanç çıkarılınca F/K yaklaşık 17'dir.",
+   "en": "The source's price-to-earnings ratio (8.63) includes the one-off share sale gain inside the last 12 months (6,792 million yen pre-tax). Without the gain the ratio is about 17."
   },
   "earn": {
-   "k": 0.505,
+   "k": 0.52,
    "basis": {
-    "tr": "Hesap son 12 ayın kârına dayanır. Bu kârın içindeki tek seferlik kazançlar: Yatırım amaçlı hisselerin (SOFT99) satış kazancı: vergi öncesi 6.792 milyon yen (olağan dışı gelir): son 12 ay kârının %49,5 kadarı. Net etki %49,5; kazanç bu kadar indirildi. Şirketin Haziran 2027'de biten yıl için hisse başına kâr beklentisi 113,99 JPY; son 12 ayda 180,10 JPY. Beklenti daha düşük olduğu için kazanç bu orana indirildi (%36,7). Son 12 ayın kârı 0,51 ile çarpılarak kullanıldı.",
-    "en": "The calculation rests on the profit of the last 12 months. One-off gains inside that profit: Gain on sale of investment securities (SOFT99 shares): 6,792 million yen pre-tax (extraordinary income): 49.5% of last-12-month profit. The net effect is 49.5%; earnings were lowered by that much. The company's earnings-per-share outlook for year to June 2027 is 113.99 JPY; the last 12 months were 180.10 JPY. Because the outlook is lower, earnings were lowered to that ratio (36.7%). Last-12-month profit was used multiplied by 0.51."
+    "tr": "Hesap son 12 ayın kârına dayanır. Bu kârın içindeki tek seferlik kazançlar: Yatırım amaçlı hisselerin (SOFT99) satış kazancı: vergi öncesi 6.792 milyon yen (olağan dışı gelir): son 12 ay kârının %48,0 kadarı. Net etki %48,0; kazanç bu kadar indirildi. Şirketin Haziran 2027'de biten yıl için hisse başına kâr beklentisi 113,99 JPY; son 12 ayda 186,02 JPY. Beklenti daha düşük olduğu için kazanç bu orana indirildi (%38,7). Son 12 ayın kârı 0,52 ile çarpılarak kullanıldı.",
+    "en": "The calculation rests on the profit of the last 12 months. One-off gains inside that profit: Gain on sale of investment securities (SOFT99 shares): 6,792 million yen pre-tax (extraordinary income): 48.0% of last-12-month profit. The net effect is 48.0%; earnings were lowered by that much. The company's earnings-per-share outlook for year to June 2027 is 113.99 JPY; the last 12 months were 186.02 JPY. Because the outlook is lower, earnings were lowered to that ratio (38.7%). Last-12-month profit was used multiplied by 0.52."
    },
-   "per": "2026-Q4"
+   "per": "2027-Q1"
   },
   "growth": {
-   "g": 6.6,
-   "dy": 2.8,
+   "g": 7.1,
+   "dy": 3.1,
    "basis": {
-    "tr": "Formül yılda %13,2 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Temmuz 2025 - Haziran 2026 (mali yıl) %101,1; Nisan-Haziran 2026 çeyreği (yıl eksi dokuz ay) %78,9; Haziran 2027'de biten yıl için şirket beklentisi (hisse başına kâr) %−36,7. Geçen yılın kârı tek seferlik hisse satış kazancıyla iki katına çıkmıştı; hisse başına kârdaki artış işin büyümesini göstermez. Faaliyet kârı Haziran 2026 yılında %2,6 düştü. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %6,6. Kaynakta temettü verimi yok; şirketin Haziran 2027 yılı (beklenti; bölünme öncesi 100 yen, bire iki bölünme sonrası 50 yen) için açıkladığı hisse başına 50 JPY temettüden %2,8 hesaplandı.",
-    "en": "The formula gave growth of 13.2% a year. Latest figures (earnings per share, year on year): July 2025 - June 2026 (fiscal year) 101.1%; April-June 2026 quarter (full year minus nine months) 78.9%; company guidance for the year to June 2027 (EPS) −36.7%. Last year's profit was doubled by a one-off gain on a share sale; the rise in earnings per share does not show the growth of the business. Operating profit fell 2.6% in the year to June 2026. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 6.6%. The data source has no dividend yield; 2.8% was calculated from the dividend of 50 JPY per share the company declared for the year to June 2027 (forecast; 100 yen pre-split, 50 yen after the two-for-one split)."
+    "tr": "Formül yılda %14,3 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Temmuz-Eylül 2026 çeyreği (mali yılın ilk çeyreği; net kâr) %35,5; Haziran 2027'de biten yıl için şirket beklentisi (hisse başına kâr) %−36,7. Şirketin yıllık beklentisindeki düşüş, geçen yılın tek seferlik hisse satış kazancının yinelenmemesinden gelir. İlk çeyrekte faaliyet kârı %29,6 arttı. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %7,1. Kaynakta temettü verimi yok; şirketin Haziran 2027 yılı (beklenti; bölünme öncesi 100 yen, bire iki bölünme sonrası 50 yen) için açıkladığı hisse başına 50 JPY temettüden %3,1 hesaplandı.",
+    "en": "The formula gave growth of 14.3% a year. Latest figures (earnings per share, year on year): July-September 2026 quarter (first quarter of the fiscal year; net profit) 35.5%; company guidance for the year to June 2027 (EPS) −36.7%. The fall in the company's full-year forecast comes from last year's one-off share sale gain not repeating. Operating profit rose 29.6% in the first quarter. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 7.1%. The data source has no dividend yield; 3.1% was calculated from the dividend of 50 JPY per share the company declared for the year to June 2027 (forecast; 100 yen pre-split, 50 yen after the two-for-one split)."
    },
-   "per": "2026-Q4"
+   "per": "2027-Q1"
   }
  },
  "4377": {
@@ -3359,8 +3379,8 @@
   "growth": {
    "g": null,
    "basis": {
-    "tr": "Formül yılda %21,4 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 (dokuz ay) %63,4; Temmuz-Eylül 2026 çeyreği %45,8; Aralık 2026'da biten yıl için şirket beklentisi (hisse başına kâr) %40,4. Geçen yılın dokuz aylık ve çeyreklik rakamları konsolide değildir (şirket konsolide tabloya 2025 yıl sonunda geçti); fark küçüktür (2025 net kârı konsolide 1.500, tek başına 1.515 milyon yen). En düşüğü, enflasyondan arındırılınca, %37,5. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
-    "en": "The formula gave growth of 21.4% a year. Latest figures (earnings per share, year on year): January-September 2026 (nine months) 63.4%; July-September 2026 quarter 45.8%; company guidance for the year to December 2026 (EPS) 40.4%. Last year's nine-month and quarterly figures are non-consolidated (the company moved to consolidated accounts at the end of 2025); the difference is small (2025 net profit 1,500 million yen consolidated, 1,515 non-consolidated). The lowest, after inflation, is 37.5%. That is not less than half the formula's rate; the rate was not lowered."
+    "tr": "Formül yılda %21,4 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 (dokuz ay) %63,4; Temmuz-Eylül 2026 çeyreği %45,8; Aralık 2026'da biten yıl için şirket beklentisi (hisse başına kâr) %40,4. Geçen yılın dokuz aylık ve çeyreklik rakamları konsolide değildir (şirket konsolide tabloya 2025 yıl sonunda geçti); fark küçüktür (2025 net kârı konsolide 1.500, tek başına 1.515 milyon yen). En düşüğü, enflasyondan arındırılınca, %37,2. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 21.4% a year. Latest figures (earnings per share, year on year): January-September 2026 (nine months) 63.4%; July-September 2026 quarter 45.8%; company guidance for the year to December 2026 (EPS) 40.4%. Last year's nine-month and quarterly figures are non-consolidated (the company moved to consolidated accounts at the end of 2025); the difference is small (2025 net profit 1,500 million yen consolidated, 1,515 non-consolidated). The lowest, after inflation, is 37.2%. That is not less than half the formula's rate; the rate was not lowered."
    },
    "per": "2026-Q3"
   }
@@ -3661,8 +3681,8 @@
   "growth": {
    "g": null,
    "basis": {
-    "tr": "Formül yılda %16,4 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 (konsolide olmayan; geçen yıl konsolide) %48,2; Temmuz-Eylül 2026 çeyreği (konsolide olmayan; geçen yıl konsolide) %55,2; 2026 yılı için şirket tahmini (konsolide olmayan) %13,5. Şirket 2026'da konsolide olmayan tabloya geçti ve yıllık değişim açıklamıyor; karşılaştırmalar 2025'in konsolide rakamlarıyla yapıldı. 2026 net kârını düşük vergi yükseltiyor: Ocak-Eylül'de 1.007 milyon yen vergi öncesi kâra 95 milyon yen vergi yazıldı. Olağan kâr (vergi öncesi, olağan dışı kalemler hariç) Ocak-Eylül'de 941 milyon yenden 1.160 milyon yene çıktı (+%23,3). En düşüğü, enflasyondan arındırılınca, %11,2. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
-    "en": "The formula gave growth of 16.4% a year. Latest figures (net profit, year on year): January-September 2026 (non-consolidated; prior year consolidated) 48.2%; July-September 2026 quarter (non-consolidated; prior year consolidated) 55.2%; company forecast for 2026 (non-consolidated) 13.5%. The company moved to non-consolidated statements in 2026 and gives no year-on-year change; comparisons use the consolidated 2025 figures. A low tax charge lifts 2026 net profit: 95 million yen of tax on 1,007 million yen of pre-tax profit in January-September. Ordinary profit (pre-tax, before extraordinary items) rose from 941 million yen to 1,160 million yen in January-September (+23.3%). The lowest, after inflation, is 11.2%. That is not less than half the formula's rate; the rate was not lowered."
+    "tr": "Formül yılda %16,3 büyüme veriyordu. En güncel veriler (net kâr, yıllık değişim): Ocak-Eylül 2026 (konsolide olmayan; geçen yıl konsolide) %48,2; Temmuz-Eylül 2026 çeyreği (konsolide olmayan; geçen yıl konsolide) %55,2; 2026 yılı için şirket tahmini (konsolide olmayan) %13,5. Şirket 2026'da konsolide olmayan tabloya geçti ve yıllık değişim açıklamıyor; karşılaştırmalar 2025'in konsolide rakamlarıyla yapıldı. 2026 net kârını düşük vergi yükseltiyor: Ocak-Eylül'de 1.007 milyon yen vergi öncesi kâra 95 milyon yen vergi yazıldı. Olağan kâr (vergi öncesi, olağan dışı kalemler hariç) Ocak-Eylül'de 941 milyon yenden 1.160 milyon yene çıktı (+%23,3). En düşüğü, enflasyondan arındırılınca, %10,9. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 16.3% a year. Latest figures (net profit, year on year): January-September 2026 (non-consolidated; prior year consolidated) 48.2%; July-September 2026 quarter (non-consolidated; prior year consolidated) 55.2%; company forecast for 2026 (non-consolidated) 13.5%. The company moved to non-consolidated statements in 2026 and gives no year-on-year change; comparisons use the consolidated 2025 figures. A low tax charge lifts 2026 net profit: 95 million yen of tax on 1,007 million yen of pre-tax profit in January-September. Ordinary profit (pre-tax, before extraordinary items) rose from 941 million yen to 1,160 million yen in January-September (+23.3%). The lowest, after inflation, is 10.9%. That is not less than half the formula's rate; the rate was not lowered."
    },
    "per": "2026-Q3"
   }
@@ -3767,8 +3787,8 @@
   "growth": {
    "g": null,
    "basis": {
-    "tr": "Formül yılda %8,8 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Nisan-Eylül 2026 (altı ay) %30,8; Temmuz-Eylül 2026 çeyreği (altı ay eksi ilk çeyrek) %59,8; Mart 2027'de biten yıl için şirket tahmini (hisse başına kâr) %10,0. Altı aylık ve çeyreklik artışı Solasto hisse satışı kazancı (9.870 milyon yen, vergi öncesi) büyütüyor; JustCo değer kaybı (4.380 milyon yen) bir bölümünü götürüyor. Şirket düzeltilmiş kâr açıklamıyor. Tek seferlik kalemlerden önceki olağan kâr altı ayda 71.380 milyon yenden 78.567 milyon yene çıktı (+%10,1). İnşaat siparişleri aynı dönemde %13,2 düştü. En düşüğü, enflasyondan arındırılınca, %7,7. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
-    "en": "The formula gave growth of 8.8% a year. Latest figures (earnings per share, year on year): April-September 2026 (six months) 30.8%; July-September 2026 quarter (six months minus first quarter) 59.8%; company forecast for the year to March 2027 (EPS) 10.0%. The six-month and quarterly growth is inflated by the gain on the Solasto share sale (9,870 million yen pre-tax), partly offset by the JustCo write-down (4,380 million yen). The company reports no adjusted profit. Ordinary profit, before these one-offs, rose from 71,380 million yen to 78,567 million yen in the six months (+10.1%). Construction orders fell 13.2% in the same period. The lowest, after inflation, is 7.7%. That is not less than half the formula's rate; the rate was not lowered."
+    "tr": "Formül yılda %8,7 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Nisan-Eylül 2026 (altı ay) %30,8; Temmuz-Eylül 2026 çeyreği (altı ay eksi ilk çeyrek) %59,8; Mart 2027'de biten yıl için şirket tahmini (hisse başına kâr) %10,0. Altı aylık ve çeyreklik artışı Solasto hisse satışı kazancı (9.870 milyon yen, vergi öncesi) büyütüyor; JustCo değer kaybı (4.380 milyon yen) bir bölümünü götürüyor. Şirket düzeltilmiş kâr açıklamıyor. Tek seferlik kalemlerden önceki olağan kâr altı ayda 71.380 milyon yenden 78.567 milyon yene çıktı (+%10,1). İnşaat siparişleri aynı dönemde %13,2 düştü. En düşüğü, enflasyondan arındırılınca, %7,5. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 8.7% a year. Latest figures (earnings per share, year on year): April-September 2026 (six months) 30.8%; July-September 2026 quarter (six months minus first quarter) 59.8%; company forecast for the year to March 2027 (EPS) 10.0%. The six-month and quarterly growth is inflated by the gain on the Solasto share sale (9,870 million yen pre-tax), partly offset by the JustCo write-down (4,380 million yen). The company reports no adjusted profit. Ordinary profit, before these one-offs, rose from 71,380 million yen to 78,567 million yen in the six months (+10.1%). Construction orders fell 13.2% in the same period. The lowest, after inflation, is 7.5%. That is not less than half the formula's rate; the rate was not lowered."
    },
    "per": "2026-Q2"
   }
@@ -3971,6 +3991,181 @@
   "chk": {
    "date": "2026-11-19",
    "per": "2026-Q2"
+  }
+ },
+ "3093": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 2,
+   "E": 2
+  },
+  "moat": "zayıf",
+  "per": "2026-Q2",
+  "one": "Japonya'da ikinci el eşya alıp satan mağaza zinciri. Kârlı ve büyüyor, ama giriş engeli düşük ve brüt marj geriliyor; hendek ölçütünü geçemedi.",
+  "business": "Treasure Factory, kişilerden ikinci el giyim, marka eşya, ev eşyası ve hobi ürünleri alır, kendi mağazalarında ve internette satar. Şubat 2026'da biten yılda satış 48.597 milyon yen, faaliyet kârı 4.777 milyon yen, net kâr 3.171 milyon yen oldu. Mart-Ağustos 2026'da satışın %16,0'sı internetten, %11,1'i turistlere yapılan vergisiz satıştan geldi. Grupta moda (Kind All), golf (GK Factory) ve Pickup Japan şirketleri ile Tayland ve Tayvan mağazaları var. 1.434 çalışanı var.",
+  "moat_text": "Hendek zayıf. Üstünlük işletmecilikten geliyor: eşyayı doğrudan kişilerden alan mağaza ağı ve fiyatlama düzeni. Kanıt: reel özsermaye kârlılığı son dört yılda %24,8 ile %26,1 arasında (2022'de %10,9); mevcut mağazaların satışı 60 aydır artıyor (ilk yarıda +%5,2); faaliyet marjı dört yıldır %9,1 ile %9,8 arasında. Ama fiyatlama gücü rakamda görünmüyor: brüt marj Şubat 2023 yılında %61,7 iken 2025 ve 2026'da %59,1; enflasyonun yükseldiği yıllarda geriledi. İkinci el eşyanın fiyatını pazar belirler; alıcı da satıcı da internet pazar yerlerinde fiyatı görür. Mağaza açmak lisans ya da büyük sermaye istemez; rakip zincirler aynı işi yapar. Stok satıştan hızlı büyüdü: dört yılda 4.028 milyon yenden 9.131 milyon yene (satış 23.313'ten 48.597'ye). Pazar payı rakamı okunan belgelerde yok; bakıldı. Üstünlük gerçek ama kolay aşılabilir; B puanı 1.",
+  "mgmt": "Kurucu ve başkan Eigo Nosaka payların %32,04'üne sahip (31 Ağustos 2026); Jun Nosaka %3,03, Three Star Management %4,93 tutuyor. Şirketin elinde %3,69 kendi payı var. Kâr yeni mağazalara ve temettüye gidiyor: Şubat 2026 yılı için hisse başına 40 yen ödendi (kârın %29,6'sı), 2027 yılı için 46 yen öngörülüyor. Hedef, kârın en az %30'unu dağıtmak. Şubat 2026 sonunda faizli borç 7.222 milyon yen, nakit 5.012 milyon yen, özsermaye oranı %50,0 idi. Son yıl geri alım yok; pay sayısı iki yıldır aynı (24.347.800). Yöneticilere nakit dışı ücret 9 milyon yen; önemsiz. Şerefiye, bilanço dışı yükümlülük ve ilişkili taraf işlemlerine bakıldı; okunan belgelerde rakam yok. Şirket ABD'de ilk mağazasını 2027 baharında açmayı planlıyor; Tayvan zararda.",
+  "latest": "14 Ekim 2026: Şirket Mart-Ağustos 2026 yarıyılını açıkladı. Satış yaklaşık 25,9 milyar yen (+%15), faaliyet kârı yaklaşık 2,3 milyar yen (+%21,5), net kâr yaklaşık 1,5 milyar yen (+%21), hisse başına kâr 63,89 yen. İlk yarıda 19 mağaza açıldı. Şubat 2027 yılı beklentisi değişmedi: satış 54.975 milyon yen (+%13,1), faaliyet kârı 5.333 milyon yen (+%11,6), net kâr 3.551 milyon yen (+%12,0), hisse başına kâr 151,49 yen. Yarıyıl rakamları veri sitelerinden ve şirketin sunum konuşmasından alındı; şirketin 14 Ekim tanshin'i açılamadı. Bağlı şirket Kind All'da kişisel verilerin bir bölümü sızdı; şirket etkinin sınırlı olduğunu söylüyor.",
+  "risks": [
+   "Giriş engeli düşük: ikinci el eşya alıp satan başka zincirler ve internet pazar yerleri aynı satıcıya ve alıcıya ulaşır. Brüt marj üç yılda %61,7'den %59,1'e indi.",
+   "Satışın %11,1'i turistlere yapılan vergisiz satıştır. Japonya kasım 2026'dan itibaren vergi iadesi düzenine geçiyor; şirket bunun büyümeyi yavaşlatabileceğini söylüyor. Yen değer kazanırsa da bu satış azalır.",
+   "Büyüme yeni mağazalara dayanıyor (yılda 30-35 mağaza hedefi). Stok ve borç satıştan hızlı arttı; yeni mağazaların getirisi eskilerinki kadar olmayabilir.",
+   "Yurt dışı işler küçük ve kârı zayıf: ilk yarıda Tayland'da faaliyet kârı düştü, Tayvan zarar etti; ABD'de ilk mağaza 2027'de açılacak."
+  ],
+  "watch": [
+   "Brüt marj (2026'da %59,1)",
+   "Mevcut mağaza satışlarının artışı (ilk yarıda +%5,2)",
+   "Stokun satışa oranı ve faizli borç",
+   "Vergisiz satışın payı (ilk yarıda %11,1)"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tyo/3093/financials/ratios/"
+   },
+   {
+    "t": "JPX: Treasure Factory Şubat 2026 yılı kessan tanshin özeti (9 Nis 2026)",
+    "te": "JPX: Treasure Factory earnings summary (kessan tanshin) for the year to February 2026 (9 Apr 2026)",
+    "u": "https://www2.jpx.co.jp/disc/30930/081220260406598893_tse-acedjpsm-30930-20260409330930-ixbrl.htm"
+   },
+   {
+    "t": "JPX: Treasure Factory Şubat 2027 yılı 1. çeyrek tanshin özeti (9 Tem 2026)",
+    "te": "JPX: Treasure Factory first-quarter earnings summary, year to February 2027 (9 Jul 2026)",
+    "u": "https://www2.jpx.co.jp/disc/30930/081220260708589526_tse-qcedjpsm-30930-20260709330930-ixbrl.htm"
+   },
+   {
+    "t": "logmi Finance: Treasure Factory yarıyıl sonuç sunumu, konuşma metni (21 Eki 2026)",
+    "te": "logmi Finance: Treasure Factory half-year results briefing, transcript (21 Oct 2026)",
+    "u": "https://finance.logmi.jp/articles/386014"
+   },
+   {
+    "t": "EDINET DB: Treasure Factory yarıyıl rakamları (14 Eki 2026 tanshin'inden)",
+    "te": "EDINET DB: Treasure Factory half-year figures (from the tanshin of 14 Oct 2026)",
+    "u": "https://edinetdb.jp/company/E03520/earnings/FY2027-Q2"
+   },
+   {
+    "t": "EDINET DB: Treasure Factory beş yıllık rakamlar (yıllık menkul kıymet raporlarından)",
+    "te": "EDINET DB: Treasure Factory five-year figures (from the annual securities reports)",
+    "u": "https://edinetdb.jp/company/E03520"
+   },
+   {
+    "t": "Kabutan: Treasure Factory büyük ortaklar (31 Ağu 2026)",
+    "te": "Kabutan: Treasure Factory major shareholders (31 Aug 2026)",
+    "u": "https://s.kabutan.jp/stocks/3093/stockholders/"
+   },
+   {
+    "t": "Minkabu: Treasure Factory sonuç bilgileri",
+    "te": "Minkabu: Treasure Factory results data",
+    "u": "https://s.minkabu.jp/stock/3093/settlement"
+   }
+  ],
+  "en": {
+   "one": "A chain of shops that buys and sells second-hand goods in Japan. Profitable and growing, but barriers to entry are low and the gross margin is slipping; it did not pass the moat test.",
+   "business": "Treasure Factory buys second-hand clothing, branded goods, household goods and hobby items from individuals and sells them in its own shops and online. In the year to February 2026 sales were 48,597 million yen, operating profit 4,777 million yen and net profit 3,171 million yen. In March-August 2026, 16.0% of sales came from the internet and 11.1% from tax-free sales to tourists. The group includes fashion (Kind All), golf (GK Factory) and Pickup Japan, and shops in Thailand and Taiwan. It has 1,434 employees.",
+   "moat_text": "The moat is weak. The advantage comes from how the business is run: a shop network that buys goods directly from individuals, and its pricing system. Evidence: real return on equity was between 24.8% and 26.1% in the last four years (10.9% in 2022); sales at existing shops have risen for 60 months (+5.2% in the first half); the operating margin has been between 9.1% and 9.8% for four years. But pricing power does not show in the numbers: the gross margin was 61.7% in the year to February 2023 and 59.1% in 2025 and 2026; it slipped in the years when inflation rose. The market sets the price of second-hand goods; both buyer and seller can see prices on online marketplaces. Opening a shop needs no licence or large capital; rival chains do the same work. Inventory grew faster than sales: from 4,028 million yen to 9,131 million yen in four years (sales from 23,313 to 48,597). The documents read give no market share figure; we looked. The advantage is real but easy to overcome; the B score is 1.",
+   "mgmt": "Founder and president Eigo Nosaka holds 32.04% of the shares (31 August 2026); Jun Nosaka holds 3.03% and Three Star Management 4.93%. The company holds 3.69% of its own shares. Profit goes to new shops and dividends: 40 yen a share was paid for the year to February 2026 (29.6% of profit) and 46 yen is forecast for 2027. The aim is to pay out at least 30% of profit. At the end of February 2026 interest-bearing debt was 7,222 million yen, cash 5,012 million yen and the equity ratio 50.0%. There was no buyback in the last year; the share count has been the same for two years (24,347,800). Non-cash pay to directors was 9 million yen; immaterial. We looked for goodwill, off-balance-sheet liabilities and related-party dealings; the documents read give no figures. The company plans to open its first US shop in spring 2027; Taiwan makes a loss.",
+   "latest": "14 October 2026: The company reported the March-August 2026 half-year. Sales were about 25.9 billion yen (+15%), operating profit about 2.3 billion yen (+21.5%), net profit about 1.5 billion yen (+21%) and earnings per share 63.89 yen. It opened 19 shops in the first half. The forecast for the year to February 2027 is unchanged: sales 54,975 million yen (+13.1%), operating profit 5,333 million yen (+11.6%), net profit 3,551 million yen (+12.0%), earnings per share 151.49 yen. The half-year figures come from data sites and the company's briefing transcript; the company's tanshin of 14 October could not be opened. At subsidiary Kind All some personal data leaked; the company says the effect is limited.",
+   "risks": [
+    "Barriers to entry are low: other chains that buy and sell second-hand goods, and online marketplaces, reach the same sellers and buyers. The gross margin fell from 61.7% to 59.1% in three years.",
+    "11.1% of sales are tax-free sales to tourists. Japan moves to a tax-refund system from November 2026; the company says this may slow growth. A stronger yen would also cut these sales.",
+    "Growth relies on new shops (a target of 30-35 a year). Inventory and debt grew faster than sales; new shops may not earn what the old ones do.",
+    "The overseas businesses are small and earn little: in the first half operating profit fell in Thailand and Taiwan made a loss; the first US shop opens in 2027."
+   ],
+   "watch": [
+    "Gross margin (59.1% in 2026)",
+    "Growth in sales at existing shops (+5.2% in the first half)",
+    "Inventory relative to sales, and interest-bearing debt",
+    "Share of tax-free sales (11.1% in the first half)"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-21",
+   "per": "2026-Q2"
+  },
+  "earn": {
+   "k": 1.0,
+   "basis": {
+    "tr": "Hesap son 12 ayın kârına dayanır. Şirketin Şubat 2027'de biten yıl için hisse başına kâr beklentisi 151,49 JPY; son 12 ayda 146,33 JPY. Beklenti daha düşük değil.",
+    "en": "The calculation rests on the profit of the last 12 months. The company's earnings-per-share outlook for year to February 2027 is 151.49 JPY; the last 12 months were 146.33 JPY. The outlook is not lower."
+   },
+   "per": "2026-Q2"
+  },
+  "growth": {
+   "g": null,
+   "basis": {
+    "tr": "Formül yılda %16,1 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Mart-Ağustos 2026 (mali yılın ilk yarısı) %20,9; Şubat 2027'de biten yıl için şirket beklentisi (hisse başına kâr) %12,0. En düşüğü, enflasyondan arındırılınca, %9,5. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 16.1% a year. Latest figures (earnings per share, year on year): March-August 2026 (first half of the fiscal year) 20.9%; company guidance for the year to February 2027 (EPS) 12.0%. The lowest, after inflation, is 9.5%. That is not less than half the formula's rate; the rate was not lowered."
+   },
+   "per": "2026-Q2"
+  }
+ },
+ "3989": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-Q4",
+  "one": "Ev arızaları için usta bulan internet platformu. Kasım 2026'da MBK Partners'ın pay alım teklifiyle el değiştirdi; borsadan çıkacak. Hendek ölçütünü geçemedi.",
+  "business": "SHARINGTECHNOLOGY, 'Seikatsu 110-ban' sitesiyle evdeki sorunlar (su tesisatı, kilit, haşere gibi) için müşteriyi anlaşmalı ustaya yönlendirir ve bundan ücret alır; bazı işleri kendi ekibiyle de yapar. Eylül 2026'da biten yılda hasılat 9.699 milyon yen: 6.190 milyon yen platform (−%3,6), 3.510 milyon yen kendi yaptığı işler (+%62,7). Faaliyet kârı 3.684 milyon yen; bunun 1.449 milyon yeni bir iş devrinden gelen tek seferlik kazançtır. Tablolar UFRS'ye göredir.",
+  "moat_text": "Hendek zayıf. Üstünlük, arama motorundan müşteri çeken siteler ve anlaşmalı usta ağıdır. Platform kolunun kârı 2.999 milyon yen (2025: 2.797 milyon yen); reel özsermaye kârlılığı beş yılda %28,9 ile %102,1 arasında, ama özsermaye küçük (6.132 milyon yen) ve son yılın %41,3'ü tek seferlik kazançla şişmiş. Zayıf yanı: platformun dış hasılatı 2026'da %3,6 düştü; büyüme, marjı düşük olan kendi yaptığı işlerden geldi (kol kârı 294 milyon yen, hasılatın %8,4'ü). Müşteri akışı arama motoru sıralamasına bağlı. Şirket, pay alım teklifini desteklerken üretken yapay zekânın yükselişine karşı bir ortağa ihtiyaç duyduğunu söyledi. Usta ağı ve site başkasınca kurulabilir. Üstünlük gerçek ama kolay aşılabilir; B puanı 1.",
+  "mgmt": "MBK Partners'ın kurduğu MP-2606, hisse başına 1.550 yenden pay alım teklifi yaptı (10 Eylül - 27 Ekim 2026); yönetim teklifi destekledi. 21.614.921 pay toplandı ve MP-2606 4 Kasım 2026'da ana ortak oldu. Ocak 2027 başındaki olağanüstü genel kurulda pay birleştirme oylanacak; ardından hisse Tokyo Borsası'ndan çıkarılacak. Kalan küçük ortak payını bu yolla devredecek. Şirket 2026 yılı için yalnız ara temettü ödedi (27,50 yen); teklif nedeniyle yıl sonu temettüsü ödenmedi (2025: 40 yen). Banka borcu yok; kira yükümlülüğü 268 milyon yen, nakit 6.815 milyon yen. 2026'da geri alım yok (2025: 504 milyon yen). Yıl içinde Lifeline şirketi satın alındı; şerefiye 134 milyon yenden 380 milyon yene çıktı (özsermayenin %6,2'si). Hisse bazlı ücret tutarı ve bilanço dışı yükümlülükler okunan belgede yok; bakıldı.",
+  "latest": "13 Kasım 2026: Şirket Eylül 2026'da biten yılı açıkladı. Hasılat 9.699 milyon yen (+%13,1), faaliyet kârı 3.684 milyon yen (+%77,7), ana ortaklık net kârı 2.531 milyon yen (+%79,2), hisse başına kâr 105,80 yen. Kârın içinde 1.449 milyon yenlik iş devri kazancı var; o çıkarılınca faaliyet kârı 2.235 milyon yendir (2025: 2.074 milyon yen). Hangi işin devredildiği bu belgede yazmıyor. Şirket Eylül 2027 yılı için tahmin vermedi. Pay alım teklifi tamamlandı; hisse borsadan çıkarılacak.",
+  "risks": [
+   "Hisse borsadan çıkıyor: pay alım teklifi 1.550 yenden tamamlandı ve fiyat bu düzeye bağlı. Ocak 2027'deki pay birleştirmeden sonra hisse işlem görmeyecek; bu sayfadaki fiyat hesabı bu yüzden anlam taşımaz.",
+   "Son yılın net kârının yaklaşık %39'u tek seferlik iş devri kazancıdır (1.449 milyon yen, şirketin %31,5'lik etkin vergi oranıyla vergi sonrası). Kaynağın F/K'sı ve özsermaye kârlılığı bu kazancı içerir.",
+   "Platformun dış hasılatı düşüyor (−%3,6). Müşteri arama motorundan gelir; sıralama ya da yapay zekâ destekli arama değişirse akış azalır.",
+   "Büyüme, kârı düşük olan kendi yaptığı işlerden geliyor; bu kol büyüdükçe şirketin toplam marjı düşer."
+  ],
+  "watch": [
+   "Pay birleştirme ve borsadan çıkış takvimi (Ocak 2027)",
+   "Platform kolunun dış hasılatı (2026'da 6.190 milyon yen)",
+   "Tek seferlik kazanç hariç faaliyet kârı (2026'da 2.235 milyon yen)"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tyo/3989/financials/ratios/"
+   },
+   {
+    "t": "JPX: SHARINGTECHNOLOGY Eylül 2026 yılı kessan tanshin (13 Kas 2026)",
+    "te": "JPX: SHARINGTECHNOLOGY earnings summary (kessan tanshin) for the year to September 2026 (13 Nov 2026)",
+    "u": "https://www2.jpx.co.jp/disc/39890/140120261113579184.pdf"
+   },
+   {
+    "t": "M&A Online: SHARINGTECHNOLOGY, MBK Partners'ın pay alım teklifini kabul ediyor (9 Eyl 2026)",
+    "te": "M&A Online: SHARINGTECHNOLOGY accepts MBK Partners' tender offer and goes private (9 Sep 2026)",
+    "u": "https://maonline.jp/news/20260909c"
+   }
+  ],
+  "en": {
+   "one": "An internet platform that finds tradespeople for household repairs. In November 2026 it changed hands through MBK Partners' tender offer and will be delisted. It did not pass the moat test.",
+   "business": "Through its 'Seikatsu 110-ban' site SHARINGTECHNOLOGY sends customers with household problems (plumbing, locks, pests and the like) to partner tradespeople and takes a fee; it also does some jobs with its own crews. In the year to September 2026 revenue was 9,699 million yen: 6,190 million yen from the platform (−3.6%) and 3,510 million yen from its own jobs (+62.7%). Operating profit was 3,684 million yen; 1,449 million yen of that is a one-off gain on the transfer of a business. The accounts follow IFRS.",
+   "moat_text": "The moat is weak. The advantage is its sites, which draw customers from search engines, and its network of partner tradespeople. The platform segment earned 2,999 million yen (2025: 2,797 million yen); real return on equity was between 28.9% and 102.1% over five years, but equity is small (6,132 million yen) and the 41.3% of the latest year is inflated by the one-off gain. The weak side: the platform's external revenue fell 3.6% in 2026; growth came from its own jobs, where the margin is low (segment profit 294 million yen, 8.4% of revenue). Customer flow depends on search engine ranking. In backing the tender offer the company said it needed a partner to respond to the rise of generative AI. Someone else can build a network of tradespeople and a site. The advantage is real but easy to overcome; the B score is 1.",
+   "mgmt": "MP-2606, set up by MBK Partners, made a tender offer at 1,550 yen a share (10 September - 27 October 2026); management backed it. 21,614,921 shares were tendered and MP-2606 became the parent on 4 November 2026. An extraordinary shareholders' meeting in early January 2027 will vote on a share consolidation; the stock will then be delisted from the Tokyo Stock Exchange. Remaining minority shareholders will give up their shares this way. For 2026 the company paid only an interim dividend (27.50 yen); because of the offer no year-end dividend was paid (2025: 40 yen). There are no bank loans; lease liabilities are 268 million yen and cash is 6,815 million yen. There was no buyback in 2026 (2025: 504 million yen). During the year it bought a company called Lifeline; goodwill rose from 134 million yen to 380 million yen (6.2% of equity). The amount of share-based pay and off-balance-sheet liabilities are not in the document read; we looked.",
+   "latest": "13 November 2026: The company reported the year ended September 2026. Revenue was 9,699 million yen (+13.1%), operating profit 3,684 million yen (+77.7%), net profit attributable to owners 2,531 million yen (+79.2%) and earnings per share 105.80 yen. Profit includes a 1,449 million yen gain on the transfer of a business; without it operating profit is 2,235 million yen (2025: 2,074 million yen). This document does not say which business was transferred. The company gave no forecast for the year to September 2027. The tender offer is complete; the stock will be delisted.",
+   "risks": [
+    "The stock is leaving the exchange: the tender offer was completed at 1,550 yen and the price is tied to that level. After the share consolidation in January 2027 the stock will not trade; the price calculation on this page therefore has no meaning.",
+    "About 39% of the latest year's net profit is a one-off gain on the transfer of a business (1,449 million yen, after tax at the company's effective rate of 31.5%). The source's price-to-earnings ratio and return on equity include this gain.",
+    "The platform's external revenue is falling (−3.6%). Customers come from search engines; if ranking or AI-assisted search changes, the flow shrinks.",
+    "Growth comes from its own jobs, where profit is low; as that segment grows the company's overall margin falls."
+   ],
+   "watch": [
+    "Timetable for the share consolidation and delisting (January 2027)",
+    "External revenue of the platform segment (6,190 million yen in 2026)",
+    "Operating profit excluding the one-off gain (2,235 million yen in 2026)"
+   ]
+  },
+  "chk": {
+   "date": "2026-11-21",
+   "per": "2026-Q4"
   }
  }
 }

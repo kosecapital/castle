@@ -5,7 +5,7 @@
  "market": "america",
  "exchange": "NYSE, Nasdaq ve NYSE American",
  "cur": "USD",
- "asof": "2026-11-14",
+ "asof": "2026-11-21",
  "fx": 1.0,
  "mcapMin": 60,
  "years": [
@@ -31,6 +31,7 @@
   "Beş yıllık oranlar: stockanalysis.com oran sayfaları. Her şirketin mali yılı kendi takvimine göredir; grafikte şirketin kendi mali yılları yazar.",
   "Yıl sonu enflasyonu: ABD Çalışma İstatistikleri Bürosu (BLS), tüketici fiyat endeksi, aralıktan aralığa. Son yıllık oran: TradingView (ECONOMICS:USIRYY).",
   "Şirketin belgesiyle düzeltilenler (14 Kasım 2026). H&R Block: kaynağın PD/DD'si (53,9) 30 Haziran 2026 bilançosuna dayanıyordu (özsermaye 117,5 milyon dolar). Şirketin 9 Kasım 2026'da açıkladığı 30 Eylül 2026 bilançosunda özsermaye eksi 242,3 milyon dolar. Şirket 'özsermaye negatif' olarak işaretlendi ve 1. surda kaldı; yazılan raporu sayfasında saklanıyor.",
+  "Şirketin belgesiyle düzeltilenler (21 Kasım 2026). NVIDIA: kaynağın PD/DD'si (15,39) eski bir bilançoya dayanıyordu (yaklaşık 196,5 milyar dolar özsermaye). Şirketin 17 Kasım 2026'da açıkladığı 25 Ekim 2026 bilançosunda özsermaye 266.666 milyon dolar; PD/DD buna göre hesaplandı.",
   "Bu kadar büyük bir borsada 3. sur okuması sırayla yapılır: önce fiyatı kale olmaya yetenler. Okunmayan şirket 'sırada' görünür."
  ],
  "small_text": "Piyasa değeri 60 milyon doların altında",
@@ -46,6 +47,7 @@
    "Five-year ratios: stockanalysis.com ratio pages. Each company's fiscal year follows its own calendar; the chart shows the company's own fiscal years.",
    "Year-end inflation: US Bureau of Labor Statistics (BLS), consumer price index, December to December. Latest annual rate: TradingView (ECONOMICS:USIRYY).",
    "Corrected with the company's own document (14 November 2026). H&R Block: the source's P/B (53.9) rested on the balance sheet of 30 June 2026 (equity of 117.5 million dollars). In the balance sheet of 30 September 2026, published by the company on 9 November 2026, equity is minus 242.3 million dollars. The company was marked as 'negative equity' and stays at Wall 1; the report written for it is kept on its page.",
+   "Corrected with the company's own document (21 November 2026). NVIDIA: the source's P/B (15.39) rested on an old balance sheet (equity of about 196.5 billion dollars). In the balance sheet of 25 October 2026, published by the company on 17 November 2026, shareholders' equity is 266,666 million dollars; the P/B was calculated from that.",
    "In a market this large, the Wall 3 reading is done in order: companies priced low enough to be castles come first. A company that has not been read yet is shown as 'in the queue'."
   ],
   "small_text": "Market value below 60 million US dollars",

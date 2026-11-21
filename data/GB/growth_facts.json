@@ -211,5 +211,38 @@
   "note_tr": null,
   "note_en": null,
   "notes": "H1 2026 diluted EPS from continuing operations 1.38 vs 1.42 euros; the -2.5% is printed by the company (2025 restated for the ice cream demerger and for the 8-for-9 share consolidation of December 2025). Total diluted EPS 1.52 vs 1.60 (-4.9%); net profit from continuing operations attributable to shareholders 3,024 vs 3,125. The fall is driven by tax (effective rate 30.3% vs 26.3%, 'adverse impacts from the 2025 Ice Cream separation'); profit before tax rose 1.8%. Changes are in euros; the dataset is in pounds. Q3 2026 is a trading statement with no profit figure, so 'quarter' is null. No EPS or profit guidance (outlook is sales growth 4-6%, volume at least 3%, 'modest improvement' in underlying operating margin vs 20.0%). ADJUSTED deliberately left null: the company's underlying EPS is 1.61 vs 1.57 (+2.4%), but it excludes restructuring costs that recur every year (777 / 499 / 710 / 599 million euros in 2022-2025; 131 in H1 2026), which CLAUDE.md says not to rely on; main session may decide otherwise. 'departed' has remaining_pct null - check the script accepts that (if not, set departed to null and keep the text in notes). FY2025 continuing diluted EPS was 2.59 vs 2.44 (+6.1%)."
+ },
+ "APN": {
+  "metric": "EPS",
+  "ytd": {
+   "tr": "Ağustos 2025 - Temmuz 2026 (2026 mali yılı)",
+   "en": "August 2025 - July 2026 (fiscal 2026)",
+   "pct": 45.2,
+   "cur_val": "12.2",
+   "prev_val": "8.4",
+   "unit": "peni / pence",
+   "date": "2026-11-16",
+   "url": "https://www.ticker.app/lse/APN/rns/2026-11-16/Preliminary-Results/2802D",
+   "primary": true
+  },
+  "quarter": null,
+  "guidance": {
+   "tr": "2027 mali yılı için şirket beklentisi (düzeltilmiş FAVÖK; hisse başına kâr beklentisi yok)",
+   "en": "company guidance for fiscal 2027 (adjusted EBITDA; no EPS guidance)",
+   "pct": 13.2,
+   "detail_tr": "düzeltilmiş FAVÖK yaklaşık 49 milyon sterlin; 2026 mali yılında 43,3 milyon. Hasılat beklentisi yaklaşık 205 milyon sterlin (2026: 161,6).",
+   "detail_en": "adjusted EBITDA of about 49 million pounds; 43.3 million in fiscal 2026. Revenue is expected at about 205 million pounds (2026: 161.6).",
+   "date": "2026-11-16",
+   "url": "https://www.ticker.app/lse/APN/rns/2026-11-16/Preliminary-Results/2802D",
+   "primary": true
+  },
+  "adjusted": null,
+  "departed": null,
+  "permanent": null,
+  "dividend": null,
+  "skip": null,
+  "note_tr": null,
+  "note_en": null,
+  "notes": "Helper session, 21 Nov 2026. FY26 basic EPS 12.2p vs 8.4p (+45.2%); adjusted EPS 12.5p vs 9.1p (+37.4%, excludes IPO costs last year and acquisition items this year; not used, the reported figure is the one compared with last year's reported). The company reports half-yearly: H2 standalone by subtraction is 6.0p vs 4.9p (+22%), profit 15.2m vs 12.2m; 'quarter' left null as in the other half-yearly records. Guidance is adjusted EBITDA, not EPS: about 49m vs 43.3m = +13.2% (my arithmetic); the main session should decide whether an EBITDA guidance may stand here (as with the PBT guidance of FOUR and MEGP). Nutrablend (bought June 2026) added 1.6m revenue in FY26; organic revenue growth 49.4% (secondary source). Nothing departed, no permanent cause. No dividend declared; none expected before FY28."
  }
 }

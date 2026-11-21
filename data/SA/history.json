@@ -10906,5 +10906,106 @@ null
 "per": "2026-H1",
 "got": "2026-11-15",
 "url": "https://stockanalysis.com/quote/tadawul/9585/financials/ratios/"
+},
+"9641": {
+"asof": "2026-09-01",
+"stale": 0,
+"fy": [
+null,
+"2022",
+"2023",
+"2024",
+"2025"
+],
+"roe": [
+null,
+null,
+262.0,
+94.61,
+68.48,
+40.68
+],
+"roic": [
+null,
+458.62,
+255.82,
+150.97,
+290.26,
+324.75
+],
+"roa": [
+null,
+69.46,
+121.74,
+62.86,
+54.73,
+30.37
+],
+"fcf": [
+null,
+null,
+null,
+null,
+8.44,
+7.19
+],
+"nd": -2.43,
+"pe": 12.92,
+"pb": 4.76,
+"dy": 3.85,
+"po": 49.7,
+"v": 3,
+"mc": [
+null,
+null,
+null,
+null,
+260.0,
+260.0
+],
+"pes": [
+null,
+null,
+null,
+null,
+9.19,
+12.92
+],
+"pbs": [
+null,
+null,
+null,
+null,
+4.69,
+4.76
+],
+"dys": [
+null,
+null,
+null,
+null,
+3.85,
+3.85
+],
+"pos": [
+null,
+34.07,
+47.39,
+94.53,
+null,
+49.7
+],
+"bb": [
+null,
+null,
+null,
+null,
+null,
+null
+],
+"ttm": "2026-06-30",
+"per": "2026-H1",
+"got": "2026-11-21",
+"url": "https://stockanalysis.com/quote/tadawul/9641/financials/ratios/"
 }
 }

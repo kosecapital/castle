@@ -704,22 +704,23 @@
    "E": 1
   },
   "moat": "dar",
-  "per": "2026-Q2",
-  "one": "Brezilya'nın büyük yatırım platformu. Kârlı ve sermayesi güçlü; fiyat güvenlik marjı için yetmiyor.",
-  "business": "XP, Brezilya'da bireylere ve kurumlara yatırım hizmeti verir: hisse, tahvil, fon, emeklilik planı, kart ve sigorta. Müşterilerine ağırlıklı olarak bağımsız danışmanlar aracılığıyla ulaşır (18,4 bin danışman). 4,8 milyon aktif müşterisi ve 1,5 trilyon real müşteri varlığı var. 2026'nın ikinci çeyreğinde brüt gelir 5.056 milyon real; bunun 3.881 milyon reali bireysel müşterilerden.",
-  "moat_text": "Hendek dar. Üstünlük ölçek, marka ve danışman ağından geliyor: düzeltilmiş özsermaye kârlılığı %22,5, vergi öncesi kâr marjı %32,0. Müşterinin varlığını başka kuruma taşıması zahmetli olduğu için müşteri kolay ayrılmıyor. Zayıf yanı: büyük bankalar aynı müşteriye aynı ürünleri sunuyor; Brezilya'da faiz yükselince müşteri hisseden ve fondan mevduata kayıyor. Aktif müşteri sayısı bir yılda yalnız %1 arttı.",
-  "mgmt": "Sermaye ihtiyacın üzerinde: sermaye yeterlilik oranı %20,3, hedef aralık %16–19. Yönetim fazlayı hissedara dağıtarak hedefe inmeyi planlıyor. 2026'nın ilk yarısında yaklaşık 1 milyar reallik hisse geri alındı; 1 milyar reallik yeni bir program açık. Hisse bazlı ücret her yıl net kârın %7,6-9,4'ü kadar (2025'te 391,7 milyon real) ve geri alımların bir kısmı bu sulanmayı karşılıyor; Banco Modal da 2,1 milyar reallik yeni hisseyle alındı. Hisse bazlı ücret 2023-2025'te yılda 366-417 milyon real, net kârın %7,6-9,4'ü; şirketin 'düzeltilmiş' kârı bu gideri dışarıda bırakmıyor. Pay sayısı 2025'te %3,7 azaldı, ama 2023'te Banco Modal 18,7 milyon yeni hisseyle alınmıştı.",
-  "latest": "17 Ağustos 2026: İkinci çeyrekte brüt gelir 5.056 milyon real (+%8), net kâr 1.384 milyon real (+%5), hisse başına kâr 2,67 real (+%9). Net para girişi 28 milyar real. Kurumsal müşteri gelirleri %117 arttı; sabit getirili ürün gelirleri %16 düştü.",
+  "per": "2026-Q3",
+  "one": "Brezilya'nın büyük yatırım platformu. Fiyat seçim sonrası sert düştü; hesap yılda %6,8 reel büyüme varsayıyor, kâr ise vergi artışıyla yılda yalnız %5 büyüyor.",
+  "business": "XP, Brezilya'da bireylere ve kurumlara yatırım hizmeti verir: hisse, tahvil, fon, emeklilik planı, kart ve sigorta. Müşterilerine ağırlıklı olarak bağımsız danışmanlar aracılığıyla ulaşır (18,4 bin danışman). 4,8 milyon aktif müşterisi ve 1,57 trilyon real müşteri varlığı var. 2026'nın üçüncü çeyreğinde brüt gelir 5.339 milyon real; bunun 4.127 milyon reali bireysel müşterilerden.",
+  "moat_text": "Hendek dar. Üstünlük ölçek, marka ve danışman ağından geliyor: şirketin açıkladığı özsermaye kârlılığı %21,7, bireysel müşteride yıllık gelir oranı %1,25. Müşterinin varlığını başka kuruma taşıması zahmetli olduğu için müşteri kolay ayrılmıyor. Zayıf yanı: büyük bankalar aynı müşteriye aynı ürünleri sunuyor; Brezilya'da faiz yükselince müşteri hisseden ve fondan mevduata kayıyor. Aktif müşteri sayısı bir yılda yalnız %1 arttı (4.752 binden 4.808 bine); net para girişi 29 milyar realden 22 milyar reale indi.",
+  "mgmt": "Sermaye ihtiyacın üzerinde: sermaye yeterlilik oranı %20,3, hedef aralık %16–19. 2026'nın ilk dokuz ayında 1.250 milyon reallik hisse geri alındı (14,6 milyon pay) ve 518 milyon real temettü ödendi; ikisi birlikte dokuz aylık kârın %43'ü. 16 Kasım 2026'da hisse başına 0,46 dolar temettü (17 Aralık 2026'da ödenecek; şirkete göre 1,3 milyar real) ve 1,5 milyar reallik yeni geri alım programı açıklandı; 11,7 milyon hazine payı iptal ediliyor. Hisse bazlı ücret dokuz ayda 328 milyon real, ana ortaklık kârının %8,0'i; şirketin 'düzeltilmiş' kârı bu gideri dışarıda bırakmıyor ve geri alımların bir kısmı bu sulanmayı karşılıyor. 2023'te Banco Modal 18,7 milyon yeni hisseyle (2,1 milyar real) alınmıştı. Aktif kârlılığı yaklaşık %1,3 (dokuz aylık ana ortaklık kârı yıla çevrilip ortalama aktife bölündü; bizim hesabımız, şirket bu oranı açıklamıyor). Yeni mali işler yöneticisi Ağustos 2026'da göreve başladı.",
+  "latest": "16 Kasım 2026: Üçüncü çeyrekte brüt gelir 5.339 milyon real (+%8), vergi öncesi kâr 1.572 milyon real (+%18), ana ortaklık net kârı 1.381 milyon real (+%5), seyreltilmiş hisse başına kâr 2,69 real (+%9). Gelir vergisi 0,5 milyon realden 190 milyon reale çıktı. Net para girişi 22 milyar real (bir yıl önce 29 milyar). Ana ortaklığa ait özsermaye 26.200 milyon real. Fiyat neden düştü: 25 Ekim 2026'daki cumhurbaşkanlığı seçiminin ikinci turundan sonra Brezilya hisseleri satıldı; XP 6 Kasım'da biten bir ayda yaklaşık %49 değer kaybetti (TIKR).",
   "risks": [
+   "Güvenlik marjı yılda %6,8 reel büyüme varsayımına dayanıyor. Hisse başına kâr dokuz ayda %8,8 arttı, ama bunun bir bölümü geri alımdan geliyor: ana ortaklık kârı yalnız %5,4 büyüdü ve gelir vergisi dokuz ayda 24 milyon realden 347 milyon reale çıktı. Kâr büyümesi yavaşlarsa marj erir.",
+   "Fiyat seçim sonrası bir ayda yaklaşık yarı yarıya düştü. Piyasa, yatırımcının hisseden ve fondan uzaklaşmasından korkuyor; işlem hacmi ve para girişi düşerse komisyon geliri de düşer. Bu korkunun kâra ne kadar yansıyacağı henüz belgelerde görünmüyor.",
    "Şirket Brezilya'da çalışıyor ve hesabını real ile tutuyor; hisse dolarla işlem görüyor. Real değer kaybederse dolar cinsinden kazanç düşer.",
-   "Karşılık ayrılmamış olası dava ve vergi kayıpları 2025 sonunda 3,7 milyar real (özsermayenin %15,7'si); bir yılda 2,5 milyar realden yükseldi.",
-   "Kontrol XP Control'de: çok sınıflı pay yapısıyla oyların %71,3'ü bir grup kişinin elinde; küçük ortağın kararlara etkisi sınırlı.",
-   "Süzgeç bu şirketin kârlılığını ABD enflasyonuyla düzeltti. Brezilya'da enflasyon genellikle daha yüksek olduğu için gerçek reel kârlılık burada görünenden bir miktar düşüktür.",
-   "Brezilya'da faiz yüksek kaldıkça yatırımcı riskli ürünlerden uzak durur; komisyon gelirleri baskı altında kalır."
+   "Karşılık ayrılmamış olası dava ve vergi kayıpları Eylül 2026'da 4,1 milyar real (özsermayenin %15,6'sı); 2025 sonunda 3,7 milyar realdi.",
+   "Kontrol XP Control'de: çok sınıflı pay yapısıyla oyların %71,3'ü bir grup kişinin elinde (2025 yıllık raporu); küçük ortağın kararlara etkisi sınırlı.",
+   "Süzgeç bu şirketin kârlılığını ABD enflasyonuyla düzeltti. Brezilya'da enflasyon genellikle daha yüksek olduğu için gerçek reel kârlılık burada görünenden bir miktar düşüktür."
   ],
   "watch": [
    "Net para girişi ve aktif müşteri sayısı",
-   "Özsermaye kârlılığı",
+   "Özsermaye kârlılığı ve etkin vergi oranı",
    "Sermaye dağıtımı (geri alım, temettü)",
    "Real/dolar kuru"
   ],
@@ -730,37 +731,48 @@
     "u": "https://stockanalysis.com/stocks/xp/financials/ratios/"
    },
    {
-    "t": "SEC: XP Inc. 2Ç26 sonuç açıklaması (17 Ağu 2026)",
-    "te": "SEC: XP Inc. 2Q26 earnings release (17 Aug 2026)",
-    "u": "https://www.sec.gov/Archives/edgar/data/0001787425/000095010326012481/dp251884_6k-ex9901.htm"
+    "t": "SEC: XP Inc. 3Ç26 sonuç açıklaması (16 Kas 2026)",
+    "te": "SEC: XP Inc. 3Q26 earnings release (16 Nov 2026)",
+    "u": "https://www.sec.gov/Archives/edgar/data/0001787425/000095010326017561/dp256943_ex9901.htm"
+   },
+   {
+    "t": "SEC: XP Inc. 30 Eylül 2026 ara dönem finansal tabloları (16 Kas 2026)",
+    "te": "SEC: XP Inc. interim financial statements for 30 September 2026 (16 Nov 2026)",
+    "u": "https://www.sec.gov/Archives/edgar/data/0001787425/000095010326017562/dp256944_ex9901.htm"
+   },
+   {
+    "t": "TIKR: XP hissesi seçimden sonra bir ayda %49 düştü (12 Kas 2026)",
+    "te": "TIKR: XP stock fell 49% in a month after the election (12 Nov 2026)",
+    "u": "https://www.tikr.com/blog/xp-stock-fell-49-in-a-month-after-lulas-election-win-ubs-sees-52-upside"
+   },
+   {
+    "t": "MarketBeat: XP 3Ç26 sonuç toplantısı özeti (16 Kas 2026)",
+    "te": "MarketBeat: XP Q3 earnings call highlights (16 Nov 2026)",
+    "u": "https://www.marketbeat.com/instant-alerts/transcript-xp-q3-earnings-call-highlights-2026-11-16/?.tsrc=rss"
    },
    {
     "t": "İkinci okuma: XP Inc. Form 20-F for fiscal year 2025 (SEC)",
     "te": "Second reading: XP Inc. Form 20-F for fiscal year 2025 (SEC)",
     "u": "https://www.sec.gov/Archives/edgar/data/0001787425/000207097926000182/xp-20251231.htm"
-   },
-   {
-    "t": "İkinci okuma: XP Inc. unaudited interim condensed consolidated financial statements, 9M 2025 (company IR file host)",
-    "te": "Second reading: XP Inc. unaudited interim condensed consolidated financial statements, 9M 2025 (company IR file host)",
-    "u": "https://api.mziq.com/mzfilemanager/v2/d/d1820734-8b3f-4a23-8642-331a3a8561a6/2f66c2ee-ad7b-8753-6258-0610c945f73c?origin=1"
    }
   ],
   "en": {
-   "one": "A large Brazilian investment platform. Profitable and well capitalised; the price does not leave a margin of safety.",
-   "business": "XP provides investment services to individuals and institutions in Brazil: equities, bonds, funds, retirement plans, cards and insurance. It reaches its clients mainly through independent advisers (18.4 thousand advisers). It has 4.8 million active clients and 1.5 trillion reais of client assets. In the second quarter of 2026 gross revenue was 5,056 million reais, 3,881 million of it from retail clients.",
-   "moat_text": "The moat is narrow. The advantage comes from scale, brand and the adviser network: adjusted return on equity is 22.5% and the pre-tax margin 32.0%. Moving assets to another firm is a chore, so clients do not leave easily. The weak point: the big banks offer the same products to the same clients; when interest rates rise in Brazil, clients shift from equities and funds to deposits. The number of active clients grew only 1% in a year.",
-   "mgmt": "Capital is above what is needed: the capital adequacy ratio is 20.3% against a target range of 16–19%. Management plans to come down to the target by distributing the excess to shareholders. About 1 billion reais of shares were bought back in the first half of 2026, and a new 1 billion reais programme is open. Share-based pay runs at 7.6-9.4% of net income each year (R$391.7 million in 2025) and part of the buybacks only offsets that dilution; Banco Modal was also bought with R$2.1 billion of new shares. Share-based pay was R$366-417 million a year in 2023-2025, 7.6-9.4% of net income; the company's 'adjusted' profit does not exclude it. The share count fell 3.7% in 2025, but Banco Modal was bought with 18.7 million new shares in 2023.",
-   "latest": "17 August 2026: In the second quarter gross revenue was 5,056 million reais (+8%), net profit 1,384 million reais (+5%) and earnings per share 2.67 reais (+9%). Net inflow was 28 billion reais. Revenue from corporate clients rose 117%; revenue from fixed-income products fell 16%.",
+   "one": "A large Brazilian investment platform. The price fell hard after the election; the calculation assumes 6.8% real growth a year, while profit, held back by higher tax, is growing only 5%.",
+   "business": "XP provides investment services to individuals and institutions in Brazil: equities, bonds, funds, retirement plans, cards and insurance. It reaches its clients mainly through independent advisers (18.4 thousand advisers). It has 4.8 million active clients and 1.57 trillion reais of client assets. In the third quarter of 2026 gross revenue was 5,339 million reais, 4,127 million of it from retail clients.",
+   "moat_text": "The moat is narrow. The advantage comes from scale, brand and the adviser network: the return on equity the company reports is 21.7% and the annualised retail take rate 1.25%. Moving assets to another firm is a chore, so clients do not leave easily. The weak point: the big banks offer the same products to the same clients; when interest rates rise in Brazil, clients shift from equities and funds to deposits. The number of active clients grew only 1% in a year (from 4,752 thousand to 4,808 thousand); net inflow fell from 29 billion reais to 22 billion.",
+   "mgmt": "Capital is above what is needed: the capital adequacy ratio is 20.3% against a target range of 16–19%. In the first nine months of 2026 the company bought back 1,250 million reais of shares (14.6 million shares) and paid 518 million reais in dividends; together 43% of nine-month profit. On 16 November 2026 it announced a dividend of 0.46 dollars per share (payable 17 December 2026; 1.3 billion reais according to the company) and a new 1.5 billion reais buyback programme; 11.7 million treasury shares are being cancelled. Share-based pay was 328 million reais in nine months, 8.0% of profit attributable to owners; the company's 'adjusted' profit does not exclude it, and part of the buybacks only offsets that dilution. In 2023 Banco Modal was bought with 18.7 million new shares (2.1 billion reais). Return on assets is about 1.3% (nine-month profit attributable to owners, annualised, over average assets; our calculation, the company does not report this ratio). A new chief financial officer took office in August 2026.",
+   "latest": "16 November 2026: In the third quarter gross revenue was 5,339 million reais (+8%), pre-tax profit 1,572 million reais (+18%), net profit attributable to owners 1,381 million reais (+5%) and diluted earnings per share 2.69 reais (+9%). Income tax rose from 0.5 million reais to 190 million. Net inflow was 22 billion reais (29 billion a year earlier). Equity attributable to owners was 26,200 million reais. Why the price fell: Brazilian shares were sold after the presidential runoff of 25 October 2026; XP lost about 49% in the month to 6 November (TIKR).",
    "risks": [
+    "The margin of safety rests on an assumption of 6.8% real growth a year. Earnings per share rose 8.8% in nine months, but part of that comes from buybacks: profit attributable to owners grew only 5.4%, and income tax went from 24 million reais to 347 million in nine months. If profit growth slows, the margin shrinks.",
+    "The price roughly halved in the month after the election. The market fears that investors will move away from equities and funds; if trading volume and inflows fall, fee income falls too. How much of that fear will reach profit does not yet show in the documents.",
     "The company works in Brazil and keeps its accounts in reais; the share trades in dollars. If the real loses value, earnings in dollars fall.",
-    "Possible losses from lawsuits and tax claims not provided for were R$3.7 billion at end-2025 (15.7% of equity), up from R$2.5 billion a year earlier.",
-    "Control sits with XP Control: through a dual-class structure a group of individuals holds 71.3% of the votes; minority shareholders have limited say.",
-    "The filter adjusted this company's profitability with US inflation. Inflation in Brazil is usually higher, so true real profitability is somewhat lower than shown here.",
-    "As long as interest rates stay high in Brazil, investors keep away from riskier products and fee income stays under pressure."
+    "Possible losses from lawsuits and tax claims not provided for were 4.1 billion reais in September 2026 (15.6% of equity), up from 3.7 billion at end-2025.",
+    "Control sits with XP Control: through a dual-class structure a group of individuals holds 71.3% of the votes (2025 annual report); minority shareholders have limited say.",
+    "The filter adjusted this company's profitability with US inflation. Inflation in Brazil is usually higher, so true real profitability is somewhat lower than shown here."
    ],
    "watch": [
     "Net inflow and number of active clients",
-    "Return on equity",
+    "Return on equity and the effective tax rate",
     "Capital distribution (buybacks, dividends)",
     "The real/dollar exchange rate"
    ]
@@ -768,10 +780,10 @@
   "growth": {
    "g": null,
    "basis": {
-    "tr": "Formül yılda %6,8 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Haziran 2026 (iki çeyreğin toplamı) %8,6; Nisan-Haziran 2026 çeyreği %8,5. En düşüğü, enflasyondan arındırılınca, %4,6. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
-    "en": "The formula gave growth of 6.8% a year. Latest figures (earnings per share, year on year): January-June 2026 (sum of two quarters) 8.6%; April-June 2026 quarter 8.5%. The lowest, after inflation, is 4.6%. That is not less than half the formula's rate; the rate was not lowered."
+    "tr": "Formül yılda %6,8 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 (dokuz ay) %8,8; Temmuz-Eylül 2026 çeyreği %9,0. En düşüğü, enflasyondan arındırılınca, %4,9. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 6.8% a year. Latest figures (earnings per share, year on year): January-September 2026 (nine months) 8.8%; July-September 2026 quarter 9.0%. The lowest, after inflation, is 4.9%. That is not less than half the formula's rate; the rate was not lowered."
    },
-   "per": "2026-Q2"
+   "per": "2026-Q3"
   },
   "earn": {
    "k": 1.0,
@@ -779,11 +791,16 @@
     "tr": "Hesap son 12 ayın kârına dayanır. Şirket hisse başına kâr beklentisi açıklamıyor; son 12 ayda tek seferlik sayılacak önemli bir kazanç bulunmadı. Kazanç olduğu gibi alındı.",
     "en": "The calculation rests on the profit of the last 12 months. The company gives no earnings-per-share outlook, and no material one-off gain was found in the last 12 months. Earnings were taken as they are."
    },
-   "per": "2026-Q2"
+   "per": "2026-Q3"
   },
   "chk": {
-   "date": "2026-11-13",
-   "per": "2026-Q2"
+   "date": "2026-11-21",
+   "per": "2026-Q3"
+  },
+  "roa": {
+   "v": 1.31,
+   "per": "2026-Q3",
+   "u": "https://www.sec.gov/Archives/edgar/data/0001787425/000095010326017562/dp256944_ex9901.htm"
   }
  },
  "OMF": {
@@ -1235,24 +1252,25 @@
    "E": 1
   },
   "moat": "geniş",
-  "per": "2026-Q2",
-  "one": "Yapay zekâ çiplerinin açık ara lideri. Hendek geniş, kârlılık olağanüstü; talep tek bir yatırım dalgasına bağlı, fiyat pahalı.",
-  "business": "NVIDIA, yapay zekâ modellerini eğiten ve çalıştıran çipleri ve bu çiplerin çevresindeki sistemleri tasarlar; üretimi dışarıya yaptırır. 26 Temmuz 2026'da biten çeyrekte hasılat 96,2 milyar dolar; bunun 89,0 milyar doları veri merkezi kolundan. Net kâr 59,7 milyar dolar.",
-  "moat_text": "Hendek geniş. Üstünlük çipin kendisinden çok, yıllardır biriken yazılım ve geliştirici ekosisteminden geliyor; başka çipe geçen müşteri yazılımını yeniden kurmak zorunda kalır. Fiyatlama gücü marjda görünüyor: brüt marj %75,0. Zayıf yanı: en büyük müşteriler kendi çiplerini de tasarlıyor; üstünlüğün her yeni ürün kuşağında yeniden kazanılması gerekiyor.",
-  "mgmt": "Net borç yok. Çeyrekte hissedara yaklaşık 26,0 milyar dolar döndü (geri alım ve temettü); serbest nakit akışı 21,3 milyar dolardı. Geri alım yetkisinde yaklaşık 99,0 milyar dolar duruyor. Çeyreklik temettü hisse başına 0,25 dolar. Kârın büyük bir bölümü ana iş dışındaki şirket paylarına gidiyor: bu paylar Temmuz 2026'da 94,0 milyar dolara, özsermayenin %41'ine çıktı ve ilk yarıyıl kârının %20'si bu payların değer artışından geldi. Şirket başka şirketlerin paylarına hızla yatırım yapıyor: payların değeri Ocak 2026'da 35,2 milyar dolardan Temmuz 2026'da 94,0 milyar dolara çıktı. Groq lisansı ve çalışan transferi için yaklaşık 17 milyar dolar ödendi.",
-  "latest": "26 Ağustos 2026: 26 Temmuz'da biten çeyrekte hasılat 96,2 milyar dolar (+%106), veri merkezi geliri 89,0 milyar dolar (+%117), net kâr 59,7 milyar dolar, hisse başına kâr 2,46 dolar. Gelecek çeyrek için hasılat beklentisi 108,0 milyar dolar; bu beklenti Çin'e veri merkezi çipi satışı içermiyor. Yeni çip kuşağı Vera Rubin seri üretime girdi.",
+  "per": "2026-Q3",
+  "one": "Yapay zekâ çiplerinin açık ara lideri. Hendek geniş; ölçütleri yılda %25 büyüme varsayımıyla geçiyor, ama kurucu yönetici ayrıldı ve soruşturma sürüyor.",
+  "business": "NVIDIA, yapay zekâ modellerini eğiten ve çalıştıran çipleri ve bu çiplerin çevresindeki sistemleri tasarlar; üretimi dışarıya yaptırır. 25 Ekim 2026'da biten çeyrekte hasılat 115,8 milyar dolar; bunun 107,6 milyar doları veri merkezi kolundan. Net kâr 65,3 milyar dolar.",
+  "moat_text": "Hendek geniş. Üstünlük çipin kendisinden çok, yıllardır biriken yazılım ve geliştirici ekosisteminden geliyor; başka çipe geçen müşteri yazılımını yeniden kurmak zorunda kalır. Fiyatlama gücü marjda görünüyor: brüt marj %74,8 (bir yıl önce %73,4). Zayıf yanı: en büyük müşteriler kendi çiplerini de tasarlıyor; üstünlüğün her yeni ürün kuşağında yeniden kazanılması gerekiyor. Şirket gelecek çeyrek için brüt marjı %71-72 bekliyor.",
+  "mgmt": "Kurucu Jensen Huang 11 Kasım 2026'da başkanlık, genel müdürlük ve yönetim kurulu üyeliğinden ayrıldı. Mali işler yöneticisi Colette Kress geçici genel müdür oldu ve iki görevi birlikte yürütüyor; kalıcı yönetici aranıyor. Yönetim kurulunun bağımsız komitesinin soruşturması sürüyor; basına göre konu Huang'ın davranışları. Şirket belgelerinde finansal tablolara ilişkin bir sorun bildirilmedi. Net borç yok: nakit ve borçlanma senetleri 53,5 milyar dolar, borç 32,4 milyar dolar (Ocak 2026'da 8,5 milyar; dokuz ayda net 24,9 milyar dolar borçlanıldı). Çeyrekte hissedara 28,1 milyar dolar döndü (22,1 milyar geri alım, 6,0 milyar temettü); serbest nakit akışı 43,8 milyar dolardı. Eylül 2026'da geri alım yetkisi 150 milyar dolar artırıldı; 227,3 milyar dolar duruyor. Geri alımların ortalama fiyatı bültende yok. Çeyreklik temettü hisse başına 0,25 dolar. Kârın büyük bir bölümü ana iş dışındaki şirket paylarına gidiyor: bu paylar Ocak 2026'da 35,1 milyar dolardan Ekim 2026'da 109,7 milyar dolara, özsermayenin %41'ine çıktı; dokuz aylık vergi öncesi kârın %11,6'sı (25,5 milyar dolar) bu payların değer artışından geldi. Groq lisansı ve çalışan transferi için yaklaşık 17 milyar dolar ödendi; Hugging Face'in satın alınması için anlaşma yapıldı (bedel bültende yok). Hisse bazlı ücret dokuz ayda 6,0 milyar dolar, net kârın %3,3'ü; şirketin düzeltilmiş kârı artık bu gideri dışarıda bırakmıyor.",
+  "latest": "17 Kasım 2026: 25 Ekim'de biten çeyrekte hasılat 115,8 milyar dolar (+%103), veri merkezi geliri 107,6 milyar dolar (+%110), net kâr 65,3 milyar dolar (+%105), hisse başına kâr 2,70 dolar. Özsermaye 266,7 milyar dolar. Gelecek çeyrek (14 hafta) için hasılat beklentisi 130,0 milyar dolar, brüt marj %71-72; beklenti Çin'e veri merkezi çipi satışı içermiyor. 11 Kasım 2026'da kurucu genel müdür Jensen Huang görevinden ayrıldı; hisse 11 Kasım'da 173,73 dolardan kapanmıştı ve ertesi gün yaklaşık %13 düşük açıldı (basın).",
   "risks": [
+   "Kale sonucu büyüme varsayımına dayanıyor. Hesap yılda %25 reel büyüme varsayıyor; bu, yöntemin tavanıdır ve değerin büyük bölümü buna dayanır. Aynı anda üç şey bu varsayımı zayıflatıyor: kurucu genel müdür 11 Kasım 2026'da ayrıldı ve bağımsız komitenin soruşturması sürüyor; şirketin gelecek çeyrek brüt marj beklentisi %74,8'den %71-72'ye indi; kalıcı yönetici henüz belli değil.",
    "Yoğunlaşma: hasılatın yaklaşık %93'ü veri merkezi kolundan geliyor ve bu talep az sayıda büyük şirketin yapay zekâ yatırımına bağlı. Yatırım yavaşlarsa satış hızla düşer.",
-   "Kârın bir bölümü işten değil, elde tutulan şirket paylarının değer artışından geliyor: 2027 mali yılının ilk yarısında 23,7 milyar dolar, net kârın %20'si. Bu kazanç tekrarlanmayabilir; şirketin kendi düzeltilmiş kârı ikinci çeyrekte 54,0 milyar dolar, raporlanan 59,7 milyar dolar.",
-   "Şirket 95,2 milyar dolarlık tedarik ve kapasite taahhüdü ile yeni kurulan şirketlere 3,5 milyar dolarlık arazi ve enerji garantisi verdi; talep düşerse bu yükümlülükler zarar yazdırabilir (2026 mali yılında 4,5 milyar dolarlık H20 stok zararı gibi).",
-   "Döngü: çip sektörü döngüseldir. Reel özsermaye kârlılığı 2023 mali yılında %14'e inmişti; bugün %100 dolayında.",
+   "Kârın bir bölümü işten değil, elde tutulan şirket paylarının değer artışından geliyor: 2027 mali yılının ilk dokuz ayında vergi öncesi 25,5 milyar dolar. Bu kazanç tekrarlanmayabilir; son çeyrekte 1,8 milyar dolara indi. Payların kendisi 109,7 milyar dolar; değerleri düşerse zarar yazılır.",
+   "Şirket Temmuz 2026'da 95,2 milyar dolarlık tedarik ve kapasite taahhüdü ile yeni kurulan şirketlere 3,5 milyar dolarlık arazi ve enerji garantisi vermişti (güncel rakam son bültende yok); talep düşerse bu yükümlülükler zarar yazdırabilir (2026 mali yılında 4,5 milyar dolarlık H20 stok zararı gibi).",
+   "Döngü: çip sektörü döngüseldir. Reel özsermaye kârlılığı 2023 mali yılında %14'e inmişti; bugün %110 dolayında.",
    "Çin: şirket, Çin'e veri merkezi çipi satışını beklentisine katmıyor; bu pazar ticaret kısıtları nedeniyle belirsiz."
   ],
   "watch": [
+   "Kalıcı genel müdür ataması ve soruşturmanın sonucu",
    "Veri merkezi gelirinin çeyreklik büyümesi",
-   "Brüt marj (%75 dolayında kalıyor mu)",
-   "Büyük müşterilerin yatırım harcaması planları",
-   "Fiyat: güvenlik marjı eşiği"
+   "Brüt marj (%71-72 beklentisinin altına iniyor mu)",
+   "Büyük müşterilerin yatırım harcaması planları"
   ],
   "sources": [
    {
@@ -1261,70 +1279,75 @@
     "u": "https://stockanalysis.com/stocks/nvda/financials/ratios/"
    },
    {
-    "t": "Unite.AI: NVIDIA 2027 mali yılı 2. çeyrek sonuçları (26 Ağu 2026)",
-    "te": "Unite.AI: NVIDIA fiscal 2027 second-quarter results (26 Aug 2026)",
-    "u": "https://www.unite.ai/nvidia-posts-96-2b-quarter-as-data-center-revenue-hits-89b/"
+    "t": "SEC: NVIDIA 2027 mali yılı 3. çeyrek sonuç bülteni, 8-K eki (17 Kas 2026)",
+    "te": "SEC: NVIDIA fiscal 2027 third-quarter results release, 8-K exhibit (17 Nov 2026)",
+    "u": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27pr.htm"
    },
    {
-    "t": "Büyüme yargısının kaynağı: Şubat-Temmuz 2026 (2027 mali yılının ilk yarısı)",
-    "te": "Source for the growth judgment: February-July 2026 (first half of fiscal 2027)",
-    "u": "https://nvidianews.nvidia.com/_gallery/download_pdf/6a8f4ad73d6332b41f76ab70"
+    "t": "SEC: NVIDIA 8-K, genel müdürün ayrılması (olay tarihi 11 Kas 2026)",
+    "te": "SEC: NVIDIA 8-K, departure of the chief executive (event date 11 Nov 2026)",
+    "u": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvda-20261111.htm"
    },
    {
-    "t": "Kazanç yargısının kaynağı",
-    "te": "Source for the earnings judgment",
+    "t": "The San Francisco Standard: Nvidia CEO'su Jensen Huang istifa etti (12 Kas 2026)",
+    "te": "The San Francisco Standard: Nvidia CEO Jensen Huang resigns (12 Nov 2026)",
+    "u": "https://sfstandard.com/2026/11/12/nvidia-ceo-jensen-huang-resigns/"
+   },
+   {
+    "t": "Kazanç yargısının kaynağı: 2026 mali yılı 4. çeyrek (8-K, 25 Şub 2026)",
+    "te": "Source for the earnings judgment: Q4 of fiscal 2026 (8-K, 25 Feb 2026)",
     "u": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/5f86707e-03f3-4e5e-b9bd-048e42123723.pdf"
    },
    {
     "t": "İkinci okuma: NVIDIA Form 10-K for fiscal 2026 (year ended 25 January 2026), SEC EDGAR",
     "te": "Second reading: NVIDIA Form 10-K for fiscal 2026 (year ended 25 January 2026), SEC EDGAR",
     "u": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm"
-   },
-   {
-    "t": "İkinci okuma: NVIDIA press release: financial results for Q2 fiscal 2027 (26 August 2026)",
-    "te": "Second reading: NVIDIA press release: financial results for Q2 fiscal 2027 (26 August 2026)",
-    "u": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/"
    }
   ],
   "en": {
-   "one": "The clear leader in AI chips. The moat is wide and profitability extraordinary; demand depends on a single investment wave, and the price is expensive.",
-   "business": "NVIDIA designs the chips that train and run AI models and the systems around them; it outsources manufacturing. In the quarter ended 26 July 2026 revenue was 96.2 billion dollars, 89.0 billion dollars of it from the data centre segment. Net profit was 59.7 billion dollars.",
-   "moat_text": "The moat is wide. The advantage comes less from the chip itself than from the software and developer ecosystem built up over years; a customer that moves to another chip has to rebuild its software. Pricing power shows in the margin: gross margin is 75.0%. The weak point: the largest customers also design their own chips; the advantage has to be won again with each new product generation.",
-   "mgmt": "No net debt. About 26.0 billion dollars went back to shareholders in the quarter (buybacks and dividends); free cash flow was 21.3 billion dollars. About 99.0 billion dollars remain under the buyback authorisation. The quarterly dividend is 0.25 dollars per share. A large part of profit now goes into equity stakes in other companies: these reached 94.0 billion dollars in July 2026, 41% of equity, and 20% of first-half profit came from gains on them. The company is investing fast in stakes in other companies: their value rose from 35.2 billion dollars in January 2026 to 94.0 billion in July 2026. About 17 billion dollars was paid for the Groq licence and staff.",
-   "latest": "26 August 2026: In the quarter ended 26 July revenue was 96.2 billion dollars (+106%), data centre revenue 89.0 billion dollars (+117%), net profit 59.7 billion dollars and earnings per share 2.46 dollars. The revenue outlook for the next quarter is 108.0 billion dollars; it includes no data centre chip sales to China. The new chip generation, Vera Rubin, entered full production.",
+   "one": "The clear leader in AI chips. The moat is wide; it passes the tests on an assumption of 25% growth a year, but the founding chief executive has left and an investigation is open.",
+   "business": "NVIDIA designs the chips that train and run AI models and the systems around them; it outsources manufacturing. In the quarter ended 25 October 2026 revenue was 115.8 billion dollars, 107.6 billion dollars of it from the data centre segment. Net profit was 65.3 billion dollars.",
+   "moat_text": "The moat is wide. The advantage comes less from the chip itself than from the software and developer ecosystem built up over years; a customer that moves to another chip has to rebuild its software. Pricing power shows in the margin: gross margin is 74.8% (73.4% a year earlier). The weak point: the largest customers also design their own chips; the advantage has to be won again with each new product generation. The company expects a gross margin of 71-72% next quarter.",
+   "mgmt": "The founder, Jensen Huang, resigned as president, chief executive and director on 11 November 2026. The chief financial officer, Colette Kress, became interim chief executive and holds both jobs; a permanent chief is being sought. An investigation by an independent committee of the board is under way; according to press reports it concerns Huang's conduct. The company's documents report no problem with the financial statements. No net debt: cash and debt securities are 53.5 billion dollars against debt of 32.4 billion (8.5 billion in January 2026; a net 24.9 billion dollars was borrowed in nine months). In the quarter 28.1 billion dollars went back to shareholders (22.1 billion in buybacks, 6.0 billion in dividends); free cash flow was 43.8 billion dollars. In September 2026 the buyback authorisation was raised by 150 billion dollars; 227.3 billion remain. The release does not give the average buyback price. The quarterly dividend is 0.25 dollars per share. A large part of profit goes into equity stakes in other companies: these rose from 35.1 billion dollars in January 2026 to 109.7 billion in October 2026, 41% of equity; 11.6% of nine-month pre-tax profit (25.5 billion dollars) came from gains on them. About 17 billion dollars was paid for the Groq licence and staff; an agreement was signed to buy Hugging Face (the release gives no price). Share-based pay was 6.0 billion dollars in nine months, 3.3% of net profit; the company's adjusted profit no longer excludes it.",
+   "latest": "17 November 2026: In the quarter ended 25 October revenue was 115.8 billion dollars (+103%), data centre revenue 107.6 billion dollars (+110%), net profit 65.3 billion dollars (+105%) and earnings per share 2.70 dollars. Equity was 266.7 billion dollars. For the next quarter (14 weeks) the revenue outlook is 130.0 billion dollars and gross margin 71-72%; the outlook includes no data centre chip sales to China. On 11 November 2026 the founding chief executive, Jensen Huang, left his post; the share had closed at 173.73 dollars on 11 November and opened about 13% lower the next day (press).",
    "risks": [
+    "The castle verdict rests on the growth assumption. The calculation assumes 25% real growth a year; that is the method's cap, and most of the value rests on it. Three things weaken the assumption at once: the founding chief executive left on 11 November 2026 and the independent committee's investigation is still open; the company's gross margin outlook for next quarter fell from 74.8% to 71-72%; a permanent chief has not yet been named.",
     "Concentration: about 93% of revenue comes from the data centre segment, and that demand depends on the AI spending of a small number of large companies. If the spending slows, sales fall fast.",
-    "Part of profit comes not from operations but from gains on equity stakes: 23.7 billion dollars in the first half of fiscal 2027, 20% of net profit. These gains may not repeat; the company's own non-GAAP profit was 54.0 billion dollars in Q2 versus 59.7 billion reported.",
-    "The company has 95.2 billion dollars of supply and capacity commitments and 3.5 billion dollars of land and power guarantees for early-stage companies; if demand falls these can cause losses (like the 4.5 billion dollar H20 inventory charge in fiscal 2026).",
-    "The cycle: the chip industry is cyclical. Real return on equity fell to 14% in fiscal 2023; today it is around 100%.",
+    "Part of profit comes not from operations but from gains on equity stakes: 25.5 billion dollars pre-tax in the first nine months of fiscal 2027. These gains may not repeat; they fell to 1.8 billion dollars in the latest quarter. The stakes themselves stand at 109.7 billion dollars; if their value falls, losses are booked.",
+    "In July 2026 the company had 95.2 billion dollars of supply and capacity commitments and 3.5 billion dollars of land and power guarantees for early-stage companies (the latest release gives no updated figure); if demand falls these can cause losses (like the 4.5 billion dollar H20 inventory charge in fiscal 2026).",
+    "The cycle: the chip industry is cyclical. Real return on equity fell to 14% in fiscal 2023; today it is around 110%.",
     "China: the company leaves data centre chip sales to China out of its outlook; this market is uncertain because of trade restrictions."
    ],
    "watch": [
+    "Appointment of a permanent chief executive and the outcome of the investigation",
     "Quarterly growth in data centre revenue",
-    "Gross margin (whether it stays around 75%)",
-    "Capital spending plans of the large customers",
-    "Price: the margin-of-safety threshold"
+    "Gross margin (whether it falls below the 71-72% outlook)",
+    "Capital spending plans of the large customers"
    ]
   },
   "growth": {
    "g": null,
    "basis": {
-    "tr": "Formül yılda %25,0 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Şubat-Temmuz 2026 (2027 mali yılının ilk yarısı) %129,8 (şirketin düzeltilmiş rakamı; açıklanan %163,6); Mayıs-Temmuz 2026 çeyreği %119,8 (şirketin düzeltilmiş rakamı; açıklanan %127,8). Düzeltme: Şirketin düzeltilmiş (non-GAAP) kârı hisse senedi yatırımlarından gelen kazancı (çeyrekte vergi öncesi 7,77 milyar dolar; geçen yıl 2,25 milyar) ve satın alma giderlerini dışarıda bırakır: çeyrekte 2,22 dolar (geçen yıl 1,01), altı ayda 4,09 dolar (geçen yıl 1,78). En düşüğü, enflasyondan arındırılınca, %112,0. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
-    "en": "The formula gave growth of 25.0% a year. Latest figures (earnings per share, year on year): February-July 2026 (first half of fiscal 2027) 129.8% (the company's adjusted figure; reported 163.6%); May-July 2026 quarter 119.8% (the company's adjusted figure; reported 127.8%). Adjustment: The company's non-GAAP EPS excludes gains on equity securities (7.77 billion dollars pre-tax in the quarter; 2.25 billion a year ago) and acquisition-related costs: 2.22 dollars in the quarter (1.01 a year ago), 4.09 dollars in six months (1.78 a year ago). The lowest, after inflation, is 112.0%. That is not less than half the formula's rate; the rate was not lowered."
+    "tr": "Formül yılda %25,0 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Şubat-Ekim 2026 (2027 mali yılının ilk dokuz ayı) %122,0 (şirketin düzeltilmiş rakamı; açıklanan %140,4); Ağustos-Ekim 2026 çeyreği %111,0 (şirketin düzeltilmiş rakamı; açıklanan %107,7). Düzeltme: Şirketin düzeltilmiş (non-GAAP) kârı hisse senedi yatırımlarından gelen kazancı (çeyrekte vergi öncesi 1,77 milyar dolar; geçen yıl 1,35 milyar) ve satın alma giderlerini dışarıda bırakır: çeyrekte 2,68 dolar (geçen yıl 1,27), dokuz ayda 6,77 dolar (geçen yıl 3,05). En düşüğü, enflasyondan arındırılınca, %103,5. Bu, formülün hızının yarısından az değil; hız indirilmedi.",
+    "en": "The formula gave growth of 25.0% a year. Latest figures (earnings per share, year on year): February-October 2026 (first nine months of fiscal 2027) 122.0% (the company's adjusted figure; reported 140.4%); August-October 2026 quarter 111.0% (the company's adjusted figure; reported 107.7%). Adjustment: The company's non-GAAP EPS excludes gains on equity securities (1.77 billion dollars pre-tax in the quarter; 1.35 billion a year ago) and acquisition-related costs: 2.68 dollars in the quarter (1.27 a year ago), 6.77 dollars in nine months (3.05 a year ago). The lowest, after inflation, is 103.5%. That is not less than half the formula's rate; the rate was not lowered."
    },
-   "per": "2026-Q2"
+   "per": "2026-Q3"
   },
   "earn": {
-   "k": 0.865,
+   "k": 0.886,
    "basis": {
-    "tr": "Hesap son 12 ayın kârına dayanır. Bu kârın içindeki tek seferlik kazançlar: Hisse senedi yatırımlarından net kazanç (halka açık ve halka açık olmayan şirket payları); şirket bunu düzeltilmiş (non-GAAP) kârının dışında tutuyor: son 12 ay kârının %0,6 kadarı; Hisse senedi yatırımlarından net kazanç (halka açık ve halka açık olmayan şirket payları); şirket bunu düzeltilmiş (non-GAAP) kârının dışında tutuyor: son 12 ay kârının %2,4 kadarı; Hisse senedi yatırımlarından net kazanç (halka açık ve halka açık olmayan şirket payları); şirket bunu düzeltilmiş (non-GAAP) kârının dışında tutuyor: son 12 ay kârının %7,0 kadarı; Hisse senedi yatırımlarından net kazanç (halka açık ve halka açık olmayan şirket payları); şirket bunu düzeltilmiş (non-GAAP) kârının dışında tutuyor: son 12 ay kârının %3,4 kadarı. Net etki %13,5; kazanç bu kadar indirildi. Son 12 ayın kârı 0,86 ile çarpılarak kullanıldı.",
-    "en": "The calculation rests on the profit of the last 12 months. One-off gains inside that profit: Net gains from equity securities (non-marketable and publicly held); the company excludes them from its non-GAAP profit: 0.6% of last-12-month profit; Net gains from equity securities (non-marketable and publicly held); the company excludes them from its non-GAAP profit: 2.4% of last-12-month profit; Net gains from equity securities (non-marketable and publicly held); the company excludes them from its non-GAAP profit: 7.0% of last-12-month profit; Net gains from equity securities (non-marketable and publicly held); the company excludes them from its non-GAAP profit: 3.4% of last-12-month profit. The net effect is 13.5%; earnings were lowered by that much. Last-12-month profit was used multiplied by 0.86."
+    "tr": "Hesap son 12 ayın kârına dayanır. Bu kârın içindeki tek seferlik kazançlar: Hisse senedi yatırımlarından net kazanç, Kasım 2025 - Ocak 2026 çeyreği (şirket bunu düzeltilmiş kârının dışında tutuyor): son 12 ay kârının %2,1 kadarı; Hisse senedi yatırımlarından net kazanç, Şubat-Nisan 2026 çeyreği (şirket bunu düzeltilmiş kârının dışında tutuyor): son 12 ay kârının %5,9 kadarı; Hisse senedi yatırımlarından net kazanç, Mayıs-Temmuz 2026 çeyreği (şirket bunu düzeltilmiş kârının dışında tutuyor): son 12 ay kârının %2,9 kadarı; Hisse senedi yatırımlarından net kazanç, Ağustos-Ekim 2026 çeyreği (şirket bunu düzeltilmiş kârının dışında tutuyor): son 12 ay kârının %0,7 kadarı. Net etki %11,4; kazanç bu kadar indirildi. Son 12 ayın kârı 0,89 ile çarpılarak kullanıldı.",
+    "en": "The calculation rests on the profit of the last 12 months. One-off gains inside that profit: Net gains from equity securities, November 2025 - January 2026 quarter (the company excludes them from its non-GAAP profit): 2.1% of last-12-month profit; Net gains from equity securities, February-April 2026 quarter (the company excludes them from its non-GAAP profit): 5.9% of last-12-month profit; Net gains from equity securities, May-July 2026 quarter (the company excludes them from its non-GAAP profit): 2.9% of last-12-month profit; Net gains from equity securities, August-October 2026 quarter (the company excludes them from its non-GAAP profit): 0.7% of last-12-month profit. The net effect is 11.4%; earnings were lowered by that much. Last-12-month profit was used multiplied by 0.89."
    },
-   "per": "2026-Q2"
+   "per": "2026-Q3"
   },
   "chk": {
-   "date": "2026-11-13",
-   "per": "2026-Q2"
+   "date": "2026-11-21",
+   "per": "2026-Q3"
+  },
+  "verify": {
+   "tr": "Evrendeki PD/DD (15,394) eski bir bilançoya dayanıyor: piyasa değeri 3.025.273 milyon dolar ÷ 15,394 = 196,5 milyar dolar özsermaye, yani Nisan 2026 düzeyi. Oran sayfası 13,2 veriyor (Temmuz 2026 düzeyi). Şirketin 17 Kasım 2026 tarihli bülteninde 25 Ekim 2026 özsermayesi 266.666 milyon dolar; buna göre PD/DD 11,34. F/K iki kaynakta ve belgede tutuyor: 125,53 ÷ 9,31 dolar = 13,5. 21 Kasım 2026'da ana oturum bülteni kendisi okudu ve PD/DD şirketin belgesindeki özsermayeyle düzeltildi (fixes.json).",
+   "en": "The P/B in the universe (15.394) rests on an old balance sheet: market value of 3,025,273 million dollars ÷ 15.394 = equity of 196.5 billion dollars, the April 2026 level. The ratio page gives 13.2 (the July 2026 level). In the company's release of 17 November 2026 equity at 25 October 2026 is 266,666 million dollars, which gives a P/B of 11.34. The P/E agrees across both sources and the document: 125.53 ÷ 9.31 dollars = 13.5. On 21 November 2026 the main session read the release itself and the P/B was corrected with the equity in the company's document (fixes.json)."
   }
  },
  "MSFT": {
@@ -2194,7 +2217,7 @@
     "tr": "Formül yılda %−5,8 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): 2026 mali yılının ilk yarısı (Şubat-Temmuz 2026) %0,7; Mayıs-Temmuz 2026 çeyreği (mali 2. çeyrek) %4,6; 2026 mali yılı için şirket beklentisi %2,0. Formül zaten kârın küçüleceğini varsayıyor; indirilecek bir şey yok.",
     "en": "The formula gave growth of −5.8% a year. Latest figures (earnings per share, year on year): first half of fiscal 2026 (February-July 2026) 0.7%; May-July 2026 quarter (fiscal Q2) 4.6%; company guidance for fiscal 2026 2.0%. The formula already assumes shrinking profit; there is nothing to lower."
    },
-   "per": "2026-Q2"
+   "per": "2026-Q3"
   },
   "earn": {
    "k": 1.0,
@@ -2202,7 +2225,7 @@
     "tr": "Hesap son 12 ayın kârına dayanır. Şirketin 2026 mali yılı (Ocak 2027'de biter) için hisse başına kâr beklentisi 14,52 USD; son 12 ayda 14,29 USD. Beklenti daha düşük değil.",
     "en": "The calculation rests on the profit of the last 12 months. The company's earnings-per-share outlook for fiscal 2026 (ends January 2027) is 14.52 USD; the last 12 months were 14.29 USD. The outlook is not lower."
    },
-   "per": "2026-Q2"
+   "per": "2026-Q3"
   }
  },
  "JNJ": {

@@ -578,7 +578,7 @@
    "E": 1
   },
   "moat": "dar",
-  "per": "2026-Q2",
+  "per": "2026-Q3",
   "one": "Özel şirket payı ve ipotek tutan emeklilik hesaplarını yöneten Kanadalı emanet şirketi. Kalite ölçütlerini geçti; ama kârının yarısı faize bağlı ve kâr düşüyor.",
   "business": "Olympia Financial Group, bağlı şirketi Olympia Trust Company ile bireylerin vergi avantajlı tasarruf hesaplarını yönetir; bu hesaplar borsada işlem görmeyen şirket payları ve ipotek alacakları tutar. Şirket iki yoldan para kazanır: hesap ve işlem ücretleri, bir de müşterilerin emanetteki nakdinden elde edilen faiz. 2025'te hasılat 98,9 milyon Kanada doları: 50,0 milyonu hizmet geliri, 48,9 milyonu emanet ve faiz geliri. Net kârın neredeyse tamamı (19,6 milyon dolar) yatırım hesapları bölümünden geldi. Bu bölümde emanetteki varlıklar 2025 sonunda 11,66 milyar dolar özel menkul kıymet ve ipotek, 1,19 milyar dolar nakit ve borsa hissesi. Şirket ayrıca işverenlere özel sağlık harcama planı ve şirketlere pay kayıt hizmeti verir.",
   "moat_text": "Hendek dar. Üstünlük lisanstan ve küçük bir alandaki ölçekten geliyor: özel menkul kıymet tutan hesapları yönetmek emanet şirketi lisansı ister ve büyük bankalar bu işi yapmıyor. Şirket, bu alana başkalarının girmekte zorlandığını ve rakiplerin hesaplarını zamanla kendisinin devraldığını söylüyor; 2025 başında Canadian Western Trust'tan yaklaşık 3.400 hesap aldı. Fiyatlama gücünün işareti: faiz geliri düşerken hizmet geliri aylık ücret ve işlem ücreti artışıyla büyüdü (2026'nın ilk dokuz ayında +%2, 2025'te +%5). Reel özsermaye kârlılığı beş yılın ortalamasında %48, en düşük yılında %28; son 12 ayda %31. Zayıf yanı: pazar payı rakamı yok. Kârın büyük bölümü şirketin denetiminde olmayan faiz oranına bağlı: şirketin hesabına göre faizdeki 1 puanlık düşüş vergi sonrası kârı yaklaşık 11,1 milyon dolar azaltır; 2025 net kârı 19,9 milyon dolardı. Reel özsermaye kârlılığı 2023'teki %73'ten %31'e indi.",
@@ -660,8 +660,8 @@
    ]
   },
   "chk": {
-   "date": "2026-11-14",
-   "per": "2026-Q2"
+   "date": "2026-11-21",
+   "per": "2026-Q3"
   },
   "roa": {
    "v": 37.7,
@@ -675,15 +675,15 @@
     "tr": "Hesap son 12 ayın kârına dayanır. Bu kârın içindeki tek seferlik kazançlar: Diğer kazançlar (net): 3,99 milyon dolar vergi öncesi; şirkete göre büyük bölümü Raisr bölümünün varlıklarının satışından (24 Temmuz 2026): son 12 ay kârının %17,3 kadarı. Net etki %17,3; kazanç bu kadar indirildi. Son 12 ayın kârı 0,83 ile çarpılarak kullanıldı.",
     "en": "The calculation rests on the profit of the last 12 months. One-off gains inside that profit: Other gains, net: 3.99 million dollars pre-tax; according to the company mainly from the sale of the assets of the Raisr division (24 July 2026): 17.3% of last-12-month profit. The net effect is 17.3%; earnings were lowered by that much. Last-12-month profit was used multiplied by 0.83."
    },
-   "per": "2026-Q2"
+   "per": "2026-Q3"
   },
   "growth": {
-   "g": 0.8,
+   "g": 2.4,
    "basis": {
-    "tr": "Formül yılda %1,7 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 (süren faaliyetler) %−16,7. Dokuz aylık kârın içinde 3,99 milyon dolarlık (vergi öncesi) diğer kazanç var; büyük bölümü Raisr bölümünün satışından geliyor. Şirket düzeltilmiş rakam vermiyor. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %0,8.",
-    "en": "The formula gave growth of 1.7% a year. Latest figures (earnings per share, year on year): January-September 2026 (continuing operations) −16.7%. Nine-month profit includes other gains of 3.99 million dollars (pre-tax), most of it from the sale of the Raisr division. The company gives no adjusted figure. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 0.8%."
+    "tr": "Formül yılda %4,9 büyüme veriyordu. En güncel veriler (hisse başına kâr, yıllık değişim): Ocak-Eylül 2026 (süren faaliyetler) %−16,7. Dokuz aylık kârın içinde 3,99 milyon dolarlık (vergi öncesi) diğer kazanç var; büyük bölümü Raisr bölümünün satışından geliyor. Şirket düzeltilmiş rakam vermiyor. En düşüğü, enflasyondan arındırılınca, %0,0 (sıfırın altı sıfır sayılır). Bu, formülün hızının yarısından az olduğu için ikisinin ortası alındı: %2,4.",
+    "en": "The formula gave growth of 4.9% a year. Latest figures (earnings per share, year on year): January-September 2026 (continuing operations) −16.7%. Nine-month profit includes other gains of 3.99 million dollars (pre-tax), most of it from the sale of the Raisr division. The company gives no adjusted figure. The lowest, after inflation, is 0.0% (below zero counts as zero). Because this is less than half the formula's rate, the midpoint of the two was used: 2.4%."
    },
-   "per": "2026-Q2"
+   "per": "2026-Q3"
   }
  },
  "Y": {
@@ -748,6 +748,100 @@
   },
   "chk": {
    "date": "2026-11-14",
+   "per": "2026-Q3"
+  }
+ },
+ "BRM": {
+  "scores": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 1
+  },
+  "moat": "zayıf",
+  "per": "2026-Q3",
+  "one": "Atık su tesislerine koku ve hava kirliliği arıtma sistemleri kuran küçük şirket. İşi kamu ihalesiyle alıyor, kârı çeyrekten çeyreğe çok oynuyor; hendek zayıf, 3. suru geçemedi.",
+  "business": "Biorem, kötü kokuyu ve zararlı gazları biyolojik filtrelerle gideren hava arıtma sistemleri tasarlar, üretir ve kurar. Müşterileri belediyelerin atık su tesisleri ve sanayi işletmeleridir. Merkez Guelph, Ontario'dadır. 2025'te gelir 42,4 milyon Kanada doları, net kâr 4,8 milyon dolardı. 2026'nın ilk dokuz ayında gelir 39,1 milyon dolar (bir yıl önce 25,4 milyon). Eylül 2026 sonunda sipariş defteri 74,5 milyon dolar. Şirket dünyada 2.000'den fazla kurulu sistemi olduğunu söylüyor; bu sistemlere servis ve dolgu malzemesi de satıyor.",
+  "moat_text": "Hendek zayıf. İş teklifle alınıyor: genel müdür Mayıs 2026'da siparişlerin kamu ihaleleriyle geldiğini ve kazanma oranının %35 ile %52 arasında olduğunu söyledi. Fiyatı ihale belirler; brüt kâr marjı bunu gösteriyor: 2025'te %30, 2026'nın üçüncü çeyreğinde %34, ilk çeyreğinde %20, 2024'ün dördüncü çeyreğinde %17. Üstünlük şurada: kurulu sistemler servis ve yedek dolgu satışı getiriyor; genel müdüre göre 2025'te yaklaşık 10 milyon dolarlık servis siparişi alındı. Ama servis payı şirket belgesinden doğrulanamadı, pazar payı rakamı yok. Reel özsermaye kârlılığı son dört yılda %30'un üstünde; bunun nedeni işin az sermaye istemesi, kalıcı bir fiyat üstünlüğü değil. Kâr proje teslim takvimine bağlı.",
+  "mgmt": "Genel müdür Derek S. Webb. Kaynakta temettü yok. Şirket küçük tutarlarda pay geri alıyor: 2025'te 100 bin dolar, 2026'nın ikinci çeyreğinde 40 bin dolar; alım fiyatı bültenlerde yok. 2025'te 570 bin dolar vadeli kredi ödendi. Eylül 2026 sonunda nakit 7,9 milyon dolar, işletme sermayesi 19,5 milyon dolar. Seyreltilmiş hisse başına kâr temel kârın belirgin altında (üçüncü çeyrekte 0,148 ve 0,158 dolar): paya çevrilebilecek araçlar var; ayrıntısı okunamadı. Kaynağa göre pay sayısı 2022'de %53, 2023'te %11 azaldı, 2024'te %19 arttı. Sahiplik yapısı, hisse bazlı ücret, şerefiye, teminat mektupları ve ertelenmiş vergi: bakıldı, açılan belgelerde yok; finansal tablolar ve yönetim raporu (SEDAR+) açılamadı.",
+  "latest": "4 Kasım 2026: Üçüncü çeyrekte gelir 16,6 milyon dolar (bir yıl önce 11,3 milyon; +%48), brüt kâr 5,6 milyon dolar (gelirin %34'ü), net kâr 2,69 milyon dolar (1,16 milyon); hisse başına kâr 0,158 dolar (0,072). Çeyrekte 15,1 milyon dolar yeni sipariş alındı; dokuz ayda 48,6 milyon. Sipariş defteri 74,5 milyon dolar (haziran sonunda 75,5 milyon). Bültenin tablolarına göre dokuz aylık net kâr 4,87 milyon dolar (0,20 + 1,98 + 2,69); hisse başına 0,29 dolar. Bülten metni dokuz aylık kârı 6,6 milyon dolar diye veriyor; bu, tabloyla ve hisse başına rakamla tutmuyor.",
+  "risks": [
+   "Hesaptaki güvenlik marjı siparişlerin en güçlü döneminin kârına dayanıyor: son 12 ayın net kârı yaklaşık 7,6 milyon dolar, 2024'te 3,0 milyon dolardı. Kâr çeyrekten çeyreğe çok oynuyor: 2025'in ilk çeyreğinde 37 bin dolar, 2026'nın ilk çeyreğinde 201 bin dolar.",
+   "İş kamu ihalesiyle alınıyor; fiyatı ihale belirler. Sipariş defteri 2026'da büyümedi: mart sonunda 77,0, haziran sonunda 75,5, eylül sonunda 74,5 milyon dolar.",
+   "Büyüme ABD ve Orta Doğu siparişlerinden geliyor; şirket Orta Doğu'da son 12-18 ayda yaklaşık 20 milyon dolar sipariş aldığını söylüyor. Bölgedeki çatışma ve gümrük vergileri teslimatı ve maliyeti etkileyebilir.",
+   "Sabit fiyatlı proje işinde maliyet aşımı kârı siler; brüt kâr marjı çeyrekler arasında %17 ile %35 arasında değişti.",
+   "Şirket çok küçük: piyasa değeri yaklaşık 82 milyon dolar. Paya çevrilebilecek araçlar pay sayısını artırabilir."
+  ],
+  "watch": [
+   "Sipariş defteri ve yeni siparişler",
+   "Brüt kâr marjı",
+   "Servis gelirinin payı",
+   "Seyreltilmiş pay sayısı"
+  ],
+  "sources": [
+   {
+    "t": "stockanalysis.com: 5 yıllık oranlar",
+    "te": "stockanalysis.com: 5-year ratios",
+    "u": "https://stockanalysis.com/quote/tsxv/BRM/financials/ratios/"
+   },
+   {
+    "t": "Biorem: 2026 üçüncü çeyrek sonuç bülteni, CNW (4 Kas 2026)",
+    "te": "Biorem: third-quarter 2026 results release, CNW (4 Nov 2026)",
+    "u": "https://www.newswire.ca/news-releases/biorem-reports-record-third-quarter-earnings-of-2-7-million-and-0-16-eps-revenue-increases-48-over-same-period-in-prior-year-810166581.html"
+   },
+   {
+    "t": "Biorem: 2026 ikinci çeyrek sonuç bülteni, Investing News kopyası (28 Tem 2026)",
+    "te": "Biorem: second-quarter 2026 results release, Investing News copy (28 Jul 2026)",
+    "u": "https://investingnews.com/biorem-reports-second-quarter-earnings-of-2-million-and-0-12-eps-revenue-increases-66-over-same-period-in-prior-year/"
+   },
+   {
+    "t": "Biorem: 2025 yıl sonu sonuç bülteni (20 Nis 2026)",
+    "te": "Biorem: full-year 2025 results release (20 Apr 2026)",
+    "u": "https://cdn.financialreports.eu/financialreports/media/filings/45371/2026/RNS/45371_rns_2026-04-20_6b5f1531-8f72-4cd3-9518-bf709d0cfc91.pdf"
+   },
+   {
+    "t": "Biorem: 2025 üçüncü çeyrek sonuç bülteni, Yahoo Finance kopyası (17 Kas 2025)",
+    "te": "Biorem: third-quarter 2025 results release, Yahoo Finance copy (17 Nov 2025)",
+    "u": "https://finance.yahoo.com/news/biorem-reports-record-order-backlog-125900442.html?.tsrc=rss"
+   },
+   {
+    "t": "GeoInvesting: genel müdür Derek Webb ile dördüncü çeyrek görüşmesi (3 May 2026)",
+    "te": "GeoInvesting: fourth-quarter briefing with chief executive Derek Webb (3 May 2026)",
+    "u": "https://geoinvesting.com/birmf-q4-results-management-briefing-with-derek-webb-president-and-ceo-of-biorem/"
+   },
+   {
+    "t": "Microcap Investing Cliff Notes: Biorem, sipariş defteri ve servis payı (2026)",
+    "te": "Microcap Investing Cliff Notes: Biorem, backlog and service share (2026)",
+    "u": "https://mscliffnotes.substack.com/p/weekly-26-four-cheap-industrials"
+   }
+  ],
+  "en": {
+   "one": "Small company that builds odour and air pollution control systems for wastewater plants. It wins work by public tender and profit swings widely from quarter to quarter; the moat is weak and it did not pass the third wall.",
+   "business": "Biorem designs, makes and installs air treatment systems that remove odours and harmful gases with biological filters. Its customers are municipal wastewater plants and industrial operators. It is based in Guelph, Ontario. In 2025 revenue was 42.4 million Canadian dollars and net earnings 4.8 million dollars. In the first nine months of 2026 revenue was 39.1 million dollars (25.4 million a year earlier). The order backlog was 74.5 million dollars at the end of September 2026. The company says it has more than 2,000 installed systems worldwide; it also sells service and replacement media for them.",
+   "moat_text": "The moat is weak. Work is won by bidding: in May 2026 the chief executive said orders come through public tenders and the win rate is between 35% and 52%. The tender sets the price, and gross margin shows it: 30% in 2025, 34% in the third quarter of 2026, 20% in the first quarter and 17% in the fourth quarter of 2024. The advantage is this: installed systems bring service and replacement media sales; according to the chief executive about 10 million dollars of service orders were booked in 2025. But the service share could not be confirmed in a company document and there is no market share figure. Real return on equity has been above 30% in the last four years; the reason is that the business needs little capital, not a lasting price advantage. Profit depends on project delivery schedules.",
+   "mgmt": "The chief executive is Derek S. Webb. The source shows no dividend. The company buys back small amounts of shares: 100 thousand dollars in 2025 and 40 thousand dollars in the second quarter of 2026; the purchase price is not in the releases. It repaid 570 thousand dollars of term loan in 2025. At the end of September 2026 cash was 7.9 million dollars and working capital 19.5 million dollars. Diluted earnings per share are clearly below basic (0.148 and 0.158 dollars in the third quarter): there are instruments that can convert into shares; the detail could not be read. According to the source the share count fell 53% in 2022 and 11% in 2023, and rose 19% in 2024. Ownership, share-based pay, goodwill, letters of guarantee and deferred tax: checked, not in the documents that could be opened; the financial statements and management report (SEDAR+) could not be opened.",
+   "latest": "4 November 2026: In the third quarter revenue was 16.6 million dollars (11.3 million a year earlier; +48%), gross profit 5.6 million dollars (34% of revenue) and net earnings 2.69 million dollars (1.16 million); earnings per share were 0.158 dollars (0.072). New orders in the quarter were 15.1 million dollars; 48.6 million for nine months. The order backlog was 74.5 million dollars (75.5 million at the end of June). According to the tables in the releases, nine-month net earnings were 4.87 million dollars (0.20 + 1.98 + 2.69); 0.29 dollars per share. The text of the release gives nine-month earnings as 6.6 million dollars; that does not match the table or the per-share figure.",
+   "risks": [
+    "The safety margin in the calculation rests on the profit of the strongest order period: last-12-month net earnings are about 7.6 million dollars, against 3.0 million dollars in 2024. Profit swings widely from quarter to quarter: 37 thousand dollars in the first quarter of 2025 and 201 thousand dollars in the first quarter of 2026.",
+    "Work is won by public tender; the tender sets the price. The order backlog did not grow in 2026: 77.0 million dollars at the end of March, 75.5 million at the end of June and 74.5 million at the end of September.",
+    "Growth comes from orders in the United States and the Middle East; the company says it booked about 20 million dollars in the Middle East over the last 12 to 18 months. Conflict in the region and tariffs can affect delivery and cost.",
+    "In fixed-price project work a cost overrun wipes out profit; gross margin has ranged between 17% and 35% across quarters.",
+    "The company is very small: market value is about 82 million dollars. Instruments that can convert into shares may raise the share count."
+   ],
+   "watch": [
+    "Order backlog and new orders",
+    "Gross margin",
+    "Share of service revenue",
+    "Diluted share count"
+   ]
+  },
+  "verify": {
+   "tr": "Veri kusuru bulunmadı; kale adayı görünmesinin nedeni işin doğası. Kaynağın F/K'sı (10,29) hisse başına yaklaşık 0,42 dolar kâr ima ediyor. Bültenlerdeki son dört çeyreğin temel hisse başına kârı 0,47 dolar (0,18 + 0,012 + 0,122 + 0,158), seyreltilmiş 0,42 dolar (0,16 + 0,011 + 0,105 + 0,148): kaynak seyreltilmiş rakamla tutuyor. Net kâr toplamı yaklaşık 7,55 milyon dolar (2,68 + 0,20 + 1,98 + 2,69). Üçüncü çeyrek bülteninin metnindeki 6,6 milyon dolarlık dokuz aylık kâr tabloyla tutmuyor; tablo esas alındı. Pay bölünmesi, eksi özsermaye, pay alım teklifi görülmedi. Vergi gideri ve ertelenmiş vergi varlığı okunamadı: bültenlerde yok, finansal tablolar açılamadı.",
+   "en": "No data flaw was found; it looks like a castle candidate because of the nature of the business. The source's P/E (10.29) implies earnings of about 0.42 dollars per share. In the releases, basic earnings per share for the last four quarters add up to 0.47 dollars (0.18 + 0.012 + 0.122 + 0.158) and diluted to 0.42 dollars (0.16 + 0.011 + 0.105 + 0.148): the source matches the diluted figure. Net earnings add up to about 7.55 million dollars (2.68 + 0.20 + 1.98 + 2.69). The nine-month earnings of 6.6 million dollars in the text of the third-quarter release do not match the table; the table was used. No share split, negative equity or tender offer was seen. Tax expense and deferred tax assets could not be read: they are not in the releases and the financial statements could not be opened."
+  },
+  "chk": {
+   "date": "2026-11-21",
    "per": "2026-Q3"
   }
  }

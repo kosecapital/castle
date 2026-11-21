@@ -283,17 +283,27 @@
  "FAA": {
   "metric": "EPS",
   "ytd": {
-   "tr": "Nisan-Haziran 2026 (2026/27 mali yılının ilk çeyreği)",
-   "en": "April-June 2026 (first quarter of fiscal 2026/27)",
-   "pct": 133.3,
-   "cur_val": "0,35",
-   "prev_val": "0,15",
+   "tr": "Nisan-Eylül 2026 (2026/27 mali yılının ilk yarısı)",
+   "en": "April-September 2026 (first half of fiscal 2026/27)",
+   "pct": 63.6,
+   "cur_val": "0,72",
+   "prev_val": "0,44",
    "unit": "avro / euros",
-   "date": "2026-08-13",
-   "url": "https://quartr.com/events/fabasoft-ag-faa-q1-2027_FGXmuJgu",
+   "date": "2026-11-13",
+   "url": "https://quartr.com/events/fabasoft-ag-faa-q2-2027_FGXmuf10",
    "primary": false
   },
-  "quarter": null,
+  "quarter": {
+   "tr": "Temmuz-Eylül 2026 (ikinci çeyrek, tek başına)",
+   "en": "July-September 2026 (second quarter, standalone)",
+   "pct": 27.6,
+   "cur_val": "0,37",
+   "prev_val": "0,29",
+   "unit": "avro / euros",
+   "date": "2026-11-13",
+   "url": "https://quartr.com/events/fabasoft-ag-faa-q2-2027_FGXmuf10",
+   "primary": false
+  },
   "guidance": null,
   "adjusted": null,
   "departed": null,
@@ -302,6 +312,6 @@
   "skip": null,
   "note_tr": null,
   "note_en": null,
-  "notes": "Helper session G3, 15 Nov 2026. NOT PRIMARY: Q1 2026/27 EPS 0.35 read only in the Quartr summary (+133.3%); net profit 3.8m vs 1.7m in trend.at/APA (13 Aug 2026). The company's own press release of 13 Aug 2026 (at.cloud.fabasoft.com, opened) gives revenue 25,364k (+19.7%), EBITDA 7,310k (4,305k) and EBIT 5,302k (2,411k) but no net profit or EPS; the full 3-month report 2026/27 PDF was not found. Prior-year Q1 EPS 0.15 and parent net profit 1,600k (total 1,708k incl. 108k minorities) confirmed in the company's 3-month report 2025/26 (primary). The latest cumulative period IS the quarter, so 'quarter' is left null to avoid counting it twice. FY2025/26: EPS 0.97 vs 0.80 (+21%), net 10.80m vs 9.12m (EQS copy). No guidance: the company gives none and says investment (AI, data centres, sales, SAP migration) will weigh on profitability for the rest of the year. Quartr's event list mentions a later 'Q2 2027' item saying 'EBIT strength was described as temporary' - not opened; the half-year report to 30 Sep 2026 may already be out or due in the coming days (last year: 7 Nov 2025; no 2026 release found by search). Main session: re-check when the half-year figures are available - the +133% is one quarter on a low base. Nothing departed; no permanent cause. Dividend yield in dataset 3.03% = 0.50/16.5."
+  "notes": "Helper session, 21 Nov 2026. NOT PRIMARY: the half-year report PDF could not be opened (permission not granted). H1 EPS 0.72 vs 0.44 (+63.6%) from the Quartr summary; result for the period 7.8m vs 5.1m (+53.8%) in trend.at/APA and Quartr. Q2 standalone EPS by subtraction: 0.72 − 0.35 = 0.37 vs 0.44 − 0.15 = 0.29 (+27.6%); the Q1 figures are 0.35 (Quartr, not primary) and 0.15 (company's 3-month report 2025/26, primary). Cross-check from the company's own releases (primary): Q2 EBIT 10,947 − 5,302 = 5,645k vs 7,319 − 2,411 = 4,908k (+15.0%); H1 EBIT +49.6%. No guidance: none given; the EQS release quotes the CEO attributing the 'temporary' EBIT strength to delayed marketing activities, staff expansion and investments. Nothing departed; no permanent cause. Main session: re-open the half-year PDF when possible and confirm EPS and the parent's share of profit."
  }
 }

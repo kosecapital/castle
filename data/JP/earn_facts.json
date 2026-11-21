@@ -464,22 +464,22 @@
   "unit": "million JPY",
   "eps_cur": "JPY",
   "ttm": {
-   "eps": 180.1,
-   "net_profit": 9830,
-   "tr": "Temmuz 2025 - Haziran 2026 (mali yıl; son rapor yıl sonu). Hisse başına kâr tabloda 360,20 yen; bire iki pay bölünmesinden (kayıt tarihi 31 Ekim 2026) sonra 180,10 yen",
-   "en": "July 2025 - June 2026 (fiscal year; the latest report is the full year). EPS is 360.20 yen in the accounts; 180.10 yen after the two-for-one stock split (record date 31 October 2026)",
-   "url": "https://www2.jpx.co.jp/disc/60360/140120260814521177.pdf",
-   "primary": true
+   "eps": 186.02,
+   "net_profit": 10153,
+   "tr": "Ekim 2025 - Eylül 2026 (Haziran 2026 yılı 9.830 eksi Temmuz-Eylül 2025 çeyreği 910 artı Temmuz-Eylül 2026 çeyreği 1.233 milyon yen). Hisse başına kâr bire iki pay bölünmesinden sonraki payla; çeyrek rakamları veri sitesinden, şirketin 16 Kasım 2026 tanshin'i açılamadı",
+   "en": "October 2025 - September 2026 (year to June 2026 of 9,830 minus the July-September 2025 quarter of 910 plus the July-September 2026 quarter of 1,233 million yen). EPS is on the share count after the two-for-one split; the quarterly figures are from a data site, the company's tanshin of 16 November 2026 could not be opened",
+   "url": "https://s.kabutan.jp/stocks/6036/news/k202611160029/",
+   "primary": false
   },
   "tax_rate": 28.3,
   "gains": [
    {
     "tr": "Yatırım amaçlı hisselerin (SOFT99) satış kazancı: vergi öncesi 6.792 milyon yen (olağan dışı gelir)",
     "en": "Gain on sale of investment securities (SOFT99 shares): 6,792 million yen pre-tax (extraordinary income)",
-    "frac": 0.4954,
-    "how": "6,792 x (1 - 0.283) / 9,830; pre-tax amount from the company, converted at the company's effective tax rate for the year (3,881 / 13,711 = 28.3%)",
-    "period_tr": "Ekim 2025 - Mart 2026 (mali yılın 2. ve 3. çeyreği)",
-    "period_en": "October 2025 - March 2026 (fiscal Q2 and Q3)",
+    "frac": 0.4797,
+    "how": "6,792 x (1 - 0.283) / 10,153; pre-tax amount from the company's FY6/2026 tanshin, converted at the company's effective tax rate for that year (3,881 / 13,711 = 28.3%); the gain was booked in October 2025 - March 2026, so all of it is inside the 12 months to September 2026",
+    "period_tr": "Ekim 2025 - Mart 2026 (Haziran 2026 mali yılının 2. ve 3. çeyreği)",
+    "period_en": "October 2025 - March 2026 (Q2 and Q3 of the fiscal year to June 2026)",
     "url": "https://www2.jpx.co.jp/disc/60360/140120260814521177.pdf",
     "primary": true
    }
@@ -499,7 +499,7 @@
     "primary": true
    }
   ],
-  "notes": "UNITS: price in the universe (1,775) is POST-split, so EPS is entered post-split: 360.20 / 2 = 180.10 (Matsui Securities' results page also shows FY6/2026 EPS 180.1); guidance 227.98 / 2 = 113.99 (my arithmetic; the company's revised post-split forecast notice of 15 Sep 2026 was not opened). CRITICAL SOURCE ERROR: stockanalysis P/E 4.93 = 1,775 / 360.2, i.e. post-split price over pre-split EPS; the universe P/E 9.86 = 1,775 / 180.1 is right. Market cap 101.6bn / net profit 9,830 = 10.3. If funnel.py takes pe 4.93 from history.json (L2.pe), the 'castle' result is an artefact. Historical 'pes' and 'mc' series in history.json may be distorted the same way for the latest point (pes 7.54 for FY2026 vs 19.82 the year before). GAIN: 投資有価証券売却益 6,792,057 thousand yen in the income statement (narrative says 6,762m; the Q3 tanshin shows 6,763m by nine months); none in the prior year. After tax at 28.3%: about 4,870m = 49.5% of net profit. At the statutory rate (about 30.6%) it would be 47.9%. Small items not listed: impairment 11.7m (one store), fixed asset gains/losses under 2m. NOT an offset: 'growth investment costs' of 1,093m that the company says were funded from the gain (brand marketing 435, people 477, store development 76, plus 105 TOB/M&A costs): ordinary operating costs. Guidance (reported basis, net profit 6,222m) is 36.7% below TTM: k by guidance = 0.633; by one-off gain = 0.505; the lower applies. ROE: tanshin says 45.6% (the presentation says 39.2%; the universe shows 39.2)."
+  "notes": "Updated 21 Nov 2026 for period 2027-Q1 (quarter to 30 Sep 2026, announced 16 Nov 2026). PRIMARY Q1 TANSHIN NOT OPENED: the TDnet copies (tdnet-pdf.kabutan.jp/20261116/140120261116581151.pdf, f.irbank.net/pdf/20261116/140120261116581145.pdf) were blocked by the fetch tool; release.tdnet.info is robots-disallowed. Q1 figures are from Kabutan's results flash: sales 6,639 (+15.0%), operating profit 1,789 (+29.6%), ordinary profit 1,832 (+35.5%), net profit 1,233 vs 910 (+35.5%); no change to the forecast (H1 net profit 3,485; FY net profit 6,222, EPS 114.0 post-split). TTM net profit = 9,830 - 910 + 1,233 = 10,153 (my arithmetic). TTM EPS = 180.10 x 10,153 / 9,830 = 186.02 (my arithmetic; share count unchanged apart from the split; universe 1,605 / 8.63 = 186.0 agrees). AGGREGATOR ERROR: Kabutan shows Q1 'adjusted EPS' 11.3 (-32.3%) while net profit is +35.5%: it halves a figure that is already post-split; irbank shows market cap 184.3bn for the same reason. Issued shares check: Idemitsu is buying 7,309,096 shares = 13.39% of issued (Car Watch, 16 Nov 2026), i.e. about 54.59m shares. Guidance 113.99 = 227.98 / 2 (tanshin of 14 Aug 2026, pre-split); Kabutan shows 114.0 as the forecast re-stated on 15 Sep 2026. The SOFT99 gain (6,792 pre-tax) is still wholly inside the trailing 12 months; it drops out when the quarter to March 2027 is reported."
  },
  "4377": {
   "unit": "million JPY",
@@ -634,5 +634,35 @@
    }
   ],
   "notes": "TTM from two primary documents opened 19 Nov 2026: FY to March 2026 tanshin (30 Apr 2026: net 99,030, EPS 299.01) and H1 tanshin (30 Oct 2026: net 64,175 / EPS 196.79; prior H1 49,886 / 150.41, restated for the 1-for-5 split effective 1 Oct 2025). Universe: price 3,310 / P/E 9.59 = EPS 345.2, within 0.1% of the document figure, so the universe P/E is right and split-consistent. Gains minus offsets = 0.0663 - 0.0294 = 0.0369 of TTM profit (> 3%). Guidance 329.00 is 4.7% below TTM (329 / 345.39 = 0.9525) and itself includes the Solasto gain. Tax rate 23.8% is the H1 effective rate (total income taxes 19,996 / profit before income taxes 83,926); the statutory rate was not read. Other extraordinary items inside the TTM window are small: H2 of the year to March 2026 (full year minus H1) extraordinary income 611 - 439 = 172 and losses 1,239 - 126 = 1,113 (impairment and securities write-downs); H1 FY2027 also has 27 of fixed-asset sale gains and 158 of disposal losses. These were left out of gains/offsets (each under 1% of profit). The April 2026 tanshin had announced that about 10 billion yen of extraordinary income from Solasto was expected around August 2026. The company is not on IAS 29; no `monetary` or `retained` entry."
+ },
+ "3093": {
+  "unit": "million JPY",
+  "eps_cur": "JPY",
+  "ttm": {
+   "eps": 146.33,
+   "net_profit": null,
+   "tr": "Eylül 2025 - Ağustos 2026: Şubat 2026 yılı 135,29 yen (şirketin tanshin'i) eksi geçen yılın ilk yarısı 52,85 yen (şirketin temmuz tahminindeki 59,21 yen ve +%12,1'den hesaplandı) artı bu yılın ilk yarısı 63,89 yen (veri sitesinden; şirketin 14 Ekim 2026 tanshin'i açılamadı)",
+   "en": "September 2025 - August 2026: year to February 2026 of 135.29 yen (company tanshin) minus last year's first half of 52.85 yen (derived from the company's July forecast of 59.21 yen and +12.1%) plus this year's first half of 63.89 yen (from a data site; the company's tanshin of 14 October 2026 could not be opened)",
+   "url": "https://edinetdb.jp/company/E03520/earnings/FY2027-Q2",
+   "primary": false
+  },
+  "tax_rate": null,
+  "gains": [],
+  "offsets": [],
+  "drop": null,
+  "guidance": [
+   {
+    "fy_tr": "Şubat 2027'de biten yıl",
+    "fy_en": "year to February 2027",
+    "mid": 151.49,
+    "low": 151.49,
+    "high": 151.49,
+    "kind": "reported",
+    "url": "https://www2.jpx.co.jp/disc/30930/081220260708589526_tse-qcedjpsm-30930-20260709330930-ixbrl.htm",
+    "date": "2026-07-09",
+    "primary": true
+   }
+  ],
+  "notes": "Written 21 Nov 2026. PRIMARY H1 TANSHIN (14 Oct 2026, TDnet 140120261013549369) NOT OPENED: release.tdnet.info is robots-disallowed and no jpx.co.jp copy surfaced in search. Opened primary documents: FY2/2026 tanshin summary (9 Apr 2026): sales 48,597, OP 4,777, net profit 3,171, EPS 135.29, equity 12,733, equity ratio 50.0%; Q1 FY2/2027 tanshin summary (9 Jul 2026): sales 13,782 (+16.4%), OP 1,855 (+24.0%), net profit 1,224 (+22.6%), EPS 52.23, equity 13,462; forecast raised to H1 net profit 1,388 (+12.1%), EPS 59.21; FY net profit 3,551 (+12.0%), EPS 151.49; dividend 46 (24 + 22). H1 actual (secondary: edinetdb.jp, minkabu, logmi): sales about 25.9bn (+15%), OP about 2.3bn (+21.5% per the CEO at the briefing), ordinary profit 2.32bn (+18.5%), net profit about 1.5bn (+21%), EPS 63.89; full-year forecast unchanged at H1. Prior-year H1 EPS derived: 59.21 / 1.121 = 52.82; net profit 1,388 / 1.121 = 1,238; EPS 1,238 / 23.44m shares = 52.85 (my arithmetic). TTM EPS = 135.29 - 52.85 + 63.89 = 146.33; universe 1,735 / 11.86 = 146.3 agrees. net_profit left empty: no exact H1 net profit figure was read. No extraordinary gain seen in the summaries or mentioned at the briefing; the income statement itself was NOT read, so 'gains: []' is unverified. No stock split: shares issued 24,347,800 in both years (tanshin). Guidance (151.49) is above TTM (146.33)."
  }
 }

@@ -145,5 +145,45 @@
   "drop": null,
   "guidance": [],
   "notes": "TTM is on CONTINUING operations because that is what the universe P/E (22.36) reflects: 4,987.5p / 22.36 = 223p, which is 2.55 euros at about 0.875 GBP/EUR (implied, not from a document); market cap 106,176 / 22.36 = 4,748M GBP vs 5,581M EUR. Figures: FY2025 announcement (12 Feb 2026) and H1 2026 announcement (28 Jul 2026), both opened on unilever.com. TOTAL TTM (incl. discontinued): attributable 9,469 + 3,316 - 3,512 = 9,273M EUR; diluted EPS 4.32 + 1.52 - 1.60 = 4.24 euros - this is what the ratio page's P/E 13.69 reflects (107,380 / 13.69 = 7,844M GBP). The difference is discontinued operations: a 3,373M EUR after-tax gain on the demerger of Ice Cream (6 Dec 2025, in H2 2025) and a 299M EUR gain on disposal of discontinued operations in H1 2026 (Kwality Wall's stake and Portugal ice cream JV sold to TMICC). These gains are NOT listed in 'gains' because they are outside the continuing-operations profit used as ttm; if the funnel ever uses the ratio-page P/E (13.69 TTM, 12.8 for FY2025) they must be removed. Within continuing operations no net one-off gain: gain/(loss) on disposal of group companies FY2025 (36), H1 2026 70, H1 2025 47, so TTM net -13; other income from non-current investments H1 2026 21 vs (31). Restructuring (TTM 599 + 131 - 265 = 465 pre-tax) recurs every year and is not an offset. Unit is euros while the dataset is in pounds, so the script's source-vs-document check cannot run on like units. Tax rate is the H1 2026 effective rate printed by the company (FY not read). No EPS guidance. RETAINED-EARNINGS WARNING for main session: the ratio page payout (45.85% TTM, 47.03% FY2025) is computed on total profit including the demerger gain; from the FY2025 document dividends paid 4,453 + buybacks 1,510 = 5,963 vs continuing attributable profit 5,682, i.e. more than 100% distributed, so the funnel's b = 0.553 and the 'retained-earnings test' result for ULVR look like artefacts of the one-off gain. Likewise the FY2025 point in the profit series used for the growth trend (mc / pes = 105,734 / 12.8) is inflated by the gain."
+ },
+ "APN": {
+  "unit": "million GBP",
+  "eps_cur": "GBX",
+  "ttm": {
+   "eps": 12.2,
+   "net_profit": 30.6,
+   "tr": "Ağustos 2025 - Temmuz 2026 (31 Temmuz 2026'da biten mali yıl; son rapor yıl sonu). İlk yarı 15,4 + ikinci yarı 15,2 = 30,6 milyon sterlin; hisse başına 6,2 + 6,0 = 12,2 peni",
+   "en": "August 2025 - July 2026 (fiscal year ended 31 July 2026; latest report is the full year). First half 15.4 + second half 15.2 = 30.6 million pounds; per share 6.2 + 6.0 = 12.2 pence",
+   "url": "https://www.ticker.app/lse/APN/rns/2026-11-16/Preliminary-Results/2802D",
+   "primary": true
+  },
+  "tax_rate": 25.4,
+  "gains": [
+   {
+    "tr": "Nutrablend alımından doğan pazarlıklı satın alma kazancı: 0,6 milyon sterlin (net varlıkların gerçeğe uygun değeri 12,5, bedel 11,9 milyon sterlin). Vergi düşülmedi",
+    "en": "Bargain purchase gain on the Nutrablend acquisition: 0.6 million pounds (fair value of net assets 12.5, consideration 11.9 million pounds). No tax deducted",
+    "frac": 0.02,
+    "how": "0.6 / 30.6; no tax deducted (tax treatment of the gain not stated)",
+    "period_tr": "Ağustos 2025 - Temmuz 2026 mali yılı",
+    "period_en": "fiscal year August 2025 - July 2026",
+    "url": "https://www.ticker.app/lse/APN/rns/2026-11-16/Preliminary-Results/2802D",
+    "primary": true
+   }
+  ],
+  "offsets": [
+   {
+    "tr": "Satın almayla ilgili giderler: düzeltme kalemleri net 1,0 milyon sterlin giderdir, yani kazançtan önce 1,6 milyon sterlin (vergi öncesi)",
+    "en": "Acquisition-related costs: adjusting items are a net cost of 1.0 million pounds, that is 1.6 million pounds before the gain (pre-tax)",
+    "frac": 0.039,
+    "how": "1.6 x (1 - 0.254) / 30.6; pre-tax, converted at the company's 25.4% effective tax rate",
+    "period_tr": "Ağustos 2025 - Temmuz 2026 mali yılı",
+    "period_en": "fiscal year August 2025 - July 2026",
+    "url": "https://www.ticker.app/lse/APN/rns/2026-11-16/Preliminary-Results/2802D",
+    "primary": true
+   }
+  ],
+  "drop": null,
+  "guidance": [],
+  "notes": "Helper session, 21 Nov 2026. Read in the 16 Nov 2026 preliminary results RNS 2802D (ticker.app full text, both halves of the page): revenue 161.6m (107.1m), PBT 41.0m (28.5m), tax 10.4m (25.4%), profit for the year 30.6m (21.1m), basic and diluted EPS 12.2p (8.4p), adjusted EPS 12.5p (9.1p), weighted shares 250,000,000 basic / 250,407,125 diluted, total equity 85.5m (54.3m), net cash 15.9m. H1 (interim RNS 23 Mar 2026): profit 15.4m, EPS 6.2p; H2 by subtraction. Adjusting items: net 1.0m cost = acquisition costs net of a 0.6m bargain purchase gain; the gain is 2.0% of profit, below the 3% line, and is outweighed by the costs. Source check: price 292.5p / P/E 23.94 = 12.2p = document. Guidance for FY27 is revenue about 205m and adjusted EBITDA about 49m (43.3m in FY26): EBITDA, not EPS, and above the trailing level, so not used here. No dividend (none expected before FY28), so the source's empty payout is right; the history page's 'pos' values (74%, 70%) are pre-IPO dividends. The 'dil' flag (+4,908% shares) is the pre-IPO share subdivision, not real dilution: weighted shares are 250.0m in FY24, FY25 and FY26."
  }
 }

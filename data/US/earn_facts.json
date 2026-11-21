@@ -504,55 +504,55 @@
   "unit": "million USD",
   "eps_cur": "USD",
   "ttm": {
-   "eps": 7.91,
-   "net_profit": 192879,
-   "tr": "Ağustos 2025 - Temmuz 2026 (dört çeyrek: 2026 mali yılının 3. ve 4., 2027 mali yılının 1. ve 2. çeyrekleri)",
-   "en": "August 2025 - July 2026 (four quarters: Q3 and Q4 of fiscal 2026, Q1 and Q2 of fiscal 2027)",
-   "url": "https://nvidianews.nvidia.com/_gallery/download_pdf/6a8f4ad73d6332b41f76ab70"
+   "eps": 9.31,
+   "net_profit": 226256,
+   "tr": "Kasım 2025 - Ekim 2026 (dört çeyrek: 2026 mali yılının 4., 2027 mali yılının 1., 2. ve 3. çeyrekleri)",
+   "en": "November 2025 - October 2026 (four quarters: Q4 of fiscal 2026 and Q1, Q2, Q3 of fiscal 2027)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27pr.htm"
   },
-  "tax_rate": 15.1,
+  "tax_rate": 16.8,
   "gains": [
    {
-    "tr": "Hisse senedi yatırımlarından net kazanç (halka açık ve halka açık olmayan şirket payları); şirket bunu düzeltilmiş (non-GAAP) kârının dışında tutuyor",
-    "en": "Net gains from equity securities (non-marketable and publicly held); the company excludes them from its non-GAAP profit",
-    "frac": 0.006,
-    "how": 15.1,
-    "period_tr": "Ağustos-Ekim 2025 çeyreği",
-    "period_en": "August-October 2025 quarter",
-    "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/5f86707e-03f3-4e5e-b9bd-048e42123723.pdf"
-   },
-   {
-    "tr": "Hisse senedi yatırımlarından net kazanç (halka açık ve halka açık olmayan şirket payları); şirket bunu düzeltilmiş (non-GAAP) kârının dışında tutuyor",
-    "en": "Net gains from equity securities (non-marketable and publicly held); the company excludes them from its non-GAAP profit",
-    "frac": 0.0242,
+    "tr": "Hisse senedi yatırımlarından net kazanç, Kasım 2025 - Ocak 2026 çeyreği (şirket bunu düzeltilmiş kârının dışında tutuyor)",
+    "en": "Net gains from equity securities, November 2025 - January 2026 quarter (the company excludes them from its non-GAAP profit)",
+    "frac": 0.0206,
     "how": 15.1,
     "period_tr": "Kasım 2025 - Ocak 2026 çeyreği",
     "period_en": "November 2025 - January 2026 quarter",
     "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/5f86707e-03f3-4e5e-b9bd-048e42123723.pdf"
    },
    {
-    "tr": "Hisse senedi yatırımlarından net kazanç (halka açık ve halka açık olmayan şirket payları); şirket bunu düzeltilmiş (non-GAAP) kârının dışında tutuyor",
-    "en": "Net gains from equity securities (non-marketable and publicly held); the company excludes them from its non-GAAP profit",
-    "frac": 0.0701,
-    "how": 15.1,
+    "tr": "Hisse senedi yatırımlarından net kazanç, Şubat-Nisan 2026 çeyreği (şirket bunu düzeltilmiş kârının dışında tutuyor)",
+    "en": "Net gains from equity securities, February-April 2026 quarter (the company excludes them from its non-GAAP profit)",
+    "frac": 0.0586,
+    "how": 16.8,
     "period_tr": "Şubat-Nisan 2026 çeyreği",
     "period_en": "February-April 2026 quarter",
-    "url": "https://nvidianews.nvidia.com/_gallery/download_pdf/6a8f4ad73d6332b41f76ab70"
+    "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27pr.htm"
    },
    {
-    "tr": "Hisse senedi yatırımlarından net kazanç (halka açık ve halka açık olmayan şirket payları); şirket bunu düzeltilmiş (non-GAAP) kârının dışında tutuyor",
-    "en": "Net gains from equity securities (non-marketable and publicly held); the company excludes them from its non-GAAP profit",
-    "frac": 0.0342,
-    "how": 15.1,
+    "tr": "Hisse senedi yatırımlarından net kazanç, Mayıs-Temmuz 2026 çeyreği (şirket bunu düzeltilmiş kârının dışında tutuyor)",
+    "en": "Net gains from equity securities, May-July 2026 quarter (the company excludes them from its non-GAAP profit)",
+    "frac": 0.0286,
+    "how": 16.8,
     "period_tr": "Mayıs-Temmuz 2026 çeyreği",
     "period_en": "May-July 2026 quarter",
-    "url": "https://nvidianews.nvidia.com/_gallery/download_pdf/6a8f4ad73d6332b41f76ab70"
+    "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27pr.htm"
+   },
+   {
+    "tr": "Hisse senedi yatırımlarından net kazanç, Ağustos-Ekim 2026 çeyreği (şirket bunu düzeltilmiş kârının dışında tutuyor)",
+    "en": "Net gains from equity securities, August-October 2026 quarter (the company excludes them from its non-GAAP profit)",
+    "frac": 0.0065,
+    "how": 16.8,
+    "period_tr": "Ağustos-Ekim 2026 çeyreği",
+    "period_en": "August-October 2026 quarter",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27pr.htm"
    }
   ],
   "offsets": [],
   "drop": null,
   "guidance": [],
-  "notes": "Primary: NVIDIA press release for the quarter ended 26 Jul 2026 (Q2 FY27: net income 59,688, EPS 2.46; Q1 FY27: 58,321, 2.39) and the 8-K of 25 Feb 2026 with the Q4/FY26 release and CFO commentary (Q4 FY26: 42,960, 1.76; Q3 FY26: 31,910, 1.30; FY26: 120,067, 4.90). 12-month EPS 1.30+1.76+2.39+2.46 = 7.91 and net income 192,879 are my sums of reported quarters. Gains on equity securities total 30,552 pre-tax over the four quarters (8,918 in fiscal 2026 as a whole); amounts are the pre-tax lines of the GAAP to non-GAAP reconciliation. The company gives only a combined tax effect of ALL non-GAAP adjustments (Q2 FY27 1,517; Q1 FY27 2,890), so after-tax and per-share effects of the gains alone are not stated. Company non-GAAP EPS (also excludes stock compensation and acquisition costs, so not a pure ex-gain figure): Q2 FY27 2.22, Q1 FY27 1.87. tax_rate 15.1 is fiscal 2026, computed by me (21,383 / 141,450); the company's outlook for fiscal 2027 is 16.0-18.0% excluding discrete items. No EPS or net income guidance: outlook covers next-quarter revenue (108.0 bn +/-2%), gross margin and operating expenses only. Next results (Q3 FY27) are expected 17 Nov 2026 per growth_facts (not re-checked)."
+  "notes": "Read 21 Nov 2026 from NVIDIA's Q3 FY27 press release as filed with the SEC (8-K exhibit, 17 Nov 2026; quarter ended 25 Oct 2026). Net income: Q3 FY27 65,287 (EPS 2.70), Q2 FY27 59,688 (2.46); nine months 183,297 (7.55), so Q1 FY27 = 58,322 by subtraction (58,321 in the earlier record; rounding). Q4 FY26 42,960 (1.76) is from the earlier record (8-K of 25 Feb 2026, not re-opened). 12-month net income 42,960 + 58,321 + 59,688 + 65,287 = 226,256 and EPS 1.76 + 2.39 + 2.46 + 2.70 = 9.31 are my sums. Gains from equity securities, pre-tax lines of the GAAP to non-GAAP reconciliation: Q3 FY27 1,767; Q2 7,771; nine months 25,474, so Q1 = 15,936 by subtraction; Q4 FY26 5,492 (fiscal 2026 total 8,918 less nine months 3,426; earlier record). Total 30,966 pre-tax. The company gives only a combined tax effect of all non-GAAP adjustments (Q3 464; nine months 4,871), so gains are converted with the effective tax rate: 16.8% for the fiscal 2027 quarters (nine-month tax 37,130 / pre-tax income 220,427, my arithmetic from the release) and 15.1% for the fiscal 2026 quarter (earlier record). Not entered as offsets (keeps the judgment conservative, as in the earlier record): 'other' non-GAAP adjustments to other income (equity derivatives, equity-method investments, convertible debt, dividend income; 523 in Q3, 848 in nine months), legal settlement costs 107 in Q3, acquisition-related costs 255 in Q3. From Q1 FY27 the company's non-GAAP measures no longer exclude stock-based compensation (2,088 in Q3). No EPS or net income guidance: the Q4 outlook covers revenue (130.0 bn +/-3%, a 14-week quarter), gross margin 71.0-72.0% and operating expenses only."
  },
  "OMF": {
   "unit": "million USD",
@@ -772,18 +772,18 @@
   "unit": "million BRL",
   "eps_cur": "BRL",
   "ttm": {
-   "eps": 10.19,
-   "net_profit": 5314,
-   "tr": "Temmuz 2025 - Haziran 2026 (dört çeyrek)",
-   "en": "July 2025 - June 2026 (four quarters)",
-   "url": "https://www.sec.gov/Archives/edgar/data/0001787425/000095010326012481/dp251884_6k-ex9901.htm"
+   "eps": 10.41,
+   "net_profit": 5366,
+   "tr": "Ekim 2025 - Eylül 2026 (dört çeyrek)",
+   "en": "October 2025 - September 2026 (four quarters)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001787425/000095010326017562/dp256944_ex9901.htm"
   },
   "tax_rate": null,
   "gains": [],
   "offsets": [],
   "drop": null,
   "guidance": [],
-  "notes": "Figures are in Brazilian reais (the share trades in dollars). Net income by quarter: 3Q25 1,330 (https://www.businesswire.com/news/home/20251117520293/en), 4Q25 1,282 reported / 1,331 adjusted (https://www.businesswire.com/news/home/20260212416895/en/), 1Q26 1,318, 2Q26 1,384 (sum 5,314 reported; 5,363 adjusted). Diluted EPS: 2.47 + 2.56 + 2.49 + 2.67 = 10.19, but the 4Q25 figure (2.56) is ADJUSTED diluted EPS: the 4Q25 release gives no reported EPS. Reported 4Q25 net income is 49 million lower than adjusted (hedge of social charges +13, PSU expiration -3, tax expenses +39, all charges), so reported 12-month EPS is roughly 0.09 lower (my estimate, not a company figure). In the other three quarters reported and adjusted are identical. No net income or EPS guidance (only a BIS capital ratio target of 16-19% by end-2026). No one-off gain is identified in any of the four releases. Effective tax rate: the releases show only a 'normalised' rate with a negative sign (2Q26 -12.4%, 1Q26 -9.0%, full-year 2025 -13.4%) and the tax lines came through garbled, so tax_rate is left null. 3Q26 results are due 16 November 2026 (not out)."
+  "notes": "Read 21 Nov 2026 from the 3Q26 earnings release (6-K EX-99.1, 16 Nov 2026) and the reviewed interim financial statements for 30 Sep 2026 (second 6-K, same date). Figures in Brazilian reais (the share trades in dollars). Net income by quarter (total, incl. non-controlling interest): 4Q25 1,282 reported (earlier record; business wire release of 12 Feb 2026, not re-opened), 1Q26 1,318, 2Q26 1,384, 3Q26 1,382; sum 5,366. Attributable to owners: 3Q26 1,381.4; nine months 4,082.9 (9M25 3,874.1). Diluted EPS: nine months 2026 7.8532 (statements) + 4Q25 2.56 = 10.41. The 4Q25 figure is still the ADJUSTED diluted EPS: the 4Q25 release gives no reported EPS, and the 20-F (which would give full-year 2025 reported EPS) could not be opened in this session (permission request timed out). Reported 4Q25 net income is 49 million below adjusted, so reported 12-month EPS is roughly 0.09 lower (my estimate, not a company figure). In 1Q-3Q26 reported and adjusted net income are identical. No one-off gain is labelled in the 3Q26 release or statements (no sale of business, no provision reversal). Income tax expense rose: 3Q26 190.0 on pre-tax 1,571.7 (12.1%) against 0.5 on 1,330.6 a year earlier; nine months 346.6 on 4,430.3 (7.8%) against 23.6 on 3,911.2. That is a headwind, not a gain; tax_rate left null because no gain needs converting. No EPS or net income guidance (call commentary via MarketBeat: revenue growth of about 10% expected in 2027; not an EPS outlook, not used)."
  },
  "DECK": {
   "unit": "million USD",
