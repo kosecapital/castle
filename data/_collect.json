@@ -1,31 +1,8 @@
 {
- "when": "2026-11-22T23:19:10Z",
+ "when": "2026-11-23T23:26:27Z",
  "args": [
   "--new",
   "2"
  ],
- "results": [
-  {
-   "cc": "NL",
-   "ok": true,
-   "fetched": "2026-11-22T23:18:57Z",
-   "n": 93,
-   "candidates": 21,
-   "pages": 0,
-   "missing": 0,
-   "blocked": false,
-   "errors": []
-  },
-  {
-   "cc": "SE",
-   "ok": true,
-   "fetched": "2026-11-22T23:19:01Z",
-   "n": 749,
-   "candidates": 141,
-   "pages": 0,
-   "missing": 4,
-   "blocked": false,
-   "errors": []
-  }
- ]
+ "results": []
 }
