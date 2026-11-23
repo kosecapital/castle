@@ -169,10 +169,10 @@ def suspects(core, tol=0.20):
 
 
 def listing():
-    rows = []
+    rows, held = [], {k["cc"] for k in load(J("pipeline", "countries.json"))["countries"] if k.get("hold")}
     for cc in sorted(os.listdir(J("data"))):
         st = load(J("data", cc, "in", "status.json"))
-        if not st:
+        if not st or cc in held:                      # kapsam dışı ülke listelenmez (countries.json, `hold`)
             continue
         meta = load(J("data", cc, "meta.json"))
         asof = (meta or {}).get("asof")

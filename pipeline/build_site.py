@@ -100,7 +100,12 @@ def country(cc):
 
 def main():
     os.makedirs(J("docs", "data"), exist_ok=True)
-    done = [k for k in ORDER if os.path.exists(J("data", k["cc"], "core.json")) and os.path.exists(J("data", k["cc"], "geo.json"))]
+    # kapsam dışı (`hold`) ülke sitede görünmez; verisi ve raporları data/ altında saklı kalır (Alper'in 23 Kasım 2026 kararı)
+    done = [k for k in ORDER if not k.get("hold") and os.path.exists(J("data", k["cc"], "core.json")) and os.path.exists(J("data", k["cc"], "geo.json"))]
+    keep = {k["cc"] + ".json" for k in done}
+    for f in os.listdir(J("docs", "data")):          # yayından çıkan ülkenin eski sayfa verisi kalmasın
+        if len(f) == 7 and f.endswith(".json") and f[:2].isupper() and f not in keep:
+            os.remove(J("docs", "data", f))
     # taranan ülkeler: en yeni eklenen en üstte değil, borsa büyüklüğüne göre; ilk açılışta odak ilk sıradaki olur
     countries, find = [], []
     for k in done:

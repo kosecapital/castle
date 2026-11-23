@@ -798,7 +798,7 @@ function endPointer(ev) {
     if (cc) { enter(cc, 1); return; }
     if (Math.hypot(p[0] - Wd / 2, p[1] - cam.cy) > cam.k) return;
     var iso = otherAt(p), q = iso && QUEUE[iso];
-    toast(q ? L(cname(q.k) + " henüz taranmadı; sırada " + q.i + ". ülke.", cname(q.k) + " has not been scanned yet; it is number " + q.i + " in the queue.") : L("Bu ülke henüz taranmadı.", "This country has not been scanned yet."));
+    toast(q ? L(cname(q.k) + " henüz taranmadı; sırada " + q.i + ". ülke.", cname(q.k) + " has not been scanned yet; it is number " + q.i + " in the queue.") : L("Bu ülke Castle'ın kapsamında değil.", "This country is not covered by Castle."));
     return;
   }
   var h = nearest(p[0], p[1]);
@@ -903,7 +903,7 @@ function panelWorld() {
   if (IDX.queue.length) {
     var first = IDX.queue.slice(0, 6).map(function (q) { return cname(q); }), rest = IDX.queue.length - 6;
     h += "<h3>" + L("Sırada", "Next in line") + "</h3>" + '<p class="txt">' + esc(first.join(", ")) + (rest > 0 ? L(" ve " + rest + " ülke daha", " and " + rest + " more") : "") + L(". Sıra, borsaların toplam piyasa değerine göre.", ". The order follows total stock market value.") + (cadence() ? " " + esc(cadence()) : "") + "</p>";
-  }
+  } else if (cadence()) h += '<p class="txt">' + esc(cadence()) + "</p>";
   h += '<p class="note">' + L("Fiyatlar ve çarpanlar her ülkenin yanında yazan tarihin kapanışına göre. Castle bir analiz aracıdır; yatırım tavsiyesi vermez.", "Prices and multiples are as of the close on the date shown next to each country. Castle is an analysis tool; it does not give investment advice.") + "</p>";
   return h;
 }

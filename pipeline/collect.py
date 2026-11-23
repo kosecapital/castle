@@ -716,7 +716,7 @@ def run_one(cc, budget):
 def plan(args):
     cs, done = countries(), lambda cc: os.path.exists(J("data", cc, "core.json"))
     if "--refresh" in args:
-        return [k["cc"] for k in cs if done(k["cc"])]
+        return [k["cc"] for k in cs if done(k["cc"]) and not k.get("hold")]   # kapsam dışı ülke yenilenmez (Alper'in 23 Kasım 2026 kararı)
     if "--new" in args:
         i = args.index("--new"); n = int(args[i + 1]) if len(args) > i + 1 and args[i + 1].isdigit() else 2
         return [k["cc"] for k in cs if not k.get("hold") and not done(k["cc"])][:n]
