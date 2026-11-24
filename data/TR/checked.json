@@ -1,1 +1,726 @@
-{}
+{
+ "TUKAS": {
+  "date": "2026-11-24",
+  "per": null,
+  "tr": "SPK kararı yalnız işlem yapan kişilere yönelik: 16 Kasım 2026'da 2 kişiye 6 ay geçici işlem yasağı; şirket ya da yönetimi hakkında karar yok. Kayyım ve borsa tedbiri bulunmadı.",
+  "en": "The CMB action targets traders only: 2 people got 6-month temporary trading bans on 16 November 2026; no action against the company or its management. No trustee or exchange measure found.",
+  "note": "Light, trader-level SPK action (bulletin 81); flag only if the main session treats any stock-level manipulation as disqualifying."
+ },
+ "BTCIM": {
+  "date": "2026-11-24",
+  "per": null,
+  "tr": "SPK kararı yalnız işlem yapan kişilere yönelik: 20 Kasım 2026'da BR Madencilik'e 6 ay geçici işlem yasağı (Ekim 2025'te bir kişiye BTCIM/BSOKE işlemleri için ceza); şirket ya da yönetimi hakkında karar yok. Kayyım ve borsa tedbiri bulunmadı.",
+  "en": "The CMB action targets traders only: BR Madencilik got a 6-month temporary trading ban on 20 November 2026 (one person fined over BTCIM/BSOKE trading in October 2025); no action against the company or its management. No trustee or exchange measure found.",
+  "note": "Light, trader-level SPK action (bulletin 83); flag only if the main session treats any stock-level manipulation as disqualifying."
+ },
+ "EUKYO": {
+  "date": "2026-11-24",
+  "per": null,
+  "tr": "SPK kararı yalnız işlem yapan kişilere yönelik: 23 Kasım 2026'da bir kişiye 6 ay geçici işlem yasağı (Ekim 2025'te 7 kişiye ceza); şirket ya da yönetimi hakkında karar yok. Kayyım ve borsa tedbiri bulunmadı.",
+  "en": "The CMB action targets traders only: one person got a 6-month temporary ban on 23 November 2026 (7 people fined in October 2025); no action against the company or its management. No trustee or exchange measure found.",
+  "note": "Light, trader-level SPK action (bulletin 84); flag only if the main session treats any stock-level manipulation as disqualifying."
+ },
+ "CEMZY": {
+  "date": "2026-11-24",
+  "per": null,
+  "tr": "SPK kararı yalnız işlem yapan kişilere yönelik: Nisan 2026'da 4 kişiye 6 ay geçici işlem yasağı; şirket ya da yönetimi hakkında karar yok. Kayyım ve borsa tedbiri bulunmadı.",
+  "en": "The CMB action targets traders only: 4 people got 6-month temporary bans in April 2026; no action against the company or its management. No trustee or exchange measure found.",
+  "note": "Light, trader-level SPK action (bulletin 28); flag only if the main session treats any stock-level manipulation as disqualifying."
+ },
+ "BJKAS": {
+  "date": "2026-11-24",
+  "per": null,
+  "tr": "SPK kararı yalnız işlem yapan kişilere yönelik: Ocak 2026'da 8 kişiye BJKAS işlemleri için yüksek tutarlı piyasa bozucu eylem cezası; şirket ya da yönetimi hakkında karar yok. Kayyım ve borsa tedbiri bulunmadı.",
+  "en": "The CMB action targets traders only: 8 people received large market-disruption fines over BJKAS trading in January 2026; no action against the company or its management. No trustee or exchange measure found.",
+  "note": "Light, trader-level SPK action (bulletin 4); flag only if the main session treats any stock-level manipulation as disqualifying."
+ },
+ "ESCAR": {
+  "date": "2026-11-24",
+  "per": null,
+  "tr": "SPK kararı yalnız işlem yapan kişilere yönelik: Şubat 2026'da 19 kişiye ESCAR işlemleri için piyasa bozucu eylem cezası; şirket ya da yönetimi hakkında karar yok. Kayyım ve borsa tedbiri bulunmadı.",
+  "en": "The CMB action targets traders only: 19 people were fined over ESCAR trading in February 2026; no action against the company or its management. No trustee or exchange measure found.",
+  "note": "Light, trader-level SPK action (bulletin 6); flag only if the main session treats any stock-level manipulation as disqualifying."
+ },
+ "ASTOR": {
+  "date": "2026-11-24",
+  "per": null,
+  "tr": "SPK Ocak 2026'da içsel bilgi niteliğindeki sözleşme açıklamalarını geç yaptığı için şirkete 0,74 milyon TL ceza verdi; başka gündem bulunmadı.",
+  "en": "In January 2026 the CMB fined the company 0.74 million TL for late disclosure of contracts that were inside information; nothing else on the agenda.",
+  "note": "Disclosure fine only (bulletin 2026/3)."
+ },
+ "GUBRF": {
+  "date": "2026-11-24",
+  "per": null,
+  "tr": "SPK Nisan 2026'da 2022-2023 özel durum açıklamaları yanıltıcı ve eksik olduğu için şirkete 0,38 milyon TL ceza verdi; başka gündem bulunmadı.",
+  "en": "In April 2026 the CMB fined the company 0.38 million TL for misleading and incomplete disclosures in 2022-2023; nothing else on the agenda.",
+  "note": "Disclosure fine only (bulletin 2026/28)."
+ },
+ "MARKA": {
+  "date": "2026-11-24",
+  "per": null,
+  "tr": "SPK Nisan 2026'da 2021 pay devri sözleşmesine ilişkin geç ve eksik açıklamalar için şirkete ceza verdi.",
+  "en": "In April 2026 the CMB fined the company for late and incomplete 2021 disclosures on a share-transfer agreement.",
+  "note": "Disclosure fine only (bulletin 2026/20)."
+ },
+ "LRSHO": {
+  "date": "2026-11-24",
+  "per": null,
+  "tr": "SPK Ocak 2026'da sermaye artırımı fon kullanım raporlarını geç yayımladığı için şirkete ve iki kişiye toplam 3,2 milyon TL ceza verdi.",
+  "en": "In January 2026 the CMB fined the company and two people 3.2 million TL for publishing use-of-proceeds reports late.",
+  "note": "Reporting-deadline fine (bulletin 2026/3); main session may treat as governance flag."
+ },
+ "GESAN": {
+  "date": "2026-11-24",
+  "per": null,
+  "tr": "SPK Haziran 2026'da 2021 izahnamesinde süren bir davayı yazmadığı için şirkete ve iki kişiye ceza verdi.",
+  "en": "In June 2026 the CMB fined the company and two people for omitting a pending lawsuit from its 2021 prospectus.",
+  "note": "Prospectus-omission fine (bulletin 2026/41)."
+ },
+ "EUPWR": {
+  "date": "2026-11-24",
+  "per": null,
+  "tr": "SPK Haziran 2026'da 2023 izahnamesinde süren bir davayı yazmadığı için şirkete 1,9 milyon TL, üç kişiye ayrı ayrı ceza verdi.",
+  "en": "In June 2026 the CMB fined the company 1.9 million TL and three people for omitting a pending lawsuit from its 2023 prospectus.",
+  "note": "Prospectus-omission fine (bulletin 2026/41)."
+ },
+ "KUYAS": {
+  "date": "2026-11-24",
+  "per": null,
+  "tr": "SPK Ekim 2025'te yanıltıcı ve eksik KAP açıklamaları için şirkete 3,9 milyon TL, Ocak 2026'da bir kişiye KUYAS işlemleri için ceza verdi.",
+  "en": "The CMB fined the company 3.9 million TL in October 2025 for misleading KAP disclosures and fined a trader over KUYAS in January 2026.",
+  "note": "Disclosure fine on company (bulletin 2025/56) plus trader fine (2026/4); borderline."
+ },
+ "TUPRS": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 ay net kârı 121,3 milyar TL, esas faaliyet kârı 144,1 milyar TL; kâr rafineri marjlarından geliyor, tek seferlik kalem bildirilmedi; SPK ya da borsa tedbiri bulunmadı.",
+  "en": "9M net profit 121.3 billion TL vs operating profit 144.1 billion TL; profit comes from refining margins, no one-off reported; no SPK or exchange measure found.",
+  "note": "Sources: cnbce.com h41222, bloomberght 3793853 (6 Nov 2026)."
+ },
+ "CCOLA": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "Üçüncü çeyrek net kârı 7,8 milyar TL, beklentiye uygun; tek seferlik kazanç yok (1,6 milyar TL parasal kazanç enflasyon muhasebesinin olağan kalemi); SPK ya da borsa tedbiri bulunmadı.",
+  "en": "Q3 net profit 7.8 billion TL, in line; no one-off gain (1.6 billion TL monetary gain is a normal IAS 29 item); no SPK or exchange measure found."
+ },
+ "TOASO": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 ay net kârı 10,97 milyar TL, esas faaliyet kârı 5,55 milyar TL; haberlerde tek seferlik kalem belirtilmiyor; SPK ya da borsa tedbiri bulunmadı.",
+  "en": "9M net profit 10.97 billion TL, operating profit 5.55 billion TL; no one-off item reported; no SPK or exchange measure found.",
+  "note": "Net profit is about twice operating profit; the gap (likely monetary gain / finance income) was not broken down in the sources read. Worth a look at the KAP statements if TOASO is shown as an opportunity."
+ },
+ "MPARK": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 ay net kârı 5,55 milyar TL (%5 artış); tek seferlik kalem belirtilmiyor; SPK ya da borsa tedbiri bulunmadı.",
+  "en": "9M net profit 5.55 billion TL (+5%); no one-off item reported; no SPK or exchange measure found."
+ },
+ "AKSA": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 ay ana ortaklık net kârı 2,53 milyar TL (%24 düşüş), 3,55 milyar TL parasal kazanç içeriyor (tek seferlik değil); tek seferlik kalem yok; SPK ya da borsa tedbiri bulunmadı.",
+  "en": "9M parent net profit 2.53 billion TL (-24%), including 3.55 billion TL monetary gain (not one-off); no one-off item; no SPK or exchange measure found.",
+  "note": "Q3 net profit fell 88%; operating profit down 52% in 9M."
+ },
+ "CIMSA": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 ay net kârı %28 arttı, üçüncü çeyrek %15 arttı; haberlerde tek seferlik kalem yok; SPK ya da borsa tedbiri bulunmadı.",
+  "en": "9M net profit up 28%, Q3 up 15%; no one-off reported; no SPK or exchange measure found.",
+  "note": "Only headline news checked (cnbce h40368, foreks 27 Oct 2026)."
+ },
+ "YEOTK": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 ay net kârı 1,53 milyar TL, esas faaliyet kârı 3,82 milyar TL; kâr faaliyetten geliyor; SPK ya da borsa tedbiri bulunmadı.",
+  "en": "9M net profit 1.53 billion TL, operating profit 3.82 billion TL; profit is operating; no SPK or exchange measure found."
+ },
+ "ARDYZ": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 ay net kârı 1,26 milyar TL; son 12 ay esas faaliyet kârı 3,26 milyar TL ve ilk yarı tablosunda yatırım faaliyeti geliri yalnız 4 milyon TL; tek seferlik kalem yok; SPK ya da borsa tedbiri bulunmadı.",
+  "en": "9M net profit 1.26 billion TL; TTM operating profit 3.26 billion TL and H1 investment income only 4 million TL; no one-off; no SPK or exchange measure found."
+ },
+ "METEN": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 ay net kârı 1,45 milyar TL; 921 milyon TL net parasal pozisyon kazancı (tek seferlik değil) ve 233 milyon TL ertelenmiş vergi geliri içeriyor, tek seferlik pay yarının altında; SPK ya da borsa tedbiri bulunmadı.",
+  "en": "9M net profit 1.45 billion TL, including 921 million TL net monetary gain (not one-off) and 233 million TL deferred tax income; one-off share below half; no SPK or exchange measure found.",
+  "note": "Operating profit only 415 million TL; profit leans on monetary gain. The activity report says the company was not subject to independent audit for the period."
+ },
+ "LMKDC": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 ay net kârı 1,12 milyar TL, esas faaliyet kârı 1,81 milyar TL; tek seferlik kalem yok; SPK ya da borsa tedbiri bulunmadı.",
+  "en": "9M net profit 1.12 billion TL, operating profit 1.81 billion TL; no one-off; no SPK or exchange measure found."
+ },
+ "MOBTL": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "Son 12 ay esas faaliyet kârı 1,03 milyar TL, vergi öncesi kâr 0,90 milyar TL; olağandışı kalem küçük; son SPK işlem yasağı 2022'de dışarıdaki üç kişiye verilmişti; güncel tedbir bulunmadı.",
+  "en": "TTM operating profit 1.03 billion TL, pre-tax 0.90 billion TL; unusual items small; the last SPK ban (2022) concerned three outside traders; no current measure found.",
+  "note": "9M 2026 parent net profit only 87.6 million TL; TTM rests on Q4 2025 (2025 investment income 1.27 billion TL per Ekofin; stockanalysis classifies it as operating)."
+ },
+ "KARTN": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "Son 12 ay zararda (esas faaliyet zararı sürüyor); 9 ay kârı 18 milyon TL, 1,6 milyar TL yatırım faaliyeti gelirinden; F/K yok, tek seferlik bayrak gerekmiyor; ilişkili taraftan 1 milyon TL'lik küçük alım (Peker Yenilenebilir Enerji) var; SPK ya da borsa tedbiri bulunmadı.",
+  "en": "Loss-making on a TTM basis (operating losses continue); 9M profit of 18 million TL came from 1.6 billion TL investment income; no P/E so no one-off flag needed; one small 1 million TL related-party purchase; no SPK or exchange measure found.",
+  "note": "Mandatory tender offer pending (special.json). 2 Nov 2026 KAP: scrap machine sold for USD 1.4 million."
+ },
+ "ALCAR": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 ay net zararı 516 milyon TL; kâr olmadığı için tek seferlik sorunu yok; Alarko Holding'in Carrier payını alması süreci sürüyor; SPK ya da borsa tedbiri bulunmadı.",
+  "en": "9M net loss 516 million TL; no profit so no one-off issue; Alarko Holding's purchase of Carrier's stake is in progress; no SPK or exchange measure found."
+ },
+ "KMPUR": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 ay ana ortaklık net kârı 293 milyon TL, esas faaliyet kârı 1,75 milyar TL; tek seferlik kalem yok; SPK ya da borsa tedbiri bulunmadı.",
+  "en": "9M parent net profit 293 million TL, operating profit 1.75 billion TL; no one-off; no SPK or exchange measure found."
+ },
+ "MERIT": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "2025 kârının çoğu özkaynak yöntemiyle değerlenen iştirakin (otel-kumarhane işletmesi) kârından geliyor, tek seferlik değil; kontrol eden ortak Net Holding pay alıyor; SPK ya da borsa tedbiri bulunmadı.",
+  "en": "Most of 2025 profit is the share of an equity-accounted associate (hotel-casino operation), not one-off; controlling shareholder Net Holding is buying shares; no SPK or exchange measure found.",
+  "note": "9M 2026 breakdown not seen (Ekofin showed only up to 2026-06)."
+ },
+ "DESA": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 ay net kârı 305 milyon TL, esas faaliyet kârı 512 milyon TL; tek seferlik kalem yok; SPK ya da borsa tedbiri bulunmadı.",
+  "en": "9M net profit 305 million TL, operating profit 512 million TL; no one-off; no SPK or exchange measure found."
+ },
+ "TATGD": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 ay net kârı 483 milyon TL, esas faaliyet kârı 608 milyon TL ve 602 milyon TL parasal kazanç (tek seferlik değil); SPK ya da borsa tedbiri bulunmadı.",
+  "en": "9M net profit 483 million TL, operating profit 608 million TL plus 602 million TL monetary gain (not one-off); no SPK or exchange measure found."
+ },
+ "KIMMR": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 ay net kârı 419 milyon TL, esas faaliyet kârı 132 milyon TL, net finansman geliri ve parasal kazanç; yatırım geliri 24 milyon TL; tek seferlik kalem yarının altında; SPK ya da borsa tedbiri bulunmadı.",
+  "en": "9M net profit 419 million TL; operating profit 132 million TL plus net finance income and monetary gain; investment income 24 million TL; one-off share below half; no SPK or exchange measure found.",
+  "note": "Ekofin data; 2025 included 198 million TL investment income."
+ },
+ "MACKO": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 ay net kârı 276 milyon TL, esas faaliyet kârı 396 milyon TL; tek seferlik kalem yok; SPK ya da borsa tedbiri bulunmadı.",
+  "en": "9M net profit 276 million TL, operating profit 396 million TL; no one-off; no SPK or exchange measure found."
+ },
+ "OSMEN": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 ay net kârı 116 milyon TL, esas faaliyet kârı 350 milyon TL; tek seferlik kalem yok; 11 Kasım 2026 'SPK işlem yasağı' duyurusu aracı kurumların müşteri yasaklarını bildirdiği olağan duyuru, şirketle ilgili değil.",
+  "en": "9M net profit 116 million TL, operating profit 350 million TL; no one-off; the 11 Nov 2026 'SPK trading ban' notice is the routine broker notice of client bans, not about the company."
+ },
+ "TGSAS": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 ay net kârı 34 milyon TL, esas faaliyet kârı 140 milyon TL; tek seferlik kalem yok; SPK ya da borsa tedbiri bulunmadı.",
+  "en": "9M net profit 34 million TL, operating profit 140 million TL; no one-off; no SPK or exchange measure found.",
+  "note": "Implied TTM profit (163 million TL) is well above 9M 2026; Q4 2025 weighs heavily."
+ },
+ "HKTM": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 ay ana ortaklık net zararı 208 milyon TL; kâr yok; zorunlu pay alım teklifi süreci sürüyor; SPK ya da borsa tedbiri bulunmadı.",
+  "en": "9M parent net loss 208 million TL; no profit; mandatory tender offer pending; no SPK or exchange measure found."
+ },
+ "KCHOL": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık net kâr 56,4 milyar TL; tek seferlik kalem yalnız Koç Finansman paylarının Ford Otosan'a satışından yaklaşık 3 milyar TL (kârın küçük bir kısmı); SPK ve borsa tedbiri bulunmadı.",
+  "en": "9M net profit TL 56.4 billion; the only one-off is about TL 3 billion from selling Koç Finansman shares to Ford Otosan (a small share of profit); no SPK or exchange measure found.",
+  "note": "Source: bloomberght.com 9 Nov 2026 (Koç Holding Q3 net profit 34.9bn)."
+ },
+ "TCELL": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "Son 12 ay kârında belirgin tek seferlik kalem görülmedi; SPK ve borsa tedbiri bulunmadı.",
+  "en": "No material one-off seen in last-12-month profit; no SPK or exchange measure found.",
+  "note": "Did not confirm whether any lifecell (Ukraine) sale gain falls in Q4 2025; Q4 2025 net profit 3.6bn was in line with consensus (bloomberght, 5 Mar 2026)."
+ },
+ "TAVHL": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık net kâr faaliyetlerden; tek seferlik kalem ya da SPK, borsa tedbiri bulunmadı.",
+  "en": "9M net profit is operating; no one-off item or SPK/exchange measure found."
+ },
+ "AYGAZ": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "Kârın çoğu Tüpraş'taki dolaylı paydan (EYAŞ) özkaynak yöntemiyle gelen kâr; tek seferlik değil. SPK ve borsa tedbiri bulunmadı.",
+  "en": "Most profit is equity-method income from the indirect Tüpraş stake (EYAŞ), which is recurring; no SPK or exchange measure found.",
+  "note": "İş Yatırım 3Q26 note (9 Nov 2026): EYAŞ contributed TL 6.31bn of TL 7.22bn Q3 profit; refining-margin driven."
+ },
+ "ISMEN": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık kâr geriledi ama tek seferlik kalem görülmedi; SPK ve borsa tedbiri bulunmadı.",
+  "en": "9M profit fell but no one-off item seen; no SPK or exchange measure found."
+ },
+ "GLRMK": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık net kâr 2,52 milyar TL (geçen yıl 4,91 milyar TL); tek seferlik kalem, SPK ya da borsa tedbiri bulunmadı.",
+  "en": "9M net profit TL 2.52 billion (TL 4.91 billion a year earlier); no one-off item, SPK or exchange measure found.",
+  "note": "Private placement capital increase raised TL 6.27bn in 2026 (borsatek)."
+ },
+ "MAVI": {
+  "date": "2026-11-24",
+  "per": "6/2026",
+  "tr": "İlk yarı kârı faaliyetlerden; tek seferlik kalem, SPK ya da borsa tedbiri bulunmadı; şirket pay geri alımı yapıyor.",
+  "en": "First-half profit is operating; no one-off item, SPK or exchange measure found; the company is buying back shares."
+ },
+ "QUICK": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık net kâr 4,69 milyar TL (yüzde 29 düşüş), teknik kâr kaynaklı; tek seferlik kalem, SPK ya da borsa tedbiri bulunmadı.",
+  "en": "9M net profit TL 4.69 billion (down 29%), from technical results; no one-off item, SPK or exchange measure found."
+ },
+ "EGPRO": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "Kâr faaliyet kârıyla uyumlu; tek seferlik kalem, SPK ya da borsa tedbiri bulunmadı.",
+  "en": "Profit is in line with operating profit; no one-off item, SPK or exchange measure found.",
+  "note": "Checked only via stockanalysis TTM to Jun 2026 (op. income 1.68bn, net 1.63bn); 9M 2026 figures not read."
+ },
+ "ULUSE": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık net kâr 1,37 milyar TL; kârın büyük bölümü net parasal pozisyon kazancı (1,43 milyar TL), tek seferlik sayılmaz. SPK ve borsa tedbiri bulunmadı.",
+  "en": "9M net profit TL 1.37 billion; much of it is the net monetary position gain (TL 1.43 billion), which is not one-off. No SPK or exchange measure found.",
+  "note": "Profit swung from a 253m loss; monetary gain exceeds net profit."
+ },
+ "GEDIK": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "Şirket hakkında 2026'da SPK yaptırımı ya da borsa tedbiri bulunmadı; tek seferlik kâr görülmedi.",
+  "en": "No 2026 SPK sanction or exchange measure on the company found; no one-off profit seen.",
+  "note": "Light check; 9M figures not read in detail."
+ },
+ "OYYAT": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık net kâr 196 milyon TL; son 12 ay kârının yaklaşık yüzde 93'ü 2025'in son çeyreğinden geliyor ama tek seferlik kalem belirtilmedi. SPK ve borsa tedbiri bulunmadı.",
+  "en": "9M net profit TL 196 million; about 93% of last-12-month profit came from Q4 2025, but no one-off item is identified. No SPK or exchange measure found.",
+  "note": "yatirimx.com.tr 12 Nov 2026: LTM 2.75bn of which 2.56bn from Q4 2025. Q4 2025 composition not checked; worth a look if it passes a lens."
+ },
+ "KBORU": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "İlk yarı vergi öncesi kâr 413 milyon TL, faaliyet kârı 666 milyon TL; tek seferlik kalem, SPK ya da borsa tedbiri bulunmadı.",
+  "en": "First-half pre-tax profit TL 413 million, operating profit TL 666 million; no one-off item, SPK or exchange measure found."
+ },
+ "NTGAZ": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık net kâr 638 milyon TL, FAVÖK 1,7 milyar TL; tek seferlik kalem, SPK ya da borsa tedbiri bulunmadı.",
+  "en": "9M net profit TL 638 million, EBITDA TL 1.7 billion; no one-off item, SPK or exchange measure found."
+ },
+ "GOKNR": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık net kâr 595 milyon TL, faaliyet kârı 1,97 milyar TL; yatırım faaliyeti geliri önemsiz; SPK ve borsa tedbiri bulunmadı.",
+  "en": "9M net profit TL 595 million, operating profit TL 1.97 billion; investing income negligible; no SPK or exchange measure found.",
+  "note": "Other operating income 1.51bn is mostly FX gains (1.41bn)."
+ },
+ "MARMR": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "Şirket 9 ayda 829 milyon TL net zarar etti, hasılatı yok; SPK ve borsa tedbiri bulunmadı.",
+  "en": "The company made a TL 829 million net loss in 9M with no revenue; no SPK or exchange measure found.",
+  "note": "Loss-making (F/K None); cause of the loss not found in the press summary."
+ },
+ "YUNSA": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "Kâr faaliyet kârıyla uyumlu; tek seferlik kalem, SPK ya da borsa tedbiri bulunmadı.",
+  "en": "Profit is in line with operating profit; no one-off item, SPK or exchange measure found.",
+  "note": "Checked via stockanalysis TTM to Jun 2026 only."
+ },
+ "KATMR": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık net kâr 287 milyon TL (geçen yıl 685 milyon TL); tek seferlik kalem, SPK ya da borsa tedbiri bulunmadı.",
+  "en": "9M net profit TL 287 million (TL 685 million a year earlier); no one-off item, SPK or exchange measure found."
+ },
+ "LINK": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "Kâr faaliyet ve faiz gelirinden; tek seferlik kalem, SPK ya da borsa tedbiri bulunmadı.",
+  "en": "Profit comes from operations and interest income; no one-off item, SPK or exchange measure found."
+ },
+ "MERCN": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık net kâr 166 milyon TL; tek seferlik kalem, SPK ya da borsa tedbiri bulunmadı.",
+  "en": "9M net profit TL 166 million; no one-off item, SPK or exchange measure found."
+ },
+ "ISBIR": {
+  "date": "2026-11-24",
+  "per": "6/2026",
+  "tr": "İlk yarıda 114,7 milyon TL net kâr (geçen yıl 1,22 milyar TL zarar); dönüşü net parasal pozisyon kazancı sağladı, tek seferlik sayılmaz. 2025 denetim görüşü olumlu; SPK ve borsa tedbiri bulunmadı.",
+  "en": "H1 net profit TL 114.7 million (a TL 1.22 billion loss a year earlier); the swing comes from the net monetary position gain, which is not one-off. 2025 audit opinion clean; no SPK or exchange measure found.",
+  "note": "Low F/K (1.7) looks mechanical: LTM includes H2 2025 swing after a large H1 2025 loss; FY2025 parent result was a 327m loss."
+ },
+ "MTRKS": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık net kâr 180 milyon TL (geçen yıl 175 milyon TL); tek seferlik kalem, SPK ya da borsa tedbiri bulunmadı.",
+  "en": "9M net profit TL 180 million (TL 175 million a year earlier); no one-off item, SPK or exchange measure found."
+ },
+ "DERIM": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "Kâr faaliyet kârının altında; tek seferlik kalem, SPK ya da borsa tedbiri bulunmadı.",
+  "en": "Profit is below operating profit; no one-off item, SPK or exchange measure found.",
+  "note": "Checked via stockanalysis TTM to Jun 2026 only."
+ },
+ "SANEL": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık net kâr 95 milyon TL (geçen yıl 111 milyon TL); tek seferlik kalem, SPK ya da borsa tedbiri bulunmadı.",
+  "en": "9M net profit TL 95 million (TL 111 million a year earlier); no one-off item, SPK or exchange measure found.",
+  "note": "TTM net (185m) above operating income (101m) per stockanalysis; components not checked."
+ },
+ "ENKAI": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık net kâr 21,9 milyar TL (önceki yıl 26,3 milyar TL), esas faaliyet kârı 18,2 milyar TL; kârı taşıyan tek seferlik bir kalem görülmedi, SPK ya da borsa tedbiri bulunmadı.",
+  "en": "Nine-month net profit was 21.9 billion TL (prior year 26.3 billion TL) and operating profit 18.2 billion TL; no one-off item carries the profit, and no CMB or exchange measure was found.",
+  "note": "Enka'nın finansal yatırım gelirlerinin dökümüne bakılmadı; faaliyet kârı net kârın büyük kısmını karşılıyor."
+ },
+ "TTKOM": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "3. çeyrek net kârı 7,7 milyar TL, 9 aylık 25,8 milyar TL (%7 düşüş); tek seferlik kalem ya da SPK/borsa tedbiri haberi görülmedi.",
+  "en": "Q3 net profit was 7.7 billion TL and nine-month profit 25.8 billion TL (down 7%); no one-off item and no CMB or exchange measure was reported."
+ },
+ "SISE": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık net kâr 5,4 milyar TL (3. çeyrekte 295 milyon TL zarar); Beykoz arsa satışı 1. çeyrekte kazanç değil 3,2 milyar TL değer düşüklüğü yazdırdı; kârı şişiren tek seferlik kalem ve tedbir bulunmadı.",
+  "en": "Nine-month net profit was 5.4 billion TL (Q3 loss of 295 million TL); the Beykoz land sale produced a 3.2 billion TL impairment in Q1, not a gain; no profit-inflating one-off and no measure was found.",
+  "note": "Net parasal pozisyon kazancı (3. çeyrekte 6,5 milyar TL) vergi öncesi kârın ana kaynağı; kural gereği tek seferlik sayılmadı."
+ },
+ "ANHYT": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık net kâr 5,7 milyar TL (%49 artış), artış hayat branşı teknik kârından; tek seferlik kalem ya da tedbir görülmedi.",
+  "en": "Nine-month net profit was 5.7 billion TL (up 49%), driven by life-segment technical profit; no one-off item or measure was found."
+ },
+ "GRSEL": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık ana ortaklık net kârı 2,37 milyar TL, FAVÖK 3,45 milyar TL, net nakit 2,55 milyar TL; tek seferlik kalem ya da tedbir görülmedi.",
+  "en": "Nine-month net profit to the parent was 2.37 billion TL, EBITDA 3.45 billion TL and net cash 2.55 billion TL; no one-off item or measure was found.",
+  "note": "Gündem (SPK/borsa) için ayrı arama yapılamadı; bilanço haberlerinde sorun geçmiyor."
+ },
+ "TCKRC": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık net kâr 1,96 milyar TL, esas faaliyet kârı 2,18 milyar TL; kâr faaliyetten geliyor, tek seferlik kalem görülmedi.",
+  "en": "Nine-month net profit was 1.96 billion TL and operating profit 2.18 billion TL; profit comes from operations, no one-off item was found.",
+  "note": "Gündem (SPK/borsa) için ayrı arama yapılamadı."
+ },
+ "NETCD": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık net kâr 737 milyon TL, esas faaliyet kârı 748 milyon TL; yatırım faaliyeti geliri 238 milyon TL ile kârın yarısının altında; tedbir görülmedi.",
+  "en": "Nine-month net profit was 737 million TL and operating profit 748 million TL; investment income of 238 million TL is below half of profit; no measure was found.",
+  "note": "Yatırım faaliyeti geliri 14,7 milyondan 238 milyon TL'ye çıktı (kârın ~%32'si); niteliği belgede doğrulanmadı."
+ },
+ "ECOGR": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık net kâr 858 milyon TL; esas faaliyet kârı 1,09 milyar TL, yatırım gelir ve giderleri birbirini büyük ölçüde götürüyor; tek seferlik kalem görülmedi.",
+  "en": "Nine-month net profit was 858 million TL; operating profit was 1.09 billion TL and investment income and expense largely offset; no one-off item was found.",
+  "note": "KAP 1694539 tablosundan okundu. Kasım 2025'te geçici kredili işlem yasağı (VBTS) vardı, süresi doldu."
+ },
+ "YYLGD": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık net kâr 2,44 milyar TL; esas faaliyet kârı 1,79 milyar TL, artışın ana kaynağı net parasal pozisyon kazancı (1,64 milyar TL) ve yaklaşık 0,4 milyar TL vergi geliri; satış ya da değerleme kazancı görülmedi.",
+  "en": "Nine-month net profit was 2.44 billion TL; operating profit was 1.79 billion TL, and the rise came mainly from a 1.64 billion TL net monetary gain and about 0.4 billion TL of tax income; no sale or revaluation gain was found.",
+  "note": "Gündem için ayrı arama yapılamadı."
+ },
+ "BESLR": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık net kâr 816 milyon TL, FAVÖK 3,7 milyar TL; kâr faaliyet kârının altında, tek seferlik kalem bildirilmedi.",
+  "en": "Nine-month net profit was 816 million TL against EBITDA of 3.7 billion TL; profit is below operating earnings and no one-off item was reported.",
+  "note": "Önceki yılın 9 aylık kârı 6,8 milyon TL idi; artışın kalem dökümüne bakılamadı."
+ },
+ "OZSUB": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık net kâr 281 milyon TL (önceki yıl 265 milyon TL), istikrarlı; tek seferlik kalem haberi görülmedi.",
+  "en": "Nine-month net profit was 281 million TL (prior year 265 million TL), stable; no one-off item was reported.",
+  "note": "Yalnız kâr başlığı görüldü; kalem dökümü ve SPK/borsa gündemi için ayrı arama yapılamadı."
+ },
+ "PCILT": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık net kâr 393 milyon TL (önceki yıl 418 milyon TL), istikrarlı; tek seferlik kalem haberi görülmedi.",
+  "en": "Nine-month net profit was 393 million TL (prior year 418 million TL), stable; no one-off item was reported.",
+  "note": "Yalnız kâr başlığı görüldü; kalem dökümü ve SPK/borsa gündemi için ayrı arama yapılamadı."
+ },
+ "PKENT": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık net kâr 261 milyon TL, esas faaliyet kârı 222 milyon TL; kâr faaliyetten geliyor, tek seferlik kalem görülmedi.",
+  "en": "Nine-month net profit was 261 million TL and operating profit 222 million TL; profit comes from operations, no one-off item was found.",
+  "note": "Kaynak Ekofin özeti (KAP faaliyet raporu, 30 Ekim 2026); gündem için ayrı arama yapılamadı."
+ },
+ "THYAO": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "Dokuz aylık 80,3 milyar TL ana ortaklık kârında satış kazancı ya da benzeri tek seferlik kalem görülmedi; SPK ya da borsa tedbiri bulunmadı.",
+  "en": "No asset-sale gain or similar one-off seen in the nine-month parent profit of 80.3 billion TL; no CMB or exchange measure found.",
+  "note": "9M 2026: esas faaliyet kârı 39,0 milyar TL, yatırım faaliyetlerinden gelir 76,9 milyar TL (dökümü okunmadı), ertelenmiş vergi geliri 15,7 milyar TL (net vergi geliri 1,1 milyar TL). Kârın büyük kısmı faaliyet dışı kalemlerden; yatırım gelirinin içeriği dipnottan okunmalı. Kaynak: Foreks, 4 Kasım 2026."
+ },
+ "SAHOL": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "Dokuz aylık 19,6 milyar TL kârın 8,9 milyar TL'si 2. çeyrekteki Akçansa payı satış kazancı; son 12 ay kârına (4. çeyrek 2025 dahil) oranı yarının altında kalıyor. SPK ya da borsa tedbiri bulunmadı.",
+  "en": "8.9 billion TL of the 19.6 billion TL nine-month profit is the Q2 gain on the Akçansa stake sale; as a share of trailing 12-month profit (incl. Q4 2025) it stays below half. No CMB or exchange measure found.",
+  "note": "Tek seferlik pay yaklaşık %35-45 (9 ayın %45'i; 4Ç25 4,6 milyar TL eklenince ~%35). Yarıya yakın; kazanç yargısında düşülmeli. Kaynak: Sabancı 2Ç2026 bülteni, CNBC-e 3Ç bilanço haberi."
+ },
+ "AEFES": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "Dokuz aylık 12,1 milyar TL kârda tek seferlik kalem görülmedi (net parasal pozisyon kazancı 17,0 milyar TL, tek seferlik sayılmaz); SPK ya da borsa tedbiri bulunmadı.",
+  "en": "No one-off seen in the nine-month profit of 12.1 billion TL (net monetary gain 17.0 billion TL is not one-off); no CMB or exchange measure found.",
+  "note": "Şirket 2026 beklentisini indirdi (Foreks 5 Kasım 2026)."
+ },
+ "ALARK": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "Dokuz aylık kâr ağırlıkla elektrik dağıtım ve perakende kolundan; büyük satış ya da değerleme kazancı görülmedi. SPK ya da borsa tedbiri bulunmadı.",
+  "en": "Nine-month profit comes mostly from electricity distribution and retail; no large sale or revaluation gain seen. No CMB or exchange measure found.",
+  "note": "GCM raporu dağıtım kolunun faaliyet gelirinde tutarı verilmemiş 'tek seferlik kalemler' olduğunu söylüyor; tutar okunmadı."
+ },
+ "TBORG": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "Altı aylık tabloda (denetçi sınırlı incelemesi olumlu) tek seferlik kalem görülmedi; SPK ya da borsa tedbiri bulunmadı.",
+  "en": "No one-off seen in the six-month statements (auditor review clean); no CMB or exchange measure found.",
+  "note": "9 aylık tablo açılmadı; kontrol 6/2026 tablosuna dayanıyor."
+ },
+ "CLEBI": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "Kârda tek seferlik kazanç yok; tersine Hindistan'daki durdurulan faaliyetler kârı düşürüyor (6 ayda 387 milyon TL zarar). SPK ya da borsa tedbiri bulunmadı.",
+  "en": "No one-off gain in profit; instead discontinued Indian operations reduce it (387 million TL loss in six months). No CMB or exchange measure found.",
+  "note": "Denetçi 6/2026 incelemesinde Hindistan'daki güvenlik izni iptaline (15 Mayıs 2025) dikkat çekti; dava sürüyor. 9 aylık tablo açılmadı."
+ },
+ "BASGZ": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "KAP bildirimlerinde dava, denetçi görüşü ya da satış kazancı görülmedi; şirket 3 Kasım 2026'da geri alım başlattı. SPK ya da borsa tedbiri bulunmadı.",
+  "en": "KAP disclosures show no lawsuit, auditor issue or sale gain; the company started a buyback on 3 November 2026. No CMB or exchange measure found.",
+  "note": "Şirketin unvanı 'Gayrimenkul Yatırım Ortaklığı' ve 'portföy sınırlamalarına uyum' bildirimi veriyor: hukuken GYO. 9 aylık kâr dökümü okunamadı."
+ },
+ "ATATP": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "Dokuz aylık 2,1 milyar TL kâr faaliyetten (FAVÖK 4,1 milyar TL); tek seferlik kalem görülmedi. SPK ya da borsa tedbiri bulunmadı.",
+  "en": "Nine-month profit of 2.1 billion TL comes from operations (EBITDA 4.1 billion TL); no one-off seen. No CMB or exchange measure found."
+ },
+ "SSAAT": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "Dokuz aylık 966 milyon TL kâr, 2,5 milyar TL esas faaliyet kârının altında; tek seferlik kazanç görülmedi. SPK ya da borsa tedbiri bulunmadı.",
+  "en": "Nine-month profit of 966 million TL is below operating profit of 2.5 billion TL; no one-off gain seen. No CMB or exchange measure found."
+ },
+ "LOGO": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "Tek seferlik 963 milyon TL yatırım geliri 2025'in ilk dokuz ayındaydı, son 12 aya girmiyor; 2026 kârında tek seferlik kalem görülmedi. SPK ya da borsa tedbiri bulunmadı.",
+  "en": "The one-off 963 million TL investment income fell in 9M 2025 and is outside the trailing 12 months; no one-off seen in 2026 profit. No CMB or exchange measure found."
+ },
+ "ICBCT": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "Altı aylık kâr net faiz gelirinden; satış kazancı ya da karşılık iptali görülmedi. SPK ya da borsa tedbiri bulunmadı.",
+  "en": "Six-month profit comes from net interest income; no sale gain or provision reversal seen. No CMB or exchange measure found.",
+  "note": "DİKKAT: 30 Haziran 2026 sınırlı incelemesinde EY 'sınırlı olumlu' (şartlı) sonuç verdi; gerekçe 206 milyon TL ertelenmiş vergi gelirinin 30 Haziran 2025 yerine 31 Aralık 2024'e yazılması (karşılaştırmalı dönemleri etkiliyor, 2026 kârını değil). 9/2026 incelemesi okunamadı. Ana oturum 'audit' bayrağı gerekip gerekmediğine karar vermeli. Kaynak: https://kap.org.tr/tr/api/file/download/4028328d9f52dddc019ffbb4f9b14539"
+ },
+ "KLKIM": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "Üçüncü çeyrek kârına 120 milyon TL girişim sermayesi fonu değerleme kazancı katkı yaptı; dokuz aylık 375 milyon TL kârın yaklaşık üçte biri, yarının altında. SPK ya da borsa tedbiri bulunmadı.",
+  "en": "A 120 million TL venture-capital fund valuation gain helped Q3 profit; about a third of the 375 million TL nine-month profit, below half. No CMB or exchange measure found.",
+  "note": "Şirket 2026 beklentilerini indirdi (Foreks 6 Kasım 2026); kaynak Ak Yatırım 3Ç26 değerlendirmesi."
+ },
+ "BIOEN": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "Şirket dokuz ayda 171,5 milyon TL net zarar açıkladı; kâr yok, F/K ucuzluğu söz konusu değil. Ek bir tedbir aranmadı.",
+  "en": "The company reported a nine-month net loss of 171.5 million TL; no profit, so no earnings cheapness. No further measure was searched.",
+  "note": "Zararda olduğu için gündem araması sınırlı tutuldu."
+ },
+ "KARSN": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "Dokuz ayda 579 milyon TL zarar; son 12 ay kârı 4. çeyrek 2025'e dayanıyor ve 2025 yıllık tablosunda (PwC, olumlu görüş) tek seferlik kazanç yok. SPK ya da borsa tedbiri bulunmadı.",
+  "en": "Nine-month loss of 579 million TL; trailing 12-month profit rests on Q4 2025, and the 2025 annual statements (PwC, clean opinion) show no one-off gain. No CMB or exchange measure found.",
+  "note": "Son 12 ay kârı ince ve tek çeyreğe bağlı; F/K yanıltıcı olabilir ama bayrak gerekçesi değil."
+ },
+ "GOLTS": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "Dokuz aylık 401 milyon TL kârda belirgin tek seferlik kazanç yok (yatırım amaçlı gayrimenkul değer artışı 60 milyon TL; net parasal kazanç tek seferlik sayılmaz). SPK ya da borsa tedbiri bulunmadı.",
+  "en": "No significant one-off in the nine-month profit of 401 million TL (investment property gain 60 million TL; net monetary gain is not one-off). No CMB or exchange measure found.",
+  "note": "İlişkili taraflardan diğer alacaklar 607 milyon TL'ye çıktı (ticari alacaktan yeniden sınıflama); kötüye kullanım kanıtı görülmedi, izlenmeli. Kaynak: KAP 1695377."
+ },
+ "KOPOL": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "Dokuz aylık 644 milyon TL kârın 536 milyon TL'si esas faaliyetten, kalanı kur farkı ve finansman geliri; tek seferlik kazanç görülmedi. SPK ya da borsa tedbiri bulunmadı.",
+  "en": "536 million TL of the 644 million TL nine-month profit is operating profit, the rest FX and finance income; no one-off seen. No CMB or exchange measure found.",
+  "note": "Temmuz-Kasım 2026 arasında sık devre kesici (fiyat oynaklığı); VBTS tedbiri görülmedi."
+ },
+ "FROTO": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık net kâr (19,3 milyar TL) esas faaliyet kârının (20,4 milyar TL) altında; tek seferlik kalem görülmedi.",
+  "en": "Nine-month net profit (19.3 billion TL) is below operating profit (20.4 billion TL); no one-off item seen.",
+  "note": "Only the Ekofin activity-report summary was read; no agenda search (search budget ran out). Ford Otosan books investment-incentive deferred tax income every year, so check the tax line in the KAP statements."
+ },
+ "DOHOL": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık net kâr 5,8 milyar TL; FAVÖK %56 artışla 14,4 milyar TL, kâr faaliyetten geliyor; holdinge yönelik soruşturma ya da tedbir bulunmadı.",
+  "en": "Nine-month net profit was 5.8 billion TL; EBITDA rose 56% to 14.4 billion TL, so the profit comes from operations; no investigation of or measure against the holding was found.",
+  "note": "Sources: foreks.com 05-06.11.2026 news. The press does not detail the breakdown of the swing from a 2025 loss; GWIND, a group company, books deferred tax income of 1.39 billion TL (its share is consolidated)."
+ },
+ "AGESA": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık net kâr 6,57 milyar TL (%60 artış), teknik bölüm dengesi 4,0 milyar TL; tek seferlik kalem görülmedi.",
+  "en": "Nine-month net profit was 6.57 billion TL (up 60%), with a technical balance of 4.0 billion TL; no one-off item seen.",
+  "note": "Only the Ekofin summary was read; no agenda search."
+ },
+ "GLYHO": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık net kâr 3,07 milyar TL (%14 artış); liman, gaz ve gayrimenkul faaliyetlerinden geliyor, tek seferlik kazanç açıklanmadı.",
+  "en": "Nine-month net profit was 3.07 billion TL (up 14%), coming from ports, gas and real estate; no one-off gain was disclosed.",
+  "note": "Press release only; the company raised its stake in the Lisbon port concession to 60% and the release gives no accounting effect for it."
+ },
+ "ULKER": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık net kâr (yaklaşık 3,0 milyar TL, %52 düşüş) esas faaliyet kârının (9,3 milyar TL) altında; tek seferlik kalem görülmedi.",
+  "en": "Nine-month net profit (about 3.0 billion TL, down 52%) is below operating profit (9.3 billion TL); no one-off item seen.",
+  "note": "Only the Ekofin summary was read; no agenda search."
+ },
+ "TRENJ": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık net kâr 2,15 milyar TL, esas faaliyet kârı 6,55 milyar TL; kâr faaliyetten geliyor, tek seferlik kalem ya da tedbir görülmedi.",
+  "en": "Nine-month net profit was 2.15 billion TL against operating profit of 6.55 billion TL; the profit comes from operations, and no one-off item or measure was seen.",
+  "note": "rotaborsa.com and paratic.com news summaries of the KAP filing."
+ },
+ "SARAE": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık net kâr (950 milyon TL) faaliyet kârının (1,24 milyar TL) altında; hasılat %61 arttı, tek seferlik kalem görülmedi.",
+  "en": "Nine-month net profit (950 million TL) is below operating profit (1.24 billion TL); revenue rose 61% and no one-off item was seen.",
+  "note": "Listed on 17 July 2026 (IPO); the 5-year history is short."
+ },
+ "ARASE": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık net kâr 1,77 milyar TL, faaliyet kârı 7,2 milyar TL; net parasal pozisyon kaybı kârı düşürdü, tek seferlik kazanç görülmedi.",
+  "en": "Nine-month net profit was 1.77 billion TL against operating profit of 7.2 billion TL; a net monetary position loss reduced profit, and no one-off gain was seen."
+ },
+ "TRCAS": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık net kâr 3,12 milyar TL; neredeyse tamamı özkaynak yöntemiyle değerlenen iştiraklerden (Shell & Turcas, RWE & Turcas) gelen 3,03 milyar TL. Bu süren bir iştirak kârıdır, tek seferlik değildir.",
+  "en": "Nine-month net profit was 3.12 billion TL, almost all of it 3.03 billion TL of equity-method income from associates (Shell & Turcas, RWE & Turcas). This is recurring associate income, not a one-off.",
+  "note": "The holding itself has an operating loss of 213 million TL; the profit depends entirely on the 30% Shell & Turcas stake."
+ },
+ "GARFA": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık net kâr 2,41 milyar TL, net faaliyet kârı 3,43 milyar TL; tek seferlik kalem görülmedi.",
+  "en": "Nine-month net profit was 2.41 billion TL against net operating profit of 3.43 billion TL; no one-off item seen.",
+  "note": "Only the Ekofin summary was read; no agenda search."
+ },
+ "EKDMR": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık net kâr 493 milyon TL, faaliyet kârı 282 milyon TL; şirket Mayıs 2026'da halka arz oldu, kârı şişiren tek seferlik satış ya da değerleme kazancı görülmedi.",
+  "en": "Nine-month net profit was 493 million TL against operating profit of 282 million TL; the company listed in May 2026, and no one-off sale or revaluation gain was seen.",
+  "note": "Net profit exceeds operating profit by about 210 million TL and the cause was not found (possibly finance income on IPO proceeds, monetary gain or deferred tax under Law 7582). Ekofin shows conflicting figures (2.05 billion TL in the panel), so the main session should check the KAP statements."
+ },
+ "INDES": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık net kâr 857 milyon TL, faaliyet kârı 4,33 milyar TL; tek seferlik kalem görülmedi.",
+  "en": "Nine-month net profit was 857 million TL against operating profit of 4.33 billion TL; no one-off item seen."
+ },
+ "FORTE": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık net kâr 562 milyon TL, faaliyet kârı 981 milyon TL; tek seferlik kalem görülmedi.",
+  "en": "Nine-month net profit was 562 million TL against operating profit of 981 million TL; no one-off item seen.",
+  "note": "Revenue up 234% (growth through acquisitions likely), not verified."
+ },
+ "KRVGD": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık net kâr 296 milyon TL, esas faaliyet kârı 1,10 milyar TL; zarardan kâra geçiş finansman giderinin düşmesinden, tek seferlik kalem yok.",
+  "en": "Nine-month net profit was 296 million TL against operating profit of 1.10 billion TL; the swing from loss to profit comes from lower finance costs, with no one-off item.",
+  "note": "Net debt/EBITDA is 3.43; sales fell 20.5%."
+ },
+ "PLTUR": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık net kâr 125 milyon TL (%55 düşüş), faaliyet kârı 1,51 milyar TL; tek seferlik kalem görülmedi.",
+  "en": "Nine-month net profit was 125 million TL (down 55%) against operating profit of 1.51 billion TL; no one-off item seen."
+ },
+ "SEGMN": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "2026 ilk 9 ayında 93,6 milyon TL net zarar var (esas faaliyet kârı 287 milyon TL); tek seferlik kalem, SPK ya da borsa tedbiri görülmedi.",
+  "en": "There is a net loss of 93.6 million TL for the first nine months of 2026 (operating profit 287 million TL); no one-off item and no CMB or exchange measure was seen.",
+  "note": "The positive last-12-month profit (P/E 32.7) can only come from Q4 2025; the current-year result is a loss."
+ },
+ "PETUN": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık net kâr 456 milyon TL, faaliyet kârı 797 milyon TL; tek seferlik kalem görülmedi.",
+  "en": "Nine-month net profit was 456 million TL against operating profit of 797 million TL; no one-off item seen."
+ },
+ "INFO": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık net kâr 248 milyon TL (%68 düşüş), faaliyet kârı 2,15 milyar TL; tek seferlik kalem görülmedi.",
+  "en": "Nine-month net profit was 248 million TL (down 68%) against operating profit of 2.15 billion TL; no one-off item seen.",
+  "note": "No dedicated SPK search for this brokerage (search budget ran out); main session may want a quick SPK-bulletin check."
+ },
+ "BNTAS": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık net kâr yaklaşık 26-30 milyon TL, faaliyet kârı 275 milyon TL; tek seferlik kalem görülmedi.",
+  "en": "Nine-month net profit was about 26-30 million TL against operating profit of 275 million TL; no one-off item seen.",
+  "note": "The 9M profit is small; P/E 3.6 must rest mostly on Q4 2025."
+ },
+ "KRSTL": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık net kâr 232 milyon TL, faaliyet kârı 254 milyon TL; tek seferlik kalem görülmedi.",
+  "en": "Nine-month net profit was 232 million TL against operating profit of 254 million TL; no one-off item seen."
+ }
+}

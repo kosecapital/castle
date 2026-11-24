@@ -113,7 +113,10 @@ button.kpi:hover{border-color:var(--ink-2)}
 .txt{max-width:66ch;font-size:14.5px}
 .ul{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:5px;font-size:14px}
 .src{list-style:none;margin:0;padding:0;font-size:13px;display:flex;flex-direction:column;gap:3px}
-.flag{border:1px solid var(--bad);border-radius:10px;padding:10px 12px;font-size:14px;color:var(--bad)}
+.flag{border:1px solid var(--bad);border-radius:10px;padding:10px 12px;font-size:14px;display:flex;flex-direction:column;gap:6px}
+.flag b{color:var(--bad)}
+.flag.warn{border-color:var(--steel)} .flag.warn b{color:var(--steel)}
+.rd{font-size:13.5px;color:var(--ink-2);border-left:3px solid var(--good);padding-left:10px}
 .empty{color:var(--ink-2);font-size:14.5px;display:flex;flex-direction:column;gap:10px}
 
 /* yöntem */
@@ -187,9 +190,11 @@ var tarih = function (iso) { var p = String(iso || "").split("-"); return p.leng
 var donem = function (s) { var m = /^(\d{1,2})\/(\d{4})$/.exec(s || ""); if (!m) return s || "–"; var mo = +m[1]; return mo === 12 ? L(m[2] + " yılı", "full year " + m[2]) : L(m[2] + "'nin ilk " + ({ 3: "üç", 6: "altı", 9: "dokuz" }[mo] || mo) + " ayı", "first " + ({ 3: "three", 6: "six", 9: "nine" }[mo] || mo) + " months of " + m[2]); };
 var fold = function (s) { return String(s).toLocaleLowerCase("tr").replace(/ı/g, "i").replace(/ş/g, "s").replace(/ğ/g, "g").replace(/ç/g, "c").replace(/ö/g, "o").replace(/ü/g, "u"); };
 
+function isOut(u) { return (u.flags || []).some(function (f) { return (f.sev || "out") === "out"; }); }
+function flagKind(k) { return { trustee: L("kayyum", "trustee"), halt: L("işlem durdurma", "trading halt"), going: L("süreklilik şüphesi", "going-concern doubt"), audit: L("denetçi görüşü", "audit opinion"), related: L("ilişkili taraf işlemleri", "related-party dealings"), oneoff: L("kâr tek seferlik", "profit is one-off"), sanction: L("SPK yaptırımı", "CMB sanction"), manip: L("payda manipülasyon (SPK suç duyurusu)", "manipulation in the shares (CMB criminal complaint)"), measure: L("borsa tedbiri", "exchange measure"), other: L("diğer", "other") }[k] || k; }
 function lensName(k) { return { nn: L("Net-net", "Net-net"), gr: L("Graham ölçütleri", "Graham criteria"), ey: L("Kâr verimi", "Earnings yield"), ws: L("Özel durum", "Special situation") }[k]; }
-var TABS = ["any", "nn", "gr", "ey", "ws", "near", "all"];
-function tabName(k) { return { any: L("Fırsatlar", "Opportunities"), near: L("Eşikte", "Near the line"), all: L("Bütün şirketler", "All companies") }[k] || lensName(k); }
+var TABS = ["any", "nn", "gr", "ey", "ws", "near", "out", "all"];
+function tabName(k) { return { any: L("Fırsatlar", "Opportunities"), near: L("Eşikte", "Near the line"), out: L("Kırmızı bayraklı", "Red-flagged"), all: L("Bütün şirketler", "All companies") }[k] || lensName(k); }
 var S = { tab: "any", sort: null, dir: -1, small: false, q: "", sel: null, n: 60 };
 var HAS_FIN = D.counts.fin > 0;
 
@@ -197,6 +202,7 @@ function inTab(u, t) {
   if (t === "all") return true;
   if (t === "any") return u.L.length > 0;
   if (t === "near") return u.near.length > 0;
+  if (t === "out") return isOut(u);
   return u.L.indexOf(t) >= 0 || (t === "ws" && !!u.ws && u.ws.st !== "closed");
 }
 function wsType(t) { return { pat: L("Gönüllü pay alım teklifi", "Voluntary tender offer"), zpat: L("Zorunlu pay alım teklifi", "Mandatory tender offer"), squeeze: L("Ortaklıktan çıkarma", "Squeeze-out"), delist: L("Borsadan çıkma", "Delisting"), merger: L("Birleşme", "Merger"), exit: L("Ayrılma hakkı", "Exit right") }[t] || t; }
@@ -221,7 +227,9 @@ function chips(u) {
   var s = "";
   u.L.forEach(function (k) { s += '<span class="chip on">' + esc(lensName(k)) + "</span>"; });
   u.near.forEach(function (k) { s += '<span class="chip nr">' + esc(lensName(k)) + "</span>"; });
-  if (u.flag) s += '<span class="chip bad">' + esc(L("kırmızı bayrak", "red flag")) + "</span>";
+  if (isOut(u)) s += '<span class="chip bad">' + esc(L("kırmızı bayrak", "red flag")) + "</span>";
+  else if (u.flags) s += '<span class="chip nr">' + esc(L("uyarı", "warning")) + "</span>";
+  if (u.L.length && !u.rd && !isOut(u)) s += '<span class="chip" title="' + esc(L("Bu şirketin KAP bildirimleri ve gündemi henüz okunmadı", "This company's filings and news have not been read yet")) + '">' + esc(L("okunmadı", "not yet read")) + "</span>";
   return s;
 }
 function rowsFor(t) {
@@ -229,7 +237,7 @@ function rowsFor(t) {
   var xs = D.U.filter(function (u) {
     if (q) return fold(u.c).indexOf(q) === 0 || fold(u.n).indexOf(q) >= 0;
     if (!inTab(u, t)) return false;
-    if (t !== "ws" && t !== "all" && !S.small && !u.big) return false;
+    if (t !== "ws" && t !== "all" && t !== "out" && !S.small && !u.big) return false;
     return true;
   });
   var cs = cols(t), k = S.sort == null ? defaultSort(t) : S.sort, dir = S.sort == null ? defaultDir(t) : S.dir;
@@ -241,8 +249,9 @@ function defaultSort(t) { return t === "all" ? 6 : t === "ws" ? 4 : 2; }
 function defaultDir(t) { return t === "nn" ? 1 : -1; }
 
 function counts() {
-  var c = { any: 0, nn: 0, gr: 0, ey: 0, ws: 0, near: 0, all: D.U.length };
+  var c = { any: 0, nn: 0, gr: 0, ey: 0, ws: 0, near: 0, out: 0, all: D.U.length };
   D.U.forEach(function (u) {
+    if (isOut(u)) c.out++;
     if (!S.small && !u.big) { if (u.ws && u.ws.st !== "closed") c.ws++; return; }
     if (u.L.length) c.any++; if (u.near.length) c.near++;
     u.L.forEach(function (k) { if (k !== "ws") c[k]++; });
@@ -285,6 +294,7 @@ function tabNote(t) {
     gr: L("Graham'ın girişimci yatırımcı için altı ölçütünün hepsini geçenler: güçlü bilanço, beş yıl zarar yok, temettü, kâr büyümesi ve maddi özsermayenin %120'si altında fiyat.", "Companies that pass all six of Graham's tests for the enterprising investor: strong balance sheet, no loss in five years, a dividend, earnings growth and a price below 120% of tangible book."),
     ey: L("Reel kâr verimi " + pct(R.hurdle, 1) + " eşiğini geçenler. Eşik en az %" + num(P.r, 0) + "; reel tahvil getirisinin iki katı daha yüksekse o. Son 12 ay kârı son üç yılın ortalamasından yüksekse ortalama alınır.", "Real earnings yield at or above the " + pct(R.hurdle, 1) + " hurdle. The hurdle is at least " + num(P.r, 0) + "%, or twice the real bond yield if higher. If the last 12 months' profit is above the three-year average, the average is used."),
     ws: L("Pay alım teklifi, ortaklıktan çıkarma, birleşme: ortaklara belli bir fiyat önerilen durumlar. Fark, teklif fiyatının bugünkü fiyata göre getirisidir; onay bekleyen teklif gerçekleşmeyebilir.", "Tender offers, squeeze-outs, mergers: situations where shareholders are offered a set price. The spread is the offer's return over today's price; an offer awaiting approval may not happen."),
+    out: L("Kaynağı belli bir sorun nedeniyle listelerden çıkarılan şirketler: kayyum, SPK yaptırımı, paylarda manipülasyon, süreklilik şüphesi, tek seferlik kâr. Nedeni ve kaynağı şirket sayfasında.", "Companies removed from the lists for a sourced problem: trustee, CMB sanction, manipulation in the shares, going-concern doubt, one-off profit. The reason and source are on the company page."),
     near: L("Bir merceğin eşiğine yakın olanlar: NCAV'nin altında ama üçte ikisinin üstünde; Graham'ın altı ölçütünden beşini geçen; kâr verimi eşiğin %80'ini geçen; onay bekleyen teklif.", "Near a lens's line: below NCAV but above two thirds of it; five of Graham's six tests; earnings yield above 80% of the hurdle; an offer awaiting approval."),
     all: L("Borsa İstanbul'daki bütün paylar.", "Every share on Borsa İstanbul.")
   }[t];
@@ -298,7 +308,13 @@ function renderPanel() {
   $("#side").hidden = false;
   var h = '<button class="back" id="close">' + esc(L("← Listeye dön", "← Back to the list")) + "</button>";
   h += '<div class="head"><h2><span class="tk">' + esc(u.c) + "</span> " + esc(u.n) + '</h2><p class="sec">' + esc(u.s) + " · " + esc(L("son bilanço: ", "latest accounts: ") + donem(u.per)) + "</p></div>";
-  if (u.flag) h += '<p class="flag"><b>' + esc(L("Kırmızı bayrak", "Red flag")) + ":</b> " + esc(T(u.flag)) + srcList(u.flag.sources) + "</p>";
+  (u.flags || []).forEach(function (f) {
+    var out = (f.sev || "out") === "out";
+    h += '<div class="flag' + (out ? "" : " warn") + '"><p><b>' + esc(out ? L("Kırmızı bayrak: listelerden çıkarıldı", "Red flag: removed from the lists") : L("Uyarı", "Warning")) + "</b> · " + esc(flagKind(f.k)) + (f.date ? " · " + tarih(f.date) : "") + (f.until ? L(" (geçerlilik: " + tarih(f.until) + "'e kadar)", " (in force until " + tarih(f.until) + ")") : "") + "</p><p>" + esc(T(f)) + "</p>" + srcList(f.sources) + "</div>";
+  });
+  if (u.out && u.out.length) h += '<p class="note">' + esc(L("Bayrak olmasaydı geçeceği mercek: ", "Lens it would pass without the flag: ")) + u.out.map(lensName).join(", ") + "</p>";
+  if (u.rd) h += '<p class="rd">' + esc(L("Okundu (" + tarih(u.rd.date) + "): ", "Read (" + tarih(u.rd.date) + "): ")) + esc(LANG === "en" && u.rd.en ? u.rd.en : u.rd.tr) + "</p>";
+  else if (u.L.length) h += '<p class="rd" style="border-color:var(--line)">' + esc(L("Bu şirketin KAP bildirimleri ve gündemi henüz okunmadı; kırmızı bayrak olup olmadığı bilinmiyor.", "This company's filings and news have not been read yet; whether it carries a red flag is unknown.")) + "</p>";
   h += '<p>' + (u.L.length ? esc(L("Geçtiği mercek: ", "Lenses passed: ")) + u.L.map(function (k) { return '<span class="chip on">' + esc(lensName(k)) + "</span>"; }).join("") : esc(L("Hiçbir mercekten geçmedi.", "Passes no lens."))) +
        (u.near.length ? " " + esc(L("Eşikte: ", "Near: ")) + u.near.map(function (k) { return '<span class="chip nr">' + esc(lensName(k)) + "</span>"; }).join("") : "") + "</p>";
   h += '<dl class="facts"><div><dt>' + L("Fiyat", "Price") + "</dt><dd>" + num(u.p, 2) + " TL</dd></div><div><dt>" + L("Piyasa değeri", "Market cap") + "</dt><dd>" + tl(u.m) + (u.f != null ? "<small>" + L("halka açık ", "free float ") + pct(u.f, 0) + "</small>" : "") + "</dd></div>" +
@@ -417,8 +433,8 @@ function renderMethod() {
     [lensName("ws"), L("Bir şirket olayı ortaklara belli bir fiyat önerdiğinde (pay alım teklifi, ortaklıktan çıkarma, birleşme, ayrılma hakkı) getiri borsanın genel gidişinden çok olayın gerçekleşmesine bağlıdır. Teklif açıksa ve ödeme tarihine göre yıllık getiri 10 yıllık tahvil faizini geçiyorsa listeye girer; onay bekleyen teklif \"eşikte\" görünür.",
       "When a corporate event offers shareholders a set price (tender offer, squeeze-out, merger, exit right), the return depends on the event happening more than on the market. If the offer is open and its annualised return to the payment date beats the 10-year bond yield, it is listed; an offer awaiting approval shows as \"near\"."),
       [L("Kayıtlar KAP bildirimlerinden ve SPK bültenlerinden elle tutulur; her birinin kaynağı şirket sayfasındadır.", "Entries are kept by hand from KAP filings and CMB bulletins; each one's sources are on the company page.")], []],
-    [L("Kırmızı bayrak", "Red flag"), L("Ucuzluğu yanıltıcı kılan bir olay (denetçinin olumsuz görüşü, işletmenin sürekliliği şüphesi, kayyum, SPK yaptırımı) bilindiğinde şirket listelerden çıkarılır ve nedeni sayfasında yazar.",
-      "When an event makes the cheapness misleading (an adverse audit opinion, going-concern doubt, a trustee, a CMB sanction), the company is removed from the lists and the reason is shown on its page."), [], []],
+    [L("Kırmızı bayrak", "Red flag"), L("Ucuz görünen bir pay çoğu zaman bir tuzaktır. Mercekten geçen her şirketin KAP bildirimleri ve gündemi okunur. Kaynağı belli şu olaylardan biri varsa şirket listelerden çıkarılır: kayyum ya da TMSF yönetimi; şirkete ya da yöneticilerine SPK yaptırımı; paylarında manipülasyon nedeniyle SPK suç duyurusu (bir yıl); işlem durdurma ya da Yakın İzleme Pazarı; denetçinin olumsuz görüşü ya da süreklilik şüphesi; ilişkili taraflara aktarılan para; kârın yarıdan fazlasının tek seferlik olması (varlık satışı, değerleme kazancı, vergi oranı değişikliğinden doğan ertelenmiş vergi geliri; o bilanço dönemi için). Geçici borsa tedbirleri (açığa satış ve kredili işlem yasağı) yalnız uyarıdır. Henüz okunmamış şirket \"okunmadı\" etiketiyle görünür.",
+      "A share that looks cheap is often a trap. The filings and news of every company that passes a lens are read. If one of these sourced events is found, the company is removed from the lists: a trustee or TMSF management; a CMB sanction on the company or its managers; a CMB criminal complaint for manipulation in its shares (for a year); a trading halt or the Close Monitoring Market; an adverse audit opinion or going-concern doubt; money moved to related parties; more than half of profit being one-off (an asset sale, a revaluation gain, deferred tax income from a tax-rate change; for that reporting period). Temporary exchange measures (short-selling and margin bans) are only a warning. A company not yet read shows a \"not yet read\" tag."), [], []],
     [L("Ne değildir", "What it is not"), L("Bu bir süzgeçtir, yatırım tavsiyesi değildir. Sayfa \"ölçütü geçti\" der; \"al\" ya da \"sat\" demez.", "This is a screen, not investment advice. The page says \"met the criterion\"; it never says \"buy\" or \"sell\"."), [], []]
   ];
   var h = '<div class="sheet-top"><h2>' + esc(L("Yöntem", "Method")) + '</h2><button class="ghost" id="shut">' + esc(L("Kapat", "Close")) + '</button></div><ol class="mlist">' +

@@ -54,3 +54,12 @@ Bu dosyaya kural önerisi değil, gözlem yazılır: tarih, ne görüldü, hangi
 - İlk sonuç (yalnız kâr verimi, bilanço yokken): 599 büyük şirketin 111'i %10 eşiğini geçiyor. Sayı fazla; bir kısmı tek seferlik kârdan (F/K 2,5 altı uyarılı 14 şirket). Üç yıllık ortalama kuralı bilanço gelince devreye girer.
 - Özel durumlar (24 Kasım): açık teklif yok; onay bekleyen KARTN (130 TL; fiyat 92,40), SEGMN (38,90 TL; fiyat 16,26: B payı mı, doğrulanmalı), HKTM (12,72 TL), PRZMA (23,50 TL; Tera grubu, yüksek risk), ALCAR (fiyat belli değil), BIOEN (ayrılma hakkı 17,52 TL).
 - İş akışının saatini hafta içi günlüğe çekmek denendi, oturumun izni olmadı; collect.yml değişmedi. Alper isterse veri her gün toplanabilir.
+
+## 24 Kasım 2026: kırmızı bayrak taraması (Alper'in talimatı: "Tera gibi şirketler fırsat görünmemeli")
+
+- Gündem taraması (SPK bültenleri, TMSF/kayyum, Borsa İstanbul tedbirleri) ve mercekten geçen ya da eşikteki 147 şirketin tek tek okunması yapıldı (beş yardımcı oturum). 79 şirkete bayrak yazıldı; kâr verimi merceğinden 23 şirket çıktı (111 -> 92). 108 şirket okundu, temiz.
+- Tera grubu: TEHOL, TRHOL, TERA, PEKGY, PRZMA, MANAS, DSTKF, OZATD. Öbür kayyumlar: KONTR, ALVES, VRGYO, DITAS, DOGUB.
+- 7582 sayılı Kanun (4 Haziran 2026; sanayi kazancına %12,5 vergi) 9 aylık tablolarda büyük ertelenmiş vergi geliri yarattı: KRDMD/KRDMA/KRDMB, CWENE, BESTE, AYDEM, AKFYE, GWIND, JANTS "tek seferlik kâr" bayrağı aldı (o dönem için). ISDMR, YATAS ve öbür sanayi şirketlerinde de olabilir: okunacak.
+- Arama sınırı yüzünden okunamayanlar (28): `accept.py TR --read` listesi; önce ESCOM, ATEKS, RALYH, AYES, GSDDE, IHGZT (F/K 2,5 altı).
+- Bültende yalnız kişi adı geçen ve şirketteki rolü yazmayan SPK cezaları (MARTI, SNICA, SANEL, GLYHO) bayrak sayılmadı. TCKRC (yönetici geri alım sırasında sattı) ve HKTM (eski ortaklara ceza) yalnız uyarı.
+- Alper'in onayı gerekebilir: manipülasyon suç duyurusu olan paylar, şirket suçlanmasa da bir yıl listeden çıkıyor (KTLEV dahil). Ertelenmiş vergi geliri tek seferlik sayıldı.

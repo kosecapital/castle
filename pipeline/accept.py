@@ -112,11 +112,9 @@ def accept(cc, dry=False):
 def reading(cc, limit=30):
     """Okuma listesi: mercekten geçen, kırmızı bayrağı henüz bakılmamış şirketler (önce birden çok mercekten geçen, sonra büyükler)."""
     core = load(J("data", cc, "core.json"))
-    seen = load(J("data", cc, "flags.json"), {})
-    checked = set(load(J("data", cc, "checked.json"), {}).keys())
-    rows = [u for u in core["U"] if u["L"] and u["c"] not in seen and u["c"] not in checked]
-    rows.sort(key=lambda u: (-len(u["L"]), -u["m"]))
-    print(f"okunacak: {len(rows)} şirket (mercekten geçen, kırmızı bayrağa bakılmamış)")
+    rows = [u for u in core["U"] if (u["L"] or u["near"]) and "rd" not in u]     # okundu kaydı yok ya da eski dönemden; bayrakla çıkarılanlar zaten L'de değil
+    rows.sort(key=lambda u: (-len(u["L"]), 0 if u.get("eyw") else 1, -u["m"]))
+    print(f"okunacak: {len(rows)} şirket (mercekten geçen ya da eşikte olup okunmamış)")
     for u in rows[:limit]:
         print(f'  {u["c"]:7} {u["n"][:32]:32} {",".join(u["L"]):10} PD {u["m"]:>10,.0f} mn | F/K {u.get("pe")} | kâr verimi {u.get("ey")}' + ("  ! F/K 2,5 altı" if u.get("eyw") else ""))
 

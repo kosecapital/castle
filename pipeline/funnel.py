@@ -165,12 +165,13 @@ def run(cc):
     meta, uni = load(os.path.join(d, "meta.json")), load(os.path.join(d, "universe.json"))
     fin, spec, flags = load(os.path.join(d, "fin.json"), {}), load(os.path.join(d, "special.json"), {}), load(os.path.join(d, "flags.json"), {})
     reps = load(os.path.join(d, "reports.json"), {})
+    checked = load(os.path.join(d, "checked.json"), {})
     R = rates(meta, P)
     unit, unit_chk = fin_unit(uni, fin)
     fl = meta.get("flags", {})
     veh, nom, nomc = set(fl.get("veh", [])), set(fl.get("nom", [])), set(fl.get("nom_codes", []))
     asof = meta.get("asof")
-    U, counts = [], dict(n=len(uni), size=0, nn=0, gr=0, ey=0, ws=0, any=0, fin=0)
+    U, counts = [], dict(n=len(uni), size=0, nn=0, gr=0, ey=0, ws=0, any=0, fin=0, flagged=0, unread=0)
     for u in uni:
         c = u["c"]
         row = {k: u.get(k) for k in ("c", "n", "s", "p", "m", "f", "pe", "pb", "per")}
@@ -239,15 +240,25 @@ def run(cc):
                 lens.append("ws")
             elif ws.get("st") == "near":
                 near.append("ws")
-        if c in flags:
-            row["flag"] = flags[c]
+        # kırmızı bayrak: süresi geçmemiş (until), dönemi geçerli (per) kayıtlar. "out" listelerden çıkarır, "warn" uyarıyla bırakır.
+        fs = flags.get(c) or []
+        fs = [fs] if isinstance(fs, dict) else fs
+        live = [x for x in fs if (not x.get("until") or x["until"] >= asof) and (not x.get("per") or x["per"] == u.get("per"))]
+        if live:
+            row["flags"] = live
+        if any(x.get("sev", "out") == "out" for x in live):
             row["L"], row["near"] = [], []
             row["out"] = lens + near
+            counts["flagged"] += 1 if (lens or near) else 0
         else:
             row["L"], row["near"] = lens, near
+        ck = checked.get(c)
+        if ck and (not ck.get("per") or ck["per"] == u.get("per")):
+            row["rd"] = {k: ck.get(k) for k in ("date", "tr", "en")}
         for k in row["L"]:
             counts[k] += 1
         counts["any"] += 1 if row["L"] else 0
+        counts["unread"] += 1 if (row["L"] and "rd" not in row) else 0
         U.append(row)
     core = dict(cc=cc, asof=asof, rates=R, unit=unit, unit_chk=unit_chk, fin_per=max((f.get("got") or "" for f in fin.values()), default=None) if fin else None,
                 P=P, counts=counts, U=U, R={c: r for c, r in reps.items() if c in {u["c"] for u in uni}})
@@ -260,6 +271,7 @@ def summary(core):
     R = core["rates"]
     print(f'{core["cc"]} evren {k["n"]} | büyüklük süzgecini geçen {k["size"]} | mali tablosu olan {k["fin"]} (birim {core["unit"]}, tutarlılık {core["unit_chk"]})')
     print(f'  faiz: 10 yıllık {R["y10"]} | enflasyon {R["pi"]} | reel {R["real"]} | kâr verimi eşiği %{R["hurdle"]}')
+    print(f'  kırmızı bayrakla çıkarılan {k["flagged"]} | mercekten geçip henüz okunmamış {k["unread"]}')
     print(f'  net-net {k["nn"]} | Graham {k["gr"]} | kâr verimi {k["ey"]} | özel durum {k["ws"]} | en az bir mercekten geçen {k["any"]}')
     top = sorted([u for u in core["U"] if u["L"]], key=lambda u: (-len(u["L"]), -(u.get("ey") or 0)))
     for u in top[:25]:
