@@ -63,3 +63,11 @@ Bu dosyaya kural önerisi değil, gözlem yazılır: tarih, ne görüldü, hangi
 - Arama sınırı yüzünden okunamayanlar (28): `accept.py TR --read` listesi; önce ESCOM, ATEKS, RALYH, AYES, GSDDE, IHGZT (F/K 2,5 altı).
 - Bültende yalnız kişi adı geçen ve şirketteki rolü yazmayan SPK cezaları (MARTI, SNICA, SANEL, GLYHO) bayrak sayılmadı. TCKRC (yönetici geri alım sırasında sattı) ve HKTM (eski ortaklara ceza) yalnız uyarı.
 - Alper'in onayı gerekebilir: manipülasyon suç duyurusu olan paylar, şirket suçlanmasa da bir yıl listeden çıkıyor (KTLEV dahil). Ertelenmiş vergi geliri tek seferlik sayıldı.
+
+## 24 Kasım 2026 (öğleden sonra): mali tablolar geldi, okuma tamam
+
+- Alper'in "her an eksiksiz olmamız lazım" sözü üzerine collect iş akışı elle başlatıldı; 629 şirketin 580'inin mali tablosu geldi (eksik: DOCO, KTLEV boş yanıt, KRONT bağlantı). Birim denetimi 1,001 (TL); kalem eşleşmesi doğru.
+- İş Yatırım'da 2024 ve 2025 yıllık rakamları son dönemin parasıyla (yeniden değerlenmiş), 2023 ve öncesi açıklandığı gibi geliyor; `meta.fin_money.current_from = 2024` ve `funnel.to_now()` buna göre çeviriyor (TUPRS özsermaye köprüsüyle doğrulandı).
+- Sonuç: net-net 3, Graham 9, kâr verimi 58 (üç yıllık ortalama kuralı 111'i 58'e indirdi), en az bir mercek 64; bayrakla çıkarılan 27. Mercekten geçen ya da eşikte olup okunmamış şirket kalmadı.
+- 10 yıllık tahvil: TradingView TVC:TR10Y %33,59, Bloomberg HT (23 Kasım) %36,11; sayfa kaynaklı olanı (meta.rates) kullanıyor. Eşik etkilenmiyor (%10 tabanı geçerli).
+- Zamanlanmış görevlerin metni güncellenemedi (izin verilmedi); CLAUDE.md'deki "Günlük iş" bölümü eski başlıkları anan görev metnine de uygulanacak şekilde yazıldı.

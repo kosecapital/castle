@@ -2481,5 +2481,154 @@
     }
    ]
   }
+ ],
+ "BLCYT": [
+  {
+   "k": "oneoff",
+   "date": "2026-11-04",
+   "until": null,
+   "per": "9/2026",
+   "tr": "Bilici Yatırım'ın 2026'nın ilk dokuz ayında 287 milyon TL vergi öncesi zararı ve 179,7 milyon TL ana ortaklık zararı var; 2025'te vergi öncesi 147,7 milyon TL kâra karşın ana ortaklık kârı 39,8 milyon TL idi ve bunun içinde 292,6 milyon TL finansal varlık değer artışı vardı. Son 12 ayın grup sonucu vergi öncesi zarardır; ana ortaklık payının kârda görünmesi değerleme kazançlarına, 91,4 milyon TL ertelenmiş vergi gelirine ve azınlık payının zararı üstlenmesine dayanıyor.",
+   "en": "Bilici Yatırım made a pre-tax loss of 287 million TL and a loss of 179.7 million TL attributable to the parent in the first nine months of 2026; in 2025 its parent profit of 39.8 million TL included 292.6 million TL of fair-value gains on financial assets. Over the last 12 months the group is loss-making before tax; the positive parent figure rests on valuation gains, 91.4 million TL of deferred tax income and minority interests absorbing losses.",
+   "sources": [
+    {
+     "t": "KAP: Bilici Yatırım 30.09.2026 konsolide finansal tablolar (4 Kasım 2026)",
+     "te": "KAP: Bilici Yatırım consolidated financial statements, 30 September 2026 (4 November 2026)",
+     "u": "https://kap.org.tr/en/api/file/download/4028328ca17e4f5e01a1a189415e11df",
+     "primary": true
+    },
+    {
+     "t": "KAP: Bilici Yatırım 2025 yıllık konsolide finansal rapor ve denetim raporu (17 Şubat 2026)",
+     "te": "KAP: Bilici Yatırım 2025 annual consolidated financial report and audit report (17 February 2026)",
+     "u": "https://kap.org.tr/en/api/BildirimPdf/1557582",
+     "primary": true
+    },
+    {
+     "t": "Borsatek: Bilici Yatırım, 9 aylık dönemde 179,7 milyon TL net zarar açıkladı (4 Kasım 2026)",
+     "te": "Borsatek: Bilici Yatırım reports 179.7 million TL net loss for nine months (4 November 2026)",
+     "u": "https://www.borsatek.com/blcyt-9-aylik-net-zarar/",
+     "primary": false
+    }
+   ],
+   "sev": "out"
+  }
+ ],
+ "EREGL": [
+  {
+   "k": "oneoff",
+   "date": "2026-10-22",
+   "until": null,
+   "per": "9/2026",
+   "tr": "Erdemir'in 2026 ilk yarısında vergi öncesi sonucu zarardı (-62 milyon TL); yaklaşık 9 milyar TL'lik vergi geliri (çoğu 2. çeyrekte ertelenmiş vergi geliri) dönemi kâra çevirdi. 22 Ekim 2026'da açıklanan 9 aylık 11,1 milyar TL net kârın yarıdan fazlası bu tek seferlik vergi gelirinden geliyor.",
+   "en": "Erdemir's pre-tax result for the first half of 2026 was a loss (TL -62 million); about TL 9 billion of tax income (mostly deferred tax income in Q2) turned the period into a profit. More than half of the TL 11.1 billion nine-month net profit announced on 22 October 2026 comes from this one-off tax income.",
+   "sources": [
+    {
+     "t": "Erdemir: 2Ç26 finansal sonuçları sunumu (Ağustos 2026)",
+     "te": "Erdemir: 2Q26 financial results (August 2026)",
+     "u": "https://www.vkyanaliz.com/Files/docs/2c26-finansal-sonuclari-erdemir-1786094187.pdf",
+     "primary": false
+    },
+    {
+     "t": "Bloomberg HT: Erdemir'den beklentileri aşan 8,5 milyar TL'lik net kâr (6 Ağustos 2026)",
+     "te": "Bloomberg HT: Erdemir posts TL 8.5 billion net profit above expectations (6 August 2026)",
+     "u": "https://www.bloomberght.com/erdemir-den-beklentileri-asan-8-5-milyar-tl-lik-net-kr-3784912",
+     "primary": false
+    },
+    {
+     "t": "CNBC-e: Erdemir'in 9 aylık kârı yüzde 367 arttı (22 Ekim 2026)",
+     "te": "CNBC-e: Erdemir's nine-month profit up 367% (22 October 2026)",
+     "u": "https://www.cnbce.com/sirket-bilancolari/erdemirin-9-aylik-kari-yuzde-367-artti-eregl-beklentileri-asti-h40099",
+     "primary": false
+    }
+   ],
+   "sev": "out"
+  }
+ ],
+ "CMENT": [
+  {
+   "k": "oneoff",
+   "date": "2026-11-05",
+   "until": null,
+   "per": "9/2026",
+   "tr": "Çimentaş'ın 5 Kasım 2026'da açıkladığı 9 aylık tablosunda vergi öncesi kâr 803,6 milyon TL, bunun içinde yatırım amaçlı gayrimenkullerin 869,6 milyon TL'lik gerçeğe uygun değer artışı var. Bu kazanç olmasa vergi öncesi sonuç zarar olurdu; ana ortaklık net kârı yalnız 9,4 milyon TL.",
+   "en": "In Çimentaş's nine-month statements published on 5 November 2026, pre-tax profit was TL 803.6 million, including a TL 869.6 million fair-value gain on investment property. Without that gain the pre-tax result would have been a loss; net profit attributable to the parent was only TL 9.4 million.",
+   "sources": [
+    {
+     "t": "KAP: Çimentaş 30.09.2026 finansal rapor (5 Kasım 2026)",
+     "te": "KAP: Çimentaş financial report, 30 September 2026 (5 November 2026)",
+     "u": "https://kap.org.tr/en/api/BildirimPdf/1693310",
+     "primary": true
+    },
+    {
+     "t": "YatırımX: Çimentaş'ın 9 aylık kârı yüzde 99 eridi (6 Kasım 2026)",
+     "te": "YatırımX: Çimentaş nine-month profit down 99% (6 November 2026)",
+     "u": "https://www.yatirimx.com.tr/sirket-haberleri/cimentasin-9-aylik-kri-yuzde-99-eridi-kasasi-42-milyar-tl-azaldi/27787",
+     "primary": false
+    }
+   ],
+   "sev": "out"
+  }
+ ],
+ "ASGYO": [
+  {
+   "k": "oneoff",
+   "date": "2026-10-30",
+   "until": null,
+   "per": "9/2026",
+   "tr": "Asce GYO 2026'nın ilk dokuz ayında 5,19 milyar TL net kâr açıkladı, ama esas faaliyet sonucu 91 milyon TL zarar; hasılat yalnız 168 milyon TL. Kârın neredeyse tamamı gayrimenkul değerleme etkisinden geliyor, olağan işten değil.",
+   "en": "Asce GYO reported a net profit of 5.19 billion TL for the first nine months of 2026, but its operating result was a 91 million TL loss on revenue of only 168 million TL. Almost all of the profit comes from property valuation effects, not from the ordinary business.",
+   "sources": [
+    {
+     "t": "Ekofin: ASGYO 2026/9 faaliyet raporu özeti (KAP, 30 Ekim 2026)",
+     "te": "Ekofin: ASGYO 9M 2026 activity report summary (KAP, 30 October 2026)",
+     "u": "https://ekofin.net/sirket/detay/ASGYO/faaliyet-raporlari?period=2026-09",
+     "primary": false
+    },
+    {
+     "t": "Borsacoo: ASGYO bilanço özetleri (2026/9)",
+     "te": "Borsacoo: ASGYO financial summaries (9M 2026)",
+     "u": "https://borsacoo.com/firma/ASGYO/bilancolar",
+     "primary": false
+    },
+    {
+     "t": "Borsacoo: ASGYO faaliyet raporu bildirimi (30 Ekim 2026)",
+     "te": "Borsacoo: ASGYO activity report notice (30 October 2026)",
+     "u": "https://borsacoo.com/bildirim/103680",
+     "primary": false
+    }
+   ],
+   "sev": "out"
+  }
+ ],
+ "YYAPI": [
+  {
+   "k": "measure",
+   "date": "2026-03-18",
+   "until": null,
+   "per": null,
+   "tr": "Borsa İstanbul, grup şirketi Yeşil GYO hakkındaki iflas kararından sonra 18 Mart 2026'da Yeşil Yapı paylarını Yakın İzleme Pazarı'na aldı; şirketin çıkış başvurusu (28 Temmuz 2026) sonuçlanmadı. 13 Mart 2026'da İstanbul Cumhuriyet Başsavcılığı'nın nitelikli dolandırıcılık soruşturmasında grup şirketleri Yeşil GYO ve Yeşil Global İnşaat'a TMSF kayyum olarak atandı; 30 Haziran 2026 tablolarına denetçi şartlı görüş verdi.",
+   "en": "Borsa Istanbul moved Yeşil Yapı's shares to the Close Monitoring Market on 18 March 2026 after a bankruptcy ruling against group company Yeşil GYO; the company's application to leave it (28 July 2026) has not been decided. On 13 March 2026 the TMSF was appointed trustee of group companies Yeşil GYO and Yeşil Global İnşaat in an Istanbul prosecutor's aggravated-fraud investigation, and the auditor gave a qualified opinion on the 30 June 2026 statements.",
+   "sources": [
+    {
+     "t": "KAP (Bigpara): Yeşil Yapı pazar geçiş başvurusu (28 Temmuz 2026)",
+     "te": "KAP (Bigpara): Yeşil Yapı market transfer application (28 July 2026)",
+     "u": "https://bigpara.hurriyet.com.tr/haberler/kap-haberleri/yyapi-yesil-yapi-endustrisi-a-s-pazar-g_ID102217055/",
+     "primary": true
+    },
+    {
+     "t": "DHA: Esenyurt'ta 15 yıldır inşaatı süren gökdelenleri yapan şirkete soruşturma, kayyım atandı (13 Mart 2026)",
+     "te": "DHA: Investigation and trustee for the company building Esenyurt towers (13 March 2026)",
+     "u": "https://www.dha.com.tr/gundem/esenyurtta-15-yildir-insaati-suren-gokdelenleri-yapan-sirkete-sorusturma-kayyim-atandi-2836069",
+     "primary": false
+    },
+    {
+     "t": "Midas: YYAPI KAP bildirimleri (6 aylık tablolar, şartlı görüş, 19 Ağustos 2026)",
+     "te": "Midas: YYAPI KAP notices (half-year statements, qualified opinion, 19 August 2026)",
+     "u": "https://www.getmidas.com/canli-borsa/yyapi-hisse/haber/",
+     "primary": false
+    }
+   ],
+   "sev": "out"
+  }
  ]
 }

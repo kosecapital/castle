@@ -64,16 +64,29 @@ def fin_unit(uni, fin):
     return k, round(med / k, 3)          # birim (1e6: TL, 1e3: bin TL) ve tutarlılık (1'e yakın olmalı)
 
 
-def deflator(meta, fy, y):
-    """y yılının kârını fy yılının parasına çevirir (yıl sonu TÜFE). meta.fin_restated doğruysa kaynak zaten aynı paradadır."""
-    if meta.get("fin_restated"):
+def to_now(meta, per, y):
+    """y yılının yıllık kârını son bilanço döneminin (per, ör. "9/2026") parasına çeviren çarpan.
+
+    İş Yatırım'ın mali tabloları (24 Kasım 2026'da görüldü): `meta.fin_money.current_from` yılından (2024) itibaren yıllık rakamlar son dönemin
+    parasıyla verilir (yeniden değerlenmiş); daha eski yıllar açıklandıkları gibidir (2023: o yılın sonunun parası; öncesi nominal).
+    Eski yıllar yıl sonu TÜFE ile, son tam yıldan sonraki aylar son yıllık TÜFE ile bugüne taşınır."""
+    cur_from = int((meta.get("fin_money") or {}).get("current_from") or 9999)
+    if int(y) >= cur_from:
         return 1.0
-    cpi, k = meta.get("cpi") or {}, 1.0
-    for z in range(int(y) + 1, int(fy) + 1):
+    cpi = meta.get("cpi") or {}
+    m = __import__("re").match(r"(\d{1,2})/(\d{4})", str(per or ""))
+    if not m:
+        return None
+    pm, py = int(m.group(1)), int(m.group(2))
+    last = py if pm == 12 else py - 1
+    k = 1.0
+    for z in range(int(y) + 1, last + 1):
         c = cpi.get(str(z))
         if c is None:
             return None
         k *= 1 + c / 100.0
+    if pm != 12:
+        k *= (1 + (cpi.get("cur") or 0) / 100.0) ** (pm / 12.0)
     return k
 
 
@@ -93,9 +106,9 @@ def graham(u, f, unit, meta, P):
     loss = [y for y, v in have if v <= 0]
     g = None
     first, last = (ann.get(yrs[-1]) or {}).get("np"), (ann.get(yrs[0]) or {}).get("np")
-    dfl = deflator(meta, yrs[0], yrs[-1])
-    if first is not None and last is not None and dfl and first > 0:
-        g = round(((last / (first * dfl)) - 1) * 100, 1)        # son yılın reel kârının dört yıl öncekine göre değişimi (%)
+    k0, k1 = to_now(meta, u.get("per"), yrs[-1]), to_now(meta, u.get("per"), yrs[0])
+    if first is not None and last is not None and k0 and k1 and first > 0:
+        g = round(((last * k1) / (first * k0) - 1) * 100, 1)        # son yılın reel kârının dört yıl öncekine göre değişimi (%)
     div = ((ann.get(yrs[0]) or {}).get("div") or 0) != 0 or ((f.get("ytd") or {}).get("div") or 0) != 0   # son mali yılda ya da bu yıl ödenen temettü
     ptb = None if not tang or tang <= 0 else u["m"] / tang
     checks = [
@@ -109,7 +122,7 @@ def graham(u, f, unit, meta, P):
     return dict(cr=None if cr is None else round(cr, 2), wc=None if wc is None else round(wc, 1), ltd=round(fd_lt, 1),
                 dwc=None if not wc or wc <= 0 else round(fd_lt / wc, 2), tang=None if tang is None else round(tang, 1),
                 ptb=None if ptb is None else round(ptb, 2), yrs=len(have), loss=loss, g=g, div=bool(div),
-                np={y: round(v, 1) for y, v in have}, ok={k: v for k, v in checks}, n=sum(1 for _, v in checks if v))
+                np={y: round(v, 1) for y, v in have}, npr={y: round(v * k, 1) for y, v in have for k in [to_now(meta, u.get("per"), y)] if k}, ok={k: v for k, v in checks}, n=sum(1 for _, v in checks if v))
 
 
 def netnet(u, f, unit):
@@ -213,12 +226,11 @@ def run(cc):
                 vals = []
                 for y in (fy, fy - 1, fy - 2):
                     v = gr["np"].get(str(y))
-                    k = deflator(meta, fy, y)
+                    k = to_now(meta, u.get("per"), y)
                     if v is not None and k:
                         vals.append(v * k)
                 if len(vals) == 3:
-                    mo = max(0, (datetime.date.fromisoformat(asof) - datetime.date(fy, 12, 31)).days) / 365.0
-                    avg = sum(vals) / 3 * (1 + (R["pi"] or 0) / 100.0) ** mo      # bugünün parasına
+                    avg = sum(vals) / 3                                              # son bilanço döneminin parasıyla
                     row["e3"] = round(avg, 1)
                     if avg < e_ttm:
                         e = max(avg, 0.0)

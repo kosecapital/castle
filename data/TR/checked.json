@@ -835,5 +835,117 @@
   "per": "9/2026",
   "tr": "Okundu; uyarı yazıldı (sayfada).",
   "en": "Read; a warning was recorded (on the page)."
+ },
+ "EKGYO": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık kâr (2,9 milyar TL) ertelenmiş vergi gideriyle düştü, tek seferlik kazanç yok; SPK yaptırımı, borsa tedbiri ya da olumsuz denetim görüşü bulunmadı.",
+  "en": "Nine-month profit (2.9 billion TL) was cut by deferred tax expense, with no one-off gain; no SPK sanction, exchange measure or adverse audit opinion found.",
+  "note": "Net-net: 461 milyar TL dönen varlığın 325 milyar TL'si stok (arsa ve projeler, maliyetle); NCAV büyük ölçüde konut stokunun satışına bağlı, nakit değil. Finansal borç 106,9 milyar TL, faaliyet nakit akışı -7,9 milyar TL. Bursa arsası (Ağustos 2026) gelir paylaşımı modeliyle alındı, ilişkili taraf değil. Source: paraajansi.com.tr EKGYO 9M article; hisse.net 28 Sep 2026."
+ },
+ "VERTU": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 ayda 419 milyon TL net zarar (portföy değer kaybı); ilişkili taraf alacağı 394 milyon TL ile dönen varlıkların %7'si; SPK yaptırımı ya da borsa tedbiri bulunmadı.",
+  "en": "Nine-month net loss of 419 million TL (portfolio value decline); related-party receivables of 394 million TL are 7% of current assets; no SPK sanction or exchange measure found.",
+  "note": "Net-net: 5.296 milyon TL dönen varlık neredeyse tamamı gerçeğe uygun değerli yatırımlar; borç yalnız 7 milyon TL. İlişkili taraf alacağı Aralık 2025'te 60 milyon TL iken Eylül 2026'da 394 milyon TL (Verusa Holding 292 milyon TL, Core Engage 73, Vektora 28; faiz geliri alınıyor). Hızlı artış izlenmeli; 'related' eşiğine (büyük kısım) varmıyor. Kaynak: KAP 30.09.2026 finansal rapor https://kap.org.tr/tr/api/file/download/4028328ca17e4f5f01a18c28d32349e0"
+ },
+ "NUHCM": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık 514 milyon TL kârda ertelenmiş vergi gideri var, gelir değil; yatırım gelirleri (252 milyon TL, çoğu kira) kârın yarısının altında; SPK ya da borsa tedbiri bulunmadı.",
+  "en": "Nine-month profit of 514 million TL carries deferred tax expense, not income; investment income (252 million TL, mostly rent) is below half of profit; no SPK or exchange measure found.",
+  "note": "Sabit kıymet satış kârı 47,6 milyon TL; değerleme kazancı yok. Kaynak: KAP 9A 2026 finansal rapor https://kap.org.tr/tr/api/file/download/4028328ca17e4f5d01a1b04baa1d5318"
+ },
+ "TNZTP": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık kâr 156 milyon TL'ye geriledi (ertelenmiş vergi gideri 261 milyon TL); tek seferlik kazanç ya da SPK/borsa tedbiri bulunmadı.",
+  "en": "Nine-month profit fell to 156 million TL (deferred tax expense 261 million TL); no one-off gain or SPK/exchange measure found.",
+  "note": "Finansman geliri 576 milyon TL'ye çıktı (önceki 178); kârın vergi öncesi kısmında önemli pay. Kaynak: KAP https://kap.org.tr/en/api/BildirimPdf/1693439"
+ },
+ "MOPAS": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık 221 milyon TL kârda ertelenmiş vergi gideri var; yatırım geliri 18 milyon TL, değerleme ya da varlık satışı kazancı önemsiz; SPK ya da borsa tedbiri bulunmadı.",
+  "en": "Nine-month profit of 221 million TL carries deferred tax expense; investment income is 18 million TL and asset-sale or valuation gains are immaterial; no SPK or exchange measure found.",
+  "note": "Net parasal pozisyon kazancı 267 milyon TL (tek seferlik sayılmaz). Kaynak: KAP https://kap.org.tr/tr/api/file/download/4028328ca17e4f5f01a1b15054150034"
+ },
+ "ALCTL": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "KAP bildirimlerinde 2026'da SPK yaptırımı, pay alım teklifi ya da süreklilik uyarısı yok; yalnız olağan pay bazında devre kesici bildirimleri var; şirket banka kredisi kullanmıyor.",
+  "en": "Its 2026 KAP disclosures show no SPK sanction, tender offer or going-concern warning, only routine share-level circuit-breaker notices; the company uses no bank loans.",
+  "note": "1 Ekim 2026'daki 'SPK işlem yasağı nedeniyle pay duyurusu' MKK'nın 150'den fazla şirketi kapsayan genel duyurusu, şirkete yönelik değil. 9 aylık net sonuç kaynaklar arasında çelişkili (zarar 43,9 milyon TL ya da kâr); F/K boş. Dönen varlıkların bileşimine (Nokia grubu alacakları) bakılamadı. Kaynak: borsacoo ALCTL bildirim listesi."
+ },
+ "EGGUB": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık kâr (318 milyon TL) vergi öncesi 995 milyon TL'lik kârdan ve 676 milyon TL vergi giderinden sonra geliyor; yatırım faaliyetlerinden net kazanç yok denecek kadar az, tek seferlik kalem görülmedi. SPK ve borsa tedbiri bulunmadı.",
+  "en": "Nine-month profit (TL 318 million) comes after TL 995 million pre-tax profit and TL 676 million tax expense; net investing income is negligible and no one-off item was found. No SPK or exchange measure was found.",
+  "note": "Two small shareholders filed annulment suits against some 22 April 2026 AGM resolutions (İzmir 2nd Commercial Court; hearings 18 and 25 Nov 2026) - not a flag. Source: KAP 1693320, borsatek.com."
+ },
+ "TUREX": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık 341 milyon TL kâr, 1,08 milyar TL vergi öncesi kârdan 739 milyon TL vergi giderinden sonra geliyor; tek seferlik kazanç ya da ertelenmiş vergi geliri görülmedi. Son KAP bildirimlerinde SPK, borsa tedbiri ya da dava yok; şirket Ekim-Kasım 2026'da pay geri alıyor.",
+  "en": "Nine-month profit of TL 341 million comes after TL 1.08 billion pre-tax profit and TL 739 million tax expense; no one-off gain or deferred tax income was found. Recent KAP filings show no SPK action, exchange measure or lawsuit; the company has been buying back shares in October-November 2026.",
+  "note": "Only page 1 of the borsacoo KAP list (Oct-Nov 2026) was visible; older filings include 2 MKK 'SPK işlem yasağı nedeniyle pay duyurusu' notices which are generic MKK announcements covering many companies."
+ },
+ "PENTA": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık 153,8 milyon TL kâr 300,7 milyon TL vergi öncesi kârdan geliyor, tek seferlik kalem yok. Dönen varlıklar (Haziran 2026: 17,3 milyar TL) çoğunlukla üçüncü taraflardan ticari alacak (9,9 milyar TL; ilişkili taraf yalnız 4,4 milyon TL) ve stok (6,2 milyar TL); SPK ve borsa tedbiri bulunmadı.",
+  "en": "Nine-month profit of TL 153.8 million comes from TL 300.7 million pre-tax profit, with no one-off item. Current assets (June 2026: TL 17.3 billion) are mostly third-party trade receivables (TL 9.9 billion; related parties only TL 4.4 million) and inventory (TL 6.2 billion); no SPK or exchange measure was found.",
+  "note": "Net-net check: NCAV ~TL 3.7bn at 30.06.2026 (CA 17.28bn - liabilities 13.54bn) vs market cap ~TL 3bn; believable, but it rests on IT-distribution receivables and inventory and is thin relative to a 14bn liability base. 30.09.2026: total assets 19.02bn, liabilities ~14.0bn."
+ },
+ "ERBOS": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık sonuç 144,9 milyon TL zarar (net parasal pozisyon kaybı 392 milyon TL); sınırlı denetim raporu olumsuz bir şey söylemiyor. Dönen varlıklar 3,83 milyar TL: nakit 378 milyon, ticari alacak 1,46 milyar (ilişkili taraftan yok denecek kadar az), stok 1,77 milyar TL; SPK ve borsa tedbiri bulunmadı.",
+  "en": "Nine-month result is a TL 144.9 million loss (net monetary loss TL 392 million); the limited review report raises no issue. Current assets are TL 3.83 billion: cash 378 million, trade receivables 1.46 billion (negligible related-party share), inventory 1.77 billion; no SPK or exchange measure was found.",
+  "note": "Net-net check: NCAV ~TL 1.83bn (CA 3.83bn - total liabilities 2.00bn) vs market cap ~TL 1.7bn; current assets are real operating items (no related-party or real-estate inventory). Company is loss-making. 14 Oct 2026 KAP statement disowned social-media financial commentary; 1 Oct 2026 MKK SPK-trading-ban share notice is generic (about 160 firms)."
+ },
+ "DURKN": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık dönemde 230,9 milyon TL net zarar var (geçen yıl 107,8 milyon TL kâr); tek seferlik kazanç yok. Son KAP bildirimlerinde SPK yaptırımı, borsa tedbiri ya da dava görülmedi; şirket 882,5 milyon TL'lik bedelsiz sermaye artırımı başvurusunu Kasım 2026'da geri çekti.",
+  "en": "The nine-month period shows a TL 230.9 million net loss (prior year TL 107.8 million profit); no one-off gain. Recent KAP filings show no SPK sanction, exchange measure or lawsuit; the company withdrew its TL 882.5 million bonus share issue application in November 2026.",
+  "note": "Frequent circuit-breaker halts (15 in Sep-Nov 2026) - volatile trading but no VBTS measure seen. 29 Sep 2026 KAP statement said the company has no link to liquidated funds. Only page 1 of the borsacoo KAP list was visible."
+ },
+ "OYAKC": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık net kâr 5,31 milyar TL, esas faaliyet kârı 8,71 milyar TL'nin altında; büyük tek seferlik ya da ertelenmiş vergi geliri görülmedi, SPK ve borsa tedbiri bulunmadı.",
+  "en": "Nine-month net profit of 5.31 billion TL is below operating profit of 8.71 billion TL; no large one-off or deferred tax income was seen, and no SPK or exchange measure was found.",
+  "note": "Q3 net profit 3.0 bn TL after a 669 m TL monetary loss (QNB note); pretax and tax lines not read directly."
+ },
+ "LILAK": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık vergi öncesi kâr 307 milyon TL, net kâr 442 milyon TL; aradaki yaklaşık 135 milyon TL vergi geliri kârın üçte birinden az, vergi öncesi kâr pozitif. SPK ve borsa tedbiri bulunmadı.",
+  "en": "Nine-month pretax profit was 307 million TL and net profit 442 million TL; the roughly 135 million TL tax income is under a third of profit and pretax profit is positive. No SPK or exchange measure was found.",
+  "note": "Tax income (likely deferred tax, possibly Law 7582) is ~31% of 9M net profit: below the half threshold. Company revised 2026 guidance on 26 Oct 2026 (Foreks)."
+ },
+ "KLGYO": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "Şirket 9 ayda 749 milyon TL net zarar etti (ertelenmiş vergi gideri); SPK, kayyum ya da borsa tedbiri bulunmadı.",
+  "en": "The company made a nine-month net loss of 749 million TL (deferred tax expense); no SPK action, trustee or exchange measure was found.",
+  "note": "Net-net check incomplete: KLGYO's own current-asset breakdown was not read. At parent Kiler Holding (30 Jun 2026) current assets are 35.2 bn TL, of which 16.8 bn real-estate inventories; group-related receivables there are small (0.8 bn). KLGYO NCAV likely rests on residential project inventory, not cash."
+ },
+ "GIPTA": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 ayda 97 milyon TL net zarar; tek seferlik kâr sorunu yok. Volatilite tedbiri (açığa satış ve kredili işlem yasağı) 27 Ağustos-25 Eylül 2026 arasındaydı ve sona erdi; SPK yaptırımı bulunmadı.",
+  "en": "Nine-month net loss of 97 million TL; no one-off profit issue. A volatility measure (short-selling and margin-trading ban) ran 27 August-25 September 2026 and has ended; no SPK sanction was found.",
+  "note": "Repeated VBTS measures (Oct-Nov 2025, Aug-Sep 2026) after sharp price rises; none in force found today."
+ },
+ "ARTMS": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 aylık vergi öncesi kâr 42,3 milyon TL, net kâr 14,8 milyon TL; vergi gideri var, kârın bir kısmı net parasal pozisyon kazancı (51 milyon TL, tek seferlik sayılmaz). SPK ve borsa tedbiri bulunmadı.",
+  "en": "Nine-month pretax profit was 42.3 million TL and net profit 14.8 million TL; there is a tax expense, and part of profit is the net monetary gain (51 million TL, not one-off). No SPK or exchange measure was found.",
+  "note": "Net-net check: current assets 2.74 bn TL of which inventories 2.04 bn TL (carpets), about 3.5 years of sales at the 9M run-rate (439.5 m TL); cash 224 m, trade receivables 309 m; related-party receivables only ~90 m (Artemis Export, Acme Export). NCAV depends heavily on inventory value. Operating cash flow -355 m TL in 9M."
  }
 }

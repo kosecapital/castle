@@ -5,8 +5,8 @@
  "market": "turkey",
  "exchange": "Borsa İstanbul",
  "cur": "TL",
- "asof": "2026-11-20",
- "fx": 50.5142,
+ "asof": "2026-11-23",
+ "fx": 50.6239,
  "years": [
   "2021",
   "2022",
@@ -106,5 +106,15 @@
   "pi_src": "TÜİK Ekim 2026 TÜFE, 3 Kasım 2026'da açıklandı: yıllık %29,77, aylık %2,58 (Anadolu Ajansı haberi; TÜİK bülteni doğrudan açılmadı). Depodaki %29,77 doğru.",
   "pi_url": "https://www.aa.com.tr/tr/ekonomi/enflasyon-rakamlari-aciklandi/4109355"
  },
- "fin_restated": false
+ "fin_money": {
+  "current_from": "2024",
+  "note": "İş Yatırım mali tablolarında 2024 ve 2025 yıllık rakamları son bilanço döneminin parasıyla (yeniden değerlenmiş) geliyor: 579 şirketin 577'sinde yuvarlak değil; TUPRS'ta 2025 sonu özsermayesi 452,6 milyar TL, Eylül 2026'da 522,9 milyar TL, aradaki fark dokuz aylık kâr eksi temettüyle tutuyor. 2023 ve öncesi açıklandığı gibi (THYAO 2023: 163.003 milyon TL, yuvarlak). 24 Kasım 2026'da görüldü."
+ },
+ "accepted": "2026-11-24",
+ "rates_in": {
+  "y10": 33.59,
+  "y10_src": "TradingView TVC:TR10Y (global)",
+  "policy": 36,
+  "policy_src": "TradingView ECONOMICS:TRINTR"
+ }
 }
