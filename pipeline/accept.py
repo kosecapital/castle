@@ -1,19 +1,17 @@
 #!/usr/bin/env python3
-"""Gelen veriyi (data/<CC>/in/) denetler, yerine alır, süzgeci çalıştırır ve öncekiyle karşılaştırır.
+"""Gelen veriyi (data/TR/in/) denetler, yerine alır, süzgeci çalıştırır ve öncekiyle karşılaştırır (genç Buffett yöntemi).
 
-  python3 pipeline/accept.py --list        # hangi ülkede yeni veri bekliyor
+  python3 pipeline/accept.py --list        # yeni veri bekliyor mu
   python3 pipeline/accept.py TR --dry      # yalnız denetle ve farkı göster; hiçbir dosyayı değiştirme
   python3 pipeline/accept.py TR            # denetle, yerine al, süzgeci çalıştır
-  python3 pipeline/accept.py US --queue    # sırada bekleyenlerin okuma sırası (hiçbir şeyi değiştirmez)
-  python3 pipeline/accept.py US --debt     # yalnız borç testinden elenenler ve finansman kolu kayıtları (hiçbir şeyi değiştirmez)
+  python3 pipeline/accept.py TR --read     # okuma listesi: mercekten geçen ve henüz okunmamış (kırmızı bayrak bakılmamış) şirketler
 
-İnternet kullanmaz. Bir denetim tutmazsa hiçbir şeyi değiştirmez ve 1 koduyla çıkar (CLAUDE.md kural 6: emin değilsen yayımlama).
+İnternet kullanmaz. Bir denetim tutmazsa hiçbir şeyi değiştirmez ve 1 koduyla çıkar (CLAUDE.md kural 6).
 Denetimler:
-  0. data/<CC>/fixes.json içindeki belgeyle doğrulanmış düzeltmeler gelen veriye uygulanır (CLAUDE.md, "Belgeyle düzeltme").
-  1. Toplayıcı hatasız bitmiş mi; şirket sayısı öncekinin %15 içinde mi; F/K dolu olanların oranı asgari piyasa değerinin üstündeki şirketlerde en az %30, bütün evrende en çok %90 mı;
-     kârlı ve yeterince büyük şirketlerin en çok %10'unda PD/DD eksik mi.
-  2. Adayların en çok %30'unun beş yıllık verisi eksik mi (daha fazlası adres kalıbı hatasıdır: pipeline/sources.json).
-  3. Süzgeçten sonra: 2. suru geçenlerin en az %70'i aynı mı (önceki sonuç varsa).
+  1. Toplayıcı hatasız bitmiş mi; şirket sayısı öncekinin %15 içinde mi; F/K dolu olanların oranı makul mü (%30-%90).
+  2. Mali tablolar: bilanço beklenen şirketlerin en az %60'ında var mı; birim tutarlı mı (ana ortaklık özsermayesi ≈ piyasa değeri ÷ PD/DD,
+     şirketlerin ortancasında %15 içinde).
+  3. Süzgeçten sonra: hangi şirket merceğe girdi, hangisi çıktı.
 """
 import json, os, shutil, sys
 
@@ -22,316 +20,112 @@ sys.path.insert(0, os.path.join(ROOT, "pipeline"))
 import funnel  # noqa: E402
 
 J = lambda *p: os.path.join(ROOT, *p)
+load = lambda p, d=None: json.load(open(p, encoding="utf-8")) if os.path.exists(p) else d
 
 
-def load(path, default=None):
-    return json.load(open(path, encoding="utf-8")) if os.path.exists(path) else default
-
-
-def kales(core, P):
-    """build_site.py ve sayfadaki val() ile aynı hesap."""
-    out = {}
-    for u in core["U"]:
-        if u["e"] != 4:
-            continue
-        l, s = core["L2"][u["c"]], core["R"][u["c"]]["scores"]
-        t = funnel.price_test(P, u, l, s["B"] >= 3, s)
-        out[u["c"]] = (round(t["mos"], 1), t["kale"])
-    return out
-
-
-def state(core, P):
-    """Şirket kodu -> okunur durum."""
-    if not core:
-        return {}
-    mos, out = kales(core, P), {}
-    for u in core["U"]:
-        if u["e"] == 4:
-            out[u["c"]] = ("kale" if mos[u["c"]][1] else "kapıda") + f" (marj %{mos[u['c']][0]:.0f})"
-        elif u["e"] == 3:
-            out[u["c"]] = "sırada" if u["w"] == "pending" else "3. surda elendi: " + u["w"]
-        else:
-            out[u["c"]] = f"{u['e']}. surda elendi: {u['w']}"
-    return out
-
-
-def queue(cc, core=None, limit=40):
-    """Sırada bekleyenlerin okuma sırası: önce fiyatı kale olmaya yetenler (dar hendekle, sonra geniş hendekle), sonra en büyükler."""
-    P = load(J("pipeline", "params.json"))
-    core = core or load(J("data", cc, "core.json"))
-    rows = []
-    for u in core["U"]:
-        if not (u["e"] == 3 and u["w"] == "pending"):
-            continue
-        l = core["L2"][u["c"]]
-        mn, mw = funnel.price_test(P, u, l, False)["mos"], funnel.price_test(P, u, l, True)["mos"]
-        rows.append((0 if mn >= P["mos"] else 1 if mw >= P["mos"] else 2, -u["m"], u["c"], u["n"], u["s"], u["m"], mn, mw, u.get("per")))
-    sus = {c for c, _, _ in suspects(core)}
-    rows.sort(key=lambda r: (r[0], 0 if r[2] in sus else 1) + r[1:])   # sınıf içinde önce iki kaynağı tutmayanlar
-    n0, n1 = sum(1 for r in rows if r[0] == 0), sum(1 for r in rows if r[0] == 1)
-    print(f"okuma sırası: {len(rows)} şirket sırada | dar hendekle bile kale olabilecek {n0} | yalnız geniş hendekle kale olabilecek {n1}")
-    for r in rows[:limit]:
-        print(f"  {'A' if r[0] == 0 else 'B' if r[0] == 1 else 'C'}  {r[2]:9} {r[3][:34]:34} {r[4][:22]:22} PD {r[5]:>12,.0f} mn | marj dar %{r[6]:5.0f} geniş %{r[7]:5.0f} | {r[8]}" + ("  ! veri şüpheli" if r[2] in sus else ""))
-    if len(rows) > limit:
-        print(f"  ... ve {len(rows) - limit} şirket daha (tamamı: --queue --all)")
-    return rows
-
-
-def debt_review(cc, core=None, limit=40):
-    """Finansman kolu düzeltmesinin durumu ve yalnız borç testinden elenen şirketler (CLAUDE.md, "Finansman kolu").
-
-    Düzeltmenin kendisi funnel.py içindedir; burada yalnız bakılacak şirketler listelenir. Hiçbir şeyi değiştirmez."""
-    core = core or load(J("data", cc, "core.json"))
-    recs, F = load(J("data", cc, "finarm.json"), {}), core.get("F", {})
-    byc = {u["c"]: u for u in core["U"]}
-    on = [c for c in sorted(F) if F[c].get("on")]
-    off = [c for c in sorted(F) if not F[c].get("on")]
-    if on:
-        print("finansman kolu hariç hesaplananlar: " + ", ".join(f"{c} ({core['L2'][c]['nd']} -> {F[c]['ndx']})" for c in on))
-    if off:
-        print("FİNANSMAN KOLU RAKAMI ESKİDİ, düzeltme uygulanmadı: " + ", ".join(f"{c} (kayıt {F[c].get('per')}, evren {byc[c].get('per')})" for c in off))
-        print("  -> yeni bilanço döneminin rakamlarını oku, data/" + cc + "/finarm.json içine yaz, funnel.py'yi yeniden çalıştır. Rakam bulunamazsa kayda dokunma: sayfa konsolide oranı kullanır ve bunu söyler.")
-    none = set(recs.get("_none", []))                     # bakıldı: içinde tam konsolide finansman şirketi yok
-    gone = [c for c in sorted(recs) if c not in F and not c.startswith("_")]
-    if gone:
-        print("finansman kolu kaydı olup 2. sura gelmeyenler (bilgi): " + ", ".join(gone))
-    only = sorted((-byc[c]["m"], c) for c, l in core["L2"].items() if not l["ok"] and [f["k"] for f in l["fails"]] == ["debt"] and c not in recs and c not in none)
-    if only:
-        print(f"yalnız borç testinden elenen, henüz bakılmamış {len(only)} şirket. İçinde tam konsolide bir finansman şirketi olan varsa finansman kolu kuralı uygulanır; yoksa kodu finarm.json içindeki _none listesine yaz:")
-        for _, c in only[:limit]:
-            u = byc[c]
-            print(f"  {c:9} {u['n'][:34]:34} {u['s'][:22]:22} net borç/FAVÖK {core['L2'][c]['nd']:<5} | {u.get('per')}")
-        if len(only) > limit:
-            print(f"  ... ve {len(only) - limit} şirket daha")
-    if not (off or only):
-        print("borç testinde bakılacak yeni şirket yok.")
-
-
-def apply_fixes(cc, uni, quiet=False):
-    """Şirketin kendi belgesiyle doğrulanmış düzeltmeleri gelen evrene uygular (CLAUDE.md, "Belgeyle düzeltme").
-
-    data/<CC>/fixes.json: {"KOD": {"per": "2026-Q3", "set": {"pb": null, "nb": "neg", "pbs": "doc"}, "mul": {"m": 0.77}, "equity": 364.0,
-                                   "tr": "...", "en": "...", "date": "2026-11-14", "sources": [{"t", "te", "u"}]}}
-    `set` alanları olduğu gibi yazar ve yalnız kaydın `per` dönemi evrendeki bilanço dönemiyle aynıyken geçerlidir: yeni bilanço
-    gelince düzeltme kendiliğinden düşer ve "DÜZELTME ESKİDİ" diye listelenir. `equity` (ana ortaklığa ait özsermaye, milyon) verilirse PD/DD = piyasa değeri ÷ özsermaye olur; eksiyse şirket
-    "özsermaye negatif" işaretlenir. `mul` alanı çarpar (ör. piyasa değerinden özel oy
-    paylarını çıkarmak için adi pay ÷ toplam pay); `per` verilmemişse döneme bağlı değildir. Döner: (uygulananlar, eskiyenler)."""
-    fx = load(J("data", cc, "fixes.json"), {})
-    byc, on, off = {u["c"]: u for u in uni}, [], []
-    for c, f in sorted(fx.items()):
-        if c.startswith("_"):
-            continue
-        u = byc.get(c)
-        if not u:
-            continue
-        if f.get("per") and f["per"] != u.get("per"):
-            off.append((c, f["per"], u.get("per"))); continue
-        for k, v in (f.get("set") or {}).items():
-            if v is None:
-                u[k] = None
-            else:
-                u[k] = v
-        if isinstance(f.get("equity"), (int, float)):      # ana ortaklığa ait özsermaye (milyon, evrenin para birimi): PD/DD = piyasa değeri ÷ özsermaye
-            if f["equity"] > 0:
-                u["pb"], u["pbs"] = round(u["m"] / f["equity"], 3), "doc"; u.pop("nb", None)
-            else:
-                u["pb"], u["pbs"], u["nb"] = None, "doc", "neg"
-        for k, v in (f.get("mul") or {}).items():
-            if isinstance(u.get(k), (int, float)):
-                u[k] = round(u[k] * v, 3 if k != "m" else 1)
-        u["fix"] = 1
-        on.append(c)
-    if not quiet:
-        if on:
-            print("belgeyle düzeltilenler (fixes.json): " + ", ".join(on))
-        if off:
-            print("DÜZELTME ESKİDİ, uygulanmadı: " + ", ".join(f"{c} (kayıt {a}, evren {b})" for c, a, b in off))
-            print("  -> yeni bilançoyu şirketin belgesinden oku: sorun sürüyorsa data/" + cc + "/fixes.json kaydını yeni dönemle güncelle, sürmüyorsa kaydı sil; sonra yeniden çalıştır.")
-    return on, off
-
-
-def suspects(core, tol=0.20):
-    """İki kaynağı birbirini tutmayan şirketler: evrendeki F/K ve PD/DD (tarayıcı) ile oran sayfasındaki güncel F/K ve PD/DD.
-
-    Yalnız 2. suru geçenlere bakılır (okunacak ya da 4. surda olanlar). Hiçbir şeyi elemez; okumadan önce bakılacakları listeler."""
-    out = []
-    for u in core["U"]:
-        if u["e"] < 3:
-            continue
-        l, why = core["L2"].get(u["c"]) or {}, []
-        for k, lab in (("pe", "F/K"), ("pb", "PD/DD")):
-            a, b = u.get(k), l.get(k)
-            if a and b and a > 0 and b > 0 and abs(a / b - 1) > tol:
-                why.append(f"{lab} evren {a:g}, oran sayfası {b:g}")
-        if why:
-            out.append((u["c"], u["n"], "; ".join(why)))
-    return out
+def lenses(core):
+    return {u["c"]: set(u["L"]) for u in core["U"]} if core else {}
 
 
 def listing():
-    rows, held = [], {k["cc"] for k in load(J("pipeline", "countries.json"))["countries"] if k.get("hold")}
-    for cc in sorted(os.listdir(J("data"))):
-        st = load(J("data", cc, "in", "status.json"))
-        if not st or cc in held:                      # kapsam dışı ülke listelenmez (countries.json, `hold`)
-            continue
-        meta = load(J("data", cc, "meta.json"))
-        asof = (meta or {}).get("asof")
-        new = not os.path.exists(J("data", cc, "core.json"))
-        waiting = new or not asof or st["fetched"][:10] > asof
-        h = st.get("history", {})
-        rows.append((cc, "YENİ ÜLKE" if new else "yenileme bekliyor" if waiting else "güncel", st["fetched"][:16], asof or "-", st.get("kept"),
-                     h.get("candidates"), h.get("failed_n"), "tamam" if st.get("ok") else "HATA: " + "; ".join(st.get("errors", []))[:80]))
-    print(f"{'ülke':5} {'durum':18} {'veri':17} {'yayındaki':11} {'şirket':>7} {'aday':>5} {'eksik':>5}  toplayıcı")
-    for r in rows:
-        print(f"{r[0]:5} {r[1]:18} {r[2]:17} {r[3]:11} {str(r[4]):>7} {str(r[5]):>5} {str(r[6]):>5}  {r[7]}")
-    if not rows:
-        print("gelen veri yok")
+    st = load(J("data", "TR", "in", "status.json"), {})
+    meta = load(J("data", "TR", "meta.json"), {})
+    fin = st.get("fin", {})
+    wait = (st.get("fetched") or "")[:10] > (meta.get("accepted") or "")
+    print(f'TR  {"yenileme bekliyor" if wait else "güncel"} | veri {st.get("fetched", "-")[:16]} | yayındaki {meta.get("accepted", "-")} (fiyat {meta.get("asof")}) '
+          f'| şirket {st.get("kept")} | mali tablo {fin.get("have", "-")} (eksik {fin.get("failed_n", "-")}) | {"tamam" if st.get("ok") else "HATA: " + "; ".join(st.get("errors", []))[:120]}')
+
+
+def check(cc):
+    d, i = J("data", cc), J("data", cc, "in")
+    st, uni_new = load(os.path.join(i, "status.json"), {}), load(os.path.join(i, "universe.json"))
+    uni_old = load(os.path.join(d, "universe.json"), [])
+    bad = []
+    if not st.get("ok"):
+        bad.append("toplayıcı hatalı bitti: " + "; ".join(st.get("errors", []))[:300])
+    if not uni_new:
+        bad.append("gelen evren boş")
+        return bad, st
+    if uni_old and abs(len(uni_new) - len(uni_old)) > 0.15 * len(uni_old):
+        bad.append(f"şirket sayısı %15'ten çok değişti: {len(uni_old)} -> {len(uni_new)}")
+    pe = sum(1 for u in uni_new if u.get("pe")) / len(uni_new)
+    if not 0.30 <= pe <= 0.90:
+        bad.append(f"F/K dolu oranı %{100 * pe:.0f} (beklenen %30-%90)")
+    fin = load(os.path.join(i, "fin.json"))
+    if fin is not None:
+        want = sum(1 for u in uni_new if u.get("s") not in funnel.NO_SHEET)
+        have = sum(1 for u in uni_new if u["c"] in fin and fin[u["c"]].get("per") == u.get("per"))
+        if have < 0.6 * want:
+            bad.append(f"mali tablo yalnız {have}/{want} şirkette (bu dönem için)")
+        unit, chk = funnel.fin_unit(uni_new, fin)
+        if unit is None or chk is None or abs(chk - 1) > 0.15:
+            bad.append(f"mali tabloların birimi tutarsız (birim {unit}, ortanca oran {chk}): kalem eşleşmesini denetle (status.json içindeki fin_sample)")
+    return bad, st
 
 
 def accept(cc, dry=False):
-    d, P = J("data", cc), load(J("pipeline", "params.json"))
-    st, uni, mac = load(os.path.join(d, "in", "status.json")), load(os.path.join(d, "in", "universe.json")), load(os.path.join(d, "in", "macro.json"), {})
-    hin = load(os.path.join(d, "in", "history.json"), {})
-    bad = []
-    if not st or not uni:
-        raise SystemExit(f"{cc}: gelen veri yok (data/{cc}/in/). Toplayıcı her gece GitHub'da çalışır.")
-    if not st.get("ok"):
-        bad.append("toplayıcı hatayla bitti: " + "; ".join(st.get("errors", [])))
-    apply_fixes(cc, uni)
-    meta = load(os.path.join(d, "meta.json"))
-    if not meta:
-        print(f"{cc}: meta.json yok. Önce onu yaz (CLAUDE.md, İş A). Toplayıcının önerdiği değerler:")
-        print(json.dumps({k: mac.get(k) for k in ("cur", "pcur", "fx", "mcapMin", "years", "cpi", "cpi_cur", "cpi_src", "cpi_cur_src")}, ensure_ascii=False, indent=1))
-        print("ilk beş şirket (ikinci kaynakla karşılaştır):", json.dumps(st.get("top5"), ensure_ascii=False))
-        raise SystemExit(2)
-    old_uni, old_core = load(os.path.join(d, "universe.json")), load(os.path.join(d, "core.json"))
-    n = len(uni)
-    if old_uni and abs(n / len(old_uni) - 1) > 0.15:
-        bad.append(f"şirket sayısı {len(old_uni)} -> {n}: %15'ten fazla değişti")
-    # F/K doluluk oranı asgari piyasa değerinin üstündeki şirketlerde ölçülür (Alper'in 14 Kasım 2026 kararı): küçük şirketlerin çoğunun
-    # zararda olduğu pazarlarda (Kanada: TSXV, CSE) bütün evrendeki oran veri hatasını değil pazarın yapısını gösterir.
-    bigs = [u for u in uni if (u.get("m") or 0) >= meta.get("mcapMin", 0)]
-    pef = 100 * sum(1 for u in bigs if u.get("pe")) / max(1, len(bigs))
-    pef_all = 100 * sum(1 for u in uni if u.get("pe")) / max(1, n)
-    if pef < 30:                                          # alt sınır: büyük şirketlerde (kaynağın F/K alanı boş geliyorsa burada görünür)
-        bad.append(f"F/K dolu olanların oranı %{pef:.0f} (piyasa değeri asgarinin üstündeki {len(bigs)} şirkette): %30'un altında")
-    if pef_all > 90:                                      # üst sınır: bütün evrende, eskisi gibi (zarar eden şirketler de F/K'lı görünüyorsa)
-        bad.append(f"F/K dolu olanların oranı %{pef_all:.0f} (bütün evrende): %90'ın üstünde")
-    # PD/DD: kârlı ve yeterince büyük şirketlerde defter değeri bilinmeyenlerin oranı (özsermayesi negatif olduğu bilinenler sayılmaz)
-    core1 = [u for u in uni if not u.get("veh") and u.get("pe") and u["pe"] > 0 and u["m"] >= meta.get("mcapMin", 0)]
-    nob = [u for u in core1 if u.get("pb") is None and u.get("nb") != "neg"]
-    if core1 and len(nob) / len(core1) > 0.10:
-        big = ", ".join(u["c"] for u in sorted(nob, key=lambda u: -u["m"])[:6])
-        bad.append(f"kârlı şirketlerin %{100 * len(nob) / len(core1):.0f} kadarında PD/DD yok ({len(nob)}/{len(core1)}; en büyükleri {big}): bunlar yanlış nedenle 1. surda kalırdı. status.json içindeki pb_fix'e bak")
-    h = st.get("history", {})
-    cand, have = h.get("candidates") or 0, sum(1 for c in hin if hin[c])
-    if cand and (cand - have) / cand > 0.30:
-        bad.append(f"adayların %{100 * (cand - have) / cand:.0f} kadarının beş yıllık verisi eksik ({cand - have}/{cand}); adres kalıbını denetle (pipeline/sources.json)")
-    if h.get("blocked"):
-        print("  not: oran sayfası kaynağı istekleri sınırladı; eksikler sonraki gece tamamlanır.")
+    d, i = J("data", cc), J("data", cc, "in")
+    bad, st = check(cc)
+    for b in bad:
+        print("DENETİM TUTMADI:", b)
     if bad:
-        print(f"{cc}: DENETİM TUTMADI, hiçbir şey değiştirilmedi:")
-        for b in bad:
-            print("  -", b)
-        raise SystemExit(1)
-
-    # yerine al (önce yedek)
-    files = ["universe.json", "history.json", "meta.json", "core.json"]
-    backup = {f: open(os.path.join(d, f), encoding="utf-8").read() if os.path.exists(os.path.join(d, f)) else None for f in files}
-    hist = load(os.path.join(d, "history.json"), {})
-    hist.update({c: v for c, v in hin.items() if v})
-    meta["asof"] = st.get("price_date") or st["fetched"][:10]
-    if mac.get("fx"):
-        meta["fx"] = mac["fx"]
-    if mac.get("cpi_cur") is not None:
-        meta.setdefault("cpi", {})["cur"] = mac["cpi_cur"]
-    if st.get("pcur") and st.get("pcur") != st.get("cur"):
-        meta["pcur"] = st["pcur"]
-    if old_uni and "--names" not in sys.argv:              # bilinen şirketin adı korunur (kaynak adları kısaltmalı gelebiliyor)
-        names = {u["c"]: u["n"] for u in old_uni}
-        for u in uni:
-            u["n"] = names.get(u["c"], u["n"])
-    json.dump(uni, open(os.path.join(d, "universe.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=0)
-    json.dump(hist, open(os.path.join(d, "history.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=0)
-    json.dump(meta, open(os.path.join(d, "meta.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-
-    def restore():
-        for f, txt in backup.items():
-            p = os.path.join(d, f)
-            if txt is None:
-                if os.path.exists(p):
-                    os.remove(p)
-            else:
-                open(p, "w", encoding="utf-8").write(txt)
-
+        print("Hiçbir dosya değiştirilmedi. Yayımlama; nedeni çalıştırma özetine yaz.")
+        sys.exit(1)
+    old = load(os.path.join(d, "core.json"))
+    keep = {f: open(os.path.join(d, f), "rb").read() for f in ("universe.json", "fin.json", "meta.json", "core.json") if os.path.exists(os.path.join(d, f))}
     try:
-        new_core = funnel.run(cc)
-    except BaseException:
-        restore(); raise
-    a, b = state(old_core, P), state(new_core, P)
-    if old_core:
-        was = set(u["c"] for u in old_core["U"] if u["e"] >= 3)
-        now = set(u["c"] for u in new_core["U"] if u["e"] >= 3)
-        if len(was) >= 5 and len(was & now) / len(was) < 0.70:
-            restore()
-            print(f"{cc}: DENETİM TUTMADI: 2. suru geçenlerin yalnız %{100 * len(was & now) / len(was):.0f} kadarı aynı kaldı (eşik %70). Veri hatası olabilir; hiçbir şey değiştirilmedi.")
-            print("  çıkanlar:", ", ".join(f"{c} ({b.get(c, 'evrende yok')})" for c in sorted(was - now)))
-            raise SystemExit(1)
-    # özet
-    print(f"\n{cc}: veri {meta['asof']} | kaynak: {st.get('source')}")
-    key = lambda c: c in a and a[c] != b.get(c) and (a[c][:4] in ("kale", "kapı", "sıra", "3. s") or b.get(c, "")[:4] in ("kale", "kapı", "sıra", "3. s"))
-    ch = [c for c in sorted(set(a) | set(b)) if key(c) or (c not in a and b[c][:4] in ("kale", "kapı", "sıra", "3. s"))]
-    if old_core:
-        print("durumu değişenler (2. suru geçenler arasında):" if ch else "2. suru geçenler arasında durumu değişen yok.")
-        for c in ch:
-            print(f"  {c:8} {a.get(c, 'evrende yoktu'):34} -> {b.get(c, 'evrenden çıktı')}")
-    reports = load(os.path.join(d, "reports.json"), {})
-    byc = {u["c"]: u for u in new_core["U"]}
-    old_per = lambda c: reports[c].get("per") and reports[c]["per"] != byc[c].get("per")
-    stale = [c for c in reports if c in byc and byc[c]["e"] == 4 and old_per(c)]
-    stale3 = [c for c in reports if c in byc and byc[c]["e"] == 3 and byc[c]["w"] != "pending" and old_per(c)]
-    pend = [u["c"] for u in new_core["U"] if u["e"] == 3 and u["w"] == "pending"]
-    print("yeni bilançosu gelen, raporu güncellenecekler (kale ve kapıda bekleyenler):", ", ".join(stale) or "-")
-    if stale3:
-        print(f"3. surda elenmiş {len(stale3)} şirketin de yeni bilançosu var; elenme nedeni değişmiş olabilecekleri hak kalırsa yeniden oku:", ", ".join(stale3[:30]))
-    gone = sorted(new_core.get("RX", {}))
-    if gone:
-        print("raporu saklanan, şimdi 1. ya da 2. surda elenenler (sayfada uyarıyla görünür; `one` cümlesi yeni duruma uymalı):", ", ".join(gone))
-    nog = [u["c"] for u in new_core["U"] if u["e"] == 4 and not (reports.get(u["c"]) or {}).get("growth")]
-    oldg = [u["c"] for u in new_core["U"] if u["e"] == 4 and (reports.get(u["c"]) or {}).get("growth") and reports[u["c"]]["growth"].get("per") != u.get("per")]
-    noe = [u["c"] for u in new_core["U"] if u["e"] == 4 and not (reports.get(u["c"]) or {}).get("earn")]
-    if noe:
-        print("KAZANÇ YARGISI EKSİK (4. surdaki her şirkette zorunlu; CLAUDE.md, \"Kazanç yargısı\"):", ", ".join(noe))
-    if nog:
-        print("BÜYÜME YARGISI EKSİK (4. surdaki her şirkette zorunlu; CLAUDE.md, \"Büyüme yargısı\"):", ", ".join(nog))
-    if oldg:
-        print("büyüme yargısı eski bilanço dönemine ait, güncel gerçeklerle yeniden yazılacaklar:", ", ".join(oldg))
-    sus = suspects(new_core)
-    if sus:
-        print(f"VERİ ŞÜPHELİ: {len(sus)} şirkette iki kaynak %20'den fazla ayrışıyor. Okurken önce bunu çöz (bölünme, özel oy payı, azınlık payı, eski bilanço); doğrusu belgeyle bulunursa fixes.json'a yaz:")
-        for c, nm, why in sus[:40]:
-            print(f"  {c:9} {nm[:30]:30} {why}")
-    if pend:
-        queue(cc, new_core, 30)
-    else:
-        print("sırada bekleyen şirket yok.")
-    debt_review(cc, new_core, 15)
-    if dry:
-        restore(); print("(deneme: dosyalar eski haline döndürüldü)")
-    else:
-        print("yerine alındı. Sırada: raporlar, `node pipeline/geo.mjs " + cc + "`, `python3 pipeline/build_site.py`.")
+        shutil.copyfile(os.path.join(i, "universe.json"), os.path.join(d, "universe.json"))
+        if os.path.exists(os.path.join(i, "fin.json")):
+            shutil.copyfile(os.path.join(i, "fin.json"), os.path.join(d, "fin.json"))
+        meta, mac = load(os.path.join(d, "meta.json")), load(os.path.join(i, "macro.json"), {})
+        meta["asof"] = st.get("price_date") or meta.get("asof")
+        meta["accepted"] = (st.get("fetched") or "")[:10]
+        if mac.get("fx"):
+            meta["fx"] = mac["fx"]
+        if mac.get("cpi_cur") is not None:
+            meta.setdefault("cpi", {})["cur"] = mac["cpi_cur"]
+        if mac.get("rates"):
+            meta["rates_in"] = mac["rates"]                 # toplayıcının getirdiği faiz; meta.rates (kaynaklı, elle) önce gelir
+        json.dump(meta, open(os.path.join(d, "meta.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        core = funnel.run(cc)
+        funnel.summary(core)
+        a, b = lenses(old), lenses(core)
+        ins = sorted(c for c in b if b[c] - a.get(c, set()))
+        outs = sorted(c for c in a if a[c] - b.get(c, set()))
+        by = {u["c"]: u for u in core["U"]}
+        if ins:
+            print("merceğe girenler: " + ", ".join(f'{c} ({",".join(sorted(b[c] - a.get(c, set())))})' for c in ins))
+        if outs:
+            print("mercekten çıkanlar: " + ", ".join(f'{c} ({",".join(sorted(a[c] - b.get(c, set())))})' for c in outs))
+        stale = [c for c, w in load(os.path.join(d, "special.json"), {}).items() if w.get("status") in ("active", "pending")]
+        if stale:
+            print("özel durum kayıtları (KAP'tan durumu yeniden bak): " + ", ".join(stale))
+    finally:
+        if dry:
+            for f, b in keep.items():
+                open(os.path.join(d, f), "wb").write(b)
+            if "fin.json" not in keep and os.path.exists(os.path.join(d, "fin.json")):
+                os.remove(os.path.join(d, "fin.json"))
+            print("(deneme: dosyalar eski haline döndürüldü)")
+
+
+def reading(cc, limit=30):
+    """Okuma listesi: mercekten geçen, kırmızı bayrağı henüz bakılmamış şirketler (önce birden çok mercekten geçen, sonra büyükler)."""
+    core = load(J("data", cc, "core.json"))
+    seen = load(J("data", cc, "flags.json"), {})
+    checked = set(load(J("data", cc, "checked.json"), {}).keys())
+    rows = [u for u in core["U"] if u["L"] and u["c"] not in seen and u["c"] not in checked]
+    rows.sort(key=lambda u: (-len(u["L"]), -u["m"]))
+    print(f"okunacak: {len(rows)} şirket (mercekten geçen, kırmızı bayrağa bakılmamış)")
+    for u in rows[:limit]:
+        print(f'  {u["c"]:7} {u["n"][:32]:32} {",".join(u["L"]):10} PD {u["m"]:>10,.0f} mn | F/K {u.get("pe")} | kâr verimi {u.get("ey")}' + ("  ! F/K 2,5 altı" if u.get("eyw") else ""))
 
 
 if __name__ == "__main__":
-    args = sys.argv[1:]
-    if not args or "--list" in args:
+    a = sys.argv[1:]
+    if not a or a[0] == "--list":
         listing()
-    elif "--queue" in args:
-        for cc in [a for a in args if not a.startswith("--")]:
-            queue(cc.upper(), limit=100000 if "--all" in args else 60)
-    elif "--debt" in args:
-        for cc in [a for a in args if not a.startswith("--")]:
-            print(cc.upper() + ":"); debt_review(cc.upper(), limit=100000 if "--all" in args else 40)
+    elif "--read" in a:
+        reading(a[0].upper())
     else:
-        for cc in [a for a in args if not a.startswith("--")]:
-            accept(cc.upper(), dry="--dry" in args)
+        accept(a[0].upper(), dry="--dry" in a)

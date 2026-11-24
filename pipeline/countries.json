@@ -1,7 +1,7 @@
 {
  "source": "https://en.wikipedia.org/wiki/List_of_countries_by_stock_market_capitalization (2026 tablosu); TradingView tarayıcısının kapsadığı ülkelerle kesişim",
  "note": "Sıra: toplam piyasa değeri, büyükten küçüğe. Türkiye ilk taranan ülkedir. 'hold' olan ülkeler otomatik eklenmez.",
- "scope": "Alper'in 23 Kasım 2026 kararı: Castle yalnız Türkiye'yi ve borsası en büyük 10 ülkeyi (ABD, Çin, Japonya, Tayvan, Hindistan, Birleşik Krallık, Güney Kore, Kanada, Fransa, Almanya) tarar. Öbür ülkelerin hepsinde `hold` vardır: toplanmaz, yenilenmez, sitede görünmez. Kapsamı yalnız Alper değiştirir.",
+ "scope": "Alper'in 24 Kasım 2026 kararı: Castle yalnız Türkiye'yi tarar. Öbür ülkelerin hepsinde `hold` vardır: toplanmaz, yenilenmez, sitede görünmez. Öbür on ülkenin verisi aynı gün silindi (git geçmişinde duruyor). Kapsamı yalnız Alper değiştirir.",
  "countries": [
   {
    "cc": "US",
@@ -13,7 +13,8 @@
    "rank": 1,
    "geo": {
     "fitMin": 0.5
-   }
+   },
+   "hold": 1
   },
   {
    "cc": "CN",
@@ -22,7 +23,8 @@
    "name_en": "China",
    "market": "china",
    "mcap_usd_bn": 21170.0,
-   "rank": 2
+   "rank": 2,
+   "hold": 1
   },
   {
    "cc": "JP",
@@ -31,7 +33,8 @@
    "name_en": "Japan",
    "market": "japan",
    "mcap_usd_bn": 8580.0,
-   "rank": 3
+   "rank": 3,
+   "hold": 1
   },
   {
    "cc": "TW",
@@ -40,7 +43,8 @@
    "name_en": "Taiwan",
    "market": "taiwan",
    "mcap_usd_bn": 5340.0,
-   "rank": 4
+   "rank": 4,
+   "hold": 1
   },
   {
    "cc": "IN",
@@ -49,7 +53,8 @@
    "name_en": "India",
    "market": "india",
    "mcap_usd_bn": 4950.0,
-   "rank": 5
+   "rank": 5,
+   "hold": 1
   },
   {
    "cc": "GB",
@@ -58,7 +63,8 @@
    "name_en": "United Kingdom",
    "market": "uk",
    "mcap_usd_bn": 4860.0,
-   "rank": 6
+   "rank": 6,
+   "hold": 1
   },
   {
    "cc": "KR",
@@ -67,7 +73,8 @@
    "name_en": "South Korea",
    "market": "korea",
    "mcap_usd_bn": 4510.0,
-   "rank": 7
+   "rank": 7,
+   "hold": 1
   },
   {
    "cc": "CA",
@@ -76,7 +83,8 @@
    "name_en": "Canada",
    "market": "canada",
    "mcap_usd_bn": 4450.0,
-   "rank": 8
+   "rank": 8,
+   "hold": 1
   },
   {
    "cc": "FR",
@@ -91,7 +99,8 @@
    },
    "sa": {
     "EURONEXT": "quote/epa/{t}"
-   }
+   },
+   "hold": 1
   },
   {
    "cc": "DE",
@@ -100,7 +109,8 @@
    "name_en": "Germany",
    "market": "germany",
    "mcap_usd_bn": 3036.0,
-   "rank": 10
+   "rank": 10,
+   "hold": 1
   },
   {
    "cc": "CH",
@@ -110,7 +120,7 @@
    "market": "switzerland",
    "mcap_usd_bn": 2840.0,
    "rank": 11,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "SA",
@@ -120,7 +130,7 @@
    "market": "ksa",
    "mcap_usd_bn": 2480.0,
    "rank": 12,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "AU",
@@ -130,7 +140,7 @@
    "market": "australia",
    "mcap_usd_bn": 2140.0,
    "rank": 13,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "NL",
@@ -143,7 +153,7 @@
    "sa": {
     "EURONEXT": "quote/ams/{t}"
    },
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "SE",
@@ -153,7 +163,7 @@
    "market": "sweden",
    "mcap_usd_bn": 1420.0,
    "rank": 15,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "ES",
@@ -163,7 +173,7 @@
    "market": "spain",
    "mcap_usd_bn": 1400.0,
    "rank": 16,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "BR",
@@ -173,7 +183,7 @@
    "market": "brazil",
    "mcap_usd_bn": 1200.0,
    "rank": 17,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "AE",
@@ -183,7 +193,7 @@
    "market": "uae",
    "mcap_usd_bn": 1080.0,
    "rank": 18,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "HK",
@@ -193,7 +203,7 @@
    "market": "hongkong",
    "mcap_usd_bn": 1030.0,
    "rank": 19,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "IT",
@@ -203,7 +213,7 @@
    "market": "italy",
    "mcap_usd_bn": 950.0,
    "rank": 20,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "ID",
@@ -213,7 +223,7 @@
    "market": "indonesia",
    "mcap_usd_bn": 940.0,
    "rank": 21,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "BE",
@@ -226,7 +236,7 @@
    "sa": {
     "EURONEXT": "quote/ebr/{t}"
    },
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "SG",
@@ -236,7 +246,7 @@
    "market": "singapore",
    "mcap_usd_bn": 820.0,
    "rank": 23,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "DK",
@@ -246,7 +256,7 @@
    "market": "denmark",
    "mcap_usd_bn": 634.0,
    "rank": 24,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "MX",
@@ -256,7 +266,7 @@
    "market": "mexico",
    "mcap_usd_bn": 627.0,
    "rank": 25,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "RU",
@@ -266,7 +276,7 @@
    "market": "russia",
    "mcap_usd_bn": 602.0,
    "rank": 26,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke). Önceki not: Yaptırımlar nedeniyle veri ve işlem erişimi belirsiz; elle onay gerekir."
+   "hold": 1
   },
   {
    "cc": "TH",
@@ -276,7 +286,7 @@
    "market": "thailand",
    "mcap_usd_bn": 568.0,
    "rank": 27,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "IL",
@@ -286,7 +296,7 @@
    "market": "israel",
    "mcap_usd_bn": 565.0,
    "rank": 28,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "ZA",
@@ -296,7 +306,7 @@
    "market": "rsa",
    "mcap_usd_bn": 552.0,
    "rank": 29,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "NO",
@@ -309,7 +319,7 @@
    "geo": {
     "fitMin": 0.5
    },
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "MY",
@@ -319,7 +329,7 @@
    "market": "malaysia",
    "mcap_usd_bn": 508.0,
    "rank": 31,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "FI",
@@ -329,7 +339,7 @@
    "market": "finland",
    "mcap_usd_bn": 390.0,
    "rank": 32,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "PH",
@@ -339,7 +349,7 @@
    "market": "philippines",
    "mcap_usd_bn": 345.0,
    "rank": 33,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "VN",
@@ -349,7 +359,7 @@
    "market": "vietnam",
    "mcap_usd_bn": 310.0,
    "rank": 34,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "CL",
@@ -359,7 +369,7 @@
    "market": "chile",
    "mcap_usd_bn": 305.0,
    "rank": 35,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "IE",
@@ -372,7 +382,7 @@
    "sa": {
     "EURONEXT": "quote/isedb/{t}"
    },
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "PL",
@@ -382,7 +392,7 @@
    "market": "poland",
    "mcap_usd_bn": 292.0,
    "rank": 37,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "QA",
@@ -392,7 +402,7 @@
    "market": "qatar",
    "mcap_usd_bn": 288.0,
    "rank": 38,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "TR",
@@ -413,7 +423,7 @@
    "market": "austria",
    "mcap_usd_bn": 225.0,
    "rank": 40,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "GR",
@@ -423,7 +433,7 @@
    "market": "greece",
    "mcap_usd_bn": 186.0,
    "rank": 41,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "KW",
@@ -433,7 +443,7 @@
    "market": "kuwait",
    "mcap_usd_bn": 155.0,
    "rank": 42,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "CO",
@@ -443,7 +453,7 @@
    "market": "colombia",
    "mcap_usd_bn": 144.0,
    "rank": 43,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "RO",
@@ -453,7 +463,7 @@
    "market": "romania",
    "mcap_usd_bn": 131.0,
    "rank": 44,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "MA",
@@ -463,7 +473,7 @@
    "market": "morocco",
    "mcap_usd_bn": 111.0,
    "rank": 45,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "AR",
@@ -474,7 +484,7 @@
    "mcap_usd_bn": 105.0,
    "rank": 46,
    "ias29": "2018'den beri; eklerken hangi şirketlerin uyguladığı doğrulanmalı",
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "PT",
@@ -487,7 +497,7 @@
    "sa": {
     "EURONEXT": "quote/elis/{t}"
    },
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "NZ",
@@ -497,7 +507,7 @@
    "market": "newzealand",
    "mcap_usd_bn": 101.0,
    "rank": 48,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "NG",
@@ -507,7 +517,7 @@
    "market": "nigeria",
    "mcap_usd_bn": 91.0,
    "rank": 49,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "PE",
@@ -517,7 +527,7 @@
    "market": "peru",
    "mcap_usd_bn": 85.0,
    "rank": 50,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "HU",
@@ -527,7 +537,7 @@
    "market": "hungary",
    "mcap_usd_bn": 83.0,
    "rank": 51,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "EG",
@@ -537,7 +547,7 @@
    "market": "egypt",
    "mcap_usd_bn": 68.0,
    "rank": 52,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "PK",
@@ -547,7 +557,7 @@
    "market": "pakistan",
    "mcap_usd_bn": 68.0,
    "rank": 53,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "BD",
@@ -557,7 +567,7 @@
    "market": "bangladesh",
    "mcap_usd_bn": 59.0,
    "rank": 54,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "CZ",
@@ -567,7 +577,7 @@
    "market": "czech",
    "mcap_usd_bn": 43.0,
    "rank": 55,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "LU",
@@ -577,7 +587,7 @@
    "market": "luxembourg",
    "mcap_usd_bn": 42.0,
    "rank": 56,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "CY",
@@ -587,7 +597,7 @@
    "market": "cyprus",
    "mcap_usd_bn": 35.0,
    "rank": 57,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "HR",
@@ -597,7 +607,7 @@
    "market": "croatia",
    "mcap_usd_bn": 33.0,
    "rank": 58,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "KE",
@@ -607,7 +617,7 @@
    "market": "kenya",
    "mcap_usd_bn": 26.0,
    "rank": 59,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "SI",
@@ -617,7 +627,7 @@
    "market": "slovenia",
    "mcap_usd_bn": 25.0,
    "rank": 60,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "IS",
@@ -627,7 +637,7 @@
    "market": "iceland",
    "mcap_usd_bn": 21.0,
    "rank": 61,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "BH",
@@ -637,7 +647,7 @@
    "market": "bahrain",
    "mcap_usd_bn": 20.0,
    "rank": 62,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "LK",
@@ -647,7 +657,7 @@
    "market": "srilanka",
    "mcap_usd_bn": 20.0,
    "rank": 63,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "TN",
@@ -657,7 +667,7 @@
    "market": "tunisia",
    "mcap_usd_bn": 12.0,
    "rank": 64,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "LT",
@@ -667,7 +677,7 @@
    "market": "lithuania",
    "mcap_usd_bn": 7.0,
    "rank": 65,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "EE",
@@ -677,7 +687,7 @@
    "market": "estonia",
    "mcap_usd_bn": 6.0,
    "rank": 66,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "BG",
@@ -687,7 +697,7 @@
    "market": "bulgaria",
    "mcap_usd_bn": 5.0,
    "rank": 67,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "RS",
@@ -697,7 +707,7 @@
    "market": "serbia",
    "mcap_usd_bn": 4.0,
    "rank": 68,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "SK",
@@ -707,7 +717,7 @@
    "market": "slovakia",
    "mcap_usd_bn": 3.0,
    "rank": 69,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "LV",
@@ -717,7 +727,7 @@
    "market": "latvia",
    "mcap_usd_bn": 0.5,
    "rank": 70,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke)."
+   "hold": 1
   },
   {
    "cc": "VE",
@@ -727,7 +737,7 @@
    "market": "venezuela",
    "mcap_usd_bn": 0.0,
    "rank": 71,
-   "hold": "Kapsam dışı (Alper'in 23 Kasım 2026 kararı: yalnız Türkiye ve borsası en büyük 10 ülke). Önceki not: Hiperenflasyon ve güvenilir veri eksikliği; elle onay gerekir."
+   "hold": 1
   }
  ],
  "geo_note": "geo.fitMin: görünüm kutusuna girecek kara parçasının ana karaya oranı (varsayılan 0,06). ABD'de Alaska, Fransa'da Guyana, Norveç'te Svalbard kadraja girmesin diye 0,5.",

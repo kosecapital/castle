@@ -1,1 +1,15 @@
-{"roeMin": 12, "eraAvg": 15, "eraMin": 10, "ndMax": 3.0, "ndFlag": 2.0, "r": 10.0, "mos": 25.0, "gWide": 3.0, "gNarrow": 1.5, "gCap": 25.0, "gYears": 10, "gFloor": -10.0, "mosWonder": 0.5, "retMin": 0.15, "roaMin": 1.0}
+{
+ "_note": "Genç Buffett yöntemi (Alper'in 24 Kasım 2026 kararı). Tutarlar milyon TL. Yalnız Alper değiştirir.",
+ "mcapMin": 500,
+ "floatMin": 100,
+ "nnBuy": 0.6667,
+ "nnNear": 1.0,
+ "grCurrent": 1.5,
+ "grDebtWC": 1.1,
+ "grYears": 5,
+ "grPTB": 1.2,
+ "r": 10.0,
+ "bondMult": 2.0,
+ "eyNear": 0.8,
+ "wsMinDays": 7
+}

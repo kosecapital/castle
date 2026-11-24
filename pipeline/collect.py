@@ -380,6 +380,193 @@ def universe_iy(k, meta, st):
     return out, None
 
 
+# ---------------------------------------------------------------- İş Yatırım mali tablolar (Türkiye; Alper'in 24 Kasım 2026 kararı)
+# Genç Buffett yöntemi bilanço ister: net-net (dönen varlıklar − bütün yükümlülükler), cari oran, uzun vadeli borç, beş yıllık kâr, temettü.
+# Kaynak: İş Yatırım'ın şirket kartındaki mali tablolar (KAP'a gönderilen konsolide tablolardan). Bir istekte en çok dört dönem.
+# Kalemler kod ve Türkçe adla tanınır; tanınmayan bir yapı gelirse `fin_sample` içinde ham kalem listesi saklanır.
+MT = "https://www.isyatirim.com.tr/_layouts/15/IsYatirim.Website/Common/Data.aspx/MaliTablo"
+FIN_V = 1                            # kaydın sürümü; eski sürüm yeniden indirilir
+# bilanço tablosu bu gruplardan gelmez (banka, sigorta, finansal kiralama, aracı kurum, varlık yönetim): net-net ve cari oran anlamsız
+NO_SHEET = {"Bankacılık", "Sigorta", "Fin.Kiralama ve Faktoring", "Aracı Kurumlar", "Varlık Yönetim"}
+
+
+def _fold(s):
+    s = (s or "").strip().lower()
+    for a, b in (("ı", "i"), ("İ", "i"), ("i̇", "i"), ("ş", "s"), ("ğ", "g"), ("ç", "c"), ("ö", "o"), ("ü", "u"), ("â", "a"), ("î", "i")):
+        s = s.replace(a, b)
+    return re.sub(r"[^a-z0-9 ]+", " ", s).strip()
+
+
+def mt_get(code, periods, group="XI_29"):
+    """periods: [(yıl, ay)] en çok dört. Dönüş: kalem listesi [(kod, ad, [değer...])]."""
+    import requests
+    ps = (list(periods) + [periods[-1]] * 4)[:4]
+    q = {"companyCode": code, "exchange": "TRY", "financialGroup": group}
+    for i, (y, m) in enumerate(ps, 1):
+        q[f"year{i}"], q[f"period{i}"] = y, m
+    for attempt in range(3):
+        r = requests.get(MT, params=q, headers=dict(UA, **{"x-requested-with": "XMLHttpRequest", "referer": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/sirket-karti.aspx?hisse=" + code}), timeout=60)
+        if r.status_code == 200:
+            j = r.json()
+            vals = j.get("value") if isinstance(j, dict) else None
+            if not vals:
+                return []
+            out = []
+            for it in vals:
+                v = []
+                for i in range(1, len(periods) + 1):
+                    x = it.get(f"value{i}")
+                    try:
+                        v.append(None if x in (None, "", "-") else float(str(x).replace(",", ".")))
+                    except ValueError:
+                        v.append(None)
+                out.append((str(it.get("itemCode") or ""), it.get("itemDescTr") or "", v))
+            return out
+        if r.status_code in (429, 500, 502, 503, 504):
+            time.sleep(4 * (attempt + 1)); continue
+        raise RuntimeError(f"MaliTablo {r.status_code}")
+    raise RuntimeError("MaliTablo yanıt vermedi")
+
+
+def mt_pick(items, j):
+    """Kalem listesinden j. dönemin gereken satırları. Bölüm (dönen, duran, KV, UV, özkaynak, gelir, nakit akışı) sırayla izlenir."""
+    sec, f = None, {}
+    def put(k, v):
+        if k not in f and v is not None:
+            f[k] = v
+    for code, name, vals in items:
+        n, v = _fold(name), vals[j] if j < len(vals) else None
+        top = code[:2].upper()
+        if n.startswith("donen varliklar"):
+            sec = "ca"; put("ca", v); continue
+        if n.startswith("duran varliklar"):
+            sec = "nca"; continue
+        if n.startswith("toplam varliklar"):
+            sec = None; put("ta", v); continue
+        if n.startswith("kisa vadeli yukumlulukler"):
+            sec = "cl"; put("cl", v); continue
+        if n.startswith("uzun vadeli yukumlulukler"):
+            sec = "ncl"; put("ncl", v); continue
+        if n.startswith("ozkaynaklar") or n == "ozsermaye":
+            sec = "eq"; put("eq", v); continue
+        if n.startswith("toplam kaynaklar") or n.startswith("toplam yukumlulukler ve ozkaynaklar"):
+            sec = "end"; continue
+        if top.startswith("3") or top.startswith("4"):
+            sec = "is" if top.startswith("3") else "cf"
+        elif sec == "end":                                 # kaynaklardan sonra gelir tablosu başlar (kodlar beklenenden farklıysa)
+            sec = "is"
+        if "faaliyetlerinden nakit akis" in n or "faaliyetlerden nakit akis" in n:
+            sec = "cf"
+        if sec == "ca":
+            if n.startswith("nakit ve nakit benzerleri"):
+                put("cash", v)
+            elif n.startswith("finansal yatirimlar"):
+                put("fi", v)
+            elif n.startswith("stoklar"):
+                put("inv", v)
+            elif n.startswith("ticari alacaklar"):
+                put("rec", v)
+        elif sec == "nca":
+            if n.startswith("maddi olmayan duran varliklar"):
+                put("intg", v)
+            elif n.startswith("serefiye"):
+                put("gw", v)
+        elif sec == "cl":
+            if n.startswith("finansal borclar"):
+                put("fd_st", v)
+        elif sec == "ncl":
+            if n.startswith("finansal borclar"):
+                put("fd_lt", v)
+        elif sec == "eq":
+            if n.startswith("ana ortakliga ait ozkaynaklar"):
+                put("eqp", v)
+            elif "azinlik" in n or "kontrol gucu olmayan" in n:
+                put("mi", v)
+        elif sec == "is":
+            if n.startswith("donem kari zarari") or n.startswith("donem net kari") or n.startswith("net donem kari"):
+                put("np", v)
+            elif n.startswith("ana ortaklik paylari"):
+                put("npp", v)
+            elif n.startswith("satis gelirleri") or n.startswith("hasilat"):
+                put("rev", v)
+            elif n.startswith("faaliyet kari") or n.startswith("esas faaliyet kari"):
+                put("op", v)
+        elif sec == "cf":
+            if "odenen temettu" in n or "temettu odemeleri" in n:
+                put("div", v)
+    return f
+
+
+def fin_iy(uni, st, cache):
+    """Türkiye: her şirketin son bilançosu, son beş mali yılın kârı ve son yılın temettüsü. Dönem değişmedikçe yeniden indirilmez."""
+    out, got, fail, sample = {}, 0, [], {}
+    today = now().date()
+    for u in sorted(uni, key=lambda u: -u["m"]):
+        c, per = u["c"], u.get("per")
+        if u.get("s") in NO_SHEET:
+            continue
+        prev = cache.get(c)
+        if prev and prev.get("v") == FIN_V and prev.get("per") == per and prev.get("got") and (today - datetime.date.fromisoformat(prev["got"])).days <= 40:
+            out[c] = prev; continue
+        try:
+            m = re.match(r"(\d{1,2})/(\d{4})", str(per or ""))
+            if not m:
+                raise RuntimeError("dönem okunamadı: " + str(per))
+            pm, py = int(m.group(1)), int(m.group(2))
+            fy = py if pm == 12 else py - 1                # son tamamlanmış mali yıl
+            a = mt_get(c, [(py, pm), (fy, 12), (fy - 1, 12), (fy - 2, 12)])
+            time.sleep(0.25)
+            b = mt_get(c, [(fy - 3, 12), (fy - 4, 12), (py - 1, pm), (fy - 5, 12)])
+            time.sleep(0.25)
+            if not a:
+                raise RuntimeError("boş yanıt")
+            if len(sample) < 2:
+                sample[c] = [[k, n] for k, n, _ in a][:160]
+            cur, last = mt_pick(a, 0), mt_pick(a, 1)
+            years = {str(fy): last, str(fy - 1): mt_pick(a, 2), str(fy - 2): mt_pick(a, 3)}
+            if b:
+                years[str(fy - 3)], years[str(fy - 4)], years[str(fy - 5)] = mt_pick(b, 0), mt_pick(b, 1), mt_pick(b, 3)
+            prevq = mt_pick(b, 2) if b else {}
+            sheet = {k: cur.get(k) for k in ("ca", "cash", "fi", "inv", "rec", "ta", "cl", "ncl", "fd_st", "fd_lt", "eq", "eqp", "mi", "intg", "gw")}
+            ent = dict(v=FIN_V, per=per, got=today.isoformat(), fy=str(fy), sheet=sheet,
+                       ytd=dict(np=cur.get("npp", cur.get("np")), rev=cur.get("rev"), div=cur.get("div")),
+                       ytd_prev=dict(np=prevq.get("npp", prevq.get("np")), rev=prevq.get("rev")),
+                       ann={y: dict(np=d.get("npp", d.get("np")), rev=d.get("rev"), div=d.get("div"), eqp=d.get("eqp")) for y, d in years.items()})
+            if sheet.get("ca") is None or sheet.get("eq") is None:
+                raise RuntimeError("bilanço kalemleri tanınmadı")
+            out[c] = ent; got += 1
+        except Exception as e:
+            fail.append([c, repr(e)[:120]])
+            if prev:
+                out[c] = prev
+            if len(fail) >= 25 and got == 0:               # hiçbiri gelmiyorsa ısrar etme
+                st["errors"].append("mali tablolar: ilk 25 istek başarısız: " + fail[0][1])
+                break
+    st["fin"] = dict(have=len(out), fetched=got, failed=fail[:40], failed_n=len(fail))
+    st["fin_sample"] = sample
+    return out
+
+
+def rates_tr(st):
+    """Faiz: 10 yıllık TL devlet tahvili getirisi ve politika faizi (TradingView). Bulunamazsa boş kalır; meta.json'daki `rates` önce gelir."""
+    out = {}
+    for where, t in (("cfd", "TVC:TR10Y"), ("bond", "TVC:TR10Y"), ("global", "TVC:TR10Y"), ("bonds", "TVC:TR10Y")):
+        try:
+            q = tv_quotes([t], where)
+            if q.get(t):
+                out["y10"], out["y10_src"] = round(q[t], 2), f"TradingView {t} ({where})"
+                break
+        except Exception as e:
+            st.setdefault("rate_errors", []).append(f"{where}: {repr(e)[:80]}")
+    try:
+        q = tv_quotes(["ECONOMICS:TRINTR"])
+        if q.get("ECONOMICS:TRINTR"):
+            out["policy"], out["policy_src"] = q["ECONOMICS:TRINTR"], "TradingView ECONOMICS:TRINTR"
+    except Exception as e:
+        st.setdefault("rate_errors", []).append("policy: " + repr(e)[:80])
+    return out
+
+
 # ---------------------------------------------------------------- makro: döviz, enflasyon
 def weo_vintages():
     y, m = now().year, now().month
@@ -691,6 +878,20 @@ def run_one(cc, budget):
         st["pe_filled_pct"] = round(100 * sum(1 for u in uni if u.get("pe")) / max(1, len(uni)), 1)
         st["top5"] = [dict(c=u["c"], n=u["n"], p=u["p"], m=u["m"], pe=u["pe"], pb=u["pb"], per=u["per"]) for u in sorted(uni, key=lambda u: -u["m"])[:5]]
         mac = macro(cc, k, st, fx_main, years)
+        if (meta or {}).get("source") == "isyatirim" or k.get("source") == "isyatirim":
+            # Türkiye (genç Buffett yöntemi): faiz ve mali tablolar; stockanalysis sayfaları artık indirilmez
+            mac["rates"] = rates_tr(st)
+            dump(mac, os.path.join(d, "macro.json"), indent=1)
+            dump(uni, os.path.join(d, "universe.json"), indent=0)
+            fin = fin_iy(uni, st, load(os.path.join(d, "fin.json"), {}) or load(J("data", cc, "fin.json"), {}))
+            dump(fin, os.path.join(d, "fin.json"), indent=0)
+            st["ok"] = st["fin"]["have"] >= 0.6 * sum(1 for u in uni if u.get("s") not in NO_SHEET)
+            if not st["ok"]:
+                st["errors"].append(f"mali tablolar eksik: {st['fin']['have']} şirket")
+            dump(st, os.path.join(d, "status.json"), indent=1)
+            print(f"{cc}: {'tamam' if st['ok'] else 'HATA'} | şirket {st.get('kept')} | mali tablo {st['fin']['have']} (indirilen {st['fin']['fetched']}, "
+                  f"eksik {st['fin']['failed_n']}) | faiz {mac['rates']} | hata {st['errors']}")
+            return st, 0
         dump(mac, os.path.join(d, "macro.json"), indent=1)
         try:
             pre, got0 = pb_fill(cc, k, uni, meta, mac, st, budget)

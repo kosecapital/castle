@@ -1,8 +1,8 @@
 {
  "focus": "TR",
  "cadence": {
-  "tr": "Castle Türkiye'yi ve borsası en büyük 10 ülkeyi tarar; her cumartesi yenilenir.",
-  "en": "Castle covers Türkiye and the 10 countries with the largest stock markets; it is refreshed every Saturday."
+  "tr": "Castle Borsa İstanbul'u genç Buffett'ın yöntemiyle tarar; veri her gün yenilenir.",
+  "en": "Castle screens Borsa İstanbul the way young Buffett did; the data is refreshed daily."
  },
  "artifact": "https://claude.ai/artifact/5fysJtUP4cGS1TFpGZvs2T",
  "counter": "https://kose-sayac.falling-flower-8099.workers.dev"

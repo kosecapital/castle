@@ -1,0 +1,244 @@
+{
+ "KARTN": {
+  "n": "Kartonsan Karton Sanayi ve Ticaret A.Ş.",
+  "type": "zpat",
+  "offer": 130.0,
+  "offerer": "Hasan Peker ve Aydın Veli Serin (birlikte hareket)",
+  "announced": "2026-07-07",
+  "spk": null,
+  "start": null,
+  "end": null,
+  "pay": null,
+  "status": "pending",
+  "tr": "%77,21 pay 31 Temmuz 2026'da devredildi; 130,00 TL'lik zorunlu teklif için 6 Ağustos 2026'da SPK'ya başvuruldu, onay ve takvim henüz açıklanmadı (bilgi formunda nihai fiyat, 91,3332 TL ortalama ile dolar bazlı tutarın yükseğine bağlı; şirketin metni 130 TL'yi belirlenen fiyat olarak veriyor).",
+  "en": "A 77.21% stake changed hands on 31 July 2026; a mandatory offer at 130.00 TL was filed with the CMB on 6 August 2026, but approval and the timetable have not been announced.",
+  "sources": [
+   {
+    "t": "Kartonsan: Zorunlu pay alım teklifi SPK başvurusu, özel durum açıklaması (6 Ağustos 2026)",
+    "te": "Kartonsan: mandatory tender offer CMB application, material event disclosure (6 August 2026)",
+    "u": "https://www.kartonsan.com.tr/files/ozeldurum/06082026-Tarihli-Ozel-Durum-Aciklamasi-Zorunlu-Pay-Alim-SPK-Basvurusu-TR.pdf",
+    "primary": true
+   },
+   {
+    "t": "Kartonsan: Pay devri tamamlandı, KAP açıklaması (31 Temmuz 2026)",
+    "te": "Kartonsan: share transfer completed, KAP disclosure (31 July 2026)",
+    "u": "https://www.kartonsan.com.tr/files/ozeldurum/31072026-Tarihli-Taslak-KAP-Aciklamasi-Pay-Devri-TR.pdf",
+    "primary": true
+   }
+  ]
+ },
+ "SEGMN": {
+  "n": "Seğmen Kardeşler Gıda Üretim ve Ambalaj A.Ş.",
+  "type": "zpat",
+  "offer": 38.9,
+  "offerer": "Altun Gıda A.Ş. ve GMS Yatırım Holding A.Ş.",
+  "announced": "2026-06-30",
+  "spk": null,
+  "start": null,
+  "end": null,
+  "pay": null,
+  "status": "pending",
+  "tr": "%74,85 payın devri iki aşamada tamamlandı (30 Haziran ve 30 Eylül 2026); B grubu paylar için 38,90 TL'lik teklifin bilgi formu SPK onayını bekliyor, 2026/59-84 bültenlerinde onay görülmedi.",
+  "en": "The 74.85% stake transfer closed in two stages (30 June and 30 September 2026); the 38.90 TL offer for B shares awaits CMB approval, which does not appear in bulletins 2026/59-84.",
+  "sources": [
+   {
+    "t": "Borsatek: SEGMN'de yüzde 74,85'lik hisse devri ve zorunlu alım teklifi (8 Temmuz 2026)",
+    "te": "Borsatek: 74.85% share transfer and mandatory offer at SEGMN (8 July 2026)",
+    "u": "https://www.borsatek.com/segmn-hisse-devri-zorunlu-pay-alim-teklifi/",
+    "primary": false
+   },
+   {
+    "t": "Dünya: Seğmen Kardeşler hisse devrinde çağrı fiyatı belirlendi (2026)",
+    "te": "Dünya: Seğmen Kardeşler tender price set (2026)",
+    "u": "https://www.dunya.com/finans/haberler/segmen-kardesler-hisse-devrinde-cagri-fiyati-belirlendi-haberi-831479",
+    "primary": false
+   },
+   {
+    "t": "Midas: SEGMN haberleri (ikinci aşama kapanışı 30 Eylül 2026)",
+    "te": "Midas: SEGMN news (second-stage closing 30 September 2026)",
+    "u": "https://www.getmidas.com/canli-borsa/segmn-hisse/haber/",
+    "primary": false
+   }
+  ]
+ },
+ "HKTM": {
+  "n": "Hidropar Hareket Kontrol Teknolojileri Merkezi Sanayi ve Ticaret A.Ş.",
+  "type": "zpat",
+  "offer": 12.72,
+  "offerer": "Süleyman Şemdinoğlu",
+  "announced": "2026-08-21",
+  "spk": null,
+  "start": null,
+  "end": null,
+  "pay": null,
+  "status": "pending",
+  "tr": "Pay devri 26 Ağustos 2026'da tamamlandı, 2 Eylül 2026'da SPK'ya başvuruldu; 12,72 TL taban fiyattır, teklif başlamadan önceki günün dolar kuru daha yüksek tutar verirse o uygulanır; SPK onayı henüz yok.",
+  "en": "The share transfer closed on 26 August 2026 and the offer was filed with the CMB on 2 September 2026; 12.72 TL is a floor that rises if the USD-based amount is higher on the day before the offer; no CMB approval yet.",
+  "sources": [
+   {
+    "t": "KAP: Hidropar özel durum açıklaması, zorunlu pay alım teklifi başvurusu (2 Eylül 2026)",
+    "te": "KAP: Hidropar disclosure, mandatory tender offer application (2 September 2026)",
+    "u": "https://kap.org.tr/tr/Bildirim/1657527",
+    "primary": true
+   },
+   {
+    "t": "Investing.com: Hidropar hakim ortağından 12,72 TL'lik zorunlu pay alım teklifi (3 Eylül 2026)",
+    "te": "Investing.com: Hidropar controlling shareholder's 12.72 TL mandatory offer (3 September 2026)",
+    "u": "https://tr.investing.com/news/global-filings/hidropar-hakim-ortagndan-1272-tllik-zorunlu-pay-alm-teklifi-93CH-4053432",
+    "primary": false
+   }
+  ]
+ },
+ "PRZMA": {
+  "n": "Prizma Pres Matbaacılık Yayıncılık Sanayi ve Ticaret A.Ş.",
+  "type": "zpat",
+  "offer": 23.5,
+  "offerer": "DLT Turizm ve Ticaret A.Ş. (Tera Yatırım Teknoloji Holding'in dolaylı bağlı ortaklığı)",
+  "announced": "2026-06-29",
+  "spk": null,
+  "start": null,
+  "end": null,
+  "pay": null,
+  "status": "pending",
+  "tr": "23,50 TL'lik teklif için 24 Ağustos 2026'da SPK'ya başvuruldu ama onay yok; teklif sahibi Tera grubuna bağlı ve Tera grubu SPK yaptırımları ile TMSF kayyumu altında olduğu için teklifin yapılması belirsiz (PEKGY'de Tera teklifi ödemedi).",
+  "en": "A 23.50 TL offer was filed with the CMB on 24 August 2026 but is not approved; the offerer belongs to the Tera group, now under CMB sanctions and a TMSF trustee, so the offer may never be made (Tera did not pay the PEKGY offer).",
+  "sources": [
+   {
+    "t": "Investing.com: Tera Yatırım, PRZMA için 23,50 TL zorunlu teklif yaptı (24 Ağustos 2026)",
+    "te": "Investing.com: Tera files 23.50 TL mandatory offer for PRZMA (24 August 2026)",
+    "u": "https://tr.investing.com/news/global-filings/son-dakika-tera-yatrm-przma-icin-2350-tl-zorunlu-teklif-yapt-93CH-4042366",
+    "primary": false
+   },
+   {
+    "t": "Midas: PRZMA haberleri (24 Ağustos 2026)",
+    "te": "Midas: PRZMA news (24 August 2026)",
+    "u": "https://www.getmidas.com/canli-borsa/przma-hisse/haber/",
+    "primary": false
+   },
+   {
+    "t": "Sol: TMSF, Tera Holding'e kayyım olarak atandı (2026)",
+    "te": "Sol: TMSF appointed trustee to Tera Holding (2026)",
+    "u": "https://haber.sol.org.tr/haber/tmsf-tera-holdinge-kayyim-olarak-atandi-415176",
+    "primary": false
+   }
+  ]
+ },
+ "ALCAR": {
+  "n": "Alarko Carrier Sanayi ve Ticaret A.Ş.",
+  "type": "zpat",
+  "offer": null,
+  "offerer": "Alarko Holding A.Ş.",
+  "announced": "2026-08-07",
+  "spk": null,
+  "start": null,
+  "end": null,
+  "pay": null,
+  "status": "pending",
+  "tr": "Alarko Holding, Carrier'ın %42,03 payını hisse başına 3,70 dolara alıyor (Rekabet Kurumu onayı alındı, kapanış 7 Şubat 2027'ye kadar); kapanıştan sonra %15,94 halka açık paya zorunlu teklif yapılacak, fiyat mevzuata göre son altı ayın ortalamasından düşük olamaz ve henüz belirlenmedi.",
+  "en": "Alarko Holding is buying Carrier's 42.03% stake at USD 3.70 per share (competition approval received, closing due by 7 February 2027); a mandatory offer to the 15.94% free float follows closing, its price is not yet set and cannot be below the six-month average.",
+  "sources": [
+   {
+    "t": "Investing.com: Alarko Holding, Alarko Carrier hisse alımında Rekabet Kurumu onayı aldı (16 Kasım 2026)",
+    "te": "Investing.com: Alarko Holding gets competition approval for Alarko Carrier stake (16 November 2026)",
+    "u": "https://tr.investing.com/news/global-filings/alarko-holding-alarko-carrier-hisse-almnda-rekabet-kurumu-onay-ald-93CH-4158363",
+    "primary": false
+   },
+   {
+    "t": "Endeks24: Alarko Carrier payı borsa fiyatının üçte birine satılıyor (12 Ekim 2026)",
+    "te": "Endeks24: Alarko Carrier stake sold at a third of the market price (12 October 2026)",
+    "u": "https://www.endeks24.com/alarko-carrier-payi-borsa-fiyatinin-ucte-birine-satiliyor",
+    "primary": false
+   }
+  ]
+ },
+ "BIOEN": {
+  "n": "Biotrend Çevre ve Enerji Yatırımları A.Ş.",
+  "type": "exit",
+  "offer": 17.52,
+  "offerer": "Biotrend (ayrılma hakkı; Kantur-Akdaş İnşaat Gıda'yı devralma yoluyla birleşme)",
+  "announced": "2026-04-16",
+  "spk": null,
+  "start": null,
+  "end": null,
+  "pay": null,
+  "status": "pending",
+  "tr": "Birleşme 23 Kasım 2026'da yönetim kurulunca onaylandı ve SPK'ya başvuruldu; 17,52 TL'lik ayrılma hakkı yalnız 16 Nisan 2026'da pay sahibi olup genel kurulda ret oyu veren ve muhalefet şerhi yazdırana tanınır, toplam maliyet 100 milyon TL'yi aşarsa birleşmeden vazgeçilebilir.",
+  "en": "The board approved the merger and filed with the CMB on 23 November 2026; the 17.52 TL exit right is only for holders on 16 April 2026 who vote against at the general meeting, and the merger may be dropped if exits cost over 100 million TL.",
+  "sources": [
+   {
+    "t": "Borsatek: Biotrend, Kantur-Akdaş'ı devralma yoluyla birleşmeyi onayladı (23 Kasım 2026)",
+    "te": "Borsatek: Biotrend approves merger by absorbing Kantur-Akdaş (23 November 2026)",
+    "u": "https://www.borsatek.com/bioen-biotrend-kantur-akdas-birlesme/",
+    "primary": false
+   },
+   {
+    "t": "hisse.net: Borsa İstanbul ve ekonomi gelişmeleri (23 Kasım 2026)",
+    "te": "hisse.net: Borsa Istanbul and economy news (23 November 2026)",
+    "u": "https://hisse.net/haber/borsa-istanbul-ve-ekonomi-gelismeleri-pay-alim-satimlar-sirket-ve-viop-haberleri-108505",
+    "primary": false
+   }
+  ]
+ },
+ "MARMR": {
+  "n": "Marmara Holding A.Ş.",
+  "type": "exit",
+  "offer": 2.6,
+  "offerer": "Marmara Holding (ayrılma hakkı; Polisan Kansai Boya'daki %50 payın 93 milyon dolara Kansai Paint'e satışı)",
+  "announced": null,
+  "spk": null,
+  "start": "2026-11-05",
+  "end": "2026-11-18",
+  "pay": "2026-11-19",
+  "status": "done",
+  "tr": "Ayrılma hakkı 5-18 Kasım 2026 arasında 2,60 TL'den kullanıldı; 82,04 milyon TL nominal pay için 213,3 milyon TL ödendi ve ödemeler 19 Kasım 2026'da tamamlandı.",
+  "en": "The exit right was exercised at 2.60 TL between 5 and 18 November 2026; 213.3 million TL was paid for 82.04 million TL nominal shares and payment was completed on 19 November 2026.",
+  "sources": [
+   {
+    "t": "KAP: Marmara Holding ayrılma hakkı kullanımının tamamlanması (19 Kasım 2026)",
+    "te": "KAP: Marmara Holding exit right completed (19 November 2026)",
+    "u": "https://kap.org.tr/tr/Bildirim/1700445",
+    "primary": true
+   },
+   {
+    "t": "Borsatek: Marmara Holding'de ayrılma hakkı 5 Kasım'da başlıyor (2026)",
+    "te": "Borsatek: Marmara Holding exit right starts 5 November (2026)",
+    "u": "https://www.borsatek.com/marmr-ayrilma-hakki-baslangici/",
+    "primary": false
+   }
+  ]
+ },
+ "PEKGY": {
+  "n": "Peker Gayrimenkul Yatırım Ortaklığı A.Ş.",
+  "type": "zpat",
+  "offer": 18.77,
+  "offerer": "Tera Yatırım Holding A.Ş.",
+  "announced": "2026-05-13",
+  "spk": "2026-09-09",
+  "start": "2026-09-16",
+  "end": "2026-09-29",
+  "pay": null,
+  "status": "cancelled",
+  "tr": "SPK'nın onayladığı 18,77 TL'lik zorunlu teklif yapıldı ama Tera ödemeyi yerine getirmedi; SPK 19 Ekim 2026'da bunu tespit etti, şirkete TMSF kayyumu atandı ve süreç 9 Kasım 2026'daki açıklamayla sona erdi; pay sahiplerinin alacağı hukuki yoldan takip edilebilir.",
+  "en": "The CMB-approved 18.77 TL mandatory offer ran but Tera did not pay; the CMB recorded this on 19 October 2026, a TMSF trustee was appointed and the process ended with a 9 November 2026 disclosure; holders may pursue claims in court.",
+  "sources": [
+   {
+    "t": "KAP: Tera Yatırım, Pay Alım Teklifi Yoluyla Pay Toplanmasına İlişkin Bildirim (14 Eylül 2026)",
+    "te": "KAP: Tera Yatırım, tender offer notice (14 September 2026)",
+    "u": "https://kap.org.tr/tr/Bildirim/1662622",
+    "primary": true
+   },
+   {
+    "t": "SPK Bülteni 2026/71 (19 Ekim 2026)",
+    "te": "CMB Bulletin 2026/71 (19 October 2026)",
+    "u": "https://spk.gov.tr/data/6ad64df08f95db044893e5bc/2026-71.pdf",
+    "primary": true
+   },
+   {
+    "t": "Paraajansı: KAP bülteni 9 Kasım 2026",
+    "te": "Paraajansi: KAP bulletin 9 November 2026",
+    "u": "https://paraajansi.com.tr/gundem/kap-bulteni-borsa-sirket-ve-hisse-haberleri-9-kasim-pazartesi-22231521h",
+    "primary": false
+   }
+  ]
+ }
+}
