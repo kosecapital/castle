@@ -1,56 +1,56 @@
 {
  "TUKAS": {
   "date": "2026-11-24",
-  "per": null,
+  "per": "9/2026",
   "tr": "SPK kararı yalnız işlem yapan kişilere yönelik: 16 Kasım 2026'da 2 kişiye 6 ay geçici işlem yasağı; şirket ya da yönetimi hakkında karar yok. Kayyım ve borsa tedbiri bulunmadı.",
   "en": "The CMB action targets traders only: 2 people got 6-month temporary trading bans on 16 November 2026; no action against the company or its management. No trustee or exchange measure found.",
   "note": "Light, trader-level SPK action (bulletin 81); flag only if the main session treats any stock-level manipulation as disqualifying."
  },
  "BTCIM": {
   "date": "2026-11-24",
-  "per": null,
+  "per": "6/2026",
   "tr": "SPK kararı yalnız işlem yapan kişilere yönelik: 20 Kasım 2026'da BR Madencilik'e 6 ay geçici işlem yasağı (Ekim 2025'te bir kişiye BTCIM/BSOKE işlemleri için ceza); şirket ya da yönetimi hakkında karar yok. Kayyım ve borsa tedbiri bulunmadı.",
   "en": "The CMB action targets traders only: BR Madencilik got a 6-month temporary trading ban on 20 November 2026 (one person fined over BTCIM/BSOKE trading in October 2025); no action against the company or its management. No trustee or exchange measure found.",
   "note": "Light, trader-level SPK action (bulletin 83); flag only if the main session treats any stock-level manipulation as disqualifying."
  },
  "EUKYO": {
   "date": "2026-11-24",
-  "per": null,
+  "per": "9/2026",
   "tr": "SPK kararı yalnız işlem yapan kişilere yönelik: 23 Kasım 2026'da bir kişiye 6 ay geçici işlem yasağı (Ekim 2025'te 7 kişiye ceza); şirket ya da yönetimi hakkında karar yok. Kayyım ve borsa tedbiri bulunmadı.",
   "en": "The CMB action targets traders only: one person got a 6-month temporary ban on 23 November 2026 (7 people fined in October 2025); no action against the company or its management. No trustee or exchange measure found.",
   "note": "Light, trader-level SPK action (bulletin 84); flag only if the main session treats any stock-level manipulation as disqualifying."
  },
  "CEMZY": {
   "date": "2026-11-24",
-  "per": null,
+  "per": "9/2026",
   "tr": "SPK kararı yalnız işlem yapan kişilere yönelik: Nisan 2026'da 4 kişiye 6 ay geçici işlem yasağı; şirket ya da yönetimi hakkında karar yok. Kayyım ve borsa tedbiri bulunmadı.",
   "en": "The CMB action targets traders only: 4 people got 6-month temporary bans in April 2026; no action against the company or its management. No trustee or exchange measure found.",
   "note": "Light, trader-level SPK action (bulletin 28); flag only if the main session treats any stock-level manipulation as disqualifying."
  },
  "BJKAS": {
   "date": "2026-11-24",
-  "per": null,
+  "per": "3/2026",
   "tr": "SPK kararı yalnız işlem yapan kişilere yönelik: Ocak 2026'da 8 kişiye BJKAS işlemleri için yüksek tutarlı piyasa bozucu eylem cezası; şirket ya da yönetimi hakkında karar yok. Kayyım ve borsa tedbiri bulunmadı.",
   "en": "The CMB action targets traders only: 8 people received large market-disruption fines over BJKAS trading in January 2026; no action against the company or its management. No trustee or exchange measure found.",
   "note": "Light, trader-level SPK action (bulletin 4); flag only if the main session treats any stock-level manipulation as disqualifying."
  },
  "ESCAR": {
   "date": "2026-11-24",
-  "per": null,
+  "per": "9/2026",
   "tr": "SPK kararı yalnız işlem yapan kişilere yönelik: Şubat 2026'da 19 kişiye ESCAR işlemleri için piyasa bozucu eylem cezası; şirket ya da yönetimi hakkında karar yok. Kayyım ve borsa tedbiri bulunmadı.",
   "en": "The CMB action targets traders only: 19 people were fined over ESCAR trading in February 2026; no action against the company or its management. No trustee or exchange measure found.",
   "note": "Light, trader-level SPK action (bulletin 6); flag only if the main session treats any stock-level manipulation as disqualifying."
  },
  "ASTOR": {
   "date": "2026-11-24",
-  "per": null,
+  "per": "9/2026",
   "tr": "SPK Ocak 2026'da içsel bilgi niteliğindeki sözleşme açıklamalarını geç yaptığı için şirkete 0,74 milyon TL ceza verdi; başka gündem bulunmadı.",
   "en": "In January 2026 the CMB fined the company 0.74 million TL for late disclosure of contracts that were inside information; nothing else on the agenda.",
   "note": "Disclosure fine only (bulletin 2026/3)."
  },
  "GUBRF": {
   "date": "2026-11-24",
-  "per": null,
+  "per": "9/2026",
   "tr": "SPK Nisan 2026'da 2022-2023 özel durum açıklamaları yanıltıcı ve eksik olduğu için şirkete 0,38 milyon TL ceza verdi; başka gündem bulunmadı.",
   "en": "In April 2026 the CMB fined the company 0.38 million TL for misleading and incomplete disclosures in 2022-2023; nothing else on the agenda.",
   "note": "Disclosure fine only (bulletin 2026/28)."
@@ -64,28 +64,28 @@
  },
  "LRSHO": {
   "date": "2026-11-24",
-  "per": null,
+  "per": "9/2026",
   "tr": "SPK Ocak 2026'da sermaye artırımı fon kullanım raporlarını geç yayımladığı için şirkete ve iki kişiye toplam 3,2 milyon TL ceza verdi.",
   "en": "In January 2026 the CMB fined the company and two people 3.2 million TL for publishing use-of-proceeds reports late.",
   "note": "Reporting-deadline fine (bulletin 2026/3); main session may treat as governance flag."
  },
  "GESAN": {
   "date": "2026-11-24",
-  "per": null,
+  "per": "9/2026",
   "tr": "SPK Haziran 2026'da 2021 izahnamesinde süren bir davayı yazmadığı için şirkete ve iki kişiye ceza verdi.",
   "en": "In June 2026 the CMB fined the company and two people for omitting a pending lawsuit from its 2021 prospectus.",
   "note": "Prospectus-omission fine (bulletin 2026/41)."
  },
  "EUPWR": {
   "date": "2026-11-24",
-  "per": null,
+  "per": "9/2026",
   "tr": "SPK Haziran 2026'da 2023 izahnamesinde süren bir davayı yazmadığı için şirkete 1,9 milyon TL, üç kişiye ayrı ayrı ceza verdi.",
   "en": "In June 2026 the CMB fined the company 1.9 million TL and three people for omitting a pending lawsuit from its 2023 prospectus.",
   "note": "Prospectus-omission fine (bulletin 2026/41)."
  },
  "KUYAS": {
   "date": "2026-11-24",
-  "per": null,
+  "per": "6/2026",
   "tr": "SPK Ekim 2025'te yanıltıcı ve eksik KAP açıklamaları için şirkete 3,9 milyon TL, Ocak 2026'da bir kişiye KUYAS işlemleri için ceza verdi.",
   "en": "The CMB fined the company 3.9 million TL in October 2025 for misleading KAP disclosures and fined a trader over KUYAS in January 2026.",
   "note": "Disclosure fine on company (bulletin 2025/56) plus trader fine (2026/4); borderline."
@@ -722,5 +722,118 @@
   "per": "9/2026",
   "tr": "9 aylık net kâr 232 milyon TL, faaliyet kârı 254 milyon TL; tek seferlik kalem görülmedi.",
   "en": "Nine-month net profit was 232 million TL against operating profit of 254 million TL; no one-off item seen."
+ },
+ "ISDMR": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 ay 2026 net kârı 12,46 milyar TL; 2. çeyrekteki 5,44 milyar TL ertelenmiş vergi geliri son 12 ay kârının yarısının altında kalıyor; SPK ve borsa tedbiri bulunmadı.",
+  "en": "9M 2026 net profit was 12.46 billion TL; the 5.44 billion TL deferred tax income booked in Q2 is below half of trailing profit; no SPK or exchange measure found.",
+  "note": "Deferred tax income 5,441m TL (Ahlatcı Q2 2026 note: ~70% of H1 profit) is ~44% of 9M profit and roughly 40% of TTM (Q4 2025 not checked exactly). Below the half threshold but close; sources: cnbce.com 22 Oct 2026, ahlatciyatirim.com.tr ISDMR_26Q2 PDF."
+ },
+ "MEGMT": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 ay 2026 net kârı 894 milyon TL, esas faaliyet kârı 980 milyon TL; tek seferlik kalem görülmedi; şirkete özel SPK ve borsa tedbiri bulunmadı (yalnız oynaklık kaynaklı devre kesiciler).",
+  "en": "9M 2026 net profit 894 million TL against operating profit of 980 million TL; no one-off item seen; no company-specific SPK or exchange measure (only volatility circuit breakers).",
+  "note": "18 Nov 2026 'SPK İşlem Yasağı Nedeniyle Pay Duyurusu' is the generic MKK list (~190 firms), not a company measure."
+ },
+ "ARSAN": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "Holding kârı ağırlıkla özkaynak yöntemiyle değerlenen iştiraklerin payından ve net parasal pozisyon kazancından geliyor (1. çeyrek 2026); satış ya da değerleme kazancı görülmedi; SPK ve borsa tedbiri bulunmadı.",
+  "en": "The holding's profit comes mainly from its share of equity-accounted associates and net monetary gain (Q1 2026); no sale or revaluation gain seen; no SPK or exchange measure found.",
+  "note": "9M 2026 breakdown not seen (only Q1 2026 KAP report 1605404: op profit 7.1m, equity-method share 591m, monetary gain 158m, net 527m). Controlling holder Farsan İnşaat buying shares alongside company buyback (Oct-Nov 2026)."
+ },
+ "FRMPL": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 ay 2026 net kârı 256 milyon TL; esas faaliyet kârı vergi öncesi kârdan yüksek, tek seferlik kalem yok; SPK ve borsa tedbiri bulunmadı.",
+  "en": "9M 2026 net profit 256 million TL; operating profit exceeds pre-tax profit, no one-off item; no SPK or exchange measure found."
+ },
+ "MEPET": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "Son 12 ay net kârı (128 milyon TL) esas faaliyet kârının (349 milyon TL) altında, tek seferlik kalem görülmedi; son 12 ayda şirkete yönelik SPK ya da borsa tedbiri bulunmadı.",
+  "en": "Trailing net profit (128 million TL) is below operating profit (349 million TL), no one-off item seen; no SPK or exchange measure on the company in the last 12 months.",
+  "note": "Metro group company historically linked to Galip Öztürk (fugitive, life sentence; SPK froze Metro accounts over ALBRK in Feb 2019). Current ownership not verified; no new event found in last 12 months. 9M 2026 statement itself not read (stockanalysis TTM Jun 2026)."
+ },
+ "BRKO": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 ay 2026 net zararı 58,7 milyon TL; son 12 ay kârı 2025'in son çeyreğinden (yaklaşık 331 milyon TL) geliyor, onun da çoğu net parasal pozisyon kazancı; 2026'daki 114 milyon TL pazarlıklı satın alım kazancı son 12 ay kârının yarısının altında.",
+  "en": "9M 2026 net loss of 58.7 million TL; trailing profit comes from Q4 2025 (about 331 million TL), mostly net monetary gain; the 114 million TL bargain purchase gain in 2026 is below half of trailing profit.",
+  "note": "Borderline. Q4 2025 = FY2025 171.7m minus 9M2025 -159.2m; FY2025 monetary gain 162.5m. 9M 2026: op profit 101m, investing income 163m (incl. 114.2m bargain purchase gain from Neva Capital acquisition), finance expense 339m. Bargain gain ~42% of TTM (~272m). Current liabilities exceed current assets (H1 2026). Sources: foreks 9 Nov 2026, ekofin gelir tablosu, KAP file 4028328ca0b8418601a0d96ee2f23d41."
+ },
+ "FONET": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "9 ay 2026 net kârı 208 milyon TL, esas faaliyet kârı 266 milyon TL; yatırım faaliyeti geliri önemsiz, tek seferlik kalem yok; SPK ve borsa tedbiri bulunmadı.",
+  "en": "9M 2026 net profit 208 million TL against operating profit of 266 million TL; investing income negligible, no one-off item; no SPK or exchange measure found."
+ },
+ "ORGE": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "Dokuz ay net kârı 710 milyon TL (önceki 440 milyon TL), elektrik taahhüt işinden; ilk yarıda ertelenmiş vergi gideri var, geliri yok, değerleme kazancı yok; sınırlı denetimde süreklilik vurgusu yok; şirkete SPK ya da borsa tedbiri bulunmadı.",
+  "en": "9M net profit 710 million TL (prior 440 million TL) from electrical contracting; H1 shows deferred tax expense, not income, and no valuation gains; no going-concern emphasis in the review; no SPK or exchange measure on the company found.",
+  "note": "20 Şubat 2026'da Sarıyer'de 267 milyon TL'lik bir ihale iptal edildi; bayrak gerektirmez."
+ },
+ "PNLSN": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "Dokuz ay net kârı 146 milyon TL; ertelenmiş vergi geliri 31,5 milyon TL (kârın beşte biri), yatırım gelirleri ile giderleri birbirini götürüyor; SPK ya da borsa tedbiri bulunmadı.",
+  "en": "9M net profit 146 million TL; deferred tax income of 31.5 million TL (about a fifth of profit), investment income and expenses roughly cancel out; no SPK or exchange measure found.",
+  "note": "Özkaynak tablosunda açıklanmayan -50,6 milyon TL 'diğer değişiklik' var; denetim/inceleme raporu okunamadı."
+ },
+ "DGATE": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "Dokuz ay vergi öncesi kâr 131 milyon TL, net kâr 49 milyon TL (ana ortaklık 80 milyon TL), tamamı dağıtım işinden; yatırım geliri ve vergi geliri yok; ilişkili taraf alımları (İndeks grubu) olağan ticari ilişki; SPK ya da borsa tedbiri bulunmadı.",
+  "en": "9M pre-tax profit 131 million TL, net 49 million TL (parent 80 million TL), all from distribution; no investment income or tax income; related-party purchases (İndeks group) are ordinary trade; no SPK or exchange measure found.",
+  "note": "Eylül-Kasım 2026'da 19 kez pay bazında devre kesici çalıştı (oynak işlem); 1 Ekim MKK duyurusu SPK işlem yasaklı kişilere ilişkin genel liste, şirkete değil."
+ },
+ "CONSE": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "Dokuz ay ana ortaklık kârı 121 milyon TL; kârın kaynağı büyük ölçüde net parasal pozisyon kazancı (582 milyon TL), tek seferlik sayılmaz; ertelenmiş vergi gider; %100 bedelli sermaye artırımı SPK onay sürecinde; SPK ya da borsa tedbiri bulunmadı.",
+  "en": "9M parent profit 121 million TL; profit comes mostly from the net monetary position gain (582 million TL), which is not one-off; deferred tax is an expense; a 100% rights issue is in SPK approval; no SPK or exchange measure found.",
+  "note": "Faaliyet kârı yalnız 74 milyon TL; kâr parasal kazanca dayanıyor. Sık devre kesici (Eylül-Kasım 2026)."
+ },
+ "MASFN": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "Dokuz ay net kârı 1,63 milyar TL; esas faaliyet kârı 995 milyon TL, net yatırım geliri yaklaşık 949 milyon TL (vergi öncesi kârın yaklaşık yarısı), dökümü okunamadı; SPK ve borsa tedbiri bulunmadı.",
+  "en": "9M net profit 1.63 billion TL; operating profit 995 million TL and net investing income about 949 million TL (about half of pre-tax profit), not itemised in documents read; no CMB or exchange measure found.",
+  "note": "Investing income ~50% of pre-tax; company IPO'd mid-2026, so likely FX/interest on IPO cash and deposits, but breakdown not verified (KAP 4028328d9f52dddc01a010daee7755b3 H1 has totals only; yatirimx.com.tr article 28160). Borderline; main session may want to read the 9M note."
+ },
+ "VBTYZ": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "Dokuz ay net kârı 92 milyon TL; ilk yarıda kâr esas faaliyetten geliyor (131,7 milyon TL faaliyet kârı, yatırım geliri ihmal edilebilir, ertelenmiş vergi önemsiz); SPK ve borsa tedbiri bulunmadı.",
+  "en": "9M net profit 92 million TL; in H1 profit came from operations (131.7 million TL operating profit, negligible investing income and deferred tax); no CMB or exchange measure found."
+ },
+ "ULUFA": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "Dokuz ay net kârı 615 milyon TL (%34 artış), faktoring alacakları ve esas faaliyet gelirleriyle büyüyor; tek seferlik kalem, SPK veya borsa tedbiri bulunmadı.",
+  "en": "9M net profit 615 million TL (up 34%), driven by factoring receivables and core revenue; no one-off item, CMB or exchange measure found.",
+  "note": "One-off check based on Ekofin summary of KAP 1684581, not the full notes."
+ },
+ "AYES": {
+  "date": "2026-11-24",
+  "per": "6/2026",
+  "tr": "Okundu; uyarı yazıldı (sayfada).",
+  "en": "Read; a warning was recorded (on the page)."
+ },
+ "ISSEN": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "Okundu; uyarı yazıldı (sayfada).",
+  "en": "Read; a warning was recorded (on the page)."
+ },
+ "A1YEN": {
+  "date": "2026-11-24",
+  "per": "9/2026",
+  "tr": "Okundu; uyarı yazıldı (sayfada).",
+  "en": "Read; a warning was recorded (on the page)."
  }
 }

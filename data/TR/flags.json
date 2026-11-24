@@ -2077,5 +2077,409 @@
    ],
    "sev": "out"
   }
+ ],
+ "ATEKS": [
+  {
+   "k": "audit",
+   "date": "2026-03-11",
+   "until": null,
+   "per": null,
+   "tr": "Bağımsız denetçi (Karar Bağımsız Denetim), Akın Tekstil'in 2025 yılı finansal tabloları için görüş bildirmekten kaçındı (KAP, 11 Mart 2026). Şirket Mart 2025'te başlayan konkordatodan Haziran 2026'da vazgeçti, 2026 denetçisini mahkeme atadı; son 12 ayda esas faaliyet zararda iken kâr faaliyet dışı kalemlerden geliyor.",
+   "en": "The independent auditor (Karar Bağımsız Denetim) issued a disclaimer of opinion on Akın Tekstil's 2025 financial statements (KAP, 11 March 2026). The company withdrew from a concordat begun in March 2025 in June 2026, and its 2026 auditor was appointed by a court; over the last 12 months operations lost money and profit came from non-operating items.",
+   "sources": [
+    {
+     "t": "KAP: Bağımsız Denetim Raporunun Olumsuz Görüş İçermesi veya Görüş Bildirmekten Kaçınılması (11 Mart 2026)",
+     "te": "KAP: Audit report with adverse opinion or disclaimer of opinion (11 March 2026)",
+     "u": "https://www.kap.org.tr/Bildirim/1570979",
+     "primary": true
+    },
+    {
+     "t": "KAP: Bağımsız Denetim Kuruluşunun Belirlenmesi, mahkeme kararıyla (10 Haziran 2026)",
+     "te": "KAP: Auditor appointed by court order (10 June 2026)",
+     "u": "https://kap.org.tr/tr/api/BildirimPdf/1615784",
+     "primary": true
+    },
+    {
+     "t": "CNBC-e: Borsa İstanbul'daki tekstil şirketi 15 aylık konkordato sürecini tamamladı (18 Haziran 2026)",
+     "te": "CNBC-e: Listed textile firm ends 15-month concordat (18 June 2026)",
+     "u": "https://www.cnbce.com/borsa/hisseler-tavana-yaklasti-borsa-istanbuldaki-tekstil-sirketi-15-aylik-konkordato-surecini-tamamladi-h31838",
+     "primary": false
+    }
+   ],
+   "sev": "out"
+  }
+ ],
+ "ESCOM": [
+  {
+   "k": "oneoff",
+   "date": "2026-10-27",
+   "until": null,
+   "per": "9/2026",
+   "tr": "Escort Teknoloji bir girişim yatırım şirketi; 2026'nın ilk dokuz ayındaki 1,28 milyar TL 'hasılat' iştirak ve finansal yatırımlarının gerçeğe uygun değer artışıdır, satış geliri değil (dokuz ay net kârı 462 milyon TL, önceki yıl 9 milyon TL). Son 12 ay kârının neredeyse tamamı nakde dönmemiş değerleme kazancı.",
+   "en": "Escort Teknoloji is a venture investment company; its 1.28 billion TL of 'revenue' in 9M 2026 is the fair value increase of its investee stakes, not sales (9M net profit 462 million TL vs 9 million TL a year earlier). Nearly all trailing 12-month profit is unrealised valuation gains.",
+   "sources": [
+    {
+     "t": "Escort Teknoloji: 30.09.2026 faaliyet raporu, KAP (27 Ekim 2026)",
+     "te": "Escort Teknoloji: activity report to 30 September 2026, KAP (27 October 2026)",
+     "u": "https://kap.org.tr/tr/api/file/download/4028328ca16c7de401a17debaa7d112a",
+     "primary": true
+    },
+    {
+     "t": "Escort Teknoloji: katılım finans bilgi formu 6 aylık 2026, KAP (25 Ağustos 2026)",
+     "te": "Escort Teknoloji: participation finance form H1 2026, KAP (25 August 2026)",
+     "u": "https://kap.org.tr/en/api/BildirimPdf/1654957",
+     "primary": true
+    },
+    {
+     "t": "Marbaş: ESCOM 4. çeyrek bilanço değerlendirmesi (hasılatın yatırımların değer artışından oluştuğu)",
+     "te": "Marbaş: ESCOM Q4 results review (revenue consists of fair value gains on investments)",
+     "u": "https://marbas.com.tr/assets/ESCOM-4.CEYREK-BILANCO-DEGERLENDIRMESI.pdf",
+     "primary": false
+    }
+   ],
+   "sev": "out"
+  }
+ ],
+ "GSDDE": [
+  {
+   "k": "oneoff",
+   "date": "2026-04-28",
+   "until": null,
+   "per": "9/2026",
+   "tr": "GSD Denizcilik 28 Nisan 2026'da Hako gemisini 21,75 milyon dolara sattı; ilk yarıda yaklaşık 322 milyon TL satış kazancı yazıldı. Dokuz ay net kârı 246 milyon TL bu kazançtan küçük; kazanç olmasa dönem zararda. 2025'in 4. çeyreğinde de GSD Ship Finance B.V. tasfiyesinden 302 milyon TL kur kazancı var.",
+   "en": "GSD Denizcilik sold the vessel Hako for 21.75 million USD on 28 April 2026, booking a gain of about 322 million TL in H1. 9M net profit of 246 million TL is smaller than this gain; without it the period is a loss. Q4 2025 also included a 302 million TL FX gain from liquidating GSD Ship Finance B.V.",
+   "sources": [
+    {
+     "t": "GSD Denizcilik: 30.06.2026 ara dönem finansal tablolar ve sınırlı denetim raporu, KAP (19 Ağustos 2026)",
+     "te": "GSD Denizcilik: interim financial statements and review report to 30 June 2026, KAP (19 August 2026)",
+     "u": "https://kap.org.tr/tr/api/file/download/4028328c9f52dc3f01a01ab094586278",
+     "primary": true
+    },
+    {
+     "t": "GSD Denizcilik: 2025 konsolide finansal tablolar, not 29 (11 Mart 2026)",
+     "te": "GSD Denizcilik: 2025 consolidated financial statements, note 29 (11 March 2026)",
+     "u": "https://kap.org.tr/en/api/file/download/4028328d9cc9d32c019cdd9aff662d4e",
+     "primary": true
+    },
+    {
+     "t": "Midas: GSDDE KAP bildirimleri (gemi satışı, 9 aylık sonuç)",
+     "te": "Midas: GSDDE KAP disclosures (vessel sale, 9M results)",
+     "u": "https://www.getmidas.com/canli-borsa/gsdde-hisse/haber/",
+     "primary": false
+    }
+   ],
+   "sev": "out"
+  }
+ ],
+ "GSDHO": [
+  {
+   "k": "oneoff",
+   "date": "2025-11-21",
+   "until": null,
+   "per": "9/2026",
+   "tr": "GSD Holding'in son 12 ay kârı 2025'in 4. çeyreğinden geliyor; o çeyrekte GSD Ship Finance B.V. tasfiyesinden 302 milyon TL kur kazancı (tasfiye 21 Kasım 2025) yazıldı. 2026'nın ilk yarısında ana ortaklık 269 milyon TL zarar etti, dokuz ayda konsolide sonuç yine eksi (yaklaşık 44 milyon TL) ve bu sonuç Hako gemisinin satış kazancını da içeriyor.",
+   "en": "GSD Holding's trailing 12-month profit comes from Q4 2025, which included a 302 million TL FX gain from liquidating GSD Ship Finance B.V. (completed 21 November 2025). In H1 2026 the parent lost 269 million TL, and the 9M consolidated result is still negative (about 44 million TL) even including the gain on the sale of the vessel Hako.",
+   "sources": [
+    {
+     "t": "GSD Holding: 2025 konsolide finansal tablolar, not 26 (11 Mart 2026)",
+     "te": "GSD Holding: 2025 consolidated financial statements, note 26 (11 March 2026)",
+     "u": "https://kap.org.tr/en/api/file/download/4028328d9cc9d32c019cdd9151ce2ac1",
+     "primary": true
+    },
+    {
+     "t": "GSD Holding: 30.06.2026 ara dönem finansal tablolar, KAP (19 Ağustos 2026)",
+     "te": "GSD Holding: interim financial statements to 30 June 2026, KAP (19 August 2026)",
+     "u": "https://kap.org.tr/tr/api/file/download/4028328d9f52dddd01a01a8cc7875bdb",
+     "primary": true
+    },
+    {
+     "t": "GCM Yatırım: GSDHO bilanço 2026/9 (net dönem kârı/zararı satırı)",
+     "te": "GCM Yatırım: GSDHO balance sheet 2026/9 (net period result line)",
+     "u": "https://www.gcmyatirim.com.tr/borsa/hisse/gsdho-hisse-gsd-holding-a-s/bilanco",
+     "primary": false
+    }
+   ],
+   "sev": "out"
+  }
+ ],
+ "BRYAT": [
+  {
+   "k": "oneoff",
+   "date": "2025-11-05",
+   "until": null,
+   "per": "9/2026",
+   "tr": "Borusan Yatırım, Borusan Tedarik Zinciri'ndeki %30,53 payını CEVA'ya sattı (satış 5 Kasım 2025'te tamamlandı). 2025'te 4,23 milyar TL 'diğer faaliyet geliri' ve 4,93 milyar TL satış amaçlı varlık satış girişi yazıldı; 2025'in 4. çeyrek kârı 3,47 milyar TL. Dokuz ay 2026 kârı yalnız 615 milyon TL; son 12 ay kârının yarıdan fazlası bu satıştan.",
+   "en": "Borusan Yatırım sold its 30.53% stake in Borusan Tedarik Zinciri to CEVA (closed 5 November 2025). 2025 shows 4.23 billion TL of 'other operating income' and 4.93 billion TL cash from sale of assets held for sale; Q4 2025 profit was 3.47 billion TL. 9M 2026 profit was only 615 million TL, so more than half of trailing 12-month profit comes from this sale.",
+   "sources": [
+    {
+     "t": "Borusan Yatırım: 2025 konsolide finansal tablolar, KAP (6 Mart 2026)",
+     "te": "Borusan Yatırım: 2025 consolidated financial statements, KAP (6 March 2026)",
+     "u": "https://kap.org.tr/tr/api/BildirimPdf/1566791",
+     "primary": true
+    },
+    {
+     "t": "Borusan Yatırım: pay satış sözleşmesi özel durum açıklaması, KAP (26 Nisan 2025)",
+     "te": "Borusan Yatırım: share sale agreement disclosure, KAP (26 April 2025)",
+     "u": "https://kap.org.tr/tr/api/BildirimPdf/1429858",
+     "primary": true
+    },
+    {
+     "t": "Hisse.net: Borusan Tedarik Zinciri satışı tamamlandı (5 Kasım 2025)",
+     "te": "Hisse.net: Borusan Tedarik Zinciri sale completed (5 November 2025)",
+     "u": "https://www.hisse.net/haber/borusan-tedarik-zinciri-satisi-tamamlandi-29353",
+     "primary": false
+    },
+    {
+     "t": "Paratic: Borusan Yatırım net kârı 2025'te güçlü arttı",
+     "te": "Paratic: Borusan Yatırım net profit rose sharply in 2025",
+     "u": "https://paratic.com/borusan-yatirim-bryat-net-kari-2025te-guclu-artti/",
+     "primary": false
+    }
+   ],
+   "sev": "out"
+  }
+ ],
+ "RALYH": [
+  {
+   "k": "going",
+   "date": "2026-10-19",
+   "until": null,
+   "per": null,
+   "tr": "Ral Yatırım Holding 16 Ekim 2026'da konkordato başvurusu yaptı; Ankara 2. Asliye Ticaret Mahkemesi 19 Ekim 2026'da üç aylık geçici mühlet verdi. JCR Avrasya notu CCC(tr)'ye indirdi, pay 21 Ekim 2026'dan beri Yakın İzleme Pazarı'nda işlem görüyor.",
+   "en": "Ral Yatırım Holding applied for concordato (court-supervised debt restructuring) on 16 October 2026; the Ankara 2nd Commercial Court granted a three-month provisional moratorium on 19 October 2026. JCR Eurasia cut its rating to CCC(tr), and the shares have traded on the Close Monitoring Market since 21 October 2026.",
+   "sources": [
+    {
+     "t": "Foreks: Ral Yatırım Holding'e konkordato başvurusu kapsamında 3 ay süreyle geçici mühlet verildi (19 Ekim 2026)",
+     "te": "Foreks: Ral Yatırım Holding granted 3-month provisional moratorium under concordato application (19 October 2026)",
+     "u": "https://www.foreks.com/haber/detay/6ad6477758b1b941c208ce66/FRKS/tr/ral-yatirim-holding-e-konkordato-basvurusu-kapsaminda-3-ay-sureyle-gecici-muhlet-verildi-19-10-26/",
+     "primary": false
+    },
+    {
+     "t": "Bloomberg HT: Ral Yatırım Holding'ten konkordato başvurusu (Ekim 2026)",
+     "te": "Bloomberg HT: Concordato application from Ral Yatırım Holding (October 2026)",
+     "u": "https://www.bloomberght.com/ral-yatirim-holding-ten-konkordato-basvurusu-3791840",
+     "primary": false
+    },
+    {
+     "t": "Midas: RALYH KAP bildirimleri (Yakın İzleme Pazarı, JCR not indirimi; Ekim 2026)",
+     "te": "Midas: RALYH KAP disclosures (Close Monitoring Market, JCR downgrade; October 2026)",
+     "u": "https://www.getmidas.com/canli-borsa/ralyh-hisse/haber/",
+     "primary": false
+    }
+   ],
+   "sev": "out"
+  }
+ ],
+ "YATAS": [
+  {
+   "k": "oneoff",
+   "date": "2026-11-06",
+   "until": null,
+   "per": "9/2026",
+   "tr": "Yataş 2026'nın ilk dokuz ayında 88 milyon TL vergi öncesi zarar etti; 430 milyon TL ertelenmiş vergi geliri sayesinde 241 milyon TL net kâr yazdı. Üçüncü çeyrekte 366 milyon TL net zarar var; esas faaliyet kârı bir yılda %57 geriledi.",
+   "en": "Yataş made a pre-tax loss of 88 million TL in the first nine months of 2026 and reported a net profit of 241 million TL only because of 430 million TL of deferred tax income. It lost 366 million TL in the third quarter, and operating profit fell 57% year on year.",
+   "sources": [
+    {
+     "t": "KAP: Yataş 2026 3. çeyrek konsolide finansal rapor (6 Kasım 2026)",
+     "te": "KAP: Yataş Q3 2026 consolidated financial report (6 November 2026)",
+     "u": "https://kap.org.tr/en/api/BildirimPdf/1694452",
+     "primary": true
+    },
+    {
+     "t": "YatırımX: Yataş'tan 3. çeyrekte 366,3 milyon TL zarar (Kasım 2026)",
+     "te": "YatırımX: Yataş posts 366.3 million TL Q3 loss (November 2026)",
+     "u": "https://www.yatirimx.com.tr/sirket-haberleri/yatastan-3-ceyrekte-3663-milyon-tl-zarar-beklentiler-karsilanamadi/27815",
+     "primary": false
+    }
+   ],
+   "sev": "out"
+  }
+ ],
+ "CATES": [
+  {
+   "k": "oneoff",
+   "date": "2026-10-27",
+   "until": null,
+   "per": "9/2026",
+   "tr": "Çates 2026'nın ilk dokuz ayında 684 milyon TL net zarar etti (esas faaliyet zararı 1,46 milyar TL); son 12 ay kârı 2025'in ikinci yarısındaki kalemlere dayanıyor. 2025 yılının 2,76 milyar TL vergi öncesi kârının 2,75 milyar TL'si yatırım faaliyetlerinden gelir (2024'te 5,92 milyar TL yatırım gideri yazılmıştı); bu gelirin niteliği okunan belgelerde açıklanmıyor.",
+   "en": "Çates lost 684 million TL in the first nine months of 2026 (operating loss 1.46 billion TL); its trailing profit rests on items booked in the second half of 2025. Of 2025's 2.76 billion TL pre-tax profit, 2.75 billion TL was income from investing activities (after a 5.92 billion TL investing expense in 2024); the documents read do not explain what this income was.",
+   "sources": [
+    {
+     "t": "Çates: 31 Aralık 2025 itibarıyla faaliyet raporu (Nisan 2026)",
+     "te": "Çates: Annual report as of 31 December 2025 (April 2026)",
+     "u": "https://www.cates.com.tr/storage/route-pages/April2026/Annual Report as of 31 December 2025 (Q4 2025).pdf",
+     "primary": true
+    },
+    {
+     "t": "KAP: Çates 30 Haziran 2026 ara dönem finansal tablolar (Ağustos 2026)",
+     "te": "KAP: Çates interim financial statements, 30 June 2026 (August 2026)",
+     "u": "https://kap.org.tr/tr/api/file/download/4028328c9f52dc3f019fecdab4f011a0",
+     "primary": true
+    },
+    {
+     "t": "Ekofin: CATES 2026 dokuz ay faaliyet raporu özeti (27 Ekim 2026)",
+     "te": "Ekofin: CATES 9M 2026 activity report summary (27 October 2026)",
+     "u": "https://ekofin.net/sirket/detay/CATES/faaliyet-raporlari",
+     "primary": false
+    }
+   ],
+   "sev": "out"
+  }
+ ],
+ "VANGD": [
+  {
+   "k": "oneoff",
+   "date": "2026-10-31",
+   "until": null,
+   "per": "9/2026",
+   "tr": "Vanet Gıda 2026'nın ilk dokuz ayında 16 milyon TL net zarar etti; son 12 ay kârı 2025'in son çeyreğindeki faaliyet dışı kalemlerden geliyor. 2025'te esas faaliyet zararı 11 milyon TL iken net kâr 224 milyon TL'dir; kalemin dökümü okunan belgelerde yok (yatırım amaçlı gayrimenkul 31 Aralık 2025'te 13 Şubat 2026 tarihli değerlemeyle 592 milyon TL'de duruyor).",
+   "en": "Vanet Gıda lost 16 million TL in the first nine months of 2026; its trailing profit comes from non-operating items in Q4 2025. In 2025 it had an operating loss of 11 million TL but a net profit of 224 million TL; the documents read do not itemise the gain (investment property stood at 592 million TL at 31 December 2025, based on a valuation dated 13 February 2026).",
+   "sources": [
+    {
+     "t": "Hisse.net: Gıda şirketi bilançoyu açıkladı, şirket zarar etti (31 Ekim 2026)",
+     "te": "Hisse.net: Food company reports results, posts loss (31 October 2026)",
+     "u": "https://www.hisse.net/haber/amp/gida-sirketi-bilancoyu-acikladi-sirket-zarar-etti-104758",
+     "primary": false
+    },
+    {
+     "t": "KAP: Vanet Gıda 31 Mart 2026 finansal tablolar (Nisan 2026)",
+     "te": "KAP: Vanet Gıda financial statements, 31 March 2026 (April 2026)",
+     "u": "https://kap.org.tr/en/api/file/download/4028328d9d7b24c9019dde93fccc4095",
+     "primary": true
+    },
+    {
+     "t": "Stockanalysis: VANGD gelir tablosu (2025 ve son 12 ay)",
+     "te": "Stockanalysis: VANGD income statement (2025 and TTM)",
+     "u": "https://stockanalysis.com/quote/ist/VANGD/financials/",
+     "primary": false
+    }
+   ],
+   "sev": "out"
+  }
+ ],
+ "IHGZT": [
+  {
+   "k": "oneoff",
+   "date": "2026-10-30",
+   "until": null,
+   "per": "9/2026",
+   "tr": "İhlas Gazetecilik 2026'nın ilk yarısında 193 milyon TL, dokuz ayında 168 milyon TL net zarar etti; son 12 ay kârı 2025'in son çeyreğindeki faaliyet dışı kalemlerden geliyor. 2025'te esas faaliyet zararı 73 milyon TL iken net kâr 231 milyon TL'dir; kalemin dökümü okunan belgelerde yok.",
+   "en": "İhlas Gazetecilik lost 193 million TL in H1 2026 and 168 million TL in the first nine months; its trailing profit comes from non-operating items in Q4 2025. In 2025 it had an operating loss of 73 million TL but a net profit of 231 million TL; the documents read do not itemise the gain.",
+   "sources": [
+    {
+     "t": "KAP: İhlas Gazetecilik 30 Haziran 2026 finansal tablolar (Ağustos 2026)",
+     "te": "KAP: İhlas Gazetecilik financial statements, 30 June 2026 (August 2026)",
+     "u": "https://kap.org.tr/tr/api/BildirimPdf/1647188",
+     "primary": true
+    },
+    {
+     "t": "Ekofin: IHGZT 2026 dokuz ay faaliyet raporu özeti (30 Ekim 2026)",
+     "te": "Ekofin: IHGZT 9M 2026 activity report summary (30 October 2026)",
+     "u": "https://ekofin.net/sirket/detay/IHGZT/faaliyet-raporlari?period=2026-09",
+     "primary": false
+    },
+    {
+     "t": "Borsatek: İhlas Gazetecilik 2025 kârından dağıtım yapmayacak (Haziran 2026)",
+     "te": "Borsatek: İhlas Gazetecilik will not distribute 2025 profit (June 2026)",
+     "u": "https://www.borsatek.com/ihgzt-2025-kar-payi-dagitimi-olmayacak/",
+     "primary": false
+    },
+    {
+     "t": "Stockanalysis: IHGZT gelir tablosu (2025)",
+     "te": "Stockanalysis: IHGZT income statement (2025)",
+     "u": "https://stockanalysis.com/quote/ist/IHGZT/financials/",
+     "primary": false
+    }
+   ],
+   "sev": "out"
+  }
+ ],
+ "RUBNS": [
+  {
+   "k": "oneoff",
+   "date": "2026-10-30",
+   "until": null,
+   "per": "9/2026",
+   "tr": "Rubenis Tekstil 2026'nın ilk yarısında 19 milyon TL vergi öncesi zarar etti; 86 milyon TL ertelenmiş vergi geliriyle 66 milyon TL net kâr yazdı. Dokuz aylık net kâr 83 milyon TL; dokuz ayın vergi dökümü okunamadı, ama kârın büyük bölümü ilk yarıdaki bu vergi gelirinden geliyor.",
+   "en": "Rubenis Tekstil made a pre-tax loss of 19 million TL in H1 2026 and reported a 66 million TL net profit thanks to 86 million TL of deferred tax income. Nine-month net profit was 83 million TL; the nine-month tax breakdown could not be read, but most of the profit comes from that H1 tax income.",
+   "sources": [
+    {
+     "t": "KAP: Rubenis Tekstil 30 Haziran 2026 ara dönem finansal tablolar (Ağustos 2026)",
+     "te": "KAP: Rubenis Tekstil interim financial statements, 30 June 2026 (August 2026)",
+     "u": "https://kap.org.tr/en/api/file/download/4028328d9f52dddc01a00ee3d8d80e72",
+     "primary": true
+    },
+    {
+     "t": "Ekofin: RUBNS 2026 dokuz ay faaliyet raporu özeti (30 Ekim 2026)",
+     "te": "Ekofin: RUBNS 9M 2026 activity report summary (30 October 2026)",
+     "u": "https://ekofin.net/sirket/detay/RUBNS/faaliyet-raporlari?period=2026-09",
+     "primary": false
+    }
+   ],
+   "sev": "out"
+  }
+ ],
+ "AYES": [
+  {
+   "k": "other",
+   "sev": "warn",
+   "date": "2026-08-11",
+   "until": null,
+   "per": "6/2026",
+   "tr": "Kârın çoğu çelik hasır işinden değil, finansal yatırımlardan geliyor: 2026'nın ilk yarısında esas faaliyet kârı 52,7 milyon TL, net kâr 674,9 milyon TL; finansal varlık satış kazancı 620,8 milyon TL, finansman geliri 1,02 milyar TL. 2025'te de durum aynıydı; kâr verimi işin kazanç gücünü değil, yatırım getirisini gösteriyor.",
+   "en": "Most of the profit comes from financial investments, not the steel-mesh business: in the first half of 2026 operating profit was 52.7 million TL and net profit 674.9 million TL, with 620.8 million TL of gains on selling financial assets and 1.02 billion TL of finance income. 2025 was similar; the earnings yield reflects investment returns, not the business's earning power.",
+   "sources": [
+    {
+     "t": "KAP: Ayes Çelik, 2026 ilk yarı finansal bilgiler (11 Ağustos 2026)",
+     "te": "KAP: Ayes Çelik, first-half 2026 financial information (11 August 2026)",
+     "u": "https://www.kap.org.tr/tr/BildirimPdf/1648222",
+     "primary": true
+    }
+   ]
+  }
+ ],
+ "ISSEN": [
+  {
+   "k": "other",
+   "sev": "warn",
+   "date": "2026-08-14",
+   "until": null,
+   "per": "9/2026",
+   "tr": "Son 12 ay kârı 2025'in ikinci yarısına dayanıyor (yaklaşık 445 milyon TL); 2025 yılı 485 milyon TL, 2026'nın ilk yarısı 11,8 milyon TL zarar. JCR 14 Ağustos 2026'da kredi notunu A+'dan BBB'ye indirdi.",
+   "en": "The trailing profit rests on the second half of 2025 (about 445 million TL); full-year 2025 was a 485 million TL loss and the first half of 2026 an 11.8 million TL loss. JCR cut its credit rating from A+ to BBB on 14 August 2026.",
+   "sources": [
+    {
+     "t": "KAP: İşbir Sentetik, 2026 ilk yarı finansal tablolar",
+     "te": "KAP: İşbir Sentetik, first-half 2026 financial statements",
+     "u": "https://www.kap.org.tr/tr/Bildirim/1647037",
+     "primary": true
+    }
+   ]
+  }
+ ],
+ "A1YEN": [
+  {
+   "k": "other",
+   "sev": "warn",
+   "date": "2026-09-17",
+   "until": null,
+   "per": null,
+   "tr": "A1 Capital grubuyla bağlı: A1 Capital Yatırım (%5) ve Güler Yatırım Holding (%4) ortak ve ilişkili taraf. SPK 17 Eylül 2026'da bu grubun bazı fonlarını durdurdu. Kontrolün grupta olduğu belgede yazmıyor (halka açıklık %80).",
+   "en": "Linked to the A1 Capital group: A1 Capital Yatırım (5%) and Güler Yatırım Holding (4%) are shareholders and related parties. On 17 September 2026 the CMB halted some of the group's funds. The documents do not show the group in control (free float 80%).",
+   "sources": [
+    {
+     "t": "KAP: A1 Yenilenebilir finansal tablolar",
+     "te": "KAP: A1 Yenilenebilir financial statements",
+     "u": "https://kap.org.tr/en/api/file/download/4028328d9f52dddc01a015160c28124f",
+     "primary": true
+    },
+    {
+     "t": "hisse.net: Pardus Portföy 2 hissede satışa geçti",
+     "te": "hisse.net: Pardus Portföy sold in two stocks",
+     "u": "https://www.hisse.net/haber/pardus-portfoy-2-hissede-satisa-gecti-96569",
+     "primary": false
+    }
+   ]
+  }
  ]
 }
