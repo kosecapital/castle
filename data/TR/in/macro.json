@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-21T03:20:19Z",
+ "fetched": "2026-11-24T10:12:13Z",
  "cur": "TRY",
  "pcur": "TRY",
  "years": [
@@ -9,7 +9,7 @@
   "2024",
   "2025"
  ],
- "fx": 50.5142,
+ "fx": 50.6239,
  "mcapMin": 3000,
  "cpi_cur": 29.77,
  "cpi_cur_src": "TradingView ECONOMICS:TRIRYY (son açıklanan yıllık TÜFE)",
@@ -26,5 +26,11 @@
   "2023": "IMF WEO 2025-04 (dönem sonu)",
   "2024": "IMF WEO 2025-04 (dönem sonu)",
   "2025": "Dünya Bankası FP.CPI.TOTL.ZG (yıllık ortalama)"
+ },
+ "rates": {
+  "y10": 33.59,
+  "y10_src": "TradingView TVC:TR10Y (global)",
+  "policy": 36,
+  "policy_src": "TradingView ECONOMICS:TRINTR"
  }
 }

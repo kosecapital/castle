@@ -1,6 +1,6 @@
 {
  "cc": "TR",
- "fetched": "2026-11-21T03:20:17Z",
+ "fetched": "2026-11-24T10:12:11Z",
  "errors": [],
  "source": "İş Yatırım: temel değerler ve oranlar",
  "market": "turkey",
@@ -9,38 +9,38 @@
  "excluded": {},
  "cur": "TRY",
  "pcur": "TRY",
- "price_date": "2026-11-20",
+ "price_date": "2026-11-23",
  "periods": {
   "9/2026": 591,
   "6/2026": 30,
   "3/2026": 8
  },
- "implied_fx": 50.494,
+ "implied_fx": 50.603,
  "pe_filled_pct": 45.3,
  "top5": [
   {
    "c": "ASELS",
    "n": "Aselsan",
-   "p": 327.0,
-   "m": 1491120.0,
-   "pe": 30.7,
-   "pb": 4.5,
+   "p": 325.5,
+   "m": 1484280.0,
+   "pe": 30.5,
+   "pb": 4.4,
    "per": "9/2026"
   },
   {
    "c": "QNBTR",
    "n": "QNB Bank",
-   "p": 137.7,
-   "m": 757350.0,
-   "pe": 13.2,
+   "p": 139.1,
+   "m": 765050.0,
+   "pe": 13.3,
    "pb": 3.6,
    "per": "9/2026"
   },
   {
    "c": "TUPRS",
    "n": "Tüpraş",
-   "p": 322.75,
-   "m": 621873.3,
+   "p": 324.0,
+   "m": 624281.8,
    "pe": 4.8,
    "pb": 1.2,
    "per": "9/2026"
@@ -48,8 +48,8 @@
   {
    "c": "GARAN",
    "n": "Garanti Bankası",
-   "p": 144.2,
-   "m": 605640.0,
+   "p": 145.7,
+   "m": 611940.0,
    "pe": 4.9,
    "pb": 1.2,
    "per": "9/2026"
@@ -57,41 +57,1213 @@
   {
    "c": "KCHOL",
    "n": "Koç Holding",
-   "p": 187.2,
-   "m": 474720.1,
-   "pe": 7.3,
+   "p": 190.9,
+   "m": 484102.9,
+   "pe": 7.4,
    "pb": 0.6,
    "per": "9/2026"
   }
  ],
- "pb_fix": {
-  "counts": {},
-  "neg": 0,
-  "nodata": 0,
-  "sa_asked": 0,
-  "sa_pages": 0,
-  "sa_reused": 0,
-  "sa_failed": 0,
-  "sa_blocked": false,
-  "missing_pct": 0.0,
-  "nodata_top": [],
-  "fixed_top": []
- },
- "history": {
-  "candidates": 69,
-  "have": 69,
-  "fetched": 4,
-  "kept": 64,
-  "no_mapping": 0,
+ "fin": {
+  "have": 580,
+  "fetched": 580,
   "failed": [
    [
     "DOCO",
-    404
+    "RuntimeError('boş yanıt')"
+   ],
+   [
+    "KTLEV",
+    "RuntimeError('boş yanıt')"
+   ],
+   [
+    "KRONT",
+    "ConnectionError(ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))"
    ]
   ],
-  "failed_n": 1,
-  "blocked": false,
-  "budget_left": 5497
+  "failed_n": 3
+ },
+ "fin_sample": {
+  "ASELS": [
+   [
+    "1A",
+    "Dönen Varlıklar"
+   ],
+   [
+    "1AA",
+    "  Nakit ve Nakit Benzerleri"
+   ],
+   [
+    "1AB",
+    "  Finansal Yatırımlar"
+   ],
+   [
+    "1AC",
+    "  Ticari Alacaklar"
+   ],
+   [
+    "1AD",
+    "  Finans Sektörü Faaliyetlerinden Alacaklar"
+   ],
+   [
+    "1AE",
+    "  Diğer Alacaklar"
+   ],
+   [
+    "1AEA",
+    "  Müşteri Sözleşmelerinden Doğan Varlıklar"
+   ],
+   [
+    "1AF",
+    "  Stoklar"
+   ],
+   [
+    "1AG",
+    "  Canlı Varlıklar"
+   ],
+   [
+    "1AH",
+    "  Diğer Dönen Varlıklar"
+   ],
+   [
+    "1AI",
+    "    (Ara Toplam)"
+   ],
+   [
+    "1AJ",
+    "  Satış Amacıyla Elde Tutulan Duran Varlıklar"
+   ],
+   [
+    "1AK",
+    "Duran Varlıklar"
+   ],
+   [
+    "1B",
+    "  Ticari Alacaklar"
+   ],
+   [
+    "1BA",
+    "  Finans Sektörü Faaliyetlerinden Alacaklar"
+   ],
+   [
+    "1BB",
+    "  Diğer Alacaklar"
+   ],
+   [
+    "1BBA",
+    "  Müşteri Sözleşmelerinden Doğan Varlıklar"
+   ],
+   [
+    "1BC",
+    "  Finansal Yatırımlar"
+   ],
+   [
+    "1BD",
+    "  Özkaynak Yöntemiyle Değerlenen Yatırımlar"
+   ],
+   [
+    "1BE",
+    "  Canlı Varlıklar"
+   ],
+   [
+    "1BF",
+    "  Yatırım Amaçlı Gayrimenkuller"
+   ],
+   [
+    "1BFA",
+    "  Stoklar"
+   ],
+   [
+    "1BFAA",
+    "  Kullanım Hakkı Varlıkları"
+   ],
+   [
+    "1BG",
+    "  Maddi Duran Varlıklar"
+   ],
+   [
+    "1BGA",
+    "  Şerefiye"
+   ],
+   [
+    "1BH",
+    "  Maddi Olmayan Duran Varlıklar"
+   ],
+   [
+    "1BJ",
+    "  Ertelenmiş Vergi Varlığı"
+   ],
+   [
+    "1BK",
+    "  Diğer Duran Varlıklar"
+   ],
+   [
+    "1BL",
+    "TOPLAM VARLIKLAR"
+   ],
+   [
+    "1BM",
+    "KAYNAKLAR"
+   ],
+   [
+    "2A",
+    "Kısa Vadeli Yükümlülükler"
+   ],
+   [
+    "2AA",
+    "  Finansal Borçlar"
+   ],
+   [
+    "2AAG",
+    "  Diğer Finansal Yükümlülükler"
+   ],
+   [
+    "2AAGAA",
+    "  Ticari Borçlar"
+   ],
+   [
+    "2AAGAB",
+    "  Diğer Borçlar"
+   ],
+   [
+    "2AAGAC",
+    "  Müşteri Söz. Doğan Yük."
+   ],
+   [
+    "2AAGB",
+    "  Finans Sektörü Faaliyetlerinden Borçlar"
+   ],
+   [
+    "2AAGC",
+    "  Devlet Teşvik ve Yardımları"
+   ],
+   [
+    "2AAGCA",
+    "  Ertelenmiş Gelirler (Müşteri Söz. Doğan Yük. Dış.Kal.)"
+   ],
+   [
+    "2AAGD",
+    "  Dönem Karı Vergi Yükümlülüğü"
+   ],
+   [
+    "2AAGE",
+    "  Borç Karşılıkları"
+   ],
+   [
+    "2AAGF",
+    "  Diğer Kısa Vadeli Yükümlülükler"
+   ],
+   [
+    "2AAGG",
+    "    (Ara Toplam)"
+   ],
+   [
+    "2AAGH",
+    "  Satış Amaçlı Elde Tutulan Duran Varlıklara İlişkin Yükümlülükler"
+   ],
+   [
+    "2B",
+    "Uzun Vadeli Yükümlülükler"
+   ],
+   [
+    "2BA",
+    "  Finansal Borçlar"
+   ],
+   [
+    "2BB",
+    "  Diğer Finansal Yükümlülükler"
+   ],
+   [
+    "2BBA",
+    "  Ticari Borçlar"
+   ],
+   [
+    "2BBB",
+    "  Diğer Borçlar"
+   ],
+   [
+    "2BBBA",
+    "  Müşteri Söz.Doğan Yük."
+   ],
+   [
+    "2BC",
+    "  Finans Sektörü Faaliyetlerinden Borçlar"
+   ],
+   [
+    "2BD",
+    "  Devlet Teşvik ve Yardımları"
+   ],
+   [
+    "2BDA",
+    "  Ertelenmiş Gelirler (Müşteri Söz.Doğan Yük. Dış.Kal.)"
+   ],
+   [
+    "2BE",
+    "    Uzun vadeli karşılıklar"
+   ],
+   [
+    "2BF",
+    "  Çalışanlara Sağlanan Faydalara İliş.Karş."
+   ],
+   [
+    "2BG",
+    "  Ertelenmiş Vergi Yükümlülüğü"
+   ],
+   [
+    "2BH",
+    "  Diğer Uzun Vadeli Yükümlülükler"
+   ],
+   [
+    "2N",
+    "Özkaynaklar"
+   ],
+   [
+    "2O",
+    "  Ana Ortaklığa Ait Özkaynaklar"
+   ],
+   [
+    "2OA",
+    "  Ödenmiş Sermaye"
+   ],
+   [
+    "2OC",
+    "  Karşılıklı İştirak Sermayesi Düzeltmesi (-)"
+   ],
+   [
+    "2OCA",
+    "  Hisse Senedi İhraç Primleri"
+   ],
+   [
+    "2OCB",
+    "  Değer Artış Fonları"
+   ],
+   [
+    "2OCC",
+    "  Yabancı Para Çevrim Farkları"
+   ],
+   [
+    "2OCD",
+    "  Kardan Ayrılan Kısıtlanmış Yedekler"
+   ],
+   [
+    "2OCE",
+    "  Geçmiş Yıllar Kar/Zararları"
+   ],
+   [
+    "2OCF",
+    "  Dönem Net Kar/Zararı"
+   ],
+   [
+    "2OD",
+    "  Diğer Özsermaye Kalemleri"
+   ],
+   [
+    "2ODA",
+    "  Azınlık Payları"
+   ],
+   [
+    "2ODB",
+    "TOPLAM KAYNAKLAR"
+   ],
+   [
+    "3B",
+    "Sürdürülen Faaliyetler"
+   ],
+   [
+    "3C",
+    "Satış Gelirleri"
+   ],
+   [
+    "3CA",
+    "Satışların Maliyeti (-)"
+   ],
+   [
+    "3CAA",
+    "Ticari Faaliyetlerden Diğer Kar (Zarar)"
+   ],
+   [
+    "3CAB",
+    "Ticari Faaliyetlerden Brüt Kar (Zarar)"
+   ],
+   [
+    "3CAC",
+    "Faiz, Ücret, Prim, Komisyon ve Diğer Gelirler"
+   ],
+   [
+    "3CAD",
+    "Faiz, Ücret, Prim, Komisyon ve Diğer Giderler (-)"
+   ],
+   [
+    "3CAE",
+    "Finans Sektörü Faaliyetlerinden Diğer Kar (Zarar)"
+   ],
+   [
+    "3CAF",
+    "Finans Sektörü Faaliyetlerinden Brüt Kar (Zarar)"
+   ],
+   [
+    "3CB",
+    "Diğer Gelir ve Giderler"
+   ],
+   [
+    "3D",
+    "BRÜT KAR (ZARAR)"
+   ],
+   [
+    "3DA",
+    "Pazarlama, Satış ve Dağıtım Giderleri (-)"
+   ],
+   [
+    "3DB",
+    "Genel Yönetim Giderleri (-)"
+   ],
+   [
+    "3DC",
+    "Araştırma ve Geliştirme Giderleri (-)"
+   ],
+   [
+    "3DD",
+    "Diğer Faaliyet Gelirleri"
+   ],
+   [
+    "3DE",
+    "Diğer Faaliyet Giderleri (-)"
+   ],
+   [
+    "3DEA",
+    "Faaliyet Karı Öncesi Diğer Gelir ve Giderler"
+   ],
+   [
+    "3DF",
+    "FAALİYET KARI (ZARARI)"
+   ],
+   [
+    "3H",
+    "Net Faaliyet Kar/Zararı"
+   ],
+   [
+    "3HA",
+    "  Yatırım Faaliyetlerinden Gelirler"
+   ],
+   [
+    "3HAA",
+    "  Yatırım Faaliyetlerinden Giderler (-)"
+   ],
+   [
+    "3HAB",
+    "  Diğer Gelir ve Giderler"
+   ],
+   [
+    "3HAC",
+    "Özkaynak Yöntemiyle Değerlenen Yatırımların Kar/Zararlarındaki Paylar"
+   ],
+   [
+    "3HACA",
+    "Finansman Gideri Öncesi Faaliyet Karı/Zararı"
+   ],
+   [
+    "3HB",
+    "(Esas Faaliyet Dışı) Finansal Gelirler"
+   ],
+   [
+    "3HC",
+    "(Esas Faaliyet Dışı) Finansal Giderler (-)"
+   ],
+   [
+    "3HCA",
+    "Vergi Öncesi Diğer Gelir ve Giderler"
+   ],
+   [
+    "3I",
+    "SÜRDÜRÜLEN FAALİYETLER VERGİ ÖNCESİ KARI (ZARARI)"
+   ],
+   [
+    "3IA",
+    "Sürdürülen Faaliyetler Vergi Geliri (Gideri)"
+   ],
+   [
+    "3IB",
+    "  Dönem Vergi Geliri (Gideri)"
+   ],
+   [
+    "3IC",
+    "  Ertelenmiş Vergi Geliri (Gideri)"
+   ],
+   [
+    "3ID",
+    "  Diğer Vergi Geliri (Gideri)"
+   ],
+   [
+    "3J",
+    "SÜRDÜRÜLEN FAALİYETLER DÖNEM KARI/ZARARI"
+   ],
+   [
+    "3K",
+    "DURDURULAN FAALİYETLER"
+   ],
+   [
+    "3KA",
+    "Durdurulan Faaliyetler Vergi Sonrası Dönem Karı (Zararı)"
+   ],
+   [
+    "3L",
+    "DÖNEM KARI (ZARARI)"
+   ],
+   [
+    "3LA",
+    "Dönem Kar/Zararının Dağılımı"
+   ],
+   [
+    "3LB",
+    "Azınlık Payları"
+   ],
+   [
+    "3Z",
+    "Ana Ortaklık Payları"
+   ],
+   [
+    "3ZD",
+    "Hisse Başına Kazanç"
+   ],
+   [
+    "3ZE",
+    "Seyreltilmiş Hisse Başına Kazanç"
+   ],
+   [
+    "3ZF",
+    "Sürdürülen Faaliyetlerden Hisse Başına Kazanç"
+   ],
+   [
+    "3ZG",
+    "Sürdürülen Faaliyetlerden Seyreltilmiş Hisse Başına Kazanç"
+   ],
+   [
+    "4B",
+    "Amortisman Giderleri"
+   ],
+   [
+    "4BA",
+    "Kıdem Tazminatı"
+   ],
+   [
+    "4BB",
+    "Finansman Giderleri"
+   ],
+   [
+    "4BC",
+    "Yurtiçi Satışlar"
+   ],
+   [
+    "4BD",
+    "Yurtdışı Satışlar"
+   ],
+   [
+    "4BE",
+    "Net Yabancı Para Pozisyonu"
+   ],
+   [
+    "4BEA",
+    "Parasal net yabancı para varlık/(yükümlülük) pozisyonu"
+   ],
+   [
+    "4BEB",
+    "Net YPP (Hedge Dahil)"
+   ],
+   [
+    "4C",
+    " İşletme Faaliyetlerinden Kaynaklanan Net Nakit"
+   ],
+   [
+    "4CA",
+    " Düzeltme Öncesi Kar"
+   ],
+   [
+    "4CAA",
+    " Düzeltmeler:"
+   ],
+   [
+    "4CAB",
+    "  Amortisman & İtfa Payları"
+   ],
+   [
+    "4CAC",
+    "  Karşılıklardaki Değişim"
+   ],
+   [
+    "4CAD",
+    "  Diğer Gelir/ Gider"
+   ],
+   [
+    "4CAE",
+    " İşletme Sermayesinde Değişikler Öncesi Faaliyet Karı (+)"
+   ],
+   [
+    "4CAF",
+    "  İşletme Sermayesindeki Değişiklikler"
+   ],
+   [
+    "4CAG",
+    " Esas Faaliyet ile İlgili Oluşan Nakit (+)"
+   ],
+   [
+    "4CAH",
+    "  Diğer İşletme Faaliyetlerinden Nakit"
+   ],
+   [
+    "4CAI",
+    "  Sabit Sermaye Yatırımları"
+   ],
+   [
+    "4CAJ",
+    "  Diğer Yatırım Faaliyetlerinden Nakit"
+   ],
+   [
+    "4CAK",
+    " Yatırım Faaliyetlerinden Kaynaklanan Nakit"
+   ],
+   [
+    "4CB",
+    "Serbest Nakit Akım"
+   ],
+   [
+    "4CBA",
+    "Finansal Borçlardaki Değişim"
+   ],
+   [
+    "4CBB",
+    "Temettü Ödemeleri"
+   ],
+   [
+    "4CBC",
+    "Sermaye Artırımı"
+   ],
+   [
+    "4CBD",
+    "Diğer Finansman Faaliyetlerinden Nakit"
+   ],
+   [
+    "4CBE",
+    "Finansman Faaliyetlerden Kaynaklanan Nakit"
+   ],
+   [
+    "4CBF",
+    "Yab. Para Çev. Fark. Etk. Önc.Nak.Ve Nak. Benz. Net Artış/Azalış"
+   ],
+   [
+    "4CBG",
+    " Yab.ı Para Çevrim Fark. Nakit Ve Nakit Benz. Üzerindeki Etkisi"
+   ],
+   [
+    "4CBH",
+    " Diğer Nakit Girişi/Çıkışı"
+   ],
+   [
+    "4CBI",
+    "Nakit ve Benzerlerindeki Değişim"
+   ],
+   [
+    "4CBJ",
+    "Diğer Nakit ve Nakit Benzerlerindeki Artış"
+   ],
+   [
+    "4CBK",
+    "Dönem Başı Nakit Değerler"
+   ],
+   [
+    "4CBL",
+    "Dönem Sonu Nakit"
+   ]
+  ],
+  "TUPRS": [
+   [
+    "1A",
+    "Dönen Varlıklar"
+   ],
+   [
+    "1AA",
+    "  Nakit ve Nakit Benzerleri"
+   ],
+   [
+    "1AB",
+    "  Finansal Yatırımlar"
+   ],
+   [
+    "1AC",
+    "  Ticari Alacaklar"
+   ],
+   [
+    "1AD",
+    "  Finans Sektörü Faaliyetlerinden Alacaklar"
+   ],
+   [
+    "1AE",
+    "  Diğer Alacaklar"
+   ],
+   [
+    "1AEA",
+    "  Müşteri Sözleşmelerinden Doğan Varlıklar"
+   ],
+   [
+    "1AF",
+    "  Stoklar"
+   ],
+   [
+    "1AG",
+    "  Canlı Varlıklar"
+   ],
+   [
+    "1AH",
+    "  Diğer Dönen Varlıklar"
+   ],
+   [
+    "1AI",
+    "    (Ara Toplam)"
+   ],
+   [
+    "1AJ",
+    "  Satış Amacıyla Elde Tutulan Duran Varlıklar"
+   ],
+   [
+    "1AK",
+    "Duran Varlıklar"
+   ],
+   [
+    "1B",
+    "  Ticari Alacaklar"
+   ],
+   [
+    "1BA",
+    "  Finans Sektörü Faaliyetlerinden Alacaklar"
+   ],
+   [
+    "1BB",
+    "  Diğer Alacaklar"
+   ],
+   [
+    "1BBA",
+    "  Müşteri Sözleşmelerinden Doğan Varlıklar"
+   ],
+   [
+    "1BC",
+    "  Finansal Yatırımlar"
+   ],
+   [
+    "1BD",
+    "  Özkaynak Yöntemiyle Değerlenen Yatırımlar"
+   ],
+   [
+    "1BE",
+    "  Canlı Varlıklar"
+   ],
+   [
+    "1BF",
+    "  Yatırım Amaçlı Gayrimenkuller"
+   ],
+   [
+    "1BFA",
+    "  Stoklar"
+   ],
+   [
+    "1BFAA",
+    "  Kullanım Hakkı Varlıkları"
+   ],
+   [
+    "1BG",
+    "  Maddi Duran Varlıklar"
+   ],
+   [
+    "1BGA",
+    "  Şerefiye"
+   ],
+   [
+    "1BH",
+    "  Maddi Olmayan Duran Varlıklar"
+   ],
+   [
+    "1BJ",
+    "  Ertelenmiş Vergi Varlığı"
+   ],
+   [
+    "1BK",
+    "  Diğer Duran Varlıklar"
+   ],
+   [
+    "1BL",
+    "TOPLAM VARLIKLAR"
+   ],
+   [
+    "1BM",
+    "KAYNAKLAR"
+   ],
+   [
+    "2A",
+    "Kısa Vadeli Yükümlülükler"
+   ],
+   [
+    "2AA",
+    "  Finansal Borçlar"
+   ],
+   [
+    "2AAG",
+    "  Diğer Finansal Yükümlülükler"
+   ],
+   [
+    "2AAGAA",
+    "  Ticari Borçlar"
+   ],
+   [
+    "2AAGAB",
+    "  Diğer Borçlar"
+   ],
+   [
+    "2AAGAC",
+    "  Müşteri Söz. Doğan Yük."
+   ],
+   [
+    "2AAGB",
+    "  Finans Sektörü Faaliyetlerinden Borçlar"
+   ],
+   [
+    "2AAGC",
+    "  Devlet Teşvik ve Yardımları"
+   ],
+   [
+    "2AAGCA",
+    "  Ertelenmiş Gelirler (Müşteri Söz. Doğan Yük. Dış.Kal.)"
+   ],
+   [
+    "2AAGD",
+    "  Dönem Karı Vergi Yükümlülüğü"
+   ],
+   [
+    "2AAGE",
+    "  Borç Karşılıkları"
+   ],
+   [
+    "2AAGF",
+    "  Diğer Kısa Vadeli Yükümlülükler"
+   ],
+   [
+    "2AAGG",
+    "    (Ara Toplam)"
+   ],
+   [
+    "2AAGH",
+    "  Satış Amaçlı Elde Tutulan Duran Varlıklara İlişkin Yükümlülükler"
+   ],
+   [
+    "2B",
+    "Uzun Vadeli Yükümlülükler"
+   ],
+   [
+    "2BA",
+    "  Finansal Borçlar"
+   ],
+   [
+    "2BB",
+    "  Diğer Finansal Yükümlülükler"
+   ],
+   [
+    "2BBA",
+    "  Ticari Borçlar"
+   ],
+   [
+    "2BBB",
+    "  Diğer Borçlar"
+   ],
+   [
+    "2BBBA",
+    "  Müşteri Söz.Doğan Yük."
+   ],
+   [
+    "2BC",
+    "  Finans Sektörü Faaliyetlerinden Borçlar"
+   ],
+   [
+    "2BD",
+    "  Devlet Teşvik ve Yardımları"
+   ],
+   [
+    "2BDA",
+    "  Ertelenmiş Gelirler (Müşteri Söz.Doğan Yük. Dış.Kal.)"
+   ],
+   [
+    "2BE",
+    "    Uzun vadeli karşılıklar"
+   ],
+   [
+    "2BF",
+    "  Çalışanlara Sağlanan Faydalara İliş.Karş."
+   ],
+   [
+    "2BG",
+    "  Ertelenmiş Vergi Yükümlülüğü"
+   ],
+   [
+    "2BH",
+    "  Diğer Uzun Vadeli Yükümlülükler"
+   ],
+   [
+    "2N",
+    "Özkaynaklar"
+   ],
+   [
+    "2O",
+    "  Ana Ortaklığa Ait Özkaynaklar"
+   ],
+   [
+    "2OA",
+    "  Ödenmiş Sermaye"
+   ],
+   [
+    "2OC",
+    "  Karşılıklı İştirak Sermayesi Düzeltmesi (-)"
+   ],
+   [
+    "2OCA",
+    "  Hisse Senedi İhraç Primleri"
+   ],
+   [
+    "2OCB",
+    "  Değer Artış Fonları"
+   ],
+   [
+    "2OCC",
+    "  Yabancı Para Çevrim Farkları"
+   ],
+   [
+    "2OCD",
+    "  Kardan Ayrılan Kısıtlanmış Yedekler"
+   ],
+   [
+    "2OCE",
+    "  Geçmiş Yıllar Kar/Zararları"
+   ],
+   [
+    "2OCF",
+    "  Dönem Net Kar/Zararı"
+   ],
+   [
+    "2OD",
+    "  Diğer Özsermaye Kalemleri"
+   ],
+   [
+    "2ODA",
+    "  Azınlık Payları"
+   ],
+   [
+    "2ODB",
+    "TOPLAM KAYNAKLAR"
+   ],
+   [
+    "3B",
+    "Sürdürülen Faaliyetler"
+   ],
+   [
+    "3C",
+    "Satış Gelirleri"
+   ],
+   [
+    "3CA",
+    "Satışların Maliyeti (-)"
+   ],
+   [
+    "3CAA",
+    "Ticari Faaliyetlerden Diğer Kar (Zarar)"
+   ],
+   [
+    "3CAB",
+    "Ticari Faaliyetlerden Brüt Kar (Zarar)"
+   ],
+   [
+    "3CAC",
+    "Faiz, Ücret, Prim, Komisyon ve Diğer Gelirler"
+   ],
+   [
+    "3CAD",
+    "Faiz, Ücret, Prim, Komisyon ve Diğer Giderler (-)"
+   ],
+   [
+    "3CAE",
+    "Finans Sektörü Faaliyetlerinden Diğer Kar (Zarar)"
+   ],
+   [
+    "3CAF",
+    "Finans Sektörü Faaliyetlerinden Brüt Kar (Zarar)"
+   ],
+   [
+    "3CB",
+    "Diğer Gelir ve Giderler"
+   ],
+   [
+    "3D",
+    "BRÜT KAR (ZARAR)"
+   ],
+   [
+    "3DA",
+    "Pazarlama, Satış ve Dağıtım Giderleri (-)"
+   ],
+   [
+    "3DB",
+    "Genel Yönetim Giderleri (-)"
+   ],
+   [
+    "3DC",
+    "Araştırma ve Geliştirme Giderleri (-)"
+   ],
+   [
+    "3DD",
+    "Diğer Faaliyet Gelirleri"
+   ],
+   [
+    "3DE",
+    "Diğer Faaliyet Giderleri (-)"
+   ],
+   [
+    "3DEA",
+    "Faaliyet Karı Öncesi Diğer Gelir ve Giderler"
+   ],
+   [
+    "3DF",
+    "FAALİYET KARI (ZARARI)"
+   ],
+   [
+    "3H",
+    "Net Faaliyet Kar/Zararı"
+   ],
+   [
+    "3HA",
+    "  Yatırım Faaliyetlerinden Gelirler"
+   ],
+   [
+    "3HAA",
+    "  Yatırım Faaliyetlerinden Giderler (-)"
+   ],
+   [
+    "3HAB",
+    "  Diğer Gelir ve Giderler"
+   ],
+   [
+    "3HAC",
+    "Özkaynak Yöntemiyle Değerlenen Yatırımların Kar/Zararlarındaki Paylar"
+   ],
+   [
+    "3HACA",
+    "Finansman Gideri Öncesi Faaliyet Karı/Zararı"
+   ],
+   [
+    "3HB",
+    "(Esas Faaliyet Dışı) Finansal Gelirler"
+   ],
+   [
+    "3HC",
+    "(Esas Faaliyet Dışı) Finansal Giderler (-)"
+   ],
+   [
+    "3HCA",
+    "Vergi Öncesi Diğer Gelir ve Giderler"
+   ],
+   [
+    "3I",
+    "SÜRDÜRÜLEN FAALİYETLER VERGİ ÖNCESİ KARI (ZARARI)"
+   ],
+   [
+    "3IA",
+    "Sürdürülen Faaliyetler Vergi Geliri (Gideri)"
+   ],
+   [
+    "3IB",
+    "  Dönem Vergi Geliri (Gideri)"
+   ],
+   [
+    "3IC",
+    "  Ertelenmiş Vergi Geliri (Gideri)"
+   ],
+   [
+    "3ID",
+    "  Diğer Vergi Geliri (Gideri)"
+   ],
+   [
+    "3J",
+    "SÜRDÜRÜLEN FAALİYETLER DÖNEM KARI/ZARARI"
+   ],
+   [
+    "3K",
+    "DURDURULAN FAALİYETLER"
+   ],
+   [
+    "3KA",
+    "Durdurulan Faaliyetler Vergi Sonrası Dönem Karı (Zararı)"
+   ],
+   [
+    "3L",
+    "DÖNEM KARI (ZARARI)"
+   ],
+   [
+    "3LA",
+    "Dönem Kar/Zararının Dağılımı"
+   ],
+   [
+    "3LB",
+    "Azınlık Payları"
+   ],
+   [
+    "3Z",
+    "Ana Ortaklık Payları"
+   ],
+   [
+    "3ZD",
+    "Hisse Başına Kazanç"
+   ],
+   [
+    "3ZE",
+    "Seyreltilmiş Hisse Başına Kazanç"
+   ],
+   [
+    "3ZF",
+    "Sürdürülen Faaliyetlerden Hisse Başına Kazanç"
+   ],
+   [
+    "3ZG",
+    "Sürdürülen Faaliyetlerden Seyreltilmiş Hisse Başına Kazanç"
+   ],
+   [
+    "4B",
+    "Amortisman Giderleri"
+   ],
+   [
+    "4BA",
+    "Kıdem Tazminatı"
+   ],
+   [
+    "4BB",
+    "Finansman Giderleri"
+   ],
+   [
+    "4BC",
+    "Yurtiçi Satışlar"
+   ],
+   [
+    "4BD",
+    "Yurtdışı Satışlar"
+   ],
+   [
+    "4BE",
+    "Net Yabancı Para Pozisyonu"
+   ],
+   [
+    "4BEA",
+    "Parasal net yabancı para varlık/(yükümlülük) pozisyonu"
+   ],
+   [
+    "4BEB",
+    "Net YPP (Hedge Dahil)"
+   ],
+   [
+    "4C",
+    " İşletme Faaliyetlerinden Kaynaklanan Net Nakit"
+   ],
+   [
+    "4CA",
+    " Düzeltme Öncesi Kar"
+   ],
+   [
+    "4CAA",
+    " Düzeltmeler:"
+   ],
+   [
+    "4CAB",
+    "  Amortisman & İtfa Payları"
+   ],
+   [
+    "4CAC",
+    "  Karşılıklardaki Değişim"
+   ],
+   [
+    "4CAD",
+    "  Diğer Gelir/ Gider"
+   ],
+   [
+    "4CAE",
+    " İşletme Sermayesinde Değişikler Öncesi Faaliyet Karı (+)"
+   ],
+   [
+    "4CAF",
+    "  İşletme Sermayesindeki Değişiklikler"
+   ],
+   [
+    "4CAG",
+    " Esas Faaliyet ile İlgili Oluşan Nakit (+)"
+   ],
+   [
+    "4CAH",
+    "  Diğer İşletme Faaliyetlerinden Nakit"
+   ],
+   [
+    "4CAI",
+    "  Sabit Sermaye Yatırımları"
+   ],
+   [
+    "4CAJ",
+    "  Diğer Yatırım Faaliyetlerinden Nakit"
+   ],
+   [
+    "4CAK",
+    " Yatırım Faaliyetlerinden Kaynaklanan Nakit"
+   ],
+   [
+    "4CB",
+    "Serbest Nakit Akım"
+   ],
+   [
+    "4CBA",
+    "Finansal Borçlardaki Değişim"
+   ],
+   [
+    "4CBB",
+    "Temettü Ödemeleri"
+   ],
+   [
+    "4CBC",
+    "Sermaye Artırımı"
+   ],
+   [
+    "4CBD",
+    "Diğer Finansman Faaliyetlerinden Nakit"
+   ],
+   [
+    "4CBE",
+    "Finansman Faaliyetlerden Kaynaklanan Nakit"
+   ],
+   [
+    "4CBF",
+    "Yab. Para Çev. Fark. Etk. Önc.Nak.Ve Nak. Benz. Net Artış/Azalış"
+   ],
+   [
+    "4CBG",
+    " Yab.ı Para Çevrim Fark. Nakit Ve Nakit Benz. Üzerindeki Etkisi"
+   ],
+   [
+    "4CBH",
+    " Diğer Nakit Girişi/Çıkışı"
+   ],
+   [
+    "4CBI",
+    "Nakit ve Benzerlerindeki Değişim"
+   ],
+   [
+    "4CBJ",
+    "Diğer Nakit ve Nakit Benzerlerindeki Artış"
+   ],
+   [
+    "4CBK",
+    "Dönem Başı Nakit Değerler"
+   ],
+   [
+    "4CBL",
+    "Dönem Sonu Nakit"
+   ]
+  ]
  },
  "ok": true
 }
