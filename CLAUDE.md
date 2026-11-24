@@ -44,14 +44,14 @@ Bir şirket hangi mercekten geçerse "Fırsatlar" listesine girer. Mercekler ba�
 
 ## Veri nasıl gelir
 
-GitHub'daki `collect` iş akışı (`.github/workflows/collect.yml`) veriyi toplar ve `data/TR/in/` altına bırakır; hiçbir şey yayımlamaz. Cumartesi 05:10 (İstanbul) haftalık çalışır; her gece 01:40'taki çalışma artık bir şey toplamaz (iş akışının saatleri yalnız Alper'in isteğiyle değişir).
+GitHub'daki `collect` iş akışı (`.github/workflows/collect.yml`) veriyi toplar ve `data/TR/in/` altına bırakır; hiçbir şey yayımlamaz. Haftada bir, cumartesi 05:10 (İstanbul) çalışır; Alper'in 24 Kasım 2026 kararı: "haftada 1 çalışsa yeter". Her gece 01:40'taki çalışma bir şey toplamaz. Fiyatlar ve oranlar bu yüzden en çok bir haftalıktır; sayfa veri tarihini üst şeritte gösterir. Gündem (SPK, kayyum, tedbir) Claude görevleriyle izlenir.
 
 - `universe.json`: bütün paylar (fiyat, piyasa değeri, halka açıklık, F/K, PD/DD, bilanço dönemi). Kaynak İş Yatırım'ın temel değerler tablosu.
 - `fin.json`: her şirketin son bilançosu (dönen varlıklar, nakit, stok, kısa ve uzun vadeli yükümlülükler, finansal borçlar, özsermaye, azınlık payı, maddi olmayan varlıklar, şerefiye), son altı mali yılın ana ortaklık net kârı ve ödenen temettü. Kaynak İş Yatırım'ın şirket kartındaki mali tablolar (MaliTablo). Bilanço dönemi değişmedikçe yeniden indirilmez.
 - `macro.json`: döviz, enflasyon, `rates` (10 yıllık tahvil ve politika faizi; bulunamazsa boş).
 - `status.json`: özet, hatalar, `fin` (kaç şirketin tablosu geldi, hangileri gelmedi), `fin_sample` (iki şirketin ham kalem listesi: kalem adları beklenenden farklıysa buradan görülür).
 
-**İlk mali tablo toplamasından sonra** (bir kez): `accept.py` birimi ve kalem eşleşmesini denetler. Bir şirketin (örnek THYAO) 2021 net kârını KAP'taki yıllık rapordan oku: İş Yatırım geçmiş yılları o yılın parasıyla veriyorsa `meta.fin_restated` yanlış kalır; bugünün parasına çevrilmiş veriyorsa doğru yapılır (yoksa enflasyon iki kez düşülür). Sonucu `data/_watch.md` içine yaz.
+**Mali tabloların parası** (24 Kasım 2026'da görüldü, `meta.fin_money`): İş Yatırım 2024 ve sonraki yılların yıllık rakamlarını son bilanço döneminin parasıyla, 2023 ve öncesini açıklandığı gibi verir. `funnel.to_now()` eski yılları yıl sonu TÜFE ile bugüne taşır. Bu yapı değişirse (örnek: yeni bir yıl eklenince hangi yılların yeniden değerlendiği) `current_from` güncellenir; denetim yolu: bir şirketin özsermaye köprüsü (yıl sonu özsermayesi + dönem kârı − temettü ≈ son dönem özsermayesi).
 
 ## Komutlar
 
