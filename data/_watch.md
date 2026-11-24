@@ -51,6 +51,6 @@ Bu dosyaya kural önerisi değil, gözlem yazılır: tarih, ne görüldü, hangi
 
 - Kapsam yalnız Türkiye; öbür on ülkenin verisi silindi. Hendek ve kale yöntemi kalktı; yerine genç Buffett'ın dört merceği geldi: net-net, Graham ölçütleri, kâr verimi, özel durumlar (CLAUDE.md).
 - Mali tablolar için toplayıcıya İş Yatırım MaliTablo okuyucusu eklendi; Claude oturumundan denenemedi (ağ kapalı). İlk toplamadan sonra `status.json` içindeki `fin`, `fin_sample` ve `accept.py` birim denetimine bakılmalı.
-- İlk sonuç (yalnız kâr verimi, bilanço yokken): 599 büyük şirketin 111'i %10 eşiğini geçiyor. Sayı fazla; bir kısmı tek seferlik kârdan (F/K 2,5 altı uyarılı 16 şirket). Üç yıllık ortalama kuralı bilanço gelince devreye girer.
+- İlk sonuç (yalnız kâr verimi, bilanço yokken): 599 büyük şirketin 111'i %10 eşiğini geçiyor. Sayı fazla; bir kısmı tek seferlik kârdan (F/K 2,5 altı uyarılı 14 şirket). Üç yıllık ortalama kuralı bilanço gelince devreye girer.
 - Özel durumlar (24 Kasım): açık teklif yok; onay bekleyen KARTN (130 TL; fiyat 92,40), SEGMN (38,90 TL; fiyat 16,26: B payı mı, doğrulanmalı), HKTM (12,72 TL), PRZMA (23,50 TL; Tera grubu, yüksek risk), ALCAR (fiyat belli değil), BIOEN (ayrılma hakkı 17,52 TL).
 - İş akışının saatini hafta içi günlüğe çekmek denendi, oturumun izni olmadı; collect.yml değişmedi. Alper isterse veri her gün toplanabilir.
