@@ -71,3 +71,10 @@ Bu dosyaya kural önerisi değil, gözlem yazılır: tarih, ne görüldü, hangi
 - Sonuç: net-net 3, Graham 9, kâr verimi 58 (üç yıllık ortalama kuralı 111'i 58'e indirdi), en az bir mercek 64; bayrakla çıkarılan 27. Mercekten geçen ya da eşikte olup okunmamış şirket kalmadı.
 - 10 yıllık tahvil: TradingView TVC:TR10Y %33,59, Bloomberg HT (23 Kasım) %36,11; sayfa kaynaklı olanı (meta.rates) kullanıyor. Eşik etkilenmiyor (%10 tabanı geçerli).
 - Zamanlanmış görevlerin metni güncellenemedi (izin verilmedi); CLAUDE.md'deki "Günlük iş" bölümü eski başlıkları anan görev metnine de uygulanacak şekilde yazıldı.
+
+## 25 Kasım 2026: günlük iş
+
+- Yeni veri yok (son toplama 24 Kasım; haftalık toplama cumartesi). Okunmamış şirket yok; sayılar değişmedi: net-net 3, Graham 9, kâr verimi 58, en az bir mercek 64, bayrakla çıkan 27.
+- Gündem: Borsa İstanbul 25 Kasım-24 Aralık 2026 için SVGYO, DUNYH, LYDHO'ya açığa satış ve kredili işlem yasağı getirdi (uyarı yazıldı; üçü de mercek dışında). ODINE ve KARCL aynı karara girdi, zaten manipülasyon bayrağıyla dışarıda; DOGUB'a emir paketi (kayyumla dışarıda). IDGYO bir ay tek fiyata alındı, tedbiri 24 Aralık'a uzadı. Destek Holding'e kayyum (19 Kasım) DSTKF'nin mevcut bayrağıyla örtüşüyor. Dünya Varlık Yönetim'e kayyum (14 Kasım): borsada pay kodu ya da DUNYH ile bağ bulunamadı.
+- SPK 2026/83 ve 2026/84 bültenlerinde pay alım teklifi onayı ve şirkete ceza yok; BTCIM ve EUKYO'daki kişilere 6 ay işlem yasağı daha önce okunmuş (checked). Bülten PDF'leri açılamadı, özetler bultenara.com'dan.
+- Özel durumlar: KARTN, SEGMN, HKTM, PRZMA, ALCAR, BIOEN için yeni onay ya da takvim bulunamadı. TGSAS'ın Ağustos-Eylül 2026'daki zorunlu teklifi Re-Pie/Tera GSYF/Bulls GSYF'den geliyor (247 TL); şirket kontrolünün Tera grubuna bağlı fonlara geçip geçmediği kaynakla doğrulanmalı (TGSAS şu an mercek dışında, kâr verimi %6,7).

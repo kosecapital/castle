@@ -1452,6 +1452,29 @@
     }
    ],
    "sev": "warn"
+  },
+  {
+   "k": "measure",
+   "sev": "warn",
+   "date": "2026-11-25",
+   "until": "2026-12-24",
+   "per": null,
+   "tr": "Borsa İstanbul VBTS kapsamında İdealist GYO payları 25 Kasım 2026'dan itibaren bir ay tek fiyat yöntemiyle işlem görüyor; açığa satış ve kredili işlem yasağı, brüt takas ve emir paketi tedbiri 24 Aralık 2026 seans sonuna kadar uzadı.",
+   "en": "Under Borsa Istanbul's VBTS, İdealist GYO shares trade under the single-price method for one month from 25 November 2026; the short-selling and margin ban, gross settlement and order-package measure were extended to the end of the session on 24 December 2026.",
+   "sources": [
+    {
+     "t": "Ekotürk: Borsa İstanbul'dan 7 paya işlem tedbiri (24 Kasım 2026)",
+     "te": "Ekotürk: Borsa Istanbul measures on 7 shares (24 November 2026)",
+     "u": "https://www.ekoturk.com/borsa/borsa-istanbuldan-7-paya-islem-tedbiri",
+     "primary": false
+    },
+    {
+     "t": "Para Ajansı: Borsa İstanbul'dan 7 hisseye tedbir kararı (24 Kasım 2026)",
+     "te": "Para Ajansı: Borsa Istanbul measures on 7 shares (24 November 2026)",
+     "u": "https://paraajansi.com.tr/sirket-haberleri/borsa-istanbuldan-7-hisseye-birden-tedbir-karari-yarin-sabah-basliyor-22232014h",
+     "primary": false
+    }
+   ]
   }
  ],
  "IHEVA": [
@@ -2629,6 +2652,99 @@
     }
    ],
    "sev": "out"
+  }
+ ],
+ "SVGYO": [
+  {
+   "k": "measure",
+   "sev": "warn",
+   "date": "2026-11-25",
+   "until": "2026-12-24",
+   "per": null,
+   "tr": "Borsa İstanbul VBTS kapsamında Savur GYO paylarında açığa satış ve kredili işlem yasağı uygulanıyor; tedbir 25 Kasım 2026 seans başından 24 Aralık 2026 seans sonuna kadar sürer.",
+   "en": "Under Borsa Istanbul's VBTS, Savur GYO shares are under a short-selling and margin-trading ban from the start of the session on 25 November 2026 to the end of the session on 24 December 2026.",
+   "sources": [
+    {
+     "t": "Ekotürk: Borsa İstanbul'dan 7 paya işlem tedbiri (24 Kasım 2026)",
+     "te": "Ekotürk: Borsa Istanbul measures on 7 shares (24 November 2026)",
+     "u": "https://www.ekoturk.com/borsa/borsa-istanbuldan-7-paya-islem-tedbiri",
+     "primary": false
+    },
+    {
+     "t": "CNBC-e: Borsa İstanbul'dan 5 hisseye 1 ay işlem yasağı (24 Kasım 2026)",
+     "te": "CNBC-e: Borsa Istanbul one-month ban on 5 shares (24 November 2026)",
+     "u": "https://www.cnbce.com/borsa/borsa-istanbuldan-5-hisseye-islem-yasagi-1-ay-boyunca-uygulanacak-iste-o-hisseler-h42550",
+     "primary": false
+    },
+    {
+     "t": "Para Ajansı: Borsa İstanbul'dan 7 hisseye tedbir kararı (24 Kasım 2026)",
+     "te": "Para Ajansı: Borsa Istanbul measures on 7 shares (24 November 2026)",
+     "u": "https://paraajansi.com.tr/sirket-haberleri/borsa-istanbuldan-7-hisseye-birden-tedbir-karari-yarin-sabah-basliyor-22232014h",
+     "primary": false
+    }
+   ]
+  }
+ ],
+ "DUNYH": [
+  {
+   "k": "measure",
+   "sev": "warn",
+   "date": "2026-11-25",
+   "until": "2026-12-24",
+   "per": null,
+   "tr": "Borsa İstanbul VBTS kapsamında Dünya Holding paylarında açığa satış ve kredili işlem yasağı uygulanıyor; tedbir 25 Kasım 2026 seans başından 24 Aralık 2026 seans sonuna kadar sürer.",
+   "en": "Under Borsa Istanbul's VBTS, Dünya Holding shares are under a short-selling and margin-trading ban from the start of the session on 25 November 2026 to the end of the session on 24 December 2026.",
+   "sources": [
+    {
+     "t": "Ekotürk: Borsa İstanbul'dan 7 paya işlem tedbiri (24 Kasım 2026)",
+     "te": "Ekotürk: Borsa Istanbul measures on 7 shares (24 November 2026)",
+     "u": "https://www.ekoturk.com/borsa/borsa-istanbuldan-7-paya-islem-tedbiri",
+     "primary": false
+    },
+    {
+     "t": "CNBC-e: Borsa İstanbul'dan 5 hisseye 1 ay işlem yasağı (24 Kasım 2026)",
+     "te": "CNBC-e: Borsa Istanbul one-month ban on 5 shares (24 November 2026)",
+     "u": "https://www.cnbce.com/borsa/borsa-istanbuldan-5-hisseye-islem-yasagi-1-ay-boyunca-uygulanacak-iste-o-hisseler-h42550",
+     "primary": false
+    },
+    {
+     "t": "Para Ajansı: Borsa İstanbul'dan 7 hisseye tedbir kararı (24 Kasım 2026)",
+     "te": "Para Ajansı: Borsa Istanbul measures on 7 shares (24 November 2026)",
+     "u": "https://paraajansi.com.tr/sirket-haberleri/borsa-istanbuldan-7-hisseye-birden-tedbir-karari-yarin-sabah-basliyor-22232014h",
+     "primary": false
+    }
+   ]
+  }
+ ],
+ "LYDHO": [
+  {
+   "k": "measure",
+   "sev": "warn",
+   "date": "2026-11-25",
+   "until": "2026-12-24",
+   "per": null,
+   "tr": "Borsa İstanbul VBTS kapsamında Lydia Holding paylarında açığa satış ve kredili işlem yasağı uygulanıyor; tedbir 25 Kasım 2026 seans başından 24 Aralık 2026 seans sonuna kadar sürer.",
+   "en": "Under Borsa Istanbul's VBTS, Lydia Holding shares are under a short-selling and margin-trading ban from the start of the session on 25 November 2026 to the end of the session on 24 December 2026.",
+   "sources": [
+    {
+     "t": "Ekotürk: Borsa İstanbul'dan 7 paya işlem tedbiri (24 Kasım 2026)",
+     "te": "Ekotürk: Borsa Istanbul measures on 7 shares (24 November 2026)",
+     "u": "https://www.ekoturk.com/borsa/borsa-istanbuldan-7-paya-islem-tedbiri",
+     "primary": false
+    },
+    {
+     "t": "CNBC-e: Borsa İstanbul'dan 5 hisseye 1 ay işlem yasağı (24 Kasım 2026)",
+     "te": "CNBC-e: Borsa Istanbul one-month ban on 5 shares (24 November 2026)",
+     "u": "https://www.cnbce.com/borsa/borsa-istanbuldan-5-hisseye-islem-yasagi-1-ay-boyunca-uygulanacak-iste-o-hisseler-h42550",
+     "primary": false
+    },
+    {
+     "t": "Para Ajansı: Borsa İstanbul'dan 7 hisseye tedbir kararı (24 Kasım 2026)",
+     "te": "Para Ajansı: Borsa Istanbul measures on 7 shares (24 November 2026)",
+     "u": "https://paraajansi.com.tr/sirket-haberleri/borsa-istanbuldan-7-hisseye-birden-tedbir-karari-yarin-sabah-basliyor-22232014h",
+     "primary": false
+    }
+   ]
   }
  ]
 }
