@@ -736,6 +736,29 @@
     }
    ],
    "sev": "out"
+  },
+  {
+   "k": "measure",
+   "sev": "warn",
+   "date": "2026-11-26",
+   "until": "2026-12-25",
+   "per": null,
+   "tr": "Borsa İstanbul VBTS kapsamında Pasifik Eurasia paylarında açığa satış ve kredili işlem yasağı uygulanıyor; tedbir 26 Kasım 2026 seans başından 25 Aralık 2026 seans sonuna kadar sürer.",
+   "en": "Under Borsa Istanbul's VBTS, Pasifik Eurasia shares are under a short-selling and margin-trading ban from the start of the session on 26 November 2026 to the end of the session on 25 December 2026.",
+   "sources": [
+    {
+     "t": "CNBC-e: Borsa İstanbul'dan 3 hisseye işlem yasağı (25 Kasım 2026)",
+     "te": "CNBC-e: Borsa Istanbul trading ban on 3 shares (25 November 2026)",
+     "u": "https://www.cnbce.com/borsa/borsa-istanbuldan-3-hisseye-islem-yasagi-1-ay-boyunca-uygulanacak-iste-o-hisseler-h42633",
+     "primary": false
+    },
+    {
+     "t": "Borsa Gündem: Borsa İstanbul'dan 4 hisseye tedbir kararı (25 Kasım 2026)",
+     "te": "Borsa Gündem: Borsa Istanbul measures on 4 shares (25 November 2026)",
+     "u": "https://www.borsagundem.com.tr/borsa-istanbuldan-4-hisseye-tedbir-karari-24",
+     "primary": false
+    }
+   ]
   }
  ],
  "SELEC": [
@@ -755,6 +778,29 @@
     }
    ],
    "sev": "out"
+  },
+  {
+   "k": "measure",
+   "sev": "warn",
+   "date": "2026-11-26",
+   "until": "2026-12-25",
+   "per": null,
+   "tr": "Borsa İstanbul VBTS kapsamında Selçuk Ecza Deposu paylarında açığa satış ve kredili işlem yasağı uygulanıyor; tedbir 26 Kasım 2026 seans başından 25 Aralık 2026 seans sonuna kadar sürer.",
+   "en": "Under Borsa Istanbul's VBTS, Selçuk Ecza Deposu shares are under a short-selling and margin-trading ban from the start of the session on 26 November 2026 to the end of the session on 25 December 2026.",
+   "sources": [
+    {
+     "t": "CNBC-e: Borsa İstanbul'dan 3 hisseye işlem yasağı (25 Kasım 2026)",
+     "te": "CNBC-e: Borsa Istanbul trading ban on 3 shares (25 November 2026)",
+     "u": "https://www.cnbce.com/borsa/borsa-istanbuldan-3-hisseye-islem-yasagi-1-ay-boyunca-uygulanacak-iste-o-hisseler-h42633",
+     "primary": false
+    },
+    {
+     "t": "Borsa Gündem: Borsa İstanbul'dan 4 hisseye tedbir kararı (25 Kasım 2026)",
+     "te": "Borsa Gündem: Borsa Istanbul measures on 4 shares (25 November 2026)",
+     "u": "https://www.borsagundem.com.tr/borsa-istanbuldan-4-hisseye-tedbir-karari-24",
+     "primary": false
+    }
+   ]
   }
  ],
  "TMPOL": [
@@ -2683,6 +2729,35 @@
      "primary": false
     }
    ]
+  },
+  {
+   "k": "manip",
+   "sev": "out",
+   "date": "2026-11-25",
+   "until": "2027-11-25",
+   "per": null,
+   "tr": "SPK 25 Kasım 2026 tarihli 2026/85 sayılı bülteninde Savur GYO paylarındaki işlemler için 38 kişi hakkında suç duyurusunda bulundu ve 2 yıl işlem yasağı getirdi. Pardus Portföy, Tera Portföy ve Tera Yatırım Bankası'nın kendi hesaplarına SVGYO işlemlerine de kısıtlama getirildi. Haberlerde bu kişilerin şirketle bağı yazmıyor; bülten doğrudan okunamadı.",
+   "en": "In its bulletin 2026/85 of 25 November 2026 the CMB filed criminal complaints against 38 people over trading in Savur GYO shares and imposed 2-year trading bans. Pardus Portföy, Tera Portföy and Tera Yatırım Bankası were also restricted from trading SVGYO for their own account. The reports do not state any tie between these people and the company; the bulletin itself could not be opened.",
+   "sources": [
+    {
+     "t": "Endeks24: SPK, KUYAS, SMRVA ve SVGYO'da suç duyurusu ve 2 yıl yasak kararı aldı (26 Kasım 2026)",
+     "te": "Endeks24: CMB files criminal complaints and 2-year bans over KUYAS, SMRVA and SVGYO (26 November 2026)",
+     "u": "https://www.endeks24.com/spk-kuyas-smrva-ve-svgyo-da-suc-duyurusu-ve-2-yil-yasak-karari-aldi",
+     "primary": false
+    },
+    {
+     "t": "Ekotürk: SPK'dan üç paydaki işlemlere suç duyurusu, Pasifik GYO incelemesinde 71 milyon TL ceza (26 Kasım 2026)",
+     "te": "Ekotürk: CMB criminal complaints over trading in three shares, 71 million TL fine in Pasifik GYO review (26 November 2026)",
+     "u": "https://www.ekoturk.com/borsa/spkdan-uc-paydaki-islemlere-suc-duyurusu-pasifik-gyo-incelemesinde-71-milyon-tl-ceza",
+     "primary": false
+    },
+    {
+     "t": "CNBC-e: Pasifik GYO (PSGYO) paylarında 71 milyon TL'lik SPK cezası: 8 ayrı yaptırım kararı (26 Kasım 2026)",
+     "te": "CNBC-e: 71 million TL CMB fine over Pasifik GYO (PSGYO) shares: 8 separate sanctions (26 November 2026)",
+     "u": "https://www.cnbce.com/borsa/pasifik-gyo-psgyo-paylarinda-71-milyon-tllik-spk-cezasi-8-ayri-yaptirim-karari-h42645",
+     "primary": false
+    }
+   ]
   }
  ],
  "DUNYH": [
@@ -2742,6 +2817,178 @@
      "t": "Para Ajansı: Borsa İstanbul'dan 7 hisseye tedbir kararı (24 Kasım 2026)",
      "te": "Para Ajansı: Borsa Istanbul measures on 7 shares (24 November 2026)",
      "u": "https://paraajansi.com.tr/sirket-haberleri/borsa-istanbuldan-7-hisseye-birden-tedbir-karari-yarin-sabah-basliyor-22232014h",
+     "primary": false
+    }
+   ]
+  }
+ ],
+ "KUYAS": [
+  {
+   "k": "manip",
+   "sev": "out",
+   "date": "2026-11-25",
+   "until": "2027-11-25",
+   "per": null,
+   "tr": "SPK 25 Kasım 2026 tarihli 2026/85 sayılı bülteninde Kuyaş Yatırım paylarındaki işlemler için 12 kişi hakkında suç duyurusunda bulundu ve 2 yıl işlem yasağı getirdi. Haberlerde bu kişilerin şirketle bağı yazmıyor; bülten doğrudan okunamadı.",
+   "en": "In its bulletin 2026/85 of 25 November 2026 the CMB filed criminal complaints against 12 people over trading in Kuyaş Yatırım shares and imposed 2-year trading bans. The reports do not state any tie between these people and the company; the bulletin itself could not be opened.",
+   "sources": [
+    {
+     "t": "Endeks24: SPK, KUYAS, SMRVA ve SVGYO'da suç duyurusu ve 2 yıl yasak kararı aldı (26 Kasım 2026)",
+     "te": "Endeks24: CMB files criminal complaints and 2-year bans over KUYAS, SMRVA and SVGYO (26 November 2026)",
+     "u": "https://www.endeks24.com/spk-kuyas-smrva-ve-svgyo-da-suc-duyurusu-ve-2-yil-yasak-karari-aldi",
+     "primary": false
+    },
+    {
+     "t": "Ekotürk: SPK'dan üç paydaki işlemlere suç duyurusu, Pasifik GYO incelemesinde 71 milyon TL ceza (26 Kasım 2026)",
+     "te": "Ekotürk: CMB criminal complaints over trading in three shares, 71 million TL fine in Pasifik GYO review (26 November 2026)",
+     "u": "https://www.ekoturk.com/borsa/spkdan-uc-paydaki-islemlere-suc-duyurusu-pasifik-gyo-incelemesinde-71-milyon-tl-ceza",
+     "primary": false
+    },
+    {
+     "t": "CNBC-e: Pasifik GYO (PSGYO) paylarında 71 milyon TL'lik SPK cezası: 8 ayrı yaptırım kararı (26 Kasım 2026)",
+     "te": "CNBC-e: 71 million TL CMB fine over Pasifik GYO (PSGYO) shares: 8 separate sanctions (26 November 2026)",
+     "u": "https://www.cnbce.com/borsa/pasifik-gyo-psgyo-paylarinda-71-milyon-tllik-spk-cezasi-8-ayri-yaptirim-karari-h42645",
+     "primary": false
+    }
+   ]
+  }
+ ],
+ "SMRVA": [
+  {
+   "k": "trustee",
+   "sev": "out",
+   "date": "2026-11-24",
+   "until": null,
+   "per": null,
+   "tr": "İstanbul 6. Sulh Ceza Hakimliğinin 24 Kasım 2026 tarihli ve 2026/11489 D. İş sayılı kararıyla Sümer Varlık Yönetim'e TMSF kayyum olarak atandı; Fon Kurulu yeni yönetim kurulunu belirledi. Şirket kararı 25 Kasım 2026'da KAP'a bildirdi; açıklamada gerekçe yazmıyor.",
+   "en": "By decision 2026/11489 D. İş of the Istanbul 6th Criminal Judgeship of Peace dated 24 November 2026, the TMSF was appointed trustee of Sümer Varlık Yönetim and the Fund Board named a new board of directors. The company disclosed this on KAP on 25 November 2026; the disclosure gives no reason.",
+   "sources": [
+    {
+     "t": "Anadolu Ajansı: Sümer Varlık Yönetim'e TMSF kayyum olarak atandı (25 Kasım 2026)",
+     "te": "Anadolu Agency: TMSF appointed trustee of Sümer Varlık Yönetim (25 November 2026)",
+     "u": "https://www.aa.com.tr/tr/ekonomi/sumer-varlik-yonetime-tmsf-kayyum-olarak-atandi/4137806",
+     "primary": false
+    },
+    {
+     "t": "Paratic: Sümer Varlık Yönetim'e (SMRVA) TMSF kayyım olarak atandı (25 Kasım 2026)",
+     "te": "Paratic: TMSF appointed trustee of Sümer Varlık Yönetim (SMRVA) (25 November 2026)",
+     "u": "https://paratic.com/sumer-varlik-yonetime-smrva-tmsf-kayyim-olarak-atandi/",
+     "primary": false
+    },
+    {
+     "t": "Endeks24: Sümer Varlık Yönetim'in (SMRVA) kayyımı TMSF oldu, yeni yönetim belli (25 Kasım 2026)",
+     "te": "Endeks24: TMSF becomes trustee of Sümer Varlık Yönetim (SMRVA), new board named (25 November 2026)",
+     "u": "https://www.endeks24.com/sumer-varlik-yonetim-in-smrva-kayyimi-tmsf-oldu-yeni-yonetim-belli",
+     "primary": false
+    }
+   ]
+  },
+  {
+   "k": "manip",
+   "sev": "out",
+   "date": "2026-11-25",
+   "until": "2027-11-25",
+   "per": null,
+   "tr": "SPK 25 Kasım 2026 tarihli 2026/85 sayılı bülteninde Sümer Varlık Yönetim paylarındaki işlemler için 41 kişi hakkında suç duyurusunda bulundu ve 2 yıl işlem yasağı getirdi. Tera Yatırım Bankası ile Tera Portföy'ün kendi hesaplarına SMRVA işlemleri de 2 yıl yasaklandı. Haberlerde bu kişilerin şirketle bağı yazmıyor; bülten doğrudan okunamadı.",
+   "en": "In its bulletin 2026/85 of 25 November 2026 the CMB filed criminal complaints against 41 people over trading in Sümer Varlık Yönetim shares and imposed 2-year trading bans. Tera Yatırım Bankası and Tera Portföy were also barred for 2 years from trading SMRVA for their own account. The reports do not state any tie between these people and the company; the bulletin itself could not be opened.",
+   "sources": [
+    {
+     "t": "Endeks24: SPK, KUYAS, SMRVA ve SVGYO'da suç duyurusu ve 2 yıl yasak kararı aldı (26 Kasım 2026)",
+     "te": "Endeks24: CMB files criminal complaints and 2-year bans over KUYAS, SMRVA and SVGYO (26 November 2026)",
+     "u": "https://www.endeks24.com/spk-kuyas-smrva-ve-svgyo-da-suc-duyurusu-ve-2-yil-yasak-karari-aldi",
+     "primary": false
+    },
+    {
+     "t": "Ekotürk: SPK'dan üç paydaki işlemlere suç duyurusu, Pasifik GYO incelemesinde 71 milyon TL ceza (26 Kasım 2026)",
+     "te": "Ekotürk: CMB criminal complaints over trading in three shares, 71 million TL fine in Pasifik GYO review (26 November 2026)",
+     "u": "https://www.ekoturk.com/borsa/spkdan-uc-paydaki-islemlere-suc-duyurusu-pasifik-gyo-incelemesinde-71-milyon-tl-ceza",
+     "primary": false
+    },
+    {
+     "t": "CNBC-e: Pasifik GYO (PSGYO) paylarında 71 milyon TL'lik SPK cezası: 8 ayrı yaptırım kararı (26 Kasım 2026)",
+     "te": "CNBC-e: 71 million TL CMB fine over Pasifik GYO (PSGYO) shares: 8 separate sanctions (26 November 2026)",
+     "u": "https://www.cnbce.com/borsa/pasifik-gyo-psgyo-paylarinda-71-milyon-tllik-spk-cezasi-8-ayri-yaptirim-karari-h42645",
+     "primary": false
+    }
+   ]
+  }
+ ],
+ "PSGYO": [
+  {
+   "k": "sanction",
+   "sev": "out",
+   "date": "2026-11-25",
+   "until": null,
+   "per": null,
+   "tr": "SPK 25 Kasım 2026 tarihli 2026/85 sayılı bülteninde Pasifik GYO paylarında onaylı pay satış bilgi formu yükümlülüğünün dolanılması nedeniyle sekiz kayıtta toplam 71.026.384,56 TL idari para cezası verdi (her biri 8.878.298,07 TL): Mehmet Erdoğan, Fatih Erdoğan, Abdulkerim Fırat, Bulls Yatırım, Bulls Portföy, Pardus Portföy ve iki kez Pusula Portföy. Milli Gazete'ye göre Fırat Pasifik GYO yönetim kurulu başkanvekili, Fatih Erdoğan Pasifik Holding yönetim kurulu başkanı, Mehmet Erdoğan holding yönetim kurulu üyesidir. Şirketin tüzel kişiliğine ceza yok; bülten doğrudan okunamadı.",
+   "en": "In its bulletin 2026/85 of 25 November 2026 the CMB imposed administrative fines totalling 71,026,384.56 TL in eight entries (8,878,298.07 TL each) for circumventing the approved share sale information form requirement in Pasifik GYO shares: Mehmet Erdoğan, Fatih Erdoğan, Abdulkerim Fırat, Bulls Yatırım, Bulls Portföy, Pardus Portföy and Pusula Portföy twice. According to Milli Gazete, Fırat is deputy chairman of Pasifik GYO, Fatih Erdoğan is chairman of Pasifik Holding and Mehmet Erdoğan is a holding board member. The company itself was not fined; the bulletin itself could not be opened.",
+   "sources": [
+    {
+     "t": "CNBC-e: Pasifik GYO (PSGYO) paylarında 71 milyon TL'lik SPK cezası: 8 ayrı yaptırım kararı (26 Kasım 2026)",
+     "te": "CNBC-e: 71 million TL CMB fine over Pasifik GYO (PSGYO) shares: 8 separate sanctions (26 November 2026)",
+     "u": "https://www.cnbce.com/borsa/pasifik-gyo-psgyo-paylarinda-71-milyon-tllik-spk-cezasi-8-ayri-yaptirim-karari-h42645",
+     "primary": false
+    },
+    {
+     "t": "Ekotürk: SPK'dan üç paydaki işlemlere suç duyurusu, Pasifik GYO incelemesinde 71 milyon TL ceza (26 Kasım 2026)",
+     "te": "Ekotürk: CMB criminal complaints over trading in three shares, 71 million TL fine in Pasifik GYO review (26 November 2026)",
+     "u": "https://www.ekoturk.com/borsa/spkdan-uc-paydaki-islemlere-suc-duyurusu-pasifik-gyo-incelemesinde-71-milyon-tl-ceza",
+     "primary": false
+    },
+    {
+     "t": "Borsatek: Pasifik GYO paylarındaki işlemlere 71 milyon lira ceza (26 Kasım 2026)",
+     "te": "Borsatek: 71 million lira fine over Pasifik GYO share transactions (26 November 2026)",
+     "u": "https://www.borsatek.com/pasifik-gyo-spk-idari-para-cezasi-karari/",
+     "primary": false
+    },
+    {
+     "t": "Milli Gazete: Abdulkerim Fırat, Pasifik Holding ve Pasifik GYO'daki görevleri (1 Kasım 2026)",
+     "te": "Milli Gazete: Abdulkerim Fırat, roles at Pasifik Holding and Pasifik GYO (1 November 2026)",
+     "u": "https://www.milligazete.com.tr/abdulkerim-firat-serveti-ne-kadar-pasifik-holdingde-kac-hissesi-var",
+     "primary": false
+    }
+   ]
+  }
+ ],
+ "TKNKA": [
+  {
+   "k": "measure",
+   "sev": "warn",
+   "date": "2026-11-26",
+   "until": "2026-12-25",
+   "per": null,
+   "tr": "Borsa İstanbul VBTS kapsamında Teknika Plastik paylarında açığa satış ve kredili işlem yasağı uygulanıyor; tedbir 26 Kasım 2026 seans başından 25 Aralık 2026 seans sonuna kadar sürer.",
+   "en": "Under Borsa Istanbul's VBTS, Teknika Plastik shares are under a short-selling and margin-trading ban from the start of the session on 26 November 2026 to the end of the session on 25 December 2026.",
+   "sources": [
+    {
+     "t": "CNBC-e: Borsa İstanbul'dan 3 hisseye işlem yasağı (25 Kasım 2026)",
+     "te": "CNBC-e: Borsa Istanbul trading ban on 3 shares (25 November 2026)",
+     "u": "https://www.cnbce.com/borsa/borsa-istanbuldan-3-hisseye-islem-yasagi-1-ay-boyunca-uygulanacak-iste-o-hisseler-h42633",
+     "primary": false
+    },
+    {
+     "t": "Borsa Gündem: Borsa İstanbul'dan 4 hisseye tedbir kararı (25 Kasım 2026)",
+     "te": "Borsa Gündem: Borsa Istanbul measures on 4 shares (25 November 2026)",
+     "u": "https://www.borsagundem.com.tr/borsa-istanbuldan-4-hisseye-tedbir-karari-24",
+     "primary": false
+    }
+   ]
+  }
+ ],
+ "SKYLP": [
+  {
+   "k": "measure",
+   "sev": "warn",
+   "date": "2026-11-26",
+   "until": "2026-12-25",
+   "per": null,
+   "tr": "Borsa İstanbul VBTS kapsamında Skyalp paylarında emir paketi tedbiri uygulanıyor; tedbir 26 Kasım 2026 seans başından 25 Aralık 2026 seans sonuna kadar sürer.",
+   "en": "Under Borsa Istanbul's VBTS, Skyalp shares are under the order-package measure from the start of the session on 26 November 2026 to the end of the session on 25 December 2026.",
+   "sources": [
+    {
+     "t": "Borsa Gündem: Borsa İstanbul'dan 4 hisseye tedbir kararı (25 Kasım 2026)",
+     "te": "Borsa Gündem: Borsa Istanbul measures on 4 shares (25 November 2026)",
+     "u": "https://www.borsagundem.com.tr/borsa-istanbuldan-4-hisseye-tedbir-karari-24",
      "primary": false
     }
    ]
