@@ -88,3 +88,12 @@ Bu dosyaya kural önerisi değil, gözlem yazılır: tarih, ne görüldü, hangi
 - Borsa İstanbul (26 Kasım-25 Aralık 2026): TKNKA, PASEU, SELEC açığa satış ve kredili işlem yasağı; SKYLP emir paketi. Dördüne uyarı yazıldı.
 - Yeni bayrakların hiçbiri mercekteki bir şirkete denk gelmedi; sayılar değişmedi.
 - Özel durumlar: 2026/85'te pay alım teklifi onayı yok. Emlak Katılım, Katılımevim'in (KTLEV) %65,67'sini devraldı ve zorunlu pay alım teklifinden muaf tutuldu (II-26.1, md. 18/1-a): teklif olmayacak, kayıt açılmadı. KARTN, SEGMN, HKTM, PRZMA, ALCAR, BIOEN için yeni karar görülmedi.
+
+## 27 Kasım 2026: günlük iş
+
+- Yeni veri yok (son toplama 24 Kasım; sıradaki cumartesi 28 Kasım). Okunmamış şirket yok; sayılar değişmedi: net-net 3, Graham 9, kâr verimi 58, en az bir mercek 64, bayrakla çıkan 27. Görev metni hâlâ eski "İş A: yeni ülke ekle" başlığını anıyor; kılavuzdaki günlük iş uygulandı.
+- SPK: 2026 bülten sayfasında en yeni bülten hâlâ 2026/85 (25 Kasım); 2026/86 yayımlanmamış. Yeni ceza, suç duyurusu ya da pay alım teklifi onayı yok.
+- Borsa İstanbul: 26-27 Kasım'da duyurulmuş yeni tedbir bulunamadı. Haberlerde geçen kararların hepsi (18 Kasım PEKGY; 19 Kasım ANELE, MANAS, GUNDG; 20 Kasım KLSYN, BIGEN, DSTKF; 23 Kasım ALKLC, IEYHO, OZATD, SEGYO, TEHOL; 24 Kasım MAGEN, LYDYE, ISVEA, BULGS, IHLGM, IHEVA; 25 Kasım SVGYO, DUNYH, LYDHO, ODINE, KARCL, IDGYO, DOGUB; 26 Kasım TKNKA, PASEU, SELEC, SKYLP) kayıtlı. borsamatik.com.tr sayfaları açılmadı.
+- Kayyum: yeni borsa şirketi yok (Sümer Varlık = SMRVA, 26 Kasım'da yazıldı).
+- Özel durumlar: yeni kayıt yok. ALCAR (Rekabet onayı 13 Kasım, kapanış en geç 7 Şubat 2027, teklif fiyatı belli değil) ve BIOEN (23 Kasım SPK başvurusu, ayrılma hakkı 17,52 TL) kayıtları güncel. ANELE, Anel Holding ve Anelyapı Gayrimenkul'ü kolaylaştırılmış usulde devralmak için 25 Kasım'da SPK'ya başvurdu (Borsa Gündem, 26 Kasım); fiyat ya da ayrılma hakkı bilgisi yok, kayıt açılmadı (ANELE zaten manipülasyon bayrağıyla dışarıda). KARTN, SEGMN, HKTM, PRZMA için yeni karar görülmedi.
+- Faiz: değişmedi (sonraki PPK 10 Aralık 2026; Kasım TÜFE 3 Aralık'ta).
