@@ -1,6 +1,6 @@
 {
  "cc": "TR",
- "fetched": "2026-11-24T10:12:11Z",
+ "fetched": "2026-11-28T02:54:00Z",
  "errors": [],
  "source": "İş Yatırım: temel değerler ve oranlar",
  "market": "turkey",
@@ -9,64 +9,64 @@
  "excluded": {},
  "cur": "TRY",
  "pcur": "TRY",
- "price_date": "2026-11-23",
+ "price_date": "2026-11-27",
  "periods": {
-  "9/2026": 591,
-  "6/2026": 30,
+  "9/2026": 592,
+  "6/2026": 29,
   "3/2026": 8
  },
- "implied_fx": 50.603,
- "pe_filled_pct": 45.3,
+ "implied_fx": 50.696,
+ "pe_filled_pct": 45.6,
  "top5": [
   {
    "c": "ASELS",
    "n": "Aselsan",
-   "p": 325.5,
-   "m": 1484280.0,
-   "pe": 30.5,
-   "pb": 4.4,
+   "p": 332.0,
+   "m": 1513920.0,
+   "pe": 31.2,
+   "pb": 4.5,
    "per": "9/2026"
   },
   {
    "c": "QNBTR",
    "n": "QNB Bank",
-   "p": 139.1,
-   "m": 765050.0,
-   "pe": 13.3,
-   "pb": 3.6,
+   "p": 137.1,
+   "m": 754050.0,
+   "pe": 13.1,
+   "pb": 3.5,
    "per": "9/2026"
   },
   {
    "c": "TUPRS",
    "n": "Tüpraş",
-   "p": 324.0,
-   "m": 624281.8,
-   "pe": 4.8,
+   "p": 330.0,
+   "m": 635842.5,
+   "pe": 4.9,
    "pb": 1.2,
    "per": "9/2026"
   },
   {
    "c": "GARAN",
    "n": "Garanti Bankası",
-   "p": 145.7,
-   "m": 611940.0,
-   "pe": 4.9,
-   "pb": 1.2,
+   "p": 138.1,
+   "m": 580020.0,
+   "pe": 4.7,
+   "pb": 1.1,
    "per": "9/2026"
   },
   {
-   "c": "KCHOL",
-   "n": "Koç Holding",
-   "p": 190.9,
-   "m": 484102.9,
-   "pe": 7.4,
-   "pb": 0.6,
+   "c": "ENPRA",
+   "n": "Enpara",
+   "p": 38.54,
+   "m": 480797.7,
+   "pe": null,
+   "pb": 19.1,
    "per": "9/2026"
   }
  ],
  "fin": {
-  "have": 580,
-  "fetched": 580,
+  "have": 581,
+  "fetched": 2,
   "failed": [
    [
     "DOCO",
@@ -75,16 +75,12 @@
    [
     "KTLEV",
     "RuntimeError('boş yanıt')"
-   ],
-   [
-    "KRONT",
-    "ConnectionError(ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))"
    ]
   ],
-  "failed_n": 3
+  "failed_n": 2
  },
  "fin_sample": {
-  "ASELS": [
+  "KRONT": [
    [
     "1A",
     "Dönen Varlıklar"
@@ -674,7 +670,7 @@
     "Dönem Sonu Nakit"
    ]
   ],
-  "TUPRS": [
+  "ATSYH": [
    [
     "1A",
     "Dönen Varlıklar"

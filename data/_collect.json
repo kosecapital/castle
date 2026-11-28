@@ -1,8 +1,19 @@
 {
- "when": "2026-11-27T23:26:13Z",
+ "when": "2026-11-28T02:54:57Z",
  "args": [
-  "--new",
-  "2"
+  "--refresh"
  ],
- "results": []
+ "results": [
+  {
+   "cc": "TR",
+   "ok": true,
+   "fetched": "2026-11-28T02:54:00Z",
+   "n": 629,
+   "candidates": null,
+   "pages": null,
+   "missing": null,
+   "blocked": null,
+   "errors": []
+  }
+ ]
 }

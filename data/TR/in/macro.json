@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-24T10:12:13Z",
+ "fetched": "2026-11-28T02:54:02Z",
  "cur": "TRY",
  "pcur": "TRY",
  "years": [
@@ -9,7 +9,7 @@
   "2024",
   "2025"
  ],
- "fx": 50.6239,
+ "fx": 50.7464,
  "mcapMin": 3000,
  "cpi_cur": 29.77,
  "cpi_cur_src": "TradingView ECONOMICS:TRIRYY (son açıklanan yıllık TÜFE)",
@@ -28,7 +28,7 @@
   "2025": "Dünya Bankası FP.CPI.TOTL.ZG (yıllık ortalama)"
  },
  "rates": {
-  "y10": 33.59,
+  "y10": 34.97,
   "y10_src": "TradingView TVC:TR10Y (global)",
   "policy": 36,
   "policy_src": "TradingView ECONOMICS:TRINTR"
