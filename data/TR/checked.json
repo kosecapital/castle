@@ -940,5 +940,23 @@
   "tr": "9 aylık vergi öncesi kâr 42,3 milyon TL, net kâr 14,8 milyon TL; vergi gideri var, kârın bir kısmı net parasal pozisyon kazancı (51 milyon TL, tek seferlik sayılmaz). SPK ve borsa tedbiri bulunmadı.",
   "en": "Nine-month pretax profit was 42.3 million TL and net profit 14.8 million TL; there is a tax expense, and part of profit is the net monetary gain (51 million TL, not one-off). No SPK or exchange measure was found.",
   "note": "Net-net check: current assets 2.74 bn TL of which inventories 2.04 bn TL (carpets), about 3.5 years of sales at the 9M run-rate (439.5 m TL); cash 224 m, trade receivables 309 m; related-party receivables only ~90 m (Artemis Export, Acme Export). NCAV depends heavily on inventory value. Operating cash flow -355 m TL in 9M."
+ },
+ "SUNTK": {
+  "date": "2026-11-28",
+  "per": "9/2026",
+  "tr": "Dokuz aylık kâr rakamları, 6/2026 sınırlı denetim raporu ve dipnotları okundu: sınırlı denetim sonucu olumlu, süreklilik notu, SPK yaptırımı ya da borsa tedbiri bulunmadı; altı ayda 302 milyon TL menkul kıymet satış kârı var (önceki yıl 301 milyon TL, yinelenen kalem); dokuz aylık yatırım geliri dökümü ve 2025 denetçi raporunun metni açılamadı.",
+  "en": "Read the nine-month profit figures and the 6/2026 review report and notes: clean review conclusion, no going-concern note, CMB sanction or exchange measure found; the half-year includes a 302 million TL gain on securities sales (301 million TL a year earlier, a recurring item); the nine-month investment income breakdown and the text of the 2025 auditor's report could not be opened."
+ },
+ "SOHOE": {
+  "date": "2026-11-28",
+  "per": "9/2026",
+  "tr": "Dokuz aylık kâr haberleri, 6/2026 sınırlı denetim raporu ve dipnotları ile halka arz belgeleri (Temmuz 2026) okundu: şartlı görüş, tek seferlik büyük kazanç, ilişkili taraf alacağı ya da yaptırım bulunmadı; 6/2026 dipnotuna göre ana ortak ve grup şirketleri lehine yaklaşık 2,0 milyar TL teminat verilmiş; dokuz aylık dipnotlar açılamadı.",
+  "en": "Read the nine-month profit reports, the 6/2026 review report and notes, and the IPO documents (July 2026): no qualified opinion, large one-off gain, related-party receivable or sanction found; per the 6/2026 notes about 2.0 billion TL of guarantees are given in favour of the parent and group companies; the nine-month notes could not be opened."
+ },
+ "IHLGM": {
+  "date": "2026-11-28",
+  "per": "9/2026",
+  "tr": "9/2026 finansal tabloları, 2025 denetçi raporu ve ilişkili taraf dipnotları okundu: 2025 görüşü olumlu, süreklilik notu yok; tek seferlik kazanç, SPK yaptırımı ya da gruba para aktarımı bulunmadı. Dokuz aylık 515 milyon TL kârın tamamı net parasal pozisyon kazancından (813 milyon TL) geliyor, esas faaliyet 254 milyon TL zararda, İhlas Holding'e 1,13 milyar TL borç var; 6/2026 sınırlı denetim raporu açılamadı.",
+  "en": "Read the 9/2026 financial statements, the 2025 auditor's report and the related-party notes: the 2025 opinion is unqualified with no going-concern note; no one-off gain, CMB sanction or transfer of funds to the group found. The nine-month profit of 515 million TL comes entirely from the net monetary position gain (813 million TL), operations lost 254 million TL and 1.13 billion TL is owed to İhlas Holding; the 6/2026 review report could not be opened."
  }
 }

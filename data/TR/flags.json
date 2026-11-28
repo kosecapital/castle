@@ -1590,6 +1590,29 @@
     }
    ],
    "sev": "warn"
+  },
+  {
+   "k": "manip",
+   "sev": "out",
+   "date": "2026-11-27",
+   "until": "2027-11-27",
+   "per": null,
+   "tr": "SPK 27 Kasım 2026 tarihli 2026/86 sayılı bülteninde Birleşim Grup Enerji paylarındaki işlemler için 58 kayıtta suç duyurusunda bulundu ve 62 kayıtta 2 yıl işlem yasağı getirdi. Haberlerde bu kişilerin şirketle bağı yazmıyor; bülten doğrudan okunmadı.",
+   "en": "In its bulletin 2026/86 of 27 November 2026 the CMB filed criminal complaints in 58 entries over trading in Birleşim Grup Enerji shares and imposed 2-year trading bans in 62 entries. The reports do not state any tie between these people and the company; the bulletin itself was not read.",
+   "sources": [
+    {
+     "t": "Endeks24: SPK, kapalı 26 fonun 30 Kasım'da yeniden işleme açılmasına izin verdi (SPK bülteni 2026/86 özeti, 28 Kasım 2026)",
+     "te": "Endeks24: summary of CMB bulletin 2026/86 (28 November 2026)",
+     "u": "https://www.endeks24.com/spk-kapali-26-fonun-30-kasim-da-yeniden-isleme-acilmasina-izin-verdi",
+     "primary": false
+    },
+    {
+     "t": "Cumhuriyet: SPK yeni bültenini yayımladı: 167 kişiye suç duyurusu (28 Kasım 2026)",
+     "te": "Cumhuriyet: CMB publishes new bulletin, criminal complaints against 167 people (28 November 2026)",
+     "u": "https://www.cumhuriyet.com.tr/ekonomi/spk-yeni-bultenini-yayimladi-167-kisiye-suc-duyurusu-milyonlarca-liralik-para-cezalari-2560083",
+     "primary": false
+    }
+   ]
   }
  ],
  "KLSYN": [
@@ -2989,6 +3012,129 @@
      "t": "Borsa Gündem: Borsa İstanbul'dan 4 hisseye tedbir kararı (25 Kasım 2026)",
      "te": "Borsa Gündem: Borsa Istanbul measures on 4 shares (25 November 2026)",
      "u": "https://www.borsagundem.com.tr/borsa-istanbuldan-4-hisseye-tedbir-karari-24",
+     "primary": false
+    }
+   ]
+  },
+  {
+   "k": "manip",
+   "sev": "out",
+   "date": "2026-11-27",
+   "until": "2027-11-27",
+   "per": null,
+   "tr": "SPK 27 Kasım 2026 tarihli 2026/86 sayılı bülteninde Skyalp Finansal Teknolojiler paylarındaki işlemler için 14 kayıtta suç duyurusunda bulundu ve 14 kayıtta 2 yıl işlem yasağı getirdi. Haberlerde bu kişilerin şirketle bağı yazmıyor; bülten doğrudan okunmadı.",
+   "en": "In its bulletin 2026/86 of 27 November 2026 the CMB filed criminal complaints in 14 entries over trading in Skyalp Finansal Teknolojiler shares and imposed 2-year trading bans in 14 entries. The reports do not state any tie between these people and the company; the bulletin itself was not read.",
+   "sources": [
+    {
+     "t": "Endeks24: SPK, kapalı 26 fonun 30 Kasım'da yeniden işleme açılmasına izin verdi (SPK bülteni 2026/86 özeti, 28 Kasım 2026)",
+     "te": "Endeks24: summary of CMB bulletin 2026/86 (28 November 2026)",
+     "u": "https://www.endeks24.com/spk-kapali-26-fonun-30-kasim-da-yeniden-isleme-acilmasina-izin-verdi",
+     "primary": false
+    },
+    {
+     "t": "Cumhuriyet: SPK yeni bültenini yayımladı: 167 kişiye suç duyurusu (28 Kasım 2026)",
+     "te": "Cumhuriyet: CMB publishes new bulletin, criminal complaints against 167 people (28 November 2026)",
+     "u": "https://www.cumhuriyet.com.tr/ekonomi/spk-yeni-bultenini-yayimladi-167-kisiye-suc-duyurusu-milyonlarca-liralik-para-cezalari-2560083",
+     "primary": false
+    }
+   ]
+  }
+ ],
+ "BRKVY": [
+  {
+   "k": "trustee",
+   "sev": "out",
+   "date": "2026-11-26",
+   "until": null,
+   "per": null,
+   "tr": "İstanbul 6. Sulh Ceza Hakimliği'nin 26 Kasım 2026 tarihli kararıyla Birikim Varlık Yönetim'e TMSF kayyum olarak atandı; şirket bunu 27 Kasım 2026'da KAP'a bildirdi. Haberlerde gerekçe yazmıyor.",
+   "en": "By a decision of the Istanbul 6th Criminal Judgeship of Peace dated 26 November 2026, the TMSF was appointed trustee of Birikim Varlık Yönetim; the company disclosed this on KAP on 27 November 2026. The reports give no reason.",
+   "sources": [
+    {
+     "t": "Borsa Gündem: TMSF, Birikim Varlık Yönetim, Sümer Faktoring ve Ak Faktoring'e kayyım olarak atandı (27 Kasım 2026)",
+     "te": "Borsa Gündem: TMSF appointed trustee of Birikim Varlık Yönetim, Sümer Faktoring and Ak Faktoring (27 November 2026)",
+     "u": "https://www.borsavegundem.com/haber/tmsf-birikim-varlik-yonetim-sumer-faktoring-ve-ak-faktoringe-kayyim-olarak-atandi-1916223",
+     "primary": false
+    },
+    {
+     "t": "Rota Borsa: Borsa İstanbul'da işlem gören bir şirkete daha kayyum atandı (27 Kasım 2026)",
+     "te": "Rota Borsa: trustee appointed to another Borsa Istanbul company (27 November 2026)",
+     "u": "https://rotaborsa.com/borsa-istanbulda-islem-goren-bir-sirkete-daha-kayyum-atandi/",
+     "primary": false
+    }
+   ]
+  }
+ ],
+ "LIDER": [
+  {
+   "k": "measure",
+   "sev": "warn",
+   "date": "2026-11-30",
+   "until": "2026-12-29",
+   "per": null,
+   "tr": "Borsa İstanbul VBTS kapsamında LDR Turizm paylarında açığa satış ve kredili işlem yasağı uyguluyor; tedbir 30 Kasım 2026'da başlar, 29 Aralık 2026 seans sonuna kadar sürer.",
+   "en": "Under Borsa Istanbul's VBTS, LDR Turizm shares are under a short-selling and margin-trading ban; the measure starts on 30 November 2026 and runs until the end of the session on 29 December 2026.",
+   "sources": [
+    {
+     "t": "CNBC-e: Borsa İstanbul'dan iki hisseye tedbir: açığa satış ve kredili işlem yasağı (27 Kasım 2026)",
+     "te": "CNBC-e: Borsa Istanbul measures on two shares (27 November 2026)",
+     "u": "https://www.cnbce.com/borsa/borsa-istanbuldan-iki-hisseye-tedbir-aciga-satis-ve-kredili-islem-yasagi-h42811",
+     "primary": false
+    },
+    {
+     "t": "Ekotürk: Borsa İstanbul'dan altı paya tedbir: dört hissede brüt takas uygulanacak (27 Kasım 2026)",
+     "te": "Ekotürk: Borsa Istanbul measures on six shares (27 November 2026)",
+     "u": "https://www.ekoturk.com/borsa/borsa-istanbuldan-alti-paya-tedbir-dort-hissede-brut-takas-uygulanacak",
+     "primary": false
+    }
+   ]
+  }
+ ],
+ "AHGAZ": [
+  {
+   "k": "sanction",
+   "sev": "out",
+   "date": "2026-11-27",
+   "until": null,
+   "per": null,
+   "tr": "SPK 27 Kasım 2026 tarihli 2026/86 sayılı bülteninde Ahlatcı Doğal Gaz'a ve iki kişiye, halka arz gelirinin kullanımına ilişkin denetim komitesi raporu ilan edilmediği için ayrı ayrı 246.511,47 TL idari para cezası verdi. Haberlerde iki kişinin adı ve rolü yazmıyor; bülten doğrudan okunmadı.",
+   "en": "In its bulletin 2026/86 of 27 November 2026 the CMB fined Ahlatcı Doğal Gaz and two individuals 246,511.47 TL each because the audit committee report on the use of IPO proceeds was not published. The reports do not give the two individuals' names or roles; the bulletin itself was not read.",
+   "sources": [
+    {
+     "t": "Endeks24: SPK, kapalı 26 fonun 30 Kasım'da yeniden işleme açılmasına izin verdi (SPK bülteni 2026/86 özeti, 28 Kasım 2026)",
+     "te": "Endeks24: summary of CMB bulletin 2026/86 (28 November 2026)",
+     "u": "https://www.endeks24.com/spk-kapali-26-fonun-30-kasim-da-yeniden-isleme-acilmasina-izin-verdi",
+     "primary": false
+    },
+    {
+     "t": "Cumhuriyet: SPK yeni bültenini yayımladı: 167 kişiye suç duyurusu (28 Kasım 2026)",
+     "te": "Cumhuriyet: CMB publishes new bulletin, criminal complaints against 167 people (28 November 2026)",
+     "u": "https://www.cumhuriyet.com.tr/ekonomi/spk-yeni-bultenini-yayimladi-167-kisiye-suc-duyurusu-milyonlarca-liralik-para-cezalari-2560083",
+     "primary": false
+    }
+   ]
+  }
+ ],
+ "AKYHO": [
+  {
+   "k": "sanction",
+   "sev": "out",
+   "date": "2026-11-27",
+   "until": null,
+   "per": null,
+   "tr": "SPK 27 Kasım 2026 tarihli 2026/86 sayılı bülteninde Akdeniz Yatırım Holding'e özel durum açıklaması yükümlülüğü nedeniyle 1.335.730,47 TL idari para cezası verdi. Haberlerde ayrıntı yazmıyor; bülten doğrudan okunmadı.",
+   "en": "In its bulletin 2026/86 of 27 November 2026 the CMB fined Akdeniz Yatırım Holding 1,335,730.47 TL over its material-event disclosure obligations. The reports give no further detail; the bulletin itself was not read.",
+   "sources": [
+    {
+     "t": "Endeks24: SPK, kapalı 26 fonun 30 Kasım'da yeniden işleme açılmasına izin verdi (SPK bülteni 2026/86 özeti, 28 Kasım 2026)",
+     "te": "Endeks24: summary of CMB bulletin 2026/86 (28 November 2026)",
+     "u": "https://www.endeks24.com/spk-kapali-26-fonun-30-kasim-da-yeniden-isleme-acilmasina-izin-verdi",
+     "primary": false
+    },
+    {
+     "t": "Cumhuriyet: SPK yeni bültenini yayımladı: 167 kişiye suç duyurusu (28 Kasım 2026)",
+     "te": "Cumhuriyet: CMB publishes new bulletin, criminal complaints against 167 people (28 November 2026)",
+     "u": "https://www.cumhuriyet.com.tr/ekonomi/spk-yeni-bultenini-yayimladi-167-kisiye-suc-duyurusu-milyonlarca-liralik-para-cezalari-2560083",
      "primary": false
     }
    ]

@@ -5,8 +5,8 @@
  "market": "turkey",
  "exchange": "Borsa İstanbul",
  "cur": "TL",
- "asof": "2026-11-23",
- "fx": 50.6239,
+ "asof": "2026-11-27",
+ "fx": 50.7464,
  "years": [
   "2021",
   "2022",
@@ -110,9 +110,9 @@
   "current_from": "2024",
   "note": "İş Yatırım mali tablolarında 2024 ve 2025 yıllık rakamları son bilanço döneminin parasıyla (yeniden değerlenmiş) geliyor: 579 şirketin 577'sinde yuvarlak değil; TUPRS'ta 2025 sonu özsermayesi 452,6 milyar TL, Eylül 2026'da 522,9 milyar TL, aradaki fark dokuz aylık kâr eksi temettüyle tutuyor. 2023 ve öncesi açıklandığı gibi (THYAO 2023: 163.003 milyon TL, yuvarlak). 24 Kasım 2026'da görüldü."
  },
- "accepted": "2026-11-24",
+ "accepted": "2026-11-28",
  "rates_in": {
-  "y10": 33.59,
+  "y10": 34.97,
   "y10_src": "TradingView TVC:TR10Y (global)",
   "policy": 36,
   "policy_src": "TradingView ECONOMICS:TRINTR"
