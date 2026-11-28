@@ -3139,5 +3139,36 @@
     }
    ]
   }
+ ],
+ "DNYVA": [
+  {
+   "k": "trustee",
+   "sev": "out",
+   "date": "2026-11-17",
+   "until": null,
+   "per": null,
+   "tr": "İstanbul 4. Sulh Ceza Hakimliği'nin 14 Kasım 2026 tarihli kararı (2026/11462 D. İş) ve Fon Kurulu'nun 17 Kasım 2026 tarihli 2026/793 sayılı kararıyla Dünya Varlık Yönetim'e TMSF kayyum olarak atandı; şirket bunu 19 Kasım 2026'da KAP'a bildirdi. Haberlere göre karar \"Fon soruşturması\" kapsamında alındı.",
+   "en": "By a decision of the Istanbul 4th Criminal Judgeship of Peace dated 14 November 2026 (2026/11462 D. İş) and Fund Board decision 2026/793 of 17 November 2026, the TMSF was appointed trustee of Dünya Varlık Yönetim; the company disclosed this on KAP on 19 November 2026. According to the reports, the decision was taken as part of the \"Fund investigation\".",
+   "sources": [
+    {
+     "t": "Hisse.net: Dünya Varlık'tan (DNYVA) kayyum açıklaması geldi (19 Kasım 2026)",
+     "te": "Hisse.net: trustee statement from Dünya Varlık (DNYVA) (19 November 2026)",
+     "u": "https://www.hisse.net/haber/dunya-varlik-tan-dnyva-kayyum-aciklamasi-geldi-107929",
+     "primary": false
+    },
+    {
+     "t": "Uzmanpara (AA): TMSF, Dünya Varlık Yönetim AŞ'ye kayyum olarak atandı (19 Kasım 2026)",
+     "te": "Uzmanpara (AA): TMSF appointed trustee of Dünya Varlık Yönetim AŞ (19 November 2026)",
+     "u": "https://uzmanpara.milliyet.com.tr/uzmanpara/tmsf-dunya-varlik-yonetim-asye-kayyum-olarak-atandi-7703929",
+     "primary": false
+    },
+    {
+     "t": "Bloomberg HT: Fon soruşturmasında dört şirkete TMSF kayyımı (17 Kasım 2026)",
+     "te": "Bloomberg HT: TMSF trustee for four companies in the fund investigation (17 November 2026)",
+     "u": "https://bloomberght.com/fon-sorusturmasinda-dort-sirkete-tmsf-kayyimi-3794897",
+     "primary": false
+    }
+   ]
+  }
  ]
 }

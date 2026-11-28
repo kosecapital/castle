@@ -108,3 +108,10 @@ Bu dosyaya kural önerisi değil, gözlem yazılır: tarih, ne görüldü, hangi
 - Yeni bayrakların hiçbiri mercekteki bir şirkete denk gelmedi.
 - Özel durumlar: 2026/86'da pay alım teklifi, birleşme ya da ayrılma hakkı onayı yok (BJKAS'ta kulübün %9'luk pay satış bilgi formu onaylandı; özel durum değil). KARTN, SEGMN, HKTM, PRZMA, ALCAR, BIOEN için yeni karar görülmedi.
 - Faiz: değişmedi (Kasım TÜFE 3 Aralık, PPK 10 Aralık).
+
+## 28 Kasım 2026: ikinci çalıştırma (haftalık görev)
+
+- Veri güncel (sabahki çalıştırma yerine aldı); okunmamış şirket yok. Sayılar değişmedi: net-net 3, Graham 9, kâr verimi 58, en az bir mercek 64. Görev metni hâlâ eski "İş B: haftalık yenileme" başlığını (npm install, geo.mjs, 50 rapor) anıyor; kılavuzdaki günlük iş uygulandı.
+- Gözden kaçmış kayyum: Dünya Varlık Yönetim'e (DNYVA) 14 Kasım (sulh ceza) ve 17 Kasım (Fon Kurulu) kararlarıyla TMSF kayyum, KAP bildirimi 19 Kasım. Bayrak yazıldı. DNYVA toplayıcının listesinde (universe.json) yok; mercek sayıları etkilenmedi. Aynı soruşturmada Adil Katılım Bankası, Adil Varlık Yönetim, Adil Tasarruf Finansman da var (pay kodları yok). Dünya Holding (DUNYH) ile bağ gösteren kaynak bulunmadı; bayrak yazılmadı.
+- TMSF 17 Kasım'da Alnus Yatırım, Altınbaş Holding, Altınbaş Kuyumculuk, Altınhas Holding ve Altınhas Yatırım Holding'i kayyum listesine ekledi (Bloomberg HT). Kaynaklarda pay kodu yok, Alnus listede (universe.json) de yok; bayrak yazılmadı.
+- Borsa İstanbul tedbiri, pay alım teklifi: sabahki kayıtlardan sonra yeni bir şey bulunmadı. Faiz değişmedi.
